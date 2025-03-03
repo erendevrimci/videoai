@@ -7,9 +7,12 @@ import json
 
 load_dotenv(override=True)
 
-topics_already_covered = json.load(open("science_topics_covered.json"))
+category = "ai"
+
+topics_already_covered = json.load(open(f"categories/{category}/topics_covered.json"))
 
 trending_context = open("context/grounding.txt", "r", encoding='utf-8').read()
+sub_category = open(f"categories/{category}/sub_category.txt", "r", encoding='utf-8').read()
 
 def generate_ideas():
 
@@ -20,16 +23,8 @@ def generate_ideas():
     \n\n
     {topics_already_covered}
     \n\n
-    Your task is to brainstrom super interesting FEAR BASED ideas about what can happen in near future in the topics below:
-    - AGI Breakthroughs
-    - Artificial Super Intelligence (ASI)
-    - Large Language Models (LLMs)
-    - The Singularity
-    - Existential Threats To Humanity
-    - The Insane Pace of Change in Society
-    - The Human Mind
-    - AI Major Labs Secrets
-    - The AI Arms Race
+    Your task is to brainstrom super interesting ideas about what can happen in near future in the topics below:
+    {sub_category}
 
      that are not already covered in the list above.
      \n\n
@@ -58,9 +53,9 @@ def generate_ideas():
 
 
     messages = [
-        {"role": "system", "content": """
+        {"role": "system", "content": f"""
         You are a brainstorming expert. 
-        You are tasked with brainstorming super interesting science / mystery / conspiracy ideas that are not already covered.
+        You are tasked with brainstorming super interesting {category} ideas that are not already covered.
         You are also tasked with making sure the ideas are super interesting and engaging idea for a youtube video.
         The realistic ideas should be focused on what could happen in a worse case scenario.
 
@@ -116,7 +111,7 @@ def generate_ideas():
         
         # Save to text file
         try:
-            with open('next_topics.txt', 'w', encoding='utf-8') as f:
+            with open(f'categories/{category}/next_topics.txt', 'w', encoding='utf-8') as f:
                 f.write(final_content)
             print("\nTopics saved to next_topics.txt")
         except Exception as e:

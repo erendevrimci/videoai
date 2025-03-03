@@ -43,7 +43,7 @@ def generate_subtitles(audio_file_path: str, output_srt_path: str) -> None:
 
 if __name__ == "__main__":
     # Path to the generated voice file (adjust if needed)
-    audio_file_path = "voice/generated_voice.mp3"
+    audio_file_path = "output_voice/generated_voice.mp3"
     # Output SRT file path
     output_srt_path = "generated_voice.srt"
     generate_subtitles(audio_file_path, output_srt_path)

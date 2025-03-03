@@ -9,8 +9,8 @@ from pydantic import BaseModel
 load_dotenv(override=True)
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-science_topics = open("next_topics.txt", "r", encoding='utf-8').read().split("\n")
+category = "ai"
+topics = open(f"categories/{category}/next_topics.txt", "r", encoding='utf-8').read().split("\n")
 
 amazing_script = open("amazing_script.txt", "r", encoding='utf-8').read()
 
@@ -63,7 +63,7 @@ def generate_youtube_script():
     </Your latest knowledge of AI landscape>
     \n\n
     <Topics>
-    {science_topics}
+    {topics}
     </Topics>
     \n\n
     <Latest News>
@@ -80,7 +80,7 @@ def generate_youtube_script():
     6. The script is for information and NOVEL Thoughts on the topic. NOT a story told to people. So dont use "Folks we got something" etc.
     7. USE QUOTES FROM THE  <Latest News> IF AVAILABLE.
     8. Give your NOVEL personal opinions on topics to try to understand and express to the viewer some new insights (In first person (I think, I believe, My thoughts are, etc))
-    9. AIM for 1000 - 2000 WORDS (IMPORTANT)
+    9. AIM for 200 - 300 WORDS (IMPORTANT)
     10. DONT USE OVER THE TOP CRINGE LANGUAGE like: 
         - "this will change the world forever"
         - "this is the most important thing that will ever happen"
@@ -101,7 +101,7 @@ def generate_youtube_script():
     Make it sound natural and engaging, focus on keeping peoples attention, building up tension and telling the latest news in an interesting way.
     MUST FOLLOW THE RULES (VERY IMPORTANT).
 
-    Write the 1000 - 2000 WORDS script in a text with ONLY the words the voice actor will read, integrate quotes where it fits well and bring your NOVEL take on the <Latest News>, while still telling the latest news. Start with "Elon Musk just broke the news that Grok 3 is coming on February 17th.". 
+    Write the 200 - 300 WORDS script in a text with ONLY the words the voice actor will read, integrate quotes where it fits well and bring your NOVEL take on the <Latest News>, while still telling the latest news. Start with "Elon Musk just broke the news that Grok 3 is coming on February 17th.". 
     """
 
 
@@ -123,7 +123,7 @@ def generate_youtube_script():
          ALWAYS have some of your NOVEL opinions and comments on the topic and  the <Latest News>.
          Use METAPHORICAL language to explain complex topics.
          We cant mention COVID-19, Coronavirus or Suicide in the script.
-         AIM for 1000 - 2000 WORDS (IMPORTANT)
+         AIM for 200 - 300 WORDS (IMPORTANT)
          DONT USE OVER THE TOP CRINGE LANGUAGE like: 
          - "this will change the world forever"
          - "this is the most important thing that will ever happen"
@@ -172,17 +172,30 @@ def extract_topic_from_script(script):
     {script}
     \n\n
     Extract the main topic and its description from this script above.
-    Return only the topic title and description in JSON format with fields 'topic' and 'description'."""
-    
+    Return only the topic title and description in JSON format with fields 'topic' and 'description'.
+    Example format:
+    {{"topic": "Topic Title", "description": "Brief description of the topic"}}
+    """
     response = model.generate_content(prompt)
     
-    response_text = response.text
+    response_text = response.text.strip()
     try:
-        import json
+        # JSON yanıtını temizle
+        if response_text.startswith('```json'):
+            response_text = response_text[7:-3]
+        elif response_text.startswith('```'):
+            response_text = response_text[3:-3]
+            
+        response_text = response_text.strip()
         response_dict = json.loads(response_text)
+        
+        # Gerekli alanların varlığını kontrol et
+        if not all(key in response_dict for key in ['topic', 'description']):
+            raise ValueError("Missing required fields in JSON response")
+            
         return Topic(**response_dict)
-    except:
-        # Fallback if JSON parsing fails
+    except Exception as e:
+        print(f"Topic extraction error: {str(e)}")
         return Topic(topic="Unknown Topic", description="Unable to extract topic")
 
 def main():
@@ -202,9 +215,9 @@ def main():
     extracted_topic = extract_topic_from_script(script)
     print(f"\n\nTopic extracted from script: {extracted_topic.topic}")
     
-    # Update science_topics_covered.json
+    # Update topics_covered.json
     try:
-        with open("science_topics_covered.json", "r") as f:
+        with open("topics_covered.json", "r") as f:
             topics_data = json.load(f)
             
         # Add new topic if not already present
@@ -212,10 +225,10 @@ def main():
             topics_data["topics_already_covered"].append(extracted_topic.topic)
             
         # Save updated topics
-        with open("science_topics_covered.json", "w") as f:
+        with open("topics_covered.json", "w") as f:
             json.dump(topics_data, f, indent=4, ensure_ascii=False)
             
-        print(f"\nUpdated science_topics_covered.json with new topic")
+        print(f"\nUpdated topics_covered.json with new topic")
     except Exception as e:
         print(f"\nError updating topics file: {str(e)}")
 

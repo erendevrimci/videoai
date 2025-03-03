@@ -103,10 +103,10 @@ VideoAI, çeşitli YouTube kanallarında yapay zeka temalı videolar oluşturan 
 1. **Senaryo Oluşturma (write_script.py)**
    - Yapay zeka konuları hakkında ilgi çekici senaryolar oluşturmak için Together AI'nin DeepSeek-R1 modelini kullanır
    - "memory.txt" dosyasından bağlam ve "grounding.txt" dosyasından güncel yapay zeka haberlerini okur
-   - Konular "next_topics.txt" dosyasından gelir (şu anda "Grok 3" üzerine odaklanmış)
+   - Konular "next_topics.txt" dosyasından gelir 
    - Tartışmalı/korku temelli anlatılarla tıklama tuzağı tarzı senaryolar oluşturur
    - Senaryoları metin-konuşma uyumluluğu için temizler
-   - İşlenen konuları "science_topics_covered.json" dosyasında takip eder
+   - İşlenen konuları "topics_covered.json" dosyasında takip eder
    - 1000-2000 kelimelik, özgün görüşler ve içgörüler içeren senaryolar oluşturur
    - İlgi çekiciliği korurken aşırı dramatik dilden kaçınır
 

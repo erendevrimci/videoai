@@ -30,7 +30,7 @@ def generate_voice(script_text, channel_number=1):
     voice_id = voice_mapping[channel_number]
     
     # Build the endpoint URL with the output_format query parameter.
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128"
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/29vD33N1CtxCmqQRPOHJ?output_format=mp3_44100_128"
 
     payload = {
         "text": script_text,
@@ -49,7 +49,7 @@ def generate_voice(script_text, channel_number=1):
     }
 
     # Ensure output directory exists
-    output_dir = r"C:\Users\kris_\Python\science_explained\voice"
+    output_dir = r"D:\videoai\output_voice"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "generated_voice.mp3")
 

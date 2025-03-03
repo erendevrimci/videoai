@@ -22,7 +22,7 @@ def process_channel(channel_number):
     
     # 3. Generate captions (SRT file) using OpenAI's Whisper API.
     print("\n--- Step 3: Generating Captions ---")
-    generate_subtitles("voice/generated_voice.mp3", "generated_voice.srt")
+    generate_subtitles("output_voice/generated_voice.mp3", "generated_voice.srt")
 
     # 4. Edit and assemble the video.
     print("\n--- Step 4: Editing Video ---")
