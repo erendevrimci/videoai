@@ -1,0 +1,52 @@
+flowchart TD
+    subgraph "Input Data"
+        I1[memory.txt]
+        I2[grounding.txt]
+        I3[next_topics.txt]
+        I4[science_topics_covered.json]
+    end
+    
+    subgraph "Script Generation"
+        SG1[write_script.py]
+        I1 & I2 & I3 & I4 --> SG1
+        SG1 -->|Script Text| SO1[script.txt]
+        SG1 -->|Update History| I4
+    end
+    
+    subgraph "Voice Generation"
+        VO1[voice_over.py]
+        SO1 --> VO1
+        VO1 -->|Audio File| VO2[voice.mp3]
+    end
+    
+    subgraph "Caption Generation"
+        CG1[captions.py]
+        VO2 --> CG1
+        CG1 -->|SRT File| CG2[captions.srt]
+    end
+    
+    subgraph "Video Editing"
+        VE1[video_edit.py]
+        CG2 & VO2 --> VE1
+        VE1 -->|Stock Clip Selection| VE2[Selected Clips]
+        VE2 & CG2 & VO2 --> VE3[Assemble Video]
+        VE3 -->|Final Video| VE4[video.mp4]
+    end
+    
+    subgraph "Metadata Generation"
+        MG1[write_title_desc.py]
+        SO1 --> MG1
+        MG1 -->|SEO Content| MG2[youtube_info.json]
+    end
+    
+    subgraph "Video Upload"
+        UP1[upload_video.py]
+        VE4 & MG2 --> UP1
+        UP1 -->|Upload Status| UP2[upload_logs.txt]
+    end
+    
+    subgraph "Topic Generation"
+        TG1[brainstorm_topics.py]
+        I4 --> TG1
+        TG1 -->|New Topics| I3
+    end

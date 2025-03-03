@@ -1,0 +1,20 @@
+flowchart TD
+    A[Start Script Generation] --> B{Read Input Files}
+    B -->|Context| C[Read memory.txt]
+    B -->|News| D[Read grounding.txt]
+    B -->|Topics| E[Read next_topics.txt]
+    B -->|History| F[Read science_topics_covered.json]
+    
+    C & D & E & F --> G[Prepare Prompt for AI]
+    G --> H[Call DeepSeek-R1 API]
+    H --> I[Generate Clickbait-Style Script]
+    I --> J[Clean Script for TTS]
+    J --> K[Update science_topics_covered.json]
+    K --> L[Save Script to File]
+    L --> M[End Script Generation]
+    
+    subgraph "Script Characteristics"
+        I1[Controversial Angles]
+        I2[Fear-Based Narratives]
+        I3[Focus on 'Grok 3' and other AI topics]
+    end

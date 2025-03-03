@@ -1,0 +1,36 @@
+flowchart TD
+    A[main.py] -->|Orchestrates Pipeline| B[write_script.py]
+    B -->|AI Generated Script| C[voice_over.py]
+    C -->|Voice Audio| D[captions.py]
+    D -->|SRT Subtitles| E[video_edit.py]
+    E -->|Assembled Video| F[write_title_desc.py]
+    F -->|SEO Metadata| G[upload_video.py]
+    G -->|Analytics & History| H[brainstorm_topics.py]
+    H -->|New Topics| B
+
+    subgraph "Input Files"
+        I1[memory.txt] -->|Context| B
+        I2[grounding.txt] -->|Trending AI News| B
+        I3[next_topics.txt] -->|Current Topics| B
+        I4[science_topics_covered.json] -->|Topic History| B
+    end
+
+    subgraph "Output Files"
+        B -->|Updates| O1[science_topics_covered.json]
+        F -->|Metadata| O2[youtube_info.json]
+    end
+
+    subgraph "APIs"
+        B -.->|DeepSeek-R1| API1[Together AI]
+        C -.->|Voice Generation| API2[ElevenLabs]
+        D -.->|Transcription| API3[OpenAI Whisper]
+        E -.->|Clip Matching| API4[OpenAI o3-mini]
+        F -.->|Title Generation| API5[Google Gemini Flash]
+        H -.->|Topic Generation| API6[Together AI]
+    end
+
+    subgraph "Channels"
+        G -->|Upload| Y1[YouTube Channel 1]
+        G -->|Upload| Y2[YouTube Channel 2]
+        G -->|Upload| Y3[YouTube Channel 3]
+    end

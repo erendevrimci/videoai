@@ -1,0 +1,15 @@
+flowchart TD
+    A[Start Topic Generation] --> B[Read Previous Topics]
+    B -->|From science_topics_covered.json| C[Prepare Topic Generation Prompt]
+    C --> D[Call DeepSeek-R1 API]
+    D --> E[Generate New Topic Ideas]
+    
+    subgraph "Topic Characteristics"
+        E1[Fear-Based AI Narratives]
+        E2[Mention Well-Known Entities]
+        E3[Avoid Previously Covered Topics]
+    end
+    
+    E --> F[Filter Topics]
+    F --> G[Update next_topics.txt]
+    G --> H[End Topic Generation]

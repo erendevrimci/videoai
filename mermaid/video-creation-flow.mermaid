@@ -1,0 +1,29 @@
+flowchart TD
+    A[Start Video Creation] --> B[Read Script]
+    
+    B --> C[Generate Voice-over]
+    C -->|Channel-specific voice ID| D[Call ElevenLabs API]
+    D --> E[Save Audio File]
+    
+    E --> F[Generate Captions]
+    F --> G[Call OpenAI Whisper API]
+    G --> H[Create SRT File]
+    
+    H & E --> I[Video Editing]
+    I --> J[Match Stock Clips to Content]
+    J -->|OpenAI o3-mini| K[Sequence Clips Based on Voice Timing]
+    K --> L[Add Background Music]
+    L --> M[Burn in Subtitles]
+    M --> N[Assemble with ffmpeg]
+    
+    N --> O[Generate Title/Description]
+    O -->|Google Gemini Flash| P[Create SEO Metadata]
+    P --> Q[Save to youtube_info.json]
+    
+    Q --> R[Upload to YouTube]
+    R -->|Channel-specific credentials| S[Upload with Generated Metadata]
+    S --> T[Select AI-Generated Thumbnail]
+    T --> U[Track Used Thumbnails]
+    
+    U --> V[Archive Completed Files]
+    V --> W[End Video Creation]

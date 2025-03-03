@@ -1,0 +1,22 @@
+flowchart TD
+    A[Start] --> B{Initial Setup}
+    B -->|Configure| C[API Keys Setup]
+    C --> D[Channel Credentials Setup]
+    D --> E[Initial Topic Selection]
+    
+    E --> F[Run System]
+    F -->|Minimal Intervention| G[main.py Execution]
+    
+    G --> H{Monitor System}
+    H -->|Optional| I[Review Generated Scripts]
+    H -->|Optional| J[Review Created Videos]
+    H -->|Optional| K[Adjust Topic Direction]
+    
+    I & J & K --> L[System Continues Autonomously]
+    
+    L --> M{Performance Review}
+    M -->|Optional| N[Analyze YouTube Analytics]
+    N --> O[Adjust System Parameters]
+    
+    O --> P[System Continues]
+    P --> H
