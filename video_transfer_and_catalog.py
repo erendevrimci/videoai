@@ -53,13 +53,14 @@ def get_video_metadata(video_path):
         else:
             fps = float(fps_str)
         
-        
+        duration = f"{round(float(data.get('streams', [{}])[0].get('duration', '')))}s"
          
         
         return {
             'resolution': resolution,
             'aspect_ratio': aspect_ratio,
             'fps': fps,
+            'duration': duration,
         }
     
     except Exception as e:
@@ -93,7 +94,7 @@ def transfer_video(source_path, destination_folder):
         return False
 
 def create_video_catalog():
-    headers = ['path','prompt','short_prompt', 'aspect_ratio', 'resolution', 'fps']
+    headers = ['path','prompt','short_prompt', 'aspect_ratio', 'resolution', 'fps', 'duration']
     
     # UTF-8 kodlaması ile dosyayı aç
     with open(prompt_file, 'r', encoding='utf-8') as file:
@@ -132,6 +133,7 @@ def create_video_catalog():
                                 metadata.get('aspect_ratio', ''),
                                 metadata.get('resolution', ''),
                                 metadata.get('fps', ''),
+                                metadata.get('duration', ''),
                                 ])
 
 if __name__ == "__main__":
