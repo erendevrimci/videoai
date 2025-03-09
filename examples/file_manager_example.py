@@ -1,13 +1,22 @@
-import json
-import requests
-import sys
-from typing import Optional
+"""
+Example of using the FileManager class with the voice_over module.
 
-# Import the config module and file manager
+This example demonstrates how to refactor the voice_over.py module to use
+the FileManager class for file operations.
+"""
+import sys
+import requests
+from typing import Optional
+from pathlib import Path
+
+# Import the config module and FileManager
 from config import config, get_channel_config
 from file_manager import FileManager
 
-def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
+# Initialize file manager
+file_mgr = FileManager()
+
+def generate_voice(script_text: str, channel_number: int = 1) -> Optional[Path]:
     """
     Converts the provided script text into speech using the ElevenLabs text-to-speech API.
     
@@ -16,11 +25,8 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         channel_number (int): The channel number to determine which voice to use
         
     Returns:
-        Optional[str]: Path to the generated voice file, or None if generation failed
+        Optional[Path]: Path to the generated voice file, or None if generation failed
     """
-    # Initialize file manager
-    file_mgr = FileManager()
-    
     # Get API key from configuration
     api_key = config.elevenlabs.api_key
     if not api_key:
@@ -59,11 +65,12 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         "Content-Type": "application/json"
     }
     
-    # Define output file paths using the file manager
+    # Get output file paths using FileManager
+    # These methods automatically ensure directories exist
     channel_voice_file = file_mgr.get_audio_output_path(channel_number, "generated_voice")
     legacy_voice_file = file_mgr.get_abs_path("voice/generated_voice.mp3")
     
-    # Ensure legacy voice directory exists (file_mgr will handle channel directory automatically)
+    # Ensure legacy directory exists (channel directory is automatically created)
     file_mgr.ensure_dir_exists(legacy_voice_file.parent)
     
     try:
@@ -71,7 +78,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()  # Raise an exception for HTTP errors
         
-        # Write the binary audio content to both file locations using the file manager
+        # Write the binary audio content to both file locations using FileManager
         file_mgr.write_binary(channel_voice_file, response.content)
         file_mgr.write_binary(legacy_voice_file, response.content)
         
@@ -79,7 +86,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         print(f"  - {channel_voice_file}")
         print(f"  - {legacy_voice_file}")
         
-        return str(channel_voice_file)
+        return channel_voice_file
     except requests.RequestException as e:
         print(f"Request failed: {e}")
         if hasattr(e.response, 'status_code') and hasattr(e.response, 'text'):
@@ -94,56 +101,26 @@ def main(channel_number: Optional[int] = None) -> None:
     Args:
         channel_number (Optional[int]): Channel number to use. If None, uses default channel.
     """
-    # Initialize file manager
-    file_mgr = FileManager()
-    
     # Use default channel if none specified
     if channel_number is None:
         channel_number = config.default_channel
     
-    # Try multiple script file path options
-    script_file_paths = [
-        file_mgr.get_script_path(channel_number, "script"),
-        file_mgr.get_script_path(channel_number, "generated_script"),
-        file_mgr.get_abs_path(config.file_paths.script_file)
-    ]
+    # Get script file path using FileManager
+    script_file_path = file_mgr.get_script_path(channel_number)
     
-    script_text = None
-    used_path = None
-    
-    # Try each path until we find one that works
-    for path in script_file_paths:
-        script_text = file_mgr.read_text(path)
-        if script_text is not None:
-            used_path = path
-            break
-    
+    # Read script using FileManager with built-in error handling
+    script_text = file_mgr.read_text(script_file_path)
     if script_text is None:
-        # If all paths failed, try generating a script first
-        print(f"Failed to load script file from any path: {script_file_paths}")
-        print("Attempting to generate a script first...")
-        
-        import write_script
-        write_script.main(channel_number)
-        
-        # Try again after script generation
-        for path in script_file_paths:
-            script_text = file_mgr.read_text(path)
-            if script_text is not None:
-                used_path = path
-                break
-                
-        if script_text is None:
-            print("Could not generate or load a script. Aborting voice generation.")
-            return
+        print(f"Failed to load script file {script_file_path}")
+        return
     
-    print(f"Reading script from {used_path}...")
+    print(f"Read script from {script_file_path} ({len(script_text)} characters)")
     
     # Generate voice
     voice_file = generate_voice(script_text, channel_number)
     
     if voice_file:
-        print(f"Voice generation completed successfully.")
+        print(f"Voice generation completed successfully: {voice_file}")
     else:
         print("Voice generation failed.")
 

@@ -67,8 +67,8 @@ class FilePathConfig(BaseModel):
     output_video_file: str = Field(default="output_video.mp4")
     final_video_file: str = Field(default="final_output.mp4")
     final_subtitled_video_file: str = Field(default="final_output_with_subtitles.mp4")
-    clips_metadata_file: str = Field(default="clips/clips_label.md")
-    clips_directory: str = Field(default="clips")
+    clips_metadata_file: str = Field(default="video/video-catalog-labeled.csv")
+    clips_directory: str = Field(default="video")
     background_music_directory: str = Field(default="background_music")
     output_directory: str = Field(default="outputs")
 
@@ -77,15 +77,15 @@ class VideoEditConfig(BaseModel):
     max_clip_duration: int = Field(default=10)
     default_clip_duration: int = Field(default=10)
     voice_volume: float = Field(default=1.4)
-    background_music_volume: float = Field(default=0.1)
-    subtitle_font: str = Field(default="Arial")
-    subtitle_font_size: int = Field(default=18)
+    background_music_volume: float = Field(default=0.3)  # Increased for better audibility
+    subtitle_font: str = Field(default="Calibri")
+    subtitle_font_size: int = Field(default=13)
 
 class ScriptGenerationConfig(BaseModel):
     """Script generation configuration"""
     min_words: int = Field(default=100)
     max_words: int = Field(default=200)
-    target_audience: str = Field(default="tech enthusiasts and AI learners")
+    target_audience: str = Field(default="fact enthusiasts")
     tone: str = Field(default="informative yet conversational")
     style: str = Field(default="clear, engaging, and accessible")
 
@@ -109,7 +109,8 @@ class AppConfig(BaseSettings):
     channels: Dict[int, ChannelConfig] = Field(default_factory=lambda: {
         1: ChannelConfig(
             name="Channel 1",
-            voice_id="29vD33N1CtxCmqQRPOHJ",
+            voice_id="UgBBYS2sOqTuMpoF3BR0",
+            #"29vD33N1CtxCmqQRPOHJ",
             youtube_credentials_file="youtube_token_channel1.json",
             youtube_info_file="youtube_info_channel1.json"
         ),
@@ -121,7 +122,8 @@ class AppConfig(BaseSettings):
         ),
         3: ChannelConfig(
             name="Channel 3",
-            voice_id="BLaQKPB2UVQ1JfmZQYQn",
+            voice_id="UgBBYS2sOqTuMpoF3BR0",
+            #BLaQKPB2UVQ1JfmZQYQn
             youtube_credentials_file="youtube_token_channel3.json",
             youtube_info_file="youtube_info_channel3.json"
         )

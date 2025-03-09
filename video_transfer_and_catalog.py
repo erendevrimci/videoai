@@ -3,8 +3,8 @@ import csv
 import subprocess
 import json
 import shutil
-prompt_file = 'video\\video-prompt-list.txt'
-is_file_created = os.path.exists("video\\video-catalog.csv") 
+prompt_file = 'video/video-prompt-list.txt'
+is_file_created = os.path.exists("video/video-catalog.csv") 
 
 def get_video_metadata(video_path):
     """FFmpeg kullanarak videodan metadata çıkar"""
@@ -100,7 +100,7 @@ def create_video_catalog():
     with open(prompt_file, 'r', encoding='utf-8') as file:
         # CSV dosyasını oluştur (eğer yoksa)
         if not is_file_created:
-            with open("video\\video-catalog.csv", 'w', newline='', encoding='utf-8') as csvfile:
+            with open("video/video-catalog.csv", 'w', newline='', encoding='utf-8') as csvfile:
                 writer = csv.writer(csvfile)
                 writer.writerow(headers)
         
@@ -113,18 +113,18 @@ def create_video_catalog():
                 if parts[0].strip() == "bos":
                     continue
                 if len(parts) == 2:
-                    path = f"video\\{parts[0].strip()}"
+                    path = f"video/{parts[0].strip()}"
                     prompt = parts[1].strip()
                     if os.path.exists(f"{path}.mp4"):
                         metadata = get_video_metadata(f"{path}.mp4")
-                        # transfer_video(f"{path}.mp4", "video\\transferred")
+                        # transfer_video(f"{path}.mp4", "video/transferred")
 
                         # Kelime bazlı kısaltma (ilk 30 kelime)
                         words = prompt.split()
                         short_prompt = ' '.join(words[:35]) + ('...' if len(words) > 35 else '')
                         
                         
-                        with open("video\\video-catalog.csv", 'a', newline='', encoding='utf-8') as csvfile:
+                        with open("video/video-catalog.csv", 'a', newline='', encoding='utf-8') as csvfile:
                             writer = csv.writer(csvfile)
                             writer.writerow([
                                 path,

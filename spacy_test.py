@@ -36,8 +36,8 @@ def extract_keywords(text, max_keywords=8):
 
 def main():
     # Path to your CSV file
-    input_csv_path = "video\\video-catalog.csv"
-    output_csv_path = "video\\video-catalog-labeled.csv"
+    input_csv_path = "video/video-catalog.csv"
+    output_csv_path = "video/video-catalog-labeled.csv"
     
     # Read the CSV (assuming tab-separated; adjust if comma-separated)
     df = pd.read_csv(input_csv_path, sep=",")

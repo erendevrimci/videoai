@@ -357,7 +357,124 @@ class FileManager:
                 yield temp_path
             finally:
                 self.remove_file(temp_path)
+                
+    @contextmanager
+    def temp_dir(self, suffix: str = "", prefix: str = "tmp_dir_", dir: Optional[PathLike] = None):
+        """
+        Context manager for temporary directory handling.
+        
+        Args:
+            suffix: Directory suffix
+            prefix: Directory prefix
+            dir: Parent directory for the temporary directory
+            
+        Yields:
+            Path object to the temporary directory
+        """
+        if dir is not None:
+            dir = self.normalize_path(dir)
+            self.ensure_dir_exists(dir)
+            
+        temp_dir_path = Path(tempfile.mkdtemp(suffix=suffix, prefix=prefix, dir=dir))
+        try:
+            yield temp_dir_path
+        finally:
+            # Remove the temporary directory and all its contents
+            try:
+                shutil.rmtree(temp_dir_path)
+            except Exception as e:
+                print(f"Error removing temporary directory {temp_dir_path}: {e}")
+                traceback.print_exc()
 
+    def find_video_file(self, path: PathLike, extensions: List[str] = None) -> Optional[Path]:
+        """
+        Find a video file that might be stored with or without an extension.
+        
+        Args:
+            path: Path to the file (with or without extension)
+            extensions: List of extensions to try (default: common video extensions)
+            
+        Returns:
+            Path object to the found file, or None if no file is found
+        """
+        if extensions is None:
+            extensions = ['.mp4', '.mov', '.avi', '.mkv', '.wmv']
+            
+        try:
+            file_path = self.normalize_path(path)
+            
+            # Debug
+            print(f"Searching for video file at {file_path}")
+            
+            # First try the exact path
+            if file_path.is_file():
+                print(f"Found exact file match: {file_path}")
+                return file_path
+            
+            # Try path variations:
+            
+            # 1. Try with each extension if the path didn't already have an extension
+            # If the path already has a video extension, don't add another one
+            if not file_path.suffix or file_path.suffix.lower() not in extensions:
+                for ext in extensions:
+                    path_with_ext = file_path.with_suffix(ext)
+                    if path_with_ext.is_file():
+                        print(f"Found with extension {ext}: {path_with_ext}")
+                        return path_with_ext
+                        
+            # 2. Special handling for spaces and weird characters in filenames
+            # Try the file with escaped spaces and quotes
+            try:
+                filename = file_path.name.replace(" ", "\ ").replace("'", "\\'").replace('"', '\\"')
+                parent_dir = file_path.parent
+                
+                # Check if there are any files in the directory that match the filename (case insensitive)
+                if parent_dir.exists():
+                    existing_files = list(parent_dir.glob('*'))
+                    
+                    # Try to find a case-insensitive match
+                    for existing_file in existing_files:
+                        if existing_file.is_file() and existing_file.name.lower() == file_path.name.lower():
+                            print(f"Found case-insensitive match: {existing_file}")
+                            return existing_file
+                        
+                        # Also check with each extension (case insensitive)
+                        for ext in extensions:
+                            if existing_file.is_file() and existing_file.stem.lower() == file_path.stem.lower() and existing_file.suffix.lower() == ext.lower():
+                                print(f"Found case-insensitive match with extension: {existing_file}")
+                                return existing_file
+            except Exception as e:
+                print(f"Error during case-insensitive search: {e}")
+            
+            # 3. If the base path itself doesn't exist, try just using the filename
+            # This helps in cases where the path in CSV includes directories but file is at root
+            try:
+                filename = file_path.name
+                video_dir = self.get_abs_path('video')
+                
+                # Try in the video directory (clips might be at root)
+                if video_dir.exists():
+                    for ext in extensions:
+                        file_in_video_dir = video_dir / f"{filename}{ext}"
+                        if file_in_video_dir.is_file():
+                            print(f"Found in video directory: {file_in_video_dir}")
+                            return file_in_video_dir
+                        
+                    # Also do a glob search to find any files with similar names
+                    similar_files = list(video_dir.glob(f"{filename}*"))
+                    if similar_files:
+                        print(f"Found similar file: {similar_files[0]}")
+                        return similar_files[0]
+                        
+            except Exception as e:
+                print(f"Error while trying to find file with base name: {e}")
+            
+            # File not found after all attempts
+            return None
+        except Exception as e:
+            print(f"Error in find_video_file: {e}")
+            return None
+        
     def run_ffmpeg(self, args: List[str], check: bool = True) -> bool:
         """
         Run an ffmpeg command with error handling.
