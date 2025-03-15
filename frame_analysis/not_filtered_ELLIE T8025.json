@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ELLIE T8025.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ELLIE T8025.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ELLIE T8025/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman walks along a serene beach, wearing a vibrant, multicolored dress. The ocean waves gently lap at the shore under a clear blue sky.",
+      "description": "The scene captures a peaceful moment on a beach, with a woman strolling along the water's edge. The setting is calm and picturesque, with the ocean and sky creating a tranquil backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "serenity",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ELLIE T8025.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ELLIE T8025/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands on a sandy beach, wearing a colorful, geometric-patterned dress. The ocean waves gently lap the shore under a clear blue sky, creating a serene and picturesque backdrop.",
+      "description": "The scene is set on a tranquil beach with a woman in the foreground. She is wearing a vibrant dress, and the setting sun casts a warm glow over the landscape, enhancing the peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "tranquility",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sky. Objects: dress. Actions: walking. Emotions: calm, serene. Scenes: beach scene. Concepts: serenity, vibrancy, tranquility, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "beach scene"
+    ],
+    "concepts": [
+      "serenity",
+      "vibrancy",
+      "tranquility",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

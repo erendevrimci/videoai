@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Romance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple is relaxing in a dimly lit hot tub surrounded by candles. They are sitting close together with their eyes closed, creating an intimate and serene atmosphere.",
+      "description": "The scene depicts a romantic and tranquil setting with a couple enjoying a peaceful moment in a hot tub. The warm glow of candlelight enhances the intimate ambiance.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "hot tub",
+          "candles"
+        ],
+        "actions": [
+          "relaxing",
+          "sitting"
+        ],
+        "emotions": [
+          "intimacy",
+          "serenity"
+        ],
+        "scenes": [
+          "romantic setting",
+          "spa-like environment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Romance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple shares an intimate moment in a dimly lit bathtub, surrounded by the warm glow of candles. The scene is set against a backdrop of a large window, revealing a blurred view of greenery outside.",
+      "description": "The scene takes place in a cozy, intimate setting, likely a bathroom with a large window offering a view of nature. The couple is immersed in a bathtub, creating a romantic and serene atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "bathtub",
+          "candles"
+        ],
+        "actions": [
+          "kissing"
+        ],
+        "emotions": [
+          "intimacy",
+          "romance"
+        ],
+        "scenes": [
+          "indoor",
+          "bathroom"
+        ],
+        "concepts": [
+          "romantic moment",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Objects: candles, hot tub, bathtub. Actions: relaxing, sitting, kissing. Emotions: intimacy, serenity, romance. Scenes: romantic setting, spa-like environment, indoor, bathroom. Concepts: romantic moment, intimacy",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "objects": [
+      "candles",
+      "hot tub",
+      "bathtub"
+    ],
+    "actions": [
+      "relaxing",
+      "sitting",
+      "kissing"
+    ],
+    "emotions": [
+      "intimacy",
+      "serenity",
+      "romance"
+    ],
+    "scenes": [
+      "romantic setting",
+      "spa-like environment",
+      "indoor",
+      "bathroom"
+    ],
+    "concepts": [
+      "romantic moment",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

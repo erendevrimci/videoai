@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glamour girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glamour girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Glamour girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with metallic gold makeup and floral adornments gazes upward. Her face is surrounded by golden flowers and leaves, creating an ethereal and artistic appearance.",
+      "description": "The scene presents a close-up of a woman's face, artistically styled with metallic gold makeup and surrounded by golden floral elements. The setting is likely a studio with controlled lighting to highlight the metallic textures.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "leaves"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "artistic portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glamour girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Glamour girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman adorned with golden floral decorations gazes upward with a serene expression. Her makeup is bold and metallic, complementing the intricate floral headpiece that surrounds her. The scene is illuminated with soft lighting, highlighting the shimmering details.",
+      "description": "The scene is a close-up portrait of a woman in a studio setting. She is styled with elaborate gold floral accessories and dramatic makeup, creating a luxurious and artistic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "flowers",
+          "headpiece",
+          "makeup"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "luxury",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, leaves. Objects: makeup, flowers, headpiece. Emotions: serene, serenity. Scenes: artistic portrait, portrait, studio. Concepts: beauty, art, luxury, artistry",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "leaves"
+    ],
+    "objects": [
+      "makeup",
+      "flowers",
+      "headpiece"
+    ],
+    "emotions": [
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "artistic portrait",
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "beauty",
+      "art",
+      "luxury",
+      "artistry"
+    ]
+  },
+  "metadata": {}
+}

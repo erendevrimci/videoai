@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gatito.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gatito.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Gatito/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny, adorable kitten is gently cradled in a person's hand, showcasing its small size and delicate features. The kitten's big, curious eyes and soft fur create a heartwarming and tender scene.",
+      "description": "The scene captures a close-up view of a small kitten being held in a human hand, emphasizing the contrast in size and the gentle care being given to the animal. The background is softly blurred, drawing focus to the kitten and the hand.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate"
+        ],
+        "concepts": [
+          "care",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gatito.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Gatito/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny kitten with soft gray fur is gently cradled in a person's hand, its small paws resting on a finger. The kitten's large, curious eyes gaze forward, creating an endearing and tender moment.",
+      "description": "The scene captures a close-up of a small, gray kitten being held in a human hand. The setting is intimate and focused, highlighting the delicate nature of the kitten and the gentle care of the person holding it.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "care",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: hand. Actions: holding. Emotions: tenderness, affection. Scenes: close-up, intimate. Concepts: care, gentleness",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "tenderness",
+      "affection"
+    ],
+    "scenes": [
+      "close-up",
+      "intimate"
+    ],
+    "concepts": [
+      "care",
+      "gentleness"
+    ]
+  },
+  "metadata": {}
+}

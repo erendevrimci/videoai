@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Me with my big wife.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Me with my big wife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Me with my big wife/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman and a man are seated closely on a couch, with the woman appearing significantly larger than the man. The woman is dressed in a white blouse and red skirt, while the man wears a suit and red tie, looking up at her with curiosity.",
+      "description": "The scene depicts a surreal interaction between two individuals on a couch, with a notable size difference. The setting appears to be indoors, possibly a living room or lounge, with a warm and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "couch",
+          "blouse",
+          "skirt",
+          "suit",
+          "tie"
+        ],
+        "actions": [
+          "sitting",
+          "looking"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "intimate"
+        ],
+        "concepts": [
+          "surreal",
+          "size difference"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Me with my big wife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Me with my big wife/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman and a man are seated closely on a couch, with the woman looking down at the man who gazes up at her. The woman is wearing a white shirt and red skirt, while the man is in a suit with a red tie. Their expressions suggest a moment of connection or conversation.",
+      "description": "The scene depicts a close interaction between a woman and a man on a couch, possibly in a living room or lounge setting. The setting appears intimate and personal, with both individuals engaged in a moment of communication.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "couch",
+          "clothing"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "connection",
+          "intimacy"
+        ],
+        "scenes": [
+          "indoor",
+          "interaction"
+        ],
+        "concepts": [
+          "communication",
+          "relationship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Objects: couch, blouse, skirt, suit, tie. Actions: sitting, looking, gazing. Emotions: curiosity, calm, connection, intimacy. Scenes: indoor, intimate, interaction. Concepts: surreal, size difference, communication, relationship",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "couch",
+      "blouse",
+      "skirt",
+      "suit",
+      "tie"
+    ],
+    "actions": [
+      "sitting",
+      "looking",
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity",
+      "calm",
+      "connection",
+      "intimacy"
+    ],
+    "scenes": [
+      "indoor",
+      "intimate",
+      "interaction"
+    ],
+    "concepts": [
+      "surreal",
+      "size difference",
+      "communication",
+      "relationship"
+    ]
+  },
+  "metadata": {}
+}

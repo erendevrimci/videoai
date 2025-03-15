@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u732b\u54aa\u5e2e\u5fd9\u505a\u4e8b.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u732b\u54aa\u5e2e\u5fd9\u505a\u4e8b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u732b\u54aa\u5e2e\u5fd9\u505a\u4e8b/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, fluffy cat is humorously riding a small bicycle down a city street. The cat is wearing a clear helmet and has a basket filled with vegetables, including cabbage and cauliflower, attached to the front of the bike. The scene captures a whimsical and surreal moment in an urban setting.",
+      "description": "The image depicts a playful and imaginative scene where a cat is riding a bicycle on a city street. The setting is urban, with buildings and trees visible in the background, suggesting a lively neighborhood.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bicycle",
+          "helmet",
+          "basket",
+          "vegetables"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "humorous",
+          "whimsical"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "surreal",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u732b\u54aa\u5e2e\u5fd9\u505a\u4e8b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u732b\u54aa\u5e2e\u5fd9\u505a\u4e8b/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is humorously riding a small bicycle down a street. The cat is wearing a shiny black helmet and has a basket filled with vegetables, including cauliflower and lettuce, attached to the front of the bike.",
+      "description": "The scene is a playful and whimsical depiction of a cat riding a bicycle in an urban setting. The cat is the central focus, dressed in a helmet, suggesting a humorous take on safety and adventure.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bicycle",
+          "helmet",
+          "basket",
+          "vegetables",
+          "cauliflower",
+          "lettuce"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "urban"
+        ],
+        "concepts": [
+          "whimsy",
+          "adventure",
+          "safety"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: bicycle, helmet, basket, vegetables, cauliflower. Actions: riding. Emotions: humorous, whimsical. Scenes: urban, street. Concepts: surreal, imaginative, whimsy, adventure, safety",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "bicycle",
+      "helmet",
+      "basket",
+      "vegetables",
+      "cauliflower"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "humorous",
+      "whimsical"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "surreal",
+      "imaginative",
+      "whimsy",
+      "adventure",
+      "safety"
+    ]
+  },
+  "metadata": {}
+}

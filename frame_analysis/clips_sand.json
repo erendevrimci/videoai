@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sand.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sand/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A swirling sand vortex rises dramatically from the desert floor, twisting gracefully against a backdrop of rolling dunes. The sunlight casts a warm glow over the scene, highlighting the intricate patterns of the sand in motion.",
+      "description": "The image captures a dynamic scene in a desert setting, featuring a sand vortex spiraling upwards amidst expansive sand dunes. The atmosphere is serene yet powerful, with the natural phenomenon taking center stage.",
+      "labels": {
+        "nature": [
+          "desert",
+          "sand dunes"
+        ],
+        "objects": [
+          "sand vortex"
+        ],
+        "actions": [
+          "swirling",
+          "rising"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "emotions": [
+          "serene",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sand/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A swirling dust devil dances across the sandy dunes under a bright sky. The twisting column of sand creates an intricate pattern as it moves gracefully through the desert landscape.",
+      "description": "The scene captures a dynamic dust devil in a desert setting, with sand dunes stretching into the distance under a clear sky. The atmosphere is serene yet energetic, with the natural phenomenon taking center stage.",
+      "labels": {
+        "nature": [
+          "desert",
+          "sand dunes"
+        ],
+        "objects": [
+          "dust devil"
+        ],
+        "actions": [
+          "swirling",
+          "twisting"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "natural phenomenon",
+          "wind"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: desert, sand dunes. Objects: sand vortex, dust devil. Actions: swirling, rising, twisting. Scenes: desert landscape. Emotions: serene, dramatic. Concepts: natural phenomenon, wind",
+  "primary_labels": {
+    "nature": [
+      "desert",
+      "sand dunes"
+    ],
+    "objects": [
+      "sand vortex",
+      "dust devil"
+    ],
+    "actions": [
+      "swirling",
+      "rising",
+      "twisting"
+    ],
+    "scenes": [
+      "desert landscape"
+    ],
+    "emotions": [
+      "serene",
+      "dramatic"
+    ],
+    "concepts": [
+      "natural phenomenon",
+      "wind"
+    ]
+  },
+  "metadata": {}
+}

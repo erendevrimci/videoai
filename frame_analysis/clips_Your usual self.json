@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your usual self.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your usual self.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Your usual self/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful, anthropomorphic cat lounges on a sofa, wearing pajamas and holding a smartphone. It is enjoying a bag of chips, with a bright lamp illuminating the cozy setting.",
+      "description": "The scene depicts a relaxed, homey environment where an animated cat is engaging with a smartphone while snacking on chips. The setting suggests a comfortable living room atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "smartphone",
+          "chips",
+          "sofa",
+          "lamp",
+          "pajamas"
+        ],
+        "actions": [
+          "lounging",
+          "snacking",
+          "holding"
+        ],
+        "emotions": [
+          "cheerful",
+          "relaxed"
+        ],
+        "scenes": [
+          "living room",
+          "cozy setting"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your usual self.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Your usual self/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in pajamas is sitting comfortably on a couch, holding a smartphone and a chip. The scene is cozy, with warm lighting from a nearby lamp, and the cat appears to be enjoying a relaxed evening.",
+      "description": "The scene depicts a humorous and cozy setting where a cat, anthropomorphized by wearing pajamas, is lounging on a sofa. It is engaged with a smartphone and snacking on chips, suggesting a leisurely and relaxed atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "smartphone",
+          "chips",
+          "couch",
+          "lamp",
+          "pajamas"
+        ],
+        "actions": [
+          "sitting",
+          "holding",
+          "snacking"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "living room",
+          "evening"
+        ],
+        "concepts": [
+          "coziness",
+          "humor",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: smartphone, chips, lamp, pajamas, sofa. Actions: snacking, holding, lounging, sitting. Emotions: relaxed, cheerful, content. Scenes: living room, cozy setting, evening. Concepts: leisure, anthropomorphism, coziness, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "smartphone",
+      "chips",
+      "lamp",
+      "pajamas",
+      "sofa"
+    ],
+    "actions": [
+      "snacking",
+      "holding",
+      "lounging",
+      "sitting"
+    ],
+    "emotions": [
+      "relaxed",
+      "cheerful",
+      "content"
+    ],
+    "scenes": [
+      "living room",
+      "cozy setting",
+      "evening"
+    ],
+    "concepts": [
+      "leisure",
+      "anthropomorphism",
+      "coziness",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APhotorealisticImageOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APhotorealisticImageOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APhotorealisticImageOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cozy sloth sits comfortably in a wooden rocking chair, wrapped in a colorful knitted blanket. Surrounded by balls of yarn, the sloth is engaged in knitting, illuminated by warm, glowing lights.",
+      "description": "The scene depicts a tranquil and cozy setting where a sloth is knitting in a warmly lit room. The atmosphere is relaxed and inviting, enhanced by the soft glow of string lights and the vibrant colors of the yarn.",
+      "labels": {
+        "animals": [
+          "sloth"
+        ],
+        "objects": [
+          "rocking chair",
+          "yarn",
+          "knitting needles",
+          "blanket",
+          "lights"
+        ],
+        "actions": [
+          "knitting",
+          "sitting"
+        ],
+        "emotions": [
+          "contentment",
+          "relaxation"
+        ],
+        "scenes": [
+          "cozy room",
+          "indoor setting"
+        ],
+        "concepts": [
+          "hobby",
+          "comfort",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APhotorealisticImageOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APhotorealisticImageOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cozy scene features a sloth sitting comfortably in a wooden rocking chair, wrapped in a colorful knitted blanket. The sloth is knitting with vibrant yarn balls scattered around, under the warm glow of hanging lights. The setting exudes a serene and homely atmosphere, perfect for a relaxing evening.",
+      "description": "The scene takes place in a cozy indoor setting, likely a living room, with a focus on comfort and warmth. The sloth is engaged in knitting, surrounded by an array of colorful yarn balls, with soft lighting enhancing the tranquil ambiance.",
+      "labels": {
+        "animals": [
+          "sloth"
+        ],
+        "objects": [
+          "rocking chair",
+          "blanket",
+          "yarn balls",
+          "lights"
+        ],
+        "actions": [
+          "knitting"
+        ],
+        "emotions": [
+          "serenity",
+          "comfort"
+        ],
+        "scenes": [
+          "cozy room",
+          "evening setting"
+        ],
+        "concepts": [
+          "relaxation",
+          "hobby"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: sloth. Objects: rocking chair, blanket, lights, yarn, knitting needles. Actions: knitting, sitting. Emotions: contentment, relaxation, serenity, comfort. Scenes: cozy room, indoor setting, evening setting. Concepts: hobby, comfort, warmth, relaxation",
+  "primary_labels": {
+    "animals": [
+      "sloth"
+    ],
+    "objects": [
+      "rocking chair",
+      "blanket",
+      "lights",
+      "yarn",
+      "knitting needles"
+    ],
+    "actions": [
+      "knitting",
+      "sitting"
+    ],
+    "emotions": [
+      "contentment",
+      "relaxation",
+      "serenity",
+      "comfort"
+    ],
+    "scenes": [
+      "cozy room",
+      "indoor setting",
+      "evening setting"
+    ],
+    "concepts": [
+      "hobby",
+      "comfort",
+      "warmth",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Astronaut in the Volcano.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Astronaut in the Volcano.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Astronaut in the Volcano/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a futuristic suit plays the cello amidst a dramatic volcanic landscape. The scene is illuminated by the glowing lava flows and the erupting volcano in the background. Dark clouds fill the sky, adding to the intense atmosphere.",
+      "description": "The image depicts a surreal scene where a person in a space-like suit is playing a cello on a volcanic terrain. The environment is dominated by active lava flows and a towering erupting volcano, under a sky filled with dark, ominous clouds.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "volcano",
+          "lava",
+          "clouds"
+        ],
+        "objects": [
+          "cello",
+          "futuristic suit"
+        ],
+        "actions": [
+          "playing cello"
+        ],
+        "emotions": [
+          "intense",
+          "dramatic"
+        ],
+        "scenes": [
+          "volcanic landscape"
+        ],
+        "concepts": [
+          "surreal",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Astronaut in the Volcano.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Astronaut in the Volcano/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut in a spacesuit plays a cello amidst a dramatic volcanic landscape. The scene is set against a backdrop of flowing lava and a dark, cloudy sky, creating a surreal and intense atmosphere.",
+      "description": "The image depicts an astronaut seated on volcanic rock, playing a cello in a fiery, otherworldly environment. The setting is dominated by glowing lava flows and a looming volcano under a stormy sky, suggesting a fusion of music and nature in a hostile yet captivating landscape.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "objects": [
+          "cello",
+          "spacesuit"
+        ],
+        "nature": [
+          "volcano",
+          "lava",
+          "clouds"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "intense",
+          "dramatic"
+        ],
+        "scenes": [
+          "volcanic landscape"
+        ],
+        "concepts": [
+          "surreal",
+          "fusion of art and nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, astronaut. Nature: volcano, lava, clouds. Objects: cello, futuristic suit, spacesuit. Actions: playing cello, playing. Emotions: intense, dramatic. Scenes: volcanic landscape. Concepts: surreal, futuristic, fusion of art and nature",
+  "primary_labels": {
+    "people": [
+      "person",
+      "astronaut"
+    ],
+    "nature": [
+      "volcano",
+      "lava",
+      "clouds"
+    ],
+    "objects": [
+      "cello",
+      "futuristic suit",
+      "spacesuit"
+    ],
+    "actions": [
+      "playing cello",
+      "playing"
+    ],
+    "emotions": [
+      "intense",
+      "dramatic"
+    ],
+    "scenes": [
+      "volcanic landscape"
+    ],
+    "concepts": [
+      "surreal",
+      "futuristic",
+      "fusion of art and nature"
+    ]
+  },
+  "metadata": {}
+}

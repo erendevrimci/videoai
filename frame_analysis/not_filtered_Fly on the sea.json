@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fly on the sea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fly on the sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fly on the sea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man and a woman wearing life jackets are enjoying a thrilling ride on a jet ski, surrounded by a fleet of sailboats on a sunny day. The woman is smiling broadly, capturing the excitement of the moment, while the man looks focused on steering. The clear blue sky and shimmering water create a vibrant and lively atmosphere.",
+      "description": "The scene depicts a lively and adventurous setting on the open water, where two people are riding a jet ski amidst a group of sailboats. The bright sunlight and clear skies enhance the joyful and energetic mood of the scene.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "jet ski",
+          "life jackets",
+          "sailboats"
+        ],
+        "actions": [
+          "riding",
+          "steering",
+          "smiling"
+        ],
+        "emotions": [
+          "excitement",
+          "focus"
+        ],
+        "scenes": [
+          "ocean",
+          "water sports"
+        ],
+        "concepts": [
+          "adventure",
+          "recreation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fly on the sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fly on the sea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man and a woman are joyfully riding a jet ski, wearing life jackets, with the ocean and several sailboats in the background. The bright sunlight and clear blue sky enhance the vibrant atmosphere of the scene.",
+      "description": "The scene captures a lively moment on the ocean, where two individuals are enjoying a thrilling ride on a jet ski. The background features a regatta of sailboats, indicating a nautical setting on a sunny day.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "nature": [
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "jet ski",
+          "life jackets",
+          "sailboats"
+        ],
+        "actions": [
+          "riding",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "excited"
+        ],
+        "scenes": [
+          "ocean",
+          "nautical"
+        ],
+        "concepts": [
+          "adventure",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman. Objects: jet ski, life jackets, sailboats. Actions: riding, smiling, steering. Emotions: excitement, focus, joyful, excited. Scenes: ocean, water sports, nautical. Concepts: adventure, recreation, leisure. Nature: ocean, sky",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman"
+    ],
+    "objects": [
+      "jet ski",
+      "life jackets",
+      "sailboats"
+    ],
+    "actions": [
+      "riding",
+      "smiling",
+      "steering"
+    ],
+    "emotions": [
+      "excitement",
+      "focus",
+      "joyful",
+      "excited"
+    ],
+    "scenes": [
+      "ocean",
+      "water sports",
+      "nautical"
+    ],
+    "concepts": [
+      "adventure",
+      "recreation",
+      "leisure"
+    ],
+    "nature": [
+      "ocean",
+      "sky"
+    ]
+  },
+  "metadata": {}
+}

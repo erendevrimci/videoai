@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enjoy even the little things.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enjoy even the little things.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enjoy even the little things/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with long, colorful hair stands amidst floating bubbles, her expression serene and contemplative. The scene is illuminated by vibrant, multicolored lights that reflect off the bubbles and her hair, creating a dreamlike atmosphere.",
+      "description": "The scene depicts a fantastical setting where a girl is surrounded by glowing bubbles in a vibrant, colorful environment. The lighting and colors suggest a magical or surreal context, possibly in a nighttime urban setting with bright lights.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "bubbles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "fantastical",
+          "dreamlike"
+        ],
+        "concepts": [
+          "magic",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enjoy even the little things.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enjoy even the little things/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, colorful hair stands amidst floating bubbles, her expression one of wonder and curiosity. The scene is illuminated by vibrant, multicolored lights that reflect off her shiny jacket and the bubbles around her.",
+      "description": "The scene depicts a young woman in a surreal, dreamlike setting filled with floating bubbles. The atmosphere is vibrant and enchanting, enhanced by the colorful lighting that creates a magical ambiance.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "bubbles",
+          "jacket"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "wonder",
+          "curiosity"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enjoy even the little things.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enjoy even the little things/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl with long, colorful hair smiles joyfully amidst floating bubbles. The scene is illuminated by vibrant, multi-colored lights that reflect off her shiny jacket.",
+      "description": "The image captures a whimsical and enchanting moment, possibly set in a festive or magical environment. The girl's expression and the surrounding bubbles create a sense of wonder and happiness.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "bubbles",
+          "jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "festive",
+          "magical"
+        ],
+        "concepts": [
+          "enchantment",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, young woman. Objects: bubbles, jacket. Actions: standing, gazing, smiling. Emotions: serene, contemplative, wonder, curiosity, joyful. Scenes: dreamlike, fantastical, surreal, festive, magical. Concepts: magic, enchantment, surrealism, whimsy",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "young woman"
+    ],
+    "objects": [
+      "bubbles",
+      "jacket"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "smiling"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "wonder",
+      "curiosity",
+      "joyful"
+    ],
+    "scenes": [
+      "dreamlike",
+      "fantastical",
+      "surreal",
+      "festive",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "surrealism",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

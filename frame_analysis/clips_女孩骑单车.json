@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5973\u5b69\u9a91\u5355\u8f66.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5973\u5b69\u9a91\u5355\u8f66.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u5973\u5b69\u9a91\u5355\u8f66/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl rides a bicycle down a winding path through a vibrant alpine meadow. In the background, a picturesque village nestles beside a serene lake, with majestic snow-capped mountains towering above under a clear blue sky.",
+      "description": "The scene captures a tranquil and idyllic mountain landscape, with a focus on nature and outdoor activity. The setting is a lush, green valley surrounded by towering peaks, suggesting a peaceful and remote location.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "mountains",
+          "lake",
+          "meadow",
+          "flowers"
+        ],
+        "objects": [
+          "bicycle",
+          "backpack",
+          "houses"
+        ],
+        "actions": [
+          "cycling"
+        ],
+        "emotions": [
+          "serenity",
+          "freedom"
+        ],
+        "scenes": [
+          "alpine landscape",
+          "village"
+        ],
+        "concepts": [
+          "adventure",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5973\u5b69\u9a91\u5355\u8f66.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u5973\u5b69\u9a91\u5355\u8f66/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman rides a bicycle down a winding path through a lush, green valley. In the background, a serene lake reflects the towering snow-capped mountains under a bright blue sky. The scene is dotted with quaint wooden houses and vibrant wildflowers.",
+      "description": "The scene depicts a picturesque mountain valley with a clear blue lake, surrounded by lush greenery and snow-capped peaks. A woman is cycling down a path, enjoying the tranquil and scenic environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "lake",
+          "valley",
+          "wildflowers",
+          "trees"
+        ],
+        "objects": [
+          "bicycle",
+          "houses"
+        ],
+        "actions": [
+          "cycling"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mountain landscape",
+          "valley"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5973\u5b69\u9a91\u5355\u8f66.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u5973\u5b69\u9a91\u5355\u8f66/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman rides a bicycle down a winding path through a vibrant green valley, surrounded by wildflowers. In the distance, a picturesque village nestles by a serene blue lake, with majestic snow-capped mountains towering in the background.",
+      "description": "The scene captures a tranquil and idyllic mountain landscape, with a focus on nature and outdoor activity. The setting is a lush valley with a clear blue sky, suggesting a peaceful and refreshing atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "lake",
+          "valley",
+          "wildflowers"
+        ],
+        "objects": [
+          "bicycle",
+          "backpack"
+        ],
+        "actions": [
+          "cycling"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mountain landscape",
+          "village"
+        ],
+        "concepts": [
+          "adventure",
+          "nature exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, girl. Nature: mountains, lake, valley, wildflowers, meadow. Objects: bicycle, backpack, houses. Actions: cycling. Emotions: serenity, freedom. Scenes: village, mountain landscape, alpine landscape, valley. Concepts: adventure, nature, tranquility, nature exploration",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "girl"
+    ],
+    "nature": [
+      "mountains",
+      "lake",
+      "valley",
+      "wildflowers",
+      "meadow"
+    ],
+    "objects": [
+      "bicycle",
+      "backpack",
+      "houses"
+    ],
+    "actions": [
+      "cycling"
+    ],
+    "emotions": [
+      "serenity",
+      "freedom"
+    ],
+    "scenes": [
+      "village",
+      "mountain landscape",
+      "alpine landscape",
+      "valley"
+    ],
+    "concepts": [
+      "adventure",
+      "nature",
+      "tranquility",
+      "nature exploration"
+    ]
+  },
+  "metadata": {}
+}

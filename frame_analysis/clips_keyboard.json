@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/keyboard.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/keyboard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/keyboard/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up view of hands adorned with sparkling rings typing on a glittering keyboard. The scene is illuminated by warm, golden lighting, highlighting the intricate details of the jewelry and keyboard.",
+      "description": "The image captures a luxurious and glamorous setting, focusing on the interaction between a person's hands and a visually striking keyboard. The atmosphere is elegant and sophisticated, emphasizing opulence.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "keyboard",
+          "rings"
+        ],
+        "actions": [
+          "typing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "luxury"
+        ],
+        "concepts": [
+          "glamour",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/keyboard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/keyboard/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands adorned with sparkling rings and nail art gracefully hover over a glittering keyboard. The keys shimmer with a golden glow, creating an opulent and luxurious atmosphere.",
+      "description": "The scene captures a close-up of hands interacting with a dazzling, illuminated keyboard. The setting suggests a high-end, glamorous environment, possibly in a modern or futuristic context.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "keyboard",
+          "rings",
+          "nail art"
+        ],
+        "actions": [
+          "typing"
+        ],
+        "emotions": [
+          "luxury"
+        ],
+        "scenes": [
+          "technology",
+          "glamour"
+        ],
+        "concepts": [
+          "opulence",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hands. Objects: keyboard, rings, nail art. Actions: typing. Emotions: elegance, luxury. Scenes: luxury, technology, glamour. Concepts: opulence, glamour, modernity",
+  "primary_labels": {
+    "people": [
+      "hands"
+    ],
+    "objects": [
+      "keyboard",
+      "rings",
+      "nail art"
+    ],
+    "actions": [
+      "typing"
+    ],
+    "emotions": [
+      "elegance",
+      "luxury"
+    ],
+    "scenes": [
+      "luxury",
+      "technology",
+      "glamour"
+    ],
+    "concepts": [
+      "opulence",
+      "glamour",
+      "modernity"
+    ]
+  },
+  "metadata": {}
+}

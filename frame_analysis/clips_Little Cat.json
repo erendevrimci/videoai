@@ -1,0 +1,89 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical kitten with pastel-colored fur sits adorably, resting its paws on a green apple. The kitten's large, expressive eyes gaze upward, adding to its charming appearance.",
+      "description": "The scene features a cute, pastel-colored kitten in a serene outdoor setting. The kitten is the focal point, with its vibrant fur and curious expression, creating a playful and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "apple"
+        ],
+        "emotions": [
+          "curiosity",
+          "innocence"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, colorful kitten with a blend of pink, blue, and yellow fur is gently resting its paws on a green apple. The kitten's large eyes and fluffy fur create an adorable and whimsical appearance. The scene is softly lit, highlighting the kitten's vibrant colors against a blurred background.",
+      "description": "The scene depicts a playful and imaginative setting where a uniquely colored kitten interacts with a green apple. The focus is on the kitten's vivid fur and its curious demeanor.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "apple"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "whimsical"
+        ],
+        "concepts": [
+          "playfulness",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: apple. Emotions: curiosity, innocence. Scenes: outdoor, whimsical. Concepts: playfulness, whimsy, imagination. Actions: resting",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "apple"
+    ],
+    "emotions": [
+      "curiosity",
+      "innocence"
+    ],
+    "scenes": [
+      "outdoor",
+      "whimsical"
+    ],
+    "concepts": [
+      "playfulness",
+      "whimsy",
+      "imagination"
+    ],
+    "actions": [
+      "resting"
+    ]
+  },
+  "metadata": {}
+}

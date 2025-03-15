@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/supercar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/supercar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/supercar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern sports car is showcased under bright studio lights, highlighting its aerodynamic design and polished surface. The car's metallic finish and intricate wheel design are prominently visible, emphasizing its luxury and performance features.",
+      "description": "The scene captures a high-end sports car displayed in a studio setting, likely for promotional or advertising purposes. The lighting accentuates the car's contours and details, creating a dynamic and sophisticated atmosphere.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "studio lights",
+          "car wheels"
+        ],
+        "actions": [
+          "showcased"
+        ],
+        "emotions": [
+          "sophisticated",
+          "luxurious"
+        ],
+        "scenes": [
+          "studio setting"
+        ],
+        "concepts": [
+          "luxury",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/supercar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/supercar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, silver sports car is showcased under bright studio lights, highlighting its aerodynamic design and glossy finish. The car's modern curves and stylish rims are prominently displayed, suggesting a high-performance vehicle.",
+      "description": "The scene is set in a studio environment where a luxury sports car is being highlighted. The focus is on the car's design and features, with lighting emphasizing its contours and metallic sheen.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "rims",
+          "studio lights"
+        ],
+        "actions": [
+          "showcased"
+        ],
+        "emotions": [
+          "admiration"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "luxury",
+          "performance",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/supercar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/supercar/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek, modern sports car is showcased under bright studio lights, highlighting its aerodynamic design and glossy finish. The car's metallic surface reflects the light, creating a striking visual effect that emphasizes its contours and features.",
+      "description": "The scene captures a high-end sports car in a studio setting, likely during a promotional event or photoshoot. The lighting is strategically placed to accentuate the car's design and craftsmanship.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "studio lights"
+        ],
+        "actions": [
+          "showcased",
+          "highlighted"
+        ],
+        "emotions": [
+          "admiration"
+        ],
+        "scenes": [
+          "studio setting",
+          "promotional event"
+        ],
+        "concepts": [
+          "luxury",
+          "aerodynamics",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, studio lights, car wheels, rims. Actions: showcased, highlighted. Emotions: admiration, sophisticated, luxurious. Scenes: studio setting, studio, promotional event. Concepts: luxury, performance, design, aerodynamics",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "studio lights",
+      "car wheels",
+      "rims"
+    ],
+    "actions": [
+      "showcased",
+      "highlighted"
+    ],
+    "emotions": [
+      "admiration",
+      "sophisticated",
+      "luxurious"
+    ],
+    "scenes": [
+      "studio setting",
+      "studio",
+      "promotional event"
+    ],
+    "concepts": [
+      "luxury",
+      "performance",
+      "design",
+      "aerodynamics"
+    ]
+  },
+  "metadata": {}
+}

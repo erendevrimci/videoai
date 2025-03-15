@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,First-person.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,First-person.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,First-person/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A pair of hands adorned with golden bracelets rests on a balcony, overlooking an ancient cityscape bathed in the warm glow of a setting sun. Majestic pyramids and grand structures rise in the distance, surrounded by lush palm trees and bustling streets filled with people.",
+      "description": "The scene depicts an ancient Egyptian city during sunset, viewed from a high vantage point. The city is vibrant with activity, and the architecture reflects the grandeur of ancient Egyptian civilization.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "nature": [
+          "sunset",
+          "palm trees"
+        ],
+        "objects": [
+          "pyramids",
+          "bracelets",
+          "balcony"
+        ],
+        "actions": [
+          "overlooking"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "ancient city",
+          "sunset"
+        ],
+        "concepts": [
+          "history",
+          "civilization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,First-person.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,First-person/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts an ancient cityscape at sunset, featuring grand pyramids and temples. A bustling street lined with palm trees is filled with people, casting long shadows in the golden light. The scene is set against a backdrop of distant mountains and a vibrant sky.",
+      "description": "This scene portrays an ancient Egyptian city during sunset, highlighting the architectural grandeur of pyramids and temples. The warm, golden light creates a serene yet lively atmosphere as people move through the main thoroughfare.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "nature": [
+          "palm trees",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "pyramids",
+          "temples",
+          "statue"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "ancient cityscape",
+          "sunset"
+        ],
+        "concepts": [
+          "architecture",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hands, crowd. Nature: palm trees, sunset, mountains, sky. Objects: pyramids, bracelets, balcony, temples, statue. Actions: overlooking, walking. Emotions: awe, serenity, serene. Scenes: sunset, ancient city, ancient cityscape. Concepts: history, civilization, architecture",
+  "primary_labels": {
+    "people": [
+      "hands",
+      "crowd"
+    ],
+    "nature": [
+      "palm trees",
+      "sunset",
+      "mountains",
+      "sky"
+    ],
+    "objects": [
+      "pyramids",
+      "bracelets",
+      "balcony",
+      "temples",
+      "statue"
+    ],
+    "actions": [
+      "overlooking",
+      "walking"
+    ],
+    "emotions": [
+      "awe",
+      "serenity",
+      "serene"
+    ],
+    "scenes": [
+      "sunset",
+      "ancient city",
+      "ancient cityscape"
+    ],
+    "concepts": [
+      "history",
+      "civilization",
+      "architecture"
+    ]
+  },
+  "metadata": {}
+}

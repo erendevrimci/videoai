@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hip hop dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hip hop dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hip hop dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A detailed anime-style figurine of a female character is displayed on a round base. The figure is dressed in a white bikini, with long blonde hair cascading down her back.",
+      "description": "The scene features an anime-style figurine set against a blurred background, suggesting an indoor setting. The figure is posed with one hand on her head, showcasing a relaxed and confident stance.",
+      "labels": {
+        "people": [
+          "anime character"
+        ],
+        "objects": [
+          "figurine",
+          "bikini",
+          "base"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "anime",
+          "collectible"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hip hop dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hip hop dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A detailed figurine of an anime character stands gracefully on a round base. The character has long blonde hair and is dressed in a white bikini, with a serene expression and hands gently clasped.",
+      "description": "The scene captures a close-up view of an anime-style figurine, highlighting its intricate design and delicate features. The setting is likely indoors with soft lighting enhancing the figure's details.",
+      "labels": {
+        "objects": [
+          "figurine",
+          "base",
+          "bikini"
+        ],
+        "actions": [
+          "standing",
+          "clasping hands"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "anime",
+          "character design",
+          "collectible"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: anime character. Objects: figurine, bikini, base. Actions: posing, standing, clasping hands. Emotions: confident, serene. Scenes: indoor. Concepts: anime, collectible, character design",
+  "primary_labels": {
+    "people": [
+      "anime character"
+    ],
+    "objects": [
+      "figurine",
+      "bikini",
+      "base"
+    ],
+    "actions": [
+      "posing",
+      "standing",
+      "clasping hands"
+    ],
+    "emotions": [
+      "confident",
+      "serene"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "anime",
+      "collectible",
+      "character design"
+    ]
+  },
+  "metadata": {}
+}

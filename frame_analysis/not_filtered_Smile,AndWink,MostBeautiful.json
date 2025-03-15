@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,AndWink,MostBeautiful.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,AndWink,MostBeautiful.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smile,AndWink,MostBeautiful/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with red hair is captured in soft, natural lighting. Her hair is styled in a braid, and she wears a white blouse and a black choker.",
+      "description": "The scene is a close-up portrait of a woman indoors, with sunlight streaming in, highlighting her features. The setting appears calm and intimate, focusing on the subject's expression and style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "choker"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "natural lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,AndWink,MostBeautiful.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smile,AndWink,MostBeautiful/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with red hair and freckles smiles softly at the camera. Her hair is styled in braids, and she wears a black choker and a white blouse. The lighting highlights her features, creating a warm and inviting atmosphere.",
+      "description": "The scene captures a close-up portrait of a woman indoors, with natural light illuminating her face. The setting appears calm and serene, emphasizing her gentle expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "choker",
+          "blouse"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "portrait",
+          "indoor"
+        ],
+        "concepts": [
+          "beauty",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, choker. Actions: posing. Emotions: serene, happiness, serenity. Scenes: indoor, portrait. Concepts: beauty, natural lighting, warmth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "choker"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "serene",
+      "happiness",
+      "serenity"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "natural lighting",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

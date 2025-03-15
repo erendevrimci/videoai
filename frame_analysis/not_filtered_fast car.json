@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fast car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fast car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fast car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek red sports car speeds down a futuristic highway, heading towards a vibrant sunset. The road is flanked by illuminated structures, creating a tunnel-like effect. The car's taillights glow brightly, leaving a trail of light as it accelerates.",
+      "description": "The scene depicts a high-speed drive on a futuristic highway at sunset. The setting is dynamic and visually striking, with a focus on speed and modernity.",
+      "labels": {
+        "objects": [
+          "car",
+          "highway",
+          "taillights"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ],
+        "scenes": [
+          "futuristic",
+          "sunset"
+        ],
+        "concepts": [
+          "speed",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fast car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fast car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A red sports car speeds through a futuristic tunnel, leaving a trail of light in its wake. The tunnel is illuminated with streaks of white and orange light, creating a sense of high velocity and motion.",
+      "description": "The scene depicts a high-speed car chase or drive through a high-tech tunnel. The environment suggests a futuristic or sci-fi setting with dynamic lighting effects enhancing the sense of speed.",
+      "labels": {
+        "objects": [
+          "car",
+          "tunnel"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "excitement",
+          "thrill"
+        ],
+        "scenes": [
+          "futuristic",
+          "high-speed"
+        ],
+        "concepts": [
+          "motion",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fast car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fast car/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek red sports car speeds through a futuristic tunnel, leaving a trail of light in its wake. The tunnel is illuminated by dynamic, streaking lights that enhance the sense of motion and speed.",
+      "description": "The scene depicts a high-speed chase or race within a futuristic tunnel. The environment is characterized by its glowing lights and the blurred motion of the car, suggesting rapid movement.",
+      "labels": {
+        "objects": [
+          "car",
+          "tunnel",
+          "lights"
+        ],
+        "actions": [
+          "speeding",
+          "racing"
+        ],
+        "emotions": [
+          "excitement",
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic",
+          "high-speed"
+        ],
+        "concepts": [
+          "motion",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, tunnel, highway, taillights, lights. Actions: speeding, driving, racing. Emotions: excitement, adventure, thrill, intensity. Scenes: futuristic, high-speed, sunset. Concepts: technology, motion, speed",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "tunnel",
+      "highway",
+      "taillights",
+      "lights"
+    ],
+    "actions": [
+      "speeding",
+      "driving",
+      "racing"
+    ],
+    "emotions": [
+      "excitement",
+      "adventure",
+      "thrill",
+      "intensity"
+    ],
+    "scenes": [
+      "futuristic",
+      "high-speed",
+      "sunset"
+    ],
+    "concepts": [
+      "technology",
+      "motion",
+      "speed"
+    ]
+  },
+  "metadata": {}
+}

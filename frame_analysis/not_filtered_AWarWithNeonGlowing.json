@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWarWithNeonGlowing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWarWithNeonGlowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWarWithNeonGlowing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic, anthropomorphic creature is engaged in a high-intensity battle in a rain-soaked urban environment. The creature, with glowing pink eyes and armor, wields a large weapon emitting a bright pink laser. The scene is dynamic and filled with action as other armored figures join the fray.",
+      "description": "The scene depicts a sci-fi battle in a dystopian city setting. The main focus is on an anthropomorphic character in combat gear, suggesting a high-tech, futuristic world.",
+      "labels": {
+        "animals": [
+          "anthropomorphic creature"
+        ],
+        "objects": [
+          "weapon",
+          "armor",
+          "laser"
+        ],
+        "actions": [
+          "battle",
+          "shooting"
+        ],
+        "emotions": [
+          "intensity",
+          "aggression"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic",
+          "dystopian"
+        ],
+        "concepts": [
+          "sci-fi",
+          "combat",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWarWithNeonGlowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWarWithNeonGlowing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A raccoon-like character in futuristic armor crouches in an urban alley, wielding a glowing pink energy weapon. The scene is dynamic, with bright neon lights and a sense of urgency as the character appears to be in action.",
+      "description": "The scene is set in a dystopian urban environment, possibly a futuristic cityscape. The focus is on an anthropomorphic character engaged in a combat scenario, highlighted by the vivid neon glow of the weapon and surrounding lights.",
+      "labels": {
+        "animals": [
+          "raccoon"
+        ],
+        "objects": [
+          "energy weapon",
+          "armor"
+        ],
+        "actions": [
+          "crouching",
+          "shooting"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic",
+          "dystopian"
+        ],
+        "concepts": [
+          "combat",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: anthropomorphic creature, raccoon. Objects: armor, weapon, laser, energy weapon. Actions: shooting, battle, crouching. Emotions: intensity, aggression. Scenes: urban, futuristic, dystopian. Concepts: combat, sci-fi, technology, science fiction",
+  "primary_labels": {
+    "animals": [
+      "anthropomorphic creature",
+      "raccoon"
+    ],
+    "objects": [
+      "armor",
+      "weapon",
+      "laser",
+      "energy weapon"
+    ],
+    "actions": [
+      "shooting",
+      "battle",
+      "crouching"
+    ],
+    "emotions": [
+      "intensity",
+      "aggression"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "dystopian"
+    ],
+    "concepts": [
+      "combat",
+      "sci-fi",
+      "technology",
+      "science fiction"
+    ]
+  },
+  "metadata": {}
+}

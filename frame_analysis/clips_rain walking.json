@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rain walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rain walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/rain walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a vibrant red kimono stands confidently in a rain-soaked corridor lined with striking red pillars. The scene captures a blend of traditional attire and modern architecture, with rain adding a dynamic element to the atmosphere.",
+      "description": "The image depicts a woman wearing a traditional red kimono with gold floral patterns, standing in a modern architectural setting. The corridor is characterized by its bold red pillars and wet reflective floor, suggesting recent rainfall.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "kimono",
+          "pillars",
+          "watch",
+          "high heels"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "rainy"
+        ],
+        "concepts": [
+          "tradition",
+          "modernity",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rain walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/rain walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red floral kimono walks confidently down a wet, reflective pathway. The scene is framed by vibrant red columns and modern architecture, creating a striking visual contrast.",
+      "description": "The image depicts a woman walking through a modern architectural setting, characterized by red columns and a glossy, rain-soaked path. The setting suggests a blend of traditional and contemporary elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "kimono",
+          "columns",
+          "pathway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "rainy"
+        ],
+        "concepts": [
+          "tradition",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rain walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/rain walking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a red floral kimono walks confidently through a corridor lined with vibrant red pillars. The scene captures a blend of traditional attire against a modern architectural backdrop, with raindrops softly falling around her.",
+      "description": "The image depicts a woman walking through a covered walkway, possibly in an urban setting. The red pillars and modern structures suggest a blend of traditional and contemporary design elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "kimono",
+          "pillars"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "corridor"
+        ],
+        "concepts": [
+          "tradition",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: kimono, pillars, watch, high heels, columns. Actions: walking, standing. Emotions: confidence. Scenes: urban, rainy, corridor. Concepts: tradition, modernity, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "kimono",
+      "pillars",
+      "watch",
+      "high heels",
+      "columns"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "rainy",
+      "corridor"
+    ],
+    "concepts": [
+      "tradition",
+      "modernity",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

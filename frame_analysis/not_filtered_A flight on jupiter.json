@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A flight on jupiter.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A flight on jupiter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A flight on jupiter/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mesmerizing cosmic storm unfolds in the vastness of space, with vibrant lightning illuminating swirling clouds. The scene is filled with dynamic energy as streaks of light pierce through the dark, ethereal atmosphere.",
+      "description": "The image depicts a dramatic cosmic scene, likely set in outer space, featuring a storm with vivid lightning and swirling clouds. The setting suggests a celestial phenomenon, possibly a nebula or a storm in a distant galaxy.",
+      "labels": {
+        "nature": [
+          "lightning",
+          "clouds",
+          "space"
+        ],
+        "objects": [
+          "nebula",
+          "cosmic storm"
+        ],
+        "actions": [
+          "swirling",
+          "illuminating"
+        ],
+        "emotions": [
+          "awe",
+          "mystery"
+        ],
+        "scenes": [
+          "outer space",
+          "celestial"
+        ],
+        "concepts": [
+          "cosmic phenomenon",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A flight on jupiter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A flight on jupiter/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic sky scene filled with swirling clouds and vibrant lightning. The clouds are illuminated by a mix of blue and pink hues, creating a mystical atmosphere.",
+      "description": "The scene captures a turbulent sky with thick, rolling clouds and striking lightning. The lighting and colors suggest a stormy yet ethereal setting.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "lightning"
+        ],
+        "objects": [
+          "sky"
+        ],
+        "actions": [
+          "storm"
+        ],
+        "emotions": [
+          "dramatic",
+          "mystical"
+        ],
+        "scenes": [
+          "stormy sky"
+        ],
+        "concepts": [
+          "weather",
+          "atmosphere"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: lightning, clouds, space. Objects: nebula, cosmic storm, sky. Actions: swirling, illuminating, storm. Emotions: awe, mystery, dramatic, mystical. Scenes: outer space, celestial, stormy sky. Concepts: cosmic phenomenon, energy, weather, atmosphere",
+  "primary_labels": {
+    "nature": [
+      "lightning",
+      "clouds",
+      "space"
+    ],
+    "objects": [
+      "nebula",
+      "cosmic storm",
+      "sky"
+    ],
+    "actions": [
+      "swirling",
+      "illuminating",
+      "storm"
+    ],
+    "emotions": [
+      "awe",
+      "mystery",
+      "dramatic",
+      "mystical"
+    ],
+    "scenes": [
+      "outer space",
+      "celestial",
+      "stormy sky"
+    ],
+    "concepts": [
+      "cosmic phenomenon",
+      "energy",
+      "weather",
+      "atmosphere"
+    ]
+  },
+  "metadata": {}
+}

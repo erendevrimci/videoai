@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dragon and cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dragon and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dragon and cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat and a friendly dragon sit at a wooden table by the beach, each with a glass of beer. They appear to be enjoying a sunny day, with a plate of grilled fish in front of them. The scene is set under a thatched roof with a clear blue sky and ocean in the background.",
+      "description": "The scene depicts a whimsical and relaxed beachside setting where a cat and a dragon are sharing a meal and drinks. The atmosphere is lighthearted and serene, emphasizing a sense of friendship and leisure.",
+      "labels": {
+        "animals": [
+          "cat",
+          "dragon"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "beer glasses",
+          "grilled fish",
+          "wooden table",
+          "thatched roof"
+        ],
+        "actions": [
+          "sitting",
+          "drinking"
+        ],
+        "emotions": [
+          "friendship",
+          "relaxation"
+        ],
+        "scenes": [
+          "beachside",
+          "dining"
+        ],
+        "concepts": [
+          "fantasy",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dragon and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dragon and cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat and a friendly dragon sit at a wooden table on a beach, each with a glass of beer. They appear to be enjoying a meal together, with a grilled fish on a platter in front of them. The ocean and a clear sky create a serene backdrop.",
+      "description": "The scene is set on a beach with a thatched roof overhead, featuring a cat and a dragon sharing a meal. The setting is relaxed and casual, suggesting a friendly gathering by the sea.",
+      "labels": {
+        "animals": [
+          "cat",
+          "dragon"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "beer glasses",
+          "wooden table",
+          "grilled fish"
+        ],
+        "actions": [
+          "sitting",
+          "drinking"
+        ],
+        "emotions": [
+          "friendliness",
+          "relaxation"
+        ],
+        "scenes": [
+          "beach setting",
+          "meal sharing"
+        ],
+        "concepts": [
+          "friendship",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, dragon. Nature: beach, ocean, sky. Objects: beer glasses, grilled fish, wooden table, thatched roof. Actions: sitting, drinking. Emotions: relaxation, friendship, friendliness. Scenes: beachside, dining, beach setting, meal sharing. Concepts: leisure, fantasy, friendship",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "dragon"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky"
+    ],
+    "objects": [
+      "beer glasses",
+      "grilled fish",
+      "wooden table",
+      "thatched roof"
+    ],
+    "actions": [
+      "sitting",
+      "drinking"
+    ],
+    "emotions": [
+      "relaxation",
+      "friendship",
+      "friendliness"
+    ],
+    "scenes": [
+      "beachside",
+      "dining",
+      "beach setting",
+      "meal sharing"
+    ],
+    "concepts": [
+      "leisure",
+      "fantasy",
+      "friendship"
+    ]
+  },
+  "metadata": {}
+}

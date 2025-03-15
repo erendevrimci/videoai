@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAVideoWhereA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAVideoWhereA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAVideoWhereA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair sits at an outdoor caf\u00e9 table, engrossed in her smartphone. In front of her is a glass of orange-colored drink with a straw, and a pair of sunglasses rests on the table.",
+      "description": "The scene is set in an outdoor caf\u00e9 or restaurant, with a relaxed and casual atmosphere. The woman appears to be enjoying a moment of leisure, possibly waiting for someone or simply taking a break.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "smartphone",
+          "glass",
+          "drink",
+          "sunglasses",
+          "table"
+        ],
+        "actions": [
+          "sitting",
+          "using smartphone"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "outdoor"
+        ],
+        "concepts": [
+          "leisure",
+          "technology use"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAVideoWhereA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAVideoWhereA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is captured in a moment of surprise or shock as she sits at a round wooden table. Her mouth is open, and her hair is being blown back by an unseen force, with small particles or sparks flying around her.",
+      "description": "The scene appears to be set in an outdoor or semi-outdoor environment, possibly a cafe or restaurant with a wooden table. The woman is reacting to something unexpected, creating a dynamic and intense atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "table",
+          "chair"
+        ],
+        "actions": [
+          "shouting",
+          "hair blowing"
+        ],
+        "emotions": [
+          "surprise",
+          "shock"
+        ],
+        "scenes": [
+          "outdoor",
+          "cafe"
+        ],
+        "concepts": [
+          "unexpected event",
+          "reaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: table, smartphone, glass, drink, sunglasses. Actions: sitting, using smartphone, shouting, hair blowing. Emotions: calm, focused, surprise, shock. Scenes: outdoor, caf\u00e9, cafe. Concepts: leisure, technology use, unexpected event, reaction",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "table",
+      "smartphone",
+      "glass",
+      "drink",
+      "sunglasses"
+    ],
+    "actions": [
+      "sitting",
+      "using smartphone",
+      "shouting",
+      "hair blowing"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "surprise",
+      "shock"
+    ],
+    "scenes": [
+      "outdoor",
+      "caf\u00e9",
+      "cafe"
+    ],
+    "concepts": [
+      "leisure",
+      "technology use",
+      "unexpected event",
+      "reaction"
+    ]
+  },
+  "metadata": {}
+}

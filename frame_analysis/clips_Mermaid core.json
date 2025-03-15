@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mermaid core.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mermaid core.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mermaid core/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is submerged underwater, adorned with a shimmering, embellished outfit and headpiece. The sunlight filters through the water, casting delicate patterns on their face and attire.",
+      "description": "The scene captures an underwater setting where a person is immersed, wearing a glittering, ornate costume. The water is clear, allowing sunlight to create a magical, ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "headpiece",
+          "embellished outfit"
+        ],
+        "actions": [
+          "submerged"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "ethereal",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mermaid core.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mermaid core/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is submerged underwater, wearing an ornate, shimmering outfit adorned with floral and sequin details. The lighting creates a serene and ethereal atmosphere, highlighting the intricate textures of the attire.",
+      "description": "The scene depicts an underwater setting where a person is captured in a moment of stillness. The focus is on the elaborate costume and the calm, dreamlike environment created by the water.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "ornate outfit",
+          "floral details",
+          "sequins"
+        ],
+        "actions": [
+          "submerged"
+        ],
+        "emotions": [
+          "serene",
+          "ethereal"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "fashion",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: water. Objects: headpiece, embellished outfit, ornate outfit, floral details, sequins. Actions: submerged. Emotions: serene, ethereal. Scenes: underwater. Concepts: ethereal, fantasy, fashion, tranquility",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "water"
+    ],
+    "objects": [
+      "headpiece",
+      "embellished outfit",
+      "ornate outfit",
+      "floral details",
+      "sequins"
+    ],
+    "actions": [
+      "submerged"
+    ],
+    "emotions": [
+      "serene",
+      "ethereal"
+    ],
+    "scenes": [
+      "underwater"
+    ],
+    "concepts": [
+      "ethereal",
+      "fantasy",
+      "fashion",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

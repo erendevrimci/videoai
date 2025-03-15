@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mood Dragon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mood Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mood Dragon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, egg-shaped object with a cratered surface stands prominently on a barren, rocky landscape. The scene is illuminated by a soft, bluish light, casting shadows on the textured ground.",
+      "description": "The image depicts a surreal, extraterrestrial landscape with a giant, moon-like egg resting on a rocky terrain. The setting suggests a mysterious and otherworldly environment, possibly on a distant planet or moon.",
+      "labels": {
+        "nature": [
+          "rocky landscape",
+          "craters"
+        ],
+        "objects": [
+          "egg-shaped object"
+        ],
+        "scenes": [
+          "extraterrestrial",
+          "surreal"
+        ],
+        "concepts": [
+          "mystery",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mood Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mood Dragon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, egg-shaped object with a cracked surface stands prominently on a barren, rocky terrain. The scene is illuminated by a dim, otherworldly light, casting shadows on the textured ground.",
+      "description": "The image depicts a mysterious, egg-like structure on a desolate, rocky landscape, possibly representing an alien or extraterrestrial setting. The crack on the surface of the egg suggests a sense of anticipation or emerging life.",
+      "labels": {
+        "nature": [
+          "rocky terrain"
+        ],
+        "objects": [
+          "egg-shaped object",
+          "crack"
+        ],
+        "scenes": [
+          "extraterrestrial landscape",
+          "mysterious setting"
+        ],
+        "concepts": [
+          "mystery",
+          "anticipation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mood Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mood Dragon/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A mythical creature resembling a dragon is emerging from a large egg in a rocky, barren landscape. The dragon has a fierce expression, with its mouth open as if roaring. The scene is illuminated by a soft light, highlighting the creature's scales and the texture of the egg.",
+      "description": "The scene depicts a dragon hatching from its egg in a desolate, rocky environment. The setting suggests a fantastical or otherworldly location, with the dragon as the central focus.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "rocks"
+        ],
+        "objects": [
+          "egg"
+        ],
+        "actions": [
+          "hatching"
+        ],
+        "emotions": [
+          "fierce"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "birth",
+          "emergence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: rocky landscape, craters, rocky terrain, rocks. Objects: egg-shaped object, crack, egg. Scenes: extraterrestrial, surreal, extraterrestrial landscape, mysterious setting, fantasy. Concepts: mystery, otherworldly, anticipation, birth, emergence. Animals: dragon. Actions: hatching. Emotions: fierce",
+  "primary_labels": {
+    "nature": [
+      "rocky landscape",
+      "craters",
+      "rocky terrain",
+      "rocks"
+    ],
+    "objects": [
+      "egg-shaped object",
+      "crack",
+      "egg"
+    ],
+    "scenes": [
+      "extraterrestrial",
+      "surreal",
+      "extraterrestrial landscape",
+      "mysterious setting",
+      "fantasy"
+    ],
+    "concepts": [
+      "mystery",
+      "otherworldly",
+      "anticipation",
+      "birth",
+      "emergence"
+    ],
+    "animals": [
+      "dragon"
+    ],
+    "actions": [
+      "hatching"
+    ],
+    "emotions": [
+      "fierce"
+    ]
+  },
+  "metadata": {}
+}

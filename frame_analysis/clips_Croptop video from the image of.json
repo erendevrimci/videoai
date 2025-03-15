@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop video from the image of.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop video from the image of.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop video from the image of/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red top and white pants walks confidently outside a modern building. She carries a black shoulder bag and appears content, with a slight smile on her face.",
+      "description": "The scene is set outside a contemporary building with large glass windows and a white counter. The woman is walking on a tiled pathway, suggesting a casual and relaxed atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "shoulder bag",
+          "red top",
+          "white pants",
+          "high heels"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop video from the image of.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop video from the image of/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red top and white pants walks confidently in a modern indoor setting. She carries a black shoulder bag and is surrounded by greenery and contemporary decor.",
+      "description": "The scene takes place in a stylish indoor environment with a modern aesthetic. The woman is walking along a pathway lined with plants, suggesting a blend of nature and urban design.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "plants"
+        ],
+        "objects": [
+          "shoulder bag",
+          "red top",
+          "white pants"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "modern"
+        ],
+        "concepts": [
+          "fashion",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop video from the image of.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop video from the image of/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman walks confidently along a modern outdoor setting, wearing a red top and white pants. She carries a black bag over her shoulder and appears content and relaxed.",
+      "description": "The scene captures a woman walking in an outdoor area with contemporary architecture in the background. The setting is likely a commercial or urban space with greenery and seating arrangements visible.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "red top",
+          "white pants",
+          "black bag"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "content",
+          "relaxed"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "modern architecture",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: red top, white pants, shoulder bag, high heels, black bag. Actions: walking. Emotions: contentment, confidence, content, relaxed. Scenes: outdoor, urban, indoor, modern. Concepts: fashion, confidence, urban, modern architecture. Nature: plants",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "red top",
+      "white pants",
+      "shoulder bag",
+      "high heels",
+      "black bag"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "contentment",
+      "confidence",
+      "content",
+      "relaxed"
+    ],
+    "scenes": [
+      "outdoor",
+      "urban",
+      "indoor",
+      "modern"
+    ],
+    "concepts": [
+      "fashion",
+      "confidence",
+      "urban",
+      "modern architecture"
+    ],
+    "nature": [
+      "plants"
+    ]
+  },
+  "metadata": {}
+}

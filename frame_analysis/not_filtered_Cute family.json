@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute family.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute family.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute family/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man is smiling warmly at two young girls who are looking at each other. The scene conveys a sense of closeness and affection among the group.",
+      "description": "The image depicts a tender moment between a man and two young girls, likely in an outdoor setting. The man is leaning in, smiling, while the girls share a gaze, suggesting a familial or friendly bond.",
+      "labels": {
+        "people": [
+          "man",
+          "girl",
+          "child"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "smiling",
+          "looking"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "outdoor",
+          "family"
+        ],
+        "concepts": [
+          "togetherness",
+          "bonding"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute family.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute family/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man lovingly embraces two young girls, creating a warm and tender moment. The children are close together, sharing a gentle interaction, while the man looks at them affectionately.",
+      "description": "The scene depicts a heartfelt family moment outdoors, possibly in a residential area. The focus is on the close bond between the man and the two children.",
+      "labels": {
+        "people": [
+          "man",
+          "two girls"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "embracing",
+          "looking"
+        ],
+        "emotions": [
+          "affection",
+          "warmth"
+        ],
+        "scenes": [
+          "family moment",
+          "outdoors"
+        ],
+        "concepts": [
+          "family",
+          "love",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, girl, child, two girls. Objects: clothing. Actions: looking, smiling, embracing. Emotions: affection, happiness, warmth. Scenes: outdoor, family, family moment, outdoors. Concepts: togetherness, bonding, family, love",
+  "primary_labels": {
+    "people": [
+      "man",
+      "girl",
+      "child",
+      "two girls"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "looking",
+      "smiling",
+      "embracing"
+    ],
+    "emotions": [
+      "affection",
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "outdoor",
+      "family",
+      "family moment",
+      "outdoors"
+    ],
+    "concepts": [
+      "togetherness",
+      "bonding",
+      "family",
+      "love"
+    ]
+  },
+  "metadata": {}
+}

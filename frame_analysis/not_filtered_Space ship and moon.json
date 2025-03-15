@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Space ship and moon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Space ship and moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Space ship and moon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, futuristic spacecraft hovers above a planet's atmosphere, with a distant moon visible in the background. The spacecraft's design is sleek and disc-shaped, suggesting advanced technology. Below, the planet's surface is partially obscured by clouds, with glowing lights indicating human or alien activity.",
+      "description": "The scene depicts a science fiction setting in outer space, featuring a spacecraft orbiting a planet. The environment is vast and serene, with a sense of exploration and technological advancement.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "planet",
+          "moon",
+          "clouds"
+        ],
+        "scenes": [
+          "outer space",
+          "orbit"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology",
+          "exploration"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Space ship and moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Space ship and moon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic spacecraft hovers above a planet, with a moon visible in the background. The scene captures the vastness of space, with the planet's atmosphere and surface illuminated by scattered lights. The spacecraft's sleek design suggests advanced technology and exploration.",
+      "description": "The image depicts a science fiction scene set in outer space. A large, disc-shaped spacecraft is positioned above a planet, with a distant moon visible in the dark expanse of space. The planet below is partially covered in clouds, with bright lights indicating activity or settlements on the surface.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "planet",
+          "moon"
+        ],
+        "scenes": [
+          "outer space",
+          "science fiction"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ],
+        "nature": [
+          "clouds",
+          "atmosphere"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Space ship and moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Space ship and moon/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A spacecraft hovers above a planet, with a distant moon visible in the background. The planet's surface is partially obscured by clouds, with glowing lights suggesting volcanic activity or city lights. The scene is set in the vastness of space, creating a sense of exploration and mystery.",
+      "description": "The scene depicts a futuristic spacecraft in orbit around a planet, with a moon in the background. The planet's surface shows signs of activity, possibly volcanic or urban, under a layer of clouds. The setting is outer space, emphasizing themes of exploration and the unknown.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "planet",
+          "moon",
+          "clouds"
+        ],
+        "nature": [
+          "space",
+          "planet",
+          "moon",
+          "clouds"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "scenes": [
+          "outer space",
+          "orbit"
+        ],
+        "concepts": [
+          "exploration",
+          "mystery"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: spacecraft, planet, moon, clouds. Scenes: outer space, orbit, science fiction. Concepts: exploration, technology, futuristic, mystery. Emotions: awe, wonder, curiosity. Nature: clouds, atmosphere, space, planet, moon. Actions: hovering",
+  "primary_labels": {
+    "objects": [
+      "spacecraft",
+      "planet",
+      "moon",
+      "clouds"
+    ],
+    "scenes": [
+      "outer space",
+      "orbit",
+      "science fiction"
+    ],
+    "concepts": [
+      "exploration",
+      "technology",
+      "futuristic",
+      "mystery"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "curiosity"
+    ],
+    "nature": [
+      "clouds",
+      "atmosphere",
+      "space",
+      "planet",
+      "moon"
+    ],
+    "actions": [
+      "hovering"
+    ]
+  },
+  "metadata": {}
+}

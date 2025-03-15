@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish diving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish diving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fish diving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene lakeside scene features a man in a white robe sitting on rocks by the water, observing a magical whirlpool. In the background, another figure in a robe stands on a wooden pier, gazing at the tranquil lake. The water reflects the soft glow of the evening light, creating a peaceful atmosphere.",
+      "description": "The scene is set by a calm lake surrounded by rocks and a wooden pier. The focus is on a man sitting by the water's edge, seemingly engaged in contemplation or meditation. The presence of a whirlpool adds a mystical element to the tranquil setting.",
+      "labels": {
+        "people": [
+          "man",
+          "figure"
+        ],
+        "nature": [
+          "lake",
+          "rocks"
+        ],
+        "objects": [
+          "whirlpool",
+          "pier"
+        ],
+        "actions": [
+          "sitting",
+          "observing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "lakeside",
+          "evening"
+        ],
+        "concepts": [
+          "tranquility",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish diving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fish diving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant scene captures a fish leaping out of a swirling whirlpool in a body of water. The fish's orange scales contrast against the deep blue of the water, creating a dynamic and lively image.",
+      "description": "The scene depicts a fish emerging from a whirlpool in a vibrant aquatic setting. The water is in motion, creating a sense of energy and movement.",
+      "labels": {
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "water",
+          "whirlpool"
+        ],
+        "objects": [],
+        "actions": [
+          "leaping",
+          "swirling"
+        ],
+        "emotions": [
+          "dynamic"
+        ],
+        "scenes": [
+          "aquatic"
+        ],
+        "concepts": [
+          "motion",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, figure. Nature: lake, rocks, water, whirlpool. Objects: whirlpool, pier. Actions: sitting, observing, leaping, swirling. Emotions: serene, contemplative, dynamic. Scenes: lakeside, evening, aquatic. Concepts: tranquility, mysticism, motion, contrast. Animals: fish",
+  "primary_labels": {
+    "people": [
+      "man",
+      "figure"
+    ],
+    "nature": [
+      "lake",
+      "rocks",
+      "water",
+      "whirlpool"
+    ],
+    "objects": [
+      "whirlpool",
+      "pier"
+    ],
+    "actions": [
+      "sitting",
+      "observing",
+      "leaping",
+      "swirling"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "dynamic"
+    ],
+    "scenes": [
+      "lakeside",
+      "evening",
+      "aquatic"
+    ],
+    "concepts": [
+      "tranquility",
+      "mysticism",
+      "motion",
+      "contrast"
+    ],
+    "animals": [
+      "fish"
+    ]
+  },
+  "metadata": {}
+}

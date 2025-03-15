@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trinity Walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trinity Walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Trinity Walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person wearing a sleek black outfit and sunglasses stands confidently. The attire is form-fitting and has a glossy texture, suggesting a futuristic or action-oriented theme.",
+      "description": "The scene features a person in a stylish, possibly tactical outfit, suggesting a setting related to action or science fiction. The background is transparent, focusing attention solely on the individual.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sunglasses",
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "futuristic",
+          "action"
+        ],
+        "concepts": [
+          "style",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trinity Walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Trinity Walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently against a plain white background, wearing a sleek black outfit and sunglasses. The attire is form-fitting and exudes a sense of strength and determination.",
+      "description": "The scene depicts a solitary figure in a minimalist setting, emphasizing their bold and assertive presence. The white background contrasts sharply with the dark clothing, highlighting the individual's commanding appearance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sunglasses",
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "strength",
+          "determination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trinity Walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Trinity Walking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person with short hair is wearing dark sunglasses and a shiny black sleeveless outfit. They are looking slightly downward with a confident expression against a plain white background.",
+      "description": "The scene features a single individual in a minimalist setting, emphasizing their attire and demeanor. The focus is on the person's stylish appearance and confident posture.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sunglasses",
+          "black outfit"
+        ],
+        "actions": [
+          "looking downward"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: sunglasses, black outfit. Actions: standing, looking downward. Emotions: confidence, confident. Scenes: minimalist, futuristic, action. Concepts: style, fashion, strength, determination",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "sunglasses",
+      "black outfit"
+    ],
+    "actions": [
+      "standing",
+      "looking downward"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "minimalist",
+      "futuristic",
+      "action"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "strength",
+      "determination"
+    ]
+  },
+  "metadata": {}
+}

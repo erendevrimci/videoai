@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheUkrainianGirlOnThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheUkrainianGirlOnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheUkrainianGirlOnThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman lovingly embraces a young girl, both sharing a joyful moment. The girl is wearing a vibrant orange dress with decorative patterns, and both are smiling warmly.",
+      "description": "The scene captures a tender moment between a woman and a child, likely in a familial setting. The focus is on their expressions and the affectionate gesture, suggesting a close bond.",
+      "labels": {
+        "people": [
+          "woman",
+          "child"
+        ],
+        "objects": [
+          "dress",
+          "clothing"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "affection"
+        ],
+        "scenes": [
+          "family moment",
+          "indoor"
+        ],
+        "concepts": [
+          "love",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheUkrainianGirlOnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheUkrainianGirlOnThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman lovingly embraces a young girl, both sharing a tender moment. The woman gently holds the child close, while the girl smiles softly with her eyes closed.",
+      "description": "The scene captures a heartfelt interaction between a woman and a young girl, suggesting a familial or nurturing relationship. The setting appears to be indoors with a warm and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "girl"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "intimate moment",
+          "family interaction"
+        ],
+        "concepts": [
+          "love",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, child, girl. Objects: clothing, dress. Actions: embracing, smiling. Emotions: affection, joy, happiness. Scenes: family moment, indoor, intimate moment, family interaction. Concepts: love, happiness, care",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "child",
+      "girl"
+    ],
+    "objects": [
+      "clothing",
+      "dress"
+    ],
+    "actions": [
+      "embracing",
+      "smiling"
+    ],
+    "emotions": [
+      "affection",
+      "joy",
+      "happiness"
+    ],
+    "scenes": [
+      "family moment",
+      "indoor",
+      "intimate moment",
+      "family interaction"
+    ],
+    "concepts": [
+      "love",
+      "happiness",
+      "care"
+    ]
+  },
+  "metadata": {}
+}

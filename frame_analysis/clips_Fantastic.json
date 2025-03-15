@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantastic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantastic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantastic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a blue blazer sits at a wooden table in a cozy cafe, holding a coffee cup and working on a laptop. The warm ambient lighting creates a relaxed atmosphere, with blurred background elements suggesting a bustling cafe environment.",
+      "description": "The scene takes place in a cozy cafe, where a woman is seated at a table with a laptop and a coffee cup. The setting is warm and inviting, with ambient lighting and a blurred background indicating a lively cafe atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "table",
+          "chair"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "focused",
+          "calm"
+        ],
+        "scenes": [
+          "cafe",
+          "indoor"
+        ],
+        "concepts": [
+          "work",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantastic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantastic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman sits at a small table in a dimly lit cafe, focused on her laptop. A mystical glow emanates from the screen, casting light on her face and surroundings. The atmosphere is serene and otherworldly, with a backdrop of a cavernous landscape visible through a large window.",
+      "description": "The scene is set in a cozy cafe with a mystical ambiance. A woman is engaged with her laptop, surrounded by a soft, ethereal glow. The setting suggests a blend of technology and fantasy, with a cave-like view outside.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "table",
+          "chair"
+        ],
+        "actions": [
+          "sitting",
+          "using laptop"
+        ],
+        "emotions": [
+          "focused",
+          "calm"
+        ],
+        "scenes": [
+          "cafe",
+          "indoor",
+          "fantasy"
+        ],
+        "concepts": [
+          "technology",
+          "mystical",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantastic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantastic/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a blue suit sits at a caf\u00e9 table, working on her laptop with a coffee cup beside her. The background reveals a stunning, surreal landscape with rolling hills and dramatic skies, blending the indoors with an expansive outdoor view.",
+      "description": "The scene is set in a caf\u00e9 where a woman is engaged in work on her laptop. The setting merges with a fantastical landscape, creating a blend of reality and imagination.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "table",
+          "chair"
+        ],
+        "nature": [
+          "hills",
+          "sky"
+        ],
+        "actions": [
+          "sitting",
+          "working"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "fantasy landscape"
+        ],
+        "concepts": [
+          "surrealism",
+          "work"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: laptop, coffee cup, table, chair. Actions: sitting, holding, using laptop, working. Emotions: focused, calm. Scenes: cafe, indoor, fantasy, caf\u00e9, fantasy landscape. Concepts: work, relaxation, technology, mystical, serenity. Nature: hills, sky",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "laptop",
+      "coffee cup",
+      "table",
+      "chair"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "using laptop",
+      "working"
+    ],
+    "emotions": [
+      "focused",
+      "calm"
+    ],
+    "scenes": [
+      "cafe",
+      "indoor",
+      "fantasy",
+      "caf\u00e9",
+      "fantasy landscape"
+    ],
+    "concepts": [
+      "work",
+      "relaxation",
+      "technology",
+      "mystical",
+      "serenity"
+    ],
+    "nature": [
+      "hills",
+      "sky"
+    ]
+  },
+  "metadata": {}
+}

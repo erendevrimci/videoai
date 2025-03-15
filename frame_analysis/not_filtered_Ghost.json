@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ghost.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ghost.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ghost/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic figure in a sleek, black armored suit stands atop a skyscraper, overlooking a sprawling cityscape illuminated by countless lights. The city stretches into the horizon under a deep blue sky, creating a striking contrast with the figure's dark attire.",
+      "description": "The scene is set in a futuristic urban environment, high above a bustling city. The focus is on a solitary figure in advanced armor, suggesting a blend of technology and mystery.",
+      "labels": {
+        "people": [
+          "futuristic figure"
+        ],
+        "objects": [
+          "armored suit",
+          "skyscraper",
+          "cityscape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic city",
+          "nighttime"
+        ],
+        "concepts": [
+          "technology",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ghost.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ghost/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic figure in a sleek, black armored suit stands atop a skyscraper, overlooking a sprawling, illuminated cityscape at dusk. The city lights create a vibrant backdrop, highlighting the figure's high-tech appearance and mysterious presence.",
+      "description": "The scene is set on a rooftop of a tall building in a bustling metropolis during the evening. The city below is alive with lights, suggesting a vibrant urban environment. The main focus is on a person in advanced, possibly robotic armor, suggesting a science fiction or cyberpunk theme.",
+      "labels": {
+        "people": [
+          "futuristic figure"
+        ],
+        "objects": [
+          "armored suit",
+          "skyscraper",
+          "cityscape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "cyberpunk",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ghost.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ghost/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic figure in a sleek, armored suit stands atop a skyscraper overlooking a sprawling, illuminated cityscape at night. The city below is alive with lights, creating a vibrant backdrop for the solitary figure.",
+      "description": "The scene is set in a futuristic urban environment, with a focus on a lone figure in advanced armor standing high above a bustling city. The city is brightly lit, suggesting a lively, possibly technologically advanced setting.",
+      "labels": {
+        "people": [
+          "armored figure"
+        ],
+        "objects": [
+          "armor",
+          "skyscraper"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "solitude"
+        ],
+        "scenes": [
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: futuristic figure, armored figure. Objects: skyscraper, armored suit, cityscape, armor. Actions: standing. Emotions: mysterious, solitude. Scenes: cityscape, night, futuristic city, nighttime, urban. Concepts: technology, futuristic, solitude, cyberpunk",
+  "primary_labels": {
+    "people": [
+      "futuristic figure",
+      "armored figure"
+    ],
+    "objects": [
+      "skyscraper",
+      "armored suit",
+      "cityscape",
+      "armor"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "mysterious",
+      "solitude"
+    ],
+    "scenes": [
+      "cityscape",
+      "night",
+      "futuristic city",
+      "nighttime",
+      "urban"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic",
+      "solitude",
+      "cyberpunk"
+    ]
+  },
+  "metadata": {}
+}

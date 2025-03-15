@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/outdoor cooking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/outdoor cooking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/outdoor cooking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young animated character is cooking in a cozy setting, holding a pan with a gentle smile. The scene is warmly lit, creating a welcoming atmosphere with steam rising from the pan.",
+      "description": "The scene depicts a young animated character in a kitchen-like environment, engaged in cooking. The setting is intimate and warm, suggesting a comfortable and homely atmosphere.",
+      "labels": {
+        "people": [
+          "animated character",
+          "young boy"
+        ],
+        "objects": [
+          "pan",
+          "stove",
+          "kitchen"
+        ],
+        "actions": [
+          "cooking",
+          "holding pan"
+        ],
+        "emotions": [
+          "content",
+          "happy"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "animation",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/outdoor cooking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/outdoor cooking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young animated character with dark hair is smiling warmly while cooking. He is holding a frying pan, with steam rising, suggesting he is preparing a meal. The background shows a cozy indoor setting with soft lighting.",
+      "description": "The scene depicts a cheerful animated character cooking in a warm, inviting environment. The character's expression conveys a sense of enjoyment and contentment, enhancing the cozy atmosphere.",
+      "labels": {
+        "people": [
+          "animated character",
+          "young boy"
+        ],
+        "objects": [
+          "frying pan",
+          "stove",
+          "steam"
+        ],
+        "actions": [
+          "cooking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "animation",
+          "warmth",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated character, young boy. Objects: stove, pan, kitchen, frying pan, steam. Actions: cooking, holding pan, smiling. Emotions: content, happy, happiness, contentment. Scenes: indoor, kitchen. Concepts: animation, coziness, warmth",
+  "primary_labels": {
+    "people": [
+      "animated character",
+      "young boy"
+    ],
+    "objects": [
+      "stove",
+      "pan",
+      "kitchen",
+      "frying pan",
+      "steam"
+    ],
+    "actions": [
+      "cooking",
+      "holding pan",
+      "smiling"
+    ],
+    "emotions": [
+      "content",
+      "happy",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "indoor",
+      "kitchen"
+    ],
+    "concepts": [
+      "animation",
+      "coziness",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

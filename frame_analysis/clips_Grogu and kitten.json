@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grogu and kitten.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grogu and kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grogu and kitten/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, green character resembling a popular fictional creature sits beside a kitten by a lakeside, both holding cookies. A jar filled with cookies is placed between them, with several cookies scattered on the ground. The background features a serene lake and lush greenery.",
+      "description": "The scene is set outdoors by a tranquil lakeside with dense forest in the background. A fictional character and a kitten are enjoying cookies together, creating a whimsical and endearing moment.",
+      "labels": {
+        "people": [
+          "fictional character"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "lake",
+          "forest"
+        ],
+        "objects": [
+          "cookies",
+          "jar"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "lakeside"
+        ],
+        "concepts": [
+          "friendship",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grogu and kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grogu and kitten/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, green character and a kitten sit by a lakeside, each holding a cookie. A jar filled with cookies is placed between them on the ground. The background features a serene lake and lush greenery.",
+      "description": "The scene is set by a tranquil lakeside with a forest in the background. A fictional character and a kitten are enjoying cookies together, creating a whimsical and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "fictional character"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "lake",
+          "forest"
+        ],
+        "objects": [
+          "cookies",
+          "jar"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "peaceful",
+          "whimsical"
+        ],
+        "scenes": [
+          "lakeside",
+          "outdoors"
+        ],
+        "concepts": [
+          "friendship",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fictional character. Animals: kitten. Nature: lake, forest. Objects: cookies, jar. Actions: eating. Emotions: playful, joyful, peaceful, whimsical. Scenes: lakeside, outdoor, outdoors. Concepts: friendship, whimsy, serenity",
+  "primary_labels": {
+    "people": [
+      "fictional character"
+    ],
+    "animals": [
+      "kitten"
+    ],
+    "nature": [
+      "lake",
+      "forest"
+    ],
+    "objects": [
+      "cookies",
+      "jar"
+    ],
+    "actions": [
+      "eating"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "peaceful",
+      "whimsical"
+    ],
+    "scenes": [
+      "lakeside",
+      "outdoor",
+      "outdoors"
+    ],
+    "concepts": [
+      "friendship",
+      "whimsy",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

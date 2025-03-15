@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mood.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mood.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mood/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits by a window, eyes closed, holding a steaming cup of coffee. The warm sunlight filters through her hair, creating a serene and peaceful atmosphere.",
+      "description": "The scene captures a tranquil moment of relaxation as a woman enjoys a quiet morning by the window. The soft sunlight and steam from the coffee add to the calm and cozy setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cup",
+          "window"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "indoor",
+          "morning"
+        ],
+        "concepts": [
+          "relaxation",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mood.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mood/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman sits by a window, eyes closed, savoring the warmth of a steaming cup of coffee. The golden sunlight filters through her hair, creating a serene and peaceful atmosphere.",
+      "description": "The scene captures a tranquil moment of relaxation as a woman enjoys a hot beverage by the window. The soft, warm lighting suggests a morning or late afternoon setting, enhancing the calm ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cup",
+          "window"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "relaxation"
+        ],
+        "concepts": [
+          "morning",
+          "peaceful moment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: cup, window. Actions: sitting, holding. Emotions: serenity, peacefulness, calm. Scenes: indoor, morning, relaxation. Concepts: relaxation, calm, morning, peaceful moment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "cup",
+      "window"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "morning",
+      "relaxation"
+    ],
+    "concepts": [
+      "relaxation",
+      "calm",
+      "morning",
+      "peaceful moment"
+    ]
+  },
+  "metadata": {}
+}

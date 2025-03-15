@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/OrangeCatHitsTheAlligator.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/OrangeCatHitsTheAlligator.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/OrangeCatHitsTheAlligator/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat playfully interacts with a small crocodile, holding a spatula between them. The scene takes place in an aquarium-like setting with a blurred aquatic background.",
+      "description": "The image captures a whimsical moment where a cat and a crocodile appear to be engaging in a playful exchange. The setting resembles an aquarium, providing a unique backdrop for this humorous interaction.",
+      "labels": {
+        "animals": [
+          "cat",
+          "crocodile"
+        ],
+        "objects": [
+          "spatula"
+        ],
+        "actions": [
+          "interaction",
+          "play"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "aquarium"
+        ],
+        "concepts": [
+          "humor",
+          "animal interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/OrangeCatHitsTheAlligator.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/OrangeCatHitsTheAlligator/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat playfully interacts with a crocodile, both standing upright. The cat holds a small paddle, engaging the crocodile in a whimsical manner.",
+      "description": "The scene depicts a humorous interaction between a cat and a crocodile in an indoor setting, possibly a zoo or aquarium. The animals appear to be engaged in a playful activity, adding a surreal and lighthearted tone to the image.",
+      "labels": {
+        "animals": [
+          "cat",
+          "crocodile"
+        ],
+        "objects": [
+          "paddle"
+        ],
+        "actions": [
+          "playing",
+          "interacting"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "indoor",
+          "aquarium"
+        ],
+        "concepts": [
+          "humor",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, crocodile. Objects: spatula, paddle. Actions: interaction, play, playing, interacting. Emotions: playful, whimsical. Scenes: aquarium, indoor. Concepts: humor, animal interaction, surreal",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "crocodile"
+    ],
+    "objects": [
+      "spatula",
+      "paddle"
+    ],
+    "actions": [
+      "interaction",
+      "play",
+      "playing",
+      "interacting"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "aquarium",
+      "indoor"
+    ],
+    "concepts": [
+      "humor",
+      "animal interaction",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlHoldsLightIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlHoldsLightIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlHoldsLightIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers grilling a large steak on a barbecue. The workers, wearing yellow helmets and vests, appear to be tending to the steak as if it were a construction site. Flames and sparks surround the grill, adding a dynamic and playful element to the scene.",
+      "description": "The image portrays a creative and humorous setting where tiny construction workers are engaged in cooking a steak on a grill. The scene combines elements of construction and cooking in a surreal and imaginative way.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "steak",
+          "grill",
+          "helmets",
+          "vests"
+        ],
+        "actions": [
+          "grilling",
+          "tending"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "barbecue",
+          "construction"
+        ],
+        "concepts": [
+          "surrealism",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlHoldsLightIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlHoldsLightIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical scene where miniature construction workers appear to be grilling a large steak over an open flame. The workers are dressed in bright yellow safety vests and helmets, giving the impression of a construction site. The steak is positioned on a grill, with flames and sparks adding to the dramatic effect.",
+      "description": "This imaginative scene combines elements of cooking and construction, creating a playful and surreal atmosphere. The miniature workers are engaged in activities that mimic real-life construction tasks, but on a giant piece of steak.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "steak",
+          "grill",
+          "construction helmets",
+          "safety vests"
+        ],
+        "actions": [
+          "grilling",
+          "construction"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "cooking",
+          "construction"
+        ],
+        "concepts": [
+          "surrealism",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: steak, grill, helmets, vests, construction helmets. Actions: grilling, tending, construction. Emotions: playful, whimsical. Scenes: construction, barbecue, cooking. Concepts: surrealism, creativity, miniature",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "steak",
+      "grill",
+      "helmets",
+      "vests",
+      "construction helmets"
+    ],
+    "actions": [
+      "grilling",
+      "tending",
+      "construction"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "construction",
+      "barbecue",
+      "cooking"
+    ],
+    "concepts": [
+      "surrealism",
+      "creativity",
+      "miniature"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider + venom hybrid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider + venom hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ghost rider + venom hybrid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fiery figure with a flaming skull rides a motorcycle through a city street, leaving a trail of fire. Beside him, a large, menacing creature with sharp teeth and a muscular build looms, adding to the intense scene.",
+      "description": "The scene is set in an urban environment with towering buildings in the background, creating a dramatic and action-packed atmosphere. The focus is on a supernatural rider and a monstrous figure, both exuding power and intensity.",
+      "labels": {
+        "people": [
+          "rider",
+          "creature"
+        ],
+        "objects": [
+          "motorcycle",
+          "flames"
+        ],
+        "actions": [
+          "riding",
+          "looming"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "action"
+        ],
+        "concepts": [
+          "supernatural",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider + venom hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ghost rider + venom hybrid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing creature with fiery eyes rides a motorcycle down a road, leaving a trail of flames behind. The creature's body is adorned with dark, swirling tendrils, and its expression is fierce and intimidating. The scene is dynamic and intense, with flames illuminating the path.",
+      "description": "The scene depicts a supernatural entity riding a motorcycle on a road, surrounded by flames and smoke. The setting appears to be a misty, forested area, adding to the eerie and otherworldly atmosphere.",
+      "labels": {
+        "people": [
+          "creature"
+        ],
+        "objects": [
+          "motorcycle",
+          "flames",
+          "tendrils"
+        ],
+        "actions": [
+          "riding",
+          "leaving trail"
+        ],
+        "emotions": [
+          "intense",
+          "menacing"
+        ],
+        "scenes": [
+          "road",
+          "forest"
+        ],
+        "concepts": [
+          "supernatural",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: creature, rider. Objects: motorcycle, flames, tendrils. Actions: riding, looming, leaving trail. Emotions: intensity, intense, menacing. Scenes: urban, action, road, forest. Concepts: supernatural, power, dynamic",
+  "primary_labels": {
+    "people": [
+      "creature",
+      "rider"
+    ],
+    "objects": [
+      "motorcycle",
+      "flames",
+      "tendrils"
+    ],
+    "actions": [
+      "riding",
+      "looming",
+      "leaving trail"
+    ],
+    "emotions": [
+      "intensity",
+      "intense",
+      "menacing"
+    ],
+    "scenes": [
+      "urban",
+      "action",
+      "road",
+      "forest"
+    ],
+    "concepts": [
+      "supernatural",
+      "power",
+      "dynamic"
+    ]
+  },
+  "metadata": {}
+}

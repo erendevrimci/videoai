@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePianistPlaysThePiano.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePianistPlaysThePiano.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePianistPlaysThePiano/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a person with a head made of vibrant red roses, seated at a white piano. Rose petals are scattered on the floor and floating in the air, creating a whimsical and dreamlike atmosphere.",
+      "description": "The image presents a surreal and artistic setting where a figure with a bouquet of roses for a head plays the piano. The scene is filled with rose petals, enhancing the fantastical and imaginative mood.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "roses",
+          "rose petals"
+        ],
+        "objects": [
+          "piano",
+          "piano bench"
+        ],
+        "actions": [
+          "playing piano"
+        ],
+        "emotions": [
+          "whimsical",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePianistPlaysThePiano.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePianistPlaysThePiano/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with a head made of vibrant red flowers sits at a white piano, surrounded by scattered petals. The scene is illuminated with soft, dramatic lighting, creating a surreal and artistic atmosphere.",
+      "description": "The image depicts a surreal scene where a person with a head composed of red flowers is playing a white piano. The floor and air are filled with red petals, adding to the dreamlike quality of the setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "flowers",
+          "petals"
+        ],
+        "objects": [
+          "piano",
+          "piano bench"
+        ],
+        "actions": [
+          "playing piano"
+        ],
+        "emotions": [
+          "surreal",
+          "artistic"
+        ],
+        "scenes": [
+          "indoor",
+          "performance"
+        ],
+        "concepts": [
+          "creativity",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: roses, rose petals, flowers, petals. Objects: piano, piano bench. Actions: playing piano. Emotions: whimsical, dreamlike, surreal, artistic. Scenes: surreal, artistic, indoor, performance. Concepts: creativity, fantasy, art",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "roses",
+      "rose petals",
+      "flowers",
+      "petals"
+    ],
+    "objects": [
+      "piano",
+      "piano bench"
+    ],
+    "actions": [
+      "playing piano"
+    ],
+    "emotions": [
+      "whimsical",
+      "dreamlike",
+      "surreal",
+      "artistic"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "indoor",
+      "performance"
+    ],
+    "concepts": [
+      "creativity",
+      "fantasy",
+      "art"
+    ]
+  },
+  "metadata": {}
+}

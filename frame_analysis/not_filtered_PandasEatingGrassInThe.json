@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PandasEatingGrassInThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PandasEatingGrassInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PandasEatingGrassInThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate glass terrarium encases a miniature forest scene with two small panda figures amidst lush greenery and tiny trees. The terrarium rests on a wooden base, creating a serene and whimsical display.",
+      "description": "The scene depicts a miniature forest environment inside a glass terrarium, featuring two panda figures surrounded by vibrant green foliage and small trees. The setting is tranquil and artistic, capturing a slice of nature in a contained space.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "terrarium",
+          "glass",
+          "wooden base"
+        ],
+        "scenes": [
+          "miniature",
+          "display"
+        ],
+        "concepts": [
+          "serenity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PandasEatingGrassInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PandasEatingGrassInThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature scene inside a glass sphere features two small panda figures amidst a lush, green forest setting. The pandas are surrounded by detailed trees and moss, creating a serene and enchanting atmosphere.",
+      "description": "The scene is set within a glass sphere, showcasing a miniature forest environment with two panda figures. The setting is tranquil and detailed, capturing the essence of a natural habitat in a small, contained space.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "moss"
+        ],
+        "objects": [
+          "glass sphere",
+          "miniature figures"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ],
+        "scenes": [
+          "miniature diorama",
+          "natural habitat"
+        ],
+        "concepts": [
+          "miniature art",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: panda. Nature: forest, trees, greenery, moss. Objects: terrarium, glass, wooden base, glass sphere, miniature figures. Scenes: miniature, display, miniature diorama, natural habitat. Concepts: serenity, whimsy, miniature art, tranquility. Emotions: serene, enchanting",
+  "primary_labels": {
+    "animals": [
+      "panda"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "greenery",
+      "moss"
+    ],
+    "objects": [
+      "terrarium",
+      "glass",
+      "wooden base",
+      "glass sphere",
+      "miniature figures"
+    ],
+    "scenes": [
+      "miniature",
+      "display",
+      "miniature diorama",
+      "natural habitat"
+    ],
+    "concepts": [
+      "serenity",
+      "whimsy",
+      "miniature art",
+      "tranquility"
+    ],
+    "emotions": [
+      "serene",
+      "enchanting"
+    ]
+  },
+  "metadata": {}
+}

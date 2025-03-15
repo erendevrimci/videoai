@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/albert as a DJ.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/albert as a DJ.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/albert as a DJ/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An older man with distinctive white hair stands at a DJ booth, turning to look at the camera. He is surrounded by a large, enthusiastic crowd in a dimly lit venue.",
+      "description": "The scene takes place in a lively concert or club setting, with a DJ performing in front of a cheering audience. The atmosphere is vibrant and engaging, with bright stage lights illuminating the performer.",
+      "labels": {
+        "people": [
+          "DJ",
+          "crowd"
+        ],
+        "objects": [
+          "DJ booth",
+          "turntable"
+        ],
+        "actions": [
+          "performing",
+          "DJing"
+        ],
+        "emotions": [
+          "enthusiasm",
+          "engagement"
+        ],
+        "scenes": [
+          "concert",
+          "club"
+        ],
+        "concepts": [
+          "music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/albert as a DJ.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/albert as a DJ/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man with distinctive white hair and a mustache stands at a DJ booth, engaging with a large crowd. The scene is set in a dimly lit venue with bright stage lights illuminating the man and the audience.",
+      "description": "The image depicts a lively concert or club setting where an older gentleman, dressed in a cozy sweater, is performing as a DJ. The crowd is visible in the background, suggesting a vibrant and energetic atmosphere.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "crowd"
+        ],
+        "objects": [
+          "DJ booth",
+          "turntable",
+          "stage lights"
+        ],
+        "actions": [
+          "DJing",
+          "crowd engagement"
+        ],
+        "emotions": [
+          "excitement",
+          "enthusiasm"
+        ],
+        "scenes": [
+          "concert",
+          "club"
+        ],
+        "concepts": [
+          "unexpected juxtaposition",
+          "music performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, DJ, elderly man. Objects: DJ booth, turntable, stage lights. Actions: DJing, performing, crowd engagement. Emotions: enthusiasm, engagement, excitement. Scenes: concert, club. Concepts: music, performance, unexpected juxtaposition, music performance",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "DJ",
+      "elderly man"
+    ],
+    "objects": [
+      "DJ booth",
+      "turntable",
+      "stage lights"
+    ],
+    "actions": [
+      "DJing",
+      "performing",
+      "crowd engagement"
+    ],
+    "emotions": [
+      "enthusiasm",
+      "engagement",
+      "excitement"
+    ],
+    "scenes": [
+      "concert",
+      "club"
+    ],
+    "concepts": [
+      "music",
+      "performance",
+      "unexpected juxtaposition",
+      "music performance"
+    ]
+  },
+  "metadata": {}
+}

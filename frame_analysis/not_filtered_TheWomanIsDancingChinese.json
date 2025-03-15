@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanIsDancingChinese.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanIsDancingChinese.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWomanIsDancingChinese/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in traditional attire gracefully dances beneath a soaring hawk. The scene is illuminated by ethereal light and surrounded by sparkling particles, creating a mystical atmosphere.",
+      "description": "The image captures a serene and mystical moment where a woman in elaborate traditional clothing performs a dance. Above her, a hawk spreads its wings, adding a sense of freedom and grace to the scene. The setting is enhanced by soft lighting and floating sparkles, suggesting a magical or ceremonial context.",
+      "labels": {
+        "people": [
+          "woman",
+          "dancer"
+        ],
+        "animals": [
+          "hawk"
+        ],
+        "nature": [],
+        "objects": [
+          "traditional clothing",
+          "sparkles"
+        ],
+        "actions": [
+          "dancing",
+          "flying"
+        ],
+        "emotions": [
+          "serenity",
+          "grace"
+        ],
+        "scenes": [
+          "mystical",
+          "ceremonial"
+        ],
+        "concepts": [
+          "tradition",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanIsDancingChinese.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWomanIsDancingChinese/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in traditional attire gracefully poses with her arms extended, while a majestic bird of prey soars above her. The scene is illuminated by dramatic lighting, casting shadows and highlighting intricate details of her garment. Sparks float in the air, adding a mystical element to the composition.",
+      "description": "The scene captures a dynamic interaction between a woman and a bird in a theatrical setting. The atmosphere is mystical and dramatic, enhanced by the use of lighting and special effects.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "bird of prey"
+        ],
+        "objects": [
+          "traditional attire"
+        ],
+        "actions": [
+          "posing",
+          "flying"
+        ],
+        "emotions": [
+          "graceful",
+          "mystical"
+        ],
+        "scenes": [
+          "theatrical",
+          "dramatic"
+        ],
+        "concepts": [
+          "interaction",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, dancer. Animals: hawk, bird of prey. Objects: traditional clothing, sparkles, traditional attire. Actions: flying, dancing, posing. Emotions: serenity, grace, graceful, mystical. Scenes: mystical, ceremonial, theatrical, dramatic. Concepts: tradition, freedom, interaction, elegance",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "dancer"
+    ],
+    "animals": [
+      "hawk",
+      "bird of prey"
+    ],
+    "nature": [],
+    "objects": [
+      "traditional clothing",
+      "sparkles",
+      "traditional attire"
+    ],
+    "actions": [
+      "flying",
+      "dancing",
+      "posing"
+    ],
+    "emotions": [
+      "serenity",
+      "grace",
+      "graceful",
+      "mystical"
+    ],
+    "scenes": [
+      "mystical",
+      "ceremonial",
+      "theatrical",
+      "dramatic"
+    ],
+    "concepts": [
+      "tradition",
+      "freedom",
+      "interaction",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

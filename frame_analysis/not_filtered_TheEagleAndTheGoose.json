@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheEagleAndTheGoose.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheEagleAndTheGoose.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheEagleAndTheGoose/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An eagle and a goose stand facing each other in a lush, vibrant forest setting. A waterfall cascades in the background, surrounded by dense greenery and a clear blue sky with birds flying overhead.",
+      "description": "The scene depicts a serene and vibrant forest environment with an eagle and a goose as the central figures. The waterfall and lush greenery create a peaceful and natural backdrop.",
+      "labels": {
+        "animals": [
+          "eagle",
+          "goose",
+          "birds"
+        ],
+        "nature": [
+          "forest",
+          "waterfall",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "water",
+          "rocks"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "nature",
+          "wildlife"
+        ],
+        "concepts": [
+          "harmony",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheEagleAndTheGoose.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheEagleAndTheGoose/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fantastical creature resembling a muscular bird with the body of a goose and the limbs of a powerful beast stands poised against a dramatic cloudy sky. Its wings are spread wide, showcasing a blend of feathers and sinewy muscles, while its talons grip the ground with intensity. The scene captures a moment of tension and strength, as if the creature is ready to take flight or engage in a powerful action.",
+      "description": "The scene depicts a surreal, mythical creature in a dramatic, stormy setting. The creature combines features of a bird and a beast, standing prominently with its wings extended against a backdrop of dark, swirling clouds.",
+      "labels": {
+        "animals": [
+          "goose",
+          "mythical creature"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "objects": [
+          "feathers",
+          "muscles"
+        ],
+        "actions": [
+          "standing",
+          "spreading wings"
+        ],
+        "emotions": [
+          "intensity",
+          "strength"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "mythology",
+          "hybrid creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: goose, eagle, birds, mythical creature. Nature: forest, waterfall, trees, sky, cloudy sky. Objects: water, rocks, feathers, muscles. Actions: standing, facing, spreading wings. Emotions: serene, peaceful, intensity, strength. Scenes: nature, wildlife, fantasy, dramatic. Concepts: harmony, natural beauty, mythology, hybrid creature",
+  "primary_labels": {
+    "animals": [
+      "goose",
+      "eagle",
+      "birds",
+      "mythical creature"
+    ],
+    "nature": [
+      "forest",
+      "waterfall",
+      "trees",
+      "sky",
+      "cloudy sky"
+    ],
+    "objects": [
+      "water",
+      "rocks",
+      "feathers",
+      "muscles"
+    ],
+    "actions": [
+      "standing",
+      "facing",
+      "spreading wings"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "intensity",
+      "strength"
+    ],
+    "scenes": [
+      "nature",
+      "wildlife",
+      "fantasy",
+      "dramatic"
+    ],
+    "concepts": [
+      "harmony",
+      "natural beauty",
+      "mythology",
+      "hybrid creature"
+    ]
+  },
+  "metadata": {}
+}

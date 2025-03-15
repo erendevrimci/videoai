@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A journey beyond the clouds, tog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A journey beyond the clouds, tog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A journey beyond the clouds, tog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two pilots are seated in the cockpit of an aircraft, focused on their tasks. The warm glow of the setting sun illuminates their faces, highlighting their concentration and professionalism.",
+      "description": "The scene takes place inside an aircraft cockpit, where two pilots are operating the controls. The lighting suggests it is either sunrise or sunset, creating a serene and focused atmosphere.",
+      "labels": {
+        "people": [
+          "pilots"
+        ],
+        "objects": [
+          "cockpit",
+          "headsets",
+          "controls"
+        ],
+        "actions": [
+          "operating",
+          "flying"
+        ],
+        "emotions": [
+          "concentration",
+          "professionalism"
+        ],
+        "scenes": [
+          "cockpit",
+          "aviation"
+        ],
+        "concepts": [
+          "aviation",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A journey beyond the clouds, tog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A journey beyond the clouds, tog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two pilots are seated in the cockpit of an airplane, focused on their instruments. The warm glow of the setting sun illuminates their faces, highlighting their concentration and professionalism.",
+      "description": "The scene is set inside an airplane cockpit, where two pilots are managing the controls during a flight. The ambient lighting suggests it is either sunrise or sunset, creating a serene and focused atmosphere.",
+      "labels": {
+        "people": [
+          "pilots"
+        ],
+        "objects": [
+          "cockpit",
+          "headsets",
+          "controls"
+        ],
+        "actions": [
+          "flying",
+          "monitoring"
+        ],
+        "emotions": [
+          "concentration",
+          "professionalism"
+        ],
+        "scenes": [
+          "airplane cockpit",
+          "aviation"
+        ],
+        "concepts": [
+          "aviation",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pilots. Objects: cockpit, headsets, controls. Actions: flying, operating, monitoring. Emotions: concentration, professionalism. Scenes: aviation, cockpit, airplane cockpit. Concepts: aviation, teamwork",
+  "primary_labels": {
+    "people": [
+      "pilots"
+    ],
+    "objects": [
+      "cockpit",
+      "headsets",
+      "controls"
+    ],
+    "actions": [
+      "flying",
+      "operating",
+      "monitoring"
+    ],
+    "emotions": [
+      "concentration",
+      "professionalism"
+    ],
+    "scenes": [
+      "aviation",
+      "cockpit",
+      "airplane cockpit"
+    ],
+    "concepts": [
+      "aviation",
+      "teamwork"
+    ]
+  },
+  "metadata": {}
+}

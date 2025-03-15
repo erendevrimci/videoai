@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Trolley.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Trolley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Trolley/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary train moves along a snowy track under a starry night sky. The scene is illuminated by vibrant pink and blue neon lights, reflecting off the wet ground. Power lines and poles frame the train as it travels through the quiet landscape.",
+      "description": "The scene depicts a train traveling on a snowy track at night, with neon lights creating a futuristic and serene atmosphere. The setting is likely a remote or suburban area, with power lines and a clear night sky.",
+      "labels": {
+        "objects": [
+          "train",
+          "power lines",
+          "poles"
+        ],
+        "nature": [
+          "snow",
+          "night sky",
+          "stars"
+        ],
+        "actions": [
+          "train moving"
+        ],
+        "emotions": [
+          "serene",
+          "futuristic"
+        ],
+        "scenes": [
+          "nighttime",
+          "urban landscape"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Trolley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Trolley/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A train travels along a snowy track under a deep blue night sky, illuminated by vibrant pink lights. The reflection of the neon glow shimmers on the wet surface below, creating a striking contrast against the dark surroundings.",
+      "description": "The scene depicts a train moving through a snowy landscape at night, with vivid neon lighting creating a futuristic and surreal atmosphere.",
+      "labels": {
+        "objects": [
+          "train",
+          "tracks",
+          "power lines"
+        ],
+        "nature": [
+          "snow",
+          "night sky"
+        ],
+        "actions": [
+          "traveling"
+        ],
+        "emotions": [
+          "surreal",
+          "futuristic"
+        ],
+        "scenes": [
+          "nighttime",
+          "urban"
+        ],
+        "concepts": [
+          "neon lighting",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Trolley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Trolley/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A train with vibrant pink-lit windows travels along a snowy track under a deep blue night sky. The scene is illuminated by the glow reflecting off the snow, creating a surreal and futuristic atmosphere.",
+      "description": "The scene depicts a train moving through a snowy landscape at night. The bright pink lights from the train contrast with the dark blue sky, creating a striking visual effect.",
+      "labels": {
+        "objects": [
+          "train",
+          "snow",
+          "railway track"
+        ],
+        "actions": [
+          "traveling"
+        ],
+        "emotions": [
+          "futuristic",
+          "surreal"
+        ],
+        "scenes": [
+          "night",
+          "winter"
+        ],
+        "concepts": [
+          "contrast",
+          "illumination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: train, power lines, poles, tracks, snow. Nature: snow, night sky, stars. Actions: traveling, train moving. Emotions: futuristic, surreal, serene. Scenes: nighttime, urban landscape, urban, night, winter. Concepts: contrast, solitude, tranquility, neon lighting, illumination",
+  "primary_labels": {
+    "objects": [
+      "train",
+      "power lines",
+      "poles",
+      "tracks",
+      "snow"
+    ],
+    "nature": [
+      "snow",
+      "night sky",
+      "stars"
+    ],
+    "actions": [
+      "traveling",
+      "train moving"
+    ],
+    "emotions": [
+      "futuristic",
+      "surreal",
+      "serene"
+    ],
+    "scenes": [
+      "nighttime",
+      "urban landscape",
+      "urban",
+      "night",
+      "winter"
+    ],
+    "concepts": [
+      "contrast",
+      "solitude",
+      "tranquility",
+      "neon lighting",
+      "illumination"
+    ]
+  },
+  "metadata": {}
+}

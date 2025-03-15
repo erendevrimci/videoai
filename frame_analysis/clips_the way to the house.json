@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the way to the house.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the way to the house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the way to the house/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern train glides through a snow-covered forest, its warm interior lights contrasting with the cold, wintry landscape. Tall, snow-laden pine trees line the tracks, creating a serene and picturesque scene.",
+      "description": "The scene depicts a futuristic train traveling through a dense forest blanketed in snow. The setting is tranquil, with the train's warm glow providing a stark contrast to the cool tones of the snowy environment.",
+      "labels": {
+        "nature": [
+          "forest",
+          "snow",
+          "pine trees"
+        ],
+        "objects": [
+          "train",
+          "tracks"
+        ],
+        "actions": [
+          "traveling",
+          "gliding"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "winter landscape",
+          "snowy forest"
+        ],
+        "concepts": [
+          "modern transportation",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the way to the house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the way to the house/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern train glides through a snow-covered forest, its warm interior lights contrasting with the cold, snowy landscape. Tall pine trees, heavily laden with snow, line the tracks, creating a serene winter scene. The train's motion is captured as it curves along the tracks, leaving a clear path in the fresh snow.",
+      "description": "The scene depicts a winter landscape with a modern train traveling through a dense forest covered in snow. The setting is tranquil and picturesque, with the train's warm glow providing a stark contrast to the cold surroundings.",
+      "labels": {
+        "nature": [
+          "snow",
+          "forest",
+          "pine trees"
+        ],
+        "objects": [
+          "train",
+          "train tracks"
+        ],
+        "actions": [
+          "train moving"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "winter landscape",
+          "snowy forest"
+        ],
+        "concepts": [
+          "contrast",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, snow, pine trees. Objects: train, tracks, train tracks. Actions: traveling, gliding, train moving. Emotions: serenity, tranquility. Scenes: winter landscape, snowy forest. Concepts: contrast, modern transportation, motion",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "snow",
+      "pine trees"
+    ],
+    "objects": [
+      "train",
+      "tracks",
+      "train tracks"
+    ],
+    "actions": [
+      "traveling",
+      "gliding",
+      "train moving"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility"
+    ],
+    "scenes": [
+      "winter landscape",
+      "snowy forest"
+    ],
+    "concepts": [
+      "contrast",
+      "modern transportation",
+      "motion"
+    ]
+  },
+  "metadata": {}
+}

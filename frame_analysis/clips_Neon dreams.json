@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Neon dreams.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Neon dreams.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Neon dreams/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a sleek black leather outfit and helmet sits on a motorcycle in a vibrant city street. Neon signs illuminate the scene, casting colorful reflections on the wet pavement. The atmosphere is dynamic and futuristic, with a sense of anticipation.",
+      "description": "The scene is set in a bustling urban environment at night, characterized by bright neon lights and a wet, reflective street surface. The person on the motorcycle appears poised and ready to ride, adding to the energetic and modern feel of the setting.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "neon signs"
+        ],
+        "actions": [
+          "sitting",
+          "riding"
+        ],
+        "emotions": [
+          "anticipation"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Neon dreams.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Neon dreams/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a sleek black leather outfit and helmet sits on a motorcycle in a vibrant city street. Neon signs illuminate the scene, casting colorful reflections on the wet pavement. The atmosphere is dynamic and futuristic, with a sense of anticipation.",
+      "description": "The scene is set in a bustling urban environment, likely an Asian city, characterized by bright neon lights and signage. The focus is on a motorcyclist poised on a sleek bike, suggesting a moment of stillness before action.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "neon signs"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "anticipation"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: motorcyclist. Objects: motorcycle, helmet, neon signs. Actions: sitting, riding. Emotions: anticipation. Scenes: urban, nighttime, night. Concepts: futuristic, dynamic",
+  "primary_labels": {
+    "people": [
+      "motorcyclist"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet",
+      "neon signs"
+    ],
+    "actions": [
+      "sitting",
+      "riding"
+    ],
+    "emotions": [
+      "anticipation"
+    ],
+    "scenes": [
+      "urban",
+      "nighttime",
+      "night"
+    ],
+    "concepts": [
+      "futuristic",
+      "dynamic"
+    ]
+  },
+  "metadata": {}
+}

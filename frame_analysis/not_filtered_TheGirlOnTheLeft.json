@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlOnTheLeft.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlOnTheLeft.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlOnTheLeft/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two people are facing each other, sharing a warm and affectionate gaze. Both are wearing cozy sweaters, suggesting a comfortable and intimate setting.",
+      "description": "The scene captures a tender moment between two individuals, likely in a relaxed indoor environment. The focus is on their expressions and the connection between them.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "objects": [
+          "sweaters"
+        ],
+        "actions": [
+          "gazing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "warmth"
+        ],
+        "scenes": [
+          "indoor",
+          "intimate"
+        ],
+        "concepts": [
+          "connection",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlOnTheLeft.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlOnTheLeft/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals are sharing a warm embrace, with their faces close together, both smiling gently. The scene conveys a sense of affection and closeness between them.",
+      "description": "The image depicts a tender moment between two people, likely in a familial or close relationship, as they embrace each other warmly. The setting appears to be indoors with a neutral background, emphasizing the emotional connection.",
+      "labels": {
+        "people": [
+          "two people"
+        ],
+        "objects": [
+          "sweaters"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "intimate moment",
+          "indoor"
+        ],
+        "concepts": [
+          "family",
+          "love",
+          "closeness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: two individuals, two people. Objects: sweaters. Actions: smiling, gazing, embracing. Emotions: affection, warmth, happiness. Scenes: indoor, intimate, intimate moment. Concepts: connection, comfort, family, love, closeness",
+  "primary_labels": {
+    "people": [
+      "two individuals",
+      "two people"
+    ],
+    "objects": [
+      "sweaters"
+    ],
+    "actions": [
+      "smiling",
+      "gazing",
+      "embracing"
+    ],
+    "emotions": [
+      "affection",
+      "warmth",
+      "happiness"
+    ],
+    "scenes": [
+      "indoor",
+      "intimate",
+      "intimate moment"
+    ],
+    "concepts": [
+      "connection",
+      "comfort",
+      "family",
+      "love",
+      "closeness"
+    ]
+  },
+  "metadata": {}
+}

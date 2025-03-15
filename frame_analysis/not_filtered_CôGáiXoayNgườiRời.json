@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iXoayNg\u01b0\u1eddiR\u1eddi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iXoayNg\u01b0\u1eddiR\u1eddi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iXoayNg\u01b0\u1eddiR\u1eddi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands on a city street at dusk, her expression calm and contemplative. She wears a beige coat and holds a black bag, with blurred city lights creating a colorful backdrop.",
+      "description": "The scene captures a serene moment in an urban setting during the evening. The woman is the focal point, surrounded by the soft glow of city lights reflecting off wet pavement.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat",
+          "bag"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "city street",
+          "evening"
+        ],
+        "concepts": [
+          "urban life",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iXoayNg\u01b0\u1eddiR\u1eddi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iXoayNg\u01b0\u1eddiR\u1eddi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long hair walks down a wet city street at dusk. The scene is illuminated by the glow of neon signs and headlights reflecting off the pavement.",
+      "description": "The image captures a city street scene during the evening, characterized by wet surfaces and vibrant urban lights. The setting suggests a bustling urban environment with a mix of modern and traditional elements.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "tree"
+        ],
+        "objects": [
+          "neon signs",
+          "cars",
+          "pavement"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "city street",
+          "evening"
+        ],
+        "concepts": [
+          "urban life",
+          "nighttime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: coat, bag, neon signs, cars, pavement. Actions: standing, walking. Emotions: calm, contemplative. Scenes: city street, evening. Concepts: urban life, solitude, nighttime. Nature: tree",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "coat",
+      "bag",
+      "neon signs",
+      "cars",
+      "pavement"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "city street",
+      "evening"
+    ],
+    "concepts": [
+      "urban life",
+      "solitude",
+      "nighttime"
+    ],
+    "nature": [
+      "tree"
+    ]
+  },
+  "metadata": {}
+}

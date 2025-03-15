@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dnd token loop animation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dnd token loop animation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dnd token loop animation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mesmerizing circular portal is surrounded by swirling, colorful energy streams and sparkling stars. The intricate design of the portal is highlighted by vibrant hues of purple, pink, and blue, creating a magical and otherworldly atmosphere.",
+      "description": "The scene depicts a magical portal in a cosmic setting, with swirling energy and stars creating a sense of enchantment and wonder.",
+      "labels": {
+        "objects": [
+          "portal",
+          "energy streams",
+          "stars"
+        ],
+        "scenes": [
+          "cosmic",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "otherworldly",
+          "enchantment"
+        ],
+        "emotions": [
+          "wonder",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dnd token loop animation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dnd token loop animation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical circular portal is surrounded by swirling, colorful energy ribbons. The scene is filled with vibrant hues of purple, pink, and blue, creating a magical and enchanting atmosphere.",
+      "description": "The image depicts a magical portal set against a dark background, with swirling energy and sparkling lights creating a sense of wonder and fantasy.",
+      "labels": {
+        "objects": [
+          "portal",
+          "energy ribbons",
+          "sparkles"
+        ],
+        "actions": [
+          "swirling",
+          "glowing"
+        ],
+        "emotions": [
+          "mystical",
+          "enchanting"
+        ],
+        "scenes": [
+          "fantasy",
+          "magic"
+        ],
+        "concepts": [
+          "portal",
+          "magic",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: portal, energy streams, stars, energy ribbons, sparkles. Scenes: cosmic, magical, fantasy, magic. Concepts: magic, otherworldly, enchantment, portal, energy. Emotions: wonder, awe, mystical, enchanting. Actions: swirling, glowing",
+  "primary_labels": {
+    "objects": [
+      "portal",
+      "energy streams",
+      "stars",
+      "energy ribbons",
+      "sparkles"
+    ],
+    "scenes": [
+      "cosmic",
+      "magical",
+      "fantasy",
+      "magic"
+    ],
+    "concepts": [
+      "magic",
+      "otherworldly",
+      "enchantment",
+      "portal",
+      "energy"
+    ],
+    "emotions": [
+      "wonder",
+      "awe",
+      "mystical",
+      "enchanting"
+    ],
+    "actions": [
+      "swirling",
+      "glowing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful big face.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful big face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful big face/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a giant face being meticulously painted by miniature figures in white uniforms. These figures are using ladders and brushes to apply makeup to the face, focusing on the eyes, cheeks, and lips. The image creatively illustrates the concept of beauty enhancement in an exaggerated manner.",
+      "description": "The image presents a surreal and imaginative setting where a large human face is being attended to by small figures. These figures are dressed in white uniforms and appear to be makeup artists, carefully applying cosmetics to enhance the facial features. The scene combines elements of fantasy and reality, creating a whimsical interpretation of beauty routines.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "makeup artists"
+        ],
+        "objects": [
+          "ladders",
+          "brushes"
+        ],
+        "actions": [
+          "applying makeup",
+          "climbing"
+        ],
+        "emotions": [
+          "whimsical",
+          "creative"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "beauty enhancement",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful big face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful big face/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a giant face being meticulously painted by tiny figures in white uniforms. These figures stand on ladders and use brushes to apply makeup to the face, focusing on the eyes and lips. The image combines elements of fantasy and hyper-realism, creating an intriguing visual contrast.",
+      "description": "The scene is a surreal artistic representation where a large, realistic face is being painted by miniature figures. The setting is imaginative, blending elements of beauty and art in a fantastical manner.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "ladders",
+          "brushes"
+        ],
+        "actions": [
+          "painting",
+          "applying makeup"
+        ],
+        "emotions": [
+          "intrigue",
+          "curiosity"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "beauty",
+          "fantasy",
+          "hyper-realism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, makeup artists. Objects: ladders, brushes. Actions: applying makeup, climbing, painting. Emotions: whimsical, creative, intrigue, curiosity. Scenes: surreal, fantasy, artistic. Concepts: beauty enhancement, imagination, beauty, fantasy, hyper-realism",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "makeup artists"
+    ],
+    "objects": [
+      "ladders",
+      "brushes"
+    ],
+    "actions": [
+      "applying makeup",
+      "climbing",
+      "painting"
+    ],
+    "emotions": [
+      "whimsical",
+      "creative",
+      "intrigue",
+      "curiosity"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "artistic"
+    ],
+    "concepts": [
+      "beauty enhancement",
+      "imagination",
+      "beauty",
+      "fantasy",
+      "hyper-realism"
+    ]
+  },
+  "metadata": {}
+}

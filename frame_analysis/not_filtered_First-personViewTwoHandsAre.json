@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personViewTwoHandsAre.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personViewTwoHandsAre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personViewTwoHandsAre/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person holds a scroll with ancient script in a grand hall filled with elaborately dressed individuals. The hall is adorned with ornate columns and golden decorations, suggesting a setting of historical or cultural significance.",
+      "description": "The scene is set in a lavish, ancient hall, possibly a temple or royal court, filled with people dressed in traditional, ornate attire. The focus is on a scroll being held by a person in the foreground, indicating a ceremonial or significant event.",
+      "labels": {
+        "people": [
+          "crowd",
+          "individuals",
+          "ornate attire"
+        ],
+        "objects": [
+          "scroll",
+          "columns",
+          "decorations"
+        ],
+        "actions": [
+          "holding",
+          "gathering"
+        ],
+        "emotions": [
+          "serious",
+          "ceremonial"
+        ],
+        "scenes": [
+          "ancient hall",
+          "ceremony"
+        ],
+        "concepts": [
+          "historical",
+          "cultural significance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personViewTwoHandsAre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personViewTwoHandsAre/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person holds a scroll with ancient script in a grand hall filled with people. The hall is adorned with ornate columns and golden decorations, suggesting a historical or ceremonial setting.",
+      "description": "The scene is set in an opulent, ancient hall, possibly of Egyptian or similar influence, where a person is presenting a scroll to an audience. The atmosphere is formal and reverent, with a focus on the scroll as a significant object.",
+      "labels": {
+        "people": [
+          "audience",
+          "individual holding scroll"
+        ],
+        "objects": [
+          "scroll",
+          "columns",
+          "decorations"
+        ],
+        "actions": [
+          "holding",
+          "presenting"
+        ],
+        "emotions": [
+          "reverence",
+          "formality"
+        ],
+        "scenes": [
+          "ceremonial hall",
+          "historical setting"
+        ],
+        "concepts": [
+          "ancient script",
+          "presentation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, individuals, ornate attire, audience, individual holding scroll. Objects: scroll, columns, decorations. Actions: holding, gathering, presenting. Emotions: serious, ceremonial, reverence, formality. Scenes: ancient hall, ceremony, ceremonial hall, historical setting. Concepts: historical, cultural significance, ancient script, presentation",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "individuals",
+      "ornate attire",
+      "audience",
+      "individual holding scroll"
+    ],
+    "objects": [
+      "scroll",
+      "columns",
+      "decorations"
+    ],
+    "actions": [
+      "holding",
+      "gathering",
+      "presenting"
+    ],
+    "emotions": [
+      "serious",
+      "ceremonial",
+      "reverence",
+      "formality"
+    ],
+    "scenes": [
+      "ancient hall",
+      "ceremony",
+      "ceremonial hall",
+      "historical setting"
+    ],
+    "concepts": [
+      "historical",
+      "cultural significance",
+      "ancient script",
+      "presentation"
+    ]
+  },
+  "metadata": {}
+}

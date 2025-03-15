@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AstronautTryingToClimbBack.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AstronautTryingToClimbBack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AstronautTryingToClimbBack/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An astronaut floats gracefully in the vast expanse of space, surrounded by a vibrant nebula. The colorful cosmic backdrop creates a stunning contrast against the white space suit.",
+      "description": "The scene depicts an astronaut in a space suit floating in outer space, with a vivid nebula providing a colorful and dynamic background.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "nebula",
+          "space"
+        ],
+        "objects": [
+          "space suit"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "outer space"
+        ],
+        "concepts": [
+          "exploration",
+          "cosmos"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AstronautTryingToClimbBack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AstronautTryingToClimbBack/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut in a space suit stands against a cosmic backdrop, with the reflection of a fiery nebula visible in the helmet's visor. The scene is filled with vibrant colors, highlighting the vastness and beauty of space.",
+      "description": "The image depicts an astronaut in a space suit, set against a backdrop of outer space. The reflection of a nebula in the helmet's visor adds a dramatic and otherworldly element to the scene.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "nebula",
+          "space"
+        ],
+        "objects": [
+          "space suit",
+          "helmet"
+        ],
+        "scenes": [
+          "outer space",
+          "cosmic"
+        ],
+        "concepts": [
+          "exploration",
+          "isolation"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: astronaut. Nature: nebula, space. Objects: space suit, helmet. Actions: floating. Emotions: awe, wonder. Scenes: outer space, cosmic. Concepts: exploration, cosmos, isolation",
+  "primary_labels": {
+    "people": [
+      "astronaut"
+    ],
+    "nature": [
+      "nebula",
+      "space"
+    ],
+    "objects": [
+      "space suit",
+      "helmet"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "awe",
+      "wonder"
+    ],
+    "scenes": [
+      "outer space",
+      "cosmic"
+    ],
+    "concepts": [
+      "exploration",
+      "cosmos",
+      "isolation"
+    ]
+  },
+  "metadata": {}
+}

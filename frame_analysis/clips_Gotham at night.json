@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gotham at night.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gotham at night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gotham at night/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The scene captures a futuristic city street viewed from inside a sleek, high-tech vehicle. Neon lights illuminate the rainy night, reflecting off the wet pavement as cars move through the bustling urban environment.",
+      "description": "A cyberpunk cityscape at night, seen from the perspective of a driver in a technologically advanced vehicle. The street is alive with neon signs and the glow of headlights, creating a vibrant yet moody atmosphere.",
+      "labels": {
+        "objects": [
+          "vehicle",
+          "neon lights",
+          "buildings",
+          "street",
+          "dashboard"
+        ],
+        "actions": [
+          "driving",
+          "raining"
+        ],
+        "emotions": [
+          "futuristic",
+          "moody"
+        ],
+        "scenes": [
+          "cityscape",
+          "nighttime",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gotham at night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gotham at night/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic city street is depicted at night, illuminated by neon lights and heavy rain. The scene is viewed from inside a sleek, high-tech vehicle, with a digital dashboard displaying various controls. Cars are visible on the wet road, reflecting the vibrant city lights.",
+      "description": "The image captures a cyberpunk-inspired urban setting, characterized by neon signs and a bustling nighttime atmosphere. The perspective from inside a futuristic vehicle adds a sense of immersion and movement through the cityscape.",
+      "labels": {
+        "objects": [
+          "vehicle",
+          "dashboard",
+          "cars",
+          "neon signs"
+        ],
+        "actions": [
+          "driving",
+          "raining"
+        ],
+        "emotions": [
+          "futuristic",
+          "immersive"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: vehicle, dashboard, neon lights, buildings, street. Actions: driving, raining. Emotions: futuristic, moody, immersive. Scenes: nighttime, cyberpunk, cityscape, city street. Concepts: technology, urban life",
+  "primary_labels": {
+    "objects": [
+      "vehicle",
+      "dashboard",
+      "neon lights",
+      "buildings",
+      "street"
+    ],
+    "actions": [
+      "driving",
+      "raining"
+    ],
+    "emotions": [
+      "futuristic",
+      "moody",
+      "immersive"
+    ],
+    "scenes": [
+      "nighttime",
+      "cyberpunk",
+      "cityscape",
+      "city street"
+    ],
+    "concepts": [
+      "technology",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

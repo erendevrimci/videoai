@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/meadow bathed in golden sunlight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/meadow bathed in golden sunlight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/meadow bathed in golden sunlight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child in a light blue dress holds a large dandelion puff high above her head as she walks through a vibrant meadow. The scene is bathed in warm sunlight, with colorful flowers and lush greenery surrounding her. A rainbow arcs across the sky, adding a touch of magic to the idyllic landscape.",
+      "description": "The scene depicts a picturesque meadow during a sunny day, where a child is joyfully exploring nature. The setting is serene and enchanting, with a rainbow and a variety of blooming flowers enhancing the natural beauty.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "meadow",
+          "dandelion",
+          "trees",
+          "flowers",
+          "rainbow"
+        ],
+        "objects": [
+          "dress",
+          "shoes"
+        ],
+        "actions": [
+          "walking",
+          "holding"
+        ],
+        "emotions": [
+          "joyful",
+          "wonder"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "innocence",
+          "exploration",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/meadow bathed in golden sunlight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/meadow bathed in golden sunlight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl in a blue dress walks through a vibrant meadow filled with colorful flowers, under a sky painted with rainbows and stars. The scene is set in a lush, green landscape with a gentle stream winding through the trees, bathed in warm sunlight.",
+      "description": "The scene depicts a serene, dreamlike landscape where a child explores a picturesque meadow. The setting is a blend of reality and fantasy, with vivid colors and a magical atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "trees",
+          "meadow",
+          "flowers",
+          "stream",
+          "sky"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "wonder",
+          "serenity"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "exploration",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, girl. Nature: meadow, trees, flowers, dandelion, rainbow. Objects: dress, shoes. Actions: walking, holding. Emotions: wonder, joyful, serenity. Scenes: nature, outdoors, fantasy. Concepts: exploration, innocence, magic, childhood",
+  "primary_labels": {
+    "people": [
+      "child",
+      "girl"
+    ],
+    "nature": [
+      "meadow",
+      "trees",
+      "flowers",
+      "dandelion",
+      "rainbow"
+    ],
+    "objects": [
+      "dress",
+      "shoes"
+    ],
+    "actions": [
+      "walking",
+      "holding"
+    ],
+    "emotions": [
+      "wonder",
+      "joyful",
+      "serenity"
+    ],
+    "scenes": [
+      "nature",
+      "outdoors",
+      "fantasy"
+    ],
+    "concepts": [
+      "exploration",
+      "innocence",
+      "magic",
+      "childhood"
+    ]
+  },
+  "metadata": {}
+}

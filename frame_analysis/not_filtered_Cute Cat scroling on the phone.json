@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Cat scroling on the phone.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Cat scroling on the phone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute Cat scroling on the phone/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A kitten wearing heart-patterned pajamas is lying on a fluffy blanket, intently looking at a smartphone. The scene is set in a cozy bedroom with a warm lamp glowing softly in the background.",
+      "description": "The image depicts a cute kitten in pajamas, focused on a smartphone while lying on a bed. The setting is a dimly lit bedroom, creating a cozy and intimate atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "smartphone",
+          "pajamas",
+          "lamp",
+          "blanket"
+        ],
+        "actions": [
+          "looking",
+          "lying"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "bedroom",
+          "night"
+        ],
+        "concepts": [
+          "coziness",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Cat scroling on the phone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute Cat scroling on the phone/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy kitten in heart-patterned pajamas is intently looking at a smartphone while lying on a cozy bed. The warm glow from a nearby lamp creates a serene nighttime atmosphere.",
+      "description": "The scene depicts a cute kitten dressed in pajamas, engaging with a smartphone in a dimly lit bedroom. The setting suggests a cozy and relaxed nighttime environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "smartphone",
+          "pajamas",
+          "lamp",
+          "bed"
+        ],
+        "actions": [
+          "looking",
+          "lying"
+        ],
+        "emotions": [
+          "curiosity",
+          "calmness"
+        ],
+        "scenes": [
+          "bedroom",
+          "nighttime"
+        ],
+        "concepts": [
+          "coziness",
+          "technology interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: smartphone, pajamas, lamp, blanket, bed. Actions: looking, lying. Emotions: curiosity, calmness. Scenes: bedroom, night, nighttime. Concepts: coziness, technology, technology interaction",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "smartphone",
+      "pajamas",
+      "lamp",
+      "blanket",
+      "bed"
+    ],
+    "actions": [
+      "looking",
+      "lying"
+    ],
+    "emotions": [
+      "curiosity",
+      "calmness"
+    ],
+    "scenes": [
+      "bedroom",
+      "night",
+      "nighttime"
+    ],
+    "concepts": [
+      "coziness",
+      "technology",
+      "technology interaction"
+    ]
+  },
+  "metadata": {}
+}

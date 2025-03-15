@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/small worker shoes making.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/small worker shoes making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/small worker shoes making/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of miniature construction workers are actively working on a large brown leather shoe. They are wearing blue overalls and yellow hard hats, and are positioned both on and around the shoe, engaging in various tasks. The scene is set in a workshop filled with tools and materials.",
+      "description": "The image depicts a whimsical scene where tiny construction workers are treating a shoe as their worksite. The setting appears to be a workshop, with various tools and materials scattered around, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "shoe",
+          "tools",
+          "workshop materials"
+        ],
+        "actions": [
+          "working",
+          "climbing",
+          "gesturing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "workshop",
+          "construction site"
+        ],
+        "concepts": [
+          "miniaturization",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/small worker shoes making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/small worker shoes making/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature workers in overalls and yellow helmets are gathered around and on top of a large brown leather shoe. They appear to be engaged in various activities, creating a whimsical scene that resembles a construction site.",
+      "description": "The scene depicts a playful and imaginative setting where tiny figures are interacting with a giant shoe as if it were a construction project. The setting is reminiscent of a workshop or factory, filled with tools and materials.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "brown leather shoe",
+          "tools",
+          "wooden platform"
+        ],
+        "actions": [
+          "climbing",
+          "gesturing",
+          "working"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "construction site",
+          "workshop"
+        ],
+        "concepts": [
+          "miniature",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: tools, shoe, workshop materials, brown leather shoe, wooden platform. Actions: working, climbing, gesturing. Emotions: playful, imaginative, whimsical. Scenes: workshop, construction site. Concepts: miniaturization, creativity, miniature, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "tools",
+      "shoe",
+      "workshop materials",
+      "brown leather shoe",
+      "wooden platform"
+    ],
+    "actions": [
+      "working",
+      "climbing",
+      "gesturing"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical"
+    ],
+    "scenes": [
+      "workshop",
+      "construction site"
+    ],
+    "concepts": [
+      "miniaturization",
+      "creativity",
+      "miniature",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Testing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Testing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Testing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two figures made of fire embrace above a lit candle, their forms swirling with flames. The fiery figures appear to be in a moment of intimate connection, with their bodies intertwined in a dance of light and heat. The dark background accentuates the vibrant orange and yellow hues of the flames.",
+      "description": "The scene depicts a surreal and artistic representation of two human figures composed entirely of fire, emerging from a candle flame. They are set against a stark black background, emphasizing the vividness of the flames.",
+      "labels": {
+        "people": [
+          "figures"
+        ],
+        "objects": [
+          "candle"
+        ],
+        "actions": [
+          "embracing",
+          "dancing"
+        ],
+        "emotions": [
+          "intimacy",
+          "passion"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "fire",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Testing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Testing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two fiery figures, resembling humans, embrace passionately above a burning candle. Their forms are composed of vibrant flames, creating an ethereal and dynamic scene against a dark background.",
+      "description": "The scene depicts two flame-like figures intertwined above a lit candle, set against a stark black backdrop. The figures appear to be in a moment of intimate connection, their fiery forms flickering with energy.",
+      "labels": {
+        "people": [
+          "fiery figures"
+        ],
+        "objects": [
+          "candle"
+        ],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "passion",
+          "intimacy"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "fire",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figures, fiery figures. Objects: candle. Actions: embracing, dancing. Emotions: intimacy, passion. Scenes: surreal, artistic, abstract. Concepts: fire, connection",
+  "primary_labels": {
+    "people": [
+      "figures",
+      "fiery figures"
+    ],
+    "objects": [
+      "candle"
+    ],
+    "actions": [
+      "embracing",
+      "dancing"
+    ],
+    "emotions": [
+      "intimacy",
+      "passion"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "abstract"
+    ],
+    "concepts": [
+      "fire",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

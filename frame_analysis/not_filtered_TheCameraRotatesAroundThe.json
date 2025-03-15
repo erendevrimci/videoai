@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraRotatesAroundThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraRotatesAroundThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraRotatesAroundThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary tree stands in a vast field, silhouetted against a massive, glowing sun. The sky is painted in warm hues of orange and yellow, creating a serene and majestic landscape.",
+      "description": "The scene depicts a tranquil natural setting during sunset or sunrise, with a prominent tree in the foreground and a large sun dominating the horizon. The field is expansive and dotted with small flowers, adding to the peaceful atmosphere.",
+      "labels": {
+        "nature": [
+          "tree",
+          "field",
+          "sun",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "tree",
+          "sun"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraRotatesAroundThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraRotatesAroundThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary tree stands in a vast field as a massive sun sets on the horizon, casting a warm golden glow across the landscape. The sky is painted with hues of orange and yellow, creating a serene and picturesque scene.",
+      "description": "The scene depicts a tranquil setting with a single tree in an open field during sunset. The large sun dominates the background, enhancing the peaceful and majestic atmosphere.",
+      "labels": {
+        "nature": [
+          "tree",
+          "field",
+          "sun",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "tree"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "visual_attributes": [
+          "warm colors",
+          "golden lighting",
+          "silhouette"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: tree, field, sun, sky, clouds. Objects: tree, sun. Scenes: sunset, landscape. Emotions: serene, majestic, serenity, peacefulness. Visual_attributes: warm colors, golden lighting, silhouette",
+  "primary_labels": {
+    "nature": [
+      "tree",
+      "field",
+      "sun",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "tree",
+      "sun"
+    ],
+    "scenes": [
+      "sunset",
+      "landscape"
+    ],
+    "emotions": [
+      "serene",
+      "majestic",
+      "serenity",
+      "peacefulness"
+    ],
+    "visual_attributes": [
+      "warm colors",
+      "golden lighting",
+      "silhouette"
+    ]
+  },
+  "metadata": {}
+}

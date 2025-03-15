@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fa\u00e7aEleAbra\u00e7\u00e1-laCarinhosamenteComo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fa\u00e7aEleAbra\u00e7\u00e1-laCarinhosamenteComo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fa\u00e7aEleAbra\u00e7\u00e1-laCarinhosamenteComo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image shows a split scene with a man on the left in a dark setting and a woman on the right in a lighter, outdoor environment. The man is wearing a black t-shirt, looking directly at the camera, while the woman is smiling and touching her hair, dressed in a light-colored top.",
+      "description": "This image is a composite of two separate portraits. On the left, a man stands in a dimly lit area, possibly indoors, with a serious expression. On the right, a woman is outdoors at night, smiling with a playful gesture.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "top"
+        ],
+        "actions": [
+          "looking",
+          "smiling",
+          "touching hair"
+        ],
+        "emotions": [
+          "serious",
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "outdoor"
+        ],
+        "concepts": [
+          "contrast",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fa\u00e7aEleAbra\u00e7\u00e1-laCarinhosamenteComo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fa\u00e7aEleAbra\u00e7\u00e1-laCarinhosamenteComo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A smiling couple embraces warmly, exuding happiness and affection. The woman wraps her arms around the man's shoulders, while he holds her closely with a content expression.",
+      "description": "The scene captures a joyful moment between two people in a close embrace, set against a dark background that highlights their expressions and connection.",
+      "labels": {
+        "people": [
+          "couple",
+          "man",
+          "woman"
+        ],
+        "actions": [
+          "hugging",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "objects": [
+          "clothing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman, couple. Objects: t-shirt, top, clothing. Actions: smiling, looking, touching hair, hugging. Emotions: serious, playful, happiness, affection. Scenes: indoor, outdoor, intimate moment. Concepts: contrast, portrait",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman",
+      "couple"
+    ],
+    "objects": [
+      "t-shirt",
+      "top",
+      "clothing"
+    ],
+    "actions": [
+      "smiling",
+      "looking",
+      "touching hair",
+      "hugging"
+    ],
+    "emotions": [
+      "serious",
+      "playful",
+      "happiness",
+      "affection"
+    ],
+    "scenes": [
+      "indoor",
+      "outdoor",
+      "intimate moment"
+    ],
+    "concepts": [
+      "contrast",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

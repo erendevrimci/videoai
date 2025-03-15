@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DishwashingStaff.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DishwashingStaff.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DishwashingStaff/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands at a kitchen sink, washing dishes. He is wearing a maroon shirt and glasses, looking content as he cleans several cups and mugs. The kitchen is neatly organized with a dish rack and various appliances.",
+      "description": "The scene takes place in a modern kitchen where a man is engaged in washing dishes. The setting is domestic and tidy, with a focus on daily chores.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "sink",
+          "cups",
+          "mugs",
+          "dish rack",
+          "appliances",
+          "glasses"
+        ],
+        "actions": [
+          "washing dishes"
+        ],
+        "emotions": [
+          "content"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "domestic life",
+          "household chores"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DishwashingStaff.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DishwashingStaff/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three individuals are gathered in a small kitchen area, focused on preparing food. Two of them, wearing blue uniforms and face masks, are working at a counter with a grill and other kitchen appliances. The third person, in a maroon shirt, is partially visible and appears to be assisting.",
+      "description": "The scene is set in a compact kitchen space, likely in a professional or institutional setting. The individuals are engaged in food preparation, using a grill and other kitchen equipment.",
+      "labels": {
+        "people": [
+          "three individuals",
+          "uniformed workers"
+        ],
+        "objects": [
+          "grill",
+          "kitchen appliances",
+          "counter",
+          "cabinet"
+        ],
+        "actions": [
+          "food preparation",
+          "working"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "indoor"
+        ],
+        "concepts": [
+          "teamwork",
+          "culinary preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, three individuals, uniformed workers. Objects: sink, cups, mugs, dish rack, appliances. Actions: washing dishes, food preparation, working. Emotions: content, focused. Scenes: kitchen, indoor. Concepts: domestic life, household chores, teamwork, culinary preparation",
+  "primary_labels": {
+    "people": [
+      "man",
+      "three individuals",
+      "uniformed workers"
+    ],
+    "objects": [
+      "sink",
+      "cups",
+      "mugs",
+      "dish rack",
+      "appliances"
+    ],
+    "actions": [
+      "washing dishes",
+      "food preparation",
+      "working"
+    ],
+    "emotions": [
+      "content",
+      "focused"
+    ],
+    "scenes": [
+      "kitchen",
+      "indoor"
+    ],
+    "concepts": [
+      "domestic life",
+      "household chores",
+      "teamwork",
+      "culinary preparation"
+    ]
+  },
+  "metadata": {}
+}

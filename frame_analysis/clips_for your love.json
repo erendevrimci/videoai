@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/for your love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/for your love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/for your love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene of pink hot air balloons floating gracefully over a cityscape, with the iconic Eiffel Tower in the background. The balloons are adorned with baskets filled with pink roses, adding a touch of romance to the atmosphere.",
+      "description": "The image captures a picturesque moment in Paris, where several pink hot air balloons drift through the sky near the Eiffel Tower. The setting suggests a peaceful and romantic ambiance, enhanced by the soft pastel colors and floral decorations.",
+      "labels": {
+        "objects": [
+          "hot air balloon",
+          "Eiffel Tower",
+          "basket",
+          "roses"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serene",
+          "romantic"
+        ],
+        "scenes": [
+          "cityscape",
+          "aerial view"
+        ],
+        "concepts": [
+          "romance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/for your love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/for your love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a surreal scene of pink hot air balloons floating around the Eiffel Tower. The sky is overcast, providing a muted backdrop that contrasts with the vibrant balloons. The ground below is bustling with people, adding life to the iconic Parisian setting.",
+      "description": "A whimsical scene in Paris featuring the Eiffel Tower surrounded by pink hot air balloons. The setting is a cloudy day, with the famous landmark standing tall amidst the floating balloons. The area is populated with people, suggesting a lively atmosphere.",
+      "labels": {
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "Eiffel Tower",
+          "hot air balloons"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "urban",
+          "landmark"
+        ],
+        "concepts": [
+          "surreal",
+          "Paris"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: Eiffel Tower, hot air balloon, basket, roses, hot air balloons. Nature: sky, clouds. Actions: floating. Emotions: serene, romantic, whimsical. Scenes: cityscape, aerial view, urban, landmark. Concepts: romance, tranquility, surreal, Paris",
+  "primary_labels": {
+    "objects": [
+      "Eiffel Tower",
+      "hot air balloon",
+      "basket",
+      "roses",
+      "hot air balloons"
+    ],
+    "nature": [
+      "sky",
+      "clouds"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "serene",
+      "romantic",
+      "whimsical"
+    ],
+    "scenes": [
+      "cityscape",
+      "aerial view",
+      "urban",
+      "landmark"
+    ],
+    "concepts": [
+      "romance",
+      "tranquility",
+      "surreal",
+      "Paris"
+    ]
+  },
+  "metadata": {}
+}

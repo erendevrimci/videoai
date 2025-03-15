@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mini Tiger baby.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mini Tiger baby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mini Tiger baby/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny, adorable tiger cub is gently held by a human hand, showcasing its soft fur and striking stripes. The cub's large, expressive eyes convey a sense of innocence and curiosity.",
+      "description": "The scene captures a close-up of a small tiger cub being held by a human hand, likely in a natural or zoo setting. The focus is on the cub's face and paws, highlighting its delicate features.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "innocence",
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "wildlife",
+          "adorable"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mini Tiger baby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mini Tiger baby/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person gently holds a tiny, lifelike tiger cub in their hand. The cub's large eyes and detailed fur pattern create an adorable and captivating scene.",
+      "description": "The image depicts a realistic-looking miniature tiger cub being held by a person. The setting appears to be natural, with a blurred background suggesting an outdoor environment.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "tiger cub"
+        ],
+        "nature": [
+          "outdoor"
+        ],
+        "objects": [
+          "miniature"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "adorable",
+          "captivating"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "realism",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger cub. Objects: hand, miniature. Actions: holding. Emotions: innocence, curiosity, adorable, captivating. Scenes: close-up. Concepts: wildlife, adorable, realism, miniature. People: hand. Nature: outdoor",
+  "primary_labels": {
+    "animals": [
+      "tiger cub"
+    ],
+    "objects": [
+      "hand",
+      "miniature"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "innocence",
+      "curiosity",
+      "adorable",
+      "captivating"
+    ],
+    "scenes": [
+      "close-up"
+    ],
+    "concepts": [
+      "wildlife",
+      "adorable",
+      "realism",
+      "miniature"
+    ],
+    "people": [
+      "hand"
+    ],
+    "nature": [
+      "outdoor"
+    ]
+  },
+  "metadata": {}
+}

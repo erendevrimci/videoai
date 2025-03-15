@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentine's day.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentine's day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentine's day/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A silhouette of a human figure is formed by a cluster of vibrant red butterflies against a light background. The butterflies appear to be in motion, creating a dynamic and lively composition. The scene evokes a sense of transformation and beauty.",
+      "description": "The image depicts a creative and artistic representation of a human figure made entirely of red butterflies. The butterflies are arranged to form the shape of a person, suggesting themes of metamorphosis and freedom.",
+      "labels": {
+        "nature": [
+          "butterflies"
+        ],
+        "objects": [
+          "silhouette"
+        ],
+        "actions": [
+          "flying",
+          "forming"
+        ],
+        "emotions": [
+          "transformation",
+          "beauty"
+        ],
+        "scenes": [
+          "artistic composition"
+        ],
+        "concepts": [
+          "metamorphosis",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentine's day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentine's day/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant swarm of red butterflies forms the shape of a heart against a soft, light background. The butterflies appear to be in motion, creating a dynamic and lively scene. Their vivid red color stands out, symbolizing passion and love.",
+      "description": "The scene depicts a collection of red butterflies arranged in the shape of a heart, suggesting themes of love and unity. The butterflies are in flight, creating a sense of movement and energy.",
+      "labels": {
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "butterflies"
+        ],
+        "objects": [
+          "heart shape"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "love",
+          "passion"
+        ],
+        "scenes": [
+          "symbolic"
+        ],
+        "concepts": [
+          "love",
+          "unity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: butterflies. Objects: silhouette, heart shape. Actions: flying, forming. Emotions: transformation, beauty, love, passion. Scenes: artistic composition, symbolic. Concepts: metamorphosis, creativity, love, unity. Animals: butterflies",
+  "primary_labels": {
+    "nature": [
+      "butterflies"
+    ],
+    "objects": [
+      "silhouette",
+      "heart shape"
+    ],
+    "actions": [
+      "flying",
+      "forming"
+    ],
+    "emotions": [
+      "transformation",
+      "beauty",
+      "love",
+      "passion"
+    ],
+    "scenes": [
+      "artistic composition",
+      "symbolic"
+    ],
+    "concepts": [
+      "metamorphosis",
+      "creativity",
+      "love",
+      "unity"
+    ],
+    "animals": [
+      "butterflies"
+    ]
+  },
+  "metadata": {}
+}

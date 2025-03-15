@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChefsPrepareGrilledChicken.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChefsPrepareGrilledChicken.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ChefsPrepareGrilledChicken/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of chefs are meticulously preparing a giant roasted chicken on a large grill. The scene is bustling with activity as each chef tends to different tasks, such as torching, basting, and seasoning the chicken. Flames and smoke add a dramatic flair to the culinary spectacle.",
+      "description": "The scene depicts a highly orchestrated culinary operation in a kitchen setting, focusing on the preparation of an oversized roasted chicken. Chefs are actively engaged in various cooking techniques, creating a dynamic and lively atmosphere.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "grill",
+          "roasted chicken",
+          "lemon",
+          "cooking utensils",
+          "flame torch"
+        ],
+        "actions": [
+          "cooking",
+          "basting",
+          "seasoning",
+          "torch flaming"
+        ],
+        "emotions": [
+          "focused",
+          "intense"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary preparation"
+        ],
+        "concepts": [
+          "teamwork",
+          "cooking process"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChefsPrepareGrilledChicken.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ChefsPrepareGrilledChicken/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A team of chefs in white uniforms and hats are gathered around an enormous roasted turkey, meticulously preparing it on a large grill. The scene is bustling with activity as each chef focuses on their task, using various tools and ingredients to enhance the dish. The setting is a surreal kitchen environment with a dark background, highlighting the vibrant colors of the food and the chefs' attire.",
+      "description": "The scene depicts a fantastical culinary setting where chefs are working together to prepare a gigantic roasted turkey. The environment is a stylized kitchen with a focus on the cooking process, featuring detailed elements like smoke, flames, and cooking utensils.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "turkey",
+          "grill",
+          "cooking utensils",
+          "ladder",
+          "flame"
+        ],
+        "actions": [
+          "cooking",
+          "preparing",
+          "grilling"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary arts",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: grill, cooking utensils, roasted chicken, lemon, flame torch. Actions: cooking, basting, seasoning, torch flaming, preparing. Emotions: focused, intense. Scenes: kitchen, culinary preparation. Concepts: teamwork, cooking process, culinary arts",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "grill",
+      "cooking utensils",
+      "roasted chicken",
+      "lemon",
+      "flame torch"
+    ],
+    "actions": [
+      "cooking",
+      "basting",
+      "seasoning",
+      "torch flaming",
+      "preparing"
+    ],
+    "emotions": [
+      "focused",
+      "intense"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary preparation"
+    ],
+    "concepts": [
+      "teamwork",
+      "cooking process",
+      "culinary arts"
+    ]
+  },
+  "metadata": {}
+}

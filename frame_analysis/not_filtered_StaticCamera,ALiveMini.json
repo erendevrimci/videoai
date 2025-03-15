@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,ALiveMini.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,ALiveMini.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticCamera,ALiveMini/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny, intricately detailed baby hippopotamus rests on the tip of a human finger. The miniature creature's skin is smooth and slightly wrinkled, with a soft, gentle expression in its eyes.",
+      "description": "The scene depicts a hyper-realistic, miniature baby hippopotamus perched on a human fingertip, showcasing an impressive level of detail and texture. The setting is minimal, focusing on the interaction between the tiny animal and the human finger.",
+      "labels": {
+        "animals": [
+          "baby hippopotamus"
+        ],
+        "objects": [
+          "finger"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "gentle"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "miniature",
+          "realism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,ALiveMini.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticCamera,ALiveMini/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny, lifelike baby hippopotamus rests on the tip of a human finger, showcasing its delicate features and smooth skin. The close-up shot highlights the intricate details of both the animal and the human fingerprint.",
+      "description": "The scene captures an incredibly small, realistic baby hippopotamus perched on a human finger. The focus is on the contrast between the tiny animal and the human skin texture, creating a sense of wonder and curiosity.",
+      "labels": {
+        "animals": [
+          "baby hippopotamus"
+        ],
+        "objects": [
+          "finger"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "contrast",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: baby hippopotamus. Objects: finger. Actions: resting. Emotions: gentle, curiosity, wonder. Scenes: close-up. Concepts: miniature, realism, contrast",
+  "primary_labels": {
+    "animals": [
+      "baby hippopotamus"
+    ],
+    "objects": [
+      "finger"
+    ],
+    "actions": [
+      "resting"
+    ],
+    "emotions": [
+      "gentle",
+      "curiosity",
+      "wonder"
+    ],
+    "scenes": [
+      "close-up"
+    ],
+    "concepts": [
+      "miniature",
+      "realism",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

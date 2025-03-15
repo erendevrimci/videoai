@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RevivePeople,TheyAreWorking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RevivePeople,TheyAreWorking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RevivePeople,TheyAreWorking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three miniature figures dressed as dentists are examining and cleaning a giant tooth sculpture in an outdoor setting. The scene is surrounded by scattered pink flower petals, adding a whimsical touch to the urban environment.",
+      "description": "The image depicts a playful and surreal scene where tiny figures, dressed in dentist attire, are interacting with an oversized tooth sculpture. The setting appears to be an urban area with blurred buildings in the background, and the ground is covered with pink flower petals, enhancing the whimsical atmosphere.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "dentists"
+        ],
+        "objects": [
+          "tooth sculpture",
+          "flower petals"
+        ],
+        "actions": [
+          "examining",
+          "cleaning"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "surreal",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RevivePeople,TheyAreWorking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RevivePeople,TheyAreWorking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three individuals in lab coats and masks are meticulously cleaning a giant tooth sculpture in an outdoor setting. Pink flower petals are scattered around and gently falling, adding a whimsical touch to the scene. The background suggests an urban environment with blurred buildings.",
+      "description": "The scene takes place in an urban outdoor setting where three people are engaged in cleaning a large tooth sculpture. The atmosphere is whimsical and surreal, enhanced by the presence of pink flower petals floating in the air.",
+      "labels": {
+        "people": [
+          "individuals",
+          "lab coats",
+          "masks"
+        ],
+        "objects": [
+          "tooth sculpture",
+          "flower petals"
+        ],
+        "actions": [
+          "cleaning",
+          "falling petals"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "hygiene",
+          "art installation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, dentists, individuals, lab coats, masks. Objects: tooth sculpture, flower petals. Actions: cleaning, examining, falling petals. Emotions: whimsical, surreal. Scenes: urban, outdoor. Concepts: surreal, playful, hygiene, art installation",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "dentists",
+      "individuals",
+      "lab coats",
+      "masks"
+    ],
+    "objects": [
+      "tooth sculpture",
+      "flower petals"
+    ],
+    "actions": [
+      "cleaning",
+      "examining",
+      "falling petals"
+    ],
+    "emotions": [
+      "whimsical",
+      "surreal"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor"
+    ],
+    "concepts": [
+      "surreal",
+      "playful",
+      "hygiene",
+      "art installation"
+    ]
+  },
+  "metadata": {}
+}

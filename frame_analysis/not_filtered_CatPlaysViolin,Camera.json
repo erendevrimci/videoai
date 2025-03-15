@@ -1,0 +1,154 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlaysViolin,Camera.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlaysViolin,Camera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlaysViolin,Camera/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat is perched on a log at the beach, playing a small violin as the sun sets behind it. The sky is painted with warm hues of orange and pink, creating a serene and whimsical atmosphere.",
+      "description": "The scene depicts a whimsical moment where a cat is seemingly playing a violin on a beach during sunset. The setting sun casts a warm glow over the sand and the cat, enhancing the magical feel of the scene.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "beach",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "violin",
+          "log"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "whimsy",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlaysViolin,Camera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlaysViolin,Camera/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat is standing on a log at the beach, skillfully playing a violin as the sun sets in the background. The warm hues of the sunset create a serene and whimsical atmosphere.",
+      "description": "The scene is set on a beach during sunset, where a cat is humorously depicted playing a violin. The setting sun casts a warm glow over the sand and the log on which the cat is perched.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "beach",
+          "sunset"
+        ],
+        "objects": [
+          "violin",
+          "log"
+        ],
+        "actions": [
+          "playing violin"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "beach at sunset"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlaysViolin,Camera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlaysViolin,Camera/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cat is whimsically playing a violin on a beach during a serene sunset. The feline stands on a log, adding a touch of fantasy to the tranquil seaside setting.",
+      "description": "The scene depicts a surreal and whimsical moment where a cat is playing a violin on a beach at sunset. The warm glow of the setting sun casts a golden hue over the sand and water, creating a peaceful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "beach",
+          "sunset"
+        ],
+        "objects": [
+          "violin",
+          "log"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset scene"
+        ],
+        "concepts": [
+          "fantasy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: beach, sunset, sky. Objects: violin, log. Actions: playing, playing violin. Emotions: serene, whimsical. Scenes: beach, sunset, beach at sunset, beach scene, sunset scene. Concepts: whimsy, serenity, humor, anthropomorphism, fantasy",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "beach",
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "violin",
+      "log"
+    ],
+    "actions": [
+      "playing",
+      "playing violin"
+    ],
+    "emotions": [
+      "serene",
+      "whimsical"
+    ],
+    "scenes": [
+      "beach",
+      "sunset",
+      "beach at sunset",
+      "beach scene",
+      "sunset scene"
+    ],
+    "concepts": [
+      "whimsy",
+      "serenity",
+      "humor",
+      "anthropomorphism",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

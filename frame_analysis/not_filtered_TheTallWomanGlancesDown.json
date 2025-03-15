@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTallWomanGlancesDown.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTallWomanGlancesDown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTallWomanGlancesDown/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tall woman in a red blazer and black shorts stands confidently beside a shorter man in a white shirt and blue pants. They are positioned in front of a large airport window with a vibrant sunset sky and an airplane visible outside.",
+      "description": "The scene is set in an airport terminal during sunset, with two individuals standing near a large window overlooking the runway. The woman appears significantly taller than the man, creating a striking visual contrast.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "window",
+          "airplane",
+          "blazer",
+          "shorts",
+          "shirt",
+          "pants"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "airport",
+          "sunset"
+        ],
+        "concepts": [
+          "contrast",
+          "height difference"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTallWomanGlancesDown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTallWomanGlancesDown/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tall woman in a red blazer and black shorts stands confidently in front of a large airport window, smiling down at a shorter man in a white shirt and dark pants. The man looks up at her with admiration, set against a backdrop of a vibrant sunset and an airplane on the tarmac.",
+      "description": "The scene takes place in an airport terminal during sunset, with a focus on the contrasting heights of the two individuals. The woman exudes confidence and elegance, while the man appears to be in awe, creating a playful and lighthearted atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "airplane",
+          "window",
+          "blazer",
+          "shorts",
+          "shirt",
+          "pants"
+        ],
+        "actions": [
+          "standing",
+          "looking",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "admiration"
+        ],
+        "scenes": [
+          "airport",
+          "sunset"
+        ],
+        "concepts": [
+          "height contrast",
+          "playful interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Objects: window, airplane, blazer, shorts, shirt. Actions: standing, looking, smiling. Emotions: confident, confidence, admiration. Scenes: airport, sunset. Concepts: contrast, height difference, height contrast, playful interaction",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "window",
+      "airplane",
+      "blazer",
+      "shorts",
+      "shirt"
+    ],
+    "actions": [
+      "standing",
+      "looking",
+      "smiling"
+    ],
+    "emotions": [
+      "confident",
+      "confidence",
+      "admiration"
+    ],
+    "scenes": [
+      "airport",
+      "sunset"
+    ],
+    "concepts": [
+      "contrast",
+      "height difference",
+      "height contrast",
+      "playful interaction"
+    ]
+  },
+  "metadata": {}
+}

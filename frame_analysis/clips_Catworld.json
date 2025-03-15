@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Catworld.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Catworld.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Catworld/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as an aviator is seated in what appears to be a vintage aircraft cockpit. The cat wears a leather aviator helmet, goggles, and a matching scarf, giving it an adventurous look.",
+      "description": "The scene depicts a whimsical and imaginative setting where a cat is portrayed as a pilot. The focus is on the cat's detailed attire, suggesting a playful and creative theme.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "aviator helmet",
+          "goggles",
+          "scarf",
+          "aircraft cockpit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "adventurous",
+          "playful"
+        ],
+        "scenes": [
+          "aviation",
+          "fantasy"
+        ],
+        "concepts": [
+          "imagination",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Catworld.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Catworld/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small green toy airplane is positioned on a concrete surface, with a backdrop of stacked cardboard boxes. The scene is set outdoors, with distant hills and a building visible in the background.",
+      "description": "The image depicts a toy airplane on a concrete ground, surrounded by stacks of cardboard boxes. The setting appears to be an outdoor area, possibly a warehouse or storage yard, with natural elements like hills in the distance.",
+      "labels": {
+        "objects": [
+          "toy airplane",
+          "cardboard boxes"
+        ],
+        "nature": [
+          "hills"
+        ],
+        "scenes": [
+          "outdoor",
+          "storage yard"
+        ],
+        "concepts": [
+          "play",
+          "storage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: aviator helmet, goggles, scarf, aircraft cockpit, toy airplane. Actions: sitting. Emotions: adventurous, playful. Scenes: aviation, fantasy, outdoor, storage yard. Concepts: imagination, adventure, play, storage. Nature: hills",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "aviator helmet",
+      "goggles",
+      "scarf",
+      "aircraft cockpit",
+      "toy airplane"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "adventurous",
+      "playful"
+    ],
+    "scenes": [
+      "aviation",
+      "fantasy",
+      "outdoor",
+      "storage yard"
+    ],
+    "concepts": [
+      "imagination",
+      "adventure",
+      "play",
+      "storage"
+    ],
+    "nature": [
+      "hills"
+    ]
+  },
+  "metadata": {}
+}

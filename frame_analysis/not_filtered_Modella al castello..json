@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modella al castello..mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modella al castello..mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Modella al castello./frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a flowing brown robe stands confidently in a grand, ornate hall. The room features intricately carved arches and a checkered floor, with light streaming through a window.",
+      "description": "The scene is set in a historical or fantasy setting, likely a castle or palace, with a person dressed in period or fantasy attire. The architecture is elaborate, with detailed arches and a patterned floor, suggesting a place of significance or power.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "arches",
+          "columns",
+          "checkered floor",
+          "window"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "historical setting",
+          "interior"
+        ],
+        "concepts": [
+          "architecture",
+          "fantasy",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modella al castello..mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Modella al castello./frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a long, flowing robe walks through an ornate, historical room with arched doorways and intricate columns. Sunlight streams through a window, casting patterns on the checkered floor.",
+      "description": "The scene is set in a grand, historical interior with architectural details reminiscent of a castle or cathedral. The atmosphere is serene and slightly mysterious, enhanced by the play of light and shadow.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "robe",
+          "columns",
+          "arched doorways",
+          "window",
+          "checkered floor"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ],
+        "scenes": [
+          "historical interior",
+          "ornate room"
+        ],
+        "concepts": [
+          "architecture",
+          "history",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: columns, checkered floor, window, arches, robe. Actions: standing, walking. Emotions: confidence, serenity, mystery. Scenes: historical setting, interior, historical interior, ornate room. Concepts: architecture, history, fantasy, elegance",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "columns",
+      "checkered floor",
+      "window",
+      "arches",
+      "robe"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serenity",
+      "mystery"
+    ],
+    "scenes": [
+      "historical setting",
+      "interior",
+      "historical interior",
+      "ornate room"
+    ],
+    "concepts": [
+      "architecture",
+      "history",
+      "fantasy",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

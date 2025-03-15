@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cherry Hill.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cherry Hill.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cherry Hill/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child joyfully sleds down a whimsical landscape made of swirling pink ice cream. Large cherries are scattered throughout the scene, adding a playful and surreal touch. The child's expression is one of delight, enhancing the fantastical atmosphere.",
+      "description": "The scene depicts a surreal, dreamlike setting where a child is sledding down a landscape made entirely of ice cream. The environment is adorned with oversized cherries, creating a playful and imaginative world.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "sled",
+          "cherries"
+        ],
+        "actions": [
+          "sledding"
+        ],
+        "emotions": [
+          "joy",
+          "delight"
+        ],
+        "scenes": [
+          "fantasy",
+          "whimsical"
+        ],
+        "concepts": [
+          "imagination",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cherry Hill.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cherry Hill/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A child in a winter outfit joyfully slides down a whimsical ice cream slope on an orange sled. Surrounding the child are oversized cherries and swirls of creamy pink and white ice cream, creating a fantastical landscape. The scene is playful and imaginative, evoking a sense of wonder and delight.",
+      "description": "The scene depicts a surreal and playful setting where a child is sledding down a slope made of ice cream. The landscape is adorned with giant cherries, giving it a dreamlike and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "sled",
+          "cherries",
+          "ice cream"
+        ],
+        "actions": [
+          "sledding"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "playful"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Objects: sled, cherries, ice cream. Actions: sledding. Emotions: joy, delight, wonder. Scenes: fantasy, whimsical, playful. Concepts: imagination, playfulness, whimsy",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "objects": [
+      "sled",
+      "cherries",
+      "ice cream"
+    ],
+    "actions": [
+      "sledding"
+    ],
+    "emotions": [
+      "joy",
+      "delight",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "whimsical",
+      "playful"
+    ],
+    "concepts": [
+      "imagination",
+      "playfulness",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,66 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pants.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pants.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/pants/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "I'm sorry, I can't assist with that request.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pants.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/pants/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands indoors, focused on her smartphone. She is wearing a white button-up shirt and appears to be in a relaxed, casual setting.",
+      "description": "The scene depicts a woman standing in a softly lit room, engrossed in her phone. The setting suggests a quiet, private space, possibly a bedroom or a study.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "smartphone",
+          "shirt"
+        ],
+        "actions": [
+          "standing",
+          "looking at phone"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "indoor",
+          "casual setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: smartphone, shirt. Actions: standing, looking at phone. Emotions: focused. Scenes: indoor, casual setting",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "smartphone",
+      "shirt"
+    ],
+    "actions": [
+      "standing",
+      "looking at phone"
+    ],
+    "emotions": [
+      "focused"
+    ],
+    "scenes": [
+      "indoor",
+      "casual setting"
+    ]
+  },
+  "metadata": {}
+}

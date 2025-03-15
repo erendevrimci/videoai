@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Figther.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Figther.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Figther/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular fighter stands confidently in the ring, his body covered in intricate tattoos. He wears UFC branded shorts and gloves, exuding strength and determination.",
+      "description": "The scene captures a moment in a UFC arena, where a fighter is poised and ready, showcasing his physical prowess and focus. The background is blurred, emphasizing the fighter as the central figure.",
+      "labels": {
+        "people": [
+          "fighter"
+        ],
+        "objects": [
+          "UFC shorts",
+          "gloves"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "UFC arena"
+        ],
+        "concepts": [
+          "strength",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Figther.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Figther/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular fighter stands confidently in an arena, showcasing his heavily tattooed physique. He wears UFC branded shorts and gloves, exuding a sense of readiness and determination.",
+      "description": "The scene is set in a sports arena, likely during a mixed martial arts event. The fighter is the central focus, standing with a composed and intense expression, suggesting he is either preparing for or has just completed a match.",
+      "labels": {
+        "people": [
+          "fighter"
+        ],
+        "objects": [
+          "UFC shorts",
+          "gloves"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "sports arena"
+        ],
+        "concepts": [
+          "martial arts",
+          "competition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fighter. Objects: UFC shorts, gloves. Actions: standing. Emotions: confidence, determination. Scenes: UFC arena, sports arena. Concepts: strength, focus, martial arts, competition",
+  "primary_labels": {
+    "people": [
+      "fighter"
+    ],
+    "objects": [
+      "UFC shorts",
+      "gloves"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "UFC arena",
+      "sports arena"
+    ],
+    "concepts": [
+      "strength",
+      "focus",
+      "martial arts",
+      "competition"
+    ]
+  },
+  "metadata": {}
+}

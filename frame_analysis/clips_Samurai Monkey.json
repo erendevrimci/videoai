@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Monkey.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samurai Monkey/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid monkey dressed in ornate armor stands confidently, holding a swirling blue flame in its hand. The intricate details of the armor suggest a fantasy setting, with the monkey exuding a mystical aura.",
+      "description": "The scene depicts a fantasy character, a humanoid monkey, in a mystical setting. The monkey is dressed in elaborate armor, holding a magical blue flame, suggesting a powerful and magical atmosphere.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "objects": [
+          "armor",
+          "blue flame"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samurai Monkey/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid monkey dressed in ornate armor stands on a stone platform in a forest. It holds a glowing blue flame in its hand, gazing at it with focus and intrigue.",
+      "description": "The scene depicts a mystical forest setting where a humanoid monkey character, adorned in detailed armor, is performing a magical act by conjuring a blue flame. The atmosphere is one of mystery and enchantment, enhanced by the natural surroundings.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "armor",
+          "stone platform",
+          "blue flame"
+        ],
+        "actions": [
+          "conjuring",
+          "gazing"
+        ],
+        "emotions": [
+          "focus",
+          "intrigue"
+        ],
+        "scenes": [
+          "mystical",
+          "enchanted"
+        ],
+        "concepts": [
+          "magic",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: monkey. Objects: armor, blue flame, stone platform. Actions: holding, conjuring, gazing. Emotions: mystical, focus, intrigue. Scenes: fantasy, mystical, enchanted. Concepts: magic, power, fantasy. Nature: forest",
+  "primary_labels": {
+    "animals": [
+      "monkey"
+    ],
+    "objects": [
+      "armor",
+      "blue flame",
+      "stone platform"
+    ],
+    "actions": [
+      "holding",
+      "conjuring",
+      "gazing"
+    ],
+    "emotions": [
+      "mystical",
+      "focus",
+      "intrigue"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical",
+      "enchanted"
+    ],
+    "concepts": [
+      "magic",
+      "power",
+      "fantasy"
+    ],
+    "nature": [
+      "forest"
+    ]
+  },
+  "metadata": {}
+}

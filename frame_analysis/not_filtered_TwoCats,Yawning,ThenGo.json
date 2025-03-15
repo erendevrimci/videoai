@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoCats,Yawning,ThenGo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoCats,Yawning,ThenGo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoCats,Yawning,ThenGo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two fluffy kittens with blue eyes sit adorably in a wicker basket, adorned with pink bows and heart-shaped decorations. The scene is set against a backdrop of pink balloons, creating a festive and loving atmosphere.",
+      "description": "The image depicts a charming and heartwarming scene with two kittens nestled in a cozy basket. The setting is festive, likely themed around love or celebration, with pink and red accents enhancing the affectionate mood.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "basket",
+          "balloons",
+          "bows",
+          "heart decorations"
+        ],
+        "emotions": [
+          "adorable",
+          "loving"
+        ],
+        "scenes": [
+          "festive",
+          "celebration"
+        ],
+        "concepts": [
+          "cuteness",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoCats,Yawning,ThenGo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoCats,Yawning,ThenGo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two fluffy kittens sit adorably in a wicker basket, surrounded by pink and red heart-themed decorations. They wear pink bows with red heart pendants, adding to the festive and loving atmosphere.",
+      "description": "The scene depicts a charming and cozy setting with two kittens nestled in a basket, surrounded by heart-shaped decorations and balloons, suggesting a theme of love or celebration.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "basket",
+          "balloons",
+          "ribbons",
+          "heart decorations"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cute",
+          "loving"
+        ],
+        "scenes": [
+          "festive",
+          "cozy"
+        ],
+        "concepts": [
+          "love",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoCats,Yawning,ThenGo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoCats,Yawning,ThenGo/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two fluffy kittens sit adorably in a wicker basket, adorned with pink bows and heart-shaped decorations. The scene is set against a backdrop of pink balloons and soft fabrics, creating a charming and cozy atmosphere.",
+      "description": "The image depicts a heartwarming scene featuring two kittens nestled in a basket, surrounded by romantic decorations. The setting suggests a playful and affectionate theme, likely intended for a celebration or special occasion.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "basket",
+          "balloons",
+          "bows",
+          "heart decorations"
+        ],
+        "emotions": [
+          "adorable",
+          "affectionate"
+        ],
+        "scenes": [
+          "celebration",
+          "cozy"
+        ],
+        "concepts": [
+          "cuteness",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kittens. Objects: basket, balloons, heart decorations, bows, ribbons. Emotions: adorable, loving, cute, affectionate. Scenes: festive, celebration, cozy. Concepts: cuteness, affection, love, celebration, romance. Actions: sitting",
+  "primary_labels": {
+    "animals": [
+      "kittens"
+    ],
+    "objects": [
+      "basket",
+      "balloons",
+      "heart decorations",
+      "bows",
+      "ribbons"
+    ],
+    "emotions": [
+      "adorable",
+      "loving",
+      "cute",
+      "affectionate"
+    ],
+    "scenes": [
+      "festive",
+      "celebration",
+      "cozy"
+    ],
+    "concepts": [
+      "cuteness",
+      "affection",
+      "love",
+      "celebration",
+      "romance"
+    ],
+    "actions": [
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

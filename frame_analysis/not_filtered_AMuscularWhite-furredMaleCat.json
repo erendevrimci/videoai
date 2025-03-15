@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMuscularWhite-furredMaleCat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMuscularWhite-furredMaleCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMuscularWhite-furredMaleCat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid cat with white fur stands in front of a wooden door, illuminated by a warm lantern. The creature is dressed in rustic clothing and carries a sack over its shoulder, gazing thoughtfully at the door.",
+      "description": "The scene depicts a fantasy setting where a humanoid cat character is standing outside a wooden building at night. The atmosphere is mysterious and slightly tense, with the warm glow of the lantern contrasting against the cool night air.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "door",
+          "lantern",
+          "sack"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "night",
+          "fantasy"
+        ],
+        "concepts": [
+          "humanoid",
+          "anthropomorphic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMuscularWhite-furredMaleCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMuscularWhite-furredMaleCat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid white cat stands at a wooden door, gently knocking. The scene is set in a dimly lit, rustic environment, with a warm glow emanating from a lantern beside the door.",
+      "description": "The scene depicts a humanoid cat character in a serene, rural setting, approaching a wooden house at dusk. The character appears to be on a journey, suggested by the sack slung over its shoulder.",
+      "labels": {
+        "animals": [
+          "humanoid cat"
+        ],
+        "objects": [
+          "door",
+          "lantern",
+          "sack"
+        ],
+        "actions": [
+          "knocking"
+        ],
+        "emotions": [
+          "calm",
+          "curious"
+        ],
+        "scenes": [
+          "rustic",
+          "evening"
+        ],
+        "concepts": [
+          "journey",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, humanoid cat. Objects: door, lantern, sack. Actions: standing, gazing, knocking. Emotions: thoughtful, calm, curious. Scenes: night, fantasy, rustic, evening. Concepts: humanoid, anthropomorphic, journey, mystery",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "humanoid cat"
+    ],
+    "objects": [
+      "door",
+      "lantern",
+      "sack"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "knocking"
+    ],
+    "emotions": [
+      "thoughtful",
+      "calm",
+      "curious"
+    ],
+    "scenes": [
+      "night",
+      "fantasy",
+      "rustic",
+      "evening"
+    ],
+    "concepts": [
+      "humanoid",
+      "anthropomorphic",
+      "journey",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

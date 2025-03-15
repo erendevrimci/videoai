@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0420\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u043e\u0435\u0412\u0438\u0434\u0435\u043e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0420\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u043e\u0435\u0412\u0438\u0434\u0435\u043e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0420\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u043e\u0435\u0412\u0438\u0434\u0435\u043e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a woman with curly hair, highlighted by soft, natural lighting. Her face is partially illuminated, casting gentle shadows that enhance her features.",
+      "description": "The scene captures an intimate and serene moment, focusing on the woman's expressive eyes and natural beauty. The lighting creates a warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hair",
+          "skin"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "natural lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0420\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u043e\u0435\u0412\u0438\u0434\u0435\u043e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0420\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u043e\u0435\u0412\u0438\u0434\u0435\u043e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with curly hair, illuminated by soft, natural light. The light casts gentle shadows across the face, highlighting the person's features and creating a serene atmosphere.",
+      "description": "The scene captures an intimate and artistic portrait of a person, focusing on their face and expression. The setting appears to be indoors with natural light streaming in, creating a warm and contemplative mood.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "natural light",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, face. Objects: hair, skin. Actions: gazing, looking. Emotions: serenity, serene, contemplative. Scenes: portrait. Concepts: beauty, natural lighting, natural light, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "face"
+    ],
+    "objects": [
+      "hair",
+      "skin"
+    ],
+    "actions": [
+      "gazing",
+      "looking"
+    ],
+    "emotions": [
+      "serenity",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "natural lighting",
+      "natural light",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Conoc.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Conoc.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Conoc/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of friends is taking a selfie on a bustling street. They are smiling and appear to be enjoying a casual outing together. The background shows a lively urban setting with buildings and parked cars.",
+      "description": "The scene captures a joyful moment among friends on a city street. The setting suggests a social gathering or casual meetup in an urban environment.",
+      "labels": {
+        "people": [
+          "group of friends",
+          "smiling individuals"
+        ],
+        "objects": [
+          "buildings",
+          "cars",
+          "street"
+        ],
+        "actions": [
+          "taking a selfie",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "friendship"
+        ],
+        "scenes": [
+          "urban",
+          "social gathering"
+        ],
+        "concepts": [
+          "friendship",
+          "casual outing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Conoc.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Conoc/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of friends is taking a cheerful selfie on a bustling street. The background features a row of charming buildings and parked cars, suggesting an urban setting. The people in the foreground are smiling and appear to be enjoying each other's company.",
+      "description": "The scene captures a lively moment among friends in an urban environment. The setting is a street lined with buildings, likely in a city center, with a relaxed and friendly atmosphere.",
+      "labels": {
+        "people": [
+          "group",
+          "friends"
+        ],
+        "objects": [
+          "buildings",
+          "cars"
+        ],
+        "actions": [
+          "smiling",
+          "taking a selfie"
+        ],
+        "emotions": [
+          "happiness",
+          "friendliness"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "friendship",
+          "social gathering"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: group of friends, smiling individuals, group, friends. Objects: buildings, cars, street. Actions: taking a selfie, smiling. Emotions: happiness, friendship, friendliness. Scenes: urban, social gathering, street. Concepts: friendship, casual outing, social gathering",
+  "primary_labels": {
+    "people": [
+      "group of friends",
+      "smiling individuals",
+      "group",
+      "friends"
+    ],
+    "objects": [
+      "buildings",
+      "cars",
+      "street"
+    ],
+    "actions": [
+      "taking a selfie",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "friendship",
+      "friendliness"
+    ],
+    "scenes": [
+      "urban",
+      "social gathering",
+      "street"
+    ],
+    "concepts": [
+      "friendship",
+      "casual outing",
+      "social gathering"
+    ]
+  },
+  "metadata": {}
+}

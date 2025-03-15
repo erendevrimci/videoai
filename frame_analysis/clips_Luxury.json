@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luxury.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luxury.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Luxury/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands elegantly on a grand staircase, dressed in a stunning, intricately beaded gown. The opulent setting features luxurious chandeliers and floral arrangements, enhancing the sophisticated atmosphere.",
+      "description": "The scene is set in a lavish interior, likely a ballroom or a grand hall, with a focus on elegance and luxury. The woman is the central figure, exuding grace and poise.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "chandelier",
+          "staircase",
+          "flowers",
+          "handbag"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "interior",
+          "luxurious setting"
+        ],
+        "concepts": [
+          "fashion",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luxury.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Luxury/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands elegantly on a grand staircase, adorned in a shimmering, intricately designed gown. The opulent setting is enhanced by the presence of chandeliers and floral arrangements, creating a luxurious atmosphere.",
+      "description": "The scene is set in a lavish interior, possibly a ballroom or a grand hall, featuring a marble staircase. The woman is dressed in a glamorous gown, suggesting a formal event or occasion.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "staircase",
+          "chandelier",
+          "flowers",
+          "handbag"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "interior",
+          "formal event"
+        ],
+        "concepts": [
+          "luxury",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, chandelier, staircase, flowers, handbag. Actions: standing. Emotions: elegance. Scenes: interior, luxurious setting, formal event. Concepts: fashion, opulence, luxury",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "chandelier",
+      "staircase",
+      "flowers",
+      "handbag"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "elegance"
+    ],
+    "scenes": [
+      "interior",
+      "luxurious setting",
+      "formal event"
+    ],
+    "concepts": [
+      "fashion",
+      "opulence",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

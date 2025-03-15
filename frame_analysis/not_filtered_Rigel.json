@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rigel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rigel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Rigel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man stands confidently in a dimly lit hallway, wearing a formal vest and tie. The setting is reminiscent of an old, grand building with stone walls and candle sconces.",
+      "description": "The scene is set in a historical or academic building, possibly a castle or school, with a focus on the young man in the foreground. The lighting is soft, creating a dramatic and mysterious atmosphere.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "objects": [
+          "vest",
+          "tie",
+          "candle sconces"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "hallway",
+          "historical building"
+        ],
+        "concepts": [
+          "mystery",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rigel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Rigel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man stands confidently in a dimly lit hallway, wearing a vest and tie. The setting is reminiscent of an old, grand building with arched ceilings and wall sconces casting a warm glow.",
+      "description": "The scene is set in a historic, possibly academic building, characterized by its arched architecture and dim lighting. The young man in the foreground exudes confidence and focus, while another figure is visible in the background, adding depth to the scene.",
+      "labels": {
+        "people": [
+          "young man",
+          "background figure"
+        ],
+        "objects": [
+          "vest",
+          "tie",
+          "sconces"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "hallway",
+          "historic building"
+        ],
+        "concepts": [
+          "focus",
+          "academic setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young man, background figure. Objects: vest, tie, candle sconces, sconces. Actions: standing. Emotions: confident, confidence. Scenes: hallway, historical building, historic building. Concepts: mystery, drama, focus, academic setting",
+  "primary_labels": {
+    "people": [
+      "young man",
+      "background figure"
+    ],
+    "objects": [
+      "vest",
+      "tie",
+      "candle sconces",
+      "sconces"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "hallway",
+      "historical building",
+      "historic building"
+    ],
+    "concepts": [
+      "mystery",
+      "drama",
+      "focus",
+      "academic setting"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheImageISentIs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheImageISentIs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheImageISentIs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl stands confidently against a floral-patterned background. She is wearing a stylish dress with a textured gray fabric and white sleeves, complemented by a decorative collar.",
+      "description": "The scene captures a young girl posing in front of a floral wallpaper backdrop. Her attire is a blend of classic and modern styles, featuring a gray dress with white accents and long sleeves.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheImageISentIs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheImageISentIs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl stands confidently in front of a floral-patterned background. She is wearing a stylish dress with a white collar and long sleeves, paired with a black skirt.",
+      "description": "The scene captures a young girl posing in a fashion-forward dress against a decorative floral backdrop. The setting suggests a fashion shoot or a formal portrait session.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "nature": [
+          "floral pattern"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion shoot",
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: dress, earrings. Nature: flowers, floral pattern. Emotions: confidence. Scenes: portrait, fashion shoot. Concepts: fashion, style. Actions: standing, posing",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "dress",
+      "earrings"
+    ],
+    "nature": [
+      "flowers",
+      "floral pattern"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "fashion shoot"
+    ],
+    "concepts": [
+      "fashion",
+      "style"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ]
+  },
+  "metadata": {}
+}

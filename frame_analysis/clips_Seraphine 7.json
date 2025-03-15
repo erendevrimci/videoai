@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 7.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 7/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with red hair floats serenely in a body of water, surrounded by scattered autumn leaves. She wears a black lace dress, and her arms are outstretched, creating gentle ripples around her. The scene captures a tranquil moment, blending natural beauty with a touch of melancholy.",
+      "description": "The scene is set in a calm, natural water body, possibly a lake or pond, during autumn. The woman is the central focus, lying effortlessly in the water, with fallen leaves adding a seasonal touch.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "water",
+          "autumn leaves"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "scenes": [
+          "natural setting",
+          "autumn"
+        ],
+        "concepts": [
+          "calmness",
+          "melancholy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 7/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking red hair floats serenely on the surface of a calm body of water, surrounded by autumn leaves. She wears a black lace dress, and her expression is peaceful as she gazes upwards.",
+      "description": "The scene captures a tranquil moment in nature, where a woman is floating in water amidst fallen leaves, evoking a sense of calm and introspection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "water",
+          "autumn leaves"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "outdoor",
+          "autumn"
+        ],
+        "concepts": [
+          "tranquility",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: water, autumn leaves. Objects: dress. Actions: floating. Emotions: serene, tranquil, serenity, peacefulness. Scenes: autumn, natural setting, outdoor. Concepts: calmness, melancholy, tranquility, introspection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "water",
+      "autumn leaves"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "serene",
+      "tranquil",
+      "serenity",
+      "peacefulness"
+    ],
+    "scenes": [
+      "autumn",
+      "natural setting",
+      "outdoor"
+    ],
+    "concepts": [
+      "calmness",
+      "melancholy",
+      "tranquility",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

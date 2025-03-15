@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/To a duel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/To a duel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/To a duel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in an ornate, dark coat walks confidently down a cobblestone street. The historical architecture of the buildings lining the street suggests an old European setting, bathed in warm sunlight.",
+      "description": "The scene depicts a solitary figure walking down a deserted, cobblestone street in what appears to be a historical European town. The man is dressed in a richly decorated coat, exuding an air of authority and elegance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "ornate coat",
+          "glasses",
+          "boots"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "cobblestone street",
+          "historical architecture"
+        ],
+        "concepts": [
+          "elegance",
+          "authority"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/To a duel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/To a duel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A distinguished man with silver hair and glasses stands confidently in an ornate, embroidered coat. The background is a blurred cityscape, suggesting an urban setting.",
+      "description": "The scene depicts a man in a historical or fantasy-inspired outfit, standing in a city street. His expression is serious, and the lighting highlights his features against a softly focused urban backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "embroidered coat"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "historical",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: glasses, ornate coat, boots, embroidered coat. Actions: walking, standing. Emotions: confidence, serious. Scenes: cobblestone street, historical architecture, urban, city street. Concepts: elegance, authority, historical, fantasy",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "glasses",
+      "ornate coat",
+      "boots",
+      "embroidered coat"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "serious"
+    ],
+    "scenes": [
+      "cobblestone street",
+      "historical architecture",
+      "urban",
+      "city street"
+    ],
+    "concepts": [
+      "elegance",
+      "authority",
+      "historical",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

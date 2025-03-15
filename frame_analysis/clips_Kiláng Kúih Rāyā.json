@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kil\u00e1ng K\u00faih R\u0101y\u0101.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kil\u00e1ng K\u00faih R\u0101y\u0101.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Kil\u00e1ng K\u00faih R\u0101y\u0101/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, chefs are depicted as miniature figures working in a bakery, surrounded by oversized pastries and industrial baking equipment. The setting is illuminated by large overhead lights, casting a warm glow over the bustling activity. The chefs are engaged in various tasks, from kneading dough to arranging baked goods.",
+      "description": "The scene portrays a fantastical bakery where miniature chefs are busy preparing an array of pastries. The setting is industrial with large ovens and baking equipment, creating an imaginative contrast with the tiny figures and oversized baked goods.",
+      "labels": {
+        "people": [
+          "chefs",
+          "bakers"
+        ],
+        "objects": [
+          "pastries",
+          "ovens",
+          "baking equipment",
+          "overhead lights"
+        ],
+        "actions": [
+          "baking",
+          "kneading",
+          "arranging"
+        ],
+        "emotions": [
+          "whimsical",
+          "busy"
+        ],
+        "scenes": [
+          "bakery",
+          "industrial kitchen"
+        ],
+        "concepts": [
+          "miniature",
+          "fantasy",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kil\u00e1ng K\u00faih R\u0101y\u0101.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Kil\u00e1ng K\u00faih R\u0101y\u0101/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a bustling bakery, miniature chefs meticulously prepare an array of colorful pastries under the warm glow of industrial lamps. The scene is filled with vibrant confections, from neatly arranged pastries to intricately decorated cakes, all set against the backdrop of a large oven. Two women in traditional attire oversee the process, adding a cultural touch to the culinary setting.",
+      "description": "The scene is set in a bakery where miniature chefs are actively engaged in preparing various pastries. The atmosphere is warm and industrious, with large industrial lamps illuminating the workspace. The presence of traditional attire suggests a cultural or festive context.",
+      "labels": {
+        "people": [
+          "chefs",
+          "women"
+        ],
+        "objects": [
+          "pastries",
+          "oven",
+          "lamps",
+          "tables"
+        ],
+        "actions": [
+          "baking",
+          "arranging",
+          "overseeing"
+        ],
+        "emotions": [
+          "focused",
+          "industrious"
+        ],
+        "scenes": [
+          "bakery",
+          "culinary setting"
+        ],
+        "concepts": [
+          "miniature",
+          "cultural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs, bakers, women. Objects: pastries, ovens, baking equipment, overhead lights, oven. Actions: baking, arranging, kneading, overseeing. Emotions: whimsical, busy, focused, industrious. Scenes: bakery, industrial kitchen, culinary setting. Concepts: miniature, fantasy, culinary art, cultural",
+  "primary_labels": {
+    "people": [
+      "chefs",
+      "bakers",
+      "women"
+    ],
+    "objects": [
+      "pastries",
+      "ovens",
+      "baking equipment",
+      "overhead lights",
+      "oven"
+    ],
+    "actions": [
+      "baking",
+      "arranging",
+      "kneading",
+      "overseeing"
+    ],
+    "emotions": [
+      "whimsical",
+      "busy",
+      "focused",
+      "industrious"
+    ],
+    "scenes": [
+      "bakery",
+      "industrial kitchen",
+      "culinary setting"
+    ],
+    "concepts": [
+      "miniature",
+      "fantasy",
+      "culinary art",
+      "cultural"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicSceneWhere.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicSceneWhere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateACinematicSceneWhere/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands in a dimly lit room, illuminated by a warm overhead light. His expression is serious and contemplative, suggesting deep thought or concern.",
+      "description": "The scene takes place in a dimly lit interior, possibly a home or office, with a warm, moody atmosphere. The focus is on a man who appears to be in deep thought, with blurred figures and a window in the background.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "overhead light",
+          "window"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious",
+          "contemplative"
+        ],
+        "scenes": [
+          "interior",
+          "dimly lit room"
+        ],
+        "concepts": [
+          "thoughtful",
+          "moody atmosphere"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicSceneWhere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateACinematicSceneWhere/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man is captured in a dimly lit room, looking intently towards the camera. The background is blurred, with a warm light casting a soft glow around him.",
+      "description": "The scene appears to be set indoors, possibly in a dimly lit room or hallway. The focus is on a man who seems to be in a contemplative or serious mood.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "light"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "indoor",
+          "dimly lit"
+        ],
+        "concepts": [
+          "contemplation",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: overhead light, window, light. Actions: standing, looking. Emotions: serious, contemplative. Scenes: interior, dimly lit room, indoor, dimly lit. Concepts: thoughtful, moody atmosphere, contemplation, focus",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "overhead light",
+      "window",
+      "light"
+    ],
+    "actions": [
+      "standing",
+      "looking"
+    ],
+    "emotions": [
+      "serious",
+      "contemplative"
+    ],
+    "scenes": [
+      "interior",
+      "dimly lit room",
+      "indoor",
+      "dimly lit"
+    ],
+    "concepts": [
+      "thoughtful",
+      "moody atmosphere",
+      "contemplation",
+      "focus"
+    ]
+  },
+  "metadata": {}
+}

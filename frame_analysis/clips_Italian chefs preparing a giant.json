@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Italian chefs preparing a giant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Italian chefs preparing a giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Italian chefs preparing a giant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A freshly baked pizza topped with pepperoni, cheese, olives, and basil leaves sits on a wooden table. Surrounding the pizza are four miniature figures of chefs, each engaged in animated discussion and gestures. The background features a warmly lit kitchen setting with shelves stocked with ingredients.",
+      "description": "The scene is set in a cozy kitchen environment, focusing on a delicious pizza and miniature chef figures. The chefs appear to be discussing or admiring the pizza, adding a playful and whimsical touch to the scene.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "wooden table",
+          "kitchen shelves",
+          "ingredients"
+        ],
+        "actions": [
+          "discussion",
+          "gesturing"
+        ],
+        "emotions": [
+          "admiration",
+          "enthusiasm"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary art",
+          "miniature figures",
+          "food presentation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Italian chefs preparing a giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Italian chefs preparing a giant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a cozy kitchen setting, a group of miniature chefs gather around a large, freshly baked pizza. The pizza is topped with pepperoni, cheese, olives, and fresh basil leaves, creating a vibrant and appetizing appearance.",
+      "description": "The scene is set in a warm, inviting kitchen with a focus on a large pizza surrounded by small figurines of chefs. The background features rustic kitchen elements like shelves with jars and fresh vegetables, enhancing the culinary atmosphere.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "basil leaves",
+          "pepperoni",
+          "cheese",
+          "olives",
+          "kitchen utensils"
+        ],
+        "actions": [
+          "gathering",
+          "observing"
+        ],
+        "emotions": [
+          "focused",
+          "enthusiastic"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "cooking",
+          "miniature",
+          "food preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: pizza, wooden table, kitchen shelves, ingredients, basil leaves. Actions: discussion, gesturing, gathering, observing. Emotions: admiration, enthusiasm, focused, enthusiastic. Scenes: kitchen, culinary. Concepts: culinary art, miniature figures, food presentation, cooking, miniature",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "pizza",
+      "wooden table",
+      "kitchen shelves",
+      "ingredients",
+      "basil leaves"
+    ],
+    "actions": [
+      "discussion",
+      "gesturing",
+      "gathering",
+      "observing"
+    ],
+    "emotions": [
+      "admiration",
+      "enthusiasm",
+      "focused",
+      "enthusiastic"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary"
+    ],
+    "concepts": [
+      "culinary art",
+      "miniature figures",
+      "food presentation",
+      "cooking",
+      "miniature"
+    ]
+  },
+  "metadata": {}
+}

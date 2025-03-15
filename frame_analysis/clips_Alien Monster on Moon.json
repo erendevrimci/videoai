@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Monster on Moon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Monster on Moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alien Monster on Moon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing creature with sharp claws and a spiked back strides across a barren, moon-like landscape. The Earth looms large in the background, casting a soft glow over the scene. The creature's glowing eyes and aggressive posture suggest a sense of danger and foreboding.",
+      "description": "The scene is set on a desolate, extraterrestrial landscape resembling the surface of the moon. A large, monstrous creature is the focal point, moving purposefully across the terrain. The Earth is visible in the sky, adding a dramatic backdrop to the scene.",
+      "labels": {
+        "animals": [
+          "creature",
+          "monster"
+        ],
+        "nature": [
+          "moon",
+          "Earth"
+        ],
+        "objects": [
+          "spikes",
+          "claws"
+        ],
+        "actions": [
+          "striding",
+          "moving"
+        ],
+        "emotions": [
+          "menacing",
+          "foreboding"
+        ],
+        "scenes": [
+          "extraterrestrial",
+          "barren landscape"
+        ],
+        "concepts": [
+          "danger",
+          "alien"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Monster on Moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alien Monster on Moon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing creature with sharp teeth and glowing eyes strides across a barren lunar landscape. The Earth looms in the background, casting a pale light over the scene. Dust kicks up from the creature's powerful steps, adding to the tension of the moment.",
+      "description": "The scene is set on the moon, with a monstrous creature dominating the foreground. The Earth is visible in the background, providing context to the extraterrestrial setting. The creature's aggressive posture and the disturbed lunar dust suggest imminent action.",
+      "labels": {
+        "animals": [
+          "creature",
+          "monster"
+        ],
+        "nature": [
+          "moon",
+          "Earth"
+        ],
+        "objects": [
+          "dust"
+        ],
+        "actions": [
+          "striding",
+          "kicking up dust"
+        ],
+        "emotions": [
+          "menacing",
+          "intense"
+        ],
+        "scenes": [
+          "lunar landscape",
+          "extraterrestrial"
+        ],
+        "concepts": [
+          "alien",
+          "threat"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: creature, monster. Nature: moon, Earth. Objects: spikes, claws, dust. Actions: striding, moving, kicking up dust. Emotions: menacing, foreboding, intense. Scenes: extraterrestrial, barren landscape, lunar landscape. Concepts: alien, danger, threat",
+  "primary_labels": {
+    "animals": [
+      "creature",
+      "monster"
+    ],
+    "nature": [
+      "moon",
+      "Earth"
+    ],
+    "objects": [
+      "spikes",
+      "claws",
+      "dust"
+    ],
+    "actions": [
+      "striding",
+      "moving",
+      "kicking up dust"
+    ],
+    "emotions": [
+      "menacing",
+      "foreboding",
+      "intense"
+    ],
+    "scenes": [
+      "extraterrestrial",
+      "barren landscape",
+      "lunar landscape"
+    ],
+    "concepts": [
+      "alien",
+      "danger",
+      "threat"
+    ]
+  },
+  "metadata": {}
+}

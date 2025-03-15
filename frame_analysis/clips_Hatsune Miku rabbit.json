@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hatsune Miku rabbit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hatsune Miku rabbit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hatsune Miku rabbit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with vibrant turquoise hair and a white lace outfit is surrounded by numerous white rabbits. The scene exudes a whimsical and serene atmosphere, with the person gently interacting with the rabbits.",
+      "description": "The scene is set in a dreamy, fantasy-like environment where a person is lying amidst a group of white rabbits. The setting suggests a peaceful and enchanting moment, with a focus on harmony between the person and the animals.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "rabbits"
+        ],
+        "objects": [
+          "lace outfit",
+          "headphones"
+        ],
+        "actions": [
+          "lying down",
+          "interacting with rabbits"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "dreamlike"
+        ],
+        "concepts": [
+          "harmony",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hatsune Miku rabbit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hatsune Miku rabbit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with vibrant turquoise hair lies surrounded by a group of white rabbits. They are dressed in a white, lacy outfit with a matching turquoise ribbon. The scene is whimsical and serene, with the rabbits appearing calm and gentle.",
+      "description": "The scene is set in a whimsical, fantasy-like environment where a person is lying down, surrounded by white rabbits. The setting is intimate and serene, with a focus on the harmonious interaction between the person and the animals.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "rabbits"
+        ],
+        "objects": [
+          "ribbon",
+          "lacy outfit"
+        ],
+        "actions": [
+          "lying down"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "fantasy",
+          "whimsical"
+        ],
+        "concepts": [
+          "harmony",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: rabbits. Objects: lace outfit, headphones, ribbon, lacy outfit. Actions: lying down, interacting with rabbits. Emotions: serene, whimsical, calm. Scenes: fantasy, dreamlike, whimsical. Concepts: harmony, enchantment, gentleness",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "rabbits"
+    ],
+    "objects": [
+      "lace outfit",
+      "headphones",
+      "ribbon",
+      "lacy outfit"
+    ],
+    "actions": [
+      "lying down",
+      "interacting with rabbits"
+    ],
+    "emotions": [
+      "serene",
+      "whimsical",
+      "calm"
+    ],
+    "scenes": [
+      "fantasy",
+      "dreamlike",
+      "whimsical"
+    ],
+    "concepts": [
+      "harmony",
+      "enchantment",
+      "gentleness"
+    ]
+  },
+  "metadata": {}
+}

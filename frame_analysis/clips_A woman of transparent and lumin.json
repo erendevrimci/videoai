@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A woman of transparent and lumin.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A woman of transparent and lumin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A woman of transparent and lumin/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a woman with a transparent body filled with plants and flowers, and her head adorned with celestial bodies. Her hair is green, blending with the foliage around her, creating a harmonious connection with nature.",
+      "description": "The scene is a fantastical representation of a woman intertwined with nature and the cosmos. Her transparent form reveals an inner world of flora, while planets and stars orbit around her head, symbolizing a unity between earth and the universe.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "plants",
+          "flowers",
+          "foliage"
+        ],
+        "objects": [
+          "planets",
+          "stars"
+        ],
+        "emotions": [
+          "serenity",
+          "harmony"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "nature connection",
+          "cosmic unity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A woman of transparent and lumin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A woman of transparent and lumin/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal depiction of a woman with a transparent body filled with plants and celestial objects. Her hair is green, blending with the foliage around her, and her head contains miniature planets and stars. The scene is illuminated with soft, ethereal lighting, creating a dreamlike atmosphere.",
+      "description": "The image portrays a fantastical scene where a woman is integrated with nature and the cosmos. Her transparent form reveals a lush interior of plants and celestial bodies, symbolizing a connection between humanity and the universe.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "plants",
+          "foliage"
+        ],
+        "objects": [
+          "planets",
+          "stars"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "nature integration",
+          "cosmic connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: plants, foliage, flowers. Objects: planets, stars. Emotions: serenity, harmony. Scenes: fantasy, surreal. Concepts: nature connection, cosmic unity, nature integration, cosmic connection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "plants",
+      "foliage",
+      "flowers"
+    ],
+    "objects": [
+      "planets",
+      "stars"
+    ],
+    "emotions": [
+      "serenity",
+      "harmony"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal"
+    ],
+    "concepts": [
+      "nature connection",
+      "cosmic unity",
+      "nature integration",
+      "cosmic connection"
+    ]
+  },
+  "metadata": {}
+}

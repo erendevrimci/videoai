@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManFlyingInTheAir.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManFlyingInTheAir.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManFlyingInTheAir/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is seen floating or falling through a cloud-filled urban landscape, surrounded by towering skyscrapers and vibrant neon lights. The scene captures a surreal moment as the individual appears to be suspended in mid-air above a bustling city street.",
+      "description": "The image depicts a dramatic urban setting with a person seemingly in free fall or levitating above a cityscape. The scene is set at night, with bright neon signs illuminating the buildings and streets below, creating a futuristic and dreamlike atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "backpack",
+          "buildings",
+          "neon lights"
+        ],
+        "actions": [
+          "floating",
+          "falling"
+        ],
+        "emotions": [
+          "surreal",
+          "dreamlike"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "suspension"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManFlyingInTheAir.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManFlyingInTheAir/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with a red backpack appears to be floating or falling through a vibrant, futuristic cityscape. Neon lights and colorful clouds surround the scene, creating a surreal and dynamic atmosphere.",
+      "description": "The scene depicts a person seemingly suspended in mid-air against a backdrop of a futuristic city. The environment is filled with neon lights and colorful clouds, suggesting a high-tech urban setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "backpack",
+          "neon lights"
+        ],
+        "actions": [
+          "floating",
+          "falling"
+        ],
+        "emotions": [
+          "surreal",
+          "dynamic"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "technology",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManFlyingInTheAir.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManFlyingInTheAir/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is seen in mid-air, seemingly falling or flying through a futuristic cityscape filled with neon lights and towering skyscrapers. The scene is vibrant with colorful advertisements and a dynamic perspective that enhances the sense of motion.",
+      "description": "The image depicts a futuristic urban environment, possibly a city at night, with a person in a dynamic pose suggesting movement through the air. The setting is filled with bright neon lights and towering structures, creating a sense of a bustling, advanced metropolis.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "backpack",
+          "neon lights",
+          "skyscrapers"
+        ],
+        "actions": [
+          "falling",
+          "flying"
+        ],
+        "emotions": [
+          "exhilaration"
+        ],
+        "scenes": [
+          "futuristic city",
+          "nighttime"
+        ],
+        "concepts": [
+          "urban",
+          "technology",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: backpack, neon lights, buildings, skyscrapers. Actions: falling, floating, flying. Emotions: surreal, dreamlike, dynamic, exhilaration. Scenes: urban, cityscape, night, futuristic cityscape, futuristic city. Concepts: technology, urban, futuristic, suspension, motion",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "backpack",
+      "neon lights",
+      "buildings",
+      "skyscrapers"
+    ],
+    "actions": [
+      "falling",
+      "floating",
+      "flying"
+    ],
+    "emotions": [
+      "surreal",
+      "dreamlike",
+      "dynamic",
+      "exhilaration"
+    ],
+    "scenes": [
+      "urban",
+      "cityscape",
+      "night",
+      "futuristic cityscape",
+      "futuristic city"
+    ],
+    "concepts": [
+      "technology",
+      "urban",
+      "futuristic",
+      "suspension",
+      "motion"
+    ]
+  },
+  "metadata": {}
+}

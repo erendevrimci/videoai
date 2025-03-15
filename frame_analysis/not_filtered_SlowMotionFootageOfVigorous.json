@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotionFootageOfVigorous.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotionFootageOfVigorous.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowMotionFootageOfVigorous/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid shark dressed as a pirate strides confidently along a cobblestone path. The creature wears a tricorn hat and carries a large knife, set against the backdrop of a ship and a historical building. The scene is bathed in warm, golden light, suggesting a sunset or sunrise.",
+      "description": "The scene depicts a fantastical pirate setting where a humanoid shark character is the central figure. The background includes a sailing ship and a building with arched windows, evoking a historical or colonial port town.",
+      "labels": {
+        "animals": [
+          "shark"
+        ],
+        "objects": [
+          "knife",
+          "tricorn hat",
+          "ship",
+          "building"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "pirate",
+          "fantasy",
+          "historical"
+        ],
+        "concepts": [
+          "adventure",
+          "fantasy creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotionFootageOfVigorous.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowMotionFootageOfVigorous/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid shark dressed as a pirate stands on a cobblestone street, brandishing a sword with a fierce expression. The background features a docked ship and a building with a clock tower, suggesting a historical port setting. The scene is bathed in warm, golden light, adding a dramatic flair.",
+      "description": "The scene depicts a fantastical pirate-themed setting with a humanoid shark character. The character is in a dynamic pose, holding a sword, and is dressed in typical pirate attire, including a tricorn hat. The setting includes a ship and a historical building, creating an adventurous and dramatic atmosphere.",
+      "labels": {
+        "animals": [
+          "shark"
+        ],
+        "objects": [
+          "sword",
+          "tricorn hat",
+          "ship",
+          "building"
+        ],
+        "actions": [
+          "brandishing sword"
+        ],
+        "emotions": [
+          "fierce"
+        ],
+        "scenes": [
+          "pirate",
+          "historical port"
+        ],
+        "concepts": [
+          "fantasy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: shark. Objects: tricorn hat, ship, building, knife, sword. Actions: walking, brandishing sword. Emotions: confidence, fierce. Scenes: pirate, fantasy, historical, historical port. Concepts: adventure, fantasy creature, fantasy",
+  "primary_labels": {
+    "animals": [
+      "shark"
+    ],
+    "objects": [
+      "tricorn hat",
+      "ship",
+      "building",
+      "knife",
+      "sword"
+    ],
+    "actions": [
+      "walking",
+      "brandishing sword"
+    ],
+    "emotions": [
+      "confidence",
+      "fierce"
+    ],
+    "scenes": [
+      "pirate",
+      "fantasy",
+      "historical",
+      "historical port"
+    ],
+    "concepts": [
+      "adventure",
+      "fantasy creature",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

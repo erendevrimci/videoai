@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl and dog birthday.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl and dog birthday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl and dog birthday/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful child wearing a colorful party hat and bow tie reaches for a smiling balloon while a playful dog sits beside them. The room is filled with vibrant balloons and confetti, creating a festive atmosphere.",
+      "description": "The scene captures a lively celebration, likely a birthday party, with a young child and a dog enjoying the colorful decorations. The setting is indoors, with balloons and confetti enhancing the cheerful mood.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "balloon",
+          "party hat",
+          "confetti"
+        ],
+        "actions": [
+          "reaching",
+          "sitting"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "party",
+          "celebration"
+        ],
+        "concepts": [
+          "happiness",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl and dog birthday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl and dog birthday/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful child wearing a party hat and a colorful bow tie is playing with a lively dog amidst a flurry of balloons and confetti. The dog stands on its hind legs, appearing to dance alongside the child in a festive setting.",
+      "description": "The scene captures a lively and cheerful moment during a celebration, likely a birthday party, with a child and a dog as the central figures. The atmosphere is filled with joy and playfulness, enhanced by the colorful balloons and scattered confetti.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "balloons",
+          "confetti",
+          "party hat",
+          "bow tie"
+        ],
+        "actions": [
+          "playing",
+          "dancing"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "celebration",
+          "party"
+        ],
+        "concepts": [
+          "festivity",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: dog. Objects: party hat, confetti, balloon, balloons, bow tie. Actions: reaching, sitting, playing, dancing. Emotions: joy, excitement, happiness. Scenes: party, celebration. Concepts: festivity, happiness, childhood",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "party hat",
+      "confetti",
+      "balloon",
+      "balloons",
+      "bow tie"
+    ],
+    "actions": [
+      "reaching",
+      "sitting",
+      "playing",
+      "dancing"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "happiness"
+    ],
+    "scenes": [
+      "party",
+      "celebration"
+    ],
+    "concepts": [
+      "festivity",
+      "happiness",
+      "childhood"
+    ]
+  },
+  "metadata": {}
+}

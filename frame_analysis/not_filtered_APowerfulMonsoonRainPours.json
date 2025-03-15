@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulMonsoonRainPours.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulMonsoonRainPours.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulMonsoonRainPours/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small wooden hut is nestled in a lush, tropical forest, illuminated by a warm light from within. Rain pours down heavily, creating a reflective sheen on the ground and adding a serene atmosphere to the scene. Large green leaves frame the hut, enhancing the sense of seclusion and tranquility.",
+      "description": "The scene depicts a rainy day in a tropical forest setting, where a wooden hut stands amidst dense foliage. The warm glow from the hut contrasts with the cool, wet environment, creating a cozy refuge from the rain.",
+      "labels": {
+        "nature": [
+          "forest",
+          "rain",
+          "tropical plants"
+        ],
+        "objects": [
+          "hut",
+          "motorbike",
+          "light bulb",
+          "basket"
+        ],
+        "actions": [
+          "raining"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "tropical rain",
+          "forest retreat"
+        ],
+        "concepts": [
+          "isolation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulMonsoonRainPours.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulMonsoonRainPours/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small wooden hut is nestled in a lush, tropical forest, illuminated warmly from within. Heavy rain pours down, creating a reflective sheen on the ground, while large green leaves frame the scene.",
+      "description": "The scene depicts a serene, rainy day in a tropical forest setting. A wooden hut with a corrugated roof stands amidst dense foliage, with a warm light glowing from inside, contrasting the cool, wet surroundings.",
+      "labels": {
+        "nature": [
+          "forest",
+          "rain",
+          "tropical plants"
+        ],
+        "objects": [
+          "hut",
+          "motorbike",
+          "basket",
+          "light"
+        ],
+        "actions": [
+          "raining"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "tropical forest",
+          "rainy day"
+        ],
+        "concepts": [
+          "tranquility",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, rain, tropical plants. Objects: hut, motorbike, basket, light bulb, light. Actions: raining. Emotions: serenity, tranquility, calm, serene. Scenes: tropical rain, forest retreat, tropical forest, rainy day. Concepts: isolation, nature, tranquility",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "rain",
+      "tropical plants"
+    ],
+    "objects": [
+      "hut",
+      "motorbike",
+      "basket",
+      "light bulb",
+      "light"
+    ],
+    "actions": [
+      "raining"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "tropical rain",
+      "forest retreat",
+      "tropical forest",
+      "rainy day"
+    ],
+    "concepts": [
+      "isolation",
+      "nature",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

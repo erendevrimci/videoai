@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Noble Vampress.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Noble Vampress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Noble Vampress/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking figure with intense blue eyes and platinum blonde hair gazes directly at the viewer. She wears an ornate crown and intricate jewelry, with delicate lace details on her attire. Her expression is fierce and commanding, set against a dimly lit background.",
+      "description": "The scene depicts a regal and powerful character in a fantasy setting, exuding an aura of authority and mystique. The focus is on her piercing gaze and elaborate accessories, suggesting a narrative of royalty or magical influence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "crown",
+          "necklace",
+          "jewelry",
+          "lace"
+        ],
+        "emotions": [
+          "intensity",
+          "fierceness"
+        ],
+        "scenes": [
+          "fantasy",
+          "portrait"
+        ],
+        "concepts": [
+          "regality",
+          "mystique"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Noble Vampress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Noble Vampress/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal figure with piercing eyes and intricate jewelry gazes intensely at the viewer. The person is adorned with a detailed crown and lace-like garments, exuding an aura of power and mystery.",
+      "description": "The scene depicts a close-up of a person with a commanding presence, set against a blurred background that enhances the focus on their striking features and elaborate attire.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "crown",
+          "jewelry",
+          "lace"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "portrait",
+          "fantasy"
+        ],
+        "concepts": [
+          "royalty",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Noble Vampress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Noble Vampress/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A regal figure with striking silver hair and an ornate crown gazes intensely at the viewer. The intricate jewelry and lace details of the attire suggest an air of elegance and authority.",
+      "description": "The scene depicts a close-up of a person in a royal or fantasy setting, adorned with elaborate accessories and a commanding presence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "crown",
+          "jewelry",
+          "lace dress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intense",
+          "regal"
+        ],
+        "scenes": [
+          "fantasy",
+          "royalty"
+        ],
+        "concepts": [
+          "elegance",
+          "authority"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: crown, jewelry, lace, necklace, lace dress. Emotions: intensity, fierceness, mystery, intense, regal. Scenes: fantasy, portrait, royalty. Concepts: regality, mystique, royalty, power, elegance. Actions: gazing",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "crown",
+      "jewelry",
+      "lace",
+      "necklace",
+      "lace dress"
+    ],
+    "emotions": [
+      "intensity",
+      "fierceness",
+      "mystery",
+      "intense",
+      "regal"
+    ],
+    "scenes": [
+      "fantasy",
+      "portrait",
+      "royalty"
+    ],
+    "concepts": [
+      "regality",
+      "mystique",
+      "royalty",
+      "power",
+      "elegance"
+    ],
+    "actions": [
+      "gazing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wofl running.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wofl running.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wofl running/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three dogs are energetically running towards the camera, with their mouths open and tongues out, suggesting excitement and playfulness. The central dog wears a blue collar, while the others have natural fur patterns. The scene is set in a blurred natural environment, adding a sense of motion.",
+      "description": "The image captures three dogs in mid-run, likely in a field or park setting. Their expressions and body language convey a sense of joy and liveliness.",
+      "labels": {
+        "animals": [
+          "dogs"
+        ],
+        "nature": [
+          "field",
+          "grass"
+        ],
+        "objects": [
+          "collar"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "excitement",
+          "playfulness"
+        ],
+        "scenes": [
+          "outdoor",
+          "natural environment"
+        ],
+        "concepts": [
+          "motion",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wofl running.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wofl running/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three dogs are running energetically towards the camera, with their mouths open in excitement. The central dog wears a blue collar, leading the pack through a field dotted with colorful flowers.",
+      "description": "The scene captures a dynamic moment in a natural setting where three dogs are joyfully sprinting across a field. The image conveys a sense of freedom and vitality, with the dogs appearing playful and spirited.",
+      "labels": {
+        "animals": [
+          "dogs"
+        ],
+        "nature": [
+          "field",
+          "flowers"
+        ],
+        "objects": [
+          "collar"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "excitement",
+          "joy"
+        ],
+        "scenes": [
+          "outdoors",
+          "natural setting"
+        ],
+        "concepts": [
+          "freedom",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dogs. Nature: field, grass, flowers. Objects: collar. Actions: running. Emotions: excitement, playfulness, joy. Scenes: outdoor, natural environment, outdoors, natural setting. Concepts: motion, energy, freedom, playfulness",
+  "primary_labels": {
+    "animals": [
+      "dogs"
+    ],
+    "nature": [
+      "field",
+      "grass",
+      "flowers"
+    ],
+    "objects": [
+      "collar"
+    ],
+    "actions": [
+      "running"
+    ],
+    "emotions": [
+      "excitement",
+      "playfulness",
+      "joy"
+    ],
+    "scenes": [
+      "outdoor",
+      "natural environment",
+      "outdoors",
+      "natural setting"
+    ],
+    "concepts": [
+      "motion",
+      "energy",
+      "freedom",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,154 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A day in mountain snow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A day in mountain snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A day in mountain snow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair stands confidently in a snowy mountain setting, wearing a white sports bra and jacket. She smiles brightly, with ski goggles resting on her head, suggesting a day of winter sports. The background features blurred mountains under a clear blue sky.",
+      "description": "The scene captures a woman enjoying a sunny day in a snowy mountain environment, possibly preparing for or taking a break from skiing. Her attire and the ski goggles indicate a sporty and adventurous context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "ski goggles",
+          "jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter",
+          "mountain"
+        ],
+        "concepts": [
+          "adventure",
+          "sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A day in mountain snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A day in mountain snow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a snowy mountain setting, wearing a white sports bra and jacket. She smiles warmly, with ski goggles resting on her head, and the sun highlights her blonde hair.",
+      "description": "The scene captures a woman enjoying a sunny day in the mountains, likely after skiing or snowboarding. The background features snow-covered slopes and distant mountain peaks, suggesting a winter sports environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "ski goggles",
+          "sports bra",
+          "jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "mountain",
+          "winter sports"
+        ],
+        "concepts": [
+          "outdoor recreation",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A day in mountain snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A day in mountain snow/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in a snowy landscape, wearing a white sports bra and matching jacket. She smiles brightly, with ski goggles resting on her head and her long hair flowing in the breeze.",
+      "description": "The scene is set in a mountainous, snowy environment, suggesting a winter or ski resort setting. The woman is dressed in sporty attire, indicating a casual and active lifestyle.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "ski goggles",
+          "jacket"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "sport",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: mountains, snow. Objects: ski goggles, jacket, sports bra. Actions: smiling, standing. Emotions: happiness, confidence. Scenes: outdoor, winter, mountain, winter sports. Concepts: adventure, sports, outdoor recreation, winter, sport",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "mountains",
+      "snow"
+    ],
+    "objects": [
+      "ski goggles",
+      "jacket",
+      "sports bra"
+    ],
+    "actions": [
+      "smiling",
+      "standing"
+    ],
+    "emotions": [
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "outdoor",
+      "winter",
+      "mountain",
+      "winter sports"
+    ],
+    "concepts": [
+      "adventure",
+      "sports",
+      "outdoor recreation",
+      "winter",
+      "sport"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The water woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The water woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The water woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant blue gown stands amidst crashing ocean waves, holding a large seashell aloft. The moonlight casts a mystical glow over the scene, highlighting the dramatic movement of the water.",
+      "description": "The scene captures a surreal moment by the ocean at night, where a woman is enveloped by the powerful waves. The setting is ethereal, with the moon illuminating the water and creating a dreamlike atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "moon"
+        ],
+        "objects": [
+          "gown",
+          "seashell"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "dramatic"
+        ],
+        "scenes": [
+          "ocean",
+          "night"
+        ],
+        "concepts": [
+          "surreal",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The water woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The water woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant blue gown stands amidst crashing waves, holding a large seashell aloft. The moonlight illuminates the scene, casting a mystical glow over the water and her flowing dress.",
+      "description": "The scene depicts a dramatic and surreal moment where a woman is interacting with the ocean at night. The setting is a turbulent seascape under a moonlit sky, creating a sense of enchantment and power.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "moon"
+        ],
+        "objects": [
+          "gown",
+          "seashell"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "dramatic"
+        ],
+        "scenes": [
+          "seascape",
+          "night"
+        ],
+        "concepts": [
+          "enchantment",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: ocean, waves, moon. Objects: gown, seashell. Actions: holding, standing. Emotions: mystical, dramatic. Scenes: night, ocean, seascape. Concepts: surreal, ethereal, enchantment, power",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "moon"
+    ],
+    "objects": [
+      "gown",
+      "seashell"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "mystical",
+      "dramatic"
+    ],
+    "scenes": [
+      "night",
+      "ocean",
+      "seascape"
+    ],
+    "concepts": [
+      "surreal",
+      "ethereal",
+      "enchantment",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

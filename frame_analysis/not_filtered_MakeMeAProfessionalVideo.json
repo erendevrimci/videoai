@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAProfessionalVideo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAProfessionalVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeAProfessionalVideo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is facing the camera, wearing large, dark sunglasses and a black top. The background is plain and light, emphasizing the subject's serious expression and sleek appearance.",
+      "description": "The scene is a portrait of an individual in a minimalist setting, focusing on fashion and style. The person is centered in the frame, with attention drawn to their sunglasses and expression.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sunglasses",
+          "clothing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "portrait",
+          "fashion"
+        ],
+        "concepts": [
+          "minimalism",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAProfessionalVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeAProfessionalVideo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, sleek black hair is wearing stylish sunglasses and a black outfit. She is facing to the side, showcasing her profile against a plain background.",
+      "description": "The scene captures a fashion-forward portrait of a woman in a minimalist setting. The focus is on her elegant appearance and modern style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "clothing"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAProfessionalVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeAProfessionalVideo/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long, sleek black hair is wearing stylish black sunglasses. She is dressed in a black outfit and is facing sideways against a plain white background.",
+      "description": "The scene captures a profile view of a woman exuding elegance and modern style. The minimalist setting emphasizes her sophisticated appearance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: sunglasses, clothing, black outfit. Emotions: serious, confident, calm. Scenes: portrait, fashion. Concepts: style, elegance, minimalism, fashion. Actions: posing, standing",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "sunglasses",
+      "clothing",
+      "black outfit"
+    ],
+    "emotions": [
+      "serious",
+      "confident",
+      "calm"
+    ],
+    "scenes": [
+      "portrait",
+      "fashion"
+    ],
+    "concepts": [
+      "style",
+      "elegance",
+      "minimalism",
+      "fashion"
+    ],
+    "actions": [
+      "posing",
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,166 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADynamicMovementOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADynamicMovementOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ADynamicMovementOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic black horse gallops through the ocean waves at sunset, its mane flowing dramatically in the wind. The sun sets behind distant mountains, casting a warm glow over the scene and illuminating the clouds in the sky.",
+      "description": "The scene captures a powerful and dynamic moment as a horse runs through the surf at the beach during sunset. The setting sun and clouds create a dramatic backdrop, enhancing the sense of freedom and energy.",
+      "labels": {
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "sunset",
+          "clouds",
+          "mountains"
+        ],
+        "objects": [
+          "water"
+        ],
+        "actions": [
+          "galloping"
+        ],
+        "emotions": [
+          "freedom",
+          "energy"
+        ],
+        "scenes": [
+          "beach",
+          "seascape"
+        ],
+        "concepts": [
+          "majesty",
+          "nature's beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADynamicMovementOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ADynamicMovementOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic horse strides confidently through the shallow waves of a beach at sunset. The sky is painted with dramatic clouds and warm hues, casting a golden glow on the scene. The horse's mane flows in the breeze, adding to the dynamic and powerful atmosphere.",
+      "description": "The scene captures a horse walking through the ocean waves during a sunset. The setting is a beach with a dramatic sky filled with clouds and warm colors, creating a serene yet powerful atmosphere.",
+      "labels": {
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "waves",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "freedom",
+          "nature",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADynamicMovementOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ADynamicMovementOfA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic black horse gallops through the shallow waves of a beach at sunset. The sun casts a warm glow on the horse's glossy coat, highlighting its powerful muscles and flowing mane. The sky is painted with dramatic clouds, adding to the scene's dynamic energy.",
+      "description": "The scene captures a powerful and graceful horse running along the shoreline during a vibrant sunset. The setting is a beach with gentle waves and a dramatic sky, creating a picturesque and lively atmosphere.",
+      "labels": {
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [
+          "waves"
+        ],
+        "actions": [
+          "galloping",
+          "splashing"
+        ],
+        "emotions": [
+          "freedom",
+          "majesty"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset scene"
+        ],
+        "concepts": [
+          "nature beauty",
+          "power",
+          "grace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: horse. Nature: ocean, sunset, clouds, waves, beach. Objects: water, waves. Actions: galloping, walking, splashing. Emotions: freedom, energy, serene, majestic, majesty. Scenes: beach, seascape, sunset, beach scene, sunset scene. Concepts: power, majesty, nature's beauty, freedom, nature",
+  "primary_labels": {
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "ocean",
+      "sunset",
+      "clouds",
+      "waves",
+      "beach"
+    ],
+    "objects": [
+      "water",
+      "waves"
+    ],
+    "actions": [
+      "galloping",
+      "walking",
+      "splashing"
+    ],
+    "emotions": [
+      "freedom",
+      "energy",
+      "serene",
+      "majestic",
+      "majesty"
+    ],
+    "scenes": [
+      "beach",
+      "seascape",
+      "sunset",
+      "beach scene",
+      "sunset scene"
+    ],
+    "concepts": [
+      "power",
+      "majesty",
+      "nature's beauty",
+      "freedom",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

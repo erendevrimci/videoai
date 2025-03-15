@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The violinist and the dancer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The violinist and the dancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The violinist and the dancer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man plays the violin with intense focus, accompanied by a luminous, ethereal figure also playing a violin. The scene is enveloped in swirling smoke, creating a mystical atmosphere.",
+      "description": "The scene depicts a man deeply engaged in playing the violin, with a glowing, ethereal figure beside him, also playing a violin. The setting is dark and mystical, enhanced by swirling smoke and a starry backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "violin"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "focus",
+          "intensity"
+        ],
+        "scenes": [
+          "mystical",
+          "musical performance"
+        ],
+        "concepts": [
+          "duet",
+          "ethereal",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The violinist and the dancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The violinist and the dancer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man plays the violin with intense focus, accompanied by a glowing ethereal figure also playing a violin. The scene is enveloped in swirling mist, creating a mystical and enchanting atmosphere.",
+      "description": "The image depicts a surreal scene where a man is playing the violin alongside a luminous, ghostly figure. The setting is otherworldly, with mist and light creating a magical ambiance.",
+      "labels": {
+        "people": [
+          "man",
+          "ethereal figure"
+        ],
+        "objects": [
+          "violin"
+        ],
+        "actions": [
+          "playing violin"
+        ],
+        "emotions": [
+          "focus",
+          "enchantment"
+        ],
+        "scenes": [
+          "mystical",
+          "surreal"
+        ],
+        "concepts": [
+          "music",
+          "harmony",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The violinist and the dancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The violinist and the dancer/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man plays the violin, surrounded by ethereal smoke, as a glowing, translucent figure appears to play alongside him. The scene is mystical, with the figure seemingly emerging from the music itself.",
+      "description": "The scene depicts a man deeply engaged in playing the violin, accompanied by a luminous, ethereal figure that appears to be a spirit or apparition. The setting is otherworldly, with swirling smoke and a dark, starry backdrop enhancing the mystical atmosphere.",
+      "labels": {
+        "people": [
+          "man",
+          "ethereal figure"
+        ],
+        "objects": [
+          "violin"
+        ],
+        "actions": [
+          "playing violin"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "musical performance",
+          "fantasy"
+        ],
+        "concepts": [
+          "music",
+          "spirituality",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, ethereal figure. Objects: violin. Actions: playing violin, playing. Emotions: focus, intensity, enchantment, mystical, serene. Scenes: mystical, musical performance, surreal, fantasy. Concepts: music, duet, ethereal, artistic expression, harmony",
+  "primary_labels": {
+    "people": [
+      "man",
+      "ethereal figure"
+    ],
+    "objects": [
+      "violin"
+    ],
+    "actions": [
+      "playing violin",
+      "playing"
+    ],
+    "emotions": [
+      "focus",
+      "intensity",
+      "enchantment",
+      "mystical",
+      "serene"
+    ],
+    "scenes": [
+      "mystical",
+      "musical performance",
+      "surreal",
+      "fantasy"
+    ],
+    "concepts": [
+      "music",
+      "duet",
+      "ethereal",
+      "artistic expression",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

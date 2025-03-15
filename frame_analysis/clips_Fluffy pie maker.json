@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy pie maker.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy pie maker.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fluffy pie maker/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat, dressed in a blue shirt, is kneading dough on a floured kitchen counter. The cat's expression is focused and determined, as it engages in the baking process. Sunlight softly illuminates the cozy kitchen setting, enhancing the whimsical atmosphere.",
+      "description": "The scene takes place in a warm, inviting kitchen where a cat is humorously depicted as a baker. The cat is actively kneading dough, surrounded by baking tools and flour, creating a playful and charming setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dough",
+          "shirt",
+          "kitchen counter",
+          "rolling pin"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "focused",
+          "determined"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy pie maker.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fluffy pie maker/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat dressed in a blue shirt is kneading dough on a floured wooden surface. The cat's focused expression and the cozy kitchen setting create a whimsical and charming scene.",
+      "description": "The scene takes place in a warm, rustic kitchen where a cat is humorously depicted as a baker. The cat is engaged in the action of kneading dough, adding a playful twist to a typical kitchen activity.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dough",
+          "shirt",
+          "wooden surface"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: dough, shirt, kitchen counter, rolling pin, wooden surface. Actions: kneading. Emotions: focused, determined. Scenes: kitchen. Concepts: humor, anthropomorphism, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "dough",
+      "shirt",
+      "kitchen counter",
+      "rolling pin",
+      "wooden surface"
+    ],
+    "actions": [
+      "kneading"
+    ],
+    "emotions": [
+      "focused",
+      "determined"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

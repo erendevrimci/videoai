@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SeorangLakiLakiLagiBerdiri.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SeorangLakiLakiLagiBerdiri.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SeorangLakiLakiLagiBerdiri/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands in a lush green field, capturing a selfie. The background features dense foliage and tall trees under a cloudy sky.",
+      "description": "The scene is set in a verdant field, possibly a tea plantation, with a person taking a selfie. The environment is natural and serene, with greenery dominating the landscape.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "field",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "bag"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "self-portrait",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SeorangLakiLakiLagiBerdiri.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SeorangLakiLakiLagiBerdiri/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man stands closely with a tiger, both appearing calm and composed. The tiger has its paw gently resting on the man's shoulder, creating a serene and intimate moment between them.",
+      "description": "The scene captures a close interaction between a man and a tiger in an outdoor setting, likely a park or reserve. The background features lush greenery and trees, suggesting a natural environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "trees",
+          "grass"
+        ],
+        "objects": [
+          "bag"
+        ],
+        "actions": [
+          "standing",
+          "hugging"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "human-animal interaction",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, man. Nature: trees, field, foliage, grass. Objects: bag. Actions: selfie, standing, hugging. Emotions: neutral, calm, serene. Scenes: outdoor, nature. Concepts: self-portrait, nature, human-animal interaction, companionship. Animals: tiger",
+  "primary_labels": {
+    "people": [
+      "person",
+      "man"
+    ],
+    "nature": [
+      "trees",
+      "field",
+      "foliage",
+      "grass"
+    ],
+    "objects": [
+      "bag"
+    ],
+    "actions": [
+      "selfie",
+      "standing",
+      "hugging"
+    ],
+    "emotions": [
+      "neutral",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature"
+    ],
+    "concepts": [
+      "self-portrait",
+      "nature",
+      "human-animal interaction",
+      "companionship"
+    ],
+    "animals": [
+      "tiger"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goth girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goth girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Goth girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a black dress walks along a stone path surrounded by greenery. The setting is serene, with sunlight filtering through the trees, casting a soft glow on her. Her expression is contemplative as she moves gracefully through the garden.",
+      "description": "The scene depicts a woman strolling through a garden path, bordered by a wooden fence and lush foliage. The atmosphere is peaceful and slightly mysterious, enhanced by the natural lighting and her elegant attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "foliage",
+          "garden"
+        ],
+        "objects": [
+          "dress",
+          "fence",
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "garden",
+          "outdoor"
+        ],
+        "concepts": [
+          "serenity",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goth girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Goth girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long red hair stands outdoors in a lush, green setting. She is wearing a black dress with lace details and a choker, and appears content with a gentle smile. Two white birds are flying nearby, adding a sense of tranquility to the scene.",
+      "description": "The scene is set in a verdant outdoor environment, likely a garden or park, with abundant greenery and natural light. The woman is the focal point, exuding a serene and peaceful aura.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "dress",
+          "choker"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "contentment",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees, foliage, garden, greenery. Objects: dress, fence, path, choker. Actions: walking, standing, smiling. Emotions: contemplative, contentment, serenity. Scenes: outdoor, garden, nature. Concepts: serenity, elegance, tranquility, beauty. Animals: birds",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees",
+      "foliage",
+      "garden",
+      "greenery"
+    ],
+    "objects": [
+      "dress",
+      "fence",
+      "path",
+      "choker"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "contemplative",
+      "contentment",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "garden",
+      "nature"
+    ],
+    "concepts": [
+      "serenity",
+      "elegance",
+      "tranquility",
+      "beauty"
+    ],
+    "animals": [
+      "birds"
+    ]
+  },
+  "metadata": {}
+}

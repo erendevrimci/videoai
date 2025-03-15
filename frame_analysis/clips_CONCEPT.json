@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CONCEPT.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CONCEPT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/CONCEPT/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone warrior stands defiantly on a rocky outcrop, facing a massive, fiery dragon. The dragon's body is composed of swirling flames, casting an intense glow across the scene. The warrior, cloaked and armed with a sword, appears ready for battle.",
+      "description": "The scene depicts a dramatic confrontation between a warrior and a dragon in a fiery, otherworldly setting. The environment is dominated by the dragon's fiery presence, creating a sense of danger and tension.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "rocks"
+        ],
+        "objects": [
+          "sword",
+          "cloak"
+        ],
+        "actions": [
+          "confrontation",
+          "standing"
+        ],
+        "emotions": [
+          "defiance",
+          "tension"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "courage",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CONCEPT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/CONCEPT/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure stands before a massive, fiery dragon in a cavernous setting. The dragon, composed of swirling flames, towers over the figure, creating an intense and dramatic confrontation. The scene is bathed in warm, glowing light from the dragon's fiery form.",
+      "description": "The scene depicts a dramatic encounter between a cloaked figure and a giant dragon made of fire, set within a dark, cavernous environment. The atmosphere is tense and epic, suggesting a moment of confrontation or challenge.",
+      "labels": {
+        "people": [
+          "cloaked figure"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "fire",
+          "cave"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "fantasy",
+          "epic"
+        ],
+        "concepts": [
+          "mythical",
+          "challenge"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, cloaked figure. Animals: dragon. Nature: rocks, fire, cave. Objects: sword, cloak. Actions: confrontation, standing. Emotions: defiance, tension, intensity, drama. Scenes: fantasy, battle, epic. Concepts: mythical, courage, challenge",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "cloaked figure"
+    ],
+    "animals": [
+      "dragon"
+    ],
+    "nature": [
+      "rocks",
+      "fire",
+      "cave"
+    ],
+    "objects": [
+      "sword",
+      "cloak"
+    ],
+    "actions": [
+      "confrontation",
+      "standing"
+    ],
+    "emotions": [
+      "defiance",
+      "tension",
+      "intensity",
+      "drama"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle",
+      "epic"
+    ],
+    "concepts": [
+      "mythical",
+      "courage",
+      "challenge"
+    ]
+  },
+  "metadata": {}
+}

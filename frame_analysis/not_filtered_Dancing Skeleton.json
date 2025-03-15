@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dancing Skeleton.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dancing Skeleton.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dancing Skeleton/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A skeleton stands upright in a dark forest, draped in tattered black cloth. Its arms are outstretched, creating an eerie yet captivating presence amidst the trees.",
+      "description": "The scene is set in a dimly lit forest at night, where a skeleton is the focal point. The environment is mysterious and slightly ominous, with the skeleton appearing as if it could be part of a haunting or supernatural event.",
+      "labels": {
+        "objects": [
+          "skeleton",
+          "tattered cloth"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "actions": [
+          "standing",
+          "outstretched arms"
+        ],
+        "emotions": [
+          "eerie",
+          "ominous"
+        ],
+        "scenes": [
+          "nighttime",
+          "forest"
+        ],
+        "concepts": [
+          "supernatural",
+          "haunting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dancing Skeleton.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dancing Skeleton/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A skeleton stands in a forest clearing, draped in tattered black fabric. Its arms are outstretched, creating an eerie and dramatic pose under the moonlit sky.",
+      "description": "The scene is set in a dark forest at night, with a skeleton as the central figure. The atmosphere is mysterious and slightly ominous, enhanced by the dim lighting and the skeleton's ragged attire.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "skeleton",
+          "tattered fabric"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "eerie",
+          "ominous"
+        ],
+        "scenes": [
+          "nighttime",
+          "forest clearing"
+        ],
+        "concepts": [
+          "Halloween",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skeleton, tattered cloth, tattered fabric. Nature: forest, trees. Actions: standing, outstretched arms, arms outstretched. Emotions: eerie, ominous. Scenes: nighttime, forest, forest clearing. Concepts: supernatural, haunting, Halloween",
+  "primary_labels": {
+    "objects": [
+      "skeleton",
+      "tattered cloth",
+      "tattered fabric"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "actions": [
+      "standing",
+      "outstretched arms",
+      "arms outstretched"
+    ],
+    "emotions": [
+      "eerie",
+      "ominous"
+    ],
+    "scenes": [
+      "nighttime",
+      "forest",
+      "forest clearing"
+    ],
+    "concepts": [
+      "supernatural",
+      "haunting",
+      "Halloween"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eagles war.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eagles war.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Eagles war/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dramatic battlefield scene, armored warriors stand amidst falling projectiles and soaring eagles. The sky is filled with fiery explosions, creating a chaotic and intense atmosphere. The ground is littered with large bullet casings, emphasizing the aftermath of a fierce conflict.",
+      "description": "The scene depicts a post-apocalyptic battlefield where heavily armored warriors stand amidst chaos. The sky is ablaze with projectiles and explosions, while eagles soar through the smoky air. The ground is strewn with bullet casings, highlighting the intensity of the battle.",
+      "labels": {
+        "people": [
+          "armored warriors"
+        ],
+        "animals": [
+          "eagles"
+        ],
+        "nature": [
+          "sky",
+          "smoke"
+        ],
+        "objects": [
+          "projectiles",
+          "bullet casings"
+        ],
+        "actions": [
+          "standing",
+          "soaring",
+          "falling"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "battlefield",
+          "post-apocalyptic"
+        ],
+        "concepts": [
+          "conflict",
+          "warfare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eagles war.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Eagles war/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic battle scene unfolds with a large eagle soaring above armored warriors amidst fiery explosions. The sky is filled with smoke and debris, creating a chaotic and intense atmosphere. The ground is littered with large bullet casings, emphasizing the scene's wartime setting.",
+      "description": "The scene depicts a fantastical battle environment where armored warriors are engaged in combat under a sky filled with explosions and smoke. A large eagle dominates the sky, adding to the epic nature of the scene.",
+      "labels": {
+        "animals": [
+          "eagle"
+        ],
+        "objects": [
+          "armor",
+          "bullet casings",
+          "explosions"
+        ],
+        "actions": [
+          "flying",
+          "combat"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "battle",
+          "war"
+        ],
+        "concepts": [
+          "fantasy",
+          "epic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: armored warriors. Animals: eagles, eagle. Nature: sky, smoke. Objects: bullet casings, projectiles, armor, explosions. Actions: standing, soaring, falling, flying, combat. Emotions: intensity, chaos. Scenes: battlefield, post-apocalyptic, battle, war. Concepts: conflict, warfare, fantasy, epic",
+  "primary_labels": {
+    "people": [
+      "armored warriors"
+    ],
+    "animals": [
+      "eagles",
+      "eagle"
+    ],
+    "nature": [
+      "sky",
+      "smoke"
+    ],
+    "objects": [
+      "bullet casings",
+      "projectiles",
+      "armor",
+      "explosions"
+    ],
+    "actions": [
+      "standing",
+      "soaring",
+      "falling",
+      "flying",
+      "combat"
+    ],
+    "emotions": [
+      "intensity",
+      "chaos"
+    ],
+    "scenes": [
+      "battlefield",
+      "post-apocalyptic",
+      "battle",
+      "war"
+    ],
+    "concepts": [
+      "conflict",
+      "warfare",
+      "fantasy",
+      "epic"
+    ]
+  },
+  "metadata": {}
+}

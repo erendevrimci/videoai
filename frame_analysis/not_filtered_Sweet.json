@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sweet.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sweet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Sweet/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child dressed in a fluffy sheep costume walks alongside a small lamb on a wooden path inside a rustic barn. Both the child and the lamb appear content and playful, creating a heartwarming scene. The barn's wooden structure and soft lighting add to the cozy atmosphere.",
+      "description": "The scene takes place inside a rustic barn with wooden beams and a wooden floor. A child dressed in a sheep costume walks beside a lamb, both moving forward with a sense of joy and innocence. The setting is warm and inviting, emphasizing a connection between the child and the animal.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "lamb"
+        ],
+        "nature": [],
+        "objects": [
+          "sheep costume",
+          "barn"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "barn interior"
+        ],
+        "concepts": [
+          "innocence",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sweet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Sweet/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child dressed in a fluffy lamb costume walks alongside a real lamb in a rustic barn setting. The child and lamb appear to be enjoying each other's company as they move together down a wooden path.",
+      "description": "The scene captures a heartwarming moment between a child and a lamb in a barn. The child, dressed in a lamb costume, mirrors the real lamb beside them, creating a charming and playful atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "lamb"
+        ],
+        "nature": [],
+        "objects": [
+          "costume",
+          "barn"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "joy",
+          "playfulness"
+        ],
+        "scenes": [
+          "barn"
+        ],
+        "concepts": [
+          "innocence",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sweet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Sweet/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child dressed in a fluffy lamb costume walks alongside a small lamb on a wooden path. The scene is set in a rustic environment with warm, natural lighting highlighting the textures of the costumes and surroundings.",
+      "description": "The image depicts a charming moment between a child and a lamb in a barn-like setting. The child, dressed in a lamb costume, gently walks beside the lamb, creating a heartwarming and serene atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "lamb"
+        ],
+        "nature": [
+          "wooden path"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "warmth"
+        ],
+        "scenes": [
+          "rustic",
+          "barn"
+        ],
+        "concepts": [
+          "innocence",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: lamb. Nature: wooden path. Objects: barn, costume, sheep costume. Actions: walking. Emotions: joyful, playful, joy, playfulness, serenity. Scenes: barn, barn interior, rustic. Concepts: innocence, companionship, friendship",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "lamb"
+    ],
+    "nature": [
+      "wooden path"
+    ],
+    "objects": [
+      "barn",
+      "costume",
+      "sheep costume"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "joyful",
+      "playful",
+      "joy",
+      "playfulness",
+      "serenity"
+    ],
+    "scenes": [
+      "barn",
+      "barn interior",
+      "rustic"
+    ],
+    "concepts": [
+      "innocence",
+      "companionship",
+      "friendship"
+    ]
+  },
+  "metadata": {}
+}

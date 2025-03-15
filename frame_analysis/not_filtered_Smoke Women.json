@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoke Women.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoke Women.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smoke Women/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal portrait of a person with their eyes closed, surrounded by vibrant, swirling colors and intricate patterns. The face is painted in shades of blue and purple, blending seamlessly with the colorful background. The scene evokes a sense of dreamlike serenity and artistic expression.",
+      "description": "The image depicts a fantastical and artistic scene where a person's face is intricately painted and surrounded by swirling, colorful patterns. The setting is abstract and otherworldly, creating a sense of immersion in a dreamlike or imaginative realm.",
+      "labels": {
+        "people": [
+          "face"
+        ],
+        "objects": [
+          "paint",
+          "patterns"
+        ],
+        "actions": [
+          "closed eyes"
+        ],
+        "emotions": [
+          "serenity",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "imagination",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoke Women.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smoke Women/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal portrait of a person with closed eyes, their face and hair adorned with vibrant, swirling colors and patterns. The image blends elements of fantasy and abstract art, creating a dreamlike atmosphere. The use of vivid colors and intricate details gives the scene a sense of fluidity and movement.",
+      "description": "The scene depicts a fantastical and abstract representation of a person, merging human features with artistic elements. The setting is otherworldly, with an emphasis on color and form rather than a realistic environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "patterns",
+          "colors"
+        ],
+        "actions": [
+          "closed eyes"
+        ],
+        "emotions": [
+          "serenity",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "abstract art",
+          "fluidity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: face, person. Objects: patterns, paint, colors. Actions: closed eyes. Emotions: serenity, dreamlike. Scenes: surreal, artistic, fantasy. Concepts: imagination, expression, abstract art, fluidity",
+  "primary_labels": {
+    "people": [
+      "face",
+      "person"
+    ],
+    "objects": [
+      "patterns",
+      "paint",
+      "colors"
+    ],
+    "actions": [
+      "closed eyes"
+    ],
+    "emotions": [
+      "serenity",
+      "dreamlike"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "fantasy"
+    ],
+    "concepts": [
+      "imagination",
+      "expression",
+      "abstract art",
+      "fluidity"
+    ]
+  },
+  "metadata": {}
+}

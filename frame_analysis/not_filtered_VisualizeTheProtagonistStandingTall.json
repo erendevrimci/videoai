@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VisualizeTheProtagonistStandingTall.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VisualizeTheProtagonistStandingTall.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VisualizeTheProtagonistStandingTall/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary figure stands on a rooftop, gazing out over a sprawling cityscape at sunset. The skyline is dominated by tall skyscrapers, with a dramatic sky overhead. The scene evokes a sense of contemplation and solitude.",
+      "description": "The scene depicts a person standing on a high vantage point overlooking a city during sunset. The city is filled with skyscrapers, and the sky is filled with clouds, creating a dramatic and reflective atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "skyscrapers",
+          "railing"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplation",
+          "solitude"
+        ],
+        "scenes": [
+          "cityscape",
+          "sunset"
+        ],
+        "concepts": [
+          "urban",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VisualizeTheProtagonistStandingTall.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VisualizeTheProtagonistStandingTall/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary figure stands on a rooftop, gazing over a sprawling cityscape at dusk. The skyline is dominated by tall skyscrapers under a dramatic, cloudy sky. The scene conveys a sense of introspection and solitude.",
+      "description": "The scene is set on a rooftop overlooking a city, likely at sunset or sunrise, with a person standing and observing the city below. The atmosphere is contemplative, enhanced by the warm, muted lighting and the expansive view of the urban landscape.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "coat",
+          "skyscrapers",
+          "railing"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "introspection",
+          "solitude"
+        ],
+        "scenes": [
+          "cityscape",
+          "rooftop"
+        ],
+        "concepts": [
+          "urban",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: sky, clouds. Objects: skyscrapers, railing, coat. Actions: standing, gazing. Emotions: solitude, contemplation, introspection. Scenes: cityscape, sunset, rooftop. Concepts: urban, reflection, contemplation",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "skyscrapers",
+      "railing",
+      "coat"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "solitude",
+      "contemplation",
+      "introspection"
+    ],
+    "scenes": [
+      "cityscape",
+      "sunset",
+      "rooftop"
+    ],
+    "concepts": [
+      "urban",
+      "reflection",
+      "contemplation"
+    ]
+  },
+  "metadata": {}
+}

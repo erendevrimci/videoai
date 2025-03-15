@@ -1,0 +1,151 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Transforming fire maiden.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Transforming fire maiden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Transforming fire maiden/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure with fiery hair stands in a dark, enchanted forest. Her vibrant orange hair blazes like flames, contrasting with her dark, intricate attire. The forest around her is shadowy and mysterious, adding to the magical atmosphere.",
+      "description": "The scene depicts a fantasy setting where a woman with flaming hair is positioned in a dimly lit, mystical forest. The contrast between her bright hair and the dark surroundings creates a striking visual effect.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "dress",
+          "necklace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "enchanting"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "fire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Transforming fire maiden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Transforming fire maiden/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with fiery red hair stands amidst flames in a dark forest. She wears a black lace dress and a green pendant, exuding a mystical aura. The fire surrounds her, casting an intense glow on her serene expression.",
+      "description": "The scene is set in a dark, possibly enchanted forest, where a woman stands surrounded by flames. Her calm demeanor contrasts with the fiery chaos around her, suggesting a sense of control or supernatural presence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "dress",
+          "pendant"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "forest fire",
+          "mystical"
+        ],
+        "concepts": [
+          "supernatural",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Transforming fire maiden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Transforming fire maiden/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long red hair stands in a dark, eerie forest. She is wearing a black lace dress and a choker with a green pendant, exuding a mysterious aura.",
+      "description": "The scene is set in a dark, foggy forest, creating an atmosphere of mystery and enchantment. The woman appears to be a central figure in this mystical setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "dress",
+          "choker",
+          "pendant"
+        ],
+        "emotions": [
+          "mysterious",
+          "enigmatic"
+        ],
+        "scenes": [
+          "forest",
+          "mystical"
+        ],
+        "concepts": [
+          "mystery",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: forest, trees. Objects: dress, pendant, necklace, choker. Actions: standing. Emotions: mystical, enchanting, serene, mysterious, enigmatic. Scenes: mystical, fantasy, forest fire, forest. Concepts: mystery, magic, fire, supernatural, enchantment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "dress",
+      "pendant",
+      "necklace",
+      "choker"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "mystical",
+      "enchanting",
+      "serene",
+      "mysterious",
+      "enigmatic"
+    ],
+    "scenes": [
+      "mystical",
+      "fantasy",
+      "forest fire",
+      "forest"
+    ],
+    "concepts": [
+      "mystery",
+      "magic",
+      "fire",
+      "supernatural",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

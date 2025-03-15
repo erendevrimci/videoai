@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breeze.SmoothAndStableShooting.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breeze.SmoothAndStableShooting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Breeze.SmoothAndStableShooting/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warmly lit street lamp illuminates delicate cherry blossoms at dusk. The soft glow creates a serene and enchanting atmosphere, highlighting the contrast between the darkening sky and the vibrant flowers. The scene evokes a sense of tranquility and beauty in a quiet urban setting.",
+      "description": "The image captures a peaceful evening scene where a street lamp casts a warm light on blooming cherry blossoms. The setting appears to be an urban area, possibly a park or garden, during twilight.",
+      "labels": {
+        "nature": [
+          "cherry blossoms",
+          "flowers"
+        ],
+        "objects": [
+          "street lamp"
+        ],
+        "scenes": [
+          "evening",
+          "urban"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "concepts": [
+          "contrast",
+          "illumination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breeze.SmoothAndStableShooting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Breeze.SmoothAndStableShooting/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warm street lamp illuminates delicate cherry blossoms at dusk. The soft glow creates a serene and tranquil atmosphere, highlighting the intricate details of the flowers. The background fades into a gentle blur, enhancing the focus on the blossoms and the lamp.",
+      "description": "The scene captures a peaceful evening setting where a street lamp casts a warm light on blooming cherry blossoms. The environment suggests a quiet street or garden area, possibly in a residential neighborhood.",
+      "labels": {
+        "nature": [
+          "cherry blossoms",
+          "tree branches"
+        ],
+        "objects": [
+          "street lamp"
+        ],
+        "scenes": [
+          "evening",
+          "outdoor"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "concepts": [
+          "illumination",
+          "springtime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: cherry blossoms, flowers, tree branches. Objects: street lamp. Scenes: evening, urban, outdoor. Emotions: serene, tranquil. Concepts: illumination, contrast, springtime",
+  "primary_labels": {
+    "nature": [
+      "cherry blossoms",
+      "flowers",
+      "tree branches"
+    ],
+    "objects": [
+      "street lamp"
+    ],
+    "scenes": [
+      "evening",
+      "urban",
+      "outdoor"
+    ],
+    "emotions": [
+      "serene",
+      "tranquil"
+    ],
+    "concepts": [
+      "illumination",
+      "contrast",
+      "springtime"
+    ]
+  },
+  "metadata": {}
+}

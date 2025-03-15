@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePugSitsNeatlyAt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePugSitsNeatlyAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePugSitsNeatlyAt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A pug is humorously depicted using chopsticks to eat a slice of meat in a cozy kitchen setting. The dog appears to be enjoying a meal, with a plate of sliced meat and a bowl of sauce in front of it. Sunlight filters through a window, adding warmth to the scene.",
+      "description": "The scene takes place in a kitchen where a pug is anthropomorphically using chopsticks to eat. The setting is domestic and cozy, with a focus on the humorous portrayal of the dog engaging in human-like behavior.",
+      "labels": {
+        "animals": [
+          "pug",
+          "dog"
+        ],
+        "objects": [
+          "chopsticks",
+          "plate",
+          "meat",
+          "bowl",
+          "sauce"
+        ],
+        "actions": [
+          "eating",
+          "using chopsticks"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "kitchen",
+          "domestic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePugSitsNeatlyAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePugSitsNeatlyAt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pug humorously sits at a dining table, holding a piece of meat with chopsticks. The scene is set in a cozy kitchen with sunlight streaming through a window. A plate of sliced meat with sauce is placed in front of the pug.",
+      "description": "The scene takes place in a warmly lit kitchen where a pug is depicted in a human-like manner, engaging in the act of eating with chopsticks. The setting is casual and humorous, with the pug appearing to enjoy a meal typically associated with humans.",
+      "labels": {
+        "animals": [
+          "pug"
+        ],
+        "objects": [
+          "chopsticks",
+          "plate",
+          "meat",
+          "sauce",
+          "table"
+        ],
+        "actions": [
+          "eating",
+          "holding"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "kitchen",
+          "dining"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: pug, dog. Objects: chopsticks, plate, meat, sauce, bowl. Actions: eating, using chopsticks, holding. Emotions: humor. Scenes: kitchen, domestic, dining. Concepts: anthropomorphism, humor",
+  "primary_labels": {
+    "animals": [
+      "pug",
+      "dog"
+    ],
+    "objects": [
+      "chopsticks",
+      "plate",
+      "meat",
+      "sauce",
+      "bowl"
+    ],
+    "actions": [
+      "eating",
+      "using chopsticks",
+      "holding"
+    ],
+    "emotions": [
+      "humor"
+    ],
+    "scenes": [
+      "kitchen",
+      "domestic",
+      "dining"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

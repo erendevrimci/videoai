@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hungry?.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hungry?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hungry?/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A polar bear wearing sunglasses and a black apron stands confidently in a rustic kitchen, holding a tray of food. The warm lighting from hanging lanterns creates a cozy atmosphere, highlighting the bear's culinary creation.",
+      "description": "The scene is set in a rustic kitchen with wooden elements and warm lighting. A polar bear, dressed as a chef, is preparing or presenting a dish, suggesting a whimsical and humorous take on cooking.",
+      "labels": {
+        "animals": [
+          "polar bear"
+        ],
+        "objects": [
+          "sunglasses",
+          "apron",
+          "tray",
+          "food",
+          "lanterns"
+        ],
+        "actions": [
+          "cooking",
+          "presenting"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "humor",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hungry?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hungry?/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A polar bear wearing sunglasses and an apron presents a tray of food in a warmly lit kitchen. The bear stands confidently, holding the tray with a variety of colorful ingredients, including eggs and greens. The background features rustic wooden elements and hanging lanterns, adding to the cozy atmosphere.",
+      "description": "The scene is set in a cozy, rustic kitchen where a polar bear, dressed in a black apron and sunglasses, is presenting a tray of food. The kitchen is warmly lit with hanging lanterns, creating a welcoming and cheerful atmosphere.",
+      "labels": {
+        "animals": [
+          "polar bear"
+        ],
+        "objects": [
+          "tray",
+          "food",
+          "sunglasses",
+          "apron",
+          "lanterns"
+        ],
+        "actions": [
+          "presenting",
+          "holding"
+        ],
+        "emotions": [
+          "confident",
+          "cheerful"
+        ],
+        "scenes": [
+          "kitchen",
+          "rustic"
+        ],
+        "concepts": [
+          "hospitality",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: polar bear. Objects: sunglasses, apron, tray, food, lanterns. Actions: presenting, cooking, holding. Emotions: confident, cheerful. Scenes: kitchen, culinary, rustic. Concepts: humor, whimsy, hospitality, cooking",
+  "primary_labels": {
+    "animals": [
+      "polar bear"
+    ],
+    "objects": [
+      "sunglasses",
+      "apron",
+      "tray",
+      "food",
+      "lanterns"
+    ],
+    "actions": [
+      "presenting",
+      "cooking",
+      "holding"
+    ],
+    "emotions": [
+      "confident",
+      "cheerful"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary",
+      "rustic"
+    ],
+    "concepts": [
+      "humor",
+      "whimsy",
+      "hospitality",
+      "cooking"
+    ]
+  },
+  "metadata": {}
+}

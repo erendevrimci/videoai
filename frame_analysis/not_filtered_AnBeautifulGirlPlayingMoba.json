@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnBeautifulGirlPlayingMoba.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnBeautifulGirlPlayingMoba.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnBeautifulGirlPlayingMoba/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman is sitting in a dimly lit room, engrossed in a tablet that emits a colorful glow. Her glasses reflect the vibrant display, adding a magical ambiance to the scene.",
+      "description": "The scene takes place in a cozy, dimly lit room where a woman is focused on her tablet. The colorful light from the device creates a captivating and serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "tablet",
+          "glasses",
+          "necklace"
+        ],
+        "actions": [
+          "using tablet"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "indoor",
+          "night"
+        ],
+        "concepts": [
+          "technology",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnBeautifulGirlPlayingMoba.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnBeautifulGirlPlayingMoba/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman is engrossed in a digital experience on her tablet, with vibrant holographic images reflecting in her glasses. She is seated in a dimly lit room, creating a serene and focused atmosphere. The glow from the device illuminates her face, highlighting her concentration.",
+      "description": "The scene is set in a dimly lit room where a woman is using a tablet. The holographic images from the tablet add a futuristic and immersive element to the scene, reflecting in her glasses. The setting suggests a quiet, personal moment of engagement with technology.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "tablet",
+          "glasses",
+          "holographic images"
+        ],
+        "actions": [
+          "using tablet",
+          "viewing holographic display"
+        ],
+        "emotions": [
+          "focused",
+          "engrossed"
+        ],
+        "scenes": [
+          "indoor",
+          "dimly lit room"
+        ],
+        "concepts": [
+          "technology",
+          "digital interaction",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnBeautifulGirlPlayingMoba.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnBeautifulGirlPlayingMoba/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman with glasses is sitting in bed, intently focused on a tablet. The screen displays a vibrant holographic animation, casting a blue glow on her face.",
+      "description": "The scene captures a woman in a dimly lit room, absorbed in a digital experience. She is holding a tablet that projects a colorful holographic image, creating an immersive atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "tablet"
+        ],
+        "actions": [
+          "watching",
+          "holding"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom"
+        ],
+        "concepts": [
+          "technology",
+          "holography"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: tablet, glasses, necklace, holographic images. Actions: using tablet, viewing holographic display, watching, holding. Emotions: focused, calm, engrossed. Scenes: indoor, night, dimly lit room, bedroom. Concepts: technology, relaxation, digital interaction, futuristic, holography",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "tablet",
+      "glasses",
+      "necklace",
+      "holographic images"
+    ],
+    "actions": [
+      "using tablet",
+      "viewing holographic display",
+      "watching",
+      "holding"
+    ],
+    "emotions": [
+      "focused",
+      "calm",
+      "engrossed"
+    ],
+    "scenes": [
+      "indoor",
+      "night",
+      "dimly lit room",
+      "bedroom"
+    ],
+    "concepts": [
+      "technology",
+      "relaxation",
+      "digital interaction",
+      "futuristic",
+      "holography"
+    ]
+  },
+  "metadata": {}
+}

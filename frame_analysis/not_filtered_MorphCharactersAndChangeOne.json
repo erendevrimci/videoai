@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MorphCharactersAndChangeOne.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MorphCharactersAndChangeOne.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MorphCharactersAndChangeOne/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of lips painted with a striking design resembling a forest fire. The upper lip features silhouettes of trees against a fiery orange background, while the lower lip depicts flames in vivid reds and oranges.",
+      "description": "The image is an artistic representation combining human features with elements of nature and fire. It showcases a creative makeup design that transforms the lips into a canvas depicting a forest fire scene.",
+      "labels": {
+        "people": [
+          "lips"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "actions": [
+          "artistic representation"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "art",
+          "creativity",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MorphCharactersAndChangeOne.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MorphCharactersAndChangeOne/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of lips painted with a striking design resembling a forest fire. The upper lip features silhouettes of trees, while the lower lip displays vibrant, fiery colors mimicking flames.",
+      "description": "The image captures an artistic makeup design on lips, blending elements of nature and fire. The scene creatively combines the natural silhouette of trees with the dynamic and intense imagery of a forest fire.",
+      "labels": {
+        "people": [
+          "lips"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "nature",
+          "fire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: lips. Nature: trees, forest. Objects: makeup. Actions: artistic representation. Emotions: intensity. Scenes: close-up, artistic. Concepts: creativity, nature, art, fire",
+  "primary_labels": {
+    "people": [
+      "lips"
+    ],
+    "nature": [
+      "trees",
+      "forest"
+    ],
+    "objects": [
+      "makeup"
+    ],
+    "actions": [
+      "artistic representation"
+    ],
+    "emotions": [
+      "intensity"
+    ],
+    "scenes": [
+      "close-up",
+      "artistic"
+    ],
+    "concepts": [
+      "creativity",
+      "nature",
+      "art",
+      "fire"
+    ]
+  },
+  "metadata": {}
+}

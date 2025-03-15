@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Matrix house.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Matrix house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Matrix house/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic spacecraft hovers above a misty, mountainous landscape, illuminated by a powerful beam of light. Lightning crackles across the sky, adding to the dramatic and otherworldly atmosphere.",
+      "description": "The scene depicts a sci-fi setting with a hovering spacecraft in a mountainous region. The environment is filled with mist and clouds, and the sky is alive with lightning, creating a sense of tension and energy.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "beam of light"
+        ],
+        "nature": [
+          "mountains",
+          "clouds",
+          "lightning"
+        ],
+        "actions": [
+          "hovering",
+          "illuminating"
+        ],
+        "emotions": [
+          "dramatic",
+          "tense"
+        ],
+        "scenes": [
+          "sci-fi",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Matrix house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Matrix house/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic spacecraft hovers above a misty, mountainous landscape, emitting a powerful beam of light into the clouds below. The scene is illuminated by flashes of lightning, creating a dramatic and otherworldly atmosphere.",
+      "description": "The image depicts a science fiction setting with a large, advanced spacecraft suspended in the sky. It is set against a backdrop of rugged mountains and swirling clouds, with lightning adding to the dynamic and intense scene.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "beam of light"
+        ],
+        "nature": [
+          "mountains",
+          "clouds",
+          "lightning"
+        ],
+        "actions": [
+          "hovering",
+          "emitting light"
+        ],
+        "emotions": [
+          "dramatic",
+          "intense"
+        ],
+        "scenes": [
+          "futuristic",
+          "science fiction"
+        ],
+        "concepts": [
+          "technology",
+          "exploration",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Matrix house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Matrix house/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic spacecraft hovers in a stormy sky, illuminated by bright blue and red lights. Lightning strikes dramatically from above, enhancing the otherworldly atmosphere. The craft appears to be emitting a beam of light downwards, suggesting advanced technology at work.",
+      "description": "The scene depicts a high-tech spacecraft suspended in a dark, stormy environment. Lightning and glowing lights create a sense of tension and mystery, emphasizing the advanced and possibly alien nature of the craft.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "lights",
+          "antenna"
+        ],
+        "nature": [
+          "lightning",
+          "clouds"
+        ],
+        "actions": [
+          "hovering",
+          "emitting light"
+        ],
+        "emotions": [
+          "mystery",
+          "tension"
+        ],
+        "scenes": [
+          "stormy sky",
+          "futuristic setting"
+        ],
+        "concepts": [
+          "technology",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: spacecraft, beam of light, lights, antenna. Nature: clouds, lightning, mountains. Actions: hovering, emitting light, illuminating. Emotions: dramatic, tense, intense, mystery, tension. Scenes: futuristic, sci-fi, science fiction, stormy sky, futuristic setting. Concepts: technology, energy, exploration, mystery, science fiction",
+  "primary_labels": {
+    "objects": [
+      "spacecraft",
+      "beam of light",
+      "lights",
+      "antenna"
+    ],
+    "nature": [
+      "clouds",
+      "lightning",
+      "mountains"
+    ],
+    "actions": [
+      "hovering",
+      "emitting light",
+      "illuminating"
+    ],
+    "emotions": [
+      "dramatic",
+      "tense",
+      "intense",
+      "mystery",
+      "tension"
+    ],
+    "scenes": [
+      "futuristic",
+      "sci-fi",
+      "science fiction",
+      "stormy sky",
+      "futuristic setting"
+    ],
+    "concepts": [
+      "technology",
+      "energy",
+      "exploration",
+      "mystery",
+      "science fiction"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wolf Man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wolf Man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wolf Man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid wolf in a sharp suit strides confidently down a bustling city street, accompanied by a man in a similar suit. The scene captures a surreal blend of fantasy and reality, set against the backdrop of towering urban buildings.",
+      "description": "The image depicts a fantastical scene in an urban setting where a humanoid wolf, dressed in a formal suit, walks alongside a man. The street is lined with tall buildings, suggesting a busy city environment.",
+      "labels": {
+        "people": [
+          "man",
+          "humanoid wolf"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [],
+        "objects": [
+          "suit",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "fantasy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wolf Man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wolf Man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a wolf's head, dressed in a sharp suit, strides confidently down a city street. Beside him, a man in a similar suit walks purposefully, both exuding an air of determination.",
+      "description": "The scene is set in an urban environment, likely a city street lined with tall buildings. The focus is on a surreal character with a wolf's head, suggesting a blend of fantasy and reality.",
+      "labels": {
+        "people": [
+          "humanoid figure",
+          "man"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [],
+        "objects": [
+          "suit",
+          "buildings"
+        ],
+        "actions": [
+          "walking",
+          "striding"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "fantasy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wolf Man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wolf Man/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A humanoid figure with a wolf's head, dressed in a sharp suit, confidently strides down a bustling city street. Beside it, a man in a similar suit walks with determination. The scene captures a surreal blend of fantasy and urban life.",
+      "description": "The scene is set in a busy urban environment, likely a city street lined with tall buildings. The focus is on a humanoid wolf figure and a man in suits, walking with purpose through the crowd.",
+      "labels": {
+        "people": [
+          "humanoid wolf",
+          "man"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [],
+        "objects": [
+          "suit",
+          "tie",
+          "buildings"
+        ],
+        "actions": [
+          "walking",
+          "striding"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "surreal",
+          "fantasy",
+          "business"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, humanoid wolf, humanoid figure. Animals: wolf. Objects: suit, buildings, tie. Actions: walking, striding. Emotions: confidence, determination. Scenes: city street, urban. Concepts: fantasy, surrealism, surreal, business",
+  "primary_labels": {
+    "people": [
+      "man",
+      "humanoid wolf",
+      "humanoid figure"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [],
+    "objects": [
+      "suit",
+      "buildings",
+      "tie"
+    ],
+    "actions": [
+      "walking",
+      "striding"
+    ],
+    "emotions": [
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "city street",
+      "urban"
+    ],
+    "concepts": [
+      "fantasy",
+      "surrealism",
+      "surreal",
+      "business"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Heart Gesture.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Heart Gesture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Heart Gesture/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands confidently in a steampunk cityscape, surrounded by towering, intricate buildings. She wears a rugged outfit with utility belts and high boots, embodying an adventurous spirit.",
+      "description": "The scene depicts a steampunk setting with a focus on a female character who exudes confidence and readiness for adventure. The background features elaborate, industrial architecture typical of a steampunk world.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "utility belts",
+          "high boots"
+        ],
+        "scenes": [
+          "steampunk cityscape"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "adventure",
+          "steampunk"
+        ],
+        "nature": [],
+        "animals": [],
+        "actions": []
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Heart Gesture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Heart Gesture/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands confidently in a steampunk-inspired cityscape, forming a heart shape with her hands. She wears a leather jacket and has a warm, inviting smile, while the background features intricate, towering architecture.",
+      "description": "The scene is set in a fantastical, steampunk-themed city with elaborate buildings and a warm, inviting atmosphere. The woman is the focal point, exuding confidence and friendliness.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather jacket",
+          "steampunk accessories"
+        ],
+        "actions": [
+          "forming heart shape with hands"
+        ],
+        "emotions": [
+          "confidence",
+          "warmth"
+        ],
+        "scenes": [
+          "steampunk cityscape"
+        ],
+        "concepts": [
+          "steampunk",
+          "friendliness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: utility belts, high boots, leather jacket, steampunk accessories. Scenes: steampunk cityscape. Emotions: confidence, warmth. Concepts: steampunk, adventure, friendliness. Actions: forming heart shape with hands",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "utility belts",
+      "high boots",
+      "leather jacket",
+      "steampunk accessories"
+    ],
+    "scenes": [
+      "steampunk cityscape"
+    ],
+    "emotions": [
+      "confidence",
+      "warmth"
+    ],
+    "concepts": [
+      "steampunk",
+      "adventure",
+      "friendliness"
+    ],
+    "nature": [],
+    "animals": [],
+    "actions": [
+      "forming heart shape with hands"
+    ]
+  },
+  "metadata": {}
+}

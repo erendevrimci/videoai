@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChoNg\u01b0\u1eddiConTrai\u00d4m.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChoNg\u01b0\u1eddiConTrai\u00d4m.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ChoNg\u01b0\u1eddiConTrai\u00d4m/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man and a woman are seated closely together on a sofa, smiling gently at the camera. The background features a blue corrugated wall, suggesting an indoor setting.",
+      "description": "The scene depicts a casual indoor setting with two people sitting side by side on a sofa. The blue corrugated wall in the background adds a simple, homely touch to the environment.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "sofa",
+          "wall"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "togetherness",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ChoNg\u01b0\u1eddiConTrai\u00d4m.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ChoNg\u01b0\u1eddiConTrai\u00d4m/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple shares a tender kiss while embracing each other closely. They are seated against a blue corrugated metal wall, suggesting an indoor setting.",
+      "description": "The scene captures a moment of affection between two people in a casual indoor environment. The couple is seated closely, with their arms wrapped around each other, creating an intimate and loving atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "kissing",
+          "embracing"
+        ],
+        "emotions": [
+          "affection",
+          "intimacy"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "love",
+          "relationship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman, couple. Objects: sofa, wall, clothing. Actions: sitting, kissing, embracing. Emotions: calm, content, affection, intimacy. Scenes: indoor. Concepts: togetherness, casual, love, relationship",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman",
+      "couple"
+    ],
+    "objects": [
+      "sofa",
+      "wall",
+      "clothing"
+    ],
+    "actions": [
+      "sitting",
+      "kissing",
+      "embracing"
+    ],
+    "emotions": [
+      "calm",
+      "content",
+      "affection",
+      "intimacy"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "togetherness",
+      "casual",
+      "love",
+      "relationship"
+    ]
+  },
+  "metadata": {}
+}

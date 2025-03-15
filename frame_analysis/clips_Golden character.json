@@ -1,0 +1,156 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Golden character.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Golden character.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Golden character/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical sculpture crafted from natural materials stands prominently, adorned with leaves, twigs, and colorful stones. The figure, with a large head and closed eyes, appears serene amidst a backdrop of hanging ornaments. The scene is filled with earthy textures and vibrant accents, creating a magical atmosphere.",
+      "description": "The scene depicts an artistic installation featuring a sculpture made from organic materials. It is set in a display area, possibly within a gallery or exhibition space, surrounded by hanging decorative elements.",
+      "labels": {
+        "objects": [
+          "sculpture",
+          "leaves",
+          "twigs",
+          "stones",
+          "ornaments"
+        ],
+        "actions": [
+          "displayed"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "art installation",
+          "gallery"
+        ],
+        "concepts": [
+          "nature-inspired art",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Golden character.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Golden character/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image showcases an intricate sculpture made from natural materials, resembling a humanoid figure adorned with leaves and colorful stones. Surrounding the figure are various hanging ornaments, creating a whimsical and artistic atmosphere. The setting appears to be an art installation or exhibition space.",
+      "description": "The scene is set in an art installation, featuring a detailed sculpture composed of organic materials. The sculpture stands amidst a backdrop of hanging decorations, suggesting a creative and imaginative environment.",
+      "labels": {
+        "objects": [
+          "sculpture",
+          "ornaments",
+          "leaves",
+          "stones"
+        ],
+        "nature": [
+          "leaves"
+        ],
+        "scenes": [
+          "art installation",
+          "exhibition"
+        ],
+        "concepts": [
+          "creativity",
+          "art"
+        ],
+        "emotions": [
+          "whimsical",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Golden character.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Golden character/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical figure made of natural materials stands amidst a forest-like setting, adorned with dried leaves and flowers. The figure appears joyful, with a wide smile and outstretched arms, surrounded by hanging decorations. A small cat-like creature sits at its feet, adding to the enchanting atmosphere.",
+      "description": "The scene depicts a fantastical character crafted from organic materials, set in a magical, nature-inspired environment. The setting is reminiscent of a fairy tale forest, with intricate details and a sense of wonder.",
+      "labels": {
+        "people": [
+          "fantastical figure"
+        ],
+        "animals": [
+          "cat-like creature"
+        ],
+        "nature": [
+          "dried leaves",
+          "flowers"
+        ],
+        "objects": [
+          "hanging decorations"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "whimsy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sculpture, leaves, stones, ornaments, twigs. Actions: displayed, standing, smiling. Emotions: whimsical, serene, artistic, joyful. Scenes: art installation, gallery, exhibition, fantasy, forest. Concepts: creativity, nature-inspired art, art, whimsy, enchantment. Nature: leaves, dried leaves, flowers. People: fantastical figure. Animals: cat-like creature",
+  "primary_labels": {
+    "objects": [
+      "sculpture",
+      "leaves",
+      "stones",
+      "ornaments",
+      "twigs"
+    ],
+    "actions": [
+      "displayed",
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene",
+      "artistic",
+      "joyful"
+    ],
+    "scenes": [
+      "art installation",
+      "gallery",
+      "exhibition",
+      "fantasy",
+      "forest"
+    ],
+    "concepts": [
+      "creativity",
+      "nature-inspired art",
+      "art",
+      "whimsy",
+      "enchantment"
+    ],
+    "nature": [
+      "leaves",
+      "dried leaves",
+      "flowers"
+    ],
+    "people": [
+      "fantastical figure"
+    ],
+    "animals": [
+      "cat-like creature"
+    ]
+  },
+  "metadata": {}
+}

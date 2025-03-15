@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Impatient.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Impatient.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Impatient/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with vibrant red hair sits gracefully by a window, bathed in warm, golden sunlight. Her satin dress catches the light, adding a soft sheen to the scene.",
+      "description": "The scene captures a serene moment indoors, with a focus on elegance and natural beauty. The woman is positioned near a window, allowing the sunlight to highlight her features and the texture of her hair and dress.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "satin dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "natural light"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Impatient.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Impatient/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vibrant red hair sits gracefully by a window, bathed in warm sunlight. She is wearing a silky dress that reflects the golden light, creating a serene and elegant atmosphere.",
+      "description": "The scene captures a moment of tranquility and beauty as the woman poses near a window. The soft lighting and warm tones create a peaceful and intimate setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "window"
+        ],
+        "actions": [
+          "sitting",
+          "posing"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Impatient.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Impatient/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with vibrant red hair sits gracefully by a window, bathed in warm sunlight. Her elegant satin dress catches the light, creating a soft glow around her.",
+      "description": "The scene captures a serene indoor setting where a woman is seated near a window. The natural light highlights her red hair and satin dress, creating a warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "window"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "elegance",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: window, dress, satin dress. Actions: sitting, posing. Emotions: serene, elegant. Scenes: indoor, portrait, sunlit. Concepts: beauty, natural light, tranquility, elegance, warmth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "window",
+      "dress",
+      "satin dress"
+    ],
+    "actions": [
+      "sitting",
+      "posing"
+    ],
+    "emotions": [
+      "serene",
+      "elegant"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait",
+      "sunlit"
+    ],
+    "concepts": [
+      "beauty",
+      "natural light",
+      "tranquility",
+      "elegance",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is cooking fish on the f.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is cooking fish on the f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat is cooking fish on the f/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is standing on its hind legs, attentively stirring a pan of food on the stove. The cat appears focused and serious, as if it is carefully preparing a meal.",
+      "description": "The scene takes place in a kitchen where a cat is humorously depicted as cooking on a stove. The cat is using a spatula to stir food in a pan, with flames visible underneath, creating a whimsical and amusing atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pan",
+          "stove",
+          "spatula",
+          "food"
+        ],
+        "actions": [
+          "cooking",
+          "stirring"
+        ],
+        "emotions": [
+          "focused",
+          "serious"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is cooking fish on the f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat is cooking fish on the f/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat stands on its hind legs, appearing to cook in a kitchen. It holds a spatula and seems to be stirring food in a frying pan over an open flame.",
+      "description": "The scene takes place in a cozy kitchen where a cat humorously mimics cooking. The cat is focused on the task, adding a whimsical element to the domestic setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "frying pan",
+          "spatula",
+          "stove",
+          "flame"
+        ],
+        "actions": [
+          "cooking",
+          "stirring"
+        ],
+        "emotions": [
+          "focused",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: stove, spatula, pan, food, frying pan. Actions: cooking, stirring. Emotions: focused, serious, humorous. Scenes: kitchen. Concepts: humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "stove",
+      "spatula",
+      "pan",
+      "food",
+      "frying pan"
+    ],
+    "actions": [
+      "cooking",
+      "stirring"
+    ],
+    "emotions": [
+      "focused",
+      "serious",
+      "humorous"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

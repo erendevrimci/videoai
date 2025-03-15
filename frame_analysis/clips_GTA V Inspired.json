@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/GTA V Inspired.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/GTA V Inspired.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/GTA V Inspired/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently against a sleek blue sports car, set against a vibrant sunset backdrop. Neon signs and palm trees frame the scene, adding a touch of urban glamour. The lighting casts a warm glow, highlighting the woman's casual yet stylish attire.",
+      "description": "The scene takes place in an urban setting during sunset, featuring a woman leaning against a sports car. The environment is enhanced by neon lights and palm trees, creating a lively and glamorous atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sports car",
+          "neon sign"
+        ],
+        "nature": [
+          "palm trees"
+        ],
+        "actions": [
+          "leaning"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "sunset"
+        ],
+        "concepts": [
+          "glamour",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/GTA V Inspired.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/GTA V Inspired/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is leaning against a blue sports car under a vibrant sunset sky. She is dressed in casual summer attire, with palm trees and city lights in the background.",
+      "description": "The scene is set in an urban environment during sunset, creating a warm and colorful atmosphere. The woman is casually posed against the car, suggesting a relaxed and stylish mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "palm trees",
+          "sunset"
+        ],
+        "objects": [
+          "sports car",
+          "city lights"
+        ],
+        "actions": [
+          "leaning"
+        ],
+        "emotions": [
+          "relaxed",
+          "stylish"
+        ],
+        "scenes": [
+          "urban",
+          "sunset"
+        ],
+        "concepts": [
+          "fashion",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: sports car, neon sign, city lights. Nature: palm trees, sunset. Actions: leaning. Emotions: confidence, relaxed, stylish. Scenes: urban, sunset. Concepts: glamour, style, fashion, leisure",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "sports car",
+      "neon sign",
+      "city lights"
+    ],
+    "nature": [
+      "palm trees",
+      "sunset"
+    ],
+    "actions": [
+      "leaning"
+    ],
+    "emotions": [
+      "confidence",
+      "relaxed",
+      "stylish"
+    ],
+    "scenes": [
+      "urban",
+      "sunset"
+    ],
+    "concepts": [
+      "glamour",
+      "style",
+      "fashion",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

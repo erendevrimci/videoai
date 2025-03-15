@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a giant molten chocolate dessert.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a giant molten chocolate dessert.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a giant molten chocolate dessert/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features miniature workers busy decorating a dessert. They are pouring colorful sprinkles and syrup over a scoop of ice cream topped with a cherry. The tiny figures are using ladders and tools, creating a playful and imaginative atmosphere.",
+      "description": "The image depicts a creative and playful setting where miniature figures are engaged in decorating a dessert. The scene combines elements of fantasy and culinary art, with tiny workers treating the dessert as a construction site.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "ice cream",
+          "cherry",
+          "sprinkles",
+          "syrup",
+          "ladder",
+          "tools"
+        ],
+        "actions": [
+          "decorating",
+          "pouring",
+          "climbing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "fantasy",
+          "culinary art"
+        ],
+        "concepts": [
+          "miniature world",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a giant molten chocolate dessert.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a giant molten chocolate dessert/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature workers on a dessert, appearing to construct and decorate it. Tiny figures are seen pouring colorful sprinkles and caramel sauce over a large scoop of ice cream topped with a cherry. The playful setup creates an imaginative world where desserts are crafted by tiny hands.",
+      "description": "The image presents a creative and imaginative scene where miniature figures are engaged in constructing and decorating a dessert. The setting is a close-up view of an ice cream scoop with chocolate and caramel drizzles, topped with a cherry, giving the impression of a dessert construction site.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "ice cream",
+          "cherry",
+          "sprinkles",
+          "caramel sauce",
+          "ladder",
+          "bucket"
+        ],
+        "actions": [
+          "pouring",
+          "decorating",
+          "constructing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "dessert",
+          "miniature world"
+        ],
+        "concepts": [
+          "creativity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, workers. Objects: ice cream, cherry, sprinkles, ladder, syrup. Actions: decorating, pouring, climbing, constructing. Emotions: playful, imaginative. Scenes: fantasy, culinary art, dessert, miniature world. Concepts: creativity, miniature world, whimsy",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "workers"
+    ],
+    "objects": [
+      "ice cream",
+      "cherry",
+      "sprinkles",
+      "ladder",
+      "syrup"
+    ],
+    "actions": [
+      "decorating",
+      "pouring",
+      "climbing",
+      "constructing"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative"
+    ],
+    "scenes": [
+      "fantasy",
+      "culinary art",
+      "dessert",
+      "miniature world"
+    ],
+    "concepts": [
+      "creativity",
+      "miniature world",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

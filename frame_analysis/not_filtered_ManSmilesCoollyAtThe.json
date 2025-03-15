@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManSmilesCoollyAtThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManSmilesCoollyAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManSmilesCoollyAtThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A well-dressed man sits in a cafe, sipping coffee from a paper cup. Sunlight filters through the window, casting a warm glow over the scene.",
+      "description": "The scene is set in a cozy cafe, with a man enjoying a quiet moment with his coffee. The atmosphere is calm and reflective, enhanced by the soft lighting and urban backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "coffee cup",
+          "suit",
+          "window",
+          "table"
+        ],
+        "actions": [
+          "drinking"
+        ],
+        "emotions": [
+          "calm",
+          "reflective"
+        ],
+        "scenes": [
+          "cafe",
+          "urban"
+        ],
+        "concepts": [
+          "relaxation",
+          "morning routine"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManSmilesCoollyAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManSmilesCoollyAtThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a suit sits by a window in a cafe, sipping from a paper cup. Sunlight filters through the glass, casting a warm glow on his face and surroundings.",
+      "description": "The scene is set in a cozy cafe, where a well-dressed man enjoys a moment of relaxation with a hot beverage. The atmosphere is calm and introspective, enhanced by the soft lighting and urban backdrop visible through the window.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "paper cup",
+          "suit",
+          "window",
+          "napkin holder"
+        ],
+        "actions": [
+          "sipping",
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "cafe",
+          "urban"
+        ],
+        "concepts": [
+          "relaxation",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: suit, window, coffee cup, table, paper cup. Actions: drinking, sipping, sitting. Emotions: calm, reflective, relaxed. Scenes: cafe, urban. Concepts: relaxation, morning routine, introspection",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "suit",
+      "window",
+      "coffee cup",
+      "table",
+      "paper cup"
+    ],
+    "actions": [
+      "drinking",
+      "sipping",
+      "sitting"
+    ],
+    "emotions": [
+      "calm",
+      "reflective",
+      "relaxed"
+    ],
+    "scenes": [
+      "cafe",
+      "urban"
+    ],
+    "concepts": [
+      "relaxation",
+      "morning routine",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/boxing cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/boxing cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/boxing cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as a boxer stands confidently in a boxing ring, wearing a shiny red robe and matching boxing gloves. The scene is dramatically lit with spotlights, highlighting the cat's determined expression.",
+      "description": "The scene takes place in a boxing ring, where a cat is humorously dressed as a boxer. The setting is theatrical, with bright spotlights creating a dramatic atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "boxing gloves",
+          "boxing robe",
+          "boxing ring"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "boxing ring"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/boxing cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/boxing cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed as a boxer stands confidently in a boxing ring. The feline is wearing red boxing gloves and a matching robe, exuding a playful yet determined demeanor. The scene is illuminated by dramatic spotlights, enhancing the theatrical atmosphere.",
+      "description": "The scene takes place in a boxing ring, where a cat is humorously dressed as a boxer. The setting is theatrical, with dramatic lighting and a focus on the cat's playful yet serious expression.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "boxing gloves",
+          "robe",
+          "boxing ring"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "playful",
+          "determined"
+        ],
+        "scenes": [
+          "boxing ring"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: boxing gloves, boxing ring, boxing robe, robe. Actions: standing. Emotions: determination, playful, determined. Scenes: boxing ring. Concepts: humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "boxing gloves",
+      "boxing ring",
+      "boxing robe",
+      "robe"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "playful",
+      "determined"
+    ],
+    "scenes": [
+      "boxing ring"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7f8e\u4eba\u306eOL.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7f8e\u4eba\u306eOL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u7f8e\u4eba\u306eOL/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is sitting on the floor in a relaxed pose, leaning back on her hands. She is wearing a white blouse and a beige skirt, with her legs extended forward.",
+      "description": "The scene is set indoors, likely in a living room or office space, with a window providing natural light. The atmosphere is calm and composed.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "skirt",
+          "shoes",
+          "window",
+          "floor"
+        ],
+        "actions": [
+          "sitting",
+          "leaning"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7f8e\u4eba\u306eOL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u7f8e\u4eba\u306eOL/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is seated on the floor in a relaxed pose, leaning back with her legs extended. She is wearing a white blouse and a beige skirt, with a gentle smile on her face.",
+      "description": "The scene is set indoors, likely in a living room or office space, with natural light coming through a window. The atmosphere is calm and composed, suggesting a moment of relaxation or contemplation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "skirt",
+          "shoes",
+          "window",
+          "floor"
+        ],
+        "actions": [
+          "sitting",
+          "leaning"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "relaxation",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, skirt, shoes, window, floor. Actions: sitting, leaning. Emotions: relaxed, calm, content. Scenes: indoor. Concepts: fashion, casual, relaxation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "skirt",
+      "shoes",
+      "window",
+      "floor"
+    ],
+    "actions": [
+      "sitting",
+      "leaning"
+    ],
+    "emotions": [
+      "relaxed",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "fashion",
+      "casual",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

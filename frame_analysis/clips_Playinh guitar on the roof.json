@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playinh guitar on the roof.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playinh guitar on the roof.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Playinh guitar on the roof/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands on a rooftop in a cityscape, playing an electric guitar. Tall skyscrapers surround him, creating a dramatic urban backdrop. The sky is overcast, adding to the moody atmosphere.",
+      "description": "The scene is set on a rooftop in a bustling city, with modern skyscrapers towering in the background. The man is focused on playing his guitar, adding a sense of artistry against the urban setting.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "guitar",
+          "skyscrapers",
+          "rooftop"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "cityscape",
+          "rooftop"
+        ],
+        "concepts": [
+          "music",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playinh guitar on the roof.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Playinh guitar on the roof/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man stands on a rooftop playing an electric guitar against a backdrop of towering skyscrapers. The scene captures a blend of urban life and musical expression, with the city skyline stretching into the cloudy sky.",
+      "description": "The scene is set on a rooftop in a bustling city, with a man playing an electric guitar. Tall skyscrapers surround him, creating a dramatic urban backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "electric guitar",
+          "rooftop",
+          "skyscrapers"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "music",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: skyscrapers, rooftop, guitar, electric guitar. Actions: playing guitar. Emotions: focused. Scenes: cityscape, rooftop, urban. Concepts: music, urban, urban life",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "skyscrapers",
+      "rooftop",
+      "guitar",
+      "electric guitar"
+    ],
+    "actions": [
+      "playing guitar"
+    ],
+    "emotions": [
+      "focused"
+    ],
+    "scenes": [
+      "cityscape",
+      "rooftop",
+      "urban"
+    ],
+    "concepts": [
+      "music",
+      "urban",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

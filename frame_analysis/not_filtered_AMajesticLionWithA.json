@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajesticLionWithA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajesticLionWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMajesticLionWithA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lion and a crocodile stand side by side on a sandy shore, gazing towards the viewer. The sky is overcast with clouds, and the calm water in the foreground reflects the muted colors of the scene.",
+      "description": "The scene depicts a lion and a crocodile on a beach, creating a surreal and unexpected pairing. The setting appears to be a natural environment, possibly at dawn or dusk, given the soft lighting and cloud-filled sky.",
+      "labels": {
+        "animals": [
+          "lion",
+          "crocodile"
+        ],
+        "nature": [
+          "beach",
+          "water",
+          "cloudy sky"
+        ],
+        "objects": [
+          "sand"
+        ],
+        "emotions": [
+          "calm",
+          "curiosity"
+        ],
+        "scenes": [
+          "wildlife",
+          "natural habitat"
+        ],
+        "concepts": [
+          "unexpected pairing",
+          "harmony in nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajesticLionWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMajesticLionWithA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mythical creature with a spiked back and a fierce expression emerges from the water onto a sandy shore. The creature's powerful stance and detailed scales are highlighted by the dramatic lighting of the setting sun.",
+      "description": "The scene depicts a fantastical creature stepping out of the water onto a beach, with the sun setting in the background. The atmosphere is intense and otherworldly, emphasizing the creature's imposing presence.",
+      "labels": {
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "beach",
+          "water",
+          "sunset"
+        ],
+        "objects": [
+          "sand"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "fierce"
+        ],
+        "scenes": [
+          "fantasy",
+          "shoreline"
+        ],
+        "concepts": [
+          "mythology",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion, crocodile, mythical creature. Nature: beach, water, cloudy sky, sunset. Objects: sand. Emotions: calm, curiosity, fierce. Scenes: wildlife, natural habitat, fantasy, shoreline. Concepts: unexpected pairing, harmony in nature, mythology, power. Actions: emerging",
+  "primary_labels": {
+    "animals": [
+      "lion",
+      "crocodile",
+      "mythical creature"
+    ],
+    "nature": [
+      "beach",
+      "water",
+      "cloudy sky",
+      "sunset"
+    ],
+    "objects": [
+      "sand"
+    ],
+    "emotions": [
+      "calm",
+      "curiosity",
+      "fierce"
+    ],
+    "scenes": [
+      "wildlife",
+      "natural habitat",
+      "fantasy",
+      "shoreline"
+    ],
+    "concepts": [
+      "unexpected pairing",
+      "harmony in nature",
+      "mythology",
+      "power"
+    ],
+    "actions": [
+      "emerging"
+    ]
+  },
+  "metadata": {}
+}

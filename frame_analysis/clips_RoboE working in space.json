@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/RoboE working in space.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/RoboE working in space.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/RoboE working in space/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small robot is seated inside a transparent dome, drawing intricate patterns on paper. Beside it, a vase of vibrant yellow flowers adds a touch of nature to the futuristic setting. The scene is set against the backdrop of a starry space, creating a serene and contemplative atmosphere.",
+      "description": "The scene depicts a futuristic setting where a robot is engaged in artistic creation within a protective dome. The presence of flowers juxtaposes technology with nature, highlighting a harmonious coexistence. The vastness of space serves as the backdrop, enhancing the sense of isolation and tranquility.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "robot",
+          "dome",
+          "vase",
+          "paper"
+        ],
+        "actions": [
+          "drawing"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "space",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "art",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/RoboE working in space.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/RoboE working in space/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small robot is seated at a desk inside a transparent dome, drawing a complex design on paper. Beside it, a vase filled with vibrant yellow flowers adds a touch of nature to the futuristic setting. The scene is set against a backdrop of a starry space sky, creating a serene and contemplative atmosphere.",
+      "description": "The scene depicts a futuristic setting where a robot is engaged in artistic activity inside a transparent dome. The presence of flowers and the vastness of space suggest a blend of technology and nature, evoking a sense of tranquility and creativity.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "nature": [
+          "flowers",
+          "space",
+          "stars"
+        ],
+        "objects": [
+          "dome",
+          "desk",
+          "vase",
+          "paper",
+          "drawing"
+        ],
+        "actions": [
+          "drawing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "futuristic",
+          "space"
+        ],
+        "concepts": [
+          "technology",
+          "creativity",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot. Nature: flowers, space, stars. Objects: dome, vase, paper, robot, desk. Actions: drawing. Emotions: serenity, contemplation, serene, contemplative. Scenes: space, futuristic. Concepts: technology, art, isolation, creativity, nature",
+  "primary_labels": {
+    "people": [
+      "robot"
+    ],
+    "animals": [],
+    "nature": [
+      "flowers",
+      "space",
+      "stars"
+    ],
+    "objects": [
+      "dome",
+      "vase",
+      "paper",
+      "robot",
+      "desk"
+    ],
+    "actions": [
+      "drawing"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "space",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "art",
+      "isolation",
+      "creativity",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

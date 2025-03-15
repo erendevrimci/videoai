@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Spaghetti Dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Spaghetti Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Spaghetti Dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical sculpture of two dancers crafted entirely from pasta, capturing a moment of elegance and movement. The figures are intricately detailed, with swirling pasta forming their flowing garments and dynamic poses.",
+      "description": "The scene depicts a creative and artistic representation of a dance, using pasta to form the figures and their attire. The setting is likely a studio or artistic space, emphasizing the craftsmanship and imagination involved.",
+      "labels": {
+        "objects": [
+          "pasta",
+          "sculpture",
+          "plate"
+        ],
+        "actions": [
+          "dancing",
+          "posing"
+        ],
+        "emotions": [
+          "elegance",
+          "whimsy"
+        ],
+        "scenes": [
+          "artistic",
+          "creative"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Spaghetti Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Spaghetti Dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a detailed sculpture of a couple dancing, crafted entirely from pasta. The figures are elegantly posed, with the woman's dress and the man's suit intricately formed from different pasta shapes. The scene is set against a dark background, highlighting the artistry of the pasta sculpture.",
+      "description": "This scene showcases a creative and artistic representation of a couple dancing, sculpted from pasta. The setting is likely a display or exhibition, emphasizing the craftsmanship involved in creating such a unique and intricate piece.",
+      "labels": {
+        "people": [
+          "couple",
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "pasta",
+          "sculpture",
+          "plate"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "elegance",
+          "romance"
+        ],
+        "scenes": [
+          "artistic display"
+        ],
+        "concepts": [
+          "creativity",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Spaghetti Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Spaghetti Dance/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical scene depicts two figures crafted from pasta, elegantly posed as if dancing. The figures stand on a bed of spaghetti, surrounded by decorative pasta shapes, with a soft, warm glow highlighting their intricate details.",
+      "description": "The scene is a creative representation of two human figures made entirely from pasta, set in a playful and artistic context. The figures are posed in a dance, suggesting movement and grace, while the surrounding pasta elements add to the whimsical atmosphere.",
+      "labels": {
+        "objects": [
+          "pasta",
+          "spaghetti",
+          "plate"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "artistic",
+          "creative"
+        ],
+        "concepts": [
+          "culinary art",
+          "sculpture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: pasta, plate, sculpture, spaghetti. Actions: dancing, posing. Emotions: elegance, whimsy, romance, whimsical, playful. Scenes: artistic, creative, artistic display. Concepts: creativity, culinary art, imagination, sculpture. People: couple, man, woman",
+  "primary_labels": {
+    "objects": [
+      "pasta",
+      "plate",
+      "sculpture",
+      "spaghetti"
+    ],
+    "actions": [
+      "dancing",
+      "posing"
+    ],
+    "emotions": [
+      "elegance",
+      "whimsy",
+      "romance",
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "artistic",
+      "creative",
+      "artistic display"
+    ],
+    "concepts": [
+      "creativity",
+      "culinary art",
+      "imagination",
+      "sculpture"
+    ],
+    "people": [
+      "couple",
+      "man",
+      "woman"
+    ]
+  },
+  "metadata": {}
+}

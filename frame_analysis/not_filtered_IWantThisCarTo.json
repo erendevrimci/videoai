@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/IWantThisCarTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/IWantThisCarTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/IWantThisCarTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek white Tesla car is driving along a road with blurred greenery in the background. The vehicle is captured in motion, highlighting its modern design and aerodynamic shape.",
+      "description": "The scene depicts a white Tesla Model 3 traveling on a road, surrounded by lush green foliage. The car is in motion, suggesting a dynamic and fast-paced setting.",
+      "labels": {
+        "objects": [
+          "Tesla Model 3",
+          "car",
+          "road"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "actions": [
+          "driving",
+          "moving"
+        ],
+        "scenes": [
+          "road trip",
+          "outdoors"
+        ],
+        "concepts": [
+          "modern technology",
+          "electric vehicle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/IWantThisCarTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/IWantThisCarTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek white Tesla car is driving along a scenic road bordered by lush greenery. The vehicle is in motion, capturing the essence of modern electric transportation.",
+      "description": "The scene depicts a white Tesla car traveling on a smooth, well-paved road surrounded by dense green foliage. The setting suggests a serene and eco-friendly environment, highlighting the car's modern design and electric capabilities.",
+      "labels": {
+        "objects": [
+          "car",
+          "road"
+        ],
+        "nature": [
+          "greenery",
+          "trees"
+        ],
+        "actions": [
+          "driving",
+          "moving"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "road trip",
+          "nature drive"
+        ],
+        "concepts": [
+          "electric vehicle",
+          "modern transportation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road, Tesla Model 3. Nature: greenery, trees. Actions: driving, moving. Scenes: road trip, outdoors, nature drive. Concepts: electric vehicle, modern technology, modern transportation. Emotions: calm, serene",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road",
+      "Tesla Model 3"
+    ],
+    "nature": [
+      "greenery",
+      "trees"
+    ],
+    "actions": [
+      "driving",
+      "moving"
+    ],
+    "scenes": [
+      "road trip",
+      "outdoors",
+      "nature drive"
+    ],
+    "concepts": [
+      "electric vehicle",
+      "modern technology",
+      "modern transportation"
+    ],
+    "emotions": [
+      "calm",
+      "serene"
+    ]
+  },
+  "metadata": {}
+}

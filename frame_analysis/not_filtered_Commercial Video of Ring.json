@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Commercial Video of Ring.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Commercial Video of Ring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Commercial Video of Ring/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stunning silver ring with an intricate design is showcased on a white cushion. The ring features a large, vibrant blue gemstone at its center, surrounded by delicate metalwork.",
+      "description": "The scene captures a luxurious ring displayed elegantly on a cushion, likely in a jewelry store or a similar setting. The focus is on the craftsmanship and the striking blue gemstone.",
+      "labels": {
+        "objects": [
+          "ring",
+          "gemstone",
+          "cushion"
+        ],
+        "scenes": [
+          "jewelry display"
+        ],
+        "concepts": [
+          "luxury",
+          "elegance"
+        ],
+        "colors": [
+          "blue",
+          "silver",
+          "white"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Commercial Video of Ring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Commercial Video of Ring/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking blue gemstone ring is elegantly displayed on a cushion with a blurred mountainous landscape in the background. The ring's intricate design and vibrant color contrast with the soft, natural hues of the scenery.",
+      "description": "The scene captures a close-up of a gemstone ring set against a blurred backdrop of a mountain, suggesting a serene outdoor setting. The focus is on the ring, highlighting its craftsmanship and beauty.",
+      "labels": {
+        "objects": [
+          "ring",
+          "gemstone",
+          "cushion"
+        ],
+        "nature": [
+          "mountain",
+          "landscape"
+        ],
+        "scenes": [
+          "outdoor",
+          "jewelry display"
+        ],
+        "concepts": [
+          "luxury",
+          "elegance"
+        ],
+        "emotions": [
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: ring, gemstone, cushion. Scenes: jewelry display, outdoor. Concepts: luxury, elegance. Colors: blue, silver, white. Nature: mountain, landscape. Emotions: serenity",
+  "primary_labels": {
+    "objects": [
+      "ring",
+      "gemstone",
+      "cushion"
+    ],
+    "scenes": [
+      "jewelry display",
+      "outdoor"
+    ],
+    "concepts": [
+      "luxury",
+      "elegance"
+    ],
+    "colors": [
+      "blue",
+      "silver",
+      "white"
+    ],
+    "nature": [
+      "mountain",
+      "landscape"
+    ],
+    "emotions": [
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

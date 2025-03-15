@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A squirrel carries grown peanuts.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A squirrel carries grown peanuts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A squirrel carries grown peanuts/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute squirrel wearing denim overalls is pushing a small wooden cart filled with nuts along a dirt path. The scene is set in a rural area with a rustic barn in the background, surrounded by lush greenery.",
+      "description": "The image depicts a whimsical scene where a squirrel, dressed in tiny overalls, is engaged in the playful activity of transporting nuts. The setting appears to be a farm or countryside, with a barn visible in the distance and fields of plants lining the path.",
+      "labels": {
+        "animals": [
+          "squirrel"
+        ],
+        "nature": [
+          "plants",
+          "dirt path"
+        ],
+        "objects": [
+          "cart",
+          "nuts",
+          "barn",
+          "overalls"
+        ],
+        "actions": [
+          "pushing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "countryside",
+          "farm"
+        ],
+        "concepts": [
+          "whimsy",
+          "rural life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A squirrel carries grown peanuts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A squirrel carries grown peanuts/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A charming squirrel dressed in denim overalls is pushing a small wooden cart filled with round objects along a dirt path. The scene is set in a rural area with a rustic house in the background and lush greenery on either side of the path.",
+      "description": "The image depicts a whimsical scene where a squirrel, anthropomorphized by wearing overalls, is engaged in an activity typically associated with humans. The setting is a countryside environment, suggesting a peaceful and idyllic rural lifestyle.",
+      "labels": {
+        "animals": [
+          "squirrel"
+        ],
+        "nature": [
+          "countryside",
+          "greenery"
+        ],
+        "objects": [
+          "wooden cart",
+          "overalls",
+          "house"
+        ],
+        "actions": [
+          "pushing"
+        ],
+        "emotions": [
+          "charming",
+          "whimsical"
+        ],
+        "scenes": [
+          "rural",
+          "idyllic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "rural life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: squirrel. Nature: plants, dirt path, countryside, greenery. Objects: overalls, cart, nuts, barn, wooden cart. Actions: pushing. Emotions: playful, charming, whimsical. Scenes: countryside, farm, rural, idyllic. Concepts: rural life, whimsy, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "squirrel"
+    ],
+    "nature": [
+      "plants",
+      "dirt path",
+      "countryside",
+      "greenery"
+    ],
+    "objects": [
+      "overalls",
+      "cart",
+      "nuts",
+      "barn",
+      "wooden cart"
+    ],
+    "actions": [
+      "pushing"
+    ],
+    "emotions": [
+      "playful",
+      "charming",
+      "whimsical"
+    ],
+    "scenes": [
+      "countryside",
+      "farm",
+      "rural",
+      "idyllic"
+    ],
+    "concepts": [
+      "rural life",
+      "whimsy",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

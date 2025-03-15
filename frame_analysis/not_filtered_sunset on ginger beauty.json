@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sunset on ginger beauty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sunset on ginger beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/sunset on ginger beauty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with vibrant red hair stands in a picturesque mountain landscape, bathed in warm, golden sunlight. She wears an off-the-shoulder orange dress, with her hand gently resting on her chin, gazing thoughtfully at the camera.",
+      "description": "The scene captures a serene and picturesque mountain setting during sunset. The woman is the focal point, set against a backdrop of majestic mountains and a glowing sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "sky",
+          "sunset"
+        ],
+        "objects": [
+          "glasses",
+          "dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "landscape"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sunset on ginger beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/sunset on ginger beauty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking red hair and glasses gazes intently at the camera, her hand gently touching her face. The background features a scenic sunset over distant mountains, casting a warm glow on the scene.",
+      "description": "The scene captures a close-up portrait of a woman set against a dramatic sunset landscape. The lighting highlights her features and creates a serene yet captivating atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "sunset"
+        ],
+        "objects": [
+          "glasses"
+        ],
+        "actions": [
+          "gazing",
+          "touching face"
+        ],
+        "emotions": [
+          "serene",
+          "captivating"
+        ],
+        "scenes": [
+          "portrait",
+          "outdoor"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: mountains, sunset, sky. Objects: glasses, dress. Actions: posing, gazing, touching face. Emotions: serene, thoughtful, captivating. Scenes: outdoor, landscape, portrait. Concepts: beauty, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "mountains",
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "glasses",
+      "dress"
+    ],
+    "actions": [
+      "posing",
+      "gazing",
+      "touching face"
+    ],
+    "emotions": [
+      "serene",
+      "thoughtful",
+      "captivating"
+    ],
+    "scenes": [
+      "outdoor",
+      "landscape",
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

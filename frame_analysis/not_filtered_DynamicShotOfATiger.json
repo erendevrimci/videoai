@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfATiger.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfATiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfATiger/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior dressed in traditional attire walks confidently alongside a majestic white tiger. The scene is set in a sunlit, sandy environment, highlighting the bond between the human and the animal. The warrior's expression is focused and determined, while the tiger exudes strength and grace.",
+      "description": "The image depicts a serene yet powerful moment between a warrior and a white tiger in a desert-like setting. The lighting is warm and natural, casting soft shadows on the sand.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "animals": [
+          "white tiger"
+        ],
+        "nature": [
+          "sand"
+        ],
+        "objects": [
+          "traditional attire",
+          "swords"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "desert"
+        ],
+        "concepts": [
+          "bond",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfATiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfATiger/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in traditional attire walks alongside a majestic white tiger in a desert landscape. The scene is set against a backdrop of rocky cliffs, with the sun casting dramatic shadows on the sand.",
+      "description": "The image depicts a serene and powerful moment as a person and a white tiger traverse a sandy desert. The setting is remote and natural, highlighting a connection between human and animal in a rugged environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "white tiger"
+        ],
+        "nature": [
+          "desert",
+          "sand",
+          "rocky cliffs"
+        ],
+        "objects": [
+          "traditional attire"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "strength"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "human-animal bond",
+          "traditional culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, person. Animals: white tiger. Nature: sand, desert, rocky cliffs. Objects: traditional attire, swords. Actions: walking. Emotions: strength, determination, serenity. Scenes: desert, desert landscape. Concepts: bond, courage, human-animal bond, traditional culture",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "person"
+    ],
+    "animals": [
+      "white tiger"
+    ],
+    "nature": [
+      "sand",
+      "desert",
+      "rocky cliffs"
+    ],
+    "objects": [
+      "traditional attire",
+      "swords"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "strength",
+      "determination",
+      "serenity"
+    ],
+    "scenes": [
+      "desert",
+      "desert landscape"
+    ],
+    "concepts": [
+      "bond",
+      "courage",
+      "human-animal bond",
+      "traditional culture"
+    ]
+  },
+  "metadata": {}
+}

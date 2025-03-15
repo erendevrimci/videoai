@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4f1a\u505a\u996d\u7684\u72d7\u72d7.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4f1a\u505a\u996d\u7684\u72d7\u72d7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u4f1a\u505a\u996d\u7684\u72d7\u72d7/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A golden retriever wearing an apron is playfully depicted as seasoning a roasted chicken on a barbecue grill. The scene is set in a backyard with a rustic house in the background, and the dog appears to be enjoying the sunny day.",
+      "description": "The image portrays a humorous and imaginative scene where a dog is dressed as a chef, engaging in a backyard barbecue. The setting is a sunny outdoor area with a house and greenery, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "apron",
+          "barbecue grill",
+          "roasted chicken",
+          "seasoning shaker"
+        ],
+        "actions": [
+          "seasoning",
+          "barbecuing"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "backyard",
+          "outdoor"
+        ],
+        "concepts": [
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4f1a\u505a\u996d\u7684\u72d7\u72d7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u4f1a\u505a\u996d\u7684\u72d7\u72d7/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A golden retriever wearing an apron is playfully depicted as a chef, seasoning a roasted chicken on a barbecue grill. The scene is set in a sunny backyard with a charming house in the background.",
+      "description": "The image portrays a whimsical scene where a dog is humorously shown as a chef in a backyard setting. The dog is dressed in an apron and appears to be seasoning a chicken on a grill, adding a playful twist to a typical barbecue scene.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "apron",
+          "barbecue grill",
+          "roasted chicken",
+          "house"
+        ],
+        "actions": [
+          "seasoning",
+          "barbecuing"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "backyard",
+          "barbecue"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: apron, barbecue grill, roasted chicken, seasoning shaker, house. Actions: seasoning, barbecuing. Emotions: playful, joyful, humorous. Scenes: backyard, outdoor, barbecue. Concepts: humor, imagination, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "apron",
+      "barbecue grill",
+      "roasted chicken",
+      "seasoning shaker",
+      "house"
+    ],
+    "actions": [
+      "seasoning",
+      "barbecuing"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "humorous"
+    ],
+    "scenes": [
+      "backyard",
+      "outdoor",
+      "barbecue"
+    ],
+    "concepts": [
+      "humor",
+      "imagination",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

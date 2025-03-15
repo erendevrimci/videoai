@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snail Rider.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snail Rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Snail Rider/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man wearing a hat and outdoor attire is riding a giant snail through a forest setting. The snail appears to be a whimsical creature with a friendly expression, and the man is holding reins as if guiding it. The scene is bathed in soft, natural light, creating a serene and fantastical atmosphere.",
+      "description": "The scene depicts a surreal and imaginative setting where a man is riding a giant snail in a forest. The environment is lush with greenery, and the lighting is soft and dappled, suggesting a peaceful woodland area.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "snail"
+        ],
+        "nature": [
+          "forest",
+          "greenery"
+        ],
+        "objects": [
+          "hat",
+          "reins",
+          "boots"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoors"
+        ],
+        "concepts": [
+          "whimsy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snail Rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Snail Rider/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man dressed in an explorer's outfit sits atop a giant snail in a lush forest setting. The snail appears to be a fantastical creature, with the man holding reins as if riding a horse. The scene is bathed in soft, natural light, highlighting the greenery around them.",
+      "description": "The scene depicts a whimsical and imaginative setting where a man is riding a giant snail through a forest. The environment is serene and filled with large plants, creating a sense of adventure and fantasy.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "snail"
+        ],
+        "nature": [
+          "forest",
+          "plants"
+        ],
+        "objects": [
+          "hat",
+          "reins",
+          "boots"
+        ],
+        "actions": [
+          "riding",
+          "holding"
+        ],
+        "emotions": [
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoor"
+        ],
+        "concepts": [
+          "exploration",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: snail. Nature: forest, greenery, plants. Objects: hat, reins, boots. Actions: riding, holding. Emotions: serene, adventurous. Scenes: fantasy, outdoors, outdoor. Concepts: whimsy, adventure, exploration, imagination",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "snail"
+    ],
+    "nature": [
+      "forest",
+      "greenery",
+      "plants"
+    ],
+    "objects": [
+      "hat",
+      "reins",
+      "boots"
+    ],
+    "actions": [
+      "riding",
+      "holding"
+    ],
+    "emotions": [
+      "serene",
+      "adventurous"
+    ],
+    "scenes": [
+      "fantasy",
+      "outdoors",
+      "outdoor"
+    ],
+    "concepts": [
+      "whimsy",
+      "adventure",
+      "exploration",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManLeavesTheStore.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManLeavesTheStore.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManLeavesTheStore/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three figures stand outside a store, dressed in formal black suits. Two of the figures have dog heads, adding a surreal element to the scene. The setting is urban, with a modern storefront in the background.",
+      "description": "The scene takes place in an urban environment, likely on a city street in front of a clothing store. The figures are dressed in formal attire, suggesting a business or upscale setting.",
+      "labels": {
+        "people": [
+          "man",
+          "figures with dog heads"
+        ],
+        "animals": [
+          "dog heads"
+        ],
+        "nature": [],
+        "objects": [
+          "suits",
+          "shopping bag",
+          "storefront"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "storefront"
+        ],
+        "concepts": [
+          "surreal",
+          "formal attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManLeavesTheStore.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManLeavesTheStore/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a suit walks confidently down a city sidewalk, flanked by two figures with dog heads wearing matching black coats. The scene is set against a backdrop of modern glass windows, suggesting an urban environment.",
+      "description": "The image depicts a surreal urban scene where a man is accompanied by two humanoid figures with dog heads. They are all dressed in formal attire, creating a striking and unusual visual contrast.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "suit",
+          "coat",
+          "shopping bag"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "sidewalk"
+        ],
+        "concepts": [
+          "surreal",
+          "formal attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, figures with dog heads. Animals: dog heads, dog. Objects: shopping bag, suits, storefront, suit, coat. Actions: standing, walking. Emotions: serious, confidence. Scenes: urban, street, storefront, sidewalk. Concepts: surreal, formal attire",
+  "primary_labels": {
+    "people": [
+      "man",
+      "figures with dog heads"
+    ],
+    "animals": [
+      "dog heads",
+      "dog"
+    ],
+    "nature": [],
+    "objects": [
+      "shopping bag",
+      "suits",
+      "storefront",
+      "suit",
+      "coat"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "serious",
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "storefront",
+      "sidewalk"
+    ],
+    "concepts": [
+      "surreal",
+      "formal attire"
+    ]
+  },
+  "metadata": {}
+}

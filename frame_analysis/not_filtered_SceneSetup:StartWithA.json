@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneSetup:StartWithA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneSetup:StartWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SceneSetup:StartWithA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic wolf with piercing blue eyes stands protectively in the foreground, while a sleeping child rests peacefully against its back. The scene is set in a misty, ethereal environment with soft, muted colors.",
+      "description": "The image depicts a serene and mystical scene where a large wolf is accompanied by a sleeping child. The setting appears to be a foggy, possibly forested area, creating a sense of mystery and tranquility.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [],
+        "actions": [
+          "sleeping"
+        ],
+        "emotions": [
+          "calm",
+          "protective"
+        ],
+        "scenes": [
+          "mystical",
+          "serene"
+        ],
+        "concepts": [
+          "protection",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneSetup:StartWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SceneSetup:StartWithA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large wolf with striking blue eyes stands protectively beside a sleeping child. The child rests peacefully against the wolf's side, wrapped in a warm blanket. The scene is set in a misty, forested area with a few small fires in the background.",
+      "description": "The image depicts a serene and protective moment between a wolf and a child in a forest setting. The atmosphere is calm and slightly mystical, with the wolf appearing vigilant and the child in a deep, peaceful sleep.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "blanket"
+        ],
+        "actions": [
+          "sleeping",
+          "resting"
+        ],
+        "emotions": [
+          "peaceful",
+          "protective"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "companionship",
+          "protection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneSetup:StartWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SceneSetup:StartWithA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large wolf with striking blue eyes stands calmly with a sleeping child draped over its back. The child is wrapped in a warm, rugged blanket, suggesting a protective and nurturing relationship between the two.",
+      "description": "The scene depicts a serene moment in a forested area with a wolf carrying a sleeping child on its back. The setting is calm and intimate, with a hint of warmth from a nearby fire.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "blanket"
+        ],
+        "actions": [
+          "sleeping",
+          "carrying"
+        ],
+        "emotions": [
+          "calm",
+          "protective"
+        ],
+        "scenes": [
+          "forest scene"
+        ],
+        "concepts": [
+          "companionship",
+          "trust"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. People: child. Nature: forest, mist. Objects: blanket. Actions: sleeping, resting, carrying. Emotions: protective, calm, peaceful. Scenes: mystical, serene, forest, forest scene. Concepts: companionship, protection, trust",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "people": [
+      "child"
+    ],
+    "nature": [
+      "forest",
+      "mist"
+    ],
+    "objects": [
+      "blanket"
+    ],
+    "actions": [
+      "sleeping",
+      "resting",
+      "carrying"
+    ],
+    "emotions": [
+      "protective",
+      "calm",
+      "peaceful"
+    ],
+    "scenes": [
+      "mystical",
+      "serene",
+      "forest",
+      "forest scene"
+    ],
+    "concepts": [
+      "companionship",
+      "protection",
+      "trust"
+    ]
+  },
+  "metadata": {}
+}

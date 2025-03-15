@@ -1,0 +1,171 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/children walking along a forest.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/children walking along a forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/children walking along a forest/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two children, a girl in a white dress and a boy in a blue shirt, walk hand in hand along a forest path. Sunlight filters through the tall trees, casting a warm glow on the scene. The children appear joyful and carefree as they explore the natural surroundings.",
+      "description": "The scene is set in a lush forest with tall trees and a dirt path. Two children are the focal point, walking together and enjoying the serene environment. The atmosphere is peaceful and joyful, enhanced by the gentle sunlight filtering through the trees.",
+      "labels": {
+        "people": [
+          "children",
+          "girl",
+          "boy"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "path"
+        ],
+        "objects": [
+          "dress",
+          "shirt",
+          "shoes"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "joyful",
+          "carefree"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "friendship",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/children walking along a forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/children walking along a forest/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two children are joyfully walking through a sunlit forest. The girl in a white dress and the boy in a light blue shirt step carefully over a fallen log. Sunlight filters through the trees, creating a serene and magical atmosphere.",
+      "description": "The scene captures a peaceful moment in a forest where two children are exploring their natural surroundings. The setting is tranquil, with tall trees and soft sunlight creating a warm and inviting environment.",
+      "labels": {
+        "people": [
+          "girl",
+          "boy"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "fallen log"
+        ],
+        "actions": [
+          "walking",
+          "exploring"
+        ],
+        "emotions": [
+          "joyful",
+          "serene"
+        ],
+        "scenes": [
+          "nature",
+          "outdoor"
+        ],
+        "concepts": [
+          "childhood",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/children walking along a forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/children walking along a forest/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl and boy walk hand in hand along a forest path, surrounded by tall trees and lush greenery. The girl is wearing a white dress and the boy is in a light blue shirt, both appearing joyful and carefree as they explore the natural setting.",
+      "description": "The scene captures two children walking through a serene forest, with sunlight filtering through the trees, creating a peaceful and idyllic atmosphere. The path is lined with moss-covered logs and vibrant foliage, enhancing the sense of adventure and exploration.",
+      "labels": {
+        "people": [
+          "girl",
+          "boy"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "foliage",
+          "path"
+        ],
+        "objects": [
+          "dress",
+          "shirt"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "joyful",
+          "carefree"
+        ],
+        "scenes": [
+          "forest path",
+          "nature walk"
+        ],
+        "concepts": [
+          "childhood",
+          "exploration",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, boy, children. Nature: forest, trees, path, foliage. Objects: dress, shirt, shoes, fallen log. Actions: walking, holding hands, exploring. Emotions: joyful, carefree, serene. Scenes: outdoor, nature, forest path, nature walk. Concepts: exploration, childhood, friendship, adventure, nature",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "boy",
+      "children"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "path",
+      "foliage"
+    ],
+    "objects": [
+      "dress",
+      "shirt",
+      "shoes",
+      "fallen log"
+    ],
+    "actions": [
+      "walking",
+      "holding hands",
+      "exploring"
+    ],
+    "emotions": [
+      "joyful",
+      "carefree",
+      "serene"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature",
+      "forest path",
+      "nature walk"
+    ],
+    "concepts": [
+      "exploration",
+      "childhood",
+      "friendship",
+      "adventure",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

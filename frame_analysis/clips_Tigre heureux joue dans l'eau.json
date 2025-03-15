@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre heureux joue dans l'eau.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre heureux joue dans l'eau.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tigre heureux joue dans l'eau/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young tiger playfully swims through a clear, vibrant blue stream, surrounded by lush greenery. Bubbles rise to the surface, adding a dynamic element to the serene natural setting.",
+      "description": "The scene captures a playful tiger cub swimming in a natural water setting, with bubbles and aquatic plants enhancing the lively atmosphere.",
+      "labels": {
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "water",
+          "plants"
+        ],
+        "objects": [
+          "bubbles"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "natural habitat",
+          "aquatic environment"
+        ],
+        "concepts": [
+          "wildlife",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre heureux joue dans l'eau.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tigre heureux joue dans l'eau/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young tiger is swimming underwater, its eyes focused forward as it glides through the clear blue water. The scene is vibrant with aquatic plants swaying gently around the tiger, creating a dynamic and lively underwater environment.",
+      "description": "The scene captures a young tiger swimming underwater in a natural aquatic setting. The water is clear, allowing visibility of the tiger's graceful movements and the surrounding aquatic plants.",
+      "labels": {
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "water",
+          "aquatic plants"
+        ],
+        "objects": [],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "wildlife",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger. Nature: water, plants, aquatic plants. Objects: bubbles. Actions: swimming. Emotions: playful, focused. Scenes: natural habitat, aquatic environment, underwater. Concepts: wildlife, nature",
+  "primary_labels": {
+    "animals": [
+      "tiger"
+    ],
+    "nature": [
+      "water",
+      "plants",
+      "aquatic plants"
+    ],
+    "objects": [
+      "bubbles"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "playful",
+      "focused"
+    ],
+    "scenes": [
+      "natural habitat",
+      "aquatic environment",
+      "underwater"
+    ],
+    "concepts": [
+      "wildlife",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

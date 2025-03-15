@@ -1,0 +1,90 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Emerald.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Emerald.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Emerald/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking blue eyes gazes intently, wearing a luxurious green dress and an ornate gold necklace. Her hair is neatly styled, and she has bold red lipstick complementing her elegant look.",
+      "description": "The scene captures a close-up portrait of a woman in a sophisticated setting, highlighting her jewelry and attire. The focus is on her facial expression and the intricate details of her necklace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "necklace",
+          "earrings",
+          "dress"
+        ],
+        "emotions": [
+          "intense",
+          "elegant"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Emerald.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Emerald/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking features gazes confidently at the camera. She is adorned with elegant gold jewelry and wears a deep green garment, set against a dark green background.",
+      "description": "The scene is a close-up portrait of a woman, emphasizing her facial features and jewelry. The setting is likely a studio with controlled lighting to highlight her expression and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jewelry",
+          "earrings",
+          "necklace"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: necklace, earrings, dress, jewelry. Emotions: intense, elegant, confidence. Scenes: portrait. Concepts: fashion, luxury, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "necklace",
+      "earrings",
+      "dress",
+      "jewelry"
+    ],
+    "emotions": [
+      "intense",
+      "elegant",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "luxury",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"\ubc1d\uc740\ud587\uc0b4\uc774\ube44\uce58\ub294\uac70\uc2e4\uc5d0\uc11c\uc791\uc740.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"\ubc1d\uc740\ud587\uc0b4\uc774\ube44\uce58\ub294\uac70\uc2e4\uc5d0\uc11c\uc791\uc740.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"\ubc1d\uc740\ud587\uc0b4\uc774\ube44\uce58\ub294\uac70\uc2e4\uc5d0\uc11c\uc791\uc740/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, animated kitten with large, expressive eyes sits surrounded by colorful toys. The scene is set in a cozy room with soft lighting filtering through a window, creating a warm and inviting atmosphere.",
+      "description": "The image depicts an animated kitten in a playful setting, surrounded by various toys. The room is softly lit, suggesting a peaceful and cozy environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "toys",
+          "window"
+        ],
+        "emotions": [
+          "playful",
+          "curious"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy room"
+        ],
+        "concepts": [
+          "animation",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"\ubc1d\uc740\ud587\uc0b4\uc774\ube44\uce58\ub294\uac70\uc2e4\uc5d0\uc11c\uc791\uc740.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"\ubc1d\uc740\ud587\uc0b4\uc774\ube44\uce58\ub294\uac70\uc2e4\uc5d0\uc11c\uc791\uc740/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A curious kitten is playfully approaching the camera, its paw reaching out as if to touch the lens. The scene is set in a cozy living room with soft furnishings in the background.",
+      "description": "The image captures a playful moment with a kitten in a comfortable indoor setting. The kitten is the focal point, with a blurred background suggesting a home environment.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "camera",
+          "furnishings"
+        ],
+        "actions": [
+          "approaching",
+          "reaching"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "living room"
+        ],
+        "concepts": [
+          "home",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: toys, window, camera, furnishings. Emotions: playful, curious, curiosity, playfulness. Scenes: indoor, cozy room, living room. Concepts: animation, cute, home, comfort. Actions: approaching, reaching",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "toys",
+      "window",
+      "camera",
+      "furnishings"
+    ],
+    "emotions": [
+      "playful",
+      "curious",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy room",
+      "living room"
+    ],
+    "concepts": [
+      "animation",
+      "cute",
+      "home",
+      "comfort"
+    ],
+    "actions": [
+      "approaching",
+      "reaching"
+    ]
+  },
+  "metadata": {}
+}

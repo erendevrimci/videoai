@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amor \u00e0 primeira vista.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amor \u00e0 primeira vista.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Amor \u00e0 primeira vista/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a human eye reveals a reflection of a woman standing inside the iris. The eye is blue with intricate details, and the reflection adds a mysterious element to the scene.",
+      "description": "The scene captures an extreme close-up of a human eye, focusing on the detailed texture of the iris and the reflection of a woman within it. This creates a surreal and introspective atmosphere, suggesting a deep connection or observation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "eye",
+          "iris"
+        ],
+        "actions": [
+          "reflection"
+        ],
+        "emotions": [
+          "mysterious",
+          "introspective"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "reflection",
+          "observation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amor \u00e0 primeira vista.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Amor \u00e0 primeira vista/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a human eye reveals intricate details of the iris and surrounding skin. The blue iris is highlighted by the reflection of a scene, possibly a person or an object, adding depth to the image.",
+      "description": "The scene captures an extreme close-up of a human eye, focusing on the textures and colors of the iris and the skin. The reflection in the eye suggests an external environment or presence.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "reflection"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "vision",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amor \u00e0 primeira vista.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Amor \u00e0 primeira vista/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up of a human eye with a reflection of a woman inside the iris. The eye is blue with intricate details of the iris and eyelashes visible.",
+      "description": "The scene captures an extreme close-up of a human eye, focusing on the vibrant blue iris. Reflected within the eye is an image of a woman, suggesting a deep connection or introspection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "eye",
+          "iris",
+          "eyelashes"
+        ],
+        "actions": [
+          "reflection"
+        ],
+        "emotions": [
+          "introspection"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "perception",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, eye. Objects: eye, iris, reflection, eyelashes. Actions: reflection. Emotions: mysterious, introspective, intensity, introspection. Scenes: close-up. Concepts: reflection, observation, vision, focus, perception",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "eye"
+    ],
+    "objects": [
+      "eye",
+      "iris",
+      "reflection",
+      "eyelashes"
+    ],
+    "actions": [
+      "reflection"
+    ],
+    "emotions": [
+      "mysterious",
+      "introspective",
+      "intensity",
+      "introspection"
+    ],
+    "scenes": [
+      "close-up"
+    ],
+    "concepts": [
+      "reflection",
+      "observation",
+      "vision",
+      "focus",
+      "perception"
+    ]
+  },
+  "metadata": {}
+}

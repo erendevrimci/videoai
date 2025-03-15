@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scent of the season.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scent of the season.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scent of the season/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate perfume bottle stands amidst a serene setting of blooming cherry blossoms. The pink flowers surround the bottle, reflecting softly on the water surface below. Petals gently fall, creating a tranquil and romantic atmosphere.",
+      "description": "The scene depicts a tranquil and romantic setting with a perfume bottle surrounded by cherry blossoms. The reflections on the water and the falling petals enhance the serene ambiance.",
+      "labels": {
+        "nature": [
+          "cherry blossoms",
+          "flowers"
+        ],
+        "objects": [
+          "perfume bottle",
+          "water"
+        ],
+        "actions": [
+          "falling petals"
+        ],
+        "emotions": [
+          "tranquility",
+          "romance"
+        ],
+        "scenes": [
+          "serene setting",
+          "romantic atmosphere"
+        ],
+        "concepts": [
+          "beauty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scent of the season.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scent of the season/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate perfume bottle sits elegantly among blooming cherry blossoms. The scene is reflected in a serene, mirrored surface, enhancing the sense of tranquility and beauty.",
+      "description": "The image portrays a serene and elegant setting with a focus on a perfume bottle surrounded by cherry blossoms. The reflective surface adds depth and a sense of calm to the composition.",
+      "labels": {
+        "objects": [
+          "perfume bottle"
+        ],
+        "nature": [
+          "cherry blossoms"
+        ],
+        "scenes": [
+          "reflection",
+          "serene"
+        ],
+        "concepts": [
+          "elegance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: cherry blossoms, flowers. Objects: perfume bottle, water. Actions: falling petals. Emotions: tranquility, romance. Scenes: serene setting, romantic atmosphere, reflection, serene. Concepts: elegance, beauty, tranquility",
+  "primary_labels": {
+    "nature": [
+      "cherry blossoms",
+      "flowers"
+    ],
+    "objects": [
+      "perfume bottle",
+      "water"
+    ],
+    "actions": [
+      "falling petals"
+    ],
+    "emotions": [
+      "tranquility",
+      "romance"
+    ],
+    "scenes": [
+      "serene setting",
+      "romantic atmosphere",
+      "reflection",
+      "serene"
+    ],
+    "concepts": [
+      "elegance",
+      "beauty",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

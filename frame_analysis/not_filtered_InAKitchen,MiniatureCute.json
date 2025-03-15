@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/InAKitchen,MiniatureCute.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/InAKitchen,MiniatureCute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/InAKitchen,MiniatureCute/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature chefs preparing a giant pizza in a cozy kitchen. The chefs are busy adding toppings and cheese, with a large spoon pouring cheese onto the pizza. The setting is warm and inviting, with glowing lights and rustic decor.",
+      "description": "The scene is set in a miniature kitchen where tiny chefs are working together to create a giant pizza. The atmosphere is playful and imaginative, with a focus on teamwork and creativity.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "cheese",
+          "spoon",
+          "ladder",
+          "table",
+          "light bulbs",
+          "clock",
+          "window",
+          "kitchen appliances",
+          "tomatoes",
+          "mushroom"
+        ],
+        "actions": [
+          "cooking",
+          "pouring",
+          "preparing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking"
+        ],
+        "concepts": [
+          "miniature",
+          "culinary art",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/InAKitchen,MiniatureCute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/InAKitchen,MiniatureCute/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical miniature kitchen, tiny chefs are busily preparing a giant pizza. They work together, using oversized utensils and ingredients, creating a playful and imaginative scene. The setting is warmly lit, enhancing the cozy and bustling atmosphere.",
+      "description": "The scene depicts a creative and playful miniature kitchen where tiny chefs are making a large pizza. The setting is filled with oversized kitchen tools and ingredients, creating a sense of whimsy and charm.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "pizza",
+          "cheese",
+          "utensils",
+          "ladder",
+          "table",
+          "refrigerator",
+          "light bulbs",
+          "window",
+          "clock"
+        ],
+        "actions": [
+          "cooking",
+          "preparing",
+          "lifting"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "miniature",
+          "whimsy",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs, chefs. Objects: pizza, cheese, ladder, table, light bulbs. Actions: cooking, preparing, pouring, lifting. Emotions: playful, imaginative. Scenes: kitchen, cooking. Concepts: miniature, culinary art, teamwork, whimsy",
+  "primary_labels": {
+    "people": [
+      "miniature chefs",
+      "chefs"
+    ],
+    "objects": [
+      "pizza",
+      "cheese",
+      "ladder",
+      "table",
+      "light bulbs"
+    ],
+    "actions": [
+      "cooking",
+      "preparing",
+      "pouring",
+      "lifting"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative"
+    ],
+    "scenes": [
+      "kitchen",
+      "cooking"
+    ],
+    "concepts": [
+      "miniature",
+      "culinary art",
+      "teamwork",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

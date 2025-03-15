@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with green eyes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with green eyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with green eyes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking blue eyes and long braided hair is wearing headphones and appears focused on adjusting a sound mixer. She is adorned with multiple necklaces and bracelets, and a tattoo is visible on her arm.",
+      "description": "The scene captures a woman in a likely music or DJ setting, concentrating on her work with a sound mixer. The atmosphere is intense and professional, with a focus on music production.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "headphones",
+          "sound mixer",
+          "necklaces",
+          "bracelets"
+        ],
+        "actions": [
+          "adjusting",
+          "focusing"
+        ],
+        "emotions": [
+          "focused",
+          "intense"
+        ],
+        "scenes": [
+          "music production",
+          "DJ setting"
+        ],
+        "concepts": [
+          "music",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with green eyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with green eyes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking blue eyes and long braided hair is wearing headphones and operating a DJ mixer. She is focused on her task, with her hands poised over the controls, suggesting she is deeply engaged in creating music.",
+      "description": "The scene captures a DJ in action, set in a dimly lit environment that emphasizes her concentration and the vibrant colors of her accessories. The atmosphere is one of creativity and focus, as she manipulates the sound equipment.",
+      "labels": {
+        "people": [
+          "woman",
+          "DJ"
+        ],
+        "objects": [
+          "headphones",
+          "DJ mixer",
+          "bracelets",
+          "necklaces"
+        ],
+        "actions": [
+          "operating",
+          "mixing"
+        ],
+        "emotions": [
+          "focused",
+          "engaged"
+        ],
+        "scenes": [
+          "music performance",
+          "DJ setup"
+        ],
+        "concepts": [
+          "creativity",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, DJ. Objects: headphones, necklaces, bracelets, sound mixer, DJ mixer. Actions: adjusting, focusing, operating, mixing. Emotions: focused, intense, engaged. Scenes: music production, DJ setting, music performance, DJ setup. Concepts: music, professionalism, creativity",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "DJ"
+    ],
+    "objects": [
+      "headphones",
+      "necklaces",
+      "bracelets",
+      "sound mixer",
+      "DJ mixer"
+    ],
+    "actions": [
+      "adjusting",
+      "focusing",
+      "operating",
+      "mixing"
+    ],
+    "emotions": [
+      "focused",
+      "intense",
+      "engaged"
+    ],
+    "scenes": [
+      "music production",
+      "DJ setting",
+      "music performance",
+      "DJ setup"
+    ],
+    "concepts": [
+      "music",
+      "professionalism",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

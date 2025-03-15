@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Sandwich Workshop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Sandwich Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Sandwich Workshop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature kitchen scene is depicted with a small chef figurine preparing food. The kitchen is intricately detailed with shelves full of jars and ingredients, and a variety of dishes displayed on the counter. Warm lighting creates a cozy and inviting atmosphere.",
+      "description": "The scene is a detailed miniature kitchen setting featuring a chef figurine amidst a variety of culinary items. The environment is rich with small jars, pots, and food items, all under warm, ambient lighting that highlights the craftsmanship of the miniature setup.",
+      "labels": {
+        "people": [
+          "chef figurine"
+        ],
+        "objects": [
+          "jars",
+          "pots",
+          "dishes",
+          "counter",
+          "shelves",
+          "lighting"
+        ],
+        "actions": [
+          "preparing food"
+        ],
+        "emotions": [
+          "cozy",
+          "inviting"
+        ],
+        "scenes": [
+          "miniature kitchen"
+        ],
+        "concepts": [
+          "culinary",
+          "miniature art",
+          "detailed craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Sandwich Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Sandwich Workshop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature kitchen scene features a chef figurine preparing dishes amidst a cozy, well-stocked pantry. The shelves are lined with jars and ingredients, while a warm light illuminates the detailed setup. Lush greenery decorates the roof, adding a touch of nature to the charming scene.",
+      "description": "The scene depicts a detailed miniature kitchen with a chef figurine at the center, surrounded by various culinary elements. The setting is cozy and inviting, with an emphasis on food preparation and storage.",
+      "labels": {
+        "people": [
+          "chef figurine"
+        ],
+        "objects": [
+          "jars",
+          "shelves",
+          "food",
+          "light",
+          "kitchenware"
+        ],
+        "actions": [
+          "preparing food"
+        ],
+        "emotions": [
+          "coziness"
+        ],
+        "scenes": [
+          "miniature kitchen"
+        ],
+        "concepts": [
+          "culinary arts",
+          "miniature design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chef figurine. Objects: jars, shelves, pots, dishes, counter. Actions: preparing food. Emotions: cozy, inviting, coziness. Scenes: miniature kitchen. Concepts: culinary, miniature art, detailed craftsmanship, culinary arts, miniature design",
+  "primary_labels": {
+    "people": [
+      "chef figurine"
+    ],
+    "objects": [
+      "jars",
+      "shelves",
+      "pots",
+      "dishes",
+      "counter"
+    ],
+    "actions": [
+      "preparing food"
+    ],
+    "emotions": [
+      "cozy",
+      "inviting",
+      "coziness"
+    ],
+    "scenes": [
+      "miniature kitchen"
+    ],
+    "concepts": [
+      "culinary",
+      "miniature art",
+      "detailed craftsmanship",
+      "culinary arts",
+      "miniature design"
+    ]
+  },
+  "metadata": {}
+}

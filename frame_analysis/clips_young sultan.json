@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young sultan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young sultan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young sultan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic warrior clad in ornate armor rides a powerful horse at the forefront of an advancing army. The scene is set against a dramatic sky with a crescent moon, and the army is equipped with spears and flags bearing intricate designs.",
+      "description": "The image depicts a historical or fantasy battle scene with a focus on a central warrior leading a charge. The setting is reminiscent of an epic battlefield with a large army in formation, suggesting a moment of high tension and anticipation.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "sky",
+          "moon"
+        ],
+        "objects": [
+          "armor",
+          "spear",
+          "flag"
+        ],
+        "actions": [
+          "riding",
+          "advancing"
+        ],
+        "emotions": [
+          "determination",
+          "valor"
+        ],
+        "scenes": [
+          "battle",
+          "historical"
+        ],
+        "concepts": [
+          "leadership",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young sultan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young sultan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal figure in ornate armor rides a majestic horse at the forefront of a grand procession. Behind him, a vast army marches under a cloudy sky, with flags waving and a crescent moon visible. The scene is set against a backdrop of ancient architecture, evoking a historical and epic atmosphere.",
+      "description": "The scene depicts a historical military procession led by a prominent figure on horseback. The setting appears to be an ancient city, with soldiers marching in formation, carrying spears and banners. The lighting is dramatic, with a golden hue cast over the scene, enhancing the grandeur and solemnity of the moment.",
+      "labels": {
+        "people": [
+          "leader",
+          "soldiers"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "clouds",
+          "crescent moon"
+        ],
+        "objects": [
+          "armor",
+          "spears",
+          "flags"
+        ],
+        "actions": [
+          "riding",
+          "marching"
+        ],
+        "emotions": [
+          "regal",
+          "solemn"
+        ],
+        "scenes": [
+          "military procession",
+          "historical setting"
+        ],
+        "concepts": [
+          "leadership",
+          "historical epic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: soldiers, warrior, leader. Animals: horse. Nature: sky, moon, clouds, crescent moon. Objects: armor, spear, flag, spears, flags. Actions: riding, advancing, marching. Emotions: determination, valor, regal, solemn. Scenes: battle, historical, military procession, historical setting. Concepts: leadership, courage, historical epic",
+  "primary_labels": {
+    "people": [
+      "soldiers",
+      "warrior",
+      "leader"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "sky",
+      "moon",
+      "clouds",
+      "crescent moon"
+    ],
+    "objects": [
+      "armor",
+      "spear",
+      "flag",
+      "spears",
+      "flags"
+    ],
+    "actions": [
+      "riding",
+      "advancing",
+      "marching"
+    ],
+    "emotions": [
+      "determination",
+      "valor",
+      "regal",
+      "solemn"
+    ],
+    "scenes": [
+      "battle",
+      "historical",
+      "military procession",
+      "historical setting"
+    ],
+    "concepts": [
+      "leadership",
+      "courage",
+      "historical epic"
+    ]
+  },
+  "metadata": {}
+}

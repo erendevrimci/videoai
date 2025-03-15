@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is a musician.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is a musician.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat is a musician/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat dressed as a pirate is sitting on a barrel, playfully holding an acoustic guitar. The cat wears a pirate hat with a skull and crossbones and a red bandana, adding to the whimsical pirate theme.",
+      "description": "The scene is set in a rustic, wooden interior, resembling a pirate ship or tavern. The cat is the main focus, humorously dressed as a pirate and engaging with a guitar, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "barrel",
+          "pirate hat",
+          "bandana"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "rustic"
+        ],
+        "concepts": [
+          "pirate",
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat is a musician.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat is a musician/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat dressed as a pirate is perched on a barrel, strumming a guitar. The cat wears a pirate hat with a skull and crossbones and a red bandana, creating a whimsical and humorous scene.",
+      "description": "The scene depicts a playful and imaginative setting where a cat is humorously dressed as a pirate musician. The background suggests a rustic, wooden interior, possibly resembling a pirate ship or tavern.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "pirate hat",
+          "bandana",
+          "barrel"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "whimsical",
+          "humorous"
+        ],
+        "scenes": [
+          "pirate theme",
+          "musical performance"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "costume"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: guitar, barrel, pirate hat, bandana. Actions: sitting, holding, playing guitar. Emotions: playful, whimsical, humorous. Scenes: indoor, rustic, pirate theme, musical performance. Concepts: pirate, humor, imagination, anthropomorphism, costume",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "guitar",
+      "barrel",
+      "pirate hat",
+      "bandana"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "playing guitar"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "humorous"
+    ],
+    "scenes": [
+      "indoor",
+      "rustic",
+      "pirate theme",
+      "musical performance"
+    ],
+    "concepts": [
+      "pirate",
+      "humor",
+      "imagination",
+      "anthropomorphism",
+      "costume"
+    ]
+  },
+  "metadata": {}
+}

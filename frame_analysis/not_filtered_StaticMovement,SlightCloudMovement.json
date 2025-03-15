@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticMovement,SlightCloudMovement.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticMovement,SlightCloudMovement.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticMovement,SlightCloudMovement/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure in a red cloak stands before a colossal, monstrous creature with glowing red eyes. The scene is set in a ruined, gothic landscape with dark, ominous clouds overhead.",
+      "description": "The image depicts a dramatic confrontation between a solitary human figure and a towering, menacing creature in a desolate, ruined environment. The setting is dark and atmospheric, with a sense of impending danger.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "cloak",
+          "ruins"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "fear",
+          "awe"
+        ],
+        "scenes": [
+          "fantasy",
+          "gothic"
+        ],
+        "concepts": [
+          "danger",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticMovement,SlightCloudMovement.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticMovement,SlightCloudMovement/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure in a red cloak stands before a colossal, menacing creature with glowing red eyes. The scene is set in a desolate, ruined landscape under a dramatic, cloudy sky. The atmosphere is tense and foreboding, with the towering monster dominating the scene.",
+      "description": "The image depicts a dramatic confrontation between a human figure and a gigantic monster in a ruined, gothic landscape. The setting is dark and atmospheric, with a sense of impending danger.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "animals": [],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "ruins",
+          "cloak"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "tension",
+          "foreboding"
+        ],
+        "scenes": [
+          "gothic landscape",
+          "ruins"
+        ],
+        "concepts": [
+          "danger",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure. Nature: clouds. Objects: cloak, ruins. Actions: confrontation. Emotions: fear, awe, tension, foreboding. Scenes: fantasy, gothic, gothic landscape, ruins. Concepts: danger, isolation, fantasy",
+  "primary_labels": {
+    "people": [
+      "figure"
+    ],
+    "nature": [
+      "clouds"
+    ],
+    "objects": [
+      "cloak",
+      "ruins"
+    ],
+    "actions": [
+      "confrontation"
+    ],
+    "emotions": [
+      "fear",
+      "awe",
+      "tension",
+      "foreboding"
+    ],
+    "scenes": [
+      "fantasy",
+      "gothic",
+      "gothic landscape",
+      "ruins"
+    ],
+    "concepts": [
+      "danger",
+      "isolation",
+      "fantasy"
+    ],
+    "animals": []
+  },
+  "metadata": {}
+}

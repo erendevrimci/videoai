@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Queen of Heart.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Queen of Heart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Queen of Heart/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal woman with long blonde hair and a golden crown sits with a composed expression, dressed in a richly detailed burgundy gown. In front of her, a chocolate Labrador retriever gazes forward, adding a touch of warmth to the scene. The background is adorned with a playing card motif, featuring hearts and the letter 'Q'.",
+      "description": "The scene depicts a queenly figure, reminiscent of a playing card, exuding elegance and authority. The presence of the dog adds a loyal and comforting element to the otherwise formal setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "crown",
+          "gown",
+          "playing card"
+        ],
+        "emotions": [
+          "regal",
+          "composed"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "royalty",
+          "loyalty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Queen of Heart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Queen of Heart/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal woman wearing a golden crown and an ornate burgundy gown stands with a chocolate Labrador in front of her. The background is designed like a playing card, featuring the Queen of Hearts symbol.",
+      "description": "The scene depicts a woman dressed in royal attire, embodying the Queen of Hearts from a deck of playing cards. She is accompanied by a chocolate Labrador, creating a blend of elegance and companionship.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "crown",
+          "gown",
+          "playing card"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "regal",
+          "calm"
+        ],
+        "scenes": [
+          "portrait",
+          "fantasy"
+        ],
+        "concepts": [
+          "royalty",
+          "playing card"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: dog. Objects: crown, gown, playing card. Emotions: regal, composed, calm. Scenes: portrait, fantasy. Concepts: royalty, loyalty, playing card. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "crown",
+      "gown",
+      "playing card"
+    ],
+    "emotions": [
+      "regal",
+      "composed",
+      "calm"
+    ],
+    "scenes": [
+      "portrait",
+      "fantasy"
+    ],
+    "concepts": [
+      "royalty",
+      "loyalty",
+      "playing card"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

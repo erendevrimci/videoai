@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bursting bioluminescent mushroom.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bursting bioluminescent mushroom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bursting bioluminescent mushroom/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cluster of bioluminescent mushrooms glows vibrantly in a dark, mystical setting. The mushrooms emit a captivating blue and pink light, creating an ethereal atmosphere. The scene is reminiscent of a magical forest floor, illuminated by these otherworldly fungi.",
+      "description": "The image depicts a surreal and enchanting scene where bioluminescent mushrooms are the focal point. The setting appears to be a dark, possibly forested area, with the mushrooms providing the only source of light. Their luminescence casts a soft glow on the surrounding ground, enhancing the mystical ambiance.",
+      "labels": {
+        "nature": [
+          "mushrooms",
+          "bioluminescence"
+        ],
+        "objects": [
+          "fungi"
+        ],
+        "scenes": [
+          "mystical",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ],
+        "emotions": [
+          "wonder",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bursting bioluminescent mushroom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bursting bioluminescent mushroom/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cluster of luminescent mushrooms glows vibrantly against a dark backdrop, surrounded by ethereal, sparkling particles. The scene is reminiscent of a fantastical underwater world, with the mushrooms resembling bioluminescent sea creatures.",
+      "description": "The image depicts a surreal and enchanting scene featuring glowing mushrooms that emit a soft blue and pink light. The setting appears otherworldly, with a mystical atmosphere enhanced by the surrounding sparkling particles, suggesting a magical or underwater environment.",
+      "labels": {
+        "nature": [
+          "mushrooms",
+          "bioluminescence"
+        ],
+        "objects": [
+          "mushrooms",
+          "particles"
+        ],
+        "scenes": [
+          "fantasy",
+          "underwater"
+        ],
+        "emotions": [
+          "mystical",
+          "enchanting"
+        ],
+        "visual_attributes": [
+          "glowing",
+          "luminescent",
+          "dark backdrop",
+          "blue and pink hues"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bursting bioluminescent mushroom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bursting bioluminescent mushroom/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cluster of bioluminescent mushrooms glows vibrantly in a dark, mystical forest. Sparkling particles rise from the ground, creating an enchanting and otherworldly atmosphere. The scene is illuminated by the ethereal blue light emanating from the mushrooms.",
+      "description": "The scene depicts a surreal and magical forest setting at night, where bioluminescent mushrooms emit a soft, blue glow. The environment is filled with sparkling particles, enhancing the mystical ambiance.",
+      "labels": {
+        "nature": [
+          "mushrooms",
+          "forest"
+        ],
+        "objects": [
+          "bioluminescent mushrooms",
+          "sparkling particles"
+        ],
+        "actions": [
+          "glowing",
+          "illuminating"
+        ],
+        "emotions": [
+          "enchantment",
+          "wonder"
+        ],
+        "scenes": [
+          "night",
+          "mystical forest"
+        ],
+        "concepts": [
+          "bioluminescence",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: mushrooms, bioluminescence, forest. Objects: fungi, mushrooms, particles, bioluminescent mushrooms, sparkling particles. Scenes: mystical, forest, fantasy, underwater, night. Concepts: magic, enchantment, bioluminescence. Emotions: wonder, awe, mystical, enchanting, enchantment. Visual_attributes: glowing, luminescent, dark backdrop, blue and pink hues. Actions: glowing, illuminating",
+  "primary_labels": {
+    "nature": [
+      "mushrooms",
+      "bioluminescence",
+      "forest"
+    ],
+    "objects": [
+      "fungi",
+      "mushrooms",
+      "particles",
+      "bioluminescent mushrooms",
+      "sparkling particles"
+    ],
+    "scenes": [
+      "mystical",
+      "forest",
+      "fantasy",
+      "underwater",
+      "night"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "bioluminescence"
+    ],
+    "emotions": [
+      "wonder",
+      "awe",
+      "mystical",
+      "enchanting",
+      "enchantment"
+    ],
+    "visual_attributes": [
+      "glowing",
+      "luminescent",
+      "dark backdrop",
+      "blue and pink hues"
+    ],
+    "actions": [
+      "glowing",
+      "illuminating"
+    ]
+  },
+  "metadata": {}
+}

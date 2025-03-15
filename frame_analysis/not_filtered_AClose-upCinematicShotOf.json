@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upCinematicShotOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upCinematicShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AClose-upCinematicShotOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man wearing glasses and a cap is holding a sausage near his mouth. He appears to be in a casual setting with a detailed black and white patterned background.",
+      "description": "The scene depicts a close-up of a man in a relaxed environment, possibly indoors. He is holding a sausage and seems to be speaking or about to eat.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "cap",
+          "sausage"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "casual",
+          "food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upCinematicShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AClose-upCinematicShotOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is taking a bite of a sausage while wearing glasses and a cap. The individual has visible tattoos on their neck and is dressed in a casual gray shirt.",
+      "description": "The scene is a close-up of a person eating, likely in a casual setting. The focus is on the act of eating, with attention to personal style elements like tattoos and eyewear.",
+      "labels": {
+        "people": [
+          "person",
+          "glasses",
+          "cap",
+          "tattoos"
+        ],
+        "objects": [
+          "sausage",
+          "shirt"
+        ],
+        "actions": [
+          "eating",
+          "biting"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "close-up",
+          "casual"
+        ],
+        "concepts": [
+          "personal style",
+          "food consumption"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person, glasses, cap, tattoos. Objects: sausage, glasses, cap, shirt. Actions: holding, eating, biting. Emotions: neutral. Scenes: indoor, close-up, casual. Concepts: casual, food, personal style, food consumption",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person",
+      "glasses",
+      "cap",
+      "tattoos"
+    ],
+    "objects": [
+      "sausage",
+      "glasses",
+      "cap",
+      "shirt"
+    ],
+    "actions": [
+      "holding",
+      "eating",
+      "biting"
+    ],
+    "emotions": [
+      "neutral"
+    ],
+    "scenes": [
+      "indoor",
+      "close-up",
+      "casual"
+    ],
+    "concepts": [
+      "casual",
+      "food",
+      "personal style",
+      "food consumption"
+    ]
+  },
+  "metadata": {}
+}

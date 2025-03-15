@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman and spider.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman and spider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman and spider/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a traditional kimono stands on a wooden bridge facing a large, fantastical creature resembling a spider. The scene is set in a misty forest, with the creature's reflection visible in the water below.",
+      "description": "The scene takes place in a mystical forest with a serene yet eerie atmosphere. A woman in traditional attire encounters a massive, otherworldly creature on a wooden bridge over a calm body of water.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "fantastical creature",
+          "spider-like"
+        ],
+        "nature": [
+          "forest",
+          "water"
+        ],
+        "objects": [
+          "bridge",
+          "kimono"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "mystical",
+          "serene",
+          "eerie"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "mysticism",
+          "encounter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman and spider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman and spider/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene unfolds in a mystical forest, where a woman in an elegant kimono gently reaches out to a large, mythical creature. The creature, with its intricate, otherworldly design, appears calm and receptive to the woman's touch as they stand on a wooden bridge over a reflective pond.",
+      "description": "The scene is set in an enchanting forest, shrouded in mist, creating a dreamlike atmosphere. A woman in traditional attire interacts with a fantastical creature, suggesting a moment of connection and harmony.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "forest",
+          "pond"
+        ],
+        "objects": [
+          "kimono",
+          "bridge"
+        ],
+        "actions": [
+          "reaching out",
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "mystical forest"
+        ],
+        "concepts": [
+          "fantasy",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: fantastical creature, spider-like, mythical creature. Nature: forest, water, pond. Objects: bridge, kimono. Actions: standing, facing, reaching out. Emotions: serene, mystical, eerie, calm. Scenes: fantasy, forest, mystical forest. Concepts: mysticism, encounter, fantasy, connection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "fantastical creature",
+      "spider-like",
+      "mythical creature"
+    ],
+    "nature": [
+      "forest",
+      "water",
+      "pond"
+    ],
+    "objects": [
+      "bridge",
+      "kimono"
+    ],
+    "actions": [
+      "standing",
+      "facing",
+      "reaching out"
+    ],
+    "emotions": [
+      "serene",
+      "mystical",
+      "eerie",
+      "calm"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest",
+      "mystical forest"
+    ],
+    "concepts": [
+      "mysticism",
+      "encounter",
+      "fantasy",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

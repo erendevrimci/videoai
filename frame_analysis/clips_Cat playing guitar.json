@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat playing guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat playing guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, anthropomorphic kitten stands on a sandy beach, dressed in a small suit and holding a guitar. The kitten's large eyes and playful expression add a whimsical touch to the scene. The background features a bright blue sky and a sparkling ocean, enhancing the cheerful atmosphere.",
+      "description": "The scene depicts a playful and imaginative setting where a kitten is personified as a musician on a beach. The bright and vibrant colors, along with the kitten's attire and guitar, create a whimsical and joyful mood.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "guitar",
+          "suit"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "cheerful"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat playing guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute, anthropomorphic kitten stands on a sandy beach, dressed in a small suit and playing a guitar. The bright blue sky and ocean waves create a serene backdrop, enhancing the whimsical nature of the scene.",
+      "description": "The scene depicts a playful and imaginative setting where a kitten, dressed in human-like clothing, is engaging in playing a guitar by the seaside. The setting is bright and cheerful, with the ocean and sky providing a peaceful atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "guitar",
+          "suit"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "whimsical",
+          "cheerful"
+        ],
+        "scenes": [
+          "seaside"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Nature: beach, ocean, sky. Objects: guitar, suit. Actions: standing, holding, playing guitar. Emotions: cheerful, playful, whimsical. Scenes: beach scene, seaside. Concepts: anthropomorphism, whimsy, imagination",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky"
+    ],
+    "objects": [
+      "guitar",
+      "suit"
+    ],
+    "actions": [
+      "standing",
+      "holding",
+      "playing guitar"
+    ],
+    "emotions": [
+      "cheerful",
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "beach scene",
+      "seaside"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "whimsy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

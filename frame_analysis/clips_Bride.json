@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bride.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bride.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bride/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a woman's face with wet hair and glowing heart-shaped pupils. Her skin glistens with moisture, and she gazes intensely forward.",
+      "description": "The scene depicts a dramatic close-up of a woman, possibly in a rain-soaked or humid environment, with an ethereal and surreal quality due to the glowing hearts in her eyes.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hearts",
+          "eyes"
+        ],
+        "emotions": [
+          "intensity",
+          "surreal"
+        ],
+        "scenes": [
+          "close-up",
+          "dramatic"
+        ],
+        "visual_attributes": [
+          "wet",
+          "glistening",
+          "glowing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bride.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bride/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a woman's face with wet hair and glowing pink heart-shaped pupils. Her skin glistens with moisture, creating an ethereal and intense atmosphere.",
+      "description": "The scene captures a striking close-up of a woman's face, emphasizing her unique eyes and wet appearance. The setting suggests a dramatic or fantastical context, possibly involving rain or water.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "heart-shaped pupils"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "fantasy",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: hearts, eyes, heart-shaped pupils. Emotions: intensity, surreal, mystery. Scenes: close-up, dramatic. Visual_attributes: wet, glistening, glowing. Actions: gazing. Concepts: fantasy, drama",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "hearts",
+      "eyes",
+      "heart-shaped pupils"
+    ],
+    "emotions": [
+      "intensity",
+      "surreal",
+      "mystery"
+    ],
+    "scenes": [
+      "close-up",
+      "dramatic"
+    ],
+    "visual_attributes": [
+      "wet",
+      "glistening",
+      "glowing"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "concepts": [
+      "fantasy",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

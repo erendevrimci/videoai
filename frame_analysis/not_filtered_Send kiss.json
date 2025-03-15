@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Send kiss.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Send kiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Send kiss/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a woman with long dark hair and glowing skin, set against a softly blurred background with warm lights. Her expression is serene and confident, highlighted by the soft lighting that enhances her features.",
+      "description": "The image captures a close-up view of a woman in a well-lit environment, possibly a studio or an event with ambient lighting. The focus is on her face, with a blurred background featuring warm bokeh lights.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "lights"
+        ],
+        "emotions": [
+          "serene",
+          "confident"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "glow"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Send kiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Send kiss/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long dark hair is smiling warmly, blowing a kiss towards the camera. The background is softly blurred with warm, glowing lights, adding a festive atmosphere to the scene.",
+      "description": "The scene captures a close-up of a woman in a joyful and affectionate gesture, set against a backdrop of soft, warm lighting. The focus is on her expressive face and the motion of her hand as she blows a kiss.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "lights"
+        ],
+        "actions": [
+          "smiling",
+          "blowing a kiss"
+        ],
+        "emotions": [
+          "joy",
+          "affection"
+        ],
+        "scenes": [
+          "portrait",
+          "festive"
+        ],
+        "concepts": [
+          "warmth",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: lights. Emotions: serene, confident, joy, affection. Scenes: portrait, festive. Concepts: beauty, glow, warmth, celebration. Actions: smiling, blowing a kiss",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "lights"
+    ],
+    "emotions": [
+      "serene",
+      "confident",
+      "joy",
+      "affection"
+    ],
+    "scenes": [
+      "portrait",
+      "festive"
+    ],
+    "concepts": [
+      "beauty",
+      "glow",
+      "warmth",
+      "celebration"
+    ],
+    "actions": [
+      "smiling",
+      "blowing a kiss"
+    ]
+  },
+  "metadata": {}
+}

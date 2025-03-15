@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Reflection: Jesus Christ walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Reflection: Jesus Christ walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Reflection: Jesus Christ walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a flowing robe walks barefoot along a city street, surrounded by other pedestrians. The scene captures the reflection of the robe in a puddle, with the warm glow of the setting sun illuminating the path.",
+      "description": "The image depicts a city street during sunset, where a person dressed in a robe is walking barefoot. The scene is lively with other people strolling around, and the sunlight creates a serene and warm atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "pedestrians"
+        ],
+        "nature": [
+          "sunlight"
+        ],
+        "objects": [
+          "robe",
+          "puddle"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "city street",
+          "sunset"
+        ],
+        "concepts": [
+          "reflection",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Reflection: Jesus Christ walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Reflection: Jesus Christ walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a flowing robe walks barefoot along a city street, with the sun setting in the background. Other pedestrians are visible, creating a contrast between the serene figure and the bustling urban environment.",
+      "description": "The scene captures a city street during sunset, where a person in a robe walks barefoot. The atmosphere blends tranquility with the lively energy of a city as people move around.",
+      "labels": {
+        "people": [
+          "person in robe",
+          "pedestrians"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "objects": [
+          "robe",
+          "puddle"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "contrast",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Reflection: Jesus Christ walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Reflection: Jesus Christ walking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in a flowing robe walks barefoot along a city street, casting reflections in a puddle. The scene is set against a backdrop of modern buildings and other pedestrians strolling in the warm glow of the setting sun.",
+      "description": "The image captures a serene moment in an urban setting where a person dressed in a robe walks barefoot on a city sidewalk. The scene is lively with other people walking, and the warm lighting creates a peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "pedestrians"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "puddle",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "reflection",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians, person, person in robe. Nature: sunlight, sunset, trees. Objects: puddle, robe, buildings. Actions: walking. Emotions: serene, serenity. Scenes: city street, sunset, urban, street. Concepts: reflection, tranquility, contrast",
+  "primary_labels": {
+    "people": [
+      "pedestrians",
+      "person",
+      "person in robe"
+    ],
+    "nature": [
+      "sunlight",
+      "sunset",
+      "trees"
+    ],
+    "objects": [
+      "puddle",
+      "robe",
+      "buildings"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "city street",
+      "sunset",
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "reflection",
+      "tranquility",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

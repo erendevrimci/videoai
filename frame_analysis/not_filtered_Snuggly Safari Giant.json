@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snuggly Safari Giant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snuggly Safari Giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Snuggly Safari Giant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young elephant stands at the edge of a waterhole, its large ears flared and trunk hanging down. The elephant's skin is textured and slightly wet, suggesting it has just been in the water. The background is a soft blur, emphasizing the focus on the elephant.",
+      "description": "The scene captures a baby elephant near a water source, likely in a natural habitat. The image focuses on the elephant, showcasing its youthful features and the serene environment.",
+      "labels": {
+        "animals": [
+          "elephant",
+          "baby elephant"
+        ],
+        "nature": [
+          "waterhole"
+        ],
+        "objects": [
+          "water"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "wildlife",
+          "nature"
+        ],
+        "concepts": [
+          "youth",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snuggly Safari Giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Snuggly Safari Giant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A plush elephant toy appears to be in mid-air, with its large ears and trunk prominently displayed. The background is blurred, suggesting an outdoor setting with greenery.",
+      "description": "The scene captures a plush elephant toy seemingly suspended in the air, possibly in motion. The focus is on the toy, with a blurred natural background indicating an outdoor environment.",
+      "labels": {
+        "animals": [
+          "elephant"
+        ],
+        "objects": [
+          "plush toy"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "emotions": [
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: elephant, baby elephant. Nature: waterhole. Objects: water, plush toy. Actions: standing, floating. Emotions: calm, playful. Scenes: wildlife, nature, outdoor. Concepts: youth, innocence",
+  "primary_labels": {
+    "animals": [
+      "elephant",
+      "baby elephant"
+    ],
+    "nature": [
+      "waterhole"
+    ],
+    "objects": [
+      "water",
+      "plush toy"
+    ],
+    "actions": [
+      "standing",
+      "floating"
+    ],
+    "emotions": [
+      "calm",
+      "playful"
+    ],
+    "scenes": [
+      "wildlife",
+      "nature",
+      "outdoor"
+    ],
+    "concepts": [
+      "youth",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

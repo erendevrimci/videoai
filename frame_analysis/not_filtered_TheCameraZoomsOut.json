@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsOut.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsOut/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of nine individuals stands confidently in a grand, ornate hallway of a museum. The setting is characterized by high ceilings, intricate architectural details, and large classical paintings adorning the walls. The individuals are dressed in modern, casual streetwear, creating a striking contrast with the historical backdrop.",
+      "description": "The scene takes place in a museum or gallery with classical architecture and art. The group of people is positioned in a line, exuding a sense of unity and style. The juxtaposition of contemporary fashion against the historical setting creates a unique visual dynamic.",
+      "labels": {
+        "people": [
+          "group",
+          "individuals"
+        ],
+        "objects": [
+          "paintings",
+          "architecture",
+          "streetwear"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "museum",
+          "gallery",
+          "hallway"
+        ],
+        "concepts": [
+          "contrast",
+          "modern vs classical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsOut/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of young individuals stands confidently in a grand, ornate hallway, each showcasing unique streetwear styles. The setting is a luxurious gallery with high ceilings and classical paintings adorning the walls. The scene captures a blend of modern fashion against a backdrop of historical art.",
+      "description": "The image depicts a group of young people in a grand gallery, combining contemporary street fashion with a classical art setting. The individuals are positioned in a line, exuding confidence and style.",
+      "labels": {
+        "people": [
+          "group",
+          "young adults"
+        ],
+        "objects": [
+          "streetwear",
+          "paintings",
+          "gallery"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "gallery",
+          "fashion"
+        ],
+        "concepts": [
+          "modern vs classical",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: group, individuals, young adults. Objects: paintings, streetwear, architecture, gallery. Actions: standing. Emotions: confidence. Scenes: gallery, museum, hallway, fashion. Concepts: modern vs classical, contrast, fashion",
+  "primary_labels": {
+    "people": [
+      "group",
+      "individuals",
+      "young adults"
+    ],
+    "objects": [
+      "paintings",
+      "streetwear",
+      "architecture",
+      "gallery"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "gallery",
+      "museum",
+      "hallway",
+      "fashion"
+    ],
+    "concepts": [
+      "modern vs classical",
+      "contrast",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

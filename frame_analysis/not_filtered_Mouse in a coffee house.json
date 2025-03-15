@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse in a coffee house.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse in a coffee house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mouse in a coffee house/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A charming anthropomorphic mouse sits at a cozy caf\u00e9 counter, holding a steaming cup of coffee. Dressed in a floral shirt and a blue cap, the mouse exudes a friendly and relaxed demeanor. The warm lighting and wooden interior create an inviting atmosphere.",
+      "description": "The scene is set in a quaint caf\u00e9, where an anthropomorphic mouse is enjoying a cup of coffee. The setting is warm and inviting, with wooden furniture and soft lighting enhancing the cozy ambiance.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "coffee cup",
+          "cap",
+          "shirt"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "friendly",
+          "relaxed"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "indoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse in a coffee house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mouse in a coffee house/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A charming anthropomorphic mouse is seated at a wooden table in a cozy caf\u00e9, holding a white mug. The mouse, dressed in a floral shirt and blue beret, appears content and relaxed, with its eyes closed in a gentle smile.",
+      "description": "The scene is set in a warm, inviting caf\u00e9 with wooden furniture and soft lighting. The atmosphere is peaceful, with a focus on the mouse enjoying a quiet moment. In the background, a human figure is also seated, adding to the caf\u00e9's lively yet calm ambiance.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "mug",
+          "table",
+          "chair",
+          "beret",
+          "shirt"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "contentment",
+          "relaxation"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "indoor"
+        ],
+        "concepts": [
+          "coziness",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mouse. Objects: shirt, coffee cup, cap, mug, table. Actions: sitting, holding. Emotions: friendly, relaxed, contentment, relaxation. Scenes: caf\u00e9, indoor. Concepts: anthropomorphism, coziness",
+  "primary_labels": {
+    "animals": [
+      "mouse"
+    ],
+    "objects": [
+      "shirt",
+      "coffee cup",
+      "cap",
+      "mug",
+      "table"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "friendly",
+      "relaxed",
+      "contentment",
+      "relaxation"
+    ],
+    "scenes": [
+      "caf\u00e9",
+      "indoor"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "coziness"
+    ]
+  },
+  "metadata": {}
+}

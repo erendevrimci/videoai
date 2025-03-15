@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Inside view of steam train 1825.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Inside view of steam train 1825.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Inside view of steam train 1825/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of men dressed in vintage clothing sit closely together inside a rustic train carriage. The interior is dimly lit, with light streaming through the windows, casting shadows on the wooden walls. Smoke drifts through the air, adding to the historical ambiance.",
+      "description": "The scene takes place inside an old-fashioned train carriage, likely from a historical or period setting. The men appear to be travelers or workers, dressed in attire suggesting an earlier era. The atmosphere is somber and contemplative, with a sense of journey or anticipation.",
+      "labels": {
+        "people": [
+          "men",
+          "travelers"
+        ],
+        "objects": [
+          "train carriage",
+          "wooden walls",
+          "windows",
+          "smoke"
+        ],
+        "actions": [
+          "sitting",
+          "traveling"
+        ],
+        "emotions": [
+          "contemplative",
+          "somber"
+        ],
+        "scenes": [
+          "interior",
+          "historical setting"
+        ],
+        "concepts": [
+          "journey",
+          "vintage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Inside view of steam train 1825.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Inside view of steam train 1825/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of men dressed in historical attire sit closely together on a wooden bench inside an old train carriage. The interior is dimly lit, with smoke visible near the ceiling, suggesting a steam-powered train.",
+      "description": "The scene captures a historical setting inside a vintage train carriage. The men appear to be traveling together, possibly during a past era, as indicated by their clothing and the train's design.",
+      "labels": {
+        "people": [
+          "men"
+        ],
+        "objects": [
+          "train carriage",
+          "bench"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "seriousness"
+        ],
+        "scenes": [
+          "historical",
+          "train interior"
+        ],
+        "concepts": [
+          "travel",
+          "vintage",
+          "steam train"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: men, travelers. Objects: train carriage, wooden walls, windows, smoke, bench. Actions: sitting, traveling. Emotions: contemplative, somber, seriousness. Scenes: interior, historical setting, historical, train interior. Concepts: vintage, journey, travel, steam train",
+  "primary_labels": {
+    "people": [
+      "men",
+      "travelers"
+    ],
+    "objects": [
+      "train carriage",
+      "wooden walls",
+      "windows",
+      "smoke",
+      "bench"
+    ],
+    "actions": [
+      "sitting",
+      "traveling"
+    ],
+    "emotions": [
+      "contemplative",
+      "somber",
+      "seriousness"
+    ],
+    "scenes": [
+      "interior",
+      "historical setting",
+      "historical",
+      "train interior"
+    ],
+    "concepts": [
+      "vintage",
+      "journey",
+      "travel",
+      "steam train"
+    ]
+  },
+  "metadata": {}
+}

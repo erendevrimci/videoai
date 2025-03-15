@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyberpunk cyborg.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyberpunk cyborg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cyberpunk cyborg/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot and a woman are sitting closely together on a bed in a cozy wooden room. The robot, with metallic features and wearing sunglasses, gently embraces the woman, who is dressed in a bright pink outfit. Soft lighting from candles and lamps creates a warm and intimate atmosphere.",
+      "description": "The scene is set in a cozy, wooden cabin-like room with a warm and intimate atmosphere. A humanoid robot and a woman are sitting together on a bed, surrounded by soft lighting and simple decor.",
+      "labels": {
+        "people": [
+          "woman",
+          "humanoid robot"
+        ],
+        "objects": [
+          "bed",
+          "candles",
+          "lamp",
+          "wooden walls",
+          "potted plant"
+        ],
+        "actions": [
+          "sitting",
+          "embracing"
+        ],
+        "emotions": [
+          "intimacy",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom"
+        ],
+        "concepts": [
+          "futuristic",
+          "cozy",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyberpunk cyborg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cyberpunk cyborg/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic scene depicts a humanoid robot and a woman resting together in a cozy room. The robot, with intricate mechanical features, supports the woman who is dressed in a sleek, neon-lit outfit. The setting is warm and intimate, with soft lighting and framed pictures on the wooden walls.",
+      "description": "The scene takes place in a cozy, wooden room with a window showing greenery outside. A humanoid robot and a woman are seated closely, suggesting a moment of rest or connection. The room's decor and lighting create a warm and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "humanoid robot"
+        ],
+        "objects": [
+          "neon outfit",
+          "framed pictures",
+          "window",
+          "bed"
+        ],
+        "actions": [
+          "resting",
+          "leaning"
+        ],
+        "emotions": [
+          "calm",
+          "intimate"
+        ],
+        "scenes": [
+          "futuristic",
+          "cozy room"
+        ],
+        "concepts": [
+          "technology",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, humanoid robot. Objects: bed, candles, lamp, wooden walls, potted plant. Actions: sitting, embracing, resting, leaning. Emotions: calm, intimacy, intimate. Scenes: indoor, bedroom, futuristic, cozy room. Concepts: technology, futuristic, cozy, companionship",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "humanoid robot"
+    ],
+    "objects": [
+      "bed",
+      "candles",
+      "lamp",
+      "wooden walls",
+      "potted plant"
+    ],
+    "actions": [
+      "sitting",
+      "embracing",
+      "resting",
+      "leaning"
+    ],
+    "emotions": [
+      "calm",
+      "intimacy",
+      "intimate"
+    ],
+    "scenes": [
+      "indoor",
+      "bedroom",
+      "futuristic",
+      "cozy room"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic",
+      "cozy",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

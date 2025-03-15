@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Flame 2.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Flame 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Flame 2/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fiery figure resembling a dancer emerges from a plate, surrounded by warm, glowing lights. The figure appears to be composed entirely of flames, with intricate details forming the shape of a human in motion. A glass of wine is visible in the foreground, adding to the elegant and mystical atmosphere.",
+      "description": "The scene depicts a surreal and artistic setting where a flame-like figure dances gracefully on a plate. The background is adorned with soft, ambient lights, creating a warm and enchanting atmosphere. The presence of a wine glass suggests a sophisticated and intimate environment.",
+      "labels": {
+        "objects": [
+          "plate",
+          "wine glass"
+        ],
+        "actions": [
+          "dancing",
+          "emerging"
+        ],
+        "emotions": [
+          "elegance",
+          "mystical"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "fire",
+          "light",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Flame 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Flame 2/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fiery figure resembling a human form rises from a plate, surrounded by a warm, glowing ambiance. A glass of red wine stands nearby, adding to the elegant and mystical setting.",
+      "description": "The scene depicts a surreal and artistic representation of a figure made of flames, emerging from a plate on a dining table. The setting is dimly lit with warm, ambient lighting, creating a magical and mysterious atmosphere.",
+      "labels": {
+        "objects": [
+          "plate",
+          "wine glass"
+        ],
+        "actions": [
+          "emerging",
+          "burning"
+        ],
+        "emotions": [
+          "mystical",
+          "elegant"
+        ],
+        "scenes": [
+          "dining table",
+          "dimly lit"
+        ],
+        "concepts": [
+          "surreal",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Flame 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Flame 2/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fiery figure dances gracefully on a plate, surrounded by a warm, ambient glow. The scene is set in a dimly lit room, with soft lights creating a magical atmosphere.",
+      "description": "The image depicts a human-like figure composed entirely of flames, performing a dynamic dance on a plate. The background is filled with soft, warm lights, suggesting a cozy and intimate setting.",
+      "labels": {
+        "people": [
+          "fiery figure"
+        ],
+        "objects": [
+          "plate",
+          "wine glass"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "dynamic",
+          "magical"
+        ],
+        "scenes": [
+          "dimly lit room"
+        ],
+        "concepts": [
+          "fire",
+          "magic",
+          "dance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: plate, wine glass. Actions: dancing, emerging, burning. Emotions: mystical, elegance, elegant, dynamic, magical. Scenes: surreal, artistic, dining table, dimly lit, dimly lit room. Concepts: fire, light, motion, surreal, artistic. People: fiery figure",
+  "primary_labels": {
+    "objects": [
+      "plate",
+      "wine glass"
+    ],
+    "actions": [
+      "dancing",
+      "emerging",
+      "burning"
+    ],
+    "emotions": [
+      "mystical",
+      "elegance",
+      "elegant",
+      "dynamic",
+      "magical"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "dining table",
+      "dimly lit",
+      "dimly lit room"
+    ],
+    "concepts": [
+      "fire",
+      "light",
+      "motion",
+      "surreal",
+      "artistic"
+    ],
+    "people": [
+      "fiery figure"
+    ]
+  },
+  "metadata": {}
+}

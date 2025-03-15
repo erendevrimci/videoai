@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/garlic bulbs transform into cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/garlic bulbs transform into cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/garlic bulbs transform into cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A white plate holds four bulbs of garlic, resting on a rustic wooden table. The garlic is arranged casually, showcasing its natural texture and earthy tones.",
+      "description": "The scene depicts a simple, rustic setting with a focus on culinary ingredients. The wooden table and natural lighting emphasize a homely, kitchen-like atmosphere.",
+      "labels": {
+        "objects": [
+          "garlic",
+          "plate",
+          "wooden table"
+        ],
+        "scenes": [
+          "kitchen",
+          "rustic"
+        ],
+        "concepts": [
+          "cooking",
+          "simplicity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/garlic bulbs transform into cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/garlic bulbs transform into cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three adorable kittens are snugly seated inside a large white bowl, their curious eyes peering out. The bowl rests on a wooden floor, adding a rustic charm to the scene.",
+      "description": "The scene captures three kittens sitting together in a large white bowl placed on a wooden floor. The setting suggests a cozy indoor environment, possibly a kitchen or living room.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "objects": [
+          "bowl",
+          "wooden floor"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: garlic, plate, wooden table, bowl, wooden floor. Scenes: kitchen, rustic, indoor. Concepts: cooking, simplicity, cuteness, companionship. Animals: kittens, cats. Actions: sitting. Emotions: curiosity, calm",
+  "primary_labels": {
+    "objects": [
+      "garlic",
+      "plate",
+      "wooden table",
+      "bowl",
+      "wooden floor"
+    ],
+    "scenes": [
+      "kitchen",
+      "rustic",
+      "indoor"
+    ],
+    "concepts": [
+      "cooking",
+      "simplicity",
+      "cuteness",
+      "companionship"
+    ],
+    "animals": [
+      "kittens",
+      "cats"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "curiosity",
+      "calm"
+    ]
+  },
+  "metadata": {}
+}

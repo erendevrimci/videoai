@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful girl and Sunset.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful girl and Sunset.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful girl and Sunset/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands on a rooftop at sunset, wearing large headphones and layered necklaces. Her hair is styled in loose braids, and she gazes intently at the camera, exuding a calm yet focused demeanor.",
+      "description": "The scene is set on a rooftop during sunset, with a cityscape in the background. The woman appears to be in a moment of contemplation or relaxation, possibly listening to music.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "headphones",
+          "necklaces",
+          "bracelets"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "rooftop",
+          "sunset"
+        ],
+        "concepts": [
+          "music",
+          "urban",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful girl and Sunset.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful girl and Sunset/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with braided hair stands on a rooftop at sunset, wearing large headphones and layered necklaces. The warm glow of the setting sun casts a soft light on her, highlighting her contemplative expression.",
+      "description": "The scene is set on a rooftop during sunset, creating a serene and introspective atmosphere. The woman appears to be immersed in music, possibly DJing or enjoying a personal moment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "headphones",
+          "necklaces",
+          "bracelets"
+        ],
+        "actions": [
+          "standing",
+          "listening"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "rooftop",
+          "sunset"
+        ],
+        "concepts": [
+          "music",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: headphones, necklaces, bracelets. Actions: standing, listening. Emotions: calm, focused, contemplative. Scenes: rooftop, sunset. Concepts: music, urban, fashion, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "headphones",
+      "necklaces",
+      "bracelets"
+    ],
+    "actions": [
+      "standing",
+      "listening"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "contemplative"
+    ],
+    "scenes": [
+      "rooftop",
+      "sunset"
+    ],
+    "concepts": [
+      "music",
+      "urban",
+      "fashion",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

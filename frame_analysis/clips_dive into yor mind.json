@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dive into yor mind.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dive into yor mind.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dive into yor mind/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mesmerizing cosmic portrait of a woman's face, intertwined with swirling galaxies and stardust. Her eyes reflect the universe, creating a celestial and ethereal atmosphere.",
+      "description": "The scene depicts a fantastical blend of a woman's face with cosmic elements, suggesting a connection between humanity and the universe. The setting is otherworldly, with vibrant colors and swirling patterns resembling galaxies.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "galaxies",
+          "stardust"
+        ],
+        "objects": [
+          "stars"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "cosmic",
+          "fantasy"
+        ],
+        "concepts": [
+          "interconnection",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dive into yor mind.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dive into yor mind/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene female face is enveloped in a cosmic swirl of vibrant colors and light. Her eyes are closed, suggesting a peaceful connection with the universe. The scene is filled with flowing patterns of stars and galaxies, creating a dreamlike atmosphere.",
+      "description": "The scene depicts a tranquil and ethereal setting where a woman's face is intertwined with cosmic elements. The composition suggests a harmonious blend of human and universe, evoking a sense of peace and wonder.",
+      "labels": {
+        "people": [
+          "female face"
+        ],
+        "nature": [
+          "galaxies",
+          "stars"
+        ],
+        "objects": [
+          "light patterns"
+        ],
+        "actions": [
+          "closed eyes"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "cosmic",
+          "dreamlike"
+        ],
+        "concepts": [
+          "universe connection",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, female face. Nature: galaxies, stardust, stars. Objects: stars, light patterns. Emotions: serenity, wonder, peacefulness. Scenes: cosmic, fantasy, dreamlike. Concepts: interconnection, ethereal, universe connection, harmony. Actions: closed eyes",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "female face"
+    ],
+    "nature": [
+      "galaxies",
+      "stardust",
+      "stars"
+    ],
+    "objects": [
+      "stars",
+      "light patterns"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "peacefulness"
+    ],
+    "scenes": [
+      "cosmic",
+      "fantasy",
+      "dreamlike"
+    ],
+    "concepts": [
+      "interconnection",
+      "ethereal",
+      "universe connection",
+      "harmony"
+    ],
+    "actions": [
+      "closed eyes"
+    ]
+  },
+  "metadata": {}
+}

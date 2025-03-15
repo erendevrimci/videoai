@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The real me.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The real me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The real me/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with a beard and styled hair stands in front of a decorative background. He is wearing a multicolored scarf and a dark coat, with a serene expression on his face.",
+      "description": "The scene captures a close-up of a man indoors, with a decorative, sunburst pattern behind him. The setting appears to be warm and inviting, with soft lighting enhancing the atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "scarf",
+          "coat"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The real me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The real me/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is wearing an elaborate mask resembling a large insect with intricate details and large, reflective eyes. The mask is adorned with textures and patterns, giving it a lifelike appearance. The background features a subtle decorative pattern, adding to the surreal atmosphere.",
+      "description": "The scene depicts a person wearing a highly detailed insect-like mask, creating a surreal and artistic atmosphere. The setting appears to be indoors with a decorative background that complements the unique mask.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "mask",
+          "scarf"
+        ],
+        "emotions": [
+          "mysterious",
+          "surreal"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "artistic",
+          "costume",
+          "insect-like"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Objects: scarf, coat, mask. Emotions: serene, mysterious, surreal. Scenes: indoor. Concepts: portrait, fashion, artistic, costume, insect-like",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "objects": [
+      "scarf",
+      "coat",
+      "mask"
+    ],
+    "emotions": [
+      "serene",
+      "mysterious",
+      "surreal"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "portrait",
+      "fashion",
+      "artistic",
+      "costume",
+      "insect-like"
+    ]
+  },
+  "metadata": {}
+}

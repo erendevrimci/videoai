@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Vehicle generation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Vehicle generation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Vehicle generation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern SUV is parked in an urban setting with a city skyline in the background. The vehicle's glossy gray finish and stylish design stand out against the concrete surface and towering buildings.",
+      "description": "The scene depicts a parked SUV in a city environment, highlighting the contrast between the vehicle's modern design and the urban landscape. The setting suggests a metropolitan area with high-rise buildings visible in the distance.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "buildings",
+          "concrete surface"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "modern design",
+          "automobile"
+        ],
+        "emotions": [
+          "sleek",
+          "stylish"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Vehicle generation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Vehicle generation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern SUV is parked on a rooftop parking lot, with a city skyline in the background. The vehicle's design features sharp lines and a metallic finish, emphasizing its contemporary style.",
+      "description": "The scene is set in an urban environment, specifically on a rooftop parking lot. The focus is on a parked SUV with a cityscape visible in the distance, suggesting a metropolitan setting.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "parking lot",
+          "city skyline"
+        ],
+        "scenes": [
+          "urban",
+          "parking"
+        ],
+        "concepts": [
+          "modern design",
+          "automobile"
+        ],
+        "emotions": [
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Vehicle generation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Vehicle generation/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek, modern SUV is parked in an open area, showcasing its stylish design and metallic finish. The vehicle's rear is prominently displayed, highlighting its aerodynamic shape and intricate taillight design.",
+      "description": "The scene captures a modern SUV in a parking area, likely an urban setting. The focus is on the vehicle's design and features, with a backdrop of distant buildings and a cloudy sky.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "car",
+          "taillights",
+          "wheels"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "scenes": [
+          "urban setting",
+          "parking area"
+        ],
+        "concepts": [
+          "modern design",
+          "automobile"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: SUV, buildings, concrete surface, parking lot, city skyline. Scenes: urban, cityscape, parking, urban setting, parking area. Concepts: modern design, automobile. Emotions: sleek, stylish, calm. Nature: cloudy sky",
+  "primary_labels": {
+    "objects": [
+      "SUV",
+      "buildings",
+      "concrete surface",
+      "parking lot",
+      "city skyline"
+    ],
+    "scenes": [
+      "urban",
+      "cityscape",
+      "parking",
+      "urban setting",
+      "parking area"
+    ],
+    "concepts": [
+      "modern design",
+      "automobile"
+    ],
+    "emotions": [
+      "sleek",
+      "stylish",
+      "calm"
+    ],
+    "nature": [
+      "cloudy sky"
+    ]
+  },
+  "metadata": {}
+}

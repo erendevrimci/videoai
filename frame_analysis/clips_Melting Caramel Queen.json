@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Melting Caramel Queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Melting Caramel Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Melting Caramel Queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is enveloped in a surreal cascade of creamy and orange liquid, creating a striking visual effect. The liquid appears to flow around and over the person's head and shoulders, blending with their skin. Their expression is calm and serene amidst the dynamic movement of the liquid.",
+      "description": "The scene presents a surreal and artistic setting where a person is partially submerged in a flowing mixture of cream and orange liquid. The focus is on the interplay between the human form and the fluid, creating a dreamlike atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "liquid",
+          "cream"
+        ],
+        "actions": [
+          "flowing",
+          "enveloping"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "fluidity",
+          "fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Melting Caramel Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Melting Caramel Queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is covered in a thick layer of creamy, orange and white substance, with their face partially visible through the flowing material. The substance drips and cascades around them, creating a surreal and artistic effect. Their hands are gently holding the material, adding to the dynamic texture of the scene.",
+      "description": "The scene depicts a person enveloped in a flowing, creamy substance that resembles melted cheese or a similar viscous liquid. The setting is artistic and surreal, focusing on the interplay between the person and the material.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "creamy substance",
+          "dripping liquid"
+        ],
+        "actions": [
+          "holding",
+          "dripping"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "texture",
+          "flow",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Melting Caramel Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Melting Caramel Queen/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is enveloped in a thick, flowing substance that resembles melted cheese or a similar viscous material. The substance cascades over their face and hands, creating a surreal and immersive scene.",
+      "description": "The image depicts a close-up of a person partially submerged in a gooey, orange and white substance. The setting is abstract, focusing on the interaction between the person and the material.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "viscous substance",
+          "melted cheese"
+        ],
+        "actions": [
+          "submerged",
+          "enveloped"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "immersion",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: liquid, cream, creamy substance, dripping liquid, viscous substance. Actions: flowing, enveloping, holding, dripping, submerged. Emotions: serene, calm, contemplative, surreal. Scenes: surreal, artistic, abstract. Concepts: fluidity, fusion, texture, flow, contrast",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "liquid",
+      "cream",
+      "creamy substance",
+      "dripping liquid",
+      "viscous substance"
+    ],
+    "actions": [
+      "flowing",
+      "enveloping",
+      "holding",
+      "dripping",
+      "submerged"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "contemplative",
+      "surreal"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "abstract"
+    ],
+    "concepts": [
+      "fluidity",
+      "fusion",
+      "texture",
+      "flow",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

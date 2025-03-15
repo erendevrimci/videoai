@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/car transforms into iron man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/car transforms into iron man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/car transforms into iron man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek red sports car is prominently displayed on a wet city street, reflecting the towering buildings around it. The car's aerodynamic design and sharp headlights are highlighted against the blurred backdrop of urban architecture.",
+      "description": "The scene is set in a bustling city street, featuring a striking red sports car parked or moving slowly. The environment suggests a modern urban setting with tall buildings and bright lights, creating a dynamic contrast with the car's polished surface.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "buildings",
+          "street"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "luxury",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/car transforms into iron man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/car transforms into iron man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A powerful armored figure stands prominently in the center of a city street, surrounded by tall buildings. The suit is metallic red with gold accents, and a glowing arc reactor is visible on the chest.",
+      "description": "The scene is set in an urban environment, likely a city center, with the armored figure appearing to be a superhero or robot. The atmosphere is tense and dramatic, suggesting a moment of action or confrontation.",
+      "labels": {
+        "objects": [
+          "armor",
+          "arc reactor"
+        ],
+        "scenes": [
+          "city street",
+          "urban environment"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intense",
+          "dramatic"
+        ],
+        "concepts": [
+          "superhero",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, buildings, street, armor, arc reactor. Actions: parked, standing. Emotions: excitement, intense, dramatic. Scenes: urban, cityscape, city street, urban environment. Concepts: luxury, modernity, superhero, technology",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "buildings",
+      "street",
+      "armor",
+      "arc reactor"
+    ],
+    "actions": [
+      "parked",
+      "standing"
+    ],
+    "emotions": [
+      "excitement",
+      "intense",
+      "dramatic"
+    ],
+    "scenes": [
+      "urban",
+      "cityscape",
+      "city street",
+      "urban environment"
+    ],
+    "concepts": [
+      "luxury",
+      "modernity",
+      "superhero",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

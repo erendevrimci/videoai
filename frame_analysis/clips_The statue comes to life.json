@@ -1,0 +1,154 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The statue comes to life.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The statue comes to life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The statue comes to life/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A bronze equestrian statue stands prominently on a stone pedestal, depicting a historical figure clad in a cloak. The statue is set against a clear blue sky, surrounded by urban elements and greenery.",
+      "description": "The scene captures a public square featuring a large equestrian statue of a historical figure named Corbulo. The setting is urban, with buildings and trees in the background, suggesting a city environment.",
+      "labels": {
+        "people": [
+          "statue"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "statue",
+          "pedestal"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "majestic"
+        ],
+        "scenes": [
+          "urban",
+          "public square"
+        ],
+        "concepts": [
+          "history",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The statue comes to life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The statue comes to life/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic equestrian statue stands prominently in an urban setting, depicting a figure on horseback. The statue is elevated on a stone pedestal with the name 'CORBULO' inscribed on it. Surrounding the statue are buildings and a clear blue sky, adding to the grandeur of the scene.",
+      "description": "The scene captures an equestrian statue in a city environment, likely a public square or plaza. The statue is the focal point, with nearby buildings and a clear sky providing a serene backdrop.",
+      "labels": {
+        "people": [
+          "statue"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "sky",
+          "trees"
+        ],
+        "objects": [
+          "statue",
+          "pedestal",
+          "buildings",
+          "cars"
+        ],
+        "actions": [],
+        "emotions": [],
+        "scenes": [
+          "urban",
+          "public square"
+        ],
+        "concepts": [
+          "art",
+          "history",
+          "monument"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The statue comes to life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The statue comes to life/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A bronze equestrian statue stands prominently on a stone pedestal in an urban setting. The statue depicts a figure in a cloak riding a horse, with buildings and a clear blue sky in the background.",
+      "description": "The scene captures a public square featuring a large equestrian statue. Surrounding the statue are modern buildings, trees, and parked cars, indicating a city environment.",
+      "labels": {
+        "people": [
+          "statue"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "statue",
+          "pedestal",
+          "buildings",
+          "cars"
+        ],
+        "actions": [],
+        "emotions": [],
+        "scenes": [
+          "urban",
+          "public square"
+        ],
+        "concepts": [
+          "art",
+          "architecture",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: statue. Animals: horse. Nature: trees, sky. Objects: statue, pedestal, buildings, cars. Actions: standing. Emotions: majestic. Scenes: urban, public square. Concepts: history, art, monument, architecture",
+  "primary_labels": {
+    "people": [
+      "statue"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "trees",
+      "sky"
+    ],
+    "objects": [
+      "statue",
+      "pedestal",
+      "buildings",
+      "cars"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "majestic"
+    ],
+    "scenes": [
+      "urban",
+      "public square"
+    ],
+    "concepts": [
+      "history",
+      "art",
+      "monument",
+      "architecture"
+    ]
+  },
+  "metadata": {}
+}

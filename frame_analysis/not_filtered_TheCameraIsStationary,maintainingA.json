@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,maintainingA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,maintainingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,maintainingA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A hand reaches out to touch a red handprint on a rocky wall, suggesting a connection to ancient art. A bowl with red pigment sits nearby, indicating the creation of the handprint. The scene is dimly lit, with warm tones highlighting the textures of the rock surface.",
+      "description": "The scene depicts a person engaging in the act of creating or connecting with ancient cave art. The setting is likely a cave or a rocky area, with a focus on the tactile interaction with the wall.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "handprint",
+          "bowl",
+          "pigment"
+        ],
+        "actions": [
+          "touching",
+          "painting"
+        ],
+        "emotions": [
+          "connection",
+          "reverence"
+        ],
+        "scenes": [
+          "cave",
+          "ancient art"
+        ],
+        "concepts": [
+          "heritage",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,maintainingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,maintainingA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A hand is pressing against a cave wall, leaving a red handprint. Nearby, a bowl filled with red pigment suggests a ritualistic or artistic activity. The scene is dimly lit, with shadows and smoke adding an air of mystery.",
+      "description": "The scene takes place in a cave-like setting where a person is creating a handprint on the wall using red pigment. The atmosphere is mysterious and possibly ceremonial, with smoke adding to the ambiance.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "bowl",
+          "red pigment"
+        ],
+        "actions": [
+          "hand pressing",
+          "painting"
+        ],
+        "emotions": [
+          "mystery"
+        ],
+        "scenes": [
+          "cave"
+        ],
+        "concepts": [
+          "ritual",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Objects: bowl, handprint, pigment, red pigment. Actions: painting, touching, hand pressing. Emotions: connection, reverence, mystery. Scenes: cave, ancient art. Concepts: heritage, creativity, ritual, art",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "objects": [
+      "bowl",
+      "handprint",
+      "pigment",
+      "red pigment"
+    ],
+    "actions": [
+      "painting",
+      "touching",
+      "hand pressing"
+    ],
+    "emotions": [
+      "connection",
+      "reverence",
+      "mystery"
+    ],
+    "scenes": [
+      "cave",
+      "ancient art"
+    ],
+    "concepts": [
+      "heritage",
+      "creativity",
+      "ritual",
+      "art"
+    ]
+  },
+  "metadata": {}
+}

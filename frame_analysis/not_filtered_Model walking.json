@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Model walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model walks confidently down the runway wearing a geometric-patterned dress with a high-low hemline. The setting is a fashion show, with the model showcasing a modern and artistic design. The lighting highlights the dress's intricate patterns and the model's poised demeanor.",
+      "description": "The scene captures a fashion show runway where a model is presenting a designer dress. The setting is elegant and focused on the fashion being displayed, with a minimalist background that emphasizes the model and the outfit.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "dress",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Model walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model confidently walks down the runway wearing a stylish, geometric-patterned dress. The dress features a high-low hemline with bold black, white, and red accents. The setting is a fashion show with a focused spotlight on the model.",
+      "description": "The scene captures a fashion show runway where a model is showcasing a designer dress. The atmosphere is professional and elegant, emphasizing the modern and artistic design of the clothing.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "dress",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model. Objects: dress, runway. Actions: walking. Emotions: confidence. Scenes: fashion show. Concepts: fashion, design, style",
+  "primary_labels": {
+    "people": [
+      "model"
+    ],
+    "objects": [
+      "dress",
+      "runway"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "fashion show"
+    ],
+    "concepts": [
+      "fashion",
+      "design",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A teddy bear dressed in military gear stands in a desolate, war-torn street, embracing a white rabbit plush. The sky is filled with dark, ominous clouds and a flock of birds flying overhead, adding to the somber atmosphere.",
+      "description": "The scene depicts a post-apocalyptic setting with ruined buildings and debris scattered on the ground. The teddy bear and rabbit plush convey a sense of companionship amidst chaos.",
+      "labels": {
+        "animals": [
+          "teddy bear",
+          "rabbit"
+        ],
+        "nature": [
+          "birds",
+          "clouds"
+        ],
+        "objects": [
+          "military gear",
+          "ruined buildings"
+        ],
+        "actions": [
+          "embracing",
+          "flying"
+        ],
+        "emotions": [
+          "companionship",
+          "somber"
+        ],
+        "scenes": [
+          "post-apocalyptic",
+          "war-torn"
+        ],
+        "concepts": [
+          "desolation",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0417\u0430\u0449\u0438\u0442\u043d\u0438\u043a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A teddy bear wearing camouflage pants and a military-style backpack stands in a desolate urban setting. Birds are flying overhead against a cloudy sky, adding to the somber atmosphere.",
+      "description": "The scene depicts a teddy bear in military attire standing in an abandoned urban area. The environment is bleak, with an old building in the background and birds flying in the sky, suggesting a sense of desolation and solitude.",
+      "labels": {
+        "objects": [
+          "teddy bear",
+          "backpack",
+          "camouflage pants",
+          "birds"
+        ],
+        "actions": [
+          "standing",
+          "flying"
+        ],
+        "emotions": [
+          "somber",
+          "desolate"
+        ],
+        "scenes": [
+          "urban",
+          "abandoned"
+        ],
+        "concepts": [
+          "solitude",
+          "military"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: teddy bear, rabbit. Nature: birds, clouds. Objects: military gear, ruined buildings, teddy bear, backpack, camouflage pants. Actions: flying, embracing, standing. Emotions: somber, companionship, desolate. Scenes: post-apocalyptic, war-torn, urban, abandoned. Concepts: desolation, friendship, solitude, military",
+  "primary_labels": {
+    "animals": [
+      "teddy bear",
+      "rabbit"
+    ],
+    "nature": [
+      "birds",
+      "clouds"
+    ],
+    "objects": [
+      "military gear",
+      "ruined buildings",
+      "teddy bear",
+      "backpack",
+      "camouflage pants"
+    ],
+    "actions": [
+      "flying",
+      "embracing",
+      "standing"
+    ],
+    "emotions": [
+      "somber",
+      "companionship",
+      "desolate"
+    ],
+    "scenes": [
+      "post-apocalyptic",
+      "war-torn",
+      "urban",
+      "abandoned"
+    ],
+    "concepts": [
+      "desolation",
+      "friendship",
+      "solitude",
+      "military"
+    ]
+  },
+  "metadata": {}
+}

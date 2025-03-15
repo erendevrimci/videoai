@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u043b\u044e\u0431\u043e\u0432\u044c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u043b\u044e\u0431\u043e\u0432\u044c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u043b\u044e\u0431\u043e\u0432\u044c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a dark hoodie holds a glowing red heart wrapped in barbed wire. The scene is set against a dimly lit sky, creating a dramatic and intense atmosphere.",
+      "description": "The image depicts a mysterious figure in a hooded sweatshirt presenting a bright red heart encased in barbed wire. The background is a dusky sky, enhancing the contrast between the dark attire and the vivid heart.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hoodie",
+          "heart",
+          "barbed wire"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mystery",
+          "intensity"
+        ],
+        "scenes": [
+          "dramatic",
+          "moody"
+        ],
+        "concepts": [
+          "protection",
+          "vulnerability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u043b\u044e\u0431\u043e\u0432\u044c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u043b\u044e\u0431\u043e\u0432\u044c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a hooded sweatshirt holds a glowing, fiery heart in their hands against a twilight sky. The heart emits a warm, radiant light that contrasts with the dark silhouette of the figure. The scene conveys a sense of mystery and warmth.",
+      "description": "The scene is set outdoors during twilight, featuring a person holding a luminous heart. The background is a dimly lit sky, enhancing the glow of the heart and creating a dramatic effect.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hoodie",
+          "glowing heart"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mystery",
+          "warmth"
+        ],
+        "scenes": [
+          "twilight"
+        ],
+        "concepts": [
+          "contrast",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u043b\u044e\u0431\u043e\u0432\u044c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u043b\u044e\u0431\u043e\u0432\u044c/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in a dark hoodie holds a glowing, fiery heart in their outstretched hands. The background shows a dimly lit sky, suggesting a sunset or sunrise.",
+      "description": "The scene depicts a mysterious figure presenting a heart-shaped object that appears to be made of fire or energy. The setting is outdoors, with a backdrop of a twilight sky and faint silhouettes of structures, possibly power lines.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "heart",
+          "hoodie"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mystery",
+          "intensity"
+        ],
+        "scenes": [
+          "outdoor",
+          "twilight"
+        ],
+        "concepts": [
+          "energy",
+          "symbolism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: hoodie, heart, barbed wire, glowing heart. Actions: holding. Emotions: mystery, intensity, warmth. Scenes: twilight, dramatic, moody, outdoor. Concepts: protection, vulnerability, contrast, mystical, energy",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "hoodie",
+      "heart",
+      "barbed wire",
+      "glowing heart"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "mystery",
+      "intensity",
+      "warmth"
+    ],
+    "scenes": [
+      "twilight",
+      "dramatic",
+      "moody",
+      "outdoor"
+    ],
+    "concepts": [
+      "protection",
+      "vulnerability",
+      "contrast",
+      "mystical",
+      "energy"
+    ]
+  },
+  "metadata": {}
+}

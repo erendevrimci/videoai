@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A dragon playing with a kitten.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A dragon playing with a kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A dragon playing with a kitten/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman sits on a sofa in a modern living room, smiling at a small dragon breathing fire towards a playful kitten. Sunlight streams through large windows, illuminating the scene with a warm glow.",
+      "description": "The scene takes place in a contemporary living room with a large window view of city buildings. A woman is seated on a sofa, observing a fantastical interaction between a dragon and a kitten on a plush rug.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dragon",
+          "kitten"
+        ],
+        "objects": [
+          "sofa",
+          "rug",
+          "window"
+        ],
+        "actions": [
+          "sitting",
+          "smiling",
+          "fire breathing",
+          "playing"
+        ],
+        "emotions": [
+          "joy",
+          "amusement"
+        ],
+        "scenes": [
+          "living room",
+          "urban"
+        ],
+        "concepts": [
+          "fantasy",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A dragon playing with a kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A dragon playing with a kitten/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman sits on a sofa in a modern apartment, smiling as she watches a small dragon and a kitten play on the floor. The room is well-lit with natural light streaming through large windows, revealing a cityscape outside.",
+      "description": "The scene is set in a contemporary living room with a view of a city skyline. A woman is seated on a sofa, observing a playful interaction between a small dragon and a kitten on a plush rug.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dragon",
+          "kitten"
+        ],
+        "objects": [
+          "sofa",
+          "rug",
+          "windows"
+        ],
+        "actions": [
+          "sitting",
+          "playing"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "urban"
+        ],
+        "concepts": [
+          "fantasy",
+          "modern living"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: dragon, kitten. Objects: sofa, rug, window, windows. Actions: sitting, playing, smiling, fire breathing. Emotions: joy, amusement, happiness. Scenes: urban, living room, indoor. Concepts: fantasy, interaction, modern living",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "dragon",
+      "kitten"
+    ],
+    "objects": [
+      "sofa",
+      "rug",
+      "window",
+      "windows"
+    ],
+    "actions": [
+      "sitting",
+      "playing",
+      "smiling",
+      "fire breathing"
+    ],
+    "emotions": [
+      "joy",
+      "amusement",
+      "happiness"
+    ],
+    "scenes": [
+      "urban",
+      "living room",
+      "indoor"
+    ],
+    "concepts": [
+      "fantasy",
+      "interaction",
+      "modern living"
+    ]
+  },
+  "metadata": {}
+}

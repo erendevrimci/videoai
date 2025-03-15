@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rabbit Killer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rabbit Killer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rabbit Killer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing figure in a rabbit costume stands in a dimly lit, decrepit hallway. The creature holds a blood-stained knife, casting an ominous shadow on the tiled floor. The scene is eerie, with flickering lights and a sense of impending danger.",
+      "description": "The scene is set in a rundown, narrow hallway with peeling paint and broken tiles. The lighting is dim and atmospheric, contributing to a tense and unsettling mood. The central figure is a sinister character in a rabbit costume, holding a knife, suggesting a horror or thriller context.",
+      "labels": {
+        "people": [
+          "costumed figure"
+        ],
+        "animals": [
+          "rabbit costume"
+        ],
+        "nature": [],
+        "objects": [
+          "knife",
+          "tiles",
+          "lights"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "menacing",
+          "ominous"
+        ],
+        "scenes": [
+          "hallway",
+          "horror"
+        ],
+        "concepts": [
+          "danger",
+          "fear"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rabbit Killer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rabbit Killer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing figure dressed in a furry rabbit costume with glowing eyes advances down a dimly lit, grimy corridor. The creature wields a knife, casting a long shadow on the tiled floor. The scene is eerie and unsettling, with flickering lights adding to the tension.",
+      "description": "The scene takes place in a dark, narrow corridor with peeling walls and flickering lights, creating a horror-like atmosphere. A sinister figure in a rabbit costume is the focal point, moving forward with a threatening posture.",
+      "labels": {
+        "people": [
+          "figure in costume"
+        ],
+        "animals": [
+          "rabbit costume"
+        ],
+        "objects": [
+          "knife",
+          "lights",
+          "tiles"
+        ],
+        "actions": [
+          "advancing",
+          "wielding"
+        ],
+        "emotions": [
+          "menacing",
+          "unsettling"
+        ],
+        "scenes": [
+          "corridor",
+          "horror"
+        ],
+        "concepts": [
+          "fear",
+          "threat"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rabbit Killer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rabbit Killer/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A menacing figure in a rabbit costume with glowing eyes and a sinister grin advances down a dimly lit, decrepit hallway. The creature clutches a knife, casting a long shadow on the tiled floor. The setting is eerie, with flickering lights and peeling walls adding to the unsettling atmosphere.",
+      "description": "The scene takes place in a dark, narrow hallway that appears abandoned and in disrepair. The focus is on a threatening figure in a rabbit costume, suggesting a horror or thriller theme.",
+      "labels": {
+        "people": [
+          "figure in costume"
+        ],
+        "objects": [
+          "knife",
+          "rabbit costume",
+          "lights"
+        ],
+        "actions": [
+          "advancing",
+          "holding knife"
+        ],
+        "emotions": [
+          "menacing",
+          "sinister"
+        ],
+        "scenes": [
+          "hallway",
+          "horror"
+        ],
+        "concepts": [
+          "fear",
+          "threat"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure in costume, costumed figure. Animals: rabbit costume. Objects: knife, lights, tiles, rabbit costume. Actions: advancing, standing, holding, wielding, holding knife. Emotions: menacing, ominous, unsettling, sinister. Scenes: horror, hallway, corridor. Concepts: fear, threat, danger",
+  "primary_labels": {
+    "people": [
+      "figure in costume",
+      "costumed figure"
+    ],
+    "animals": [
+      "rabbit costume"
+    ],
+    "nature": [],
+    "objects": [
+      "knife",
+      "lights",
+      "tiles",
+      "rabbit costume"
+    ],
+    "actions": [
+      "advancing",
+      "standing",
+      "holding",
+      "wielding",
+      "holding knife"
+    ],
+    "emotions": [
+      "menacing",
+      "ominous",
+      "unsettling",
+      "sinister"
+    ],
+    "scenes": [
+      "horror",
+      "hallway",
+      "corridor"
+    ],
+    "concepts": [
+      "fear",
+      "threat",
+      "danger"
+    ]
+  },
+  "metadata": {}
+}

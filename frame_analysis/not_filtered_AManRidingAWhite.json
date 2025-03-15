@@ -1,0 +1,163 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManRidingAWhite.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManRidingAWhite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManRidingAWhite/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in tactical gear rides a large, white wolf through a misty forest. The wolf appears powerful and focused, while the rider maintains a steady grip, conveying a sense of adventure and urgency.",
+      "description": "The scene is set in a misty forest, where a person in tactical clothing is riding a large, white wolf. The setting suggests a fantasy or adventure theme, with the wolf's dynamic movement and the rider's determined expression adding to the intensity.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "tactical gear"
+        ],
+        "actions": [
+          "riding",
+          "running"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "power",
+          "urgency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManRidingAWhite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManRidingAWhite/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a black outfit is riding a large, white wolf through a forest. The wolf is in motion, kicking up dirt as it runs along a path surrounded by trees.",
+      "description": "The scene depicts a fantastical setting where a person is riding a giant wolf through a dense forest. The atmosphere is adventurous and slightly surreal, with the focus on the dynamic movement of the wolf and the rider's confident posture.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "black outfit"
+        ],
+        "actions": [
+          "riding",
+          "running"
+        ],
+        "emotions": [
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoors"
+        ],
+        "concepts": [
+          "surreal",
+          "dynamic movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManRidingAWhite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManRidingAWhite/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large white wolf is running through a forest with a person riding on its back. The wolf's fur is vibrant and its eyes are focused forward, while the rider is partially visible, dressed in dark clothing.",
+      "description": "The scene depicts a dynamic moment in a forest setting where a person is riding a large white wolf. The focus is on the wolf's powerful stride as it moves through the forest floor, creating a sense of speed and urgency.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "rider"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "running",
+          "riding"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "speed",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: rider, person. Animals: wolf. Nature: forest, mist, trees. Objects: tactical gear, black outfit, clothing. Actions: riding, running. Emotions: determination, adventurous, focus. Scenes: fantasy, adventure, outdoors, forest. Concepts: power, urgency, surreal, dynamic movement, speed",
+  "primary_labels": {
+    "people": [
+      "rider",
+      "person"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "forest",
+      "mist",
+      "trees"
+    ],
+    "objects": [
+      "tactical gear",
+      "black outfit",
+      "clothing"
+    ],
+    "actions": [
+      "riding",
+      "running"
+    ],
+    "emotions": [
+      "determination",
+      "adventurous",
+      "focus"
+    ],
+    "scenes": [
+      "fantasy",
+      "adventure",
+      "outdoors",
+      "forest"
+    ],
+    "concepts": [
+      "power",
+      "urgency",
+      "surreal",
+      "dynamic movement",
+      "speed"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Godzilla Vs Kong Hybrid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Godzilla Vs Kong Hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Godzilla Vs Kong Hybrid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dramatic confrontation, two colossal creatures face off amidst a stormy backdrop. Lightning strikes illuminate their fierce expressions as debris and smoke fill the air. The tension between the towering figures is palpable, set against a chaotic and apocalyptic scene.",
+      "description": "The scene depicts a climactic battle between two giant monsters in a devastated urban environment. The sky is dark and stormy, with lightning adding to the dramatic tension. The ground is littered with debris, and smoke rises from the destruction.",
+      "labels": {
+        "animals": [
+          "giant lizard",
+          "giant ape"
+        ],
+        "nature": [
+          "lightning",
+          "storm clouds"
+        ],
+        "objects": [
+          "debris",
+          "smoke"
+        ],
+        "actions": [
+          "confrontation",
+          "battle"
+        ],
+        "emotions": [
+          "tension",
+          "aggression"
+        ],
+        "scenes": [
+          "apocalyptic",
+          "urban destruction"
+        ],
+        "concepts": [
+          "conflict",
+          "power struggle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Godzilla Vs Kong Hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Godzilla Vs Kong Hybrid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive, fearsome creature with glowing orange spikes towers against a stormy sky. Its muscular build and menacing expression suggest power and dominance. Lightning strikes in the background, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a colossal creature, reminiscent of a mythical monster, standing amidst a stormy environment. The creature's fiery spikes and glowing eyes create a sense of imminent danger and awe.",
+      "labels": {
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "storm",
+          "lightning"
+        ],
+        "objects": [
+          "spikes"
+        ],
+        "actions": [
+          "towering"
+        ],
+        "emotions": [
+          "menacing",
+          "dominant"
+        ],
+        "scenes": [
+          "dramatic"
+        ],
+        "concepts": [
+          "power",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: giant lizard, giant ape, mythical creature. Nature: lightning, storm clouds, storm. Objects: debris, smoke, spikes. Actions: confrontation, battle, towering. Emotions: tension, aggression, menacing, dominant. Scenes: apocalyptic, urban destruction, dramatic. Concepts: conflict, power struggle, power, danger",
+  "primary_labels": {
+    "animals": [
+      "giant lizard",
+      "giant ape",
+      "mythical creature"
+    ],
+    "nature": [
+      "lightning",
+      "storm clouds",
+      "storm"
+    ],
+    "objects": [
+      "debris",
+      "smoke",
+      "spikes"
+    ],
+    "actions": [
+      "confrontation",
+      "battle",
+      "towering"
+    ],
+    "emotions": [
+      "tension",
+      "aggression",
+      "menacing",
+      "dominant"
+    ],
+    "scenes": [
+      "apocalyptic",
+      "urban destruction",
+      "dramatic"
+    ],
+    "concepts": [
+      "conflict",
+      "power struggle",
+      "power",
+      "danger"
+    ]
+  },
+  "metadata": {}
+}

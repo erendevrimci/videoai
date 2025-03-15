@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALuxuriousFluffyCatWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALuxuriousFluffyCatWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALuxuriousFluffyCatWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat stands upright on a kitchen counter, appearing to chop vegetables on a wooden cutting board. The background reveals an elegant dining room with chandeliers and floral arrangements, suggesting a luxurious setting.",
+      "description": "The scene is set in a lavish dining room with a cat humorously positioned as if preparing food. The room is adorned with chandeliers and white floral arrangements, creating an opulent atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cutting board",
+          "vegetables",
+          "chandeliers",
+          "flowers",
+          "dining table",
+          "chairs"
+        ],
+        "actions": [
+          "chopping"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "dining room",
+          "kitchen"
+        ],
+        "concepts": [
+          "luxury",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALuxuriousFluffyCatWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALuxuriousFluffyCatWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat with striking blue eyes is humorously dressed in a white apron, standing at a table in an elegant dining room. The cat appears to be chopping lettuce on a wooden cutting board, surrounded by opulent decor and floral arrangements.",
+      "description": "The scene is set in a luxurious dining room with a whimsical twist, featuring a cat engaging in a human-like activity. The setting is sophisticated, with chandeliers and floral arrangements enhancing the elegant atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cutting board",
+          "knife",
+          "lettuce",
+          "apron",
+          "chandeliers",
+          "flowers"
+        ],
+        "actions": [
+          "chopping"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "dining room",
+          "elegant setting"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: cutting board, chandeliers, flowers, vegetables, dining table. Actions: chopping. Emotions: humor, humorous. Scenes: dining room, kitchen, elegant setting. Concepts: luxury, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "cutting board",
+      "chandeliers",
+      "flowers",
+      "vegetables",
+      "dining table"
+    ],
+    "actions": [
+      "chopping"
+    ],
+    "emotions": [
+      "humor",
+      "humorous"
+    ],
+    "scenes": [
+      "dining room",
+      "kitchen",
+      "elegant setting"
+    ],
+    "concepts": [
+      "luxury",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

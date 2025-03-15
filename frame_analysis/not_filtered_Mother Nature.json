@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mother Nature.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mother Nature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mother Nature/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical scene depicts a serene face emerging from a tree trunk, seamlessly integrated with nature. The face is adorned with vines and leaves, while a cascading waterfall flows in the lush forest background.",
+      "description": "The scene is set in a dense, verdant forest where nature and fantasy intertwine. A human-like face is intricately carved into the tree, symbolizing a deep connection with the natural world.",
+      "labels": {
+        "nature": [
+          "forest",
+          "waterfall",
+          "tree",
+          "vines",
+          "leaves"
+        ],
+        "objects": [
+          "face sculpture"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "harmony",
+          "serenity",
+          "nature integration"
+        ],
+        "emotions": [
+          "peaceful",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mother Nature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mother Nature/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene depicts a woman's face seamlessly integrated into a tree, with her features formed by intertwined branches and leaves. In the background, a lush forest and cascading waterfall create a tranquil and mystical atmosphere. The image evokes a sense of harmony between nature and humanity.",
+      "description": "The scene is set in a mystical forest where nature and human elements are intertwined. A woman's face is artistically merged with a tree, symbolizing a deep connection with nature. The background features a lush, green forest with a waterfall, enhancing the serene and magical ambiance.",
+      "labels": {
+        "nature": [
+          "forest",
+          "waterfall",
+          "tree",
+          "leaves"
+        ],
+        "objects": [
+          "branches"
+        ],
+        "scenes": [
+          "mystical",
+          "serene",
+          "natural"
+        ],
+        "concepts": [
+          "harmony",
+          "nature-human connection"
+        ],
+        "emotions": [
+          "tranquility",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, waterfall, tree, leaves, vines. Objects: face sculpture, branches. Scenes: fantasy, nature, mystical, serene, natural. Concepts: harmony, serenity, nature integration, nature-human connection. Emotions: peaceful, calm, tranquility, peacefulness",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "waterfall",
+      "tree",
+      "leaves",
+      "vines"
+    ],
+    "objects": [
+      "face sculpture",
+      "branches"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "mystical",
+      "serene",
+      "natural"
+    ],
+    "concepts": [
+      "harmony",
+      "serenity",
+      "nature integration",
+      "nature-human connection"
+    ],
+    "emotions": [
+      "peaceful",
+      "calm",
+      "tranquility",
+      "peacefulness"
+    ]
+  },
+  "metadata": {}
+}

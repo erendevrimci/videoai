@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blue.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Blue/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking blue makeup and glowing eyes gazes intensely at the viewer. Her dark hair is styled with white streaks, and intricate glowing tattoos adorn her shoulder.",
+      "description": "The scene depicts a futuristic or fantasy setting, focusing on a woman with an ethereal appearance. The use of glowing elements and bold colors suggests a mystical or otherworldly theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "tattoos",
+          "earring"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "futuristic",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Blue/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking blue makeup and glowing tattoos poses against a blue-toned background. Her hair is styled with white streaks, complementing the intricate patterns on her shoulder. The image exudes a futuristic and artistic vibe.",
+      "description": "The scene features a close-up of a woman in a stylized, artistic setting. The focus is on her facial expression and the glowing patterns on her skin, creating a modern and ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "makeup",
+          "earring"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "futuristic",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: earring, tattoos, makeup. Actions: gazing, posing. Emotions: intense, confident. Scenes: futuristic, fantasy, portrait. Concepts: mystical, otherworldly, futuristic, artistic",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "earring",
+      "tattoos",
+      "makeup"
+    ],
+    "actions": [
+      "gazing",
+      "posing"
+    ],
+    "emotions": [
+      "intense",
+      "confident"
+    ],
+    "scenes": [
+      "futuristic",
+      "fantasy",
+      "portrait"
+    ],
+    "concepts": [
+      "mystical",
+      "otherworldly",
+      "futuristic",
+      "artistic"
+    ]
+  },
+  "metadata": {}
+}

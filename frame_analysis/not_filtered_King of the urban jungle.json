@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/King of the urban jungle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/King of the urban jungle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/King of the urban jungle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lion wearing glasses and a suit is seated at a desk in an office, typing on a keyboard. A raccoon stands beside the lion, looking at the computer screen displaying financial graphs. The scene is set in a modern office with large windows and cityscape views.",
+      "description": "The scene takes place in a contemporary office setting, featuring anthropomorphic animals engaged in business activities. The lion, dressed in business attire, is focused on the computer, while the raccoon appears to be assisting or observing. The office is equipped with modern technology and has a professional atmosphere.",
+      "labels": {
+        "animals": [
+          "lion",
+          "raccoon"
+        ],
+        "objects": [
+          "computer",
+          "keyboard",
+          "glasses",
+          "suit",
+          "desk",
+          "monitor",
+          "plant",
+          "bag"
+        ],
+        "actions": [
+          "typing",
+          "observing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "office",
+          "business"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "finance",
+          "workplace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/King of the urban jungle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/King of the urban jungle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lion wearing glasses and a suit sits at a desk in an office, typing on a keyboard. A raccoon stands beside the lion, looking at the computer screen displaying stock market charts.",
+      "description": "The scene is set in a modern office with large windows overlooking a cityscape. The lion, dressed in business attire, appears to be engaged in financial analysis or trading, while the raccoon observes attentively.",
+      "labels": {
+        "animals": [
+          "lion",
+          "raccoon"
+        ],
+        "objects": [
+          "computer",
+          "keyboard",
+          "monitor",
+          "desk",
+          "glasses",
+          "suit"
+        ],
+        "actions": [
+          "typing",
+          "observing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "office",
+          "cityscape"
+        ],
+        "concepts": [
+          "business",
+          "finance",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion, raccoon. Objects: computer, keyboard, glasses, suit, desk. Actions: typing, observing. Emotions: focused. Scenes: office, business, cityscape. Concepts: anthropomorphism, finance, workplace, business",
+  "primary_labels": {
+    "animals": [
+      "lion",
+      "raccoon"
+    ],
+    "objects": [
+      "computer",
+      "keyboard",
+      "glasses",
+      "suit",
+      "desk"
+    ],
+    "actions": [
+      "typing",
+      "observing"
+    ],
+    "emotions": [
+      "focused"
+    ],
+    "scenes": [
+      "office",
+      "business",
+      "cityscape"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "finance",
+      "workplace",
+      "business"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flaming Gundam.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flaming Gundam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flaming Gundam/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic robotic head with glowing eyes and intricate mechanical details dominates the scene. The background is filled with fiery, glowing elements, enhancing the sense of power and intensity. The robot's design features sharp angles and vibrant colors, creating a striking visual impact.",
+      "description": "The scene depicts a highly detailed robotic head, likely from a mecha or sci-fi universe, set against a dynamic and fiery backdrop. The glowing elements suggest energy and power, contributing to a dramatic and intense atmosphere.",
+      "labels": {
+        "objects": [
+          "robotic head",
+          "mechanical details"
+        ],
+        "actions": [
+          "glowing",
+          "illuminating"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flaming Gundam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flaming Gundam/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot head with glowing eyes and vibrant orange and red accents dominates the scene. The mechanical structure is intricately detailed, with sharp angles and a central green element on its forehead. The background is filled with fiery effects, enhancing the dramatic and intense atmosphere.",
+      "description": "The scene depicts a close-up of a robotic head, likely from a science fiction setting. The robot's design is sleek and angular, with a focus on its illuminated eyes and fiery surroundings, suggesting a powerful and dynamic presence.",
+      "labels": {
+        "objects": [
+          "robot",
+          "mechanical head"
+        ],
+        "actions": [
+          "glowing",
+          "illuminating"
+        ],
+        "emotions": [
+          "intense",
+          "dramatic"
+        ],
+        "scenes": [
+          "futuristic",
+          "science fiction"
+        ],
+        "concepts": [
+          "technology",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robotic head, mechanical details, robot, mechanical head. Actions: glowing, illuminating. Emotions: intensity, power, intense, dramatic. Scenes: futuristic, sci-fi, science fiction. Concepts: technology, energy, power",
+  "primary_labels": {
+    "objects": [
+      "robotic head",
+      "mechanical details",
+      "robot",
+      "mechanical head"
+    ],
+    "actions": [
+      "glowing",
+      "illuminating"
+    ],
+    "emotions": [
+      "intensity",
+      "power",
+      "intense",
+      "dramatic"
+    ],
+    "scenes": [
+      "futuristic",
+      "sci-fi",
+      "science fiction"
+    ],
+    "concepts": [
+      "technology",
+      "energy",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

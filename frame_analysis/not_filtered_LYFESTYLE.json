@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LYFESTYLE.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LYFESTYLE.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LYFESTYLE/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in front of a large, illuminated green sign that reads 'LYFESTYLE'. The scene is set in a dark environment, with the glowing text casting a vibrant light on the figure.",
+      "description": "The image depicts a dramatic and stylish setting where a person is silhouetted against a bright green sign. The atmosphere is bold and modern, emphasizing a theme of lifestyle and fashion.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sign",
+          "text"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LYFESTYLE.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LYFESTYLE/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently in front of a large, illuminated sign that reads 'LYFESTYLE.' The scene is set in a dark room with dramatic green lighting that casts reflections on the floor.",
+      "description": "The image depicts a bold and modern setting with a strong emphasis on style and attitude. The person is dressed in dark, stylish clothing, standing in a powerful pose against the vibrant backdrop.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sign",
+          "clothing",
+          "glasses"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: sign, text, clothing, glasses. Actions: standing. Emotions: confident, confidence. Scenes: indoor, studio. Concepts: fashion, style, modernity",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "sign",
+      "text",
+      "clothing",
+      "glasses"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "indoor",
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "modernity"
+    ]
+  },
+  "metadata": {}
+}

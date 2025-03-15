@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Boss is coming !.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Boss is coming !.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Boss is coming !/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person wearing a realistic rhinoceros mask is dressed in a stylish suit with a fur-trimmed coat, walking confidently while holding a briefcase. The scene suggests a blend of fantasy and high fashion, with another person partially visible in the background.",
+      "description": "The scene is set in an urban environment, possibly near a luxury establishment or event. The focus is on a person in a rhinoceros mask, exuding an aura of power and sophistication.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "rhinoceros"
+        ],
+        "objects": [
+          "suit",
+          "coat",
+          "briefcase"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "fashion"
+        ],
+        "concepts": [
+          "fantasy",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Boss is coming !.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Boss is coming !/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a rhinoceros head is dressed in an elegant black suit with fur trim and a gold chain. The figure is walking confidently while carrying a black briefcase, set against a blurred urban background.",
+      "description": "The scene depicts a surreal character blending human and animal traits, dressed in formal attire, walking with purpose in an urban setting. The background suggests a city environment, possibly near a business district.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "animals": [
+          "rhinoceros"
+        ],
+        "objects": [
+          "suit",
+          "briefcase",
+          "gold chain"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "business district"
+        ],
+        "concepts": [
+          "surreal",
+          "fusion of human and animal traits"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, humanoid figure. Animals: rhinoceros. Objects: suit, briefcase, coat, gold chain. Actions: walking. Emotions: confidence, confident. Scenes: urban, fashion, business district. Concepts: fantasy, luxury, surreal, fusion of human and animal traits",
+  "primary_labels": {
+    "people": [
+      "person",
+      "humanoid figure"
+    ],
+    "animals": [
+      "rhinoceros"
+    ],
+    "objects": [
+      "suit",
+      "briefcase",
+      "coat",
+      "gold chain"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "fashion",
+      "business district"
+    ],
+    "concepts": [
+      "fantasy",
+      "luxury",
+      "surreal",
+      "fusion of human and animal traits"
+    ]
+  },
+  "metadata": {}
+}

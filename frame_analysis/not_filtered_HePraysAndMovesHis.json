@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HePraysAndMovesHis.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HePraysAndMovesHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HePraysAndMovesHis/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An imposing figure stands in a mystical forest under a bright full moon. The figure, adorned in elaborate robes and a golden crown, holds a glowing staff that emits fiery sparks. The surrounding trees and night sky create an enchanting atmosphere.",
+      "description": "The scene depicts a magical setting in a forest at night, illuminated by the moon and the fiery glow of a staff. The central figure appears to be a wizard or sorcerer, exuding an aura of power and mystery.",
+      "labels": {
+        "people": [
+          "wizard",
+          "sorcerer"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "moon",
+          "night sky"
+        ],
+        "objects": [
+          "staff",
+          "robe",
+          "crown"
+        ],
+        "actions": [
+          "standing",
+          "holding staff"
+        ],
+        "emotions": [
+          "mystical",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "night"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HePraysAndMovesHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HePraysAndMovesHis/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly figure in ornate robes stands in a mystical forest under a bright full moon. He holds a staff topped with a glowing orb, surrounded by small flames on the ground. The scene is illuminated by both the moonlight and the fiery glow of the staff.",
+      "description": "The scene depicts a magical setting in a forest at night, where an enigmatic figure appears to be performing a ritual or spell. The atmosphere is mystical and serene, with a sense of ancient wisdom and power.",
+      "labels": {
+        "people": [
+          "elderly figure",
+          "wizard"
+        ],
+        "nature": [
+          "forest",
+          "moon",
+          "trees"
+        ],
+        "objects": [
+          "staff",
+          "orb",
+          "robes"
+        ],
+        "actions": [
+          "holding staff",
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "night",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "ritual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: wizard, sorcerer, elderly figure. Nature: forest, trees, moon, night sky. Objects: staff, robe, crown, orb, robes. Actions: standing, holding staff. Emotions: mystical, powerful, serene. Scenes: night, fantasy, magical. Concepts: magic, enchantment, ritual",
+  "primary_labels": {
+    "people": [
+      "wizard",
+      "sorcerer",
+      "elderly figure"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "moon",
+      "night sky"
+    ],
+    "objects": [
+      "staff",
+      "robe",
+      "crown",
+      "orb",
+      "robes"
+    ],
+    "actions": [
+      "standing",
+      "holding staff"
+    ],
+    "emotions": [
+      "mystical",
+      "powerful",
+      "serene"
+    ],
+    "scenes": [
+      "night",
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "ritual"
+    ]
+  },
+  "metadata": {}
+}

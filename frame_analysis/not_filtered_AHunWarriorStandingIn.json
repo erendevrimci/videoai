@@ -1,0 +1,164 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHunWarriorStandingIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHunWarriorStandingIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHunWarriorStandingIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in medieval armor stands in a vast grassland, with a tattered flag waving behind him. In the background, several horsemen ride across the open field under a cloudy sky.",
+      "description": "The scene is set in an expansive grassland, evoking a historical or fantasy setting. The central figure is dressed in dark, fur-trimmed armor, suggesting a warrior or leader. The presence of horsemen and a flag adds to the atmosphere of a military or nomadic encampment.",
+      "labels": {
+        "people": [
+          "man",
+          "horsemen"
+        ],
+        "nature": [
+          "grassland",
+          "cloudy sky"
+        ],
+        "objects": [
+          "armor",
+          "flag",
+          "sword"
+        ],
+        "actions": [
+          "riding",
+          "standing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "historical",
+          "military"
+        ],
+        "concepts": [
+          "leadership",
+          "warrior"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHunWarriorStandingIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHunWarriorStandingIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in medieval armor stands in a vast open field, with a tattered red flag waving behind him. In the background, several riders on horseback move across the landscape under a cloudy sky.",
+      "description": "The scene is set in a wide, open field, likely during a historical or fantasy setting. The man in the foreground wears dark, fur-lined armor with intricate designs, suggesting a warrior or leader. The presence of the flag and horsemen indicates a military or nomadic context.",
+      "labels": {
+        "people": [
+          "man",
+          "horse riders"
+        ],
+        "objects": [
+          "armor",
+          "flag",
+          "horses"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "battlefield",
+          "historical"
+        ],
+        "concepts": [
+          "warrior",
+          "medieval",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHunWarriorStandingIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHunWarriorStandingIn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in traditional warrior attire stands in a vast open field, with a tattered flag waving in the background. Several horsemen ride across the plains, creating a dynamic and historical scene.",
+      "description": "The scene depicts a historical or fantasy setting in an open grassland. The focus is on a warrior in ornate armor, suggesting a period piece or a reenactment.",
+      "labels": {
+        "people": [
+          "warrior",
+          "horsemen"
+        ],
+        "animals": [
+          "horses"
+        ],
+        "nature": [
+          "grassland",
+          "open field"
+        ],
+        "objects": [
+          "armor",
+          "flag"
+        ],
+        "actions": [
+          "riding",
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "historical",
+          "battlefield"
+        ],
+        "concepts": [
+          "courage",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, horsemen, horse riders, warrior. Nature: grassland, cloudy sky, open field. Objects: armor, flag, sword, horses. Actions: riding, standing. Emotions: serious, determination. Scenes: historical, battlefield, military. Concepts: leadership, warrior, medieval, courage, tradition. Animals: horses",
+  "primary_labels": {
+    "people": [
+      "man",
+      "horsemen",
+      "horse riders",
+      "warrior"
+    ],
+    "nature": [
+      "grassland",
+      "cloudy sky",
+      "open field"
+    ],
+    "objects": [
+      "armor",
+      "flag",
+      "sword",
+      "horses"
+    ],
+    "actions": [
+      "riding",
+      "standing"
+    ],
+    "emotions": [
+      "serious",
+      "determination"
+    ],
+    "scenes": [
+      "historical",
+      "battlefield",
+      "military"
+    ],
+    "concepts": [
+      "leadership",
+      "warrior",
+      "medieval",
+      "courage",
+      "tradition"
+    ],
+    "animals": [
+      "horses"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/peace.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/peace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/peace/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal architectural scene features tall, white columns rising from a reflective, orange-hued water surface. An orange fabric drapes elegantly between the columns, adding a dynamic element to the otherwise static structure. Natural rock formations frame the scene, enhancing its otherworldly atmosphere.",
+      "description": "The scene depicts a surreal architectural setting with tall, white columns and vibrant orange elements. It combines natural and artificial elements, creating a dreamlike environment.",
+      "labels": {
+        "nature": [
+          "rock formations",
+          "water"
+        ],
+        "objects": [
+          "columns",
+          "fabric"
+        ],
+        "scenes": [
+          "surreal",
+          "architectural"
+        ],
+        "concepts": [
+          "reflection",
+          "contrast"
+        ],
+        "emotions": [
+          "serene",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/peace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/peace/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal architectural scene features tall white columns rising from a reflective orange-hued water surface. An orange fabric drapes elegantly between the columns, adding a dynamic element to the serene setting. Natural rock formations frame the scene, creating a harmonious blend of nature and architecture.",
+      "description": "The scene is set in a surreal architectural environment with tall, smooth white columns standing in shallow, reflective orange water. The setting is tranquil, with a flowing orange fabric adding movement and contrast against the rigid structures. Natural rock formations surround the columns, enhancing the ethereal atmosphere.",
+      "labels": {
+        "nature": [
+          "rock formations"
+        ],
+        "objects": [
+          "columns",
+          "fabric"
+        ],
+        "actions": [
+          "draping"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "surreal",
+          "architectural"
+        ],
+        "concepts": [
+          "harmony",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: rock formations, water. Objects: columns, fabric. Scenes: surreal, architectural. Concepts: contrast, reflection, harmony. Emotions: serene, dreamlike. Actions: draping",
+  "primary_labels": {
+    "nature": [
+      "rock formations",
+      "water"
+    ],
+    "objects": [
+      "columns",
+      "fabric"
+    ],
+    "scenes": [
+      "surreal",
+      "architectural"
+    ],
+    "concepts": [
+      "contrast",
+      "reflection",
+      "harmony"
+    ],
+    "emotions": [
+      "serene",
+      "dreamlike"
+    ],
+    "actions": [
+      "draping"
+    ]
+  },
+  "metadata": {}
+}

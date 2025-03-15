@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatWearingASuit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatWearingASuit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatWearingASuit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid cat with orange fur and large blue eyes is dressed in a professional business suit, complete with glasses. The cat is holding a stack of papers, standing confidently in an office setting.",
+      "description": "The scene depicts a whimsical and surreal office environment where a cat with human-like features is dressed in a business suit. The setting suggests a professional atmosphere, with blurred figures and office furniture in the background.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "suit",
+          "papers"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "business"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatWearingASuit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatWearingASuit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cartoonish cat with large glasses and a business suit confidently walks through an office holding a stack of papers. The background shows a blurred office setting with people working at desks. The cat's expression is serious, adding a humorous contrast to the professional attire.",
+      "description": "The scene is set in a busy office environment, where a humanoid cat character is the focal point. The cat is dressed in a formal business suit, walking purposefully through the office, suggesting a blend of professionalism and whimsy.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "suit",
+          "papers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatWearingASuit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatWearingASuit/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cartoonish anthropomorphic cat is confidently walking down an office hallway. The cat is dressed in a professional navy blue suit and is holding a stack of papers, exuding a sense of purpose. The background shows a blurred office environment with desks and people.",
+      "description": "The scene is set in a modern office environment, featuring a whimsical anthropomorphic cat character. The cat is depicted as a business professional, adding a humorous and imaginative twist to a typical office setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "suit",
+          "glasses",
+          "papers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "business"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: glasses, suit, papers. Actions: walking, standing. Emotions: confident, serious. Scenes: office. Concepts: anthropomorphism, business, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "glasses",
+      "suit",
+      "papers"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "serious"
+    ],
+    "scenes": [
+      "office"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "business",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

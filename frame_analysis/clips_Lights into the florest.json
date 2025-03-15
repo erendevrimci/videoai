@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lights into the florest.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lights into the florest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lights into the florest/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a magical garden scene illuminated by glowing flowers and hanging lights. Delicate vines and soft mist create an ethereal atmosphere, enhancing the enchanting ambiance.",
+      "description": "This scene is set in a mystical garden filled with glowing flowers and suspended lights. The environment is serene and dreamlike, with a gentle mist enveloping the area, creating a sense of tranquility and wonder.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "vines",
+          "mist"
+        ],
+        "objects": [
+          "lights",
+          "glowing flowers"
+        ],
+        "emotions": [
+          "serene",
+          "enchanted"
+        ],
+        "scenes": [
+          "magical garden",
+          "ethereal"
+        ],
+        "concepts": [
+          "tranquility",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lights into the florest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lights into the florest/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a magical garden scene illuminated by glowing flowers suspended on delicate stems. The warm lights create a serene and enchanting atmosphere, with soft bokeh effects enhancing the dreamlike quality. Lush greenery and gentle mist add depth and mystery to the setting.",
+      "description": "This scene captures a fantastical garden filled with luminous flowers that emit a soft, warm glow. The setting appears to be a tranquil, otherworldly place, possibly a fantasy or magical realm, where nature and light intertwine harmoniously.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "greenery",
+          "mist"
+        ],
+        "objects": [
+          "lights",
+          "stems"
+        ],
+        "scenes": [
+          "garden",
+          "fantasy",
+          "magical"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ],
+        "visual attributes": [
+          "warm colors",
+          "soft lighting",
+          "bokeh effect"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: flowers, mist, vines, greenery. Objects: lights, glowing flowers, stems. Emotions: serene, enchanted, enchanting. Scenes: magical garden, ethereal, garden, fantasy, magical. Concepts: tranquility, wonder. Visual attributes: warm colors, soft lighting, bokeh effect",
+  "primary_labels": {
+    "nature": [
+      "flowers",
+      "mist",
+      "vines",
+      "greenery"
+    ],
+    "objects": [
+      "lights",
+      "glowing flowers",
+      "stems"
+    ],
+    "emotions": [
+      "serene",
+      "enchanted",
+      "enchanting"
+    ],
+    "scenes": [
+      "magical garden",
+      "ethereal",
+      "garden",
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "tranquility",
+      "wonder"
+    ],
+    "visual attributes": [
+      "warm colors",
+      "soft lighting",
+      "bokeh effect"
+    ]
+  },
+  "metadata": {}
+}

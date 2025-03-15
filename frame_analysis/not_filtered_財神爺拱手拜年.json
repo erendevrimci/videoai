@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u8ca1\u795e\u723a\u62f1\u624b\u62dc\u5e74.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u8ca1\u795e\u723a\u62f1\u624b\u62dc\u5e74.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u8ca1\u795e\u723a\u62f1\u624b\u62dc\u5e74/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in traditional Chinese attire stands confidently, holding a large golden ingot. The intricate headdress and vibrant red robe are adorned with elaborate designs, creating a regal appearance.",
+      "description": "The scene depicts a person in ceremonial Chinese clothing, suggesting a cultural or festive setting. The golden ingot and ornate costume indicate themes of prosperity and celebration.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "golden ingot",
+          "headdress",
+          "robe"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "cultural",
+          "festive"
+        ],
+        "concepts": [
+          "prosperity",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u8ca1\u795e\u723a\u62f1\u624b\u62dc\u5e74.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u8ca1\u795e\u723a\u62f1\u624b\u62dc\u5e74/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in ornate traditional attire holds a large golden ingot with a serene expression. The elaborate headdress and vibrant red and gold garments suggest a ceremonial or festive occasion. Radiant light emanates from behind, enhancing the regal atmosphere.",
+      "description": "The scene depicts a person in traditional ceremonial clothing, possibly representing a cultural or historical figure. The setting is likely symbolic, with elements suggesting prosperity and celebration.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "golden ingot",
+          "traditional attire",
+          "headdress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "ceremonial",
+          "festive"
+        ],
+        "concepts": [
+          "prosperity",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: golden ingot, headdress, robe, traditional attire. Actions: holding. Emotions: confident, serenity. Scenes: festive, cultural, ceremonial. Concepts: prosperity, celebration, tradition",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "golden ingot",
+      "headdress",
+      "robe",
+      "traditional attire"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "confident",
+      "serenity"
+    ],
+    "scenes": [
+      "festive",
+      "cultural",
+      "ceremonial"
+    ],
+    "concepts": [
+      "prosperity",
+      "celebration",
+      "tradition"
+    ]
+  },
+  "metadata": {}
+}

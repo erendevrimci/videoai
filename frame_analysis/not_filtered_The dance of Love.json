@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The dance of Love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The dance of Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The dance of Love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A character dressed as a monkey with a staff stands beside a woman in traditional attire against a mountainous backdrop. The monkey character appears animated and lively, while the woman looks serene and composed.",
+      "description": "The scene depicts a vibrant interaction between a costumed monkey character and a woman in traditional clothing, set in a picturesque mountainous landscape. The monkey character is holding a staff and is expressive, suggesting a playful or adventurous moment.",
+      "labels": {
+        "people": [
+          "woman",
+          "costumed character"
+        ],
+        "nature": [
+          "mountains"
+        ],
+        "objects": [
+          "staff",
+          "traditional clothing"
+        ],
+        "actions": [
+          "posing",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "fantasy"
+        ],
+        "concepts": [
+          "adventure",
+          "cultural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The dance of Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The dance of Love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals dressed in vibrant traditional attire stand against a backdrop of majestic mountains. One person in a yellow outfit holds a staff, while the other in a pink and blue dress appears to be in motion.",
+      "description": "The scene captures two people in traditional costumes on a mountainous landscape, suggesting a cultural or historical setting. The individuals are engaged in an action, possibly a dance or ritual, with the mountains providing a serene and expansive background.",
+      "labels": {
+        "people": [
+          "individuals",
+          "traditional attire"
+        ],
+        "nature": [
+          "mountains",
+          "landscape"
+        ],
+        "objects": [
+          "staff"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "cultural",
+          "outdoor"
+        ],
+        "concepts": [
+          "tradition",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, costumed character, individuals, traditional attire. Nature: mountains, landscape. Objects: staff, traditional clothing. Actions: holding, posing, standing. Emotions: serene, playful. Scenes: outdoor, fantasy, cultural. Concepts: adventure, cultural, tradition, heritage",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "costumed character",
+      "individuals",
+      "traditional attire"
+    ],
+    "nature": [
+      "mountains",
+      "landscape"
+    ],
+    "objects": [
+      "staff",
+      "traditional clothing"
+    ],
+    "actions": [
+      "holding",
+      "posing",
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "playful"
+    ],
+    "scenes": [
+      "outdoor",
+      "fantasy",
+      "cultural"
+    ],
+    "concepts": [
+      "adventure",
+      "cultural",
+      "tradition",
+      "heritage"
+    ]
+  },
+  "metadata": {}
+}

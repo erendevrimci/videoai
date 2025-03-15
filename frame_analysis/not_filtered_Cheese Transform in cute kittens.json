@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cheese Transform in cute kittens.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cheese Transform in cute kittens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cheese Transform in cute kittens/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A curious orange kitten peeks over a plate filled with an assortment of cheese cubes. The kitten's playful eyes and the variety of cheeses create a whimsical and charming scene.",
+      "description": "The scene depicts a playful and light-hearted moment with a kitten exploring a plate of cheeses. The setting appears to be a dining or kitchen area, focusing on the interaction between the kitten and the food.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "cheese",
+          "plate"
+        ],
+        "actions": [
+          "peeking"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "dining",
+          "kitchen"
+        ],
+        "concepts": [
+          "whimsy",
+          "charm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cheese Transform in cute kittens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cheese Transform in cute kittens/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of playful orange kittens explore a large plate with a wedge of cheese. The kittens are curious and active, with one nibbling on the cheese while others look around inquisitively.",
+      "description": "The scene captures a playful moment with several orange kittens on a large plate. They are interacting with a piece of cheese, creating a lively and endearing atmosphere.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "plate",
+          "cheese"
+        ],
+        "actions": [
+          "exploring",
+          "nibbling"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "playfulness",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, kittens. Objects: cheese, plate. Actions: peeking, exploring, nibbling. Emotions: curiosity, playfulness. Scenes: dining, kitchen, indoor. Concepts: whimsy, charm, playfulness, curiosity",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "kittens"
+    ],
+    "objects": [
+      "cheese",
+      "plate"
+    ],
+    "actions": [
+      "peeking",
+      "exploring",
+      "nibbling"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "dining",
+      "kitchen",
+      "indoor"
+    ],
+    "concepts": [
+      "whimsy",
+      "charm",
+      "playfulness",
+      "curiosity"
+    ]
+  },
+  "metadata": {}
+}

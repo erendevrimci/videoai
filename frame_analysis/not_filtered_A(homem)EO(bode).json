@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A(homem)EO(bode).mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A(homem)EO(bode).mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A(homem)EO(bode)/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with a rugged appearance stands face-to-face with a goat, separated by a wooden fence. The scene is set in a mountainous area, with the man and goat appearing to share a moment of mutual curiosity.",
+      "description": "The image captures a serene interaction between a man and a goat in a rural, mountainous setting. The man, dressed in earthy tones and equipped with a harness, gazes intently at the goat, which is positioned on the other side of a wooden fence.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "goat"
+        ],
+        "nature": [
+          "mountains",
+          "grass"
+        ],
+        "objects": [
+          "fence",
+          "harness"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "rural",
+          "outdoor"
+        ],
+        "concepts": [
+          "human-animal interaction",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A(homem)EO(bode).mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A(homem)EO(bode)/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mythical creature with large horns and glowing eyes strides confidently through a rocky landscape. The figure is muscular and adorned with fur and leather garments, exuding a powerful presence. The background features rugged cliffs and a cloudy sky, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a fantasy setting with a mythical creature walking through a rocky terrain. The creature's imposing figure and the desolate landscape create a sense of mystery and adventure.",
+      "labels": {
+        "people": [
+          "mythical creature"
+        ],
+        "nature": [
+          "rocks",
+          "cliffs",
+          "cloudy sky"
+        ],
+        "objects": [
+          "fur garments",
+          "leather garments"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "powerful",
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy",
+          "wilderness"
+        ],
+        "concepts": [
+          "mythology",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, mythical creature. Animals: goat. Nature: mountains, grass, rocks, cliffs, cloudy sky. Objects: fence, harness, fur garments, leather garments. Actions: gazing, walking. Emotions: curiosity, powerful, mysterious. Scenes: rural, outdoor, fantasy, wilderness. Concepts: human-animal interaction, serenity, mythology, adventure",
+  "primary_labels": {
+    "people": [
+      "man",
+      "mythical creature"
+    ],
+    "animals": [
+      "goat"
+    ],
+    "nature": [
+      "mountains",
+      "grass",
+      "rocks",
+      "cliffs",
+      "cloudy sky"
+    ],
+    "objects": [
+      "fence",
+      "harness",
+      "fur garments",
+      "leather garments"
+    ],
+    "actions": [
+      "gazing",
+      "walking"
+    ],
+    "emotions": [
+      "curiosity",
+      "powerful",
+      "mysterious"
+    ],
+    "scenes": [
+      "rural",
+      "outdoor",
+      "fantasy",
+      "wilderness"
+    ],
+    "concepts": [
+      "human-animal interaction",
+      "serenity",
+      "mythology",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

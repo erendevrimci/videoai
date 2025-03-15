@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fashion Week Elena Vasquez.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fashion Week Elena Vasquez.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fashion Week Elena Vasquez/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a stylish turquoise outfit walks confidently down a narrow street. The street is lined with buildings and other pedestrians are visible in the background.",
+      "description": "The scene is set in an urban environment, likely a pedestrian street in a city. The focus is on a woman walking towards the camera, with other people casually strolling in the background.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fashion Week Elena Vasquez.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fashion Week Elena Vasquez/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is walking down a sunlit street, wearing a turquoise off-shoulder top and matching skirt. She appears relaxed and content, with her eyes gently closed and a soft smile on her face.",
+      "description": "The scene captures a casual stroll on a bright day in an urban setting. The woman is the focal point, exuding a sense of calm and ease as she moves through the bustling street.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing",
+          "necklace"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, pedestrians. Objects: clothing, buildings, necklace. Actions: walking. Emotions: confidence, relaxed, content. Scenes: urban, street. Concepts: fashion, style, casual",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "pedestrians"
+    ],
+    "objects": [
+      "clothing",
+      "buildings",
+      "necklace"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "relaxed",
+      "content"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

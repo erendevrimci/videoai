@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,Emotional,Pappines.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,Emotional,Pappines.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hugging,Emotional,Pappines/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image is a split-screen portrait of two individuals. On the left is a woman with long dark hair, wearing a black jacket, and on the right is a man wearing a black cap and jacket. Both appear to be looking directly at the camera with neutral expressions.",
+      "description": "This is a dual portrait image featuring a woman and a man side by side. The setting appears to be casual, possibly indoors, with the woman in front of a background with flags and the man in a more neutral setting.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "jacket",
+          "cap"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "split-screen",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,Emotional,Pappines.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hugging,Emotional,Pappines/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple shares a joyful moment, gazing into each other's eyes with warm smiles. They are indoors, surrounded by colorful flags hanging in the background.",
+      "description": "The scene captures a tender interaction between two people, likely in a casual indoor setting. The presence of colorful flags suggests a festive or celebratory atmosphere.",
+      "labels": {
+        "people": [
+          "couple",
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "flags",
+          "jacket",
+          "cap"
+        ],
+        "actions": [
+          "smiling",
+          "looking at each other"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "indoor",
+          "festive"
+        ],
+        "concepts": [
+          "relationship",
+          "joy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Objects: jacket, cap, flags. Emotions: neutral, happiness, affection. Scenes: portrait, indoor, festive. Concepts: split-screen, casual, relationship, joy. Actions: smiling, looking at each other",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "objects": [
+      "jacket",
+      "cap",
+      "flags"
+    ],
+    "emotions": [
+      "neutral",
+      "happiness",
+      "affection"
+    ],
+    "scenes": [
+      "portrait",
+      "indoor",
+      "festive"
+    ],
+    "concepts": [
+      "split-screen",
+      "casual",
+      "relationship",
+      "joy"
+    ],
+    "actions": [
+      "smiling",
+      "looking at each other"
+    ]
+  },
+  "metadata": {}
+}

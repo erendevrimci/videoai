@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Valentine's Day.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Valentine's Day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Valentine's Day/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A heart-shaped cup filled with steaming coffee sits on a dark surface, surrounded by scattered coffee beans and golden powder. The steam rises gently from the cup, creating a warm and inviting atmosphere.",
+      "description": "The scene depicts a close-up of a heart-shaped coffee cup placed on a dark background. The setting is likely a cozy and intimate environment, emphasizing warmth and comfort.",
+      "labels": {
+        "objects": [
+          "heart-shaped cup",
+          "coffee",
+          "coffee beans",
+          "golden powder"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "warmth",
+          "comfort"
+        ],
+        "scenes": [
+          "cozy",
+          "intimate"
+        ],
+        "concepts": [
+          "coffee",
+          "love",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Valentine's Day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Valentine's Day/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A heart-shaped cup filled with steaming coffee sits on a dark surface, surrounded by scattered coffee beans and golden specks. The steam rises gently, creating a warm and inviting atmosphere. The rich brown color of the coffee contrasts with the dark background, highlighting the heart shape.",
+      "description": "The scene depicts a close-up of a heart-shaped coffee cup filled with freshly brewed coffee. The setting is likely a cozy, intimate space, suggested by the warm steam and scattered coffee elements.",
+      "labels": {
+        "objects": [
+          "heart-shaped cup",
+          "coffee",
+          "coffee beans"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "warmth",
+          "invitation"
+        ],
+        "scenes": [
+          "cozy setting"
+        ],
+        "concepts": [
+          "coffee",
+          "love",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: heart-shaped cup, coffee, coffee beans, golden powder. Actions: steaming. Emotions: warmth, comfort, invitation. Scenes: cozy, intimate, cozy setting. Concepts: coffee, love, warmth",
+  "primary_labels": {
+    "objects": [
+      "heart-shaped cup",
+      "coffee",
+      "coffee beans",
+      "golden powder"
+    ],
+    "actions": [
+      "steaming"
+    ],
+    "emotions": [
+      "warmth",
+      "comfort",
+      "invitation"
+    ],
+    "scenes": [
+      "cozy",
+      "intimate",
+      "cozy setting"
+    ],
+    "concepts": [
+      "coffee",
+      "love",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyCameraRotate.WomanSmiles.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyCameraRotate.WomanSmiles.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowlyCameraRotate.WomanSmiles/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands smiling in front of a grand, historic cathedral. The architectural details of the church are prominently displayed in the background, with its tall spires and intricate facade. The scene is set on a sunny day, with a clear blue sky overhead.",
+      "description": "The image captures a serene moment in a public square, where a woman poses in front of a large cathedral. The setting suggests a historic or tourist location, with people casually walking in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "cathedral",
+          "dress",
+          "lamp post"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "tourist site"
+        ],
+        "concepts": [
+          "architecture",
+          "history",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyCameraRotate.WomanSmiles.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowlyCameraRotate.WomanSmiles/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands smiling in front of a grand cathedral with intricate architectural details. The sun casts a warm glow, highlighting her blue dress adorned with floral patterns. The background features a bustling plaza with people walking and enjoying the day.",
+      "description": "The scene is set in a vibrant city plaza in front of a historic cathedral. The atmosphere is lively and warm, with people leisurely strolling in the background. The focus is on a woman enjoying a sunny day, adding a personal touch to the architectural backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree"
+        ],
+        "objects": [
+          "cathedral",
+          "dress",
+          "lamp post"
+        ],
+        "actions": [
+          "smiling",
+          "walking"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "city plaza",
+          "historic architecture"
+        ],
+        "concepts": [
+          "urban life",
+          "tourism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sky, tree. Objects: cathedral, dress, lamp post. Actions: smiling, standing, walking. Emotions: happiness. Scenes: urban, tourist site, city plaza, historic architecture. Concepts: architecture, history, travel, urban life, tourism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sky",
+      "tree"
+    ],
+    "objects": [
+      "cathedral",
+      "dress",
+      "lamp post"
+    ],
+    "actions": [
+      "smiling",
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "happiness"
+    ],
+    "scenes": [
+      "urban",
+      "tourist site",
+      "city plaza",
+      "historic architecture"
+    ],
+    "concepts": [
+      "architecture",
+      "history",
+      "travel",
+      "urban life",
+      "tourism"
+    ]
+  },
+  "metadata": {}
+}

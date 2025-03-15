@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, curly blonde hair stands confidently in a minimalist setting. She is dressed in a sleek black outfit, exuding a sense of elegance and poise.",
+      "description": "The scene captures a woman standing in a simple, neutral background, highlighting her stylish appearance. The setting is likely a studio, focusing on the subject's fashion and demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black outfit",
+          "shoes"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a sleek black outfit is joyfully dancing amidst falling confetti. Her blonde hair flows as she moves, creating a lively and festive atmosphere.",
+      "description": "The scene captures a celebratory moment with a woman dancing in a minimalist setting. The presence of confetti and small decorated trees suggests a festive or holiday theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "confetti",
+          "decorated trees"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "festive",
+          "celebration"
+        ],
+        "concepts": [
+          "holiday",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u042f \u0442\u0430\u043d\u0446\u0443\u044e/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a black dress walks away from the camera towards two decorated Christmas trees. The trees are adorned with red, gold, and silver ornaments, and confetti is scattered on the floor and in the air.",
+      "description": "The scene is set in a festive indoor environment, likely during the holiday season. The focus is on the woman walking gracefully between two beautifully decorated Christmas trees, creating a joyful and celebratory atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "Christmas trees",
+          "ornaments",
+          "confetti"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "festive",
+          "joyful"
+        ],
+        "scenes": [
+          "holiday",
+          "indoor"
+        ],
+        "concepts": [
+          "celebration",
+          "Christmas"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: confetti, black outfit, shoes, decorated trees, Christmas trees. Actions: standing, dancing, walking. Emotions: joyful, confidence, festive. Scenes: studio, festive, celebration, holiday, indoor. Concepts: celebration, fashion, elegance, holiday, Christmas",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "confetti",
+      "black outfit",
+      "shoes",
+      "decorated trees",
+      "Christmas trees"
+    ],
+    "actions": [
+      "standing",
+      "dancing",
+      "walking"
+    ],
+    "emotions": [
+      "joyful",
+      "confidence",
+      "festive"
+    ],
+    "scenes": [
+      "studio",
+      "festive",
+      "celebration",
+      "holiday",
+      "indoor"
+    ],
+    "concepts": [
+      "celebration",
+      "fashion",
+      "elegance",
+      "holiday",
+      "Christmas"
+    ]
+  },
+  "metadata": {}
+}

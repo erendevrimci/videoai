@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCapybaraRubsItsBelly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCapybaraRubsItsBelly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCapybaraRubsItsBelly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A capybara is comfortably seated in a bathtub filled with water and bubbles, appearing relaxed and content. The bathroom setting is cozy, with warm lighting and a serene atmosphere.",
+      "description": "The scene captures a capybara enjoying a bath in a well-lit, cozy bathroom. The environment is tranquil, with soft lighting from a lamp and a clean, organized space.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "bathtub",
+          "water",
+          "bubbles",
+          "lamp",
+          "sink",
+          "mirror"
+        ],
+        "actions": [
+          "bathing",
+          "relaxing"
+        ],
+        "emotions": [
+          "contentment",
+          "relaxation"
+        ],
+        "scenes": [
+          "bathroom"
+        ],
+        "concepts": [
+          "comfort",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCapybaraRubsItsBelly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCapybaraRubsItsBelly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A capybara sits comfortably in a bathtub, partially submerged in water. The bathroom is warmly lit, creating a cozy atmosphere.",
+      "description": "The scene takes place in a bathroom where a capybara is enjoying a bath in a white bathtub. The room is softly illuminated, suggesting a relaxed and serene setting.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "bathtub",
+          "lamp",
+          "window blinds",
+          "sink"
+        ],
+        "actions": [
+          "bathing"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "bathroom"
+        ],
+        "concepts": [
+          "domestic",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: capybara. Objects: bathtub, lamp, sink, water, bubbles. Actions: bathing, relaxing. Emotions: contentment, relaxation, calm, relaxed. Scenes: bathroom. Concepts: comfort, serenity, domestic",
+  "primary_labels": {
+    "animals": [
+      "capybara"
+    ],
+    "objects": [
+      "bathtub",
+      "lamp",
+      "sink",
+      "water",
+      "bubbles"
+    ],
+    "actions": [
+      "bathing",
+      "relaxing"
+    ],
+    "emotions": [
+      "contentment",
+      "relaxation",
+      "calm",
+      "relaxed"
+    ],
+    "scenes": [
+      "bathroom"
+    ],
+    "concepts": [
+      "comfort",
+      "serenity",
+      "domestic"
+    ]
+  },
+  "metadata": {}
+}

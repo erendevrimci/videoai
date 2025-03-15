@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/stock.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/stock.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/stock/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of cats are gathered in an office setting, intently focused on multiple computer screens displaying data and charts. The cats are positioned around keyboards and laptops, creating a humorous scene of feline analysts at work.",
+      "description": "The scene is set in a modern office with large windows overlooking a cityscape. Cats are positioned around desks filled with computer monitors showing financial data, creating a whimsical and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "computer monitors",
+          "keyboards",
+          "laptops",
+          "coffee cup"
+        ],
+        "actions": [
+          "observing",
+          "sitting"
+        ],
+        "emotions": [
+          "focused",
+          "curious"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "humor",
+          "surrealism",
+          "business"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/stock.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/stock/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of cats is gathered in an office-like setting, intently focused on multiple computer screens displaying data and graphs. The scene humorously depicts the cats as if they are working in a financial trading environment.",
+      "description": "The image portrays a whimsical scene where several cats are positioned in front of a series of computer monitors, resembling a busy trading floor. The setting is a modern office with large windows overlooking a cityscape.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "computers",
+          "monitors",
+          "keyboard",
+          "coffee cup"
+        ],
+        "actions": [
+          "observing",
+          "working"
+        ],
+        "emotions": [
+          "focused",
+          "serious"
+        ],
+        "scenes": [
+          "office",
+          "trading floor"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: coffee cup, computer monitors, keyboards, laptops, computers. Actions: observing, sitting, working. Emotions: focused, curious, serious. Scenes: office, trading floor. Concepts: humor, surrealism, business, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "coffee cup",
+      "computer monitors",
+      "keyboards",
+      "laptops",
+      "computers"
+    ],
+    "actions": [
+      "observing",
+      "sitting",
+      "working"
+    ],
+    "emotions": [
+      "focused",
+      "curious",
+      "serious"
+    ],
+    "scenes": [
+      "office",
+      "trading floor"
+    ],
+    "concepts": [
+      "humor",
+      "surrealism",
+      "business",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

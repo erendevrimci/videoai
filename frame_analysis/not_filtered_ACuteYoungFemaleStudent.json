@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACuteYoungFemaleStudent.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACuteYoungFemaleStudent.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACuteYoungFemaleStudent/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a cosplay outfit resembling an anime character sits on a bed. The room is decorated with plush toys and dolls, creating a playful and whimsical atmosphere.",
+      "description": "The scene takes place in a cozy bedroom filled with plush toys and dolls. A person is dressed in a detailed cosplay costume, featuring a blue wig and a school uniform style outfit, suggesting a tribute to a popular anime character.",
+      "labels": {
+        "people": [
+          "cosplayer"
+        ],
+        "objects": [
+          "plush toys",
+          "dolls",
+          "bed",
+          "cosplay costume"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "bedroom",
+          "cosplay"
+        ],
+        "concepts": [
+          "anime",
+          "cosplay",
+          "fandom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACuteYoungFemaleStudent.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACuteYoungFemaleStudent/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a cosplay outfit resembling a popular character with long turquoise hair and a sailor-style uniform sits on a bed. The room is decorated with plush toys and has a cozy, personal feel. The individual is wearing a headset and appears to be posing for a photo.",
+      "description": "The scene is set in a bedroom with a casual and playful atmosphere, featuring a person engaged in cosplay. The room is adorned with various plush toys, adding a whimsical touch to the setting.",
+      "labels": {
+        "people": [
+          "cosplayer"
+        ],
+        "objects": [
+          "headset",
+          "plush toys",
+          "bed",
+          "uniform"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "playful",
+          "engaged"
+        ],
+        "scenes": [
+          "bedroom",
+          "cosplay"
+        ],
+        "concepts": [
+          "cosplay",
+          "anime",
+          "character impersonation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cosplayer. Objects: plush toys, bed, dolls, cosplay costume, headset. Actions: sitting, posing. Emotions: playful, whimsical, engaged. Scenes: bedroom, cosplay. Concepts: anime, cosplay, fandom, character impersonation",
+  "primary_labels": {
+    "people": [
+      "cosplayer"
+    ],
+    "objects": [
+      "plush toys",
+      "bed",
+      "dolls",
+      "cosplay costume",
+      "headset"
+    ],
+    "actions": [
+      "sitting",
+      "posing"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "engaged"
+    ],
+    "scenes": [
+      "bedroom",
+      "cosplay"
+    ],
+    "concepts": [
+      "anime",
+      "cosplay",
+      "fandom",
+      "character impersonation"
+    ]
+  },
+  "metadata": {}
+}

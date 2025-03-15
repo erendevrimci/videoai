@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheCatLiftAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheCatLiftAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LetTheCatLiftAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat dressed in athletic gear is humorously depicted lifting a barbell in a gym setting. The cat wears a black tank top and shorts, standing on its hind legs with a focused expression.",
+      "description": "The scene is set in a gym, where a cat is anthropomorphically portrayed as a weightlifter. The environment is modern and sleek, with gym equipment visible in the background.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "tank top",
+          "shorts"
+        ],
+        "actions": [
+          "lifting"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheCatLiftAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LetTheCatLiftAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in athletic gear is humorously depicted lifting a barbell in a gym setting. The cat's determined expression adds to the comical and surreal nature of the scene.",
+      "description": "The scene takes place in a gym environment where a cat, dressed in a tank top and shorts, appears to be lifting a barbell. The setting is modern and well-lit, with gym equipment visible in the background.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "gym equipment",
+          "tank top",
+          "shorts"
+        ],
+        "actions": [
+          "lifting",
+          "exercise"
+        ],
+        "emotions": [
+          "determination",
+          "humor"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: barbell, tank top, shorts, gym equipment. Actions: lifting, exercise. Emotions: focused, determination, humor. Scenes: gym. Concepts: anthropomorphism, humor, fitness",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "barbell",
+      "tank top",
+      "shorts",
+      "gym equipment"
+    ],
+    "actions": [
+      "lifting",
+      "exercise"
+    ],
+    "emotions": [
+      "focused",
+      "determination",
+      "humor"
+    ],
+    "scenes": [
+      "gym"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "fitness"
+    ]
+  },
+  "metadata": {}
+}

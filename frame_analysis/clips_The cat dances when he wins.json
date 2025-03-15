@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat dances when he wins.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat dances when he wins.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat dances when he wins/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed in a blue tracksuit and sunglasses poses confidently on a tennis court. The feline leans casually against the net, exuding a cool and playful demeanor.",
+      "description": "The scene is set on a tennis court where a cat, dressed in human-like attire, is the center of attention. The setting is outdoors, with a focus on the humorous and whimsical portrayal of the cat.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "tracksuit",
+          "sunglasses",
+          "tennis net"
+        ],
+        "actions": [
+          "posing",
+          "leaning"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "tennis court"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat dances when he wins.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat dances when he wins/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in a blue tracksuit and sunglasses is confidently strutting on a tennis court. The background features a tennis net and green court surface, creating a humorous and surreal scene.",
+      "description": "The scene takes place on a tennis court, where a cat is humorously dressed as a human athlete. The setting is outdoors, with a focus on the cat's amusing attire and confident demeanor.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "tracksuit",
+          "sunglasses",
+          "tennis court",
+          "tennis net"
+        ],
+        "actions": [
+          "strutting"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "tennis court"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: tracksuit, sunglasses, tennis net, tennis court. Actions: posing, leaning, strutting. Emotions: confident, playful. Scenes: tennis court. Concepts: humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "tracksuit",
+      "sunglasses",
+      "tennis net",
+      "tennis court"
+    ],
+    "actions": [
+      "posing",
+      "leaning",
+      "strutting"
+    ],
+    "emotions": [
+      "confident",
+      "playful"
+    ],
+    "scenes": [
+      "tennis court"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

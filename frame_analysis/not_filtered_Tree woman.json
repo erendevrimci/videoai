@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tree woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in an ethereal forest setting, adorned in an intricate, nature-inspired costume. Her headdress resembles twisting branches, and her attire is detailed with organic patterns that blend seamlessly with the background.",
+      "description": "The scene is set in a mystical forest environment, where a woman appears as a part of the natural landscape. The atmosphere is otherworldly and serene, with a focus on the harmony between the character and her surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "branches"
+        ],
+        "objects": [
+          "headdress",
+          "costume"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "nature-inspired",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tree woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman adorned in intricate, nature-inspired armor stands amidst a mystical forest setting. Her elaborate headdress resembles twisting branches, and her attire features ornate, organic patterns. The background is filled with large, gnarled tree roots and glowing embers.",
+      "description": "The scene depicts a fantasy setting where a woman, possibly a forest guardian or mythical being, is central. She is surrounded by a dark, enchanted forest with a focus on nature and mysticism.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "tree roots"
+        ],
+        "objects": [
+          "armor",
+          "headdress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "enchanted forest"
+        ],
+        "concepts": [
+          "mythical",
+          "nature-inspired"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: forest, trees, branches, tree roots. Objects: headdress, costume, armor. Actions: standing. Emotions: serene, mystical. Scenes: fantasy, mystical, enchanted forest. Concepts: nature-inspired, harmony, mythical",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "branches",
+      "tree roots"
+    ],
+    "objects": [
+      "headdress",
+      "costume",
+      "armor"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "mystical"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical",
+      "enchanted forest"
+    ],
+    "concepts": [
+      "nature-inspired",
+      "harmony",
+      "mythical"
+    ]
+  },
+  "metadata": {}
+}

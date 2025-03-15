@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AuroraBorealisChangeTheirShape.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AuroraBorealisChangeTheirShape.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AuroraBorealisChangeTheirShape/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene winter landscape features a snow-covered road winding through a dense forest of tall, snow-laden trees. Above, the sky is illuminated by a vibrant display of the Northern Lights, casting a magical glow over the scene.",
+      "description": "The scene captures a tranquil winter setting in a forest, with a prominent display of the Northern Lights in the sky. The snow-covered road suggests a remote and peaceful location, surrounded by towering trees.",
+      "labels": {
+        "nature": [
+          "forest",
+          "snow",
+          "trees",
+          "Northern Lights"
+        ],
+        "objects": [
+          "road"
+        ],
+        "scenes": [
+          "winter landscape",
+          "night sky"
+        ],
+        "concepts": [
+          "serenity",
+          "nature's beauty"
+        ],
+        "emotions": [
+          "tranquility",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AuroraBorealisChangeTheirShape.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AuroraBorealisChangeTheirShape/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene winter landscape features a snow-covered winding road flanked by tall, snow-laden pine trees. Above, the sky is illuminated by a vibrant display of the northern lights, casting a mystical glow over the scene. The stars twinkle in the clear night sky, enhancing the ethereal atmosphere.",
+      "description": "The scene captures a tranquil winter setting in a forest, with a focus on the natural beauty of the northern lights. The snow-covered road and trees create a peaceful and magical environment.",
+      "labels": {
+        "nature": [
+          "forest",
+          "pine trees",
+          "snow",
+          "northern lights",
+          "stars"
+        ],
+        "objects": [
+          "road"
+        ],
+        "scenes": [
+          "winter landscape",
+          "night sky"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, snow, trees, Northern Lights, pine trees. Objects: road. Scenes: winter landscape, night sky. Concepts: serenity, nature's beauty. Emotions: tranquility, wonder, serene, mystical",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "snow",
+      "trees",
+      "Northern Lights",
+      "pine trees"
+    ],
+    "objects": [
+      "road"
+    ],
+    "scenes": [
+      "winter landscape",
+      "night sky"
+    ],
+    "concepts": [
+      "serenity",
+      "nature's beauty"
+    ],
+    "emotions": [
+      "tranquility",
+      "wonder",
+      "serene",
+      "mystical"
+    ]
+  },
+  "metadata": {}
+}

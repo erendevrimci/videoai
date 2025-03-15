@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Underwater World of the Red Sea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Underwater World of the Red Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Underwater World of the Red Sea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A shark swims gracefully through a vibrant coral reef, surrounded by colorful fish and diverse marine life. Sunlight filters through the clear water, illuminating the rich colors of the corals and the sleek body of the shark.",
+      "description": "The scene captures an underwater coral reef environment, showcasing the dynamic ecosystem of marine life. A shark is the central figure, moving through the reef with various fish and corals adding to the lively setting.",
+      "labels": {
+        "animals": [
+          "shark",
+          "fish"
+        ],
+        "nature": [
+          "coral reef",
+          "ocean"
+        ],
+        "objects": [
+          "corals"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "marine life",
+          "biodiversity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Underwater World of the Red Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Underwater World of the Red Sea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large shark swims gracefully through a vibrant coral reef, surrounded by colorful fish. Sunlight filters through the clear water, illuminating the diverse marine life and coral formations.",
+      "description": "The scene captures an underwater view of a coral reef, featuring a prominent shark in the foreground. The setting is lively and natural, with various fish swimming around the coral structures.",
+      "labels": {
+        "animals": [
+          "shark",
+          "fish"
+        ],
+        "nature": [
+          "coral reef",
+          "underwater"
+        ],
+        "objects": [
+          "coral"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "marine life"
+        ],
+        "concepts": [
+          "biodiversity",
+          "ocean"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: shark, fish. Nature: coral reef, ocean, underwater. Objects: corals, coral. Actions: swimming. Emotions: serene. Scenes: underwater, marine life. Concepts: biodiversity, marine life, ocean",
+  "primary_labels": {
+    "animals": [
+      "shark",
+      "fish"
+    ],
+    "nature": [
+      "coral reef",
+      "ocean",
+      "underwater"
+    ],
+    "objects": [
+      "corals",
+      "coral"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "underwater",
+      "marine life"
+    ],
+    "concepts": [
+      "biodiversity",
+      "marine life",
+      "ocean"
+    ]
+  },
+  "metadata": {}
+}

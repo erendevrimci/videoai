@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A stunning woman standing confid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A stunning woman standing confid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A stunning woman standing confid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is sitting on the hood of a sleek, silver sports car. She is dressed in a stylish outfit, with her legs crossed and hands resting on the car. The background features a blurred sign with text, suggesting an event or show setting.",
+      "description": "The scene is set at an automotive event or car show, where a model poses on a high-end sports car. The atmosphere is glamorous and promotional, highlighting both the car and the model.",
+      "labels": {
+        "people": [
+          "woman",
+          "model"
+        ],
+        "objects": [
+          "sports car",
+          "car hood",
+          "sign"
+        ],
+        "actions": [
+          "sitting",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "car show",
+          "promotional event"
+        ],
+        "concepts": [
+          "glamour",
+          "automotive"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A stunning woman standing confid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A stunning woman standing confid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is elegantly seated on the hood of a sleek, modern car. She is dressed in a stylish outfit with a confident expression, exuding a sense of glamour and sophistication.",
+      "description": "The scene captures a promotional or modeling setting, possibly at an auto show or a fashion event. The focus is on the woman and the car, highlighting both style and luxury.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "outfit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "promotional",
+          "modeling"
+        ],
+        "concepts": [
+          "glamour",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, model. Objects: sports car, car hood, sign, car, outfit. Actions: sitting, posing. Emotions: confident, confidence. Scenes: car show, promotional event, promotional, modeling. Concepts: glamour, automotive, sophistication",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "model"
+    ],
+    "objects": [
+      "sports car",
+      "car hood",
+      "sign",
+      "car",
+      "outfit"
+    ],
+    "actions": [
+      "sitting",
+      "posing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "car show",
+      "promotional event",
+      "promotional",
+      "modeling"
+    ],
+    "concepts": [
+      "glamour",
+      "automotive",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

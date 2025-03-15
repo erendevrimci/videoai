@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/''The Eye of the Night queen''.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/''The Eye of the Night queen''.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/''The Eye of the Night queen''/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features a stylized, glowing eye set against a dark background, creating a mysterious and intense atmosphere. The text 'Born in Darkness, Sworn to Justice' suggests a theme of transformation or duality. The word 'Nightmare' at the bottom adds a sense of foreboding.",
+      "description": "This is a dramatic and minimalist poster design, likely for a movie or a game, emphasizing themes of darkness and justice. The focus is on a single eye, which is vividly colored and contrasts sharply with the black background.",
+      "labels": {
+        "objects": [
+          "eye",
+          "text"
+        ],
+        "actions": [
+          "glowing"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense",
+          "foreboding"
+        ],
+        "scenes": [
+          "poster",
+          "darkness"
+        ],
+        "concepts": [
+          "justice",
+          "transformation",
+          "duality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/''The Eye of the Night queen''.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/''The Eye of the Night queen''/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking close-up of a large, glowing blue eye set against a dark background. The eye is detailed with a sharp black pupil and surrounded by a few stylized lashes.",
+      "description": "The scene is a dramatic and mysterious close-up of an eye, likely belonging to an animated or fictional character. The setting is minimalistic, focusing solely on the eye with a dark, shadowy atmosphere.",
+      "labels": {
+        "objects": [
+          "eye",
+          "pupil",
+          "lashes"
+        ],
+        "emotions": [
+          "mystery",
+          "intensity"
+        ],
+        "scenes": [
+          "close-up",
+          "dark background"
+        ],
+        "concepts": [
+          "animation",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: eye, text, pupil, lashes. Actions: glowing. Emotions: mysterious, intense, foreboding, mystery, intensity. Scenes: poster, darkness, close-up, dark background. Concepts: justice, transformation, duality, animation, character design",
+  "primary_labels": {
+    "objects": [
+      "eye",
+      "text",
+      "pupil",
+      "lashes"
+    ],
+    "actions": [
+      "glowing"
+    ],
+    "emotions": [
+      "mysterious",
+      "intense",
+      "foreboding",
+      "mystery",
+      "intensity"
+    ],
+    "scenes": [
+      "poster",
+      "darkness",
+      "close-up",
+      "dark background"
+    ],
+    "concepts": [
+      "justice",
+      "transformation",
+      "duality",
+      "animation",
+      "character design"
+    ]
+  },
+  "metadata": {}
+}

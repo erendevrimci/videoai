@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cARealisticAnimatedSceneOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cARealisticAnimatedSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cARealisticAnimatedSceneOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of miniature chefs, each wearing a white chef's hat and uniform, are gathered around a grill. They are busy cooking skewered meat and tomatoes, with smoke rising from the grill, creating a lively and bustling kitchen scene.",
+      "description": "The scene depicts a playful and imaginative setting where miniature chefs are actively engaged in a cooking session. The focus is on the teamwork and culinary activity taking place around a grill.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "grill",
+          "skewers",
+          "tomatoes",
+          "chef hats",
+          "chef uniforms"
+        ],
+        "actions": [
+          "cooking",
+          "grilling"
+        ],
+        "emotions": [
+          "focused",
+          "busy"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "teamwork",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cARealisticAnimatedSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cARealisticAnimatedSceneOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature chef figurines is gathered around a grill, appearing to cook skewered meat. The scene is animated with smoke rising from the grill, adding a dynamic touch to the playful setup.",
+      "description": "The scene depicts a whimsical setting where small chef figurines are engaged in a cooking activity around a grill. The focus is on the skewers of meat being cooked, with a backdrop of smoke creating a lively atmosphere.",
+      "labels": {
+        "people": [
+          "chef figurines"
+        ],
+        "objects": [
+          "grill",
+          "skewers",
+          "chef hats"
+        ],
+        "actions": [
+          "cooking",
+          "grilling"
+        ],
+        "emotions": [
+          "playful",
+          "animated"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking scene"
+        ],
+        "concepts": [
+          "miniature",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs, chef figurines. Objects: grill, skewers, chef hats, tomatoes, chef uniforms. Actions: cooking, grilling. Emotions: focused, busy, playful, animated. Scenes: kitchen, culinary, cooking scene. Concepts: miniature, teamwork, culinary art",
+  "primary_labels": {
+    "people": [
+      "miniature chefs",
+      "chef figurines"
+    ],
+    "objects": [
+      "grill",
+      "skewers",
+      "chef hats",
+      "tomatoes",
+      "chef uniforms"
+    ],
+    "actions": [
+      "cooking",
+      "grilling"
+    ],
+    "emotions": [
+      "focused",
+      "busy",
+      "playful",
+      "animated"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary",
+      "cooking scene"
+    ],
+    "concepts": [
+      "miniature",
+      "teamwork",
+      "culinary art"
+    ]
+  },
+  "metadata": {}
+}

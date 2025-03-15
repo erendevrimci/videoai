@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shrimp.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shrimp.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shrimp/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cartoon shrimp character stands confidently in a vibrant underwater scene, wearing boxing gloves and shorts. The character's large eyes and expressive face convey determination, surrounded by colorful coral and a blue ocean backdrop.",
+      "description": "The scene depicts an animated shrimp character in a whimsical underwater setting, exuding a playful yet determined demeanor. The environment is filled with colorful marine life and corals, creating a lively and engaging atmosphere.",
+      "labels": {
+        "animals": [
+          "shrimp"
+        ],
+        "objects": [
+          "boxing gloves",
+          "shorts"
+        ],
+        "nature": [
+          "coral",
+          "ocean"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "animation",
+          "cartoon"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shrimp.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shrimp/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cartoon shrimp character stands confidently underwater, wearing boxing gloves and shorts. The scene is vibrant with colorful coral and a bright blue background.",
+      "description": "The image depicts an animated shrimp character in an underwater setting. The shrimp is dressed like a boxer, complete with red boxing gloves and shorts, surrounded by coral reefs.",
+      "labels": {
+        "animals": [
+          "shrimp"
+        ],
+        "objects": [
+          "boxing gloves",
+          "shorts"
+        ],
+        "nature": [
+          "coral",
+          "underwater"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "animation",
+          "boxing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shrimp.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shrimp/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cartoonish shrimp character is dressed as a boxer, complete with red boxing gloves and shorts, standing confidently on the ocean floor. The underwater scene is vibrant, with coral and sea plants surrounding the character, illuminated by beams of light from above.",
+      "description": "The scene depicts an animated shrimp character under the sea, styled as a boxer. The setting is colorful and lively, with various marine elements like corals and sea plants, creating a playful and adventurous atmosphere.",
+      "labels": {
+        "animals": [
+          "shrimp"
+        ],
+        "objects": [
+          "boxing gloves",
+          "boxing shorts"
+        ],
+        "nature": [
+          "coral",
+          "sea plants"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "animation",
+          "boxing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: shrimp. Objects: boxing gloves, shorts, boxing shorts. Nature: coral, ocean, underwater, sea plants. Actions: standing. Emotions: confident, determination. Scenes: underwater. Concepts: animation, boxing, cartoon",
+  "primary_labels": {
+    "animals": [
+      "shrimp"
+    ],
+    "objects": [
+      "boxing gloves",
+      "shorts",
+      "boxing shorts"
+    ],
+    "nature": [
+      "coral",
+      "ocean",
+      "underwater",
+      "sea plants"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "determination"
+    ],
+    "scenes": [
+      "underwater"
+    ],
+    "concepts": [
+      "animation",
+      "boxing",
+      "cartoon"
+    ]
+  },
+  "metadata": {}
+}

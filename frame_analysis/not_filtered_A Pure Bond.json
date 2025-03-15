@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Pure Bond.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Pure Bond.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Pure Bond/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A curious baby and a tabby cat sit facing each other on a soft carpet, both reaching out with their hands and paws. The warm sunlight filters through a window, casting a gentle glow over the scene.",
+      "description": "The scene captures a tender interaction between a baby and a cat in a cozy indoor setting. The baby, dressed in a light onesie, is on all fours, gazing intently at the cat, which is sitting upright with its paw extended. Toys are scattered in the background, suggesting a playful environment.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "toys"
+        ],
+        "actions": [
+          "reaching",
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "gentleness"
+        ],
+        "scenes": [
+          "indoor",
+          "playful"
+        ],
+        "concepts": [
+          "interaction",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Pure Bond.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Pure Bond/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby and a tabby cat are playfully interacting on a sunlit carpet. The baby, dressed in a light onesie, reaches out to touch the cat's paw, creating a moment of gentle curiosity and connection. Soft sunlight filters through a window, casting a warm glow over the scene.",
+      "description": "The scene takes place in a cozy, sunlit room where a baby and a cat are engaging in a playful interaction. The atmosphere is warm and inviting, with natural light enhancing the tender moment between the two.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "window"
+        ],
+        "actions": [
+          "playing",
+          "reaching"
+        ],
+        "emotions": [
+          "curiosity",
+          "joy"
+        ],
+        "scenes": [
+          "indoor",
+          "playtime"
+        ],
+        "concepts": [
+          "innocence",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Pure Bond.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Pure Bond/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A baby and a tabby cat are sitting on a soft carpet, bathed in warm sunlight. The baby reaches out gently to touch the cat, creating a moment of curiosity and connection.",
+      "description": "The scene captures a tender interaction between a baby and a cat in a cozy, sunlit room. The atmosphere is serene and heartwarming, emphasizing the innocence and curiosity of childhood.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "toys"
+        ],
+        "actions": [
+          "touching",
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "playtime"
+        ],
+        "concepts": [
+          "innocence",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: carpet, toys, window. Actions: reaching, sitting, playing, touching. Emotions: curiosity, gentleness, joy, calm. Scenes: indoor, playtime, playful. Concepts: innocence, interaction, friendship, connection",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "nature": [],
+    "objects": [
+      "carpet",
+      "toys",
+      "window"
+    ],
+    "actions": [
+      "reaching",
+      "sitting",
+      "playing",
+      "touching"
+    ],
+    "emotions": [
+      "curiosity",
+      "gentleness",
+      "joy",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "playtime",
+      "playful"
+    ],
+    "concepts": [
+      "innocence",
+      "interaction",
+      "friendship",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

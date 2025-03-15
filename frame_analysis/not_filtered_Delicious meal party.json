@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Delicious meal party.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Delicious meal party.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Delicious meal party/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical dining room, three kittens dressed as chefs are playfully tossing ingredients into the air over a lavishly set table. The table is adorned with a variety of colorful dishes, creating a lively and imaginative culinary scene.",
+      "description": "The scene is set in an ornate dining room with a long wooden table filled with an array of vibrant dishes. Three kittens, wearing chef hats and outfits, are energetically engaged in cooking activities, adding a playful and magical atmosphere to the setting.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "chef hats",
+          "dishes",
+          "table",
+          "chandelier"
+        ],
+        "actions": [
+          "tossing ingredients",
+          "cooking"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "dining room",
+          "culinary"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Delicious meal party.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Delicious meal party/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three cats dressed as chefs are playfully tossing ingredients in the air in a lavish dining room. The table is laden with various colorful dishes, creating a lively and whimsical atmosphere. The cats appear to be joyfully engaged in a culinary adventure.",
+      "description": "The scene is set in an opulent dining room with ornate decor and large circular windows. Three cats, dressed in chef outfits, are animatedly preparing food on a grand table filled with an array of vibrant dishes.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "table",
+          "dishes",
+          "chef hats",
+          "food"
+        ],
+        "actions": [
+          "tossing",
+          "cooking"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "dining room",
+          "culinary"
+        ],
+        "concepts": [
+          "whimsy",
+          "culinary adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Delicious meal party.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Delicious meal party/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "In a lavishly decorated dining room, two cats dressed as chefs are engaged in a playful culinary scene. One cat is tossing vegetables into the air, while the other watches with interest, surrounded by an array of colorful dishes on a grand table.",
+      "description": "The scene is set in an opulent dining room with large circular windows and elegant lighting. Two cats, dressed in chef attire, are the main focus as they interact with the food around them, creating a whimsical and lively atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "chef hats",
+          "plates",
+          "food",
+          "table",
+          "chandelier"
+        ],
+        "actions": [
+          "tossing",
+          "watching"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "dining room",
+          "culinary"
+        ],
+        "concepts": [
+          "whimsy",
+          "culinary arts"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats, kittens. Objects: chef hats, table, dishes, chandelier, food. Actions: cooking, tossing, tossing ingredients, watching. Emotions: playful, joyful. Scenes: dining room, culinary. Concepts: whimsy, imagination, culinary adventure, culinary arts",
+  "primary_labels": {
+    "animals": [
+      "cats",
+      "kittens"
+    ],
+    "objects": [
+      "chef hats",
+      "table",
+      "dishes",
+      "chandelier",
+      "food"
+    ],
+    "actions": [
+      "cooking",
+      "tossing",
+      "tossing ingredients",
+      "watching"
+    ],
+    "emotions": [
+      "playful",
+      "joyful"
+    ],
+    "scenes": [
+      "dining room",
+      "culinary"
+    ],
+    "concepts": [
+      "whimsy",
+      "imagination",
+      "culinary adventure",
+      "culinary arts"
+    ]
+  },
+  "metadata": {}
+}

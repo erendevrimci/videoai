@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The woman is smiling at the came.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The woman is smiling at the came.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The woman is smiling at the came/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking red hair stands confidently in a dimly lit, elegant setting. She is wearing a shimmering, sequined dress that catches the ambient light, adding to the glamorous atmosphere.",
+      "description": "The scene is set in a sophisticated, possibly nightlife environment, with soft, blurred lights in the background creating a bokeh effect. The focus is on the woman, who exudes confidence and elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "nightlife",
+          "elegant setting"
+        ],
+        "concepts": [
+          "glamour",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The woman is smiling at the came.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The woman is smiling at the came/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vibrant red hair smiles warmly in a dimly lit setting. She is wearing a sparkling dress that catches the ambient light, creating a glamorous effect.",
+      "description": "The scene is set in a dimly lit environment, possibly a bar or club, with a warm and inviting atmosphere. The focus is on a woman who exudes confidence and charm.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "nightlife"
+        ],
+        "concepts": [
+          "glamour",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, earrings. Actions: standing, smiling. Emotions: confidence, happiness. Scenes: nightlife, elegant setting, indoor. Concepts: glamour, fashion, warmth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "nightlife",
+      "elegant setting",
+      "indoor"
+    ],
+    "concepts": [
+      "glamour",
+      "fashion",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

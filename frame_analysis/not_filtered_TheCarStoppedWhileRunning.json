@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCarStoppedWhileRunning.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCarStoppedWhileRunning.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCarStoppedWhileRunning/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic blue sports car with sleek, aerodynamic design speeds along a coastal road. The car's unique wing-like doors are raised, adding to its striking appearance. The background features a scenic ocean view with cliffs and trees lining the road.",
+      "description": "The scene captures a high-tech sports car driving on a winding coastal road. The setting is serene with the ocean on one side and cliffs with trees on the other, suggesting a blend of technology and nature.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "road",
+          "ocean",
+          "cliffs",
+          "trees"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "coastal road",
+          "ocean view"
+        ],
+        "concepts": [
+          "futuristic design",
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCarStoppedWhileRunning.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCarStoppedWhileRunning/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering robot stands majestically on a rooftop, overlooking a cityscape. The sky is filled with dramatic clouds, enhancing the imposing presence of the robot.",
+      "description": "The scene depicts a large robot standing on a building in an urban environment. The robot's design is sleek and futuristic, with a mix of metallic and red accents. The background features a city skyline under a cloudy sky, adding to the dramatic atmosphere.",
+      "labels": {
+        "objects": [
+          "robot",
+          "building",
+          "cityscape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "majestic",
+          "imposing"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, road, ocean, cliffs, trees. Actions: driving, standing. Emotions: excitement, majestic, imposing. Scenes: coastal road, ocean view, urban, futuristic. Concepts: technology, futuristic design, nature, power",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "road",
+      "ocean",
+      "cliffs",
+      "trees"
+    ],
+    "actions": [
+      "driving",
+      "standing"
+    ],
+    "emotions": [
+      "excitement",
+      "majestic",
+      "imposing"
+    ],
+    "scenes": [
+      "coastal road",
+      "ocean view",
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic design",
+      "nature",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

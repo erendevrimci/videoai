@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWoman,Around25.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWoman,Around25.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWoman,Around25/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing brown dress sits gracefully on a large tree branch, surrounded by lush green foliage. The warm, golden sunlight filters through the leaves, casting a gentle glow on her and the tree.",
+      "description": "The scene is set in a dense, green forest where a woman is perched on a thick tree branch. The sunlight creates a serene and magical atmosphere as it illuminates the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree",
+          "leaves",
+          "forest"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWoman,Around25.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWoman,Around25/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a brown dress sits gracefully on a large tree branch, surrounded by lush green foliage. The golden sunlight filters through the leaves, casting a warm glow on her and the tree.",
+      "description": "The scene is set in a serene forest environment during what appears to be late afternoon or early evening. The woman is perched comfortably on a sturdy tree branch, enjoying the tranquility of nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree",
+          "leaves",
+          "forest"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ],
+        "scenes": [
+          "forest",
+          "nature"
+        ],
+        "concepts": [
+          "serenity",
+          "connection with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: tree, leaves, forest. Objects: dress. Actions: sitting. Emotions: peaceful, serene, calm. Scenes: forest, nature. Concepts: nature, tranquility, serenity, connection with nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "tree",
+      "leaves",
+      "forest"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "peaceful",
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "forest",
+      "nature"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "serenity",
+      "connection with nature"
+    ]
+  },
+  "metadata": {}
+}

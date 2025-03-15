@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMicro-rotatingCameraFollowsA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMicro-rotatingCameraFollowsA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMicro-rotatingCameraFollowsA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature train travels through a tunnel formed by large, overlapping cabbage leaves. Tiny figures stand on a wooden platform beside the tracks, observing the train's journey through this whimsical, leafy landscape.",
+      "description": "The scene depicts a fantastical setting where a small train navigates through a tunnel created by giant cabbage leaves. The environment is lush and green, with a sense of wonder and imagination.",
+      "labels": {
+        "nature": [
+          "cabbage",
+          "leaves"
+        ],
+        "objects": [
+          "train",
+          "tracks",
+          "platform"
+        ],
+        "people": [
+          "figures"
+        ],
+        "actions": [
+          "traveling",
+          "observing"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "miniature",
+          "fantasy"
+        ],
+        "concepts": [
+          "scale",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMicro-rotatingCameraFollowsA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMicro-rotatingCameraFollowsA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature blue train chugs along a track surrounded by lush green cabbage leaves. The train emits gentle puffs of steam as it navigates through the verdant tunnel. The scene captures a whimsical blend of nature and miniature engineering.",
+      "description": "The scene depicts a small, detailed model train traveling through a tunnel formed by large cabbage leaves. The setting is imaginative, combining elements of nature with a playful, miniature world.",
+      "labels": {
+        "nature": [
+          "cabbage",
+          "leaves"
+        ],
+        "objects": [
+          "miniature train",
+          "train track"
+        ],
+        "actions": [
+          "train moving",
+          "steam emitting"
+        ],
+        "scenes": [
+          "miniature scene",
+          "nature tunnel"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: cabbage, leaves. Objects: train, tracks, platform, miniature train, train track. People: figures. Actions: traveling, observing, train moving, steam emitting. Emotions: whimsical, imaginative. Scenes: miniature, fantasy, miniature scene, nature tunnel. Concepts: scale, creativity, whimsy, imagination",
+  "primary_labels": {
+    "nature": [
+      "cabbage",
+      "leaves"
+    ],
+    "objects": [
+      "train",
+      "tracks",
+      "platform",
+      "miniature train",
+      "train track"
+    ],
+    "people": [
+      "figures"
+    ],
+    "actions": [
+      "traveling",
+      "observing",
+      "train moving",
+      "steam emitting"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "miniature",
+      "fantasy",
+      "miniature scene",
+      "nature tunnel"
+    ],
+    "concepts": [
+      "scale",
+      "creativity",
+      "whimsy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

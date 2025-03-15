@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jellyfish Woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jellyfish Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Jellyfish Woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is enveloped in an intricate, ethereal gown that resembles a fusion of fabric and organic forms. The gown features delicate, flowing structures that mimic the appearance of coral or sea life, creating a surreal and dreamlike atmosphere.",
+      "description": "The scene depicts a person in a fantastical setting, surrounded by a gown that blends elements of nature and art. The setting is otherworldly, with an emphasis on the interplay between human form and organic design.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "coral-like structures"
+        ],
+        "objects": [
+          "gown",
+          "fabric"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "fusion of nature and art",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jellyfish Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Jellyfish Woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is enveloped in an intricate, ethereal gown that resembles a blend of organic and fantastical elements. The gown features flowing, cream-colored fabric interwoven with delicate, plant-like structures, creating a surreal and dreamlike appearance.",
+      "description": "The scene presents a surreal and artistic portrayal of a person immersed in a fantastical garment that merges elements of nature and imagination. The setting is likely a studio environment focused on highlighting the detailed textures and forms of the attire.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "plant-like structures"
+        ],
+        "objects": [
+          "gown",
+          "fabric"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "artistic"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: coral-like structures, plant-like structures. Objects: gown, fabric. Actions: standing. Emotions: serene. Scenes: fantasy, artistic. Concepts: surrealism, fusion of nature and art, imagination",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "coral-like structures",
+      "plant-like structures"
+    ],
+    "objects": [
+      "gown",
+      "fabric"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "fantasy",
+      "artistic"
+    ],
+    "concepts": [
+      "surrealism",
+      "fusion of nature and art",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

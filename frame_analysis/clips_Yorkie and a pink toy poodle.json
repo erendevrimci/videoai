@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yorkie and a pink toy poodle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yorkie and a pink toy poodle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Yorkie and a pink toy poodle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small dog and a plush toy sit together in a decorative hot air balloon basket. The dog looks curiously at the camera, while the plush toy mimics its appearance. The scene is whimsical and colorful, with intricate details on the basket.",
+      "description": "The scene depicts a playful and imaginative setting where a small dog and a plush toy are placed inside a creatively designed hot air balloon basket. The background is softly blurred, enhancing the focus on the subjects.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "hot air balloon",
+          "basket",
+          "plush toy"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "whimsical",
+          "imaginative"
+        ],
+        "concepts": [
+          "companionship",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yorkie and a pink toy poodle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Yorkie and a pink toy poodle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog and a plush toy sit together in a decorative hot air balloon basket. The dog appears alert and curious, while the plush toy adds a whimsical touch to the scene.",
+      "description": "The scene depicts a small dog and a plush toy in a hot air balloon basket, surrounded by a dreamy and colorful background. The setting suggests a playful and imaginative adventure.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "hot air balloon",
+          "basket",
+          "plush toy"
+        ],
+        "scenes": [
+          "whimsical",
+          "adventure"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: hot air balloon, basket, plush toy. Actions: sitting. Emotions: curiosity, playfulness. Scenes: whimsical, imaginative, adventure. Concepts: companionship, adventure",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "hot air balloon",
+      "basket",
+      "plush toy"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "whimsical",
+      "imaginative",
+      "adventure"
+    ],
+    "concepts": [
+      "companionship",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

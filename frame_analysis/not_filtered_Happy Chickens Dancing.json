@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Chickens Dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Chickens Dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Chickens Dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of animated chickens with vibrant red combs and expressive eyes are joyfully dancing in a lively street setting. The scene is filled with colorful decorations and a bustling background, suggesting a festive atmosphere.",
+      "description": "The image depicts a cheerful street scene with animated chickens as the central focus, engaging in a lively dance. The background is adorned with colorful decorations, indicating a celebration or festival in a vibrant urban setting.",
+      "labels": {
+        "animals": [
+          "chickens"
+        ],
+        "objects": [
+          "decorations",
+          "buildings"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful",
+          "festive"
+        ],
+        "scenes": [
+          "street",
+          "festival"
+        ],
+        "concepts": [
+          "animation",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Chickens Dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Chickens Dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of animated chickens with bright red combs and expressive eyes are joyfully dancing in a lively street market. The scene is vibrant with colorful decorations hanging above and blurred figures in the background, suggesting a festive atmosphere.",
+      "description": "The scene is set in a bustling street market, filled with animated chickens energetically dancing. The background is adorned with colorful decorations, indicating a celebration or festival, with people casually observing the lively performance.",
+      "labels": {
+        "animals": [
+          "chickens"
+        ],
+        "objects": [
+          "decorations",
+          "market"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful",
+          "festive"
+        ],
+        "scenes": [
+          "street market",
+          "celebration"
+        ],
+        "concepts": [
+          "animation",
+          "festival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Chickens Dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Chickens Dancing/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A group of animated, cheerful chickens are gathered in a lively outdoor market setting. They appear to be dancing joyfully with their wings spread wide, surrounded by colorful decorations and onlookers.",
+      "description": "The scene is set in a bustling outdoor market, filled with vibrant colors and festive decorations. Animated chickens are the focal point, engaging in a lively dance, creating an atmosphere of joy and celebration.",
+      "labels": {
+        "animals": [
+          "chickens"
+        ],
+        "objects": [
+          "market",
+          "decorations"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "outdoor market",
+          "festive"
+        ],
+        "concepts": [
+          "celebration",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: chickens. Objects: decorations, market, buildings. Actions: dancing. Emotions: joyful, festive, cheerful. Scenes: street, festival, street market, celebration, outdoor market. Concepts: animation, celebration, festival",
+  "primary_labels": {
+    "animals": [
+      "chickens"
+    ],
+    "objects": [
+      "decorations",
+      "market",
+      "buildings"
+    ],
+    "actions": [
+      "dancing"
+    ],
+    "emotions": [
+      "joyful",
+      "festive",
+      "cheerful"
+    ],
+    "scenes": [
+      "street",
+      "festival",
+      "street market",
+      "celebration",
+      "outdoor market"
+    ],
+    "concepts": [
+      "animation",
+      "celebration",
+      "festival"
+    ]
+  },
+  "metadata": {}
+}

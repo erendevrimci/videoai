@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,warmLight,rich.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,warmLight,rich.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,warmLight,rich/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with long hair stands in a modern living room, holding a drink. The room features a large television mounted on a marble wall, with stylish furniture and decor.",
+      "description": "The scene is set in a contemporary living room with elegant design elements. A person is casually standing, adding a sense of life to the sophisticated setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "television",
+          "marble wall",
+          "furniture",
+          "drink",
+          "table"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "scenes": [
+          "living room",
+          "interior"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "modern design",
+          "home decor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,warmLight,rich.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,warmLight,rich/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl is stepping down from a striped armchair in a modern living room. The room features a large flat-screen TV mounted on a marble wall, with a stylish circular ceiling light above. A small coffee table with a plant adds a touch of nature to the contemporary setting.",
+      "description": "The scene is set in a modern, stylish living room with a focus on contemporary design elements. A young girl is the central figure, moving down from a uniquely designed armchair. The room's decor includes a marble wall, a large TV, and a chic coffee table, creating a sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "armchair",
+          "TV",
+          "coffee table",
+          "plant",
+          "ceiling light"
+        ],
+        "actions": [
+          "stepping down"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "living room"
+        ],
+        "concepts": [
+          "modern design",
+          "interior decor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,warmLight,rich.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,warmLight,rich/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl stands in a softly lit room, holding a cup in her hands. She is dressed casually and appears to be in a relaxed, domestic setting.",
+      "description": "The scene takes place indoors, likely in a living room or bedroom, with soft natural light filtering through sheer curtains. The atmosphere is calm and serene.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "cup",
+          "curtains",
+          "striped furniture"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "domestic"
+        ],
+        "concepts": [
+          "relaxation",
+          "home"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, person. Objects: television, marble wall, furniture, drink, table. Actions: holding, standing, stepping down. Scenes: living room, interior, indoor, domestic. Emotions: calm. Concepts: modern design, home decor, interior decor, relaxation, home",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "person"
+    ],
+    "objects": [
+      "television",
+      "marble wall",
+      "furniture",
+      "drink",
+      "table"
+    ],
+    "actions": [
+      "holding",
+      "standing",
+      "stepping down"
+    ],
+    "scenes": [
+      "living room",
+      "interior",
+      "indoor",
+      "domestic"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "concepts": [
+      "modern design",
+      "home decor",
+      "interior decor",
+      "relaxation",
+      "home"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1\u2013IntroductionOldBlack-and-white.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1\u2013IntroductionOldBlack-and-white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene1\u2013IntroductionOldBlack-and-white/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of men in vintage attire stand solemnly in front of an ornate, historical building. The scene is captured in a sepia-toned photograph, framed and held by unseen hands. The men appear serious and focused, suggesting an important moment in time.",
+      "description": "The image depicts a historical setting with a group of men dressed in early 20th-century clothing. They are positioned in front of a grand architectural structure, possibly a government or cultural building, indicating a formal or significant occasion.",
+      "labels": {
+        "people": [
+          "men",
+          "group"
+        ],
+        "objects": [
+          "frame",
+          "photograph"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "seriousness"
+        ],
+        "scenes": [
+          "historical",
+          "formal"
+        ],
+        "concepts": [
+          "vintage",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1\u2013IntroductionOldBlack-and-white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene1\u2013IntroductionOldBlack-and-white/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts three men in formal attire standing in front of an elaborate architectural backdrop. The central figure, with a prominent mustache, gazes confidently forward, while the other two men appear slightly behind him, adding depth to the scene.",
+      "description": "The scene is set against a backdrop of grand, ornate architecture, reminiscent of a historical or fantastical cityscape. The men are dressed in period clothing, suggesting a setting from the late 19th or early 20th century.",
+      "labels": {
+        "people": [
+          "men"
+        ],
+        "objects": [
+          "suits",
+          "buildings"
+        ],
+        "scenes": [
+          "historical",
+          "cityscape"
+        ],
+        "emotions": [
+          "confidence",
+          "seriousness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: men, group. Objects: frame, photograph, suits, buildings. Actions: standing. Emotions: seriousness, confidence. Scenes: historical, formal, cityscape. Concepts: vintage, architecture",
+  "primary_labels": {
+    "people": [
+      "men",
+      "group"
+    ],
+    "objects": [
+      "frame",
+      "photograph",
+      "suits",
+      "buildings"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "seriousness",
+      "confidence"
+    ],
+    "scenes": [
+      "historical",
+      "formal",
+      "cityscape"
+    ],
+    "concepts": [
+      "vintage",
+      "architecture"
+    ]
+  },
+  "metadata": {}
+}

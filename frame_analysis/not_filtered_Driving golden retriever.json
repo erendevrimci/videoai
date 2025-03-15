@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Driving golden retriever.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Driving golden retriever.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Driving golden retriever/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A golden retriever puppy wearing sunglasses sits in the driver's seat of a car, with its paws on the armrest. The car interior is sleek and modern, and the sun is setting over a scenic countryside visible through the window.",
+      "description": "The scene is set inside a car, likely on a road trip through a picturesque landscape. The playful and humorous image features a puppy in a human-like pose, adding a whimsical touch to the setting.",
+      "labels": {
+        "animals": [
+          "dog",
+          "puppy"
+        ],
+        "objects": [
+          "car",
+          "sunglasses",
+          "steering wheel"
+        ],
+        "nature": [
+          "countryside",
+          "sunset"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "road trip",
+          "car interior"
+        ],
+        "concepts": [
+          "travel",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Driving golden retriever.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Driving golden retriever/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A playful golden retriever puppy wearing sunglasses sits in the driver's seat of a car, giving the impression of driving. The sun sets in the background, casting a warm glow over the scene.",
+      "description": "The scene depicts a humorous and whimsical setting where a golden retriever puppy appears to be driving a car. The setting sun and open road suggest a road trip or adventure.",
+      "labels": {
+        "animals": [
+          "dog",
+          "puppy"
+        ],
+        "objects": [
+          "car",
+          "sunglasses",
+          "steering wheel"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "road trip",
+          "sunset"
+        ],
+        "concepts": [
+          "humor",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog, puppy. Objects: car, sunglasses, steering wheel. Nature: countryside, sunset. Emotions: playful, humorous, joyful. Scenes: road trip, car interior, sunset. Concepts: adventure, travel, humor. Actions: sitting",
+  "primary_labels": {
+    "animals": [
+      "dog",
+      "puppy"
+    ],
+    "objects": [
+      "car",
+      "sunglasses",
+      "steering wheel"
+    ],
+    "nature": [
+      "countryside",
+      "sunset"
+    ],
+    "emotions": [
+      "playful",
+      "humorous",
+      "joyful"
+    ],
+    "scenes": [
+      "road trip",
+      "car interior",
+      "sunset"
+    ],
+    "concepts": [
+      "adventure",
+      "travel",
+      "humor"
+    ],
+    "actions": [
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/roller coaster.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/roller coaster.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/roller coaster/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of cats are seated in a roller coaster car labeled 'Gigacat,' appearing curious and slightly bewildered. The cats are lined up in a row, each peering over the edge of the car as if anticipating the ride ahead.",
+      "description": "The scene depicts a whimsical setting where several cats are humorously placed in a roller coaster car. The background suggests an amusement park environment with blurred structures indicating motion and excitement.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "roller coaster",
+          "car"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "bewilderment"
+        ],
+        "scenes": [
+          "amusement park"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/roller coaster.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/roller coaster/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of cats are seated in a roller coaster car labeled 'Gigacat,' appearing curious and alert. The cats are lined up in a row, each peering over the edge of the car as if ready for an adventure. The background suggests an amusement park setting with blurred colorful structures.",
+      "description": "The scene depicts several cats sitting in a roller coaster car, creating a whimsical and humorous setting. The cats appear to be enjoying a ride, with their expressions conveying curiosity and anticipation. The setting is likely an amusement park, indicated by the colorful and blurred structures in the background.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "roller coaster",
+          "car"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "anticipation"
+        ],
+        "scenes": [
+          "amusement park",
+          "ride"
+        ],
+        "concepts": [
+          "whimsy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: roller coaster, car. Actions: sitting. Emotions: curiosity, bewilderment, anticipation. Scenes: amusement park, ride. Concepts: humor, anthropomorphism, whimsy, adventure",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "roller coaster",
+      "car"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "curiosity",
+      "bewilderment",
+      "anticipation"
+    ],
+    "scenes": [
+      "amusement park",
+      "ride"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "whimsy",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

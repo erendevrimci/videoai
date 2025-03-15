@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant banana tart/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers assembling a banana tart. The workers, dressed in blue overalls and yellow helmets, are carefully arranging banana slices and powdered sugar. The setting is playful, resembling a construction site with food elements.",
+      "description": "The image portrays a creative and imaginative scene where tiny figures are engaged in constructing a dessert. The focus is on a banana tart, with the workers meticulously placing banana slices and sprinkling powdered sugar, creating a playful and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "banana slices",
+          "tart",
+          "ladder",
+          "baskets"
+        ],
+        "actions": [
+          "assembling",
+          "arranging",
+          "sprinkling"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "construction site",
+          "dessert preparation"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant banana tart/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Miniature construction workers are assembling a banana tart, stacking banana slices and dusting powdered sugar. The scene is whimsical, with tiny figures in hard hats and overalls working diligently. A large banana looms in the background, adding to the playful scale of the scene.",
+      "description": "The scene depicts a playful and imaginative setting where miniature workers are engaged in constructing a banana tart. The figures are dressed in construction attire, complete with hard hats, and are seen climbing ladders and handling banana slices as if they were building materials.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "banana slices",
+          "tart",
+          "ladder",
+          "baskets",
+          "powdered sugar"
+        ],
+        "actions": [
+          "assembling",
+          "stacking",
+          "dusting"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "miniature construction",
+          "food art"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: banana slices, tart, ladder, baskets, powdered sugar. Actions: assembling, arranging, sprinkling, stacking, dusting. Emotions: playful, whimsical. Scenes: construction site, dessert preparation, miniature construction, food art. Concepts: miniature world, food art, creativity, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "banana slices",
+      "tart",
+      "ladder",
+      "baskets",
+      "powdered sugar"
+    ],
+    "actions": [
+      "assembling",
+      "arranging",
+      "sprinkling",
+      "stacking",
+      "dusting"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "construction site",
+      "dessert preparation",
+      "miniature construction",
+      "food art"
+    ],
+    "concepts": [
+      "miniature world",
+      "food art",
+      "creativity",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

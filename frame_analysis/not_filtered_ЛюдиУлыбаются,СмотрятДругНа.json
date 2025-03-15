@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041b\u044e\u0434\u0438\u0423\u043b\u044b\u0431\u0430\u044e\u0442\u0441\u044f,\u0421\u043c\u043e\u0442\u0440\u044f\u0442\u0414\u0440\u0443\u0433\u041d\u0430.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041b\u044e\u0434\u0438\u0423\u043b\u044b\u0431\u0430\u044e\u0442\u0441\u044f,\u0421\u043c\u043e\u0442\u0440\u044f\u0442\u0414\u0440\u0443\u0433\u041d\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u041b\u044e\u0434\u0438\u0423\u043b\u044b\u0431\u0430\u044e\u0442\u0441\u044f,\u0421\u043c\u043e\u0442\u0440\u044f\u0442\u0414\u0440\u0443\u0433\u041d\u0430/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A family portrait features a young girl standing between two adults, likely her parents, in an outdoor setting. The girl is dressed in a school uniform and holds a bouquet of flowers, suggesting a special occasion. The adults are dressed formally, adding to the sense of importance of the moment.",
+      "description": "The scene captures a family portrait taken outdoors, possibly in a garden or park area. The presence of flowers and formal attire indicates a celebratory or significant event, such as a school ceremony or family gathering.",
+      "labels": {
+        "people": [
+          "girl",
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "flowers",
+          "school uniform"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "pride",
+          "happiness"
+        ],
+        "scenes": [
+          "family portrait",
+          "outdoor setting"
+        ],
+        "concepts": [
+          "celebration",
+          "family"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041b\u044e\u0434\u0438\u0423\u043b\u044b\u0431\u0430\u044e\u0442\u0441\u044f,\u0421\u043c\u043e\u0442\u0440\u044f\u0442\u0414\u0440\u0443\u0433\u041d\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u041b\u044e\u0434\u0438\u0423\u043b\u044b\u0431\u0430\u044e\u0442\u0441\u044f,\u0421\u043c\u043e\u0442\u0440\u044f\u0442\u0414\u0440\u0443\u0433\u041d\u0430/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A family embraces warmly in an outdoor setting, with a young girl holding a bouquet of flowers. The man and woman, likely her parents, lean in affectionately, creating a close-knit and loving scene.",
+      "description": "The scene depicts a heartfelt family moment in a garden or park area. The family is sharing a warm embrace, suggesting a celebration or special occasion.",
+      "labels": {
+        "people": [
+          "man",
+          "woman",
+          "girl"
+        ],
+        "objects": [
+          "flowers",
+          "bouquet"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "love"
+        ],
+        "scenes": [
+          "family gathering",
+          "outdoor"
+        ],
+        "concepts": [
+          "family bond",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, man, woman. Objects: flowers, school uniform, bouquet. Actions: posing, embracing, smiling. Emotions: happiness, pride, love. Scenes: family portrait, outdoor setting, family gathering, outdoor. Concepts: celebration, family, family bond",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "man",
+      "woman"
+    ],
+    "objects": [
+      "flowers",
+      "school uniform",
+      "bouquet"
+    ],
+    "actions": [
+      "posing",
+      "embracing",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "pride",
+      "love"
+    ],
+    "scenes": [
+      "family portrait",
+      "outdoor setting",
+      "family gathering",
+      "outdoor"
+    ],
+    "concepts": [
+      "celebration",
+      "family",
+      "family bond"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Street Puppy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Street Puppy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Street Puppy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish dog wearing orange sunglasses and a denim jacket stands confidently in an urban alleyway. The dog is accompanied by two colorful drink bottles, adding a playful touch to the scene.",
+      "description": "The scene is set in a vibrant urban alleyway with graffiti-covered walls. A fashionable dog is the focal point, exuding a cool and playful vibe.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "sunglasses",
+          "denim jacket",
+          "drink bottles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "urban alleyway"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Street Puppy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Street Puppy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish dog confidently walks down a graffiti-lined alleyway, wearing orange sunglasses and a denim jacket. The sun casts a warm glow, highlighting the vibrant street art in the background.",
+      "description": "The scene is set in an urban alleyway with colorful graffiti on the walls. A small dog, dressed in trendy attire, is strutting along the street, exuding a cool and playful vibe.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "sunglasses",
+          "denim jacket"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident",
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "alleyway"
+        ],
+        "concepts": [
+          "style",
+          "street art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: sunglasses, denim jacket, drink bottles. Actions: standing, walking. Emotions: playful, confident. Scenes: urban alleyway, urban, alleyway. Concepts: style, fashion, urban, street art",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "sunglasses",
+      "denim jacket",
+      "drink bottles"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "playful",
+      "confident"
+    ],
+    "scenes": [
+      "urban alleyway",
+      "urban",
+      "alleyway"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "urban",
+      "street art"
+    ]
+  },
+  "metadata": {}
+}

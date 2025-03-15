@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/This Cat! WOW.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/This Cat! WOW.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/This Cat! WOW/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid creature with the head of a white cat and a body adorned in ornate armor strides confidently across a city street. The background features blurred urban elements, including tall buildings and bright signage, suggesting a bustling city environment.",
+      "description": "The scene is set in a busy urban street, where a fantastical humanoid cat creature is walking. The creature is dressed in elaborate armor and appears to be moving with purpose amidst the city backdrop.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "armor",
+          "buildings",
+          "signage"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "fantasy",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/This Cat! WOW.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/This Cat! WOW/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with the appearance of a white feline is walking confidently down a city street. The figure is adorned with ornate gold accessories and a detailed costume, blending fantasy elements with urban surroundings.",
+      "description": "The scene is set in a bustling city street, where a fantastical humanoid cat character is making its way through the crowd. The character's elaborate costume and regal demeanor stand out against the urban backdrop, creating a striking contrast.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "animals": [
+          "feline"
+        ],
+        "objects": [
+          "costume",
+          "gold accessories"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "fantasy",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid. Animals: cat, feline. Objects: armor, buildings, signage, costume, gold accessories. Actions: walking. Emotions: confident, confidence. Scenes: city street, urban. Concepts: fantasy, anthropomorphism, urban",
+  "primary_labels": {
+    "people": [
+      "humanoid"
+    ],
+    "animals": [
+      "cat",
+      "feline"
+    ],
+    "nature": [],
+    "objects": [
+      "armor",
+      "buildings",
+      "signage",
+      "costume",
+      "gold accessories"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "city street",
+      "urban"
+    ],
+    "concepts": [
+      "fantasy",
+      "anthropomorphism",
+      "urban"
+    ]
+  },
+  "metadata": {}
+}

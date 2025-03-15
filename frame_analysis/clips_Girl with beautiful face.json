@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with beautiful face.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with beautiful face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with beautiful face/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with long, wavy hair and striking eyes. The individual has a calm and composed expression, with natural makeup accentuating their features.",
+      "description": "The scene captures a close-up of a person indoors, focusing on their facial features and hair. The setting appears to be a room with soft lighting, creating a serene and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "portrait"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "indoor",
+          "close-up"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with beautiful face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with beautiful face/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long brown hair is smiling warmly at the camera. She is indoors, and the lighting highlights her features, creating a soft and inviting atmosphere.",
+      "description": "The scene captures a close-up portrait of a smiling woman in an indoor setting. The focus is on her face, with natural lighting enhancing her expression and features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, portrait, woman. Objects: makeup, clothing. Emotions: calm, composed, happiness. Scenes: indoor, close-up. Concepts: beauty, serenity, portrait. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "person",
+      "portrait",
+      "woman"
+    ],
+    "objects": [
+      "makeup",
+      "clothing"
+    ],
+    "emotions": [
+      "calm",
+      "composed",
+      "happiness"
+    ],
+    "scenes": [
+      "indoor",
+      "close-up"
+    ],
+    "concepts": [
+      "beauty",
+      "serenity",
+      "portrait"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

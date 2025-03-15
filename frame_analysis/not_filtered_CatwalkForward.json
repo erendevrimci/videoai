@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatwalkForward.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatwalkForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatwalkForward/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small kitten dressed in a fluffy, gray outfit walks confidently alongside another kitten on a wet, reflective path. Behind them, a large wolf follows, creating an intriguing contrast between the small and the mighty. The scene is set against a blurred backdrop of figures in the distance, adding a sense of mystery.",
+      "description": "The image depicts a whimsical scene where a kitten in a cozy outfit walks with another kitten, accompanied by a wolf. The setting appears to be a damp, possibly forested area with a mysterious and adventurous atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "wolf"
+        ],
+        "objects": [
+          "outfit",
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "mystery"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "contrast",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatwalkForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatwalkForward/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A kitten dressed in a fluffy onesie confidently strides forward on a wet path, accompanied by another cat and a large dog in the background. The scene is set in a misty, possibly snowy environment with blurred figures in the distance.",
+      "description": "The image captures a whimsical moment where a kitten, dressed in a cozy outfit, leads the way on a damp, reflective path. The presence of a larger cat and a dog adds to the playful and surreal atmosphere, suggesting a narrative of companionship and adventure.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat",
+          "dog"
+        ],
+        "objects": [
+          "onesie",
+          "clothing"
+        ],
+        "actions": [
+          "walking",
+          "striding"
+        ],
+        "emotions": [
+          "confidence",
+          "playfulness"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "companionship",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, wolf, cat, dog. Objects: outfit, path, onesie, clothing. Actions: walking, striding. Emotions: confidence, mystery, playfulness. Scenes: forest path, outdoor, winter. Concepts: companionship, contrast, adventure",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "wolf",
+      "cat",
+      "dog"
+    ],
+    "objects": [
+      "outfit",
+      "path",
+      "onesie",
+      "clothing"
+    ],
+    "actions": [
+      "walking",
+      "striding"
+    ],
+    "emotions": [
+      "confidence",
+      "mystery",
+      "playfulness"
+    ],
+    "scenes": [
+      "forest path",
+      "outdoor",
+      "winter"
+    ],
+    "concepts": [
+      "companionship",
+      "contrast",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

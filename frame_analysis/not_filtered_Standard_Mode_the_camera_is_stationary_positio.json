@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_the_camera_is_stationary_positio.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_the_camera_is_stationary_positio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_the_camera_is_stationary_positio/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in ornate, golden attire sits cross-legged on a sandy surface, playing a stringed instrument. She is surrounded by a glowing, mystical aura that radiates from behind her, adding an ethereal quality to the scene.",
+      "description": "The scene depicts a mystical setting with a woman immersed in playing music, surrounded by an enchanting glow. The atmosphere is serene and magical, suggesting a blend of fantasy and cultural richness.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "stringed instrument",
+          "jewelry",
+          "ornate clothing"
+        ],
+        "actions": [
+          "playing music"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mystical",
+          "fantasy"
+        ],
+        "concepts": [
+          "music",
+          "culture",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_the_camera_is_stationary_positio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_the_camera_is_stationary_positio/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman adorned in ornate jewelry and a flowing dress sits cross-legged on a golden surface, playing a stringed instrument. A radiant halo of light surrounds her, creating an ethereal and mystical atmosphere.",
+      "description": "The scene depicts a serene and mystical setting where a woman is immersed in playing music. The environment is rich with golden hues, suggesting a magical or divine context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "stringed instrument",
+          "jewelry",
+          "dress"
+        ],
+        "actions": [
+          "playing music"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mystical setting"
+        ],
+        "concepts": [
+          "music",
+          "divinity",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: stringed instrument, jewelry, ornate clothing, dress. Actions: playing music. Emotions: serenity. Scenes: mystical, fantasy, mystical setting. Concepts: music, culture, magic, divinity, ethereal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "stringed instrument",
+      "jewelry",
+      "ornate clothing",
+      "dress"
+    ],
+    "actions": [
+      "playing music"
+    ],
+    "emotions": [
+      "serenity"
+    ],
+    "scenes": [
+      "mystical",
+      "fantasy",
+      "mystical setting"
+    ],
+    "concepts": [
+      "music",
+      "culture",
+      "magic",
+      "divinity",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Skydiving girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Skydiving girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Skydiving girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is skydiving with a joyful expression, wearing a blue jumpsuit with American flag patches. A military jet flies nearby against a backdrop of mountains and a clear blue sky.",
+      "description": "The scene captures a thrilling skydiving experience high above a mountainous landscape. The woman appears exhilarated as she freefalls, with a jet flying in close proximity.",
+      "labels": {
+        "people": [
+          "woman",
+          "skydiver"
+        ],
+        "objects": [
+          "parachute harness",
+          "military jet"
+        ],
+        "actions": [
+          "skydiving",
+          "flying"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "aerial",
+          "mountains"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Skydiving girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Skydiving girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A skydiver in a blue jumpsuit with American flag patches is captured mid-air, smiling broadly as she freefalls above a vast landscape of green hills and valleys. The sun casts dramatic shadows, highlighting the exhilaration of the moment.",
+      "description": "The scene captures a thrilling skydiving experience high above a mountainous landscape. The skydiver is in freefall, showcasing a sense of adventure and freedom.",
+      "labels": {
+        "people": [
+          "skydiver"
+        ],
+        "nature": [
+          "mountains",
+          "valleys"
+        ],
+        "objects": [
+          "jumpsuit",
+          "parachute"
+        ],
+        "actions": [
+          "skydiving",
+          "freefall"
+        ],
+        "emotions": [
+          "exhilaration",
+          "joy"
+        ],
+        "scenes": [
+          "aerial view",
+          "outdoor"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Skydiving girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Skydiving girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a blue jumpsuit is skydiving with a joyful expression, arms outstretched against a backdrop of mountains and clear skies. Her hair is flowing in the wind, and she wears a parachute harness.",
+      "description": "The scene captures a thrilling moment of skydiving, with a woman enjoying the freefall over a mountainous landscape. The bright blue sky and distant mountains create a sense of vastness and adventure.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "jumpsuit",
+          "parachute harness"
+        ],
+        "actions": [
+          "skydiving",
+          "freefall"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "aerial view",
+          "outdoor adventure"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, skydiver. Objects: parachute harness, jumpsuit, military jet, parachute. Actions: skydiving, freefall, flying. Emotions: joy, excitement, exhilaration. Scenes: aerial view, aerial, mountains, outdoor, outdoor adventure. Concepts: adventure, freedom. Nature: mountains, valleys, sky",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "skydiver"
+    ],
+    "objects": [
+      "parachute harness",
+      "jumpsuit",
+      "military jet",
+      "parachute"
+    ],
+    "actions": [
+      "skydiving",
+      "freefall",
+      "flying"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "exhilaration"
+    ],
+    "scenes": [
+      "aerial view",
+      "aerial",
+      "mountains",
+      "outdoor",
+      "outdoor adventure"
+    ],
+    "concepts": [
+      "adventure",
+      "freedom"
+    ],
+    "nature": [
+      "mountains",
+      "valleys",
+      "sky"
+    ]
+  },
+  "metadata": {}
+}

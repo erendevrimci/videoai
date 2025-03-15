@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Aphrodite smiles at you.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Aphrodite smiles at you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Aphrodite smiles at you/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts a woman adorned with a floral crown, standing amidst a lush garden of blooming flowers. She is draped in a sheer, flowing fabric, exuding an ethereal and timeless beauty. The soft focus and warm lighting enhance the dreamlike quality of the image.",
+      "description": "The scene is set in a vibrant garden filled with colorful flowers, creating a romantic and idyllic atmosphere. The woman stands gracefully, embodying a sense of tranquility and elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "floral crown",
+          "fabric"
+        ],
+        "emotions": [
+          "serenity",
+          "elegance"
+        ],
+        "scenes": [
+          "garden",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Aphrodite smiles at you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Aphrodite smiles at you/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands gracefully in a lush garden, adorned with a crown of pink roses. Her serene expression and gentle hand gesture convey a sense of peace and harmony with nature.",
+      "description": "The scene is set in a vibrant garden filled with blooming flowers, creating a serene and idyllic atmosphere. The woman is the focal point, surrounded by a variety of colorful blossoms under a clear blue sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "flower crown"
+        ],
+        "actions": [
+          "standing",
+          "hand on chest"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "harmony with nature",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Aphrodite smiles at you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Aphrodite smiles at you/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long, wavy hair adorned with a floral crown smiles gently at the camera. She stands amidst a garden filled with blooming flowers, exuding a serene and joyful presence.",
+      "description": "The scene is set in a lush garden, where a woman is the focal point, surrounded by vibrant flowers. The atmosphere is peaceful and idyllic, evoking a sense of harmony with nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "floral crown"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "serenity",
+          "joy"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "harmony",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, garden. Objects: floral crown, fabric, flower crown. Emotions: serenity, elegance, serene, peaceful, joy. Scenes: garden, portrait. Concepts: beauty, ethereal, harmony with nature, harmony, nature. Actions: standing, hand on chest, smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "garden"
+    ],
+    "objects": [
+      "floral crown",
+      "fabric",
+      "flower crown"
+    ],
+    "emotions": [
+      "serenity",
+      "elegance",
+      "serene",
+      "peaceful",
+      "joy"
+    ],
+    "scenes": [
+      "garden",
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "ethereal",
+      "harmony with nature",
+      "harmony",
+      "nature"
+    ],
+    "actions": [
+      "standing",
+      "hand on chest",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

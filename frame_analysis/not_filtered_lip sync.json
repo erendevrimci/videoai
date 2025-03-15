@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/lip sync.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/lip sync.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/lip sync/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a person with wet hair and glistening skin, peering intensely at the camera. The lighting is dramatic, highlighting the moisture on the skin and creating a mysterious atmosphere.",
+      "description": "The scene captures a person in a dimly lit environment, possibly suggesting a shower or rainy setting. The focus is on the person's face, with water droplets enhancing the dramatic effect.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "water droplets"
+        ],
+        "actions": [
+          "staring"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "close-up",
+          "dramatic lighting"
+        ],
+        "concepts": [
+          "mystery",
+          "intensity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/lip sync.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/lip sync/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands partially obscured by shadows in a dimly lit room, framed by sheer curtains. The lighting casts dramatic shadows, highlighting the mysterious atmosphere.",
+      "description": "The scene depicts a dimly lit interior space with a person standing between sheer curtains. The lighting creates a mysterious and suspenseful atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "curtains"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "suspenseful"
+        ],
+        "scenes": [
+          "interior",
+          "dimly lit"
+        ],
+        "concepts": [
+          "mystery",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: water droplets, curtains. Actions: staring, standing. Emotions: intensity, mystery, mysterious, suspenseful. Scenes: close-up, dramatic lighting, interior, dimly lit. Concepts: mystery, intensity, isolation",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "water droplets",
+      "curtains"
+    ],
+    "actions": [
+      "staring",
+      "standing"
+    ],
+    "emotions": [
+      "intensity",
+      "mystery",
+      "mysterious",
+      "suspenseful"
+    ],
+    "scenes": [
+      "close-up",
+      "dramatic lighting",
+      "interior",
+      "dimly lit"
+    ],
+    "concepts": [
+      "mystery",
+      "intensity",
+      "isolation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Timelapse Burger.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Timelapse Burger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Timelapse Burger/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of miniature workers is seen assembling a gigantic burger, with layers of lettuce, cheese, and tomatoes. The scene is whimsical, with a crane in the background suggesting a construction site atmosphere.",
+      "description": "The image depicts a playful and surreal scene where tiny figures are constructing an enormous burger, resembling a construction project. The setting is imaginative, blending elements of food and construction.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "burger",
+          "crane"
+        ],
+        "actions": [
+          "assembling",
+          "constructing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "construction site",
+          "food art"
+        ],
+        "concepts": [
+          "surrealism",
+          "miniature world"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Timelapse Burger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Timelapse Burger/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature construction workers are assembling a gigantic hamburger, meticulously placing each ingredient. The scene humorously depicts the workers climbing and adjusting the layers of lettuce, cheese, and beef patties. A crane in the background suggests the scale and effort involved in this whimsical construction project.",
+      "description": "The image portrays a surreal and humorous scene where tiny construction workers are engaged in assembling a colossal hamburger. The setting appears to be a playful take on a construction site, with a focus on the exaggerated size of the burger.",
+      "labels": {
+        "people": [
+          "construction workers"
+        ],
+        "objects": [
+          "hamburger",
+          "crane",
+          "lettuce",
+          "cheese",
+          "beef patties"
+        ],
+        "actions": [
+          "assembling",
+          "climbing",
+          "adjusting"
+        ],
+        "emotions": [
+          "humorous",
+          "playful"
+        ],
+        "scenes": [
+          "construction site",
+          "surreal"
+        ],
+        "concepts": [
+          "miniature",
+          "gigantic",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, construction workers. Objects: crane, burger, hamburger, lettuce, cheese. Actions: assembling, constructing, climbing, adjusting. Emotions: playful, whimsical, humorous. Scenes: construction site, food art, surreal. Concepts: surrealism, miniature world, miniature, gigantic, whimsical",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "construction workers"
+    ],
+    "objects": [
+      "crane",
+      "burger",
+      "hamburger",
+      "lettuce",
+      "cheese"
+    ],
+    "actions": [
+      "assembling",
+      "constructing",
+      "climbing",
+      "adjusting"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "humorous"
+    ],
+    "scenes": [
+      "construction site",
+      "food art",
+      "surreal"
+    ],
+    "concepts": [
+      "surrealism",
+      "miniature world",
+      "miniature",
+      "gigantic",
+      "whimsical"
+    ]
+  },
+  "metadata": {}
+}

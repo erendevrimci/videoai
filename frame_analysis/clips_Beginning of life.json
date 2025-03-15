@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beginning of life.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beginning of life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beginning of life/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up view of a banana flower with droplets of water clinging to its surface. The flower hangs gracefully, with young bananas emerging from beneath the petals, and water dripping down in a gentle stream.",
+      "description": "The scene captures a banana flower in a natural setting, likely in a tropical or subtropical environment. The focus is on the intricate details of the flower and the emerging bananas, enhanced by the presence of water droplets.",
+      "labels": {
+        "nature": [
+          "banana flower",
+          "young bananas",
+          "water droplets"
+        ],
+        "objects": [
+          "flower",
+          "bananas"
+        ],
+        "actions": [
+          "dripping water"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "close-up",
+          "natural setting"
+        ],
+        "concepts": [
+          "growth",
+          "nature's beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beginning of life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beginning of life/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up view of a banana flower with water droplets clinging to its petals. The flower is in the early stages of fruit development, with small green bananas emerging from the blossom. The background is a soft blur of green foliage, suggesting a natural garden setting.",
+      "description": "The image captures a banana flower in a lush, green environment, highlighting the intricate details of the petals and the emerging fruit. The presence of water droplets suggests recent rainfall or morning dew, adding a fresh and vibrant feel to the scene.",
+      "labels": {
+        "nature": [
+          "banana flower",
+          "green foliage"
+        ],
+        "objects": [
+          "water droplets"
+        ],
+        "scenes": [
+          "garden",
+          "natural setting"
+        ],
+        "concepts": [
+          "growth",
+          "freshness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beginning of life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beginning of life/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cluster of unripe green bananas hangs from a banana plant, adorned with droplets of water. The background is filled with lush green leaves, softly blurred to emphasize the fruit.",
+      "description": "The scene captures a close-up view of a banana plant in a tropical setting. The focus is on a bunch of small, green bananas, indicating they are still in the early stages of ripening.",
+      "labels": {
+        "nature": [
+          "banana plant",
+          "leaves"
+        ],
+        "objects": [
+          "bananas",
+          "water droplets"
+        ],
+        "actions": [
+          "hanging"
+        ],
+        "emotions": [
+          "freshness"
+        ],
+        "scenes": [
+          "tropical",
+          "natural"
+        ],
+        "concepts": [
+          "growth",
+          "agriculture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: banana flower, young bananas, water droplets, green foliage, banana plant. Objects: bananas, water droplets, flower. Actions: dripping water, hanging. Emotions: serenity, freshness. Scenes: natural setting, close-up, garden, tropical, natural. Concepts: growth, nature's beauty, freshness, agriculture",
+  "primary_labels": {
+    "nature": [
+      "banana flower",
+      "young bananas",
+      "water droplets",
+      "green foliage",
+      "banana plant"
+    ],
+    "objects": [
+      "bananas",
+      "water droplets",
+      "flower"
+    ],
+    "actions": [
+      "dripping water",
+      "hanging"
+    ],
+    "emotions": [
+      "serenity",
+      "freshness"
+    ],
+    "scenes": [
+      "natural setting",
+      "close-up",
+      "garden",
+      "tropical",
+      "natural"
+    ],
+    "concepts": [
+      "growth",
+      "nature's beauty",
+      "freshness",
+      "agriculture"
+    ]
+  },
+  "metadata": {}
+}

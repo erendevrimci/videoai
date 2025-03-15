@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Goku.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Goku.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Female Goku/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a vibrant orange and blue martial arts outfit stands confidently in a rocky desert landscape. Their hair is styled in a dramatic, spiky fashion, reminiscent of a popular anime character. The background features towering red rock formations under a clear blue sky.",
+      "description": "The scene depicts a person in a cosplay outfit inspired by an anime character, set against a backdrop of a desert landscape with striking rock formations.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "desert",
+          "rock formations"
+        ],
+        "objects": [
+          "martial arts outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "cosplay",
+          "desert landscape"
+        ],
+        "concepts": [
+          "anime",
+          "cosplay"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Goku.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Female Goku/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a vibrant orange and blue outfit stands confidently in a rocky, desert-like landscape. The background features towering red rock formations under a clear blue sky with scattered clouds. The person's pose is dynamic, with one hand on their hip and the other behind their head, exuding a sense of strength and confidence.",
+      "description": "The scene is set in a dramatic, rocky landscape reminiscent of a desert or canyon environment. The person in the foreground is wearing a costume that suggests a connection to a popular animated series, adding a playful and adventurous tone to the image.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "rock formations",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "desert",
+          "canyon"
+        ],
+        "concepts": [
+          "cosplay",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: rock formations, desert, sky, clouds. Objects: martial arts outfit, costume. Actions: standing, posing. Emotions: confidence. Scenes: cosplay, desert landscape, desert, canyon. Concepts: cosplay, anime, adventure",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "rock formations",
+      "desert",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "martial arts outfit",
+      "costume"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "cosplay",
+      "desert landscape",
+      "desert",
+      "canyon"
+    ],
+    "concepts": [
+      "cosplay",
+      "anime",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

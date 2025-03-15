@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A cup of tea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A cup of tea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A cup of tea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate porcelain teacup filled with steaming hot tea rests on a matching saucer. The cup is adorned with floral patterns and sits on a rustic wooden table, with steam gently rising from the tea.",
+      "description": "The scene depicts a serene moment with a focus on a steaming cup of tea on a wooden table, suggesting a cozy and tranquil setting.",
+      "labels": {
+        "objects": [
+          "teacup",
+          "saucer",
+          "tea",
+          "wooden table"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "calm",
+          "tranquil"
+        ],
+        "scenes": [
+          "indoor",
+          "tea time"
+        ],
+        "concepts": [
+          "relaxation",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A cup of tea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A cup of tea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate porcelain teacup with floral patterns holds steaming hot tea, placed on a rustic wooden table. The steam gently rises, creating a serene and cozy atmosphere.",
+      "description": "The scene captures a moment of tranquility with a steaming cup of tea on a wooden surface, suggesting a peaceful setting ideal for relaxation.",
+      "labels": {
+        "objects": [
+          "teacup",
+          "saucer",
+          "table"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "relaxation",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A cup of tea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A cup of tea/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A steaming cup of tea sits on a rustic wooden table, with a spoon poised above it. The cup and saucer are adorned with floral patterns, adding a touch of elegance to the scene.",
+      "description": "The scene captures a moment of tranquility, featuring a hot cup of tea on a wooden surface. The steam rising from the tea suggests warmth and comfort.",
+      "labels": {
+        "objects": [
+          "cup",
+          "saucer",
+          "spoon",
+          "tea"
+        ],
+        "actions": [
+          "steaming",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "comfort"
+        ],
+        "scenes": [
+          "tea time",
+          "rustic setting"
+        ],
+        "concepts": [
+          "relaxation",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: saucer, teacup, tea, wooden table, table. Actions: steaming, holding. Emotions: calm, tranquil, serenity, comfort. Scenes: indoor, tea time, cozy, rustic setting. Concepts: relaxation, warmth",
+  "primary_labels": {
+    "objects": [
+      "saucer",
+      "teacup",
+      "tea",
+      "wooden table",
+      "table"
+    ],
+    "actions": [
+      "steaming",
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "tranquil",
+      "serenity",
+      "comfort"
+    ],
+    "scenes": [
+      "indoor",
+      "tea time",
+      "cozy",
+      "rustic setting"
+    ],
+    "concepts": [
+      "relaxation",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

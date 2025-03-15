@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ImagePrompt:AFluffyOrangeCapybara.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ImagePrompt:AFluffyOrangeCapybara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ImagePrompt:AFluffyOrangeCapybara/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A capybara sits at a desk, appearing to work on a laptop. The setting is a cozy, sunlit room with a steaming cup of coffee nearby.",
+      "description": "The scene depicts a capybara in a home office environment, engaging with a laptop. The room is warmly lit by sunlight streaming through a window, creating a relaxed and serene atmosphere.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "desk",
+          "lamp",
+          "plant"
+        ],
+        "actions": [
+          "typing",
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "home office",
+          "indoor"
+        ],
+        "concepts": [
+          "work",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ImagePrompt:AFluffyOrangeCapybara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ImagePrompt:AFluffyOrangeCapybara/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A capybara sits at a desk, appearing to work on a laptop in a sunlit office. A steaming cup of coffee and a smartphone are also on the desk, adding to the scene's cozy atmosphere.",
+      "description": "The scene is set in a modern office with a large window letting in warm sunlight. A capybara is humorously positioned as if using a laptop, creating a whimsical and lighthearted atmosphere.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "smartphone",
+          "desk",
+          "lamp"
+        ],
+        "nature": [
+          "sunlight",
+          "plant"
+        ],
+        "actions": [
+          "sitting",
+          "working"
+        ],
+        "emotions": [
+          "whimsical",
+          "cozy"
+        ],
+        "scenes": [
+          "office",
+          "work environment"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: capybara. Objects: laptop, coffee cup, desk, lamp, plant. Actions: sitting, typing, working. Emotions: calm, focused, whimsical, cozy. Scenes: home office, indoor, office, work environment. Concepts: work, relaxation, anthropomorphism, humor. Nature: sunlight, plant",
+  "primary_labels": {
+    "animals": [
+      "capybara"
+    ],
+    "objects": [
+      "laptop",
+      "coffee cup",
+      "desk",
+      "lamp",
+      "plant"
+    ],
+    "actions": [
+      "sitting",
+      "typing",
+      "working"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "whimsical",
+      "cozy"
+    ],
+    "scenes": [
+      "home office",
+      "indoor",
+      "office",
+      "work environment"
+    ],
+    "concepts": [
+      "work",
+      "relaxation",
+      "anthropomorphism",
+      "humor"
+    ],
+    "nature": [
+      "sunlight",
+      "plant"
+    ]
+  },
+  "metadata": {}
+}

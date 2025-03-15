@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nice swimming pool.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nice swimming pool.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nice swimming pool/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a modern indoor swimming pool area with a sleek design. The pool is surrounded by wooden decking and features lounge chairs and large umbrellas. Natural light floods the space through the expansive glass windows and ceiling.",
+      "description": "The scene is set in a contemporary indoor swimming pool area, likely part of a fitness or leisure facility. The environment is clean and inviting, with ample natural light enhancing the tranquil atmosphere.",
+      "labels": {
+        "objects": [
+          "swimming pool",
+          "lounge chairs",
+          "umbrellas",
+          "glass windows",
+          "wooden decking",
+          "plants"
+        ],
+        "actions": [
+          "relaxation"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "indoor pool",
+          "leisure area"
+        ],
+        "concepts": [
+          "modern design",
+          "luxury",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nice swimming pool.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nice swimming pool/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a modern indoor swimming pool with a sleek design. Large glass windows allow natural light to flood the space, highlighting the clear blue water and surrounding lounge chairs. Potted plants and umbrellas add a touch of greenery and comfort to the serene environment.",
+      "description": "This scene is set in a contemporary indoor swimming pool area, designed for relaxation and leisure. The space is characterized by its clean lines, ample natural light, and inviting atmosphere.",
+      "labels": {
+        "objects": [
+          "swimming pool",
+          "lounge chairs",
+          "umbrellas",
+          "potted plants",
+          "glass windows"
+        ],
+        "actions": [
+          "relaxation"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "indoor pool",
+          "modern design"
+        ],
+        "concepts": [
+          "leisure",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: swimming pool, lounge chairs, umbrellas, glass windows, wooden decking. Actions: relaxation. Emotions: calm, serene, serenity. Scenes: indoor pool, leisure area, modern design. Concepts: modern design, luxury, tranquility, leisure, comfort",
+  "primary_labels": {
+    "objects": [
+      "swimming pool",
+      "lounge chairs",
+      "umbrellas",
+      "glass windows",
+      "wooden decking"
+    ],
+    "actions": [
+      "relaxation"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "indoor pool",
+      "leisure area",
+      "modern design"
+    ],
+    "concepts": [
+      "modern design",
+      "luxury",
+      "tranquility",
+      "leisure",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

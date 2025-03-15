@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eggurected.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eggurected.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Eggurected/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a surreal scene, two miniature workers in hard hats are pushing against a large cracked egg with a yolk exposed. Above the egg, floating pocket watches and a rock are surrounded by electric currents, set against a cityscape backdrop.",
+      "description": "The scene is a fantastical depiction combining elements of construction and time, with a focus on the interplay between the miniature workers and the oversized egg. The background suggests a city at night, adding a dreamlike quality to the image.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "egg",
+          "yolk",
+          "pocket watches",
+          "rock"
+        ],
+        "actions": [
+          "pushing",
+          "floating"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "time",
+          "construction",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eggurected.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Eggurected/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a surreal scene, two miniature workers in hard hats are pushing against a giant cracked egg from which a bright yolk is visible. Above the egg, pocket watches and a rock float amidst a backdrop of electric blue lightning. The scene is set against a blurred cityscape with colorful lights.",
+      "description": "The image depicts a fantastical and imaginative setting where tiny workers interact with oversized objects. The scene combines elements of surrealism with a city backdrop, creating a sense of wonder and intrigue.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cracked egg",
+          "yolk",
+          "pocket watches",
+          "rock"
+        ],
+        "actions": [
+          "pushing",
+          "floating"
+        ],
+        "emotions": [
+          "wonder",
+          "intrigue"
+        ],
+        "scenes": [
+          "surreal",
+          "cityscape"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Eggurected.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Eggurected/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "In a surreal scene, two miniature workers in hard hats are pushing against a large cracked egg with a glowing yolk. Above, pocket watches and a stone float amidst electric blue energy in a cityscape backdrop.",
+      "description": "The image depicts a fantastical setting where tiny workers interact with an oversized egg on a wooden surface. The background features a city skyline with vibrant lights, and various objects like clocks and a stone are suspended in mid-air, surrounded by electric currents.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "egg",
+          "yolk",
+          "pocket watches",
+          "stone",
+          "hard hats"
+        ],
+        "actions": [
+          "pushing",
+          "floating"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "cityscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "time",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: yolk, pocket watches, egg, rock, cracked egg. Actions: pushing, floating. Emotions: surreal, wonder, intrigue. Scenes: cityscape, night, surreal, fantasy. Concepts: time, surrealism, construction, fantasy, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "yolk",
+      "pocket watches",
+      "egg",
+      "rock",
+      "cracked egg"
+    ],
+    "actions": [
+      "pushing",
+      "floating"
+    ],
+    "emotions": [
+      "surreal",
+      "wonder",
+      "intrigue"
+    ],
+    "scenes": [
+      "cityscape",
+      "night",
+      "surreal",
+      "fantasy"
+    ],
+    "concepts": [
+      "time",
+      "surrealism",
+      "construction",
+      "fantasy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

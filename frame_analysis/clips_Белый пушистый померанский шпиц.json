@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white dog is perched on a black scooter, appearing to ride it down a suburban street. The dog's fur is windswept, and its tongue is playfully sticking out.",
+      "description": "The scene captures a whimsical moment where a small white dog is positioned as if driving a scooter on a quiet residential street. The background features a house with greenery, suggesting a peaceful neighborhood setting.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "scooter",
+          "house"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "suburban street"
+        ],
+        "concepts": [
+          "humor",
+          "unexpected"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white dog is perched on a black scooter, appearing to ride it down a residential street. The dog looks cheerful with its tongue out, creating a whimsical and amusing scene.",
+      "description": "The scene takes place on a quiet residential street with a charming house in the background. A fluffy white dog is humorously positioned on a scooter, as if it is driving it.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "scooter",
+          "house"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "residential street"
+        ],
+        "concepts": [
+          "humor",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u0439 \u043f\u043e\u043c\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0448\u043f\u0438\u0446/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy white dog is humorously positioned on a scooter, appearing to ride it down a suburban street. The scene is set against a backdrop of a house and garden, with the dog looking playful and adventurous.",
+      "description": "The image captures a whimsical moment where a white dog is seemingly riding a scooter on a quiet residential street. The setting includes a house with a garden, suggesting a peaceful suburban neighborhood.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "scooter",
+          "house",
+          "garden"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful",
+          "adventurous"
+        ],
+        "scenes": [
+          "suburban street"
+        ],
+        "concepts": [
+          "humor",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: scooter, house, garden. Actions: riding. Emotions: playful, cheerful, adventurous. Scenes: suburban street, residential street. Concepts: humor, unexpected, whimsy, adventure",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "scooter",
+      "house",
+      "garden"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful",
+      "adventurous"
+    ],
+    "scenes": [
+      "suburban street",
+      "residential street"
+    ],
+    "concepts": [
+      "humor",
+      "unexpected",
+      "whimsy",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

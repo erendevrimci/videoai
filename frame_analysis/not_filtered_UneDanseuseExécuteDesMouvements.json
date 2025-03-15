@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneDanseuseEx\u00e9cuteDesMouvements.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneDanseuseEx\u00e9cuteDesMouvements.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/UneDanseuseEx\u00e9cuteDesMouvements/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A graceful ballerina is captured mid-pose, her delicate tutu resembling a blooming flower. She stands en pointe, with arms elegantly extended, bathed in soft, ethereal lighting.",
+      "description": "The scene depicts a ballet dancer performing in a serene, minimalist setting. The focus is on her poised form and the ethereal quality of her costume and surroundings.",
+      "labels": {
+        "people": [
+          "ballerina"
+        ],
+        "objects": [
+          "tutu",
+          "ballet shoes"
+        ],
+        "actions": [
+          "dancing",
+          "ballet pose"
+        ],
+        "emotions": [
+          "graceful",
+          "elegant"
+        ],
+        "scenes": [
+          "ballet performance"
+        ],
+        "concepts": [
+          "artistry",
+          "dance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneDanseuseEx\u00e9cuteDesMouvements.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/UneDanseuseEx\u00e9cuteDesMouvements/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ballerina gracefully poses on stage, illuminated by soft, ethereal lighting. Her elegant tutu fans out as she balances delicately on pointe, creating a sense of poise and beauty.",
+      "description": "The scene captures a ballet performance, with a dancer in a serene and focused pose. The setting is minimalistic, emphasizing the dancer's form and movement.",
+      "labels": {
+        "people": [
+          "ballerina"
+        ],
+        "objects": [
+          "tutu"
+        ],
+        "actions": [
+          "dancing",
+          "posing"
+        ],
+        "emotions": [
+          "graceful",
+          "serene"
+        ],
+        "scenes": [
+          "stage",
+          "performance"
+        ],
+        "concepts": [
+          "ballet",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: ballerina. Objects: tutu, ballet shoes. Actions: dancing, ballet pose, posing. Emotions: graceful, elegant, serene. Scenes: ballet performance, stage, performance. Concepts: artistry, dance, beauty, ballet, elegance",
+  "primary_labels": {
+    "people": [
+      "ballerina"
+    ],
+    "objects": [
+      "tutu",
+      "ballet shoes"
+    ],
+    "actions": [
+      "dancing",
+      "ballet pose",
+      "posing"
+    ],
+    "emotions": [
+      "graceful",
+      "elegant",
+      "serene"
+    ],
+    "scenes": [
+      "ballet performance",
+      "stage",
+      "performance"
+    ],
+    "concepts": [
+      "artistry",
+      "dance",
+      "beauty",
+      "ballet",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

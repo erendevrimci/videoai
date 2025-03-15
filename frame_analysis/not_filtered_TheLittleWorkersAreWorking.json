@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleWorkersAreWorking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleWorkersAreWorking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleWorkersAreWorking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature figures working on a large cake adorned with strawberries. The figures, dressed as workers, are using ladders to reach the top of the cake, adding to the playful and imaginative atmosphere.",
+      "description": "The image portrays a creative and playful setting where tiny figures are engaged in decorating a large, strawberry-topped cake. The scene is reminiscent of a fantasy world where the figures appear to be constructing or embellishing the dessert.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "cake",
+          "strawberries",
+          "ladders",
+          "baskets"
+        ],
+        "actions": [
+          "decorating",
+          "climbing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "fantasy",
+          "culinary"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleWorkersAreWorking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleWorkersAreWorking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature construction workers decorating a large cake with strawberries and whipped cream. The workers are positioned around the cake, some carrying buckets of cream, while others are climbing ladders to reach the top. Powdered sugar is being sprinkled over the cake, creating a magical snowfall effect.",
+      "description": "The image portrays a playful and imaginative setting where tiny figures are engaged in decorating a cake as if it were a construction project. The scene combines elements of baking with a miniature world, creating a charming and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cake",
+          "strawberries",
+          "whipped cream",
+          "buckets",
+          "ladders"
+        ],
+        "actions": [
+          "decorating",
+          "carrying",
+          "climbing",
+          "sprinkling"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "baking",
+          "miniature world"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, workers, miniature workers. Objects: cake, strawberries, ladders, baskets, whipped cream. Actions: decorating, climbing, carrying, sprinkling. Emotions: playful, imaginative, whimsical. Scenes: fantasy, culinary, baking, miniature world. Concepts: miniature world, food art, creativity, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "workers",
+      "miniature workers"
+    ],
+    "objects": [
+      "cake",
+      "strawberries",
+      "ladders",
+      "baskets",
+      "whipped cream"
+    ],
+    "actions": [
+      "decorating",
+      "climbing",
+      "carrying",
+      "sprinkling"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical"
+    ],
+    "scenes": [
+      "fantasy",
+      "culinary",
+      "baking",
+      "miniature world"
+    ],
+    "concepts": [
+      "miniature world",
+      "food art",
+      "creativity",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

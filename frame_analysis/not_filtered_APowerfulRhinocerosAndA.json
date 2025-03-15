@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulRhinocerosAndA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulRhinocerosAndA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulRhinocerosAndA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A rhinoceros and a polar bear stand side by side on a snowy landscape. The stark contrast between the two animals highlights their unique features against the icy backdrop.",
+      "description": "The scene depicts a surreal encounter between a rhinoceros and a polar bear on a snow-covered terrain. The juxtaposition of these animals in an unusual setting creates a striking visual.",
+      "labels": {
+        "animals": [
+          "rhinoceros",
+          "polar bear"
+        ],
+        "nature": [
+          "snow",
+          "ice"
+        ],
+        "objects": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contrast"
+        ],
+        "scenes": [
+          "surreal",
+          "unusual"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulRhinocerosAndA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulRhinocerosAndA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A rhinoceros and a polar bear are charging forward through a snowy landscape. The scene captures the dynamic movement of both animals as they kick up snow in their path. The background is a vast, icy expanse under a clear sky.",
+      "description": "The image depicts a surreal scene where a rhinoceros and a polar bear are running together in a snowy environment. This unusual pairing creates a sense of wonder and intrigue, set against a cold and expansive backdrop.",
+      "labels": {
+        "animals": [
+          "rhinoceros",
+          "polar bear"
+        ],
+        "nature": [
+          "snow",
+          "icy landscape"
+        ],
+        "actions": [
+          "running",
+          "charging"
+        ],
+        "emotions": [
+          "intensity",
+          "energy"
+        ],
+        "scenes": [
+          "wildlife",
+          "winter"
+        ],
+        "concepts": [
+          "surreal",
+          "dynamic movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rhinoceros, polar bear. Nature: snow, ice, icy landscape. Actions: standing, running, charging. Emotions: contrast, intensity, energy. Scenes: surreal, unusual, wildlife, winter. Concepts: juxtaposition, contrast, surreal, dynamic movement",
+  "primary_labels": {
+    "animals": [
+      "rhinoceros",
+      "polar bear"
+    ],
+    "nature": [
+      "snow",
+      "ice",
+      "icy landscape"
+    ],
+    "objects": [],
+    "actions": [
+      "standing",
+      "running",
+      "charging"
+    ],
+    "emotions": [
+      "contrast",
+      "intensity",
+      "energy"
+    ],
+    "scenes": [
+      "surreal",
+      "unusual",
+      "wildlife",
+      "winter"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "contrast",
+      "surreal",
+      "dynamic movement"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Paris Penthouse.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Paris Penthouse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Paris Penthouse/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious rooftop terrace overlooks the Eiffel Tower at sunset. The scene features a modern seating area, a jacuzzi, and ambient lighting, creating a serene and elegant atmosphere.",
+      "description": "The image depicts a sophisticated rooftop terrace in a city setting, likely Paris, given the view of the Eiffel Tower. The terrace is designed for relaxation and leisure, with comfortable seating and a jacuzzi.",
+      "labels": {
+        "objects": [
+          "sofa",
+          "jacuzzi",
+          "lanterns",
+          "plants",
+          "table",
+          "chairs"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "scenes": [
+          "rooftop terrace",
+          "cityscape"
+        ],
+        "concepts": [
+          "luxury",
+          "elegance",
+          "relaxation"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Paris Penthouse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Paris Penthouse/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A luxurious rooftop terrace at sunset features a modern jacuzzi, elegant seating, and ambient lanterns. The scene overlooks a cityscape, with a soft, pastel sky in the background. The atmosphere is serene and inviting, perfect for relaxation.",
+      "description": "The scene depicts a sophisticated rooftop terrace setting during sunset. The area includes a jacuzzi, comfortable seating, and decorative lanterns, all under a tranquil sky with city views.",
+      "labels": {
+        "objects": [
+          "jacuzzi",
+          "sofa",
+          "lanterns",
+          "table",
+          "chairs",
+          "plants"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "rooftop terrace",
+          "cityscape",
+          "sunset"
+        ],
+        "emotions": [
+          "serene",
+          "relaxing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Paris Penthouse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Paris Penthouse/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A luxurious rooftop terrace features a modern jacuzzi surrounded by elegant white seating. The scene is set against a stunning sunset sky with scattered clouds, creating a serene and opulent atmosphere. Lanterns and soft lighting enhance the ambiance, offering a perfect setting for relaxation.",
+      "description": "The image depicts a sophisticated rooftop terrace at sunset, complete with a jacuzzi and plush seating. The setting exudes luxury and tranquility, ideal for unwinding while enjoying the scenic cityscape.",
+      "labels": {
+        "objects": [
+          "jacuzzi",
+          "lanterns",
+          "seating",
+          "railing"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "rooftop terrace",
+          "sunset"
+        ],
+        "emotions": [
+          "serenity",
+          "luxury"
+        ],
+        "concepts": [
+          "relaxation",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: jacuzzi, lanterns, sofa, plants, table. Nature: sky, clouds. Scenes: rooftop terrace, cityscape, sunset. Concepts: relaxation, luxury, elegance, opulence. Emotions: serenity, calmness, serene, relaxing, luxury",
+  "primary_labels": {
+    "objects": [
+      "jacuzzi",
+      "lanterns",
+      "sofa",
+      "plants",
+      "table"
+    ],
+    "nature": [
+      "sky",
+      "clouds"
+    ],
+    "scenes": [
+      "rooftop terrace",
+      "cityscape",
+      "sunset"
+    ],
+    "concepts": [
+      "relaxation",
+      "luxury",
+      "elegance",
+      "opulence"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness",
+      "serene",
+      "relaxing",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

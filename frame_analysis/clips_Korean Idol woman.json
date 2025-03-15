@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Idol woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Idol woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Idol woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long, flowing hair smiles warmly at the camera. She is wearing a black sleeveless top and is illuminated by soft, golden lighting that highlights her features.",
+      "description": "The scene captures a portrait of a woman in a warmly lit setting, focusing on her serene expression and elegant appearance. The lighting creates a soft, inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Idol woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Idol woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, flowing hair smiles softly at the camera. She is wearing a black sleeveless top and is illuminated by warm, soft lighting that highlights her features.",
+      "description": "The scene captures a close-up portrait of a woman in a warmly lit environment. The focus is on her face, with her hair cascading around her shoulders, creating a serene and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "emotions": [
+          "serene",
+          "inviting"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "warm lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: clothing. Emotions: happiness, serene, inviting. Scenes: portrait. Concepts: beauty, warmth, warm lighting",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "emotions": [
+      "happiness",
+      "serene",
+      "inviting"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "warmth",
+      "warm lighting"
+    ]
+  },
+  "metadata": {}
+}

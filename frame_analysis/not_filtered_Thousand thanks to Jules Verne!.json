@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Thousand thanks to Jules Verne!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Thousand thanks to Jules Verne!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Thousand thanks to Jules Verne!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An open book on a wooden table reveals a fantastical scene where a submarine emerges from a swirling, glowing vortex. The pages transform into a lush, miniature landscape with mushrooms and moss, creating a magical underwater world.",
+      "description": "The scene is set in a cozy, dimly lit room with candles in the background, adding a warm and mystical atmosphere. The focus is on an open book that has come to life, depicting an imaginative underwater adventure.",
+      "labels": {
+        "objects": [
+          "book",
+          "submarine",
+          "mushrooms",
+          "table",
+          "candles"
+        ],
+        "actions": [
+          "emerging",
+          "glowing"
+        ],
+        "emotions": [
+          "mystical",
+          "imaginative"
+        ],
+        "scenes": [
+          "fantasy",
+          "underwater"
+        ],
+        "concepts": [
+          "magic",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Thousand thanks to Jules Verne!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Thousand thanks to Jules Verne!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An open book on a wooden table features a fantastical scene emerging from its pages. A miniature submarine with glowing lights appears to be sailing on a pool of water, surrounded by small mushrooms and greenery. The warm glow of candles in the background adds to the magical atmosphere.",
+      "description": "The scene is set in a cozy, dimly lit room with a focus on a book that seems to bring a fantasy world to life. The book's pages transform into a vibrant diorama featuring a submarine and a lush, miniature landscape.",
+      "labels": {
+        "objects": [
+          "book",
+          "submarine",
+          "candles",
+          "mushrooms"
+        ],
+        "actions": [
+          "emerging",
+          "sailing"
+        ],
+        "emotions": [
+          "magical",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "indoor"
+        ],
+        "concepts": [
+          "imagination",
+          "storytelling"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: book, submarine, mushrooms, candles, table. Actions: emerging, glowing, sailing. Emotions: mystical, imaginative, magical, whimsical. Scenes: fantasy, underwater, indoor. Concepts: magic, adventure, imagination, storytelling",
+  "primary_labels": {
+    "objects": [
+      "book",
+      "submarine",
+      "mushrooms",
+      "candles",
+      "table"
+    ],
+    "actions": [
+      "emerging",
+      "glowing",
+      "sailing"
+    ],
+    "emotions": [
+      "mystical",
+      "imaginative",
+      "magical",
+      "whimsical"
+    ],
+    "scenes": [
+      "fantasy",
+      "underwater",
+      "indoor"
+    ],
+    "concepts": [
+      "magic",
+      "adventure",
+      "imagination",
+      "storytelling"
+    ]
+  },
+  "metadata": {}
+}

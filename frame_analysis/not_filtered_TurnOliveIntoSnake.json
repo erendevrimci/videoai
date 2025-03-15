@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TurnOliveIntoSnake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TurnOliveIntoSnake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TurnOliveIntoSnake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A coiled black snake rests on a plate surrounded by glossy black olives, creating a striking visual contrast. The scene is set on a rustic wooden table with a beige cloth underneath the plate, enhancing the natural and earthy atmosphere.",
+      "description": "The image depicts a black snake coiled on a plate with black olives, placed on a wooden table. The setting suggests a rustic and natural environment, with a focus on texture and color contrast.",
+      "labels": {
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "plate",
+          "olives",
+          "cloth",
+          "table"
+        ],
+        "scenes": [
+          "rustic",
+          "natural"
+        ],
+        "concepts": [
+          "contrast",
+          "texture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TurnOliveIntoSnake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TurnOliveIntoSnake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A coiled black snake rests on a rustic wooden surface, surrounded by small dark objects. The snake's scales glisten subtly in the dim lighting, creating a mysterious and slightly ominous atmosphere.",
+      "description": "The scene depicts a black snake coiled on a wooden surface, possibly in a natural or rustic setting. The lighting is dim, highlighting the snake's texture and the surrounding objects, which appear to be small stones or seeds.",
+      "labels": {
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "wooden surface",
+          "stones"
+        ],
+        "nature": [
+          "rustic setting"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "nature"
+        ],
+        "visual_attributes": [
+          "dim lighting",
+          "dark colors",
+          "textured scales"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TurnOliveIntoSnake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TurnOliveIntoSnake/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large snake is coiled on a rocky surface, its body glistening in the dim light. The snake's head is slightly raised, giving an impression of alertness as it surveys its surroundings.",
+      "description": "The scene depicts a snake resting on a rocky outcrop in a natural setting. The atmosphere is tense and mysterious, with the snake appearing poised and watchful.",
+      "labels": {
+        "animals": [
+          "snake"
+        ],
+        "nature": [
+          "rocks"
+        ],
+        "objects": [
+          "rocky surface"
+        ],
+        "actions": [
+          "coiled",
+          "resting"
+        ],
+        "emotions": [
+          "alertness"
+        ],
+        "scenes": [
+          "natural setting"
+        ],
+        "concepts": [
+          "wildlife",
+          "predation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: snake. Objects: plate, olives, cloth, table, wooden surface. Scenes: rustic, natural, nature, natural setting. Concepts: contrast, texture, wildlife, predation. Nature: rustic setting, rocks. Emotions: mysterious, ominous, alertness. Visual_attributes: dim lighting, dark colors, textured scales. Actions: coiled, resting",
+  "primary_labels": {
+    "animals": [
+      "snake"
+    ],
+    "objects": [
+      "plate",
+      "olives",
+      "cloth",
+      "table",
+      "wooden surface"
+    ],
+    "scenes": [
+      "rustic",
+      "natural",
+      "nature",
+      "natural setting"
+    ],
+    "concepts": [
+      "contrast",
+      "texture",
+      "wildlife",
+      "predation"
+    ],
+    "nature": [
+      "rustic setting",
+      "rocks"
+    ],
+    "emotions": [
+      "mysterious",
+      "ominous",
+      "alertness"
+    ],
+    "visual_attributes": [
+      "dim lighting",
+      "dark colors",
+      "textured scales"
+    ],
+    "actions": [
+      "coiled",
+      "resting"
+    ]
+  },
+  "metadata": {}
+}

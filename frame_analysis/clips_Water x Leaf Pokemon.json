@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water x Leaf Pokemon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water x Leaf Pokemon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Water x Leaf Pokemon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical creature with a blue, glossy body and large eyes sits in a serene forest setting. It has a vibrant flower blooming on its head and leaves adorning its body, with water droplets gently falling around it.",
+      "description": "The scene depicts a fantastical creature in a lush forest, surrounded by greenery and dappled sunlight. The creature, resembling a blend of plant and animal, exudes a sense of calm and enchantment.",
+      "labels": {
+        "animals": [
+          "fantastical creature"
+        ],
+        "nature": [
+          "forest",
+          "flower",
+          "leaves",
+          "water droplets"
+        ],
+        "objects": [
+          "flower",
+          "leaves"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "enchantment"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "fantasy",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water x Leaf Pokemon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Water x Leaf Pokemon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical creature with a vibrant flower on its head stands in a serene forest setting. The creature, with a glossy blue skin and large, expressive eyes, is adorned with leaves and water droplets. It appears to be calmly observing its surroundings in a shallow pool of water.",
+      "description": "The scene takes place in a lush, green forest where a fantastical creature is the focal point. The creature is surrounded by natural elements, creating a magical and tranquil atmosphere.",
+      "labels": {
+        "animals": [
+          "fantastical creature"
+        ],
+        "nature": [
+          "forest",
+          "water",
+          "flower",
+          "leaves"
+        ],
+        "objects": [
+          "water droplets"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "whimsy",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fantastical creature. Nature: forest, flower, leaves, water droplets, water. Objects: flower, leaves, water droplets. Actions: sitting, standing. Emotions: calm, enchantment, serene. Scenes: forest, fantasy, nature. Concepts: fantasy, nature, whimsy, tranquility",
+  "primary_labels": {
+    "animals": [
+      "fantastical creature"
+    ],
+    "nature": [
+      "forest",
+      "flower",
+      "leaves",
+      "water droplets",
+      "water"
+    ],
+    "objects": [
+      "flower",
+      "leaves",
+      "water droplets"
+    ],
+    "actions": [
+      "sitting",
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "enchantment",
+      "serene"
+    ],
+    "scenes": [
+      "forest",
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "fantasy",
+      "nature",
+      "whimsy",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

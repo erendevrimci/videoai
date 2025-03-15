@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraRotatesAroundThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraRotatesAroundThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,theCameraRotatesAroundThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young ballet dancer is captured mid-leap against a dark background, showcasing grace and athleticism. Her arms and legs are extended in perfect form, highlighting her strength and flexibility.",
+      "description": "The scene depicts a ballet dancer performing a leap in a studio setting. The focus is on her poised movement and the elegance of her form.",
+      "labels": {
+        "people": [
+          "ballet dancer"
+        ],
+        "actions": [
+          "leaping",
+          "dancing"
+        ],
+        "emotions": [
+          "graceful",
+          "focused"
+        ],
+        "scenes": [
+          "dance performance",
+          "studio"
+        ],
+        "concepts": [
+          "ballet",
+          "athleticism",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraRotatesAroundThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,theCameraRotatesAroundThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young ballet dancer gracefully leaps into the air, showcasing her poise and strength. She is wearing a light pink leotard against a dark background, highlighting her form and movement.",
+      "description": "The scene captures a ballet dancer mid-leap in a studio setting. The focus is on her elegant posture and the precision of her movements.",
+      "labels": {
+        "people": [
+          "ballet dancer"
+        ],
+        "objects": [
+          "leotard"
+        ],
+        "actions": [
+          "leaping",
+          "dancing"
+        ],
+        "emotions": [
+          "graceful",
+          "focused"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "ballet",
+          "dance",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: ballet dancer. Actions: leaping, dancing. Emotions: graceful, focused. Scenes: studio, dance performance. Concepts: ballet, athleticism, artistry, dance, elegance. Objects: leotard",
+  "primary_labels": {
+    "people": [
+      "ballet dancer"
+    ],
+    "actions": [
+      "leaping",
+      "dancing"
+    ],
+    "emotions": [
+      "graceful",
+      "focused"
+    ],
+    "scenes": [
+      "studio",
+      "dance performance"
+    ],
+    "concepts": [
+      "ballet",
+      "athleticism",
+      "artistry",
+      "dance",
+      "elegance"
+    ],
+    "objects": [
+      "leotard"
+    ]
+  },
+  "metadata": {}
+}

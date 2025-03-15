@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A3dPixar-StlyeAnimated.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A3dPixar-StlyeAnimated.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A3dPixar-StlyeAnimated/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical kitchen setting, tiny chefs are busily assembling a giant burger with enthusiasm. The scene is lively, with the chefs working together to add a slice of tomato to the towering burger.",
+      "description": "The scene takes place in a playful, cartoon-like kitchen where miniature chefs are preparing an oversized burger. The atmosphere is cheerful and bustling, with bright colors and a sense of teamwork.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "burger",
+          "fries",
+          "tomato slices",
+          "kitchen"
+        ],
+        "actions": [
+          "assembling",
+          "preparing"
+        ],
+        "emotions": [
+          "cheerful",
+          "enthusiastic"
+        ],
+        "scenes": [
+          "kitchen",
+          "food preparation"
+        ],
+        "concepts": [
+          "teamwork",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A3dPixar-StlyeAnimated.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A3dPixar-StlyeAnimated/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical kitchen setting, tiny chefs are enthusiastically assembling a giant burger. The scene is bustling with activity as they carefully place tomato slices and adjust the layers of the towering sandwich.",
+      "description": "The image depicts a playful and imaginative scene in a fast-food kitchen where miniature chefs are working together to create an oversized burger. The setting is lively and colorful, with a focus on the collaborative effort of the chefs.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "burger",
+          "fries",
+          "tomato slices",
+          "kitchen"
+        ],
+        "actions": [
+          "assembling",
+          "placing",
+          "adjusting"
+        ],
+        "emotions": [
+          "enthusiasm",
+          "joy"
+        ],
+        "scenes": [
+          "kitchen",
+          "fast-food"
+        ],
+        "concepts": [
+          "teamwork",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs, chefs. Objects: burger, fries, tomato slices, kitchen. Actions: assembling, preparing, placing, adjusting. Emotions: cheerful, enthusiastic, enthusiasm, joy. Scenes: kitchen, food preparation, fast-food. Concepts: teamwork, playfulness, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature chefs",
+      "chefs"
+    ],
+    "objects": [
+      "burger",
+      "fries",
+      "tomato slices",
+      "kitchen"
+    ],
+    "actions": [
+      "assembling",
+      "preparing",
+      "placing",
+      "adjusting"
+    ],
+    "emotions": [
+      "cheerful",
+      "enthusiastic",
+      "enthusiasm",
+      "joy"
+    ],
+    "scenes": [
+      "kitchen",
+      "food preparation",
+      "fast-food"
+    ],
+    "concepts": [
+      "teamwork",
+      "playfulness",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

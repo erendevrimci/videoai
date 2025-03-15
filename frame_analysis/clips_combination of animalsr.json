@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/combination of animalsr.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/combination of animalsr.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/combination of animalsr/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a misty forest, a large gorilla stands face to face with an enormous scorpion. The two creatures appear to be in a standoff, surrounded by dense foliage and towering trees.",
+      "description": "The scene is set in a lush, mist-covered forest where a gorilla and a giant scorpion confront each other. The atmosphere is tense, with both creatures poised as if ready for action.",
+      "labels": {
+        "animals": [
+          "gorilla",
+          "scorpion"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "branches"
+        ],
+        "actions": [
+          "standoff"
+        ],
+        "emotions": [
+          "tension"
+        ],
+        "scenes": [
+          "forest encounter"
+        ],
+        "concepts": [
+          "confrontation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/combination of animalsr.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/combination of animalsr/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive, menacing gorilla-like creature with glowing red eyes prowls through a misty forest. Its powerful stance and bared teeth suggest aggression and dominance. The creature is surrounded by dense foliage and a mysterious, foggy atmosphere.",
+      "description": "The scene depicts a large, intimidating gorilla-like creature in a misty forest setting. The creature's glowing red eyes and aggressive posture create a sense of danger and tension. The forest is dense with greenery, and the mist adds an eerie quality to the environment.",
+      "labels": {
+        "animals": [
+          "gorilla",
+          "creature"
+        ],
+        "nature": [
+          "forest",
+          "mist",
+          "foliage"
+        ],
+        "objects": [],
+        "actions": [
+          "prowling"
+        ],
+        "emotions": [
+          "menacing",
+          "aggressive"
+        ],
+        "scenes": [
+          "forest scene"
+        ],
+        "concepts": [
+          "danger",
+          "mystery",
+          "dominance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: gorilla, scorpion, creature. Nature: forest, foliage, trees, mist. Objects: branches. Actions: standoff, prowling. Emotions: tension, menacing, aggressive. Scenes: forest encounter, forest scene. Concepts: confrontation, nature, danger, mystery, dominance",
+  "primary_labels": {
+    "animals": [
+      "gorilla",
+      "scorpion",
+      "creature"
+    ],
+    "nature": [
+      "forest",
+      "foliage",
+      "trees",
+      "mist"
+    ],
+    "objects": [
+      "branches"
+    ],
+    "actions": [
+      "standoff",
+      "prowling"
+    ],
+    "emotions": [
+      "tension",
+      "menacing",
+      "aggressive"
+    ],
+    "scenes": [
+      "forest encounter",
+      "forest scene"
+    ],
+    "concepts": [
+      "confrontation",
+      "nature",
+      "danger",
+      "mystery",
+      "dominance"
+    ]
+  },
+  "metadata": {}
+}

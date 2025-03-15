@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/in a Gruyere cheese,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/in a Gruyere cheese,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/in a Gruyere cheese,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature workers operating inside a massive block of cheese. The workers, wearing helmets and uniforms, are surrounded by large chunks and crumbles of cheese. A crane is seen lifting a piece of cheese, adding to the playful and surreal atmosphere.",
+      "description": "The scene is set inside a giant block of cheese, creating a fantastical environment where miniature figures are engaged in construction-like activities. The setting resembles a construction site with workers and machinery, but the material being worked on is cheese.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cheese",
+          "crane",
+          "helmets"
+        ],
+        "actions": [
+          "lifting",
+          "working"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "construction site"
+        ],
+        "concepts": [
+          "surrealism",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/in a Gruyere cheese,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/in a Gruyere cheese,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature workers inside a massive block of cheese, surrounded by large cheese holes and chunks. The workers, wearing helmets and uniforms, are engaged in various tasks, suggesting a cheese mining operation. A mechanical device hangs from above, adding to the industrial theme.",
+      "description": "The scene is set inside a giant block of cheese, where tiny figures are engaged in mining activities. The setting is imaginative and surreal, combining elements of industry with food. The workers appear to be diligently cutting and moving cheese chunks, creating a playful yet industrious atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cheese",
+          "helmets",
+          "mechanical device"
+        ],
+        "actions": [
+          "mining",
+          "cutting",
+          "moving"
+        ],
+        "emotions": [
+          "playful",
+          "industrious"
+        ],
+        "scenes": [
+          "industrial",
+          "surreal"
+        ],
+        "concepts": [
+          "miniature",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: cheese, helmets, crane, mechanical device. Actions: lifting, working, mining, cutting, moving. Emotions: playful, whimsical, industrious. Scenes: construction site, industrial, surreal. Concepts: miniature, surrealism, whimsical",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "cheese",
+      "helmets",
+      "crane",
+      "mechanical device"
+    ],
+    "actions": [
+      "lifting",
+      "working",
+      "mining",
+      "cutting",
+      "moving"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "industrious"
+    ],
+    "scenes": [
+      "construction site",
+      "industrial",
+      "surreal"
+    ],
+    "concepts": [
+      "miniature",
+      "surrealism",
+      "whimsical"
+    ]
+  },
+  "metadata": {}
+}

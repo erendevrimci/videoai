@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan Blue Woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan Blue Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super Saiyan Blue Woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with long flowing hair stands confidently amidst swirling blue energy. They are dressed in a white shirt and an orange garment tied with a blue sash, exuding a sense of power and calm.",
+      "description": "The scene depicts a mystical setting where a person is surrounded by ethereal blue energy. The atmosphere is both serene and powerful, suggesting a connection to magical or supernatural elements.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "clothing",
+          "sash"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "calm"
+        ],
+        "scenes": [
+          "mystical",
+          "supernatural"
+        ],
+        "concepts": [
+          "energy",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan Blue Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super Saiyan Blue Woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is standing in front of a swirling blue energy field. She appears to be in motion, with her hands raised and an expression of surprise or awe on her face.",
+      "description": "The scene depicts a woman interacting with a mystical or magical energy field. The setting suggests a fantastical or otherworldly environment, enhanced by the vibrant blue energy surrounding her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "energy field"
+        ],
+        "actions": [
+          "raising hands",
+          "expressing surprise"
+        ],
+        "emotions": [
+          "awe",
+          "surprise"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: clothing, sash, energy field. Actions: standing, raising hands, expressing surprise. Emotions: confidence, calm, awe, surprise. Scenes: mystical, supernatural, fantasy, magical. Concepts: energy, power, magic, mysticism",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "clothing",
+      "sash",
+      "energy field"
+    ],
+    "actions": [
+      "standing",
+      "raising hands",
+      "expressing surprise"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "awe",
+      "surprise"
+    ],
+    "scenes": [
+      "mystical",
+      "supernatural",
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "energy",
+      "power",
+      "magic",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

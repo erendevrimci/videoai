@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Freedom in Every Move.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Freedom in Every Move.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Freedom in Every Move/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylized character with long braided hair is striking a dynamic pose while holding a drink. She is wearing an oversized pink sweater, light blue leggings, and white sneakers, exuding a sense of casual confidence.",
+      "description": "The scene features a stylized character in a dynamic pose against a dark background, suggesting a focus on fashion and personality. The character's expression and posture convey a sense of confidence and style.",
+      "labels": {
+        "people": [
+          "stylized character"
+        ],
+        "objects": [
+          "sweater",
+          "leggings",
+          "sneakers",
+          "drink"
+        ],
+        "actions": [
+          "posing",
+          "holding"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Freedom in Every Move.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Freedom in Every Move/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is captured mid-jump against a dark background, wearing a pink oversized sweater and light blue jeans. The movement is dynamic, with the sweater billowing and hair flowing, suggesting a sense of freedom and joy.",
+      "description": "The scene depicts a lively moment of a person jumping, set against a stark black background. The focus is on the motion and the vibrant colors of the clothing, creating a contrast with the dark setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sweater",
+          "jeans",
+          "sneakers"
+        ],
+        "actions": [
+          "jumping"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "movement",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Freedom in Every Move.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Freedom in Every Move/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person wearing a pink sweater and blue jeans is captured mid-movement, surrounded by a misty spray. The scene is dynamic, with water droplets suspended in the air, creating a dramatic effect.",
+      "description": "The scene depicts a person in a studio setting, engaged in a lively action that causes water droplets to scatter around them. The focus is on the energetic movement and the interaction with the water, set against a dark background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sweater",
+          "jeans",
+          "sneakers"
+        ],
+        "actions": [
+          "movement",
+          "dancing"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "dynamic",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, stylized character. Objects: sweater, sneakers, jeans, leggings, drink. Actions: posing, holding, jumping, movement, dancing. Emotions: joy, confidence. Scenes: studio, fashion. Concepts: style, casual, movement, freedom, dynamic",
+  "primary_labels": {
+    "people": [
+      "person",
+      "stylized character"
+    ],
+    "objects": [
+      "sweater",
+      "sneakers",
+      "jeans",
+      "leggings",
+      "drink"
+    ],
+    "actions": [
+      "posing",
+      "holding",
+      "jumping",
+      "movement",
+      "dancing"
+    ],
+    "emotions": [
+      "joy",
+      "confidence"
+    ],
+    "scenes": [
+      "studio",
+      "fashion"
+    ],
+    "concepts": [
+      "style",
+      "casual",
+      "movement",
+      "freedom",
+      "dynamic"
+    ]
+  },
+  "metadata": {}
+}

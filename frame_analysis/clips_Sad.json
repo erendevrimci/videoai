@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sad.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sad/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits contemplatively on the edge of a narrow, water-filled alleyway. The scene is set against a backdrop of dilapidated buildings under a dramatic, cloud-filled sky. Her expression is introspective as she gazes at the water below.",
+      "description": "The scene depicts a solitary moment in an urban setting, with a focus on the woman's introspective mood. The environment appears worn and abandoned, suggesting themes of solitude and reflection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "clouds",
+          "water"
+        ],
+        "objects": [
+          "buildings",
+          "alley"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative",
+          "introspective"
+        ],
+        "scenes": [
+          "urban",
+          "alleyway"
+        ],
+        "concepts": [
+          "solitude",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sad/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person sits on the edge of a rain-soaked street, surrounded by crumbling buildings. The sky is overcast with dark clouds, suggesting a recent or ongoing storm. The individual appears contemplative, with their head bowed and hands resting on their knees.",
+      "description": "The scene depicts a solitary figure in an urban environment, likely after a rainstorm. The setting is characterized by dilapidated buildings and a reflective puddle on the ground, creating a somber and introspective atmosphere.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "nature": [
+          "clouds",
+          "puddle"
+        ],
+        "objects": [
+          "buildings",
+          "jeans",
+          "tank top"
+        ],
+        "actions": [
+          "sitting",
+          "contemplating"
+        ],
+        "emotions": [
+          "contemplative",
+          "somber"
+        ],
+        "scenes": [
+          "urban",
+          "post-storm"
+        ],
+        "concepts": [
+          "solitude",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, young person. Nature: clouds, water, puddle. Objects: buildings, alley, jeans, tank top. Actions: sitting, gazing, contemplating. Emotions: contemplative, introspective, somber. Scenes: urban, alleyway, post-storm. Concepts: solitude, reflection",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "young person"
+    ],
+    "nature": [
+      "clouds",
+      "water",
+      "puddle"
+    ],
+    "objects": [
+      "buildings",
+      "alley",
+      "jeans",
+      "tank top"
+    ],
+    "actions": [
+      "sitting",
+      "gazing",
+      "contemplating"
+    ],
+    "emotions": [
+      "contemplative",
+      "introspective",
+      "somber"
+    ],
+    "scenes": [
+      "urban",
+      "alleyway",
+      "post-storm"
+    ],
+    "concepts": [
+      "solitude",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

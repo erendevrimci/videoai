@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Roar in the Rain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Roar in the Rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Roar in the Rain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic tiger gazes intently into the distance, its fur glistening under soft, diffused lighting. The background is a blurred mix of dark greens and blues, with specks of light resembling falling snow or rain.",
+      "description": "The scene captures a close-up of a tiger's face in a natural setting, possibly a forest. The focus is on the tiger's expressive eyes and detailed fur, creating a serene and contemplative atmosphere.",
+      "labels": {
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "forest",
+          "wilderness"
+        ],
+        "objects": [
+          "fur"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "wildlife",
+          "natural habitat"
+        ],
+        "concepts": [
+          "majesty",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Roar in the Rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Roar in the Rain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce tiger is captured mid-roar, displaying its sharp teeth and intense expression. The tiger's fur is vividly detailed with striking orange and black stripes, set against a blurred, dark background.",
+      "description": "The scene depicts a close-up of a roaring tiger in a natural setting, emphasizing its powerful presence and wild nature.",
+      "labels": {
+        "animals": [
+          "tiger"
+        ],
+        "actions": [
+          "roaring"
+        ],
+        "emotions": [
+          "fierce",
+          "intense"
+        ],
+        "nature": [
+          "wildlife"
+        ],
+        "scenes": [
+          "close-up",
+          "wildlife photography"
+        ],
+        "visual_attributes": [
+          "vivid colors",
+          "sharp contrast",
+          "blurred background"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger. Nature: forest, wilderness, wildlife. Objects: fur. Emotions: serenity, contemplation, fierce, intense. Scenes: wildlife, natural habitat, close-up, wildlife photography. Concepts: majesty, focus. Actions: roaring. Visual_attributes: vivid colors, sharp contrast, blurred background",
+  "primary_labels": {
+    "animals": [
+      "tiger"
+    ],
+    "nature": [
+      "forest",
+      "wilderness",
+      "wildlife"
+    ],
+    "objects": [
+      "fur"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "fierce",
+      "intense"
+    ],
+    "scenes": [
+      "wildlife",
+      "natural habitat",
+      "close-up",
+      "wildlife photography"
+    ],
+    "concepts": [
+      "majesty",
+      "focus"
+    ],
+    "actions": [
+      "roaring"
+    ],
+    "visual_attributes": [
+      "vivid colors",
+      "sharp contrast",
+      "blurred background"
+    ]
+  },
+  "metadata": {}
+}

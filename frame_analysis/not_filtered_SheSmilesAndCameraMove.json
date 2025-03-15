@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSmilesAndCameraMove.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSmilesAndCameraMove.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheSmilesAndCameraMove/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a futuristic silver suit stands confidently on a platform overlooking a sprawling cityscape filled with advanced architecture and flying vehicles. The background features towering structures and a clear sky, suggesting a technologically advanced society.",
+      "description": "The scene is set in a futuristic city with advanced technology. The woman in the foreground is dressed in a sleek, metallic outfit, indicative of a sci-fi setting. The city is bustling with flying vehicles and towering buildings, creating a sense of innovation and progress.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "silver suit",
+          "platform",
+          "futuristic buildings",
+          "flying vehicles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSmilesAndCameraMove.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheSmilesAndCameraMove/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a futuristic silver suit stands in a high-tech cityscape. The background features sleek, modern buildings with a sci-fi aesthetic.",
+      "description": "The scene is set in a futuristic city with advanced architecture. A woman is prominently featured, wearing a metallic suit that matches the modern environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "futuristic suit",
+          "buildings"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "concepts": [
+          "future",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: silver suit, platform, futuristic buildings, flying vehicles, futuristic suit. Actions: standing. Emotions: confidence, happiness. Scenes: futuristic cityscape. Concepts: technology, future, science fiction",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "silver suit",
+      "platform",
+      "futuristic buildings",
+      "flying vehicles",
+      "futuristic suit"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "futuristic cityscape"
+    ],
+    "concepts": [
+      "technology",
+      "future",
+      "science fiction"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CHEESECACKS.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CHEESECACKS.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CHEESECACKS/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a giant glowing pumpkin surrounded by a miniature landscape. Snow gently falls over the scene, adding a magical touch, while a small bus travels along a winding road. The warm glow from the pumpkin contrasts with the cool, snowy surroundings.",
+      "description": "The scene is set in a miniature, enchanted landscape where a large, illuminated pumpkin dominates the view. Snowflakes fall softly, creating a serene and magical atmosphere. A small bus moves along a road, adding a sense of journey and exploration.",
+      "labels": {
+        "nature": [
+          "trees",
+          "snow"
+        ],
+        "objects": [
+          "pumpkin",
+          "bus",
+          "lamps"
+        ],
+        "actions": [
+          "snowfall",
+          "bus movement"
+        ],
+        "emotions": [
+          "whimsy",
+          "serenity"
+        ],
+        "scenes": [
+          "miniature landscape",
+          "winter wonderland"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CHEESECACKS.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CHEESECACKS/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene winter landscape features a snow-covered ground with a backdrop of snow-laden trees. The scene is peaceful and undisturbed, with a soft blanket of snow creating a tranquil atmosphere.",
+      "description": "The image captures a quiet winter scene with snow covering the ground and trees in the background. The setting appears to be a forested area, possibly in a mountainous region, during winter.",
+      "labels": {
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "snow"
+        ],
+        "scenes": [
+          "winter",
+          "forest"
+        ],
+        "concepts": [
+          "tranquility",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: trees, snow. Objects: pumpkin, bus, lamps, snow. Actions: snowfall, bus movement. Emotions: whimsy, serenity. Scenes: miniature landscape, winter wonderland, winter, forest. Concepts: magic, enchantment, tranquility, serenity",
+  "primary_labels": {
+    "nature": [
+      "trees",
+      "snow"
+    ],
+    "objects": [
+      "pumpkin",
+      "bus",
+      "lamps",
+      "snow"
+    ],
+    "actions": [
+      "snowfall",
+      "bus movement"
+    ],
+    "emotions": [
+      "whimsy",
+      "serenity"
+    ],
+    "scenes": [
+      "miniature landscape",
+      "winter wonderland",
+      "winter",
+      "forest"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "tranquility",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

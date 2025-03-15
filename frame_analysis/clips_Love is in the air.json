@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love is in the air.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love is in the air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Love is in the air/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two cats sit on a rooftop, gazing at the moonlit cityscape. A glass of red wine and a plate of food are placed between them, creating a serene and intimate setting. The city lights twinkle in the distance, with a prominent tower glowing brightly.",
+      "description": "The scene depicts a tranquil night on a city rooftop, where two cats are enjoying the view of a bustling city under the moonlight. The atmosphere is calm and peaceful, with the city skyline and a prominent tower in the background.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "nature": [
+          "moon",
+          "night sky"
+        ],
+        "objects": [
+          "wine glass",
+          "plate",
+          "food"
+        ],
+        "scenes": [
+          "cityscape",
+          "rooftop"
+        ],
+        "emotions": [
+          "serenity",
+          "intimacy"
+        ],
+        "concepts": [
+          "companionship",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love is in the air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Love is in the air/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two cats sit closely together on a rooftop, sharing an intimate moment under the moonlit sky. The cityscape in the background is illuminated by the glow of the full moon and the vibrant lights of a tower, creating a romantic atmosphere.",
+      "description": "The scene depicts a serene and romantic rooftop setting at night, with two cats sitting together. The city skyline is visible in the background, featuring a prominent illuminated tower and a full moon casting a gentle light over the scene.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "nature": [
+          "moon",
+          "night sky"
+        ],
+        "objects": [
+          "rooftop",
+          "tower",
+          "wine glass",
+          "plate"
+        ],
+        "actions": [
+          "sitting",
+          "nuzzling"
+        ],
+        "emotions": [
+          "intimacy",
+          "serenity"
+        ],
+        "scenes": [
+          "cityscape",
+          "rooftop"
+        ],
+        "concepts": [
+          "romance",
+          "nighttime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Nature: moon, night sky. Objects: wine glass, plate, food, rooftop, tower. Scenes: cityscape, rooftop. Emotions: serenity, intimacy. Concepts: companionship, tranquility, romance, nighttime. Actions: sitting, nuzzling",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "nature": [
+      "moon",
+      "night sky"
+    ],
+    "objects": [
+      "wine glass",
+      "plate",
+      "food",
+      "rooftop",
+      "tower"
+    ],
+    "scenes": [
+      "cityscape",
+      "rooftop"
+    ],
+    "emotions": [
+      "serenity",
+      "intimacy"
+    ],
+    "concepts": [
+      "companionship",
+      "tranquility",
+      "romance",
+      "nighttime"
+    ],
+    "actions": [
+      "sitting",
+      "nuzzling"
+    ]
+  },
+  "metadata": {}
+}

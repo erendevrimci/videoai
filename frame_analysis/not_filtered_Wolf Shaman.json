@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wolf Shaman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wolf Shaman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wolf Shaman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical wolf-like creature stands in a dimly lit forest, holding a glowing, intricate magical symbol in its hand. The creature's intense gaze and the ethereal blue light create an enchanting and mysterious atmosphere.",
+      "description": "The scene depicts a fantastical setting where a humanoid wolf creature is engaged in a magical ritual. The forest background adds to the mystical and otherworldly ambiance.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "objects": [
+          "magical symbol"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "mystical",
+          "intense"
+        ],
+        "scenes": [
+          "forest",
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wolf Shaman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wolf Shaman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid wolf creature with glowing eyes and a blue emblem on its shoulder stands in a dimly lit forest. The creature's fur is thick and dark, blending with the shadowy surroundings, creating an eerie and mystical atmosphere.",
+      "description": "The scene depicts a mystical forest setting where a humanoid wolf creature is the focal point. The forest is dark and shadowy, enhancing the mysterious and magical vibe of the scene.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "blue emblem"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "eerie"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "fantasy",
+          "mythical creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. Objects: magical symbol, blue emblem. Actions: holding, gazing, standing. Emotions: mystical, intense, eerie. Scenes: forest, fantasy. Concepts: magic, enchantment, fantasy, mythical creature. Nature: forest",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "objects": [
+      "magical symbol",
+      "blue emblem"
+    ],
+    "actions": [
+      "holding",
+      "gazing",
+      "standing"
+    ],
+    "emotions": [
+      "mystical",
+      "intense",
+      "eerie"
+    ],
+    "scenes": [
+      "forest",
+      "fantasy"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "fantasy",
+      "mythical creature"
+    ],
+    "nature": [
+      "forest"
+    ]
+  },
+  "metadata": {}
+}

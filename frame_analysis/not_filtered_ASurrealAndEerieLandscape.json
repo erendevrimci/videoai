@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASurrealAndEerieLandscape.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASurrealAndEerieLandscape.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASurrealAndEerieLandscape/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a colossal face emerging from swirling clouds, its eyes closed in serene contemplation. Below, a solitary figure in a cloak stands amidst rocky terrain, gazing up at the monumental visage. The landscape is otherworldly, with towering rock formations framing the scene.",
+      "description": "The image portrays a fantastical setting where a massive, serene face appears to be part of the clouds, creating a mystical atmosphere. A lone figure stands on a rocky path, dwarfed by the towering rock formations and the ethereal face above.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "clouds",
+          "rock formations"
+        ],
+        "objects": [
+          "cloak"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASurrealAndEerieLandscape.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASurrealAndEerieLandscape/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A colossal, ethereal face emerges from swirling clouds, its features serene and dreamlike. The scene is set in a surreal landscape with towering rock formations, creating a mystical atmosphere. The face appears to be part of the clouds, blending seamlessly with the sky.",
+      "description": "The image depicts a fantastical scene where a giant face, seemingly made of clouds, dominates the sky. It is set in a surreal, otherworldly landscape with jagged rock formations, evoking a sense of mystery and awe.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "rock formations"
+        ],
+        "objects": [
+          "face"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASurrealAndEerieLandscape.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASurrealAndEerieLandscape/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A surreal scene depicts a giant, ethereal face emerging from swirling clouds, with intricate patterns resembling hair flowing into the sky. The face appears serene and calm, set against a backdrop of towering rock formations piercing through the mist.",
+      "description": "The image presents a fantastical and dreamlike setting where a large, sculpted face blends seamlessly with the surrounding clouds. The scene evokes a sense of tranquility and wonder, as if capturing a moment in a mythical realm.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "rock formations"
+        ],
+        "objects": [
+          "face",
+          "patterns"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "mythical"
+        ],
+        "concepts": [
+          "ethereal",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure. Nature: clouds, rock formations. Objects: face, cloak, patterns. Actions: gazing. Emotions: serenity, contemplation, mystery, calm. Scenes: surreal, fantasy, mythical. Concepts: mystical, otherworldly, ethereal, dreamlike",
+  "primary_labels": {
+    "people": [
+      "figure"
+    ],
+    "nature": [
+      "clouds",
+      "rock formations"
+    ],
+    "objects": [
+      "face",
+      "cloak",
+      "patterns"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "mystery",
+      "calm"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "mystical",
+      "otherworldly",
+      "ethereal",
+      "dreamlike"
+    ]
+  },
+  "metadata": {}
+}

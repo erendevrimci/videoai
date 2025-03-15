@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Naturel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Naturel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Naturel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with short black hair sits pensively against a rustic wooden structure. She is dressed in a floral-patterned dress with white gloves and stockings, exuding a vintage charm. In the background, a haystack is visible, suggesting a rural setting.",
+      "description": "The scene depicts a contemplative moment in a rural setting, where a young woman in vintage attire sits by a wooden building. The presence of a haystack in the background reinforces the countryside atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "gloves",
+          "stockings",
+          "haystack",
+          "wooden structure"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "rural",
+          "countryside"
+        ],
+        "concepts": [
+          "vintage",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Naturel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Naturel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with short black hair sits pensively against a rustic wooden wall. She is dressed in a floral-patterned dress with delicate lace gloves, exuding a vintage charm. In the background, a straw hut adds to the rural setting.",
+      "description": "The scene depicts a contemplative moment in a rural setting, with a young woman dressed in vintage attire sitting against a wooden structure. The presence of a straw hut in the background suggests a countryside environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "gloves",
+          "straw hut",
+          "wooden wall"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "pensive"
+        ],
+        "scenes": [
+          "rural",
+          "countryside"
+        ],
+        "concepts": [
+          "vintage",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, gloves, stockings, haystack, wooden structure. Actions: sitting. Emotions: contemplative, pensive. Scenes: rural, countryside. Concepts: vintage, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "gloves",
+      "stockings",
+      "haystack",
+      "wooden structure"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "contemplative",
+      "pensive"
+    ],
+    "scenes": [
+      "rural",
+      "countryside"
+    ],
+    "concepts": [
+      "vintage",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

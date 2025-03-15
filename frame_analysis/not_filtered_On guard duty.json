@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/On guard duty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/On guard duty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/On guard duty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black cat is depicted wearing tactical gear and sunglasses, holding a rifle. The sunglasses reflect a landscape, adding an intriguing element to the scene.",
+      "description": "The scene presents a surreal and humorous depiction of a cat in a military setting. The cat is dressed in full tactical gear, including a vest and scarf, and is holding a rifle, creating a juxtaposition between the animal and the human-like military attire.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "rifle",
+          "tactical gear"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "military"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/On guard duty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/On guard duty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A black cat wearing tactical gear and sunglasses stands confidently, holding a rifle. The reflection in the sunglasses shows a distant landscape, adding a dramatic effect to the scene.",
+      "description": "The scene depicts a black cat dressed in military-style tactical gear, complete with a rifle and reflective sunglasses. The setting suggests a military or action-oriented theme, with the cat portrayed as a soldier.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "rifle",
+          "sunglasses",
+          "tactical gear"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "military",
+          "action"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, rifle, tactical gear. Actions: holding, standing. Emotions: humorous, confident. Scenes: military, action. Concepts: anthropomorphism, surreal, dramatic",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "rifle",
+      "tactical gear"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "humorous",
+      "confident"
+    ],
+    "scenes": [
+      "military",
+      "action"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "surreal",
+      "dramatic"
+    ]
+  },
+  "metadata": {}
+}

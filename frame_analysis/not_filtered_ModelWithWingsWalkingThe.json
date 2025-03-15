@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelWithWingsWalkingThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelWithWingsWalkingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ModelWithWingsWalkingThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking figure with glowing red eyes stands in the foreground, exuding an aura of mystery and intensity. The background is a blurred scene with silhouettes of other figures, set against a dramatic red and black backdrop.",
+      "description": "The scene is set in a dimly lit, possibly supernatural or futuristic environment. The central figure, with vivid red hair and eyes, commands attention with a powerful presence, while shadowy figures in the background add to the enigmatic atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "silhouettes"
+        ],
+        "objects": [
+          "suit",
+          "necklace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "dramatic",
+          "supernatural"
+        ],
+        "concepts": [
+          "mystery",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelWithWingsWalkingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ModelWithWingsWalkingThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with dramatic makeup and a hooded cloak stares intensely at the viewer. The background is softly blurred with a red glow, adding to the mysterious atmosphere.",
+      "description": "The scene depicts a close-up of a person with striking makeup and a dark hood, set against a blurred background with a red hue. The lighting and composition focus on the person's face, highlighting their intense expression.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hood",
+          "cloak"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "portrait",
+          "close-up"
+        ],
+        "concepts": [
+          "mystery",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, silhouettes, person. Objects: suit, necklace, hood, cloak. Actions: standing. Emotions: intensity, mystery. Scenes: dramatic, supernatural, portrait, close-up. Concepts: mystery, power, drama",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "silhouettes",
+      "person"
+    ],
+    "objects": [
+      "suit",
+      "necklace",
+      "hood",
+      "cloak"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "intensity",
+      "mystery"
+    ],
+    "scenes": [
+      "dramatic",
+      "supernatural",
+      "portrait",
+      "close-up"
+    ],
+    "concepts": [
+      "mystery",
+      "power",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

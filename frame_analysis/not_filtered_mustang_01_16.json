@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_16.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_16.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_16/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic black muscle car speeds down a tree-lined road, capturing the essence of a bygone era. The car's sleek design and polished chrome accents reflect the surrounding greenery.",
+      "description": "The scene depicts a classic muscle car driving on a road bordered by lush green trees. The setting is likely a rural or suburban area, providing a serene backdrop for the vehicle's dynamic movement.",
+      "labels": {
+        "objects": [
+          "car",
+          "road"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "scenes": [
+          "roadway",
+          "outdoors"
+        ],
+        "concepts": [
+          "classic car",
+          "motion"
+        ],
+        "emotions": [
+          "nostalgia",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_16.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_16/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek black classic car speeds down a tree-lined road, capturing the essence of vintage automotive elegance. The vehicle's polished exterior reflects the surrounding greenery as it moves swiftly along the pavement.",
+      "description": "The scene captures a classic car driving on a road bordered by lush green trees. The setting suggests a serene, possibly rural area, with the focus on the car's movement and design.",
+      "labels": {
+        "objects": [
+          "car",
+          "road"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "actions": [
+          "driving",
+          "moving"
+        ],
+        "scenes": [
+          "outdoor",
+          "road"
+        ],
+        "concepts": [
+          "vintage",
+          "speed"
+        ],
+        "emotions": [
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road. Nature: trees, greenery. Actions: driving, speeding, moving. Scenes: roadway, outdoors, outdoor, road. Concepts: classic car, motion, vintage, speed. Emotions: nostalgia, freedom",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road"
+    ],
+    "nature": [
+      "trees",
+      "greenery"
+    ],
+    "actions": [
+      "driving",
+      "speeding",
+      "moving"
+    ],
+    "scenes": [
+      "roadway",
+      "outdoors",
+      "outdoor",
+      "road"
+    ],
+    "concepts": [
+      "classic car",
+      "motion",
+      "vintage",
+      "speed"
+    ],
+    "emotions": [
+      "nostalgia",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

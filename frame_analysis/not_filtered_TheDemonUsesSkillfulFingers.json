@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDemonUsesSkillfulFingers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDemonUsesSkillfulFingers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDemonUsesSkillfulFingers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A skeletal figure draped in tattered robes sits at an old piano, its bony fingers poised over the keys. A single candle flickers on the piano, casting eerie shadows in the dimly lit room.",
+      "description": "The scene is set in a dark, possibly abandoned room with a ghostly figure playing a piano. The atmosphere is haunting and mysterious, enhanced by the dim lighting and the presence of a single candle.",
+      "labels": {
+        "people": [
+          "skeleton"
+        ],
+        "objects": [
+          "piano",
+          "candle",
+          "chair"
+        ],
+        "actions": [
+          "playing piano"
+        ],
+        "emotions": [
+          "eerie",
+          "mysterious"
+        ],
+        "scenes": [
+          "haunted room",
+          "dark interior"
+        ],
+        "concepts": [
+          "horror",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDemonUsesSkillfulFingers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDemonUsesSkillfulFingers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure wearing a tattered cloak sits at an old piano, its skeletal hands poised over the keys. A single candle illuminates the dimly lit room, casting eerie shadows on the walls.",
+      "description": "The scene depicts a haunting atmosphere with a cloaked figure playing a piano in a dimly lit room. The setting is dark and mysterious, enhanced by the presence of a single candle providing minimal light.",
+      "labels": {
+        "people": [
+          "cloaked figure"
+        ],
+        "objects": [
+          "piano",
+          "candle",
+          "chair"
+        ],
+        "actions": [
+          "playing piano"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "dimly lit room"
+        ],
+        "concepts": [
+          "mystery",
+          "haunting",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skeleton, cloaked figure. Objects: piano, candle, chair. Actions: playing piano. Emotions: eerie, mysterious. Scenes: haunted room, dark interior, dimly lit room. Concepts: horror, supernatural, mystery, haunting, darkness",
+  "primary_labels": {
+    "people": [
+      "skeleton",
+      "cloaked figure"
+    ],
+    "objects": [
+      "piano",
+      "candle",
+      "chair"
+    ],
+    "actions": [
+      "playing piano"
+    ],
+    "emotions": [
+      "eerie",
+      "mysterious"
+    ],
+    "scenes": [
+      "haunted room",
+      "dark interior",
+      "dimly lit room"
+    ],
+    "concepts": [
+      "horror",
+      "supernatural",
+      "mystery",
+      "haunting",
+      "darkness"
+    ]
+  },
+  "metadata": {}
+}

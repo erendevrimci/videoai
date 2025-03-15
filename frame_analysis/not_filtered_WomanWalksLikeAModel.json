@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksLikeAModel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksLikeAModel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalksLikeAModel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman confidently walks down a sunlit urban street, dressed in a stylish beige suit and sunglasses. She carries a matching handbag and exudes a sense of poise and elegance. The background features a cityscape with buildings and trees casting shadows on the sidewalk.",
+      "description": "The scene captures a fashionable woman walking through a city street during the day. The setting is urban, with a mix of natural and architectural elements, suggesting a bustling yet serene environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "suit",
+          "sunglasses",
+          "handbag",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksLikeAModel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalksLikeAModel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman confidently walks down a sunlit city street, dressed in a beige suit and sunglasses. She carries a matching handbag and exudes a professional and stylish demeanor.",
+      "description": "The scene captures a city street setting with a focus on a stylishly dressed woman walking confidently. The background features urban architecture and a few pedestrians, suggesting a bustling city environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree"
+        ],
+        "objects": [
+          "suit",
+          "sunglasses",
+          "handbag",
+          "shoes"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "fashion",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees, tree. Objects: suit, sunglasses, handbag, buildings, shoes. Actions: walking. Emotions: confidence. Scenes: urban, street, city street. Concepts: fashion, elegance, professionalism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees",
+      "tree"
+    ],
+    "objects": [
+      "suit",
+      "sunglasses",
+      "handbag",
+      "buildings",
+      "shoes"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "professionalism"
+    ]
+  },
+  "metadata": {}
+}

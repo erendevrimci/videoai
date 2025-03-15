@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Morning tea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Morning tea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Morning tea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is seated in a lush garden, surrounded by vibrant roses of various colors. She is gently pouring tea from a teapot, appearing serene and content.",
+      "description": "The scene is set in a tranquil garden filled with blooming roses. A woman is engaged in a peaceful activity, pouring tea, amidst the colorful floral surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "roses",
+          "trees"
+        ],
+        "objects": [
+          "teapot",
+          "tea"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Morning tea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Morning tea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman sits in a lush garden surrounded by vibrant roses of various colors. She is gently pouring tea from a decorative teapot, appearing serene and content. The scene is filled with greenery and colorful blossoms, creating a peaceful atmosphere.",
+      "description": "The scene is set in a vibrant garden filled with blooming roses. A woman is seated among the flowers, engaged in the calming activity of pouring tea. The setting is tranquil, with a focus on nature and relaxation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "roses",
+          "trees"
+        ],
+        "objects": [
+          "teapot",
+          "flowers"
+        ],
+        "actions": [
+          "pouring tea"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "relaxation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: garden, roses, trees. Objects: teapot, tea, flowers. Actions: pouring, pouring tea. Emotions: serene, content. Scenes: garden. Concepts: nature, tranquility, relaxation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "garden",
+      "roses",
+      "trees"
+    ],
+    "objects": [
+      "teapot",
+      "tea",
+      "flowers"
+    ],
+    "actions": [
+      "pouring",
+      "pouring tea"
+    ],
+    "emotions": [
+      "serene",
+      "content"
+    ],
+    "scenes": [
+      "garden"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/**Prompt:ElonMuskAndHis.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/**Prompt:ElonMuskAndHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/**Prompt:ElonMuskAndHis/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic house is nestled in a lush forest, featuring a unique architectural design with rounded glass walls and greenery integrated into its structure. Atop the building, a large, spherical robotic head adds a sci-fi element to the serene natural setting.",
+      "description": "The scene depicts a modern, eco-friendly house in a forest, blending technology with nature. The house has multiple levels with curved glass walls, surrounded by dense foliage. The robotic head on top suggests an advanced technological presence.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "house",
+          "glass walls",
+          "robotic head"
+        ],
+        "scenes": [
+          "futuristic",
+          "eco-friendly architecture"
+        ],
+        "concepts": [
+          "technology",
+          "nature integration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/**Prompt:ElonMuskAndHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/**Prompt:ElonMuskAndHis/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic house is nestled within a lush forest, featuring a large, spherical robotic structure on its roof. The building is covered with greenery and has large glass windows, blending seamlessly with the natural surroundings.",
+      "description": "The scene depicts a harmonious blend of advanced technology and nature, set in a dense forest. The house is designed with organic curves and is integrated with plant life, suggesting a sustainable and eco-friendly living environment.",
+      "labels": {
+        "objects": [
+          "futuristic house",
+          "robotic structure",
+          "glass windows"
+        ],
+        "nature": [
+          "forest",
+          "greenery",
+          "trees"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "harmony"
+        ],
+        "scenes": [
+          "futuristic",
+          "eco-friendly"
+        ],
+        "concepts": [
+          "technology",
+          "sustainability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, trees, foliage, greenery. Objects: house, glass walls, robotic head, futuristic house, robotic structure. Scenes: futuristic, eco-friendly architecture, eco-friendly. Concepts: technology, nature integration, sustainability. Actions: standing. Emotions: harmony",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "trees",
+      "foliage",
+      "greenery"
+    ],
+    "objects": [
+      "house",
+      "glass walls",
+      "robotic head",
+      "futuristic house",
+      "robotic structure"
+    ],
+    "scenes": [
+      "futuristic",
+      "eco-friendly architecture",
+      "eco-friendly"
+    ],
+    "concepts": [
+      "technology",
+      "nature integration",
+      "sustainability"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

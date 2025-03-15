@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusesOnThePerformers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusesOnThePerformers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFocusesOnThePerformers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A performer on stage is energetically singing into a microphone, surrounded by vibrant stage lighting. The background features colorful lights and a cheering audience, creating a lively concert atmosphere.",
+      "description": "The scene is set at a live concert with a performer engaging the audience. The stage is illuminated with dynamic lighting, and the crowd is visible in the background, adding to the energetic vibe.",
+      "labels": {
+        "people": [
+          "performer"
+        ],
+        "objects": [
+          "microphone",
+          "stage",
+          "lights"
+        ],
+        "actions": [
+          "singing",
+          "performing"
+        ],
+        "emotions": [
+          "energetic",
+          "enthusiastic"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "music",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusesOnThePerformers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFocusesOnThePerformers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A performer is on stage singing into a microphone under dramatic lighting. The scene is set with colorful stage lights and a focused spotlight on the singer, creating a dynamic atmosphere.",
+      "description": "The image captures a live performance on stage, with a singer passionately delivering a song. The setting is a concert or music event, with vibrant lighting enhancing the mood.",
+      "labels": {
+        "people": [
+          "singer",
+          "performer"
+        ],
+        "objects": [
+          "microphone",
+          "stage",
+          "spotlight"
+        ],
+        "actions": [
+          "singing",
+          "performing"
+        ],
+        "emotions": [
+          "passionate",
+          "engaged"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "music",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusesOnThePerformers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFocusesOnThePerformers/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dynamic concert scene with a performer on stage, illuminated by vibrant red and yellow lights. The audience is visible in the dimly lit arena, enjoying the energetic performance.",
+      "description": "The image captures a live concert setting with a performer singing on a brightly lit stage. The stage is adorned with colorful lights and visual effects, creating an engaging atmosphere for the audience.",
+      "labels": {
+        "people": [
+          "performer",
+          "audience"
+        ],
+        "objects": [
+          "stage",
+          "lights",
+          "visual effects"
+        ],
+        "actions": [
+          "performing",
+          "watching"
+        ],
+        "emotions": [
+          "excitement",
+          "enjoyment"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "entertainment",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: performer, singer, audience. Objects: stage, microphone, lights, spotlight, visual effects. Actions: performing, singing, watching. Emotions: energetic, enthusiastic, passionate, engaged, excitement. Scenes: concert, live performance. Concepts: music, entertainment",
+  "primary_labels": {
+    "people": [
+      "performer",
+      "singer",
+      "audience"
+    ],
+    "objects": [
+      "stage",
+      "microphone",
+      "lights",
+      "spotlight",
+      "visual effects"
+    ],
+    "actions": [
+      "performing",
+      "singing",
+      "watching"
+    ],
+    "emotions": [
+      "energetic",
+      "enthusiastic",
+      "passionate",
+      "engaged",
+      "excitement"
+    ],
+    "scenes": [
+      "concert",
+      "live performance"
+    ],
+    "concepts": [
+      "music",
+      "entertainment"
+    ]
+  },
+  "metadata": {}
+}

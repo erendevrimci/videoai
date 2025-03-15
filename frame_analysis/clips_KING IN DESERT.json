@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/KING IN DESERT.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/KING IN DESERT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/KING IN DESERT/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal figure dressed in ornate blue and gold attire rides a camel across vast, golden sand dunes. The scene is set against a dramatic sky, with the warm glow of the setting sun casting long shadows and highlighting the intricate details of the rider's clothing. The camel strides confidently, its movements creating a gentle swirl of sand beneath its feet.",
+      "description": "The image depicts a majestic desert scene where a noble figure on a camel traverses expansive sand dunes. The setting sun bathes the landscape in a warm, golden hue, enhancing the grandeur of the moment.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "ornate clothing"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "regal",
+          "majestic"
+        ],
+        "scenes": [
+          "desert",
+          "sunset"
+        ],
+        "concepts": [
+          "nobility",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/KING IN DESERT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/KING IN DESERT/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man dressed in ornate, royal blue and gold attire rides a camel through a vast desert landscape. The golden sand dunes stretch into the horizon under a warm, golden sky. The scene conveys a sense of majesty and adventure.",
+      "description": "The image depicts a regal figure riding a camel across a desert, likely during sunset or sunrise, given the warm lighting. The setting is expansive and serene, with rolling sand dunes creating a dramatic backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "royal attire"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "majestic",
+          "adventurous"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "royalty",
+          "journey"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: rider, man. Animals: camel. Nature: sand dunes, sky, desert. Objects: ornate clothing, royal attire. Actions: riding. Emotions: majestic, regal, adventurous. Scenes: desert, sunset, desert landscape. Concepts: nobility, adventure, royalty, journey",
+  "primary_labels": {
+    "people": [
+      "rider",
+      "man"
+    ],
+    "animals": [
+      "camel"
+    ],
+    "nature": [
+      "sand dunes",
+      "sky",
+      "desert"
+    ],
+    "objects": [
+      "ornate clothing",
+      "royal attire"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "majestic",
+      "regal",
+      "adventurous"
+    ],
+    "scenes": [
+      "desert",
+      "sunset",
+      "desert landscape"
+    ],
+    "concepts": [
+      "nobility",
+      "adventure",
+      "royalty",
+      "journey"
+    ]
+  },
+  "metadata": {}
+}

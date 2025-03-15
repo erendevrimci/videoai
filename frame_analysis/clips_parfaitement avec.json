@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/parfaitement avec/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A battle-hardened warrior kneels on a battlefield, gripping a large sword with determination. Behind him, a group of soldiers stands ready, while the sky looms with dark, foreboding clouds. The scene conveys a sense of resolve amidst the chaos of war.",
+      "description": "The scene is set on a battlefield with a warrior in armor kneeling in the foreground, holding a sword. Behind him, soldiers are gathered, suggesting a moment of pause or reflection during a battle. The dark clouds above add to the dramatic and tense atmosphere.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "sword",
+          "armor"
+        ],
+        "actions": [
+          "kneeling",
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "resolve"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "war",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/parfaitement avec/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior clad in golden armor stands resolutely on a battlefield, gripping a large sword. The sky is filled with ominous clouds, and soldiers are visible in the background, suggesting a recent or ongoing battle.",
+      "description": "The scene depicts a medieval battlefield with a focus on a central warrior. The atmosphere is tense and dramatic, with dark clouds looming overhead, enhancing the sense of conflict and determination.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "objects": [
+          "sword",
+          "armor",
+          "flags"
+        ],
+        "actions": [
+          "standing",
+          "gripping"
+        ],
+        "emotions": [
+          "determination",
+          "resolve"
+        ],
+        "scenes": [
+          "battlefield",
+          "medieval"
+        ],
+        "concepts": [
+          "war",
+          "conflict"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, soldiers. Nature: clouds. Objects: sword, armor, flags. Actions: standing, kneeling, gripping. Emotions: determination, resolve. Scenes: battlefield, medieval. Concepts: war, courage, conflict",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "soldiers"
+    ],
+    "nature": [
+      "clouds"
+    ],
+    "objects": [
+      "sword",
+      "armor",
+      "flags"
+    ],
+    "actions": [
+      "standing",
+      "kneeling",
+      "gripping"
+    ],
+    "emotions": [
+      "determination",
+      "resolve"
+    ],
+    "scenes": [
+      "battlefield",
+      "medieval"
+    ],
+    "concepts": [
+      "war",
+      "courage",
+      "conflict"
+    ]
+  },
+  "metadata": {}
+}

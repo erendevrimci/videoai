@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/a robotic woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/a robotic woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/a robotic woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic figure with pink hair stands confidently in a high-tech corridor. The individual is wearing a sleek black and white outfit with robotic arm enhancements. The corridor is illuminated with soft neon lights, creating a sci-fi ambiance.",
+      "description": "The scene is set in a futuristic, high-tech environment, likely a spaceship or advanced facility. The individual appears to be a blend of human and android, suggesting a theme of technology and human augmentation.",
+      "labels": {
+        "people": [
+          "individual",
+          "android"
+        ],
+        "objects": [
+          "robotic arms",
+          "futuristic outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "technology",
+          "cybernetic enhancement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/a robotic woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/a robotic woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic figure with pink hair stands confidently in a high-tech corridor. The individual is clad in a sleek, armored suit, exuding a sense of strength and determination. The corridor is illuminated with soft, ambient lighting, highlighting the intricate design of the surroundings.",
+      "description": "The scene is set in a futuristic environment, possibly a spaceship or advanced facility. The focus is on a person wearing a high-tech suit, suggesting a sci-fi or cyberpunk theme.",
+      "labels": {
+        "people": [
+          "individual",
+          "person"
+        ],
+        "objects": [
+          "armored suit",
+          "corridor"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "cyberpunk"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: individual, android, person. Objects: robotic arms, futuristic outfit, armored suit, corridor. Actions: standing. Emotions: confidence, determination. Scenes: futuristic corridor, futuristic, sci-fi. Concepts: technology, cybernetic enhancement, cyberpunk",
+  "primary_labels": {
+    "people": [
+      "individual",
+      "android",
+      "person"
+    ],
+    "objects": [
+      "robotic arms",
+      "futuristic outfit",
+      "armored suit",
+      "corridor"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "futuristic corridor",
+      "futuristic",
+      "sci-fi"
+    ],
+    "concepts": [
+      "technology",
+      "cybernetic enhancement",
+      "cyberpunk"
+    ]
+  },
+  "metadata": {}
+}

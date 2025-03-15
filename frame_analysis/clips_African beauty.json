@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/African beauty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/African beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/African beauty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands closely beside an elephant, their faces almost touching. Her expression is serene and contemplative, while the elephant's textured skin provides a striking contrast to her smooth complexion.",
+      "description": "The scene captures an intimate moment between a human and an elephant, highlighting a connection between them. The setting appears to be outdoors, possibly in a natural environment, with a focus on the bond between the two subjects.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "elephant"
+        ],
+        "nature": [
+          "outdoors"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "human-animal bond",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/African beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/African beauty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands closely beside an elephant, her expression calm and serene. The elephant's textured skin contrasts with her smooth complexion, creating a striking visual juxtaposition.",
+      "description": "The scene captures an intimate moment between a woman and an elephant, highlighting a connection between human and animal. The setting appears natural and serene, with a focus on the bond between the two subjects.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "elephant"
+        ],
+        "objects": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "intimate",
+          "natural"
+        ],
+        "concepts": [
+          "human-animal bond",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: elephant. Nature: outdoors. Objects: dress. Actions: standing. Emotions: serene, contemplative, calm. Scenes: intimate moment, intimate, natural. Concepts: human-animal bond, contrast",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "elephant"
+    ],
+    "nature": [
+      "outdoors"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "calm"
+    ],
+    "scenes": [
+      "intimate moment",
+      "intimate",
+      "natural"
+    ],
+    "concepts": [
+      "human-animal bond",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The journey ahead.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The journey ahead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The journey ahead/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person stands confidently on an airport tarmac, holding a suitcase with an airplane in the background. The sun sets behind the aircraft, casting long shadows across the ground. Nearby, another traveler walks by, carrying a bag.",
+      "description": "The scene is set at an airport during sunset, with a focus on travel and transition. The atmosphere is calm and reflective, with a sense of anticipation.",
+      "labels": {
+        "people": [
+          "young person",
+          "traveler"
+        ],
+        "objects": [
+          "suitcase",
+          "airplane",
+          "bag"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "anticipation"
+        ],
+        "scenes": [
+          "airport",
+          "tarmac"
+        ],
+        "concepts": [
+          "travel",
+          "transition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The journey ahead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The journey ahead/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy stands confidently on an airport tarmac, with a large airplane in the background. The sky is painted with warm hues of a setting sun, casting a golden glow over the scene.",
+      "description": "The scene is set at an airport during sunset, featuring a young boy in the foreground and an airplane in the background. The atmosphere is calm and hopeful, with people moving around the tarmac.",
+      "labels": {
+        "people": [
+          "boy",
+          "travelers"
+        ],
+        "objects": [
+          "airplane",
+          "luggage"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "calm"
+        ],
+        "scenes": [
+          "airport",
+          "sunset"
+        ],
+        "concepts": [
+          "travel",
+          "journey"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The journey ahead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The journey ahead/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young boy stands on an airport tarmac, gazing at a large airplane under a vibrant sunset sky. The scene captures the anticipation and wonder of travel, with other travelers walking towards the aircraft.",
+      "description": "The scene is set at an airport during sunset, with a focus on a young boy observing an airplane. The warm glow of the setting sun creates a serene and hopeful atmosphere as people move towards the plane.",
+      "labels": {
+        "people": [
+          "boy",
+          "travelers"
+        ],
+        "objects": [
+          "airplane",
+          "tarmac"
+        ],
+        "actions": [
+          "walking",
+          "observing"
+        ],
+        "emotions": [
+          "anticipation",
+          "wonder"
+        ],
+        "scenes": [
+          "airport",
+          "sunset"
+        ],
+        "concepts": [
+          "travel",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy, travelers, young person, traveler. Objects: airplane, suitcase, bag, luggage, tarmac. Actions: walking, standing, observing. Emotions: confidence, anticipation, calm, wonder. Scenes: airport, sunset, tarmac. Concepts: travel, transition, journey, adventure",
+  "primary_labels": {
+    "people": [
+      "boy",
+      "travelers",
+      "young person",
+      "traveler"
+    ],
+    "objects": [
+      "airplane",
+      "suitcase",
+      "bag",
+      "luggage",
+      "tarmac"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "observing"
+    ],
+    "emotions": [
+      "confidence",
+      "anticipation",
+      "calm",
+      "wonder"
+    ],
+    "scenes": [
+      "airport",
+      "sunset",
+      "tarmac"
+    ],
+    "concepts": [
+      "travel",
+      "transition",
+      "journey",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

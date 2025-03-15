@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Neko Queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Neko Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Neko Queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking close-up portrait of a person with bright blue eyes and a freckled face, adorned with cat-like ears that are illuminated by small lights. The background is softly blurred with warm, glowing bokeh lights, creating a magical and enchanting atmosphere.",
+      "description": "The scene captures an artistic and fantastical portrait of a person with a focus on their intense gaze and unique accessories. The setting suggests a whimsical or fantasy theme, enhanced by the glowing lights and ethereal ambiance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "cat ears",
+          "lights"
+        ],
+        "emotions": [
+          "intense",
+          "mysterious"
+        ],
+        "scenes": [
+          "portrait",
+          "fantasy"
+        ],
+        "concepts": [
+          "enchantment",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Neko Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Neko Queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a black outfit with cat ears stands confidently in a dimly lit setting. String lights frame the scene, adding a warm glow to the mysterious atmosphere.",
+      "description": "The scene is set in a dimly lit environment, possibly an indoor space, with decorative string lights. The woman is the focal point, exuding confidence and mystery.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "string lights",
+          "cat ears",
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident",
+          "mysterious"
+        ],
+        "scenes": [
+          "indoor",
+          "dimly lit"
+        ],
+        "concepts": [
+          "mystery",
+          "costume"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Neko Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Neko Queen/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman dressed in a black outfit with cat ears stands in a dimly lit setting. She appears to be smiling softly, surrounded by warm, glowing lights.",
+      "description": "The scene is set in a dimly lit environment, possibly an indoor or outdoor venue, adorned with strings of warm lights. The woman is the central focus, dressed in a costume that suggests a playful or festive occasion.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cat ears",
+          "black outfit",
+          "lights"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "festive",
+          "dimly lit"
+        ],
+        "concepts": [
+          "costume",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: cat ears, lights, black outfit, string lights. Emotions: mysterious, intense, confident, contentment. Scenes: dimly lit, portrait, fantasy, indoor, festive. Concepts: costume, enchantment, whimsy, mystery, celebration. Actions: standing, smiling",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "cat ears",
+      "lights",
+      "black outfit",
+      "string lights"
+    ],
+    "emotions": [
+      "mysterious",
+      "intense",
+      "confident",
+      "contentment"
+    ],
+    "scenes": [
+      "dimly lit",
+      "portrait",
+      "fantasy",
+      "indoor",
+      "festive"
+    ],
+    "concepts": [
+      "costume",
+      "enchantment",
+      "whimsy",
+      "mystery",
+      "celebration"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

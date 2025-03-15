@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Undocking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Undocking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" - Undocking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fleet of futuristic spacecraft glides through a sea of clouds, illuminated by a myriad of tiny lights. The sleek, metallic design of the ships reflects the ambient glow, creating a mesmerizing spectacle against the backdrop of the night sky.",
+      "description": "The scene depicts a science fiction setting where advanced spacecraft are navigating through a cloudy atmosphere. The ships are designed with intricate details and are part of a larger fleet, suggesting a coordinated mission or exploration.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "clouds",
+          "lights"
+        ],
+        "actions": [
+          "flying",
+          "gliding"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "science fiction",
+          "aerial view"
+        ],
+        "concepts": [
+          "futurism",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Undocking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" - Undocking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fleet of futuristic spacecraft hovers above a sea of clouds, illuminated by countless tiny lights. The sleek, metallic design of the ships contrasts with the soft, billowing clouds below, creating a striking visual scene.",
+      "description": "The scene depicts a futuristic setting where advanced spacecraft are navigating through the sky above dense cloud formations. The ships are equipped with numerous lights and have a sleek, aerodynamic design, suggesting advanced technology and exploration.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "clouds",
+          "lights"
+        ],
+        "actions": [
+          "hovering",
+          "navigating"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "futuristic",
+          "aerial"
+        ],
+        "concepts": [
+          "technology",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: spacecraft, clouds, lights. Actions: flying, gliding, hovering, navigating. Emotions: awe, wonder. Scenes: science fiction, aerial view, futuristic, aerial. Concepts: technology, futurism, exploration",
+  "primary_labels": {
+    "objects": [
+      "spacecraft",
+      "clouds",
+      "lights"
+    ],
+    "actions": [
+      "flying",
+      "gliding",
+      "hovering",
+      "navigating"
+    ],
+    "emotions": [
+      "awe",
+      "wonder"
+    ],
+    "scenes": [
+      "science fiction",
+      "aerial view",
+      "futuristic",
+      "aerial"
+    ],
+    "concepts": [
+      "technology",
+      "futurism",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

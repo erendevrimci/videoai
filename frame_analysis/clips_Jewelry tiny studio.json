@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jewelry tiny studio.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jewelry tiny studio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jewelry tiny studio/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image showcases an intricately designed pendant suspended in the air, surrounded by miniature figurines and various gemstones. The scene is illuminated by focused spotlights, highlighting the detailed craftsmanship of the jewelry piece. The setting appears to be a creative or artistic workspace, emphasizing precision and artistry.",
+      "description": "This scene depicts a detailed and artistic setup featuring a pendant as the central focus, surrounded by small figurines and an assortment of colorful gemstones. The lighting is dramatic, casting bright highlights and deep shadows, creating a sense of depth and focus on the jewelry piece.",
+      "labels": {
+        "objects": [
+          "pendant",
+          "gemstones",
+          "spotlights",
+          "miniature figurines"
+        ],
+        "actions": [
+          "suspended",
+          "illuminated"
+        ],
+        "emotions": [
+          "artistic",
+          "intricate"
+        ],
+        "scenes": [
+          "creative workspace",
+          "jewelry display"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jewelry tiny studio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jewelry tiny studio/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A detailed pendant with intricate patterns is suspended in the foreground, surrounded by miniature figures and an array of colorful gemstones. The scene is illuminated by focused spotlights, creating a dramatic and artistic atmosphere.",
+      "description": "The image depicts a close-up of a beautifully crafted pendant, set in a miniature workshop environment. Small figurines appear to be working around the pendant, which is surrounded by various gemstones, suggesting a scene of jewelry crafting or display.",
+      "labels": {
+        "objects": [
+          "pendant",
+          "gemstones",
+          "spotlights",
+          "miniature figures"
+        ],
+        "actions": [
+          "suspended",
+          "illuminated"
+        ],
+        "emotions": [
+          "artistic",
+          "dramatic"
+        ],
+        "scenes": [
+          "jewelry display",
+          "miniature workshop"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: pendant, gemstones, spotlights, miniature figurines, miniature figures. Actions: suspended, illuminated. Emotions: artistic, intricate, dramatic. Scenes: jewelry display, creative workspace, miniature workshop. Concepts: craftsmanship, artistry",
+  "primary_labels": {
+    "objects": [
+      "pendant",
+      "gemstones",
+      "spotlights",
+      "miniature figurines",
+      "miniature figures"
+    ],
+    "actions": [
+      "suspended",
+      "illuminated"
+    ],
+    "emotions": [
+      "artistic",
+      "intricate",
+      "dramatic"
+    ],
+    "scenes": [
+      "jewelry display",
+      "creative workspace",
+      "miniature workshop"
+    ],
+    "concepts": [
+      "craftsmanship",
+      "artistry"
+    ]
+  },
+  "metadata": {}
+}

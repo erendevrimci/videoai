@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Farewell to the polar bear.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Farewell to the polar bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Farewell to the polar bear/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands on a snowy landscape, gazing at a futuristic rocket-like vehicle hovering nearby. Inside the vehicle's cockpit, a polar bear is visible, seemingly piloting the craft. The scene is set against a clear blue sky, creating a surreal and whimsical atmosphere.",
+      "description": "The scene takes place in a vast, snowy landscape, possibly an arctic or polar region. A woman in winter attire stands on the snow, observing a hovering rocket-like vehicle. The vehicle has a transparent cockpit with a polar bear inside, adding a fantastical element to the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "polar bear"
+        ],
+        "nature": [
+          "snow",
+          "sky"
+        ],
+        "objects": [
+          "rocket",
+          "vehicle"
+        ],
+        "actions": [
+          "hovering",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "winter landscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Farewell to the polar bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Farewell to the polar bear/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a winter coat waves at a futuristic rocket flying overhead. The rocket emits a bright blue flame as it ascends into a clear sky. The scene is set in a snowy, open landscape.",
+      "description": "The scene depicts a person standing in a snowy field, waving at a rocket flying above. The setting is a vast, open area with a clear sky, suggesting a remote or isolated location.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "rocket",
+          "winter coat",
+          "gloves"
+        ],
+        "actions": [
+          "waving",
+          "flying"
+        ],
+        "emotions": [
+          "farewell"
+        ],
+        "scenes": [
+          "snowy landscape"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Animals: polar bear. Nature: snow, sky. Objects: rocket, vehicle, winter coat, gloves. Actions: hovering, observing, waving, flying. Emotions: curiosity, wonder, farewell. Scenes: winter landscape, fantasy, snowy landscape. Concepts: surrealism, imagination, futuristic, technology",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "animals": [
+      "polar bear"
+    ],
+    "nature": [
+      "snow",
+      "sky"
+    ],
+    "objects": [
+      "rocket",
+      "vehicle",
+      "winter coat",
+      "gloves"
+    ],
+    "actions": [
+      "hovering",
+      "observing",
+      "waving",
+      "flying"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder",
+      "farewell"
+    ],
+    "scenes": [
+      "winter landscape",
+      "fantasy",
+      "snowy landscape"
+    ],
+    "concepts": [
+      "surrealism",
+      "imagination",
+      "futuristic",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pirates.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pirates.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pirates/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two individuals dressed as pirates are intensely examining a weathered map. Their expressions are focused and serious, suggesting a sense of urgency or intrigue.",
+      "description": "The scene depicts two pirate-like figures in an atmospheric, possibly tropical setting, engaged in studying a map. The background is blurred, with hints of palm trees and soft lighting, enhancing the mysterious and adventurous tone.",
+      "labels": {
+        "people": [
+          "pirates"
+        ],
+        "objects": [
+          "map",
+          "pirate hats",
+          "jewelry"
+        ],
+        "actions": [
+          "examining",
+          "holding"
+        ],
+        "emotions": [
+          "focus",
+          "intrigue"
+        ],
+        "scenes": [
+          "adventure",
+          "mystery"
+        ],
+        "concepts": [
+          "exploration",
+          "navigation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pirates.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pirates/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals dressed as pirates are intently examining an old map. They are wearing traditional pirate attire, including tricorn hats and jewelry, and are surrounded by a dimly lit, atmospheric setting.",
+      "description": "The scene depicts a pirate-themed setting where two individuals are focused on a map, suggesting a quest or adventure. The environment is dimly lit, possibly indicating an evening or indoor setting with a mysterious and adventurous atmosphere.",
+      "labels": {
+        "people": [
+          "pirates"
+        ],
+        "objects": [
+          "map",
+          "tricorn hats",
+          "jewelry"
+        ],
+        "actions": [
+          "examining",
+          "holding"
+        ],
+        "emotions": [
+          "focused",
+          "serious"
+        ],
+        "scenes": [
+          "pirate setting",
+          "adventure"
+        ],
+        "concepts": [
+          "exploration",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pirates.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pirates/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two individuals dressed as pirates are closely examining an old, weathered map. Their attire includes tricorn hats, ornate jewelry, and rugged clothing, suggesting a historical or adventurous setting.",
+      "description": "The scene depicts a pirate-themed setting where two people are engaged in studying a map, possibly plotting a course or searching for treasure. The background is slightly blurred, indicating a bustling environment.",
+      "labels": {
+        "people": [
+          "pirates"
+        ],
+        "objects": [
+          "map",
+          "tricorn hats",
+          "jewelry"
+        ],
+        "actions": [
+          "examining",
+          "holding"
+        ],
+        "emotions": [
+          "focused",
+          "curious"
+        ],
+        "scenes": [
+          "historical",
+          "adventure"
+        ],
+        "concepts": [
+          "exploration",
+          "navigation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pirates. Objects: map, jewelry, tricorn hats, pirate hats. Actions: examining, holding. Emotions: focused, focus, intrigue, serious, curious. Scenes: adventure, mystery, pirate setting, historical. Concepts: exploration, navigation, mystery",
+  "primary_labels": {
+    "people": [
+      "pirates"
+    ],
+    "objects": [
+      "map",
+      "jewelry",
+      "tricorn hats",
+      "pirate hats"
+    ],
+    "actions": [
+      "examining",
+      "holding"
+    ],
+    "emotions": [
+      "focused",
+      "focus",
+      "intrigue",
+      "serious",
+      "curious"
+    ],
+    "scenes": [
+      "adventure",
+      "mystery",
+      "pirate setting",
+      "historical"
+    ],
+    "concepts": [
+      "exploration",
+      "navigation",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

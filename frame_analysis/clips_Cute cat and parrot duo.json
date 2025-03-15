@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute cat and parrot duo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute cat and parrot duo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute cat and parrot duo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white cat and a vibrant green parrot are perched together on a windowsill. The cat has its eyes closed, appearing relaxed, while the parrot gently leans against it. Soft sunlight filters through the window, illuminating the scene with a warm glow.",
+      "description": "The scene depicts a tranquil moment between a cat and a parrot on a windowsill, with a backdrop of soft sunlight and blooming flowers. The setting suggests a peaceful indoor environment with a view of nature outside.",
+      "labels": {
+        "animals": [
+          "cat",
+          "parrot"
+        ],
+        "nature": [
+          "flowers",
+          "sunlight"
+        ],
+        "objects": [
+          "windowsill"
+        ],
+        "actions": [
+          "resting",
+          "leaning"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ],
+        "scenes": [
+          "indoor",
+          "nature view"
+        ],
+        "concepts": [
+          "friendship",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute cat and parrot duo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute cat and parrot duo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white cat lounges peacefully by a window, while a vibrant green parrot nuzzles against its fur. The warm sunlight filters through the window, casting a soft glow over the scene.",
+      "description": "The scene captures a tranquil moment between a cat and a parrot by a sunlit window. The setting suggests a cozy indoor environment with natural light streaming in.",
+      "labels": {
+        "animals": [
+          "cat",
+          "parrot"
+        ],
+        "nature": [
+          "sunlight",
+          "flowers"
+        ],
+        "objects": [
+          "window",
+          "carpet"
+        ],
+        "actions": [
+          "nuzzling",
+          "lounging"
+        ],
+        "emotions": [
+          "peaceful",
+          "content"
+        ],
+        "scenes": [
+          "domestic",
+          "indoor"
+        ],
+        "concepts": [
+          "friendship",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, parrot. Nature: flowers, sunlight. Objects: windowsill, window, carpet. Actions: resting, leaning, nuzzling, lounging. Emotions: peaceful, calm, content. Scenes: indoor, nature view, domestic. Concepts: friendship, tranquility, serenity",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "parrot"
+    ],
+    "nature": [
+      "flowers",
+      "sunlight"
+    ],
+    "objects": [
+      "windowsill",
+      "window",
+      "carpet"
+    ],
+    "actions": [
+      "resting",
+      "leaning",
+      "nuzzling",
+      "lounging"
+    ],
+    "emotions": [
+      "peaceful",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "indoor",
+      "nature view",
+      "domestic"
+    ],
+    "concepts": [
+      "friendship",
+      "tranquility",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

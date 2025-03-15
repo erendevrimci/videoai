@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Litle girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Litle girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Litle girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl stands against a soft pink background, wearing a white cardigan over a light pink dress. She has a gentle smile and her hair is styled in loose curls.",
+      "description": "The scene features a young girl posing for a portrait against a plain pink backdrop. The setting is simple and studio-like, focusing on the girl's attire and expression.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "cardigan",
+          "dress",
+          "shoes"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "youth",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Litle girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Litle girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl is joyfully sitting against a solid pink background, smiling widely. She is wearing a light-colored dress and a matching cardigan, exuding a sense of happiness and innocence.",
+      "description": "The scene captures a young girl in a studio setting with a pink backdrop. The focus is on her cheerful expression and elegant attire, creating a warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "girl",
+          "child"
+        ],
+        "objects": [
+          "dress",
+          "cardigan"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "joy"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "innocence",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, child. Objects: cardigan, dress, shoes. Emotions: happiness, joy. Scenes: studio, portrait. Concepts: innocence, youth, childhood. Actions: sitting, smiling",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "child"
+    ],
+    "objects": [
+      "cardigan",
+      "dress",
+      "shoes"
+    ],
+    "emotions": [
+      "happiness",
+      "joy"
+    ],
+    "scenes": [
+      "studio",
+      "portrait"
+    ],
+    "concepts": [
+      "innocence",
+      "youth",
+      "childhood"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

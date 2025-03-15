@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfACyber.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfACyber.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfACyber/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure crouches in a dimly lit urban alley, wearing a fox mask with glowing red eyes. The figure is clad in a hooded jacket and gloves, holding a katana, with neon lights casting a red and blue glow.",
+      "description": "The scene is set in a futuristic urban environment, likely at night, with blurred neon lights in the background. The atmosphere is tense and enigmatic, suggesting a moment of stealth or anticipation.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "fox mask",
+          "hooded jacket",
+          "gloves",
+          "katana"
+        ],
+        "actions": [
+          "crouching"
+        ],
+        "emotions": [
+          "mysterious",
+          "tense"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic",
+          "night"
+        ],
+        "concepts": [
+          "stealth",
+          "anticipation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfACyber.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfACyber/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A misty urban street scene with vibrant red and white lights illuminating the fog. The steam rises from the wet pavement, creating an atmospheric and mysterious ambiance. The blurred background suggests a bustling city environment.",
+      "description": "The image captures a foggy street in an urban setting, likely at night or during the early evening. The scene is characterized by bright red and white lights, possibly from streetlights or signage, which contrast with the thick steam rising from the ground.",
+      "labels": {
+        "nature": [
+          "fog",
+          "steam"
+        ],
+        "objects": [
+          "lights",
+          "pavement"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "night"
+        ],
+        "emotions": [
+          "mysterious",
+          "atmospheric"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure. Objects: fox mask, hooded jacket, gloves, katana, lights. Actions: crouching. Emotions: mysterious, tense, atmospheric. Scenes: urban, night, futuristic, street. Concepts: stealth, anticipation. Nature: fog, steam",
+  "primary_labels": {
+    "people": [
+      "figure"
+    ],
+    "objects": [
+      "fox mask",
+      "hooded jacket",
+      "gloves",
+      "katana",
+      "lights"
+    ],
+    "actions": [
+      "crouching"
+    ],
+    "emotions": [
+      "mysterious",
+      "tense",
+      "atmospheric"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "futuristic",
+      "street"
+    ],
+    "concepts": [
+      "stealth",
+      "anticipation"
+    ],
+    "nature": [
+      "fog",
+      "steam"
+    ]
+  },
+  "metadata": {}
+}

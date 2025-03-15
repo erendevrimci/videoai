@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LosDosSeMiranY.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LosDosSeMiranY.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LosDosSeMiranY/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two people are seated against a plain black background. The person on the left is wearing a white t-shirt with printed designs, while the person on the right is dressed in a brown sweatshirt and patterned pants.",
+      "description": "The scene depicts two individuals sitting side by side in a studio-like setting with a black backdrop. The atmosphere is casual and relaxed, with both individuals looking forward.",
+      "labels": {
+        "people": [
+          "two people"
+        ],
+        "objects": [
+          "t-shirt",
+          "sweatshirt",
+          "pants",
+          "boots"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "studio setting"
+        ],
+        "concepts": [
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LosDosSeMiranY.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LosDosSeMiranY/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is sitting closely together, sharing a tender kiss. The man is wearing a white t-shirt with a hand pattern, while the woman is dressed in a brown sweater and leopard print pants.",
+      "description": "The scene captures an intimate moment between two people against a plain black background, emphasizing their connection and affection.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "sweater",
+          "pants",
+          "boots"
+        ],
+        "actions": [
+          "kissing",
+          "sitting"
+        ],
+        "emotions": [
+          "affection",
+          "intimacy"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "romance",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: two people, man, woman. Objects: t-shirt, pants, boots, sweatshirt, sweater. Emotions: relaxed, affection, intimacy. Scenes: studio setting, intimate moment. Concepts: casual, romance, connection. Actions: kissing, sitting",
+  "primary_labels": {
+    "people": [
+      "two people",
+      "man",
+      "woman"
+    ],
+    "objects": [
+      "t-shirt",
+      "pants",
+      "boots",
+      "sweatshirt",
+      "sweater"
+    ],
+    "emotions": [
+      "relaxed",
+      "affection",
+      "intimacy"
+    ],
+    "scenes": [
+      "studio setting",
+      "intimate moment"
+    ],
+    "concepts": [
+      "casual",
+      "romance",
+      "connection"
+    ],
+    "actions": [
+      "kissing",
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

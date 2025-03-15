@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Attractive she sends me a heart.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Attractive she sends me a heart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Attractive she sends me a heart/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, flowing hair walks confidently down a dimly lit urban street at night. She is dressed in a stylish black leather jacket and jeans, with city lights softly illuminating the scene.",
+      "description": "The scene captures a nighttime urban setting with a woman walking along a sidewalk. The street is lined with buildings, and the ambient glow from streetlights creates a warm atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather jacket",
+          "jeans",
+          "streetlight",
+          "sidewalk",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "fashion",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Attractive she sends me a heart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Attractive she sends me a heart/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman walks confidently down a dimly lit city street at night. Her long hair flows behind her as she strides forward, wearing a leather jacket and jeans. The streetlights cast a warm glow, creating a dramatic and urban atmosphere.",
+      "description": "The scene is set on a city street at night, with a focus on a woman walking towards the camera. The urban environment is highlighted by the streetlights and the blurred cityscape in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather jacket",
+          "jeans",
+          "streetlights",
+          "railings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "night"
+        ],
+        "concepts": [
+          "urban",
+          "fashion",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: leather jacket, jeans, streetlight, sidewalk, buildings. Actions: walking. Emotions: confidence. Scenes: night, urban, city street. Concepts: fashion, city life, urban, nightlife",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "leather jacket",
+      "jeans",
+      "streetlight",
+      "sidewalk",
+      "buildings"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "night",
+      "urban",
+      "city street"
+    ],
+    "concepts": [
+      "fashion",
+      "city life",
+      "urban",
+      "nightlife"
+    ]
+  },
+  "metadata": {}
+}

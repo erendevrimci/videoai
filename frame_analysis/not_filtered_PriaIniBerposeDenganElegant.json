@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerposeDenganElegant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerposeDenganElegant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PriaIniBerposeDenganElegant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a stylish, patterned dress walks confidently down a garden path. The path is lined with vibrant flowers and lush greenery, creating a serene and picturesque setting. Sunlight filters through the overhead trellis, casting dappled shadows on the ground.",
+      "description": "The scene is set in a beautiful garden with a pergola covered in greenery and flowers. A woman is walking along the path, carrying a handbag, surrounded by colorful blooms and foliage.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "flowers",
+          "greenery"
+        ],
+        "objects": [
+          "dress",
+          "handbag",
+          "pergola"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "garden path"
+        ],
+        "concepts": [
+          "fashion",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerposeDenganElegant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PriaIniBerposeDenganElegant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a stylish dress walks gracefully through a lush garden pathway. The path is lined with vibrant flowers and covered by a green pergola, creating a serene and picturesque setting.",
+      "description": "The scene is set in a beautiful garden with a pergola overhead, providing a canopy of greenery. The pathway is adorned with colorful flowers, creating a peaceful and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "flowers",
+          "greenery",
+          "pergola"
+        ],
+        "objects": [
+          "dress",
+          "handbag"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "garden pathway"
+        ],
+        "concepts": [
+          "fashion",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: garden, flowers, greenery, pergola. Objects: dress, handbag, pergola. Actions: walking. Emotions: confidence, serene. Scenes: garden path, garden pathway. Concepts: fashion, serenity, nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "garden",
+      "flowers",
+      "greenery",
+      "pergola"
+    ],
+    "objects": [
+      "dress",
+      "handbag",
+      "pergola"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serene"
+    ],
+    "scenes": [
+      "garden path",
+      "garden pathway"
+    ],
+    "concepts": [
+      "fashion",
+      "serenity",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

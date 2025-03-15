@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bike though Cyberpunk city.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bike though Cyberpunk city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bike though Cyberpunk city/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A motorcyclist rides through a neon-lit urban street on a rainy night. The wet pavement reflects the vibrant colors of the city lights, creating a futuristic atmosphere. A pedestrian walks in the opposite direction, adding to the dynamic scene.",
+      "description": "The scene is set in a bustling city street at night, characterized by neon signs and wet surfaces. The environment suggests a modern or slightly futuristic urban setting.",
+      "labels": {
+        "people": [
+          "motorcyclist",
+          "pedestrian"
+        ],
+        "objects": [
+          "motorcycle",
+          "neon signs",
+          "wet pavement"
+        ],
+        "actions": [
+          "riding",
+          "walking"
+        ],
+        "emotions": [
+          "dynamic",
+          "futuristic"
+        ],
+        "scenes": [
+          "urban street",
+          "nighttime"
+        ],
+        "concepts": [
+          "modernity",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bike though Cyberpunk city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bike though Cyberpunk city/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A motorcyclist speeds through a neon-lit urban street, the wet pavement reflecting vibrant colors. The rider is clad in dark gear, leaning into the ride as towering buildings loom overhead.",
+      "description": "The scene depicts a futuristic cityscape at night, characterized by bright neon lights and towering skyscrapers. The atmosphere is dynamic and energetic, with a focus on the solitary motorcyclist navigating the slick streets.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "neon lights",
+          "buildings"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "adrenaline",
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "night",
+          "futuristic"
+        ],
+        "concepts": [
+          "cyberpunk",
+          "technology",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bike though Cyberpunk city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bike though Cyberpunk city/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A motorcyclist rides through a neon-lit city street at night, the wet pavement reflecting vibrant colors. The rider, clad in dark gear, is captured from behind, emphasizing the speed and motion of the scene. Towering buildings with bright signs frame the bustling urban environment.",
+      "description": "The scene is set in a futuristic or modern city at night, characterized by neon lights and wet streets. A motorcyclist is the focal point, speeding through the urban landscape, creating a dynamic and energetic atmosphere.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "buildings",
+          "neon signs"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime"
+        ],
+        "concepts": [
+          "urban",
+          "futuristic",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: motorcyclist, pedestrian. Objects: motorcycle, neon signs, helmet, buildings, wet pavement. Actions: riding, speeding, walking. Emotions: excitement, dynamic, futuristic, adrenaline, adventure. Scenes: nighttime, urban street, urban, night, futuristic. Concepts: technology, modernity, cyberpunk, speed, urban",
+  "primary_labels": {
+    "people": [
+      "motorcyclist",
+      "pedestrian"
+    ],
+    "objects": [
+      "motorcycle",
+      "neon signs",
+      "helmet",
+      "buildings",
+      "wet pavement"
+    ],
+    "actions": [
+      "riding",
+      "speeding",
+      "walking"
+    ],
+    "emotions": [
+      "excitement",
+      "dynamic",
+      "futuristic",
+      "adrenaline",
+      "adventure"
+    ],
+    "scenes": [
+      "nighttime",
+      "urban street",
+      "urban",
+      "night",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "modernity",
+      "cyberpunk",
+      "speed",
+      "urban"
+    ]
+  },
+  "metadata": {}
+}

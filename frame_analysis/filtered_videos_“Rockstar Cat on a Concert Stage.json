@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\u201cRockstar Cat on a Concert Stage.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\u201cRockstar Cat on a Concert Stage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\u201cRockstar Cat on a Concert Stage/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as a rock star stands on stage, gripping an electric guitar. The feline wears a spiked leather jacket, exuding a rebellious and energetic vibe.",
+      "description": "The scene captures a concert setting with a cat anthropomorphized as a rock musician. The audience is visible in the background, with hands raised and phones capturing the moment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "leather jacket"
+        ],
+        "actions": [
+          "playing guitar",
+          "performing"
+        ],
+        "emotions": [
+          "energetic",
+          "rebellious"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "rock music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\u201cRockstar Cat on a Concert Stage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\u201cRockstar Cat on a Concert Stage/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A musician with a cat's head is energetically playing an electric guitar on stage. The audience is captivated, with many people holding up their phones to capture the performance. The scene is illuminated by dramatic stage lighting, creating a vibrant and lively atmosphere.",
+      "description": "The scene takes place at a live concert, where a performer with a surreal cat's head is the center of attention. The crowd is engaged and enthusiastic, adding to the high-energy environment.",
+      "labels": {
+        "people": [
+          "musician",
+          "audience"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "electric guitar",
+          "phones",
+          "stage"
+        ],
+        "actions": [
+          "playing guitar",
+          "taking photos"
+        ],
+        "emotions": [
+          "excitement",
+          "enthusiasm"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "surrealism",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: guitar, leather jacket, electric guitar, phones, stage. Actions: playing guitar, performing, taking photos. Emotions: energetic, rebellious, excitement, enthusiasm. Scenes: concert, stage, live performance. Concepts: anthropomorphism, rock music, surrealism, entertainment. People: musician, audience",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "guitar",
+      "leather jacket",
+      "electric guitar",
+      "phones",
+      "stage"
+    ],
+    "actions": [
+      "playing guitar",
+      "performing",
+      "taking photos"
+    ],
+    "emotions": [
+      "energetic",
+      "rebellious",
+      "excitement",
+      "enthusiasm"
+    ],
+    "scenes": [
+      "concert",
+      "stage",
+      "live performance"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "rock music",
+      "surrealism",
+      "entertainment"
+    ],
+    "people": [
+      "musician",
+      "audience"
+    ]
+  },
+  "metadata": {}
+}

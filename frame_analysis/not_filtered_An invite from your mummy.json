@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An invite from your mummy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An invite from your mummy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/An invite from your mummy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious, slightly ajar wooden door reveals a dimly lit stone staircase beyond. A wrapped, skeletal hand emerges from the darkness, gripping the door's edge. The scene evokes a sense of suspense and intrigue.",
+      "description": "The scene is set in a dimly lit, possibly ancient or medieval environment, characterized by a heavy wooden door and stone architecture. The atmosphere is eerie and suspenseful, suggesting a narrative of mystery or the supernatural.",
+      "labels": {
+        "objects": [
+          "wooden door",
+          "door handle",
+          "stone staircase"
+        ],
+        "actions": [
+          "opening door",
+          "hand reaching"
+        ],
+        "emotions": [
+          "suspense",
+          "intrigue"
+        ],
+        "scenes": [
+          "mysterious setting",
+          "ancient architecture"
+        ],
+        "concepts": [
+          "mystery",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An invite from your mummy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/An invite from your mummy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure stands in a dimly lit ancient stone corridor, adorned in a golden mask and intricate wrappings. The figure holds open a heavy wooden door, revealing a staircase leading further into the shadowy depths.",
+      "description": "The scene is set in an ancient, possibly mystical setting, with stone architecture and a sense of historical depth. The figure's attire and mask suggest a ceremonial or otherworldly presence.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "golden mask",
+          "wooden door",
+          "stone corridor"
+        ],
+        "actions": [
+          "holding door"
+        ],
+        "emotions": [
+          "mysterious",
+          "enigmatic"
+        ],
+        "scenes": [
+          "ancient corridor",
+          "mystical setting"
+        ],
+        "concepts": [
+          "mystery",
+          "ceremony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: wooden door, door handle, stone staircase, golden mask, stone corridor. Actions: opening door, hand reaching, holding door. Emotions: suspense, intrigue, mysterious, enigmatic. Scenes: mysterious setting, ancient architecture, ancient corridor, mystical setting. Concepts: mystery, supernatural, ceremony. People: figure",
+  "primary_labels": {
+    "objects": [
+      "wooden door",
+      "door handle",
+      "stone staircase",
+      "golden mask",
+      "stone corridor"
+    ],
+    "actions": [
+      "opening door",
+      "hand reaching",
+      "holding door"
+    ],
+    "emotions": [
+      "suspense",
+      "intrigue",
+      "mysterious",
+      "enigmatic"
+    ],
+    "scenes": [
+      "mysterious setting",
+      "ancient architecture",
+      "ancient corridor",
+      "mystical setting"
+    ],
+    "concepts": [
+      "mystery",
+      "supernatural",
+      "ceremony"
+    ],
+    "people": [
+      "figure"
+    ]
+  },
+  "metadata": {}
+}

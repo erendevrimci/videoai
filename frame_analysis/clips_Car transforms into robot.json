@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Car transforms into robot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Car transforms into robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Car transforms into robot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, orange sports car speeds across a vast desert landscape, kicking up a cloud of dust behind it. The sun casts a warm glow over the scene, highlighting the car's aerodynamic design against the backdrop of rolling sand dunes. Dark clouds loom above, adding a dramatic contrast to the golden hues of the desert.",
+      "description": "The scene captures a dynamic moment of a sports car driving through a desert, with the setting sun and dramatic clouds creating a striking visual contrast. The environment is both harsh and beautiful, emphasizing the car's power and elegance.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "sand dunes",
+          "clouds"
+        ],
+        "actions": [
+          "driving",
+          "dust kicking"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ],
+        "scenes": [
+          "desert",
+          "sunset"
+        ],
+        "concepts": [
+          "speed",
+          "luxury",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Car transforms into robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Car transforms into robot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A yellow and black robot stands prominently against a sunset backdrop, exuding a powerful presence. The robot's glowing blue eyes and intricate mechanical details are highlighted by the warm, fading light.",
+      "description": "The scene depicts a robot standing on rocky terrain during sunset. The setting sun casts a warm glow, emphasizing the robot's metallic features and creating a dramatic silhouette.",
+      "labels": {
+        "objects": [
+          "robot",
+          "rocky terrain"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "powerful",
+          "majestic"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunset"
+        ],
+        "concepts": [
+          "technology",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, sand dunes, clouds, robot, rocky terrain. Actions: driving, dust kicking, standing. Emotions: excitement, adventure, powerful, majestic. Scenes: sunset, desert, outdoor. Concepts: speed, luxury, freedom, technology, strength. Nature: sunset",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "sand dunes",
+      "clouds",
+      "robot",
+      "rocky terrain"
+    ],
+    "actions": [
+      "driving",
+      "dust kicking",
+      "standing"
+    ],
+    "emotions": [
+      "excitement",
+      "adventure",
+      "powerful",
+      "majestic"
+    ],
+    "scenes": [
+      "sunset",
+      "desert",
+      "outdoor"
+    ],
+    "concepts": [
+      "speed",
+      "luxury",
+      "freedom",
+      "technology",
+      "strength"
+    ],
+    "nature": [
+      "sunset"
+    ]
+  },
+  "metadata": {}
+}

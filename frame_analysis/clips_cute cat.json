@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cute cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two adorable kittens are standing side by side, each holding a treat. One kitten holds a large ice cream cone, while the other clutches a striped bucket of popcorn.",
+      "description": "The scene depicts two cute kittens in a whimsical setting, each enjoying a different snack. The background is softly blurred, suggesting a lively, colorful environment, possibly a fair or carnival.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "ice cream cone",
+          "popcorn bucket"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "cute",
+          "playful"
+        ],
+        "scenes": [
+          "whimsical setting"
+        ],
+        "concepts": [
+          "friendship",
+          "enjoyment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cute cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two adorable kittens are standing together, one holding an ice cream cone and the other holding a bucket of popcorn. They appear to be enjoying a playful moment in a lively, blurred background setting.",
+      "description": "The scene captures two kittens in a whimsical, anthropomorphic setting. They are dressed in human-like attire and are holding snacks, suggesting a playful and imaginative scenario.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "objects": [
+          "ice cream cone",
+          "popcorn bucket"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "whimsical",
+          "imaginative"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kittens, cats. Objects: ice cream cone, popcorn bucket. Actions: holding, standing. Emotions: playful, cute, joyful. Scenes: whimsical setting, whimsical, imaginative. Concepts: friendship, enjoyment, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "kittens",
+      "cats"
+    ],
+    "objects": [
+      "ice cream cone",
+      "popcorn bucket"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "playful",
+      "cute",
+      "joyful"
+    ],
+    "scenes": [
+      "whimsical setting",
+      "whimsical",
+      "imaginative"
+    ],
+    "concepts": [
+      "friendship",
+      "enjoyment",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/child and bear.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/child and bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/child and bear/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small child in a red outfit stands face-to-face with a giant polar bear in a snowy landscape. The bear gazes gently at the child, creating a moment of connection between the two. Snowflakes fall softly around them, enhancing the serene atmosphere.",
+      "description": "The scene depicts a tranquil encounter between a child and a polar bear in a snowy environment. The child, dressed warmly, looks up at the bear with curiosity and wonder. The setting is calm and quiet, with falling snow adding to the peacefulness.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "polar bear"
+        ],
+        "nature": [
+          "snow",
+          "snowflakes"
+        ],
+        "objects": [
+          "red outfit"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder",
+          "serenity"
+        ],
+        "scenes": [
+          "snowy landscape",
+          "animal encounter"
+        ],
+        "concepts": [
+          "connection",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/child and bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/child and bear/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small child dressed in red winter clothing gently touches the nose of a large polar bear in a snowy landscape. The bear leans down, creating an intimate and tender moment between the two. Snowflakes fall softly around them, enhancing the serene atmosphere.",
+      "description": "The scene depicts a peaceful interaction between a child and a polar bear in a snowy environment. The setting is likely an arctic or winter landscape, characterized by falling snow and a blanket of white covering the ground.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "polar bear"
+        ],
+        "nature": [
+          "snow",
+          "snowflakes"
+        ],
+        "objects": [
+          "winter clothing"
+        ],
+        "actions": [
+          "touching",
+          "leaning"
+        ],
+        "emotions": [
+          "tenderness",
+          "serenity"
+        ],
+        "scenes": [
+          "winter landscape",
+          "arctic"
+        ],
+        "concepts": [
+          "innocence",
+          "harmony with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: polar bear. Nature: snow, snowflakes. Objects: red outfit, winter clothing. Actions: gazing, standing, touching, leaning. Emotions: serenity, curiosity, wonder, tenderness. Scenes: snowy landscape, animal encounter, winter landscape, arctic. Concepts: innocence, connection, harmony with nature",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "polar bear"
+    ],
+    "nature": [
+      "snow",
+      "snowflakes"
+    ],
+    "objects": [
+      "red outfit",
+      "winter clothing"
+    ],
+    "actions": [
+      "gazing",
+      "standing",
+      "touching",
+      "leaning"
+    ],
+    "emotions": [
+      "serenity",
+      "curiosity",
+      "wonder",
+      "tenderness"
+    ],
+    "scenes": [
+      "snowy landscape",
+      "animal encounter",
+      "winter landscape",
+      "arctic"
+    ],
+    "concepts": [
+      "innocence",
+      "connection",
+      "harmony with nature"
+    ]
+  },
+  "metadata": {}
+}

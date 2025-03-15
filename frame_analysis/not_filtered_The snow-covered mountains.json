@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The snow-covered mountains.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The snow-covered mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The snow-covered mountains/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid wolf figure stands on a snowy mountain peak, draped in a blue cloak with fur trim. It holds a lantern on a staff, casting a warm glow against the cold, twilight backdrop of snow-covered hills.",
+      "description": "The scene depicts a mystical, fantasy setting at dusk or dawn, with a humanoid wolf character standing on a snowy mountaintop. The warm light from the lantern contrasts with the cool tones of the snow and sky, creating an enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow",
+          "mountain",
+          "hills"
+        ],
+        "objects": [
+          "cloak",
+          "lantern",
+          "staff"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "calm"
+        ],
+        "scenes": [
+          "fantasy",
+          "twilight"
+        ],
+        "concepts": [
+          "contrast",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The snow-covered mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The snow-covered mountains/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure draped in a blue cloak stands on a snowy cliff, holding a lantern that casts a warm glow. The backdrop features expansive snow-covered mountains under a vibrant sunset sky. The scene evokes a sense of solitude and contemplation amidst the vast wilderness.",
+      "description": "The scene is set in a mountainous, snow-covered landscape during sunset. A solitary figure, possibly a traveler or a mystical character, is standing on a cliff edge, holding a lantern. The setting sun paints the sky in hues of orange and pink, contrasting with the cold, blue tones of the snow.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "sunset"
+        ],
+        "objects": [
+          "cloak",
+          "lantern",
+          "cliff"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "solitude",
+          "contemplation"
+        ],
+        "scenes": [
+          "wilderness",
+          "sunset"
+        ],
+        "concepts": [
+          "mystical",
+          "journey"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. Nature: snow, mountain, hills, mountains, sunset. Objects: cloak, lantern, staff, cliff. Actions: standing, holding. Emotions: mystical, calm, solitude, contemplation. Scenes: fantasy, twilight, wilderness, sunset. Concepts: contrast, enchantment, mystical, journey. People: figure",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "snow",
+      "mountain",
+      "hills",
+      "mountains",
+      "sunset"
+    ],
+    "objects": [
+      "cloak",
+      "lantern",
+      "staff",
+      "cliff"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "mystical",
+      "calm",
+      "solitude",
+      "contemplation"
+    ],
+    "scenes": [
+      "fantasy",
+      "twilight",
+      "wilderness",
+      "sunset"
+    ],
+    "concepts": [
+      "contrast",
+      "enchantment",
+      "mystical",
+      "journey"
+    ],
+    "people": [
+      "figure"
+    ]
+  },
+  "metadata": {}
+}

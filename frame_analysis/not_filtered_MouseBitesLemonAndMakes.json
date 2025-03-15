@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MouseBitesLemonAndMakes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MouseBitesLemonAndMakes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MouseBitesLemonAndMakes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small mouse is holding a slice of lemon, nibbling on it with curiosity. The mouse's large ears and bright eyes are prominent, creating an adorable scene against a dark background.",
+      "description": "The scene captures a close-up of a mouse interacting with a lemon slice, set against a dark, neutral background. The focus is on the mouse's expression and the vibrant yellow of the lemon.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "lemon"
+        ],
+        "actions": [
+          "nibbling"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "adorable",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MouseBitesLemonAndMakes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MouseBitesLemonAndMakes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small mouse is nibbling on a slice of lemon, holding it with its tiny paws. The mouse's fur is soft and brown, and it appears curious and engaged with the fruit.",
+      "description": "The scene captures a close-up of a mouse interacting with a lemon slice on a wooden surface. The setting is simple, likely indoors, with a focus on the interaction between the animal and the fruit.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "lemon",
+          "wooden surface"
+        ],
+        "actions": [
+          "nibbling",
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up",
+          "indoor"
+        ],
+        "concepts": [
+          "interaction",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MouseBitesLemonAndMakes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MouseBitesLemonAndMakes/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small mouse is seen playfully interacting with a slice of lemon, its tiny paws gripping the fruit. The mouse's tongue is out, suggesting it is tasting or curiously exploring the lemon. The background is a soft, blurred brown, highlighting the mouse and lemon in the foreground.",
+      "description": "The scene captures a close-up of a mouse with a lemon slice, set against a neutral background. The focus is on the mouse's interaction with the lemon, creating a charming and whimsical moment.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "lemon"
+        ],
+        "actions": [
+          "tasting",
+          "gripping"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "close-up",
+          "still life"
+        ],
+        "concepts": [
+          "exploration",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mouse. Objects: lemon, wooden surface. Actions: nibbling, holding, tasting, gripping. Emotions: curiosity, playfulness. Scenes: close-up, indoor, still life. Concepts: interaction, adorable, nature, exploration",
+  "primary_labels": {
+    "animals": [
+      "mouse"
+    ],
+    "objects": [
+      "lemon",
+      "wooden surface"
+    ],
+    "actions": [
+      "nibbling",
+      "holding",
+      "tasting",
+      "gripping"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "close-up",
+      "indoor",
+      "still life"
+    ],
+    "concepts": [
+      "interaction",
+      "adorable",
+      "nature",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeAPicturOfChai.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeAPicturOfChai.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeAPicturOfChai/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two animated boys are in a cozy workshop, engaging with a pile of small orange objects on a wooden table. They are smiling and appear to be enjoying a playful moment together.",
+      "description": "The scene is set in a warm, inviting workshop filled with various pottery and tools. The focus is on two animated boys who are interacting with a pile of small orange objects, possibly seeds or beads, on a wooden table.",
+      "labels": {
+        "people": [
+          "boys",
+          "animated characters"
+        ],
+        "objects": [
+          "wooden table",
+          "orange objects",
+          "pottery",
+          "tools"
+        ],
+        "actions": [
+          "smiling",
+          "interacting"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "workshop",
+          "indoor"
+        ],
+        "concepts": [
+          "friendship",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeAPicturOfChai.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeAPicturOfChai/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two animated characters are engaged in a playful activity at a wooden table, sorting small orange objects. They are in a cozy, rustic kitchen with shelves filled with various pottery items.",
+      "description": "The scene depicts two animated characters in a warm, inviting kitchen setting. They are focused on sorting small orange objects, possibly seeds or beads, on a wooden table. The background features shelves with pottery, adding to the rustic charm.",
+      "labels": {
+        "people": [
+          "animated characters",
+          "children"
+        ],
+        "objects": [
+          "table",
+          "orange objects",
+          "pottery",
+          "shelves"
+        ],
+        "actions": [
+          "sorting",
+          "playing"
+        ],
+        "emotions": [
+          "focus",
+          "curiosity"
+        ],
+        "scenes": [
+          "kitchen",
+          "rustic setting"
+        ],
+        "concepts": [
+          "playfulness",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated characters, boys, children. Objects: orange objects, pottery, wooden table, tools, table. Actions: smiling, interacting, sorting, playing. Emotions: happiness, playfulness, focus, curiosity. Scenes: workshop, indoor, kitchen, rustic setting. Concepts: friendship, creativity, playfulness, coziness",
+  "primary_labels": {
+    "people": [
+      "animated characters",
+      "boys",
+      "children"
+    ],
+    "objects": [
+      "orange objects",
+      "pottery",
+      "wooden table",
+      "tools",
+      "table"
+    ],
+    "actions": [
+      "smiling",
+      "interacting",
+      "sorting",
+      "playing"
+    ],
+    "emotions": [
+      "happiness",
+      "playfulness",
+      "focus",
+      "curiosity"
+    ],
+    "scenes": [
+      "workshop",
+      "indoor",
+      "kitchen",
+      "rustic setting"
+    ],
+    "concepts": [
+      "friendship",
+      "creativity",
+      "playfulness",
+      "coziness"
+    ]
+  },
+  "metadata": {}
+}

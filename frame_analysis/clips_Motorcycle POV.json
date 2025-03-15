@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Motorcycle POV.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Motorcycle POV.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Motorcycle POV/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A motorcyclist speeds through a bustling city street at night, surrounded by towering skyscrapers and vibrant lights. The dashboard of the motorcycle is prominently visible, displaying various gauges and a digital screen. Brightly lit buildings and blurred car lights create a dynamic and energetic atmosphere.",
+      "description": "The scene captures a nighttime urban setting with a motorcyclist navigating through a busy city street. The focus is on the motorcycle's dashboard, with the cityscape providing a lively backdrop.",
+      "labels": {
+        "objects": [
+          "motorcycle",
+          "dashboard",
+          "gauges",
+          "digital screen"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime",
+          "urban"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ],
+        "concepts": [
+          "speed",
+          "urban life",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Motorcycle POV.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Motorcycle POV/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A motorcyclist speeds through a bustling city street at night, surrounded by the glow of neon lights and towering skyscrapers. The dashboard of the motorcycle is visible, displaying various gauges and a digital screen.",
+      "description": "The scene captures a dynamic, fast-paced ride through a vibrant urban environment. The perspective is from the rider's point of view, emphasizing the thrill and excitement of the journey.",
+      "labels": {
+        "objects": [
+          "motorcycle",
+          "dashboard",
+          "gauges",
+          "digital screen"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime",
+          "urban environment"
+        ],
+        "emotions": [
+          "excitement",
+          "thrill"
+        ],
+        "concepts": [
+          "speed",
+          "urban life",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: motorcycle, dashboard, gauges, digital screen. Actions: riding, speeding. Scenes: city street, nighttime, urban, urban environment. Emotions: excitement, adventure, thrill. Concepts: speed, urban life, technology",
+  "primary_labels": {
+    "objects": [
+      "motorcycle",
+      "dashboard",
+      "gauges",
+      "digital screen"
+    ],
+    "actions": [
+      "riding",
+      "speeding"
+    ],
+    "scenes": [
+      "city street",
+      "nighttime",
+      "urban",
+      "urban environment"
+    ],
+    "emotions": [
+      "excitement",
+      "adventure",
+      "thrill"
+    ],
+    "concepts": [
+      "speed",
+      "urban life",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sammy downtown.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sammy downtown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sammy downtown/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in the middle of an urban street, wearing a vibrant pink dress and sunglasses. The cityscape behind her features tall buildings and a clear sky, suggesting a bright day. Her pose and attire convey a sense of boldness and style.",
+      "description": "The scene is set in a city street, likely during the daytime, with tall buildings lining the road. The woman is the focal point, striking a confident pose in the center of the street, which is mostly empty of traffic.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "sunglasses",
+          "necklace",
+          "boots"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sammy downtown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sammy downtown/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a vibrant pink dress stands confidently in the middle of a city street. She wears large sunglasses and a distinctive necklace, with her hands on her hips, exuding a sense of empowerment.",
+      "description": "The scene captures a stylish woman in an urban setting, likely a city street, surrounded by tall buildings. Her confident pose and fashionable attire suggest a modern and bold atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "necklace",
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "fashion",
+          "empowerment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, sunglasses, necklace, boots. Actions: standing, posing. Emotions: confidence. Scenes: urban, street, city street. Concepts: fashion, style, confidence, empowerment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "sunglasses",
+      "necklace",
+      "boots"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "confidence",
+      "empowerment"
+    ]
+  },
+  "metadata": {}
+}

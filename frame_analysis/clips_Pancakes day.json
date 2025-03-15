@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pancakes day.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pancakes day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pancakes day/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers scaling a stack of pancakes, drizzling syrup as if it were a construction project. The pancakes are topped with butter, and the workers use ladders and tools to maneuver around the breakfast treat. Steam rises gently from the syrup, adding a touch of warmth to the scene.",
+      "description": "The image presents a creative and imaginative setting where tiny figures are engaged in a playful construction-like activity on a stack of pancakes. The scene combines elements of food and miniature figures to create a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "pancakes",
+          "syrup",
+          "butter",
+          "ladders",
+          "tools",
+          "plate"
+        ],
+        "actions": [
+          "drizzling syrup",
+          "climbing",
+          "constructing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pancakes day.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pancakes day/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature construction workers scaling a stack of pancakes, using ladders and tools to pour syrup and butter. The pancakes are artistically arranged, with steam rising from the freshly poured syrup. The setting is playful and imaginative, blending culinary elements with construction imagery.",
+      "description": "The image creatively combines elements of food and construction, showing tiny figures working on a stack of pancakes as if it were a construction site. The scene is set in a kitchen-like environment, with a focus on the pancakes and syrup.",
+      "labels": {
+        "people": [
+          "miniature construction workers"
+        ],
+        "objects": [
+          "pancakes",
+          "syrup",
+          "butter",
+          "ladders",
+          "tools",
+          "plate"
+        ],
+        "actions": [
+          "pouring syrup",
+          "climbing ladders"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "kitchen",
+          "construction site"
+        ],
+        "concepts": [
+          "miniature world",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, miniature construction workers. Objects: pancakes, syrup, butter, ladders, tools. Actions: drizzling syrup, climbing, constructing, pouring syrup, climbing ladders. Emotions: playful, whimsical, imaginative. Scenes: surreal, imaginative, kitchen, construction site. Concepts: miniature world, food art, culinary art",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "miniature construction workers"
+    ],
+    "objects": [
+      "pancakes",
+      "syrup",
+      "butter",
+      "ladders",
+      "tools"
+    ],
+    "actions": [
+      "drizzling syrup",
+      "climbing",
+      "constructing",
+      "pouring syrup",
+      "climbing ladders"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "surreal",
+      "imaginative",
+      "kitchen",
+      "construction site"
+    ],
+    "concepts": [
+      "miniature world",
+      "food art",
+      "culinary art"
+    ]
+  },
+  "metadata": {}
+}

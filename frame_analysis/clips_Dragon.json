@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, intricately detailed dragon stands on a rocky surface, its scales shimmering with a mix of white and dark spots. The dragon's large, expressive eyes and ornate horns give it a whimsical and enchanting appearance. Its wings are slightly spread, suggesting a sense of readiness or curiosity.",
+      "description": "The scene depicts a fantasy setting featuring a young dragon. The creature is the focal point, standing on a textured rocky ground with a blurred background, enhancing its prominence in the image.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "rocky surface"
+        ],
+        "objects": [
+          "horns",
+          "wings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "whimsy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, intricately detailed dragon sits on a rocky surface, its scales shimmering with a pearly white hue. The dragon's eyes are large and expressive, adorned with ornate decorations on its horns and head. Its wings are partially spread, revealing a soft orange glow from within.",
+      "description": "The scene depicts a fantastical creature, a small dragon, in a mystical setting. The dragon is the focal point, showcasing its detailed and ornate features, suggesting a magical or mythical environment.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "rocks"
+        ],
+        "objects": [
+          "decorations"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "mythical creature",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dragon. Nature: rocky surface, rocks. Objects: horns, wings, decorations. Actions: standing. Emotions: curiosity. Scenes: fantasy. Concepts: whimsy, enchantment, mythical creature, magic",
+  "primary_labels": {
+    "animals": [
+      "dragon"
+    ],
+    "nature": [
+      "rocky surface",
+      "rocks"
+    ],
+    "objects": [
+      "horns",
+      "wings",
+      "decorations"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "fantasy"
+    ],
+    "concepts": [
+      "whimsy",
+      "enchantment",
+      "mythical creature",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

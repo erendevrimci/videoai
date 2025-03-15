@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGracefulMaidenInA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGracefulMaidenInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGracefulMaidenInA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure with flowing black hair and red eyes stands by a reflective water surface, surrounded by a vibrant sunset. The scene is adorned with delicate flowers and a crescent moon, creating an ethereal atmosphere.",
+      "description": "The scene depicts a fantasy setting where a mysterious character is interacting with a serene body of water. The background features a dramatic sunset with vivid colors, enhancing the mystical and enchanting mood.",
+      "labels": {
+        "people": [
+          "mystical figure"
+        ],
+        "nature": [
+          "crescent moon",
+          "sunset",
+          "water",
+          "tree"
+        ],
+        "objects": [
+          "flowers",
+          "traditional clothing"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "mysticism",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGracefulMaidenInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGracefulMaidenInA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure in traditional attire stands gracefully in a serene water setting, with long flowing hair and a vibrant sunset in the background. The scene is framed by a beautifully shaped tree and distant mountains, creating a tranquil and picturesque atmosphere.",
+      "description": "The scene depicts a tranquil moment at sunset, where a person in traditional clothing stands in shallow water. The environment is serene, with a striking tree and mountains in the background, illuminated by the warm glow of the setting sun.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "tree",
+          "mountains",
+          "water"
+        ],
+        "objects": [
+          "traditional clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "sunset",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: mystical figure, figure. Nature: water, tree, crescent moon, sunset, mountains. Objects: traditional clothing, flowers. Actions: standing, gazing. Emotions: mystical, serene, serenity. Scenes: nature, fantasy, sunset. Concepts: mysticism, enchantment, tranquility, beauty",
+  "primary_labels": {
+    "people": [
+      "mystical figure",
+      "figure"
+    ],
+    "nature": [
+      "water",
+      "tree",
+      "crescent moon",
+      "sunset",
+      "mountains"
+    ],
+    "objects": [
+      "traditional clothing",
+      "flowers"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "mystical",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "nature",
+      "fantasy",
+      "sunset"
+    ],
+    "concepts": [
+      "mysticism",
+      "enchantment",
+      "tranquility",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

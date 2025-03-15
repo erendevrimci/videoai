@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Deep blue.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Deep blue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Deep blue/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with striking blue hair and intense blue eyes. The image captures the fine details of the skin, including freckles, under soft lighting.",
+      "description": "The scene is a detailed close-up portrait focusing on the facial features of a person. The setting is likely indoors with controlled lighting to highlight the vivid colors and textures.",
+      "labels": {
+        "people": [
+          "person",
+          "portrait"
+        ],
+        "objects": [
+          "tattoo"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "visual_attributes": [
+          "blue hair",
+          "blue eyes",
+          "freckles",
+          "soft lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Deep blue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Deep blue/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with vibrant blue hair and closed eyes, showcasing detailed facial features and a tattoo on the neck. The soft lighting highlights the natural texture of the skin and the subtle makeup.",
+      "description": "The scene captures an intimate and serene moment, focusing on the person's contemplative expression. The setting appears to be indoors with controlled lighting, emphasizing the subject's unique hair color and facial details.",
+      "labels": {
+        "people": [
+          "person",
+          "portrait"
+        ],
+        "objects": [
+          "tattoo"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "close-up",
+          "indoor"
+        ],
+        "concepts": [
+          "intimacy",
+          "individuality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, portrait. Objects: tattoo. Emotions: intensity, serene, contemplative. Scenes: close-up, indoor. Visual_attributes: blue hair, blue eyes, freckles, soft lighting. Concepts: intimacy, individuality",
+  "primary_labels": {
+    "people": [
+      "person",
+      "portrait"
+    ],
+    "objects": [
+      "tattoo"
+    ],
+    "emotions": [
+      "intensity",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "close-up",
+      "indoor"
+    ],
+    "visual_attributes": [
+      "blue hair",
+      "blue eyes",
+      "freckles",
+      "soft lighting"
+    ],
+    "concepts": [
+      "intimacy",
+      "individuality"
+    ]
+  },
+  "metadata": {}
+}

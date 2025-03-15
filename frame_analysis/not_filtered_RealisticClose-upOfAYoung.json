@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RealisticClose-upOfAYoung.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RealisticClose-upOfAYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RealisticClose-upOfAYoung/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is lying down on a dark pillow, looking directly at the camera with a calm expression. She has short brown hair and is wearing a black top and a delicate gold necklace.",
+      "description": "The scene captures a close-up of a woman lying on a bed or couch, creating an intimate and relaxed atmosphere. The focus is on her face, highlighting her serene expression and natural beauty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "pillow",
+          "necklace"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "close-up"
+        ],
+        "concepts": [
+          "relaxation",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RealisticClose-upOfAYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RealisticClose-upOfAYoung/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with short brown hair and blue eyes, smiling gently. The individual is wearing a delicate necklace and a black top, lying on a dark surface.",
+      "description": "The scene is an intimate, relaxed setting focusing on the person's face. The lighting is soft, highlighting the person's features and creating a warm, inviting atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "face",
+          "eyes",
+          "hair"
+        ],
+        "objects": [
+          "necklace",
+          "top"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "portrait",
+          "close-up"
+        ],
+        "concepts": [
+          "intimacy",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, face, eyes, hair. Objects: necklace, pillow, top. Emotions: calm, serene, happiness, contentment. Scenes: close-up, indoor, portrait. Concepts: relaxation, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "face",
+      "eyes",
+      "hair"
+    ],
+    "objects": [
+      "necklace",
+      "pillow",
+      "top"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "close-up",
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "relaxation",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

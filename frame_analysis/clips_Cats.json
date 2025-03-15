@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cats.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cats/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A determined cat wearing a traditional straw hat is riding on the back of a shark, holding a bamboo stick. The scene is set against a dramatic ocean backdrop with splashing waves and a warm, glowing sky.",
+      "description": "The image depicts a surreal and adventurous scene where a cat, dressed in a straw hat, is riding a shark through the ocean. The setting is dynamic, with splashing water and a vibrant sunset or sunrise in the background, creating an adventurous and whimsical atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "shark"
+        ],
+        "objects": [
+          "straw hat",
+          "bamboo stick"
+        ],
+        "actions": [
+          "riding",
+          "splashing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "ocean",
+          "sunset"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cats/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A determined cat wearing a traditional straw hat is riding on the back of a shark, holding a bamboo stick. The scene is set on a turbulent ocean with splashing waves under a dramatic sky.",
+      "description": "The image depicts a whimsical and adventurous scene where a cat, dressed in a straw hat, is navigating the ocean atop a shark. The setting is dynamic, with splashes of water suggesting movement and action.",
+      "labels": {
+        "animals": [
+          "cat",
+          "shark"
+        ],
+        "objects": [
+          "straw hat",
+          "bamboo stick"
+        ],
+        "actions": [
+          "riding",
+          "holding"
+        ],
+        "emotions": [
+          "determined"
+        ],
+        "scenes": [
+          "ocean",
+          "adventure"
+        ],
+        "concepts": [
+          "whimsy",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, shark. Objects: straw hat, bamboo stick. Actions: riding, splashing, holding. Emotions: determination, determined. Scenes: ocean, sunset, adventure. Concepts: whimsy, adventure, fantasy",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "shark"
+    ],
+    "objects": [
+      "straw hat",
+      "bamboo stick"
+    ],
+    "actions": [
+      "riding",
+      "splashing",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "determined"
+    ],
+    "scenes": [
+      "ocean",
+      "sunset",
+      "adventure"
+    ],
+    "concepts": [
+      "whimsy",
+      "adventure",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

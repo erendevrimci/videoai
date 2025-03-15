@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Centaurides.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Centaurides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Centaurides/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A centaur stands majestically on a rocky path, surrounded by a mountainous landscape bathed in the warm glow of a setting sun. Her long hair flows in the breeze, and she wears intricately designed armor that complements her powerful form.",
+      "description": "The scene depicts a mythical centaur in a rugged, mountainous terrain during sunset. The atmosphere is serene yet powerful, with the centaur exuding strength and grace.",
+      "labels": {
+        "people": [
+          "centaur"
+        ],
+        "nature": [
+          "mountains",
+          "rocks"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "majestic",
+          "serene"
+        ],
+        "scenes": [
+          "mythical",
+          "fantasy"
+        ],
+        "concepts": [
+          "mythology",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Centaurides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Centaurides/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A centaur woman stands majestically on a rocky terrain, her muscular form highlighted by the warm glow of the setting sun. Her arms are raised in a powerful pose, exuding strength and confidence against a backdrop of rugged mountains.",
+      "description": "The scene depicts a mythical centaur in a dramatic and empowering stance, set in a mountainous landscape during sunset. The lighting accentuates her form, creating a striking contrast with the natural surroundings.",
+      "labels": {
+        "people": [
+          "centaur"
+        ],
+        "nature": [
+          "mountains",
+          "rocky terrain"
+        ],
+        "objects": [
+          "leather armor"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "strength",
+          "confidence"
+        ],
+        "scenes": [
+          "mythical",
+          "fantasy"
+        ],
+        "concepts": [
+          "mythology",
+          "empowerment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: centaur. Nature: mountains, rocks, rocky terrain. Objects: armor, leather armor. Actions: standing, posing. Emotions: majestic, serene, strength, confidence. Scenes: mythical, fantasy. Concepts: mythology, strength, empowerment",
+  "primary_labels": {
+    "people": [
+      "centaur"
+    ],
+    "nature": [
+      "mountains",
+      "rocks",
+      "rocky terrain"
+    ],
+    "objects": [
+      "armor",
+      "leather armor"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "majestic",
+      "serene",
+      "strength",
+      "confidence"
+    ],
+    "scenes": [
+      "mythical",
+      "fantasy"
+    ],
+    "concepts": [
+      "mythology",
+      "strength",
+      "empowerment"
+    ]
+  },
+  "metadata": {}
+}

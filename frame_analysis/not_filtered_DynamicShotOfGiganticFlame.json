@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticFlame.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticFlame.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfGiganticFlame/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering, armored figure stands amidst a fiery landscape, with a blazing sun-like orb behind it. A smaller, cloaked figure faces the giant, creating a dramatic confrontation scene.",
+      "description": "The scene depicts a fantasy setting with a massive, armored figure wielding a sword, standing in a fiery environment. A smaller figure in a cloak faces the giant, suggesting a confrontation or battle. The intense flames and glowing orb create a dramatic and ominous atmosphere.",
+      "labels": {
+        "people": [
+          "armored figure",
+          "cloaked figure"
+        ],
+        "objects": [
+          "sword",
+          "armor"
+        ],
+        "nature": [
+          "fire",
+          "flames"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "intensity",
+          "ominous"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "power",
+          "conflict"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticFlame.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfGiganticFlame/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering, fiery figure looms over a lone, cloaked individual standing on a scorched landscape. The scene is engulfed in flames, casting an intense orange glow across the environment.",
+      "description": "The scene depicts a dramatic confrontation between a massive, fiery entity and a solitary figure in a desolate, burning landscape. The atmosphere is tense and foreboding, with flames and molten elements dominating the setting.",
+      "labels": {
+        "people": [
+          "cloaked figure"
+        ],
+        "nature": [
+          "fire",
+          "flames"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "intensity",
+          "foreboding"
+        ],
+        "scenes": [
+          "fantasy",
+          "apocalyptic"
+        ],
+        "concepts": [
+          "power",
+          "duality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cloaked figure, armored figure. Objects: sword, armor. Nature: fire, flames. Actions: confrontation. Emotions: intensity, ominous, foreboding. Scenes: fantasy, battle, apocalyptic. Concepts: power, conflict, duality",
+  "primary_labels": {
+    "people": [
+      "cloaked figure",
+      "armored figure"
+    ],
+    "objects": [
+      "sword",
+      "armor"
+    ],
+    "nature": [
+      "fire",
+      "flames"
+    ],
+    "actions": [
+      "confrontation"
+    ],
+    "emotions": [
+      "intensity",
+      "ominous",
+      "foreboding"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle",
+      "apocalyptic"
+    ],
+    "concepts": [
+      "power",
+      "conflict",
+      "duality"
+    ]
+  },
+  "metadata": {}
+}

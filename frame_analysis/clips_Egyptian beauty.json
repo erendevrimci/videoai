@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Egyptian beauty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Egyptian beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Egyptian beauty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in ancient-style attire stands in front of the pyramids at sunset. Her elegant jewelry and clothing evoke a sense of historical grandeur. The warm glow of the setting sun casts a golden hue over the scene.",
+      "description": "The scene is set in a desert landscape with the iconic pyramids in the background, suggesting an Egyptian setting. The woman is the focal point, dressed in attire reminiscent of ancient times, enhancing the historical atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "desert",
+          "sunset"
+        ],
+        "objects": [
+          "pyramids",
+          "jewelry",
+          "clothing"
+        ],
+        "emotions": [
+          "serenity",
+          "elegance"
+        ],
+        "scenes": [
+          "historical",
+          "Egyptian"
+        ],
+        "concepts": [
+          "ancient",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Egyptian beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Egyptian beauty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands gracefully in front of the pyramids, adorned in elegant attire with a prominent necklace and earrings. The warm glow of the setting sun casts a golden hue over the scene, enhancing the majestic backdrop.",
+      "description": "The scene is set in an ancient Egyptian context, with the iconic pyramids in the background. The woman is the focal point, exuding elegance and poise, while the warm lighting creates a serene and timeless atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "pyramids",
+          "sunset"
+        ],
+        "objects": [
+          "necklace",
+          "earrings",
+          "dress"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "ancient Egypt",
+          "desert"
+        ],
+        "concepts": [
+          "timelessness",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sunset, desert, pyramids. Objects: pyramids, jewelry, clothing, necklace, earrings. Emotions: serenity, elegance, serene, elegant. Scenes: historical, Egyptian, ancient Egypt, desert. Concepts: ancient, heritage, timelessness, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sunset",
+      "desert",
+      "pyramids"
+    ],
+    "objects": [
+      "pyramids",
+      "jewelry",
+      "clothing",
+      "necklace",
+      "earrings"
+    ],
+    "emotions": [
+      "serenity",
+      "elegance",
+      "serene",
+      "elegant"
+    ],
+    "scenes": [
+      "historical",
+      "Egyptian",
+      "ancient Egypt",
+      "desert"
+    ],
+    "concepts": [
+      "ancient",
+      "heritage",
+      "timelessness",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

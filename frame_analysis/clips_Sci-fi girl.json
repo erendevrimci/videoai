@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sci-fi girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sci-fi girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sci-fi girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene features a woman with a serene expression, wearing a translucent, glowing outfit. The background is filled with soft, blurred lights, enhancing the sci-fi atmosphere.",
+      "description": "The scene is set in a futuristic environment, possibly a high-tech lab or virtual space. The focus is on a woman who appears to be part of a sci-fi narrative, with her attire and the lighting suggesting advanced technology.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "futuristic outfit"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "concepts": [
+          "technology",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sci-fi girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sci-fi girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands in a futuristic setting, draped in a sheer, translucent fabric. Her gaze is directed towards the camera, with soft lighting highlighting her features.",
+      "description": "The scene is set in a sleek, modern environment with a futuristic design. The woman is the focal point, standing amidst metallic and illuminated elements, suggesting a sci-fi or high-tech context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "translucent fabric",
+          "metallic elements"
+        ],
+        "scenes": [
+          "futuristic setting",
+          "sci-fi environment"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: futuristic outfit, translucent fabric, metallic elements. Scenes: futuristic, sci-fi, futuristic setting, sci-fi environment. Emotions: serene, calm, introspective. Concepts: technology, futurism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "futuristic outfit",
+      "translucent fabric",
+      "metallic elements"
+    ],
+    "scenes": [
+      "futuristic",
+      "sci-fi",
+      "futuristic setting",
+      "sci-fi environment"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "introspective"
+    ],
+    "concepts": [
+      "technology",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

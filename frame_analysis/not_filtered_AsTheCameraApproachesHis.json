@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AsTheCameraApproachesHis.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AsTheCameraApproachesHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AsTheCameraApproachesHis/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a man's intense gaze fills the frame, highlighting the texture of his skin and the sharpness of his eyes. The lighting casts dramatic shadows, emphasizing the contours of his face.",
+      "description": "The image captures a close-up portrait of a man with a focused and intense expression. The scene is intimate, drawing attention to the details of his face and the emotions conveyed through his eyes.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "intensity",
+          "focus",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AsTheCameraApproachesHis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AsTheCameraApproachesHis/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a human eye emits a bright, fiery glow, illuminating the surrounding skin with intense orange and yellow hues. The light is so vivid that it appears to be emanating from within, creating a dramatic and otherworldly effect.",
+      "description": "The scene depicts an extreme close-up of a human eye, with a striking and intense light source emanating from it. The setting suggests a supernatural or sci-fi context, emphasizing a powerful and mysterious energy.",
+      "labels": {
+        "people": [
+          "eye",
+          "skin"
+        ],
+        "objects": [
+          "light"
+        ],
+        "actions": [
+          "glowing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "supernatural",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, eye, skin. Objects: light. Actions: gazing, glowing. Emotions: intensity, focus. Scenes: portrait, close-up. Concepts: intensity, focus, emotion, supernatural, energy",
+  "primary_labels": {
+    "people": [
+      "man",
+      "eye",
+      "skin"
+    ],
+    "objects": [
+      "light"
+    ],
+    "actions": [
+      "gazing",
+      "glowing"
+    ],
+    "emotions": [
+      "intensity",
+      "focus"
+    ],
+    "scenes": [
+      "portrait",
+      "close-up"
+    ],
+    "concepts": [
+      "intensity",
+      "focus",
+      "emotion",
+      "supernatural",
+      "energy"
+    ]
+  },
+  "metadata": {}
+}

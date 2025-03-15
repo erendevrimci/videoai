@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat walk dog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat walk dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat walk dog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid figure with a dog's head confidently walks down a runway, dressed in a stylish plaid suit. The setting appears to be a fashion show, with dim lighting highlighting the model's attire.",
+      "description": "The scene is set in a fashion show environment, where a unique model with a dog's head is showcasing a plaid suit. The atmosphere is sophisticated and artistic, emphasizing creativity and style.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "suit",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat walk dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat walk dog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with the head of a dog is confidently walking down a dimly lit runway. The figure is dressed in a stylish plaid suit, exuding a sense of sophistication and flair. The spotlight highlights the unique blend of human fashion and animal features.",
+      "description": "The scene is set on a fashion runway, where a humanoid figure with a dog's head is modeling a plaid suit. The atmosphere is dramatic and artistic, with focused lighting creating a spotlight effect.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "plaid suit",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, humanoid figure. Animals: dog. Objects: runway, suit, plaid suit. Actions: walking. Emotions: confidence. Scenes: fashion show. Concepts: anthropomorphism, fashion, style",
+  "primary_labels": {
+    "people": [
+      "model",
+      "humanoid figure"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "runway",
+      "suit",
+      "plaid suit"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "fashion show"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "fashion",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

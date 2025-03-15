@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious place.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious place.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mysterious place/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene waterfall cascades down a rocky cliff surrounded by lush greenery. Sunlight filters through the trees, creating a peaceful and vibrant atmosphere. The turquoise water at the base of the waterfall adds a refreshing contrast to the scene.",
+      "description": "The scene depicts a tranquil natural setting featuring a waterfall in a forested area. The sunlight creates lens flares, enhancing the beauty of the lush green foliage and the clear, turquoise water.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "forest",
+          "trees",
+          "rocks"
+        ],
+        "objects": [
+          "water",
+          "cliff"
+        ],
+        "actions": [
+          "cascading"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "natural landscape",
+          "forest waterfall"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious place.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mysterious place/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic waterfall cascades down a rocky cliff, surrounded by lush green foliage. The water flows into a clear, turquoise pool below, creating a serene and picturesque scene. Sunlight filters through the trees, highlighting the vibrant colors of the landscape.",
+      "description": "The scene depicts a natural waterfall in a forested area, with water flowing over rocks into a pool. The setting is tranquil and vibrant, with sunlight enhancing the natural beauty of the surroundings.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "forest",
+          "trees",
+          "rocks"
+        ],
+        "objects": [
+          "water",
+          "pool"
+        ],
+        "actions": [
+          "cascading",
+          "flowing"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "scenes": [
+          "natural landscape",
+          "wilderness"
+        ],
+        "concepts": [
+          "nature beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious place.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mysterious place/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic waterfall cascades down a rugged cliff surrounded by lush greenery and tall trees. The water flows powerfully, creating a misty spray at the base. Sunlight filters through the trees, illuminating the scene with a warm glow.",
+      "description": "The scene depicts a natural waterfall in a forested area, with water rushing down a rocky cliff. The setting is serene and picturesque, with dense foliage and tall trees framing the waterfall.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "forest",
+          "trees",
+          "cliff",
+          "foliage"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "cascading",
+          "flowing"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "natural landscape",
+          "waterfall scene"
+        ],
+        "concepts": [
+          "nature beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: waterfall, forest, trees, rocks, cliff. Objects: water, cliff, pool, rocks. Actions: cascading, flowing. Emotions: serene, serenity, peacefulness, tranquil, majestic. Scenes: natural landscape, forest waterfall, wilderness, waterfall scene. Concepts: tranquility, nature beauty",
+  "primary_labels": {
+    "nature": [
+      "waterfall",
+      "forest",
+      "trees",
+      "rocks",
+      "cliff"
+    ],
+    "objects": [
+      "water",
+      "cliff",
+      "pool",
+      "rocks"
+    ],
+    "actions": [
+      "cascading",
+      "flowing"
+    ],
+    "emotions": [
+      "serene",
+      "serenity",
+      "peacefulness",
+      "tranquil",
+      "majestic"
+    ],
+    "scenes": [
+      "natural landscape",
+      "forest waterfall",
+      "wilderness",
+      "waterfall scene"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature beauty"
+    ]
+  },
+  "metadata": {}
+}

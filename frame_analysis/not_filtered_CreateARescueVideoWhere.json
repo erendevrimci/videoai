@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARescueVideoWhere.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARescueVideoWhere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateARescueVideoWhere/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A helicopter is lifting a horse using a harness, with four men standing below in a muddy area. The horse appears calm as it is being hoisted, while the men seem focused on the operation. The scene is set against a backdrop of a clear sky and open fields.",
+      "description": "The scene depicts a rescue or relocation operation involving a helicopter lifting a horse from a muddy terrain. The setting is outdoors, possibly in a rural area, with clear skies and open fields surrounding the scene.",
+      "labels": {
+        "people": [
+          "men"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "sky",
+          "fields"
+        ],
+        "objects": [
+          "helicopter",
+          "harness"
+        ],
+        "actions": [
+          "lifting",
+          "hoisting"
+        ],
+        "emotions": [
+          "focus",
+          "calm"
+        ],
+        "scenes": [
+          "rescue operation",
+          "outdoor"
+        ],
+        "concepts": [
+          "animal rescue",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARescueVideoWhere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateARescueVideoWhere/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A horse is being airlifted by a helicopter, suspended in a harness above a muddy field. Below, four men are guiding the ropes, ensuring the horse's safe descent. The scene takes place under a clear blue sky with scattered clouds.",
+      "description": "The image depicts a rescue operation where a horse is being lifted by a helicopter. The setting is a muddy field, possibly after a flood or similar event, with clear skies overhead.",
+      "labels": {
+        "people": [
+          "men"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "field"
+        ],
+        "objects": [
+          "helicopter",
+          "harness",
+          "ropes"
+        ],
+        "actions": [
+          "airlifting",
+          "guiding"
+        ],
+        "emotions": [
+          "focused",
+          "concern"
+        ],
+        "scenes": [
+          "rescue operation"
+        ],
+        "concepts": [
+          "teamwork",
+          "animal rescue"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: men. Animals: horse. Nature: sky, fields, clouds, field. Objects: helicopter, harness, ropes. Actions: lifting, hoisting, airlifting, guiding. Emotions: focus, calm, focused, concern. Scenes: rescue operation, outdoor. Concepts: animal rescue, teamwork",
+  "primary_labels": {
+    "people": [
+      "men"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "sky",
+      "fields",
+      "clouds",
+      "field"
+    ],
+    "objects": [
+      "helicopter",
+      "harness",
+      "ropes"
+    ],
+    "actions": [
+      "lifting",
+      "hoisting",
+      "airlifting",
+      "guiding"
+    ],
+    "emotions": [
+      "focus",
+      "calm",
+      "focused",
+      "concern"
+    ],
+    "scenes": [
+      "rescue operation",
+      "outdoor"
+    ],
+    "concepts": [
+      "animal rescue",
+      "teamwork"
+    ]
+  },
+  "metadata": {}
+}

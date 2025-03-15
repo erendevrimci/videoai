@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLookedIntoThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLookedIntoThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLookedIntoThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman gazes thoughtfully at the camera, resting her chin on her hand. She wears a delicate pearl earring and necklace, with her hair styled softly around her face.",
+      "description": "The scene captures a close-up portrait of a young woman in a serene and contemplative pose. The setting appears to be indoors, with soft lighting enhancing her features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earring",
+          "necklace"
+        ],
+        "actions": [
+          "gazing",
+          "resting chin"
+        ],
+        "emotions": [
+          "thoughtful",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLookedIntoThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLookedIntoThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair smiles gently, resting her chin on her hand. She wears a pearl earring and a delicate necklace, exuding a serene and friendly demeanor.",
+      "description": "The scene captures a close-up portrait of a woman in a calm and relaxed setting. Her expression is warm and inviting, suggesting a moment of tranquility.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earring",
+          "necklace"
+        ],
+        "actions": [
+          "smiling",
+          "resting chin on hand"
+        ],
+        "emotions": [
+          "serene",
+          "friendly"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: earring, necklace. Actions: gazing, resting chin, smiling, resting chin on hand. Emotions: serene, thoughtful, friendly. Scenes: portrait. Concepts: beauty, elegance, calmness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "earring",
+      "necklace"
+    ],
+    "actions": [
+      "gazing",
+      "resting chin",
+      "smiling",
+      "resting chin on hand"
+    ],
+    "emotions": [
+      "serene",
+      "thoughtful",
+      "friendly"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "elegance",
+      "calmness"
+    ]
+  },
+  "metadata": {}
+}

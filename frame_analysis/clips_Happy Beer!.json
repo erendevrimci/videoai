@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happy Beer!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happy Beer!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Happy Beer!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a festive Santa hat and red dress holds two large mugs of beer, smiling warmly at the camera. Behind her, a lively crowd enjoys a party atmosphere under warm, glowing lights with a 'HAPPY BEER!' sign in the background.",
+      "description": "The scene captures a festive celebration, likely at a bar or party, with a focus on holiday cheer and camaraderie. The woman in the foreground is central to the image, embodying the joyful spirit of the gathering.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "beer mugs",
+          "Santa hat",
+          "sign"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "cheerfulness"
+        ],
+        "scenes": [
+          "party",
+          "celebration"
+        ],
+        "concepts": [
+          "festivity",
+          "holiday"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happy Beer!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Happy Beer!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A festive scene captures a woman in a Santa hat holding two large mugs of beer, surrounded by a lively crowd. The background is illuminated with warm, glowing lights and a sign reading 'HAPPY BEER!'. The atmosphere is joyful and celebratory, typical of a holiday party.",
+      "description": "The scene is set in a lively party environment, likely a bar or club, decorated for the holiday season. The focus is on a woman dressed in festive attire, engaging with the camera while holding drinks. The crowd around her is animated, contributing to the vibrant and cheerful atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "beer mugs",
+          "Santa hat",
+          "sign"
+        ],
+        "actions": [
+          "holding",
+          "celebrating"
+        ],
+        "emotions": [
+          "joyful",
+          "festive"
+        ],
+        "scenes": [
+          "party",
+          "holiday celebration"
+        ],
+        "concepts": [
+          "festivity",
+          "holiday spirit"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd. Objects: beer mugs, Santa hat, sign. Actions: holding, smiling, celebrating. Emotions: happiness, cheerfulness, joyful, festive. Scenes: party, celebration, holiday celebration. Concepts: festivity, holiday, holiday spirit",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd"
+    ],
+    "objects": [
+      "beer mugs",
+      "Santa hat",
+      "sign"
+    ],
+    "actions": [
+      "holding",
+      "smiling",
+      "celebrating"
+    ],
+    "emotions": [
+      "happiness",
+      "cheerfulness",
+      "joyful",
+      "festive"
+    ],
+    "scenes": [
+      "party",
+      "celebration",
+      "holiday celebration"
+    ],
+    "concepts": [
+      "festivity",
+      "holiday",
+      "holiday spirit"
+    ]
+  },
+  "metadata": {}
+}

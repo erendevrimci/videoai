@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/love you.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/love you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/love you/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman is warmly dressed in a beige knit hat and sweater, holding a steaming cup in her hands. Snowflakes gently fall around her as she stands outdoors, creating a serene winter scene.",
+      "description": "The scene captures a tranquil winter moment with a young woman enjoying a hot beverage outdoors. She is dressed warmly, suggesting a cold environment, and the presence of snowflakes adds to the wintry atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snowflakes"
+        ],
+        "objects": [
+          "hat",
+          "sweater",
+          "cup"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "warmth",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/love you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/love you/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman is enjoying a warm beverage outdoors on a chilly day. She is wearing a cozy knit hat and sweater, with steam rising from the cup she holds close to her face.",
+      "description": "The scene captures a serene moment in a cold outdoor setting, with a young woman savoring a hot drink. The soft lighting and warm clothing suggest a winter or autumn day.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cup",
+          "hat",
+          "sweater"
+        ],
+        "actions": [
+          "drinking",
+          "holding"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "warmth",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/love you.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/love you/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman is warmly dressed in a knitted hat and sweater, holding a steaming cup of hot beverage. She gazes down at the cup with a gentle smile, surrounded by a soft, blurred background.",
+      "description": "The scene captures a cozy, winter moment where a woman enjoys a hot drink outdoors. The setting suggests a cold environment, emphasized by her warm clothing and the visible steam from the cup.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cup",
+          "knitted hat",
+          "sweater"
+        ],
+        "actions": [
+          "holding",
+          "looking"
+        ],
+        "emotions": [
+          "contentment",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "coziness",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: snowflakes. Objects: sweater, cup, hat, knitted hat. Actions: holding, drinking, looking. Emotions: contentment, calm, serenity. Scenes: winter, outdoor. Concepts: warmth, coziness, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "snowflakes"
+    ],
+    "objects": [
+      "sweater",
+      "cup",
+      "hat",
+      "knitted hat"
+    ],
+    "actions": [
+      "holding",
+      "drinking",
+      "looking"
+    ],
+    "emotions": [
+      "contentment",
+      "calm",
+      "serenity"
+    ],
+    "scenes": [
+      "winter",
+      "outdoor"
+    ],
+    "concepts": [
+      "warmth",
+      "coziness",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

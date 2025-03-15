@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal Portal.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal Portal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Crystal Portal/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A hand reaches towards a glowing, crystalline structure that appears to be shattering into fragments. The scene is set against a cosmic backdrop filled with vibrant purples and blues, creating a sense of otherworldly wonder.",
+      "description": "The scene depicts a mystical interaction with a large, luminous crystal that is breaking apart. The setting is cosmic, with a background that suggests a space-like environment filled with stars and nebulae.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "crystal",
+          "fragments"
+        ],
+        "actions": [
+          "reaching",
+          "shattering"
+        ],
+        "emotions": [
+          "wonder",
+          "awe"
+        ],
+        "scenes": [
+          "cosmic",
+          "mystical"
+        ],
+        "concepts": [
+          "interaction",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal Portal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Crystal Portal/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a mesmerizing tunnel-like structure made of crystalline formations, glowing with vibrant shades of blue and purple. The scene appears otherworldly, as light refracts through the translucent surfaces, creating a dynamic and ethereal atmosphere.",
+      "description": "This scene is set in a fantastical environment, resembling a crystalline cave or a portal. The focus is on the swirling, intricate patterns of the crystal formations, which seem to draw the viewer into a mysterious, luminescent vortex.",
+      "labels": {
+        "nature": [
+          "crystals"
+        ],
+        "objects": [
+          "tunnel",
+          "formations"
+        ],
+        "scenes": [
+          "fantasy",
+          "otherworldly"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Objects: crystal, fragments, tunnel, formations. Actions: reaching, shattering. Emotions: wonder, awe. Scenes: cosmic, mystical, fantasy, otherworldly. Concepts: interaction, energy. Nature: crystals",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "objects": [
+      "crystal",
+      "fragments",
+      "tunnel",
+      "formations"
+    ],
+    "actions": [
+      "reaching",
+      "shattering"
+    ],
+    "emotions": [
+      "wonder",
+      "awe"
+    ],
+    "scenes": [
+      "cosmic",
+      "mystical",
+      "fantasy",
+      "otherworldly"
+    ],
+    "concepts": [
+      "interaction",
+      "energy"
+    ],
+    "nature": [
+      "crystals"
+    ]
+  },
+  "metadata": {}
+}

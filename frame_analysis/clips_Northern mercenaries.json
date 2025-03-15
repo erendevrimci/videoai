@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Northern mercenaries.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Northern mercenaries.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Northern mercenaries/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce warrior with long blonde hair stands confidently beside a large, white wolf. She is clad in intricately detailed armor, holding an axe, with a determined expression on her face.",
+      "description": "The scene depicts a fantasy setting where a warrior and her wolf companion are poised amidst a snowy landscape. The background suggests a battle or conflict, with glowing embers and blurred figures in the distance.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "armor",
+          "axe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "companionship",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Northern mercenaries.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Northern mercenaries/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce warrior with long blonde hair stands confidently beside a large white wolf. She is clad in ornate armor, holding an axe, with a determined expression on her face. The background is filled with a snowy landscape and glowing embers, suggesting a recent battle.",
+      "description": "The scene depicts a fantasy setting where a warrior and her wolf companion stand amidst a snowy battlefield. The atmosphere is tense and dramatic, with hints of fire and smoke in the background.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "armor",
+          "axe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "fantasy",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Animals: wolf. Nature: snow. Objects: armor, axe. Actions: standing. Emotions: determination. Scenes: fantasy, battle, battlefield. Concepts: companionship, strength, fantasy",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "snow"
+    ],
+    "objects": [
+      "armor",
+      "axe"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle",
+      "battlefield"
+    ],
+    "concepts": [
+      "companionship",
+      "strength",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

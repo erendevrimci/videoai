@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Ultimate Chase.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Ultimate Chase.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Ultimate Chase/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A police car speeds down a bustling city street at night, with its lights flashing brightly. The surrounding skyscrapers are illuminated, creating a vibrant urban atmosphere. Other vehicles are visible, adding to the sense of urgency and motion.",
+      "description": "The scene depicts a nighttime urban setting with a police car in pursuit, its lights casting reflections on the wet street. The cityscape is alive with illuminated buildings and bustling traffic, contributing to a dynamic and intense atmosphere.",
+      "labels": {
+        "objects": [
+          "police car",
+          "vehicles",
+          "skyscrapers",
+          "street"
+        ],
+        "actions": [
+          "driving",
+          "pursuit"
+        ],
+        "emotions": [
+          "urgency",
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "law enforcement",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Ultimate Chase.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Ultimate Chase/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A police car speeds through a bustling city street at night, with vibrant neon lights reflecting off the wet pavement. The towering skyscrapers and blurred motion of surrounding vehicles create a dynamic and intense urban scene.",
+      "description": "The scene depicts a nighttime urban setting with a police car in pursuit, highlighted by the glow of city lights and reflections on the wet road. The atmosphere is energetic and tense, capturing the essence of a fast-paced city environment.",
+      "labels": {
+        "objects": [
+          "police car",
+          "skyscrapers",
+          "neon lights",
+          "wet pavement"
+        ],
+        "actions": [
+          "driving",
+          "pursuit"
+        ],
+        "emotions": [
+          "intensity",
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime",
+          "city street"
+        ],
+        "concepts": [
+          "motion",
+          "speed",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: police car, skyscrapers, vehicles, street, neon lights. Actions: driving, pursuit. Emotions: urgency, intensity. Scenes: urban, nighttime, city street. Concepts: law enforcement, city life, motion, speed, vibrancy",
+  "primary_labels": {
+    "objects": [
+      "police car",
+      "skyscrapers",
+      "vehicles",
+      "street",
+      "neon lights"
+    ],
+    "actions": [
+      "driving",
+      "pursuit"
+    ],
+    "emotions": [
+      "urgency",
+      "intensity"
+    ],
+    "scenes": [
+      "urban",
+      "nighttime",
+      "city street"
+    ],
+    "concepts": [
+      "law enforcement",
+      "city life",
+      "motion",
+      "speed",
+      "vibrancy"
+    ]
+  },
+  "metadata": {}
+}

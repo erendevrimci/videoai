@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManAndAWoman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManAndAWoman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManAndAWoman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands outdoors holding hands, with the sun setting behind them. The woman is wearing a light sweater, and the man is dressed in a jacket. They appear to be sharing a moment of connection in a serene setting.",
+      "description": "The scene captures a tender moment between two people holding hands in a natural setting during sunset. The warm glow of the sun creates a peaceful and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "tree",
+          "sunset"
+        ],
+        "objects": [
+          "sweater",
+          "jacket"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "connection",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoors",
+          "sunset"
+        ],
+        "concepts": [
+          "intimacy",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManAndAWoman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManAndAWoman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands hand in hand in a serene rural setting at sunset. The warm glow of the sun casts a golden hue over the landscape, highlighting the rustic charm of a nearby cottage.",
+      "description": "The scene depicts a peaceful countryside moment with a couple standing in front of a quaint cottage. The sun is setting, creating a tranquil and romantic atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "tree",
+          "grass",
+          "sunset"
+        ],
+        "objects": [
+          "cottage"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "peaceful"
+        ],
+        "scenes": [
+          "countryside",
+          "sunset"
+        ],
+        "concepts": [
+          "serenity",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Nature: tree, sunset, grass. Objects: sweater, jacket, cottage. Actions: holding hands. Emotions: connection, serenity, romantic, peaceful. Scenes: sunset, outdoors, countryside. Concepts: togetherness, intimacy, serenity",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "nature": [
+      "tree",
+      "sunset",
+      "grass"
+    ],
+    "objects": [
+      "sweater",
+      "jacket",
+      "cottage"
+    ],
+    "actions": [
+      "holding hands"
+    ],
+    "emotions": [
+      "connection",
+      "serenity",
+      "romantic",
+      "peaceful"
+    ],
+    "scenes": [
+      "sunset",
+      "outdoors",
+      "countryside"
+    ],
+    "concepts": [
+      "togetherness",
+      "intimacy",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

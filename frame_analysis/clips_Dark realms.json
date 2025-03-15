@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark realms.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark realms.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark realms/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure stands in a surreal, cavernous space surrounded by an array of large, ominous eyes. The eyes appear to be embedded in the walls, watching the figure intently. The ground is cracked and reflective, adding to the eerie atmosphere.",
+      "description": "The scene depicts a mysterious and unsettling environment where a person is confronted by numerous eyes in a cavern-like setting. The atmosphere is tense and otherworldly, with an emphasis on the surreal and the unknown.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "eyes",
+          "coat",
+          "cracked ground"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystery",
+          "tension"
+        ],
+        "scenes": [
+          "surreal",
+          "cavern"
+        ],
+        "concepts": [
+          "surveillance",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark realms.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark realms/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary figure stands in a pool of dark liquid, facing a surreal wall of numerous large, red eyes. The eyes are embedded in a dripping, organic structure that creates an eerie and otherworldly atmosphere.",
+      "description": "The scene depicts a mysterious and unsettling environment where a lone person confronts a bizarre formation of eyes. The setting suggests a blend of science fiction and horror, with an emphasis on the unknown and the uncanny.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "eyes",
+          "liquid",
+          "coat"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "mystery",
+          "unease"
+        ],
+        "scenes": [
+          "surreal",
+          "otherworldly"
+        ],
+        "concepts": [
+          "isolation",
+          "confrontation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, person. Objects: eyes, coat, cracked ground, liquid. Actions: standing, facing. Emotions: mystery, tension, unease. Scenes: surreal, cavern, otherworldly. Concepts: isolation, surveillance, confrontation",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "person"
+    ],
+    "objects": [
+      "eyes",
+      "coat",
+      "cracked ground",
+      "liquid"
+    ],
+    "actions": [
+      "standing",
+      "facing"
+    ],
+    "emotions": [
+      "mystery",
+      "tension",
+      "unease"
+    ],
+    "scenes": [
+      "surreal",
+      "cavern",
+      "otherworldly"
+    ],
+    "concepts": [
+      "isolation",
+      "surveillance",
+      "confrontation"
+    ]
+  },
+  "metadata": {}
+}

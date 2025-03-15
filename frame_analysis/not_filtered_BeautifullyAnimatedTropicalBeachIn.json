@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifullyAnimatedTropicalBeachIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifullyAnimatedTropicalBeachIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BeautifullyAnimatedTropicalBeachIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A powerful wave crashes onto a sandy beach, with sunlight glistening off the turquoise water. The frothy white surf contrasts with the golden sand, creating a dynamic and vibrant scene.",
+      "description": "The scene captures a moment at the beach where a large wave is about to break, with sunlight illuminating the water and sand. The setting is likely a tropical or coastal area, emphasizing the beauty and power of nature.",
+      "labels": {
+        "nature": [
+          "wave",
+          "beach",
+          "sand",
+          "ocean"
+        ],
+        "objects": [
+          "shell"
+        ],
+        "actions": [
+          "crashing",
+          "breaking"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ],
+        "scenes": [
+          "coastal",
+          "tropical"
+        ],
+        "concepts": [
+          "nature's power",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifullyAnimatedTropicalBeachIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BeautifullyAnimatedTropicalBeachIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic wave crashes onto a sandy beach, capturing the sunlight in its translucent blue-green waters. The frothy white surf contrasts with the golden sand, creating a dynamic and vibrant scene.",
+      "description": "The scene depicts a powerful ocean wave rolling towards a serene beach, with sunlight glistening through the water and foam. The setting is a coastal environment, likely during a sunny day.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "wave",
+          "beach",
+          "sand"
+        ],
+        "objects": [
+          "water",
+          "foam",
+          "sunlight"
+        ],
+        "actions": [
+          "crashing",
+          "rolling"
+        ],
+        "emotions": [
+          "serene",
+          "dynamic"
+        ],
+        "scenes": [
+          "coastal",
+          "seascape"
+        ],
+        "concepts": [
+          "nature beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: wave, beach, sand, ocean. Objects: shell, water, foam, sunlight. Actions: crashing, breaking, rolling. Emotions: serenity, awe, serene, dynamic. Scenes: coastal, tropical, seascape. Concepts: tranquility, nature's power, nature beauty",
+  "primary_labels": {
+    "nature": [
+      "wave",
+      "beach",
+      "sand",
+      "ocean"
+    ],
+    "objects": [
+      "shell",
+      "water",
+      "foam",
+      "sunlight"
+    ],
+    "actions": [
+      "crashing",
+      "breaking",
+      "rolling"
+    ],
+    "emotions": [
+      "serenity",
+      "awe",
+      "serene",
+      "dynamic"
+    ],
+    "scenes": [
+      "coastal",
+      "tropical",
+      "seascape"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature's power",
+      "nature beauty"
+    ]
+  },
+  "metadata": {}
+}

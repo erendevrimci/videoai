@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/If I was Doctor Strange.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/If I was Doctor Strange.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/If I was Doctor Strange/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a mystical setting stands confidently, wearing a blue tunic and a red cloak. A glowing amulet hangs around his neck, casting a warm light. The background features an ornate circular portal with a cloudy, ethereal sky.",
+      "description": "The scene depicts a character in a fantasy or superhero context, possibly a sorcerer or magician. The setting is otherworldly, with a focus on mystical elements and magical artifacts.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "tunic",
+          "cloak",
+          "amulet",
+          "portal"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "superhero"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/If I was Doctor Strange.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/If I was Doctor Strange/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a mystical outfit stands in front of a glowing portal, with hands raised as if casting a spell. The scene is set against a dark, cloudy backdrop, adding to the magical atmosphere. Bright, swirling energy encircles the individual, highlighting the supernatural theme.",
+      "description": "The scene depicts a mystical setting where a person is performing a magical act. The glowing portal and swirling energy suggest a fantasy or superhero context, with an emphasis on magic and otherworldly powers.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "portal",
+          "cloak",
+          "amulet"
+        ],
+        "actions": [
+          "casting spell",
+          "raising hands"
+        ],
+        "emotions": [
+          "focused",
+          "determined"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "supernatural",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Objects: cloak, amulet, portal, tunic. Actions: standing, casting spell, raising hands. Emotions: confident, focused, determined. Scenes: fantasy, mystical, magical. Concepts: magic, superhero, supernatural, mysticism",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "objects": [
+      "cloak",
+      "amulet",
+      "portal",
+      "tunic"
+    ],
+    "actions": [
+      "standing",
+      "casting spell",
+      "raising hands"
+    ],
+    "emotions": [
+      "confident",
+      "focused",
+      "determined"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "superhero",
+      "supernatural",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

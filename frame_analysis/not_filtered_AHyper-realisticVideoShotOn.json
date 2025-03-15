@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticVideoShotOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticVideoShotOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticVideoShotOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic car is parked on a wet city street at night, its lights reflecting off the glistening pavement. The surrounding buildings are illuminated by neon signs, adding a vibrant glow to the urban setting. The atmosphere is calm yet dynamic, with the car's design and lighting creating a sense of modernity.",
+      "description": "The scene is set in a modern city at night, characterized by tall buildings and neon lights. A futuristic car is prominently featured, parked on a wet street that reflects the ambient lights, creating a visually striking contrast.",
+      "labels": {
+        "objects": [
+          "car",
+          "neon signs",
+          "buildings",
+          "pavement"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "calm",
+          "dynamic"
+        ],
+        "scenes": [
+          "cityscape",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticVideoShotOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticVideoShotOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern car is parked on a wet city street at night, reflecting the glow of streetlights and nearby buildings. The car's futuristic design is highlighted by its illuminated front grille and headlights, creating a striking contrast against the dark urban backdrop.",
+      "description": "The scene captures a nighttime urban setting with a focus on a high-tech car on a wet street. The environment is illuminated by streetlights and building lights, creating a reflective surface on the pavement.",
+      "labels": {
+        "objects": [
+          "car",
+          "streetlights",
+          "buildings"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "futuristic",
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "technology",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticVideoShotOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticVideoShotOn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek white car with illuminated headlights is parked on a wet city street at night. The reflections of the car's lights shimmer on the wet pavement, surrounded by dimly lit buildings and streetlights.",
+      "description": "The scene captures a modern urban setting at night, featuring a prominently displayed white car on a rain-soaked street. The environment is characterized by the glow of streetlights and the reflections on the wet surface, creating a futuristic and calm atmosphere.",
+      "labels": {
+        "objects": [
+          "car",
+          "headlights",
+          "streetlights",
+          "buildings",
+          "pavement"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "modern"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, buildings, pavement, streetlights, neon signs. Actions: parked. Emotions: calm, dynamic, futuristic. Scenes: urban, night, cityscape, nighttime. Concepts: futuristic, modernity, technology, modern",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "buildings",
+      "pavement",
+      "streetlights",
+      "neon signs"
+    ],
+    "actions": [
+      "parked"
+    ],
+    "emotions": [
+      "calm",
+      "dynamic",
+      "futuristic"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "cityscape",
+      "nighttime"
+    ],
+    "concepts": [
+      "futuristic",
+      "modernity",
+      "technology",
+      "modern"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItIsRainingWithLarge.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItIsRainingWithLarge.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ItIsRainingWithLarge/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic tram glides through a neon-lit cityscape during a thunderstorm. Lightning illuminates the towering skyscrapers, casting reflections on the rain-soaked streets below. The tram's warm interior contrasts with the cold, wet exterior of the city.",
+      "description": "The scene depicts a high-tech urban environment during a stormy night. A tram is suspended on elevated tracks, moving through a densely built city filled with skyscrapers and bright neon signs.",
+      "labels": {
+        "objects": [
+          "tram",
+          "skyscrapers",
+          "neon signs"
+        ],
+        "actions": [
+          "gliding",
+          "illuminating"
+        ],
+        "emotions": [
+          "futuristic",
+          "dynamic"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime",
+          "storm"
+        ],
+        "concepts": [
+          "technology",
+          "transportation",
+          "weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItIsRainingWithLarge.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ItIsRainingWithLarge/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic tram glides through a neon-lit cityscape during a thunderstorm. Lightning illuminates the towering skyscrapers, casting dramatic shadows across the scene. The tram's warm interior contrasts with the cold, rainy exterior.",
+      "description": "The scene depicts a high-tech urban environment with a tram traveling on elevated tracks amidst a stormy night. The city is bustling with lights and activity, creating a vibrant yet intense atmosphere.",
+      "labels": {
+        "objects": [
+          "tram",
+          "skyscrapers",
+          "neon lights"
+        ],
+        "actions": [
+          "gliding",
+          "illuminating"
+        ],
+        "emotions": [
+          "intensity",
+          "contrast"
+        ],
+        "scenes": [
+          "futuristic cityscape",
+          "thunderstorm"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: tram, skyscrapers, neon signs, neon lights. Actions: gliding, illuminating. Emotions: futuristic, dynamic, intensity, contrast. Scenes: urban, nighttime, storm, futuristic cityscape, thunderstorm. Concepts: technology, transportation, weather, urban life",
+  "primary_labels": {
+    "objects": [
+      "tram",
+      "skyscrapers",
+      "neon signs",
+      "neon lights"
+    ],
+    "actions": [
+      "gliding",
+      "illuminating"
+    ],
+    "emotions": [
+      "futuristic",
+      "dynamic",
+      "intensity",
+      "contrast"
+    ],
+    "scenes": [
+      "urban",
+      "nighttime",
+      "storm",
+      "futuristic cityscape",
+      "thunderstorm"
+    ],
+    "concepts": [
+      "technology",
+      "transportation",
+      "weather",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Birth of a Lonely Warrior.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Birth of a Lonely Warrior.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Birth of a Lonely Warrior/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in a futuristic, dimly lit corridor, wearing a sleek black armored suit with glowing accents. Her expression is serious and determined, suggesting readiness for action. The background is blurred, emphasizing her presence and the high-tech environment.",
+      "description": "The scene is set in a futuristic corridor, likely part of a sci-fi narrative. The woman in the foreground is the focal point, dressed in advanced armor, suggesting a role as a warrior or protector.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "armored suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "sci-fi",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Birth of a Lonely Warrior.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Birth of a Lonely Warrior/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a futuristic setting, wearing a sleek, black armored suit with glowing accents. Her expression is serious and determined, as she gazes directly ahead. The dimly lit background suggests an urban environment, adding to the scene's mysterious and intense atmosphere.",
+      "description": "The scene depicts a futuristic or sci-fi setting, featuring a woman in advanced armor. The environment appears to be an urban area, possibly a street or alley, with low lighting contributing to a tense and dramatic mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "armored suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious",
+          "determined"
+        ],
+        "scenes": [
+          "futuristic",
+          "urban"
+        ],
+        "concepts": [
+          "sci-fi",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Birth of a Lonely Warrior.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Birth of a Lonely Warrior/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A determined individual stands confidently in a futuristic, armored suit. The suit features sleek, black material with glowing white accents, suggesting advanced technology. The person's expression is focused and intense, with a backdrop of a dimly lit, industrial setting.",
+      "description": "The scene depicts a person in a high-tech, armored suit, possibly in a futuristic or sci-fi environment. The setting appears to be industrial, with low lighting and a serious atmosphere.",
+      "labels": {
+        "people": [
+          "individual"
+        ],
+        "objects": [
+          "armored suit",
+          "glowing accents"
+        ],
+        "actions": [
+          "standing",
+          "focusing"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic",
+          "industrial"
+        ],
+        "concepts": [
+          "technology",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, individual. Objects: armored suit, glowing accents. Actions: standing, focusing. Emotions: determination, serious, determined, intensity. Scenes: futuristic, futuristic corridor, urban, industrial. Concepts: sci-fi, technology, mystery, focus",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "individual"
+    ],
+    "objects": [
+      "armored suit",
+      "glowing accents"
+    ],
+    "actions": [
+      "standing",
+      "focusing"
+    ],
+    "emotions": [
+      "determination",
+      "serious",
+      "determined",
+      "intensity"
+    ],
+    "scenes": [
+      "futuristic",
+      "futuristic corridor",
+      "urban",
+      "industrial"
+    ],
+    "concepts": [
+      "sci-fi",
+      "technology",
+      "mystery",
+      "focus"
+    ]
+  },
+  "metadata": {}
+}

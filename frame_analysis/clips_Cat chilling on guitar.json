@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat chilling on guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat chilling on guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat chilling on guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat appears to be playing an electric guitar with a serene expression. The scene is set indoors, with soft lighting creating a cozy atmosphere.",
+      "description": "The image depicts a humorous and imaginative scene where a cat is positioned as if playing an electric guitar. The setting is likely a bedroom or living room, with natural light filtering through a window, enhancing the whimsical mood.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat chilling on guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat chilling on guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat appears to be playing an electric guitar with its paws, creating a whimsical and humorous scene. The cat's eyes are closed, adding to the impression of being deeply focused on the music.",
+      "description": "The scene takes place indoors, likely in a cozy room with soft lighting. A cat is positioned as if playing an electric guitar, creating a playful and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "whimsical",
+          "humorous"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "music",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat chilling on guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat chilling on guitar/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy cat appears to be playing an electric guitar with its paws. The scene is set indoors with soft lighting filtering through a window, creating a cozy atmosphere.",
+      "description": "The image depicts a humorous and imaginative scene where a cat is positioned as if it is playing an electric guitar. The setting is indoors, likely a bedroom or living room, with natural light coming through a window, highlighting the cat's fur and the guitar's details.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: electric guitar, guitar. Actions: playing, playing guitar. Emotions: humorous, serene, whimsical. Scenes: indoor. Concepts: imagination, humor, music, surreal, creativity",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "electric guitar",
+      "guitar"
+    ],
+    "actions": [
+      "playing",
+      "playing guitar"
+    ],
+    "emotions": [
+      "humorous",
+      "serene",
+      "whimsical"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "imagination",
+      "humor",
+      "music",
+      "surreal",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

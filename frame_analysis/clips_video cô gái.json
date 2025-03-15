@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/video c\u00f4 g\u00e1i.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/video c\u00f4 g\u00e1i.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/video c\u00f4 g\u00e1i/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently against a plain background, wearing an elegant off-the-shoulder black top with gold buttons and a white skirt. Her hair is neatly styled, and she wears red lipstick, adding a touch of sophistication.",
+      "description": "The scene captures a fashion-forward moment, likely in a studio setting, focusing on the woman's stylish attire and poised demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black top",
+          "white skirt",
+          "gold buttons",
+          "earrings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/video c\u00f4 g\u00e1i.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/video c\u00f4 g\u00e1i/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently against a plain background, wearing a stylish off-shoulder black top with gold buttons and a white skirt. Her hair is neatly tied back, and she wears red lipstick, exuding elegance.",
+      "description": "The scene is a fashion photoshoot setting with a minimalist backdrop, focusing on the woman's attire and poised demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black top",
+          "white skirt",
+          "gold buttons",
+          "heels"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion photoshoot"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/video c\u00f4 g\u00e1i.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/video c\u00f4 g\u00e1i/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently against a plain background, wearing an elegant off-the-shoulder black top and a high-waisted white skirt. Her hair is neatly styled, and she wears bold red lipstick, exuding a sophisticated and poised demeanor.",
+      "description": "The scene is a fashion portrait featuring a woman in a minimalist setting. The focus is on her stylish attire and confident posture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black top",
+          "white skirt",
+          "high heels"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: black top, white skirt, gold buttons, earrings, heels. Actions: standing. Emotions: confidence. Scenes: studio, fashion photoshoot, fashion portrait. Concepts: elegance, style, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "black top",
+      "white skirt",
+      "gold buttons",
+      "earrings",
+      "heels"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "studio",
+      "fashion photoshoot",
+      "fashion portrait"
+    ],
+    "concepts": [
+      "elegance",
+      "style",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

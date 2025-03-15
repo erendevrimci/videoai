@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/clock eye.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/clock eye.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/clock eye/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a close-up of a human eye with a clock face replacing the iris and pupil. The clock hands are prominently visible, suggesting the passage of time. The monochromatic tones add to the dreamlike and introspective quality of the scene.",
+      "description": "The scene is a surreal and artistic representation, blending human anatomy with the concept of time. The focus is on the eye, which is transformed into a clock, symbolizing the intertwining of human perception and the relentless passage of time.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "clock",
+          "clock hands"
+        ],
+        "concepts": [
+          "time",
+          "surrealism",
+          "introspection"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "visual_attributes": [
+          "monochrome",
+          "close-up"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/clock eye.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/clock eye/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up image of a human eye with a clock face superimposed over the iris, creating a surreal visual effect. The monochrome palette emphasizes the intricate details of the eye and the clock, blending them seamlessly.",
+      "description": "The scene presents a surreal and thought-provoking image where a clock face is integrated into the iris of a human eye. This artistic composition suggests themes of time and perception, inviting viewers to reflect on the passage of time and its impact on human experience.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "clock",
+          "iris"
+        ],
+        "concepts": [
+          "time",
+          "surrealism",
+          "perception"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "visual_attributes": [
+          "monochrome",
+          "close-up",
+          "detailed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: eye. Objects: clock, clock hands, iris. Concepts: time, surrealism, introspection, perception. Emotions: contemplative. Visual_attributes: monochrome, close-up, detailed",
+  "primary_labels": {
+    "people": [
+      "eye"
+    ],
+    "objects": [
+      "clock",
+      "clock hands",
+      "iris"
+    ],
+    "concepts": [
+      "time",
+      "surrealism",
+      "introspection",
+      "perception"
+    ],
+    "emotions": [
+      "contemplative"
+    ],
+    "visual_attributes": [
+      "monochrome",
+      "close-up",
+      "detailed"
+    ]
+  },
+  "metadata": {}
+}

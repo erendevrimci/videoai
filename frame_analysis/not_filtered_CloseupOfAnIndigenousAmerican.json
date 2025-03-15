@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CloseupOfAnIndigenousAmerican.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CloseupOfAnIndigenousAmerican.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CloseupOfAnIndigenousAmerican/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with intricate face paint and a traditional headdress, gazing upwards. The face is adorned with vibrant colors, highlighting the texture of the skin and the intensity of the gaze.",
+      "description": "The scene captures a detailed and expressive portrait of an individual, possibly in a ceremonial or cultural context, with a focus on traditional adornments and face paint.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "headdress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "tradition",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CloseupOfAnIndigenousAmerican.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CloseupOfAnIndigenousAmerican/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with intricate face paint in vibrant colors. The face is adorned with patterns of yellow, red, and blue, highlighting the contours and expressions.",
+      "description": "The scene captures an intense and detailed view of a person's face, focusing on the artistic and cultural expression through face paint. The setting is intimate, with a dark background that accentuates the vivid colors and textures on the skin.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "face paint",
+          "headdress"
+        ],
+        "emotions": [
+          "intensity",
+          "seriousness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "cultural expression",
+          "artistic detail"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: headdress, face paint. Actions: gazing. Emotions: intensity, seriousness. Scenes: portrait. Concepts: tradition, culture, cultural expression, artistic detail",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "headdress",
+      "face paint"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "intensity",
+      "seriousness"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "tradition",
+      "culture",
+      "cultural expression",
+      "artistic detail"
+    ]
+  },
+  "metadata": {}
+}

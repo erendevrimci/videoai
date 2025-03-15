@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FluffyOrangeCatCookingFried.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FluffyOrangeCatCookingFried.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FluffyOrangeCatCookingFried/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is humorously depicted as cooking in a modern kitchen. It is holding a spatula, appearing to flip two sunny-side-up eggs in a frying pan on the stove.",
+      "description": "The scene takes place in a contemporary kitchen where a cat is playfully positioned as if cooking. The cat's expression is focused, adding a whimsical touch to the domestic setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "frying pan",
+          "spatula",
+          "eggs",
+          "stove",
+          "plant"
+        ],
+        "actions": [
+          "cooking"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FluffyOrangeCatCookingFried.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FluffyOrangeCatCookingFried/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is perched on a kitchen counter, curiously pawing at a frying egg in a pan. The scene is set in a modern kitchen with a soft, natural light coming through a nearby window.",
+      "description": "The image captures a playful moment in a kitchen where a cat interacts with a cooking egg. The setting is a modern kitchen with sleek appliances and a calm atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "frying pan",
+          "egg",
+          "spatula"
+        ],
+        "actions": [
+          "pawing",
+          "cooking"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "playfulness",
+          "domestic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: frying pan, spatula, eggs, stove, plant. Actions: cooking, pawing. Emotions: whimsical, curiosity. Scenes: kitchen. Concepts: humor, anthropomorphism, playfulness, domestic life",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "frying pan",
+      "spatula",
+      "eggs",
+      "stove",
+      "plant"
+    ],
+    "actions": [
+      "cooking",
+      "pawing"
+    ],
+    "emotions": [
+      "whimsical",
+      "curiosity"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "playfulness",
+      "domestic life"
+    ]
+  },
+  "metadata": {}
+}

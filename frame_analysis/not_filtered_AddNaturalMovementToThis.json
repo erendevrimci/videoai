@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AddNaturalMovementToThis.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AddNaturalMovementToThis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AddNaturalMovementToThis/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young animated boy with bright eyes and a joyful expression runs through a lush green field. His red shirt and blue pants contrast with the vibrant greenery surrounding him, and the clear blue sky adds to the cheerful atmosphere.",
+      "description": "The scene depicts an animated boy running energetically through a field of tall grass under a bright blue sky. The setting is outdoors, likely in a rural or countryside area, characterized by open space and natural beauty.",
+      "labels": {
+        "people": [
+          "boy",
+          "child"
+        ],
+        "nature": [
+          "field",
+          "grass",
+          "sky"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "outdoors",
+          "countryside"
+        ],
+        "concepts": [
+          "childhood",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AddNaturalMovementToThis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AddNaturalMovementToThis/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child runs joyfully through a lush green field under a bright blue sky. The child is wearing a red shirt and blue pants, with arms outstretched as they move through the tall grass.",
+      "description": "The scene captures a child running through a vibrant, open field on a sunny day. The setting is serene and natural, with a clear sky and distant trees on the horizon.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "field",
+          "grass",
+          "sky",
+          "trees"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "outdoors",
+          "countryside"
+        ],
+        "concepts": [
+          "freedom",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AddNaturalMovementToThis.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AddNaturalMovementToThis/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child runs joyfully through a lush green field, surrounded by tall grass under a bright blue sky. The scene captures the essence of freedom and innocence as the child moves forward with arms outstretched.",
+      "description": "The image depicts a serene outdoor setting with a child running through a vibrant green field. The expansive landscape and clear sky create a sense of openness and tranquility.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "field",
+          "grass",
+          "sky",
+          "clouds",
+          "trees"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "joy",
+          "freedom"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "innocence",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, boy. Nature: field, grass, sky, trees, clouds. Objects: clothing. Actions: running. Emotions: joy, happiness, freedom. Scenes: outdoors, countryside, outdoor, nature. Concepts: childhood, playfulness, freedom, innocence",
+  "primary_labels": {
+    "people": [
+      "child",
+      "boy"
+    ],
+    "nature": [
+      "field",
+      "grass",
+      "sky",
+      "trees",
+      "clouds"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "running"
+    ],
+    "emotions": [
+      "joy",
+      "happiness",
+      "freedom"
+    ],
+    "scenes": [
+      "outdoors",
+      "countryside",
+      "outdoor",
+      "nature"
+    ],
+    "concepts": [
+      "childhood",
+      "playfulness",
+      "freedom",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

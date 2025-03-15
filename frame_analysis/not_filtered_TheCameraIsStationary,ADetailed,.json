@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,ADetailed,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,ADetailed,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,ADetailed,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two fluffy kittens are huddled together under a large leaf, sheltering from the rain. The leaf is covered in raindrops, and the kittens' fur appears slightly damp. They gaze curiously at the camera, creating an endearing scene.",
+      "description": "The scene depicts two kittens taking refuge from the rain under a large leaf on a wet sidewalk. The setting is outdoors, likely in a garden or park area, with rain visibly falling.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "nature": [
+          "leaf",
+          "rain"
+        ],
+        "objects": [
+          "sidewalk"
+        ],
+        "actions": [
+          "sheltering",
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity",
+          "endearment"
+        ],
+        "scenes": [
+          "outdoor",
+          "rainy"
+        ],
+        "concepts": [
+          "shelter",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,ADetailed,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,ADetailed,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two fluffy kittens are huddled together under a large leaf, sheltering from the rain. The leaf is covered in raindrops, and the kittens look curiously at the camera with wide eyes. The scene is set on a wet sidewalk, with blurred greenery in the background.",
+      "description": "The image depicts a rainy day where two kittens find shelter under a large leaf. The setting is outdoors, likely in a garden or park area, with a focus on the kittens' expressions and the texture of the leaf.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "nature": [
+          "leaf",
+          "raindrops"
+        ],
+        "objects": [
+          "sidewalk"
+        ],
+        "actions": [
+          "sheltering"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "rainy day",
+          "outdoors"
+        ],
+        "concepts": [
+          "protection",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kittens, cats. Nature: leaf, rain, raindrops. Objects: sidewalk. Actions: sheltering, gazing. Emotions: curiosity, endearment. Scenes: outdoor, rainy, rainy day, outdoors. Concepts: shelter, companionship, protection, innocence",
+  "primary_labels": {
+    "animals": [
+      "kittens",
+      "cats"
+    ],
+    "nature": [
+      "leaf",
+      "rain",
+      "raindrops"
+    ],
+    "objects": [
+      "sidewalk"
+    ],
+    "actions": [
+      "sheltering",
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity",
+      "endearment"
+    ],
+    "scenes": [
+      "outdoor",
+      "rainy",
+      "rainy day",
+      "outdoors"
+    ],
+    "concepts": [
+      "shelter",
+      "companionship",
+      "protection",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

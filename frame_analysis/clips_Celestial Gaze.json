@@ -1,0 +1,88 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Celestial Gaze.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Celestial Gaze.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Celestial Gaze/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a human eye with vibrant yellow and orange hues, surrounded by a textured surface with blue and yellow speckles. The image captures intricate details of the eye's iris and the surrounding skin, creating a striking visual contrast.",
+      "description": "The scene is a detailed close-up of a human eye, focusing on the vibrant colors and textures. The setting appears to be artistic or conceptual, highlighting the beauty and complexity of the human eye.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "iris",
+          "skin"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "art",
+          "color contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Celestial Gaze.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Celestial Gaze/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a human eye with vibrant yellow and orange hues, surrounded by textured skin with blue and yellow patterns. The eye is intensely focused, creating a striking contrast against the dark background.",
+      "description": "The image captures an extreme close-up of a human eye, highlighting its vivid colors and the intricate texture of the surrounding skin. The scene is artistic and abstract, emphasizing the eye's detail and the skin's unique pattern.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "skin",
+          "texture"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "close-up",
+          "abstract"
+        ],
+        "concepts": [
+          "artistic",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: eye. Objects: skin, iris, texture. Emotions: curiosity, focus. Scenes: close-up, abstract. Concepts: art, color contrast, artistic, contrast",
+  "primary_labels": {
+    "people": [
+      "eye"
+    ],
+    "objects": [
+      "skin",
+      "iris",
+      "texture"
+    ],
+    "emotions": [
+      "curiosity",
+      "focus"
+    ],
+    "scenes": [
+      "close-up",
+      "abstract"
+    ],
+    "concepts": [
+      "art",
+      "color contrast",
+      "artistic",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

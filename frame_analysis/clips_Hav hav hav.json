@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hav hav hav.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hav hav hav.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hav hav hav/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical figure crafted from straw stands upright, resembling a humanoid form with a spherical head and slender limbs. The figure is set against a blurred, dark background, highlighting its intricate texture and playful design.",
+      "description": "The scene features a straw figure in a simple, undefined setting. The focus is on the craftsmanship and artistic representation of the figure, evoking a sense of creativity and imagination.",
+      "labels": {
+        "objects": [
+          "straw figure"
+        ],
+        "scenes": [
+          "artistic display"
+        ],
+        "concepts": [
+          "creativity",
+          "craftsmanship"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hav hav hav.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hav hav hav/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical figure made of straw stands in a dimly lit setting, casting a playful shadow. The figure has a round head with dark eyes and a wide smile, giving it a friendly and inviting appearance.",
+      "description": "The scene features a straw figure in a warm, dimly lit environment, possibly resembling a cave or rustic setting. The lighting highlights the texture of the straw, creating a cozy and inviting atmosphere.",
+      "labels": {
+        "objects": [
+          "straw figure"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "friendly",
+          "playful"
+        ],
+        "scenes": [
+          "dimly lit setting",
+          "rustic environment"
+        ],
+        "concepts": [
+          "whimsy",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hav hav hav.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hav hav hav/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical straw figure stands animatedly against a blurred background. Its round head and slender body are crafted entirely from straw, giving it a rustic and playful appearance.",
+      "description": "The scene depicts a straw figure, seemingly in motion, with a lively expression. It appears to be in a natural or rustic setting, possibly a barn or field, suggested by the straw and earthy tones.",
+      "labels": {
+        "objects": [
+          "straw figure"
+        ],
+        "actions": [
+          "standing",
+          "animated"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "rustic",
+          "natural"
+        ],
+        "concepts": [
+          "creativity",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: straw figure. Scenes: artistic display, dimly lit setting, rustic environment, rustic, natural. Concepts: creativity, craftsmanship, whimsy, artistic. Emotions: playful, whimsical, friendly. Actions: standing, animated",
+  "primary_labels": {
+    "objects": [
+      "straw figure"
+    ],
+    "scenes": [
+      "artistic display",
+      "dimly lit setting",
+      "rustic environment",
+      "rustic",
+      "natural"
+    ],
+    "concepts": [
+      "creativity",
+      "craftsmanship",
+      "whimsy",
+      "artistic"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "friendly"
+    ],
+    "actions": [
+      "standing",
+      "animated"
+    ]
+  },
+  "metadata": {}
+}

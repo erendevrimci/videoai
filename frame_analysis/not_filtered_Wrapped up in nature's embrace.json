@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wrapped up in nature's embrace.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wrapped up in nature's embrace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wrapped up in nature's embrace/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long hair holds a steaming cup while standing in a sunlit garden. She is surrounded by blooming flowers and bathed in warm, golden light.",
+      "description": "The scene captures a serene moment in a lush garden setting, where a woman enjoys a hot beverage amidst vibrant flowers. The sunlight creates a soft, dreamy atmosphere, enhancing the peacefulness of the moment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "cup"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "relaxation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wrapped up in nature's embrace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wrapped up in nature's embrace/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands in a sunlit garden, holding a cup and smiling gently. The warm sunlight filters through the trees, casting a golden glow over the scene.",
+      "description": "The scene captures a serene moment in a garden setting, where a woman enjoys a peaceful moment with a cup in her hand. The soft sunlight and blooming flowers create a tranquil and uplifting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "cup"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "contentment",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "peace",
+          "nature appreciation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, garden, trees. Objects: cup. Actions: holding, smiling. Emotions: serene, content, contentment, serenity. Scenes: garden, outdoor, sunlit. Concepts: relaxation, nature, peace, nature appreciation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "garden",
+      "trees"
+    ],
+    "objects": [
+      "cup"
+    ],
+    "actions": [
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "serene",
+      "content",
+      "contentment",
+      "serenity"
+    ],
+    "scenes": [
+      "garden",
+      "outdoor",
+      "sunlit"
+    ],
+    "concepts": [
+      "relaxation",
+      "nature",
+      "peace",
+      "nature appreciation"
+    ]
+  },
+  "metadata": {}
+}

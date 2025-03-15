@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/When you're at work.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/When you're at work.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/When you're at work/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid cat is lounging on a couch, wearing a white tank top and black shorts, while playing a video game with a controller. A bag of chips rests beside it, adding to the relaxed atmosphere.",
+      "description": "The scene depicts a humorous and surreal setting where a cat with human-like features is engaged in a leisure activity, playing video games on a couch. The setting suggests a casual and laid-back environment, typical of a living room.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "couch",
+          "video game controller",
+          "bag of chips"
+        ],
+        "actions": [
+          "playing video games"
+        ],
+        "emotions": [
+          "relaxed",
+          "humorous"
+        ],
+        "scenes": [
+          "living room"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/When you're at work.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/When you're at work/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog sits on a couch next to a futuristic holographic device displaying a 3D scene. The room has a modern and cozy atmosphere with neutral-colored furniture.",
+      "description": "The scene is set in a modern living room with a small dog observing a holographic display on a table. The display shows a dynamic 3D image, adding a high-tech element to the otherwise calm and cozy setting.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "couch",
+          "holographic device",
+          "table"
+        ],
+        "actions": [
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "living room",
+          "modern"
+        ],
+        "concepts": [
+          "technology",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, dog. Objects: couch, video game controller, bag of chips, holographic device, table. Actions: playing video games, observing. Emotions: relaxed, humorous, curiosity. Scenes: living room, modern. Concepts: anthropomorphism, leisure, technology, comfort",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "dog"
+    ],
+    "objects": [
+      "couch",
+      "video game controller",
+      "bag of chips",
+      "holographic device",
+      "table"
+    ],
+    "actions": [
+      "playing video games",
+      "observing"
+    ],
+    "emotions": [
+      "relaxed",
+      "humorous",
+      "curiosity"
+    ],
+    "scenes": [
+      "living room",
+      "modern"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "leisure",
+      "technology",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trend 10k.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trend 10k.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Trend 10k/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny panda cub is gently held in a person's hand, surrounded by a warm, blurred background. The cub's wide eyes and fluffy fur are highlighted by the soft, golden light.",
+      "description": "The scene captures a close-up of a panda cub being held by a person, set against a softly blurred, sunlit background. The atmosphere is warm and serene, emphasizing the cub's innocence and the gentle interaction.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "panda cub"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "innocence",
+          "gentleness"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoors"
+        ],
+        "concepts": [
+          "care",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Trend 10k.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Trend 10k/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny panda cub is gently held in a person's hand, its wide eyes gazing curiously at the camera. The soft, golden bokeh in the background creates a warm and serene atmosphere.",
+      "description": "The scene captures a close-up of a baby panda being held by a person, set against a backdrop of blurred, glowing light. The focus is on the panda's adorable features and the tender interaction.",
+      "labels": {
+        "animals": [
+          "panda",
+          "baby panda"
+        ],
+        "people": [
+          "hand"
+        ],
+        "nature": [
+          "bokeh",
+          "light"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "gentleness"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "tenderness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Animals: panda cub, panda, baby panda. Nature: bokeh, light. Objects: hand. Actions: holding. Emotions: gentleness, innocence, curiosity. Scenes: close-up, outdoors, outdoor. Concepts: care, warmth, cuteness, tenderness",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "animals": [
+      "panda cub",
+      "panda",
+      "baby panda"
+    ],
+    "nature": [
+      "bokeh",
+      "light"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "gentleness",
+      "innocence",
+      "curiosity"
+    ],
+    "scenes": [
+      "close-up",
+      "outdoors",
+      "outdoor"
+    ],
+    "concepts": [
+      "care",
+      "warmth",
+      "cuteness",
+      "tenderness"
+    ]
+  },
+  "metadata": {}
+}

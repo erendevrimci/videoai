@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAVideoOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAVideoOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeAVideoOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful koala wearing a colorful striped tank top and a straw hat is slicing oranges at a bar. The koala is surrounded by bottles on shelves and is preparing a fresh glass of orange juice. The scene is brightly lit with a tropical, relaxed atmosphere.",
+      "description": "The scene is set in a vibrant bar with a tropical theme, featuring a koala character engaging in the action of slicing oranges. The setting suggests a laid-back, vacation-like atmosphere with bright colors and a playful tone.",
+      "labels": {
+        "animals": [
+          "koala"
+        ],
+        "objects": [
+          "oranges",
+          "knife",
+          "cutting board",
+          "glass of juice",
+          "bottles",
+          "straw hat",
+          "tank top"
+        ],
+        "actions": [
+          "slicing",
+          "preparing juice"
+        ],
+        "emotions": [
+          "cheerful",
+          "relaxed"
+        ],
+        "scenes": [
+          "bar",
+          "tropical"
+        ],
+        "concepts": [
+          "vacation",
+          "tropical theme"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeAVideoOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeAVideoOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A koala wearing a straw hat and sunglasses is slicing oranges at a bar. The setting is vibrant and tropical, with colorful bottles lining the shelves and palm trees visible through the window. The koala is dressed in a striped tank top, adding to the casual, summery vibe.",
+      "description": "The scene is set in a lively bar with a tropical theme. A koala, anthropomorphized with human clothing and accessories, is preparing fresh orange slices. The atmosphere is bright and cheerful, suggesting a relaxed, vacation-like setting.",
+      "labels": {
+        "animals": [
+          "koala"
+        ],
+        "objects": [
+          "oranges",
+          "knife",
+          "cutting board",
+          "sunglasses",
+          "straw hat",
+          "bottles"
+        ],
+        "actions": [
+          "slicing",
+          "preparing"
+        ],
+        "emotions": [
+          "cheerful",
+          "relaxed"
+        ],
+        "scenes": [
+          "bar",
+          "tropical"
+        ],
+        "concepts": [
+          "vacation",
+          "summer",
+          "tropical theme"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: koala. Objects: oranges, knife, cutting board, bottles, straw hat. Actions: slicing, preparing juice, preparing. Emotions: cheerful, relaxed. Scenes: bar, tropical. Concepts: vacation, tropical theme, summer",
+  "primary_labels": {
+    "animals": [
+      "koala"
+    ],
+    "objects": [
+      "oranges",
+      "knife",
+      "cutting board",
+      "bottles",
+      "straw hat"
+    ],
+    "actions": [
+      "slicing",
+      "preparing juice",
+      "preparing"
+    ],
+    "emotions": [
+      "cheerful",
+      "relaxed"
+    ],
+    "scenes": [
+      "bar",
+      "tropical"
+    ],
+    "concepts": [
+      "vacation",
+      "tropical theme",
+      "summer"
+    ]
+  },
+  "metadata": {}
+}

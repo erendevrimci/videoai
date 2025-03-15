@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Black car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Black car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Black car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek black sports car is showcased in a futuristic setting with vibrant red neon lights. The car's glossy surface reflects the surrounding lights, emphasizing its aerodynamic design. The scene exudes a sense of speed and modernity.",
+      "description": "The image depicts a black sports car in a high-tech, futuristic environment. The setting is illuminated by red neon lights, creating a dramatic and intense atmosphere.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "neon lights"
+        ],
+        "actions": [
+          "showcased"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic setting"
+        ],
+        "concepts": [
+          "modernity",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Black car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Black car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek sports car is showcased in a dramatic setting, enveloped in red neon lights and swirling smoke. The car's glossy black surface reflects the vibrant red hues, emphasizing its aerodynamic design. The scene exudes a sense of speed and modernity.",
+      "description": "The image depicts a high-performance sports car in a futuristic, high-energy environment. The setting is likely a studio or a controlled space designed to highlight the car's features with dramatic lighting and smoke effects.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "neon lights",
+          "smoke"
+        ],
+        "actions": [
+          "showcasing",
+          "highlighting"
+        ],
+        "emotions": [
+          "intensity",
+          "excitement"
+        ],
+        "scenes": [
+          "futuristic",
+          "dramatic"
+        ],
+        "concepts": [
+          "speed",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, neon lights, smoke. Actions: showcased, showcasing, highlighting. Emotions: intensity, excitement. Scenes: futuristic setting, futuristic, dramatic. Concepts: modernity, speed",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "neon lights",
+      "smoke"
+    ],
+    "actions": [
+      "showcased",
+      "showcasing",
+      "highlighting"
+    ],
+    "emotions": [
+      "intensity",
+      "excitement"
+    ],
+    "scenes": [
+      "futuristic setting",
+      "futuristic",
+      "dramatic"
+    ],
+    "concepts": [
+      "modernity",
+      "speed"
+    ]
+  },
+  "metadata": {}
+}

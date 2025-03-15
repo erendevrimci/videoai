@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFpvCinematic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFpvCinematic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFpvCinematic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek black luxury car is parked in front of a modern, elegant house. The scene is set during the golden hour, with warm sunlight casting soft shadows on the driveway and highlighting the car's glossy finish.",
+      "description": "The image depicts a luxurious setting with a high-end car parked in front of a contemporary house, surrounded by a well-maintained garden. The atmosphere is serene and sophisticated, enhanced by the warm evening light.",
+      "labels": {
+        "objects": [
+          "car",
+          "house",
+          "driveway",
+          "windows"
+        ],
+        "nature": [
+          "trees",
+          "bushes"
+        ],
+        "scenes": [
+          "luxury",
+          "residential",
+          "outdoor"
+        ],
+        "emotions": [
+          "serenity",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFpvCinematic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFpvCinematic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek black luxury car is parked in front of a modern, minimalist house during sunset. The warm glow of the sun casts a golden hue over the scene, highlighting the car's glossy finish and the house's clean architectural lines.",
+      "description": "The scene depicts a luxurious setting with a high-end car parked in front of a contemporary house. The sun is setting, creating a serene and sophisticated atmosphere.",
+      "labels": {
+        "objects": [
+          "car",
+          "house"
+        ],
+        "nature": [
+          "sunset",
+          "trees"
+        ],
+        "scenes": [
+          "luxury",
+          "residential"
+        ],
+        "emotions": [
+          "serenity",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, house, driveway, windows. Nature: trees, bushes, sunset. Scenes: luxury, residential, outdoor. Emotions: serenity, sophistication",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "house",
+      "driveway",
+      "windows"
+    ],
+    "nature": [
+      "trees",
+      "bushes",
+      "sunset"
+    ],
+    "scenes": [
+      "luxury",
+      "residential",
+      "outdoor"
+    ],
+    "emotions": [
+      "serenity",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

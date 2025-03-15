@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisHighlyDetailedAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisHighlyDetailedAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisHighlyDetailedAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a miniature construction scene within a bathroom setting. Tiny figures dressed as construction workers are actively engaged in tasks around a modern bathroom with a freestanding bathtub and a potted plant.",
+      "description": "This scene is set in a contemporary bathroom where miniature construction workers are seemingly working on the floor and fixtures. The setting includes a bathtub, a sink, and a toilet, with the workers appearing to be involved in construction or renovation activities.",
+      "labels": {
+        "people": [
+          "miniature construction workers"
+        ],
+        "objects": [
+          "bathtub",
+          "sink",
+          "toilet",
+          "potted plant"
+        ],
+        "actions": [
+          "construction",
+          "renovation"
+        ],
+        "scenes": [
+          "bathroom",
+          "miniature scene"
+        ],
+        "concepts": [
+          "miniature",
+          "construction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisHighlyDetailedAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisHighlyDetailedAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a bathroom setting where miniature construction workers are engaged in various tasks. The scene includes a freestanding bathtub, a toilet, and a sink, with workers appearing to build or renovate the space. The workers, wearing orange vests and yellow helmets, add a whimsical element to the otherwise realistic bathroom setting.",
+      "description": "This scene is set in a modern bathroom with a focus on construction or renovation activities. The presence of miniature workers gives the impression of a playful, imaginative scenario within a realistic environment.",
+      "labels": {
+        "people": [
+          "miniature construction workers"
+        ],
+        "objects": [
+          "bathtub",
+          "toilet",
+          "sink",
+          "construction tools"
+        ],
+        "actions": [
+          "building",
+          "renovating"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "bathroom",
+          "construction site"
+        ],
+        "concepts": [
+          "miniature",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature construction workers. Objects: bathtub, sink, toilet, potted plant, construction tools. Actions: construction, renovation, building, renovating. Scenes: bathroom, miniature scene, construction site. Concepts: miniature, construction, imaginative. Emotions: playful",
+  "primary_labels": {
+    "people": [
+      "miniature construction workers"
+    ],
+    "objects": [
+      "bathtub",
+      "sink",
+      "toilet",
+      "potted plant",
+      "construction tools"
+    ],
+    "actions": [
+      "construction",
+      "renovation",
+      "building",
+      "renovating"
+    ],
+    "scenes": [
+      "bathroom",
+      "miniature scene",
+      "construction site"
+    ],
+    "concepts": [
+      "miniature",
+      "construction",
+      "imaginative"
+    ],
+    "emotions": [
+      "playful"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantasy creature in fairy meadow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantasy creature in fairy meadow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantasy creature in fairy meadow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene forest scene bathed in soft, golden sunlight features a meadow filled with delicate white and pink flowers. Butterflies flutter gently among the blossoms, adding a sense of movement and life to the tranquil setting. The light filters through the trees, creating a magical and ethereal atmosphere.",
+      "description": "The scene is set in a peaceful forest clearing during what appears to be early morning or late afternoon. The area is lush with wildflowers and surrounded by tall trees, with sunlight streaming through the canopy. The presence of butterflies enhances the natural beauty and tranquility of the setting.",
+      "labels": {
+        "nature": [
+          "forest",
+          "meadow",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "flowers",
+          "tree trunk"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "actions": [
+          "fluttering"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "nature",
+          "forest clearing"
+        ],
+        "concepts": [
+          "peace",
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantasy creature in fairy meadow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantasy creature in fairy meadow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy, whimsical creature stands amidst a vibrant meadow filled with colorful flowers. The creature gazes curiously at a pink flower, its eyes sparkling with wonder. Sunlight filters through the trees, casting a warm glow over the enchanting scene.",
+      "description": "The scene is set in a magical meadow, where a charming, fantasy-like creature explores its surroundings. The atmosphere is serene and enchanting, with a focus on nature's beauty.",
+      "labels": {
+        "animals": [
+          "fantasy creature"
+        ],
+        "nature": [
+          "meadow",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "flower"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "enchantment",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fantasy creature in fairy meadow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fantasy creature in fairy meadow/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy, white creature with glowing eyes is gently sniffing a pink flower in a sunlit meadow. The scene is filled with various wildflowers and soft, golden light filtering through the trees in the background. The creature appears curious and peaceful, adding a whimsical touch to the serene setting.",
+      "description": "The scene is set in a magical, sunlit meadow filled with wildflowers. A small, fluffy creature is the focal point, interacting with the natural environment by sniffing a flower. The atmosphere is tranquil and enchanting, enhanced by the warm, golden light of the setting sun.",
+      "labels": {
+        "animals": [
+          "fluffy creature"
+        ],
+        "nature": [
+          "meadow",
+          "wildflowers",
+          "trees"
+        ],
+        "objects": [
+          "flower"
+        ],
+        "actions": [
+          "sniffing"
+        ],
+        "emotions": [
+          "curiosity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "magical meadow",
+          "sunlit forest"
+        ],
+        "concepts": [
+          "whimsy",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: meadow, trees, flowers, forest, wildflowers. Objects: flower, flowers, tree trunk. Animals: butterflies, fantasy creature, fluffy creature. Actions: fluttering, sniffing. Emotions: curiosity, serenity, tranquility, wonder, peacefulness. Scenes: nature, forest clearing, fantasy, magical meadow, sunlit forest. Concepts: serenity, peace, beauty, nature, enchantment",
+  "primary_labels": {
+    "nature": [
+      "meadow",
+      "trees",
+      "flowers",
+      "forest",
+      "wildflowers"
+    ],
+    "objects": [
+      "flower",
+      "flowers",
+      "tree trunk"
+    ],
+    "animals": [
+      "butterflies",
+      "fantasy creature",
+      "fluffy creature"
+    ],
+    "actions": [
+      "fluttering",
+      "sniffing"
+    ],
+    "emotions": [
+      "curiosity",
+      "serenity",
+      "tranquility",
+      "wonder",
+      "peacefulness"
+    ],
+    "scenes": [
+      "nature",
+      "forest clearing",
+      "fantasy",
+      "magical meadow",
+      "sunlit forest"
+    ],
+    "concepts": [
+      "serenity",
+      "peace",
+      "beauty",
+      "nature",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,89 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovimentoSuaveDeUmEstoico.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovimentoSuaveDeUmEstoico.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MovimentoSuaveDeUmEstoico/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic statue of a muscular, bearded man stands prominently in an ancient architectural setting. The sculpture is intricately detailed, showcasing the figure's powerful physique and draped cloth. The background features ornate columns and a dimly lit atmosphere, enhancing the statue's grandeur.",
+      "description": "The scene depicts a classical statue in a historical or mythological setting, likely within an ancient temple or grand hall. The focus is on the statue, which exudes strength and timeless beauty.",
+      "labels": {
+        "objects": [
+          "statue",
+          "columns",
+          "draped cloth"
+        ],
+        "scenes": [
+          "ancient architecture",
+          "temple",
+          "grand hall"
+        ],
+        "concepts": [
+          "classical art",
+          "mythology",
+          "strength"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovimentoSuaveDeUmEstoico.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MovimentoSuaveDeUmEstoico/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic stone statue of a muscular, bearded man stands prominently in a grand architectural setting. The statue's intricate details and powerful stance convey a sense of strength and timelessness.",
+      "description": "The scene depicts a large, detailed statue of a muscular man with a beard, set against the backdrop of an ornate, classical architectural interior. The setting suggests a historical or mythological theme, with the statue as the focal point.",
+      "labels": {
+        "objects": [
+          "statue",
+          "architecture"
+        ],
+        "scenes": [
+          "historical",
+          "mythological"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "concepts": [
+          "strength",
+          "timelessness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: statue, columns, draped cloth, architecture. Scenes: ancient architecture, temple, grand hall, historical, mythological. Concepts: strength, classical art, mythology, timelessness. Emotions: awe, reverence",
+  "primary_labels": {
+    "objects": [
+      "statue",
+      "columns",
+      "draped cloth",
+      "architecture"
+    ],
+    "scenes": [
+      "ancient architecture",
+      "temple",
+      "grand hall",
+      "historical",
+      "mythological"
+    ],
+    "concepts": [
+      "strength",
+      "classical art",
+      "mythology",
+      "timelessness"
+    ],
+    "emotions": [
+      "awe",
+      "reverence"
+    ]
+  },
+  "metadata": {}
+}

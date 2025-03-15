@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/24 heures du Mans.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/24 heures du Mans.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/24 heures du Mans/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, black vintage sports car is parked on a paved urban street. The car's glossy finish reflects the surrounding buildings, and its golden wire wheels add a touch of elegance.",
+      "description": "The scene captures a classic sports car parked in an urban setting, likely in front of a modern building with glass facades. The car's design suggests a mid-20th-century model, emphasizing luxury and style.",
+      "labels": {
+        "objects": [
+          "car",
+          "sports car",
+          "wheel",
+          "headlight"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "city"
+        ],
+        "concepts": [
+          "vintage",
+          "luxury",
+          "automobile"
+        ],
+        "emotions": [
+          "elegance",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/24 heures du Mans.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/24 heures du Mans/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek black vintage sports car is parked on a paved street in front of a modern building. The car's shiny surface reflects the surrounding architecture, highlighting its classic design and golden wheels.",
+      "description": "The scene captures a vintage sports car parked in an urban setting, likely in a city center. The car is positioned in front of a contemporary building with large glass windows, suggesting a blend of classic and modern elements.",
+      "labels": {
+        "objects": [
+          "vintage sports car",
+          "building",
+          "glass windows"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "scenes": [
+          "urban",
+          "city center"
+        ],
+        "concepts": [
+          "classic design",
+          "modern architecture"
+        ],
+        "emotions": [
+          "nostalgic",
+          "elegant"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, sports car, wheel, headlight, vintage sports car. Scenes: urban, street, city, city center. Concepts: vintage, luxury, automobile, classic design, modern architecture. Emotions: elegance, nostalgia, nostalgic, elegant. Actions: parked",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "sports car",
+      "wheel",
+      "headlight",
+      "vintage sports car"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city",
+      "city center"
+    ],
+    "concepts": [
+      "vintage",
+      "luxury",
+      "automobile",
+      "classic design",
+      "modern architecture"
+    ],
+    "emotions": [
+      "elegance",
+      "nostalgia",
+      "nostalgic",
+      "elegant"
+    ],
+    "actions": [
+      "parked"
+    ]
+  },
+  "metadata": {}
+}

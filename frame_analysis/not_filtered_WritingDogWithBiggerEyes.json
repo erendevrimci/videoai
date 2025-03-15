@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WritingDogWithBiggerEyes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WritingDogWithBiggerEyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WritingDogWithBiggerEyes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy brown dog wearing a green sweater is sitting at a table, holding a pen and appearing to write or draw in a notebook. The scene is whimsical and charming, with the dog looking directly at the camera with an inquisitive expression.",
+      "description": "The scene depicts a cute dog dressed in a cozy sweater, engaging in a human-like activity of writing or drawing. The setting is indoors, likely in a study or living room, with a playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "pen",
+          "notebook",
+          "sweater"
+        ],
+        "actions": [
+          "writing",
+          "drawing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "indoor",
+          "study"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WritingDogWithBiggerEyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WritingDogWithBiggerEyes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog, dressed in a cozy green sweater, appears to be writing in a notebook with a pen. The scene is charmingly whimsical, as the dog is posed like a human engaged in a thoughtful task.",
+      "description": "The image depicts a playful and imaginative scene where a dog is humorously portrayed as if it is writing in a notebook. The setting suggests a cozy indoor environment, possibly a study or living room.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "notebook",
+          "pen",
+          "sweater"
+        ],
+        "actions": [
+          "writing"
+        ],
+        "emotions": [
+          "whimsical",
+          "charming"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: pen, notebook, sweater. Actions: writing, drawing. Emotions: curiosity, whimsical, charming. Scenes: indoor, study. Concepts: whimsy, imagination, anthropomorphism, creativity",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "pen",
+      "notebook",
+      "sweater"
+    ],
+    "actions": [
+      "writing",
+      "drawing"
+    ],
+    "emotions": [
+      "curiosity",
+      "whimsical",
+      "charming"
+    ],
+    "scenes": [
+      "indoor",
+      "study"
+    ],
+    "concepts": [
+      "whimsy",
+      "imagination",
+      "anthropomorphism",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

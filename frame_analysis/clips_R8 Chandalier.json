@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/R8 Chandalier.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/R8 Chandalier.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/R8 Chandalier/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern car is suspended in mid-air within a luxurious indoor setting. The vehicle is displayed above a geometric concrete pedestal, surrounded by contemporary architecture and ambient lighting.",
+      "description": "The scene depicts a high-end, modern interior space where a car is artistically showcased. The setting includes a sophisticated lounge area with a fireplace, emphasizing luxury and design innovation.",
+      "labels": {
+        "objects": [
+          "car",
+          "pedestal",
+          "fireplace",
+          "sofa"
+        ],
+        "actions": [
+          "suspended"
+        ],
+        "scenes": [
+          "indoor",
+          "luxury",
+          "modern"
+        ],
+        "concepts": [
+          "artistic display",
+          "contemporary design"
+        ],
+        "emotions": [
+          "awe",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/R8 Chandalier.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/R8 Chandalier/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern sports car is suspended in mid-air within a luxurious indoor setting. The vehicle is supported by a geometric concrete pedestal, with strings or cables visible above. The room features a contemporary design with wooden paneling and a linear fireplace, creating a sophisticated atmosphere.",
+      "description": "The scene is set in a high-end, modern interior space, possibly a showroom or a luxury home. The focus is on a suspended sports car, highlighting its design and engineering. The setting is enhanced by elegant architectural elements such as wooden walls and a fireplace, suggesting opulence and style.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "concrete pedestal",
+          "fireplace",
+          "wooden paneling",
+          "strings"
+        ],
+        "actions": [
+          "suspension"
+        ],
+        "emotions": [
+          "sophistication",
+          "luxury"
+        ],
+        "scenes": [
+          "indoor",
+          "showroom",
+          "luxury home"
+        ],
+        "concepts": [
+          "modern design",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: fireplace, car, pedestal, sofa, sports car. Actions: suspended, suspension. Scenes: indoor, luxury, modern, showroom, luxury home. Concepts: artistic display, contemporary design, modern design, opulence. Emotions: sophistication, awe, luxury",
+  "primary_labels": {
+    "objects": [
+      "fireplace",
+      "car",
+      "pedestal",
+      "sofa",
+      "sports car"
+    ],
+    "actions": [
+      "suspended",
+      "suspension"
+    ],
+    "scenes": [
+      "indoor",
+      "luxury",
+      "modern",
+      "showroom",
+      "luxury home"
+    ],
+    "concepts": [
+      "artistic display",
+      "contemporary design",
+      "modern design",
+      "opulence"
+    ],
+    "emotions": [
+      "sophistication",
+      "awe",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

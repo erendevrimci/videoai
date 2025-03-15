@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beyond the Sea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beyond the Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beyond the Sea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A statue resembling 'The Thinker' is situated amidst turbulent ocean waves, with dark storm clouds looming overhead. The scene conveys a sense of isolation and contemplation as the statue remains unmoved by the surrounding chaos.",
+      "description": "The scene depicts a dramatic and surreal setting where a statue is placed in the middle of a stormy sea. The waves crash against the base of the statue, and the sky is filled with ominous clouds, creating a powerful and introspective atmosphere.",
+      "labels": {
+        "objects": [
+          "statue",
+          "waves",
+          "clouds"
+        ],
+        "nature": [
+          "ocean",
+          "storm"
+        ],
+        "actions": [
+          "crashing waves"
+        ],
+        "emotions": [
+          "isolation",
+          "contemplation"
+        ],
+        "scenes": [
+          "stormy sea"
+        ],
+        "concepts": [
+          "introspection",
+          "chaos"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beyond the Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beyond the Sea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A statue resembling 'The Thinker' is perched on a rock amidst turbulent ocean waves. The stormy sky and churning sea create a dramatic and intense atmosphere.",
+      "description": "The scene depicts a statue in a contemplative pose, surrounded by a tumultuous ocean. The dark, stormy sky and crashing waves suggest a powerful natural setting.",
+      "labels": {
+        "objects": [
+          "statue",
+          "rock"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "stormy sky"
+        ],
+        "actions": [
+          "crashing waves"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "storm",
+          "ocean"
+        ],
+        "concepts": [
+          "contemplation",
+          "turmoil"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beyond the Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beyond the Sea/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A statue resembling 'The Thinker' sits amidst a turbulent sea, surrounded by floating shipping containers. Dark storm clouds loom overhead, creating a dramatic and intense atmosphere.",
+      "description": "The scene depicts a surreal and chaotic setting where a statue is placed in the middle of a stormy ocean. The presence of shipping containers suggests a maritime disaster, while the dark clouds add to the ominous mood.",
+      "labels": {
+        "objects": [
+          "statue",
+          "shipping containers"
+        ],
+        "nature": [
+          "ocean",
+          "storm clouds"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "maritime disaster",
+          "stormy sea"
+        ],
+        "concepts": [
+          "surrealism",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: statue, waves, clouds, rock, shipping containers. Nature: ocean, storm, waves, stormy sky, storm clouds. Actions: crashing waves, floating. Emotions: intensity, isolation, contemplation, drama, chaos. Scenes: stormy sea, storm, ocean, maritime disaster. Concepts: introspection, chaos, contemplation, turmoil, surrealism",
+  "primary_labels": {
+    "objects": [
+      "statue",
+      "waves",
+      "clouds",
+      "rock",
+      "shipping containers"
+    ],
+    "nature": [
+      "ocean",
+      "storm",
+      "waves",
+      "stormy sky",
+      "storm clouds"
+    ],
+    "actions": [
+      "crashing waves",
+      "floating"
+    ],
+    "emotions": [
+      "intensity",
+      "isolation",
+      "contemplation",
+      "drama",
+      "chaos"
+    ],
+    "scenes": [
+      "stormy sea",
+      "storm",
+      "ocean",
+      "maritime disaster"
+    ],
+    "concepts": [
+      "introspection",
+      "chaos",
+      "contemplation",
+      "turmoil",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

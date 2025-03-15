@@ -1,0 +1,84 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl is smiling.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl is smiling.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl is smiling/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking eyes is wrapped in an intricately patterned shawl, gazing directly at the viewer. The shawl features rich floral designs in gold and red, adding a touch of elegance to the scene.",
+      "description": "The image captures a close-up portrait of a woman in a richly decorated setting. Her expression is calm and composed, creating an intimate and captivating atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "shawl"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl is smiling.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl is smiling/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking eyes gazes directly at the viewer, her head adorned with an intricately patterned shawl. The rich, ornate fabric frames her face, enhancing her serene and captivating expression.",
+      "description": "The scene captures a close-up portrait of a woman in a richly decorated setting. The focus is on her expressive eyes and the detailed patterns of the shawl, creating an intimate and elegant atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "shawl"
+        ],
+        "emotions": [
+          "serene",
+          "captivating"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: shawl. Emotions: calm, composed, serene, captivating. Scenes: portrait. Concepts: elegance, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "shawl"
+    ],
+    "emotions": [
+      "calm",
+      "composed",
+      "serene",
+      "captivating"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "elegance",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASmoothAndStylish.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASmoothAndStylish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateASmoothAndStylish/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently against a plain white background, wearing a stylish outfit. She is dressed in a red velvet jacket, patterned trousers, and carries a black handbag with a gold chain strap.",
+      "description": "The scene is a fashion-focused portrait set in a studio environment. The woman is posing for a photo, showcasing a chic and sophisticated style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jacket",
+          "trousers",
+          "handbag"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASmoothAndStylish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateASmoothAndStylish/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a stylish black coat with gold buttons, paired with sunglasses and brown ankle boots. She holds a brown handbag, exuding a chic and sophisticated vibe against a plain white background.",
+      "description": "The scene is a fashion portrait featuring a woman dressed in a fashionable outfit, set against a minimalist white backdrop. The focus is on her attire and accessories, highlighting a modern and elegant style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat",
+          "sunglasses",
+          "handbag",
+          "boots"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: handbag, jacket, trousers, coat, sunglasses. Actions: standing, posing. Emotions: confident. Scenes: studio, fashion. Concepts: style, fashion, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "handbag",
+      "jacket",
+      "trousers",
+      "coat",
+      "sunglasses"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confident"
+    ],
+    "scenes": [
+      "studio",
+      "fashion"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

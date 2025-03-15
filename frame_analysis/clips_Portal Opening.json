@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Portal Opening.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Portal Opening.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Portal Opening/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands before a large, ornate portal emitting bright light and electrical energy. She wears a corset and a flowing red skirt, with goggles resting on her head, suggesting a steampunk aesthetic. The scene is set in a grand, ancient chamber with intricate details and a mystical atmosphere.",
+      "description": "The scene depicts a steampunk-inspired setting where a woman is facing a massive, glowing portal. The chamber is filled with an aura of mystery and ancient technology, enhanced by the presence of electrical arcs and a bright, otherworldly light emanating from the portal.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "portal",
+          "goggles",
+          "corset",
+          "skirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "scenes": [
+          "steampunk",
+          "ancient chamber"
+        ],
+        "concepts": [
+          "mystery",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Portal Opening.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Portal Opening/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a steampunk-inspired outfit stands before a large, ornate portal emitting blue energy. The scene is illuminated by the bright light from the portal, casting dramatic shadows and highlighting intricate details of the machinery.",
+      "description": "The scene is set in a steampunk environment, featuring a woman facing a massive, glowing portal. The atmosphere is mysterious and adventurous, with elements of fantasy and science fiction.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "portal",
+          "machinery",
+          "goggles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystery",
+          "adventure"
+        ],
+        "scenes": [
+          "steampunk",
+          "fantasy"
+        ],
+        "concepts": [
+          "science fiction",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Portal Opening.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Portal Opening/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands in front of a large, ornate portal emitting bright light and electric energy. She is dressed in a steampunk-inspired outfit, with goggles on her head and a long, flowing skirt. The scene is set in an intricately designed room with a mystical and futuristic atmosphere.",
+      "description": "The scene depicts a steampunk-inspired setting where a woman faces a glowing, electrified portal. The environment suggests a blend of fantasy and science fiction, with elaborate architectural details and an aura of mystery.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "portal",
+          "goggles",
+          "skirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "anticipation"
+        ],
+        "scenes": [
+          "steampunk",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystery",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: portal, goggles, skirt, corset, machinery. Actions: standing. Emotions: awe, curiosity, mystery, adventure, anticipation. Scenes: steampunk, fantasy, ancient chamber. Concepts: mystery, technology, science fiction, exploration, adventure",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "portal",
+      "goggles",
+      "skirt",
+      "corset",
+      "machinery"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity",
+      "mystery",
+      "adventure",
+      "anticipation"
+    ],
+    "scenes": [
+      "steampunk",
+      "fantasy",
+      "ancient chamber"
+    ],
+    "concepts": [
+      "mystery",
+      "technology",
+      "science fiction",
+      "exploration",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ET INVASION.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ET INVASION.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ET INVASION/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene depicts numerous glowing UFOs hovering over a bustling cityscape at dusk. The UFOs emit a vibrant blue light with red glowing rings, contrasting against the darkening sky and illuminated city buildings below.",
+      "description": "The image portrays a science fiction scenario where a fleet of UFOs is suspended above a modern city, possibly indicating an alien invasion or surveillance. The city is filled with skyscrapers, and the scene is set during twilight, enhancing the dramatic effect.",
+      "labels": {
+        "objects": [
+          "UFO",
+          "skyscrapers",
+          "cityscape"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "emotions": [
+          "mysterious",
+          "futuristic"
+        ],
+        "scenes": [
+          "urban",
+          "science fiction"
+        ],
+        "concepts": [
+          "alien invasion",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ET INVASION.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ET INVASION/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic cityscape is overshadowed by numerous glowing UFOs hovering above the skyline. The UFOs, with their bright blue domes and red rims, create a surreal and otherworldly atmosphere. The city below is illuminated with city lights, contrasting with the ominous clouds above.",
+      "description": "The scene depicts a science fiction setting where a modern city is visited by a fleet of UFOs. The sky is filled with dark clouds, adding to the mysterious and tense atmosphere.",
+      "labels": {
+        "objects": [
+          "UFO",
+          "cityscape",
+          "buildings"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "emotions": [
+          "mysterious",
+          "tense"
+        ],
+        "scenes": [
+          "futuristic",
+          "urban"
+        ],
+        "concepts": [
+          "science fiction",
+          "alien visitation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: UFO, cityscape, skyscrapers, buildings. Actions: hovering. Emotions: mysterious, futuristic, tense. Scenes: urban, science fiction, futuristic. Concepts: alien invasion, technology, science fiction, alien visitation",
+  "primary_labels": {
+    "objects": [
+      "UFO",
+      "cityscape",
+      "skyscrapers",
+      "buildings"
+    ],
+    "actions": [
+      "hovering"
+    ],
+    "emotions": [
+      "mysterious",
+      "futuristic",
+      "tense"
+    ],
+    "scenes": [
+      "urban",
+      "science fiction",
+      "futuristic"
+    ],
+    "concepts": [
+      "alien invasion",
+      "technology",
+      "science fiction",
+      "alien visitation"
+    ]
+  },
+  "metadata": {}
+}

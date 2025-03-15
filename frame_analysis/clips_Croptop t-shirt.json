@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop t-shirt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop t-shirt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop t-shirt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman wearing glasses poses confidently indoors. She is dressed in a green crop top and a denim skirt, smiling gently at the camera.",
+      "description": "The scene is set indoors, possibly in a lobby or a well-decorated room. The woman is the main focus, standing in front of a patterned wall and a polished floor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "crop top",
+          "denim skirt"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "lobby"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop t-shirt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop t-shirt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in an elegant indoor setting, wearing a green crop top and a denim skirt. She holds a small handbag and is framed by luxurious decor, including a chandelier in the background.",
+      "description": "The scene captures a stylish woman in a sophisticated indoor environment, possibly a hotel or upscale venue. The setting is characterized by opulent decor, with a chandelier and ornate walls adding to the luxurious atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "crop top",
+          "denim skirt",
+          "handbag",
+          "chandelier"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "luxurious"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Croptop t-shirt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Croptop t-shirt/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in an elegant indoor setting, wearing a green crop top and a denim skirt. She holds a small white handbag and smiles softly, exuding a sense of calm and poise.",
+      "description": "The scene is set in a luxurious indoor environment, likely a hotel or a grand residence, characterized by a large chandelier and ornate decor. The woman is the focal point, dressed stylishly and standing with a relaxed posture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "chandelier",
+          "handbag",
+          "glasses",
+          "crop top",
+          "denim skirt"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "luxurious"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: glasses, crop top, denim skirt, handbag, chandelier. Actions: standing, posing, smiling, holding. Emotions: confident, confidence, happiness, calm. Scenes: indoor, luxurious, lobby. Concepts: fashion, elegance, casual",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "glasses",
+      "crop top",
+      "denim skirt",
+      "handbag",
+      "chandelier"
+    ],
+    "actions": [
+      "standing",
+      "posing",
+      "smiling",
+      "holding"
+    ],
+    "emotions": [
+      "confident",
+      "confidence",
+      "happiness",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "luxurious",
+      "lobby"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Halloween-themed video featuring.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Halloween-themed video featuring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Halloween-themed video featuring/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in a gothic black outfit poses amidst a Halloween-themed setting. The scene is illuminated by candlelight, with pumpkins and bare branches adding to the eerie atmosphere.",
+      "description": "The image depicts a gothic, Halloween-themed setting featuring a woman in a black dress. She is surrounded by lit candles, pumpkins, and barren branches, creating a mysterious and atmospheric scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "pumpkins",
+          "branches",
+          "black dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "Halloween",
+          "gothic"
+        ],
+        "concepts": [
+          "dark",
+          "atmospheric"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Halloween-themed video featuring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Halloween-themed video featuring/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a gothic black outfit sits elegantly in a dimly lit room. The scene is adorned with candles and pumpkins, creating a mysterious and enchanting atmosphere.",
+      "description": "The setting appears to be a gothic or Halloween-themed room, with a focus on dark elegance and mystery. The woman is the central figure, surrounded by elements that enhance the mystical ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "pumpkins",
+          "candelabra"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mysterious",
+          "enchanting"
+        ],
+        "scenes": [
+          "gothic",
+          "Halloween"
+        ],
+        "concepts": [
+          "elegance",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: candles, pumpkins, branches, black dress, candelabra. Actions: posing, sitting. Emotions: mysterious, eerie, enchanting. Scenes: Halloween, gothic. Concepts: dark, atmospheric, elegance, mystery",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "candles",
+      "pumpkins",
+      "branches",
+      "black dress",
+      "candelabra"
+    ],
+    "actions": [
+      "posing",
+      "sitting"
+    ],
+    "emotions": [
+      "mysterious",
+      "eerie",
+      "enchanting"
+    ],
+    "scenes": [
+      "Halloween",
+      "gothic"
+    ],
+    "concepts": [
+      "dark",
+      "atmospheric",
+      "elegance",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

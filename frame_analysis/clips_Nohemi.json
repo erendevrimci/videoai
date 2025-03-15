@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nohemi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nohemi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nohemi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with bold makeup poses confidently against a vibrant, patterned backdrop. Her striking eye makeup and glossy lips complement the colorful background, creating a dramatic visual effect. The woman's hair is styled voluminously, adding to the overall bold aesthetic.",
+      "description": "The scene captures a fashion-forward portrait with a focus on bold makeup and styling. The setting is likely a studio with a patterned backdrop that enhances the dramatic look of the subject.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "makeup",
+          "patterned backdrop"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion portrait"
+        ],
+        "concepts": [
+          "bold makeup",
+          "dramatic styling"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nohemi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nohemi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking makeup sits against a vibrant, patterned backdrop. Her expression is calm and introspective, with a floral-patterned top adding to the visual interest.",
+      "description": "The scene features a woman seated in front of a colorful, paisley-patterned background. Her bold makeup and patterned clothing create a vivid and artistic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing",
+          "background"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: makeup, patterned backdrop, clothing, background. Actions: posing. Emotions: confidence, calm, introspective. Scenes: fashion portrait, portrait. Concepts: bold makeup, dramatic styling, fashion, artistic expression",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "makeup",
+      "patterned backdrop",
+      "clothing",
+      "background"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "introspective"
+    ],
+    "scenes": [
+      "fashion portrait",
+      "portrait"
+    ],
+    "concepts": [
+      "bold makeup",
+      "dramatic styling",
+      "fashion",
+      "artistic expression"
+    ]
+  },
+  "metadata": {}
+}

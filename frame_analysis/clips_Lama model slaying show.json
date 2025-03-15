@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lama model slaying show.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lama model slaying show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lama model slaying show/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a whimsical pink llama costume walks confidently down a runway. The costume features fluffy pink fur, a textured vest, and stylish sunglasses, creating a playful and eye-catching appearance.",
+      "description": "The scene is set at a fashion show runway, where a model is showcasing a unique and humorous costume. The audience is seated in the background, observing the spectacle.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "animals": [
+          "llama"
+        ],
+        "objects": [
+          "costume",
+          "sunglasses",
+          "vest"
+        ],
+        "actions": [
+          "walking",
+          "modeling"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "creativity",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lama model slaying show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lama model slaying show/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a whimsical pink llama costume walks confidently down a runway. The outfit includes a fluffy pink fur suit, sunglasses, and a stylish vest, capturing the attention of the seated audience.",
+      "description": "The scene is set at a fashion show runway, where a model is showcasing a playful and eye-catching costume. The audience is seated on either side, observing the unique display.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "animals": [
+          "llama costume"
+        ],
+        "objects": [
+          "sunglasses",
+          "vest"
+        ],
+        "actions": [
+          "walking",
+          "modeling"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "costume",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, audience. Animals: llama, llama costume. Objects: sunglasses, vest, costume. Actions: walking, modeling. Emotions: playful. Scenes: fashion show, runway. Concepts: creativity, humor, fashion, costume",
+  "primary_labels": {
+    "people": [
+      "model",
+      "audience"
+    ],
+    "animals": [
+      "llama",
+      "llama costume"
+    ],
+    "objects": [
+      "sunglasses",
+      "vest",
+      "costume"
+    ],
+    "actions": [
+      "walking",
+      "modeling"
+    ],
+    "emotions": [
+      "playful"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "creativity",
+      "humor",
+      "fashion",
+      "costume"
+    ]
+  },
+  "metadata": {}
+}

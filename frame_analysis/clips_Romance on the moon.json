@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Romance on the moon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Romance on the moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Romance on the moon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An astronaut stands on a rocky lunar surface, holding a vibrant bouquet of red flowers. The Earth looms majestically in the background, set against the starry expanse of space.",
+      "description": "The scene depicts an astronaut on the moon, holding a bouquet of flowers, with Earth visible in the background. The setting is a surreal blend of space exploration and human emotion.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "Earth",
+          "moon",
+          "space"
+        ],
+        "objects": [
+          "bouquet",
+          "flowers",
+          "spacesuit"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "space",
+          "lunar surface"
+        ],
+        "concepts": [
+          "exploration",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Romance on the moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Romance on the moon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut stands on a rocky lunar surface holding a vibrant bouquet of red flowers. The Earth looms large in the background, set against a starry sky. The astronaut's reflective visor subtly mirrors the flowers, adding a surreal touch to the scene.",
+      "description": "The scene depicts an astronaut on the moon, holding a bouquet of red flowers, with Earth visible in the background. The setting is outer space, combining elements of nature with the starkness of the lunar landscape.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "flowers",
+          "Earth",
+          "moon"
+        ],
+        "objects": [
+          "spacesuit",
+          "helmet"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "outer space",
+          "lunar surface"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: astronaut. Nature: Earth, moon, space, flowers. Objects: spacesuit, bouquet, flowers, helmet. Actions: holding. Emotions: serenity, wonder, surreal. Scenes: lunar surface, space, outer space. Concepts: exploration, contrast, juxtaposition",
+  "primary_labels": {
+    "people": [
+      "astronaut"
+    ],
+    "nature": [
+      "Earth",
+      "moon",
+      "space",
+      "flowers"
+    ],
+    "objects": [
+      "spacesuit",
+      "bouquet",
+      "flowers",
+      "helmet"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "surreal"
+    ],
+    "scenes": [
+      "lunar surface",
+      "space",
+      "outer space"
+    ],
+    "concepts": [
+      "exploration",
+      "contrast",
+      "juxtaposition"
+    ]
+  },
+  "metadata": {}
+}

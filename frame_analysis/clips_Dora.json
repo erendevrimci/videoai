@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dora.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dora.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dora/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red dress stands amidst a misty landscape at sunset, her hands gently placed on her chest. The soft light of the setting sun casts a warm glow, enhancing the serene and contemplative mood.",
+      "description": "The scene depicts a tranquil moment during sunset, with a woman standing in a misty environment. The atmosphere is calm and introspective, with the soft lighting creating a dreamlike quality.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mist",
+          "sunset"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor",
+          "landscape"
+        ],
+        "concepts": [
+          "tranquility",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dora.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dora/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red dress stands amidst a foggy landscape at sunset, her hands gently placed on her chest. The scene is ethereal, with mist swirling around her and the soft glow of the setting sun in the background.",
+      "description": "The scene depicts a serene and mystical setting with a woman standing in a foggy landscape during sunset. The atmosphere is calm and introspective, enhanced by the soft lighting and mist.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "fog",
+          "sunset"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "mystical",
+          "serene"
+        ],
+        "concepts": [
+          "ethereal",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sunset, mist, fog. Objects: dress. Actions: standing. Emotions: serene, contemplative, calm, introspective. Scenes: outdoor, landscape, mystical, serene. Concepts: tranquility, introspection, ethereal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sunset",
+      "mist",
+      "fog"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "calm",
+      "introspective"
+    ],
+    "scenes": [
+      "outdoor",
+      "landscape",
+      "mystical",
+      "serene"
+    ],
+    "concepts": [
+      "tranquility",
+      "introspection",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

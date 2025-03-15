@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl with the wolf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl with the wolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl with the wolf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with striking blue eyes embraces a large white wolf, both gazing intently forward. The scene is set against a blurred, dark background, enhancing the focus on their intense expressions.",
+      "description": "The image portrays a serene yet powerful connection between a child and a wolf, set in a natural environment. The close-up composition emphasizes their bond and shared gaze.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "calm",
+          "intense"
+        ],
+        "scenes": [
+          "nature"
+        ],
+        "concepts": [
+          "connection",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl with the wolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl with the wolf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with long hair embraces a large white wolf, both displaying a sense of calm and companionship. The wolf's striking blue eyes contrast with its soft fur, while the girl smiles warmly, creating a serene and harmonious scene.",
+      "description": "The scene depicts a gentle interaction between a child and a wolf by the water, suggesting a peaceful coexistence between humans and nature.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "happiness",
+          "calm"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "friendship",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Animals: wolf. Nature: water. Actions: embracing. Emotions: calm, intense, happiness. Scenes: nature, outdoor. Concepts: connection, innocence, friendship, harmony",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "water"
+    ],
+    "objects": [],
+    "actions": [
+      "embracing"
+    ],
+    "emotions": [
+      "calm",
+      "intense",
+      "happiness"
+    ],
+    "scenes": [
+      "nature",
+      "outdoor"
+    ],
+    "concepts": [
+      "connection",
+      "innocence",
+      "friendship",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

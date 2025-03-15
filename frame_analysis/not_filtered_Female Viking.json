@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female Viking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female Viking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Female Viking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce warrior woman stands confidently against a mountainous backdrop, gripping a detailed axe. Her braided hair and fur-lined clothing suggest a historical or fantasy setting.",
+      "description": "The scene depicts a strong, determined female warrior in a mountainous landscape. She holds an intricately designed axe, and her attire is reminiscent of Viking or medieval styles, indicating a historical or fantasy context.",
+      "labels": {
+        "people": [
+          "warrior",
+          "woman"
+        ],
+        "nature": [
+          "mountains"
+        ],
+        "objects": [
+          "axe",
+          "fur clothing"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "determination",
+          "confidence"
+        ],
+        "scenes": [
+          "fantasy",
+          "historical"
+        ],
+        "concepts": [
+          "strength",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female Viking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Female Viking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce warrior woman stands confidently, gripping a detailed axe. Her braided hair and fur-lined armor suggest a medieval or fantasy setting, with snow-covered mountains in the background.",
+      "description": "The scene depicts a strong female warrior in a fantasy setting, likely inspired by Norse or Viking themes. She is poised and ready for battle, set against a backdrop of rugged, snow-capped mountains.",
+      "labels": {
+        "people": [
+          "warrior",
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "axe",
+          "armor"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "strength",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, woman. Nature: mountains, snow. Objects: axe, fur clothing, armor. Actions: standing, holding. Emotions: determination, confidence. Scenes: fantasy, historical, medieval. Concepts: strength, courage",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "woman"
+    ],
+    "nature": [
+      "mountains",
+      "snow"
+    ],
+    "objects": [
+      "axe",
+      "fur clothing",
+      "armor"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "confidence"
+    ],
+    "scenes": [
+      "fantasy",
+      "historical",
+      "medieval"
+    ],
+    "concepts": [
+      "strength",
+      "courage"
+    ]
+  },
+  "metadata": {}
+}

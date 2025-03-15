@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boreal Ant\u00e1rtica.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boreal Ant\u00e1rtica.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boreal Ant\u00e1rtica/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mesmerizing display of the Northern Lights dances across the night sky, casting vibrant green and purple hues over a snowy landscape. The aurora reflects off a serene, icy lake surrounded by snow-covered mountains, creating a breathtaking natural spectacle.",
+      "description": "The scene captures a stunning view of the Northern Lights over a tranquil, snow-covered landscape. The aurora illuminates the night sky with vivid colors, reflecting off an icy lake bordered by mountains.",
+      "labels": {
+        "nature": [
+          "Northern Lights",
+          "snow",
+          "mountains",
+          "lake"
+        ],
+        "objects": [
+          "ice",
+          "snow"
+        ],
+        "scenes": [
+          "night sky",
+          "aurora borealis"
+        ],
+        "emotions": [
+          "awe",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boreal Ant\u00e1rtica.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boreal Ant\u00e1rtica/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A breathtaking view of the Northern Lights dances across the night sky, illuminating the icy landscape below. The vibrant colors of the aurora borealis reflect in the calm waters surrounded by snow-covered mountains. The Milky Way stretches across the sky, adding to the celestial spectacle.",
+      "description": "The scene captures a stunning natural display of the Northern Lights over a serene, icy landscape. Snow-covered mountains and floating icebergs are visible under a starry sky, with the Milky Way prominently visible.",
+      "labels": {
+        "nature": [
+          "Northern Lights",
+          "Milky Way",
+          "mountains",
+          "icebergs",
+          "snow"
+        ],
+        "objects": [
+          "ice",
+          "water"
+        ],
+        "scenes": [
+          "night sky",
+          "aurora borealis",
+          "arctic landscape"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: Northern Lights, snow, mountains, lake, Milky Way. Objects: ice, snow, water. Scenes: night sky, aurora borealis, arctic landscape. Emotions: awe, tranquility, serenity",
+  "primary_labels": {
+    "nature": [
+      "Northern Lights",
+      "snow",
+      "mountains",
+      "lake",
+      "Milky Way"
+    ],
+    "objects": [
+      "ice",
+      "snow",
+      "water"
+    ],
+    "scenes": [
+      "night sky",
+      "aurora borealis",
+      "arctic landscape"
+    ],
+    "emotions": [
+      "awe",
+      "tranquility",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

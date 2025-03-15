@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/War Council.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/War Council.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/War Council/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three anthropomorphic animals, dressed in ornate military uniforms, are seated at a wooden table covered with maps. The characters include an elephant, a fox, and a bear, each displaying a composed demeanor. The setting appears to be a formal, historical room with wooden paneling and decorative elements.",
+      "description": "The scene depicts a formal meeting or strategic discussion among three anthropomorphic animals in a historical setting. The animals are dressed in detailed military uniforms, suggesting a theme of leadership or command. The room's decor and the presence of maps imply a setting of strategic planning or governance.",
+      "labels": {
+        "animals": [
+          "elephant",
+          "fox",
+          "bear"
+        ],
+        "objects": [
+          "maps",
+          "military uniforms",
+          "wooden table",
+          "decorative room"
+        ],
+        "actions": [
+          "seated",
+          "meeting"
+        ],
+        "emotions": [
+          "composed",
+          "serious"
+        ],
+        "scenes": [
+          "formal meeting",
+          "strategic planning"
+        ],
+        "concepts": [
+          "leadership",
+          "historical setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/War Council.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/War Council/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three anthropomorphic animals dressed in military uniforms sit at a wooden table covered with maps. The scene is set in a richly decorated room with wooden paneling and ornate details. The animals, a bear, an elephant, and a fox, appear to be engaged in a strategic discussion.",
+      "description": "The image depicts a formal and strategic setting where three anthropomorphic animals are gathered around a table, likely planning or discussing a military operation. The room's decor suggests a historical or fantasy theme.",
+      "labels": {
+        "animals": [
+          "bear",
+          "elephant",
+          "fox"
+        ],
+        "objects": [
+          "maps",
+          "table",
+          "military uniforms"
+        ],
+        "actions": [
+          "sitting",
+          "discussing"
+        ],
+        "emotions": [
+          "serious",
+          "focused"
+        ],
+        "scenes": [
+          "strategic meeting",
+          "historical room"
+        ],
+        "concepts": [
+          "strategy",
+          "military planning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: elephant, fox, bear. Objects: maps, military uniforms, wooden table, decorative room, table. Actions: seated, meeting, sitting, discussing. Emotions: serious, composed, focused. Scenes: formal meeting, strategic planning, strategic meeting, historical room. Concepts: leadership, historical setting, strategy, military planning",
+  "primary_labels": {
+    "animals": [
+      "elephant",
+      "fox",
+      "bear"
+    ],
+    "objects": [
+      "maps",
+      "military uniforms",
+      "wooden table",
+      "decorative room",
+      "table"
+    ],
+    "actions": [
+      "seated",
+      "meeting",
+      "sitting",
+      "discussing"
+    ],
+    "emotions": [
+      "serious",
+      "composed",
+      "focused"
+    ],
+    "scenes": [
+      "formal meeting",
+      "strategic planning",
+      "strategic meeting",
+      "historical room"
+    ],
+    "concepts": [
+      "leadership",
+      "historical setting",
+      "strategy",
+      "military planning"
+    ]
+  },
+  "metadata": {}
+}

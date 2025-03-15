@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u304b\u308f\u3046\u305d\u304c\u3042\u304f\u3073\u3092\u3059\u308b.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u304b\u308f\u3046\u305d\u304c\u3042\u304f\u3073\u3092\u3059\u308b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u304b\u308f\u3046\u305d\u304c\u3042\u304f\u3073\u3092\u3059\u308b/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a small, adorable animal with a curious expression. The creature is being gently held by a person's fingers, highlighting its tiny size and delicate features.",
+      "description": "The scene captures a cute, small animal, possibly a baby ferret or a similar creature, being held gently by a person. The focus is on the animal's face, showcasing its bright eyes and soft fur.",
+      "labels": {
+        "animals": [
+          "baby animal",
+          "ferret"
+        ],
+        "objects": [
+          "fingers"
+        ],
+        "emotions": [
+          "curiosity",
+          "innocence"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate"
+        ],
+        "concepts": [
+          "gentleness",
+          "adorability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u304b\u308f\u3046\u305d\u304c\u3042\u304f\u3073\u3092\u3059\u308b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u304b\u308f\u3046\u305d\u304c\u3042\u304f\u3073\u3092\u3059\u308b/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, adorable animal with a curious expression is being gently held by a person's fingers. The animal's fur is soft and brown, with bright eyes and a slightly open mouth, giving it an inquisitive look.",
+      "description": "The scene captures a close-up of a small animal, likely a baby weasel or similar creature, being held by a human. The setting is likely indoors or in a controlled environment, focusing on the interaction between the human and the animal.",
+      "labels": {
+        "animals": [
+          "baby weasel"
+        ],
+        "objects": [
+          "fingers"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "interaction",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: baby animal, ferret, baby weasel. Objects: fingers. Emotions: curiosity, innocence. Scenes: close-up, intimate. Concepts: gentleness, adorability, interaction. Actions: holding",
+  "primary_labels": {
+    "animals": [
+      "baby animal",
+      "ferret",
+      "baby weasel"
+    ],
+    "objects": [
+      "fingers"
+    ],
+    "emotions": [
+      "curiosity",
+      "innocence"
+    ],
+    "scenes": [
+      "close-up",
+      "intimate"
+    ],
+    "concepts": [
+      "gentleness",
+      "adorability",
+      "interaction"
+    ],
+    "actions": [
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

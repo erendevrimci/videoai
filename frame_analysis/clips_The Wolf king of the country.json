@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Wolf king of the country.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Wolf king of the country.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Wolf king of the country/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering anthropomorphic wolf with muscular build stands confidently amidst a crowd in a rugged, ancient setting. The creature is adorned with a leather strap and a cloth wrap, exuding a sense of power and authority. Onlookers appear captivated and perhaps wary, as they observe the imposing figure.",
+      "description": "The scene is set in an ancient, possibly mythical environment, with rocky terrain and structures reminiscent of an arena or gathering place. The central figure is a large, humanoid wolf, suggesting a fantasy or mythical theme. The presence of onlookers indicates a moment of significance or spectacle.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "leather strap",
+          "cloth wrap"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "power",
+          "authority"
+        ],
+        "scenes": [
+          "ancient setting",
+          "mythical environment"
+        ],
+        "concepts": [
+          "fantasy",
+          "mythology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Wolf king of the country.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Wolf king of the country/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering, muscular anthropomorphic wolf strides confidently through a rocky landscape. The creature is dressed in a warrior-like attire, exuding power and dominance. In the background, several human figures observe the imposing figure with a mix of awe and trepidation.",
+      "description": "The scene is set in a rugged, rocky environment reminiscent of an ancient or fantasy world. The central figure is a large, muscular wolf-like creature walking with purpose, surrounded by onlookers who appear to be in a state of reverence or fear.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "humans"
+        ],
+        "nature": [
+          "rocky landscape"
+        ],
+        "objects": [
+          "warrior attire"
+        ],
+        "actions": [
+          "walking",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "trepidation"
+        ],
+        "scenes": [
+          "fantasy",
+          "ancient world"
+        ],
+        "concepts": [
+          "power",
+          "dominance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. People: crowd, humans. Objects: leather strap, cloth wrap, warrior attire. Actions: observing, standing, walking. Emotions: power, authority, awe, trepidation. Scenes: ancient setting, mythical environment, fantasy, ancient world. Concepts: fantasy, mythology, power, dominance. Nature: rocky landscape",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "people": [
+      "crowd",
+      "humans"
+    ],
+    "objects": [
+      "leather strap",
+      "cloth wrap",
+      "warrior attire"
+    ],
+    "actions": [
+      "observing",
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "power",
+      "authority",
+      "awe",
+      "trepidation"
+    ],
+    "scenes": [
+      "ancient setting",
+      "mythical environment",
+      "fantasy",
+      "ancient world"
+    ],
+    "concepts": [
+      "fantasy",
+      "mythology",
+      "power",
+      "dominance"
+    ],
+    "nature": [
+      "rocky landscape"
+    ]
+  },
+  "metadata": {}
+}

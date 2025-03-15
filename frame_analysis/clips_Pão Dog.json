@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/P\u00e3o Dog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/P\u00e3o Dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/P\u00e3o Dog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An assortment of freshly baked bread rolls and loaves is artfully arranged on a dark surface. The breads vary in shape and size, with some topped with sesame or poppy seeds, showcasing a golden-brown crust.",
+      "description": "The scene captures a variety of artisanal bread, highlighting the textures and details of each loaf and roll. The setting suggests a bakery or a home kitchen, emphasizing the freshness and quality of the baked goods.",
+      "labels": {
+        "objects": [
+          "bread",
+          "rolls",
+          "loaves",
+          "seeds"
+        ],
+        "actions": [
+          "baking"
+        ],
+        "scenes": [
+          "bakery",
+          "kitchen"
+        ],
+        "concepts": [
+          "artisanal",
+          "freshness"
+        ],
+        "emotions": [
+          "warmth",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/P\u00e3o Dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/P\u00e3o Dog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four small kittens are nestled among an assortment of freshly baked bread rolls and loaves. The kittens, with their soft fur and curious expressions, appear to be exploring the warm, inviting setting. The bread, with its golden crust and varied shapes, adds a cozy and homely atmosphere to the scene.",
+      "description": "The scene depicts a charming and whimsical setting where kittens are surrounded by various types of bread. The combination of the playful kittens and the freshly baked bread creates a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "bread",
+          "loaves",
+          "rolls"
+        ],
+        "actions": [
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "cozy",
+          "homely"
+        ],
+        "concepts": [
+          "warmth",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: bread, rolls, loaves, seeds. Actions: baking, exploring. Scenes: bakery, kitchen, cozy, homely. Concepts: artisanal, freshness, warmth, playfulness. Emotions: warmth, comfort, curiosity. Animals: kittens",
+  "primary_labels": {
+    "objects": [
+      "bread",
+      "rolls",
+      "loaves",
+      "seeds"
+    ],
+    "actions": [
+      "baking",
+      "exploring"
+    ],
+    "scenes": [
+      "bakery",
+      "kitchen",
+      "cozy",
+      "homely"
+    ],
+    "concepts": [
+      "artisanal",
+      "freshness",
+      "warmth",
+      "playfulness"
+    ],
+    "emotions": [
+      "warmth",
+      "comfort",
+      "curiosity"
+    ],
+    "animals": [
+      "kittens"
+    ]
+  },
+  "metadata": {}
+}

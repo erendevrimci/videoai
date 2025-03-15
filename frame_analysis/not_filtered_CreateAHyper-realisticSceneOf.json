@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHyper-realisticSceneOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHyper-realisticSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAHyper-realisticSceneOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large pepperoni pizza is being served with a slice lifted by miniature chefs. The scene is playful, with tiny figures appearing to interact with the oversized food.",
+      "description": "The image depicts a whimsical scene where a large pepperoni pizza is the focus. Miniature chefs are positioned around the pizza, creating a playful and imaginative setting.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni",
+          "basil leaves"
+        ],
+        "actions": [
+          "serving",
+          "lifting"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "food preparation",
+          "creative display"
+        ],
+        "concepts": [
+          "miniature",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHyper-realisticSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAHyper-realisticSceneOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene shows tiny chefs working on a giant pizza, adding toppings and perfecting the crust. The pizza is topped with pepperoni, cheese, and basil, creating a vibrant and appetizing display.",
+      "description": "The image depicts a playful and imaginative setting where miniature chefs are actively engaged in preparing a large pizza. The scene combines elements of fantasy with culinary art, highlighting the chefs' meticulous attention to detail as they work on the oversized dish.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni",
+          "cheese",
+          "basil"
+        ],
+        "actions": [
+          "cooking",
+          "preparing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "culinary",
+          "fantasy"
+        ],
+        "concepts": [
+          "miniature",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs, chefs. Objects: pizza, pepperoni, basil leaves, cheese, basil. Actions: serving, lifting, cooking, preparing. Emotions: playful, imaginative. Scenes: food preparation, creative display, culinary, fantasy. Concepts: miniature, culinary art, food art",
+  "primary_labels": {
+    "people": [
+      "miniature chefs",
+      "chefs"
+    ],
+    "objects": [
+      "pizza",
+      "pepperoni",
+      "basil leaves",
+      "cheese",
+      "basil"
+    ],
+    "actions": [
+      "serving",
+      "lifting",
+      "cooking",
+      "preparing"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative"
+    ],
+    "scenes": [
+      "food preparation",
+      "creative display",
+      "culinary",
+      "fantasy"
+    ],
+    "concepts": [
+      "miniature",
+      "culinary art",
+      "food art"
+    ]
+  },
+  "metadata": {}
+}

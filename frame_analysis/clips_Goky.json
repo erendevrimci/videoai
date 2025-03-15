@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goky.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Goky/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular character with spiky white hair is levitating above a barren landscape, surrounded by a glowing aura. The character is wearing orange pants and blue wristbands, exuding a powerful energy. The sky is clear with a few clouds, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a powerful character in a desert-like setting, showcasing their immense energy and strength. The character is levitating, suggesting a moment of transformation or power-up, typical in action or fantasy genres.",
+      "labels": {
+        "people": [
+          "muscular character"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "orange pants",
+          "blue wristbands"
+        ],
+        "actions": [
+          "levitating",
+          "power-up"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "energy aura",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Goky/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A powerful character with spiky white hair stands in a desert landscape, surrounded by a glowing aura. The figure exudes strength and determination, with dust swirling around their feet as they prepare for action.",
+      "description": "The scene depicts a strong, animated character in a barren desert setting, emanating energy and readiness. The bright sky and open landscape emphasize the character's commanding presence.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "nature": [
+          "desert",
+          "sky"
+        ],
+        "objects": [
+          "dust"
+        ],
+        "actions": [
+          "standing",
+          "emanating energy"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "power",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Goky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Goky/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A powerful character stands in a desert landscape, surrounded by a glowing aura of energy. The figure's hair is white and spiky, and they are dressed in orange pants with a blue sash. The scene is filled with dynamic energy as dust swirls around their feet.",
+      "description": "The scene depicts a strong, animated character in a desert setting, exuding an intense aura of power. The character's stance and the surrounding energy suggest a moment of transformation or preparation for battle.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "nature": [
+          "desert",
+          "clouds"
+        ],
+        "objects": [
+          "clothing",
+          "energy aura"
+        ],
+        "actions": [
+          "standing",
+          "power emanation"
+        ],
+        "emotions": [
+          "intensity",
+          "determination"
+        ],
+        "scenes": [
+          "anime",
+          "action"
+        ],
+        "concepts": [
+          "power",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated character, muscular character. Nature: sky, clouds, desert. Objects: orange pants, blue wristbands, dust, clothing, energy aura. Actions: standing, levitating, power-up, emanating energy, power emanation. Emotions: determination, strength, intensity. Scenes: desert landscape, anime, action. Concepts: transformation, power, energy aura, energy",
+  "primary_labels": {
+    "people": [
+      "animated character",
+      "muscular character"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "desert"
+    ],
+    "objects": [
+      "orange pants",
+      "blue wristbands",
+      "dust",
+      "clothing",
+      "energy aura"
+    ],
+    "actions": [
+      "standing",
+      "levitating",
+      "power-up",
+      "emanating energy",
+      "power emanation"
+    ],
+    "emotions": [
+      "determination",
+      "strength",
+      "intensity"
+    ],
+    "scenes": [
+      "desert landscape",
+      "anime",
+      "action"
+    ],
+    "concepts": [
+      "transformation",
+      "power",
+      "energy aura",
+      "energy"
+    ]
+  },
+  "metadata": {}
+}

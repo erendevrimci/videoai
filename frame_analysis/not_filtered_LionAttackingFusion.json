@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LionAttackingFusion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LionAttackingFusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LionAttackingFusion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular man stands confidently in a grassy field, facing a majestic lion. The two appear to be in a moment of mutual respect and calm, surrounded by a lush, green forest.",
+      "description": "The scene is set in a natural, outdoor environment, likely a forest or savannah. A man and a lion are the central figures, both exuding strength and presence. The atmosphere is tense yet serene, with a sense of mutual understanding between the man and the animal.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "grass",
+          "forest"
+        ],
+        "objects": [
+          "watch",
+          "necklace",
+          "belt"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "confidence",
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "wildlife"
+        ],
+        "concepts": [
+          "strength",
+          "respect"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LionAttackingFusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LionAttackingFusion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular humanoid figure with a lion's head stands prominently in a forest setting. The creature is wearing shorts and has a powerful, imposing stance, with another similar figure visible in the background.",
+      "description": "The scene depicts a fantastical creature in a dense, misty forest. The main figure is a hybrid of a human body and a lion's head, exuding strength and dominance.",
+      "labels": {
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "shorts"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "strength",
+          "dominance"
+        ],
+        "scenes": [
+          "fantasy",
+          "wilderness"
+        ],
+        "concepts": [
+          "hybrid creature",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: lion. Nature: forest, grass, trees. Objects: watch, necklace, belt, shorts. Actions: standing, facing. Emotions: confidence, calm, strength, dominance. Scenes: outdoor, wildlife, fantasy, wilderness. Concepts: strength, respect, hybrid creature, mythical",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "lion"
+    ],
+    "nature": [
+      "forest",
+      "grass",
+      "trees"
+    ],
+    "objects": [
+      "watch",
+      "necklace",
+      "belt",
+      "shorts"
+    ],
+    "actions": [
+      "standing",
+      "facing"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "strength",
+      "dominance"
+    ],
+    "scenes": [
+      "outdoor",
+      "wildlife",
+      "fantasy",
+      "wilderness"
+    ],
+    "concepts": [
+      "strength",
+      "respect",
+      "hybrid creature",
+      "mythical"
+    ]
+  },
+  "metadata": {}
+}

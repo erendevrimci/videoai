@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUPERSLOWMOTION320FPS.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUPERSLOWMOTION320FPS.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUPERSLOWMOTION320FPS/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious cave-like interior opens up to a stunning ocean view, featuring elegant modern furniture and decor. The space is illuminated by natural light, highlighting the smooth, flowing textures of the walls and the polished marble floor.",
+      "description": "The scene is set in a sophisticated, cave-inspired room with a breathtaking view of the ocean. The interior combines natural elements with modern design, creating a serene and luxurious atmosphere.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "cliff"
+        ],
+        "objects": [
+          "sofa",
+          "chairs",
+          "marble floor",
+          "potted plants",
+          "mirror"
+        ],
+        "scenes": [
+          "interior",
+          "ocean view",
+          "luxury"
+        ],
+        "concepts": [
+          "modern design",
+          "serenity",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUPERSLOWMOTION320FPS.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUPERSLOWMOTION320FPS/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A luxurious interior space resembling a cave opens up to a stunning ocean view. The room features elegant furnishings with a natural stone-like ceiling and a polished marble floor.",
+      "description": "The scene is set in a sophisticated, cave-like interior that seamlessly blends with the natural landscape. The room opens up to an expansive view of the ocean, creating a serene and tranquil atmosphere.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "cliff"
+        ],
+        "objects": [
+          "sofa",
+          "lamp",
+          "plant",
+          "marble floor"
+        ],
+        "scenes": [
+          "interior",
+          "luxury",
+          "cave"
+        ],
+        "concepts": [
+          "elegance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: ocean, cliff. Objects: sofa, marble floor, chairs, potted plants, mirror. Scenes: interior, luxury, ocean view, cave. Concepts: serenity, modern design, luxury, elegance",
+  "primary_labels": {
+    "nature": [
+      "ocean",
+      "cliff"
+    ],
+    "objects": [
+      "sofa",
+      "marble floor",
+      "chairs",
+      "potted plants",
+      "mirror"
+    ],
+    "scenes": [
+      "interior",
+      "luxury",
+      "ocean view",
+      "cave"
+    ],
+    "concepts": [
+      "serenity",
+      "modern design",
+      "luxury",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

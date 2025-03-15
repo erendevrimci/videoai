@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and a friendly dog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and a friendly dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby and a friendly dog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby dressed in a cozy gray outfit with bear ears and a fluffy dog with striking blue eyes sit together in a snowy forest. Snowflakes gently fall around them, creating a serene winter scene.",
+      "description": "The scene captures a tranquil winter moment in a forest setting. A baby and a dog are the central focus, surrounded by softly falling snow, conveying a sense of warmth and companionship amidst the cold.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "warmth"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "companionship",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and a friendly dog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby and a friendly dog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby dressed in a cozy gray outfit with bear ears is happily crawling in the snow beside a playful dog. The scene is set in a snowy forest, with snowflakes gently falling around them.",
+      "description": "The image captures a joyful moment in a winter forest, featuring a baby and a dog enjoying the snow. The atmosphere is serene and playful, with snow-covered trees in the background.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "snow",
+          "forest",
+          "snowflakes"
+        ],
+        "objects": [
+          "baby outfit"
+        ],
+        "actions": [
+          "crawling",
+          "playing"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "friendship",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: dog. Nature: snow, forest, snowflakes. Objects: clothing, baby outfit. Actions: sitting, crawling, playing. Emotions: serene, warmth, happiness, playfulness. Scenes: winter, outdoors. Concepts: innocence, companionship, friendship",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "snow",
+      "forest",
+      "snowflakes"
+    ],
+    "objects": [
+      "clothing",
+      "baby outfit"
+    ],
+    "actions": [
+      "sitting",
+      "crawling",
+      "playing"
+    ],
+    "emotions": [
+      "serene",
+      "warmth",
+      "happiness",
+      "playfulness"
+    ],
+    "scenes": [
+      "winter",
+      "outdoors"
+    ],
+    "concepts": [
+      "innocence",
+      "companionship",
+      "friendship"
+    ]
+  },
+  "metadata": {}
+}

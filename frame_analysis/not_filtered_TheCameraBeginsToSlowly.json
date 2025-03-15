@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraBeginsToSlowly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraBeginsToSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraBeginsToSlowly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits on a floating piece of earth against a clear blue sky, sipping a drink through a straw. She wears a green furry jacket, a pink skirt, and pink sunglasses, exuding a playful and whimsical vibe.",
+      "description": "The scene depicts a surreal setting where a young woman is seated on a chunk of floating earth. The sky is clear, enhancing the dreamlike quality of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "drink",
+          "straw",
+          "jacket",
+          "skirt",
+          "shoes"
+        ],
+        "actions": [
+          "sitting",
+          "drinking"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "surreal",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsical",
+          "floating"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraBeginsToSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraBeginsToSlowly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman sits on a floating patch of earth against a clear blue sky. She is wearing a green fuzzy jacket, a pink skirt, and pink sunglasses while sipping from a straw. Her feet dangle over the edge, clad in white socks and sneakers.",
+      "description": "The scene depicts a surreal setting where a young woman is seated on a small, floating piece of earth. The background is a clear blue sky, giving the impression of being high above the ground. The woman is dressed in a playful and colorful outfit, adding to the whimsical atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sky",
+          "floating earth"
+        ],
+        "objects": [
+          "sunglasses",
+          "straw",
+          "cup",
+          "jacket",
+          "skirt",
+          "socks",
+          "sneakers"
+        ],
+        "actions": [
+          "sitting",
+          "sipping"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "floating"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraBeginsToSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraBeginsToSlowly/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman sits on a floating piece of earth, sipping a drink through a straw. She wears a green fluffy jacket, pink sunglasses, and a pink skirt, with a serene sky as the backdrop.",
+      "description": "The scene depicts a surreal setting where a young woman is perched on a floating patch of earth against a clear blue sky. Her attire is vibrant and stylish, adding a whimsical touch to the composition.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "floating earth",
+          "drink",
+          "straw",
+          "sunglasses",
+          "jacket",
+          "skirt",
+          "shoes"
+        ],
+        "actions": [
+          "sitting",
+          "sipping"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, young woman. Objects: sunglasses, straw, jacket, skirt, drink. Actions: sitting, sipping, drinking. Emotions: calm, playful. Scenes: surreal, outdoor. Concepts: floating, whimsy, whimsical, fashion. Nature: sky, floating earth",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "young woman"
+    ],
+    "objects": [
+      "sunglasses",
+      "straw",
+      "jacket",
+      "skirt",
+      "drink"
+    ],
+    "actions": [
+      "sitting",
+      "sipping",
+      "drinking"
+    ],
+    "emotions": [
+      "calm",
+      "playful"
+    ],
+    "scenes": [
+      "surreal",
+      "outdoor"
+    ],
+    "concepts": [
+      "floating",
+      "whimsy",
+      "whimsical",
+      "fashion"
+    ],
+    "nature": [
+      "sky",
+      "floating earth"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dachsund Halloween.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dachsund Halloween.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dachsund Halloween/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a misty graveyard, a dog draped in a dark cloak sniffs the ground near an old tombstone. The scene is enveloped in fog, with bare trees and ancient gravestones creating a haunting atmosphere.",
+      "description": "The scene is set in a mysterious graveyard at dusk or dawn, with a heavy fog adding to the eerie ambiance. The focus is on a dog wearing a cloak, exploring the area around a tombstone.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "trees",
+          "fog"
+        ],
+        "objects": [
+          "tombstone",
+          "cloak"
+        ],
+        "actions": [
+          "sniffing"
+        ],
+        "emotions": [
+          "mystery"
+        ],
+        "scenes": [
+          "graveyard"
+        ],
+        "concepts": [
+          "eerie",
+          "haunting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dachsund Halloween.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dachsund Halloween/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog dressed in a dark cloak stands on a stone in a misty graveyard. The scene is illuminated by a full moon, casting eerie shadows among the leafless trees and gravestones. The atmosphere is mysterious and slightly ominous.",
+      "description": "The image depicts a graveyard scene at night, with a dog wearing a cloak as the central focus. The setting is enhanced by the presence of fog, bare trees, and a full moon, creating a spooky ambiance.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "trees",
+          "moon",
+          "fog"
+        ],
+        "objects": [
+          "gravestones",
+          "cloak"
+        ],
+        "scenes": [
+          "graveyard",
+          "night"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dachsund Halloween.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dachsund Halloween/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small dog wearing a cape stands in a misty, eerie graveyard. The moonlight filters through the bare branches of twisted trees, casting shadows on the tombstones. The atmosphere is mysterious and slightly ominous.",
+      "description": "The scene is set in a foggy graveyard at night, illuminated by the moon. A dog, dressed in a cape, is positioned in the foreground, surrounded by gravestones and gnarled trees. The setting evokes a sense of mystery and intrigue.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "trees",
+          "moon"
+        ],
+        "objects": [
+          "tombstones",
+          "cape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "graveyard",
+          "night"
+        ],
+        "concepts": [
+          "eerie",
+          "foggy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Nature: trees, fog, moon. Objects: cloak, tombstone, gravestones, tombstones, cape. Actions: sniffing, standing. Emotions: mysterious, ominous, mystery. Scenes: graveyard, night. Concepts: eerie, haunting, foggy",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "trees",
+      "fog",
+      "moon"
+    ],
+    "objects": [
+      "cloak",
+      "tombstone",
+      "gravestones",
+      "tombstones",
+      "cape"
+    ],
+    "actions": [
+      "sniffing",
+      "standing"
+    ],
+    "emotions": [
+      "mysterious",
+      "ominous",
+      "mystery"
+    ],
+    "scenes": [
+      "graveyard",
+      "night"
+    ],
+    "concepts": [
+      "eerie",
+      "haunting",
+      "foggy"
+    ]
+  },
+  "metadata": {}
+}

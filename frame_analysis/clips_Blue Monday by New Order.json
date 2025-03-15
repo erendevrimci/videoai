@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Blue Monday by New Order.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Blue Monday by New Order.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Blue Monday by New Order/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red dress stands at a futuristic DJ booth, manipulating turntables with precision. Behind her, a massive reflective sphere hovers above a misty, gothic cityscape, creating a surreal and otherworldly atmosphere.",
+      "description": "The scene is set in a futuristic, possibly dystopian city with towering gothic architecture. A woman is engaged in DJing, adding a modern twist to the otherwise dark and mysterious setting. The presence of the large reflective sphere adds an element of intrigue and science fiction.",
+      "labels": {
+        "people": [
+          "woman",
+          "DJ"
+        ],
+        "objects": [
+          "turntables",
+          "DJ booth",
+          "reflective sphere"
+        ],
+        "actions": [
+          "DJing",
+          "manipulating turntables"
+        ],
+        "emotions": [
+          "focused",
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic cityscape",
+          "gothic architecture"
+        ],
+        "concepts": [
+          "science fiction",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Blue Monday by New Order.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Blue Monday by New Order/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a red and black outfit stands at a futuristic DJ turntable set against a backdrop of a towering, misty cityscape. A massive, reflective sphere hovers in the sky, casting an ethereal glow over the scene. The atmosphere is both surreal and otherworldly, blending elements of technology and fantasy.",
+      "description": "The scene depicts a futuristic setting where a DJ is performing in a high-tech environment. The cityscape is filled with tall, intricate structures shrouded in mist, suggesting a blend of advanced civilization and mystery. The hovering sphere adds a sense of wonder and otherworldliness to the scene.",
+      "labels": {
+        "people": [
+          "DJ"
+        ],
+        "objects": [
+          "turntable",
+          "sphere"
+        ],
+        "actions": [
+          "performing"
+        ],
+        "emotions": [
+          "mysterious",
+          "surreal"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "technology",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Blue Monday by New Order.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Blue Monday by New Order/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a red dress operates a DJ turntable set on a futuristic platform overlooking a sprawling cityscape. A massive reflective sphere hovers above the city, casting an ethereal glow over the scene.",
+      "description": "The scene is set in a futuristic city with towering skyscrapers and a giant reflective sphere dominating the skyline. A woman is engaged in DJing, adding a sense of modernity and creativity to the high-tech environment.",
+      "labels": {
+        "people": [
+          "woman",
+          "DJ"
+        ],
+        "objects": [
+          "turntable",
+          "platform",
+          "sphere"
+        ],
+        "actions": [
+          "DJing"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "concepts": [
+          "futurism",
+          "technology",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: DJ, woman. Objects: turntable, sphere, turntables, DJ booth, reflective sphere. Actions: DJing, manipulating turntables, performing. Emotions: focused, mysterious, surreal, calm. Scenes: futuristic cityscape, gothic architecture. Concepts: technology, science fiction, surrealism, fantasy, futurism",
+  "primary_labels": {
+    "people": [
+      "DJ",
+      "woman"
+    ],
+    "objects": [
+      "turntable",
+      "sphere",
+      "turntables",
+      "DJ booth",
+      "reflective sphere"
+    ],
+    "actions": [
+      "DJing",
+      "manipulating turntables",
+      "performing"
+    ],
+    "emotions": [
+      "focused",
+      "mysterious",
+      "surreal",
+      "calm"
+    ],
+    "scenes": [
+      "futuristic cityscape",
+      "gothic architecture"
+    ],
+    "concepts": [
+      "technology",
+      "science fiction",
+      "surrealism",
+      "fantasy",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

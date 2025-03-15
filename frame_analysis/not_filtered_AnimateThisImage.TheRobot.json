@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheRobot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheRobot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage.TheRobot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid robot is walking a dog along a park path lined with vibrant yellow flowers. A person jogs in the background, adding a sense of activity to the serene setting. The scene blends futuristic technology with a natural environment.",
+      "description": "The image depicts a humanoid robot walking a dog in a park. The setting is lush with greenery and bright yellow flowers, creating a harmonious blend of nature and technology. A jogger in the background adds to the dynamic atmosphere.",
+      "labels": {
+        "people": [
+          "robot",
+          "jogger"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "trees",
+          "flowers",
+          "park"
+        ],
+        "objects": [
+          "robot",
+          "leash"
+        ],
+        "actions": [
+          "walking",
+          "jogging"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "outdoor"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheRobot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage.TheRobot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid robot is walking a dog along a park pathway. The robot is sleek and futuristic, holding the leash of a happy, fluffy dog. In the background, a person is jogging, adding to the lively atmosphere of the park.",
+      "description": "The scene is set in a park with a pathway lined with vibrant yellow flowers and lush green trees. A humanoid robot is walking a dog, while a jogger is seen in the background, suggesting a typical day in a technologically advanced future.",
+      "labels": {
+        "people": [
+          "jogger"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "robot",
+          "leash"
+        ],
+        "actions": [
+          "walking",
+          "jogging"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "park",
+          "pathway"
+        ],
+        "concepts": [
+          "technology",
+          "future"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: jogger, robot. Animals: dog. Nature: trees, flowers, park. Objects: robot, leash. Actions: walking, jogging. Emotions: calm, serene, happiness. Scenes: park, outdoor, pathway. Concepts: technology, nature, future",
+  "primary_labels": {
+    "people": [
+      "jogger",
+      "robot"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "trees",
+      "flowers",
+      "park"
+    ],
+    "objects": [
+      "robot",
+      "leash"
+    ],
+    "actions": [
+      "walking",
+      "jogging"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "happiness"
+    ],
+    "scenes": [
+      "park",
+      "outdoor",
+      "pathway"
+    ],
+    "concepts": [
+      "technology",
+      "nature",
+      "future"
+    ]
+  },
+  "metadata": {}
+}

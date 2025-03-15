@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyPaintersInWhiteSuits.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyPaintersInWhiteSuits.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TinyPaintersInWhiteSuits/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with light hair, wearing a black and white striped shirt. The person is looking directly at the camera with a neutral expression.",
+      "description": "The scene is a close-up portrait of a person lying on a textured surface, possibly a carpet or fabric. The focus is on the person's face, capturing their expression and features in detail.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "striped shirt"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "close-up",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyPaintersInWhiteSuits.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TinyPaintersInWhiteSuits/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A creative scene depicts a woman having her face meticulously attended to by miniature figures. These tiny figures are engaged in various tasks, such as applying makeup and styling her hair, creating a whimsical and surreal atmosphere.",
+      "description": "The image presents a surreal and imaginative setting where a woman's face is being worked on by several miniature figures. These figures are performing tasks typically associated with beauty routines, giving the scene a playful and fantastical tone.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "makeup brush",
+          "pen",
+          "hair tools"
+        ],
+        "actions": [
+          "applying makeup",
+          "styling hair"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "surreal",
+          "creative"
+        ],
+        "concepts": [
+          "beauty routine",
+          "miniaturization",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyPaintersInWhiteSuits.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TinyPaintersInWhiteSuits/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is lying down with her eyes closed while miniature figures appear to be applying makeup to her face. The scene is whimsical, with tiny people using brushes and sponges on her skin.",
+      "description": "The scene depicts a playful and imaginative setting where miniature figures are engaged in applying makeup on a woman's face. This surreal composition creates a sense of fantasy and humor.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "makeup brush",
+          "sponges"
+        ],
+        "actions": [
+          "applying makeup",
+          "brushing",
+          "sponging"
+        ],
+        "emotions": [
+          "calm",
+          "playful"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, miniature figures, person. Objects: makeup brush, striped shirt, pen, hair tools, sponges. Emotions: calm, neutral, focused, playful. Scenes: surreal, portrait, creative, fantasy. Concepts: imagination, close-up, focus, beauty routine, miniaturization. Actions: applying makeup, styling hair, brushing, sponging",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "miniature figures",
+      "person"
+    ],
+    "objects": [
+      "makeup brush",
+      "striped shirt",
+      "pen",
+      "hair tools",
+      "sponges"
+    ],
+    "emotions": [
+      "calm",
+      "neutral",
+      "focused",
+      "playful"
+    ],
+    "scenes": [
+      "surreal",
+      "portrait",
+      "creative",
+      "fantasy"
+    ],
+    "concepts": [
+      "imagination",
+      "close-up",
+      "focus",
+      "beauty routine",
+      "miniaturization"
+    ],
+    "actions": [
+      "applying makeup",
+      "styling hair",
+      "brushing",
+      "sponging"
+    ]
+  },
+  "metadata": {}
+}

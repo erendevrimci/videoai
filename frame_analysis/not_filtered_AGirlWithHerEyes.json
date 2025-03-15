@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlWithHerEyes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlWithHerEyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlWithHerEyes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts a person meditating by a tranquil lake, surrounded by blooming flowers. In the background, a majestic waterfall cascades down rocky cliffs, adding to the peaceful atmosphere. The soft lighting and natural beauty create a sense of calm and introspection.",
+      "description": "The scene is set in a picturesque natural environment, featuring a calm lake with a waterfall in the background. A person is meditating on the shore, surrounded by blooming flowers, under a gentle and soothing light.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "lake",
+          "waterfall",
+          "flowers",
+          "trees",
+          "rocks"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "meditating"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ],
+        "scenes": [
+          "nature",
+          "meditation"
+        ],
+        "concepts": [
+          "serenity",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlWithHerEyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlWithHerEyes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene depicts a woman with long blonde hair meditating by a tranquil lake, surrounded by blooming flowers. A majestic waterfall cascades in the background, creating a peaceful and harmonious atmosphere. The soft lighting and natural setting evoke a sense of calm and introspection.",
+      "description": "The scene is set in a tranquil natural environment, featuring a woman meditating by a lake with a waterfall in the background. The setting is serene and peaceful, with blooming flowers and lush greenery enhancing the calming atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "waterfall",
+          "lake",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "meditating"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ],
+        "scenes": [
+          "nature",
+          "meditation"
+        ],
+        "concepts": [
+          "serenity",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Nature: lake, waterfall, flowers, trees, rocks. Objects: clothing. Actions: meditating. Emotions: calm, peaceful. Scenes: nature, meditation. Concepts: serenity, introspection",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "nature": [
+      "lake",
+      "waterfall",
+      "flowers",
+      "trees",
+      "rocks"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "meditating"
+    ],
+    "emotions": [
+      "calm",
+      "peaceful"
+    ],
+    "scenes": [
+      "nature",
+      "meditation"
+    ],
+    "concepts": [
+      "serenity",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

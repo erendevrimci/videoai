@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/garden machinery service.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/garden machinery service.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/garden machinery service/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a workshop setting, a vibrant orange tractor is being repaired by several miniature figures. Water sprays dramatically into the air, creating a dynamic scene as the figures work diligently around the vehicle.",
+      "description": "The scene takes place in a cluttered workshop filled with tools and equipment. A large orange tractor is the focal point, surrounded by small, detailed figures engaged in repair work. The unexpected burst of water adds a sense of urgency and movement to the scene.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "tractor",
+          "ladder",
+          "tools",
+          "workshop"
+        ],
+        "actions": [
+          "repairing",
+          "climbing",
+          "spraying water"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "workshop",
+          "repair scene"
+        ],
+        "concepts": [
+          "miniature",
+          "mechanics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/garden machinery service.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/garden machinery service/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a workshop setting, a group of miniature figures is actively working on an oversized orange tractor. Water is dramatically spraying from the top of the tractor, adding a dynamic element to the scene. The figures are engaged in various tasks, using ladders and tools to address the situation.",
+      "description": "The scene is set in a cluttered workshop where several miniature figures are focused on repairing a large orange tractor. The environment is busy and industrial, with tools and equipment scattered around. The water spray creates a sense of urgency and action.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "tractor",
+          "ladders",
+          "tools"
+        ],
+        "actions": [
+          "repairing",
+          "climbing",
+          "spraying water"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "workshop",
+          "industrial"
+        ],
+        "concepts": [
+          "miniature",
+          "repair",
+          "action"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures. Objects: tractor, tools, ladder, workshop, ladders. Actions: repairing, climbing, spraying water. Emotions: urgency. Scenes: workshop, repair scene, industrial. Concepts: miniature, mechanics, repair, action",
+  "primary_labels": {
+    "people": [
+      "miniature figures"
+    ],
+    "objects": [
+      "tractor",
+      "tools",
+      "ladder",
+      "workshop",
+      "ladders"
+    ],
+    "actions": [
+      "repairing",
+      "climbing",
+      "spraying water"
+    ],
+    "emotions": [
+      "urgency"
+    ],
+    "scenes": [
+      "workshop",
+      "repair scene",
+      "industrial"
+    ],
+    "concepts": [
+      "miniature",
+      "mechanics",
+      "repair",
+      "action"
+    ]
+  },
+  "metadata": {}
+}

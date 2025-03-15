@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rescue Penguins.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rescue Penguins.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Rescue Penguins/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of penguins equipped with orange backpacks trek through a snowy mountain pass. The scene is set amidst a heavy snowfall, with towering peaks in the background. The penguins appear determined as they navigate the harsh, wintry landscape.",
+      "description": "The scene depicts a snowy mountain environment where a group of penguins are walking through a snowstorm. They are carrying orange backpacks, suggesting a whimsical or adventurous context.",
+      "labels": {
+        "animals": [
+          "penguins"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "objects": [
+          "backpacks"
+        ],
+        "actions": [
+          "walking",
+          "trekking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "snowstorm",
+          "mountain pass"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rescue Penguins.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Rescue Penguins/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two penguins are trekking through a snowy mountain landscape, each carrying an orange backpack. The scene is set amidst towering, snow-covered peaks under a cloudy sky with falling snowflakes. The penguins appear determined as they navigate the harsh, wintry environment.",
+      "description": "The scene depicts a pair of penguins equipped with backpacks, traversing a rugged, snow-laden mountain range. The atmosphere is cold and challenging, with snow gently falling from the overcast sky, adding to the sense of adventure and resilience.",
+      "labels": {
+        "animals": [
+          "penguins"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "clouds"
+        ],
+        "objects": [
+          "backpacks"
+        ],
+        "actions": [
+          "trekking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "winter landscape",
+          "mountain expedition"
+        ],
+        "concepts": [
+          "adventure",
+          "resilience"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Rescue Penguins.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Rescue Penguins/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A group of penguins, each carrying a small backpack, trek through a snowy mountain landscape. The scene is set against a backdrop of towering, snow-covered peaks under a cloudy sky. Snowflakes gently fall as the penguins march in a line, creating a whimsical and adventurous atmosphere.",
+      "description": "The scene depicts penguins on an expedition through a mountainous, snowy terrain. The setting is cold and remote, with high peaks and a cloudy sky, suggesting a challenging journey.",
+      "labels": {
+        "animals": [
+          "penguins"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "clouds"
+        ],
+        "objects": [
+          "backpacks"
+        ],
+        "actions": [
+          "trekking",
+          "marching"
+        ],
+        "emotions": [
+          "adventurous",
+          "whimsical"
+        ],
+        "scenes": [
+          "mountain landscape",
+          "snowy expedition"
+        ],
+        "concepts": [
+          "adventure",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: penguins. Nature: snow, mountains, clouds. Objects: backpacks. Actions: trekking, walking, marching. Emotions: determination, adventurous, whimsical. Scenes: snowstorm, mountain pass, winter landscape, mountain expedition, mountain landscape. Concepts: adventure, whimsy, resilience, exploration",
+  "primary_labels": {
+    "animals": [
+      "penguins"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "clouds"
+    ],
+    "objects": [
+      "backpacks"
+    ],
+    "actions": [
+      "trekking",
+      "walking",
+      "marching"
+    ],
+    "emotions": [
+      "determination",
+      "adventurous",
+      "whimsical"
+    ],
+    "scenes": [
+      "snowstorm",
+      "mountain pass",
+      "winter landscape",
+      "mountain expedition",
+      "mountain landscape"
+    ],
+    "concepts": [
+      "adventure",
+      "whimsy",
+      "resilience",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

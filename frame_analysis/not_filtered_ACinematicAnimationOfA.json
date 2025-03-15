@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicAnimationOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicAnimationOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicAnimationOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a transparent bottle filled with various fruits and vegetables, illuminated by a warm glow. Tiny human figures are scattered throughout, interacting with the produce as if in a miniature world. The background suggests a forest setting, adding to the magical atmosphere.",
+      "description": "The scene is set in a forest, where a glass bottle contains an assortment of fruits and vegetables, including oranges, apples, and broccoli. Tiny human figures are engaging with the produce, creating a surreal and enchanting environment.",
+      "labels": {
+        "objects": [
+          "bottle",
+          "fruits",
+          "vegetables"
+        ],
+        "people": [
+          "tiny human figures"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "actions": [
+          "interacting",
+          "exploring"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "miniature world",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicAnimationOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicAnimationOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts a glass jar filled with vibrant fruits, vegetables, and tiny human figures. The jar glows warmly, illuminating the miniature world inside, where small people interact with oversized produce. The background is a blurred forest setting, adding a magical atmosphere to the scene.",
+      "description": "The image presents a fantastical setting where a glass jar contains a miniature world of fruits, vegetables, and tiny human figures. The jar is set against a blurred forest backdrop, creating a dreamlike environment.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "glass jar",
+          "fruits",
+          "vegetables"
+        ],
+        "actions": [
+          "interacting",
+          "exploring"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "miniature world",
+          "fantasy"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: fruits, vegetables, bottle, glass jar. People: tiny human figures, miniature figures. Nature: forest. Actions: interacting, exploring. Emotions: whimsical, magical. Scenes: miniature world, fantasy. Concepts: imagination, surrealism, creativity",
+  "primary_labels": {
+    "objects": [
+      "fruits",
+      "vegetables",
+      "bottle",
+      "glass jar"
+    ],
+    "people": [
+      "tiny human figures",
+      "miniature figures"
+    ],
+    "nature": [
+      "forest"
+    ],
+    "actions": [
+      "interacting",
+      "exploring"
+    ],
+    "emotions": [
+      "whimsical",
+      "magical"
+    ],
+    "scenes": [
+      "miniature world",
+      "fantasy"
+    ],
+    "concepts": [
+      "imagination",
+      "surrealism",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

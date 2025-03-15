@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam of London.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam of London.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gundam of London/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering robot stands amidst a crowd in a cityscape, with iconic landmarks visible in the background. The robot's metallic body is illuminated by glowing lights, contrasting with the evening sky. People gather around, gazing up at the massive figure in awe.",
+      "description": "The scene is set in a city, likely London, as indicated by the presence of the London Eye and Big Ben. A giant robot dominates the scene, surrounded by a crowd of onlookers. The atmosphere is one of amazement and curiosity as people observe the futuristic figure.",
+      "labels": {
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "objects": [
+          "robot",
+          "London Eye",
+          "Big Ben"
+        ],
+        "actions": [
+          "gathering",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "scenes": [
+          "cityscape",
+          "evening"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam of London.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gundam of London/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering robot stands amidst a cityscape, dwarfing the surrounding crowd. The robot's glowing lights and metallic structure contrast with the historic architecture and iconic landmarks in the background.",
+      "description": "The scene depicts a massive robot in a city setting, surrounded by people. The robot's presence is juxtaposed against the backdrop of a famous city landmark, creating a blend of futuristic and historical elements.",
+      "labels": {
+        "objects": [
+          "robot",
+          "ferris wheel",
+          "clock tower"
+        ],
+        "people": [
+          "crowd"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "futurism",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, onlookers. Objects: robot, London Eye, Big Ben, ferris wheel, clock tower. Actions: gathering, observing, standing. Emotions: awe, curiosity. Scenes: cityscape, evening, urban. Concepts: technology, futuristic, futurism",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "onlookers"
+    ],
+    "objects": [
+      "robot",
+      "London Eye",
+      "Big Ben",
+      "ferris wheel",
+      "clock tower"
+    ],
+    "actions": [
+      "gathering",
+      "observing",
+      "standing"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity"
+    ],
+    "scenes": [
+      "cityscape",
+      "evening",
+      "urban"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

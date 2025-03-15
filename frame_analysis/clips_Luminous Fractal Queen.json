@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luminous Fractal Queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luminous Fractal Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Luminous Fractal Queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure with flowing white hair stands gracefully, adorned in an intricate, glowing outfit. The background is a dreamy, ethereal setting with soft, swirling lights and a cool color palette.",
+      "description": "The scene depicts a fantasy character, possibly a fairy or an ethereal being, in a serene and magical environment. The setting is otherworldly, with a focus on elegance and enchantment.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "objects": [
+          "crown",
+          "glowing outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "ethereal"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luminous Fractal Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Luminous Fractal Queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure stands gracefully in an ethereal, snowy landscape, adorned in a delicate, floral-themed outfit that glows softly. Her long, flowing hair and intricate crown add to her regal appearance, creating a mystical atmosphere.",
+      "description": "The scene depicts a fantasy setting with a focus on a central figure who exudes elegance and otherworldly beauty. The snowy environment and glowing elements suggest a magical or enchanted theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "crown",
+          "floral outfit"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "winter"
+        ],
+        "concepts": [
+          "enchantment",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Luminous Fractal Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Luminous Fractal Queen/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long white hair and a crown stands gracefully in a snowy setting. She wears an intricate white outfit adorned with floral patterns and glowing lights, exuding an ethereal presence.",
+      "description": "The scene depicts a mystical, winter-themed setting with a focus on a woman who appears to be a snow queen or fairy. The atmosphere is magical and serene, enhanced by the soft glow of lights and the snowy backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "crown",
+          "white outfit",
+          "glowing lights"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "winter",
+          "fantasy"
+        ],
+        "concepts": [
+          "ethereal",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, fantasy character. Objects: crown, glowing outfit, floral outfit, white outfit, glowing lights. Actions: standing. Emotions: serene, mystical, magical. Scenes: fantasy, winter, ethereal. Concepts: enchantment, magic, elegance, ethereal, mystical. Nature: snow",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "fantasy character"
+    ],
+    "objects": [
+      "crown",
+      "glowing outfit",
+      "floral outfit",
+      "white outfit",
+      "glowing lights"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "mystical",
+      "magical"
+    ],
+    "scenes": [
+      "fantasy",
+      "winter",
+      "ethereal"
+    ],
+    "concepts": [
+      "enchantment",
+      "magic",
+      "elegance",
+      "ethereal",
+      "mystical"
+    ],
+    "nature": [
+      "snow"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,82 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateACinematic3DAnimation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateACinematic3DAnimation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateACinematic3DAnimation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A translucent red cube is suspended in a dark space, reflecting light on its surfaces. The cube's edges and faces catch subtle highlights, creating a striking contrast against the black background.",
+      "description": "The scene depicts a single red cube floating in a dark, undefined space. The lighting highlights the cube's geometric form, emphasizing its transparency and the play of light on its surfaces.",
+      "labels": {
+        "objects": [
+          "cube"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "geometry",
+          "transparency"
+        ],
+        "emotions": [
+          "mysterious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateACinematic3DAnimation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateACinematic3DAnimation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A translucent red cube hovers against a dark background, casting a subtle reflection below. The cube's edges are sharply defined, creating a striking contrast with the black surroundings.",
+      "description": "The scene features a single red cube suspended in mid-air within a dark, minimalist setting. The focus is on the cube's geometric form and its interaction with light.",
+      "labels": {
+        "objects": [
+          "cube"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "geometry",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: cube. Actions: floating, hovering. Scenes: abstract, minimalist. Concepts: geometry, transparency, contrast. Emotions: mysterious",
+  "primary_labels": {
+    "objects": [
+      "cube"
+    ],
+    "actions": [
+      "floating",
+      "hovering"
+    ],
+    "scenes": [
+      "abstract",
+      "minimalist"
+    ],
+    "concepts": [
+      "geometry",
+      "transparency",
+      "contrast"
+    ],
+    "emotions": [
+      "mysterious"
+    ]
+  },
+  "metadata": {}
+}

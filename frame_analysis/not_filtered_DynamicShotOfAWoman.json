@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWoman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWoman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAWoman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a fur-lined hood embraces a polar bear cub, both appearing serene and content. The scene is set against a snowy backdrop, highlighting the warmth and tenderness of their interaction.",
+      "description": "The image captures a tranquil moment between a woman and a polar bear cub in a snowy environment. The woman, dressed warmly, holds the cub closely, conveying a sense of connection and peace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "polar bear cub"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "fur coat",
+          "hood"
+        ],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "serenity",
+          "contentment"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "human-animal bond",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWoman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAWoman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman warmly embraces a polar bear cub in a snowy landscape. Both appear content and serene, with the woman smiling and the cub resting peacefully in her arms. The scene is intimate and tender, highlighting a unique bond between human and animal.",
+      "description": "The scene depicts a close interaction between a woman and a polar bear cub in a cold, snowy environment. The woman is dressed in a fur-lined coat and hat, suggesting a winter setting. The focus is on the affectionate embrace, conveying a sense of warmth and connection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "polar bear cub"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "fur coat",
+          "fur hat"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "contentment",
+          "serenity"
+        ],
+        "scenes": [
+          "winter",
+          "intimate"
+        ],
+        "concepts": [
+          "bonding",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: polar bear cub. Nature: snow. Objects: fur coat, hood, fur hat. Actions: embracing, smiling. Emotions: serenity, contentment. Scenes: winter, outdoor, intimate. Concepts: human-animal bond, warmth, bonding, affection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "polar bear cub"
+    ],
+    "nature": [
+      "snow"
+    ],
+    "objects": [
+      "fur coat",
+      "hood",
+      "fur hat"
+    ],
+    "actions": [
+      "embracing",
+      "smiling"
+    ],
+    "emotions": [
+      "serenity",
+      "contentment"
+    ],
+    "scenes": [
+      "winter",
+      "outdoor",
+      "intimate"
+    ],
+    "concepts": [
+      "human-animal bond",
+      "warmth",
+      "bonding",
+      "affection"
+    ]
+  },
+  "metadata": {}
+}

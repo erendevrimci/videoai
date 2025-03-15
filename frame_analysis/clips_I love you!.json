@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/I love you!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/I love you!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/I love you!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A golden skeleton adorned with intricate floral decorations holds a red heart close to its face. The skeleton is embellished with gold and white flowers, creating a striking contrast against the blue sky background. The scene evokes a sense of surreal beauty and contemplation.",
+      "description": "The image depicts a surreal scene featuring a golden skeleton with floral decorations, set against a clear blue sky. The skeleton's hands are gently holding a red heart, adding a touch of emotion to the otherwise ethereal composition.",
+      "labels": {
+        "objects": [
+          "skeleton",
+          "heart",
+          "flowers"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "contemplation",
+          "beauty"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "life and death",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/I love you!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/I love you!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A skeleton adorned with gold leaf and vibrant flowers holds a red apple against a backdrop of a clear blue sky. The intricate details of the gold embellishments create a striking contrast with the vivid red and white flowers. The scene evokes a sense of surreal beauty and contemplation.",
+      "description": "The image depicts a skeleton decorated with gold leaf and flowers, holding a red apple. It is set against a bright blue sky, creating a surreal and artistic atmosphere.",
+      "labels": {
+        "objects": [
+          "skeleton",
+          "gold leaf",
+          "flowers",
+          "apple"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "beauty",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/I love you!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/I love you!/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A skeleton adorned with gold leaf and vibrant flowers holds a red heart-shaped object. The scene is set against a bright blue sky, creating a striking contrast between the ornate skeleton and the natural backdrop.",
+      "description": "The image depicts an artistic representation of a skeleton, embellished with gold and flowers, holding a symbolic red heart. The setting is outdoors with a clear sky, suggesting a blend of life, death, and beauty.",
+      "labels": {
+        "objects": [
+          "skeleton",
+          "gold leaf",
+          "red heart",
+          "flowers"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "symbolism",
+          "contrast"
+        ],
+        "scenes": [
+          "outdoor",
+          "artistic"
+        ],
+        "concepts": [
+          "life and death",
+          "beauty",
+          "symbolism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skeleton, flowers, gold leaf, heart, apple. Actions: holding. Emotions: contemplation, beauty, contemplative, symbolism, contrast. Scenes: artistic, surreal, outdoor. Concepts: life and death, contrast, beauty, symbolism",
+  "primary_labels": {
+    "objects": [
+      "skeleton",
+      "flowers",
+      "gold leaf",
+      "heart",
+      "apple"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "contemplation",
+      "beauty",
+      "contemplative",
+      "symbolism",
+      "contrast"
+    ],
+    "scenes": [
+      "artistic",
+      "surreal",
+      "outdoor"
+    ],
+    "concepts": [
+      "life and death",
+      "contrast",
+      "beauty",
+      "symbolism"
+    ]
+  },
+  "metadata": {}
+}

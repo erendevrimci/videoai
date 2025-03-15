@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smiling girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smiling girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smiling girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman is smiling warmly at the camera against a plain background. Her hair is neatly tied back, and she exudes a sense of calm and happiness.",
+      "description": "The scene is a close-up portrait of a woman in a studio setting. The focus is on her facial expression, highlighting her smile and the serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "background"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "calm"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "serenity",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smiling girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smiling girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman is smiling warmly at the camera against a plain background. Her hair is neatly tied back, and she exudes a sense of joy and confidence.",
+      "description": "The scene captures a close-up portrait of a smiling woman in a studio setting. The background is simple and unobtrusive, highlighting her facial expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "joy",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: background. Actions: smiling. Emotions: happiness, calm, confidence. Scenes: portrait, studio. Concepts: warmth, serenity, joy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "background"
+    ],
+    "actions": [
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "calm",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "warmth",
+      "serenity",
+      "joy"
+    ]
+  },
+  "metadata": {}
+}

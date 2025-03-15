@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pembuatan permen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pembuatan permen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pembuatan permen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant plate of food featuring a mix of colorful ingredients, including crispy crackers and a variety of vegetables and meats. The dish is arranged on a clear glass plate, showcasing a rich combination of textures and colors.",
+      "description": "The scene depicts a close-up view of a plate of food, likely an Indonesian dish, with a mix of crackers, vegetables, and meats. The setting appears to be a casual dining environment, possibly at home or a local eatery.",
+      "labels": {
+        "objects": [
+          "plate",
+          "food",
+          "crackers",
+          "vegetables",
+          "meat"
+        ],
+        "actions": [
+          "serving"
+        ],
+        "emotions": [
+          "appetizing"
+        ],
+        "scenes": [
+          "dining",
+          "meal"
+        ],
+        "concepts": [
+          "cuisine",
+          "Indonesian food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pembuatan permen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pembuatan permen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands with red-painted nails are pressing into a piece of dough filled with various ingredients. The scene suggests a cooking or baking process taking place on a kitchen counter. In the background, there are additional pieces of dough and filling visible.",
+      "description": "The image captures a close-up view of a culinary preparation, likely in a kitchen setting. The focus is on hands manipulating dough, indicating a hands-on cooking activity.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "dough",
+          "filling",
+          "kitchen counter"
+        ],
+        "actions": [
+          "pressing",
+          "cooking"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary preparation",
+          "baking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: plate, food, crackers, vegetables, meat. Actions: serving, pressing, cooking. Emotions: appetizing. Scenes: dining, meal, kitchen. Concepts: cuisine, Indonesian food, culinary preparation, baking. People: hands",
+  "primary_labels": {
+    "objects": [
+      "plate",
+      "food",
+      "crackers",
+      "vegetables",
+      "meat"
+    ],
+    "actions": [
+      "serving",
+      "pressing",
+      "cooking"
+    ],
+    "emotions": [
+      "appetizing"
+    ],
+    "scenes": [
+      "dining",
+      "meal",
+      "kitchen"
+    ],
+    "concepts": [
+      "cuisine",
+      "Indonesian food",
+      "culinary preparation",
+      "baking"
+    ],
+    "people": [
+      "hands"
+    ]
+  },
+  "metadata": {}
+}

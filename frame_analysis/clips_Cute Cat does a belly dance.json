@@ -1,0 +1,156 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Cat does a belly dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Cat does a belly dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Cat does a belly dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange kitten adorned with ornate jewelry stands on its hind legs, appearing to dance. Beside it, a small mouse wearing a red fez plays a drum, adding to the whimsical atmosphere.",
+      "description": "The scene depicts a playful and enchanting setting where a kitten and a mouse are engaging in a lively performance. The background features warm, glowing lanterns, enhancing the magical and festive mood.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "mouse"
+        ],
+        "objects": [
+          "jewelry",
+          "drum",
+          "lanterns",
+          "fez"
+        ],
+        "actions": [
+          "dancing",
+          "playing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "performance",
+          "festive"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Cat does a belly dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Cat does a belly dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange kitten adorned with ornate jewelry stands on a richly patterned carpet, raising its paws playfully. Beside it, a small mouse wearing a fez plays a drum, adding to the whimsical scene. The warm glow of hanging lanterns illuminates the background, creating a cozy and enchanting atmosphere.",
+      "description": "The scene takes place in a richly decorated room with an exotic, magical ambiance. The main focus is on a kitten and a mouse, both dressed in elaborate costumes, suggesting a playful and imaginative setting.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "mouse"
+        ],
+        "objects": [
+          "jewelry",
+          "drum",
+          "lanterns",
+          "carpet"
+        ],
+        "actions": [
+          "playing",
+          "posing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "indoor",
+          "decorative"
+        ],
+        "concepts": [
+          "fantasy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Cat does a belly dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Cat does a belly dance/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy orange and white kitten stands on a richly patterned carpet, adorned with ornate jewelry. Beside it, a small mouse wearing a fez plays a drum, creating a whimsical and enchanting scene.",
+      "description": "The scene is set in an opulently decorated room with warm, golden lighting from intricate hanging lamps. The kitten and mouse are the central figures, engaging in a playful and charming interaction.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "mouse"
+        ],
+        "objects": [
+          "jewelry",
+          "drum",
+          "fez",
+          "carpet",
+          "lamps"
+        ],
+        "actions": [
+          "playing drum",
+          "standing"
+        ],
+        "emotions": [
+          "whimsical",
+          "charming"
+        ],
+        "scenes": [
+          "indoor",
+          "decorative"
+        ],
+        "concepts": [
+          "playfulness",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, mouse. Objects: jewelry, drum, lanterns, fez, carpet. Actions: playing, dancing, posing, playing drum, standing. Emotions: whimsical, playful, charming. Scenes: indoor, decorative, performance, festive. Concepts: enchantment, fantasy, magic, playfulness",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "mouse"
+    ],
+    "objects": [
+      "jewelry",
+      "drum",
+      "lanterns",
+      "fez",
+      "carpet"
+    ],
+    "actions": [
+      "playing",
+      "dancing",
+      "posing",
+      "playing drum",
+      "standing"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful",
+      "charming"
+    ],
+    "scenes": [
+      "indoor",
+      "decorative",
+      "performance",
+      "festive"
+    ],
+    "concepts": [
+      "enchantment",
+      "fantasy",
+      "magic",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

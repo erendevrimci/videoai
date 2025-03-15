@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPORT POTRAIT #001.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPORT POTRAIT #001.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SPORT POTRAIT #001/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A race car driver stands confidently with arms crossed, wearing a full-face helmet and a white racing suit. The dark background emphasizes the driver's focused expression and the sleek design of the helmet.",
+      "description": "The scene captures a race car driver in a poised and determined stance, set against a stark black backdrop. The focus is on the driver's helmet and suit, highlighting the professional racing context.",
+      "labels": {
+        "people": [
+          "race car driver"
+        ],
+        "objects": [
+          "helmet",
+          "racing suit"
+        ],
+        "actions": [
+          "standing",
+          "arms crossed"
+        ],
+        "emotions": [
+          "confidence",
+          "focus"
+        ],
+        "scenes": [
+          "portrait",
+          "racing"
+        ],
+        "concepts": [
+          "motorsport",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPORT POTRAIT #001.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SPORT POTRAIT #001/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing a racing helmet and a white suit adjusts the visor with a gloved hand. The scene is set against a dark background, highlighting the reflective visor and the intense gaze of the individual.",
+      "description": "The image captures a close-up of a race car driver in a dimly lit environment, focusing on their preparation and concentration before a race.",
+      "labels": {
+        "people": [
+          "race car driver"
+        ],
+        "objects": [
+          "helmet",
+          "visor",
+          "gloves",
+          "racing suit"
+        ],
+        "actions": [
+          "adjusting visor"
+        ],
+        "emotions": [
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "pre-race preparation"
+        ],
+        "concepts": [
+          "motorsport",
+          "concentration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: race car driver. Objects: helmet, racing suit, visor, gloves. Actions: standing, arms crossed, adjusting visor. Emotions: focus, confidence, determination. Scenes: portrait, racing, pre-race preparation. Concepts: motorsport, professionalism, concentration",
+  "primary_labels": {
+    "people": [
+      "race car driver"
+    ],
+    "objects": [
+      "helmet",
+      "racing suit",
+      "visor",
+      "gloves"
+    ],
+    "actions": [
+      "standing",
+      "arms crossed",
+      "adjusting visor"
+    ],
+    "emotions": [
+      "focus",
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "portrait",
+      "racing",
+      "pre-race preparation"
+    ],
+    "concepts": [
+      "motorsport",
+      "professionalism",
+      "concentration"
+    ]
+  },
+  "metadata": {}
+}

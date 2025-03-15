@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anime scene showing the boss.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anime scene showing the boss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Anime scene showing the boss/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular figure stands on a ledge overlooking an ancient city, facing a colossal creature emerging from the clouds. The scene is filled with tension as the city below is bustling with people preparing for an impending confrontation.",
+      "description": "The scene is set in an ancient, labyrinthine city with intricate architecture. A powerful character stands prominently in the foreground, gazing at a massive, intimidating creature that looms over the city. The atmosphere is charged with anticipation and impending conflict.",
+      "labels": {
+        "people": [
+          "muscular figure",
+          "crowd"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "ancient city",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "emerging"
+        ],
+        "emotions": [
+          "tension",
+          "anticipation"
+        ],
+        "scenes": [
+          "confrontation",
+          "cityscape"
+        ],
+        "concepts": [
+          "battle",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anime scene showing the boss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Anime scene showing the boss/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular figure stands on a ledge overlooking an ancient city, facing a colossal giant emerging from clouds. The scene is filled with tension as the giant appears to be approaching the city, while smaller figures gather below.",
+      "description": "The scene depicts a dramatic confrontation in an ancient city setting. A powerful character stands ready on a ledge, facing a massive giant that looms over the cityscape, suggesting an impending battle.",
+      "labels": {
+        "people": [
+          "muscular figure",
+          "giant",
+          "crowd"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "ancient city",
+          "buildings"
+        ],
+        "actions": [
+          "confrontation",
+          "approaching"
+        ],
+        "emotions": [
+          "tension",
+          "anticipation"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle preparation"
+        ],
+        "concepts": [
+          "power",
+          "conflict"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: muscular figure, crowd, giant. Nature: clouds. Objects: ancient city, buildings. Actions: standing, emerging, confrontation, approaching. Emotions: tension, anticipation. Scenes: confrontation, cityscape, fantasy, battle preparation. Concepts: battle, fantasy, power, conflict",
+  "primary_labels": {
+    "people": [
+      "muscular figure",
+      "crowd",
+      "giant"
+    ],
+    "nature": [
+      "clouds"
+    ],
+    "objects": [
+      "ancient city",
+      "buildings"
+    ],
+    "actions": [
+      "standing",
+      "emerging",
+      "confrontation",
+      "approaching"
+    ],
+    "emotions": [
+      "tension",
+      "anticipation"
+    ],
+    "scenes": [
+      "confrontation",
+      "cityscape",
+      "fantasy",
+      "battle preparation"
+    ],
+    "concepts": [
+      "battle",
+      "fantasy",
+      "power",
+      "conflict"
+    ]
+  },
+  "metadata": {}
+}

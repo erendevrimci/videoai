@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Portrait of a beautiful girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Portrait of a beautiful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Portrait of a beautiful girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with blonde hair and striking blue eyes, captured in warm, natural lighting. The soft shadows and highlights accentuate the facial features, creating a serene and introspective expression.",
+      "description": "The image is a close-up portrait focusing on the face of a person. The setting appears to be indoors with natural light casting gentle shadows, creating a warm and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "emotions": [
+          "serene",
+          "introspective"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "visual_attributes": [
+          "warm lighting",
+          "natural shadows",
+          "close-up"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Portrait of a beautiful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Portrait of a beautiful girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with blonde hair, gazing intently at the camera. The warm lighting casts soft shadows across their face, highlighting their features.",
+      "description": "The image captures an intimate and detailed portrait of a person in a serene setting. The focus is on their expressive eyes and the subtle play of light and shadow on their skin.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "intense"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "intimacy",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: hair. Emotions: serene, introspective, intense. Scenes: portrait. Visual_attributes: warm lighting, natural shadows, close-up. Actions: gazing. Concepts: intimacy, expression",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "hair"
+    ],
+    "emotions": [
+      "serene",
+      "introspective",
+      "intense"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "visual_attributes": [
+      "warm lighting",
+      "natural shadows",
+      "close-up"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "concepts": [
+      "intimacy",
+      "expression"
+    ]
+  },
+  "metadata": {}
+}

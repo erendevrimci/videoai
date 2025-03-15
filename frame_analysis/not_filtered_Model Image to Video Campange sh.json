@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model Image to Video Campange sh.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model Image to Video Campange sh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Model Image to Video Campange sh/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in a studio setting, wearing a stylish dark fur coat and white trousers. They hold a black tote bag in their left hand, exuding a fashionable and poised demeanor.",
+      "description": "The scene is set in a minimalist studio environment with a neutral gray background, highlighting the individual as the focal point. The person is dressed in a chic outfit, combining a textured fur coat with elegant white trousers, and accessorized with a sleek black bag.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "fur coat",
+          "trousers",
+          "tote bag"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Model Image to Video Campange sh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Model Image to Video Campange sh/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands with their back to the camera, wearing a luxurious gray fur coat and holding a black bag. The scene is set against a simple, neutral gray background, emphasizing the textures and colors of the coat and bag.",
+      "description": "The image depicts a fashion-forward individual in a studio setting, showcasing a stylish outfit. The focus is on the fur coat and the elegant posture of the person.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "fur coat",
+          "black bag"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: fur coat, trousers, tote bag, black bag. Actions: standing. Emotions: confident, neutral. Scenes: studio. Concepts: fashion, style, luxury",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "fur coat",
+      "trousers",
+      "tote bag",
+      "black bag"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "neutral"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

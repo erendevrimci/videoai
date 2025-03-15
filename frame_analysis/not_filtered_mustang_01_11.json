@@ -1,0 +1,60 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_11.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_11.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_11/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic black muscle car speeds down a rural road, surrounded by lush greenery and distant houses. The car's sleek design and polished chrome accents reflect the overcast sky above.",
+      "description": "The scene captures a vintage car driving along a countryside road, with fields and trees lining the route. The setting is tranquil, with a hint of nostalgia from the classic vehicle.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "houses",
+          "trees"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "nostalgia"
+        ],
+        "scenes": [
+          "countryside",
+          "road trip"
+        ],
+        "concepts": [
+          "vintage",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road, houses, trees. Actions: driving. Emotions: nostalgia. Scenes: countryside, road trip. Concepts: vintage, speed",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road",
+      "houses",
+      "trees"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "emotions": [
+      "nostalgia"
+    ],
+    "scenes": [
+      "countryside",
+      "road trip"
+    ],
+    "concepts": [
+      "vintage",
+      "speed"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,164 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SUPER NATURAL.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SUPER NATURAL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SUPER NATURAL/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long hair runs towards a majestic waterfall cascading down a rocky cliff. The scene is surrounded by lush greenery and vibrant foliage, creating a serene and adventurous atmosphere.",
+      "description": "The image depicts a natural setting with a waterfall as the focal point. A woman is running along a path surrounded by dense vegetation, heading towards the waterfall. The scene conveys a sense of exploration and connection with nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "waterfall",
+          "rocks",
+          "greenery",
+          "foliage"
+        ],
+        "objects": [
+          "cliff",
+          "path"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "adventure",
+          "serenity"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "exploration",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SUPER NATURAL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SUPER NATURAL/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands near a majestic waterfall, with water cascading down a rocky cliff surrounded by lush greenery. The individual's hair is dramatically swept by the wind, adding a sense of movement to the serene natural setting.",
+      "description": "The scene captures a tranquil moment in nature, featuring a large waterfall in a rocky, forested area. The person is positioned in the foreground, enhancing the scale and grandeur of the waterfall.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "waterfall",
+          "rocks",
+          "greenery"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "standing",
+          "hair flowing"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "tranquility",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SUPER NATURAL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SUPER NATURAL/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands in awe before a majestic waterfall cascading down a rocky cliff. The lush greenery and autumn foliage frame the scene, creating a vibrant natural setting. Mist from the waterfall fills the air, adding a sense of freshness and vitality.",
+      "description": "The scene captures a serene moment in nature where a woman is observing a powerful waterfall. The setting is a picturesque landscape with rocky cliffs and vibrant foliage, suggesting a tranquil yet dynamic environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "waterfall",
+          "cliff",
+          "foliage",
+          "greenery"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "nature",
+          "outdoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Nature: waterfall, greenery, rocks, foliage, cliff. Objects: cliff, path, clothing, rocks. Actions: standing, running, hair flowing, observing. Emotions: serenity, awe, adventure. Scenes: nature, outdoors, outdoor. Concepts: tranquility, natural beauty, exploration, freedom",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "nature": [
+      "waterfall",
+      "greenery",
+      "rocks",
+      "foliage",
+      "cliff"
+    ],
+    "objects": [
+      "cliff",
+      "path",
+      "clothing",
+      "rocks"
+    ],
+    "actions": [
+      "standing",
+      "running",
+      "hair flowing",
+      "observing"
+    ],
+    "emotions": [
+      "serenity",
+      "awe",
+      "adventure"
+    ],
+    "scenes": [
+      "nature",
+      "outdoors",
+      "outdoor"
+    ],
+    "concepts": [
+      "tranquility",
+      "natural beauty",
+      "exploration",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

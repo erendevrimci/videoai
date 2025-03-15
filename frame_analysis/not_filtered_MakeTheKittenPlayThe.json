@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheKittenPlayThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheKittenPlayThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheKittenPlayThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy kitten stands on its hind legs, gently placing its paws on the keys of a piano. The warm glow of sunlight filters through the curtains, casting a soft light on the scene.",
+      "description": "The scene captures a playful moment of a kitten interacting with a piano in a cozy room. The setting is serene and intimate, with sunlight enhancing the peaceful atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "piano",
+          "curtains"
+        ],
+        "actions": [
+          "standing",
+          "playing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "music",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheKittenPlayThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheKittenPlayThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy kitten stands on its hind legs, gently placing its paws on the keys of a piano. The warm glow of sunlight filters through the window, casting a soft light over the scene.",
+      "description": "The scene captures a playful and serene moment where a kitten appears to be interacting with a piano. The setting is likely a cozy room with natural light streaming in, creating a peaceful and charming atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "piano",
+          "piano keys"
+        ],
+        "actions": [
+          "standing",
+          "playing"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "sunlit room"
+        ],
+        "concepts": [
+          "music",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheKittenPlayThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheKittenPlayThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy kitten stands on its hind legs, playfully pawing at the keys of a piano. The warm glow of sunlight filters through curtains, casting a gentle light over the scene.",
+      "description": "The scene captures a playful kitten interacting with a piano in a warmly lit room. The setting suggests a cozy, domestic environment with soft lighting enhancing the serene atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "piano",
+          "curtains"
+        ],
+        "actions": [
+          "pawing",
+          "standing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "domestic"
+        ],
+        "concepts": [
+          "music",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: piano, curtains, piano keys. Actions: standing, playing, pawing. Emotions: curiosity, playfulness, playful. Scenes: indoor, cozy, sunlit room, domestic. Concepts: music, playfulness, innocence, curiosity",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "piano",
+      "curtains",
+      "piano keys"
+    ],
+    "actions": [
+      "standing",
+      "playing",
+      "pawing"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness",
+      "playful"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy",
+      "sunlit room",
+      "domestic"
+    ],
+    "concepts": [
+      "music",
+      "playfulness",
+      "innocence",
+      "curiosity"
+    ]
+  },
+  "metadata": {}
+}

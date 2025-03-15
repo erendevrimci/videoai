@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robotic Armortech Fashion Runway.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robotic Armortech Fashion Runway.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Robotic Armortech Fashion Runway/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in futuristic armor walks confidently down a dimly lit corridor. Her suit is adorned with glowing orange and green lights, creating a striking contrast against the metallic surface.",
+      "description": "The scene takes place in a high-tech, industrial setting, possibly a futuristic facility or spaceship. The atmosphere is tense and focused, with the woman appearing determined and powerful.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "futuristic armor",
+          "glowing lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "industrial setting",
+          "futuristic facility"
+        ],
+        "concepts": [
+          "technology",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robotic Armortech Fashion Runway.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Robotic Armortech Fashion Runway/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a futuristic armored suit walks confidently down a corridor. The suit is illuminated with vibrant orange and green lights, highlighting its advanced technology. The setting appears to be a high-tech facility with a sleek, metallic interior.",
+      "description": "The scene is set in a futuristic environment, possibly a spaceship or advanced laboratory. The woman is the focal point, wearing a technologically advanced suit, suggesting a sci-fi or action theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "futuristic armor",
+          "lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "futuristic corridor",
+          "high-tech facility"
+        ],
+        "concepts": [
+          "science fiction",
+          "technology"
+        ],
+        "emotions": [
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robotic Armortech Fashion Runway.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Robotic Armortech Fashion Runway/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in futuristic armor walks confidently down a corridor, illuminated by vibrant neon lights. The suit features intricate designs with glowing orange and green accents, suggesting advanced technology. Other similarly armored figures are visible in the background, enhancing the sense of a team or mission.",
+      "description": "The scene depicts a futuristic setting, likely within a spaceship or high-tech facility. The focus is on a group of individuals in advanced armor, suggesting a science fiction narrative involving exploration or combat.",
+      "labels": {
+        "people": [
+          "person",
+          "group"
+        ],
+        "objects": [
+          "futuristic armor",
+          "neon lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "science fiction",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, group. Objects: futuristic armor, glowing lights, lights, neon lights. Actions: walking. Emotions: confidence, determination. Scenes: futuristic corridor, industrial setting, futuristic facility, high-tech facility. Concepts: technology, science fiction, futurism",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "group"
+    ],
+    "objects": [
+      "futuristic armor",
+      "glowing lights",
+      "lights",
+      "neon lights"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "futuristic corridor",
+      "industrial setting",
+      "futuristic facility",
+      "high-tech facility"
+    ],
+    "concepts": [
+      "technology",
+      "science fiction",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

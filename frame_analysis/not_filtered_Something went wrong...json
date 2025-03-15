@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Something went wrong...mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Something went wrong...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Something went wrong../frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of miniature chefs, dressed in white uniforms and tall hats, gather around a large basket overflowing with fresh strawberries. The scene is set in a rustic kitchen with wooden utensils and pots hanging in the background. The chefs appear to be discussing or inspecting the strawberries, creating a whimsical and surreal atmosphere.",
+      "description": "The scene takes place in a cozy, rustic kitchen where a group of tiny chefs are interacting with an oversized basket of strawberries. The setting is warm and inviting, with wooden textures and kitchen tools adding to the homely feel.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "basket",
+          "strawberries",
+          "chef hats",
+          "wooden utensils",
+          "pots"
+        ],
+        "actions": [
+          "gathering",
+          "discussing",
+          "inspecting"
+        ],
+        "emotions": [
+          "curiosity",
+          "whimsy"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal",
+          "culinary"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Something went wrong...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Something went wrong../frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature chefs in white uniforms and tall hats gather around a large basket of strawberries on a wooden table. The chefs appear to be engaged in a discussion or planning session, with some gesturing towards the strawberries. The scene is set in a rustic kitchen with various cooking utensils hanging in the background.",
+      "description": "The image depicts a whimsical scene in a rustic kitchen where miniature chefs are interacting with a large basket of strawberries. The setting suggests a culinary environment, with wooden utensils and kitchenware visible in the background, creating a cozy and creative atmosphere.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "basket",
+          "strawberries",
+          "kitchen utensils",
+          "wooden table"
+        ],
+        "actions": [
+          "gathering",
+          "discussing"
+        ],
+        "emotions": [
+          "collaborative",
+          "creative"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: basket, strawberries, chef hats, wooden utensils, pots. Actions: gathering, discussing, inspecting. Emotions: curiosity, whimsy, collaborative, creative. Scenes: kitchen. Concepts: miniature, culinary, surreal",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "basket",
+      "strawberries",
+      "chef hats",
+      "wooden utensils",
+      "pots"
+    ],
+    "actions": [
+      "gathering",
+      "discussing",
+      "inspecting"
+    ],
+    "emotions": [
+      "curiosity",
+      "whimsy",
+      "collaborative",
+      "creative"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "miniature",
+      "culinary",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

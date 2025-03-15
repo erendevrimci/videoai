@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Slavic woman with a garland.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Slavic woman with a garland.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Slavic woman with a garland/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with a floral crown stands in a rustic setting, exuding a serene and natural beauty. Her braided hair and embroidered dress complement the vibrant flowers adorning her head. The warm lighting and soft focus create an ethereal atmosphere.",
+      "description": "The scene captures a young woman in a pastoral setting, likely outdoors near a barn or similar structure. She is adorned with a colorful floral crown and wears a dress with intricate embroidery, suggesting a connection to nature and tradition.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "floral crown",
+          "embroidered dress"
+        ],
+        "emotions": [
+          "serene",
+          "natural beauty"
+        ],
+        "scenes": [
+          "rustic",
+          "pastoral"
+        ],
+        "concepts": [
+          "nature",
+          "tradition",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Slavic woman with a garland.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Slavic woman with a garland/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long blonde hair is adorned with a vibrant floral crown, exuding a serene and gentle smile. She is dressed in a white, off-shoulder dress with colorful embroidery, set against a softly blurred natural background.",
+      "description": "The scene captures a peaceful and idyllic moment, likely in an outdoor setting, where the woman is the focal point. Her floral crown and attire suggest a connection to nature and a sense of tranquility.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "floral crown",
+          "dress"
+        ],
+        "emotions": [
+          "serenity",
+          "happiness"
+        ],
+        "scenes": [
+          "portrait",
+          "outdoor"
+        ],
+        "concepts": [
+          "beauty",
+          "nature connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers. Objects: floral crown, embroidered dress, dress. Emotions: serene, natural beauty, serenity, happiness. Scenes: rustic, pastoral, portrait, outdoor. Concepts: beauty, nature, tradition, nature connection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers"
+    ],
+    "objects": [
+      "floral crown",
+      "embroidered dress",
+      "dress"
+    ],
+    "emotions": [
+      "serene",
+      "natural beauty",
+      "serenity",
+      "happiness"
+    ],
+    "scenes": [
+      "rustic",
+      "pastoral",
+      "portrait",
+      "outdoor"
+    ],
+    "concepts": [
+      "beauty",
+      "nature",
+      "tradition",
+      "nature connection"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiger Hybrid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiger Hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiger Hybrid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A soldier in tactical gear stands alert in a war-torn urban environment, holding a rifle. Flames and smoke rise from debris in the background, creating a dramatic and intense atmosphere.",
+      "description": "The scene depicts a soldier in a combat-ready stance amidst a destroyed cityscape. The environment is chaotic, with visible destruction and fire, suggesting a recent or ongoing conflict.",
+      "labels": {
+        "people": [
+          "soldier"
+        ],
+        "objects": [
+          "rifle",
+          "tactical gear",
+          "helmet"
+        ],
+        "actions": [
+          "standing",
+          "holding rifle"
+        ],
+        "emotions": [
+          "alertness",
+          "intensity"
+        ],
+        "scenes": [
+          "urban warfare",
+          "destruction"
+        ],
+        "concepts": [
+          "combat",
+          "conflict"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiger Hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiger Hybrid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A soldier with a tiger face mask stands alert in a war-torn environment, holding a rifle. Behind him, flames and smoke rise from the debris, creating a dramatic backdrop.",
+      "description": "The scene depicts a soldier in a combat zone, characterized by destruction and fire. The soldier's attire includes tactical gear and a unique tiger face mask, suggesting a blend of realism and fantasy.",
+      "labels": {
+        "people": [
+          "soldier"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "rifle",
+          "helmet",
+          "tactical gear"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "alertness"
+        ],
+        "scenes": [
+          "war zone",
+          "battlefield"
+        ],
+        "concepts": [
+          "combat",
+          "destruction",
+          "fire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiger Hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiger Hybrid/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A soldier in tactical gear moves cautiously through a war-torn urban landscape. The background is filled with smoke and distant fires, suggesting recent conflict. The soldier appears focused and alert, navigating the debris-strewn environment.",
+      "description": "The scene depicts a soldier in a combat zone, likely in a post-apocalyptic or war setting. The environment is characterized by destruction, with smoke and fire indicating ongoing or recent battles.",
+      "labels": {
+        "people": [
+          "soldier"
+        ],
+        "objects": [
+          "tactical gear",
+          "helmet"
+        ],
+        "actions": [
+          "moving",
+          "navigating"
+        ],
+        "emotions": [
+          "alertness",
+          "focus"
+        ],
+        "scenes": [
+          "urban warfare",
+          "post-apocalyptic"
+        ],
+        "concepts": [
+          "conflict",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: soldier. Objects: tactical gear, helmet, rifle. Actions: standing, holding rifle, holding, moving, navigating. Emotions: alertness, intensity, focus. Scenes: urban warfare, destruction, war zone, battlefield, post-apocalyptic. Concepts: combat, conflict, destruction, fire. Animals: tiger",
+  "primary_labels": {
+    "people": [
+      "soldier"
+    ],
+    "objects": [
+      "tactical gear",
+      "helmet",
+      "rifle"
+    ],
+    "actions": [
+      "standing",
+      "holding rifle",
+      "holding",
+      "moving",
+      "navigating"
+    ],
+    "emotions": [
+      "alertness",
+      "intensity",
+      "focus"
+    ],
+    "scenes": [
+      "urban warfare",
+      "destruction",
+      "war zone",
+      "battlefield",
+      "post-apocalyptic"
+    ],
+    "concepts": [
+      "combat",
+      "conflict",
+      "destruction",
+      "fire"
+    ],
+    "animals": [
+      "tiger"
+    ]
+  },
+  "metadata": {}
+}

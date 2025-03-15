@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mrazograd boy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mrazograd boy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mrazograd boy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person stands in a snowy, desolate landscape, wearing a fur-lined hat and heavy winter clothing. Their face is smudged with dirt, and they gaze intently at the camera, exuding a sense of resilience. Snowflakes fall around them, adding to the cold, harsh atmosphere.",
+      "description": "The scene depicts a solitary figure in a cold, possibly post-apocalyptic setting. The background is blurred, suggesting an urban environment in decay, with snow covering the ground and structures.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "fur-lined hat",
+          "winter clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "resilience",
+          "intensity"
+        ],
+        "scenes": [
+          "urban decay",
+          "winter"
+        ],
+        "concepts": [
+          "survival",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mrazograd boy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mrazograd boy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person with striking blue eyes is bundled in a fur hat and heavy coat, standing in a snowy, desolate landscape. Their face is speckled with dirt, suggesting hardship and resilience. The background is blurred, emphasizing the intense gaze and the cold, harsh environment.",
+      "description": "The scene depicts a young individual in a cold, snowy setting, possibly a post-apocalyptic or war-torn environment. The focus is on their determined expression and the harsh weather conditions.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "nature": [
+          "snow",
+          "cold"
+        ],
+        "objects": [
+          "fur hat",
+          "heavy coat"
+        ],
+        "emotions": [
+          "determination",
+          "resilience"
+        ],
+        "scenes": [
+          "desolate landscape",
+          "harsh environment"
+        ],
+        "concepts": [
+          "survival",
+          "hardship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young person. Nature: snow, cold. Objects: fur-lined hat, winter clothing, fur hat, heavy coat. Actions: standing. Emotions: resilience, intensity, determination. Scenes: urban decay, winter, desolate landscape, harsh environment. Concepts: survival, isolation, hardship",
+  "primary_labels": {
+    "people": [
+      "young person"
+    ],
+    "nature": [
+      "snow",
+      "cold"
+    ],
+    "objects": [
+      "fur-lined hat",
+      "winter clothing",
+      "fur hat",
+      "heavy coat"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "resilience",
+      "intensity",
+      "determination"
+    ],
+    "scenes": [
+      "urban decay",
+      "winter",
+      "desolate landscape",
+      "harsh environment"
+    ],
+    "concepts": [
+      "survival",
+      "isolation",
+      "hardship"
+    ]
+  },
+  "metadata": {}
+}

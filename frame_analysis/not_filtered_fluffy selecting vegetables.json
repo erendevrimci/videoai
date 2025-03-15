@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fluffy selecting vegetables.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fluffy selecting vegetables.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fluffy selecting vegetables/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, fluffy orange cat stands confidently in a bustling outdoor market, holding a basket filled with fresh vegetables. The cat appears to be the center of attention amidst the vibrant array of produce displayed on wooden stalls.",
+      "description": "The scene is set in a lively outdoor market filled with an abundance of fresh vegetables and fruits. The main focus is a large orange cat, anthropomorphized, standing upright and holding a basket, suggesting a whimsical and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "vegetables",
+          "fruits"
+        ],
+        "objects": [
+          "basket",
+          "market stalls"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confident",
+          "whimsical"
+        ],
+        "scenes": [
+          "market",
+          "outdoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fluffy selecting vegetables.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fluffy selecting vegetables/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat stands upright at a market stall, holding a bunch of fresh greens. Surrounding the cat are baskets filled with vibrant red tomatoes and other vegetables.",
+      "description": "The scene is set in an outdoor market with wooden stalls filled with fresh produce. The focus is on a large, fluffy orange cat that appears to be inspecting or playing with the vegetables.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "vegetables",
+          "greens",
+          "tomatoes"
+        ],
+        "objects": [
+          "basket",
+          "market stall"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "market"
+        ],
+        "concepts": [
+          "freshness",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: vegetables, fruits, greens, tomatoes. Objects: basket, market stalls, market stall. Actions: standing, holding. Emotions: confident, whimsical, curiosity. Scenes: market, outdoor. Concepts: anthropomorphism, humor, freshness, playfulness",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "vegetables",
+      "fruits",
+      "greens",
+      "tomatoes"
+    ],
+    "objects": [
+      "basket",
+      "market stalls",
+      "market stall"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "confident",
+      "whimsical",
+      "curiosity"
+    ],
+    "scenes": [
+      "market",
+      "outdoor"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "freshness",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

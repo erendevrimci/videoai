@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant snake attack.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant snake attack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant snake attack/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A colossal serpent looms over a city engulfed in flames, its scales glistening with fiery reflections. The creature's menacing eyes and open mouth convey a sense of impending doom. In the background, a chaotic scene unfolds with buildings ablaze and a flying creature silhouetted against the smoke-filled sky.",
+      "description": "The scene depicts a dramatic and apocalyptic setting where a giant snake dominates the foreground, threatening a city in ruins. The environment is chaotic, with fire and destruction evident throughout.",
+      "labels": {
+        "animals": [
+          "serpent",
+          "snake"
+        ],
+        "nature": [
+          "fire",
+          "smoke"
+        ],
+        "objects": [
+          "buildings"
+        ],
+        "actions": [
+          "looming",
+          "flying"
+        ],
+        "emotions": [
+          "menacing",
+          "chaotic"
+        ],
+        "scenes": [
+          "apocalyptic",
+          "urban destruction"
+        ],
+        "concepts": [
+          "danger",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant snake attack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant snake attack/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive serpent looms over a burning cityscape, its scales glistening with fiery reflections. The creature's eyes glow ominously as it dominates the scene, with flames engulfing the buildings below. In the background, a dragon-like figure soars through the smoky sky.",
+      "description": "The scene depicts a fantastical and apocalyptic setting where a giant serpent is the central focus, overshadowing a city in flames. The atmosphere is intense and chaotic, with a sense of impending doom as the city is consumed by fire.",
+      "labels": {
+        "animals": [
+          "serpent",
+          "dragon"
+        ],
+        "nature": [
+          "fire",
+          "smoke"
+        ],
+        "objects": [
+          "buildings"
+        ],
+        "actions": [
+          "looming",
+          "soaring"
+        ],
+        "emotions": [
+          "ominous",
+          "chaotic"
+        ],
+        "scenes": [
+          "apocalyptic",
+          "fantasy"
+        ],
+        "concepts": [
+          "destruction",
+          "domination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: serpent, snake, dragon. Nature: fire, smoke. Objects: buildings. Actions: looming, flying, soaring. Emotions: chaotic, menacing, ominous. Scenes: apocalyptic, urban destruction, fantasy. Concepts: destruction, danger, domination",
+  "primary_labels": {
+    "animals": [
+      "serpent",
+      "snake",
+      "dragon"
+    ],
+    "nature": [
+      "fire",
+      "smoke"
+    ],
+    "objects": [
+      "buildings"
+    ],
+    "actions": [
+      "looming",
+      "flying",
+      "soaring"
+    ],
+    "emotions": [
+      "chaotic",
+      "menacing",
+      "ominous"
+    ],
+    "scenes": [
+      "apocalyptic",
+      "urban destruction",
+      "fantasy"
+    ],
+    "concepts": [
+      "destruction",
+      "danger",
+      "domination"
+    ]
+  },
+  "metadata": {}
+}

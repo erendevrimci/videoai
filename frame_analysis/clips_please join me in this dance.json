@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/please join me in this dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/please join me in this dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/please join me in this dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elaborate, dark gown gazes intensely at the camera. Her dress fans out around her, creating a dramatic and elegant silhouette against the textured wooden floor.",
+      "description": "The scene captures a woman in a striking, dark gown with intricate lace details. She is positioned centrally, with her dress spread out, suggesting a formal or artistic setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "floor"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "fashion",
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/please join me in this dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/please join me in this dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant black gown is captured from above as she twirls gracefully on a wooden floor. Her dress fans out around her, creating a striking visual effect against the textured surface.",
+      "description": "The scene depicts a woman in motion, spinning in a luxurious setting with a focus on her elaborate black dress. The setting appears to be indoors, with a polished wooden floor adding to the elegance of the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "dress",
+          "floor"
+        ],
+        "actions": [
+          "twirling",
+          "spinning"
+        ],
+        "emotions": [
+          "graceful"
+        ],
+        "scenes": [
+          "indoor",
+          "elegant"
+        ],
+        "concepts": [
+          "fashion",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, floor, dress. Actions: gazing, twirling, spinning. Emotions: intensity, graceful. Scenes: fashion, portrait, indoor, elegant. Concepts: elegance, drama, fashion, movement",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "floor",
+      "dress"
+    ],
+    "actions": [
+      "gazing",
+      "twirling",
+      "spinning"
+    ],
+    "emotions": [
+      "intensity",
+      "graceful"
+    ],
+    "scenes": [
+      "fashion",
+      "portrait",
+      "indoor",
+      "elegant"
+    ],
+    "concepts": [
+      "elegance",
+      "drama",
+      "fashion",
+      "movement"
+    ]
+  },
+  "metadata": {}
+}

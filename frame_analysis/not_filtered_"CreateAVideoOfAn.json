@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAVideoOfAn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAVideoOfAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateAVideoOfAn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large artillery cannon is firing amidst a battlefield setting, with a bright muzzle flash illuminating the scene. Spent shells and ammunition are scattered on the ground, while dark clouds of smoke fill the sky.",
+      "description": "The scene depicts a wartime environment with an artillery cannon actively firing. The atmosphere is tense and dramatic, highlighted by the vivid explosion and the surrounding smoke.",
+      "labels": {
+        "objects": [
+          "artillery cannon",
+          "ammunition",
+          "spent shells"
+        ],
+        "actions": [
+          "firing",
+          "explosion"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "battlefield",
+          "wartime"
+        ],
+        "concepts": [
+          "war",
+          "military"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAVideoOfAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateAVideoOfAn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large artillery cannon is firing amidst a battlefield setting, with smoke and clouds filling the sky. Spent shells and ammunition are scattered on the ground, adding to the scene's intensity.",
+      "description": "The scene depicts a wartime battlefield with a prominent artillery cannon actively firing. The atmosphere is tense, with smoke and clouds dominating the sky, suggesting ongoing conflict.",
+      "labels": {
+        "objects": [
+          "artillery cannon",
+          "ammunition",
+          "spent shells"
+        ],
+        "actions": [
+          "firing",
+          "explosion"
+        ],
+        "emotions": [
+          "intensity",
+          "tension"
+        ],
+        "scenes": [
+          "battlefield",
+          "war"
+        ],
+        "concepts": [
+          "conflict",
+          "military"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: artillery cannon, ammunition, spent shells. Actions: firing, explosion. Emotions: tension, drama, intensity. Scenes: battlefield, wartime, war. Concepts: military, war, conflict",
+  "primary_labels": {
+    "objects": [
+      "artillery cannon",
+      "ammunition",
+      "spent shells"
+    ],
+    "actions": [
+      "firing",
+      "explosion"
+    ],
+    "emotions": [
+      "tension",
+      "drama",
+      "intensity"
+    ],
+    "scenes": [
+      "battlefield",
+      "wartime",
+      "war"
+    ],
+    "concepts": [
+      "military",
+      "war",
+      "conflict"
+    ]
+  },
+  "metadata": {}
+}

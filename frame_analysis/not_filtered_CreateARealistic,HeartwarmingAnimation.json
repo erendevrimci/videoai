@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARealistic,HeartwarmingAnimation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARealistic,HeartwarmingAnimation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateARealistic,HeartwarmingAnimation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A capybara is lounging comfortably in a small pool, partially submerged in water. The setting appears to be indoors, with tiled walls and wooden elements visible in the background.",
+      "description": "The scene depicts a relaxed capybara enjoying a soak in a pool within an indoor setting. The environment is calm and serene, with the animal appearing content and at ease.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "pool",
+          "water"
+        ],
+        "actions": [
+          "lounging",
+          "soaking"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "relaxation",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateARealistic,HeartwarmingAnimation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateARealistic,HeartwarmingAnimation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A capybara is lounging in a small pool, partially submerged in water. It appears relaxed, with its front paws resting on its belly, surrounded by a tiled indoor setting.",
+      "description": "The scene depicts a capybara enjoying a calm moment in a small pool within an indoor environment. The setting suggests a controlled space, possibly a zoo or a sanctuary, with tiled walls and wooden accents.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "objects": [
+          "pool",
+          "water",
+          "tiles"
+        ],
+        "actions": [
+          "lounging",
+          "relaxing"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor",
+          "sanctuary"
+        ],
+        "concepts": [
+          "relaxation",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: capybara. Objects: pool, water, tiles. Actions: lounging, soaking, relaxing. Emotions: content, relaxed, calm. Scenes: indoor, sanctuary. Concepts: relaxation, serenity, tranquility",
+  "primary_labels": {
+    "animals": [
+      "capybara"
+    ],
+    "objects": [
+      "pool",
+      "water",
+      "tiles"
+    ],
+    "actions": [
+      "lounging",
+      "soaking",
+      "relaxing"
+    ],
+    "emotions": [
+      "content",
+      "relaxed",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "sanctuary"
+    ],
+    "concepts": [
+      "relaxation",
+      "serenity",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

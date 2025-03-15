@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nuke Metrix Yufena Scifi bike.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nuke Metrix Yufena Scifi bike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nuke Metrix Yufena Scifi bike/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic figure is riding a sleek, high-tech motorcycle, adorned with vibrant red, black, and yellow accents. The rider, equipped with advanced armor and a helmet, leans forward as if accelerating at high speed. The motorcycle's design is intricate, featuring mechanical and robotic elements.",
+      "description": "The scene depicts a futuristic setting with a focus on advanced technology and speed. The rider and motorcycle suggest a theme of high-tech mobility and adventure.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "objects": [
+          "motorcycle",
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "riding",
+          "accelerating"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nuke Metrix Yufena Scifi bike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nuke Metrix Yufena Scifi bike/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic motorcycle speeds down a highway at night, ridden by a figure in a sleek, high-tech suit. Neon lights illuminate the cityscape in the background, creating a vibrant contrast against the dark sky.",
+      "description": "The scene depicts a high-speed chase or ride on a modern highway set in a futuristic urban environment. The rider, clad in advanced gear, is navigating the road with precision, while the city lights glow vividly in the distance.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "highway"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: rider. Objects: motorcycle, helmet, armor, highway. Actions: riding, accelerating, speeding. Emotions: excitement. Scenes: futuristic, urban, night. Concepts: technology, speed, futuristic",
+  "primary_labels": {
+    "people": [
+      "rider"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet",
+      "armor",
+      "highway"
+    ],
+    "actions": [
+      "riding",
+      "accelerating",
+      "speeding"
+    ],
+    "emotions": [
+      "excitement"
+    ],
+    "scenes": [
+      "futuristic",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "technology",
+      "speed",
+      "futuristic"
+    ]
+  },
+  "metadata": {}
+}

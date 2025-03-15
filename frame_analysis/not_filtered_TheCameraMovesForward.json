@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesForward.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraMovesForward/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A wooden pier extends into a tranquil lake, surrounded by lush forests and majestic mountains. The sky is ablaze with vibrant orange and red hues as the sun sets, casting a warm glow over the serene landscape. The water reflects the dramatic sky and the towering peaks, creating a mirror-like effect.",
+      "description": "The scene captures a peaceful lakeside setting at sunset, with a wooden pier leading into the water. The surrounding area features dense forests and towering mountains, under a dramatic, colorful sky.",
+      "labels": {
+        "nature": [
+          "lake",
+          "forest",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "pier"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraMovesForward/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A wooden pier stretches into a serene lake, surrounded by lush forests and majestic mountains under a dramatic sunset sky. The vibrant orange and red hues of the clouds reflect on the calm water, creating a mirror-like effect. Tall pine trees line the shore, adding to the tranquil and picturesque setting.",
+      "description": "The scene captures a tranquil lakeside setting at sunset, with a wooden pier leading into the water. The surrounding landscape includes dense forests and towering mountains, all under a vibrant, colorful sky.",
+      "labels": {
+        "nature": [
+          "lake",
+          "mountains",
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "pier"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "tranquility",
+          "serenity"
+        ],
+        "visual_attributes": [
+          "vibrant colors",
+          "reflection",
+          "dramatic sky"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: lake, forest, mountains, sky, trees. Objects: pier. Scenes: sunset, landscape. Emotions: serenity, awe, tranquility. Visual_attributes: vibrant colors, reflection, dramatic sky",
+  "primary_labels": {
+    "nature": [
+      "lake",
+      "forest",
+      "mountains",
+      "sky",
+      "trees"
+    ],
+    "objects": [
+      "pier"
+    ],
+    "scenes": [
+      "sunset",
+      "landscape"
+    ],
+    "emotions": [
+      "serenity",
+      "awe",
+      "tranquility"
+    ],
+    "visual_attributes": [
+      "vibrant colors",
+      "reflection",
+      "dramatic sky"
+    ]
+  },
+  "metadata": {}
+}

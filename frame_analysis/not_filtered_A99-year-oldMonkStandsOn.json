@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A99-year-oldMonkStandsOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A99-year-oldMonkStandsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A99-year-oldMonkStandsOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with a long white beard stands under a dramatic spotlight, wearing ornate robes. His hand is raised in a gesture, and he appears serene and wise.",
+      "description": "The scene depicts an elderly man in a theatrical setting, illuminated by a warm, focused spotlight. He is dressed in traditional, flowing robes, suggesting a sense of wisdom or spiritual authority.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "robes",
+          "spotlight"
+        ],
+        "actions": [
+          "standing",
+          "gesturing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "theatrical",
+          "spiritual"
+        ],
+        "concepts": [
+          "wisdom",
+          "authority"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A99-year-oldMonkStandsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A99-year-oldMonkStandsOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene monk stands enveloped in a radiant aura of golden light, exuding an aura of tranquility and strength. The monk's traditional robe contrasts with the intense, fiery background, creating a striking visual impact. His calm demeanor and poised stance suggest a deep sense of inner peace and focus.",
+      "description": "The scene depicts a monk standing in a dramatic setting, surrounded by a glowing, fiery light. The atmosphere is mystical and powerful, emphasizing themes of enlightenment and spiritual strength.",
+      "labels": {
+        "people": [
+          "monk"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity",
+          "focus"
+        ],
+        "scenes": [
+          "spiritual",
+          "mystical"
+        ],
+        "concepts": [
+          "enlightenment",
+          "inner peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man, monk. Objects: robes, spotlight, robe. Actions: standing, gesturing. Emotions: serenity, focus. Scenes: spiritual, theatrical, mystical. Concepts: wisdom, authority, enlightenment, inner peace",
+  "primary_labels": {
+    "people": [
+      "elderly man",
+      "monk"
+    ],
+    "objects": [
+      "robes",
+      "spotlight",
+      "robe"
+    ],
+    "actions": [
+      "standing",
+      "gesturing"
+    ],
+    "emotions": [
+      "serenity",
+      "focus"
+    ],
+    "scenes": [
+      "spiritual",
+      "theatrical",
+      "mystical"
+    ],
+    "concepts": [
+      "wisdom",
+      "authority",
+      "enlightenment",
+      "inner peace"
+    ]
+  },
+  "metadata": {}
+}

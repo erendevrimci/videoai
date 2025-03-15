@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/s\u00f3ng v\u1ed7.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/s\u00f3ng v\u1ed7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/s\u00f3ng v\u1ed7/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two purple cosmetic tubes are artistically placed on a rippling water surface. The tubes have a floral design and are highlighted by the sunlight reflecting off the water.",
+      "description": "The scene captures two cosmetic tubes lying on a water surface, creating a serene and luxurious atmosphere. The sunlight creates dynamic patterns on the water, enhancing the visual appeal of the products.",
+      "labels": {
+        "objects": [
+          "cosmetic tubes",
+          "water"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "luxury"
+        ],
+        "scenes": [
+          "product photography",
+          "water surface"
+        ],
+        "concepts": [
+          "beauty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/s\u00f3ng v\u1ed7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/s\u00f3ng v\u1ed7/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two elegant purple cosmetic tubes are placed on a smooth, light beige surface. The tubes are positioned diagonally, casting soft shadows, and feature a reflective, metallic finish with gold accents.",
+      "description": "The scene depicts a minimalistic and sophisticated product display, focusing on two cosmetic tubes. The setting is likely a studio environment designed to highlight the products' luxurious appearance.",
+      "labels": {
+        "objects": [
+          "cosmetic tubes",
+          "gold accents"
+        ],
+        "scenes": [
+          "product display",
+          "studio environment"
+        ],
+        "emotions": [
+          "sophistication",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: cosmetic tubes, water, gold accents. Actions: floating. Emotions: serenity, luxury, sophistication, elegance. Scenes: product photography, water surface, product display, studio environment. Concepts: beauty, elegance",
+  "primary_labels": {
+    "objects": [
+      "cosmetic tubes",
+      "water",
+      "gold accents"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "serenity",
+      "luxury",
+      "sophistication",
+      "elegance"
+    ],
+    "scenes": [
+      "product photography",
+      "water surface",
+      "product display",
+      "studio environment"
+    ],
+    "concepts": [
+      "beauty",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

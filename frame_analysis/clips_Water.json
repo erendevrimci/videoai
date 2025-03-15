@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Water/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with water splashing across their face. The water creates dynamic patterns, highlighting the person's serene expression and striking blue eyes.",
+      "description": "The scene captures a tranquil moment with a focus on the interplay between water and the human face. The setting suggests a refreshing and calming atmosphere.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "water"
+        ],
+        "actions": [
+          "splashing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "close-up",
+          "portrait"
+        ],
+        "concepts": [
+          "refreshing",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Water.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Water/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image captures a close-up view of turbulent water in motion, with splashes and bubbles visible. The water appears to be in a natural setting, possibly a river or stream.",
+      "description": "This scene depicts a dynamic and energetic flow of water, with visible splashes and bubbles suggesting movement and turbulence. The setting is likely outdoors, in a natural water body.",
+      "labels": {
+        "nature": [
+          "water",
+          "bubbles"
+        ],
+        "objects": [
+          "splash"
+        ],
+        "actions": [
+          "flowing",
+          "splashing"
+        ],
+        "scenes": [
+          "natural setting",
+          "river",
+          "stream"
+        ],
+        "emotions": [
+          "energetic",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: water, splash. Actions: splashing, flowing. Emotions: serene, energetic, dynamic. Scenes: close-up, portrait, natural setting, river, stream. Concepts: refreshing, calm. Nature: water, bubbles",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "water",
+      "splash"
+    ],
+    "actions": [
+      "splashing",
+      "flowing"
+    ],
+    "emotions": [
+      "serene",
+      "energetic",
+      "dynamic"
+    ],
+    "scenes": [
+      "close-up",
+      "portrait",
+      "natural setting",
+      "river",
+      "stream"
+    ],
+    "concepts": [
+      "refreshing",
+      "calm"
+    ],
+    "nature": [
+      "water",
+      "bubbles"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Walk.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Walk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Walk/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary figure walks down a misty path surrounded by autumnal trees. The scene is bathed in warm, golden light filtering through the fog, creating an ethereal atmosphere. Leaves gently hang from the branches, adding to the serene and contemplative mood.",
+      "description": "The scene depicts a person walking alone on a forest path during autumn. The setting is enveloped in fog, with sunlight streaming through the trees, creating a peaceful and introspective ambiance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "trees",
+          "leaves",
+          "fog"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "forest",
+          "autumn"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Walk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Walk/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary figure walks down a misty path surrounded by autumn foliage. The scene is enveloped in a warm, golden light filtering through the trees, creating a serene and contemplative atmosphere.",
+      "description": "The image depicts a person walking along a forest path during autumn. The environment is misty, with trees on either side and fallen leaves scattered on the ground. The lighting is warm and golden, suggesting early morning or late afternoon.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "trees",
+          "leaves",
+          "path",
+          "mist"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "forest",
+          "autumn"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Walk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Walk/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A solitary figure walks along a misty forest path, surrounded by the warm hues of autumn leaves. The scene is enveloped in a soft, golden light that filters through the trees, creating a serene and introspective atmosphere.",
+      "description": "The image depicts a peaceful forest setting during autumn, with a person walking alone on a path. The mist and warm lighting enhance the tranquil and contemplative mood of the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "leaves"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "introspection"
+        ],
+        "scenes": [
+          "autumn",
+          "misty forest"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: trees, leaves, fog, path, mist. Objects: path, jacket. Actions: walking. Emotions: serenity, contemplation, introspection. Scenes: autumn, forest, misty forest. Concepts: solitude, tranquility",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "trees",
+      "leaves",
+      "fog",
+      "path",
+      "mist"
+    ],
+    "objects": [
+      "path",
+      "jacket"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "introspection"
+    ],
+    "scenes": [
+      "autumn",
+      "forest",
+      "misty forest"
+    ],
+    "concepts": [
+      "solitude",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

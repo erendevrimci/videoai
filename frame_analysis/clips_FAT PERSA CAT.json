@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/FAT PERSA CAT.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/FAT PERSA CAT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/FAT PERSA CAT/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, fluffy white cat is sitting upright, wearing sunglasses and red shorts. The cat is positioned at a table with a plate of croissants and various breakfast items in front of it.",
+      "description": "The scene depicts a humorous and surreal setting where a cat is dressed in human-like attire, sitting at a dining table as if ready for a meal. The background suggests an indoor environment, possibly a kitchen or dining room.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "shorts",
+          "croissants",
+          "table",
+          "cups"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "indoor",
+          "dining"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "breakfast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/FAT PERSA CAT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/FAT PERSA CAT/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white cat is sitting at a table, wearing sunglasses and red shorts. The cat appears relaxed and confident, surrounded by a breakfast spread including croissants and coffee.",
+      "description": "The scene depicts a humorous and anthropomorphic portrayal of a cat enjoying a leisurely morning. The setting seems to be a cozy indoor space, possibly a kitchen or dining area, with a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "shorts",
+          "croissants",
+          "coffee cup",
+          "table"
+        ],
+        "actions": [
+          "sitting",
+          "wearing sunglasses"
+        ],
+        "emotions": [
+          "relaxed",
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "breakfast"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, shorts, croissants, table, cups. Actions: sitting, wearing sunglasses. Emotions: humor, relaxed, confident. Scenes: indoor, dining, breakfast. Concepts: anthropomorphism, breakfast, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "shorts",
+      "croissants",
+      "table",
+      "cups"
+    ],
+    "actions": [
+      "sitting",
+      "wearing sunglasses"
+    ],
+    "emotions": [
+      "humor",
+      "relaxed",
+      "confident"
+    ],
+    "scenes": [
+      "indoor",
+      "dining",
+      "breakfast"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "breakfast",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

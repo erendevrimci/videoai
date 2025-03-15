@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Robot moving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Robot moving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Robot moving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A yellow and black robot stands prominently on a rocky terrain, with a warm sunset in the background. The robot's glowing blue eyes and intricate mechanical details are highlighted by the soft evening light.",
+      "description": "The scene depicts a humanoid robot standing on a rocky surface during sunset. The robot's design is sleek and futuristic, with a combination of yellow and black armor plating.",
+      "labels": {
+        "objects": [
+          "robot",
+          "armor"
+        ],
+        "nature": [
+          "rocky terrain",
+          "sunset"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "evening"
+        ],
+        "concepts": [
+          "technology",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Robot moving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Robot moving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering yellow and black robot stands on a rocky terrain, illuminated by the warm glow of a setting sun. The robot's intricate mechanical design is highlighted by the soft, ambient light, creating a striking silhouette against the sky.",
+      "description": "The scene depicts a large, humanoid robot in a natural outdoor setting during sunset. The robot's vibrant yellow and black armor contrasts with the muted tones of the rocky landscape and the soft orange hues of the sky.",
+      "labels": {
+        "objects": [
+          "robot",
+          "armor"
+        ],
+        "nature": [
+          "rocky terrain",
+          "sunset",
+          "sky"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "majestic",
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunset"
+        ],
+        "concepts": [
+          "technology",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, armor. Nature: rocky terrain, sunset, sky. Actions: standing. Emotions: calm, majestic. Scenes: outdoor, evening, sunset. Concepts: technology, futuristic",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "armor"
+    ],
+    "nature": [
+      "rocky terrain",
+      "sunset",
+      "sky"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "majestic"
+    ],
+    "scenes": [
+      "outdoor",
+      "evening",
+      "sunset"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic"
+    ]
+  },
+  "metadata": {}
+}

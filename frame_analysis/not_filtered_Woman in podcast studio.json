@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in podcast studio.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in podcast studio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in podcast studio/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with shoulder-length hair is seated in front of a microphone, smiling warmly. The dimly lit room has a cozy atmosphere with soft lighting in the background.",
+      "description": "The scene is set in a recording studio or podcast setting, where a woman is preparing to speak or sing into a microphone. The lighting is soft, creating a warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "microphone",
+          "lighting"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "warmth",
+          "happiness"
+        ],
+        "scenes": [
+          "recording studio",
+          "podcast setting"
+        ],
+        "concepts": [
+          "broadcasting",
+          "communication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in podcast studio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in podcast studio/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is singing into a microphone in a dimly lit room. The background is dark, with soft lighting creating a warm atmosphere.",
+      "description": "The scene depicts a woman engaged in a vocal performance, likely in a recording studio or similar setting. The focus is on her expressive singing, with a microphone prominently in front of her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "microphone"
+        ],
+        "actions": [
+          "singing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "recording studio"
+        ],
+        "concepts": [
+          "music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in podcast studio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in podcast studio/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is seated in front of a microphone, speaking with a focused expression. The dimly lit room features soft lighting, creating a warm and intimate atmosphere.",
+      "description": "The scene is set in a recording studio or podcast environment, with a woman speaking into a microphone. The background is dark, with subtle lighting that highlights the speaker.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "microphone",
+          "lighting"
+        ],
+        "actions": [
+          "speaking"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "recording studio",
+          "podcast"
+        ],
+        "concepts": [
+          "communication",
+          "broadcasting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: microphone, lighting. Actions: smiling, singing, speaking. Emotions: focused, warmth, happiness. Scenes: recording studio, podcast setting, podcast. Concepts: broadcasting, communication, music, performance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "microphone",
+      "lighting"
+    ],
+    "actions": [
+      "smiling",
+      "singing",
+      "speaking"
+    ],
+    "emotions": [
+      "focused",
+      "warmth",
+      "happiness"
+    ],
+    "scenes": [
+      "recording studio",
+      "podcast setting",
+      "podcast"
+    ],
+    "concepts": [
+      "broadcasting",
+      "communication",
+      "music",
+      "performance"
+    ]
+  },
+  "metadata": {}
+}

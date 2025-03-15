@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyCatWithBig.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyCatWithBig.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AChubbyCatWithBig/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat sits comfortably on a wooden chair, wearing glasses and a knitted scarf. It appears to be knitting with a ball of yarn, creating a cozy and whimsical scene.",
+      "description": "The scene depicts a charming and whimsical setting where a cat is engaged in knitting. The warm lighting and soft focus create a cozy atmosphere, suggesting a peaceful indoor environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "scarf",
+          "yarn",
+          "chair"
+        ],
+        "actions": [
+          "knitting"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "whimsy",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyCatWithBig.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AChubbyCatWithBig/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat wearing glasses is sitting in a cozy chair, appearing to be asleep or deeply relaxed. The cat's paws are visible, and it is surrounded by a warm, softly lit environment.",
+      "description": "The scene depicts a cute, fluffy cat in a tranquil indoor setting, possibly a living room. The cat is sitting in a chair, wearing glasses, and appears to be napping or resting peacefully.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "chair"
+        ],
+        "actions": [
+          "resting",
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "tranquility",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: glasses, chair, scarf, yarn. Actions: knitting, resting, sitting. Emotions: contentment, calm, relaxed. Scenes: indoor, cozy. Concepts: comfort, whimsy, tranquility",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "glasses",
+      "chair",
+      "scarf",
+      "yarn"
+    ],
+    "actions": [
+      "knitting",
+      "resting",
+      "sitting"
+    ],
+    "emotions": [
+      "contentment",
+      "calm",
+      "relaxed"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy"
+    ],
+    "concepts": [
+      "comfort",
+      "whimsy",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

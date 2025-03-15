@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSceneOpensWithThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a serene, moonlit setting, two anthropomorphic white cats stand outside a traditional wooden house. One cat, wearing a pink dress, gently cradles a black kitten, while the other, dressed in casual attire with a bag, stands attentively. A warm light from a hanging lantern casts a soft glow over the scene, highlighting the tranquility of their interaction.",
+      "description": "The scene depicts a peaceful evening outside a traditional wooden house, where two anthropomorphic cats engage in a calm interaction. The setting suggests a rural or historical context, enhanced by the presence of a lantern and the architectural style of the house.",
+      "labels": {
+        "animals": [
+          "anthropomorphic cats",
+          "kitten"
+        ],
+        "objects": [
+          "lantern",
+          "bag",
+          "teapot"
+        ],
+        "actions": [
+          "cradling",
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "evening",
+          "outdoor",
+          "traditional house"
+        ],
+        "concepts": [
+          "companionship",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSceneOpensWithThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two anthropomorphic cats stand outside a traditional wooden house, softly illuminated by a warm lantern. The female cat, dressed in a pink dress, gently cradles a black kitten, while the male cat, dressed in casual attire, looks on attentively.",
+      "description": "The scene depicts a serene evening setting outside a traditional home, where two anthropomorphic cats are engaged in a quiet moment. The warm glow from the lantern creates a cozy and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "anthropomorphic cats"
+        ],
+        "animals": [
+          "cat",
+          "kitten"
+        ],
+        "nature": [],
+        "objects": [
+          "lantern",
+          "dress",
+          "bag"
+        ],
+        "actions": [
+          "holding",
+          "looking"
+        ],
+        "emotions": [
+          "calm",
+          "gentle"
+        ],
+        "scenes": [
+          "evening",
+          "outdoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, anthropomorphic cats, cat. Objects: lantern, bag, teapot, dress. Actions: cradling, standing, holding, looking. Emotions: calm, serene, gentle. Scenes: evening, outdoor, traditional house. Concepts: companionship, tranquility, anthropomorphism. People: anthropomorphic cats",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "anthropomorphic cats",
+      "cat"
+    ],
+    "objects": [
+      "lantern",
+      "bag",
+      "teapot",
+      "dress"
+    ],
+    "actions": [
+      "cradling",
+      "standing",
+      "holding",
+      "looking"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "gentle"
+    ],
+    "scenes": [
+      "evening",
+      "outdoor",
+      "traditional house"
+    ],
+    "concepts": [
+      "companionship",
+      "tranquility",
+      "anthropomorphism"
+    ],
+    "people": [
+      "anthropomorphic cats"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

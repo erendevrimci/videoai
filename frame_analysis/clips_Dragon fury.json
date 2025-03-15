@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon fury.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon fury.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon fury/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fearsome dragon breathes fire onto a large wooden ship, engulfing it in flames. The scene is chaotic as armored figures on a nearby boat watch the destruction unfold. The dragon's wings spread wide, dominating the stormy sky above.",
+      "description": "The scene depicts a dramatic fantasy battle at sea, where a dragon attacks a ship with fire. The setting is intense and chaotic, with stormy skies and burning flames creating a sense of urgency and danger.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "ship",
+          "armor",
+          "boat"
+        ],
+        "actions": [
+          "breathing fire",
+          "watching"
+        ],
+        "emotions": [
+          "fear",
+          "chaos"
+        ],
+        "scenes": [
+          "battle",
+          "fantasy"
+        ],
+        "concepts": [
+          "destruction",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon fury.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon fury/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive dragon looms over a burning ship, its wings spread wide and mouth agape, spewing fire. Below, armored figures wielding spears prepare to confront the beast amidst the chaos. The sky is dark and ominous, adding to the dramatic tension of the scene.",
+      "description": "The scene depicts a fantasy battle between humans and a dragon at sea. A ship is engulfed in flames as the dragon attacks, while soldiers on a smaller vessel ready themselves for combat. The setting is intense and action-packed, with a sense of impending danger.",
+      "labels": {
+        "people": [
+          "soldiers"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "sea",
+          "sky"
+        ],
+        "objects": [
+          "ship",
+          "spears",
+          "armor"
+        ],
+        "actions": [
+          "attacking",
+          "burning",
+          "preparing"
+        ],
+        "emotions": [
+          "fear",
+          "determination"
+        ],
+        "scenes": [
+          "battle",
+          "fantasy"
+        ],
+        "concepts": [
+          "conflict",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dragon. Objects: ship, armor, boat, spears. Actions: breathing fire, watching, attacking, burning, preparing. Emotions: fear, chaos, determination. Scenes: battle, fantasy. Concepts: danger, destruction, conflict. People: soldiers. Nature: sea, sky",
+  "primary_labels": {
+    "animals": [
+      "dragon"
+    ],
+    "objects": [
+      "ship",
+      "armor",
+      "boat",
+      "spears"
+    ],
+    "actions": [
+      "breathing fire",
+      "watching",
+      "attacking",
+      "burning",
+      "preparing"
+    ],
+    "emotions": [
+      "fear",
+      "chaos",
+      "determination"
+    ],
+    "scenes": [
+      "battle",
+      "fantasy"
+    ],
+    "concepts": [
+      "danger",
+      "destruction",
+      "conflict"
+    ],
+    "people": [
+      "soldiers"
+    ],
+    "nature": [
+      "sea",
+      "sky"
+    ]
+  },
+  "metadata": {}
+}

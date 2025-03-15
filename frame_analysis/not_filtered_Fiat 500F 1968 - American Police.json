@@ -1,0 +1,88 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fiat 500F 1968 - American Police.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fiat 500F 1968 - American Police.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fiat 500F 1968 - American Police/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A modified Fiat car is styled as an American police vehicle, featuring large tires and a prominent engine intake on the hood. The car is parked in an outdoor setting with an American flag and promotional banners in the background.",
+      "description": "The scene depicts a uniquely customized Fiat car designed to resemble an American police vehicle, complete with police insignia and a light bar. It is set in an outdoor exhibition or event area, possibly a car show, with banners and flags adding to the thematic display.",
+      "labels": {
+        "objects": [
+          "Fiat car",
+          "police car",
+          "American flag",
+          "banners",
+          "large tires",
+          "engine intake",
+          "light bar"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "scenes": [
+          "outdoor event",
+          "car show"
+        ],
+        "concepts": [
+          "vehicle modification",
+          "themed display"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fiat 500F 1968 - American Police.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fiat 500F 1968 - American Police/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vintage-style police car is prominently displayed at an outdoor event. The car features bold 'American Police' markings and a classic design with a modern twist, including oversized tires and a roof-mounted siren. In the background, an American flag waves, adding to the patriotic theme.",
+      "description": "The scene is set at an outdoor event, possibly a car show, where a uniquely designed police car is on display. The setting is lively, with elements of American culture and automotive history showcased.",
+      "labels": {
+        "objects": [
+          "police car",
+          "siren",
+          "American flag"
+        ],
+        "actions": [
+          "display"
+        ],
+        "scenes": [
+          "outdoor event",
+          "car show"
+        ],
+        "concepts": [
+          "patriotism",
+          "automotive history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: police car, American flag, Fiat car, banners, large tires. Actions: parked, display. Scenes: outdoor event, car show. Concepts: vehicle modification, themed display, patriotism, automotive history",
+  "primary_labels": {
+    "objects": [
+      "police car",
+      "American flag",
+      "Fiat car",
+      "banners",
+      "large tires"
+    ],
+    "actions": [
+      "parked",
+      "display"
+    ],
+    "scenes": [
+      "outdoor event",
+      "car show"
+    ],
+    "concepts": [
+      "vehicle modification",
+      "themed display",
+      "patriotism",
+      "automotive history"
+    ]
+  },
+  "metadata": {}
+}

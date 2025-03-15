@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/My daughter wants to try it.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/My daughter wants to try it.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/My daughter wants to try it/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, fluffy white rabbit is sitting on a grassy field surrounded by colorful candies. The rabbit is holding a pink candy with a joyful expression, while other candies are scattered around and floating in the air.",
+      "description": "The scene depicts a playful and whimsical setting where a rabbit is enjoying a candy-filled environment. The bright and vivid colors of the candies contrast with the lush green grass, creating a cheerful and magical atmosphere.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "grass"
+        ],
+        "objects": [
+          "candy",
+          "lollipop"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "whimsical",
+          "playful"
+        ],
+        "concepts": [
+          "fantasy",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/My daughter wants to try it.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/My daughter wants to try it/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute white bunny sits on a grassy field surrounded by colorful candies, holding a pink candy in its paws. The scene is filled with vibrant lollipops and jelly-like sweets, creating a whimsical and playful atmosphere.",
+      "description": "The scene depicts a charming and imaginative setting where a fluffy bunny is amidst a field of assorted candies. The bright and cheerful environment suggests a magical or fantasy world.",
+      "labels": {
+        "animals": [
+          "bunny"
+        ],
+        "nature": [
+          "grass"
+        ],
+        "objects": [
+          "candy",
+          "lollipop"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit, bunny. Nature: grass. Objects: candy, lollipop. Actions: holding. Emotions: joyful, happiness, playfulness. Scenes: whimsical, playful, fantasy, outdoor. Concepts: fantasy, happiness, whimsy, imagination",
+  "primary_labels": {
+    "animals": [
+      "rabbit",
+      "bunny"
+    ],
+    "nature": [
+      "grass"
+    ],
+    "objects": [
+      "candy",
+      "lollipop"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "joyful",
+      "happiness",
+      "playfulness"
+    ],
+    "scenes": [
+      "whimsical",
+      "playful",
+      "fantasy",
+      "outdoor"
+    ],
+    "concepts": [
+      "fantasy",
+      "happiness",
+      "whimsy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hey Giraffe, Run!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hey Giraffe, Run!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hey Giraffe, Run!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat is humorously perched on the neck of a giraffe, both appearing to look directly at the camera. The scene takes place in an open grassy field under a clear sky.",
+      "description": "The image depicts a whimsical and surreal scene where a cat is clinging onto the neck of a giraffe. This unusual pairing is set against a backdrop of a vast savannah, suggesting a playful and imaginative context.",
+      "labels": {
+        "animals": [
+          "giraffe",
+          "cat"
+        ],
+        "nature": [
+          "grass",
+          "savannah"
+        ],
+        "objects": [],
+        "actions": [
+          "perched",
+          "clinging"
+        ],
+        "emotions": [
+          "humor",
+          "surprise"
+        ],
+        "scenes": [
+          "wildlife",
+          "fantasy"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hey Giraffe, Run!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hey Giraffe, Run!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat clings to the neck of a giraffe in an open grassy field. The giraffe stands calmly while the cat looks directly at the camera.",
+      "description": "In an open savannah-like setting, a cat is perched on the neck of a giraffe, creating a whimsical and unexpected scene. The background features a blurred landscape of grasslands, suggesting a natural habitat.",
+      "labels": {
+        "animals": [
+          "giraffe",
+          "cat"
+        ],
+        "nature": [
+          "grassland"
+        ],
+        "actions": [
+          "clinging"
+        ],
+        "emotions": [
+          "calm",
+          "curiosity"
+        ],
+        "scenes": [
+          "wildlife",
+          "unexpected"
+        ],
+        "concepts": [
+          "friendship",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: giraffe, cat. Nature: grass, savannah, grassland. Actions: clinging, perched. Emotions: humor, surprise, calm, curiosity. Scenes: wildlife, fantasy, unexpected. Concepts: imagination, whimsy, friendship, surreal",
+  "primary_labels": {
+    "animals": [
+      "giraffe",
+      "cat"
+    ],
+    "nature": [
+      "grass",
+      "savannah",
+      "grassland"
+    ],
+    "objects": [],
+    "actions": [
+      "clinging",
+      "perched"
+    ],
+    "emotions": [
+      "humor",
+      "surprise",
+      "calm",
+      "curiosity"
+    ],
+    "scenes": [
+      "wildlife",
+      "fantasy",
+      "unexpected"
+    ],
+    "concepts": [
+      "imagination",
+      "whimsy",
+      "friendship",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

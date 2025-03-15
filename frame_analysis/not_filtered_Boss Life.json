@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boss Life.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boss Life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boss Life/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman confidently walks down a city street, dressed in a stylish white leather jacket and black outfit. Behind her, a sleek white car is parked, adding to the urban and fashionable atmosphere.",
+      "description": "The scene is set in a bustling city street, with a focus on a fashionable woman walking past a luxury car. The urban environment is characterized by tall buildings and a wet pavement, suggesting recent rain.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "jacket",
+          "sunglasses"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boss Life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boss Life/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman confidently walks down a city street, wearing stylish sunglasses and a white jacket. Behind her, a luxury car with open doors is parked along the curb, adding to the urban atmosphere.",
+      "description": "The scene is set in a bustling city environment, with a focus on a fashionable woman walking along the sidewalk. The presence of a luxury car suggests an upscale setting, possibly in a shopping or business district.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "white jacket",
+          "luxury car"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "fashion",
+          "urban lifestyle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: sunglasses, car, jacket, white jacket, luxury car. Actions: walking. Emotions: confidence. Scenes: city street, urban. Concepts: fashion, style, luxury, urban lifestyle",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "sunglasses",
+      "car",
+      "jacket",
+      "white jacket",
+      "luxury car"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "city street",
+      "urban"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "luxury",
+      "urban lifestyle"
+    ]
+  },
+  "metadata": {}
+}

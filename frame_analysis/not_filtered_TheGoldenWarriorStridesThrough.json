@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGoldenWarriorStridesThrough.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGoldenWarriorStridesThrough.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGoldenWarriorStridesThrough/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior clad in ornate golden armor stands confidently in a grand, ancient architectural setting. The armor is intricately designed with sharp edges and a horned helmet, exuding an aura of strength and power. The background features towering columns and a warm, glowing ambiance.",
+      "description": "The scene depicts a powerful warrior in a fantasy setting, surrounded by ancient ruins or a grand temple. The atmosphere is majestic and intense, with a focus on the warrior's imposing presence.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "helmet",
+          "columns"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fantasy",
+          "ancient architecture"
+        ],
+        "concepts": [
+          "strength",
+          "power",
+          "majesty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGoldenWarriorStridesThrough.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGoldenWarriorStridesThrough/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior clad in ornate golden armor stands confidently amidst ancient ruins. The armor is intricately designed with horned helmet and elaborate detailing, exuding an aura of strength and authority. Flames flicker in the background, adding to the dramatic atmosphere.",
+      "description": "The scene is set in an ancient, possibly mythological setting, with a focus on a warrior in full golden armor. The environment suggests a place of historical or legendary significance, with stone pillars and ruins surrounding the figure.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "helmet",
+          "ruins"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "strength"
+        ],
+        "scenes": [
+          "ancient ruins",
+          "mythological setting"
+        ],
+        "concepts": [
+          "heroism",
+          "battle readiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGoldenWarriorStridesThrough.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGoldenWarriorStridesThrough/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A figure stands confidently in ornate golden armor, adorned with intricate designs and a horned helmet. The background features ancient stone architecture, suggesting a historical or fantasy setting.",
+      "description": "The scene depicts a person in elaborate golden armor, standing in front of what appears to be an ancient or fantasy-style architectural setting. The armor is detailed with engravings and a prominent horned helmet, conveying a sense of power and authority.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "scenes": [
+          "fantasy",
+          "historical"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "power",
+          "authority"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Objects: armor, helmet, columns, ruins. Actions: standing. Emotions: confidence, strength. Scenes: fantasy, ancient architecture, ancient ruins, mythological setting, historical. Concepts: power, strength, majesty, heroism, battle readiness",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "objects": [
+      "armor",
+      "helmet",
+      "columns",
+      "ruins"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "strength"
+    ],
+    "scenes": [
+      "fantasy",
+      "ancient architecture",
+      "ancient ruins",
+      "mythological setting",
+      "historical"
+    ],
+    "concepts": [
+      "power",
+      "strength",
+      "majesty",
+      "heroism",
+      "battle readiness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Play with fire.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Play with fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Play with fire/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with a hooded cloak, highlighting their intense gaze and serene expression. The monochromatic tones emphasize the texture of the fabric and the smoothness of the skin.",
+      "description": "The scene is a focused portrait of a person wearing a dark hooded cloak. The image captures the person's face in detail, with a strong emphasis on their eyes and expression.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hood",
+          "cloak"
+        ],
+        "emotions": [
+          "serene",
+          "intense"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystery",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Play with fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Play with fire/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person with intense eyes is partially illuminated by a warm, flickering flame. They are wearing a hooded garment that frames their face, creating a dramatic contrast between light and shadow.",
+      "description": "The scene captures a close-up of a young person in a dimly lit setting, with a fire providing the primary source of light. The hooded garment and the firelight create a mysterious and intense atmosphere.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "objects": [
+          "hood",
+          "fire"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "close-up",
+          "dramatic lighting"
+        ],
+        "concepts": [
+          "contrast",
+          "illumination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Play with fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Play with fire/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up portrait of a person with striking eyes, partially obscured by a dark hood. The lighting casts dramatic shadows, highlighting the contours of the face.",
+      "description": "The image presents an intense and mysterious atmosphere, focusing on a person whose face is framed by a dark hood. The lighting emphasizes the person's eyes and facial features, creating a sense of intrigue.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hood"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystery",
+          "intrigue"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, young person, face. Objects: hood, cloak, fire. Emotions: intense, serene, intensity, mystery, mysterious. Scenes: portrait, close-up, dramatic lighting. Concepts: mystery, focus, contrast, illumination, intrigue. Actions: gazing",
+  "primary_labels": {
+    "people": [
+      "person",
+      "young person",
+      "face"
+    ],
+    "objects": [
+      "hood",
+      "cloak",
+      "fire"
+    ],
+    "emotions": [
+      "intense",
+      "serene",
+      "intensity",
+      "mystery",
+      "mysterious"
+    ],
+    "scenes": [
+      "portrait",
+      "close-up",
+      "dramatic lighting"
+    ],
+    "concepts": [
+      "mystery",
+      "focus",
+      "contrast",
+      "illumination",
+      "intrigue"
+    ],
+    "actions": [
+      "gazing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/joyful blond baby dressed fluffy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/joyful blond baby dressed fluffy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/joyful blond baby dressed fluffy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful child dressed in a fluffy yellow chick costume is surrounded by a group of adorable yellow chicks. The child's wide smile and closed eyes convey pure happiness, blending seamlessly with the fluffy chicks around them.",
+      "description": "The scene captures a playful and heartwarming moment where a child, dressed as a chick, is immersed in a group of real chicks. The setting is bright and cheerful, emphasizing a sense of innocence and joy.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "chicks"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "emotions": [
+          "happiness",
+          "joy"
+        ],
+        "scenes": [
+          "playful",
+          "heartwarming"
+        ],
+        "concepts": [
+          "innocence",
+          "bliss"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/joyful blond baby dressed fluffy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/joyful blond baby dressed fluffy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful baby dressed in a fluffy yellow chick costume smiles brightly, surrounded by a group of adorable yellow chicks. The scene is filled with warmth and playfulness, as the baby and chicks appear to be enjoying each other's company.",
+      "description": "The scene depicts a cheerful and playful setting where a baby, dressed in a chick costume, is surrounded by real chicks. The atmosphere is lively and heartwarming, with a focus on the interaction between the baby and the chicks.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "chicks"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "playful setting"
+        ],
+        "concepts": [
+          "innocence",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, baby. Animals: chicks. Objects: costume. Emotions: happiness, joy, joyful, playful. Scenes: playful, heartwarming, playful setting. Concepts: innocence, bliss, happiness. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "child",
+      "baby"
+    ],
+    "animals": [
+      "chicks"
+    ],
+    "objects": [
+      "costume"
+    ],
+    "emotions": [
+      "happiness",
+      "joy",
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "playful",
+      "heartwarming",
+      "playful setting"
+    ],
+    "concepts": [
+      "innocence",
+      "bliss",
+      "happiness"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

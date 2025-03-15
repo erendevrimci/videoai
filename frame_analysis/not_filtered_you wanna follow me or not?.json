@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/you wanna follow me or not?.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/you wanna follow me or not?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/you wanna follow me or not?/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, whimsical creature with large ears stands contentedly in a lush forest. The creature is dressed in a simple brown outfit and has its eyes closed, exuding a peaceful aura. Sunlight filters through the trees, illuminating the vibrant greenery and colorful flowers surrounding it.",
+      "description": "The scene is set in a magical forest, where a cute, fantasy creature is enjoying a moment of tranquility. The environment is rich with plant life, creating a serene and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "fantasy creature"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "peaceful",
+          "content"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/you wanna follow me or not?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/you wanna follow me or not?/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing a cap gazes into a sunlit forest through a natural arch formed by tree trunks. Sunlight filters through the leaves, creating a serene and inviting atmosphere.",
+      "description": "The scene is set in a lush forest where sunlight streams through the canopy, casting dappled light on the ground. A person stands in the foreground, partially out of focus, looking towards the bright forest path.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "cap"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "nature exploration",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fantasy creature. Nature: forest, trees, flowers, sunlight. Objects: clothing, cap. Actions: standing, gazing. Emotions: peaceful, content, serenity. Scenes: fantasy, nature, forest path. Concepts: tranquility, whimsy, nature exploration. People: person",
+  "primary_labels": {
+    "animals": [
+      "fantasy creature"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "flowers",
+      "sunlight"
+    ],
+    "objects": [
+      "clothing",
+      "cap"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "peaceful",
+      "content",
+      "serenity"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "forest path"
+    ],
+    "concepts": [
+      "tranquility",
+      "whimsy",
+      "nature exploration"
+    ],
+    "people": [
+      "person"
+    ]
+  },
+  "metadata": {}
+}

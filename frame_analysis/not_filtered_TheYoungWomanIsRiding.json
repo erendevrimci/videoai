@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanIsRiding.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanIsRiding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheYoungWomanIsRiding/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a striking red leather outfit sits confidently on a rugged motorcycle. Behind them, a sleek sports car with orange accents is parked, creating a dynamic and edgy atmosphere.",
+      "description": "The scene is set in an industrial environment, possibly a garage or warehouse, with a focus on high-performance vehicles. The person exudes confidence and style, complementing the powerful and modern machines around them.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle",
+          "sports car",
+          "leather outfit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "industrial",
+          "garage"
+        ],
+        "concepts": [
+          "power",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanIsRiding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheYoungWomanIsRiding/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a striking red leather outfit sits confidently on a motorcycle. The scene is set indoors, with a sleek car visible in the background, adding to the modern and edgy atmosphere.",
+      "description": "The image captures a bold and stylish scene featuring a person on a motorcycle in an indoor setting. The combination of the red leather attire and the motorcycle suggests a theme of adventure and rebellion.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle",
+          "car",
+          "leather outfit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "style",
+          "adventure",
+          "rebellion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanIsRiding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheYoungWomanIsRiding/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person dressed in a striking red leather outfit sits confidently on a motorcycle. The scene is set in a dimly lit garage, with a sleek car visible in the background. The person's intense expression and bold attire create a powerful and edgy atmosphere.",
+      "description": "The image captures a dramatic and stylish scene in a garage setting. A person in a red leather outfit is seated on a motorcycle, exuding confidence and intensity. The background features a car with vibrant orange rims, adding to the scene's dynamic and bold aesthetic.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle",
+          "car",
+          "leather outfit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence",
+          "intensity"
+        ],
+        "scenes": [
+          "garage"
+        ],
+        "concepts": [
+          "style",
+          "power",
+          "edginess"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: motorcycle, leather outfit, car, sports car. Actions: sitting. Emotions: confidence, intensity. Scenes: garage, industrial, indoor. Concepts: style, power, adventure, rebellion, edginess",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "motorcycle",
+      "leather outfit",
+      "car",
+      "sports car"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "garage",
+      "industrial",
+      "indoor"
+    ],
+    "concepts": [
+      "style",
+      "power",
+      "adventure",
+      "rebellion",
+      "edginess"
+    ]
+  },
+  "metadata": {}
+}

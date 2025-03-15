@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateA10-secondVideoTargeting.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateA10-secondVideoTargeting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateA10-secondVideoTargeting/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicious pepperoni pizza sits on a ledge overlooking a cityscape at sunset. The iconic skyline features towering skyscrapers bathed in warm, golden light.",
+      "description": "The scene captures a pizza placed on a ledge with a stunning view of a city skyline, likely New York City, during sunset. The atmosphere is serene and picturesque, with the warm hues of the setting sun illuminating the buildings.",
+      "labels": {
+        "objects": [
+          "pizza",
+          "skyscrapers"
+        ],
+        "scenes": [
+          "cityscape",
+          "sunset"
+        ],
+        "emotions": [
+          "serene",
+          "picturesque"
+        ],
+        "concepts": [
+          "urban dining",
+          "iconic skyline"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateA10-secondVideoTargeting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateA10-secondVideoTargeting/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A superhero in a red and blue suit stands amidst swirling clouds of smoke, with a beam of light shining down from above. The scene is dramatic, emphasizing the character's iconic costume and determined stance.",
+      "description": "The image depicts a superhero in a dynamic and atmospheric setting, surrounded by smoke and illuminated by a striking beam of light. The focus is on the character's costume and the intense environment.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "costume",
+          "beam of light"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "dramatic",
+          "atmospheric"
+        ],
+        "concepts": [
+          "heroism",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateA10-secondVideoTargeting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateA10-secondVideoTargeting/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A superhero in a red and blue costume stands confidently amidst a smoky urban backdrop. The character's iconic suit features a prominent spider emblem on the chest, and the scene is set against a dramatic, cloudy sky.",
+      "description": "The scene depicts a superhero, known for agility and strength, poised in an urban environment. The atmosphere is tense and dramatic, with smoke and clouds adding to the intensity.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "costume",
+          "spider emblem"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "dramatic"
+        ],
+        "concepts": [
+          "heroism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: costume, pizza, skyscrapers, beam of light, spider emblem. Scenes: dramatic, cityscape, sunset, atmospheric, urban. Emotions: serene, picturesque, determination, confidence. Concepts: heroism, urban dining, iconic skyline, power. People: superhero. Actions: standing",
+  "primary_labels": {
+    "objects": [
+      "costume",
+      "pizza",
+      "skyscrapers",
+      "beam of light",
+      "spider emblem"
+    ],
+    "scenes": [
+      "dramatic",
+      "cityscape",
+      "sunset",
+      "atmospheric",
+      "urban"
+    ],
+    "emotions": [
+      "serene",
+      "picturesque",
+      "determination",
+      "confidence"
+    ],
+    "concepts": [
+      "heroism",
+      "urban dining",
+      "iconic skyline",
+      "power"
+    ],
+    "people": [
+      "superhero"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

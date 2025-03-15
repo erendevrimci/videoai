@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAnIntenseAndDramatic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAnIntenseAndDramatic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAnIntenseAndDramatic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a lush jungle setting, an anthropomorphic cat carrying a basket of fruit and a kitten is startled by an aggressive hyena. The scene captures a tense moment as the cat recoils in fear, while the hyena snarls menacingly.",
+      "description": "The scene is set in a dense jungle, where an anthropomorphic cat is unexpectedly confronted by a threatening hyena. The cat, dressed in a tattered dress, carries a basket filled with fruit and a kitten, suggesting a protective and nurturing role.",
+      "labels": {
+        "animals": [
+          "cat",
+          "kitten",
+          "hyena"
+        ],
+        "nature": [
+          "jungle",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "basket",
+          "fruit"
+        ],
+        "actions": [
+          "startled",
+          "snarling"
+        ],
+        "emotions": [
+          "fear",
+          "aggression"
+        ],
+        "scenes": [
+          "jungle confrontation"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "protection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAnIntenseAndDramatic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAnIntenseAndDramatic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid cat character in a pink dress carries a basket filled with yellow fruits through a lush forest. The scene captures a playful and whimsical moment as some fruits tumble out of the basket.",
+      "description": "The scene is set in a vibrant, sunlit forest where a humanoid cat character is engaged in gathering fruits. The atmosphere is lively and cheerful, with a sense of motion and activity.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "basket",
+          "fruits"
+        ],
+        "actions": [
+          "carrying",
+          "gathering"
+        ],
+        "emotions": [
+          "playful",
+          "cheerful"
+        ],
+        "scenes": [
+          "forest scene",
+          "harvest"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, kitten, hyena. Nature: trees, jungle, foliage, forest. Objects: basket, fruit, fruits. Actions: startled, snarling, carrying, gathering. Emotions: fear, aggression, playful, cheerful. Scenes: jungle confrontation, forest scene, harvest. Concepts: anthropomorphism, protection, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "kitten",
+      "hyena"
+    ],
+    "nature": [
+      "trees",
+      "jungle",
+      "foliage",
+      "forest"
+    ],
+    "objects": [
+      "basket",
+      "fruit",
+      "fruits"
+    ],
+    "actions": [
+      "startled",
+      "snarling",
+      "carrying",
+      "gathering"
+    ],
+    "emotions": [
+      "fear",
+      "aggression",
+      "playful",
+      "cheerful"
+    ],
+    "scenes": [
+      "jungle confrontation",
+      "forest scene",
+      "harvest"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "protection",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

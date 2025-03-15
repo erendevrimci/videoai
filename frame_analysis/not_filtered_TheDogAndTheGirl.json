@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogAndTheGirl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogAndTheGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogAndTheGirl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal woman dressed in ancient Egyptian attire walks alongside a large black dog adorned with a golden collar. The scene is set in a vast desert with pyramids visible in the background, under a clear blue sky.",
+      "description": "The image depicts a majestic scene in an ancient Egyptian setting. A woman in traditional Egyptian clothing and headpiece walks beside a large black dog, both exuding an aura of royalty and power. The desert landscape and pyramids enhance the historical and cultural context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "desert",
+          "pyramids",
+          "sky"
+        ],
+        "objects": [
+          "Egyptian attire",
+          "golden collar"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "regal",
+          "majestic"
+        ],
+        "scenes": [
+          "ancient Egypt",
+          "desert landscape"
+        ],
+        "concepts": [
+          "royalty",
+          "history",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogAndTheGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogAndTheGirl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal woman dressed in ancient Egyptian attire walks alongside a large, majestic dog adorned with intricate jewelry. The scene is set against the backdrop of a desert landscape, with a pyramid visible in the distance under a clear blue sky.",
+      "description": "The image depicts an ancient Egyptian setting, featuring a woman and a dog in a desert with a pyramid in the background. The woman is dressed in traditional Egyptian clothing, and the dog is wearing ornate jewelry, suggesting a scene of historical or mythical significance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "desert",
+          "sky",
+          "pyramid"
+        ],
+        "objects": [
+          "jewelry",
+          "Egyptian clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "regal",
+          "majestic"
+        ],
+        "scenes": [
+          "ancient Egypt",
+          "desert landscape"
+        ],
+        "concepts": [
+          "historical",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: dog. Nature: desert, sky, pyramids, pyramid. Objects: Egyptian attire, golden collar, jewelry, Egyptian clothing. Actions: walking. Emotions: regal, majestic. Scenes: ancient Egypt, desert landscape. Concepts: royalty, history, culture, historical, mythical",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "desert",
+      "sky",
+      "pyramids",
+      "pyramid"
+    ],
+    "objects": [
+      "Egyptian attire",
+      "golden collar",
+      "jewelry",
+      "Egyptian clothing"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "regal",
+      "majestic"
+    ],
+    "scenes": [
+      "ancient Egypt",
+      "desert landscape"
+    ],
+    "concepts": [
+      "royalty",
+      "history",
+      "culture",
+      "historical",
+      "mythical"
+    ]
+  },
+  "metadata": {}
+}

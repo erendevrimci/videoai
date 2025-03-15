@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful NYC girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful NYC girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautiful NYC girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with striking red hair and blue eyes, gazing intently at the camera. The individual's face is adorned with freckles, and their lips are painted a bold red. Their hand is gently touching their chin, adding a contemplative element to the image.",
+      "description": "The scene captures a close-up portrait of a person with vibrant red hair and striking blue eyes. The focus is on their facial features, including freckles and red lipstick, creating a captivating and intense visual impact.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "lipstick"
+        ],
+        "actions": [
+          "gazing",
+          "touching chin"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "intensity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful NYC girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautiful NYC girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking red hair stands confidently in an urban setting, with a cityscape featuring tall buildings in the background. She gazes directly at the camera, creating a captivating focal point amidst the bustling street scene.",
+      "description": "The scene takes place in a busy city street, likely during the day, as indicated by the bright lighting and clear sky. The woman is the central figure, standing out against the blurred background of people walking and tall skyscrapers.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "street"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "fashion",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face, woman, pedestrians. Objects: lipstick, buildings, street. Actions: gazing, touching chin, walking. Emotions: contemplative, confidence. Scenes: portrait, urban, cityscape. Concepts: beauty, intensity, fashion, city life",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face",
+      "woman",
+      "pedestrians"
+    ],
+    "objects": [
+      "lipstick",
+      "buildings",
+      "street"
+    ],
+    "actions": [
+      "gazing",
+      "touching chin",
+      "walking"
+    ],
+    "emotions": [
+      "contemplative",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "urban",
+      "cityscape"
+    ],
+    "concepts": [
+      "beauty",
+      "intensity",
+      "fashion",
+      "city life"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FPVDynamicTrackingShot:A.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FPVDynamicTrackingShot:A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FPVDynamicTrackingShot:A/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts miniature skiers navigating a snowy slope on a giant banana. The banana is set against a soft, cloudy sky, creating a whimsical and imaginative landscape. The skiers appear to be enjoying their descent, adding a playful element to the composition.",
+      "description": "The scene is a creative and surreal depiction of a banana used as a ski slope. Miniature figures are skiing down the banana, which is covered in a layer of snow. The background features a cloudy sky, enhancing the whimsical nature of the image.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "objects": [
+          "banana",
+          "snow",
+          "ski poles"
+        ],
+        "actions": [
+          "skiing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "outdoor"
+        ],
+        "concepts": [
+          "creativity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FPVDynamicTrackingShot:A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FPVDynamicTrackingShot:A/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a surreal scene, skiers navigate down a giant banana amidst a snowy landscape. The unusual combination of a fruit and winter sports creates a whimsical and imaginative setting. The skiers appear to be enjoying the playful descent, surrounded by snow and clouds.",
+      "description": "The scene depicts a playful and imaginative setting where skiers are descending a giant banana in a snowy landscape. The juxtaposition of the banana with the snow creates a surreal and whimsical atmosphere.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "objects": [
+          "banana",
+          "ski equipment"
+        ],
+        "nature": [
+          "snow",
+          "clouds"
+        ],
+        "actions": [
+          "skiing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "winter sports"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skiers. Objects: banana, snow, ski poles, ski equipment. Actions: skiing. Emotions: playful, imaginative, whimsical. Scenes: surreal, outdoor, winter sports. Concepts: creativity, whimsy, imagination. Nature: snow, clouds",
+  "primary_labels": {
+    "people": [
+      "skiers"
+    ],
+    "objects": [
+      "banana",
+      "snow",
+      "ski poles",
+      "ski equipment"
+    ],
+    "actions": [
+      "skiing"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical"
+    ],
+    "scenes": [
+      "surreal",
+      "outdoor",
+      "winter sports"
+    ],
+    "concepts": [
+      "creativity",
+      "whimsy",
+      "imagination"
+    ],
+    "nature": [
+      "snow",
+      "clouds"
+    ]
+  },
+  "metadata": {}
+}

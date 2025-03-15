@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Not what I wanted, but cool!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Not what I wanted, but cool!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Not what I wanted, but cool!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in the middle of a bustling street, surrounded by floating shards of iridescent glass. Her expression is calm and introspective, as the vibrant pieces create a surreal and dreamlike atmosphere around her.",
+      "description": "The scene takes place on a busy urban street, where a woman is the central focus amidst a dynamic display of floating glass fragments. The setting is lively, with people in the background, yet the woman's presence and the surreal elements create a striking contrast.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass shards"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "surreal",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Not what I wanted, but cool!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Not what I wanted, but cool!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant scene captures a burst of colorful fragments suspended in mid-air, reflecting light in various hues. The background suggests an urban setting, with a person partially visible behind the dazzling display.",
+      "description": "The image depicts an explosion of iridescent shards, possibly glass or crystal, creating a dynamic and chaotic visual effect. The setting appears to be a city street, with a person standing behind the burst of colors.",
+      "labels": {
+        "objects": [
+          "fragments",
+          "glass",
+          "crystal"
+        ],
+        "people": [
+          "person"
+        ],
+        "actions": [
+          "explosion",
+          "burst"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "emotions": [
+          "excitement",
+          "chaos"
+        ],
+        "concepts": [
+          "dynamics",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Not what I wanted, but cool!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Not what I wanted, but cool!/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large iridescent bubble dominates the scene, capturing the reflection of a person inside. The bubble is surrounded by colorful, translucent fragments that seem to float in the air. The background shows an urban setting with buildings under a clear blue sky.",
+      "description": "The scene captures a surreal moment where a person is reflected inside a giant bubble, amidst a cascade of colorful fragments. The setting appears to be outdoors in an urban environment, with a bright and clear sky overhead.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bubble",
+          "fragments"
+        ],
+        "actions": [
+          "floating",
+          "reflection"
+        ],
+        "emotions": [
+          "wonder"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "surreal",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: fragments, glass shards, glass, crystal, bubble. Actions: standing, explosion, burst, floating, reflection. Emotions: calm, introspective, excitement, chaos, wonder. Scenes: urban, urban street, street, outdoor. Concepts: surreal, dreamlike, dynamics, vibrancy, reflection",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "fragments",
+      "glass shards",
+      "glass",
+      "crystal",
+      "bubble"
+    ],
+    "actions": [
+      "standing",
+      "explosion",
+      "burst",
+      "floating",
+      "reflection"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "excitement",
+      "chaos",
+      "wonder"
+    ],
+    "scenes": [
+      "urban",
+      "urban street",
+      "street",
+      "outdoor"
+    ],
+    "concepts": [
+      "surreal",
+      "dreamlike",
+      "dynamics",
+      "vibrancy",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

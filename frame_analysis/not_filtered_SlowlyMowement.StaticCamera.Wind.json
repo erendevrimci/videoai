@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyMowement.StaticCamera.Wind.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyMowement.StaticCamera.Wind.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowlyMowement.StaticCamera.Wind/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene tropical beach scene with gentle waves lapping against the sandy shore. Tall palm trees frame the view, and a bright sun shines in a clear blue sky, casting soft shadows.",
+      "description": "The image depicts a tranquil beach setting, likely in a tropical location. The scene is dominated by the ocean, palm trees, and a bright, sunny sky, creating a peaceful and idyllic atmosphere.",
+      "labels": {
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees",
+          "clouds"
+        ],
+        "objects": [
+          "sand",
+          "waves"
+        ],
+        "scenes": [
+          "tropical",
+          "seaside"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowlyMowement.StaticCamera.Wind.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowlyMowement.StaticCamera.Wind/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene beach scene with gentle waves lapping against the shore under a bright sun. Tall palm trees frame the image, casting shadows on the soft sand. Puffy clouds float in the clear blue sky, adding to the tranquil atmosphere.",
+      "description": "The image depicts a peaceful tropical beach setting, characterized by calm ocean waves, a clear sky, and lush palm trees. The sunlight creates a warm and inviting ambiance, perfect for relaxation.",
+      "labels": {
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees",
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "sand",
+          "waves"
+        ],
+        "scenes": [
+          "tropical",
+          "coastal",
+          "summer"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "concepts": [
+          "vacation",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: beach, ocean, palm trees, clouds, sky. Objects: sand, waves. Scenes: tropical, seaside, coastal, summer. Emotions: calm, peaceful, serenity, calmness. Concepts: vacation, relaxation",
+  "primary_labels": {
+    "nature": [
+      "beach",
+      "ocean",
+      "palm trees",
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "sand",
+      "waves"
+    ],
+    "scenes": [
+      "tropical",
+      "seaside",
+      "coastal",
+      "summer"
+    ],
+    "emotions": [
+      "calm",
+      "peaceful",
+      "serenity",
+      "calmness"
+    ],
+    "concepts": [
+      "vacation",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

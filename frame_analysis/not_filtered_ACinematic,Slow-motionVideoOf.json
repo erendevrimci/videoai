@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Slow-motionVideoOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Slow-motionVideoOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,Slow-motionVideoOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in traditional attire stands on a boat, gazing at the serene sunrise over a misty lake. In the background, pagodas and mountains are silhouetted against the golden sky.",
+      "description": "The scene depicts a tranquil morning setting by a lake, with a person observing the sunrise. The atmosphere is calm and reflective, enhanced by the mist and soft lighting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "lake",
+          "mountains",
+          "sunrise",
+          "mist"
+        ],
+        "objects": [
+          "boat",
+          "pagodas"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "reflective"
+        ],
+        "scenes": [
+          "morning",
+          "traditional"
+        ],
+        "concepts": [
+          "tranquility",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Slow-motionVideoOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,Slow-motionVideoOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in traditional attire stands by a serene lake, gazing thoughtfully into the distance. The scene is set against a backdrop of misty mountains and a pagoda, with the soft glow of the sunrise reflecting on the water.",
+      "description": "The scene depicts a tranquil morning by a lake, surrounded by mist-covered mountains and traditional architecture. The atmosphere is calm and contemplative, with the person appearing deep in thought.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "lake",
+          "mountains",
+          "mist"
+        ],
+        "objects": [
+          "pagoda"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "sunrise",
+          "tranquil"
+        ],
+        "concepts": [
+          "serenity",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: lake, mountains, mist, sunrise. Objects: boat, pagodas, pagoda. Actions: gazing. Emotions: serene, reflective, contemplative. Scenes: morning, traditional, sunrise, tranquil. Concepts: tranquility, contemplation, serenity, reflection",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "lake",
+      "mountains",
+      "mist",
+      "sunrise"
+    ],
+    "objects": [
+      "boat",
+      "pagodas",
+      "pagoda"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "serene",
+      "reflective",
+      "contemplative"
+    ],
+    "scenes": [
+      "morning",
+      "traditional",
+      "sunrise",
+      "tranquil"
+    ],
+    "concepts": [
+      "tranquility",
+      "contemplation",
+      "serenity",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

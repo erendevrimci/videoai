@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/miniature is cleaning the dust a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/miniature is cleaning the dust a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/miniature is cleaning the dust a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature figure dressed as a construction worker is sweeping crumbs off a laptop keyboard. The figure is detailed, wearing an orange uniform and helmet, and is equipped with a backpack. The scene is a creative representation of cleaning on a tiny scale.",
+      "description": "The image depicts a whimsical scene where a small figurine, resembling a construction worker, is cleaning a laptop keyboard. This imaginative setup creates a playful and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "miniature figure",
+          "construction worker"
+        ],
+        "objects": [
+          "laptop",
+          "keyboard",
+          "broom",
+          "crumbs"
+        ],
+        "actions": [
+          "sweeping",
+          "cleaning"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "miniature scene",
+          "desktop"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/miniature is cleaning the dust a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/miniature is cleaning the dust a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature figure dressed as a construction worker is sweeping debris off a computer keyboard. The figure is detailed with an orange uniform, helmet, and backpack, creating a whimsical scene of tiny labor on a large scale. The setting is likely a desktop environment, emphasizing the contrast between the small figure and the everyday object.",
+      "description": "The scene depicts a playful and imaginative setup where a small construction worker figure is cleaning a keyboard, suggesting a creative take on maintaining cleanliness in a digital workspace.",
+      "labels": {
+        "people": [
+          "miniature figure"
+        ],
+        "objects": [
+          "keyboard",
+          "broom",
+          "debris"
+        ],
+        "actions": [
+          "sweeping"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "desktop environment"
+        ],
+        "concepts": [
+          "miniature",
+          "cleaning",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figure, construction worker. Objects: keyboard, broom, laptop, crumbs, debris. Actions: sweeping, cleaning. Emotions: whimsical, playful. Scenes: miniature scene, desktop, desktop environment. Concepts: creativity, imagination, miniature, cleaning",
+  "primary_labels": {
+    "people": [
+      "miniature figure",
+      "construction worker"
+    ],
+    "objects": [
+      "keyboard",
+      "broom",
+      "laptop",
+      "crumbs",
+      "debris"
+    ],
+    "actions": [
+      "sweeping",
+      "cleaning"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "miniature scene",
+      "desktop",
+      "desktop environment"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "miniature",
+      "cleaning"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dog in Paris Eiffel Tower.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dog in Paris Eiffel Tower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dog in Paris Eiffel Tower/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small dog stands confidently atop a stack of suitcases with the Eiffel Tower in the background. The scene captures a sense of adventure and travel, as the dog gazes into the distance. The iconic Parisian landmark adds a touch of romance and wanderlust to the image.",
+      "description": "The scene is set in Paris, with the Eiffel Tower prominently featured in the background. A small dog is positioned on top of two suitcases, suggesting a theme of travel and exploration.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "suitcases",
+          "Eiffel Tower"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "adventurous"
+        ],
+        "scenes": [
+          "urban",
+          "tourist"
+        ],
+        "concepts": [
+          "travel",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dog in Paris Eiffel Tower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dog in Paris Eiffel Tower/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog with a red collar stands in the foreground, gazing towards the iconic Eiffel Tower. The tower looms majestically in the background against a clear blue sky.",
+      "description": "The scene captures a serene moment in Paris, with a dog observing its surroundings near the Eiffel Tower. The setting is outdoors, likely during the day, with the famous landmark prominently featured.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "Eiffel Tower",
+          "collar"
+        ],
+        "scenes": [
+          "urban",
+          "landmark"
+        ],
+        "emotions": [
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Nature: sky. Objects: Eiffel Tower, suitcases, collar. Actions: standing. Emotions: adventurous, calm. Scenes: urban, tourist, landmark. Concepts: travel, exploration",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "sky"
+    ],
+    "objects": [
+      "Eiffel Tower",
+      "suitcases",
+      "collar"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "adventurous",
+      "calm"
+    ],
+    "scenes": [
+      "urban",
+      "tourist",
+      "landmark"
+    ],
+    "concepts": [
+      "travel",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

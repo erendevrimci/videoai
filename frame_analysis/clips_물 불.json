@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\ubb3c \ubd88.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\ubb3c \ubd88.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\ubb3c \ubd88/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure stands with a commanding presence, adorned in a flowing purple cloak covered in glowing runes. Her intense gaze is fixed forward as she conjures magical energy with her hands, surrounded by swirling blue and orange lights.",
+      "description": "The scene depicts a powerful sorceress in a fantasy setting, engaging in a magical ritual. The atmosphere is charged with mystical energy as she manipulates elements around her.",
+      "labels": {
+        "people": [
+          "sorceress"
+        ],
+        "objects": [
+          "cloak",
+          "runes",
+          "jewel"
+        ],
+        "actions": [
+          "conjuring",
+          "casting spell"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "fantasy",
+          "magic"
+        ],
+        "concepts": [
+          "mysticism",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\ubb3c \ubd88.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\ubb3c \ubd88/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical figure stands with a commanding presence, cloaked in a deep purple robe adorned with glowing runes. Her hands emanate vibrant blue and orange flames, suggesting control over magical elements. The atmosphere is charged with an aura of power and mystery.",
+      "description": "The scene depicts a fantasy setting where a sorceress or mage is performing magic. The background is ethereal, enhancing the mystical theme.",
+      "labels": {
+        "people": [
+          "sorceress",
+          "mage"
+        ],
+        "objects": [
+          "cloak",
+          "runes",
+          "amulet"
+        ],
+        "actions": [
+          "casting magic",
+          "emanating flames"
+        ],
+        "emotions": [
+          "mysterious",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: sorceress, mage. Objects: cloak, runes, jewel, amulet. Actions: conjuring, casting spell, casting magic, emanating flames. Emotions: intensity, focus, mysterious, powerful. Scenes: fantasy, magic, magical. Concepts: mysticism, power, magic",
+  "primary_labels": {
+    "people": [
+      "sorceress",
+      "mage"
+    ],
+    "objects": [
+      "cloak",
+      "runes",
+      "jewel",
+      "amulet"
+    ],
+    "actions": [
+      "conjuring",
+      "casting spell",
+      "casting magic",
+      "emanating flames"
+    ],
+    "emotions": [
+      "intensity",
+      "focus",
+      "mysterious",
+      "powerful"
+    ],
+    "scenes": [
+      "fantasy",
+      "magic",
+      "magical"
+    ],
+    "concepts": [
+      "mysticism",
+      "power",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious,natureLight,richDetails,positionedAtA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious,natureLight,richDetails,positionedAtA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mysterious,natureLight,richDetails,positionedAtA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A rugged, armored vehicle is positioned in the center of a desolate urban street. The scene is set amidst crumbling buildings and scattered debris, with a smoky atmosphere suggesting recent destruction.",
+      "description": "The image depicts a post-apocalyptic setting with an armored truck dominating the scene. The street is lined with dilapidated buildings, and the air is filled with dust and smoke, creating a tense and foreboding atmosphere.",
+      "labels": {
+        "objects": [
+          "armored vehicle",
+          "debris",
+          "buildings"
+        ],
+        "actions": [
+          "stationary"
+        ],
+        "emotions": [
+          "tense",
+          "foreboding"
+        ],
+        "scenes": [
+          "post-apocalyptic",
+          "urban"
+        ],
+        "concepts": [
+          "destruction",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mysterious,natureLight,richDetails,positionedAtA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mysterious,natureLight,richDetails,positionedAtA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering robot stands amidst a smoky, debris-filled urban landscape. Its glowing red eyes and illuminated panels create an imposing presence as it appears ready for action.",
+      "description": "The scene depicts a large robot in a post-apocalyptic city setting, surrounded by smoke and destruction. The robot's design is sleek and futuristic, with glowing red elements that enhance its menacing appearance.",
+      "labels": {
+        "objects": [
+          "robot",
+          "debris"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intimidating"
+        ],
+        "scenes": [
+          "urban",
+          "post-apocalyptic"
+        ],
+        "concepts": [
+          "technology",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: debris, armored vehicle, buildings, robot. Actions: stationary, standing. Emotions: tense, foreboding, intimidating. Scenes: post-apocalyptic, urban. Concepts: destruction, survival, technology",
+  "primary_labels": {
+    "objects": [
+      "debris",
+      "armored vehicle",
+      "buildings",
+      "robot"
+    ],
+    "actions": [
+      "stationary",
+      "standing"
+    ],
+    "emotions": [
+      "tense",
+      "foreboding",
+      "intimidating"
+    ],
+    "scenes": [
+      "post-apocalyptic",
+      "urban"
+    ],
+    "concepts": [
+      "destruction",
+      "survival",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

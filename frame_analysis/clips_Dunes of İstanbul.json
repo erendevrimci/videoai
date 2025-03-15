@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dunes of \u0130stanbul.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dunes of \u0130stanbul.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dunes of \u0130stanbul/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure stands atop a rocky outcrop, overlooking a vast, sandy landscape leading to a distant city with domed buildings and tall minarets. The sky is overcast, filled with dark clouds and a flock of birds in flight, adding to the dramatic atmosphere.",
+      "description": "The scene depicts a desolate, post-apocalyptic setting where a solitary person observes a cityscape characterized by grand architecture, including domes and minarets. The foreground is dominated by arid, cracked earth, suggesting a barren environment.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "nature": [
+          "rock",
+          "sand",
+          "clouds"
+        ],
+        "objects": [
+          "buildings",
+          "minarets",
+          "domes"
+        ],
+        "actions": [
+          "standing",
+          "flying"
+        ],
+        "emotions": [
+          "solitude",
+          "contemplation"
+        ],
+        "scenes": [
+          "cityscape",
+          "desert"
+        ],
+        "concepts": [
+          "post-apocalyptic",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dunes of \u0130stanbul.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dunes of \u0130stanbul/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure stands atop a rocky outcrop, overlooking a vast desert cityscape. The city, with its domed buildings and minarets, stretches into the distance under a dramatic, cloudy sky. Groups of people are seen walking through the sandy streets, adding life to the ancient setting.",
+      "description": "The scene depicts a historical or fantastical city, possibly inspired by Middle Eastern architecture, set in a desert environment. The atmosphere is both majestic and somber, with a sense of timelessness and mystery.",
+      "labels": {
+        "people": [
+          "figure",
+          "crowd"
+        ],
+        "nature": [
+          "desert",
+          "clouds"
+        ],
+        "objects": [
+          "buildings",
+          "minarets",
+          "domes",
+          "rock"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "mystery",
+          "solemnity"
+        ],
+        "scenes": [
+          "cityscape",
+          "desert city"
+        ],
+        "concepts": [
+          "timelessness",
+          "historical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, crowd. Animals: birds. Nature: clouds, rock, sand, desert. Objects: buildings, minarets, domes, rock. Actions: standing, flying, walking. Emotions: solitude, contemplation, mystery, solemnity. Scenes: cityscape, desert, desert city. Concepts: post-apocalyptic, isolation, timelessness, historical",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "crowd"
+    ],
+    "animals": [
+      "birds"
+    ],
+    "nature": [
+      "clouds",
+      "rock",
+      "sand",
+      "desert"
+    ],
+    "objects": [
+      "buildings",
+      "minarets",
+      "domes",
+      "rock"
+    ],
+    "actions": [
+      "standing",
+      "flying",
+      "walking"
+    ],
+    "emotions": [
+      "solitude",
+      "contemplation",
+      "mystery",
+      "solemnity"
+    ],
+    "scenes": [
+      "cityscape",
+      "desert",
+      "desert city"
+    ],
+    "concepts": [
+      "post-apocalyptic",
+      "isolation",
+      "timelessness",
+      "historical"
+    ]
+  },
+  "metadata": {}
+}

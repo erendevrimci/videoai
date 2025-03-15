@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Chocolate girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Chocolate girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Chocolate girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene woman with closed eyes is partially covered in a dark, viscous liquid. A gloved hand is gently applying more of the liquid to her forehead, creating a striking visual contrast against her pale skin.",
+      "description": "The scene is set in a minimalist environment with a focus on a woman's face and upper body. The dark liquid appears to be deliberately applied, suggesting a conceptual or artistic setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glove",
+          "liquid"
+        ],
+        "actions": [
+          "applying",
+          "pouring"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "artistic",
+          "conceptual"
+        ],
+        "concepts": [
+          "contrast",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Chocolate girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Chocolate girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene depicts a person with closed eyes, partially submerged in a dark liquid, as a gloved hand gently touches their head. The liquid cascades down their face, creating an artistic and surreal visual effect.",
+      "description": "The image presents a surreal and artistic setting where a person is partially submerged in a dark liquid, possibly chocolate or oil. A gloved hand is seen gently touching their head, adding to the surreal and contemplative atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "glove",
+          "liquid"
+        ],
+        "actions": [
+          "touching",
+          "submerging"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "artistic",
+          "surreal"
+        ],
+        "concepts": [
+          "art",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Chocolate girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Chocolate girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene woman with closed eyes is partially submerged in a reflective liquid, while a gloved hand stretches the liquid from her face. The scene is surreal, blending elements of tranquility and tension.",
+      "description": "The image depicts a surreal and artistic scene where a woman is partially submerged in a dark, reflective liquid. A gloved hand is stretching the liquid from her face, creating a sense of fluidity and transformation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glove",
+          "liquid"
+        ],
+        "actions": [
+          "stretching"
+        ],
+        "emotions": [
+          "serenity",
+          "tension"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "transformation",
+          "fluidity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: glove, liquid. Actions: applying, pouring, touching, submerging, stretching. Emotions: serenity, calmness, serene, calm, tension. Scenes: artistic, surreal, conceptual. Concepts: contrast, expression, art, surrealism, transformation",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "glove",
+      "liquid"
+    ],
+    "actions": [
+      "applying",
+      "pouring",
+      "touching",
+      "submerging",
+      "stretching"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness",
+      "serene",
+      "calm",
+      "tension"
+    ],
+    "scenes": [
+      "artistic",
+      "surreal",
+      "conceptual"
+    ],
+    "concepts": [
+      "contrast",
+      "expression",
+      "art",
+      "surrealism",
+      "transformation"
+    ]
+  },
+  "metadata": {}
+}

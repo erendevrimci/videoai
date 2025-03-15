@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\ud83e\uddb7 \"Jaws at the Dentist\" \ud83e\uddb7.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\ud83e\uddb7 \"Jaws at the Dentist\" \ud83e\uddb7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\ud83e\uddb7 \"Jaws at the Dentist\" \ud83e\uddb7/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical dental office scene features a dentist chair humorously designed to resemble a shark with its mouth open wide. The room is decorated with a mix of modern and vintage elements, including a dental light and framed pictures on a brick wall.",
+      "description": "The scene is set in a creatively themed dental office, where the main focus is a dentist chair styled as a shark. The setting combines playful and professional elements, creating a unique atmosphere.",
+      "labels": {
+        "objects": [
+          "dentist chair",
+          "shark design",
+          "dental light",
+          "framed pictures",
+          "brick wall",
+          "window"
+        ],
+        "actions": [
+          "none"
+        ],
+        "emotions": [
+          "humor",
+          "playfulness"
+        ],
+        "scenes": [
+          "dental office",
+          "themed room"
+        ],
+        "concepts": [
+          "creativity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\ud83e\uddb7 \"Jaws at the Dentist\" \ud83e\uddb7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\ud83e\uddb7 \"Jaws at the Dentist\" \ud83e\uddb7/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man is carefully working on a realistic shark model in a workshop setting. He is focused on detailing the shark's teeth using a small tool. The scene is illuminated by soft lighting, highlighting the intricate details of the model.",
+      "description": "The scene is set in a workshop where a man is engaged in detailing a lifelike shark model. The environment suggests a creative or artistic workspace with tools and materials visible in the background.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "shark model",
+          "tool",
+          "workshop"
+        ],
+        "actions": [
+          "detailing",
+          "working"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "workshop",
+          "artistic workspace"
+        ],
+        "concepts": [
+          "artistry",
+          "craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: dentist chair, shark design, dental light, framed pictures, brick wall. Actions: none, detailing, working. Emotions: humor, playfulness, focused. Scenes: dental office, themed room, workshop, artistic workspace. Concepts: creativity, whimsy, artistry, craftsmanship. People: man",
+  "primary_labels": {
+    "objects": [
+      "dentist chair",
+      "shark design",
+      "dental light",
+      "framed pictures",
+      "brick wall"
+    ],
+    "actions": [
+      "none",
+      "detailing",
+      "working"
+    ],
+    "emotions": [
+      "humor",
+      "playfulness",
+      "focused"
+    ],
+    "scenes": [
+      "dental office",
+      "themed room",
+      "workshop",
+      "artistic workspace"
+    ],
+    "concepts": [
+      "creativity",
+      "whimsy",
+      "artistry",
+      "craftsmanship"
+    ],
+    "people": [
+      "man"
+    ]
+  },
+  "metadata": {}
+}

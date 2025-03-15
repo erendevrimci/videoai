@@ -1,0 +1,90 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/best car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/best car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/best car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic sports car is prominently displayed in a modern showroom. The car's glossy white exterior and intricate wheel design are highlighted under bright lighting, with blurred city lights in the background.",
+      "description": "The scene captures a high-end sports car in a showroom setting, emphasizing its modern design and luxurious appeal. The environment suggests a focus on automotive excellence and innovation.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "wheels",
+          "showroom"
+        ],
+        "actions": [
+          "display"
+        ],
+        "emotions": [
+          "luxury",
+          "innovation"
+        ],
+        "scenes": [
+          "showroom",
+          "urban"
+        ],
+        "concepts": [
+          "futurism",
+          "automotive design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/best car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/best car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek white sports car is showcased in a modern, urban setting. The car's polished surface reflects the ambient lights, emphasizing its aerodynamic design and stylish alloy wheels.",
+      "description": "The scene captures a high-end sports car parked in an urban environment, likely a showroom or a city street. The focus is on the car's rear and side, highlighting its luxurious design and the reflections on its glossy surface.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "alloy wheels"
+        ],
+        "scenes": [
+          "urban",
+          "showroom"
+        ],
+        "emotions": [
+          "luxury",
+          "elegance"
+        ],
+        "concepts": [
+          "automotive design",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, wheels, showroom, alloy wheels. Actions: display. Emotions: luxury, innovation, elegance. Scenes: showroom, urban. Concepts: automotive design, futurism, modernity",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "wheels",
+      "showroom",
+      "alloy wheels"
+    ],
+    "actions": [
+      "display"
+    ],
+    "emotions": [
+      "luxury",
+      "innovation",
+      "elegance"
+    ],
+    "scenes": [
+      "showroom",
+      "urban"
+    ],
+    "concepts": [
+      "automotive design",
+      "futurism",
+      "modernity"
+    ]
+  },
+  "metadata": {}
+}

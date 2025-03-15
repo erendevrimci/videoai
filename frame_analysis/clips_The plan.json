@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The plan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The plan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The plan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Four adorable hamsters are gathered around a small wooden table, intently studying a map. The scene is warmly lit by a hanging lantern, creating a cozy and adventurous atmosphere in what appears to be a stone-walled burrow. Maps and posters adorn the walls, suggesting a planning session for an upcoming journey.",
+      "description": "The scene is set in a charming underground burrow, where four hamsters are engaged in a map-reading session. The warm glow from the lantern above casts a soft light on the hamsters and their surroundings, enhancing the sense of camaraderie and adventure.",
+      "labels": {
+        "animals": [
+          "hamsters"
+        ],
+        "objects": [
+          "map",
+          "table",
+          "chairs",
+          "lantern",
+          "posters"
+        ],
+        "actions": [
+          "studying",
+          "planning"
+        ],
+        "emotions": [
+          "curiosity",
+          "focus"
+        ],
+        "scenes": [
+          "burrow",
+          "planning session"
+        ],
+        "concepts": [
+          "adventure",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The plan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The plan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four small hamsters gather around a wooden table in a cozy, dimly lit underground setting. They appear to be studying a map, with various posters and a lantern illuminating the rustic stone walls. The scene conveys a sense of adventure and camaraderie among the curious creatures.",
+      "description": "The image depicts a group of hamsters in an underground burrow, engaged in what seems to be a planning session. The setting is warm and inviting, with a rustic charm created by the stone walls and wooden furniture.",
+      "labels": {
+        "animals": [
+          "hamsters"
+        ],
+        "objects": [
+          "map",
+          "table",
+          "chairs",
+          "lantern",
+          "posters"
+        ],
+        "actions": [
+          "studying",
+          "gathering"
+        ],
+        "emotions": [
+          "curiosity",
+          "camaraderie"
+        ],
+        "scenes": [
+          "underground",
+          "burrow"
+        ],
+        "concepts": [
+          "adventure",
+          "planning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: hamsters. Objects: map, table, chairs, lantern, posters. Actions: studying, planning, gathering. Emotions: curiosity, focus, camaraderie. Scenes: burrow, planning session, underground. Concepts: adventure, teamwork, planning",
+  "primary_labels": {
+    "animals": [
+      "hamsters"
+    ],
+    "objects": [
+      "map",
+      "table",
+      "chairs",
+      "lantern",
+      "posters"
+    ],
+    "actions": [
+      "studying",
+      "planning",
+      "gathering"
+    ],
+    "emotions": [
+      "curiosity",
+      "focus",
+      "camaraderie"
+    ],
+    "scenes": [
+      "burrow",
+      "planning session",
+      "underground"
+    ],
+    "concepts": [
+      "adventure",
+      "teamwork",
+      "planning"
+    ]
+  },
+  "metadata": {}
+}

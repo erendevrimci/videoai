@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/big cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/big cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/big cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child stands beside a giant cat in a deserted, dilapidated urban area. The child holds a leash attached to the cat, suggesting a bond between them. The scene is set amidst crumbling buildings and overgrown vegetation.",
+      "description": "The image depicts a surreal scene where a child and an enormous cat navigate through a rundown and abandoned town. The environment is characterized by decaying structures and scattered debris, creating a post-apocalyptic atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "giant cat"
+        ],
+        "nature": [
+          "vegetation"
+        ],
+        "objects": [
+          "leash",
+          "debris",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "urban decay"
+        ],
+        "concepts": [
+          "surrealism",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/big cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/big cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, imposing cat prowls through an abandoned urban area, its eyes fixed intently ahead. The scene is set amidst dilapidated buildings and scattered debris, creating a sense of desolation.",
+      "description": "The scene depicts a massive cat walking through a deserted, rundown area. The environment is characterized by neglected buildings and overgrown vegetation, suggesting abandonment and decay.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "vegetation"
+        ],
+        "objects": [
+          "buildings",
+          "debris"
+        ],
+        "actions": [
+          "prowling"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "urban decay",
+          "abandoned"
+        ],
+        "concepts": [
+          "desolation",
+          "abandonment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: giant cat, cat. Nature: vegetation. Objects: debris, buildings, leash. Actions: walking, prowling. Emotions: curiosity, intensity. Scenes: urban decay, abandoned. Concepts: surrealism, companionship, desolation, abandonment",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "giant cat",
+      "cat"
+    ],
+    "nature": [
+      "vegetation"
+    ],
+    "objects": [
+      "debris",
+      "buildings",
+      "leash"
+    ],
+    "actions": [
+      "walking",
+      "prowling"
+    ],
+    "emotions": [
+      "curiosity",
+      "intensity"
+    ],
+    "scenes": [
+      "urban decay",
+      "abandoned"
+    ],
+    "concepts": [
+      "surrealism",
+      "companionship",
+      "desolation",
+      "abandonment"
+    ]
+  },
+  "metadata": {}
+}

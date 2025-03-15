@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/duck in a forest.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/duck in a forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/duck in a forest/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, animated duckling stands in the middle of a sunlit forest path, wearing a red scarf. Sun rays filter through the trees, creating a warm and inviting atmosphere.",
+      "description": "The scene depicts a charming animated duckling in a vibrant forest setting. The forest is lush with greenery, and sunlight streams through the canopy, highlighting the duckling as it stands on a dirt path.",
+      "labels": {
+        "animals": [
+          "duckling"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight",
+          "leaves"
+        ],
+        "objects": [
+          "scarf"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "happy",
+          "playful"
+        ],
+        "scenes": [
+          "forest path",
+          "sunlit"
+        ],
+        "concepts": [
+          "animation",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/duck in a forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/duck in a forest/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful, animated yellow chick wearing a red scarf walks through a lush forest. Sunlight filters through the trees, casting dappled light on the forest floor. The scene is vibrant and full of life, with green foliage surrounding the path.",
+      "description": "The scene depicts an animated setting in a dense forest with a cute yellow chick as the central character. The forest is bathed in sunlight, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "chick"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "scarf"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "forest path",
+          "sunlit forest"
+        ],
+        "concepts": [
+          "animation",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: duckling, chick. Nature: forest, trees, sunlight, leaves, foliage. Objects: scarf. Actions: standing, walking. Emotions: happy, playful, cheerful. Scenes: forest path, sunlit, sunlit forest. Concepts: animation, cute, adventure",
+  "primary_labels": {
+    "animals": [
+      "duckling",
+      "chick"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "sunlight",
+      "leaves",
+      "foliage"
+    ],
+    "objects": [
+      "scarf"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "happy",
+      "playful",
+      "cheerful"
+    ],
+    "scenes": [
+      "forest path",
+      "sunlit",
+      "sunlit forest"
+    ],
+    "concepts": [
+      "animation",
+      "cute",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

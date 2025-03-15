@@ -3,8 +3,10 @@ import csv
 import subprocess
 import json
 import shutil
-prompt_file = 'video/video-prompt-list.txt'
-is_file_created = os.path.exists("video/video-catalog.csv") 
+import pandas as pd
+
+# prompt_file = 'video/video-prompt-list.txt'
+# is_file_created = os.path.exists("video/video-catalog.csv") 
 
 def get_video_metadata(video_path):
     """FFmpeg kullanarak videodan metadata çıkar"""
@@ -135,6 +137,38 @@ def create_video_catalog():
                                 metadata.get('fps', ''),
                                 metadata.get('duration', ''),
                                 ])
+def filter(row):
+    a = int(row.split(":")[0])
+    b = int(row.split(":")[1])
+    return True if a < b else False
+
+
+
+def filter_not_filtered ():
+    target_csv = "video/video-catalog-adjusted.csv"
+    csv_not_filtered = pd.read_csv('video/video-catalog-adjusted-not_filtered.csv')
+    filtered_df = csv_not_filtered[csv_not_filtered['aspect_ratio'].apply(lambda row: filter(row))]
+    filtered_df.to_csv(target_csv,mode='a',header=False,index=False)
+
+def change_clip_name(row,new_name):
+    document, old_name = os.path.split(row)  # Klasör ve dosya adını ayır
+    file_name, ext = os.path.splitext(old_name)  # Dosya adı ve uzantıyı ayır
+    
+    new_file_name = f"{new_name}{ext}"  # Yeni ad oluştur (uzantıyı koruyarak)
+    new_path = os.path.join(document, new_file_name)  # Yeni dosya yolunu oluştur
+    
+    if os.path.exists(row):  # Dosya gerçekten varsa
+        os.rename(row, new_path)  # Dosya adını değiştir
+    
+    return new_path
+def rename_clips():
+    source_csv = "video/video-catalog-adjusted.csv"
+    df = pd.read_csv(source_csv)
+    df["path"] = [change_clip_name(row, str(i + 1)) for i, row in enumerate(df["path"])]
+    df.to_csv(source_csv, index=False)
+
 
 if __name__ == "__main__":
-    create_video_catalog()
+    # create_video_catalog()
+    # filter_not_filtered()
+    rename_clips()

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ethereal Snake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ethereal Snake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ethereal Snake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a dark, glossy outfit stands against a textured, pink-lit background, with a large white snake draped over their shoulders. The scene is illuminated by vibrant pink lighting, creating a dramatic and surreal atmosphere.",
+      "description": "The image depicts a person standing in a dimly lit space with a striking pink hue. A large white snake is wrapped around their shoulders, adding an exotic and mysterious element to the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "clothing",
+          "textured wall"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "dramatic"
+        ],
+        "scenes": [
+          "indoor",
+          "artistic"
+        ],
+        "concepts": [
+          "surreal",
+          "exotic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ethereal Snake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ethereal Snake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is seated in a dimly lit room, draped in a shiny black robe, with a large white snake coiled around their shoulders. The scene is illuminated by a vibrant red light, casting dramatic shadows and highlights.",
+      "description": "The scene takes place in an enclosed space with a textured, reflective backdrop. The atmosphere is mysterious and slightly tense, enhanced by the unusual presence of the snake and the striking red lighting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "contrast",
+          "dramatic lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: snake. Objects: clothing, textured wall, robe. Actions: standing, sitting. Emotions: mysterious, dramatic. Scenes: indoor, artistic. Concepts: surreal, exotic, contrast, dramatic lighting",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "snake"
+    ],
+    "objects": [
+      "clothing",
+      "textured wall",
+      "robe"
+    ],
+    "actions": [
+      "standing",
+      "sitting"
+    ],
+    "emotions": [
+      "mysterious",
+      "dramatic"
+    ],
+    "scenes": [
+      "indoor",
+      "artistic"
+    ],
+    "concepts": [
+      "surreal",
+      "exotic",
+      "contrast",
+      "dramatic lighting"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/walking in New York.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/walking in New York.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/walking in New York/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman takes a selfie on a bustling city street, surrounded by tall buildings and vibrant billboards. The scene captures the lively atmosphere of an urban setting with people crossing the street in the background.",
+      "description": "The image depicts a busy city street, likely in a metropolitan area, characterized by high-rise buildings and colorful advertisements. The focus is on a woman taking a selfie, with pedestrians and traffic in the background, highlighting the dynamic energy of city life.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "billboards",
+          "crosswalk"
+        ],
+        "actions": [
+          "selfie",
+          "walking"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "city life",
+          "self-expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/walking in New York.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/walking in New York/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with blonde hair is taking a selfie on a bustling city street. She is smiling and wearing a beige coat, with tall buildings and colorful billboards in the background.",
+      "description": "The scene captures a vibrant urban setting, likely in a busy city center. The woman appears to be enjoying a sunny day, surrounded by the hustle and bustle of city life.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat",
+          "ring",
+          "billboards",
+          "buildings",
+          "car"
+        ],
+        "actions": [
+          "selfie",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "self-portrait",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/walking in New York.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/walking in New York/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman takes a selfie on a bustling city street, surrounded by tall buildings and vibrant billboards. She smiles warmly at the camera, capturing the lively urban atmosphere.",
+      "description": "The scene is set in a busy city street, likely in a metropolitan area with high-rise buildings and colorful advertisements. The woman in the foreground is taking a selfie, while pedestrians and vehicles move in the background.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "billboards",
+          "car"
+        ],
+        "actions": [
+          "selfie",
+          "walking"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "self-portrait",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, pedestrians. Objects: buildings, billboards, car, crosswalk, coat. Actions: selfie, walking, smiling. Emotions: happiness, contentment. Scenes: urban, city street, street. Concepts: city life, self-portrait, self-expression, urban life",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "pedestrians"
+    ],
+    "objects": [
+      "buildings",
+      "billboards",
+      "car",
+      "crosswalk",
+      "coat"
+    ],
+    "actions": [
+      "selfie",
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "street"
+    ],
+    "concepts": [
+      "city life",
+      "self-portrait",
+      "self-expression",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,164 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A man with two panthers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A man with two panthers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A man with two panthers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man sits cross-legged on a paved path, flanked by two large panthers, one black and one white. The scene is set on a quiet street lined with trees, creating a serene and surreal atmosphere.",
+      "description": "The image depicts a calm and surreal scene where a man is seated on a quiet street, accompanied by two majestic panthers. The setting is urban, with a backdrop of trees and buildings, suggesting a blend of nature and city life.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "black panther",
+          "white panther"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "paved path",
+          "buildings"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "serenity",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A man with two panthers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A man with two panthers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man sits cross-legged on a city street flanked by a black panther and a white panther. Behind them, a large explosion illuminates the scene, casting a dramatic glow. The man appears calm and composed despite the intense backdrop.",
+      "description": "The scene is set on a city street with a man sitting calmly between two panthers, one black and one white. A fiery explosion in the background creates a striking contrast against the serene demeanor of the man and the poised stance of the panthers.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "black panther",
+          "white panther"
+        ],
+        "nature": [],
+        "objects": [
+          "glasses",
+          "watch",
+          "clothing"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "city street",
+          "explosion"
+        ],
+        "concepts": [
+          "contrast",
+          "serenity amidst chaos"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A man with two panthers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A man with two panthers/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man walks confidently down a street with a black panther and a white panther by his side. Behind them, a dramatic explosion lights up the background, casting an intense glow. The scene is dynamic and filled with a sense of power and urgency.",
+      "description": "The scene is set on a city street with a man walking alongside two large panthers. An explosion in the background creates a dramatic and intense atmosphere, suggesting action or adventure.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "black panther",
+          "white panther"
+        ],
+        "nature": [],
+        "objects": [
+          "street",
+          "explosion"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "action"
+        ],
+        "concepts": [
+          "power",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: black panther, white panther. Nature: trees. Objects: paved path, buildings, glasses, watch, clothing. Actions: sitting, walking. Emotions: calm, confidence, intensity. Scenes: urban, street, city street, explosion, action. Concepts: serenity, surreal, contrast, serenity amidst chaos, power",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "black panther",
+      "white panther"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "objects": [
+      "paved path",
+      "buildings",
+      "glasses",
+      "watch",
+      "clothing"
+    ],
+    "actions": [
+      "sitting",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street",
+      "explosion",
+      "action"
+    ],
+    "concepts": [
+      "serenity",
+      "surreal",
+      "contrast",
+      "serenity amidst chaos",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

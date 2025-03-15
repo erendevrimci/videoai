@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The iconic DeLorean.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The iconic DeLorean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The iconic DeLorean/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic car hovers above a desolate landscape, with a dramatic backdrop of a stormy sky and iconic architecture. Lightning illuminates the scene, casting an eerie glow over the ruins below.",
+      "description": "The scene depicts a dystopian setting where a high-tech car is flying over a devastated area. The background features recognizable historical architecture under a turbulent sky, suggesting a blend of past and future elements.",
+      "labels": {
+        "objects": [
+          "car",
+          "lightning",
+          "ruins",
+          "clock tower"
+        ],
+        "actions": [
+          "hovering",
+          "flying"
+        ],
+        "emotions": [
+          "dramatic",
+          "tense"
+        ],
+        "scenes": [
+          "dystopian",
+          "stormy"
+        ],
+        "concepts": [
+          "futuristic",
+          "desolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The iconic DeLorean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The iconic DeLorean/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic car hovers above a cityscape with a dramatic sky overhead. The vehicle, resembling a classic DeLorean, is suspended in mid-air against a backdrop of historical architecture and ominous clouds.",
+      "description": "The scene depicts a flying car in a city with historical buildings, under a stormy sky. The setting suggests a blend of futuristic technology and historical elements, creating a surreal atmosphere.",
+      "labels": {
+        "objects": [
+          "flying car",
+          "DeLorean",
+          "buildings",
+          "clouds"
+        ],
+        "actions": [
+          "hovering",
+          "flying"
+        ],
+        "emotions": [
+          "mysterious",
+          "dramatic"
+        ],
+        "scenes": [
+          "cityscape",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, lightning, ruins, clock tower, flying car. Actions: hovering, flying. Emotions: dramatic, tense, mysterious. Scenes: dystopian, stormy, cityscape, futuristic. Concepts: futuristic, desolation, technology, history",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "lightning",
+      "ruins",
+      "clock tower",
+      "flying car"
+    ],
+    "actions": [
+      "hovering",
+      "flying"
+    ],
+    "emotions": [
+      "dramatic",
+      "tense",
+      "mysterious"
+    ],
+    "scenes": [
+      "dystopian",
+      "stormy",
+      "cityscape",
+      "futuristic"
+    ],
+    "concepts": [
+      "futuristic",
+      "desolation",
+      "technology",
+      "history"
+    ]
+  },
+  "metadata": {}
+}

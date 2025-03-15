@@ -1,0 +1,75 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APairOfStylish,Modern.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APairOfStylish,Modern.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"APairOfStylish,Modern/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek pair of over-ear headphones is displayed against a plain background. The headphones feature a glossy black finish with vibrant blue accents, highlighting their modern design.",
+      "description": "The scene showcases a pair of stylish over-ear headphones, emphasizing their contemporary aesthetic and color contrast. The setting is minimalistic, focusing attention on the headphones as the central object.",
+      "labels": {
+        "objects": [
+          "headphones"
+        ],
+        "colors": [
+          "black",
+          "blue"
+        ],
+        "scenes": [
+          "product display"
+        ],
+        "concepts": [
+          "technology",
+          "audio equipment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APairOfStylish,Modern.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"APairOfStylish,Modern/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek pair of over-ear headphones with a modern design is prominently displayed against a neutral background. The headphones feature a glossy black finish with vibrant blue accents, highlighting their contemporary aesthetic.",
+      "description": "The scene showcases a pair of stylish over-ear headphones, emphasizing their design and color scheme. The setting is minimalistic, focusing entirely on the headphones as the central object.",
+      "labels": {
+        "objects": [
+          "headphones"
+        ],
+        "colors": [
+          "black",
+          "blue"
+        ],
+        "scenes": [
+          "product display"
+        ],
+        "concepts": [
+          "technology",
+          "audio equipment",
+          "modern design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: headphones. Colors: black, blue. Scenes: product display. Concepts: technology, audio equipment, modern design",
+  "primary_labels": {
+    "objects": [
+      "headphones"
+    ],
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "scenes": [
+      "product display"
+    ],
+    "concepts": [
+      "technology",
+      "audio equipment",
+      "modern design"
+    ]
+  },
+  "metadata": {}
+}

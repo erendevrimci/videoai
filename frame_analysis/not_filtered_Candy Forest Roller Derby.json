@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Candy Forest Roller Derby.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Candy Forest Roller Derby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Candy Forest Roller Derby/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A grand display in a bustling urban setting features a gigantic cauliflower encased in a lavish, illuminated glass structure. People gather around, marveling at the spectacle, while colorful lights and digital screens adorn the surrounding buildings.",
+      "description": "The scene is set in a vibrant, futuristic city square, where a massive cauliflower is the centerpiece of an elaborate exhibition. The atmosphere is lively and festive, with a crowd of onlookers and digital advertisements lighting up the night.",
+      "labels": {
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "objects": [
+          "cauliflower",
+          "glass case",
+          "digital screens"
+        ],
+        "actions": [
+          "gathering",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "exhibition"
+        ],
+        "concepts": [
+          "futuristic",
+          "spectacle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Candy Forest Roller Derby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Candy Forest Roller Derby/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A grand display features an enormous cauliflower encased in a lavish, glass-covered structure adorned with lights. People gather around, gazing in awe at the spectacle, set against the backdrop of a vibrant, bustling cityscape.",
+      "description": "The scene is set in a lively urban environment, possibly during a festival or exhibition. The central focus is a giant cauliflower displayed in an ornate glass case, surrounded by an intrigued crowd.",
+      "labels": {
+        "objects": [
+          "cauliflower",
+          "glass case",
+          "lights"
+        ],
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "actions": [
+          "gathering",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "urban",
+          "exhibition"
+        ],
+        "concepts": [
+          "spectacle",
+          "display"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, onlookers. Objects: cauliflower, glass case, digital screens, lights. Actions: gathering, observing. Emotions: awe, excitement, wonder. Scenes: urban, exhibition. Concepts: spectacle, futuristic, display",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "onlookers"
+    ],
+    "objects": [
+      "cauliflower",
+      "glass case",
+      "digital screens",
+      "lights"
+    ],
+    "actions": [
+      "gathering",
+      "observing"
+    ],
+    "emotions": [
+      "awe",
+      "excitement",
+      "wonder"
+    ],
+    "scenes": [
+      "urban",
+      "exhibition"
+    ],
+    "concepts": [
+      "spectacle",
+      "futuristic",
+      "display"
+    ]
+  },
+  "metadata": {}
+}

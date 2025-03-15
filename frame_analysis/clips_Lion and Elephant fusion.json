@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lion and Elephant fusion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lion and Elephant fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lion and Elephant fusion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A powerful lion and a massive elephant charge forward through a dusty forest path. The lion's mane flows as it roars, while the elephant's presence looms large behind it. Sunlight filters through the trees, illuminating the dynamic scene.",
+      "description": "The scene captures a dramatic moment in a forest setting where a lion and an elephant are running together. The dust kicked up by their movement adds to the intensity and energy of the scene.",
+      "labels": {
+        "animals": [
+          "lion",
+          "elephant"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "dust"
+        ],
+        "actions": [
+          "running",
+          "charging"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "wildlife"
+        ],
+        "concepts": [
+          "strength",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lion and Elephant fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lion and Elephant fusion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce, saber-toothed lion prowls forward through a dense, sunlit forest. Its powerful stance and intense gaze create a sense of impending action.",
+      "description": "The scene depicts a prehistoric or fantastical setting where a saber-toothed lion is moving through a lush, sun-dappled forest. The creature's presence dominates the frame, suggesting a moment of tension or confrontation.",
+      "labels": {
+        "animals": [
+          "saber-toothed lion"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "foliage"
+        ],
+        "actions": [
+          "prowling"
+        ],
+        "emotions": [
+          "intensity",
+          "ferocity"
+        ],
+        "scenes": [
+          "prehistoric",
+          "fantasy"
+        ],
+        "concepts": [
+          "wildlife",
+          "predator"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion, elephant, saber-toothed lion. Nature: forest, trees. Objects: dust, foliage. Actions: running, charging, prowling. Emotions: intensity, power, ferocity. Scenes: wildlife, prehistoric, fantasy. Concepts: strength, nature, wildlife, predator",
+  "primary_labels": {
+    "animals": [
+      "lion",
+      "elephant",
+      "saber-toothed lion"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "dust",
+      "foliage"
+    ],
+    "actions": [
+      "running",
+      "charging",
+      "prowling"
+    ],
+    "emotions": [
+      "intensity",
+      "power",
+      "ferocity"
+    ],
+    "scenes": [
+      "wildlife",
+      "prehistoric",
+      "fantasy"
+    ],
+    "concepts": [
+      "strength",
+      "nature",
+      "wildlife",
+      "predator"
+    ]
+  },
+  "metadata": {}
+}

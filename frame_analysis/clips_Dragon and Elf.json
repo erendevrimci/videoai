@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon and Elf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon and Elf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon and Elf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior with pointed ears stands confidently, wielding a sword in front of a majestic dragon. The scene is set in a mystical forest, with the dragon's scales glistening in the dim light.",
+      "description": "The image depicts a fantasy setting where a warrior, possibly an elf, is poised for battle alongside a dragon. The environment suggests an enchanted forest, adding to the mythical atmosphere.",
+      "labels": {
+        "people": [
+          "elf",
+          "warrior"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "sword",
+          "armor"
+        ],
+        "actions": [
+          "wielding sword"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle preparation"
+        ],
+        "concepts": [
+          "mythical",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dragon and Elf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dragon and Elf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior clad in ornate armor stands beside a large dragon, both poised for action. The warrior, with pointed ears and a crown, appears to be an elf, suggesting a fantasy setting. The dragon's scales glisten in the light, highlighting its formidable presence.",
+      "description": "The scene depicts a fantasy setting where an elf warrior and a dragon are preparing for battle. The warrior's armor and the dragon's scales suggest a medieval or mythical world.",
+      "labels": {
+        "people": [
+          "elf",
+          "warrior"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "armor",
+          "crown"
+        ],
+        "actions": [
+          "preparing for battle"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "mythical",
+          "heroic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elf, warrior. Animals: dragon. Nature: forest. Objects: armor, sword, crown. Actions: wielding sword, preparing for battle. Emotions: determination. Scenes: fantasy, battle preparation, medieval. Concepts: mythical, adventure, heroic",
+  "primary_labels": {
+    "people": [
+      "elf",
+      "warrior"
+    ],
+    "animals": [
+      "dragon"
+    ],
+    "nature": [
+      "forest"
+    ],
+    "objects": [
+      "armor",
+      "sword",
+      "crown"
+    ],
+    "actions": [
+      "wielding sword",
+      "preparing for battle"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle preparation",
+      "medieval"
+    ],
+    "concepts": [
+      "mythical",
+      "adventure",
+      "heroic"
+    ]
+  },
+  "metadata": {}
+}

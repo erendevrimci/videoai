@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ATinyArmoredKnightRides.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ATinyArmoredKnightRides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ATinyArmoredKnightRides/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A knight in shining armor rides a large, fluffy white rabbit through a vibrant meadow. Butterflies flutter around them, adding a whimsical touch to the scene.",
+      "description": "The scene depicts a fantastical setting where a knight is riding a giant rabbit in a sunlit meadow. The presence of butterflies and wildflowers creates a magical and serene atmosphere.",
+      "labels": {
+        "people": [
+          "knight"
+        ],
+        "animals": [
+          "rabbit",
+          "butterflies"
+        ],
+        "nature": [
+          "meadow",
+          "wildflowers"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "riding",
+          "fluttering"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoors"
+        ],
+        "concepts": [
+          "adventure",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ATinyArmoredKnightRides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ATinyArmoredKnightRides/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A knight in shining armor rides a large white rabbit through a meadow filled with wildflowers. Butterflies flutter around as the knight raises a sword, creating a whimsical and adventurous scene.",
+      "description": "The scene depicts a fantastical setting where a knight is riding a giant rabbit through a sunlit meadow. The presence of butterflies and wildflowers adds to the magical and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "knight"
+        ],
+        "animals": [
+          "rabbit",
+          "butterflies"
+        ],
+        "nature": [
+          "meadow",
+          "wildflowers"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "riding",
+          "fluttering"
+        ],
+        "emotions": [
+          "whimsical",
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoors"
+        ],
+        "concepts": [
+          "surreal",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: knight. Animals: rabbit, butterflies. Nature: meadow, wildflowers. Objects: armor, sword. Actions: riding, fluttering. Emotions: whimsical, serene, adventurous. Scenes: fantasy, outdoors. Concepts: adventure, imagination, surreal, imaginative",
+  "primary_labels": {
+    "people": [
+      "knight"
+    ],
+    "animals": [
+      "rabbit",
+      "butterflies"
+    ],
+    "nature": [
+      "meadow",
+      "wildflowers"
+    ],
+    "objects": [
+      "armor",
+      "sword"
+    ],
+    "actions": [
+      "riding",
+      "fluttering"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene",
+      "adventurous"
+    ],
+    "scenes": [
+      "fantasy",
+      "outdoors"
+    ],
+    "concepts": [
+      "adventure",
+      "imagination",
+      "surreal",
+      "imaginative"
+    ]
+  },
+  "metadata": {}
+}

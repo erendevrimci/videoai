@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iK\u00e9o1B\u00ean.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iK\u00e9o1B\u00ean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iK\u00e9o1B\u00ean/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a sparkling dress stands on a balcony with a cityscape in the background. Fireworks illuminate the night sky, adding a festive atmosphere to the scene.",
+      "description": "The scene depicts a glamorous evening setting with a woman posing on a balcony. The backdrop features a city skyline and vibrant fireworks, suggesting a celebration or special event.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "balcony",
+          "earrings"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "celebration",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iK\u00e9o1B\u00ean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iK\u00e9o1B\u00ean/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a shimmering gold dress stands on a balcony overlooking a cityscape. Bright fireworks light up the night sky, creating a festive atmosphere.",
+      "description": "The scene captures a glamorous evening setting with a woman enjoying a fireworks display from a high vantage point in the city.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "earrings",
+          "balcony",
+          "fireworks"
+        ],
+        "actions": [
+          "watching"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "celebration",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, balcony, earrings, fireworks. Actions: posing, watching. Emotions: elegance, calm, contemplative. Scenes: cityscape, night. Concepts: celebration, glamour",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "balcony",
+      "earrings",
+      "fireworks"
+    ],
+    "actions": [
+      "posing",
+      "watching"
+    ],
+    "emotions": [
+      "elegance",
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "cityscape",
+      "night"
+    ],
+    "concepts": [
+      "celebration",
+      "glamour"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ferrari Motorcycle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ferrari Motorcycle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ferrari Motorcycle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A motorcyclist in full racing gear leans into a turn on a sleek, red sport motorcycle. The background shows a blurred racetrack, indicating high speed and dynamic movement.",
+      "description": "The scene captures a high-speed motorcycle race on a professional racetrack. The rider is fully equipped with protective gear, emphasizing the intensity and focus required in competitive racing.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "racing suit"
+        ],
+        "actions": [
+          "racing",
+          "leaning",
+          "turning"
+        ],
+        "emotions": [
+          "focus",
+          "intensity"
+        ],
+        "scenes": [
+          "racetrack"
+        ],
+        "concepts": [
+          "speed",
+          "competition",
+          "motorsport"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ferrari Motorcycle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ferrari Motorcycle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A motorcyclist in a red racing suit and helmet speeds down a track on a sleek red motorcycle. The bike leans into a turn, with a slight trail of smoke visible from the rear tire, indicating high speed and dynamic movement.",
+      "description": "The scene captures a high-speed motorcycle racing on a track, with the rider fully geared in protective racing attire. The setting appears to be a professional race track, with barriers and a blurred background suggesting motion.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "racing suit"
+        ],
+        "actions": [
+          "racing",
+          "leaning",
+          "speeding"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "race track"
+        ],
+        "concepts": [
+          "speed",
+          "adrenaline",
+          "motorsport"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: motorcyclist. Objects: motorcycle, helmet, racing suit. Actions: racing, leaning, turning, speeding. Emotions: focus, intensity. Scenes: racetrack, race track. Concepts: speed, motorsport, competition, adrenaline",
+  "primary_labels": {
+    "people": [
+      "motorcyclist"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet",
+      "racing suit"
+    ],
+    "actions": [
+      "racing",
+      "leaning",
+      "turning",
+      "speeding"
+    ],
+    "emotions": [
+      "focus",
+      "intensity"
+    ],
+    "scenes": [
+      "racetrack",
+      "race track"
+    ],
+    "concepts": [
+      "speed",
+      "motorsport",
+      "competition",
+      "adrenaline"
+    ]
+  },
+  "metadata": {}
+}

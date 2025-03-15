@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman animation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman animation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman animation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene figure with flowing white hair stands amidst swirling mist, eyes closed in tranquility. The ethereal atmosphere is enhanced by the soft lighting and delicate textures of the scene.",
+      "description": "The scene depicts a calm and mystical setting with a focus on a person enveloped in mist. The overall mood is serene and otherworldly, with a strong emphasis on the interplay of light and texture.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "mist"
+        ],
+        "objects": [
+          "pearl necklace"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "ethereal"
+        ],
+        "concepts": [
+          "tranquility",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman animation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman animation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene figure with flowing hair stands amidst swirling mist, exuding an ethereal presence. The soft lighting highlights the delicate features and intricate details of the attire, creating a dreamlike atmosphere.",
+      "description": "The scene depicts a mystical setting where a person stands enveloped in mist, with hair flowing dramatically. The lighting is soft and diffused, enhancing the ethereal quality of the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "mist"
+        ],
+        "objects": [
+          "necklace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "mystical"
+        ],
+        "concepts": [
+          "ethereal",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: mist. Objects: pearl necklace, necklace. Emotions: serenity, serene. Scenes: ethereal, mystical. Concepts: tranquility, mystical, ethereal, dreamlike. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "mist"
+    ],
+    "objects": [
+      "pearl necklace",
+      "necklace"
+    ],
+    "emotions": [
+      "serenity",
+      "serene"
+    ],
+    "scenes": [
+      "ethereal",
+      "mystical"
+    ],
+    "concepts": [
+      "tranquility",
+      "mystical",
+      "ethereal",
+      "dreamlike"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

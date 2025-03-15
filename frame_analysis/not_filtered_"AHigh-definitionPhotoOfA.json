@@ -1,0 +1,82 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHigh-definitionPhotoOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHigh-definitionPhotoOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AHigh-definitionPhotoOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white dog is dressed in a cozy knitted sweater, looking directly at the camera with a cheerful expression. The dog's ears are perked up, and its tongue is slightly out, adding to its friendly demeanor.",
+      "description": "The scene features a portrait of a dog in a studio setting. The focus is on the dog's expressive face and the texture of its sweater, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "portrait",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHigh-definitionPhotoOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AHigh-definitionPhotoOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white dog is dressed in a cozy, knitted sweater, gazing directly at the camera with a calm and gentle expression. The background is dark, highlighting the dog's soft fur and the texture of the sweater.",
+      "description": "The scene features a portrait of a dog in a studio setting, with a focus on the dog's serene demeanor and the detailed texture of its sweater.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "coziness",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: sweater. Emotions: cheerful, calm. Scenes: studio, portrait. Concepts: coziness, portrait, fashion",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "sweater"
+    ],
+    "emotions": [
+      "cheerful",
+      "calm"
+    ],
+    "scenes": [
+      "studio",
+      "portrait"
+    ],
+    "concepts": [
+      "coziness",
+      "portrait",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

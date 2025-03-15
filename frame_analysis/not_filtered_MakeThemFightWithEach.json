@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeThemFightWithEach.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeThemFightWithEach.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeThemFightWithEach/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dynamic scene depicts a superhero in a futuristic cityscape, engaged in a battle. The hero, clad in a sleek suit and cape, is throwing a powerful punch that emits fiery sparks. The background features towering skyscrapers illuminated against the night sky.",
+      "description": "The scene is set in a futuristic urban environment, likely a city at night. A superhero character is in the midst of a combat sequence, showcasing action and intensity.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "cape",
+          "suit",
+          "skyscrapers"
+        ],
+        "actions": [
+          "punching",
+          "fighting"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic city",
+          "nighttime"
+        ],
+        "concepts": [
+          "heroism",
+          "battle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeThemFightWithEach.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeThemFightWithEach/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two figures are engaged in a dynamic combat scene on a rooftop, surrounded by a futuristic cityscape. One figure is illuminated by a fiery glow, while the other is shrouded in darkness, both displaying intense motion.",
+      "description": "The scene takes place on a rooftop in a futuristic city, with neon lights and towering skyscrapers in the background. The focus is on a dramatic fight between two figures, suggesting a high-stakes confrontation.",
+      "labels": {
+        "people": [
+          "two figures"
+        ],
+        "objects": [
+          "rooftop",
+          "neon lights",
+          "skyscrapers"
+        ],
+        "actions": [
+          "combat",
+          "fighting"
+        ],
+        "emotions": [
+          "intensity",
+          "tension"
+        ],
+        "scenes": [
+          "futuristic cityscape",
+          "nighttime"
+        ],
+        "concepts": [
+          "conflict",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: superhero, two figures. Objects: skyscrapers, cape, suit, rooftop, neon lights. Actions: fighting, punching, combat. Emotions: intensity, tension. Scenes: nighttime, futuristic city, futuristic cityscape. Concepts: heroism, battle, conflict, drama",
+  "primary_labels": {
+    "people": [
+      "superhero",
+      "two figures"
+    ],
+    "objects": [
+      "skyscrapers",
+      "cape",
+      "suit",
+      "rooftop",
+      "neon lights"
+    ],
+    "actions": [
+      "fighting",
+      "punching",
+      "combat"
+    ],
+    "emotions": [
+      "intensity",
+      "tension"
+    ],
+    "scenes": [
+      "nighttime",
+      "futuristic city",
+      "futuristic cityscape"
+    ],
+    "concepts": [
+      "heroism",
+      "battle",
+      "conflict",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

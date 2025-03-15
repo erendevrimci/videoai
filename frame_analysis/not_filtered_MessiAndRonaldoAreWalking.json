@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MessiAndRonaldoAreWalking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MessiAndRonaldoAreWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MessiAndRonaldoAreWalking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two individuals are walking down a city street wearing oversized slippers and soccer jerseys. The scene captures a casual moment with a humorous twist as they stride confidently in their unusual footwear.",
+      "description": "The image depicts a city street setting during what appears to be late afternoon or early evening. The two individuals are wearing soccer jerseys and oversized slippers, creating a playful and lighthearted atmosphere.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "objects": [
+          "soccer jerseys",
+          "oversized slippers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "casual",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MessiAndRonaldoAreWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MessiAndRonaldoAreWalking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals are walking down a bustling street, each wearing oversized slippers. They are dressed in sports jerseys, one in red and the other in blue, as they navigate through the lively urban setting.",
+      "description": "The scene captures a lively street setting with two people walking side by side. They are wearing sports jerseys and oversized slippers, suggesting a playful or humorous context amidst the urban backdrop.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "objects": [
+          "oversized slippers",
+          "sports jerseys"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "concepts": [
+          "humor",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MessiAndRonaldoAreWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MessiAndRonaldoAreWalking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two individuals dressed in football jerseys walk side by side in a bustling urban environment. They are wearing oversized novelty slippers, creating a humorous contrast with their athletic attire. The scene is set against a backdrop of softly lit buildings and blurred pedestrians.",
+      "description": "The scene takes place in an urban setting, likely a city street or shopping area, during the evening. The focus is on two people wearing football jerseys and oversized slippers, walking together amidst a crowd.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "objects": [
+          "football jerseys",
+          "oversized slippers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "urban",
+          "evening"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "concepts": [
+          "contrast",
+          "novelty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: two individuals. Objects: oversized slippers, soccer jerseys, sports jerseys, football jerseys. Actions: walking. Emotions: humor, playful, humorous. Scenes: city street, urban street, urban, evening. Concepts: casual, playful, humor, contrast, novelty",
+  "primary_labels": {
+    "people": [
+      "two individuals"
+    ],
+    "objects": [
+      "oversized slippers",
+      "soccer jerseys",
+      "sports jerseys",
+      "football jerseys"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "humor",
+      "playful",
+      "humorous"
+    ],
+    "scenes": [
+      "city street",
+      "urban street",
+      "urban",
+      "evening"
+    ],
+    "concepts": [
+      "casual",
+      "playful",
+      "humor",
+      "contrast",
+      "novelty"
+    ]
+  },
+  "metadata": {}
+}

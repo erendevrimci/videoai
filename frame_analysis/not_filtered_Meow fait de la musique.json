@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Meow fait de la musique.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Meow fait de la musique.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Meow fait de la musique/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat appears to be playing a small guitar in a bustling market setting. The scene is lively with people in the background, adding to the vibrant atmosphere.",
+      "description": "The image captures a whimsical moment in a busy market where a cat is positioned as if playing a guitar. The market is crowded with people, suggesting a lively and bustling environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "table",
+          "hat"
+        ],
+        "actions": [
+          "playing",
+          "gathering"
+        ],
+        "emotions": [
+          "amusement",
+          "curiosity"
+        ],
+        "scenes": [
+          "market",
+          "street"
+        ],
+        "concepts": [
+          "entertainment",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Meow fait de la musique.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Meow fait de la musique/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat appears to be playing a guitar in a lively outdoor market setting. The scene is bustling with people who seem amused and entertained by the unusual sight.",
+      "description": "The image captures a whimsical scene in a busy market where a cat is humorously posed as if playing a guitar. The background is filled with people sitting and standing, enjoying the unexpected performance.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "table",
+          "chairs"
+        ],
+        "people": [
+          "crowd",
+          "audience"
+        ],
+        "actions": [
+          "playing",
+          "sitting"
+        ],
+        "emotions": [
+          "amusement",
+          "entertainment"
+        ],
+        "scenes": [
+          "market",
+          "outdoor"
+        ],
+        "concepts": [
+          "humor",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Meow fait de la musique.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Meow fait de la musique/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cat is humorously posed as if playing a guitar in a lively market setting. The scene captures the attention of onlookers seated at a nearby table, adding to the whimsical atmosphere.",
+      "description": "The image depicts a bustling market scene where a cat is positioned with a guitar, creating an amusing and surreal moment. People in the background appear engaged and entertained by the spectacle.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "table",
+          "chair"
+        ],
+        "people": [
+          "onlookers"
+        ],
+        "actions": [
+          "posing",
+          "watching"
+        ],
+        "emotions": [
+          "amusement"
+        ],
+        "scenes": [
+          "market",
+          "street"
+        ],
+        "concepts": [
+          "humor",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: guitar, table, hat, chairs, chair. Actions: playing, gathering, sitting, posing, watching. Emotions: amusement, curiosity, entertainment. Scenes: market, street, outdoor. Concepts: performance, humor, entertainment. People: crowd, audience, onlookers",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "guitar",
+      "table",
+      "hat",
+      "chairs",
+      "chair"
+    ],
+    "actions": [
+      "playing",
+      "gathering",
+      "sitting",
+      "posing",
+      "watching"
+    ],
+    "emotions": [
+      "amusement",
+      "curiosity",
+      "entertainment"
+    ],
+    "scenes": [
+      "market",
+      "street",
+      "outdoor"
+    ],
+    "concepts": [
+      "performance",
+      "humor",
+      "entertainment"
+    ],
+    "people": [
+      "crowd",
+      "audience",
+      "onlookers"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Taurus god.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Taurus god.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Taurus god/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic, ethereal bison emerges from a sea of clouds, its fur blending seamlessly with the misty surroundings. The creature's piercing golden eyes and imposing horns create a sense of awe and mystery. This surreal scene evokes a dreamlike atmosphere, as if the bison is a guardian of the skies.",
+      "description": "The scene depicts a fantastical bison appearing amidst clouds, suggesting a mythical or dreamlike setting. The bison's features are highlighted against the soft, billowing clouds, creating a striking visual contrast.",
+      "labels": {
+        "animals": [
+          "bison"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "horns"
+        ],
+        "emotions": [
+          "awe",
+          "mystery"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "mythical",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Taurus god.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Taurus god/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic white bison emerges from a sea of clouds, its golden eyes glowing with intensity. The creature's massive horns and thick fur create a striking contrast against the ethereal backdrop. The scene conveys a sense of power and mysticism, as if the bison is a guardian of the skies.",
+      "description": "The scene depicts a surreal and mystical setting where a large white bison appears to be part of the clouds. The sky is filled with dense, fluffy clouds, creating a dreamlike atmosphere.",
+      "labels": {
+        "animals": [
+          "bison"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "horns"
+        ],
+        "emotions": [
+          "mystical",
+          "powerful"
+        ],
+        "scenes": [
+          "surreal",
+          "ethereal"
+        ],
+        "concepts": [
+          "guardian",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bison. Nature: clouds, sky. Objects: horns. Emotions: awe, mystery, mystical, powerful. Scenes: surreal, dreamlike, ethereal. Concepts: mythical, ethereal, guardian",
+  "primary_labels": {
+    "animals": [
+      "bison"
+    ],
+    "nature": [
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "horns"
+    ],
+    "emotions": [
+      "awe",
+      "mystery",
+      "mystical",
+      "powerful"
+    ],
+    "scenes": [
+      "surreal",
+      "dreamlike",
+      "ethereal"
+    ],
+    "concepts": [
+      "mythical",
+      "ethereal",
+      "guardian"
+    ]
+  },
+  "metadata": {}
+}

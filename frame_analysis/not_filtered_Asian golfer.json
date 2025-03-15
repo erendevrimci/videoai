@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Asian golfer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Asian golfer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Asian golfer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands confidently outdoors, wearing a black sports visor and matching athletic top. The background features a blurred cityscape and greenery, suggesting a park or golf course setting.",
+      "description": "The scene captures a serene outdoor environment with a focus on a young woman dressed in athletic attire. The backdrop includes a city skyline and lush greenery, indicating a recreational area.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "grass",
+          "trees"
+        ],
+        "objects": [
+          "visor",
+          "athletic wear"
+        ],
+        "scenes": [
+          "outdoor",
+          "recreational"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "athleticism",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Asian golfer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Asian golfer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands outdoors, smiling broadly and giving a thumbs-up gesture. She is wearing a black visor and a black athletic top, with a blurred cityscape in the background.",
+      "description": "The scene captures a woman in a sporty setting, likely on a golf course, with an urban skyline visible in the distance. The image conveys a sense of positivity and confidence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "visor",
+          "athletic top"
+        ],
+        "actions": [
+          "smiling",
+          "thumbs-up"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "sports",
+          "positivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: grass, trees. Objects: visor, athletic wear, athletic top. Scenes: outdoor, recreational, urban. Emotions: confidence, happiness. Concepts: athleticism, leisure, sports, positivity. Actions: smiling, thumbs-up",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "grass",
+      "trees"
+    ],
+    "objects": [
+      "visor",
+      "athletic wear",
+      "athletic top"
+    ],
+    "scenes": [
+      "outdoor",
+      "recreational",
+      "urban"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "concepts": [
+      "athleticism",
+      "leisure",
+      "sports",
+      "positivity"
+    ],
+    "actions": [
+      "smiling",
+      "thumbs-up"
+    ]
+  },
+  "metadata": {}
+}

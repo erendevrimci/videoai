@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheDogFlySlowly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheDogFlySlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheDogFlySlowly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, fluffy dog is dressed in an elaborate costume with angel wings and a sparkling tutu, sitting on a wooden surface. The dog gazes directly at the camera, exuding a charming and whimsical presence.",
+      "description": "The scene captures a playful and enchanting moment featuring a dog dressed as an angel. The setting appears to be outdoors, possibly on a wooden deck or railing, with soft, natural lighting creating a warm atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "costume",
+          "wings",
+          "tutu",
+          "wooden surface"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "charming",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "fantasy",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheDogFlySlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheDogFlySlowly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog dressed in an elaborate costume sits on a wooden surface. The dog is adorned with angel wings and a sparkling tutu, giving it a whimsical appearance.",
+      "description": "The scene captures a small dog dressed in a fantasy-like costume, sitting on a wooden structure. The background suggests an outdoor setting, possibly in a garden or park.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "costume",
+          "wings",
+          "tutu",
+          "wooden surface"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "fantasy",
+          "dress-up"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheDogFlySlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheDogFlySlowly/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small dog is dressed in an angelic costume, complete with wings and a sparkling collar, lying on a rustic wooden surface. The background is softly blurred, giving the scene a dreamy and whimsical feel.",
+      "description": "The scene captures a playful and imaginative moment with a dog dressed as an angel. The setting appears to be outdoors, possibly in a garden or wooded area, with natural light filtering through.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "wings",
+          "collar",
+          "wooden surface"
+        ],
+        "actions": [
+          "lying"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor",
+          "dreamy"
+        ],
+        "concepts": [
+          "costume",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: wings, wooden surface, costume, tutu, collar. Actions: sitting, lying. Emotions: whimsical, charming, playful. Scenes: outdoor, dreamy. Concepts: fantasy, playfulness, dress-up, costume",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "wings",
+      "wooden surface",
+      "costume",
+      "tutu",
+      "collar"
+    ],
+    "actions": [
+      "sitting",
+      "lying"
+    ],
+    "emotions": [
+      "whimsical",
+      "charming",
+      "playful"
+    ],
+    "scenes": [
+      "outdoor",
+      "dreamy"
+    ],
+    "concepts": [
+      "fantasy",
+      "playfulness",
+      "dress-up",
+      "costume"
+    ]
+  },
+  "metadata": {}
+}

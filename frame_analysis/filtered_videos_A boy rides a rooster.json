@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy rides a rooster.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy rides a rooster.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A boy rides a rooster/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful child is joyfully riding a large, colorful rooster through a vibrant garden. The scene is set in a sunny countryside with a quaint house in the background. Lush green vegetables and a wooden fence add to the idyllic rural setting.",
+      "description": "The image depicts a playful and whimsical scene in a rural setting. A young child is riding a large rooster, surrounded by a garden full of vegetables. The bright sunlight and clear sky enhance the joyful and carefree atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "rooster"
+        ],
+        "nature": [
+          "garden",
+          "vegetables",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "house",
+          "fence"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "countryside",
+          "farm"
+        ],
+        "concepts": [
+          "playfulness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy rides a rooster.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A boy rides a rooster/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful child rides on the back of a large, colorful rooster in a sunny farm setting. The child is smiling broadly, enjoying the playful moment. The scene is vibrant and lively, with a quaint farmhouse and lush garden in the background.",
+      "description": "The scene depicts a whimsical and joyful moment on a farm. A young child is riding a large rooster, surrounded by a garden full of vegetables and a charming farmhouse. The atmosphere is bright and cheerful, evoking a sense of adventure and happiness.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "rooster"
+        ],
+        "nature": [
+          "garden",
+          "farm"
+        ],
+        "objects": [
+          "farmhouse",
+          "vegetables"
+        ],
+        "actions": [
+          "riding",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "farm",
+          "outdoors"
+        ],
+        "concepts": [
+          "playfulness",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: rooster. Nature: garden, vegetables, trees, sky, farm. Objects: house, fence, farmhouse, vegetables. Actions: riding, smiling. Emotions: joyful, cheerful. Scenes: farm, countryside, outdoors. Concepts: playfulness, whimsy, adventure",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "rooster"
+    ],
+    "nature": [
+      "garden",
+      "vegetables",
+      "trees",
+      "sky",
+      "farm"
+    ],
+    "objects": [
+      "house",
+      "fence",
+      "farmhouse",
+      "vegetables"
+    ],
+    "actions": [
+      "riding",
+      "smiling"
+    ],
+    "emotions": [
+      "joyful",
+      "cheerful"
+    ],
+    "scenes": [
+      "farm",
+      "countryside",
+      "outdoors"
+    ],
+    "concepts": [
+      "playfulness",
+      "whimsy",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

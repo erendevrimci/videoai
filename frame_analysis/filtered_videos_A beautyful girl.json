@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautyful girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautyful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautyful girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a black lace dress walks confidently in a modern interior space. She is positioned against a backdrop of exposed brick walls and contemporary furnishings.",
+      "description": "The scene captures a stylish woman walking indoors, showcasing a blend of elegance and modern interior design. The setting features a mix of brick walls and sleek furniture, creating a sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "brick wall",
+          "furniture",
+          "curtain"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "interior",
+          "modern"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautyful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautyful girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a stylish black lace dress walks confidently through a modern, elegant room. Large windows on the right provide ample natural light, highlighting the room's sleek design and decor.",
+      "description": "The scene is set in a contemporary, well-furnished room with a minimalist aesthetic. The woman is walking gracefully, suggesting a sense of poise and confidence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "chair",
+          "table",
+          "windows",
+          "decor"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "interior",
+          "modern room"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautyful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautyful girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a black lace dress walks gracefully through a modern dining area. She holds a small flower in her hand, adding a touch of elegance to the scene.",
+      "description": "The scene is set in a contemporary dining room with large windows allowing natural light to flood in. The woman appears to be moving through the space with poise, creating a serene and sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "flower",
+          "chairs",
+          "table",
+          "windows"
+        ],
+        "actions": [
+          "walking",
+          "holding"
+        ],
+        "emotions": [
+          "elegance",
+          "serenity"
+        ],
+        "scenes": [
+          "dining room",
+          "modern interior"
+        ],
+        "concepts": [
+          "grace",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, table, windows, brick wall, furniture. Actions: walking, holding. Emotions: confidence, elegance, serenity. Scenes: interior, modern, modern room, dining room, modern interior. Concepts: fashion, elegance, style, grace, sophistication",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "table",
+      "windows",
+      "brick wall",
+      "furniture"
+    ],
+    "actions": [
+      "walking",
+      "holding"
+    ],
+    "emotions": [
+      "confidence",
+      "elegance",
+      "serenity"
+    ],
+    "scenes": [
+      "interior",
+      "modern",
+      "modern room",
+      "dining room",
+      "modern interior"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "style",
+      "grace",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

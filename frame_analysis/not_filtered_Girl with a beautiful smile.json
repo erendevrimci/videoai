@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl with a beautiful smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl with a beautiful smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Girl with a beautiful smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands in a snowy park, wearing a warm coat and a knitted scarf. The background is filled with snow-covered trees and a blurred cityscape, suggesting a serene winter day.",
+      "description": "The scene captures a peaceful winter setting in a park, with a focus on a woman dressed warmly for the cold weather. The snow-covered trees and distant city buildings create a tranquil and picturesque atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "snow"
+        ],
+        "objects": [
+          "coat",
+          "scarf"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "winter"
+        ],
+        "concepts": [
+          "winter fashion",
+          "urban nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl with a beautiful smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Girl with a beautiful smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands outdoors on a snowy day, wearing a warm coat and a chunky knitted scarf. The background features snow-covered trees and a blurred urban setting, suggesting a city park in winter.",
+      "description": "The scene captures a serene winter day in a city park. The woman is dressed warmly, indicating cold weather, and the snow on the ground and trees adds a peaceful, wintry atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "snow"
+        ],
+        "objects": [
+          "coat",
+          "scarf"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "city park",
+          "winter"
+        ],
+        "concepts": [
+          "winter fashion",
+          "urban nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees, snow. Objects: coat, scarf. Emotions: calm, serene, contentment. Scenes: winter, park, city park. Concepts: winter fashion, urban nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees",
+      "snow"
+    ],
+    "objects": [
+      "coat",
+      "scarf"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "contentment"
+    ],
+    "scenes": [
+      "winter",
+      "park",
+      "city park"
+    ],
+    "concepts": [
+      "winter fashion",
+      "urban nature"
+    ]
+  },
+  "metadata": {}
+}

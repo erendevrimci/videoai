@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A2kQualityVideoDepicts.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A2kQualityVideoDepicts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A2kQualityVideoDepicts/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene features a sleeping baby dressed in a cozy pink knit outfit, complete with a hat that has bear ears. The baby is cuddling a fluffy kitten, both resting peacefully against a soft, pink background with gentle bokeh lights.",
+      "description": "The image captures a tranquil moment of a baby and a kitten sleeping together. The setting is warm and comforting, with a focus on softness and tranquility.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "knit outfit",
+          "hat",
+          "blanket"
+        ],
+        "actions": [
+          "sleeping",
+          "cuddling"
+        ],
+        "emotions": [
+          "peaceful",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "innocence",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A2kQualityVideoDepicts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A2kQualityVideoDepicts/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleeping baby, dressed in a cozy pink knit outfit with bear ears, cuddles a small kitten. The scene is bathed in soft, warm lighting, creating a serene and tender atmosphere.",
+      "description": "The image depicts a peaceful moment where a baby and a kitten are sleeping together. The setting is intimate and warm, with a soft pink background that enhances the gentle mood.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "knit outfit"
+        ],
+        "emotions": [
+          "peaceful",
+          "tender"
+        ],
+        "scenes": [
+          "cozy",
+          "intimate"
+        ],
+        "concepts": [
+          "innocence",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: kitten. Objects: knit outfit, hat, blanket. Actions: sleeping, cuddling. Emotions: peaceful, serene, tender. Scenes: cozy, indoor, intimate. Concepts: innocence, comfort",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "knit outfit",
+      "hat",
+      "blanket"
+    ],
+    "actions": [
+      "sleeping",
+      "cuddling"
+    ],
+    "emotions": [
+      "peaceful",
+      "serene",
+      "tender"
+    ],
+    "scenes": [
+      "cozy",
+      "indoor",
+      "intimate"
+    ],
+    "concepts": [
+      "innocence",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

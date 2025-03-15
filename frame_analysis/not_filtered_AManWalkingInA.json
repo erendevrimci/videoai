@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManWalkingInA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManWalkingInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManWalkingInA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man walks down a bustling city street, surrounded by tall buildings and trees with autumn foliage. He carries a backpack and appears to be deep in thought as he moves forward.",
+      "description": "The scene captures a city street during the day, with a focus on a young man walking amidst the urban environment. The atmosphere is lively yet contemplative, with a mix of natural and architectural elements.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "nature": [
+          "trees",
+          "autumn foliage"
+        ],
+        "objects": [
+          "backpack",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "urban life",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManWalkingInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManWalkingInA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man walks confidently down a bustling city street, surrounded by tall buildings and trees with autumn foliage. He wears a casual jacket and carries a backpack, suggesting he might be a student or a traveler.",
+      "description": "The scene depicts a city street during daytime, with a focus on a young man walking amidst an urban environment. The background shows blurred figures and vehicles, indicating a lively and busy atmosphere.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "nature": [
+          "trees",
+          "autumn foliage"
+        ],
+        "objects": [
+          "backpack",
+          "jacket"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "city street",
+          "urban environment"
+        ],
+        "concepts": [
+          "travel",
+          "daily life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young man. Nature: trees, autumn foliage. Objects: backpack, buildings, jacket. Actions: walking. Emotions: contemplative, confident. Scenes: city street, urban environment. Concepts: urban life, solitude, travel, daily life",
+  "primary_labels": {
+    "people": [
+      "young man"
+    ],
+    "nature": [
+      "trees",
+      "autumn foliage"
+    ],
+    "objects": [
+      "backpack",
+      "buildings",
+      "jacket"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "contemplative",
+      "confident"
+    ],
+    "scenes": [
+      "city street",
+      "urban environment"
+    ],
+    "concepts": [
+      "urban life",
+      "solitude",
+      "travel",
+      "daily life"
+    ]
+  },
+  "metadata": {}
+}

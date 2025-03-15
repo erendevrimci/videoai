@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smilling.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smilling.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smilling/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, straight hair is seated inside a car, looking directly at the camera. She is wearing a black, sleeveless top and appears composed and serene.",
+      "description": "The scene is set inside a car, with a woman sitting in the passenger seat. The background shows part of the car's interior and a glimpse of the outside through the window.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "car seat"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "interior",
+          "car interior"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smilling.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smilling/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, straight hair smiles warmly while seated inside a car. She is wearing a black, sleeveless top with ruffle details, and the car's interior is visible around her.",
+      "description": "The scene is set inside a car, with the woman as the focal point. The lighting is soft, highlighting her features and creating a relaxed atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "top"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "car interior"
+        ],
+        "concepts": [
+          "portrait",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: car, car seat, top. Actions: sitting, smiling. Emotions: calm, happiness, contentment. Scenes: car interior, interior. Concepts: portrait, casual",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "car",
+      "car seat",
+      "top"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "calm",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "car interior",
+      "interior"
+    ],
+    "concepts": [
+      "portrait",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 11.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 11.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 11/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene lake is surrounded by lush trees with vibrant yellow foliage, reflecting beautifully on the calm water. The tranquil scene captures the essence of a peaceful autumn day in nature.",
+      "description": "The image depicts a tranquil lake bordered by trees with autumnal yellow leaves. The water is calm, reflecting the trees and sky, creating a mirror-like effect. The setting suggests a peaceful, natural environment, possibly in a forested area during fall.",
+      "labels": {
+        "nature": [
+          "lake",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "water",
+          "reflection"
+        ],
+        "scenes": [
+          "autumn",
+          "forest",
+          "nature"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 11.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 11/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene lake reflects the vibrant autumn foliage of trees lining its banks. The golden leaves create a striking contrast against the deep blue water, while sunlight dances on the surface. The scene is tranquil and picturesque, capturing the essence of a peaceful autumn day.",
+      "description": "The scene depicts a tranquil lake surrounded by trees with autumn foliage. The reflection of the trees in the water adds depth, and the sunlight creates a shimmering effect on the lake's surface.",
+      "labels": {
+        "nature": [
+          "lake",
+          "trees",
+          "autumn foliage"
+        ],
+        "objects": [
+          "leaves",
+          "water"
+        ],
+        "actions": [
+          "reflection",
+          "sunlight shimmering"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "autumn landscape",
+          "natural scenery"
+        ],
+        "concepts": [
+          "tranquility",
+          "seasonal change"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: lake, trees, foliage, autumn foliage. Objects: water, reflection, leaves. Scenes: autumn, forest, nature, autumn landscape, natural scenery. Emotions: serenity, peacefulness. Actions: reflection, sunlight shimmering. Concepts: tranquility, seasonal change",
+  "primary_labels": {
+    "nature": [
+      "lake",
+      "trees",
+      "foliage",
+      "autumn foliage"
+    ],
+    "objects": [
+      "water",
+      "reflection",
+      "leaves"
+    ],
+    "scenes": [
+      "autumn",
+      "forest",
+      "nature",
+      "autumn landscape",
+      "natural scenery"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness"
+    ],
+    "actions": [
+      "reflection",
+      "sunlight shimmering"
+    ],
+    "concepts": [
+      "tranquility",
+      "seasonal change"
+    ]
+  },
+  "metadata": {}
+}

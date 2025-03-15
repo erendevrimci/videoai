@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/insulation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/insulation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/insulation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature construction scene depicts tiny workers diligently painting and repairing a small model house. The workers, wearing yellow hard hats and blue overalls, are positioned on scaffolding and the roof, applying white paint to the structure. The scene captures a detailed and playful representation of a construction site.",
+      "description": "The image shows a detailed miniature construction scene with tiny figures working on a model house. The setting is likely a tabletop or diorama, emphasizing the craftsmanship and creativity involved in creating such a detailed model.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "model house",
+          "scaffolding",
+          "paint bucket",
+          "hard hats"
+        ],
+        "actions": [
+          "painting",
+          "repairing"
+        ],
+        "emotions": [
+          "diligence"
+        ],
+        "scenes": [
+          "construction site",
+          "miniature model"
+        ],
+        "concepts": [
+          "miniature craftsmanship",
+          "model building"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/insulation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/insulation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature construction workers are actively engaged in building a small model house. They are positioned on scaffolding and the roof, applying plaster and paint to the structure. The scene captures a detailed and lively construction process in miniature form.",
+      "description": "The scene depicts a miniature construction site where tiny figures are working on a model house. The workers are wearing hard hats and are engaged in various tasks such as plastering and painting, showcasing a detailed and intricate model-building process.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "model house",
+          "scaffolding",
+          "paint",
+          "plaster"
+        ],
+        "actions": [
+          "building",
+          "plastering",
+          "painting"
+        ],
+        "scenes": [
+          "construction site",
+          "model building"
+        ],
+        "concepts": [
+          "miniature",
+          "construction",
+          "model making"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: model house, scaffolding, paint bucket, hard hats, paint. Actions: painting, repairing, building, plastering. Emotions: diligence. Scenes: construction site, miniature model, model building. Concepts: miniature craftsmanship, model building, miniature, construction, model making",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "model house",
+      "scaffolding",
+      "paint bucket",
+      "hard hats",
+      "paint"
+    ],
+    "actions": [
+      "painting",
+      "repairing",
+      "building",
+      "plastering"
+    ],
+    "emotions": [
+      "diligence"
+    ],
+    "scenes": [
+      "construction site",
+      "miniature model",
+      "model building"
+    ],
+    "concepts": [
+      "miniature craftsmanship",
+      "model building",
+      "miniature",
+      "construction",
+      "model making"
+    ]
+  },
+  "metadata": {}
+}

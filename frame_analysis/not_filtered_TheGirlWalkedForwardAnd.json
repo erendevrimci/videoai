@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalkedForwardAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalkedForwardAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlWalkedForwardAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in a sunlit outdoor setting, wearing a flowing beige robe with a hood. Her expression is calm and composed, and she is adorned with jewelry including a necklace and earrings.",
+      "description": "The scene depicts a woman in a historical or cultural setting, possibly in a desert or ancient city. The background features blurred stone structures, suggesting an ancient or historical context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "robe",
+          "jewelry",
+          "necklace",
+          "earrings"
+        ],
+        "nature": [
+          "sunlight"
+        ],
+        "scenes": [
+          "historical",
+          "outdoor"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalkedForwardAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlWalkedForwardAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands in an ancient, sunlit setting, wearing a light-colored hooded garment. Her expression is serene as she gazes towards the camera, with stone structures visible in the background.",
+      "description": "The scene depicts a woman in a historical or desert-like setting, possibly an ancient city or archaeological site. The lighting is bright and natural, suggesting a warm, sunny day.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "desert"
+        ],
+        "objects": [
+          "hooded garment",
+          "stone structures"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "ancient setting",
+          "historical site"
+        ],
+        "concepts": [
+          "heritage",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: robe, jewelry, necklace, earrings, hooded garment. Nature: sunlight, desert. Scenes: historical, outdoor, ancient setting, historical site. Emotions: calm, composed, serene. Concepts: heritage, culture",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "robe",
+      "jewelry",
+      "necklace",
+      "earrings",
+      "hooded garment"
+    ],
+    "nature": [
+      "sunlight",
+      "desert"
+    ],
+    "scenes": [
+      "historical",
+      "outdoor",
+      "ancient setting",
+      "historical site"
+    ],
+    "emotions": [
+      "calm",
+      "composed",
+      "serene"
+    ],
+    "concepts": [
+      "heritage",
+      "culture"
+    ]
+  },
+  "metadata": {}
+}

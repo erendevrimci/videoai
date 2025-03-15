@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aquatic Harmony.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aquatic Harmony.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aquatic Harmony/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic robot with a transparent helmet containing a small aquatic ecosystem, including several goldfish and green plants. The robot stands in a serene forest setting, blending technology with nature.",
+      "description": "The scene depicts a high-tech robot in a forest, featuring a unique helmet that houses an aquatic environment with goldfish and plants. This juxtaposition of technology and nature creates a harmonious and thought-provoking image.",
+      "labels": {
+        "objects": [
+          "robot",
+          "helmet",
+          "aquarium",
+          "goldfish",
+          "plants"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity",
+          "harmony"
+        ],
+        "scenes": [
+          "futuristic",
+          "nature"
+        ],
+        "concepts": [
+          "technology",
+          "nature integration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aquatic Harmony.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aquatic Harmony/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot stands in a forest, its helmet resembling an aquarium filled with vibrant orange fish and greenery. The robot's metallic body contrasts with the natural setting, creating a surreal blend of technology and nature.",
+      "description": "The scene depicts a unique fusion of technology and nature, where a humanoid robot with an aquarium-like helmet containing fish and plants is set against a blurred forest background. This juxtaposition highlights the harmony between artificial and natural elements.",
+      "labels": {
+        "objects": [
+          "robot",
+          "helmet",
+          "aquarium",
+          "fish",
+          "plants"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "futuristic",
+          "natural"
+        ],
+        "concepts": [
+          "technology",
+          "nature",
+          "harmony",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aquatic Harmony.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aquatic Harmony/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic robot stands in a forest, its helmet designed as a transparent aquarium housing vibrant orange fish and lush green plants. The robot's metallic body contrasts with the natural elements inside its helmet, creating a striking blend of technology and nature.",
+      "description": "The scene depicts a robot in a forest setting, featuring a unique helmet that serves as an aquarium. The combination of artificial and natural elements suggests a harmonious coexistence between technology and the environment.",
+      "labels": {
+        "objects": [
+          "robot",
+          "helmet",
+          "aquarium",
+          "plants"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "forest",
+          "plants"
+        ],
+        "scenes": [
+          "futuristic",
+          "nature"
+        ],
+        "concepts": [
+          "technology",
+          "harmony",
+          "coexistence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, helmet, aquarium, plants, goldfish. Nature: forest, trees, plants. Actions: standing. Emotions: serenity, harmony, surreal. Scenes: futuristic, nature, natural. Concepts: technology, harmony, nature integration, nature, juxtaposition. Animals: fish",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "helmet",
+      "aquarium",
+      "plants",
+      "goldfish"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "plants"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "harmony",
+      "surreal"
+    ],
+    "scenes": [
+      "futuristic",
+      "nature",
+      "natural"
+    ],
+    "concepts": [
+      "technology",
+      "harmony",
+      "nature integration",
+      "nature",
+      "juxtaposition"
+    ],
+    "animals": [
+      "fish"
+    ]
+  },
+  "metadata": {}
+}

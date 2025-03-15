@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Studio Ghibli Girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Studio Ghibli Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Studio Ghibli Girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands by a railing overlooking a serene rural landscape. She is dressed casually in a white t-shirt and denim shorts, gazing thoughtfully into the distance. The scene is set against a backdrop of lush greenery, a calm river, and distant mountains under a clear blue sky.",
+      "description": "The image depicts a tranquil rural setting with a young woman as the focal point. She stands by a metal railing, with a small bridge and river visible below. The background features trees, a few houses, and mountains, suggesting a peaceful countryside environment.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "nature": [
+          "trees",
+          "river",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "railing",
+          "bridge",
+          "houses"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "rural",
+          "countryside"
+        ],
+        "concepts": [
+          "serenity",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Studio Ghibli Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Studio Ghibli Girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with short brown hair and large expressive eyes stands smiling in the foreground, leaning on a railing. Behind her, a serene river flows through a picturesque town with charming houses and lush greenery, set against a backdrop of majestic mountains under a clear blue sky.",
+      "description": "The scene depicts a peaceful and idyllic setting in a small town by a river, with a young woman enjoying the view. The atmosphere is calm and cheerful, with vibrant natural surroundings and a clear day.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "nature": [
+          "river",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "railing",
+          "houses",
+          "sign"
+        ],
+        "actions": [
+          "smiling",
+          "leaning"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "town",
+          "outdoor"
+        ],
+        "concepts": [
+          "serenity",
+          "idyllic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman. Nature: trees, river, mountains, sky. Objects: railing, houses, bridge, sign. Actions: standing, gazing, smiling, leaning. Emotions: thoughtful, happiness. Scenes: rural, countryside, town, outdoor. Concepts: serenity, tranquility, idyllic",
+  "primary_labels": {
+    "people": [
+      "young woman"
+    ],
+    "nature": [
+      "trees",
+      "river",
+      "mountains",
+      "sky"
+    ],
+    "objects": [
+      "railing",
+      "houses",
+      "bridge",
+      "sign"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "smiling",
+      "leaning"
+    ],
+    "emotions": [
+      "thoughtful",
+      "happiness"
+    ],
+    "scenes": [
+      "rural",
+      "countryside",
+      "town",
+      "outdoor"
+    ],
+    "concepts": [
+      "serenity",
+      "tranquility",
+      "idyllic"
+    ]
+  },
+  "metadata": {}
+}

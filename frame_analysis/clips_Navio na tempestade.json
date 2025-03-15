@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Navio na tempestade.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Navio na tempestade.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Navio na tempestade/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic sailing ship navigates through turbulent ocean waves under a stormy sky. The ship's sails are fully unfurled, catching the wind as it cuts through the choppy waters.",
+      "description": "The scene depicts a classic sailing ship battling the elements in the open sea. The setting is dramatic, with dark clouds looming overhead and waves crashing against the ship's hull.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "waves",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "sailing ship",
+          "sails"
+        ],
+        "actions": [
+          "sailing",
+          "navigating"
+        ],
+        "emotions": [
+          "dramatic",
+          "adventurous"
+        ],
+        "scenes": [
+          "sea voyage",
+          "stormy sea"
+        ],
+        "concepts": [
+          "exploration",
+          "maritime adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Navio na tempestade.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Navio na tempestade/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic sailing ship navigates through turbulent ocean waters under a stormy sky. The ship's sails are fully unfurled, catching the wind as it cuts through the waves.",
+      "description": "The scene depicts a large, historical sailing ship battling against rough seas. The atmosphere is dramatic, with dark clouds looming overhead and waves crashing against the ship's hull.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "waves",
+          "clouds"
+        ],
+        "objects": [
+          "sailing ship",
+          "sails"
+        ],
+        "actions": [
+          "sailing",
+          "navigating"
+        ],
+        "emotions": [
+          "dramatic",
+          "intense"
+        ],
+        "scenes": [
+          "stormy sea",
+          "maritime"
+        ],
+        "concepts": [
+          "adventure",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: ocean, waves, clouds, sky. Objects: sailing ship, sails. Actions: sailing, navigating. Emotions: dramatic, adventurous, intense. Scenes: stormy sea, sea voyage, maritime. Concepts: exploration, maritime adventure, adventure",
+  "primary_labels": {
+    "nature": [
+      "ocean",
+      "waves",
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "sailing ship",
+      "sails"
+    ],
+    "actions": [
+      "sailing",
+      "navigating"
+    ],
+    "emotions": [
+      "dramatic",
+      "adventurous",
+      "intense"
+    ],
+    "scenes": [
+      "stormy sea",
+      "sea voyage",
+      "maritime"
+    ],
+    "concepts": [
+      "exploration",
+      "maritime adventure",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

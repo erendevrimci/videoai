@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/That's so great.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/That's so great.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/That's so great/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, flowing hair walks confidently through a sunlit park. She is wearing a white blouse and beige pants, with a serene expression on her face.",
+      "description": "The scene is set in a lush, green park on a sunny day. The woman is the focal point, walking towards the camera with trees and grass in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "grass"
+        ],
+        "objects": [
+          "blouse",
+          "pants",
+          "belt"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "park"
+        ],
+        "concepts": [
+          "confidence",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/That's so great.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/That's so great/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is standing outdoors in a park, smiling warmly at the camera. She is wearing a white blouse and beige pants, with lush greenery in the background.",
+      "description": "The scene is set in a sunny park with a woman standing in the foreground. The background features trees and a pathway, suggesting a serene and natural environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "park"
+        ],
+        "objects": [
+          "blouse",
+          "pants"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "park"
+        ],
+        "concepts": [
+          "serenity",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees, grass, park. Objects: blouse, pants, belt. Actions: walking, standing, smiling. Emotions: serene, happiness. Scenes: park, outdoor. Concepts: confidence, casual, serenity, nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees",
+      "grass",
+      "park"
+    ],
+    "objects": [
+      "blouse",
+      "pants",
+      "belt"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "serene",
+      "happiness"
+    ],
+    "scenes": [
+      "park",
+      "outdoor"
+    ],
+    "concepts": [
+      "confidence",
+      "casual",
+      "serenity",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

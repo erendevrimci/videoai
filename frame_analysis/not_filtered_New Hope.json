@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New Hope.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New Hope.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/New Hope/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person walks towards an open door, bathed in a warm, golden light. The silhouette of the individual is framed against the bright glow emanating from the doorway, creating a striking contrast with the dimly lit room.",
+      "description": "The scene depicts a person moving towards an open door that leads to a brightly lit area. The setting suggests a transition from darkness to light, symbolizing a journey or new beginning.",
+      "labels": {
+        "people": [
+          "silhouette"
+        ],
+        "objects": [
+          "door"
+        ],
+        "actions": [
+          "walking",
+          "approaching"
+        ],
+        "emotions": [
+          "anticipation",
+          "curiosity"
+        ],
+        "scenes": [
+          "interior",
+          "transition"
+        ],
+        "concepts": [
+          "journey",
+          "new beginning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New Hope.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/New Hope/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands silhouetted in a doorway, bathed in warm, golden light. The open door reveals a bright, inviting space beyond, contrasting with the shadowy interior.",
+      "description": "The scene depicts a person standing in a doorway, with their back to the viewer. The warm light from the open door creates a dramatic silhouette, suggesting a transition from darkness to light.",
+      "labels": {
+        "people": [
+          "silhouette",
+          "person"
+        ],
+        "objects": [
+          "door",
+          "doorway"
+        ],
+        "actions": [
+          "standing",
+          "opening door"
+        ],
+        "emotions": [
+          "anticipation",
+          "curiosity"
+        ],
+        "scenes": [
+          "interior",
+          "threshold"
+        ],
+        "concepts": [
+          "transition",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: silhouette, person. Objects: door, doorway. Actions: walking, approaching, standing, opening door. Emotions: anticipation, curiosity. Scenes: interior, transition, threshold. Concepts: journey, new beginning, transition, mystery",
+  "primary_labels": {
+    "people": [
+      "silhouette",
+      "person"
+    ],
+    "objects": [
+      "door",
+      "doorway"
+    ],
+    "actions": [
+      "walking",
+      "approaching",
+      "standing",
+      "opening door"
+    ],
+    "emotions": [
+      "anticipation",
+      "curiosity"
+    ],
+    "scenes": [
+      "interior",
+      "transition",
+      "threshold"
+    ],
+    "concepts": [
+      "journey",
+      "new beginning",
+      "transition",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

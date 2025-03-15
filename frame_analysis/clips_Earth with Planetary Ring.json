@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Earth with Planetary Ring.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Earth with Planetary Ring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Earth with Planetary Ring/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dramatic cosmic scene depicts a planet with a fiery crack, surrounded by glowing rings and asteroids. The backdrop features a vibrant galaxy with stars and nebulae, creating a sense of cosmic chaos. The lighting highlights the planet's surface and the surrounding space debris.",
+      "description": "The image captures a dynamic and intense space scene, focusing on a planet undergoing a cataclysmic event. The planet is shown with a prominent crack emitting bright, fiery light, and is encircled by luminous rings. The surrounding space is filled with asteroids and a colorful galaxy, suggesting a setting in deep space.",
+      "labels": {
+        "nature": [
+          "planet",
+          "galaxy",
+          "nebula",
+          "asteroids"
+        ],
+        "objects": [
+          "rings",
+          "crack"
+        ],
+        "actions": [
+          "cracking",
+          "glowing"
+        ],
+        "emotions": [
+          "chaos",
+          "intensity"
+        ],
+        "scenes": [
+          "space",
+          "cosmic"
+        ],
+        "concepts": [
+          "cataclysm",
+          "cosmic event"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Earth with Planetary Ring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Earth with Planetary Ring/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic cosmic scene depicts a planet with a fiery crack splitting its surface, surrounded by a glowing ring of fire. Nearby, smaller celestial bodies and asteroids float amidst a backdrop of stars and a distant galaxy. The scene is illuminated by a bright light source, possibly a sun, casting a warm glow over the cosmic landscape.",
+      "description": "The image portrays a vivid and intense space scene, featuring a planet undergoing a cataclysmic event. The planet is shown with a large, fiery fissure and encircled by a ring of flames, suggesting a catastrophic event. The surrounding space is populated with asteroids and distant planets, set against a starry background with a visible galaxy.",
+      "labels": {
+        "nature": [
+          "planet",
+          "asteroids",
+          "galaxy",
+          "stars"
+        ],
+        "objects": [
+          "ring of fire",
+          "fissure"
+        ],
+        "actions": [
+          "cracking",
+          "floating"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "cosmic",
+          "cataclysmic"
+        ],
+        "concepts": [
+          "space",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: planet, galaxy, asteroids, nebula, stars. Objects: rings, crack, ring of fire, fissure. Actions: cracking, glowing, floating. Emotions: intensity, chaos, drama. Scenes: cosmic, space, cataclysmic. Concepts: cataclysm, cosmic event, space, destruction",
+  "primary_labels": {
+    "nature": [
+      "planet",
+      "galaxy",
+      "asteroids",
+      "nebula",
+      "stars"
+    ],
+    "objects": [
+      "rings",
+      "crack",
+      "ring of fire",
+      "fissure"
+    ],
+    "actions": [
+      "cracking",
+      "glowing",
+      "floating"
+    ],
+    "emotions": [
+      "intensity",
+      "chaos",
+      "drama"
+    ],
+    "scenes": [
+      "cosmic",
+      "space",
+      "cataclysmic"
+    ],
+    "concepts": [
+      "cataclysm",
+      "cosmic event",
+      "space",
+      "destruction"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Animated video of a gray kitten.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Animated video of a gray kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Animated video of a gray kitten/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy gray cat with large green eyes sits on a windowsill, gazing curiously at a fish-shaped clock. Sunlight streams through the window, casting a warm glow over the cozy room. Books and a stuffed fish toy are visible in the background, adding to the homely atmosphere.",
+      "description": "The scene is set in a cozy, well-lit room with a window that allows sunlight to filter in, creating a warm and inviting atmosphere. A curious cat is the focal point, observing a uniquely designed clock shaped like a fish.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "clock",
+          "books",
+          "stuffed toy",
+          "curtain"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy room"
+        ],
+        "concepts": [
+          "home",
+          "curiosity",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Animated video of a gray kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Animated video of a gray kitten/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy gray kitten with large green eyes sits on a windowsill, gazing curiously at a fish-shaped clock. Sunlight streams through the window, casting a warm glow on the scene. Books and a toy fish are visible in the background, adding to the cozy atmosphere.",
+      "description": "The scene is set in a cozy room with a window overlooking a sunlit garden. A kitten is the focal point, sitting on a wooden windowsill next to a whimsical fish-shaped clock. The room is decorated with books and a toy fish, creating a playful and warm environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "clock",
+          "books",
+          "toy fish",
+          "curtains",
+          "windowsill"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy room"
+        ],
+        "concepts": [
+          "curiosity",
+          "playfulness",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, kitten. Objects: clock, books, stuffed toy, curtain, toy fish. Actions: sitting, gazing. Emotions: curiosity. Scenes: indoor, cozy room. Concepts: curiosity, home, comfort, playfulness, warmth",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "kitten"
+    ],
+    "objects": [
+      "clock",
+      "books",
+      "stuffed toy",
+      "curtain",
+      "toy fish"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy room"
+    ],
+    "concepts": [
+      "curiosity",
+      "home",
+      "comfort",
+      "playfulness",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

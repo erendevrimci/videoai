@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shepherd with love to doberman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shepherd with love to doberman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shepherd with love to doberman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large German Shepherd and a smaller Doberman puppy are playfully interacting on a grassy field. The German Shepherd is lying down, while the Doberman puppy looks up at it with curiosity and affection.",
+      "description": "The scene captures a tender moment between two dogs, a German Shepherd and a Doberman puppy, in an outdoor setting. The interaction suggests a bond or playful relationship between the two animals.",
+      "labels": {
+        "animals": [
+          "German Shepherd",
+          "Doberman puppy"
+        ],
+        "nature": [
+          "grass"
+        ],
+        "actions": [
+          "interacting",
+          "lying down"
+        ],
+        "emotions": [
+          "affection",
+          "curiosity"
+        ],
+        "scenes": [
+          "outdoor",
+          "playful"
+        ],
+        "objects": [
+          "collar"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shepherd with love to doberman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shepherd with love to doberman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A German Shepherd and a small puppy sit closely together on a grassy field, gazing at each other with gentle expressions. The larger dog lies down while the puppy sits upright, creating a heartwarming scene of companionship.",
+      "description": "The scene captures a tender moment between a German Shepherd and a puppy in an outdoor setting. The background is blurred, emphasizing the bond between the two dogs in the foreground.",
+      "labels": {
+        "animals": [
+          "German Shepherd",
+          "puppy"
+        ],
+        "nature": [
+          "grass"
+        ],
+        "objects": [],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "companionship",
+          "affection"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "bonding",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: German Shepherd, Doberman puppy, puppy. Nature: grass. Actions: interacting, lying down, sitting, gazing. Emotions: affection, curiosity, companionship. Scenes: outdoor, playful, nature. Objects: collar. Concepts: bonding, friendship",
+  "primary_labels": {
+    "animals": [
+      "German Shepherd",
+      "Doberman puppy",
+      "puppy"
+    ],
+    "nature": [
+      "grass"
+    ],
+    "actions": [
+      "interacting",
+      "lying down",
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "affection",
+      "curiosity",
+      "companionship"
+    ],
+    "scenes": [
+      "outdoor",
+      "playful",
+      "nature"
+    ],
+    "objects": [
+      "collar"
+    ],
+    "concepts": [
+      "bonding",
+      "friendship"
+    ]
+  },
+  "metadata": {}
+}

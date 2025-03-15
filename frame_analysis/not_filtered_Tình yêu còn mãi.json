@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T\u00ecnh y\u00eau c\u00f2n m\u00e3i.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T\u00ecnh y\u00eau c\u00f2n m\u00e3i.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/T\u00ecnh y\u00eau c\u00f2n m\u00e3i/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features two elderly individuals, a man and a woman, posed side by side against a plain blue background. The man is dressed in a formal suit and tie, while the woman wears a traditional outfit with intricate patterns and a necklace.",
+      "description": "This is a formal portrait of an elderly couple. The setting is simple, with a plain blue background, emphasizing the individuals' expressions and attire.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "elderly woman"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "traditional outfit",
+          "necklace"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "formal",
+          "traditional"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T\u00ecnh y\u00eau c\u00f2n m\u00e3i.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/T\u00ecnh y\u00eau c\u00f2n m\u00e3i/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly couple is embracing warmly, both smiling joyfully at the camera. The man is wearing a suit and tie, while the woman is dressed in a blue outfit, both exuding a sense of happiness and togetherness.",
+      "description": "The scene captures a close-up of an elderly couple in a loving embrace, set against a simple blue background. Their expressions convey warmth and affection, highlighting a moment of joy and companionship.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "elderly woman"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "blue outfit"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "togetherness",
+          "love",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man, elderly woman. Objects: suit, tie, traditional outfit, necklace, blue outfit. Emotions: calm, happiness, affection. Scenes: portrait. Concepts: formal, traditional, togetherness, love, companionship. Actions: embracing, smiling",
+  "primary_labels": {
+    "people": [
+      "elderly man",
+      "elderly woman"
+    ],
+    "objects": [
+      "suit",
+      "tie",
+      "traditional outfit",
+      "necklace",
+      "blue outfit"
+    ],
+    "emotions": [
+      "calm",
+      "happiness",
+      "affection"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "formal",
+      "traditional",
+      "togetherness",
+      "love",
+      "companionship"
+    ],
+    "actions": [
+      "embracing",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

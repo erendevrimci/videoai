@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini House.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini House.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini House/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a detailed miniature scene inside a large, hollowed-out egg-shaped structure. Tiny figures of construction workers are busy at various levels, engaged in building activities within the intricately designed interior that resembles a multi-story building.",
+      "description": "This is a whimsical and imaginative scene set inside a large, egg-shaped sculpture with a cutaway view revealing a bustling construction site. The interior is crafted to look like a multi-level building with workers actively engaged in construction tasks.",
+      "labels": {
+        "people": [
+          "construction workers"
+        ],
+        "objects": [
+          "egg-shaped structure",
+          "miniature building",
+          "construction equipment"
+        ],
+        "actions": [
+          "building",
+          "construction"
+        ],
+        "emotions": [
+          "busy",
+          "industrious"
+        ],
+        "scenes": [
+          "miniature scene",
+          "construction site"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini House.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini House/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical sculpture depicts a cross-section of a large, egg-shaped structure with multiple floors. Inside, miniature figures wearing construction helmets are engaged in various activities, suggesting a bustling construction site. The exterior of the egg is textured and green, while the interior reveals detailed architectural elements and warm lighting.",
+      "description": "The scene is set in a fantastical, miniature world where a large, egg-shaped structure houses a multi-level construction site. The figures are actively working, creating a sense of industry and collaboration. The setting is imaginative, blending elements of architecture and nature in a unique artistic display.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "construction workers"
+        ],
+        "objects": [
+          "egg-shaped structure",
+          "construction helmets",
+          "architectural elements"
+        ],
+        "actions": [
+          "building",
+          "working",
+          "collaborating"
+        ],
+        "emotions": [
+          "industrious",
+          "collaborative"
+        ],
+        "scenes": [
+          "construction site",
+          "miniature world"
+        ],
+        "concepts": [
+          "fantasy",
+          "artistic sculpture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: construction workers, miniature figures. Objects: egg-shaped structure, miniature building, construction equipment, construction helmets, architectural elements. Actions: building, construction, working, collaborating. Emotions: industrious, busy, collaborative. Scenes: construction site, miniature scene, miniature world. Concepts: creativity, imagination, fantasy, artistic sculpture",
+  "primary_labels": {
+    "people": [
+      "construction workers",
+      "miniature figures"
+    ],
+    "objects": [
+      "egg-shaped structure",
+      "miniature building",
+      "construction equipment",
+      "construction helmets",
+      "architectural elements"
+    ],
+    "actions": [
+      "building",
+      "construction",
+      "working",
+      "collaborating"
+    ],
+    "emotions": [
+      "industrious",
+      "busy",
+      "collaborative"
+    ],
+    "scenes": [
+      "construction site",
+      "miniature scene",
+      "miniature world"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "fantasy",
+      "artistic sculpture"
+    ]
+  },
+  "metadata": {}
+}

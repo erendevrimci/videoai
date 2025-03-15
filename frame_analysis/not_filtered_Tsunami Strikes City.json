@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tsunami Strikes City.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tsunami Strikes City.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tsunami Strikes City/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive tsunami wave looms over a bustling cityscape, threatening the high-rise buildings. People and vehicles are seen evacuating the city via a crowded bridge under a dark, stormy sky.",
+      "description": "The scene depicts a dramatic and chaotic evacuation as a gigantic wave approaches a densely populated urban area. The atmosphere is tense and urgent, with people and cars moving frantically to escape the impending disaster.",
+      "labels": {
+        "nature": [
+          "tsunami",
+          "ocean",
+          "stormy sky"
+        ],
+        "objects": [
+          "buildings",
+          "bridge",
+          "vehicles"
+        ],
+        "actions": [
+          "evacuation",
+          "driving",
+          "flying"
+        ],
+        "emotions": [
+          "panic",
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "concepts": [
+          "natural disaster",
+          "apocalypse"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tsunami Strikes City.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tsunami Strikes City/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene unfolds as a helicopter hovers over a flooded cityscape, with skyscrapers partially submerged in turbulent waters. A large explosion with billowing smoke is visible among the buildings, adding to the chaos. A person in tactical gear is seen from behind, observing the scene from inside the helicopter.",
+      "description": "The image depicts a catastrophic event in a city, likely a natural disaster or attack, with floodwaters engulfing the urban landscape. The presence of a helicopter and a person in tactical gear suggests a rescue or reconnaissance mission.",
+      "labels": {
+        "people": [
+          "person in tactical gear"
+        ],
+        "objects": [
+          "helicopter",
+          "skyscrapers",
+          "explosion",
+          "smoke"
+        ],
+        "actions": [
+          "hovering",
+          "flooding"
+        ],
+        "emotions": [
+          "chaos",
+          "urgency"
+        ],
+        "scenes": [
+          "urban disaster",
+          "flooded city"
+        ],
+        "concepts": [
+          "disaster",
+          "rescue mission"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: tsunami, ocean, stormy sky. Objects: buildings, bridge, vehicles, helicopter, skyscrapers. Actions: evacuation, driving, flying, hovering, flooding. Emotions: urgency, panic, chaos. Scenes: urban, disaster, urban disaster, flooded city. Concepts: natural disaster, apocalypse, disaster, rescue mission. People: person in tactical gear",
+  "primary_labels": {
+    "nature": [
+      "tsunami",
+      "ocean",
+      "stormy sky"
+    ],
+    "objects": [
+      "buildings",
+      "bridge",
+      "vehicles",
+      "helicopter",
+      "skyscrapers"
+    ],
+    "actions": [
+      "evacuation",
+      "driving",
+      "flying",
+      "hovering",
+      "flooding"
+    ],
+    "emotions": [
+      "urgency",
+      "panic",
+      "chaos"
+    ],
+    "scenes": [
+      "urban",
+      "disaster",
+      "urban disaster",
+      "flooded city"
+    ],
+    "concepts": [
+      "natural disaster",
+      "apocalypse",
+      "disaster",
+      "rescue mission"
+    ],
+    "people": [
+      "person in tactical gear"
+    ]
+  },
+  "metadata": {}
+}

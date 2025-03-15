@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Sorfing Racoon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Sorfing Racoon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Sorfing Racoon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A playful raccoon wearing sunglasses and a vibrant floral shirt surfs a wave at sunset. It holds a tropical drink with a small umbrella, adding to the festive atmosphere. Colorful fish leap around, enhancing the lively scene.",
+      "description": "The scene depicts a whimsical raccoon enjoying a surfing adventure on a vibrant ocean wave during a picturesque sunset. The raccoon is dressed in a colorful Hawaiian shirt and sunglasses, exuding a carefree, vacation-like vibe.",
+      "labels": {
+        "animals": [
+          "raccoon",
+          "fish"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "tropical drink",
+          "Hawaiian shirt"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "ocean",
+          "sunset"
+        ],
+        "concepts": [
+          "vacation",
+          "fun",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Sorfing Racoon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Sorfing Racoon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A raccoon wearing sunglasses and a vibrant floral shirt is surfing on a colorful surfboard. It holds a tropical drink with a small umbrella, enjoying the ocean waves. Fish are playfully jumping around in the sunset-lit scene.",
+      "description": "The scene depicts a whimsical raccoon surfing on the ocean, dressed in a Hawaiian shirt and sunglasses, embracing a tropical vibe. The setting is a vibrant, cartoonish beach environment during sunset, with playful fish adding to the lively atmosphere.",
+      "labels": {
+        "animals": [
+          "raccoon",
+          "fish"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "tropical drink",
+          "umbrella"
+        ],
+        "actions": [
+          "surfing",
+          "holding"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "vacation",
+          "tropical",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Sorfing Racoon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Sorfing Racoon/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cheerful raccoon wearing sunglasses and a vibrant Hawaiian shirt surfs on a colorful wave. It holds a tropical drink with a small umbrella, while fish leap joyfully around it. The sunset sky casts a warm glow over the playful scene.",
+      "description": "The scene depicts a whimsical and lively beach setting at sunset, featuring an anthropomorphic raccoon enjoying a surf ride. The atmosphere is playful and vibrant, with bright colors and dynamic movement.",
+      "labels": {
+        "animals": [
+          "raccoon",
+          "fish"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "Hawaiian shirt",
+          "tropical drink"
+        ],
+        "actions": [
+          "surfing",
+          "holding"
+        ],
+        "emotions": [
+          "cheerful",
+          "playful"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "fun",
+          "vacation",
+          "tropical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: raccoon, fish. Objects: surfboard, sunglasses, tropical drink, Hawaiian shirt, umbrella. Actions: surfing, holding. Emotions: playful, joyful, cheerful. Scenes: sunset, beach, ocean. Concepts: vacation, fun, tropical, adventure",
+  "primary_labels": {
+    "animals": [
+      "raccoon",
+      "fish"
+    ],
+    "objects": [
+      "surfboard",
+      "sunglasses",
+      "tropical drink",
+      "Hawaiian shirt",
+      "umbrella"
+    ],
+    "actions": [
+      "surfing",
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "cheerful"
+    ],
+    "scenes": [
+      "sunset",
+      "beach",
+      "ocean"
+    ],
+    "concepts": [
+      "vacation",
+      "fun",
+      "tropical",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

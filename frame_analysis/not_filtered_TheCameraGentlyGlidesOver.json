@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraGentlyGlidesOver.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraGentlyGlidesOver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraGentlyGlidesOver/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in traditional attire stands gracefully on an ornately decorated boat, gazing at the serene sunset over a tranquil river. In the background, monks row a boat, and floating lanterns ascend into the sky, adding to the scene's cultural richness.",
+      "description": "The scene captures a peaceful moment on a river during sunset, likely in a Southeast Asian setting. The presence of traditional boats, monks, and lanterns suggests a cultural or religious event.",
+      "labels": {
+        "people": [
+          "woman",
+          "monks"
+        ],
+        "nature": [
+          "river",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "boat",
+          "lanterns",
+          "lotus"
+        ],
+        "actions": [
+          "standing",
+          "rowing",
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "cultural event",
+          "sunset"
+        ],
+        "concepts": [
+          "tradition",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraGentlyGlidesOver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraGentlyGlidesOver/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene unfolds at sunset as a woman in traditional attire stands on a beautifully ornate boat, observing monks in a smaller vessel. The golden hues of the sky reflect on the water, creating a tranquil atmosphere with floating lanterns and lotus flowers enhancing the scene's beauty.",
+      "description": "The image captures a peaceful moment on a river at sunset, with traditional boats and monks contributing to a culturally rich setting. The scene is likely set in a Southeast Asian country, characterized by the architecture and attire.",
+      "labels": {
+        "people": [
+          "woman",
+          "monks"
+        ],
+        "nature": [
+          "river",
+          "sunset",
+          "lotus flowers"
+        ],
+        "objects": [
+          "boat",
+          "lanterns"
+        ],
+        "actions": [
+          "standing",
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "cultural",
+          "sunset"
+        ],
+        "concepts": [
+          "tradition",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, monks. Nature: river, sunset, sky, lotus flowers. Objects: boat, lanterns, lotus. Actions: standing, floating, rowing. Emotions: serenity, contemplation, tranquility. Scenes: sunset, cultural event, cultural. Concepts: tradition, peace",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "monks"
+    ],
+    "nature": [
+      "river",
+      "sunset",
+      "sky",
+      "lotus flowers"
+    ],
+    "objects": [
+      "boat",
+      "lanterns",
+      "lotus"
+    ],
+    "actions": [
+      "standing",
+      "floating",
+      "rowing"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "tranquility"
+    ],
+    "scenes": [
+      "sunset",
+      "cultural event",
+      "cultural"
+    ],
+    "concepts": [
+      "tradition",
+      "peace"
+    ]
+  },
+  "metadata": {}
+}

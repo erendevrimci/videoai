@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nature Dances.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nature Dances.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nature Dances/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, humanoid figure made of green leaves stands on an outstretched hand. The figure has a large yellow leaf as its head, and it is surrounded by a soft, blurred background of autumn leaves and gentle raindrops.",
+      "description": "The scene depicts a whimsical, nature-inspired figure standing on a human hand, set against a backdrop of autumn foliage and light rain. The setting suggests a magical or fantasy atmosphere, blending elements of nature with human interaction.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "nature": [
+          "leaves",
+          "raindrops",
+          "autumn foliage"
+        ],
+        "objects": [
+          "leaf figure"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "nature",
+          "fantasy"
+        ],
+        "concepts": [
+          "nature-inspired",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nature Dances.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nature Dances/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate leaf-shaped figure stands gracefully on a person's hand, mimicking a ballet pose. The figure, crafted from green leaves, is surrounded by autumn foliage, with a large yellow leaf serving as its head. The scene is set against a softly blurred background, creating a magical and serene atmosphere.",
+      "description": "The image depicts a whimsical scene where a small, leaf-like figure is poised elegantly on a human hand. The setting is outdoors, amidst autumn leaves, with soft lighting enhancing the enchanting mood.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "nature": [
+          "leaf",
+          "autumn foliage"
+        ],
+        "objects": [
+          "leaf figure"
+        ],
+        "actions": [
+          "ballet pose"
+        ],
+        "emotions": [
+          "serenity",
+          "whimsy"
+        ],
+        "scenes": [
+          "outdoor",
+          "autumn"
+        ],
+        "concepts": [
+          "nature art",
+          "balance",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Nature: autumn foliage, leaves, raindrops, leaf. Objects: leaf figure. Actions: standing, ballet pose. Emotions: whimsical, magical, serenity, whimsy. Scenes: nature, fantasy, outdoor, autumn. Concepts: nature-inspired, fantasy, nature art, balance, elegance",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "nature": [
+      "autumn foliage",
+      "leaves",
+      "raindrops",
+      "leaf"
+    ],
+    "objects": [
+      "leaf figure"
+    ],
+    "actions": [
+      "standing",
+      "ballet pose"
+    ],
+    "emotions": [
+      "whimsical",
+      "magical",
+      "serenity",
+      "whimsy"
+    ],
+    "scenes": [
+      "nature",
+      "fantasy",
+      "outdoor",
+      "autumn"
+    ],
+    "concepts": [
+      "nature-inspired",
+      "fantasy",
+      "nature art",
+      "balance",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

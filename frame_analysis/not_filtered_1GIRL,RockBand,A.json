@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1GIRL,RockBand,A.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1GIRL,RockBand,A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/1GIRL,RockBand,A/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in the center, wearing a striking red leather jacket and black pants. The background is illuminated with a dramatic orange glow, creating a fiery atmosphere. The person's expression is intense and focused, adding to the dynamic energy of the scene.",
+      "description": "The scene depicts a person exuding confidence and strength, set against a vibrant and fiery backdrop. The lighting and colors contribute to a dramatic and intense atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "red leather jacket",
+          "black pants",
+          "t-shirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "intensity"
+        ],
+        "scenes": [
+          "dramatic",
+          "fiery"
+        ],
+        "concepts": [
+          "strength",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1GIRL,RockBand,A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/1GIRL,RockBand,A/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently in front of a dramatic orange and red smoke backdrop. They are wearing a red leather jacket, a white graphic t-shirt, and black pants, exuding a bold and stylish presence. The lighting highlights their features and adds to the intense atmosphere.",
+      "description": "The scene captures a striking image of a person in a fashionable outfit, set against a vivid and fiery background. The setting suggests a dramatic or theatrical context, possibly for a photoshoot or performance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "jacket",
+          "t-shirt",
+          "pants"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "dramatic",
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "intensity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: t-shirt, red leather jacket, black pants, jacket, pants. Actions: standing. Emotions: confidence, intensity. Scenes: dramatic, fiery, fashion. Concepts: strength, focus, style, intensity",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "t-shirt",
+      "red leather jacket",
+      "black pants",
+      "jacket",
+      "pants"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "dramatic",
+      "fiery",
+      "fashion"
+    ],
+    "concepts": [
+      "strength",
+      "focus",
+      "style",
+      "intensity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant fire monkey.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant fire monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant fire monkey/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A colossal, fiery gorilla-like creature strides across a savannah landscape, its body engulfed in flames. A young boy stands in awe, gazing up at the towering figure as the sun sets behind them, casting a warm glow over the scene.",
+      "description": "The scene depicts a fantastical encounter between a giant, flaming creature and a child in a savannah setting. The sky is filled with dramatic clouds, and the landscape features sparse trees typical of a savannah.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "gorilla"
+        ],
+        "nature": [
+          "savannah",
+          "trees",
+          "clouds"
+        ],
+        "objects": [],
+        "actions": [
+          "walking",
+          "gazing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "fantasy",
+          "sunset"
+        ],
+        "concepts": [
+          "giant",
+          "fire",
+          "encounter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant fire monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant fire monkey/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A colossal gorilla engulfed in flames strides across a savannah landscape, its eyes glowing intensely. A young boy stands in the foreground, gazing up at the towering creature with a mix of awe and trepidation. The sky is painted with dramatic clouds, adding to the epic atmosphere of the scene.",
+      "description": "The scene depicts a fantastical encounter between a giant, fiery gorilla and a young boy in a savannah setting. The dramatic lighting and fiery elements create a sense of tension and wonder.",
+      "labels": {
+        "animals": [
+          "gorilla"
+        ],
+        "nature": [
+          "savannah",
+          "clouds"
+        ],
+        "objects": [
+          "fire"
+        ],
+        "people": [
+          "boy"
+        ],
+        "actions": [
+          "walking",
+          "gazing"
+        ],
+        "emotions": [
+          "awe",
+          "trepidation"
+        ],
+        "scenes": [
+          "fantasy",
+          "epic"
+        ],
+        "concepts": [
+          "encounter",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy. Animals: gorilla. Nature: savannah, clouds, trees. Objects: fire. Actions: walking, gazing. Emotions: awe, trepidation. Scenes: fantasy, sunset, epic. Concepts: encounter, giant, fire, contrast",
+  "primary_labels": {
+    "people": [
+      "boy"
+    ],
+    "animals": [
+      "gorilla"
+    ],
+    "nature": [
+      "savannah",
+      "clouds",
+      "trees"
+    ],
+    "objects": [
+      "fire"
+    ],
+    "actions": [
+      "walking",
+      "gazing"
+    ],
+    "emotions": [
+      "awe",
+      "trepidation"
+    ],
+    "scenes": [
+      "fantasy",
+      "sunset",
+      "epic"
+    ],
+    "concepts": [
+      "encounter",
+      "giant",
+      "fire",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

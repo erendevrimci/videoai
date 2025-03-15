@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl laughs happily.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl laughs happily.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Girl laughs happily/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with auburn hair is sitting on a bed, wearing a lavender tank top. She is smiling softly, creating a warm and inviting atmosphere.",
+      "description": "The scene is set in a cozy bedroom, with a focus on a woman sitting on a bed. The background is softly blurred, highlighting the subject.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "lamp"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "warmth",
+          "contentment"
+        ],
+        "scenes": [
+          "bedroom",
+          "indoor"
+        ],
+        "concepts": [
+          "coziness",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Girl laughs happily.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Girl laughs happily/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with red hair is sitting on a bed, laughing joyfully. She is wearing a purple top and appears to be in a relaxed, comfortable setting.",
+      "description": "The scene captures a moment of happiness and relaxation, set in a cozy bedroom environment. The woman is the focal point, exuding a sense of joy and warmth.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "lamp"
+        ],
+        "actions": [
+          "laughing",
+          "sitting"
+        ],
+        "emotions": [
+          "happiness",
+          "joy"
+        ],
+        "scenes": [
+          "bedroom",
+          "indoor"
+        ],
+        "concepts": [
+          "relaxation",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: bed, lamp. Actions: sitting, smiling, laughing. Emotions: warmth, contentment, happiness, joy. Scenes: bedroom, indoor. Concepts: relaxation, coziness, comfort",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "bed",
+      "lamp"
+    ],
+    "actions": [
+      "sitting",
+      "smiling",
+      "laughing"
+    ],
+    "emotions": [
+      "warmth",
+      "contentment",
+      "happiness",
+      "joy"
+    ],
+    "scenes": [
+      "bedroom",
+      "indoor"
+    ],
+    "concepts": [
+      "relaxation",
+      "coziness",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

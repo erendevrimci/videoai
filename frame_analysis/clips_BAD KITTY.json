@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/BAD KITTY.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/BAD KITTY.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/BAD KITTY/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A hairless cat with large, expressive eyes stares directly at the viewer. The cat's skin is adorned with colorful tattoos, including flowers and the words 'Bad Kitty' prominently displayed on its chest.",
+      "description": "The scene features a close-up of a Sphynx cat against a dark background, emphasizing its unique appearance and the intricate tattoos on its body. The setting is likely a studio environment, focusing on the cat's striking features.",
+      "labels": {
+        "animals": [
+          "cat",
+          "Sphynx"
+        ],
+        "objects": [
+          "tattoos"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "body art",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/BAD KITTY.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/BAD KITTY/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A Sphynx cat with large, expressive eyes and prominent ears stares directly at the viewer. The cat's skin is adorned with colorful tattoos, including flowers and the words 'BAD KITTY'. The background is dark, highlighting the cat's unique features.",
+      "description": "The scene features a close-up of a Sphynx cat against a dark background. The cat's skin is tattooed with vibrant floral designs and text, creating a striking contrast with its natural appearance.",
+      "labels": {
+        "animals": [
+          "Sphynx cat"
+        ],
+        "objects": [
+          "tattoos",
+          "flowers"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "body art",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, Sphynx, Sphynx cat. Objects: tattoos, flowers. Emotions: intense, curiosity. Scenes: studio, portrait. Concepts: body art, expression",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "Sphynx",
+      "Sphynx cat"
+    ],
+    "objects": [
+      "tattoos",
+      "flowers"
+    ],
+    "emotions": [
+      "intense",
+      "curiosity"
+    ],
+    "scenes": [
+      "studio",
+      "portrait"
+    ],
+    "concepts": [
+      "body art",
+      "expression"
+    ]
+  },
+  "metadata": {}
+}

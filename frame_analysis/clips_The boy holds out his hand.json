@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy holds out his hand.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy holds out his hand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The boy holds out his hand/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young animated character with large, expressive eyes sits at a desk in a classroom, smiling brightly. In the background, other animated children are visible, suggesting a lively classroom setting.",
+      "description": "The scene depicts an animated classroom environment with children seated at desks. The focus is on a cheerful child in the foreground, creating a warm and engaging atmosphere.",
+      "labels": {
+        "people": [
+          "animated child",
+          "classmates"
+        ],
+        "objects": [
+          "desk",
+          "paper"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "engagement"
+        ],
+        "scenes": [
+          "classroom"
+        ],
+        "concepts": [
+          "education",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy holds out his hand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The boy holds out his hand/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An animated child with large, expressive eyes and a joyful smile sits at a desk in a classroom. The child is surrounded by other students, creating a lively and engaging atmosphere.",
+      "description": "The scene depicts a classroom setting with animated children seated at desks. The focus is on a cheerful child in the foreground, suggesting a positive learning environment.",
+      "labels": {
+        "people": [
+          "animated child",
+          "students"
+        ],
+        "objects": [
+          "desk",
+          "notebook"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "classroom"
+        ],
+        "concepts": [
+          "education",
+          "learning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated child, classmates, students. Objects: desk, paper, notebook. Actions: sitting, smiling. Emotions: happiness, engagement, joy. Scenes: classroom. Concepts: education, childhood, learning",
+  "primary_labels": {
+    "people": [
+      "animated child",
+      "classmates",
+      "students"
+    ],
+    "objects": [
+      "desk",
+      "paper",
+      "notebook"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "engagement",
+      "joy"
+    ],
+    "scenes": [
+      "classroom"
+    ],
+    "concepts": [
+      "education",
+      "childhood",
+      "learning"
+    ]
+  },
+  "metadata": {}
+}

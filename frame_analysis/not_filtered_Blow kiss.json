@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blow kiss.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blow kiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Blow kiss/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with short, pink-tinted hair gazes confidently at the camera. She is wearing turquoise earrings and a matching necklace, set against a blurred urban background with bright lights.",
+      "description": "The scene captures a close-up portrait of a stylish woman in an urban setting at night. The background is softly blurred, highlighting the vibrant city lights that create a bokeh effect.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earrings",
+          "necklace"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Blow kiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Blow kiss/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vibrant pink hair is blowing a kiss towards the camera. The background is filled with colorful, blurred city lights, creating a lively urban atmosphere.",
+      "description": "The scene captures a close-up of a woman in an urban setting, likely at night, with bright city lights in the background. She is making a playful gesture by blowing a kiss.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "city lights"
+        ],
+        "actions": [
+          "blowing a kiss"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "gesture",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: earrings, necklace, city lights. Actions: gazing, blowing a kiss. Emotions: confidence, playful. Scenes: urban, night. Concepts: fashion, style, gesture, expression",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "earrings",
+      "necklace",
+      "city lights"
+    ],
+    "actions": [
+      "gazing",
+      "blowing a kiss"
+    ],
+    "emotions": [
+      "confidence",
+      "playful"
+    ],
+    "scenes": [
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "gesture",
+      "expression"
+    ]
+  },
+  "metadata": {}
+}

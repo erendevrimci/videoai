@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Whale jump.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Whale jump.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Whale jump/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic whale breaches the surface of the icy ocean, towering over a group of penguins gathered on a small ice floe. The scene captures the awe-inspiring scale of the whale against the serene backdrop of icebergs and clear blue skies.",
+      "description": "The image depicts a dramatic encounter in a polar region, where a whale emerges from the water near a group of penguins. The setting is a cold, icy landscape with floating ice and distant icebergs under a bright, clear sky.",
+      "labels": {
+        "animals": [
+          "whale",
+          "penguins"
+        ],
+        "nature": [
+          "iceberg",
+          "ocean",
+          "ice floe"
+        ],
+        "objects": [],
+        "actions": [
+          "breaching",
+          "standing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "polar region",
+          "wildlife encounter"
+        ],
+        "concepts": [
+          "scale",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Whale jump.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Whale jump/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic whale breaches the surface of the icy water, towering above a group of penguins gathered on a small ice floe. The scene captures the grandeur of marine life against the backdrop of a clear blue sky and distant icebergs.",
+      "description": "The image depicts a dramatic moment in an Arctic or Antarctic setting, where a whale is breaching near a group of penguins on an ice floe. The environment is cold and serene, with clear skies and calm waters.",
+      "labels": {
+        "animals": [
+          "whale",
+          "penguins"
+        ],
+        "nature": [
+          "ice floe",
+          "icebergs",
+          "ocean",
+          "sky"
+        ],
+        "actions": [
+          "breaching",
+          "gathering"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "Arctic",
+          "Antarctic",
+          "marine life"
+        ],
+        "concepts": [
+          "wildlife",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: whale, penguins. Nature: ocean, ice floe, iceberg, icebergs, sky. Actions: breaching, standing, gathering. Emotions: awe, serenity. Scenes: polar region, wildlife encounter, Arctic, Antarctic, marine life. Concepts: nature, scale, wildlife",
+  "primary_labels": {
+    "animals": [
+      "whale",
+      "penguins"
+    ],
+    "nature": [
+      "ocean",
+      "ice floe",
+      "iceberg",
+      "icebergs",
+      "sky"
+    ],
+    "objects": [],
+    "actions": [
+      "breaching",
+      "standing",
+      "gathering"
+    ],
+    "emotions": [
+      "awe",
+      "serenity"
+    ],
+    "scenes": [
+      "polar region",
+      "wildlife encounter",
+      "Arctic",
+      "Antarctic",
+      "marine life"
+    ],
+    "concepts": [
+      "nature",
+      "scale",
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

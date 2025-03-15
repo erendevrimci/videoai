@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pepperoni trampoline.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pepperoni trampoline.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pepperoni trampoline/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Tiny dancers perform gracefully on large pepperoni slices atop a pizza. The scene is whimsical, with each dancer striking a pose as if on a stage. The background suggests a kitchen setting, adding a surreal element to the performance.",
+      "description": "The image depicts a playful and imaginative scene where miniature dancers are positioned on a pizza, using the pepperoni slices as their stage. The setting appears to be a kitchen, enhancing the fantastical nature of the scene.",
+      "labels": {
+        "people": [
+          "dancers"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni"
+        ],
+        "actions": [
+          "dancing",
+          "posing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pepperoni trampoline.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pepperoni trampoline/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature dancers performing on a large pepperoni pizza. The dancers, dressed in colorful leotards, are captured mid-leap, creating a sense of dynamic movement. The pizza serves as an unusual stage, with its melted cheese and pepperoni slices providing a vivid backdrop.",
+      "description": "The image presents a surreal setting where tiny dancers are performing on a giant pizza. The scene combines elements of food and dance, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "dancers"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni",
+          "leotards"
+        ],
+        "actions": [
+          "dancing",
+          "leaping"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pepperoni trampoline.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pepperoni trampoline/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Miniature figures of synchronized swimmers are seen performing on large pepperoni slices atop a pizza. The scene is set in a kitchen, with the pizza serving as an unconventional swimming platform.",
+      "description": "The image depicts a whimsical scene where tiny synchronized swimmers are positioned on a pepperoni pizza. The setting appears to be a kitchen, with blurred kitchen items in the background, adding to the playful and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "synchronized swimmers"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni",
+          "kitchen items"
+        ],
+        "actions": [
+          "performing",
+          "synchronized swimming"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "surrealism",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: dancers, miniature figures, synchronized swimmers. Objects: pizza, pepperoni, leotards, kitchen items. Actions: dancing, posing, leaping, performing, synchronized swimming. Emotions: whimsical, playful. Scenes: kitchen, surreal, imaginative. Concepts: miniature, surreal, performance, surrealism",
+  "primary_labels": {
+    "people": [
+      "dancers",
+      "miniature figures",
+      "synchronized swimmers"
+    ],
+    "objects": [
+      "pizza",
+      "pepperoni",
+      "leotards",
+      "kitchen items"
+    ],
+    "actions": [
+      "dancing",
+      "posing",
+      "leaping",
+      "performing",
+      "synchronized swimming"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "kitchen",
+      "surreal",
+      "imaginative"
+    ],
+    "concepts": [
+      "miniature",
+      "surreal",
+      "performance",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

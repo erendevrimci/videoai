@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/underwater world.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/underwater world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/underwater world/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long, flowing hair takes a selfie underwater, capturing a great white shark swimming behind her. The clear blue water and sunlight create a serene yet thrilling atmosphere.",
+      "description": "The scene is set underwater, where a woman is taking a selfie with a great white shark in the background. The setting is likely an ocean or large aquarium, with clear blue water and sunlight filtering through.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "shark"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "camera"
+        ],
+        "actions": [
+          "selfie",
+          "swimming"
+        ],
+        "emotions": [
+          "thrill",
+          "serenity"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "adventure",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/underwater world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/underwater world/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with blonde hair smiles brightly while underwater, capturing a selfie with a shark swimming in the background. The clear blue water and sunlight create a serene and adventurous atmosphere.",
+      "description": "The scene is set underwater, where a woman is taking a selfie with a shark swimming behind her. The environment is bright and clear, with sunlight filtering through the water, creating a tranquil yet thrilling setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "shark"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "camera"
+        ],
+        "actions": [
+          "smiling",
+          "swimming",
+          "selfie"
+        ],
+        "emotions": [
+          "happiness",
+          "excitement"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "adventure",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: shark. Nature: water. Objects: camera. Actions: selfie, swimming, smiling. Emotions: thrill, serenity, happiness, excitement. Scenes: underwater. Concepts: adventure, marine life",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "shark"
+    ],
+    "nature": [
+      "water"
+    ],
+    "objects": [
+      "camera"
+    ],
+    "actions": [
+      "selfie",
+      "swimming",
+      "smiling"
+    ],
+    "emotions": [
+      "thrill",
+      "serenity",
+      "happiness",
+      "excitement"
+    ],
+    "scenes": [
+      "underwater"
+    ],
+    "concepts": [
+      "adventure",
+      "marine life"
+    ]
+  },
+  "metadata": {}
+}

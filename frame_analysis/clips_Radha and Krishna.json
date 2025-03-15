@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Radha and Krishna.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Radha and Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Radha and Krishna/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts two figures sitting on a swing adorned with flowers, set against a backdrop of a cascading waterfall. The figures are dressed in vibrant traditional attire, with one wearing a garland of flowers. Sunlight filters through the trees, casting a warm glow over the scene.",
+      "description": "The scene is set in a tranquil, natural environment with a waterfall in the background. The two figures on the swing are engaged in a peaceful moment, surrounded by lush greenery and flowers. The atmosphere is serene and romantic, enhanced by the soft, warm lighting.",
+      "labels": {
+        "people": [
+          "figures"
+        ],
+        "nature": [
+          "waterfall",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "swing",
+          "garland"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "romantic"
+        ],
+        "scenes": [
+          "natural environment",
+          "peaceful setting"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Radha and Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Radha and Krishna/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene depicts two figures sitting closely on a swing adorned with flowers, set against a backdrop of a cascading waterfall and lush greenery. The figures are dressed in vibrant traditional attire, with one wearing a garland of flowers. Sunlight filters through the trees, casting a warm glow over the scene.",
+      "description": "The scene is set in a tranquil, natural environment featuring a waterfall and dense foliage. The setting is idyllic and romantic, emphasizing a moment of connection between the two individuals.",
+      "labels": {
+        "people": [
+          "two figures"
+        ],
+        "nature": [
+          "waterfall",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "swing",
+          "garland"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "affection"
+        ],
+        "scenes": [
+          "romantic",
+          "idyllic"
+        ],
+        "concepts": [
+          "connection",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Radha and Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Radha and Krishna/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene scene depicts two individuals sitting on a swing adorned with flowers, surrounded by lush greenery and a cascading waterfall in the background. The figures are dressed in traditional attire, with one wearing a garland of flowers, and they gaze at each other affectionately. Sunlight filters through the trees, casting a warm glow over the entire scene.",
+      "description": "The image portrays a tranquil and romantic setting in a natural environment, featuring two people on a swing amidst a forest with a waterfall. The atmosphere is peaceful and intimate, enhanced by the soft lighting and vibrant colors.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "nature": [
+          "trees",
+          "waterfall",
+          "flowers"
+        ],
+        "objects": [
+          "swing",
+          "garland"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "affection",
+          "serenity"
+        ],
+        "scenes": [
+          "forest",
+          "waterfall"
+        ],
+        "concepts": [
+          "romance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figures, two figures, two individuals. Nature: waterfall, trees, flowers. Objects: swing, garland. Actions: sitting, gazing. Emotions: serenity, affection, serene, romantic. Scenes: natural environment, peaceful setting, romantic, idyllic, forest. Concepts: tranquility, nature, connection, romance",
+  "primary_labels": {
+    "people": [
+      "figures",
+      "two figures",
+      "two individuals"
+    ],
+    "nature": [
+      "waterfall",
+      "trees",
+      "flowers"
+    ],
+    "objects": [
+      "swing",
+      "garland"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "affection",
+      "serene",
+      "romantic"
+    ],
+    "scenes": [
+      "natural environment",
+      "peaceful setting",
+      "romantic",
+      "idyllic",
+      "forest"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature",
+      "connection",
+      "romance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterIsWalkingOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterIsWalkingOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCharacterIsWalkingOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A figure in a robe walks on water, surrounded by parted waves. The scene is dramatic, with the ocean split to reveal a path beneath the figure's feet.",
+      "description": "The image depicts a serene yet powerful scene where a robed figure walks on a path created by parted ocean waves. The setting suggests a miraculous or supernatural event, evoking a sense of awe and wonder.",
+      "labels": {
+        "people": [
+          "robed figure"
+        ],
+        "nature": [
+          "ocean",
+          "waves"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "walking",
+          "parting waves"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "miraculous event"
+        ],
+        "concepts": [
+          "supernatural",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterIsWalkingOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCharacterIsWalkingOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure in a robe walks on a path of water amidst a vast ocean. The scene is illuminated by a warm, glowing light from the horizon, creating a serene and mystical atmosphere.",
+      "description": "The image depicts a person walking on water, surrounded by the ocean. The setting is tranquil, with the sun casting a golden light over the waves, enhancing the ethereal quality of the scene.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "ocean",
+          "waves"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "mysticism"
+        ],
+        "scenes": [
+          "seascape"
+        ],
+        "concepts": [
+          "miracle",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robed figure, figure. Nature: ocean, waves. Objects: robe. Actions: walking, parting waves. Emotions: awe, wonder, serenity, mysticism. Scenes: miraculous event, seascape. Concepts: supernatural, spirituality, miracle, tranquility",
+  "primary_labels": {
+    "people": [
+      "robed figure",
+      "figure"
+    ],
+    "nature": [
+      "ocean",
+      "waves"
+    ],
+    "objects": [
+      "robe"
+    ],
+    "actions": [
+      "walking",
+      "parting waves"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "serenity",
+      "mysticism"
+    ],
+    "scenes": [
+      "miraculous event",
+      "seascape"
+    ],
+    "concepts": [
+      "supernatural",
+      "spirituality",
+      "miracle",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ObotWomanPrayingWithHer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ObotWomanPrayingWithHer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ObotWomanPrayingWithHer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid robot is seated in a meditative pose within an ornately decorated room. The robot's hands are clasped together as if in prayer, surrounded by lit candles and intricate carvings.",
+      "description": "The scene depicts a humanoid robot engaged in meditation or prayer in a lavishly decorated interior, suggesting a blend of technology and spirituality. The setting is serene, with warm lighting and detailed architectural elements.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "robot",
+          "candles",
+          "ornate carvings"
+        ],
+        "actions": [
+          "meditation",
+          "prayer"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "interior",
+          "ornate room"
+        ],
+        "concepts": [
+          "technology",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ObotWomanPrayingWithHer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ObotWomanPrayingWithHer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid robot sits in a meditative pose with hands clasped together in a serene, ornate room. The robot's design is intricate, featuring metallic and white components, reflecting the warm glow of nearby candles. The setting is lavish, with detailed carvings and decorations surrounding the robot.",
+      "description": "The scene depicts a humanoid robot engaged in meditation within an opulent, intricately decorated interior. The atmosphere is calm and reflective, enhanced by the warm lighting from candles.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "objects": [
+          "candles",
+          "decorations"
+        ],
+        "actions": [
+          "meditation"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "interior"
+        ],
+        "concepts": [
+          "technology",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot. Objects: candles, robot, ornate carvings, decorations. Actions: meditation, prayer. Emotions: serenity, calm. Scenes: interior, ornate room. Concepts: technology, spirituality",
+  "primary_labels": {
+    "people": [
+      "robot"
+    ],
+    "animals": [],
+    "nature": [],
+    "objects": [
+      "candles",
+      "robot",
+      "ornate carvings",
+      "decorations"
+    ],
+    "actions": [
+      "meditation",
+      "prayer"
+    ],
+    "emotions": [
+      "serenity",
+      "calm"
+    ],
+    "scenes": [
+      "interior",
+      "ornate room"
+    ],
+    "concepts": [
+      "technology",
+      "spirituality"
+    ]
+  },
+  "metadata": {}
+}

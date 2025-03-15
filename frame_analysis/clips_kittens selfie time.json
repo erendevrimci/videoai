@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/kittens selfie time.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/kittens selfie time.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/kittens selfie time/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Four cats dressed in colorful sweaters are taking a selfie in a sunlit garden. The cats are closely huddled together, looking curiously at the phone held by one of them. The scene is set against a backdrop of lush greenery and blooming flowers.",
+      "description": "The scene depicts a whimsical moment where four cats, dressed in sweaters, are gathered in a garden taking a selfie. The setting is bright and cheerful, with sunlight filtering through the leaves, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "phone",
+          "sweaters",
+          "flowers"
+        ],
+        "actions": [
+          "taking selfie"
+        ],
+        "emotions": [
+          "curiosity",
+          "togetherness"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "whimsy",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/kittens selfie time.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/kittens selfie time/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four cats dressed in colorful sweaters are taking a selfie in a sunlit garden. The cats appear to be posing enthusiastically, with wide eyes and open mouths, as they hold a smartphone. The background is lush with greenery and flowers, creating a cheerful and vibrant atmosphere.",
+      "description": "The scene depicts a group of four cats in a garden setting, capturing a playful moment as they take a selfie. The setting is bright and lively, with sunlight filtering through the leaves and flowers surrounding the cats.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "smartphone",
+          "sweaters",
+          "flowers"
+        ],
+        "actions": [
+          "taking a selfie",
+          "posing"
+        ],
+        "emotions": [
+          "enthusiasm",
+          "joy"
+        ],
+        "scenes": [
+          "garden",
+          "outdoor"
+        ],
+        "concepts": [
+          "playfulness",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: sweaters, flowers, phone, smartphone. Actions: taking selfie, taking a selfie, posing. Emotions: curiosity, togetherness, enthusiasm, joy. Scenes: garden, outdoor. Concepts: friendship, whimsy, playfulness",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "sweaters",
+      "flowers",
+      "phone",
+      "smartphone"
+    ],
+    "actions": [
+      "taking selfie",
+      "taking a selfie",
+      "posing"
+    ],
+    "emotions": [
+      "curiosity",
+      "togetherness",
+      "enthusiasm",
+      "joy"
+    ],
+    "scenes": [
+      "garden",
+      "outdoor"
+    ],
+    "concepts": [
+      "friendship",
+      "whimsy",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

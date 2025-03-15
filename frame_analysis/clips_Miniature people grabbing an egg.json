@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature people grabbing an egg.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature people grabbing an egg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature people grabbing an egg/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two young children, dressed in formal attire with hats and sunglasses, are curiously examining a large egg on a wooden platform. A giant chicken stands nearby, observing the scene. The setting appears to be outdoors, possibly on a farm.",
+      "description": "The scene takes place on a wooden platform in a farm-like setting, where two children are interacting with a large egg under the watchful eye of a giant chicken. The children are dressed in matching formal outfits, adding a whimsical touch to the rural environment.",
+      "labels": {
+        "people": [
+          "children"
+        ],
+        "animals": [
+          "chicken"
+        ],
+        "nature": [
+          "outdoor",
+          "farm"
+        ],
+        "objects": [
+          "egg",
+          "wooden platform"
+        ],
+        "actions": [
+          "examining",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "farm scene"
+        ],
+        "concepts": [
+          "whimsy",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature people grabbing an egg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature people grabbing an egg/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two young children dressed in formal attire and sunglasses are curiously examining a large egg on a wooden platform. A giant chicken stands nearby, observing the scene. The setting appears to be a rustic outdoor area with additional chickens in the background.",
+      "description": "The scene takes place in a farm-like setting, where two children are interacting with a large egg under the watchful eye of a giant chicken. The atmosphere is whimsical and playful, with a touch of surrealism due to the oversized chicken.",
+      "labels": {
+        "people": [
+          "children"
+        ],
+        "animals": [
+          "chicken"
+        ],
+        "nature": [
+          "outdoor",
+          "farm"
+        ],
+        "objects": [
+          "egg",
+          "sunglasses",
+          "formal attire"
+        ],
+        "actions": [
+          "examining",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "farm",
+          "rustic"
+        ],
+        "concepts": [
+          "surreal",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: children. Animals: chicken. Nature: outdoor, farm. Objects: egg, wooden platform, sunglasses, formal attire. Actions: examining, observing. Emotions: curiosity. Scenes: farm scene, farm, rustic. Concepts: whimsy, contrast, surreal, playful",
+  "primary_labels": {
+    "people": [
+      "children"
+    ],
+    "animals": [
+      "chicken"
+    ],
+    "nature": [
+      "outdoor",
+      "farm"
+    ],
+    "objects": [
+      "egg",
+      "wooden platform",
+      "sunglasses",
+      "formal attire"
+    ],
+    "actions": [
+      "examining",
+      "observing"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "farm scene",
+      "farm",
+      "rustic"
+    ],
+    "concepts": [
+      "whimsy",
+      "contrast",
+      "surreal",
+      "playful"
+    ]
+  },
+  "metadata": {}
+}

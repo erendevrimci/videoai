@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/human robot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/human robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/human robot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with robotic arms and a mechanical collar lies on a bed, gazing upwards with a thoughtful expression. The scene is illuminated with soft, cool lighting, emphasizing the futuristic and serene atmosphere.",
+      "description": "The image depicts a futuristic setting where a woman with cybernetic enhancements is resting on a bed. Her robotic arms and mechanical collar suggest advanced technology and a blend of human and machine elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "robotic arms",
+          "mechanical collar",
+          "bed"
+        ],
+        "actions": [
+          "resting",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "futuristic",
+          "cybernetic"
+        ],
+        "concepts": [
+          "human-machine integration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/human robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/human robot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with robotic arms lies on a sleek, metallic surface, gazing upwards with a serene expression. The scene is illuminated by soft, cool lighting, highlighting the intricate details of the robotic components.",
+      "description": "The image depicts a futuristic setting where a humanoid figure, possibly an android or cyborg, is resting on a metallic surface. The focus is on the blend of human and robotic elements, suggesting a theme of advanced technology and artificial intelligence.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "objects": [
+          "robotic arms",
+          "metallic surface"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "futuristic"
+        ],
+        "concepts": [
+          "cyborg",
+          "technology",
+          "artificial intelligence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, humanoid. Objects: robotic arms, mechanical collar, bed, metallic surface. Actions: resting, gazing. Emotions: thoughtful, serene. Scenes: futuristic, cybernetic. Concepts: technology, human-machine integration, cyborg, artificial intelligence",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "humanoid"
+    ],
+    "objects": [
+      "robotic arms",
+      "mechanical collar",
+      "bed",
+      "metallic surface"
+    ],
+    "actions": [
+      "resting",
+      "gazing"
+    ],
+    "emotions": [
+      "thoughtful",
+      "serene"
+    ],
+    "scenes": [
+      "futuristic",
+      "cybernetic"
+    ],
+    "concepts": [
+      "technology",
+      "human-machine integration",
+      "cyborg",
+      "artificial intelligence"
+    ]
+  },
+  "metadata": {}
+}

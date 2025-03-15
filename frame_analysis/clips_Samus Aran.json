@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samus Aran.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samus Aran.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samus Aran/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A confident female character in a futuristic setting is aiming a weapon directly at the viewer. She is wearing a sleek, form-fitting blue suit and has a determined expression.",
+      "description": "The scene depicts a strong, assertive female character in a high-tech environment, possibly a spaceship or a futuristic facility. The character's stance and the weapon suggest a readiness for action or confrontation.",
+      "labels": {
+        "people": [
+          "female character"
+        ],
+        "objects": [
+          "weapon",
+          "futuristic suit"
+        ],
+        "actions": [
+          "aiming",
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "futuristic setting",
+          "high-tech environment"
+        ],
+        "concepts": [
+          "science fiction",
+          "empowerment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samus Aran.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samus Aran/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A confident character stands in a futuristic corridor, holding a weapon with both hands. She is wearing a sleek blue bodysuit and has long blonde hair tied in a ponytail.",
+      "description": "The scene is set in a high-tech, futuristic corridor with glowing panels and metallic surfaces. The character appears poised and ready for action, suggesting a sci-fi or space-themed setting.",
+      "labels": {
+        "people": [
+          "character",
+          "woman"
+        ],
+        "objects": [
+          "weapon",
+          "bodysuit"
+        ],
+        "actions": [
+          "standing",
+          "aiming"
+        ],
+        "scenes": [
+          "futuristic corridor",
+          "sci-fi setting"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: female character, character, woman. Objects: weapon, futuristic suit, bodysuit. Actions: aiming, standing. Emotions: confidence, determination. Scenes: futuristic setting, high-tech environment, futuristic corridor, sci-fi setting. Concepts: science fiction, empowerment, futuristic, technology",
+  "primary_labels": {
+    "people": [
+      "female character",
+      "character",
+      "woman"
+    ],
+    "objects": [
+      "weapon",
+      "futuristic suit",
+      "bodysuit"
+    ],
+    "actions": [
+      "aiming",
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "determination"
+    ],
+    "scenes": [
+      "futuristic setting",
+      "high-tech environment",
+      "futuristic corridor",
+      "sci-fi setting"
+    ],
+    "concepts": [
+      "science fiction",
+      "empowerment",
+      "futuristic",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

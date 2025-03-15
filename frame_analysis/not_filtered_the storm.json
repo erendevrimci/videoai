@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/the storm.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/the storm.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/the storm/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A breathtaking view of a sunset above the clouds, with a starry sky overhead. The horizon glows with warm hues of orange and pink, contrasting with the deep blues and purples of the night sky.",
+      "description": "The scene captures a serene and majestic sunset above a thick layer of clouds, transitioning into a star-filled night sky. The vibrant colors of the sunset blend seamlessly with the darker tones of the evening, creating a peaceful and awe-inspiring atmosphere.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sunset",
+          "stars"
+        ],
+        "scenes": [
+          "sky",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty",
+          "transition"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/the storm.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/the storm/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene captures a powerful lightning bolt illuminating the night sky. Thick, dark clouds dominate the foreground, creating a sense of depth and intensity.",
+      "description": "The scene depicts a nighttime sky during a thunderstorm, with a striking lightning bolt cutting through the clouds. The atmosphere is tense and dynamic, highlighting the raw power of nature.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "lightning",
+          "night sky"
+        ],
+        "objects": [
+          "clouds"
+        ],
+        "actions": [
+          "lightning strike"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "thunderstorm",
+          "nighttime"
+        ],
+        "concepts": [
+          "power of nature",
+          "weather phenomenon"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/the storm.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/the storm/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dramatic scene unfolds in the sky as lightning bolts pierce through thick, dark clouds. The intense light from the lightning creates a stark contrast against the ominous backdrop, highlighting the turbulent atmosphere.",
+      "description": "The image captures a powerful thunderstorm with bright lightning illuminating dark storm clouds. The setting is likely high in the sky, emphasizing the raw energy and unpredictability of nature.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "lightning",
+          "storm"
+        ],
+        "objects": [
+          "clouds"
+        ],
+        "actions": [
+          "lightning strike"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "thunderstorm",
+          "sky"
+        ],
+        "concepts": [
+          "weather",
+          "natural phenomenon"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, lightning, sunset, stars, night sky. Scenes: sky, thunderstorm, sunset, nighttime. Concepts: tranquility, beauty, transition, power of nature, weather phenomenon. Emotions: intensity, drama, serenity, awe. Objects: clouds. Actions: lightning strike",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "lightning",
+      "sunset",
+      "stars",
+      "night sky"
+    ],
+    "scenes": [
+      "sky",
+      "thunderstorm",
+      "sunset",
+      "nighttime"
+    ],
+    "concepts": [
+      "tranquility",
+      "beauty",
+      "transition",
+      "power of nature",
+      "weather phenomenon"
+    ],
+    "emotions": [
+      "intensity",
+      "drama",
+      "serenity",
+      "awe"
+    ],
+    "objects": [
+      "clouds"
+    ],
+    "actions": [
+      "lightning strike"
+    ]
+  },
+  "metadata": {}
+}

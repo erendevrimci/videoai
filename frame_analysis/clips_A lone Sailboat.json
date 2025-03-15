@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A lone Sailboat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A lone Sailboat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A lone Sailboat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary sailboat rests calmly on a mirror-like lake, surrounded by misty hills. The reflection of the boat is perfectly mirrored in the still water, creating a serene and tranquil scene.",
+      "description": "The scene depicts a sailboat on a calm lake, with mist-covered hills in the background. The atmosphere is peaceful and quiet, emphasizing solitude and natural beauty.",
+      "labels": {
+        "nature": [
+          "lake",
+          "hills",
+          "mist"
+        ],
+        "objects": [
+          "sailboat",
+          "buoy"
+        ],
+        "scenes": [
+          "serene",
+          "tranquil"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A lone Sailboat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A lone Sailboat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary sailboat is anchored on a calm, misty lake surrounded by forested hills. The reflection of the boat is mirrored perfectly on the still water, creating a serene and symmetrical scene.",
+      "description": "The scene depicts a tranquil lake setting with a lone sailboat anchored in the center. The surrounding hills are shrouded in mist, adding to the peaceful and quiet atmosphere.",
+      "labels": {
+        "nature": [
+          "lake",
+          "hills",
+          "forest"
+        ],
+        "objects": [
+          "sailboat",
+          "buoy"
+        ],
+        "scenes": [
+          "misty",
+          "serene"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A lone Sailboat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A lone Sailboat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A solitary sailboat is anchored on a calm, misty lake surrounded by mountains. The reflection of the boat is perfectly mirrored on the still water, creating a serene and symmetrical composition. Mist drifts over the distant hills, adding to the tranquil atmosphere.",
+      "description": "The scene depicts a peaceful lakeside setting with a single sailboat anchored in the center. The surrounding mountains are partially shrouded in mist, enhancing the calm and quiet ambiance of the landscape.",
+      "labels": {
+        "objects": [
+          "sailboat",
+          "buoy"
+        ],
+        "nature": [
+          "lake",
+          "mountains",
+          "mist"
+        ],
+        "scenes": [
+          "lake view",
+          "mountain landscape"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: lake, hills, mist, forest, mountains. Objects: sailboat, buoy. Scenes: serene, tranquil, misty, lake view, mountain landscape. Emotions: calm, peaceful, serenity, calmness",
+  "primary_labels": {
+    "nature": [
+      "lake",
+      "hills",
+      "mist",
+      "forest",
+      "mountains"
+    ],
+    "objects": [
+      "sailboat",
+      "buoy"
+    ],
+    "scenes": [
+      "serene",
+      "tranquil",
+      "misty",
+      "lake view",
+      "mountain landscape"
+    ],
+    "emotions": [
+      "calm",
+      "peaceful",
+      "serenity",
+      "calmness"
+    ]
+  },
+  "metadata": {}
+}

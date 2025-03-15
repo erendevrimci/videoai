@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glance of Destiny.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glance of Destiny.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Glance of Destiny/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young couple gazes into each other's eyes amidst a bustling train station. The warm glow of the setting sun filters through the station's glass ceiling, casting a romantic light on their faces. The blurred figures of other travelers move in the background, emphasizing the couple's intimate moment.",
+      "description": "The scene is set in a busy train station during sunset, where a young couple shares a tender moment. The station is filled with people, but the focus is on the couple, highlighting their connection.",
+      "labels": {
+        "people": [
+          "couple",
+          "travelers"
+        ],
+        "objects": [
+          "train station",
+          "glass ceiling"
+        ],
+        "actions": [
+          "gazing",
+          "moving"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "train station",
+          "sunset"
+        ],
+        "concepts": [
+          "connection",
+          "moment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Glance of Destiny.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Glance of Destiny/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a bustling train station, two individuals stand face to face, sharing an intimate moment amidst the crowd. The warm glow of the setting sun bathes the scene, highlighting their expressions and creating a serene atmosphere.",
+      "description": "The scene is set in a busy train station during sunset, where two people are engaged in a quiet, personal interaction. The background is filled with blurred figures of other commuters, emphasizing the focus on the pair.",
+      "labels": {
+        "people": [
+          "two individuals",
+          "commuters"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "objects": [
+          "train station"
+        ],
+        "actions": [
+          "standing",
+          "facing each other"
+        ],
+        "emotions": [
+          "intimacy",
+          "serenity"
+        ],
+        "scenes": [
+          "public transportation",
+          "crowded place"
+        ],
+        "concepts": [
+          "connection",
+          "moment of pause"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple, travelers, two individuals, commuters. Objects: train station, glass ceiling. Actions: gazing, moving, standing, facing each other. Emotions: romantic, intimate, intimacy, serenity. Scenes: train station, sunset, public transportation, crowded place. Concepts: connection, moment, moment of pause. Nature: sunset",
+  "primary_labels": {
+    "people": [
+      "couple",
+      "travelers",
+      "two individuals",
+      "commuters"
+    ],
+    "objects": [
+      "train station",
+      "glass ceiling"
+    ],
+    "actions": [
+      "gazing",
+      "moving",
+      "standing",
+      "facing each other"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate",
+      "intimacy",
+      "serenity"
+    ],
+    "scenes": [
+      "train station",
+      "sunset",
+      "public transportation",
+      "crowded place"
+    ],
+    "concepts": [
+      "connection",
+      "moment",
+      "moment of pause"
+    ],
+    "nature": [
+      "sunset"
+    ]
+  },
+  "metadata": {}
+}

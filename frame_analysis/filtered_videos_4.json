@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/4.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/4/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate fairy with shimmering wings is encased in a glass globe, standing atop an ornate music box. Golden musical notes float around her, creating a magical and enchanting atmosphere.",
+      "description": "The scene depicts a fairy inside a glass globe, which is part of a decorative music box. The setting appears to be mystical, with a focus on the enchanting figure and the glowing notes that surround her.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "objects": [
+          "glass globe",
+          "music box"
+        ],
+        "actions": [
+          "floating",
+          "glowing"
+        ],
+        "emotions": [
+          "enchantment",
+          "wonder"
+        ],
+        "scenes": [
+          "magical",
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "music",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/4/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate fairy with shimmering wings dances gracefully inside a glass orb, surrounded by floating golden particles. The orb rests on an ornate, antique-looking base, creating a magical and enchanting scene.",
+      "description": "The scene depicts a magical fairy encased in a glass orb, set on a decorative base. The setting suggests a mystical or fantasy environment, with glowing elements adding to the enchanting atmosphere.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "objects": [
+          "glass orb",
+          "ornate base"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "enchantment"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fairy. Objects: glass globe, music box, glass orb, ornate base. Actions: floating, glowing, dancing. Emotions: enchantment, wonder. Scenes: magical, fantasy. Concepts: magic, music, fantasy, enchantment",
+  "primary_labels": {
+    "people": [
+      "fairy"
+    ],
+    "objects": [
+      "glass globe",
+      "music box",
+      "glass orb",
+      "ornate base"
+    ],
+    "actions": [
+      "floating",
+      "glowing",
+      "dancing"
+    ],
+    "emotions": [
+      "enchantment",
+      "wonder"
+    ],
+    "scenes": [
+      "magical",
+      "fantasy"
+    ],
+    "concepts": [
+      "magic",
+      "music",
+      "fantasy",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

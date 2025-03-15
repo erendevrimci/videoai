@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0456\u043d\u043a\u0430 \u0456\u0434\u0435 \u043f\u043e \u0433\u0430\u043b\u0435\u0440\u0435\u0457.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0456\u043d\u043a\u0430 \u0456\u0434\u0435 \u043f\u043e \u0433\u0430\u043b\u0435\u0440\u0435\u0457.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0416\u0456\u043d\u043a\u0430 \u0456\u0434\u0435 \u043f\u043e \u0433\u0430\u043b\u0435\u0440\u0435\u0457/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair stands in an art gallery, surrounded by various framed paintings on the wall. She is dressed in a black sweater and a leather skirt, exuding a stylish and confident demeanor.",
+      "description": "The scene is set in an art gallery, where a woman is posing amidst a collection of framed artworks. The setting is elegant and artistic, highlighting the blend of fashion and art.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "paintings",
+          "frames",
+          "sweater",
+          "skirt"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "art gallery",
+          "indoor"
+        ],
+        "concepts": [
+          "art",
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0456\u043d\u043a\u0430 \u0456\u0434\u0435 \u043f\u043e \u0433\u0430\u043b\u0435\u0440\u0435\u0457.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0416\u0456\u043d\u043a\u0430 \u0456\u0434\u0435 \u043f\u043e \u0433\u0430\u043b\u0435\u0440\u0435\u0457/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair walks through an art gallery, surrounded by framed paintings on the walls. She is dressed in a black sweater and leather pants, appearing focused and contemplative.",
+      "description": "The scene is set in an art gallery with various paintings displayed on the walls. The woman is walking past the artwork, seemingly absorbed in her surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "paintings",
+          "frames"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "art gallery"
+        ],
+        "concepts": [
+          "art appreciation",
+          "gallery visit"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: paintings, frames, sweater, skirt. Actions: standing, posing, walking. Emotions: confident, contemplative. Scenes: art gallery, indoor. Concepts: art, fashion, style, art appreciation, gallery visit",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "paintings",
+      "frames",
+      "sweater",
+      "skirt"
+    ],
+    "actions": [
+      "standing",
+      "posing",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "contemplative"
+    ],
+    "scenes": [
+      "art gallery",
+      "indoor"
+    ],
+    "concepts": [
+      "art",
+      "fashion",
+      "style",
+      "art appreciation",
+      "gallery visit"
+    ]
+  },
+  "metadata": {}
+}

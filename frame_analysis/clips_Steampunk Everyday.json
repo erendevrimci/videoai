@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Everyday.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Everyday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk Everyday/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in steampunk attire stands confidently, wearing a black hat adorned with brass goggles. Her piercing blue eyes and intricate clothing details create a striking visual against a blurred, industrial background.",
+      "description": "The scene depicts a steampunk-themed setting with a focus on a woman in elaborate costume. The background suggests an industrial or urban environment, enhancing the steampunk aesthetic.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hat",
+          "goggles",
+          "buttons"
+        ],
+        "scenes": [
+          "steampunk",
+          "industrial"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Everyday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk Everyday/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man and a woman dressed in steampunk attire stand facing each other, holding hands. They are surrounded by intricate machinery, creating a vintage industrial backdrop.",
+      "description": "The scene depicts a steampunk setting with two individuals in elaborate costumes, emphasizing a blend of Victorian fashion and mechanical elements. The background is filled with complex machinery, enhancing the industrial atmosphere.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "steampunk attire",
+          "machinery",
+          "goggles"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "steampunk",
+          "industrial"
+        ],
+        "concepts": [
+          "vintage",
+          "mechanical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Objects: goggles, hat, buttons, steampunk attire, machinery. Scenes: steampunk, industrial. Emotions: confidence, affection, happiness. Concepts: fashion, style, vintage, mechanical. Actions: holding hands",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "goggles",
+      "hat",
+      "buttons",
+      "steampunk attire",
+      "machinery"
+    ],
+    "scenes": [
+      "steampunk",
+      "industrial"
+    ],
+    "emotions": [
+      "confidence",
+      "affection",
+      "happiness"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "vintage",
+      "mechanical"
+    ],
+    "actions": [
+      "holding hands"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Then and now.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Then and now.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Then and now/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy and his dog sit on a grassy hill, gazing at the starry night sky and a large planet. The city lights twinkle in the distance, creating a serene and contemplative atmosphere.",
+      "description": "The scene depicts a tranquil night setting where a boy and his dog are enjoying a peaceful moment under the stars. They are seated on a hill overlooking a city, with a prominent planet visible in the sky.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "stars",
+          "planet",
+          "grass"
+        ],
+        "objects": [
+          "backpack"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "night",
+          "outdoors"
+        ],
+        "concepts": [
+          "companionship",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Then and now.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Then and now/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut sits on a rocky outcrop beside a dog, gazing at a distant planet under a starry sky. The scene is set in a vast, alien landscape with rolling hills and a glowing horizon. The atmosphere is serene and contemplative, with the cosmos providing a stunning backdrop.",
+      "description": "The scene depicts an astronaut and a dog on an alien planet, observing the night sky and a distant celestial body. The setting is otherworldly, with expansive terrain and a cosmic vista.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "stars",
+          "planet",
+          "hills"
+        ],
+        "objects": [
+          "space suit",
+          "helmet"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative",
+          "serene"
+        ],
+        "scenes": [
+          "alien landscape",
+          "night sky"
+        ],
+        "concepts": [
+          "exploration",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy, astronaut. Animals: dog. Nature: stars, planet, grass, hills. Objects: backpack, space suit, helmet. Actions: gazing, sitting. Emotions: serenity, wonder, contemplative, serene. Scenes: night, outdoors, alien landscape, night sky. Concepts: companionship, exploration",
+  "primary_labels": {
+    "people": [
+      "boy",
+      "astronaut"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "stars",
+      "planet",
+      "grass",
+      "hills"
+    ],
+    "objects": [
+      "backpack",
+      "space suit",
+      "helmet"
+    ],
+    "actions": [
+      "gazing",
+      "sitting"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "contemplative",
+      "serene"
+    ],
+    "scenes": [
+      "night",
+      "outdoors",
+      "alien landscape",
+      "night sky"
+    ],
+    "concepts": [
+      "companionship",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/woman in a flowing white dress.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/woman in a flowing white dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/woman in a flowing white dress/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing white dress walks through the vast desert at sunset, leaving a trail of footprints behind her. The sun casts a warm glow over the sand dunes, creating a serene and picturesque scene.",
+      "description": "The scene captures a solitary figure walking through a desert landscape at sunset. The setting sun bathes the sand dunes in a golden hue, enhancing the tranquility of the moment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sunset"
+        ],
+        "objects": [
+          "dress",
+          "footprints"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "landscape"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/woman in a flowing white dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/woman in a flowing white dress/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure in a flowing white dress walks across the vast desert landscape at sunset. The sun casts a warm glow over the undulating sand dunes, creating a serene and contemplative atmosphere.",
+      "description": "The scene depicts a tranquil desert setting during sunset, with a person walking away from the camera towards the horizon. The landscape is dominated by sand dunes and a vibrant sky, suggesting a peaceful and introspective moment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "landscape",
+          "sunset"
+        ],
+        "concepts": [
+          "solitude",
+          "journey"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Nature: desert, sand dunes, sunset, sky. Objects: dress, footprints. Actions: walking. Emotions: serenity, contemplation. Scenes: landscape, sunset. Concepts: solitude, tranquility, journey",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "nature": [
+      "desert",
+      "sand dunes",
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "dress",
+      "footprints"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation"
+    ],
+    "scenes": [
+      "landscape",
+      "sunset"
+    ],
+    "concepts": [
+      "solitude",
+      "tranquility",
+      "journey"
+    ]
+  },
+  "metadata": {}
+}

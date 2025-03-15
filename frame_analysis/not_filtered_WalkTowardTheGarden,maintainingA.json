@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkTowardTheGarden,maintainingA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkTowardTheGarden,maintainingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkTowardTheGarden,maintainingA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stern-looking man with a distinguished mustache and beard stands in the foreground, wearing a fur-trimmed garment. Behind him, an ancient stone structure surrounded by lush greenery and flowers is visible, suggesting a historical or fantasy setting.",
+      "description": "The scene depicts a man in elaborate clothing standing in front of a grand, ancient temple-like structure. The setting is lush and verdant, with a mystical atmosphere enhanced by the presence of the stone ruins and surrounding foliage.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "greenery",
+          "flowers"
+        ],
+        "objects": [
+          "stone structure",
+          "fur-trimmed garment"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "stern"
+        ],
+        "scenes": [
+          "historical",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "ancient"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkTowardTheGarden,maintainingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkTowardTheGarden,maintainingA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing an ornate, gold-embroidered coat with fur trim is seen from behind, walking through a lush, green forest. The intricate design on the coat suggests a sense of regality or fantasy.",
+      "description": "The scene depicts a person moving through a dense, verdant forest, wearing a luxurious coat that stands out against the natural backdrop. The setting suggests a blend of fantasy and nature, possibly part of a larger narrative or adventure.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "forest",
+          "greenery",
+          "trees"
+        ],
+        "objects": [
+          "coat",
+          "fur trim",
+          "embroidery"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "adventure",
+          "regality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Nature: greenery, flowers, forest, trees. Objects: stone structure, fur-trimmed garment, coat, fur trim, embroidery. Actions: standing, walking. Emotions: stern. Scenes: fantasy, historical, nature. Concepts: mystical, ancient, adventure, regality",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "nature": [
+      "greenery",
+      "flowers",
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "stone structure",
+      "fur-trimmed garment",
+      "coat",
+      "fur trim",
+      "embroidery"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "stern"
+    ],
+    "scenes": [
+      "fantasy",
+      "historical",
+      "nature"
+    ],
+    "concepts": [
+      "mystical",
+      "ancient",
+      "adventure",
+      "regality"
+    ]
+  },
+  "metadata": {}
+}

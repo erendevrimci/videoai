@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Flash: Chinese Fusion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Flash: Chinese Fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Flash: Chinese Fusion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A superhero in a red and gold suit is running at high speed down a city street, surrounded by bright yellow lightning. The background features a cityscape with traditional architecture and glowing lanterns.",
+      "description": "The scene depicts a superhero in motion, racing down a city street with vibrant energy trails. The setting is an urban environment with a blend of modern and traditional elements, creating a dynamic and action-packed atmosphere.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "lightning",
+          "lanterns"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "city street",
+          "urban environment"
+        ],
+        "concepts": [
+          "speed",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Flash: Chinese Fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Flash: Chinese Fusion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A superhero in a red and gold suit is running at high speed through a city street, surrounded by bright yellow lightning. The scene is dynamic, capturing the energy and motion of the character as they move forward with determination.",
+      "description": "The scene depicts a superhero in a vibrant urban setting, showcasing their super speed as they dash through the city. The environment is filled with glowing lights and a sense of urgency.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "superhero suit",
+          "lightning"
+        ],
+        "actions": [
+          "running",
+          "speeding"
+        ],
+        "emotions": [
+          "determination",
+          "energy"
+        ],
+        "scenes": [
+          "urban",
+          "action"
+        ],
+        "concepts": [
+          "super speed",
+          "heroism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: superhero. Objects: lightning, suit, lanterns, superhero suit. Actions: running, speeding. Emotions: determination, energy. Scenes: city street, urban environment, urban, action. Concepts: speed, power, super speed, heroism",
+  "primary_labels": {
+    "people": [
+      "superhero"
+    ],
+    "objects": [
+      "lightning",
+      "suit",
+      "lanterns",
+      "superhero suit"
+    ],
+    "actions": [
+      "running",
+      "speeding"
+    ],
+    "emotions": [
+      "determination",
+      "energy"
+    ],
+    "scenes": [
+      "city street",
+      "urban environment",
+      "urban",
+      "action"
+    ],
+    "concepts": [
+      "speed",
+      "power",
+      "super speed",
+      "heroism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Viking cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Viking cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Viking cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small kitten dressed in a medieval-style cloak stands confidently in a forest setting. The kitten's large, expressive eyes are framed by the hood, and it holds a small dagger, adding a whimsical touch to the scene.",
+      "description": "The scene depicts a fantasy setting where a kitten is dressed as a medieval adventurer. The background suggests a forest environment with blurred foliage and rocks, creating a mystical atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "cloak",
+          "dagger"
+        ],
+        "nature": [
+          "forest",
+          "rocks"
+        ],
+        "emotions": [
+          "whimsical",
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "adventure",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Viking cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Viking cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small kitten is dressed in a medieval-style cloak, complete with a hood and leather accessories. The kitten stands confidently on a rocky surface, with a blurred fire glowing warmly in the background.",
+      "description": "The scene depicts a whimsical and imaginative setting where a kitten is dressed as if embarking on a fantasy adventure. The background suggests an outdoor environment, possibly a campsite or forest.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "rocks",
+          "fire"
+        ],
+        "objects": [
+          "cloak",
+          "hood",
+          "leather accessories"
+        ],
+        "emotions": [
+          "whimsical",
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "outdoor"
+        ],
+        "concepts": [
+          "imagination",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: cloak, dagger, hood, leather accessories. Nature: rocks, forest, fire. Emotions: whimsical, adventurous. Scenes: fantasy, medieval, outdoor. Concepts: adventure, imagination",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "cloak",
+      "dagger",
+      "hood",
+      "leather accessories"
+    ],
+    "nature": [
+      "rocks",
+      "forest",
+      "fire"
+    ],
+    "emotions": [
+      "whimsical",
+      "adventurous"
+    ],
+    "scenes": [
+      "fantasy",
+      "medieval",
+      "outdoor"
+    ],
+    "concepts": [
+      "adventure",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

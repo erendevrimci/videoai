@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snake slithers silently.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snake slithers silently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Snake slithers silently/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A snake glides smoothly through muddy water, creating ripples as it moves. Its scales glisten under the light, contrasting with the rich, earthy tones of the water. The snake's head is slightly raised, indicating its forward motion.",
+      "description": "The scene captures a snake swimming through a body of muddy water. The setting is likely a natural environment, such as a river or swamp, where the snake is navigating its habitat.",
+      "labels": {
+        "animals": [
+          "snake"
+        ],
+        "nature": [
+          "water",
+          "mud"
+        ],
+        "actions": [
+          "swimming",
+          "gliding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "natural habitat"
+        ],
+        "concepts": [
+          "wildlife",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Snake slithers silently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Snake slithers silently/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A snake slithers smoothly across the sand, leaving a distinct trail behind. The scales of the snake glisten under the warm sunlight, blending with the golden hues of the sand.",
+      "description": "The scene captures a snake moving across a sandy surface, likely in a desert environment. The focus is on the snake's movement and the texture of the sand.",
+      "labels": {
+        "animals": [
+          "snake"
+        ],
+        "nature": [
+          "sand",
+          "desert"
+        ],
+        "objects": [
+          "scales"
+        ],
+        "actions": [
+          "slithering"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "nature"
+        ],
+        "concepts": [
+          "camouflage",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: snake. Nature: water, mud, sand, desert. Actions: swimming, gliding, slithering. Emotions: calm. Scenes: natural habitat, nature. Concepts: movement, wildlife, camouflage. Objects: scales",
+  "primary_labels": {
+    "animals": [
+      "snake"
+    ],
+    "nature": [
+      "water",
+      "mud",
+      "sand",
+      "desert"
+    ],
+    "actions": [
+      "swimming",
+      "gliding",
+      "slithering"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "natural habitat",
+      "nature"
+    ],
+    "concepts": [
+      "movement",
+      "wildlife",
+      "camouflage"
+    ],
+    "objects": [
+      "scales"
+    ]
+  },
+  "metadata": {}
+}

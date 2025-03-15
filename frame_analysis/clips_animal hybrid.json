@@ -1,0 +1,173 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animal hybrid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animal hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/animal hybrid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dramatic jungle scene, a large scorpion and a tiger face off across a river, under a stormy sky lit by lightning. The tension between the two creatures is heightened by the pouring rain and the dark, dense forest surrounding them.",
+      "description": "The scene is set in a dense jungle during a thunderstorm. A scorpion and a tiger are positioned on opposite sides of a river, seemingly preparing for a confrontation. The atmosphere is tense and dramatic, with lightning illuminating the dark, rainy environment.",
+      "labels": {
+        "animals": [
+          "scorpion",
+          "tiger"
+        ],
+        "nature": [
+          "jungle",
+          "river",
+          "forest",
+          "lightning",
+          "rain"
+        ],
+        "objects": [
+          "river"
+        ],
+        "actions": [
+          "facing off",
+          "approaching"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "jungle",
+          "storm"
+        ],
+        "concepts": [
+          "confrontation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animal hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/animal hybrid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene unfolds as a large cat-like creature battles a giant scorpion by a misty riverbank. Lightning illuminates the dark, stormy sky, casting an eerie glow over the dense forest. The tension in the air is palpable as the creatures engage in a fierce struggle.",
+      "description": "The scene is set in a mystical forest during a thunderstorm. A large feline creature is locked in combat with a massive scorpion near a river, with lightning and rain adding to the dramatic atmosphere.",
+      "labels": {
+        "animals": [
+          "cat-like creature",
+          "scorpion"
+        ],
+        "nature": [
+          "forest",
+          "river",
+          "lightning",
+          "rain"
+        ],
+        "objects": [
+          "trees",
+          "water"
+        ],
+        "actions": [
+          "battle",
+          "struggle"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "stormy forest",
+          "riverbank"
+        ],
+        "concepts": [
+          "conflict",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animal hybrid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/animal hybrid/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fantastical creature with the body of a scorpion and the head of a tiger emerges from a stormy landscape. Lightning illuminates the scene, highlighting the creature's fierce expression and powerful stance. Water splashes around as it moves through the rocky terrain.",
+      "description": "The scene depicts a mythical hybrid creature in a dramatic, stormy environment. The setting is dark and intense, with lightning striking and rain pouring down, creating a sense of chaos and power.",
+      "labels": {
+        "animals": [
+          "tiger",
+          "scorpion"
+        ],
+        "nature": [
+          "lightning",
+          "rain",
+          "rocks",
+          "water"
+        ],
+        "objects": [],
+        "actions": [
+          "emerging",
+          "moving"
+        ],
+        "emotions": [
+          "fierce",
+          "intense"
+        ],
+        "scenes": [
+          "storm",
+          "fantasy"
+        ],
+        "concepts": [
+          "hybrid creature",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: scorpion, tiger, cat-like creature. Nature: lightning, rain, river, forest, jungle. Objects: river, trees, water. Actions: facing off, approaching, battle, struggle, emerging. Emotions: tension, drama, fierce, intense. Scenes: storm, jungle, stormy forest, riverbank, fantasy. Concepts: nature, confrontation, conflict, hybrid creature, mythical",
+  "primary_labels": {
+    "animals": [
+      "scorpion",
+      "tiger",
+      "cat-like creature"
+    ],
+    "nature": [
+      "lightning",
+      "rain",
+      "river",
+      "forest",
+      "jungle"
+    ],
+    "objects": [
+      "river",
+      "trees",
+      "water"
+    ],
+    "actions": [
+      "facing off",
+      "approaching",
+      "battle",
+      "struggle",
+      "emerging"
+    ],
+    "emotions": [
+      "tension",
+      "drama",
+      "fierce",
+      "intense"
+    ],
+    "scenes": [
+      "storm",
+      "jungle",
+      "stormy forest",
+      "riverbank",
+      "fantasy"
+    ],
+    "concepts": [
+      "nature",
+      "confrontation",
+      "conflict",
+      "hybrid creature",
+      "mythical"
+    ]
+  },
+  "metadata": {}
+}

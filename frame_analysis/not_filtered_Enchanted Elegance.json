@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enchanted Elegance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enchanted Elegance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enchanted Elegance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking green eyes and dark hair holds a beautifully designed perfume bottle. The bottle, with its intricate geometric shape and amber liquid, is prominently displayed in her hand.",
+      "description": "The scene captures a close-up of a woman holding a perfume bottle, highlighting elegance and sophistication. The setting is minimalistic, focusing on the woman's features and the perfume.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "perfume bottle"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "beauty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enchanted Elegance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enchanted Elegance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up image features a person with striking green eyes holding an elegant perfume bottle. The bottle is intricately designed with a faceted cap and a warm amber liquid inside, suggesting luxury and sophistication.",
+      "description": "The scene is a detailed, intimate portrait focusing on beauty and elegance, likely in a setting related to fashion or cosmetics. The emphasis is on the perfume bottle, highlighting its design and the allure it represents.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "perfume bottle"
+        ],
+        "emotions": [
+          "calm",
+          "elegant"
+        ],
+        "scenes": [
+          "portrait",
+          "close-up"
+        ],
+        "concepts": [
+          "beauty",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Enchanted Elegance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Enchanted Elegance/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up of a person with striking green eyes holding a luxurious perfume bottle. The bottle features a faceted, gem-like cap and a warm amber liquid inside.",
+      "description": "The scene captures an intimate and glamorous moment, focusing on a person showcasing a perfume. The setting is minimalistic, emphasizing elegance and sophistication.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "perfume bottle"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "close-up",
+          "portrait"
+        ],
+        "concepts": [
+          "luxury",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: perfume bottle. Actions: holding. Emotions: calm, elegant, confident. Scenes: close-up, portrait. Concepts: beauty, luxury, elegance",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "perfume bottle"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "elegant",
+      "confident"
+    ],
+    "scenes": [
+      "close-up",
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "luxury",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

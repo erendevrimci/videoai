@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The thing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The thing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The thing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large octopus emerges from the ocean, its tentacles swirling amidst the waves. The creature's textured skin glistens under the sunlight, contrasting with the frothy white sea foam. The scene captures a moment of dynamic movement as the octopus interacts with its aquatic environment.",
+      "description": "The scene depicts a giant octopus in the ocean, with its tentacles prominently displayed among the crashing waves. The setting is a vibrant marine environment, showcasing the octopus's natural habitat.",
+      "labels": {
+        "animals": [
+          "octopus"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "sea foam"
+        ],
+        "objects": [
+          "tentacles"
+        ],
+        "actions": [
+          "emerging",
+          "swirling"
+        ],
+        "emotions": [
+          "dynamic"
+        ],
+        "scenes": [
+          "marine environment"
+        ],
+        "concepts": [
+          "interaction",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The thing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The thing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large octopus emerges from the ocean, its tentacles sprawling over the foamy waves. The creature's textured skin glistens under the sunlight, creating a striking contrast against the deep blue sea.",
+      "description": "The scene depicts a giant octopus interacting with the ocean surface, showcasing its tentacles amidst the frothy waves. The setting is a dynamic ocean environment, with sunlight reflecting off the water.",
+      "labels": {
+        "animals": [
+          "octopus"
+        ],
+        "nature": [
+          "ocean",
+          "waves"
+        ],
+        "objects": [
+          "tentacles"
+        ],
+        "actions": [
+          "emerging",
+          "sprawling"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "marine life"
+        ],
+        "concepts": [
+          "nature",
+          "wildlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: octopus. Nature: ocean, waves, sea foam. Objects: tentacles. Actions: emerging, swirling, sprawling. Emotions: dynamic, awe. Scenes: marine environment, marine life. Concepts: interaction, movement, nature, wildlife",
+  "primary_labels": {
+    "animals": [
+      "octopus"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "sea foam"
+    ],
+    "objects": [
+      "tentacles"
+    ],
+    "actions": [
+      "emerging",
+      "swirling",
+      "sprawling"
+    ],
+    "emotions": [
+      "dynamic",
+      "awe"
+    ],
+    "scenes": [
+      "marine environment",
+      "marine life"
+    ],
+    "concepts": [
+      "interaction",
+      "movement",
+      "nature",
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

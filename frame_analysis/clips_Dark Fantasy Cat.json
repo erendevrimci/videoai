@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark Fantasy Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark Fantasy Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark Fantasy Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small kitten stands heroically on a rocky cliff, wielding a glowing sword. The scene is set against a dramatic sky with swirling clouds and crashing waves below.",
+      "description": "The image depicts a fantastical scene where a kitten, dressed in a cloak, holds a luminous sword on a cliffside. The setting is dramatic, with turbulent seas and a stormy sky, creating an epic and adventurous atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "cliff",
+          "ocean",
+          "clouds"
+        ],
+        "objects": [
+          "sword",
+          "cloak"
+        ],
+        "actions": [
+          "wielding",
+          "standing"
+        ],
+        "emotions": [
+          "heroic",
+          "adventurous"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "adventure",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark Fantasy Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark Fantasy Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small kitten stands heroically on a rocky cliff, wielding a glowing sword. The scene is set against a dramatic backdrop of stormy skies and crashing waves.",
+      "description": "The image depicts a fantastical scene where a kitten, dressed in a cloak, holds a luminous sword aloft on a rugged cliff. The atmosphere is tense and epic, with dark clouds and turbulent seas adding to the dramatic setting.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "sword",
+          "cloak",
+          "rocky cliff"
+        ],
+        "actions": [
+          "wielding",
+          "standing"
+        ],
+        "emotions": [
+          "heroic",
+          "dramatic"
+        ],
+        "scenes": [
+          "fantasy",
+          "stormy"
+        ],
+        "concepts": [
+          "adventure",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Nature: cliff, ocean, clouds. Objects: sword, cloak, rocky cliff. Actions: wielding, standing. Emotions: heroic, adventurous, dramatic. Scenes: fantasy, dramatic, stormy. Concepts: adventure, courage",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "nature": [
+      "cliff",
+      "ocean",
+      "clouds"
+    ],
+    "objects": [
+      "sword",
+      "cloak",
+      "rocky cliff"
+    ],
+    "actions": [
+      "wielding",
+      "standing"
+    ],
+    "emotions": [
+      "heroic",
+      "adventurous",
+      "dramatic"
+    ],
+    "scenes": [
+      "fantasy",
+      "dramatic",
+      "stormy"
+    ],
+    "concepts": [
+      "adventure",
+      "courage"
+    ]
+  },
+  "metadata": {}
+}

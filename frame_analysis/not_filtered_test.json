@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/test.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/test.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/test/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene spa setting where a massage therapist is gently massaging a client's back. The client is lying on a massage table, covered with a towel, and appears relaxed. The room is softly lit, enhancing the calming atmosphere.",
+      "description": "The scene is set in a tranquil spa environment, featuring a massage session in progress. The massage therapist is focused on providing a soothing experience for the client, who is resting comfortably.",
+      "labels": {
+        "people": [
+          "massage therapist",
+          "client"
+        ],
+        "objects": [
+          "massage table",
+          "towel",
+          "candles",
+          "lantern",
+          "plants"
+        ],
+        "actions": [
+          "massaging",
+          "relaxing"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "spa",
+          "massage room"
+        ],
+        "concepts": [
+          "wellness",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/test.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/test/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massage therapist gently works on a client's back in a serene spa setting. The client is lying face down, wrapped in a towel, with a relaxed expression. Soft natural light filters through a large window, enhancing the calming atmosphere.",
+      "description": "The scene takes place in a tranquil spa environment, where a massage therapist is providing a relaxing back massage to a client. The room is softly lit with natural light coming from a large window, creating a peaceful and soothing ambiance.",
+      "labels": {
+        "people": [
+          "massage therapist",
+          "client"
+        ],
+        "objects": [
+          "towel",
+          "window",
+          "plant"
+        ],
+        "actions": [
+          "massage",
+          "relaxation"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "spa",
+          "wellness"
+        ],
+        "concepts": [
+          "self-care",
+          "therapy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/test.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/test/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A smartphone lies on a soft, beige surface, connected to a small black device. In the background, lit candles create a warm and calming atmosphere.",
+      "description": "The scene is set in a tranquil environment, possibly a spa or relaxation area, with a focus on a smartphone and a connected device on a soft surface. The presence of candles suggests a soothing and peaceful setting.",
+      "labels": {
+        "objects": [
+          "smartphone",
+          "candle",
+          "device"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "spa",
+          "relaxation"
+        ],
+        "concepts": [
+          "technology",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: massage therapist, client. Objects: towel, massage table, candles, lantern, plants. Actions: massaging, relaxing, massage, relaxation, resting. Emotions: calm, relaxed. Scenes: spa, massage room, wellness, relaxation. Concepts: wellness, relaxation, self-care, therapy, technology",
+  "primary_labels": {
+    "people": [
+      "massage therapist",
+      "client"
+    ],
+    "objects": [
+      "towel",
+      "massage table",
+      "candles",
+      "lantern",
+      "plants"
+    ],
+    "actions": [
+      "massaging",
+      "relaxing",
+      "massage",
+      "relaxation",
+      "resting"
+    ],
+    "emotions": [
+      "calm",
+      "relaxed"
+    ],
+    "scenes": [
+      "spa",
+      "massage room",
+      "wellness",
+      "relaxation"
+    ],
+    "concepts": [
+      "wellness",
+      "relaxation",
+      "self-care",
+      "therapy",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

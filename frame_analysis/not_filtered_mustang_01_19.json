@@ -1,0 +1,66 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_19.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_19.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_19/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic black car speeds down a rural road flanked by lush greenery. The overcast sky adds a subdued tone to the scene, while the car's taillights glow brightly. The road curves gently, leading into a dense area of trees and foliage.",
+      "description": "The scene captures a classic car driving on a quiet, rural road surrounded by dense trees and greenery. The atmosphere is calm and serene, with an overcast sky providing soft, diffused lighting.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "trees",
+          "grass",
+          "power lines"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "rural",
+          "outdoors"
+        ],
+        "concepts": [
+          "transportation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road, trees, grass, power lines. Actions: driving, speeding. Emotions: calm, serene. Scenes: rural, outdoors. Concepts: transportation, nature",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road",
+      "trees",
+      "grass",
+      "power lines"
+    ],
+    "actions": [
+      "driving",
+      "speeding"
+    ],
+    "emotions": [
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "rural",
+      "outdoors"
+    ],
+    "concepts": [
+      "transportation",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SubitementIlCeMetA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SubitementIlCeMetA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SubitementIlCeMetA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat stands confidently on a grand marble staircase, dressed in a stylish white outfit complete with a chain necklace and pink sunglasses. The opulent setting features ornate golden railings, enhancing the luxurious atmosphere.",
+      "description": "The scene captures a whimsical and luxurious setting where a cat is humorously dressed in human-like fashion, positioned on an elegant staircase. The background suggests a grand and opulent environment, possibly a mansion or palace.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "chain necklace",
+          "jacket",
+          "sneakers"
+        ],
+        "nature": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "luxurious",
+          "opulent"
+        ],
+        "concepts": [
+          "humor",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SubitementIlCeMetA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SubitementIlCeMetA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat dressed in stylish attire stands confidently on a grand marble staircase. The cat wears pink sunglasses, a white outfit, and sneakers, exuding a sense of fashionable flair. Ornate golden railings and intricate decor in the background suggest an opulent setting.",
+      "description": "The scene captures a whimsical and humorous moment where a cat is dressed like a human in a luxurious environment. The grand staircase and lavish decor indicate a setting of wealth and elegance, while the cat's attire adds a playful twist.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "jacket",
+          "sneakers",
+          "chain necklace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "luxurious",
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, chain necklace, jacket, sneakers. Actions: standing. Emotions: confident, playful. Scenes: luxurious, opulent, indoor. Concepts: humor, fashion",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "chain necklace",
+      "jacket",
+      "sneakers"
+    ],
+    "nature": [],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "playful"
+    ],
+    "scenes": [
+      "luxurious",
+      "opulent",
+      "indoor"
+    ],
+    "concepts": [
+      "humor",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

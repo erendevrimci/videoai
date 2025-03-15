@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/happy new year.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/happy new year.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/happy new year/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two adorable kittens sit facing each other, adorned with festive hats. They are surrounded by a warm, glowing backdrop with the numbers '2' and '5' illuminated in sparkling lights.",
+      "description": "The scene depicts a festive setting with two kittens wearing celebratory hats, likely indicating a New Year's or birthday celebration. The glowing numbers in the background add a magical and joyful atmosphere.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "objects": [
+          "hats",
+          "lights"
+        ],
+        "actions": [
+          "sitting",
+          "facing each other"
+        ],
+        "emotions": [
+          "joyful",
+          "festive"
+        ],
+        "scenes": [
+          "celebration",
+          "festive"
+        ],
+        "concepts": [
+          "new year",
+          "birthday"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/happy new year.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/happy new year/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two adorable kittens wearing festive hats are cuddling together in front of a sparkling '2025' display. The scene is filled with warmth and celebration, enhanced by the glowing lights in the background.",
+      "description": "The image depicts a joyful New Year's celebration with two kittens as the focal point. They are dressed in festive hats, surrounded by a backdrop of glowing lights forming the number '2025', creating a cheerful and festive atmosphere.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "hats",
+          "lights",
+          "sparkles"
+        ],
+        "actions": [
+          "cuddling"
+        ],
+        "emotions": [
+          "joyful",
+          "festive"
+        ],
+        "scenes": [
+          "celebration",
+          "New Year"
+        ],
+        "concepts": [
+          "friendship",
+          "holiday"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kittens, cats. Objects: hats, lights, sparkles. Actions: sitting, facing each other, cuddling. Emotions: joyful, festive. Scenes: celebration, festive, New Year. Concepts: new year, birthday, friendship, holiday",
+  "primary_labels": {
+    "animals": [
+      "kittens",
+      "cats"
+    ],
+    "objects": [
+      "hats",
+      "lights",
+      "sparkles"
+    ],
+    "actions": [
+      "sitting",
+      "facing each other",
+      "cuddling"
+    ],
+    "emotions": [
+      "joyful",
+      "festive"
+    ],
+    "scenes": [
+      "celebration",
+      "festive",
+      "New Year"
+    ],
+    "concepts": [
+      "new year",
+      "birthday",
+      "friendship",
+      "holiday"
+    ]
+  },
+  "metadata": {}
+}

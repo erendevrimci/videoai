@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StripperDance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StripperDance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StripperDance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands outdoors in front of a modern building with large glass panels. She is smiling and making a peace sign with her right hand, dressed in casual black attire with white sneakers.",
+      "description": "The scene is set outside a contemporary building with reflective glass windows. The woman appears relaxed and cheerful, posing for a photo on a sunny day.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass panels",
+          "building",
+          "sneakers",
+          "clothing"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "casual",
+          "modern architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StripperDance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StripperDance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands outdoors in front of a large glass window, smiling and making a peace sign with her hand. She is dressed in casual athletic wear, including a black crop top and black pants, paired with white sneakers.",
+      "description": "The scene is set outdoors in an urban environment, possibly near a modern building with large glass windows. The woman is posing casually, exuding a cheerful and relaxed vibe.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass window",
+          "sneakers",
+          "crop top",
+          "pants"
+        ],
+        "actions": [
+          "smiling",
+          "posing",
+          "making peace sign"
+        ],
+        "emotions": [
+          "cheerful",
+          "relaxed"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "casual",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: sneakers, glass panels, building, clothing, glass window. Actions: posing, smiling, making peace sign. Emotions: happiness, cheerful, relaxed. Scenes: outdoor, urban. Concepts: casual, modern architecture, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "sneakers",
+      "glass panels",
+      "building",
+      "clothing",
+      "glass window"
+    ],
+    "actions": [
+      "posing",
+      "smiling",
+      "making peace sign"
+    ],
+    "emotions": [
+      "happiness",
+      "cheerful",
+      "relaxed"
+    ],
+    "scenes": [
+      "outdoor",
+      "urban"
+    ],
+    "concepts": [
+      "casual",
+      "modern architecture",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

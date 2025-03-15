@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Border Terrier.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Border Terrier.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Border Terrier/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful dog leaps through a sunlit field, surrounded by chickens pecking at the ground. The scene captures a moment of playful energy amidst the vibrant colors of autumn leaves.",
+      "description": "The image depicts a lively outdoor scene in a rural setting during autumn. A dog is energetically jumping forward, while several chickens are scattered around, creating a sense of movement and freedom.",
+      "labels": {
+        "animals": [
+          "dog",
+          "chicken"
+        ],
+        "nature": [
+          "autumn leaves",
+          "field"
+        ],
+        "objects": [
+          "leaves"
+        ],
+        "actions": [
+          "jumping",
+          "pecking"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "rural"
+        ],
+        "concepts": [
+          "freedom",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Border Terrier.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Border Terrier/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful dog runs energetically through a sunlit field, surrounded by several chickens pecking at the ground. The scene is filled with vibrant autumn colors, creating a warm and lively atmosphere.",
+      "description": "The image captures a lively outdoor scene in a sunlit field during autumn. A dog is playfully running, while chickens are scattered around, pecking at the fallen leaves.",
+      "labels": {
+        "animals": [
+          "dog",
+          "chicken"
+        ],
+        "nature": [
+          "field",
+          "autumn leaves"
+        ],
+        "objects": [
+          "leaves"
+        ],
+        "actions": [
+          "running",
+          "pecking"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "autumn"
+        ],
+        "concepts": [
+          "playfulness",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog, chicken. Nature: autumn leaves, field. Objects: leaves. Actions: pecking, jumping, running. Emotions: joyful, playful. Scenes: outdoor, rural, autumn. Concepts: freedom, energy, playfulness, nature",
+  "primary_labels": {
+    "animals": [
+      "dog",
+      "chicken"
+    ],
+    "nature": [
+      "autumn leaves",
+      "field"
+    ],
+    "objects": [
+      "leaves"
+    ],
+    "actions": [
+      "pecking",
+      "jumping",
+      "running"
+    ],
+    "emotions": [
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "outdoor",
+      "rural",
+      "autumn"
+    ],
+    "concepts": [
+      "freedom",
+      "energy",
+      "playfulness",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

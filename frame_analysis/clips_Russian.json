@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Russian.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Russian.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Russian/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair stands in a snowy urban street, wearing a luxurious fur coat and elegant dress. The cityscape is softly illuminated by streetlights, creating a serene winter atmosphere. Snow gently falls around her, adding to the scene's ethereal quality.",
+      "description": "The scene is set in a snow-covered city street, likely during the evening or early night. The woman is the focal point, exuding elegance and poise amidst the softly falling snow. The background features tall buildings and glowing streetlights, contributing to a peaceful, wintery ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "fur coat",
+          "dress",
+          "earrings",
+          "streetlights"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "urban",
+          "winter"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Russian.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Russian/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white dress and fur coat walks through a snowy city street, surrounded by mist. The scene captures a serene moment amidst the urban winter landscape.",
+      "description": "The image depicts a winter city scene with a woman walking through a snow-covered street. The background features tall buildings dusted with snow, and the atmosphere is calm and ethereal.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "mist"
+        ],
+        "objects": [
+          "fur coat",
+          "dress",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "city street",
+          "winter"
+        ],
+        "concepts": [
+          "urban winter",
+          "calm atmosphere"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: snow, mist. Objects: fur coat, dress, earrings, streetlights, buildings. Actions: standing, walking. Emotions: serene. Scenes: winter, urban, city street. Concepts: elegance, fashion, urban winter, calm atmosphere",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "snow",
+      "mist"
+    ],
+    "objects": [
+      "fur coat",
+      "dress",
+      "earrings",
+      "streetlights",
+      "buildings"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "winter",
+      "urban",
+      "city street"
+    ],
+    "concepts": [
+      "elegance",
+      "fashion",
+      "urban winter",
+      "calm atmosphere"
+    ]
+  },
+  "metadata": {}
+}

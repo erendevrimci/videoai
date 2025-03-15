@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlOnTheLeftHugs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlOnTheLeftHugs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlOnTheLeftHugs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman and a young girl stand facing each other against a plain background. The woman, with arms crossed, wears a patterned top and a red bracelet, while the girl is dressed in a red and white dress with a matching hair accessory.",
+      "description": "The scene depicts a calm interaction between a woman and a young girl in a simple indoor setting. The woman appears relaxed with a slight smile, and the girl looks attentive, suggesting a moment of communication or connection.",
+      "labels": {
+        "people": [
+          "woman",
+          "girl"
+        ],
+        "objects": [
+          "dress",
+          "bracelet"
+        ],
+        "actions": [
+          "standing",
+          "facing each other"
+        ],
+        "emotions": [
+          "calm",
+          "attentive"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "interaction",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlOnTheLeftHugs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlOnTheLeftHugs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman and a young girl share a warm embrace, both smiling gently. The woman wears a patterned black top, while the girl is dressed in a red and white striped outfit.",
+      "description": "The scene captures a tender moment between a woman and a girl, likely in a studio setting with a plain background. They appear to be sharing a heartfelt hug, conveying a sense of closeness and affection.",
+      "labels": {
+        "people": [
+          "woman",
+          "girl"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "hugging"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "family",
+          "bonding"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, girl. Objects: dress, bracelet, clothing. Actions: standing, facing each other, hugging. Emotions: calm, attentive, affection, happiness. Scenes: indoor, studio. Concepts: interaction, connection, family, bonding",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "girl"
+    ],
+    "objects": [
+      "dress",
+      "bracelet",
+      "clothing"
+    ],
+    "actions": [
+      "standing",
+      "facing each other",
+      "hugging"
+    ],
+    "emotions": [
+      "calm",
+      "attentive",
+      "affection",
+      "happiness"
+    ],
+    "scenes": [
+      "indoor",
+      "studio"
+    ],
+    "concepts": [
+      "interaction",
+      "connection",
+      "family",
+      "bonding"
+    ]
+  },
+  "metadata": {}
+}

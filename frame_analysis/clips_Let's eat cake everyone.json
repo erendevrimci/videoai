@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Let's eat cake everyone.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Let's eat cake everyone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Let's eat cake everyone/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts tiny figurines working on a plate of sliced kiwi, resembling a construction site. A large hand sprinkles powdered sugar over the fruit, creating a snowy effect. The miniature workers use ladders and tools, adding to the playful and imaginative atmosphere.",
+      "description": "The scene is set on a plate with sliced kiwi, where tiny figurines are engaged in activities resembling construction work. The setting is playful and imaginative, with a large hand sprinkling powdered sugar over the fruit, creating a snowy landscape.",
+      "labels": {
+        "people": [
+          "miniature figurines"
+        ],
+        "objects": [
+          "kiwi",
+          "plate",
+          "ladder",
+          "tools",
+          "powdered sugar"
+        ],
+        "actions": [
+          "sprinkling",
+          "working"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "miniature scene",
+          "food art"
+        ],
+        "concepts": [
+          "creativity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Let's eat cake everyone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Let's eat cake everyone/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature workers interacting with a kiwi fruit. The tiny figures, dressed in construction attire, appear to be dusting the fruit with powdered sugar. A hand is seen delicately placing one of the figures on top of the kiwi.",
+      "description": "The scene is a playful and imaginative setup where miniature figures are staged to look like they are working on a kiwi fruit. The setting is likely a kitchen or a creative studio, with the focus on the interaction between the figures and the fruit.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "kiwi fruit",
+          "ladder",
+          "plate",
+          "hand"
+        ],
+        "actions": [
+          "dusting",
+          "placing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "miniature scene",
+          "creative setup"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figurines, miniature figures. Objects: plate, ladder, kiwi, tools, powdered sugar. Actions: sprinkling, working, dusting, placing. Emotions: playful, imaginative, whimsical. Scenes: miniature scene, food art, creative setup. Concepts: creativity, whimsy, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature figurines",
+      "miniature figures"
+    ],
+    "objects": [
+      "plate",
+      "ladder",
+      "kiwi",
+      "tools",
+      "powdered sugar"
+    ],
+    "actions": [
+      "sprinkling",
+      "working",
+      "dusting",
+      "placing"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical"
+    ],
+    "scenes": [
+      "miniature scene",
+      "food art",
+      "creative setup"
+    ],
+    "concepts": [
+      "creativity",
+      "whimsy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

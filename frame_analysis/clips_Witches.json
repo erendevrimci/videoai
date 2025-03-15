@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witches.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witches.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Witches/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure with glowing red eyes wields a magical, fiery whip in a dark, urban setting. The background features a gothic-style building with smoke billowing from it, adding to the ominous atmosphere. The scene is filled with dynamic energy as red sparks fly around the figure.",
+      "description": "The scene is set in a dark, possibly post-apocalyptic urban environment. A powerful, enigmatic character is performing a magical action, creating an intense and dramatic atmosphere.",
+      "labels": {
+        "people": [
+          "mysterious figure"
+        ],
+        "objects": [
+          "fiery whip",
+          "gothic building"
+        ],
+        "actions": [
+          "wielding",
+          "magic"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "urban",
+          "dark"
+        ],
+        "concepts": [
+          "magic",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witches.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Witches/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure stands in a dark, gothic setting, wielding a fiery, magical ring. The person's eyes glow red, matching the intense flames swirling around them. In the background, a towering, ancient building looms under a cloudy sky.",
+      "description": "The scene is set in a dark, medieval-like environment, possibly a fantasy world. A person is performing a magical act, surrounded by flames, with a historic building in the background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "fiery ring",
+          "gothic building"
+        ],
+        "actions": [
+          "wielding magic",
+          "flame swirling"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "magic",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: mysterious figure, person. Objects: gothic building, fiery whip, fiery ring. Actions: wielding, magic, wielding magic, flame swirling. Emotions: intensity, mystery, intense. Scenes: urban, dark, fantasy, medieval. Concepts: magic, power, mystery",
+  "primary_labels": {
+    "people": [
+      "mysterious figure",
+      "person"
+    ],
+    "objects": [
+      "gothic building",
+      "fiery whip",
+      "fiery ring"
+    ],
+    "actions": [
+      "wielding",
+      "magic",
+      "wielding magic",
+      "flame swirling"
+    ],
+    "emotions": [
+      "intensity",
+      "mystery",
+      "intense"
+    ],
+    "scenes": [
+      "urban",
+      "dark",
+      "fantasy",
+      "medieval"
+    ],
+    "concepts": [
+      "magic",
+      "power",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

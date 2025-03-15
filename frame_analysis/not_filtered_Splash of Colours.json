@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Splash of Colours.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Splash of Colours.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Splash of Colours/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant explosion of red and yellow powders creates a dynamic and colorful scene. The particles appear to be suspended in mid-air, forming a swirling cloud of color. The contrast between the bright powders and the dark background enhances the visual impact.",
+      "description": "The scene captures a close-up view of red and yellow powders interacting in a dynamic and energetic manner. The powders seem to be in motion, creating a swirling effect that suggests an explosion or dispersion.",
+      "labels": {
+        "objects": [
+          "powder",
+          "particles"
+        ],
+        "actions": [
+          "explosion",
+          "dispersion"
+        ],
+        "emotions": [
+          "vibrant",
+          "energetic"
+        ],
+        "scenes": [
+          "abstract",
+          "dynamic"
+        ],
+        "concepts": [
+          "color",
+          "motion",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Splash of Colours.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Splash of Colours/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Vibrant clouds of colored powder billow and swirl in a dynamic display. The scene is filled with rich hues of red, orange, and yellow, creating a mesmerizing visual effect. The textures and movement suggest an energetic and lively atmosphere.",
+      "description": "The image captures a dynamic scene of colored powders in motion, resembling an explosion or dispersion of pigments. The setting is abstract, focusing on the interplay of colors and textures.",
+      "labels": {
+        "objects": [
+          "colored powder",
+          "pigments"
+        ],
+        "actions": [
+          "billowing",
+          "swirling"
+        ],
+        "emotions": [
+          "energetic",
+          "lively"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "color explosion",
+          "dynamic movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: powder, particles, colored powder, pigments. Actions: explosion, dispersion, billowing, swirling. Emotions: energetic, vibrant, lively. Scenes: abstract, dynamic. Concepts: color, motion, contrast, color explosion, dynamic movement",
+  "primary_labels": {
+    "objects": [
+      "powder",
+      "particles",
+      "colored powder",
+      "pigments"
+    ],
+    "actions": [
+      "explosion",
+      "dispersion",
+      "billowing",
+      "swirling"
+    ],
+    "emotions": [
+      "energetic",
+      "vibrant",
+      "lively"
+    ],
+    "scenes": [
+      "abstract",
+      "dynamic"
+    ],
+    "concepts": [
+      "color",
+      "motion",
+      "contrast",
+      "color explosion",
+      "dynamic movement"
+    ]
+  },
+  "metadata": {}
+}

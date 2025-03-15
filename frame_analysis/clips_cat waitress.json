@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat waitress.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat waitress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat waitress/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as a waiter is holding a tray with a gourmet meal in a restaurant setting. The cat wears a formal black and white uniform with a bow tie, adding a whimsical touch to the scene.",
+      "description": "The scene depicts a humorous and imaginative setting where a cat is dressed as a waiter in a restaurant. The focus is on the cat holding a tray with an elegantly presented meal, suggesting a playful take on fine dining.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "tray",
+          "meal",
+          "uniform",
+          "bow tie"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "restaurant"
+        ],
+        "concepts": [
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat waitress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat waitress/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed as a waiter is holding two plates of food in a restaurant setting. The feline is wearing a formal black and white uniform with a bow tie, appearing focused on serving the dishes.",
+      "description": "The scene is set in a restaurant where a cat, humorously dressed as a waiter, is serving food. The setting is elegant and warm, suggesting a fine dining atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "plates",
+          "food",
+          "wine glass",
+          "waiter uniform"
+        ],
+        "actions": [
+          "serving",
+          "holding"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "restaurant",
+          "dining"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: tray, meal, uniform, bow tie, plates. Actions: holding, serving. Emotions: whimsical, focused. Scenes: restaurant, dining. Concepts: humor, imagination, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "tray",
+      "meal",
+      "uniform",
+      "bow tie",
+      "plates"
+    ],
+    "actions": [
+      "holding",
+      "serving"
+    ],
+    "emotions": [
+      "whimsical",
+      "focused"
+    ],
+    "scenes": [
+      "restaurant",
+      "dining"
+    ],
+    "concepts": [
+      "humor",
+      "imagination",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

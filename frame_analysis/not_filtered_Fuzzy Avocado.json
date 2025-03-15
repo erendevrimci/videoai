@@ -1,0 +1,90 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fuzzy Avocado.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fuzzy Avocado.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fuzzy Avocado/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A perfectly halved avocado is placed on a rustic wooden surface, showcasing its vibrant green flesh and smooth, round pit. The dark background accentuates the avocado's rich colors and textures.",
+      "description": "The scene captures a close-up view of a halved avocado on a wooden table, with a focus on its fresh and appealing appearance.",
+      "labels": {
+        "objects": [
+          "avocado",
+          "wooden surface"
+        ],
+        "nature": [
+          "fruit"
+        ],
+        "scenes": [
+          "close-up",
+          "still life"
+        ],
+        "visual attributes": [
+          "vibrant colors",
+          "dark background",
+          "texture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fuzzy Avocado.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fuzzy Avocado/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A plush toy shaped like an avocado with a smiling face is placed on a wooden surface. The toy features a green outer layer, a light green interior, and a brown pit at its center.",
+      "description": "The scene depicts a cute and whimsical plush toy designed to resemble an avocado, complete with a smiling face. It is set against a simple wooden background, giving the image a warm and cozy feel.",
+      "labels": {
+        "objects": [
+          "plush toy",
+          "avocado"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "toy display"
+        ],
+        "concepts": [
+          "cute",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: avocado, wooden surface, plush toy. Nature: fruit. Scenes: close-up, still life, indoor, toy display. Visual attributes: vibrant colors, dark background, texture. Emotions: happiness, playfulness. Concepts: cute, whimsical",
+  "primary_labels": {
+    "objects": [
+      "avocado",
+      "wooden surface",
+      "plush toy"
+    ],
+    "nature": [
+      "fruit"
+    ],
+    "scenes": [
+      "close-up",
+      "still life",
+      "indoor",
+      "toy display"
+    ],
+    "visual attributes": [
+      "vibrant colors",
+      "dark background",
+      "texture"
+    ],
+    "emotions": [
+      "happiness",
+      "playfulness"
+    ],
+    "concepts": [
+      "cute",
+      "whimsical"
+    ]
+  },
+  "metadata": {}
+}

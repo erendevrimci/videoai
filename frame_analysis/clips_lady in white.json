@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/lady in white.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/lady in white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/lady in white/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands gracefully in a lush forest, wearing a flowing white dress and a floral crown. Sunlight filters through the tall trees, casting a serene glow on the scene.",
+      "description": "The scene is set in a tranquil forest with towering trees and abundant greenery. The woman appears ethereal, blending harmoniously with the natural surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "ferns"
+        ],
+        "objects": [
+          "dress",
+          "floral crown"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/lady in white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/lady in white/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing white dress walks gracefully through a lush forest, surrounded by tall trees and ferns. Sunlight filters through the canopy, creating a serene and ethereal atmosphere.",
+      "description": "The scene depicts a tranquil forest setting with a woman walking through dense greenery. The sunlight streaming through the trees adds a mystical quality to the environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "ferns"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene",
+          "ethereal"
+        ],
+        "scenes": [
+          "nature",
+          "forest"
+        ],
+        "concepts": [
+          "tranquility",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/lady in white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/lady in white/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a flowing white dress walks gracefully through a lush forest. She wears a floral crown and is surrounded by towering trees and ferns, with sunlight filtering through the canopy.",
+      "description": "The scene is set in a dense, serene forest, with a woman moving elegantly along a path. The atmosphere is peaceful and enchanting, enhanced by the soft lighting and natural surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "ferns"
+        ],
+        "objects": [
+          "dress",
+          "floral crown"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "enchantment",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: forest, trees, ferns. Objects: dress, floral crown. Actions: walking, standing. Emotions: serene, serenity, ethereal, peaceful. Scenes: forest, nature, outdoors. Concepts: tranquility, nature, ethereal, mystical, enchantment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "ferns"
+    ],
+    "objects": [
+      "dress",
+      "floral crown"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "serenity",
+      "ethereal",
+      "peaceful"
+    ],
+    "scenes": [
+      "forest",
+      "nature",
+      "outdoors"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature",
+      "ethereal",
+      "mystical",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

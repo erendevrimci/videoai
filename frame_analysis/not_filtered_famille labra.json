@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/famille labra.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/famille labra.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/famille labra/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A heartwarming scene features three dogs closely cuddled together, exuding warmth and affection. The black dog gently rests its head on the golden retriever, while the puppy nestles comfortably between them.",
+      "description": "The image portrays a serene and affectionate moment among three dogs, suggesting a familial bond. The setting appears cozy and intimate, with the dogs resting on a soft surface.",
+      "labels": {
+        "animals": [
+          "dogs",
+          "puppy"
+        ],
+        "emotions": [
+          "affection",
+          "comfort"
+        ],
+        "scenes": [
+          "intimate",
+          "familial"
+        ],
+        "objects": [
+          "blanket"
+        ],
+        "concepts": [
+          "companionship",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/famille labra.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/famille labra/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A heartwarming scene of three dogs snuggling together on a soft surface. The group consists of a black dog, a golden dog, and a puppy nestled between them, showcasing a sense of family and affection.",
+      "description": "The image depicts a cozy and intimate moment among three dogs, highlighting their close bond and familial connection. The setting is simple, focusing on the dogs' interaction and the warmth of their companionship.",
+      "labels": {
+        "animals": [
+          "dogs",
+          "puppy"
+        ],
+        "nature": [],
+        "objects": [
+          "blanket"
+        ],
+        "actions": [
+          "snuggling",
+          "cuddling"
+        ],
+        "emotions": [
+          "affection",
+          "comfort"
+        ],
+        "scenes": [
+          "domestic",
+          "cozy"
+        ],
+        "concepts": [
+          "family",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/famille labra.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/famille labra/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A tender moment is captured between three dogs, a black Labrador, a golden retriever, and a puppy nestled between them. The dogs are lying close together on a soft, draped fabric, exuding warmth and affection. Their gentle interaction suggests a familial bond and a serene atmosphere.",
+      "description": "The scene depicts a close-knit group of dogs, consisting of a black Labrador, a golden retriever, and a small puppy. They are lying on a soft, silky fabric, creating a cozy and intimate setting. The dogs appear to be in a calm and affectionate interaction, highlighting a sense of family and comfort.",
+      "labels": {
+        "animals": [
+          "dog",
+          "Labrador",
+          "golden retriever",
+          "puppy"
+        ],
+        "objects": [
+          "fabric"
+        ],
+        "actions": [
+          "lying",
+          "snuggling"
+        ],
+        "emotions": [
+          "affection",
+          "serenity"
+        ],
+        "scenes": [
+          "intimate setting",
+          "familial bond"
+        ],
+        "concepts": [
+          "family",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: puppy, dogs, dog, Labrador, golden retriever. Emotions: affection, comfort, serenity. Scenes: intimate, familial, domestic, cozy, intimate setting. Objects: blanket, fabric. Concepts: companionship, family, warmth, comfort. Actions: snuggling, cuddling, lying",
+  "primary_labels": {
+    "animals": [
+      "puppy",
+      "dogs",
+      "dog",
+      "Labrador",
+      "golden retriever"
+    ],
+    "emotions": [
+      "affection",
+      "comfort",
+      "serenity"
+    ],
+    "scenes": [
+      "intimate",
+      "familial",
+      "domestic",
+      "cozy",
+      "intimate setting"
+    ],
+    "objects": [
+      "blanket",
+      "fabric"
+    ],
+    "concepts": [
+      "companionship",
+      "family",
+      "warmth",
+      "comfort"
+    ],
+    "nature": [],
+    "actions": [
+      "snuggling",
+      "cuddling",
+      "lying"
+    ]
+  },
+  "metadata": {}
+}

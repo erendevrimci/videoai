@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in L.A. in the 1960s.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in L.A. in the 1960s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in L.A. in the 1960s/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish woman in a vintage dress stands confidently on a city street, exuding a classic 1950s vibe. She is holding a small handbag and wearing sunglasses, with a vintage car parked behind her. The scene is set against the backdrop of a diner with neon signs.",
+      "description": "The scene captures a retro urban setting, likely from the mid-20th century, with a focus on fashion and classic automobiles. The woman is the focal point, embodying elegance and sophistication as she stands in front of a vintage car and a diner with bright neon signage.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "vintage car",
+          "handbag",
+          "sunglasses",
+          "neon signs"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "city street",
+          "urban",
+          "retro"
+        ],
+        "concepts": [
+          "fashion",
+          "vintage",
+          "1950s style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in L.A. in the 1960s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in L.A. in the 1960s/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish woman in a vintage dress walks confidently down a city street, exuding elegance and grace. The scene is set against a backdrop of classic cars and neon signs, evoking a mid-20th-century urban atmosphere.",
+      "description": "The image captures a retro city scene with a focus on a fashionable woman walking along a bustling street. The setting suggests a nostalgic era, highlighted by vintage cars and neon signage.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "sunglasses",
+          "pearl necklace",
+          "vintage car",
+          "neon sign"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "urban setting"
+        ],
+        "concepts": [
+          "vintage",
+          "fashion",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: vintage car, sunglasses, handbag, neon signs, dress. Actions: standing, walking. Emotions: confident, confidence. Scenes: city street, urban, retro, urban setting. Concepts: fashion, vintage, 1950s style, nostalgia",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "vintage car",
+      "sunglasses",
+      "handbag",
+      "neon signs",
+      "dress"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "city street",
+      "urban",
+      "retro",
+      "urban setting"
+    ],
+    "concepts": [
+      "fashion",
+      "vintage",
+      "1950s style",
+      "nostalgia"
+    ]
+  },
+  "metadata": {}
+}

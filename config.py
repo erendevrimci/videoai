@@ -30,14 +30,14 @@ class OpenAISettings(BaseModel):
     script_model: str = Field(default="gpt-4o")
     title_desc_model: str = Field(default="gpt-4o")
     video_edit_model: str = Field(default="o3-mini")
-    temperature: float = Field(default=0.7)
+    temperature: float = Field(default=0.3)
     max_tokens: int = Field(default=4000)
 
 class ElevenLabsSettings(BaseModel):
     """ElevenLabs API settings"""
     api_key: str = Field(default_factory=lambda: os.getenv("ELEVENLABS_API_KEY", ""))
-    model_id: str = Field(default="eleven_turbo_v2")
-    default_voice_id: str = Field(default="29vD33N1CtxCmqQRPOHJ")
+    model_id: str = Field(default="eleven_multilingual_v2")
+    default_voice_id: str = Field(default="UgBBYS2sOqTuMpoF3BR0")
     stability: float = Field(default=0.35)
     similarity_boost: float = Field(default=0.55)
     style: float = Field(default=0.10)
@@ -67,8 +67,8 @@ class FilePathConfig(BaseModel):
     output_video_file: str = Field(default="output_video.mp4")
     final_video_file: str = Field(default="final_output.mp4")
     final_subtitled_video_file: str = Field(default="final_output_with_subtitles.mp4")
-    clips_metadata_file: str = Field(default="video/video-catalog-labeled.csv")
-    clips_directory: str = Field(default="video")
+    clips_metadata_file: str = Field(default="video/video-catalog-adjusted-2500.csv")
+    clips_directory: str = Field(default="clips")
     background_music_directory: str = Field(default="background_music")
     output_directory: str = Field(default="outputs")
 
@@ -77,8 +77,8 @@ class VideoEditConfig(BaseModel):
     max_clip_duration: int = Field(default=10)
     default_clip_duration: int = Field(default=10)
     voice_volume: float = Field(default=1.4)
-    background_music_volume: float = Field(default=0.3)  # Increased for better audibility
-    subtitle_font: str = Field(default="Calibri")
+    background_music_volume: float = Field(default=0.4)  # Increased for better audibility
+    subtitle_font: str = Field(default="DIN Condensed Bold")
     subtitle_font_size: int = Field(default=13)
 
 class ScriptGenerationConfig(BaseModel):

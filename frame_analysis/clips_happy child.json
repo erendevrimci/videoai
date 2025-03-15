@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy child.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy child.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/happy child/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful child rides on the back of a majestic lion, arms raised in excitement. The scene is set in a sunlit street, capturing a moment of fantasy and adventure.",
+      "description": "The image depicts a child riding a lion through a vibrant, sunlit street. The child is visibly thrilled, with a wide smile and arms stretched out in exhilaration, while the lion strides forward confidently.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "riding",
+          "running"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "fantasy"
+        ],
+        "concepts": [
+          "adventure",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy child.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/happy child/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful child rides on the back of a majestic lion through a bustling city street. The child, with arms raised in excitement, exudes pure delight as the lion strides confidently forward. The scene is vibrant and dynamic, capturing a sense of adventure and wonder.",
+      "description": "The image depicts a surreal and fantastical scene where a child is riding a lion through an urban setting. The background shows a blurred cityscape with people and buildings, suggesting a lively and busy environment.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "nature": [],
+        "objects": [
+          "buildings",
+          "street"
+        ],
+        "actions": [
+          "riding",
+          "walking"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "fantasy"
+        ],
+        "concepts": [
+          "adventure",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: lion. Objects: buildings, street. Actions: riding, running, walking. Emotions: joy, excitement. Scenes: urban, fantasy. Concepts: adventure, imagination, wonder",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "lion"
+    ],
+    "nature": [],
+    "objects": [
+      "buildings",
+      "street"
+    ],
+    "actions": [
+      "riding",
+      "running",
+      "walking"
+    ],
+    "emotions": [
+      "joy",
+      "excitement"
+    ],
+    "scenes": [
+      "urban",
+      "fantasy"
+    ],
+    "concepts": [
+      "adventure",
+      "imagination",
+      "wonder"
+    ]
+  },
+  "metadata": {}
+}

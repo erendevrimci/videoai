@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car is dead in the rain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car is dead in the rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car is dead in the rain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in the rain, examining the engine of an old car with the hood open. She is wearing a white tank top and denim shorts, and appears focused on the task at hand.",
+      "description": "The scene depicts a woman trying to fix a car in the rain, suggesting a roadside breakdown. The setting is outdoors, with a cloudy sky and rain pouring down, creating a sense of urgency and challenge.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "hood",
+          "tank top",
+          "denim shorts"
+        ],
+        "actions": [
+          "examining",
+          "standing"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "rainy",
+          "outdoors"
+        ],
+        "concepts": [
+          "breakdown",
+          "repair"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car is dead in the rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car is dead in the rain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white tank top and denim shorts is working under the hood of an old car during a rainstorm. The scene captures the determination and focus as she attempts to fix the vehicle. Raindrops are visible, adding a dramatic and challenging element to the task.",
+      "description": "The scene depicts a woman trying to repair a car in the rain. The setting appears to be outdoors, possibly on a rural road or driveway, with a backdrop of blurred trees. The weather is rainy, creating a sense of urgency and difficulty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "hood",
+          "tank top",
+          "denim shorts"
+        ],
+        "actions": [
+          "repairing",
+          "working"
+        ],
+        "emotions": [
+          "determination",
+          "focus"
+        ],
+        "scenes": [
+          "rainy",
+          "outdoor"
+        ],
+        "concepts": [
+          "challenge",
+          "perseverance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: car, hood, tank top, denim shorts. Actions: examining, standing, repairing, working. Emotions: focus, determination. Scenes: rainy, outdoors, outdoor. Concepts: breakdown, repair, challenge, perseverance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "car",
+      "hood",
+      "tank top",
+      "denim shorts"
+    ],
+    "actions": [
+      "examining",
+      "standing",
+      "repairing",
+      "working"
+    ],
+    "emotions": [
+      "focus",
+      "determination"
+    ],
+    "scenes": [
+      "rainy",
+      "outdoors",
+      "outdoor"
+    ],
+    "concepts": [
+      "breakdown",
+      "repair",
+      "challenge",
+      "perseverance"
+    ]
+  },
+  "metadata": {}
+}

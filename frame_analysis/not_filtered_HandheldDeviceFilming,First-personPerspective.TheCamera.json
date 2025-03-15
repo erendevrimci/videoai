@@ -1,0 +1,167 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands in awe before a massive robotic dinosaur in a snowy landscape. The mechanical creature, resembling a T-Rex, features intricate machinery and glowing red eyes. The scene is set against a backdrop of snow-covered mountains under a clear sky.",
+      "description": "The scene depicts a futuristic encounter between a human and a robotic dinosaur in an icy, mountainous terrain. The setting suggests a blend of science fiction and adventure, with the human appearing small and vulnerable compared to the towering mechanical beast.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "objects": [
+          "robot",
+          "machinery"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "futuristic",
+          "adventure"
+        ],
+        "concepts": [
+          "technology",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive robotic dinosaur towers over a lone human figure in a snowy landscape. The dinosaur's mechanical body is intricately detailed, with glowing red eyes and various technological components. The human, dressed in a red jacket, stands in awe or fear, capturing the scene with a camera.",
+      "description": "The scene is set in a cold, snowy environment, possibly an arctic or mountainous region. A futuristic, mechanical dinosaur dominates the landscape, confronting a solitary human figure. The interaction suggests a moment of tension or discovery.",
+      "labels": {
+        "people": [
+          "human"
+        ],
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "objects": [
+          "robot",
+          "camera"
+        ],
+        "actions": [
+          "standing",
+          "photographing"
+        ],
+        "emotions": [
+          "awe",
+          "fear"
+        ],
+        "scenes": [
+          "futuristic",
+          "arctic"
+        ],
+        "concepts": [
+          "technology",
+          "discovery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HandheldDeviceFilming,First-personPerspective.TheCamera/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A colossal robotic dinosaur towers over a lone human figure in a snowy landscape. The dinosaur's mechanical features are highlighted by glowing lights and intricate details, while the person appears to be capturing the scene with a camera. The setting is dramatic and otherworldly, evoking a sense of awe and tension.",
+      "description": "The scene depicts a futuristic encounter between a human and a massive robotic dinosaur in a cold, snowy environment. The dinosaur's mechanical nature is evident, with visible wires and glowing elements, contrasting with the natural backdrop of snow and ice.",
+      "labels": {
+        "people": [
+          "human"
+        ],
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "snow",
+          "ice"
+        ],
+        "objects": [
+          "camera",
+          "robotic dinosaur"
+        ],
+        "actions": [
+          "photographing"
+        ],
+        "emotions": [
+          "awe",
+          "tension"
+        ],
+        "scenes": [
+          "futuristic",
+          "snowy landscape"
+        ],
+        "concepts": [
+          "technology",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: human, person. Animals: dinosaur. Nature: snow, mountains, ice. Objects: robot, camera, machinery, robotic dinosaur. Actions: standing, photographing. Emotions: awe, fear, tension. Scenes: futuristic, adventure, arctic, snowy landscape. Concepts: technology, exploration, discovery",
+  "primary_labels": {
+    "people": [
+      "human",
+      "person"
+    ],
+    "animals": [
+      "dinosaur"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "ice"
+    ],
+    "objects": [
+      "robot",
+      "camera",
+      "machinery",
+      "robotic dinosaur"
+    ],
+    "actions": [
+      "standing",
+      "photographing"
+    ],
+    "emotions": [
+      "awe",
+      "fear",
+      "tension"
+    ],
+    "scenes": [
+      "futuristic",
+      "adventure",
+      "arctic",
+      "snowy landscape"
+    ],
+    "concepts": [
+      "technology",
+      "exploration",
+      "discovery"
+    ]
+  },
+  "metadata": {}
+}

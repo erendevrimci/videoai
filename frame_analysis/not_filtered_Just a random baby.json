@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just a random baby.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just a random baby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Just a random baby/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby with a distinctive hairstyle is sitting on the floor, visibly upset and crying. The baby is wearing a diaper and has a distressed expression, with tears streaming down their face.",
+      "description": "The scene captures a baby in a domestic setting, likely indoors, expressing strong emotions. The focus is on the baby's facial expression and body language, emphasizing their distress.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "objects": [
+          "diaper"
+        ],
+        "actions": [
+          "crying"
+        ],
+        "emotions": [
+          "distress",
+          "upset"
+        ],
+        "scenes": [
+          "indoor",
+          "domestic"
+        ],
+        "concepts": [
+          "emotion",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just a random baby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Just a random baby/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby with a distinctive hairstyle is sitting on a soft surface, visibly upset and crying. The baby is wearing a diaper and appears to be in a domestic setting.",
+      "description": "The scene depicts a baby in a home environment, expressing distress. The focus is on the baby's emotional expression and unique hair, with a blurred background suggesting an indoor setting.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "objects": [
+          "diaper"
+        ],
+        "actions": [
+          "crying"
+        ],
+        "emotions": [
+          "upset",
+          "distress"
+        ],
+        "scenes": [
+          "indoor",
+          "domestic"
+        ],
+        "concepts": [
+          "childhood",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Objects: diaper. Actions: crying. Emotions: distress, upset. Scenes: indoor, domestic. Concepts: emotion, childhood",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "objects": [
+      "diaper"
+    ],
+    "actions": [
+      "crying"
+    ],
+    "emotions": [
+      "distress",
+      "upset"
+    ],
+    "scenes": [
+      "indoor",
+      "domestic"
+    ],
+    "concepts": [
+      "emotion",
+      "childhood"
+    ]
+  },
+  "metadata": {}
+}

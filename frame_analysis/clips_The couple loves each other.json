@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The couple loves each other.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The couple loves each other.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The couple loves each other/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young couple is smiling warmly at the camera, capturing a joyful moment together. The woman is wearing a white jacket and a necklace, while the man is dressed in a dark jacket with a white shirt underneath.",
+      "description": "The scene depicts a close-up selfie of a couple, likely taken indoors. Both individuals are smiling, suggesting a happy and relaxed atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "jacket",
+          "necklace",
+          "ring"
+        ],
+        "actions": [
+          "smiling",
+          "posing"
+        ],
+        "emotions": [
+          "happiness",
+          "joy"
+        ],
+        "scenes": [
+          "indoor",
+          "selfie"
+        ],
+        "concepts": [
+          "friendship",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The couple loves each other.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The couple loves each other/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is gazing into each other's eyes with affectionate smiles. The woman has her arm gently resting on the man's shoulder, showcasing a ring on her finger.",
+      "description": "The scene captures a tender moment between two people, likely in a casual indoor setting. Their close proximity and expressions suggest a warm and intimate connection.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "ring",
+          "earring"
+        ],
+        "actions": [
+          "gazing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "relationship",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The couple loves each other.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The couple loves each other/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A couple is gazing into each other's eyes with affectionate smiles. The woman rests her arm on the man's shoulder, showcasing a ring on her finger. Both appear to be in a close, intimate setting.",
+      "description": "The scene captures a tender moment between two people, likely in a relaxed indoor environment. The focus is on their connection and the subtle expressions of affection.",
+      "labels": {
+        "people": [
+          "couple",
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "ring",
+          "earring"
+        ],
+        "actions": [
+          "gazing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "intimate setting"
+        ],
+        "concepts": [
+          "romance",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Objects: ring, earring, jacket, necklace. Actions: smiling, gazing, posing. Emotions: happiness, affection, joy. Scenes: indoor, selfie, intimate moment, intimate setting. Concepts: connection, friendship, togetherness, relationship, romance",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "objects": [
+      "ring",
+      "earring",
+      "jacket",
+      "necklace"
+    ],
+    "actions": [
+      "smiling",
+      "gazing",
+      "posing"
+    ],
+    "emotions": [
+      "happiness",
+      "affection",
+      "joy"
+    ],
+    "scenes": [
+      "indoor",
+      "selfie",
+      "intimate moment",
+      "intimate setting"
+    ],
+    "concepts": [
+      "connection",
+      "friendship",
+      "togetherness",
+      "relationship",
+      "romance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/All legend War of Mahabharata.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/All legend War of Mahabharata.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/All legend War of Mahabharata/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vast army stands in formation under a dramatic sky filled with dark clouds. The soldiers, clad in armor and holding spears, are organized in rows stretching into the distance. Red flags flutter in the wind, adding a sense of impending action.",
+      "description": "The scene depicts a large military assembly on a barren field, likely preparing for a significant event or battle. The atmosphere is tense and anticipatory, with the soldiers standing at attention and the sky casting a foreboding shadow over the scene.",
+      "labels": {
+        "people": [
+          "soldiers"
+        ],
+        "objects": [
+          "armor",
+          "spears",
+          "flags"
+        ],
+        "actions": [
+          "standing",
+          "marching"
+        ],
+        "emotions": [
+          "anticipation",
+          "tension"
+        ],
+        "scenes": [
+          "military formation",
+          "battle preparation"
+        ],
+        "concepts": [
+          "war",
+          "strategy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/All legend War of Mahabharata.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/All legend War of Mahabharata/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure dressed in ancient attire walks towards a vast army lined with elephants and soldiers, under a dramatic sky. The scene is illuminated by a bright light breaking through the clouds, creating an epic and solemn atmosphere.",
+      "description": "The scene depicts an epic battlefield setting, with a central figure walking towards a large army. The army is composed of soldiers and elephants, lined up in formation, suggesting preparation for a significant event or battle. The lighting and clouds add to the grandeur and intensity of the moment.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "animals": [
+          "elephants"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "flags",
+          "armor"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "solemn",
+          "epic"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "preparation",
+          "ancient warfare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: soldiers, figure. Objects: armor, flags, spears. Actions: standing, marching, walking. Emotions: anticipation, tension, solemn, epic. Scenes: military formation, battle preparation, battlefield. Concepts: war, strategy, preparation, ancient warfare. Animals: elephants. Nature: clouds, sky",
+  "primary_labels": {
+    "people": [
+      "soldiers",
+      "figure"
+    ],
+    "objects": [
+      "armor",
+      "flags",
+      "spears"
+    ],
+    "actions": [
+      "standing",
+      "marching",
+      "walking"
+    ],
+    "emotions": [
+      "anticipation",
+      "tension",
+      "solemn",
+      "epic"
+    ],
+    "scenes": [
+      "military formation",
+      "battle preparation",
+      "battlefield"
+    ],
+    "concepts": [
+      "war",
+      "strategy",
+      "preparation",
+      "ancient warfare"
+    ],
+    "animals": [
+      "elephants"
+    ],
+    "nature": [
+      "clouds",
+      "sky"
+    ]
+  },
+  "metadata": {}
+}

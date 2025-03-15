@@ -1,0 +1,84 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/winter look.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/winter look.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/winter look/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person wearing a red knitted hat. The individual has long dark hair and is gazing thoughtfully into the distance. The background is softly blurred, emphasizing the subject's facial features.",
+      "description": "The scene is a close-up portrait focusing on a person's face, highlighting their expression and features. The setting appears to be outdoors, possibly in a cold environment given the warm hat.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "red knitted hat"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "winter clothing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/winter look.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/winter look/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a smiling person wearing a red knit hat. The individual has long dark hair and is looking directly at the camera with a joyful expression.",
+      "description": "The scene captures a cheerful moment with a focus on the person's face, highlighting their bright smile and the vibrant color of the hat. The background is blurred, emphasizing the subject.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hat"
+        ],
+        "emotions": [
+          "happiness",
+          "joy"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "winter",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: red knitted hat, hat. Emotions: thoughtful, happiness, joy. Scenes: portrait. Concepts: fashion, winter clothing, winter",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "red knitted hat",
+      "hat"
+    ],
+    "emotions": [
+      "thoughtful",
+      "happiness",
+      "joy"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "winter clothing",
+      "winter"
+    ]
+  },
+  "metadata": {}
+}

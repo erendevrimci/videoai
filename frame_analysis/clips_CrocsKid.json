@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CrocsKid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CrocsKid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/CrocsKid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy wearing a traditional conical hat is lying on the back of a large crocodile in a calm river. The lush green foliage in the background suggests a tropical setting, creating a serene and adventurous atmosphere.",
+      "description": "The scene takes place in a tranquil river surrounded by dense greenery, indicating a tropical or jungle environment. A boy is seen resting on a crocodile, showcasing a unique and daring interaction with nature.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "crocodile"
+        ],
+        "nature": [
+          "river",
+          "forest",
+          "foliage"
+        ],
+        "objects": [
+          "conical hat"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "calm",
+          "adventurous"
+        ],
+        "scenes": [
+          "tropical",
+          "jungle"
+        ],
+        "concepts": [
+          "nature interaction",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/CrocsKid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/CrocsKid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy wearing a traditional straw hat is lying on the back of a large crocodile in a calm river. The lush greenery of the surrounding jungle reflects in the water, creating a serene and adventurous atmosphere.",
+      "description": "The scene is set in a tranquil river within a dense jungle. A young boy is seen comfortably lying on a crocodile, suggesting a unique bond or an adventurous spirit. The environment is lush and green, indicating a tropical setting.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "crocodile"
+        ],
+        "nature": [
+          "river",
+          "jungle",
+          "greenery"
+        ],
+        "objects": [
+          "straw hat"
+        ],
+        "actions": [
+          "lying"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "adventure",
+          "serenity"
+        ],
+        "concepts": [
+          "bond with nature",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy. Animals: crocodile. Nature: river, forest, foliage, jungle, greenery. Objects: conical hat, straw hat. Actions: resting, lying. Emotions: calm, adventurous. Scenes: tropical, jungle, adventure, serenity. Concepts: nature interaction, serenity, bond with nature, adventure",
+  "primary_labels": {
+    "people": [
+      "boy"
+    ],
+    "animals": [
+      "crocodile"
+    ],
+    "nature": [
+      "river",
+      "forest",
+      "foliage",
+      "jungle",
+      "greenery"
+    ],
+    "objects": [
+      "conical hat",
+      "straw hat"
+    ],
+    "actions": [
+      "resting",
+      "lying"
+    ],
+    "emotions": [
+      "calm",
+      "adventurous"
+    ],
+    "scenes": [
+      "tropical",
+      "jungle",
+      "adventure",
+      "serenity"
+    ],
+    "concepts": [
+      "nature interaction",
+      "serenity",
+      "bond with nature",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

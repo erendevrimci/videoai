@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/grandpashark.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/grandpashark.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/grandpashark/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful, animated shark swims through a vibrant coral reef, surrounded by colorful fish and corals. The scene is bathed in sunlight filtering through the water, creating a lively and enchanting underwater world.",
+      "description": "The image depicts an animated underwater scene featuring a friendly-looking shark wearing a monocle, swimming amidst a vibrant coral reef. Various species of fish and colorful corals populate the scene, contributing to a lively and whimsical atmosphere.",
+      "labels": {
+        "animals": [
+          "shark",
+          "fish"
+        ],
+        "nature": [
+          "coral reef",
+          "underwater"
+        ],
+        "objects": [
+          "monocle"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "underwater scene"
+        ],
+        "concepts": [
+          "animation",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/grandpashark.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/grandpashark/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful, animated shark swims through a vibrant underwater scene, wearing a pair of orange glasses. The ocean is filled with colorful coral and various small fish, creating a lively and whimsical atmosphere.",
+      "description": "The scene is set in a bright and colorful underwater world, featuring an animated shark as the central character. The shark appears friendly and playful, adding a humorous touch to the marine setting.",
+      "labels": {
+        "animals": [
+          "shark",
+          "fish"
+        ],
+        "nature": [
+          "coral",
+          "ocean"
+        ],
+        "objects": [
+          "glasses"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "cheerful",
+          "playful"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "animation",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: shark, fish. Nature: coral reef, underwater, coral, ocean. Objects: monocle, glasses. Actions: swimming. Emotions: cheerful, playful. Scenes: underwater scene, underwater. Concepts: animation, marine life, whimsy",
+  "primary_labels": {
+    "animals": [
+      "shark",
+      "fish"
+    ],
+    "nature": [
+      "coral reef",
+      "underwater",
+      "coral",
+      "ocean"
+    ],
+    "objects": [
+      "monocle",
+      "glasses"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "cheerful",
+      "playful"
+    ],
+    "scenes": [
+      "underwater scene",
+      "underwater"
+    ],
+    "concepts": [
+      "animation",
+      "marine life",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

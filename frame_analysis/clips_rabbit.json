@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rabbit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rabbit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/rabbit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A white rabbit is curiously interacting with a basket filled with colorful Easter eggs and a decorated cake. The scene is set outdoors, with soft sunlight filtering through the trees, creating a warm and inviting atmosphere.",
+      "description": "The image depicts a serene outdoor setting where a white rabbit is exploring a wicker basket containing Easter eggs and a festive cake. The background is softly blurred, suggesting a natural environment with sunlight streaming through the trees.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "outdoors",
+          "sunlight",
+          "trees"
+        ],
+        "objects": [
+          "basket",
+          "Easter eggs",
+          "cake"
+        ],
+        "actions": [
+          "exploring",
+          "interacting"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "Easter",
+          "spring"
+        ],
+        "concepts": [
+          "celebration",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/rabbit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/rabbit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white rabbit curiously interacts with a basket filled with colorful Easter eggs and a pastry. The scene is set in a sunlit outdoor environment, creating a warm and inviting atmosphere. Bright flowers and greenery surround the basket, enhancing the festive mood.",
+      "description": "The scene depicts a playful and serene outdoor setting where a rabbit is exploring a basket of Easter eggs and a pastry. The sunlight filtering through the trees adds a soft glow to the scene, emphasizing the vibrant colors of the eggs and flowers.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "basket",
+          "Easter eggs",
+          "pastry"
+        ],
+        "nature": [
+          "flowers",
+          "greenery"
+        ],
+        "actions": [
+          "interacting"
+        ],
+        "emotions": [
+          "curiosity",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "festive"
+        ],
+        "concepts": [
+          "Easter",
+          "springtime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit. Nature: outdoors, sunlight, trees, flowers, greenery. Objects: basket, Easter eggs, cake, pastry. Actions: interacting, exploring. Emotions: curiosity, serenity. Scenes: Easter, spring, outdoor, festive. Concepts: celebration, festivity, Easter, springtime",
+  "primary_labels": {
+    "animals": [
+      "rabbit"
+    ],
+    "nature": [
+      "outdoors",
+      "sunlight",
+      "trees",
+      "flowers",
+      "greenery"
+    ],
+    "objects": [
+      "basket",
+      "Easter eggs",
+      "cake",
+      "pastry"
+    ],
+    "actions": [
+      "interacting",
+      "exploring"
+    ],
+    "emotions": [
+      "curiosity",
+      "serenity"
+    ],
+    "scenes": [
+      "Easter",
+      "spring",
+      "outdoor",
+      "festive"
+    ],
+    "concepts": [
+      "celebration",
+      "festivity",
+      "Easter",
+      "springtime"
+    ]
+  },
+  "metadata": {}
+}

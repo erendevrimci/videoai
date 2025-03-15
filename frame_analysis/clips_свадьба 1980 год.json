@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0441\u0432\u0430\u0434\u044c\u0431\u0430 1980 \u0433\u043e\u0434.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0441\u0432\u0430\u0434\u044c\u0431\u0430 1980 \u0433\u043e\u0434.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0441\u0432\u0430\u0434\u044c\u0431\u0430 1980 \u0433\u043e\u0434/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands closely together, dressed in wedding attire. The bride holds a bouquet of flowers, and both are looking directly at the camera with gentle expressions.",
+      "description": "The image captures a wedding scene with a bride and groom posing for a portrait. The setting appears to be outdoors, possibly in a garden or park, given the blurred natural background.",
+      "labels": {
+        "people": [
+          "bride",
+          "groom"
+        ],
+        "objects": [
+          "bouquet",
+          "wedding attire"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "wedding"
+        ],
+        "concepts": [
+          "marriage",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0441\u0432\u0430\u0434\u044c\u0431\u0430 1980 \u0433\u043e\u0434.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0441\u0432\u0430\u0434\u044c\u0431\u0430 1980 \u0433\u043e\u0434/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A bride and groom share an intimate moment, leaning in for a kiss. The bride holds a bouquet of roses, and both are dressed in formal wedding attire.",
+      "description": "The scene captures a romantic moment between a newlywed couple during their wedding day. They are outdoors, possibly in a garden or park setting, surrounded by natural elements.",
+      "labels": {
+        "people": [
+          "bride",
+          "groom"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "bouquet",
+          "wedding attire"
+        ],
+        "actions": [
+          "kissing"
+        ],
+        "emotions": [
+          "romantic",
+          "joyful"
+        ],
+        "scenes": [
+          "wedding"
+        ],
+        "concepts": [
+          "love",
+          "marriage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: bride, groom. Objects: bouquet, wedding attire. Actions: posing, kissing. Emotions: happiness, serenity, romantic, joyful. Scenes: wedding. Concepts: marriage, celebration, love. Nature: flowers",
+  "primary_labels": {
+    "people": [
+      "bride",
+      "groom"
+    ],
+    "objects": [
+      "bouquet",
+      "wedding attire"
+    ],
+    "actions": [
+      "posing",
+      "kissing"
+    ],
+    "emotions": [
+      "happiness",
+      "serenity",
+      "romantic",
+      "joyful"
+    ],
+    "scenes": [
+      "wedding"
+    ],
+    "concepts": [
+      "marriage",
+      "celebration",
+      "love"
+    ],
+    "nature": [
+      "flowers"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sorceress of the Shadows.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sorceress of the Shadows.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sorceress of the Shadows/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure dressed in a dark, hooded cloak stands in an enchanted forest, holding a staff with a glowing flame. The person's eyes are illuminated with a magical light, and sparks float around them, enhancing the mystical atmosphere.",
+      "description": "The scene is set in a dark, magical forest where a sorceress or wizard is casting a spell. The environment is filled with a sense of mystery and magic, with glowing embers and a dim, ethereal light.",
+      "labels": {
+        "people": [
+          "sorceress",
+          "wizard"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "cloak",
+          "staff",
+          "flame"
+        ],
+        "actions": [
+          "casting spell",
+          "holding staff"
+        ],
+        "emotions": [
+          "mystical",
+          "mysterious"
+        ],
+        "scenes": [
+          "magical forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sorceress of the Shadows.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sorceress of the Shadows/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure in a dark hooded cloak stands in a dimly lit forest, holding a staff with a blazing flame at its tip. The figure's eyes glow with an intense light, and embers float around, adding to the mystical atmosphere.",
+      "description": "The scene depicts a fantasy setting in a dark, enchanted forest. A lone figure, possibly a sorceress or witch, is the focal point, exuding an aura of magic and mystery.",
+      "labels": {
+        "people": [
+          "sorceress",
+          "witch"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "staff",
+          "cloak"
+        ],
+        "actions": [
+          "holding",
+          "casting"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "fantasy",
+          "magic"
+        ],
+        "concepts": [
+          "enchantment",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sorceress of the Shadows.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sorceress of the Shadows/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A mysterious figure stands in a dark, enchanted forest holding a flaming staff. The person wears a pointed hat and has glowing eyes, surrounded by swirling embers. The scene is filled with a sense of magic and intrigue.",
+      "description": "The scene depicts a fantasy setting in a dimly lit forest. The main focus is on a person dressed in dark, mystical attire, holding a staff with a blazing flame at its tip, creating an atmosphere of enchantment.",
+      "labels": {
+        "people": [
+          "mysterious figure"
+        ],
+        "objects": [
+          "staff",
+          "flame",
+          "hat"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "mystical",
+          "intriguing"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: sorceress, wizard, witch, mysterious figure. Nature: forest. Objects: staff, cloak, flame, hat. Actions: holding, casting spell, holding staff, casting, standing. Emotions: mystical, mysterious, intense, intriguing. Scenes: fantasy, magical forest, magic, forest. Concepts: enchantment, magic, mysticism",
+  "primary_labels": {
+    "people": [
+      "sorceress",
+      "wizard",
+      "witch",
+      "mysterious figure"
+    ],
+    "nature": [
+      "forest"
+    ],
+    "objects": [
+      "staff",
+      "cloak",
+      "flame",
+      "hat"
+    ],
+    "actions": [
+      "holding",
+      "casting spell",
+      "holding staff",
+      "casting",
+      "standing"
+    ],
+    "emotions": [
+      "mystical",
+      "mysterious",
+      "intense",
+      "intriguing"
+    ],
+    "scenes": [
+      "fantasy",
+      "magical forest",
+      "magic",
+      "forest"
+    ],
+    "concepts": [
+      "enchantment",
+      "magic",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

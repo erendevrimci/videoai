@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Strawberry Strong-Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Strawberry Strong-Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Strawberry Strong-Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical creature with the body of a muscular cat and the texture of a strawberry stands confidently against a bright blue background. The creature's vibrant red color and detailed strawberry-like surface create a striking contrast with the simple backdrop.",
+      "description": "The scene features a fantastical hybrid creature combining elements of a cat and a strawberry, set against a plain blue background. The creature's muscular form and playful design suggest a humorous and imaginative setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "strawberry"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "hybrid",
+          "fantasy",
+          "whimsy"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Strawberry Strong-Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Strawberry Strong-Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical creature with the body of a muscular cat and the texture of a strawberry stands proudly against a bright blue background. The creature flexes its arms, showcasing its exaggerated muscles and vibrant red skin dotted with seeds.",
+      "description": "The scene features a fantastical hybrid creature combining elements of a cat and a strawberry, set against a simple blue backdrop. The creature's pose and expression convey a sense of confidence and humor.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "strawberry"
+        ],
+        "actions": [
+          "flexing"
+        ],
+        "emotions": [
+          "confidence",
+          "humor"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "hybrid creature",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Strawberry Strong-Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Strawberry Strong-Cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical figure combines the features of a cat and a strawberry, showcasing a muscular physique. The character stands against a bright blue background, exuding a playful and surreal vibe.",
+      "description": "The scene presents a fantastical creature with the head of a cat and the body resembling a strawberry, complete with seeds and a vibrant red color. The setting is simple and minimalistic, focusing entirely on the character against a plain blue backdrop.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "strawberry"
+        ],
+        "objects": [
+          "fantasy creature"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal"
+        ],
+        "concepts": [
+          "hybrid",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: strawberry, fantasy creature. Scenes: studio, fantasy, surreal. Concepts: hybrid, fantasy, whimsy, hybrid creature. Emotions: playful, humorous, confidence, humor, whimsical. Actions: flexing. Nature: strawberry",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "strawberry",
+      "fantasy creature"
+    ],
+    "scenes": [
+      "studio",
+      "fantasy",
+      "surreal"
+    ],
+    "concepts": [
+      "hybrid",
+      "fantasy",
+      "whimsy",
+      "hybrid creature"
+    ],
+    "emotions": [
+      "playful",
+      "humorous",
+      "confidence",
+      "humor",
+      "whimsical"
+    ],
+    "actions": [
+      "flexing"
+    ],
+    "nature": [
+      "strawberry"
+    ]
+  },
+  "metadata": {}
+}

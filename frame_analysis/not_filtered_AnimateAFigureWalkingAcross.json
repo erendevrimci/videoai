@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateAFigureWalkingAcross.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateAFigureWalkingAcross.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateAFigureWalkingAcross/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary figure walks across a barren landscape under a starry sky, with flames dramatically trailing from their back. The scene is set against a stark contrast of dark blues and vibrant oranges, highlighting the fiery element.",
+      "description": "The image depicts a lone person walking across a desolate terrain at night, with a striking flame emanating from their back. The setting suggests a surreal or fantastical environment, with rocky formations visible in the distance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "night sky",
+          "rocky landscape"
+        ],
+        "objects": [
+          "flames"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "solitude",
+          "intensity"
+        ],
+        "scenes": [
+          "nighttime",
+          "surreal"
+        ],
+        "concepts": [
+          "isolation",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateAFigureWalkingAcross.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateAFigureWalkingAcross/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary figure walks across a barren landscape under a starry night sky, with a trail of bright flames emanating from their back. The scene is dramatic, with the contrast between the dark surroundings and the vivid orange and yellow fire creating a striking visual effect.",
+      "description": "The scene depicts a lone person traversing a desolate, rocky terrain at night. The sky is clear and filled with stars, while the ground is illuminated by the fiery glow trailing behind the individual.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "night sky",
+          "stars",
+          "rocky terrain"
+        ],
+        "objects": [
+          "flames"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "solitude"
+        ],
+        "scenes": [
+          "nighttime",
+          "desolate landscape"
+        ],
+        "concepts": [
+          "isolation",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: night sky, rocky landscape, stars, rocky terrain. Objects: flames. Actions: walking. Emotions: solitude, intensity. Scenes: nighttime, surreal, desolate landscape. Concepts: isolation, fantasy, mystery",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "night sky",
+      "rocky landscape",
+      "stars",
+      "rocky terrain"
+    ],
+    "objects": [
+      "flames"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "solitude",
+      "intensity"
+    ],
+    "scenes": [
+      "nighttime",
+      "surreal",
+      "desolate landscape"
+    ],
+    "concepts": [
+      "isolation",
+      "fantasy",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

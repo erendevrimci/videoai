@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Zero two.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Zero two.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Zero two/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a vibrant red and white costume stands confidently against a clear blue sky. They have long pink hair and are wearing a headband with red horn-like accessories.",
+      "description": "The scene depicts a cosplayer dressed as an anime character, standing outdoors with a cityscape in the background. The bright and clear day highlights the colorful costume and the character's distinctive features.",
+      "labels": {
+        "people": [
+          "cosplayer"
+        ],
+        "objects": [
+          "costume",
+          "headband"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "outdoor",
+          "cityscape"
+        ],
+        "concepts": [
+          "cosplay",
+          "anime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Zero two.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Zero two/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a vibrant red and white costume stands on a rooftop with a cityscape in the background. They have long pink hair and wear a headband with red horns, embodying a character from a popular anime.",
+      "description": "The scene captures a cosplayer portraying an anime character on a rooftop, with a clear blue sky and urban skyline in the distance. The setting suggests a blend of fantasy and reality, highlighting the creativity and dedication of cosplay culture.",
+      "labels": {
+        "people": [
+          "cosplayer"
+        ],
+        "objects": [
+          "costume",
+          "headband",
+          "horns"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "rooftop",
+          "cityscape"
+        ],
+        "concepts": [
+          "cosplay",
+          "anime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cosplayer. Objects: costume, headband, horns. Actions: standing, posing. Emotions: confident. Scenes: cityscape, outdoor, rooftop. Concepts: cosplay, anime",
+  "primary_labels": {
+    "people": [
+      "cosplayer"
+    ],
+    "objects": [
+      "costume",
+      "headband",
+      "horns"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confident"
+    ],
+    "scenes": [
+      "cityscape",
+      "outdoor",
+      "rooftop"
+    ],
+    "concepts": [
+      "cosplay",
+      "anime"
+    ]
+  },
+  "metadata": {}
+}

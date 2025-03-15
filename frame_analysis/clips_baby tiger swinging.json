@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby tiger swinging.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby tiger swinging.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby tiger swinging/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny tiger cub is gently held by a person's fingers, showcasing its small size and delicate features. The cub's wide eyes and soft fur create an endearing and innocent appearance.",
+      "description": "The scene captures a close-up of a tiger cub being held by a human hand, emphasizing the cub's smallness and vulnerability. The background is blurred, focusing attention on the interaction between the cub and the person.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand",
+          "fingers"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "innocence",
+          "endearment"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "gentleness",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby tiger swinging.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby tiger swinging/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny tiger cub is gently held by a human hand, showcasing its delicate features and soft fur. The cub's wide eyes and small paws create an endearing and tender moment.",
+      "description": "The scene captures a close-up of a tiger cub being held by a human hand, highlighting the cub's innocence and vulnerability. The setting appears to be calm and intimate, focusing on the interaction between the human and the animal.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "innocence"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate moment"
+        ],
+        "concepts": [
+          "care",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger cub. Objects: hand, fingers. Actions: holding. Emotions: innocence, endearment, tenderness. Scenes: close-up, intimate moment. Concepts: gentleness, care",
+  "primary_labels": {
+    "animals": [
+      "tiger cub"
+    ],
+    "objects": [
+      "hand",
+      "fingers"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "innocence",
+      "endearment",
+      "tenderness"
+    ],
+    "scenes": [
+      "close-up",
+      "intimate moment"
+    ],
+    "concepts": [
+      "gentleness",
+      "care"
+    ]
+  },
+  "metadata": {}
+}

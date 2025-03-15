@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The stone giant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The stone giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The stone giant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic stone statue of a deity sits prominently in an ancient temple complex, surrounded by lush greenery and smaller sculptures. The intricate carvings on the statue reflect the artistry of a bygone era, while the warm sunlight casts dramatic shadows across the scene. A lone figure stands at the base, emphasizing the grandeur of the monument.",
+      "description": "The scene depicts an ancient temple complex with a large, intricately carved stone statue of a deity as the focal point. The setting is lush and verdant, with smaller statues and temple structures visible in the background, suggesting a historical or spiritual site.",
+      "labels": {
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "stone statue",
+          "temple",
+          "carvings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "ancient temple",
+          "historical site"
+        ],
+        "concepts": [
+          "spirituality",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The stone giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The stone giant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic stone statue of a seated deity dominates the ancient temple complex, surrounded by lush greenery and smaller sculptures. The intricate carvings and towering structures evoke a sense of historical grandeur. A lone figure stands at the base, emphasizing the scale of the monumental architecture.",
+      "description": "The scene depicts an ancient temple complex nestled in a verdant landscape. The central focus is a large stone statue of a deity, intricately carved and seated in a commanding position. The surrounding area is filled with smaller statues and temple structures, creating a sense of historical and spiritual significance.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "greenery",
+          "trees"
+        ],
+        "objects": [
+          "statue",
+          "temple",
+          "carvings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "ancient temple",
+          "historical site"
+        ],
+        "concepts": [
+          "spirituality",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The stone giant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The stone giant/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic stone statue of a seated deity dominates the ancient temple complex, surrounded by lush greenery and smaller sculptures. The intricate carvings on the statue reflect the rich cultural heritage of the setting. A lone figure stands at the base, emphasizing the grandeur and scale of the scene.",
+      "description": "The scene depicts an ancient temple complex with a large, intricately carved stone statue of a deity at its center. The setting is lush and verdant, with the temple structures blending seamlessly into the natural landscape.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "statue",
+          "temple",
+          "sculptures"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "temple complex",
+          "ancient architecture"
+        ],
+        "concepts": [
+          "heritage",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: trees, greenery. Objects: temple, carvings, statue, stone statue, sculptures. Actions: standing. Emotions: awe, serenity, reverence. Scenes: ancient temple, historical site, temple complex, ancient architecture. Concepts: spirituality, heritage, history. People: figure",
+  "primary_labels": {
+    "nature": [
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "temple",
+      "carvings",
+      "statue",
+      "stone statue",
+      "sculptures"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "awe",
+      "serenity",
+      "reverence"
+    ],
+    "scenes": [
+      "ancient temple",
+      "historical site",
+      "temple complex",
+      "ancient architecture"
+    ],
+    "concepts": [
+      "spirituality",
+      "heritage",
+      "history"
+    ],
+    "people": [
+      "figure"
+    ]
+  },
+  "metadata": {}
+}

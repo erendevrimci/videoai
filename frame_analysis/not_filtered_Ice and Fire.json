@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ice and Fire.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ice and Fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ice and Fire/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking portrait of a woman with vibrant green eyes, her face partially covered in snowflakes and illuminated by the warm glow of nearby flames. The contrast between the cold snow and the fiery light creates a captivating visual tension.",
+      "description": "The scene presents a close-up of a woman's face, juxtaposing elements of ice and fire. Snowflakes delicately rest on her hair and skin, while flames cast an orange glow, highlighting her features.",
+      "labels": {
+        "people": [
+          "woman",
+          "face"
+        ],
+        "nature": [
+          "snowflakes",
+          "fire"
+        ],
+        "objects": [
+          "snow",
+          "flames"
+        ],
+        "emotions": [
+          "intensity",
+          "contrast"
+        ],
+        "scenes": [
+          "portrait",
+          "contrast"
+        ],
+        "concepts": [
+          "duality",
+          "elemental"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ice and Fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ice and Fire/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking portrait of a woman with vibrant green eyes, her face partially covered in snowflakes and illuminated by a warm, fiery glow. The contrasting elements of ice and fire create a captivating visual tension. Her expression is calm and intense, enhancing the dramatic atmosphere.",
+      "description": "The scene presents a close-up of a woman's face, juxtaposing the coldness of snow with the warmth of fire. This creates a dynamic interplay between opposing elements, suggesting themes of duality and balance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "fire"
+        ],
+        "objects": [],
+        "actions": [],
+        "emotions": [
+          "intense",
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "duality",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, face. Nature: fire, snowflakes, snow. Objects: snow, flames. Emotions: intensity, contrast, intense, calm. Scenes: portrait, contrast. Concepts: duality, elemental, contrast",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "face"
+    ],
+    "nature": [
+      "fire",
+      "snowflakes",
+      "snow"
+    ],
+    "objects": [
+      "snow",
+      "flames"
+    ],
+    "emotions": [
+      "intensity",
+      "contrast",
+      "intense",
+      "calm"
+    ],
+    "scenes": [
+      "portrait",
+      "contrast"
+    ],
+    "concepts": [
+      "duality",
+      "elemental",
+      "contrast"
+    ],
+    "actions": []
+  },
+  "metadata": {}
+}

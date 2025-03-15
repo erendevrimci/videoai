@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201eEinMannN\u00e4hertSichSeinem.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201eEinMannN\u00e4hertSichSeinem.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201eEinMannN\u00e4hertSichSeinem/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands beside a silver car parked on a wet, paved area. He appears to be in motion, possibly exiting or entering the vehicle.",
+      "description": "The scene is set in an outdoor area with a paved surface, likely a parking lot or driveway. The environment is damp, suggesting recent rain.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "car",
+          "pavement"
+        ],
+        "actions": [
+          "standing",
+          "moving"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "outdoor",
+          "parking"
+        ],
+        "concepts": [
+          "transportation",
+          "weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201eEinMannN\u00e4hertSichSeinem.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201eEinMannN\u00e4hertSichSeinem/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is caught in a turbulent flood, struggling against the force of the water. A partially submerged car is visible in the background, indicating the severity of the situation.",
+      "description": "The scene depicts a chaotic flood environment where a person is battling against strong water currents. The presence of a car being engulfed by water highlights the intensity of the flood.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "car"
+        ],
+        "actions": [
+          "struggling",
+          "flooding"
+        ],
+        "emotions": [
+          "panic",
+          "fear"
+        ],
+        "scenes": [
+          "disaster",
+          "flood"
+        ],
+        "concepts": [
+          "danger",
+          "emergency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Objects: car, pavement. Actions: standing, moving, struggling, flooding. Emotions: neutral, panic, fear. Scenes: outdoor, parking, disaster, flood. Concepts: transportation, weather, danger, emergency",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "objects": [
+      "car",
+      "pavement"
+    ],
+    "actions": [
+      "standing",
+      "moving",
+      "struggling",
+      "flooding"
+    ],
+    "emotions": [
+      "neutral",
+      "panic",
+      "fear"
+    ],
+    "scenes": [
+      "outdoor",
+      "parking",
+      "disaster",
+      "flood"
+    ],
+    "concepts": [
+      "transportation",
+      "weather",
+      "danger",
+      "emergency"
+    ]
+  },
+  "metadata": {}
+}

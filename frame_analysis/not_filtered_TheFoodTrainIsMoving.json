@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFoodTrainIsMoving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFoodTrainIsMoving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFoodTrainIsMoving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts a large sushi roll resembling a train traveling through a miniature landscape. The sushi roll is adorned with salmon and vegetables, while a tiny figure walks along a path made of rice. In the background, a cityscape with towering structures adds a surreal touch to the setting.",
+      "description": "The scene creatively combines elements of food and miniature modeling, presenting a sushi roll as a train traversing a fantastical landscape. The setting includes a detailed cityscape in the background, enhancing the imaginative atmosphere.",
+      "labels": {
+        "objects": [
+          "sushi roll",
+          "rice",
+          "salmon",
+          "vegetables"
+        ],
+        "people": [
+          "tiny figure"
+        ],
+        "nature": [
+          "miniature landscape",
+          "trees"
+        ],
+        "scenes": [
+          "miniature cityscape",
+          "fantasy"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "concepts": [
+          "food art",
+          "miniature modeling"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFoodTrainIsMoving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFoodTrainIsMoving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature sushi train rolls along a tiny track, with a toy figure in the background. The sushi is intricately detailed, topped with greens and a small drink, creating a whimsical scene.",
+      "description": "The scene depicts a miniature world where a sushi roll is designed to look like a train moving along a track. A toy figure stands in the background, adding a playful element to the setting.",
+      "labels": {
+        "objects": [
+          "sushi",
+          "train track",
+          "toy figure",
+          "drink"
+        ],
+        "actions": [
+          "rolling"
+        ],
+        "scenes": [
+          "miniature",
+          "whimsical"
+        ],
+        "concepts": [
+          "creativity",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sushi roll, rice, salmon, vegetables, sushi. People: tiny figure. Nature: miniature landscape, trees. Scenes: miniature cityscape, fantasy, miniature, whimsical. Actions: walking, rolling. Emotions: whimsical, imaginative. Concepts: food art, miniature modeling, creativity, playfulness",
+  "primary_labels": {
+    "objects": [
+      "sushi roll",
+      "rice",
+      "salmon",
+      "vegetables",
+      "sushi"
+    ],
+    "people": [
+      "tiny figure"
+    ],
+    "nature": [
+      "miniature landscape",
+      "trees"
+    ],
+    "scenes": [
+      "miniature cityscape",
+      "fantasy",
+      "miniature",
+      "whimsical"
+    ],
+    "actions": [
+      "walking",
+      "rolling"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ],
+    "concepts": [
+      "food art",
+      "miniature modeling",
+      "creativity",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

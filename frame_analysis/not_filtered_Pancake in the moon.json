@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pancake in the moon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pancake in the moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pancake in the moon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three astronauts in space suits stand on a lunar-like surface, holding an oversized pancake. The vast expanse of space with stars and a distant planet forms the backdrop.",
+      "description": "The scene depicts astronauts on a moon-like surface, engaged in a whimsical activity of holding a giant pancake. The setting combines elements of space exploration with surreal humor.",
+      "labels": {
+        "people": [
+          "astronauts"
+        ],
+        "objects": [
+          "pancake",
+          "space suits"
+        ],
+        "nature": [
+          "moon surface",
+          "stars",
+          "planet"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "space",
+          "lunar landscape"
+        ],
+        "concepts": [
+          "surrealism",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pancake in the moon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pancake in the moon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three astronauts in full space suits are standing on a lunar-like surface, holding a giant pancake. The backdrop is a starry space scene, adding a surreal and whimsical element to the image.",
+      "description": "The scene depicts astronauts on a moon-like landscape, humorously interacting with an oversized pancake. The setting combines elements of space exploration with a playful twist, creating a fantastical and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "astronauts"
+        ],
+        "objects": [
+          "pancake",
+          "space suits"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "scenes": [
+          "space",
+          "moon"
+        ],
+        "concepts": [
+          "surreal",
+          "humor"
+        ],
+        "emotions": [
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: astronauts. Objects: pancake, space suits. Nature: moon surface, stars, planet. Actions: holding. Emotions: humor, whimsy. Scenes: space, lunar landscape, moon. Concepts: surrealism, exploration, surreal, humor",
+  "primary_labels": {
+    "people": [
+      "astronauts"
+    ],
+    "objects": [
+      "pancake",
+      "space suits"
+    ],
+    "nature": [
+      "moon surface",
+      "stars",
+      "planet"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "humor",
+      "whimsy"
+    ],
+    "scenes": [
+      "space",
+      "lunar landscape",
+      "moon"
+    ],
+    "concepts": [
+      "surrealism",
+      "exploration",
+      "surreal",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

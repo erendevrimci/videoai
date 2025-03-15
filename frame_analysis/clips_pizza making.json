@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza making.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pizza making/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts a miniature construction site where workers are building a giant pizza. A tower-like structure stands in the background, with workers climbing ladders and operating a crane.",
+      "description": "The scene is set in a fantastical miniature world where construction workers are engaged in building a giant pizza. The setting includes a detailed tower with multiple levels, bustling with activity, and a large pizza being assembled in the foreground.",
+      "labels": {
+        "people": [
+          "construction workers"
+        ],
+        "objects": [
+          "tower",
+          "crane",
+          "ladder",
+          "pizza"
+        ],
+        "actions": [
+          "building",
+          "climbing",
+          "operating"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "construction site",
+          "miniature world"
+        ],
+        "concepts": [
+          "fantasy",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pizza making/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts a miniature construction site where tiny workers are building a giant pizza in front of a tower. The tower is adorned with lights and a crane is actively involved in the construction process. The setting is vibrant and bustling with activity, creating a playful and imaginative atmosphere.",
+      "description": "The scene is set in a fantastical miniature world where construction workers are building a large pizza. The setting includes a detailed tower with lights and a crane, suggesting a lively and industrious environment.",
+      "labels": {
+        "people": [
+          "workers"
+        ],
+        "objects": [
+          "pizza",
+          "tower",
+          "crane",
+          "ladder",
+          "barrels"
+        ],
+        "actions": [
+          "building",
+          "constructing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "construction site",
+          "miniature world"
+        ],
+        "concepts": [
+          "creativity",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: construction workers, workers. Objects: tower, crane, ladder, pizza, barrels. Actions: building, climbing, operating, constructing. Emotions: playful, whimsical, imaginative. Scenes: construction site, miniature world. Concepts: fantasy, creativity",
+  "primary_labels": {
+    "people": [
+      "construction workers",
+      "workers"
+    ],
+    "objects": [
+      "tower",
+      "crane",
+      "ladder",
+      "pizza",
+      "barrels"
+    ],
+    "actions": [
+      "building",
+      "climbing",
+      "operating",
+      "constructing"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "construction site",
+      "miniature world"
+    ],
+    "concepts": [
+      "fantasy",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusingOnlyTheUpper.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusingOnlyTheUpper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFocusingOnlyTheUpper/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking red hair stands in a snowy forest, wearing a red cloak and intricate leather armor. Snowflakes gently fall around her, adding to the mystical atmosphere. Her expression is calm yet intense, as if she is on a quest.",
+      "description": "The scene is set in a snowy forest, where a woman dressed in medieval-style attire stands amidst falling snow. The setting suggests a fantasy or historical context, with a focus on her striking appearance and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "snow"
+        ],
+        "objects": [
+          "cloak",
+          "leather armor",
+          "chains"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "intense"
+        ],
+        "scenes": [
+          "fantasy",
+          "winter"
+        ],
+        "concepts": [
+          "mystical",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraFocusingOnlyTheUpper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraFocusingOnlyTheUpper/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking red hair stands confidently in a snowy forest, wearing a red and black outfit adorned with chains and a pendant. Her expression is serious and focused, as she raises a gloved hand slightly. Snow gently falls around her, adding to the mystical atmosphere.",
+      "description": "The scene is set in a snowy forest, where a woman dressed in a red and black ensemble stands amidst falling snow. Her attire, featuring chains and a pendant, suggests a fantasy or medieval theme. The background of snow-covered trees enhances the mystical and serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "snow"
+        ],
+        "objects": [
+          "chains",
+          "pendant",
+          "gloves",
+          "belt"
+        ],
+        "actions": [
+          "standing",
+          "raising hand"
+        ],
+        "emotions": [
+          "serious",
+          "focused"
+        ],
+        "scenes": [
+          "snowy forest",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "medieval"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: forest, snow. Objects: chains, cloak, leather armor, pendant, gloves. Actions: standing, raising hand. Emotions: calm, intense, serious, focused. Scenes: fantasy, winter, snowy forest. Concepts: mystical, adventure, medieval",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "forest",
+      "snow"
+    ],
+    "objects": [
+      "chains",
+      "cloak",
+      "leather armor",
+      "pendant",
+      "gloves"
+    ],
+    "actions": [
+      "standing",
+      "raising hand"
+    ],
+    "emotions": [
+      "calm",
+      "intense",
+      "serious",
+      "focused"
+    ],
+    "scenes": [
+      "fantasy",
+      "winter",
+      "snowy forest"
+    ],
+    "concepts": [
+      "mystical",
+      "adventure",
+      "medieval"
+    ]
+  },
+  "metadata": {}
+}

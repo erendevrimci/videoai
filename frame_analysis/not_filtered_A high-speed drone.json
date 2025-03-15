@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A high-speed drone.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A high-speed drone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A high-speed drone/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic drone flies swiftly through an ancient temple complex, leaving a trail of flames in its wake. The scene is set against a backdrop of towering mountains and clear skies, blending the old with the new.",
+      "description": "The image depicts a high-speed chase or exploration scene where a technologically advanced drone navigates through a historic temple site. The setting combines elements of ancient architecture with futuristic technology, creating a dynamic and intriguing contrast.",
+      "labels": {
+        "objects": [
+          "drone",
+          "temple",
+          "mountains"
+        ],
+        "actions": [
+          "flying",
+          "navigating"
+        ],
+        "scenes": [
+          "ancient architecture",
+          "futuristic technology"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A high-speed drone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A high-speed drone/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A drone flies through an ancient stone archway, capturing the intricate details of the historic architecture. The scene is dynamic, with the drone's propellers in motion against the backdrop of the ornate stonework.",
+      "description": "The scene takes place in a historic architectural setting, likely a fort or palace, with a drone navigating through the stone archways. The focus is on the interaction between modern technology and ancient structures.",
+      "labels": {
+        "objects": [
+          "drone",
+          "archway",
+          "stone structure"
+        ],
+        "actions": [
+          "flying",
+          "navigating"
+        ],
+        "scenes": [
+          "historic architecture",
+          "ancient building"
+        ],
+        "concepts": [
+          "technology meets history",
+          "exploration"
+        ],
+        "emotions": [
+          "curiosity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A high-speed drone.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A high-speed drone/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic ancient temple stands under a bright blue sky, surrounded by lush greenery. Sunlight bursts dramatically from the center, highlighting the intricate architecture and towering minarets.",
+      "description": "The scene captures an ancient temple with detailed stone carvings and multiple minarets, set against a backdrop of a clear sky and distant mountains. The sunlight creates a focal point, enhancing the grandeur of the structure.",
+      "labels": {
+        "nature": [
+          "sky",
+          "clouds",
+          "trees",
+          "mountains"
+        ],
+        "objects": [
+          "temple",
+          "minarets",
+          "stone carvings"
+        ],
+        "actions": [
+          "sunlight bursting"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "architectural",
+          "historical"
+        ],
+        "concepts": [
+          "heritage",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: drone, temple, mountains, archway, stone structure. Actions: flying, navigating, sunlight bursting. Scenes: ancient architecture, futuristic technology, historic architecture, ancient building, architectural. Emotions: awe, excitement, adventure, curiosity, serenity. Nature: mountains, sky, clouds, trees. Concepts: technology meets history, exploration, heritage, spirituality",
+  "primary_labels": {
+    "objects": [
+      "drone",
+      "temple",
+      "mountains",
+      "archway",
+      "stone structure"
+    ],
+    "actions": [
+      "flying",
+      "navigating",
+      "sunlight bursting"
+    ],
+    "scenes": [
+      "ancient architecture",
+      "futuristic technology",
+      "historic architecture",
+      "ancient building",
+      "architectural"
+    ],
+    "emotions": [
+      "awe",
+      "excitement",
+      "adventure",
+      "curiosity",
+      "serenity"
+    ],
+    "nature": [
+      "mountains",
+      "sky",
+      "clouds",
+      "trees"
+    ],
+    "concepts": [
+      "technology meets history",
+      "exploration",
+      "heritage",
+      "spirituality"
+    ]
+  },
+  "metadata": {}
+}

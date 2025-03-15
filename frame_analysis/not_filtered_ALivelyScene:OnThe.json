@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALivelyScene:OnThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALivelyScene:OnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALivelyScene:OnThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands intimately on a beach at sunset, with their foreheads touching and hands gently clasped. The ocean waves gently lap at the shore, and the sky is painted with vibrant hues of orange and blue.",
+      "description": "The scene captures a romantic moment between a couple on a beach during sunset. The setting sun casts a warm glow over the ocean and the couple, creating a serene and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "standing",
+          "touching foreheads",
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset scene"
+        ],
+        "concepts": [
+          "romance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALivelyScene:OnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALivelyScene:OnThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands closely together on a beach, gazing into each other's eyes as the sun sets behind them. The ocean waves gently lap at the shore, and the sky is painted with soft hues of orange and pink.",
+      "description": "The scene captures a romantic moment between a couple on a beach during sunset. The tranquil setting and the intimate pose suggest a deep emotional connection.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "dress",
+          "shirt"
+        ],
+        "actions": [
+          "embracing",
+          "gazing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "sunset",
+          "seaside"
+        ],
+        "concepts": [
+          "love",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Nature: beach, ocean, sky, clouds, sunset. Objects: clothing, dress, shirt. Actions: standing, touching foreheads, holding hands, embracing, gazing. Emotions: romantic, intimate. Scenes: beach scene, sunset scene, sunset, seaside. Concepts: romance, serenity, love, togetherness",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky",
+      "clouds",
+      "sunset"
+    ],
+    "objects": [
+      "clothing",
+      "dress",
+      "shirt"
+    ],
+    "actions": [
+      "standing",
+      "touching foreheads",
+      "holding hands",
+      "embracing",
+      "gazing"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate"
+    ],
+    "scenes": [
+      "beach scene",
+      "sunset scene",
+      "sunset",
+      "seaside"
+    ],
+    "concepts": [
+      "romance",
+      "serenity",
+      "love",
+      "togetherness"
+    ]
+  },
+  "metadata": {}
+}

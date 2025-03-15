@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/woman thinking about life.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/woman thinking about life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/woman thinking about life/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person sits on a couch in a dimly lit room, gazing thoughtfully into the distance. The warm glow of a lamp casts a soft light, creating a cozy and introspective atmosphere.",
+      "description": "The scene takes place in a living room during the evening. The setting is intimate and quiet, with a focus on the person's contemplative expression.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "objects": [
+          "couch",
+          "lamp"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "introspective"
+        ],
+        "scenes": [
+          "living room",
+          "evening"
+        ],
+        "concepts": [
+          "coziness",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/woman thinking about life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/woman thinking about life/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman sits on a couch in a dimly lit room, her face illuminated by the warm glow of a nearby lamp. She appears deep in thought, gazing into the distance with a contemplative expression.",
+      "description": "The scene is set in a cozy indoor environment, likely a living room, with soft lighting creating an intimate and reflective atmosphere. The focus is on the woman's thoughtful demeanor as she relaxes on the couch.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "couch",
+          "lamp"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "contemplative",
+          "thoughtful"
+        ],
+        "scenes": [
+          "indoor",
+          "living room"
+        ],
+        "concepts": [
+          "introspection",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young person, woman. Objects: couch, lamp. Actions: sitting, gazing. Emotions: thoughtful, introspective, contemplative. Scenes: living room, evening, indoor. Concepts: coziness, reflection, introspection, relaxation",
+  "primary_labels": {
+    "people": [
+      "young person",
+      "woman"
+    ],
+    "objects": [
+      "couch",
+      "lamp"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "thoughtful",
+      "introspective",
+      "contemplative"
+    ],
+    "scenes": [
+      "living room",
+      "evening",
+      "indoor"
+    ],
+    "concepts": [
+      "coziness",
+      "reflection",
+      "introspection",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

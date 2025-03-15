@@ -1,0 +1,161 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl on a camel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl on a camel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl on a camel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is seated on a camel in a desert landscape, with vast sand dunes stretching into the distance. The camel is adorned with colorful blankets and a bridle, and the sky is clear with a few scattered clouds.",
+      "description": "The scene is set in a desert environment, characterized by expansive sand dunes and a clear sky. A person is riding a camel, which is decorated with vibrant textiles, creating a striking contrast against the sandy backdrop.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "blanket",
+          "bridle"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "travel",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl on a camel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl on a camel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is riding a camel through a vast desert landscape. The camel is adorned with colorful ropes and a saddle, while the rider is dressed casually in a black shirt and jeans.",
+      "description": "The scene is set in a desert environment with sand dunes stretching into the distance under a clear blue sky. A person is riding a camel, suggesting a journey or exploration through this arid landscape.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "saddle",
+          "ropes"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "travel",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl on a camel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl on a camel/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person rides a camel through a vast desert landscape under a clear blue sky. The camel is adorned with a colorful saddle blanket, and the rider appears relaxed and contemplative.",
+      "description": "The scene captures a serene moment in a desert setting, where a person is riding a camel across sandy dunes. The expansive desert stretches into the horizon, creating a sense of tranquility and adventure.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "saddle blanket"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "adventure",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, rider. Animals: camel. Nature: desert, sand dunes, sky. Objects: blanket, bridle, saddle, ropes, saddle blanket. Actions: riding. Emotions: calm, contemplative. Scenes: desert landscape. Concepts: travel, adventure, exploration, tranquility",
+  "primary_labels": {
+    "people": [
+      "person",
+      "rider"
+    ],
+    "animals": [
+      "camel"
+    ],
+    "nature": [
+      "desert",
+      "sand dunes",
+      "sky"
+    ],
+    "objects": [
+      "blanket",
+      "bridle",
+      "saddle",
+      "ropes",
+      "saddle blanket"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "desert landscape"
+    ],
+    "concepts": [
+      "travel",
+      "adventure",
+      "exploration",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

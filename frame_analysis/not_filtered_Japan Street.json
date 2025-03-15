@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japan Street.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japan Street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Japan Street/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image captures a vibrant urban street scene at night, with people walking along a narrow, lantern-lit alley. The wet pavement reflects the colorful lights from the surrounding buildings, creating a lively and inviting atmosphere.",
+      "description": "This scene takes place in a bustling city street, likely in an Asian urban area, characterized by traditional architecture mixed with modern high-rise buildings. The street is lively with people strolling and engaging in conversation, illuminated by warm, glowing lanterns and neon signs.",
+      "labels": {
+        "people": [
+          "pedestrians",
+          "women"
+        ],
+        "objects": [
+          "lanterns",
+          "buildings",
+          "neon signs"
+        ],
+        "actions": [
+          "walking",
+          "talking"
+        ],
+        "emotions": [
+          "lively",
+          "inviting"
+        ],
+        "scenes": [
+          "urban street",
+          "nighttime"
+        ],
+        "concepts": [
+          "city life",
+          "cultural blend"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japan Street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Japan Street/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A bustling urban street scene at night, featuring a narrow alley lined with traditional buildings and bright neon signs. People walk along the wet pavement, reflecting the vibrant lights from the surrounding shops and signs.",
+      "description": "The scene captures a lively city street at night, likely in an Asian metropolis, with a mix of traditional and modern architecture. The street is filled with pedestrians, and the atmosphere is vibrant and energetic.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "neon signs",
+          "buildings",
+          "wet pavement"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "vibrant",
+          "energetic"
+        ],
+        "scenes": [
+          "urban street",
+          "nighttime"
+        ],
+        "concepts": [
+          "city life",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japan Street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Japan Street/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A bustling urban street scene at night, illuminated by vibrant neon signs and traditional lanterns. People stroll along the wet pavement, reflecting the colorful lights from the surrounding buildings.",
+      "description": "The scene is set in a lively city street, likely in an Asian metropolis, characterized by a mix of modern skyscrapers and traditional architecture. The atmosphere is energetic and vibrant, with a blend of cultural elements.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "neon signs",
+          "lanterns",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "bustling"
+        ],
+        "scenes": [
+          "urban street",
+          "nightlife"
+        ],
+        "concepts": [
+          "culture",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians, women. Objects: buildings, neon signs, lanterns, wet pavement. Actions: walking, talking. Emotions: lively, inviting, vibrant, energetic, bustling. Scenes: urban street, nighttime, nightlife. Concepts: city life, cultural blend, nightlife, culture",
+  "primary_labels": {
+    "people": [
+      "pedestrians",
+      "women"
+    ],
+    "objects": [
+      "buildings",
+      "neon signs",
+      "lanterns",
+      "wet pavement"
+    ],
+    "actions": [
+      "walking",
+      "talking"
+    ],
+    "emotions": [
+      "lively",
+      "inviting",
+      "vibrant",
+      "energetic",
+      "bustling"
+    ],
+    "scenes": [
+      "urban street",
+      "nighttime",
+      "nightlife"
+    ],
+    "concepts": [
+      "city life",
+      "cultural blend",
+      "nightlife",
+      "culture"
+    ]
+  },
+  "metadata": {}
+}

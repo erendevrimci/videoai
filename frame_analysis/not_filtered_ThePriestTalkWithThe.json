@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePriestTalkWithThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePriestTalkWithThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePriestTalkWithThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal figure stands in an ancient, mystical temple adorned with intricate stone carvings and statues. The person wears elaborate traditional attire with a crown, exuding an aura of authority and wisdom. The temple is bathed in a mystical blue-green light, enhancing its enigmatic atmosphere.",
+      "description": "The scene is set in an ancient temple, filled with large stone statues and intricate carvings. The central figure, dressed in ornate traditional clothing, appears to be a leader or spiritual figure. The lighting is ethereal, casting a blue-green hue that adds to the mystical and historical ambiance.",
+      "labels": {
+        "people": [
+          "regal figure"
+        ],
+        "objects": [
+          "crown",
+          "traditional attire",
+          "stone statues",
+          "temple"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "authority",
+          "wisdom"
+        ],
+        "scenes": [
+          "ancient temple"
+        ],
+        "concepts": [
+          "mysticism",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePriestTalkWithThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePriestTalkWithThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing an ornate headdress gazes intently in a dimly lit, mystical cave. In the background, a large stone statue looms, partially shrouded in shadows.",
+      "description": "The scene is set in a mysterious and ancient cave, with an air of mysticism and history. The focus is on a person adorned in ceremonial attire, suggesting a moment of contemplation or reverence.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "headdress",
+          "statue"
+        ],
+        "scenes": [
+          "cave",
+          "mystical"
+        ],
+        "emotions": [
+          "contemplative",
+          "reverent"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThePriestTalkWithThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThePriestTalkWithThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two figures wearing ornate crowns face each other in a dimly lit, mystical setting. One figure has a dark, weathered appearance, while the other appears more human-like, suggesting a confrontation or intense dialogue.",
+      "description": "The scene depicts a tense encounter between two crowned figures in a mysterious, possibly enchanted forest. The atmosphere is eerie and charged with a sense of ancient power or magic.",
+      "labels": {
+        "people": [
+          "crowned figures"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "crowns"
+        ],
+        "actions": [
+          "facing each other"
+        ],
+        "emotions": [
+          "tension",
+          "mystery"
+        ],
+        "scenes": [
+          "mystical encounter"
+        ],
+        "concepts": [
+          "confrontation",
+          "ancient power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: regal figure, person, crowned figures. Objects: crown, traditional attire, stone statues, temple, headdress. Actions: standing, facing each other. Emotions: authority, wisdom, contemplative, reverent, tension. Scenes: ancient temple, cave, mystical, mystical encounter. Concepts: mysticism, history, confrontation, ancient power. Nature: forest",
+  "primary_labels": {
+    "people": [
+      "regal figure",
+      "person",
+      "crowned figures"
+    ],
+    "objects": [
+      "crown",
+      "traditional attire",
+      "stone statues",
+      "temple",
+      "headdress"
+    ],
+    "actions": [
+      "standing",
+      "facing each other"
+    ],
+    "emotions": [
+      "authority",
+      "wisdom",
+      "contemplative",
+      "reverent",
+      "tension"
+    ],
+    "scenes": [
+      "ancient temple",
+      "cave",
+      "mystical",
+      "mystical encounter"
+    ],
+    "concepts": [
+      "mysticism",
+      "history",
+      "confrontation",
+      "ancient power"
+    ],
+    "nature": [
+      "forest"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summertime sadness.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summertime sadness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summertime sadness/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant peach gown adorned with pink flowers stands against a stone pillar on a beach. The flowing dress and scattered flowers create a romantic and serene atmosphere. The ocean and sky provide a tranquil backdrop to the scene.",
+      "description": "The scene is set on a beach with a woman posing gracefully against a stone pillar. She is wearing a flowing peach dress embellished with pink flowers, and the ocean is visible in the background, adding to the serene and romantic ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "dress",
+          "flowers",
+          "stone pillar"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene",
+          "romantic"
+        ],
+        "scenes": [
+          "beach scene",
+          "fashion photography"
+        ],
+        "concepts": [
+          "elegance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summertime sadness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summertime sadness/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing peach gown adorned with pink flowers stands against a stone pillar by the beach. The ocean and sky form a serene backdrop, enhancing the elegance of the scene.",
+      "description": "The scene is set on a sandy beach with a calm ocean in the background. A woman is elegantly posed against a stone pillar, wearing a peach-colored dress decorated with pink flowers. The setting is tranquil and picturesque, evoking a sense of peaceful beauty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "dress",
+          "flowers",
+          "stone pillar"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "beach"
+        ],
+        "concepts": [
+          "fashion",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summertime sadness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summertime sadness/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in an elegant peach gown adorned with pink flowers stands against a stone pillar on a sandy beach. The ocean waves gently lap the shore under a clear blue sky, creating a serene and picturesque backdrop.",
+      "description": "The scene captures a tranquil beach setting where a woman poses gracefully in a flowing dress. The combination of the ocean, sand, and sky creates a peaceful and idyllic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "gown",
+          "flowers",
+          "stone pillar"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "elegance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sky. Objects: flowers, stone pillar, dress, gown. Actions: standing, posing. Emotions: serene, romantic, elegant. Scenes: beach scene, fashion photography, beach. Concepts: elegance, tranquility, fashion, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky"
+    ],
+    "objects": [
+      "flowers",
+      "stone pillar",
+      "dress",
+      "gown"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "serene",
+      "romantic",
+      "elegant"
+    ],
+    "scenes": [
+      "beach scene",
+      "fashion photography",
+      "beach"
+    ],
+    "concepts": [
+      "elegance",
+      "tranquility",
+      "fashion",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

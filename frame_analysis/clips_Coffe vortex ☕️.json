@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffe vortex \u2615\ufe0f.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffe vortex \u2615\ufe0f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffe vortex \u2615\ufe0f/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands by the water, holding a cup of coffee as her hair flows dramatically in the wind. Coffee beans appear to be swirling around her, creating a surreal and dynamic scene.",
+      "description": "The scene captures a serene moment by a body of water during what appears to be sunset. The focus is on a woman holding a cup of coffee, with coffee beans and her hair creating a sense of movement.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coffee cup",
+          "coffee beans"
+        ],
+        "nature": [
+          "water",
+          "sunset"
+        ],
+        "actions": [
+          "holding",
+          "swirling"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "waterfront"
+        ],
+        "concepts": [
+          "surreal",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffe vortex \u2615\ufe0f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffe vortex \u2615\ufe0f/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands by the water, holding a glass of coffee. Her hair and the liquid in the glass flow dramatically, as coffee beans float around her. The scene is set against a serene sunset backdrop.",
+      "description": "The scene captures a tranquil moment by the water during sunset. A woman is holding a glass of coffee, with her hair and the coffee forming dynamic, flowing shapes. Coffee beans are suspended in the air, adding a surreal element to the composition.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coffee glass",
+          "coffee beans"
+        ],
+        "nature": [
+          "water",
+          "sunset"
+        ],
+        "actions": [
+          "holding",
+          "flowing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunset"
+        ],
+        "concepts": [
+          "surreal",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: coffee beans, coffee cup, coffee glass. Nature: water, sunset. Actions: holding, swirling, flowing. Emotions: serene. Scenes: outdoor, waterfront, sunset. Concepts: surreal, dynamic, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "coffee beans",
+      "coffee cup",
+      "coffee glass"
+    ],
+    "nature": [
+      "water",
+      "sunset"
+    ],
+    "actions": [
+      "holding",
+      "swirling",
+      "flowing"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "outdoor",
+      "waterfront",
+      "sunset"
+    ],
+    "concepts": [
+      "surreal",
+      "dynamic",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

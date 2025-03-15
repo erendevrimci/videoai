@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CyberpunkSceneInBlackAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CyberpunkSceneInBlackAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CyberpunkSceneInBlackAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a futuristic cityscape, a lone figure walks down a rain-soaked street flanked by towering skyscrapers. Above, a drone hovers, casting a watchful eye over the scene. Neon lights and sleek vehicles add to the high-tech ambiance.",
+      "description": "The scene depicts a dystopian urban environment with a solitary person walking amidst towering buildings. The presence of advanced technology, such as drones and futuristic cars, suggests a setting in the near future.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "drone",
+          "car",
+          "skyscraper",
+          "neon lights"
+        ],
+        "actions": [
+          "walking",
+          "hovering"
+        ],
+        "emotions": [
+          "isolation"
+        ],
+        "scenes": [
+          "cityscape",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "dystopia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CyberpunkSceneInBlackAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CyberpunkSceneInBlackAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure walks down a futuristic city street, surrounded by towering skyscrapers and neon lights. Hovering vehicles glide above, casting reflections on the wet pavement below. The scene is shrouded in mist, adding to the mysterious and high-tech atmosphere.",
+      "description": "The scene is set in a futuristic urban environment, characterized by tall buildings and advanced technology. The atmosphere is mysterious and slightly dystopian, with a focus on the interplay of light and shadow.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "skyscrapers",
+          "hovering vehicles",
+          "neon lights"
+        ],
+        "actions": [
+          "walking",
+          "gliding"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic city",
+          "urban"
+        ],
+        "concepts": [
+          "technology",
+          "dystopian"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CyberpunkSceneInBlackAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CyberpunkSceneInBlackAnd/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic cityscape at night, featuring towering skyscrapers and a sleek, illuminated vehicle on a wet street. The scene is dominated by dark tones with bright neon lights and digital displays.",
+      "description": "The image depicts a cyberpunk-inspired urban environment. Tall buildings with digital screens and neon lights create a high-tech atmosphere, while a futuristic car moves along the reflective, rain-soaked road.",
+      "labels": {
+        "objects": [
+          "skyscrapers",
+          "vehicle",
+          "digital screen",
+          "neon lights"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "futuristic",
+          "mysterious"
+        ],
+        "scenes": [
+          "cityscape",
+          "nighttime",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "technology",
+          "urban",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Objects: neon lights, skyscrapers, drone, car, skyscraper. Actions: walking, hovering, gliding, driving. Emotions: mysterious, isolation, futuristic. Scenes: cityscape, futuristic, futuristic city, urban, nighttime. Concepts: technology, dystopia, dystopian, urban, futurism",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "objects": [
+      "neon lights",
+      "skyscrapers",
+      "drone",
+      "car",
+      "skyscraper"
+    ],
+    "actions": [
+      "walking",
+      "hovering",
+      "gliding",
+      "driving"
+    ],
+    "emotions": [
+      "mysterious",
+      "isolation",
+      "futuristic"
+    ],
+    "scenes": [
+      "cityscape",
+      "futuristic",
+      "futuristic city",
+      "urban",
+      "nighttime"
+    ],
+    "concepts": [
+      "technology",
+      "dystopia",
+      "dystopian",
+      "urban",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

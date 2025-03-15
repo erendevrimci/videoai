@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPACESHIP AREA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPACESHIP AREA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SPACESHIP AREA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure stands before a colossal, mystical tree with vibrant pink foliage, set against a surreal, glowing sky. The scene is illuminated by ethereal light beams cascading from the branches, creating a magical atmosphere. The reflection of the tree shimmers on the water's surface, enhancing the dreamlike quality of the setting.",
+      "description": "The scene depicts a fantastical environment where a person is facing a gigantic, enchanting tree with pink leaves. The setting appears otherworldly, with a luminous sky and light beams adding to the mystical ambiance.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "tree",
+          "water",
+          "sky"
+        ],
+        "objects": [
+          "light beams"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "enchantment",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPACESHIP AREA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SPACESHIP AREA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic, glowing tree with vibrant pink blossoms stands against a mystical, starry night sky. Ethereal lights cascade down from its branches, illuminating the surrounding landscape with a magical glow. The scene evokes a sense of wonder and tranquility, set in a fantastical world.",
+      "description": "The scene depicts a large, enchanting tree in a fantasy setting, with a backdrop of a serene night sky. The tree's branches are adorned with pink blossoms and glowing lights, creating a mystical atmosphere.",
+      "labels": {
+        "nature": [
+          "tree",
+          "blossoms"
+        ],
+        "objects": [
+          "lights"
+        ],
+        "scenes": [
+          "fantasy",
+          "night"
+        ],
+        "emotions": [
+          "wonder",
+          "tranquility"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SPACESHIP AREA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SPACESHIP AREA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic tree with vibrant pink foliage stands illuminated under a glowing moon. The landscape is ethereal, with a serene, otherworldly atmosphere enhanced by the soft glow of the moonlight.",
+      "description": "The scene is set in a fantastical landscape featuring a large tree with pink leaves, situated in a mystical environment. A luminous moon dominates the sky, casting a gentle light over the scene, creating a dreamlike ambiance.",
+      "labels": {
+        "nature": [
+          "tree",
+          "moon",
+          "landscape"
+        ],
+        "objects": [
+          "foliage"
+        ],
+        "scenes": [
+          "fantasy",
+          "night"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure. Nature: tree, water, sky, blossoms, moon. Objects: light beams, lights, foliage. Actions: standing. Emotions: wonder, awe, tranquility, serene, mystical. Scenes: fantasy, night, mystical. Concepts: enchantment, solitude, magic",
+  "primary_labels": {
+    "people": [
+      "figure"
+    ],
+    "nature": [
+      "tree",
+      "water",
+      "sky",
+      "blossoms",
+      "moon"
+    ],
+    "objects": [
+      "light beams",
+      "lights",
+      "foliage"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "wonder",
+      "awe",
+      "tranquility",
+      "serene",
+      "mystical"
+    ],
+    "scenes": [
+      "fantasy",
+      "night",
+      "mystical"
+    ],
+    "concepts": [
+      "enchantment",
+      "solitude",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

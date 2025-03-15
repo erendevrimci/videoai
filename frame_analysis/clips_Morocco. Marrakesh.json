@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morocco. Marrakesh.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morocco. Marrakesh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Morocco. Marrakesh/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene features a broken teacup integrated with a miniature desert town, complete with buildings and market stalls. A lone figure in dark clothing walks along a path leading into the town, set against a backdrop of majestic mountains and a vibrant sky.",
+      "description": "The image presents a fantastical blend of a desert landscape and a quaint townscape, all contained within a broken teacup. The setting is imaginative, combining elements of nature and architecture in a whimsical manner.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "desert",
+          "mountains",
+          "sky",
+          "palm tree",
+          "cactus"
+        ],
+        "objects": [
+          "teacup",
+          "buildings",
+          "market stalls",
+          "plate"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "miniature",
+          "integration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morocco. Marrakesh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Morocco. Marrakesh/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a desert town nestled within a broken coffee cup, with a lone figure walking down the central path. The backdrop features a vast desert landscape with distant mountains under a vibrant sky. The composition blends elements of fantasy and reality, creating a whimsical atmosphere.",
+      "description": "The scene is set in a desert environment where a miniature town is creatively integrated into a broken coffee cup. The town's narrow street is lined with market stalls, and a person is seen walking through it. The background features expansive desert terrain and snow-capped mountains, under a colorful sky.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "desert",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "coffee cup",
+          "market stalls"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure. Nature: desert, mountains, sky, palm tree, cactus. Objects: market stalls, teacup, buildings, plate, coffee cup. Actions: walking. Emotions: whimsical, imaginative. Scenes: surreal, fantasy. Concepts: miniature, integration, creativity, imagination",
+  "primary_labels": {
+    "people": [
+      "figure"
+    ],
+    "nature": [
+      "desert",
+      "mountains",
+      "sky",
+      "palm tree",
+      "cactus"
+    ],
+    "objects": [
+      "market stalls",
+      "teacup",
+      "buildings",
+      "plate",
+      "coffee cup"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy"
+    ],
+    "concepts": [
+      "miniature",
+      "integration",
+      "creativity",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

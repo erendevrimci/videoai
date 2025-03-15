@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FalconAndWolfMeetIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FalconAndWolfMeetIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FalconAndWolfMeetIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic wolf stands on a snowy cliff, its fur ruffled by the wind, while a hawk perches beside it. The background features a dramatic mountain landscape with swirling snow and a flock of birds in flight.",
+      "description": "The scene depicts a powerful and serene moment in a snowy mountain setting. A wolf and a hawk are positioned prominently on a rocky outcrop, surrounded by a dynamic flurry of snow and birds.",
+      "labels": {
+        "animals": [
+          "wolf",
+          "hawk",
+          "birds"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "cliff"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "standing",
+          "perching",
+          "flying"
+        ],
+        "emotions": [
+          "majestic",
+          "serene"
+        ],
+        "scenes": [
+          "winter landscape",
+          "wildlife"
+        ],
+        "concepts": [
+          "nature",
+          "wilderness",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FalconAndWolfMeetIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FalconAndWolfMeetIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mythical creature with the body of a wolf and the wings and talons of an eagle stands majestically on a rocky cliff. The creature gazes intently into the distance, exuding a sense of power and dominance. The sky is dark and moody, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a fantastical setting where a hybrid creature, part wolf and part eagle, is perched on a rugged cliff. The environment suggests a mythical or otherworldly context, with an emphasis on the creature's commanding presence.",
+      "labels": {
+        "animals": [
+          "wolf",
+          "eagle"
+        ],
+        "nature": [
+          "cliff",
+          "sky"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "dominance",
+          "power"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "hybrid creature",
+          "mythology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf, hawk, birds, eagle. Nature: cliff, mountains, snow, sky. Objects: rocks. Actions: standing, perching, flying. Emotions: majestic, serene, dominance, power. Scenes: winter landscape, wildlife, fantasy, mythical. Concepts: nature, wilderness, freedom, hybrid creature, mythology",
+  "primary_labels": {
+    "animals": [
+      "wolf",
+      "hawk",
+      "birds",
+      "eagle"
+    ],
+    "nature": [
+      "cliff",
+      "mountains",
+      "snow",
+      "sky"
+    ],
+    "objects": [
+      "rocks"
+    ],
+    "actions": [
+      "standing",
+      "perching",
+      "flying"
+    ],
+    "emotions": [
+      "majestic",
+      "serene",
+      "dominance",
+      "power"
+    ],
+    "scenes": [
+      "winter landscape",
+      "wildlife",
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "nature",
+      "wilderness",
+      "freedom",
+      "hybrid creature",
+      "mythology"
+    ]
+  },
+  "metadata": {}
+}

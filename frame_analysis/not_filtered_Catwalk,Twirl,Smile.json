@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Catwalk,Twirl,Smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Catwalk,Twirl,Smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Catwalk,Twirl,Smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model gracefully walks down a runway wearing a stunning, sparkling gown that shimmers with multicolored lights. The dress features a voluminous skirt and intricate detailing, creating a celestial appearance. The setting is an elegant fashion show, with an audience seated on either side of the runway.",
+      "description": "The scene captures a high-fashion runway show, where a model showcases an elaborate, luminous gown. The atmosphere is sophisticated and glamorous, with dim lighting accentuating the dress's sparkle.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "gown",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "high fashion",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Catwalk,Twirl,Smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Catwalk,Twirl,Smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model gracefully walks down a dimly lit runway, wearing an elegant, sparkling gown. The audience watches attentively as she moves, with decorative lights creating a magical atmosphere. Her hair is styled with a unique headpiece, adding to the grandeur of the scene.",
+      "description": "The scene captures a fashion show runway with a model showcasing a luxurious gown. The setting is opulent, with an audience seated on either side, and the lighting enhances the elegance of the event.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "gown",
+          "headpiece",
+          "lights"
+        ],
+        "actions": [
+          "walking",
+          "watching"
+        ],
+        "emotions": [
+          "elegance",
+          "anticipation"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, audience. Objects: gown, runway, headpiece, lights. Actions: walking, watching. Emotions: elegance, anticipation. Scenes: fashion show, runway. Concepts: high fashion, glamour, fashion, luxury",
+  "primary_labels": {
+    "people": [
+      "model",
+      "audience"
+    ],
+    "objects": [
+      "gown",
+      "runway",
+      "headpiece",
+      "lights"
+    ],
+    "actions": [
+      "walking",
+      "watching"
+    ],
+    "emotions": [
+      "elegance",
+      "anticipation"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "high fashion",
+      "glamour",
+      "fashion",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

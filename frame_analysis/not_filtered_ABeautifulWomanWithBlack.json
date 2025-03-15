@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABeautifulWomanWithBlack.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABeautifulWomanWithBlack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABeautifulWomanWithBlack/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with intricate face paint is depicted, with one half of her face painted as a skull and the other half as a jack-o'-lantern. The makeup is detailed, featuring a stitched seam down the center, blending Halloween themes of skeletons and pumpkins.",
+      "description": "The scene captures a close-up of a woman with elaborate Halloween makeup, merging elements of a skull and a jack-o'-lantern. The setting is likely a Halloween-themed event or photoshoot, focusing on the artistry of the face paint.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "makeup",
+          "jack-o'-lantern",
+          "skull"
+        ],
+        "actions": [
+          "face painting"
+        ],
+        "emotions": [
+          "mysterious",
+          "spooky"
+        ],
+        "scenes": [
+          "Halloween"
+        ],
+        "concepts": [
+          "Halloween makeup",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABeautifulWomanWithBlack.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABeautifulWomanWithBlack/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with intricate face paint is depicted, featuring a split design with one half resembling a skull and the other a glowing jack-o'-lantern. Her dark hair frames her face, enhancing the dramatic effect of the makeup. The lighting highlights the contrast between the two halves, creating a striking visual impact.",
+      "description": "The scene presents a close-up of a woman's face adorned with Halloween-themed makeup. The setting is likely indoors, focusing on the artistic detail of the face paint.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jack-o'-lantern",
+          "makeup"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "mysterious",
+          "dramatic"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "Halloween",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: makeup, jack-o'-lantern, skull. Actions: face painting, posing. Emotions: mysterious, spooky, dramatic. Scenes: Halloween, portrait. Concepts: artistic expression, Halloween makeup, Halloween",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "makeup",
+      "jack-o'-lantern",
+      "skull"
+    ],
+    "actions": [
+      "face painting",
+      "posing"
+    ],
+    "emotions": [
+      "mysterious",
+      "spooky",
+      "dramatic"
+    ],
+    "scenes": [
+      "Halloween",
+      "portrait"
+    ],
+    "concepts": [
+      "artistic expression",
+      "Halloween makeup",
+      "Halloween"
+    ]
+  },
+  "metadata": {}
+}

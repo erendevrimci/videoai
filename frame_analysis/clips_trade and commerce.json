@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/trade and commerce.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/trade and commerce.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/trade and commerce/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The bustling port scene depicts several large wooden ships with sails docked along a busy harbor. People are actively engaged in loading and unloading goods, creating a lively atmosphere. The backdrop features a historic cityscape under a clear blue sky.",
+      "description": "The scene is set in a historical harbor, likely during a time when trade by sea was prominent. The presence of large ships and numerous people suggests a thriving trade hub.",
+      "labels": {
+        "people": [
+          "sailors",
+          "dock workers"
+        ],
+        "objects": [
+          "ships",
+          "sails",
+          "crates",
+          "barrels"
+        ],
+        "actions": [
+          "loading",
+          "unloading"
+        ],
+        "emotions": [
+          "busy",
+          "industrious"
+        ],
+        "scenes": [
+          "harbor",
+          "marketplace"
+        ],
+        "concepts": [
+          "trade",
+          "maritime commerce"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/trade and commerce.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/trade and commerce/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The bustling harbor scene depicts several large wooden ships with billowing sails docked at a busy port. People on the dock are engaged in loading and unloading goods, while others are seen on the ships, preparing for departure. The background showcases a vibrant cityscape with historic architecture under a clear blue sky.",
+      "description": "The scene captures a historical port setting with active trade and maritime activities. Large ships are docked at the harbor, and people are involved in various tasks related to shipping and commerce. The environment suggests a thriving coastal city with a rich cultural backdrop.",
+      "labels": {
+        "people": [
+          "sailors",
+          "dock workers"
+        ],
+        "objects": [
+          "ships",
+          "sails",
+          "crates",
+          "dock"
+        ],
+        "actions": [
+          "loading",
+          "unloading",
+          "sailing"
+        ],
+        "emotions": [
+          "busy",
+          "industrious"
+        ],
+        "scenes": [
+          "harbor",
+          "port"
+        ],
+        "concepts": [
+          "trade",
+          "commerce",
+          "maritime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: sailors, dock workers. Objects: ships, sails, crates, barrels, dock. Actions: loading, unloading, sailing. Emotions: busy, industrious. Scenes: harbor, marketplace, port. Concepts: trade, maritime commerce, commerce, maritime",
+  "primary_labels": {
+    "people": [
+      "sailors",
+      "dock workers"
+    ],
+    "objects": [
+      "ships",
+      "sails",
+      "crates",
+      "barrels",
+      "dock"
+    ],
+    "actions": [
+      "loading",
+      "unloading",
+      "sailing"
+    ],
+    "emotions": [
+      "busy",
+      "industrious"
+    ],
+    "scenes": [
+      "harbor",
+      "marketplace",
+      "port"
+    ],
+    "concepts": [
+      "trade",
+      "maritime commerce",
+      "commerce",
+      "maritime"
+    ]
+  },
+  "metadata": {}
+}

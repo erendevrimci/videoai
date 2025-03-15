@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/hujan hari ini.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/hujan hari ini.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/hujan hari ini/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Large green leaves glisten with raindrops in a lush rainforest. The background is a blur of dense foliage, creating a serene and immersive natural setting. Sunlight filters through the canopy, highlighting the vibrant greenery.",
+      "description": "The scene captures a close-up of rain-soaked leaves in a tropical rainforest. The environment is rich with vegetation, and the rain adds a dynamic element to the tranquil forest atmosphere.",
+      "labels": {
+        "nature": [
+          "rainforest",
+          "leaves",
+          "foliage"
+        ],
+        "objects": [
+          "raindrops"
+        ],
+        "actions": [
+          "raining"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "nature",
+          "forest"
+        ],
+        "concepts": [
+          "tranquility",
+          "rain"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/hujan hari ini.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/hujan hari ini/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Raindrops delicately cling to the vibrant green leaves of a plant, creating a serene and refreshing scene. The background is filled with lush foliage, suggesting a dense forest setting. The gentle rain adds a dynamic element, with droplets visibly falling and glistening in the soft light.",
+      "description": "The scene captures a close-up view of leaves in a forest during a rain shower. The focus is on the interaction between the rain and the foliage, highlighting the freshness and vitality of the natural environment.",
+      "labels": {
+        "nature": [
+          "leaves",
+          "forest",
+          "foliage"
+        ],
+        "objects": [
+          "raindrops"
+        ],
+        "actions": [
+          "raining",
+          "dripping"
+        ],
+        "emotions": [
+          "serene",
+          "refreshing"
+        ],
+        "scenes": [
+          "rainy forest"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: leaves, foliage, rainforest, forest. Objects: raindrops. Actions: raining, dripping. Emotions: serenity, serene, refreshing. Scenes: nature, forest, rainy forest. Concepts: tranquility, rain, nature",
+  "primary_labels": {
+    "nature": [
+      "leaves",
+      "foliage",
+      "rainforest",
+      "forest"
+    ],
+    "objects": [
+      "raindrops"
+    ],
+    "actions": [
+      "raining",
+      "dripping"
+    ],
+    "emotions": [
+      "serenity",
+      "serene",
+      "refreshing"
+    ],
+    "scenes": [
+      "nature",
+      "forest",
+      "rainy forest"
+    ],
+    "concepts": [
+      "tranquility",
+      "rain",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

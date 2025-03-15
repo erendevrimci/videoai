@@ -4,9 +4,9 @@ import random
 import os  # Keep for os.listdir for now
 from pathlib import Path
 from typing import List, Dict, Optional, Any, Union
-
+import shutil
 from openai import OpenAI
-
+import traceback
 from config import config, get_channel_config
 from file_manager import FileManager
 
@@ -78,6 +78,7 @@ def create_placeholder_clip(output_path: Union[str, Path], duration: int = 60) -
 def load_clips_metadata() -> List[Dict]:
     """
     Load and parse the clips metadata from the configured CSV metadata file.
+    If CSV fails, scan directory for actual clips.
     
     Returns:
         List[Dict]: A list of clip metadata dictionaries
@@ -97,208 +98,158 @@ def load_clips_metadata() -> List[Dict]:
         except Exception as e:
             print(f"Warning: Failed to create placeholder clip: {e}")
     
+    # First try loading from CSV
     clips = []
+    csv_clips = []
+    
     try:
         # Use FileManager to read the file
         content_str = file_mgr.read_text(clips_file)
-        if content_str is None:
-            print(f"Error: Could not read clips metadata file: {clips_file}")
-            
-            # Create a basic metadata with placeholder
-            print("Using placeholder video instead")
-            return [
-                {
-                    'name': "sample_clips/placeholder.mp4",
-                    'description': "Placeholder video for testing",
-                    'duration': 10,
-                    'notes': "Auto-generated placeholder"
-                }
-            ]
-        
-        # Parse CSV format
-        lines = content_str.strip().split('\n')
-        if len(lines) < 2:  # At least header + one data row
-            print(f"Error: CSV file has insufficient data: {len(lines)} lines")
-            return [{
-                'name': "sample_clips/placeholder.mp4",
-                'description': "Placeholder video for testing",
-                'duration': 10,
-                'notes': "Auto-generated placeholder"
-            }]
-        
-        # Get header for column indexing
-        header = lines[0].split(',')
-        
-        # Find indices of required columns
-        try:
-            path_idx = header.index('path')
-            prompt_idx = header.index('prompt')
-            aspect_ratio_idx = header.index('aspect_ratio')
-            duration_idx = header.index('duration')
-            labels_idx = header.index('labels')
-        except ValueError as e:
-            print(f"Error: Required column missing in CSV file: {e}")
-            return [{
-                'name': "sample_clips/placeholder.mp4",
-                'description': "Placeholder video for testing",
-                'duration': 10,
-                'notes': "Auto-generated placeholder"
-            }]
-        
-        # Optional short_prompt index
-        try:
-            short_prompt_idx = header.index('short_prompt')
-        except ValueError:
-            short_prompt_idx = None
-        
-        print(f"Found {len(lines) - 1} clip entries in the CSV file")
-        
-        # Process each data row
-        for i in range(1, len(lines)):
-            line = lines[i]
-            if not line.strip():
-                continue
+        if content_str is not None:
+            # Parse CSV format
+            lines = content_str.strip().split('\n')
+            if len(lines) >= 2:  # At least header + one data row
+                # Get header for column indexing
+                header = lines[0].split(',')
                 
-            # Handle CSV commas within quoted fields
-            parts = []
-            in_quotes = False
-            current_part = ''
-            
-            for char in line:
-                if char == '"':
-                    in_quotes = not in_quotes
-                elif char == ',' and not in_quotes:
-                    parts.append(current_part)
-                    current_part = ''
-                else:
-                    current_part += char
-            
-            # Add the last part
-            parts.append(current_part)
-            
-            # Skip if we don't have enough columns
-            if len(parts) <= max(path_idx, prompt_idx, aspect_ratio_idx, duration_idx, labels_idx):
-                print(f"Warning: Skipping line {i+1}, insufficient columns: {line}")
-                continue
-            
-            # Extract values from CSV
-            path_value = parts[path_idx].strip()
-            prompt_value = parts[short_prompt_idx].strip().strip('"')
-            aspect_ratio_value = parts[aspect_ratio_idx].strip()
-            duration_value = parts[duration_idx].strip()
-            labels_value = parts[labels_idx].strip().strip('"')
-            
-            # Extract filename from path and handle full path correctly
-            path_obj = Path(path_value)
-            
-            # Store both the name and the full path in the metadata
-            # This allows us to have the name for display but also the actual path for finding the file
-            file_name = path_obj.name
-            file_path = str(path_obj)  # Keep the full path including directory
-            
-            # Process duration value
-            try:
-                # Handle duration in format like "10s"
-                if duration_value.lower().endswith('s'):
-                    duration_seconds = int(duration_value.lower().rstrip('s'))
-                else:
-                    duration_seconds = config.video_edit.default_clip_duration
-            except ValueError:
-                duration_seconds = config.video_edit.default_clip_duration
-                print(f"Warning: Could not parse duration '{duration_value}' for clip '{file_name}'. Using default of {duration_seconds} seconds.")
-            
-            # Create clip metadata dictionary
-            clip = {
-                'name': file_name,
-                'path': file_path,  # Store the full path from CSV
-                'description': prompt_value,
-                'duration': duration_seconds,
-                'notes': labels_value,
-                'aspect_ratio': aspect_ratio_value
-            }
-            
-            # Add the clip to the list
-            clips.append(clip)
-        
-        print(f"Successfully loaded {len(clips)} clips metadata")
-        for i, clip in enumerate(clips[:5]):  # Show only first 5 for brevity
-            print(f"Clip {i+1}: {clip['name']}, Duration: {clip['duration']}s")
-        
-        if len(clips) > 5:
-            print(f"... and {len(clips) - 5} more clips")
-            
-        # Check if we need to add the placeholder as fallback
-        if not clips:
-            print("No valid clips found. Adding placeholder as fallback.")
-            clips.append({
-                'name': "sample_clips/placeholder.mp4",
-                'description': "Placeholder video for testing",
-                'duration': 10,
-                'notes': "Auto-generated placeholder"
-            })
-            
-        # Check if any of the clip files actually exist and are accessible
-        clips_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
-        valid_clips = []
-        
-        for clip in clips:
-            # First try using the full path from the CSV if available
-            if 'path' in clip:
-                full_path = clip['path']
-                clip_path = file_mgr.get_abs_path(full_path)
-            else:
-                # Fallback to just using the name
-                clip_path = clips_dir / clip['name']
-            
-            # Debug info
-            print(f"Looking for clip: {clip_path}")
-            
-            # Try to find the video file with or without extension
-            video_file = file_mgr.find_video_file(clip_path)
-            if video_file:
-                print(f"Found video file at: {video_file}")
-                # Store the full validated path with correct extension in the clip metadata
-                clip['full_path'] = str(video_file)
-                valid_clips.append(clip)
-            else:
-                # Try another approach - look for the file directly in the video directory
-                # by its name without using the path from CSV
-                alternative_path = clips_dir / clip['name']
-                video_file = file_mgr.find_video_file(alternative_path)
-                if video_file:
-                    print(f"Found video file using alternative approach: {video_file}")
-                    clip['full_path'] = str(video_file)
-                    valid_clips.append(clip)
-                else:
-                    print(f"Warning: Clip file not found: {clip_path}")
-                
-        # If no valid clips, use placeholder
-        if not valid_clips:
-            print("No valid clip files found. Using placeholder.")
-            return [{
-                'name': "sample_clips/placeholder.mp4",
-                'description': "Placeholder video for testing",
-                'duration': 10,
-                'notes': "Auto-generated placeholder"
-            }]
-            
-        # Return only the valid clips that were found
-        print(f"Returning {len(valid_clips)} valid clips out of {len(clips)} total clips")
-        return valid_clips
-    
+                # Find indices of required columns
+                try:
+                    path_idx = header.index('path')
+                    # prompt_idx = header.index('prompt')
+                    # aspect_ratio_idx = header.index('aspect_ratio')
+                    duration_idx = header.index('duration')
+                    # labels_idx = header.index('labels')
+                    image_caption_idx = header.index('image_1_caption')
+                    
+                    
+                    
+                    print(f"Found {len(lines) - 1} clip entries in the CSV file")
+                    
+                    # Process each data row
+                    for i in range(1, len(lines)):
+                        line = lines[i]
+                        if not line.strip():
+                            continue
+                            
+                        # Handle CSV commas within quoted fields
+                        parts = []
+                        in_quotes = False
+                        current_part = ''
+                        
+                        for char in line:
+                            if char == '"':
+                                in_quotes = not in_quotes
+                            elif char == ',' and not in_quotes:
+                                parts.append(current_part)
+                                current_part = ''
+                            else:
+                                current_part += char
+                        
+                        # Add the last part
+                        parts.append(current_part)
+                        
+                        # Skip if we don't have enough columns
+                        if len(parts) <= max(path_idx, image_caption_idx, duration_idx):
+                            print(f"Warning: Skipping line {i+1}, insufficient columns: {line}")
+                            continue
+                        
+                        # Extract values from CSV
+                        path_value = parts[path_idx].strip()
+                        # prompt_value = parts[prompt_idx].strip().strip('"')
+                        # short_prompt_value = parts[short_prompt_idx].strip().strip('"')
+                        # aspect_ratio_value = parts[aspect_ratio_idx].strip()
+                        duration_value = parts[duration_idx].strip()
+                        # labels_value = parts[labels_idx].strip().strip('"')
+                        image_caption = parts[image_caption_idx].strip().strip('"')
+                        
+                        # Extract filename from path and handle full path correctly
+                        path_obj = Path(path_value)
+                        
+                        # Store both the name and the full path in the metadata
+                        file_name = path_obj.name
+                        file_path = str(path_obj)  # Keep the full path including directory
+                        
+                        # Process duration value
+                        try:
+                            # Handle duration in format like "10s"
+                            if duration_value.lower().endswith('s'):
+                                duration_seconds = int(duration_value.lower().rstrip('s'))
+                            else:
+                                duration_seconds = config.video_edit.default_clip_duration
+                        except ValueError:
+                            duration_seconds = config.video_edit.default_clip_duration
+                            print(f"Warning: Could not parse duration '{duration_value}' for clip '{file_name}'")
+                        
+                        # Create clip metadata dictionary
+                        clip = {
+                            'name': file_name,
+                            'path': file_path,
+                            # 'description': prompt_value,
+                            'duration': duration_seconds,
+                            # 'notes': labels_value,
+                            # 'aspect_ratio': aspect_ratio_value,
+                            'image_caption': image_caption
+                        }
+                        
+                        # Add the clip to the list
+                        csv_clips.append(clip)
+                except ValueError as e:
+                    print(f"Error parsing CSV columns: {e}")
     except Exception as e:
-        print(f"Error loading clips metadata: {e}")
-        import traceback
+        print(f"Error loading CSV metadata: {e}")
         traceback.print_exc()
+    
+    print(f"Loaded {len(csv_clips)} clips from CSV metadata")
+    
+    # Now scan the actual clips directory for all available video files
+    print(f"Scanning clips directory at {clips_dir} for video files...")
+
+    # Merge CSV and scanned clips, with CSV taking precedence for metadata
+    # but ensuring all actual files are included
+    
+    # First add all CSV clips that have validated actual files
+    for clip in csv_clips:
+        if 'path' in clip:
+            full_path = clip['path']
+            clip_path = file_mgr.get_abs_path(full_path)
+        else:
+            clip_path = clips_dir / clip['name']
         
-        # Return placeholder clip as fallback
-        print("Using placeholder video as fallback due to error")
-        return [{
+        # Try to find the video file
+        video_file = file_mgr.find_video_file(clip_path)
+        if video_file:
+            clip['full_path'] = str(video_file)
+            clips.append(clip)
+        else:
+            # Try the clips directory directly
+            alt_path = clips_dir / clip['name'] 
+            video_file = file_mgr.find_video_file(alt_path)
+            if video_file:
+                clip['full_path'] = str(video_file)
+                clips.append(clip)
+    
+    # Keep track of which files we've already added
+    added_paths = set(clip.get('full_path', '') for clip in clips)
+    
+    # If still no valid clips, add placeholder
+    if not clips:
+        print("No valid clips found in CSV or directory scan. Using placeholder.")
+        clips = [{
             'name': "sample_clips/placeholder.mp4",
             'description': "Placeholder video for testing",
             'duration': 10,
             'notes': "Auto-generated placeholder"
         }]
+    
+    # Show summary of available clips
+    print(f"Final clip count: {len(clips)} valid clips")
+    for i, clip in enumerate(clips[:5]):  # Show only first 5 for brevity
+        print(f"Clip {i+1}: {clip['name']}, Duration: {clip['duration']}s")
+    
+    if len(clips) > 5:
+        print(f"... and {len(clips) - 5} more clips")
+        
+    return clips
 
 def get_script_segments(channel_number: Optional[int] = None) -> str:
     """
@@ -399,9 +350,10 @@ def get_num_segments(srt_file: Optional[str] = None, channel_number: Optional[in
     print(f"Found {len(subtitles)} subtitle segments")
     return len(subtitles)
 
-def match_clips_to_script(script: str, clips: List[Dict], target_duration: float = None) -> List[Dict]:
+def match_clips_to_script(script: str, clips: List[Dict], target_duration: float = None, channel_number: Optional[int] = None) -> List[Dict]:
     """
     Use OpenAI to match clips to script segments based on SRT timestamps and content.
+    With fallback to simple matching if AI fails.
     
     Args:
         script (str): The script content
@@ -418,7 +370,7 @@ def match_clips_to_script(script: str, clips: List[Dict], target_duration: float
     available_clips = {clip['name'] for clip in clips}
     
     # Read SRT file for timing information
-    srt_file = file_mgr.get_abs_path(config.file_paths.captions_file)
+    srt_file = file_mgr.get_abs_path(f"outputs/channel_{channel_number}/generated_voice.srt")
     srt_content = file_mgr.read_text(srt_file)
     
     if srt_content is None:
@@ -438,13 +390,14 @@ def match_clips_to_script(script: str, clips: List[Dict], target_duration: float
             'script_segment': script[:100] + "..."  # First part of script
         }]
     
-    # Parse SRT to get actual segment durations
+    # Parse SRT to get actual segment durations and scripts
     srt_segments = [seg.strip() for seg in srt_content.split('\n\n') if seg.strip()]
     segment_timings = []
+    segment_texts = []
     
     for segment in srt_segments:
         lines = segment.split('\n')
-        if len(lines) >= 2:
+        if len(lines) >= 3:  # Num, timing, text
             times = lines[1].split(' --> ')
             if len(times) == 2:
                 start = sum(float(x) * 60 ** i for i, x in enumerate(reversed(times[0].replace(',', '.').split(':'))))
@@ -452,23 +405,32 @@ def match_clips_to_script(script: str, clips: List[Dict], target_duration: float
                 duration = end - start
                 segment_timings.append(duration)
                 
+                # Get the text part (could be multiple lines)
+                text = ' '.join(lines[2:])
+                segment_texts.append(text)
+                
     # If no valid segments found, create at least one using total duration
     if not segment_timings and target_duration:
         print("No valid segment timings found. Using total duration.")
         segment_timings = [target_duration]
+        segment_texts = [script[:100] + "..."]
     
     # Modify the clips info to include ONLY available clips
     max_clip_duration = config.video_edit.max_clip_duration
     clips_info = "\n".join([
-        f"Clip: {c['name']}\nDescription: {c['description']}\nNotes: {c['notes']}\n"
-        f"Duration: {c['duration']}s\nAspect Ratio: {c.get('aspect_ratio', '16:9')}\n"
-        f"Possible start times: 0 to {max(0, c['duration'] - max_clip_duration)} seconds"
+        f"Clip: {c['name']}\nImage Caption: {c['image_caption']}\n"
+        f"Duration: {c['duration']}s\n"
+        f"Possible start times: 0 to {max(0, c['duration'] - max_clip_duration)} seconds\n"
         for c in clips
     ])
     
     target_duration_text = ""
     if target_duration is not None:
         target_duration_text = f"\nTotal Generated Voice Duration: {int(target_duration)} seconds."
+    
+    # Extract the main script segments for better analysis
+    script_excerpt = script[:500] if len(script) > 500 else script
+    srt_excerpt = '\n'.join(segment_texts[:10]) if len(segment_texts) > 10 else '\n'.join(segment_texts)
     
     prompt = f"""Given these available video clips along with their metadata:
     
@@ -479,46 +441,67 @@ And this SRT file with timestamps and script segments:
 
 {srt_content}
 
+And this script excerpt to understand the theme:
+{script_excerpt}
+
 Your task is to create a sequence of clips that best matches the voiceover content and timing. When selecting clip segments:
+- First, analyze the script to understand the main theme and topic
+- Choose clips whose descriptions or notes MATCH the content of each script segment
 - Use the EXACT SRT timestamps to ensure clips align with the voiceover timing
 - Each clip segment MUST match the exact duration of its corresponding SRT segment
-- Use the Clip Description and Clip Notes to determine which clips best match each part of the script
-- For each clip selection, choose a random start time within the possible start times range
-- You may use the same clip multiple times by choosing different start times if needed
-- In the first 30 seconds, we MUST ensure that at least 3 different clips are used
-- For longer clips (1 minute), make sure to utilize different parts of the clip by selecting varied start times
+- If a segment needs multiple clips, divide the time equally between them
+- For each clip selection, start time must be within the possible start times range
+- Ensure the first 15 seconds use at least 3 different clips for visual variety
+- Prioritize high-quality clips that match the topic and mood of the script segment
+- IMPORTANT: ONLY use clip names from the available clips provided above
+- CRITICAL: The clip_name field MUST exactly match one of the clips listed above
+- **Never use the same clip more than once**
+- **Never use a clip less than 2 seconds**
 
-Return the response as a JSON array where each object has:
-- clip_name: the filename of the clip to use
+Return a JSON array where each object has:
+- clip_name: the EXACT filename of one of the clips listed above which includes the directory (clips/*.mp4)
 - start_time: when to start using the clip (in seconds from the clip's beginning)
 - duration: length of the clip segment (MUST match the SRT segment duration)
 - script_segment: the part of the script that this clip should align with
+- explanation: the reasoning behind the logic of choosing that clip for that particular segment among other options
+- suggestion: more direct alternative to be shown to the audience that would match the segment and the general theme of the video better in a descriptive way that could be used as a prompt for generating images
 
-Format the response as valid JSON only, no additional text."""
-    
-    response = client.chat.completions.create(
-        model=config.openai.video_edit_model,
-        messages=[
-            {
-                "role": "developer", 
-                "content": "You are a video editing assistant with expertise in aligning clip metadata with script content and timing for fast-paced, dynamic edits."
-            },
-            {"role": "user", "content": prompt}
-        ]
-    )
+Format the response as valid JSON only, no additional text.
+
+**It's CRUCIAL to keep JSON as expected otherwise it would cause an error**"""
     
     try:
+        response = client.chat.completions.create(
+            model=config.openai.video_edit_model,
+            messages=[
+                {
+                    "role": "developer", 
+                    "content": "You are a video editing assistant with expertise in aligning clip metadata with script content and timing for fast-paced, dynamic edits."
+                },
+                {"role": "user", "content": prompt}
+            ]
+        )
+        
         clip_sequence = json.loads(response.choices[0].message.content)
+        print(response)
+        with open("json_response.json", "w") as output_json:
+            output_json.write(response.model_dump_json())
+
         # Validate clips and filter out any that don't exist
         validated_sequence = []
         
         # Create placeholder clip info
         placeholder_clip_name = "sample_clips/placeholder.mp4"
         
+        # Print what clip names are available for debugging
+        print(f"Available clips: {', '.join(available_clips)[:]}...")
+        invalid_clips = []
+        
         for segment in clip_sequence:
             if segment['clip_name'] in available_clips:
                 validated_sequence.append(segment)
             else:
+                invalid_clips.append(segment['clip_name'])
                 print(f"Warning: Clip '{segment['clip_name']}' not found. Using placeholder.")
                 # Create a new segment with the placeholder clip
                 placeholder_segment = segment.copy()
@@ -526,17 +509,16 @@ Format the response as valid JSON only, no additional text."""
                 placeholder_segment['start_time'] = 0  # Use beginning of placeholder
                 validated_sequence.append(placeholder_segment)
         
+        if invalid_clips:
+            print(f"WARNING: {len(invalid_clips)} invalid clip names were provided by the AI: {', '.join(invalid_clips)}")
+            
+            # If too many invalid clips, use the manual matching approach
+            if len(invalid_clips) > len(clip_sequence) / 2:
+                print("Too many invalid clips. Using manual matching instead.")
+        
         # If no valid segments found at all, create basic segments with placeholder
         if not validated_sequence and segment_timings:
-            print("No valid clips. Creating sequence with placeholder clips.")
-            for i, duration in enumerate(segment_timings):
-                placeholder_segment = {
-                    'clip_name': placeholder_clip_name,
-                    'start_time': 0,
-                    'duration': duration,
-                    'script_segment': f"Segment {i+1}"
-                }
-                validated_sequence.append(placeholder_segment)
+            print("No valid clips. Using manual matching.")
         
         # Ensure the durations match the SRT segments
         for i, segment in enumerate(validated_sequence):
@@ -544,8 +526,11 @@ Format the response as valid JSON only, no additional text."""
                 segment['duration'] = segment_timings[i]
         
         return validated_sequence
-    except json.JSONDecodeError:
-        raise Exception("Failed to get valid JSON response from OpenAI")
+    
+    except (json.JSONDecodeError, Exception) as e:
+        raise Exception(f"Error in AI clip matching: {e}")
+        
+
 
 def enforce_clip_duration(clip_sequence: List[Dict]) -> List[Dict]:
     """
@@ -612,8 +597,8 @@ def validate_clip_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict]
         if clip_name not in used_segments:
             used_segments[clip_name] = []
         
-        # For clips longer than 30 seconds, try to find an unused segment
-        if total_duration > 30:
+        # For clips longer than 11 seconds, try to find an unused segment
+        if total_duration > 11:
             max_attempts = 10
             attempt = 0
             found_valid_segment = False
@@ -700,10 +685,14 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
         create_placeholder_clip(output_video, 60)
         return True
     
-    # Create a temporary directory for processed segments
-    with file_mgr.temp_dir(prefix="video_segments_") as temp_dir:
+    # Ensure temp directory exists
+    temp_dir = file_mgr.get_abs_path("temp_files")
+    file_mgr.ensure_dir_exists(temp_dir)
+    
+    try:
         # Process each clip segment individually first
         segments_list = []
+        
         for i, clip in enumerate(clip_sequence):
             # Use the full validated path with extension if available
             clip_name = clip['clip_name']
@@ -719,21 +708,39 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
                     break
             else:
                 # Otherwise look for the file with potential extensions
+                # Try three different approaches to find the video:
+                # 1. Look in the clips directory for the name as-is
                 clip_path = clips_dir / clip_name
                 video_file = file_mgr.find_video_file(clip_path)
+                
                 if video_file:
                     clip_path = video_file
-                    print(f"Found clip using find_video_file: {clip_path}")
+                    print(f"Found clip using clips_dir path: {clip_path}")
                 else:
-                    # Last resort: try with explicit .mp4 extension
-                    clip_path = clips_dir / f"{clip_name}.mp4"
-                    print(f"Using last resort path: {clip_path}")
+                    # 2. Look directly in video directory (handling potential path prefixes in CSV)
+                    video_file = file_mgr.find_video_file(Path("video") / clip_name)
+                    if video_file:
+                        clip_path = video_file
+                        print(f"Found clip using video/ prefix: {clip_path}")
+                    else:
+                        # 3. Try with explicit .mp4 extension
+                        mp4_path = clips_dir / f"{clip_name}"
+                        if not mp4_path.suffix:  # If no extension, add .mp4
+                            mp4_path = clips_dir / f"{clip_name}.mp4"
+                        video_file = file_mgr.find_video_file(mp4_path)
+                        if video_file:
+                            clip_path = video_file
+                            print(f"Found clip using .mp4 extension: {clip_path}")
+                        else:
+                            # Last resort: use the path as given
+                            clip_path = clips_dir / clip_name
+                            print(f"Using last resort path: {clip_path}")
             
             start_time = clip.get('start_time', 0)
             duration = clip['duration']
             
             # Output path for this segment
-            segment_output = Path(temp_dir) / f"segment_{i:03d}.mp4"
+            segment_output = temp_dir / f"segment_{i:03d}.mp4"
             segments_list.append(str(segment_output))
             
             # Check if clip exists
@@ -744,11 +751,8 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
                 continue
                 
             try:
-                # For simplicity, let's use a standard output size for all videos
-                # Our placeholder is 640x480, which is 4:3, so we'll scale appropriately
-                
                 # Scaling parameters for consistent output
-                output_width = 1080  # Smaller size for faster processing
+                output_width = 1080  
                 output_height = 1920
                 
                 # Simple scaling without padding to avoid errors
@@ -774,29 +778,60 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
                     str(segment_output)
                 ], check=True)
                 print(f"Created segment {i}: {segment_output} (duration: {duration:.2f}s)")
+                
+                # Verify the segment was created
+                if not segment_output.exists():
+                    print(f"Warning: Segment {i} was not created at {segment_output}")
+                    create_placeholder_clip(segment_output, duration)
+                
             except subprocess.CalledProcessError as e:
                 print(f"Error creating segment {i}: {e}")
                 # Create a placeholder for this segment as fallback
                 create_placeholder_clip(segment_output, duration)
-                
+        
         # Create a concat file for the processed segments
-        concat_file = Path(temp_dir) / "concat_list.txt"
-        concat_content = "\n".join([f"file '{segment}'" for segment in segments_list])
+        concat_file = temp_dir / "concat_list.txt"
+        
+        # Verify which segments actually exist before adding to concat list
+        valid_segments = []
+        for segment_path in segments_list:
+            if Path(segment_path).exists():
+                valid_segments.append(segment_path)
+            else:
+                print(f"Warning: Segment {segment_path} does not exist and won't be included")
+                
+        if not valid_segments:
+            print("No valid segments found. Creating a placeholder video instead.")
+            create_placeholder_clip(output_video, 60)
+            return True
+            
+        # Create concat file with absolute paths
+        concat_content = "\n".join([f"file '{seg}'" for seg in valid_segments])
         file_mgr.write_text(concat_file, concat_content)
+        
+        print(f"Concat file contents: {concat_content}")
         
         # Concatenate all the standardized segments
         try:
             print(f"Concatenating segments into final video: {output_video}")
             
-            subprocess.run([
-                'ffmpeg',
-                '-y',
-                '-f', 'concat',
-                '-safe', '0',
-                '-i', str(concat_file),
-                '-c', 'copy',  # We can use copy here since all segments are already properly encoded
-                str(output_video)
-            ], check=True)
+            # Use simpler approach that's more reliable
+            if len(valid_segments) == 1:
+                # If only one segment, just copy it
+                print("Only one segment. Copying directly to output.")
+                shutil.copy2(valid_segments[0], output_video)
+            else:
+                # Use concat demuxer for multiple segments
+                subprocess.run([
+                    'ffmpeg',
+                    '-y',
+                    '-f', 'concat',
+                    '-safe', '0',
+                    '-i', str(concat_file),
+                    '-c', 'copy',  # We can use copy here since all segments are already properly encoded
+                    str(output_video)
+                ], check=True)
+                
             print(f"Video sequence created successfully")
             
             # Verify the file was actually created
@@ -808,6 +843,7 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
                 print(f"Created placeholder video at {output_video}")
             
             return True
+        
         except subprocess.CalledProcessError as e:
             print(f"Error creating final video sequence: {e}")
             print(f"Error details: {str(e)}")
@@ -822,7 +858,13 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
             except Exception as e2:
                 print(f"Error creating placeholder video: {e2}")
                 return False
-        # temp directory is automatically removed when the context manager exits
+    
+    except Exception as e:
+        print(f"Unexpected error in create_video_sequence: {e}")
+        traceback.print_exc()
+        # Create placeholder as ultimate fallback
+        create_placeholder_clip(output_video, 60)
+        return False
 
 def merge_voice_with_video(video_path: str = None, voice_path: str = None, output_path: str = None, channel_number: Optional[int] = None) -> bool:
     """
@@ -838,6 +880,8 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
     Returns:
         bool: True if successful, False otherwise
     """
+    # Store the original video path to handle temporary extended videos
+    original_video_path = video_path
     # Use default channel if none specified
     if channel_number is None:
         channel_number = config.default_channel
@@ -949,8 +993,38 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
     if video_duration and voice_duration and video_duration < voice_duration:
         print(f"Warning: Video ({video_duration:.2f}s) is shorter than voice ({voice_duration:.2f}s). Extending video...")
         
-        # Create a temporary extended video
-        with file_mgr.temp_file(suffix=".mp4") as extended_video_path:
+        # Create a persistent temporary file for extended video
+        temp_dir = file_mgr.get_abs_path("temp_files")
+        file_mgr.ensure_dir_exists(temp_dir)
+        import uuid  # Import here so we don't redefine it later
+        ext_temp_name = f"temp_ext_{uuid.uuid4().hex}.mp4"
+        extended_video_path = temp_dir / ext_temp_name
+        
+        try:
+            # Instead of using tpad which creates a still frame, let's use loop
+            # This will repeat the video from the beginning rather than freezing on last frame
+            # Calculate number of loops needed to cover the voice duration
+            loops_needed = int(voice_duration / video_duration) + 1
+            
+            subprocess.run([
+                "ffmpeg", "-y",
+                "-stream_loop", str(loops_needed), 
+                "-i", video_path,
+                "-t", str(voice_duration + 1),  # Add a safety margin
+                "-c:v", "libx264",
+                "-preset", "fast",
+                "-crf", "22",
+                str(extended_video_path)
+            ], check=True)
+            
+            print(f"Extended video created successfully by looping (total duration: {voice_duration + 1:.2f}s)")
+            # Use the extended video for merging
+            video_path = str(extended_video_path)
+            # We'll let the file stay around until the entire function completes
+            # since we're using video_path for the next step
+        except subprocess.CalledProcessError as e:
+            print(f"Error extending video by looping: {e}")
+            # Fall back to the old approach if looping fails
             try:
                 # Extend the video by looping the last frame to match voice duration
                 # Add a 1-second safety margin
@@ -968,19 +1042,33 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
                     str(extended_video_path)
                 ], check=True)
                 
-                print(f"Extended video created successfully (total duration: {voice_duration + 1:.2f}s)")
+                print(f"Extended video created successfully using freeze frame (total duration: {voice_duration + 1:.2f}s)")
                 # Use the extended video for merging
                 video_path = str(extended_video_path)
             except subprocess.CalledProcessError as e:
-                print(f"Error extending video: {e}")
+                print(f"Error extending video using freeze frame: {e}")
                 # Continue with original video if extension fails
+            
+            # Clean up the file if it exists but is invalid
+            if extended_video_path.exists() and not os.path.getsize(str(extended_video_path)) > 0:
+                try:
+                    extended_video_path.unlink()
+                    print(f"Cleaned up invalid extended video file: {extended_video_path}")
+                except Exception as e2:
+                    print(f"Warning: Could not remove temporary file {extended_video_path}: {e2}")
     
     # Simplify by first merging video with voice, then add background music if available
     try:
         print(f"Merging voice with video: {output_path}")
         
-        # First merge video with voice
-        with file_mgr.temp_file(suffix=".mp4") as temp_output:
+        # Create a persistent temporary file (not using context manager to avoid early deletion)
+        temp_dir = file_mgr.get_abs_path("temp_files")
+        file_mgr.ensure_dir_exists(temp_dir)
+        import uuid
+        temp_name = f"temp_voice_merge_{uuid.uuid4().hex}.mp4"
+        temp_output = temp_dir / temp_name
+        
+        try:
             # Add voice to video
             subprocess.run([
                 "ffmpeg",
@@ -997,7 +1085,7 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
             
             print("Successfully merged voice with video")
             
-            # Now optionally add background music
+            # Now add background music (always add it if music exists)
             if bgm_files:
                 bgm_file = random.choice(bgm_files)
                 print(f"Selected background music: {bgm_file}")
@@ -1006,6 +1094,15 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
                 try:
                     # Print detailed info about what we're doing
                     print(f"Adding background music '{bgm_file}' at volume {bgm_volume}")
+                    
+                    # First verify the background music file exists
+                    if not os.path.exists(bgm_file):
+                        print(f"Warning: Background music file '{bgm_file}' not found")
+                        # Look in the correct directory if needed
+                        alt_bgm_path = file_mgr.get_abs_path("background_music/background_music.mp3")
+                        if os.path.exists(str(alt_bgm_path)):
+                            bgm_file = str(alt_bgm_path)
+                            print(f"Using alternative background music path: {bgm_file}")
                     
                     # More robust command with better error handling and detailed debugging
                     process = subprocess.run([
@@ -1022,13 +1119,18 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
                         "-b:a", "192k",  # Higher audio bitrate for better quality
                         "-shortest",
                         output_path
-                    ], check=True, capture_output=True, text=True)
+                    ], check=True)
                     
                     print("Successfully added background music")
                     
                     # Verify that the output file was created with the expected duration
                     if not file_mgr.file_exists(output_path):
                         raise Exception(f"Output file was not created: {output_path}")
+                    
+                    # Clean up temp file
+                    if temp_output.exists():
+                        temp_output.unlink()
+                        print(f"Cleaned up temporary file: {temp_output}")
                     
                     return True
                 except subprocess.CalledProcessError as e:
@@ -1037,12 +1139,32 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
                     # If background music fails, use the voice-only version
                     file_mgr.copy_file(temp_output, output_path)
                     print("Using voice-only version as fallback")
+                    
+                    # Clean up temp file
+                    if temp_output.exists():
+                        temp_output.unlink()
+                        print(f"Cleaned up temporary file: {temp_output}")
+                    
                     return True
             else:
                 # Just use the voice version
                 file_mgr.copy_file(temp_output, output_path)
                 print("No background music files found. Using voice-only version.")
+                
+                # Clean up temp file
+                if temp_output.exists():
+                    temp_output.unlink()
+                    print(f"Cleaned up temporary file: {temp_output}")
+                
                 return True
+        finally:
+            # Make sure we always clean up the temp file
+            if temp_output.exists():
+                try:
+                    temp_output.unlink()
+                    print(f"Cleaned up temporary file: {temp_output}")
+                except Exception as e:
+                    print(f"Warning: Could not remove temporary file {temp_output}: {e}")
     
     except subprocess.CalledProcessError as e:
         print(f"Error merging voice with video: {e}")
@@ -1075,6 +1197,15 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
                 try:
                     create_placeholder_clip(output_path, 60)
                     print(f"Created placeholder as last resort")
+                    
+                    # Clean up extended video if it exists and is different from original
+                    if video_path != original_video_path and Path(video_path).exists():
+                        try:
+                            Path(video_path).unlink()
+                            print(f"Cleaned up temporary extended video: {video_path}")
+                        except Exception as e:
+                            print(f"Warning: Could not remove extended video: {e}")
+                    
                     return True
                 except:
                     return False
@@ -1091,6 +1222,15 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
             try:
                 create_placeholder_clip(output_path, 60)
                 print(f"Created placeholder as last resort")
+                
+                # Clean up extended video if it exists and is different from original
+                if video_path != original_video_path and Path(video_path).exists():
+                    try:
+                        Path(video_path).unlink()
+                        print(f"Cleaned up temporary extended video: {video_path}")
+                    except Exception as e:
+                        print(f"Warning: Could not remove extended video: {e}")
+                
                 return True
             except:
                 return False
@@ -1261,7 +1401,7 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
                         subprocess.run([
                             "ffmpeg", "-y",
                             "-i", video_path,
-                            "-vf", f"subtitles={srt_clean_path}:force_style='FontName=Arial,FontSize=24,PrimaryColour=&HFFFFFF,OutlineColour=&H000000,BorderStyle=3,Outline=1,Shadow=1,MarginV=35'",
+                            "-vf", f"subtitles={srt_clean_path}:force_style='FontName=DIN Condensed Bold,FontSize=12,PrimaryColour=&HFFFFFF,OutlineColour=&H00000010,BorderStyle=4,Outline=1,Shadow=1,MarginV=35'",
                             "-c:v", "libx264",
                             "-preset", "fast",
                             "-crf", "22",
@@ -1282,7 +1422,7 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
                                 "-i", video_path,
                                 "-c:v", "libx264",
                                 "-c:a", "copy", 
-                                "-vf", "subtitles=subtitles.srt:force_style='FontSize=24,Alignment=2,OutlineColour=&H000000,BorderStyle=3'",
+                                "-vf", "subtitles=subtitles.srt:force_style='FontSize=12,Alignment=2,OutlineColour=&H00000010,BorderStyle=3'",
                                 output_path
                             ], check=True)
                             print("Successfully added subtitles using alternative approach")
@@ -1356,7 +1496,7 @@ def main(channel_number: Optional[int] = None) -> None:
         # Get expected number of segments from the SRT file - use channel-specific path
         captions_file = str(file_mgr.get_caption_path(channel_number, "generated_voice"))
         print(f"Looking for captions file at: {captions_file}")
-        expected_segments = get_num_segments(captions_file)
+        expected_segments = get_num_segments(captions_file, channel_number)
         print(f"Expected number of clip segments: {expected_segments}")
         
         # If no segments found, set expected segments to 1
@@ -1366,13 +1506,13 @@ def main(channel_number: Optional[int] = None) -> None:
         
         # Match clips to the script, validate that output matches expected number
         attempts = 0
-        max_attempts = 3
+        max_attempts = 2
         clip_sequence = None
         
         while attempts < max_attempts:
             try:
                 print(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
-                clip_sequence = match_clips_to_script(script, clips, target_duration=target_duration)
+                clip_sequence = match_clips_to_script(script, clips, target_duration=target_duration, channel_number=channel_number)
                 obtained_segments = len(clip_sequence)
                 
                 if obtained_segments == expected_segments:

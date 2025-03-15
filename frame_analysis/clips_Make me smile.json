@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Make me smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Make me smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Make me smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with soft, flowing hair gazes softly into the distance, surrounded by a warm, golden light. The scene is adorned with delicate flowers, enhancing the ethereal and serene atmosphere.",
+      "description": "The image depicts a tranquil and dreamy setting with a focus on a woman bathed in warm, golden light. The presence of flowers adds a touch of nature and elegance to the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "ethereal"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Make me smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Make me smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene woman stands amidst a lush garden, bathed in warm, golden sunlight. Her eyes are gently closed, and a soft smile graces her face as she is surrounded by blooming flowers and greenery.",
+      "description": "The scene captures a tranquil moment in a sunlit garden, where a woman enjoys the peaceful ambiance of nature. The setting is intimate and filled with natural beauty, emphasizing a connection with the environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "leaves",
+          "garden"
+        ],
+        "objects": [],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "serenity",
+          "contentment"
+        ],
+        "scenes": [
+          "garden",
+          "sunlit"
+        ],
+        "concepts": [
+          "peace",
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, leaves, garden. Actions: gazing, standing, smiling. Emotions: serene, ethereal, serenity, contentment. Scenes: portrait, garden, sunlit. Concepts: tranquility, beauty, peace, nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "leaves",
+      "garden"
+    ],
+    "objects": [],
+    "actions": [
+      "gazing",
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "serene",
+      "ethereal",
+      "serenity",
+      "contentment"
+    ],
+    "scenes": [
+      "portrait",
+      "garden",
+      "sunlit"
+    ],
+    "concepts": [
+      "tranquility",
+      "beauty",
+      "peace",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

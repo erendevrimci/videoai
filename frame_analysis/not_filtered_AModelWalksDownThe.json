@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalksDownThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalksDownThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelWalksDownThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model walks down the runway wearing a unique dress adorned with green apples and limes. The dress is made of a transparent material, creating a striking visual effect against the vibrant background. The setting is a fashion show with a colorful gradient backdrop.",
+      "description": "The scene is set at a fashion show, featuring a model in a creative and avant-garde outfit. The dress is transparent and embellished with fruit, capturing the audience's attention as the model strides confidently down the runway.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "dress",
+          "apples",
+          "limes"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "avant-garde"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalksDownThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelWalksDownThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model walks down the runway wearing a unique dress adorned with green apples and limes. The dress is made of a translucent material, creating a striking visual against the vibrant backdrop. The audience is seated on either side, observing the fashion show.",
+      "description": "The scene is set at a fashion show runway. A model is showcasing an avant-garde dress featuring fruit elements, while the audience watches attentively.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "dress",
+          "green apples",
+          "limes",
+          "runway"
+        ],
+        "actions": [
+          "walking",
+          "observing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "avant-garde",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, audience. Objects: dress, limes, apples, green apples, runway. Actions: walking, observing. Emotions: confident, focused. Scenes: fashion show, runway. Concepts: fashion, avant-garde, creativity",
+  "primary_labels": {
+    "people": [
+      "model",
+      "audience"
+    ],
+    "objects": [
+      "dress",
+      "limes",
+      "apples",
+      "green apples",
+      "runway"
+    ],
+    "actions": [
+      "walking",
+      "observing"
+    ],
+    "emotions": [
+      "confident",
+      "focused"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "avant-garde",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Hyper-realisticVideoScene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Hyper-realisticVideoScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,Hyper-realisticVideoScene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid cat stands attentively in front of a brightly lit shop window, dressed in casual streetwear. The scene is set in an urban environment, with the cat seemingly engrossed in the items displayed inside.",
+      "description": "The scene takes place in a bustling city street at night, where a humanoid cat character is observing products through a shop window. The setting is urban, with a focus on the interaction between the character and the shop display.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "shop window",
+          "bottles",
+          "backpack",
+          "hoodie",
+          "cargo pants"
+        ],
+        "actions": [
+          "looking",
+          "standing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "streetwear"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,Hyper-realisticVideoScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,Hyper-realisticVideoScene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid cat dressed in casual clothing stands in front of a shop window, gazing at the items inside. The scene is set on a dimly lit street, with the cat's expression suggesting curiosity or contemplation.",
+      "description": "The image depicts a humanoid cat character in a hoodie and cargo pants, standing on a wet street in front of a brightly lit shop display. The setting appears to be urban, possibly in the evening or early night, with a focus on the character's interaction with the shop window.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "shop window",
+          "bottles",
+          "hoodie",
+          "backpack",
+          "cargo pants"
+        ],
+        "actions": [
+          "standing",
+          "looking"
+        ],
+        "emotions": [
+          "curiosity",
+          "contemplation"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "evening",
+          "shopping"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: shop window, bottles, backpack, hoodie, cargo pants. Actions: looking, standing. Emotions: curiosity, contemplation. Scenes: urban, nighttime, street. Concepts: anthropomorphism, streetwear, evening, shopping",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "shop window",
+      "bottles",
+      "backpack",
+      "hoodie",
+      "cargo pants"
+    ],
+    "actions": [
+      "looking",
+      "standing"
+    ],
+    "emotions": [
+      "curiosity",
+      "contemplation"
+    ],
+    "scenes": [
+      "urban",
+      "nighttime",
+      "street"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "streetwear",
+      "evening",
+      "shopping"
+    ]
+  },
+  "metadata": {}
+}

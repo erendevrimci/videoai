@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Freedom !.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Freedom !.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Freedom !/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic bald eagle perches on a rocky outcrop, surveying the mountainous landscape. The eagle's sharp gaze and powerful stance convey a sense of dominance and grace. Snow-dusted peaks and a misty atmosphere create a serene yet dramatic backdrop.",
+      "description": "The scene captures a bald eagle perched on a rocky ledge in a mountainous setting. The background features snow-capped mountains and a misty sky, enhancing the natural and wild atmosphere.",
+      "labels": {
+        "animals": [
+          "bald eagle"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "rock"
+        ],
+        "objects": [
+          "rocky outcrop"
+        ],
+        "emotions": [
+          "majestic",
+          "serene"
+        ],
+        "scenes": [
+          "mountain landscape",
+          "wildlife"
+        ],
+        "concepts": [
+          "nature",
+          "wilderness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Freedom !.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Freedom !/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic bald eagle perches against a backdrop of snow-capped mountains. The bird's sharp gaze and striking plumage are highlighted by the soft, diffused light of the overcast sky.",
+      "description": "The scene captures a bald eagle in a mountainous setting, emphasizing its regal presence and the serene, natural environment.",
+      "labels": {
+        "animals": [
+          "bald eagle"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [],
+        "actions": [
+          "perching"
+        ],
+        "emotions": [
+          "majestic"
+        ],
+        "scenes": [
+          "wildlife",
+          "nature"
+        ],
+        "concepts": [
+          "freedom",
+          "wilderness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bald eagle. Nature: mountains, snow, rock. Objects: rocky outcrop. Emotions: majestic, serene. Scenes: wildlife, mountain landscape, nature. Concepts: wilderness, nature, freedom. Actions: perching",
+  "primary_labels": {
+    "animals": [
+      "bald eagle"
+    ],
+    "nature": [
+      "mountains",
+      "snow",
+      "rock"
+    ],
+    "objects": [
+      "rocky outcrop"
+    ],
+    "emotions": [
+      "majestic",
+      "serene"
+    ],
+    "scenes": [
+      "wildlife",
+      "mountain landscape",
+      "nature"
+    ],
+    "concepts": [
+      "wilderness",
+      "nature",
+      "freedom"
+    ],
+    "actions": [
+      "perching"
+    ]
+  },
+  "metadata": {}
+}

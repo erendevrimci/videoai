@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KucingLucuNaikMotorDi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KucingLucuNaikMotorDi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KucingLucuNaikMotorDi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat wearing a helmet rides a red scooter down a city street. The cat is carrying a box of groceries, including leafy greens, on the back of the scooter. The background shows a blurred urban environment with buildings and traffic.",
+      "description": "The scene depicts a whimsical and humorous moment of a cat riding a scooter in an urban setting. The cat, dressed in a helmet, appears focused as it navigates the road, with a box of groceries secured behind it. The cityscape in the background suggests a busy street with buildings and vehicles.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "groceries",
+          "box"
+        ],
+        "actions": [
+          "riding",
+          "carrying"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "whimsy",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KucingLucuNaikMotorDi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KucingLucuNaikMotorDi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat wearing a helmet is riding a small red scooter on a city road. The cat carries a paper bag filled with groceries, including leafy greens, on the back of the scooter. The scene captures a whimsical and humorous moment in an urban setting.",
+      "description": "The scene depicts a playful and imaginative scenario where a cat is humorously portrayed as riding a scooter through a city street. The urban environment is suggested by the blurred background of buildings and traffic.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "groceries",
+          "paper bag"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "whimsical",
+          "humorous"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "imagination",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: scooter, helmet, groceries, box, paper bag. Actions: riding, carrying. Emotions: humorous, whimsical. Scenes: urban, street, city street. Concepts: anthropomorphism, whimsy, imagination",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "scooter",
+      "helmet",
+      "groceries",
+      "box",
+      "paper bag"
+    ],
+    "actions": [
+      "riding",
+      "carrying"
+    ],
+    "emotions": [
+      "humorous",
+      "whimsical"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "whimsy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

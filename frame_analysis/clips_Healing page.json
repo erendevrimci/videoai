@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Healing page.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Healing page.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Healing page/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby in a gray onesie joyfully interacts with two cats in a cozy living room. One cat stands on its hind legs, playfully engaging with the baby, while the other cat watches curiously from the floor. The scene is filled with warmth and playful energy.",
+      "description": "The scene takes place in a warmly lit living room, where a baby and two cats are playfully interacting. The room is cozy, with soft lighting and homey decor, creating a welcoming atmosphere.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "onesie",
+          "rug",
+          "sofa",
+          "plant",
+          "pictures"
+        ],
+        "actions": [
+          "standing",
+          "playing",
+          "watching"
+        ],
+        "emotions": [
+          "joyful",
+          "curious"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "playfulness",
+          "interaction",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Healing page.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Healing page/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful baby in a grey onesie is playfully interacting with two cats in a cozy living room. One cat is standing on its hind legs, engaging with the baby, while the other sits attentively nearby. The scene is warmly lit, creating a cheerful and inviting atmosphere.",
+      "description": "The scene depicts a lively interaction between a baby and two cats in a comfortable, well-decorated living room. The baby is laughing and reaching out to a cat that is playfully standing on its hind legs, while another cat observes the interaction.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "lamp",
+          "rug",
+          "plant",
+          "pictures"
+        ],
+        "actions": [
+          "playing",
+          "standing",
+          "sitting"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "interaction",
+          "playfulness",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: rug, plant, pictures, onesie, sofa. Actions: standing, playing, watching, sitting. Emotions: joyful, curious, playful. Scenes: living room, indoor. Concepts: playfulness, interaction, warmth",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "nature": [],
+    "objects": [
+      "rug",
+      "plant",
+      "pictures",
+      "onesie",
+      "sofa"
+    ],
+    "actions": [
+      "standing",
+      "playing",
+      "watching",
+      "sitting"
+    ],
+    "emotions": [
+      "joyful",
+      "curious",
+      "playful"
+    ],
+    "scenes": [
+      "living room",
+      "indoor"
+    ],
+    "concepts": [
+      "playfulness",
+      "interaction",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

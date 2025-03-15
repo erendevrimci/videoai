@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThePictureToLife.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThePictureToLife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BringThePictureToLife/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing white dress walks alongside a brown horse on a sandy beach by a calm body of water. The scene is set against a backdrop of distant hills under a soft, cloudy sky.",
+      "description": "The image captures a serene moment on a beach where a woman is leading a horse along the shoreline. The setting is tranquil with the gentle waves of the water and the expansive sky creating a peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "beach",
+          "water",
+          "sky",
+          "hills"
+        ],
+        "objects": [
+          "dress",
+          "saddle"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "beach",
+          "outdoors"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThePictureToLife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BringThePictureToLife/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a flowing white dress walks alongside a chestnut horse with a saddle, near a serene body of water. The scene is set against a backdrop of rolling hills under a cloudy sky.",
+      "description": "The image captures a tranquil moment by the water's edge, where a person is leading a horse. The setting suggests a peaceful, natural environment, possibly during late afternoon or early evening.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "water",
+          "hills",
+          "sky"
+        ],
+        "objects": [
+          "saddle",
+          "dress"
+        ],
+        "actions": [
+          "walking",
+          "leading"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoors",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Animals: horse. Nature: water, sky, hills, beach. Objects: dress, saddle. Actions: walking, leading. Emotions: serene, calm. Scenes: outdoors, beach, nature. Concepts: tranquility, nature, companionship",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "water",
+      "sky",
+      "hills",
+      "beach"
+    ],
+    "objects": [
+      "dress",
+      "saddle"
+    ],
+    "actions": [
+      "walking",
+      "leading"
+    ],
+    "emotions": [
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "outdoors",
+      "beach",
+      "nature"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

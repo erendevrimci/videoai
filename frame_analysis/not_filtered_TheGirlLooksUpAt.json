@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksUpAt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksUpAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLooksUpAt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a red polo shirt stands behind a young girl with long blonde hair, who is seated and looking directly at the camera. The room is decorated with shelves holding various items, including books, a clock, and a colorful box.",
+      "description": "The scene is set in a cozy, indoor environment, possibly a study or a small office. The man and the girl appear to be posing for a photo, with the man gently holding the girl's shoulders. The room is filled with personal items, suggesting a lived-in and personalized space.",
+      "labels": {
+        "people": [
+          "man",
+          "girl"
+        ],
+        "objects": [
+          "shelves",
+          "books",
+          "clock",
+          "box",
+          "pencils"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor",
+          "study"
+        ],
+        "concepts": [
+          "family",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksUpAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLooksUpAt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a red polo shirt stands behind a young girl with long blonde hair, who is seated and looking directly at the camera. The room is decorated with shelves holding various items, including books, a clock, and a colorful box.",
+      "description": "The scene is set in a small, cozy room with a casual atmosphere. The man and child appear to be posing for a photo, with shelves in the background displaying personal and decorative items.",
+      "labels": {
+        "people": [
+          "man",
+          "girl"
+        ],
+        "objects": [
+          "shelves",
+          "books",
+          "clock",
+          "box",
+          "pencils",
+          "kettle"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor",
+          "room"
+        ],
+        "concepts": [
+          "family",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, girl. Objects: shelves, books, clock, box, pencils. Actions: posing. Emotions: neutral. Scenes: indoor, study, room. Concepts: family, portrait, casual",
+  "primary_labels": {
+    "people": [
+      "man",
+      "girl"
+    ],
+    "objects": [
+      "shelves",
+      "books",
+      "clock",
+      "box",
+      "pencils"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "neutral"
+    ],
+    "scenes": [
+      "indoor",
+      "study",
+      "room"
+    ],
+    "concepts": [
+      "family",
+      "portrait",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

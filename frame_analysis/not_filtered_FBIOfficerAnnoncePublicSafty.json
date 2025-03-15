@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FBIOfficerAnnoncePublicSafty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FBIOfficerAnnoncePublicSafty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FBIOfficerAnnoncePublicSafty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man wearing sunglasses and a winter jacket stands confidently against a backdrop of snow-covered mountains. The clear blue sky and bright sunlight highlight the serene and chilly environment.",
+      "description": "The scene captures a man in a cold, mountainous setting, likely during winter. The snow-covered peaks and clear sky suggest a peaceful and remote location.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "sunglasses",
+          "winter jacket"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter",
+          "mountain"
+        ],
+        "concepts": [
+          "adventure",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FBIOfficerAnnoncePublicSafty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FBIOfficerAnnoncePublicSafty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man wearing sunglasses and a beige winter jacket stands against a backdrop of snow-covered mountains. The clear blue sky enhances the crispness of the snowy landscape, creating a serene and adventurous atmosphere.",
+      "description": "The scene captures a man in a winter setting, likely on a mountain or ski resort, with snow-covered peaks in the background. The bright sunlight and clear sky suggest a cold but clear day.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "objects": [
+          "sunglasses",
+          "winter jacket"
+        ],
+        "emotions": [
+          "calm",
+          "adventurous"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter",
+          "mountain"
+        ],
+        "concepts": [
+          "travel",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Nature: mountains, snow. Objects: sunglasses, winter jacket. Emotions: confidence, calm, adventurous. Scenes: outdoor, winter, mountain. Concepts: adventure, solitude, travel",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "nature": [
+      "mountains",
+      "snow"
+    ],
+    "objects": [
+      "sunglasses",
+      "winter jacket"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "adventurous"
+    ],
+    "scenes": [
+      "outdoor",
+      "winter",
+      "mountain"
+    ],
+    "concepts": [
+      "adventure",
+      "solitude",
+      "travel"
+    ]
+  },
+  "metadata": {}
+}

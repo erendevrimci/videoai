@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJoyfulBabySittingOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJoyfulBabySittingOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AJoyfulBabySittingOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful baby sits on the grass surrounded by colorful flowers, smiling widely. Two small puppies are playfully interacting with the baby, creating a heartwarming scene. The vibrant colors of the flowers add to the cheerful atmosphere.",
+      "description": "The scene captures a delightful moment in a garden setting, where a baby is enjoying the company of two puppies. The background is filled with a variety of colorful flowers, enhancing the lively and joyful mood.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "puppies"
+        ],
+        "nature": [
+          "flowers",
+          "grass"
+        ],
+        "objects": [],
+        "actions": [
+          "sitting",
+          "smiling",
+          "interacting"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "innocence",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJoyfulBabySittingOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AJoyfulBabySittingOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful baby sits on a lush green lawn, surrounded by playful puppies. The baby is laughing, clearly enjoying the company of the energetic pups. Brightly colored flowers in the background add to the cheerful atmosphere.",
+      "description": "The scene captures a delightful moment in a garden setting, where a baby and puppies are interacting joyfully. The vibrant flowers and greenery create a lively and serene environment.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "puppies"
+        ],
+        "nature": [
+          "grass",
+          "flowers"
+        ],
+        "objects": [],
+        "actions": [
+          "laughing",
+          "playing"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "innocence",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: puppies. Nature: flowers, grass. Actions: sitting, smiling, interacting, laughing, playing. Emotions: joy, happiness, joyful, happy. Scenes: garden. Concepts: innocence, playfulness",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "puppies"
+    ],
+    "nature": [
+      "flowers",
+      "grass"
+    ],
+    "objects": [],
+    "actions": [
+      "sitting",
+      "smiling",
+      "interacting",
+      "laughing",
+      "playing"
+    ],
+    "emotions": [
+      "joy",
+      "happiness",
+      "joyful",
+      "happy"
+    ],
+    "scenes": [
+      "garden"
+    ],
+    "concepts": [
+      "innocence",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

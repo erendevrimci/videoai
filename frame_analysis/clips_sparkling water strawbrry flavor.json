@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sparkling water strawbrry flavor.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sparkling water strawbrry flavor.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sparkling water strawbrry flavor/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A refreshing glass of sparkling water is being poured over ice and fresh strawberries, creating a bubbly and vibrant scene. The pink background complements the red strawberries, enhancing the overall visual appeal.",
+      "description": "The scene depicts a close-up view of a glass being filled with sparkling water, containing ice cubes and sliced strawberries. The setting is bright and colorful, emphasizing freshness and vibrancy.",
+      "labels": {
+        "objects": [
+          "glass",
+          "strawberries",
+          "ice cubes"
+        ],
+        "actions": [
+          "pouring",
+          "bubbling"
+        ],
+        "emotions": [
+          "refreshing"
+        ],
+        "scenes": [
+          "beverage preparation"
+        ],
+        "concepts": [
+          "freshness",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sparkling water strawbrry flavor.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sparkling water strawbrry flavor/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A refreshing glass of sparkling water is being poured over ice cubes and fresh strawberries. The scene is set against a soft pink background, enhancing the vibrant red of the strawberries. Bubbles rise to the surface, adding a sense of effervescence and freshness.",
+      "description": "The image depicts a close-up of a glass filled with sparkling water, ice cubes, and sliced strawberries. The pouring action creates bubbles, suggesting a refreshing and invigorating drink. The setting is minimalistic and bright, with a focus on the vibrant colors and textures.",
+      "labels": {
+        "objects": [
+          "glass",
+          "ice cubes",
+          "strawberries"
+        ],
+        "actions": [
+          "pouring",
+          "bubbling"
+        ],
+        "emotions": [
+          "refreshing",
+          "invigorating"
+        ],
+        "scenes": [
+          "close-up",
+          "minimalistic"
+        ],
+        "concepts": [
+          "refreshment",
+          "beverage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: glass, strawberries, ice cubes. Actions: pouring, bubbling. Emotions: refreshing, invigorating. Scenes: beverage preparation, close-up, minimalistic. Concepts: freshness, vibrancy, refreshment, beverage",
+  "primary_labels": {
+    "objects": [
+      "glass",
+      "strawberries",
+      "ice cubes"
+    ],
+    "actions": [
+      "pouring",
+      "bubbling"
+    ],
+    "emotions": [
+      "refreshing",
+      "invigorating"
+    ],
+    "scenes": [
+      "beverage preparation",
+      "close-up",
+      "minimalistic"
+    ],
+    "concepts": [
+      "freshness",
+      "vibrancy",
+      "refreshment",
+      "beverage"
+    ]
+  },
+  "metadata": {}
+}

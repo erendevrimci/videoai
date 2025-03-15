@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary Girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scary Girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl runs through a dark, eerie forest, her expression filled with fear. Behind her looms a tall, shadowy figure with a ghostly, expressionless face.",
+      "description": "The scene is set in a dense, shadowy forest, creating a sense of mystery and suspense. The focus is on a frightened girl fleeing from a menacing figure, enhancing the tension and drama of the moment.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "forest",
+          "shadowy figure"
+        ],
+        "actions": [
+          "running",
+          "chasing"
+        ],
+        "emotions": [
+          "fear",
+          "suspense"
+        ],
+        "scenes": [
+          "forest",
+          "chase"
+        ],
+        "concepts": [
+          "mystery",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scary Girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl runs through a dark forest, her face expressing fear as she is pursued by a shadowy figure with a ghostly mask. The forest is dense and foreboding, with tall trees casting long shadows in the dim light.",
+      "description": "The scene depicts a tense and eerie moment in a dark forest where a frightened girl is being chased by a mysterious, ghost-like figure. The atmosphere is ominous and suspenseful, heightened by the contrasting light and shadow.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "mask"
+        ],
+        "actions": [
+          "running",
+          "chasing"
+        ],
+        "emotions": [
+          "fear"
+        ],
+        "scenes": [
+          "forest",
+          "night"
+        ],
+        "concepts": [
+          "mystery",
+          "suspense"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: forest, shadowy figure, mask. Actions: running, chasing. Emotions: fear, suspense. Scenes: forest, chase, night. Concepts: mystery, danger, suspense",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "forest",
+      "shadowy figure",
+      "mask"
+    ],
+    "actions": [
+      "running",
+      "chasing"
+    ],
+    "emotions": [
+      "fear",
+      "suspense"
+    ],
+    "scenes": [
+      "forest",
+      "chase",
+      "night"
+    ],
+    "concepts": [
+      "mystery",
+      "danger",
+      "suspense"
+    ]
+  },
+  "metadata": {}
+}

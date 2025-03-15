@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/girl dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/girl dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/girl dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands gracefully in a striking maroon dress, holding the fabric out to the sides. The background is a gradient of purple hues, enhancing the elegance of the scene.",
+      "description": "The scene depicts a woman posing in a studio setting, showcasing a fashionable maroon dress. The lighting and colors create a sophisticated and artistic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "high heels",
+          "jewelry"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/girl dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/girl dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently against a purple backdrop, wearing a strapless red dress. Her hands rest on her hips, and she gazes forward with a poised expression.",
+      "description": "The scene captures a fashion-oriented setting, focusing on a woman modeling a striking red dress. The purple background and lighting create a dramatic and stylish atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "earrings",
+          "necklace"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "portrait"
+        ],
+        "concepts": [
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, high heels, jewelry, earrings, necklace. Actions: posing, standing. Emotions: elegance, confidence. Scenes: studio, fashion, portrait. Concepts: style, fashion, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "high heels",
+      "jewelry",
+      "earrings",
+      "necklace"
+    ],
+    "actions": [
+      "posing",
+      "standing"
+    ],
+    "emotions": [
+      "elegance",
+      "confidence"
+    ],
+    "scenes": [
+      "studio",
+      "fashion",
+      "portrait"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mitologia.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mitologia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mitologia/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone warrior stands atop a rocky hill, overlooking a burning city. The figure raises one arm triumphantly towards the sky, while gripping a sword in the other hand. The city below is engulfed in flames, with smoke billowing into the dramatic, cloud-filled sky.",
+      "description": "The scene depicts a post-battle setting where a warrior surveys a city in ruins. The atmosphere is tense and dramatic, with the city ablaze and the sky filled with smoke and clouds.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "hill",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "sword",
+          "buildings",
+          "fire",
+          "smoke"
+        ],
+        "actions": [
+          "standing",
+          "raising arm"
+        ],
+        "emotions": [
+          "triumph"
+        ],
+        "scenes": [
+          "battle aftermath",
+          "cityscape"
+        ],
+        "concepts": [
+          "victory",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mitologia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mitologia/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone warrior stands on a rocky outcrop, overlooking a city engulfed in flames and smoke. The sky is filled with dramatic clouds, illuminated by the fiery glow of the burning buildings. The warrior raises an arm, possibly in defiance or command, as the city below crumbles.",
+      "description": "The scene depicts a dramatic and chaotic setting where a city is being consumed by fire. The warrior, dressed in armor, stands as a solitary figure against the backdrop of destruction, suggesting themes of battle or conquest.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "sword",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "raising arm"
+        ],
+        "emotions": [
+          "defiance",
+          "determination"
+        ],
+        "scenes": [
+          "battle",
+          "destruction"
+        ],
+        "concepts": [
+          "war",
+          "chaos"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Nature: sky, clouds, hill. Objects: sword, buildings, fire, smoke. Actions: standing, raising arm. Emotions: triumph, defiance, determination. Scenes: battle aftermath, cityscape, battle, destruction. Concepts: victory, destruction, war, chaos",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "hill"
+    ],
+    "objects": [
+      "sword",
+      "buildings",
+      "fire",
+      "smoke"
+    ],
+    "actions": [
+      "standing",
+      "raising arm"
+    ],
+    "emotions": [
+      "triumph",
+      "defiance",
+      "determination"
+    ],
+    "scenes": [
+      "battle aftermath",
+      "cityscape",
+      "battle",
+      "destruction"
+    ],
+    "concepts": [
+      "victory",
+      "destruction",
+      "war",
+      "chaos"
+    ]
+  },
+  "metadata": {}
+}

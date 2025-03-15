@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little people.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little people.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/little people/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers on a large chocolate cake, appearing to build or repair it. Two workers stand on top of the cake, using tools, while others are positioned around the base, surrounded by chocolate crumbs.",
+      "description": "The image presents a playful and imaginative scene where tiny construction workers are engaged in activities on a chocolate cake. The setting is a creative blend of culinary art and miniature modeling, creating a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "chocolate cake",
+          "ladder",
+          "tools",
+          "crumbs"
+        ],
+        "actions": [
+          "building",
+          "repairing"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "miniature scene",
+          "culinary art"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little people.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/little people/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature construction workers on a large chocolate cake. Two workers are on top, using tools as if building or repairing the cake, while others stand at the base, surrounded by chocolate crumbs.",
+      "description": "The image presents a playful and imaginative setting where tiny construction workers are engaged in 'building' a chocolate cake. The scene combines elements of construction and baking, creating a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "chocolate cake",
+          "ladder",
+          "tools",
+          "hard hats"
+        ],
+        "actions": [
+          "building",
+          "repairing"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "construction",
+          "baking"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: chocolate cake, ladder, tools, crumbs, hard hats. Actions: building, repairing. Emotions: playful, humorous. Scenes: miniature scene, culinary art, construction, baking. Concepts: creativity, imagination, miniature, surreal",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "chocolate cake",
+      "ladder",
+      "tools",
+      "crumbs",
+      "hard hats"
+    ],
+    "actions": [
+      "building",
+      "repairing"
+    ],
+    "emotions": [
+      "playful",
+      "humorous"
+    ],
+    "scenes": [
+      "miniature scene",
+      "culinary art",
+      "construction",
+      "baking"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "miniature",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

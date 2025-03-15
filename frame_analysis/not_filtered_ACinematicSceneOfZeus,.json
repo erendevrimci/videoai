@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSceneOfZeus,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSceneOfZeus,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicSceneOfZeus,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A powerful figure stands atop a rocky peak, surrounded by swirling storm clouds and lightning. Clad in ornate golden armor and a flowing white robe, the figure exudes an aura of strength and authority.",
+      "description": "The scene depicts a mythological setting with a god-like figure commanding the elements. The dramatic backdrop of storm clouds and lightning enhances the epic and divine atmosphere.",
+      "labels": {
+        "people": [
+          "mythological figure"
+        ],
+        "nature": [
+          "storm clouds",
+          "lightning",
+          "rocky peak"
+        ],
+        "objects": [
+          "golden armor",
+          "white robe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "strength",
+          "authority"
+        ],
+        "scenes": [
+          "mythological",
+          "storm"
+        ],
+        "concepts": [
+          "power",
+          "divinity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSceneOfZeus,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicSceneOfZeus,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A powerful figure with a muscular build and flowing white hair stands amidst stormy clouds, reaching upward as lightning strikes from his hand. The scene is dramatic, with the sky illuminated by flashes of light and the figure's commanding presence.",
+      "description": "The scene depicts a mythological setting where a god-like figure is controlling lightning in a stormy sky. The atmosphere is intense and majestic, emphasizing the figure's dominance over the natural elements.",
+      "labels": {
+        "people": [
+          "mythological figure"
+        ],
+        "nature": [
+          "clouds",
+          "lightning"
+        ],
+        "objects": [
+          "armor",
+          "cloak"
+        ],
+        "actions": [
+          "reaching",
+          "summoning lightning"
+        ],
+        "emotions": [
+          "powerful",
+          "majestic"
+        ],
+        "scenes": [
+          "storm",
+          "mythological"
+        ],
+        "concepts": [
+          "mythology",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: mythological figure. Nature: lightning, storm clouds, rocky peak, clouds. Objects: golden armor, white robe, armor, cloak. Actions: standing, reaching, summoning lightning. Emotions: strength, authority, powerful, majestic. Scenes: mythological, storm. Concepts: power, divinity, mythology",
+  "primary_labels": {
+    "people": [
+      "mythological figure"
+    ],
+    "nature": [
+      "lightning",
+      "storm clouds",
+      "rocky peak",
+      "clouds"
+    ],
+    "objects": [
+      "golden armor",
+      "white robe",
+      "armor",
+      "cloak"
+    ],
+    "actions": [
+      "standing",
+      "reaching",
+      "summoning lightning"
+    ],
+    "emotions": [
+      "strength",
+      "authority",
+      "powerful",
+      "majestic"
+    ],
+    "scenes": [
+      "mythological",
+      "storm"
+    ],
+    "concepts": [
+      "power",
+      "divinity",
+      "mythology"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girls.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girls/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two women are posing together, smiling warmly at the camera. One is wearing a white cardigan over a red top, while the other is dressed in a black dress with red tights.",
+      "description": "The scene captures a joyful moment between two friends or family members, set against a simple, neutral background. Their expressions convey happiness and camaraderie.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "objects": [
+          "cardigan",
+          "dress",
+          "tights"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "friendship"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "togetherness",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girls/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two people are embracing warmly against a plain backdrop. They are smiling, conveying a sense of closeness and affection.",
+      "description": "The scene captures a moment of affection between two individuals in a simple setting, highlighting their connection.",
+      "labels": {
+        "people": [
+          "two people"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "hugging",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "friendship",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: women, two people. Objects: cardigan, dress, tights, clothing. Actions: smiling, posing, hugging. Emotions: happiness, friendship, affection. Scenes: portrait. Concepts: togetherness, fashion, friendship",
+  "primary_labels": {
+    "people": [
+      "women",
+      "two people"
+    ],
+    "objects": [
+      "cardigan",
+      "dress",
+      "tights",
+      "clothing"
+    ],
+    "actions": [
+      "smiling",
+      "posing",
+      "hugging"
+    ],
+    "emotions": [
+      "happiness",
+      "friendship",
+      "affection"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "togetherness",
+      "fashion",
+      "friendship"
+    ]
+  },
+  "metadata": {}
+}

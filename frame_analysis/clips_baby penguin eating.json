@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby penguin eating.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby penguin eating.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby penguin eating/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy penguin chick is sitting comfortably in a high chair at a restaurant table. The setting includes dining utensils and a cozy, warmly lit atmosphere.",
+      "description": "The scene takes place in a restaurant where a penguin chick is humorously seated in a high chair, surrounded by dining utensils. The ambiance is warm and inviting, with wooden furniture and soft lighting.",
+      "labels": {
+        "animals": [
+          "penguin chick"
+        ],
+        "objects": [
+          "high chair",
+          "fork",
+          "knife",
+          "napkin",
+          "table"
+        ],
+        "scenes": [
+          "restaurant",
+          "dining"
+        ],
+        "emotions": [
+          "humor",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby penguin eating.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby penguin eating/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy baby penguin is being fed by hand with a small spoon. The penguin eagerly opens its beak to receive the food, creating a heartwarming scene.",
+      "description": "The scene captures a close-up moment of a baby penguin being fed in a cozy indoor setting. The penguin is nestled in a container, and a hand is gently offering it food with a spoon.",
+      "labels": {
+        "animals": [
+          "penguin",
+          "baby penguin"
+        ],
+        "objects": [
+          "spoon",
+          "container"
+        ],
+        "actions": [
+          "feeding",
+          "eating"
+        ],
+        "emotions": [
+          "eagerness",
+          "care"
+        ],
+        "scenes": [
+          "indoor",
+          "close-up"
+        ],
+        "concepts": [
+          "nurturing",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: penguin chick, penguin, baby penguin. Objects: high chair, fork, knife, napkin, table. Scenes: restaurant, dining, indoor, close-up. Emotions: humor, curiosity, eagerness, care. Actions: feeding, eating. Concepts: nurturing, interaction",
+  "primary_labels": {
+    "animals": [
+      "penguin chick",
+      "penguin",
+      "baby penguin"
+    ],
+    "objects": [
+      "high chair",
+      "fork",
+      "knife",
+      "napkin",
+      "table"
+    ],
+    "scenes": [
+      "restaurant",
+      "dining",
+      "indoor",
+      "close-up"
+    ],
+    "emotions": [
+      "humor",
+      "curiosity",
+      "eagerness",
+      "care"
+    ],
+    "actions": [
+      "feeding",
+      "eating"
+    ],
+    "concepts": [
+      "nurturing",
+      "interaction"
+    ]
+  },
+  "metadata": {}
+}

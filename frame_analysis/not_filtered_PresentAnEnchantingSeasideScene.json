@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PresentAnEnchantingSeasideScene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PresentAnEnchantingSeasideScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PresentAnEnchantingSeasideScene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long, flowing hair stands on a beach at sunset, wearing reflective sunglasses and a white lace dress. The sun casts a warm glow over the ocean, creating a serene and picturesque scene. A butterfly flutters nearby, adding a touch of whimsy to the tranquil setting.",
+      "description": "The scene captures a peaceful moment on a beach during sunset. The main focus is a woman in a white dress, standing by the water's edge, with the sun setting in the background. The atmosphere is calm and serene, enhanced by the warm colors of the sunset and the gentle waves lapping at the shore.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "butterfly"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [
+          "sunglasses",
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PresentAnEnchantingSeasideScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PresentAnEnchantingSeasideScene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, flowing hair stands on a sunlit beach, wearing a white dress and reflective sunglasses. The sunset casts a warm glow over the scene, with the ocean waves gently lapping at the shore. Her serene expression and the vibrant sky create a peaceful and dreamy atmosphere.",
+      "description": "The scene depicts a tranquil beach setting during sunset, featuring a woman enjoying the serene environment. The ocean and sky are bathed in warm hues, enhancing the calm and reflective mood of the moment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "sunglasses",
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: butterfly. Nature: beach, ocean, sunset, clouds, sky. Objects: sunglasses, dress. Actions: standing. Emotions: serene, calm, peaceful. Scenes: beach, sunset. Concepts: tranquility, beauty, reflection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "butterfly"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sunset",
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "sunglasses",
+      "dress"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "peaceful"
+    ],
+    "scenes": [
+      "beach",
+      "sunset"
+    ],
+    "concepts": [
+      "tranquility",
+      "beauty",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

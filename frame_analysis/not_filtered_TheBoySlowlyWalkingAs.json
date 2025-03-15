@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheBoySlowlyWalkingAs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheBoySlowlyWalkingAs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheBoySlowlyWalkingAs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child wearing a cap and glasses walks through an enchanting forest filled with glowing blue mushrooms and fluttering butterflies. The child appears content and absorbed in the magical surroundings, with beams of sunlight filtering through the tall trees.",
+      "description": "The scene depicts a whimsical forest setting where a child explores a path surrounded by luminescent mushrooms and butterflies. The atmosphere is serene and magical, enhanced by the soft lighting and vibrant colors.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "mushrooms",
+          "grass"
+        ],
+        "objects": [
+          "cap",
+          "glasses",
+          "backpack"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "exploration",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheBoySlowlyWalkingAs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheBoySlowlyWalkingAs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy wearing a baseball cap and glasses walks through an enchanting forest. He is surrounded by glowing blue mushrooms and fluttering butterflies, creating a magical atmosphere. Sunlight filters through the tall trees, casting a warm glow on the scene.",
+      "description": "The scene depicts a whimsical forest setting where a young boy is exploring a path lined with luminous mushrooms and butterflies. The environment is serene and magical, with sunlight streaming through the dense canopy of trees.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "mushrooms"
+        ],
+        "objects": [
+          "baseball cap",
+          "glasses"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "wonder",
+          "curiosity"
+        ],
+        "scenes": [
+          "forest path",
+          "magical setting"
+        ],
+        "concepts": [
+          "exploration",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, boy. Animals: butterflies. Nature: forest, trees, mushrooms, grass. Objects: glasses, cap, backpack, baseball cap. Actions: walking. Emotions: contentment, wonder, curiosity. Scenes: fantasy, nature, forest path, magical setting. Concepts: exploration, wonder, fantasy",
+  "primary_labels": {
+    "people": [
+      "child",
+      "boy"
+    ],
+    "animals": [
+      "butterflies"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "mushrooms",
+      "grass"
+    ],
+    "objects": [
+      "glasses",
+      "cap",
+      "backpack",
+      "baseball cap"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "contentment",
+      "wonder",
+      "curiosity"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "forest path",
+      "magical setting"
+    ],
+    "concepts": [
+      "exploration",
+      "wonder",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

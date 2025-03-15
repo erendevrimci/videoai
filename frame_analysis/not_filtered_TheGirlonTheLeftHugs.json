@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlonTheLeftHugs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlonTheLeftHugs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlonTheLeftHugs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image is split into two parts: on the left, a woman is sitting outdoors in a field, smiling and looking content. On the right, a vintage photo of a child in a knitted sweater holding a basket of flowers against a red background.",
+      "description": "The scene contrasts a serene outdoor setting with a nostalgic indoor portrait. The left side captures a woman enjoying a sunny day in nature, while the right side features a child in a formal pose, evoking a sense of nostalgia.",
+      "labels": {
+        "people": [
+          "woman",
+          "child"
+        ],
+        "nature": [
+          "field",
+          "flowers"
+        ],
+        "objects": [
+          "basket",
+          "flowers"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "seriousness"
+        ],
+        "scenes": [
+          "outdoor",
+          "indoor"
+        ],
+        "concepts": [
+          "nostalgia",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlonTheLeftHugs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlonTheLeftHugs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman and a child share a tender moment in a sunlit meadow. The woman gently embraces the child, who rests their head on her shoulder, surrounded by wildflowers.",
+      "description": "The scene captures a serene and intimate moment between a woman and a child in a natural setting. They are seated in a meadow, with soft sunlight filtering through the trees, creating a peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "child"
+        ],
+        "nature": [
+          "meadow",
+          "wildflowers",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "embracing",
+          "resting"
+        ],
+        "emotions": [
+          "tenderness",
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "motherhood",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, child. Nature: field, flowers, meadow, wildflowers, trees. Objects: basket, flowers, dress. Actions: sitting, holding, embracing, resting. Emotions: happiness, seriousness, tenderness, calm. Scenes: outdoor, indoor, nature. Concepts: nostalgia, contrast, motherhood, affection",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "child"
+    ],
+    "nature": [
+      "field",
+      "flowers",
+      "meadow",
+      "wildflowers",
+      "trees"
+    ],
+    "objects": [
+      "basket",
+      "flowers",
+      "dress"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "embracing",
+      "resting"
+    ],
+    "emotions": [
+      "happiness",
+      "seriousness",
+      "tenderness",
+      "calm"
+    ],
+    "scenes": [
+      "outdoor",
+      "indoor",
+      "nature"
+    ],
+    "concepts": [
+      "nostalgia",
+      "contrast",
+      "motherhood",
+      "affection"
+    ]
+  },
+  "metadata": {}
+}

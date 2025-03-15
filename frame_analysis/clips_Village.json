@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Village/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a floral dress and white gloves poses thoughtfully in a rustic setting. She sits by a wooden structure, with a thatched roof visible in the background, exuding a vintage charm.",
+      "description": "The scene captures a vintage-inspired portrait of a woman in an outdoor rustic setting. The composition highlights her elegant attire and contemplative expression against a backdrop of natural elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "thatched roof",
+          "outdoor setting"
+        ],
+        "objects": [
+          "floral dress",
+          "white gloves",
+          "wooden structure"
+        ],
+        "actions": [
+          "posing",
+          "sitting"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "rustic",
+          "vintage"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Village/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a floral-patterned dress and white gloves poses thoughtfully in a rustic setting. She sits by a wooden structure, with a straw hut visible in the background, exuding a vintage and serene vibe.",
+      "description": "The scene captures a vintage-inspired fashion portrait set in a rural environment. The woman is elegantly dressed, with a focus on her contemplative expression and the intricate details of her attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "straw",
+          "grass"
+        ],
+        "objects": [
+          "dress",
+          "gloves",
+          "wooden structure"
+        ],
+        "actions": [
+          "posing",
+          "sitting"
+        ],
+        "emotions": [
+          "thoughtful",
+          "serene"
+        ],
+        "scenes": [
+          "rural",
+          "vintage"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: thatched roof, outdoor setting, straw, grass. Objects: wooden structure, floral dress, white gloves, dress, gloves. Actions: posing, sitting. Emotions: thoughtful, serene. Scenes: vintage, rustic, rural. Concepts: fashion, elegance, portrait",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "thatched roof",
+      "outdoor setting",
+      "straw",
+      "grass"
+    ],
+    "objects": [
+      "wooden structure",
+      "floral dress",
+      "white gloves",
+      "dress",
+      "gloves"
+    ],
+    "actions": [
+      "posing",
+      "sitting"
+    ],
+    "emotions": [
+      "thoughtful",
+      "serene"
+    ],
+    "scenes": [
+      "vintage",
+      "rustic",
+      "rural"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

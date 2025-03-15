@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large prehistoric marine reptile swims gracefully through a sunlit underwater landscape. The creature is surrounded by coral formations and smaller fish, creating a vibrant and dynamic scene. Sunbeams penetrate the water, illuminating the serene and ancient environment.",
+      "description": "The scene depicts an underwater prehistoric setting with a large marine reptile, possibly a plesiosaur, swimming among coral reefs. The sunlight filters through the water, highlighting the diverse marine life and the intricate details of the coral structures.",
+      "labels": {
+        "animals": [
+          "marine reptile",
+          "fish"
+        ],
+        "nature": [
+          "coral reef",
+          "underwater",
+          "sunlight"
+        ],
+        "objects": [
+          "coral",
+          "rocks"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "prehistoric",
+          "marine"
+        ],
+        "concepts": [
+          "ancient ocean",
+          "biodiversity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A prehistoric marine scene depicts a large aquatic dinosaur swimming gracefully through a sunlit underwater landscape. The creature glides above a vibrant seabed filled with corals and marine life, as sunlight filters through the water, creating a serene and ancient atmosphere.",
+      "description": "The scene is set in a prehistoric ocean, showcasing a large aquatic dinosaur swimming amidst a diverse underwater ecosystem. Sunlight streams through the water, illuminating the vibrant corals and marine life below.",
+      "labels": {
+        "animals": [
+          "aquatic dinosaur",
+          "fish"
+        ],
+        "nature": [
+          "ocean",
+          "coral reef"
+        ],
+        "objects": [
+          "corals",
+          "seabed"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "underwater",
+          "prehistoric"
+        ],
+        "concepts": [
+          "ancient",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hi/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A prehistoric marine scene features a large aquatic dinosaur swimming gracefully through sunlit waters. The creature is surrounded by a vibrant underwater landscape filled with corals and other marine life. Sunbeams penetrate the surface, creating a serene and otherworldly atmosphere.",
+      "description": "The scene depicts a prehistoric underwater environment, showcasing a large dinosaur swimming in a vibrant marine ecosystem. The setting is illuminated by sunlight streaming through the water, highlighting the diverse aquatic flora and fauna.",
+      "labels": {
+        "animals": [
+          "dinosaur",
+          "marine life"
+        ],
+        "nature": [
+          "underwater",
+          "coral",
+          "sunlight"
+        ],
+        "objects": [
+          "corals"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "prehistoric",
+          "marine"
+        ],
+        "concepts": [
+          "prehistoric life",
+          "aquatic ecosystem"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fish, marine reptile, aquatic dinosaur, dinosaur, marine life. Nature: coral reef, underwater, sunlight, ocean, coral. Objects: corals, coral, rocks, seabed. Actions: swimming. Emotions: serene. Scenes: prehistoric, marine, underwater. Concepts: ancient ocean, biodiversity, ancient, marine life, prehistoric life",
+  "primary_labels": {
+    "animals": [
+      "fish",
+      "marine reptile",
+      "aquatic dinosaur",
+      "dinosaur",
+      "marine life"
+    ],
+    "nature": [
+      "coral reef",
+      "underwater",
+      "sunlight",
+      "ocean",
+      "coral"
+    ],
+    "objects": [
+      "corals",
+      "coral",
+      "rocks",
+      "seabed"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "prehistoric",
+      "marine",
+      "underwater"
+    ],
+    "concepts": [
+      "ancient ocean",
+      "biodiversity",
+      "ancient",
+      "marine life",
+      "prehistoric life"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cobra.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cobra.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cobra/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure walks confidently towards a massive snake in a misty, forested setting. The snake's enormous head looms above, its eyes fixed on the approaching person. Sunlight filters through the trees, casting a dramatic light on the scene.",
+      "description": "In a mystical forest setting, a person approaches a gigantic snake with a sense of purpose. The atmosphere is tense yet awe-inspiring, with the interplay of light and shadow enhancing the dramatic encounter.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "tension",
+          "awe"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "confrontation",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cobra.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cobra/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large snake looms over a lone figure walking along a forest path. The person, holding a stick, appears to be approaching the snake with a sense of purpose. Sunlight filters through the trees, casting dramatic shadows on the ground.",
+      "description": "The scene is set in a dense forest where a giant snake confronts a solitary figure. The atmosphere is tense and mysterious, with the interplay of light and shadow enhancing the dramatic encounter.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "stick",
+          "path"
+        ],
+        "actions": [
+          "walking",
+          "approaching"
+        ],
+        "emotions": [
+          "tension",
+          "mystery"
+        ],
+        "scenes": [
+          "forest path",
+          "confrontation"
+        ],
+        "concepts": [
+          "courage",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: snake. Nature: forest, mist, trees. Objects: sword, stick, path. Actions: walking, approaching. Emotions: tension, awe, mystery. Scenes: fantasy, forest, forest path, confrontation. Concepts: courage, confrontation, adventure",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "snake"
+    ],
+    "nature": [
+      "forest",
+      "mist",
+      "trees"
+    ],
+    "objects": [
+      "sword",
+      "stick",
+      "path"
+    ],
+    "actions": [
+      "walking",
+      "approaching"
+    ],
+    "emotions": [
+      "tension",
+      "awe",
+      "mystery"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest",
+      "forest path",
+      "confrontation"
+    ],
+    "concepts": [
+      "courage",
+      "confrontation",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

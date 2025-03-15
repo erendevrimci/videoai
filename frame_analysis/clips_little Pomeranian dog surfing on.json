@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little Pomeranian dog surfing on.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little Pomeranian dog surfing on.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/little Pomeranian dog surfing on/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small dog is skillfully riding a surfboard on a large, curling ocean wave. The dog's fur is slightly wet, and it appears joyful and excited as it balances on the board.",
+      "description": "The scene captures a dynamic moment where a dog is surfing on a powerful wave. The setting is a bright, sunny day at the ocean, with the water forming a dramatic, curling wave around the dog.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "ocean",
+          "wave"
+        ],
+        "objects": [
+          "surfboard"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "ocean",
+          "surfing"
+        ],
+        "concepts": [
+          "adventure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/little Pomeranian dog surfing on.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/little Pomeranian dog surfing on/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog is surfing on a wave, balancing confidently on a surfboard. The vibrant blue wave curls dramatically behind the dog, creating a dynamic and exhilarating scene.",
+      "description": "The scene captures a small dog surfing on a large ocean wave. The setting is likely a beach or coastal area, showcasing the thrill of surfing in a playful and adventurous manner.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "wave",
+          "ocean"
+        ],
+        "objects": [
+          "surfboard"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "emotions": [
+          "excitement",
+          "joy"
+        ],
+        "scenes": [
+          "beach",
+          "surfing"
+        ],
+        "concepts": [
+          "adventure",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Nature: ocean, wave. Objects: surfboard. Actions: surfing. Emotions: joy, excitement. Scenes: surfing, ocean, beach. Concepts: adventure, fun, playfulness",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "ocean",
+      "wave"
+    ],
+    "objects": [
+      "surfboard"
+    ],
+    "actions": [
+      "surfing"
+    ],
+    "emotions": [
+      "joy",
+      "excitement"
+    ],
+    "scenes": [
+      "surfing",
+      "ocean",
+      "beach"
+    ],
+    "concepts": [
+      "adventure",
+      "fun",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

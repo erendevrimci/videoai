@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateASceneOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateASceneOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateASceneOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking scene shows a vibrant yellow bird standing out amidst a dense crowd of dark, black birds. The yellow bird is centrally positioned, drawing immediate attention due to its contrasting color. The surrounding black birds create a uniform backdrop, enhancing the yellow bird's uniqueness.",
+      "description": "The image captures a vivid contrast between a solitary yellow bird and a multitude of black birds. The setting is likely outdoors, with the birds closely packed together, creating a sense of unity and uniformity disrupted by the singular yellow bird.",
+      "labels": {
+        "animals": [
+          "yellow bird",
+          "black birds"
+        ],
+        "objects": [
+          "birds"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contrast",
+          "uniqueness"
+        ],
+        "scenes": [
+          "nature",
+          "crowd"
+        ],
+        "concepts": [
+          "individuality",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateASceneOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateASceneOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking scene shows a single bright yellow bird standing out amidst a large group of dark crows. The yellow bird is centrally positioned, drawing immediate attention due to its vivid color contrast against the surrounding black birds. The crows are densely packed, creating a sense of uniformity and contrast with the lone yellow bird.",
+      "description": "The image captures a unique moment where a solitary yellow bird is surrounded by a multitude of crows. The setting appears to be outdoors, with the birds closely gathered, emphasizing the stark contrast between the vibrant yellow and the dark feathers of the crows.",
+      "labels": {
+        "animals": [
+          "yellow bird",
+          "crows"
+        ],
+        "nature": [
+          "birds"
+        ],
+        "objects": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contrast"
+        ],
+        "scenes": [
+          "outdoor gathering"
+        ],
+        "concepts": [
+          "individuality",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: yellow bird, black birds, crows. Objects: birds. Actions: standing. Emotions: contrast, uniqueness. Scenes: nature, crowd, outdoor gathering. Concepts: individuality, contrast. Nature: birds",
+  "primary_labels": {
+    "animals": [
+      "yellow bird",
+      "black birds",
+      "crows"
+    ],
+    "objects": [
+      "birds"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "contrast",
+      "uniqueness"
+    ],
+    "scenes": [
+      "nature",
+      "crowd",
+      "outdoor gathering"
+    ],
+    "concepts": [
+      "individuality",
+      "contrast"
+    ],
+    "nature": [
+      "birds"
+    ]
+  },
+  "metadata": {}
+}

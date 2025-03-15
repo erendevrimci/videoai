@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SweetKittenAndRabbitsPlaying.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SweetKittenAndRabbitsPlaying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SweetKittenAndRabbitsPlaying/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a vibrant and playful setting, a kitten stands at the center holding a small orange ball, flanked by two rabbits. The background features colorful lights and screens, suggesting a lively indoor environment.",
+      "description": "The scene is set in a whimsical indoor space, possibly a themed entertainment venue. A kitten and two rabbits are the main focus, surrounded by bright lights and digital displays, creating a playful and cheerful atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "rabbits"
+        ],
+        "objects": [
+          "ball",
+          "screens",
+          "lights"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "cheerful"
+        ],
+        "scenes": [
+          "indoor",
+          "entertainment venue"
+        ],
+        "concepts": [
+          "playfulness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SweetKittenAndRabbitsPlaying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SweetKittenAndRabbitsPlaying/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a lively arcade setting, a cute kitten holds a small orange ball while flanked by two playful rabbits. The background is filled with colorful neon signs and screens, creating a vibrant atmosphere. The animals appear curious and engaged, adding a whimsical touch to the scene.",
+      "description": "The scene takes place in a colorful arcade environment, with a focus on a kitten and two rabbits on a grassy area. The arcade is bustling with neon lights and screens, suggesting a playful and energetic setting.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "rabbit"
+        ],
+        "objects": [
+          "ball",
+          "neon signs",
+          "screens"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "arcade",
+          "indoor"
+        ],
+        "concepts": [
+          "play",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, rabbits, rabbit. Objects: ball, screens, lights, neon signs. Actions: holding, standing. Emotions: playful, cheerful, curiosity, playfulness. Scenes: indoor, entertainment venue, arcade. Concepts: whimsy, playfulness, play",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "rabbits",
+      "rabbit"
+    ],
+    "objects": [
+      "ball",
+      "screens",
+      "lights",
+      "neon signs"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "indoor",
+      "entertainment venue",
+      "arcade"
+    ],
+    "concepts": [
+      "whimsy",
+      "playfulness",
+      "play"
+    ]
+  },
+  "metadata": {}
+}

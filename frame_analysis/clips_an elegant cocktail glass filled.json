@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/an elegant cocktail glass filled.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/an elegant cocktail glass filled.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/an elegant cocktail glass filled/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cocktail glass filled with a vibrant blue liquid emits wisps of smoke, creating a mystical and enchanting atmosphere. The drink sparkles with tiny bubbles, and the smoke swirls gracefully above the glass, set against a dark, blurred background.",
+      "description": "The scene captures a close-up of a cocktail glass containing a luminous blue drink, with smoke rising elegantly from the surface. The setting appears to be a dimly lit bar or lounge, with soft, warm lights in the background providing a contrast to the cool blue tones of the drink.",
+      "labels": {
+        "objects": [
+          "cocktail glass",
+          "blue liquid",
+          "smoke"
+        ],
+        "actions": [
+          "emitting smoke",
+          "bubbling"
+        ],
+        "emotions": [
+          "mystical",
+          "enchanting"
+        ],
+        "scenes": [
+          "bar",
+          "lounge"
+        ],
+        "concepts": [
+          "mixology",
+          "atmosphere",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/an elegant cocktail glass filled.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/an elegant cocktail glass filled/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant blue cocktail sits elegantly in a glass, emitting wisps of smoke that curl upwards. The scene is dimly lit, with soft bokeh lights in the background adding a touch of warmth to the cool, mysterious atmosphere.",
+      "description": "The image depicts a close-up of a cocktail glass containing a glowing blue liquid, surrounded by swirling smoke. The setting appears to be a dimly lit bar or lounge, creating an intriguing and sophisticated ambiance.",
+      "labels": {
+        "objects": [
+          "cocktail glass",
+          "blue liquid",
+          "smoke"
+        ],
+        "scenes": [
+          "bar",
+          "lounge"
+        ],
+        "emotions": [
+          "mysterious",
+          "sophisticated"
+        ],
+        "concepts": [
+          "nightlife",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: cocktail glass, blue liquid, smoke. Actions: emitting smoke, bubbling. Emotions: mystical, enchanting, mysterious, sophisticated. Scenes: bar, lounge. Concepts: mixology, atmosphere, contrast, nightlife, elegance",
+  "primary_labels": {
+    "objects": [
+      "cocktail glass",
+      "blue liquid",
+      "smoke"
+    ],
+    "actions": [
+      "emitting smoke",
+      "bubbling"
+    ],
+    "emotions": [
+      "mystical",
+      "enchanting",
+      "mysterious",
+      "sophisticated"
+    ],
+    "scenes": [
+      "bar",
+      "lounge"
+    ],
+    "concepts": [
+      "mixology",
+      "atmosphere",
+      "contrast",
+      "nightlife",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookingAtTheCameraCuriously.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookingAtTheCameraCuriously.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LookingAtTheCameraCuriously/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish cat wearing sunglasses and a fur coat poses confidently in front of the iconic Colosseum. The cat's expression is calm and composed, adding a humorous twist to the historic backdrop.",
+      "description": "The scene is set in front of the Colosseum, a famous ancient Roman amphitheater. A cat dressed in sunglasses and a fur coat takes center stage, creating a playful contrast with the historic setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "fur coat"
+        ],
+        "nature": [],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "historic landmark"
+        ],
+        "concepts": [
+          "fashion",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookingAtTheCameraCuriously.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LookingAtTheCameraCuriously/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish cat wearing sunglasses poses confidently in front of the iconic Colosseum. The feline appears to be taking a selfie, adding a humorous and modern twist to the ancient setting.",
+      "description": "The scene captures a playful and whimsical moment where a cat, dressed in sunglasses, is seemingly taking a selfie in front of the Colosseum in Rome. The juxtaposition of the cat's modern accessories against the historic backdrop creates a humorous and lighthearted atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "Colosseum"
+        ],
+        "actions": [
+          "posing",
+          "selfie"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "humor",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, fur coat, Colosseum. Actions: posing, selfie. Emotions: humorous, playful, confident. Scenes: historic landmark, urban, historic. Concepts: fashion, travel, humor, modernity",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "fur coat",
+      "Colosseum"
+    ],
+    "nature": [],
+    "actions": [
+      "posing",
+      "selfie"
+    ],
+    "emotions": [
+      "humorous",
+      "playful",
+      "confident"
+    ],
+    "scenes": [
+      "historic landmark",
+      "urban",
+      "historic"
+    ],
+    "concepts": [
+      "fashion",
+      "travel",
+      "humor",
+      "modernity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,161 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat snowboarding.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat snowboarding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat snowboarding/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white cat sits confidently on a snowboard, surrounded by a pristine snowy landscape. The sun casts a warm glow over the snow, highlighting the cat's fur and the tracks in the snow leading up a gentle slope.",
+      "description": "The scene is set on a snowy mountain slope under a clear blue sky. The cat is positioned on a snowboard, seemingly ready for an adventure down the snowy path. The atmosphere is serene and playful, with the sun illuminating the snow and casting soft shadows.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "snow",
+          "mountain",
+          "trees",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "snowboard"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful",
+          "calm"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor"
+        ],
+        "concepts": [
+          "adventure",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat snowboarding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat snowboarding/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white cat is riding on a snowboard down a snowy slope, surrounded by snow-covered trees. The sky is clear with a few clouds, and the sun casts a warm glow over the scene.",
+      "description": "The scene captures a playful and whimsical moment of a cat snowboarding down a pristine, snow-covered mountain. The setting is a winter landscape with clear skies and scattered clouds, creating a serene and adventurous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "mountain",
+          "clouds"
+        ],
+        "objects": [
+          "snowboard"
+        ],
+        "actions": [
+          "snowboarding"
+        ],
+        "emotions": [
+          "playful",
+          "adventurous"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat snowboarding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat snowboarding/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dog is joyfully snowboarding down a snowy slope, surrounded by a picturesque winter landscape. The snow is fresh and powdery, and the sky is clear with a few fluffy clouds. The scene captures the thrill and excitement of the dog's adventure in the snow.",
+      "description": "The scene is set on a snowy mountain slope, where a dog is snowboarding down the hill. The area is surrounded by snow-covered trees and a clear blue sky, creating a serene yet exhilarating atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "clouds",
+          "mountain"
+        ],
+        "objects": [
+          "snowboard"
+        ],
+        "actions": [
+          "snowboarding"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor adventure"
+        ],
+        "concepts": [
+          "thrill",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, dog. Nature: snow, mountain, trees, clouds, sky. Objects: snowboard. Actions: snowboarding, sitting. Emotions: playful, calm, adventurous, joy, excitement. Scenes: winter landscape, outdoor, outdoor adventure. Concepts: adventure, serenity, whimsy, thrill, freedom",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "dog"
+    ],
+    "nature": [
+      "snow",
+      "mountain",
+      "trees",
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "snowboard"
+    ],
+    "actions": [
+      "snowboarding",
+      "sitting"
+    ],
+    "emotions": [
+      "playful",
+      "calm",
+      "adventurous",
+      "joy",
+      "excitement"
+    ],
+    "scenes": [
+      "winter landscape",
+      "outdoor",
+      "outdoor adventure"
+    ],
+    "concepts": [
+      "adventure",
+      "serenity",
+      "whimsy",
+      "thrill",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

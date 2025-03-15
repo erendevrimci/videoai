@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlIsWalkingFast.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlIsWalkingFast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlIsWalkingFast/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant, off-shoulder wedding dress stands in front of a picturesque castle. The serene water reflects the castle's towers, adding to the romantic atmosphere.",
+      "description": "The scene captures a woman in a bridal gown posing gracefully by a tranquil lake with a castle in the background. The setting suggests a romantic and idyllic moment, possibly for a wedding or a photo shoot.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "lake",
+          "trees"
+        ],
+        "objects": [
+          "wedding dress",
+          "castle"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene",
+          "romantic"
+        ],
+        "scenes": [
+          "wedding",
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlIsWalkingFast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlIsWalkingFast/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing white dress stands by a serene lake, with a grand chateau reflected in the water. The scene captures a moment of elegance and tranquility, highlighted by the soft sunlight.",
+      "description": "The image depicts a peaceful and elegant setting by a lake, with a woman in a white dress and a majestic chateau in the background. The reflection of the chateau in the water adds to the serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "lake",
+          "reflection"
+        ],
+        "objects": [
+          "dress",
+          "chateau"
+        ],
+        "emotions": [
+          "elegance",
+          "tranquility"
+        ],
+        "scenes": [
+          "outdoor",
+          "wedding"
+        ],
+        "concepts": [
+          "reflection",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: lake, trees, reflection. Objects: wedding dress, castle, dress, chateau. Actions: posing. Emotions: serene, romantic, elegance, tranquility. Scenes: wedding, outdoor. Concepts: elegance, romance, reflection, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "lake",
+      "trees",
+      "reflection"
+    ],
+    "objects": [
+      "wedding dress",
+      "castle",
+      "dress",
+      "chateau"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "serene",
+      "romantic",
+      "elegance",
+      "tranquility"
+    ],
+    "scenes": [
+      "wedding",
+      "outdoor"
+    ],
+    "concepts": [
+      "elegance",
+      "romance",
+      "reflection",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

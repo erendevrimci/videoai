@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark women.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark women.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark women/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman emerges from a dark, misty swamp, her expression somber and intense. She is dressed in a black lace outfit, with wet hair clinging to her face. The eerie atmosphere is enhanced by the dim, moonlit night and twisted branches surrounding her.",
+      "description": "The scene is set in a mysterious, dark swamp at night. The environment is misty and foreboding, with a woman partially submerged in water, surrounded by twisted, barren trees.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "swamp",
+          "trees",
+          "night"
+        ],
+        "objects": [
+          "water",
+          "black lace outfit"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "somber",
+          "intense"
+        ],
+        "scenes": [
+          "mysterious",
+          "eerie"
+        ],
+        "concepts": [
+          "darkness",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark women.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark women/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals are partially submerged in water, surrounded by a dark, eerie landscape. Their expressions are intense and focused, with wet hair clinging to their faces.",
+      "description": "The scene is set in a dark, swamp-like environment, creating a mysterious and foreboding atmosphere. The two individuals are close together, partially hidden by the water, suggesting a sense of secrecy or danger.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "nature": [
+          "water",
+          "swamp",
+          "dark landscape"
+        ],
+        "actions": [
+          "submerged",
+          "intense expressions"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "mysterious",
+          "eerie"
+        ],
+        "concepts": [
+          "secrecy",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dark women.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dark women/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two individuals with wet hair emerge from a dark, shadowy environment, their expressions intense and mysterious. The dim lighting casts a moody atmosphere, enhancing the enigmatic feel of the scene.",
+      "description": "The scene depicts two people in a dimly lit, possibly outdoor setting, with water visible around them. Their wet hair and intense expressions suggest a dramatic or suspenseful context.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "intense",
+          "mysterious"
+        ],
+        "scenes": [
+          "dark",
+          "shadowy"
+        ],
+        "concepts": [
+          "mystery",
+          "suspense"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: two individuals, woman. Nature: swamp, water, trees, night, dark landscape. Objects: water, black lace outfit. Actions: emerging, submerged, intense expressions. Emotions: intense, somber, intensity, focus, mysterious. Scenes: mysterious, eerie, dark, shadowy. Concepts: mystery, darkness, secrecy, danger, suspense",
+  "primary_labels": {
+    "people": [
+      "two individuals",
+      "woman"
+    ],
+    "nature": [
+      "swamp",
+      "water",
+      "trees",
+      "night",
+      "dark landscape"
+    ],
+    "objects": [
+      "water",
+      "black lace outfit"
+    ],
+    "actions": [
+      "emerging",
+      "submerged",
+      "intense expressions"
+    ],
+    "emotions": [
+      "intense",
+      "somber",
+      "intensity",
+      "focus",
+      "mysterious"
+    ],
+    "scenes": [
+      "mysterious",
+      "eerie",
+      "dark",
+      "shadowy"
+    ],
+    "concepts": [
+      "mystery",
+      "darkness",
+      "secrecy",
+      "danger",
+      "suspense"
+    ]
+  },
+  "metadata": {}
+}

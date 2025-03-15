@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dog on surfboard.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dog on surfboard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dog on surfboard/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small dog wearing red sunglasses is perched confidently on a yellow surfboard in the middle of a clear blue ocean. Beside the dog, a yellow rubber duck adds a playful touch to the scene.",
+      "description": "The scene is set in a bright, sunny ocean environment where a dog is enjoying a day on the water. The clear blue sky and turquoise sea create a vibrant and cheerful atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "rubber duck"
+        ],
+        "nature": [
+          "ocean",
+          "sky"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "playful",
+          "cheerful"
+        ],
+        "scenes": [
+          "beach",
+          "ocean"
+        ],
+        "concepts": [
+          "leisure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dog on surfboard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dog on surfboard/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog wearing red sunglasses sits confidently on a yellow surfboard in the middle of the ocean. Next to the dog is a bright yellow rubber duck, adding a playful touch to the scene.",
+      "description": "The scene is set in a bright, sunny ocean environment with clear blue skies and sparkling turquoise waters. A dog is perched on a surfboard, exuding a sense of adventure and fun.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "rubber duck"
+        ],
+        "nature": [
+          "ocean",
+          "sky"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "beach",
+          "ocean"
+        ],
+        "concepts": [
+          "adventure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dog on surfboard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dog on surfboard/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small dog wearing red sunglasses sits confidently on a yellow surfboard, floating on a clear blue ocean. Next to the dog is a yellow rubber duck, adding a playful touch to the scene. The bright sunlight and clear sky enhance the vibrant and cheerful atmosphere.",
+      "description": "The scene is set on a sunny day at the ocean, where a dog is enjoying a leisurely ride on a surfboard. The calm water and clear sky suggest a peaceful and joyful moment.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "surfboard",
+          "sunglasses",
+          "rubber duck"
+        ],
+        "nature": [
+          "ocean",
+          "sky"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "beach",
+          "ocean"
+        ],
+        "concepts": [
+          "leisure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: surfboard, sunglasses, rubber duck. Nature: ocean, sky. Actions: floating, sitting. Emotions: playful, cheerful, joyful. Scenes: beach, ocean. Concepts: fun, leisure, adventure",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "surfboard",
+      "sunglasses",
+      "rubber duck"
+    ],
+    "nature": [
+      "ocean",
+      "sky"
+    ],
+    "actions": [
+      "floating",
+      "sitting"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful",
+      "joyful"
+    ],
+    "scenes": [
+      "beach",
+      "ocean"
+    ],
+    "concepts": [
+      "fun",
+      "leisure",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chicken rider.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chicken rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chicken rider/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with braided hair and a red headband is riding a large rooster through a forest path. She is wearing a rustic outfit with boots, and the scene has a fairytale-like quality.",
+      "description": "The scene is set in a forest with tall trees and a dirt path. The woman appears calm and composed as she rides the oversized rooster, creating a whimsical and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "rooster"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "boots",
+          "headband"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "fantasy",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chicken rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chicken rider/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in a rustic outfit rides a giant rooster through a forest path. Her expression is calm and focused as she holds onto the reins. The scene is surreal, blending fantasy with a natural woodland setting.",
+      "description": "The image depicts a fantastical scene where a young woman is riding an oversized rooster in a forest. The setting is serene and otherworldly, with the forest providing a lush, green backdrop.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "animals": [
+          "giant rooster"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "reins",
+          "rustic outfit"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "fantasy",
+          "woodland"
+        ],
+        "concepts": [
+          "surreal",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, young woman. Animals: rooster, giant rooster. Nature: forest, trees. Objects: boots, headband, reins, rustic outfit. Actions: riding. Emotions: calm, focused. Scenes: forest path, fantasy, woodland. Concepts: surreal, fantasy, imagination",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "young woman"
+    ],
+    "animals": [
+      "rooster",
+      "giant rooster"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "boots",
+      "headband",
+      "reins",
+      "rustic outfit"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "calm",
+      "focused"
+    ],
+    "scenes": [
+      "forest path",
+      "fantasy",
+      "woodland"
+    ],
+    "concepts": [
+      "surreal",
+      "fantasy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

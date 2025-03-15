@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/squirrel and a lion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/squirrel and a lion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/squirrel and a lion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene lion rests with its eyes closed as a small squirrel perches gently on its head. The squirrel appears calm and comfortable, nestled in the lion's mane.",
+      "description": "The scene depicts an unusual and peaceful interaction between a lion and a squirrel in a natural setting. The lion's relaxed demeanor contrasts with the playful curiosity of the squirrel.",
+      "labels": {
+        "animals": [
+          "lion",
+          "squirrel"
+        ],
+        "nature": [
+          "mane"
+        ],
+        "actions": [
+          "resting",
+          "perching"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "wildlife interaction"
+        ],
+        "concepts": [
+          "harmony",
+          "unlikely friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/squirrel and a lion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/squirrel and a lion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene lion rests with its eyes closed as a small squirrel perches gently on its head. The squirrel appears calm and comfortable, nestled in the lion's mane.",
+      "description": "The scene depicts an unusual and peaceful interaction between a lion and a squirrel in a natural setting. The lion's relaxed demeanor contrasts with the squirrel's alert posture, creating a harmonious and unexpected moment of tranquility.",
+      "labels": {
+        "animals": [
+          "lion",
+          "squirrel"
+        ],
+        "nature": [
+          "mane",
+          "fur"
+        ],
+        "actions": [
+          "resting",
+          "perching"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "wildlife interaction",
+          "natural setting"
+        ],
+        "concepts": [
+          "harmony",
+          "unexpected friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion, squirrel. Nature: mane, fur. Actions: resting, perching. Emotions: calm, serene, serenity. Scenes: wildlife interaction, natural setting. Concepts: harmony, unlikely friendship, unexpected friendship",
+  "primary_labels": {
+    "animals": [
+      "lion",
+      "squirrel"
+    ],
+    "nature": [
+      "mane",
+      "fur"
+    ],
+    "actions": [
+      "resting",
+      "perching"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "wildlife interaction",
+      "natural setting"
+    ],
+    "concepts": [
+      "harmony",
+      "unlikely friendship",
+      "unexpected friendship"
+    ]
+  },
+  "metadata": {}
+}

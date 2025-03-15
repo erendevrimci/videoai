@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/infinity.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/infinity.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/infinity/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal cityscape features towering skyscrapers amidst a misty atmosphere, with floating doors and spiral staircases leading to a cosmic vortex. A rainbow-colored path ascends into the swirling galaxy, creating a dreamlike and otherworldly scene.",
+      "description": "The scene depicts a futuristic and surreal city with a blend of architectural elements and cosmic phenomena. Skyscrapers rise from a foggy ground, while doors and staircases float towards a vibrant, swirling vortex in the sky.",
+      "labels": {
+        "objects": [
+          "skyscrapers",
+          "doors",
+          "staircases"
+        ],
+        "nature": [
+          "vortex",
+          "galaxy",
+          "mist"
+        ],
+        "actions": [
+          "floating",
+          "ascending"
+        ],
+        "emotions": [
+          "dreamlike",
+          "otherworldly"
+        ],
+        "scenes": [
+          "cityscape",
+          "surreal"
+        ],
+        "concepts": [
+          "futuristic",
+          "cosmic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/infinity.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/infinity/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal cityscape is depicted with towering skyscrapers rising through a misty fog. A vibrant, swirling vortex in the sky is connected to the city by a rainbow-colored staircase, leading to an open door at the vortex's center.",
+      "description": "The scene portrays a fantastical city with futuristic skyscrapers and a cosmic vortex. The atmosphere is dreamlike and otherworldly, with elements of science fiction and fantasy.",
+      "labels": {
+        "nature": [
+          "sky",
+          "vortex"
+        ],
+        "objects": [
+          "skyscrapers",
+          "staircase",
+          "door"
+        ],
+        "actions": [
+          "swirling"
+        ],
+        "emotions": [
+          "mystical",
+          "awe-inspiring"
+        ],
+        "scenes": [
+          "cityscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skyscrapers, doors, staircases, staircase, door. Nature: vortex, galaxy, mist, sky. Actions: floating, ascending, swirling. Emotions: dreamlike, otherworldly, mystical, awe-inspiring. Scenes: cityscape, surreal, fantasy. Concepts: futuristic, cosmic, surrealism, futurism",
+  "primary_labels": {
+    "objects": [
+      "skyscrapers",
+      "doors",
+      "staircases",
+      "staircase",
+      "door"
+    ],
+    "nature": [
+      "vortex",
+      "galaxy",
+      "mist",
+      "sky"
+    ],
+    "actions": [
+      "floating",
+      "ascending",
+      "swirling"
+    ],
+    "emotions": [
+      "dreamlike",
+      "otherworldly",
+      "mystical",
+      "awe-inspiring"
+    ],
+    "scenes": [
+      "cityscape",
+      "surreal",
+      "fantasy"
+    ],
+    "concepts": [
+      "futuristic",
+      "cosmic",
+      "surrealism",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jedi knight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jedi knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jedi knight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a dark hooded cloak holds a glowing blue lightsaber, staring intensely forward. The scene is dramatic, with the lightsaber casting a bright glow against the dim background.",
+      "description": "The image depicts a mysterious and intense scene reminiscent of a science fiction or fantasy setting. The focus is on a cloaked figure wielding a lightsaber, suggesting themes of power and confrontation.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "lightsaber",
+          "cloak"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "dramatic",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystery",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jedi knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jedi knight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a dark hooded cloak holds a glowing blue lightsaber, staring intently forward. The scene is dramatic, with the lightsaber casting a bright glow against the dark attire.",
+      "description": "The image depicts a character in a sci-fi setting, reminiscent of a Jedi from the Star Wars universe. The focus is on the intense expression and the vibrant blue lightsaber, suggesting readiness for action.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "lightsaber",
+          "cloak"
+        ],
+        "actions": [
+          "holding",
+          "staring"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "sci-fi",
+          "dramatic"
+        ],
+        "concepts": [
+          "Jedi",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jedi knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jedi knight/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in a dark hooded cloak holds a glowing blue lightsaber, staring intently forward. The scene is dramatic, with the lightsaber casting a bright glow against the dark background.",
+      "description": "The image depicts a character reminiscent of a sci-fi or fantasy setting, possibly inspired by a popular space saga. The focus is on the intense expression and the iconic weapon, suggesting a moment of confrontation or readiness.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "lightsaber",
+          "cloak"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "sci-fi",
+          "fantasy"
+        ],
+        "concepts": [
+          "heroism",
+          "confrontation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: lightsaber, cloak. Actions: holding, staring. Emotions: intensity, focus. Scenes: dramatic, fantasy, sci-fi. Concepts: mystery, power, Jedi, fantasy, heroism",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "lightsaber",
+      "cloak"
+    ],
+    "actions": [
+      "holding",
+      "staring"
+    ],
+    "emotions": [
+      "intensity",
+      "focus"
+    ],
+    "scenes": [
+      "dramatic",
+      "fantasy",
+      "sci-fi"
+    ],
+    "concepts": [
+      "mystery",
+      "power",
+      "Jedi",
+      "fantasy",
+      "heroism"
+    ]
+  },
+  "metadata": {}
+}

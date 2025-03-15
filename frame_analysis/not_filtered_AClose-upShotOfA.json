@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upShotOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upShotOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AClose-upShotOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up profile of a mysterious character with glowing eyes and intricate facial markings. The character's white hair and red accents create a striking contrast against the dark background.",
+      "description": "The scene depicts a fantasy or sci-fi character with an enigmatic appearance, possibly suggesting a supernatural or otherworldly theme. The focus is on the character's face, highlighting the glowing eyes and detailed textures.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "objects": [
+          "glowing eyes",
+          "white hair"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy",
+          "sci-fi"
+        ],
+        "concepts": [
+          "supernatural",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AClose-upShotOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AClose-upShotOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure with striking white hair and glowing red eyes stares intensely. The dark background and red accents create a dramatic and eerie atmosphere.",
+      "description": "The scene depicts a close-up of a character with white hair and vivid red eyes, set against a dark, shadowy background. The lighting highlights the character's facial features, emphasizing the glowing eyes and red elements.",
+      "labels": {
+        "people": [
+          "character",
+          "face"
+        ],
+        "objects": [
+          "hair",
+          "eyes"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "close-up",
+          "dramatic"
+        ],
+        "concepts": [
+          "mystical",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: character, face. Objects: glowing eyes, white hair, hair, eyes. Emotions: mysterious, intensity, mystery. Scenes: fantasy, sci-fi, close-up, dramatic. Concepts: supernatural, otherworldly, mystical",
+  "primary_labels": {
+    "people": [
+      "character",
+      "face"
+    ],
+    "objects": [
+      "glowing eyes",
+      "white hair",
+      "hair",
+      "eyes"
+    ],
+    "emotions": [
+      "mysterious",
+      "intensity",
+      "mystery"
+    ],
+    "scenes": [
+      "fantasy",
+      "sci-fi",
+      "close-up",
+      "dramatic"
+    ],
+    "concepts": [
+      "supernatural",
+      "otherworldly",
+      "mystical"
+    ]
+  },
+  "metadata": {}
+}

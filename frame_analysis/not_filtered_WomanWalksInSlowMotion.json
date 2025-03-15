@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksInSlowMotion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksInSlowMotion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalksInSlowMotion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair in a ponytail walks through a busy shopping mall. She is wearing a black sleeveless top and black leggings, surrounded by other shoppers.",
+      "description": "The scene is set in a bustling shopping mall corridor, with various people walking in different directions. The focus is on a woman walking away from the camera, creating a dynamic sense of movement.",
+      "labels": {
+        "people": [
+          "woman",
+          "shoppers"
+        ],
+        "objects": [
+          "clothing",
+          "shopping mall"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "shopping mall",
+          "indoor"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "concepts": [
+          "fashion",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksInSlowMotion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalksInSlowMotion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long hair in a ponytail walks through a shopping mall wearing a black athletic outfit. Other shoppers are visible in the background, creating a bustling atmosphere.",
+      "description": "The scene takes place in a shopping mall corridor, with a woman walking away from the camera. The environment is busy with several people moving in different directions.",
+      "labels": {
+        "people": [
+          "woman",
+          "shoppers"
+        ],
+        "objects": [
+          "athletic outfit",
+          "shopping mall"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "shopping mall",
+          "indoor"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "concepts": [
+          "shopping",
+          "movement",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalksInSlowMotion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalksInSlowMotion/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long blonde hair walks through a busy shopping mall. She is wearing a black athletic outfit, and the scene is filled with other shoppers moving in various directions.",
+      "description": "The image captures a bustling shopping mall environment with a focus on a woman walking away from the camera. The setting is lively, with numerous people in the background, suggesting a typical day at the mall.",
+      "labels": {
+        "people": [
+          "woman",
+          "shoppers"
+        ],
+        "objects": [
+          "clothing",
+          "shopping mall"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor",
+          "shopping mall"
+        ],
+        "concepts": [
+          "shopping",
+          "fashion",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, shoppers. Objects: shopping mall, clothing, athletic outfit. Actions: walking. Scenes: shopping mall, indoor. Emotions: neutral. Concepts: fashion, movement, shopping",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "shoppers"
+    ],
+    "objects": [
+      "shopping mall",
+      "clothing",
+      "athletic outfit"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "scenes": [
+      "shopping mall",
+      "indoor"
+    ],
+    "emotions": [
+      "neutral"
+    ],
+    "concepts": [
+      "fashion",
+      "movement",
+      "shopping"
+    ]
+  },
+  "metadata": {}
+}

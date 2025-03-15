@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic lion stands regally, its mane illuminated by the warm glow of the setting sun. The background is a blur of golden hues, enhancing the lion's powerful presence.",
+      "description": "The scene captures a lion in a natural setting, bathed in the golden light of sunset. The focus is on the lion's intense gaze and magnificent mane, set against a softly blurred backdrop of autumn colors.",
+      "labels": {
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "forest",
+          "sunset"
+        ],
+        "objects": [
+          "tree"
+        ],
+        "emotions": [
+          "regal",
+          "majestic"
+        ],
+        "scenes": [
+          "wildlife",
+          "nature"
+        ],
+        "concepts": [
+          "power",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with flowing golden hair stands confidently in a richly detailed golden gown with fur accents. Her expression is serene and powerful, set against a warm, glowing background. The scene conveys an aura of regality and strength.",
+      "description": "The scene depicts a woman in an elaborate golden outfit, exuding an air of majesty and elegance. The warm tones and intricate details create a fantastical and mythical atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "fur accents",
+          "jewelry"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "regality",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Woman/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in an elaborate golden outfit, her long hair flowing dramatically in the wind. The background is a warm, glowing landscape, suggesting a sunset or sunrise setting.",
+      "description": "The scene depicts a woman in a fantasy or mythical setting, wearing a detailed and ornate costume. The warm lighting and flowing elements create a sense of movement and majesty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sunset",
+          "landscape"
+        ],
+        "objects": [
+          "ornate costume",
+          "jewelry"
+        ],
+        "actions": [
+          "standing",
+          "hair flowing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "majesty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion. Nature: sunset, forest, landscape. Objects: jewelry, tree, gown, fur accents, ornate costume. Emotions: regal, majestic, serene, powerful, confidence. Scenes: fantasy, mythical, wildlife, nature. Concepts: elegance, power, beauty, regality, majesty. People: woman. Actions: standing, hair flowing",
+  "primary_labels": {
+    "animals": [
+      "lion"
+    ],
+    "nature": [
+      "sunset",
+      "forest",
+      "landscape"
+    ],
+    "objects": [
+      "jewelry",
+      "tree",
+      "gown",
+      "fur accents",
+      "ornate costume"
+    ],
+    "emotions": [
+      "regal",
+      "majestic",
+      "serene",
+      "powerful",
+      "confidence"
+    ],
+    "scenes": [
+      "fantasy",
+      "mythical",
+      "wildlife",
+      "nature"
+    ],
+    "concepts": [
+      "elegance",
+      "power",
+      "beauty",
+      "regality",
+      "majesty"
+    ],
+    "people": [
+      "woman"
+    ],
+    "actions": [
+      "standing",
+      "hair flowing"
+    ]
+  },
+  "metadata": {}
+}

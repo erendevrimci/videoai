@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManyWeather,TheHeadDoesn\u2019t.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManyWeather,TheHeadDoesn\u2019t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManyWeather,TheHeadDoesn\u2019t/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with glittery makeup and windswept hair, partially obscured by translucent fabric. The scene captures a sense of ethereal beauty and mystery.",
+      "description": "The image depicts a close-up view of a person with shimmering makeup, surrounded by flowing strands of hair and delicate, translucent fabric. The setting suggests an artistic or fashion-oriented context, emphasizing a dreamlike and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "fabric"
+        ],
+        "actions": [
+          "windswept hair"
+        ],
+        "emotions": [
+          "mystery",
+          "ethereal"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManyWeather,TheHeadDoesn\u2019t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManyWeather,TheHeadDoesn\u2019t/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a woman's face adorned with shimmering glitter and surrounded by flowing strands of hair. Her expression is intense and captivating, with a backdrop of soft, ethereal lighting.",
+      "description": "The scene captures a dramatic and artistic portrait of a woman, focusing on her expressive eyes and glitter-covered face. The setting suggests a creative or fashion-oriented context, with an emphasis on visual impact.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glitter",
+          "hair"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "artistic",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: fabric, glitter, hair. Actions: windswept hair, looking. Emotions: mystery, ethereal, intensity. Scenes: portrait. Concepts: fashion, artistic, beauty",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "fabric",
+      "glitter",
+      "hair"
+    ],
+    "actions": [
+      "windswept hair",
+      "looking"
+    ],
+    "emotions": [
+      "mystery",
+      "ethereal",
+      "intensity"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "artistic",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

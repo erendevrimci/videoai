@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bicycle race.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bicycle race.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bicycle race/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of cyclists is racing down a tree-lined road, captured from the perspective of one of the riders. The scene conveys a sense of speed and motion as the cyclists move in unison along the winding path.",
+      "description": "The image captures a dynamic cycling race on a forested road, emphasizing speed and teamwork. The perspective from the handlebars adds an immersive feel to the scene.",
+      "labels": {
+        "people": [
+          "cyclists"
+        ],
+        "nature": [
+          "trees",
+          "road"
+        ],
+        "objects": [
+          "bicycles",
+          "handlebars"
+        ],
+        "actions": [
+          "cycling",
+          "racing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "race"
+        ],
+        "concepts": [
+          "speed",
+          "motion",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bicycle race.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bicycle race/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of cyclists is captured in motion as they navigate a winding road through a forested area. The perspective suggests the viewer is part of the cycling group, adding a dynamic sense of speed and movement. The cyclists are wearing helmets and athletic gear, emphasizing the competitive or recreational nature of the ride.",
+      "description": "The scene depicts a cycling group riding along a curving road surrounded by dense trees. The image is taken from a first-person perspective, showing the handlebars of a bicycle in the foreground, suggesting active participation in the ride.",
+      "labels": {
+        "people": [
+          "cyclists"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "bicycles",
+          "helmets",
+          "road"
+        ],
+        "actions": [
+          "cycling",
+          "riding"
+        ],
+        "emotions": [
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "sport"
+        ],
+        "concepts": [
+          "teamwork",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cyclists. Nature: trees, road, forest. Objects: bicycles, handlebars, helmets, road. Actions: cycling, racing, riding. Emotions: determination, focus. Scenes: outdoor, race, sport. Concepts: teamwork, speed, motion, fitness",
+  "primary_labels": {
+    "people": [
+      "cyclists"
+    ],
+    "nature": [
+      "trees",
+      "road",
+      "forest"
+    ],
+    "objects": [
+      "bicycles",
+      "handlebars",
+      "helmets",
+      "road"
+    ],
+    "actions": [
+      "cycling",
+      "racing",
+      "riding"
+    ],
+    "emotions": [
+      "determination",
+      "focus"
+    ],
+    "scenes": [
+      "outdoor",
+      "race",
+      "sport"
+    ],
+    "concepts": [
+      "teamwork",
+      "speed",
+      "motion",
+      "fitness"
+    ]
+  },
+  "metadata": {}
+}

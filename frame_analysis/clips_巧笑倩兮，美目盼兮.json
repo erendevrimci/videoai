@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5de7\u7b11\u5029\u516e\uff0c\u7f8e\u76ee\u76fc\u516e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5de7\u7b11\u5029\u516e\uff0c\u7f8e\u76ee\u76fc\u516e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u5de7\u7b11\u5029\u516e\uff0c\u7f8e\u76ee\u76fc\u516e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with a gentle smile is wearing a white tank top and a jade pendant on a red cord. Her hair is neatly tied back, and she is looking directly at the camera with a warm expression.",
+      "description": "The scene captures a close-up portrait of a woman in a relaxed indoor setting. The focus is on her facial expression and the jade pendant she is wearing.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jade pendant",
+          "red cord",
+          "tank top"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "warmth",
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "serenity",
+          "simplicity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u5de7\u7b11\u5029\u516e\uff0c\u7f8e\u76ee\u76fc\u516e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u5de7\u7b11\u5029\u516e\uff0c\u7f8e\u76ee\u76fc\u516e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with a gentle smile is looking directly at the camera. She is wearing a white tank top and a jade pendant necklace on a red cord.",
+      "description": "The scene is a portrait of a young woman indoors, possibly in a softly lit room. The focus is on her serene expression and the jade pendant she is wearing.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "necklace",
+          "pendant",
+          "tank top"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: tank top, jade pendant, red cord, necklace, pendant. Actions: smiling. Emotions: warmth, happiness, calm, serene. Scenes: indoor, portrait. Concepts: serenity, simplicity, beauty, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "tank top",
+      "jade pendant",
+      "red cord",
+      "necklace",
+      "pendant"
+    ],
+    "actions": [
+      "smiling"
+    ],
+    "emotions": [
+      "warmth",
+      "happiness",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "serenity",
+      "simplicity",
+      "beauty",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

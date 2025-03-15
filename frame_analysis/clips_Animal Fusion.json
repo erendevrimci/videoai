@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Animal Fusion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Animal Fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Animal Fusion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive, mythical bull stands imposingly in a dark, stormy landscape, accompanied by a demonic figure with horns and red eyes. Bats with menacing wings fly overhead, adding to the ominous atmosphere. The ground is rugged and appears to be smoldering with small patches of fire.",
+      "description": "The scene depicts a fantastical and dark setting where mythical creatures dominate the landscape. The environment is stormy and foreboding, with clouds swirling in the sky and a sense of impending danger.",
+      "labels": {
+        "animals": [
+          "bull",
+          "bats"
+        ],
+        "people": [
+          "demonic figure"
+        ],
+        "nature": [
+          "clouds",
+          "storm"
+        ],
+        "objects": [
+          "horns",
+          "fire"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "ominous",
+          "menacing"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "mythology",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Animal Fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Animal Fusion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive, mythical creature resembling a bull charges forward with fierce intensity. In the background, ominous clouds swirl, and winged creatures soar through the sky, adding to the scene's dramatic tension.",
+      "description": "The scene depicts a fantastical setting where a large, horned beast is in motion, creating a sense of urgency and power. The sky is filled with dark clouds and flying creatures, suggesting a mythical or otherworldly environment.",
+      "labels": {
+        "animals": [
+          "mythical creature",
+          "bull",
+          "winged creatures"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "horns"
+        ],
+        "actions": [
+          "charging",
+          "flying"
+        ],
+        "emotions": [
+          "intensity",
+          "ferocity"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "power",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bull, bats, mythical creature, winged creatures. People: demonic figure. Nature: clouds, storm, sky. Objects: horns, fire. Actions: flying, charging. Emotions: ominous, menacing, intensity, ferocity. Scenes: fantasy, mythical. Concepts: mythology, darkness, power, drama",
+  "primary_labels": {
+    "animals": [
+      "bull",
+      "bats",
+      "mythical creature",
+      "winged creatures"
+    ],
+    "people": [
+      "demonic figure"
+    ],
+    "nature": [
+      "clouds",
+      "storm",
+      "sky"
+    ],
+    "objects": [
+      "horns",
+      "fire"
+    ],
+    "actions": [
+      "flying",
+      "charging"
+    ],
+    "emotions": [
+      "ominous",
+      "menacing",
+      "intensity",
+      "ferocity"
+    ],
+    "scenes": [
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "mythology",
+      "darkness",
+      "power",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

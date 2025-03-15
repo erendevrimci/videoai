@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/biker punk.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/biker punk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/biker punk/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with pink hair sits confidently on a motorcycle in a vibrant, neon-lit urban setting. The scene is bathed in teal and pink hues, creating a futuristic and edgy atmosphere.",
+      "description": "The image depicts a person with striking pink hair on a motorcycle, set against a backdrop of neon city lights. The setting suggests a modern, possibly futuristic urban environment, with bright, colorful signage illuminating the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "neon"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/biker punk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/biker punk/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vibrant pink hair sits confidently on a motorcycle, set against a backdrop of neon city lights. Her expression is focused, and she wears a light-colored jacket that complements the cool tones of the scene. The motorcycle's chrome details reflect the colorful glow of the urban environment.",
+      "description": "The scene is set in a bustling city at night, illuminated by bright neon lights. The woman is the central figure, poised on a motorcycle, suggesting a sense of adventure and freedom.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "motorcycle",
+          "jacket"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: motorcycle, jacket. Actions: sitting. Emotions: confident, focused. Scenes: urban, night. Concepts: futuristic, neon, adventure, freedom",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "motorcycle",
+      "jacket"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "confident",
+      "focused"
+    ],
+    "scenes": [
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "futuristic",
+      "neon",
+      "adventure",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

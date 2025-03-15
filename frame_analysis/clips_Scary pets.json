@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary pets.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary pets.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scary pets/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man sits calmly on a giant coiled cobra, holding a beverage can in one hand. A dog stands nearby, and a backdrop of old cars and trees creates a rustic atmosphere.",
+      "description": "The scene takes place in an outdoor setting resembling a scrapyard or rural area. The man is seated on a massive cobra, suggesting an unusual and surreal environment. Surrounding him are old vehicles and a dog, contributing to the rustic and laid-back vibe.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "dog",
+          "cobra"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "car",
+          "beverage can"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "scrapyard"
+        ],
+        "concepts": [
+          "surreal",
+          "rustic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scary pets.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scary pets/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man sits calmly on a large, coiled snake, holding a can of beer in one hand. A dog stands nearby, and old cars are visible in the background, suggesting an outdoor, rustic setting.",
+      "description": "The scene takes place in an outdoor, possibly rural setting with a backdrop of old, rusted cars and a wooden fence. The man appears relaxed, despite the presence of a large snake, and a dog adds to the casual atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "dog",
+          "snake"
+        ],
+        "objects": [
+          "can",
+          "car",
+          "fence"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "rural"
+        ],
+        "concepts": [
+          "rustic",
+          "unusual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: dog, cobra, snake. Nature: trees. Objects: car, beverage can, can, fence. Actions: sitting, holding. Emotions: calm. Scenes: outdoor, scrapyard, rural. Concepts: rustic, surreal, unusual",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "dog",
+      "cobra",
+      "snake"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "objects": [
+      "car",
+      "beverage can",
+      "can",
+      "fence"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "outdoor",
+      "scrapyard",
+      "rural"
+    ],
+    "concepts": [
+      "rustic",
+      "surreal",
+      "unusual"
+    ]
+  },
+  "metadata": {}
+}

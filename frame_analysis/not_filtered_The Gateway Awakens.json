@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Gateway Awakens.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Gateway Awakens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Gateway Awakens/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant, cosmic elephant emerges from the desert sands, towering over the ancient pyramids. The creature's skin shimmers with a kaleidoscope of colors, casting an ethereal glow against the backdrop of the pyramids. The scene is both mystical and surreal, blending elements of fantasy with historical landmarks.",
+      "description": "The scene depicts a fantastical setting where a giant, colorful elephant appears in front of the pyramids. The setting combines elements of ancient Egypt with a dreamlike, cosmic atmosphere.",
+      "labels": {
+        "animals": [
+          "elephant"
+        ],
+        "nature": [
+          "desert",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "pyramids"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "cosmic",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Gateway Awakens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Gateway Awakens/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant, multicolored creature strides past the iconic pyramids of Egypt, casting a fantastical aura over the ancient scene. The massive size of the creature contrasts with the timeless grandeur of the pyramids, creating a surreal juxtaposition. The sunlight bathes the scene in a golden glow, enhancing the mystical atmosphere.",
+      "description": "The scene is set in the Egyptian desert, featuring the pyramids under a clear blue sky. A large, colorful creature is moving past the pyramids, adding a fantastical element to the historic setting.",
+      "labels": {
+        "nature": [
+          "pyramids",
+          "desert",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "pyramids"
+        ],
+        "animals": [
+          "fantastical creature"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "ancient Egypt"
+        ],
+        "concepts": [
+          "surrealism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: elephant, fantastical creature. Nature: desert, sky, clouds, pyramids. Objects: pyramids. Actions: emerging, walking. Emotions: awe, wonder. Scenes: fantasy, surreal, ancient Egypt. Concepts: cosmic, mystical, surrealism, contrast",
+  "primary_labels": {
+    "animals": [
+      "elephant",
+      "fantastical creature"
+    ],
+    "nature": [
+      "desert",
+      "sky",
+      "clouds",
+      "pyramids"
+    ],
+    "objects": [
+      "pyramids"
+    ],
+    "actions": [
+      "emerging",
+      "walking"
+    ],
+    "emotions": [
+      "awe",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal",
+      "ancient Egypt"
+    ],
+    "concepts": [
+      "cosmic",
+      "mystical",
+      "surrealism",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

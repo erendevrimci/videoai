@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneFum\u00e9eBlancheEtInqui\u00e9tante.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneFum\u00e9eBlancheEtInqui\u00e9tante.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/UneFum\u00e9eBlancheEtInqui\u00e9tante/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dense cloud of white smoke rises against a dark background, creating a stark contrast. The smoke appears to be billowing upwards, suggesting movement and energy.",
+      "description": "The scene captures a dynamic moment where a thick plume of smoke is rising, set against a solid black backdrop. The focus is on the texture and movement of the smoke.",
+      "labels": {
+        "nature": [
+          "smoke"
+        ],
+        "objects": [
+          "cloud"
+        ],
+        "actions": [
+          "rising"
+        ],
+        "scenes": [
+          "dark background"
+        ],
+        "concepts": [
+          "contrast",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/UneFum\u00e9eBlancheEtInqui\u00e9tante.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/UneFum\u00e9eBlancheEtInqui\u00e9tante/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking image of a skull with a glossy white surface and golden teeth, surrounded by swirling smoke. The skull appears to be part of a dark, reflective figure, adding a mysterious and eerie quality to the scene.",
+      "description": "The scene depicts a stylized skull with a glossy finish and gold accents, enveloped in smoke. The setting is dark and atmospheric, emphasizing the skull's features and the surrounding smoke.",
+      "labels": {
+        "objects": [
+          "skull",
+          "smoke",
+          "gold teeth"
+        ],
+        "actions": [
+          "swirling smoke"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "dark",
+          "atmospheric"
+        ],
+        "concepts": [
+          "mortality",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: smoke. Objects: cloud, skull, smoke, gold teeth. Actions: rising, swirling smoke. Scenes: dark background, dark, atmospheric. Concepts: contrast, movement, mortality, mystery. Emotions: mysterious, eerie",
+  "primary_labels": {
+    "nature": [
+      "smoke"
+    ],
+    "objects": [
+      "cloud",
+      "skull",
+      "smoke",
+      "gold teeth"
+    ],
+    "actions": [
+      "rising",
+      "swirling smoke"
+    ],
+    "scenes": [
+      "dark background",
+      "dark",
+      "atmospheric"
+    ],
+    "concepts": [
+      "contrast",
+      "movement",
+      "mortality",
+      "mystery"
+    ],
+    "emotions": [
+      "mysterious",
+      "eerie"
+    ]
+  },
+  "metadata": {}
+}

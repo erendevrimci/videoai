@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/While the keyboardist plays, the.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/While the keyboardist plays, the.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/While the keyboardist plays, the/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with long, styled hair and dramatic makeup is intensely focused on playing a keyboard. They are dressed in a studded leather jacket and adorned with multiple rings and necklaces, exuding a rockstar vibe.",
+      "description": "The scene captures a musician in a studio setting, deeply engaged in playing electronic music on a keyboard. The atmosphere is intense and edgy, reflecting a rock or glam rock aesthetic.",
+      "labels": {
+        "people": [
+          "musician"
+        ],
+        "objects": [
+          "keyboard",
+          "leather jacket",
+          "rings",
+          "necklaces"
+        ],
+        "actions": [
+          "playing keyboard"
+        ],
+        "emotions": [
+          "intense focus"
+        ],
+        "scenes": [
+          "music studio"
+        ],
+        "concepts": [
+          "rock music",
+          "glam rock"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/While the keyboardist plays, the.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/While the keyboardist plays, the/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long, voluminous hair and dramatic makeup plays a keyboard. They are wearing a studded leather jacket and numerous rings, exuding a rockstar vibe.",
+      "description": "The scene captures a musician in a rock or glam rock setting, focusing intently on playing a keyboard. The edgy attire and intense expression suggest a performance or practice session.",
+      "labels": {
+        "people": [
+          "musician"
+        ],
+        "objects": [
+          "keyboard",
+          "leather jacket",
+          "rings"
+        ],
+        "actions": [
+          "playing keyboard"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "music performance",
+          "rock music"
+        ],
+        "concepts": [
+          "rockstar",
+          "glam rock"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: musician. Objects: keyboard, leather jacket, rings, necklaces. Actions: playing keyboard. Emotions: intense focus, intensity. Scenes: music studio, music performance, rock music. Concepts: glam rock, rock music, rockstar",
+  "primary_labels": {
+    "people": [
+      "musician"
+    ],
+    "objects": [
+      "keyboard",
+      "leather jacket",
+      "rings",
+      "necklaces"
+    ],
+    "actions": [
+      "playing keyboard"
+    ],
+    "emotions": [
+      "intense focus",
+      "intensity"
+    ],
+    "scenes": [
+      "music studio",
+      "music performance",
+      "rock music"
+    ],
+    "concepts": [
+      "glam rock",
+      "rock music",
+      "rockstar"
+    ]
+  },
+  "metadata": {}
+}

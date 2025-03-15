@@ -1,0 +1,79 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Kaavyasaa Wood Pressed Oil.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Kaavyasaa Wood Pressed Oil.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Kaavyasaa Wood Pressed Oil/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A bottle of mustard oil is prominently displayed on a modern kitchen countertop. The kitchen features sleek appliances and utensils in the background, emphasizing a clean and organized space.",
+      "description": "The scene is set in a contemporary kitchen with a focus on a bottle of mustard oil placed on a white countertop. The background includes stainless steel appliances and kitchen utensils, suggesting a functional and stylish cooking environment.",
+      "labels": {
+        "objects": [
+          "mustard oil bottle",
+          "kitchen countertop",
+          "stainless steel appliances",
+          "kitchen utensils"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "cooking",
+          "modern kitchen",
+          "organization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Kaavyasaa Wood Pressed Oil.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Kaavyasaa Wood Pressed Oil/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A bottle of mustard oil is prominently displayed on a modern kitchen countertop. In the background, kitchen appliances and utensils are visible, suggesting a well-equipped cooking space.",
+      "description": "The scene is set in a contemporary kitchen, featuring a bottle of mustard oil as the central focus. The kitchen is equipped with modern appliances and utensils, indicating a functional and stylish cooking environment.",
+      "labels": {
+        "objects": [
+          "mustard oil bottle",
+          "kitchen countertop",
+          "stove",
+          "cooking pot",
+          "utensils",
+          "oven"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking space"
+        ],
+        "concepts": [
+          "cooking",
+          "modern kitchen",
+          "food preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: mustard oil bottle, kitchen countertop, stainless steel appliances, kitchen utensils, stove. Scenes: kitchen, cooking space. Concepts: cooking, modern kitchen, organization, food preparation",
+  "primary_labels": {
+    "objects": [
+      "mustard oil bottle",
+      "kitchen countertop",
+      "stainless steel appliances",
+      "kitchen utensils",
+      "stove"
+    ],
+    "scenes": [
+      "kitchen",
+      "cooking space"
+    ],
+    "concepts": [
+      "cooking",
+      "modern kitchen",
+      "organization",
+      "food preparation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Pancake Workshop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Pancake Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Pancake Workshop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A charming miniature bakery scene is depicted with a multi-story building glowing warmly from within. Tiny chefs are busy preparing and arranging baked goods, while stacks of pancakes are prominently displayed in the foreground.",
+      "description": "The scene is set in a whimsical, miniature bakery with a cozy, inviting atmosphere. The building is intricately detailed, featuring multiple floors with illuminated windows showcasing various baked items. Small chef figures are actively engaged in baking activities, adding to the lively ambiance.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "miniature building",
+          "pancakes",
+          "baked goods",
+          "windows",
+          "lantern"
+        ],
+        "actions": [
+          "baking",
+          "arranging"
+        ],
+        "emotions": [
+          "cozy",
+          "inviting"
+        ],
+        "scenes": [
+          "bakery",
+          "miniature"
+        ],
+        "concepts": [
+          "whimsy",
+          "craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Pancake Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Pancake Workshop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical miniature scene depicts a charming multi-story bakery adorned with warm lights and tiny chefs. The chefs are busy preparing stacks of pancakes, surrounded by lush greenery and detailed decor. The cozy atmosphere is enhanced by the soft glow from the windows, creating a magical and inviting setting.",
+      "description": "The scene is set in a miniature, fantasy-themed bakery with a focus on intricate details and a warm, inviting ambiance. The bakery is bustling with activity as tiny chefs work on preparing food, specifically pancakes, amidst a backdrop of greenery and decorative elements.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "miniature house",
+          "pancakes",
+          "windows",
+          "lights"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food"
+        ],
+        "emotions": [
+          "coziness",
+          "whimsy"
+        ],
+        "scenes": [
+          "bakery",
+          "miniature scene"
+        ],
+        "concepts": [
+          "fantasy",
+          "miniature art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: pancakes, windows, miniature building, baked goods, lantern. Actions: baking, arranging, cooking, preparing food. Emotions: cozy, inviting, coziness, whimsy. Scenes: bakery, miniature, miniature scene. Concepts: whimsy, craftsmanship, fantasy, miniature art",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "pancakes",
+      "windows",
+      "miniature building",
+      "baked goods",
+      "lantern"
+    ],
+    "actions": [
+      "baking",
+      "arranging",
+      "cooking",
+      "preparing food"
+    ],
+    "emotions": [
+      "cozy",
+      "inviting",
+      "coziness",
+      "whimsy"
+    ],
+    "scenes": [
+      "bakery",
+      "miniature",
+      "miniature scene"
+    ],
+    "concepts": [
+      "whimsy",
+      "craftsmanship",
+      "fantasy",
+      "miniature art"
+    ]
+  },
+  "metadata": {}
+}

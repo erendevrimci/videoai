@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tabby Cat in the Town.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tabby Cat in the Town.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tabby Cat in the Town/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gigantic kitten towers over a quaint village street, surrounded by curious children and dogs. The scene is whimsical, with the oversized feline appearing gentle and serene amidst the rustic setting.",
+      "description": "The image depicts a fantastical scene where a massive kitten stands in a village street, dwarfing the small children and dogs around it. The setting is rustic, with wooden houses and a cobblestone path, creating a surreal yet charming atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "dogs"
+        ],
+        "people": [
+          "children"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "houses",
+          "cobblestone path"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "village",
+          "fantasy"
+        ],
+        "concepts": [
+          "whimsy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tabby Cat in the Town.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tabby Cat in the Town/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A giant cat towers over a small village scene, with several children and dogs gathered around its massive paws. The setting is a quaint village with rustic houses and a winding path illuminated by warm lights.",
+      "description": "The scene depicts a surreal and whimsical setting where a colossal cat stands in the middle of a village, surrounded by curious children and dogs. The village is characterized by cozy, rustic houses and a serene atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "dog"
+        ],
+        "people": [
+          "children"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "houses",
+          "path"
+        ],
+        "actions": [
+          "standing",
+          "gathering"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "village",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, dogs, cat, dog. People: children. Nature: trees. Objects: houses, cobblestone path, path. Actions: standing, observing, gathering. Emotions: curiosity, wonder. Scenes: village, fantasy. Concepts: whimsy, surrealism",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "dogs",
+      "cat",
+      "dog"
+    ],
+    "people": [
+      "children"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "objects": [
+      "houses",
+      "cobblestone path",
+      "path"
+    ],
+    "actions": [
+      "standing",
+      "observing",
+      "gathering"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder"
+    ],
+    "scenes": [
+      "village",
+      "fantasy"
+    ],
+    "concepts": [
+      "whimsy",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

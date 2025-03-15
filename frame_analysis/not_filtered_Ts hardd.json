@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ts hardd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ts hardd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ts hardd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features bold, large text reading 'HARD' in a blue-gray color against a dark background. Below, in a contrasting yellow script, it reads 'Music Video Production'.",
+      "description": "This is a title screen or promotional graphic for a music video production, emphasizing the word 'HARD' with a stylish and modern design.",
+      "labels": {
+        "objects": [
+          "text",
+          "title"
+        ],
+        "scenes": [
+          "graphic",
+          "title screen"
+        ],
+        "concepts": [
+          "music video",
+          "production"
+        ],
+        "emotions": [
+          "bold"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ts hardd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ts hardd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant explosion of colorful fragments is captured mid-air against a dark background. The scene is illuminated by a burst of light emanating from the center of the explosion, highlighting the dynamic movement of the particles.",
+      "description": "The image depicts a dramatic and artistic explosion of colorful fragments in a dark, undefined space. The burst of light and color creates a striking contrast against the surrounding darkness, suggesting a moment of intense energy and transformation.",
+      "labels": {
+        "objects": [
+          "fragments",
+          "particles"
+        ],
+        "actions": [
+          "explosion",
+          "burst"
+        ],
+        "emotions": [
+          "dynamic",
+          "intense"
+        ],
+        "scenes": [
+          "abstract",
+          "dark background"
+        ],
+        "concepts": [
+          "energy",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ts hardd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ts hardd/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A vibrant explosion of colors and particles fills the scene, creating a dynamic and chaotic visual spectacle. Various hues of green, red, and purple blend together, surrounded by a multitude of sparkling particles against a dark background.",
+      "description": "The scene captures a moment of intense energy and movement, possibly depicting an abstract or cosmic event. The swirling colors and particles suggest a sense of chaos and transformation.",
+      "labels": {
+        "objects": [
+          "particles",
+          "colors"
+        ],
+        "actions": [
+          "explosion",
+          "swirling"
+        ],
+        "emotions": [
+          "chaos",
+          "energy"
+        ],
+        "scenes": [
+          "abstract",
+          "cosmic"
+        ],
+        "concepts": [
+          "transformation",
+          "dynamics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: particles, text, title, fragments, colors. Scenes: abstract, graphic, title screen, dark background, cosmic. Concepts: transformation, music video, production, energy, dynamics. Emotions: bold, dynamic, intense, chaos, energy. Actions: explosion, burst, swirling",
+  "primary_labels": {
+    "objects": [
+      "particles",
+      "text",
+      "title",
+      "fragments",
+      "colors"
+    ],
+    "scenes": [
+      "abstract",
+      "graphic",
+      "title screen",
+      "dark background",
+      "cosmic"
+    ],
+    "concepts": [
+      "transformation",
+      "music video",
+      "production",
+      "energy",
+      "dynamics"
+    ],
+    "emotions": [
+      "bold",
+      "dynamic",
+      "intense",
+      "chaos",
+      "energy"
+    ],
+    "actions": [
+      "explosion",
+      "burst",
+      "swirling"
+    ]
+  },
+  "metadata": {}
+}

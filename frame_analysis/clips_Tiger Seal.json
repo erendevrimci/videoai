@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiger Seal.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiger Seal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiger Seal/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiger with a seal-like body is playfully emerging from frothy waves. The creature's vibrant orange and black stripes contrast with the white foam of the water. Its expression is curious and lively, adding a whimsical touch to the scene.",
+      "description": "The scene depicts a fantastical creature resembling a tiger with a seal's body, interacting with the ocean waves. The setting is a shoreline with foamy water, creating a playful and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "tiger",
+          "seal"
+        ],
+        "nature": [
+          "ocean",
+          "waves"
+        ],
+        "objects": [
+          "foam"
+        ],
+        "actions": [
+          "emerging",
+          "playing"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "shoreline"
+        ],
+        "concepts": [
+          "fantasy",
+          "hybrid animal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiger Seal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiger Seal/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A unique creature with the body of a seal and the stripes of a tiger is resting on a sandy beach. The waves gently lap at the shore in the background, creating a serene coastal scene.",
+      "description": "The scene is set on a beach where a fantastical animal, combining features of a seal and a tiger, is lying on the sand. The setting is tranquil, with soft waves in the background and a natural, coastal atmosphere.",
+      "labels": {
+        "animals": [
+          "seal",
+          "tiger"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sand",
+          "waves"
+        ],
+        "objects": [],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "coastal"
+        ],
+        "concepts": [
+          "hybrid animal",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger, seal. Nature: ocean, waves, beach, sand. Objects: foam. Actions: emerging, playing, resting. Emotions: curiosity, playfulness, calm. Scenes: shoreline, coastal. Concepts: fantasy, hybrid animal",
+  "primary_labels": {
+    "animals": [
+      "tiger",
+      "seal"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "beach",
+      "sand"
+    ],
+    "objects": [
+      "foam"
+    ],
+    "actions": [
+      "emerging",
+      "playing",
+      "resting"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness",
+      "calm"
+    ],
+    "scenes": [
+      "shoreline",
+      "coastal"
+    ],
+    "concepts": [
+      "fantasy",
+      "hybrid animal"
+    ]
+  },
+  "metadata": {}
+}

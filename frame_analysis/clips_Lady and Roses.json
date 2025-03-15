@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lady and Roses.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lady and Roses.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lady and Roses/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant, vintage-style dress gently holds a blooming pink rose in a lush garden. Her expression is serene as she admires the flower, surrounded by vibrant greenery.",
+      "description": "The scene depicts a tranquil moment in a garden, where a woman dressed in a luxurious, off-shoulder gown interacts with a rose bush. The setting suggests a peaceful, romantic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "garden",
+          "rose",
+          "greenery"
+        ],
+        "objects": [
+          "dress",
+          "rose bush"
+        ],
+        "actions": [
+          "holding",
+          "admiring"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "elegance",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lady and Roses.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lady and Roses/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a vintage-style dress gently touches a blooming rose in a garden. Her long, dark hair is adorned with a large bow, complementing the soft, romantic atmosphere. The scene captures a moment of serene beauty and elegance.",
+      "description": "The image depicts a tranquil garden setting where a woman is interacting with vibrant roses. The setting is reminiscent of a classical or vintage theme, enhanced by the woman's attire and the lush greenery around her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "roses",
+          "garden"
+        ],
+        "objects": [
+          "dress",
+          "bow"
+        ],
+        "actions": [
+          "touching",
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "garden",
+          "vintage"
+        ],
+        "concepts": [
+          "beauty",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: garden, rose, greenery, roses. Objects: dress, rose bush, bow. Actions: holding, admiring, touching, gazing. Emotions: serene, elegant. Scenes: garden, vintage. Concepts: romance, elegance, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "garden",
+      "rose",
+      "greenery",
+      "roses"
+    ],
+    "objects": [
+      "dress",
+      "rose bush",
+      "bow"
+    ],
+    "actions": [
+      "holding",
+      "admiring",
+      "touching",
+      "gazing"
+    ],
+    "emotions": [
+      "serene",
+      "elegant"
+    ],
+    "scenes": [
+      "garden",
+      "vintage"
+    ],
+    "concepts": [
+      "romance",
+      "elegance",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

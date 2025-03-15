@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/High-fashion stylish asian model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/High-fashion stylish asian model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/High-fashion stylish asian model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in a minimalist setting, wearing a long, flowing black coat over a white shirt. The lighting casts soft shadows, adding depth to the scene.",
+      "description": "The scene depicts a fashion-forward individual in a studio-like environment, exuding elegance and poise. The setting is minimalistic, with a focus on the person's attire and posture.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "coat",
+          "shirt",
+          "boots"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion",
+          "minimalist"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/High-fashion stylish asian model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/High-fashion stylish asian model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently with her hands on her hips, wearing a stylish black and white outfit. Her expression is calm and composed, set against a plain background.",
+      "description": "The scene captures a woman in a minimalist setting, emphasizing her fashion-forward attire and poised demeanor. The focus is on her clothing and confident stance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "outfit",
+          "clothing"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "calm"
+        ],
+        "scenes": [
+          "fashion",
+          "portrait"
+        ],
+        "concepts": [
+          "style",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/High-fashion stylish asian model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/High-fashion stylish asian model/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up portrait of a person with short black hair and a serious expression. They are wearing a white shirt and a black blazer, looking directly at the camera.",
+      "description": "The image captures a close-up of an individual in a formal setting, emphasizing their facial features and attire. The person appears to be in a contemplative or serious mood.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "blazer",
+          "shirt"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "formal",
+          "professional"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: shirt, coat, boots, outfit, clothing. Actions: standing, posing. Emotions: confident, confidence, calm, serious. Scenes: fashion, portrait, minimalist. Concepts: style, elegance, minimalism, formal, professional",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "shirt",
+      "coat",
+      "boots",
+      "outfit",
+      "clothing"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence",
+      "calm",
+      "serious"
+    ],
+    "scenes": [
+      "fashion",
+      "portrait",
+      "minimalist"
+    ],
+    "concepts": [
+      "style",
+      "elegance",
+      "minimalism",
+      "formal",
+      "professional"
+    ]
+  },
+  "metadata": {}
+}

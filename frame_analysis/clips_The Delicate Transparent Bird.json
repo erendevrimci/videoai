@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Delicate Transparent Bird.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Delicate Transparent Bird.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Delicate Transparent Bird/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate, translucent bird perches gracefully on a branch, its ethereal appearance enhanced by the soft focus background. The bird's pale, almost glass-like feathers shimmer subtly against the blurred backdrop, creating a serene and dreamlike atmosphere.",
+      "description": "The scene captures a close-up of a translucent bird perched on a branch, set against a softly blurred background. The setting suggests a tranquil, natural environment, possibly near water or in a misty forest.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "branch"
+        ],
+        "objects": [
+          "translucent bird"
+        ],
+        "emotions": [
+          "serene",
+          "dreamlike"
+        ],
+        "scenes": [
+          "nature",
+          "tranquil"
+        ],
+        "concepts": [
+          "ethereal",
+          "delicate"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Delicate Transparent Bird.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Delicate Transparent Bird/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate, translucent bird perches gracefully on a branch against a blurred, serene background. The bird's ethereal appearance contrasts with the natural setting, creating a surreal and tranquil scene.",
+      "description": "The scene captures a translucent bird perched on a branch, set against a soft-focus background that suggests a natural environment. The bird's ghostly appearance adds a mystical quality to the otherwise calm and serene atmosphere.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "branch"
+        ],
+        "objects": [
+          "translucent bird"
+        ],
+        "scenes": [
+          "natural setting",
+          "serene"
+        ],
+        "emotions": [
+          "tranquil",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bird. Nature: branch. Objects: translucent bird. Emotions: serene, dreamlike, tranquil, mystical. Scenes: nature, tranquil, natural setting, serene. Concepts: ethereal, delicate",
+  "primary_labels": {
+    "animals": [
+      "bird"
+    ],
+    "nature": [
+      "branch"
+    ],
+    "objects": [
+      "translucent bird"
+    ],
+    "emotions": [
+      "serene",
+      "dreamlike",
+      "tranquil",
+      "mystical"
+    ],
+    "scenes": [
+      "nature",
+      "tranquil",
+      "natural setting",
+      "serene"
+    ],
+    "concepts": [
+      "ethereal",
+      "delicate"
+    ]
+  },
+  "metadata": {}
+}

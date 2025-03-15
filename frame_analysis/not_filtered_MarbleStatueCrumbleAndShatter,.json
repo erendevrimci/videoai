@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MarbleStatueCrumbleAndShatter,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MarbleStatueCrumbleAndShatter,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MarbleStatueCrumbleAndShatter,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sculpted face appears to be shattering, with fragments breaking away from one side. The expression is serene despite the dramatic disintegration, creating a striking contrast.",
+      "description": "The scene depicts a sculpted face in the process of breaking apart, with pieces flying outward. The setting is abstract, focusing on the transformation and fragmentation of the sculpture.",
+      "labels": {
+        "objects": [
+          "sculpture",
+          "fragments"
+        ],
+        "actions": [
+          "shattering",
+          "breaking"
+        ],
+        "emotions": [
+          "serenity",
+          "contrast"
+        ],
+        "scenes": [
+          "abstract",
+          "artistic"
+        ],
+        "concepts": [
+          "transformation",
+          "disintegration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MarbleStatueCrumbleAndShatter,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MarbleStatueCrumbleAndShatter,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A detailed sculpture of a human face is shown in the process of breaking apart. The cracks and fragments give a sense of decay and transformation, with pieces of the sculpture appearing to float away.",
+      "description": "The scene captures a close-up of a sculpture depicting a human face, which is breaking and fragmenting. The setting is likely an artistic or conceptual environment, emphasizing themes of decay and transformation.",
+      "labels": {
+        "objects": [
+          "sculpture",
+          "fragments"
+        ],
+        "actions": [
+          "breaking",
+          "fragmenting"
+        ],
+        "emotions": [
+          "decay",
+          "transformation"
+        ],
+        "scenes": [
+          "artistic",
+          "conceptual"
+        ],
+        "concepts": [
+          "impermanence",
+          "change"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sculpture, fragments. Actions: breaking, shattering, fragmenting. Emotions: serenity, contrast, decay, transformation. Scenes: artistic, abstract, conceptual. Concepts: transformation, disintegration, impermanence, change",
+  "primary_labels": {
+    "objects": [
+      "sculpture",
+      "fragments"
+    ],
+    "actions": [
+      "breaking",
+      "shattering",
+      "fragmenting"
+    ],
+    "emotions": [
+      "serenity",
+      "contrast",
+      "decay",
+      "transformation"
+    ],
+    "scenes": [
+      "artistic",
+      "abstract",
+      "conceptual"
+    ],
+    "concepts": [
+      "transformation",
+      "disintegration",
+      "impermanence",
+      "change"
+    ]
+  },
+  "metadata": {}
+}

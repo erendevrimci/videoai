@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giant bear and a human beneath.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giant bear and a human beneath.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/giant bear and a human beneath/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A colossal bear towers over a cityscape, its massive form casting a shadow over the buildings below. People stand in awe and fear, dwarfed by the creature's immense size as it strides through the urban environment.",
+      "description": "The scene depicts a surreal and dramatic moment where a gigantic bear is walking through a city, with people observing the spectacle. The setting suggests a mix of fantasy and reality, creating a tense and awe-inspiring atmosphere.",
+      "labels": {
+        "animals": [
+          "bear"
+        ],
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "nature": [],
+        "objects": [
+          "buildings",
+          "vehicles"
+        ],
+        "actions": [
+          "walking",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "fear"
+        ],
+        "scenes": [
+          "urban",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "giant creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giant bear and a human beneath.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/giant bear and a human beneath/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A colossal bear towers over a city street, casting a massive shadow on the buildings. People on the ground appear tiny in comparison, some looking up in awe or fear. The scene is dynamic, with dust and debris indicating recent movement.",
+      "description": "The scene depicts a giant bear in an urban setting, creating a sense of chaos and wonder. The bear's immense size contrasts sharply with the small figures of people and vehicles, suggesting a fantastical or apocalyptic scenario.",
+      "labels": {
+        "animals": [
+          "bear"
+        ],
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "buildings",
+          "vehicles"
+        ],
+        "actions": [
+          "running",
+          "looking"
+        ],
+        "emotions": [
+          "awe",
+          "fear"
+        ],
+        "scenes": [
+          "urban",
+          "fantasy"
+        ],
+        "concepts": [
+          "giant creature",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bear. People: crowd, onlookers. Objects: buildings, vehicles. Actions: walking, observing, running, looking. Emotions: awe, fear. Scenes: urban, fantasy. Concepts: giant creature, surrealism, contrast",
+  "primary_labels": {
+    "animals": [
+      "bear"
+    ],
+    "people": [
+      "crowd",
+      "onlookers"
+    ],
+    "nature": [],
+    "objects": [
+      "buildings",
+      "vehicles"
+    ],
+    "actions": [
+      "walking",
+      "observing",
+      "running",
+      "looking"
+    ],
+    "emotions": [
+      "awe",
+      "fear"
+    ],
+    "scenes": [
+      "urban",
+      "fantasy"
+    ],
+    "concepts": [
+      "giant creature",
+      "surrealism",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

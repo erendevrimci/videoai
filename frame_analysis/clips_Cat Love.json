@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat Love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene set amidst fluffy pink clouds, two anthropomorphic cats are elegantly dressed and seated at a small table, toasting with glasses of ros\u00e9. Above them, a winged kitten with a bow and arrow hovers, adding a magical touch to the romantic setting.",
+      "description": "The scene depicts a fantastical and romantic setting where two cats, dressed in formal attire, are enjoying a toast in a surreal cloudscape. The presence of a flying kitten with wings and a bow suggests a playful, Cupid-like theme.",
+      "labels": {
+        "animals": [
+          "cats",
+          "kitten"
+        ],
+        "objects": [
+          "glasses",
+          "table",
+          "bow",
+          "arrow"
+        ],
+        "actions": [
+          "toasting",
+          "flying"
+        ],
+        "emotions": [
+          "romantic",
+          "playful"
+        ],
+        "scenes": [
+          "fantasy",
+          "romantic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat Love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two anthropomorphic cats dressed elegantly are sharing a romantic moment, sipping wine amidst fluffy pink clouds. Above them, a winged kitten resembling Cupid is poised with a bow and arrow, adding a whimsical touch to the scene.",
+      "description": "The scene is set in a dreamy, surreal environment with pink clouds, creating a romantic and whimsical atmosphere. The main focus is on two cats dressed in formal attire, enjoying a romantic moment, while a winged kitten hovers above, enhancing the fantasy element.",
+      "labels": {
+        "animals": [
+          "cats",
+          "kitten"
+        ],
+        "objects": [
+          "wine glasses",
+          "table",
+          "bow and arrow"
+        ],
+        "actions": [
+          "kissing",
+          "flying"
+        ],
+        "emotions": [
+          "romantic",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "romantic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "Cupid"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats, kitten. Objects: table, glasses, bow, arrow, wine glasses. Actions: flying, toasting, kissing. Emotions: romantic, playful, whimsical. Scenes: fantasy, romantic. Concepts: anthropomorphism, whimsy, Cupid",
+  "primary_labels": {
+    "animals": [
+      "cats",
+      "kitten"
+    ],
+    "objects": [
+      "table",
+      "glasses",
+      "bow",
+      "arrow",
+      "wine glasses"
+    ],
+    "actions": [
+      "flying",
+      "toasting",
+      "kissing"
+    ],
+    "emotions": [
+      "romantic",
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "fantasy",
+      "romantic"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "whimsy",
+      "Cupid"
+    ]
+  },
+  "metadata": {}
+}

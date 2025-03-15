@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cozy Tales Train.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cozy Tales Train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cozy Tales Train/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic train adorned with vibrant greenery and strawberries travels through a lush urban setting. The sleek, reflective design of the train contrasts with the surrounding high-rise buildings, creating a harmonious blend of nature and technology.",
+      "description": "The scene depicts a modern cityscape where a high-tech train, covered in plants and strawberries, moves along tracks lined with colorful flowers. The background features tall buildings, suggesting an urban environment that embraces eco-friendly transportation.",
+      "labels": {
+        "nature": [
+          "greenery",
+          "flowers",
+          "strawberries"
+        ],
+        "objects": [
+          "train",
+          "buildings",
+          "tracks"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "eco-friendly",
+          "technology",
+          "sustainability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cozy Tales Train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cozy Tales Train/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern train adorned with greenery travels through an urban landscape. The train's reflective windows mirror the vibrant flowers and plants lining the tracks. Skyscrapers loom in the background, adding to the futuristic atmosphere.",
+      "description": "The scene depicts a futuristic urban setting where a train, covered in plants, moves alongside a track bordered by colorful flowers. The cityscape in the background features tall buildings, suggesting a blend of nature and modern architecture.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "plants"
+        ],
+        "objects": [
+          "train",
+          "skyscrapers",
+          "tracks"
+        ],
+        "actions": [
+          "traveling"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "sustainability",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cozy Tales Train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cozy Tales Train/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek, modern train adorned with lush greenery glides through an urban landscape. The train's reflective surface mirrors the vibrant flowers and plants lining the tracks. Tall skyscrapers loom in the background, contrasting with the natural elements in the foreground.",
+      "description": "The scene depicts a futuristic urban setting where nature and technology coexist harmoniously. A train, covered in plants, travels through a cityscape filled with high-rise buildings and vibrant gardens.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "plants",
+          "greenery"
+        ],
+        "objects": [
+          "train",
+          "skyscrapers",
+          "tracks"
+        ],
+        "scenes": [
+          "urban landscape",
+          "futuristic city"
+        ],
+        "concepts": [
+          "harmony",
+          "technology and nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: flowers, greenery, plants, strawberries. Objects: train, tracks, skyscrapers, buildings. Scenes: urban, futuristic, urban landscape, futuristic city. Concepts: sustainability, eco-friendly, technology, modernity, harmony. Actions: traveling. Emotions: serenity",
+  "primary_labels": {
+    "nature": [
+      "flowers",
+      "greenery",
+      "plants",
+      "strawberries"
+    ],
+    "objects": [
+      "train",
+      "tracks",
+      "skyscrapers",
+      "buildings"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "urban landscape",
+      "futuristic city"
+    ],
+    "concepts": [
+      "sustainability",
+      "eco-friendly",
+      "technology",
+      "modernity",
+      "harmony"
+    ],
+    "actions": [
+      "traveling"
+    ],
+    "emotions": [
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

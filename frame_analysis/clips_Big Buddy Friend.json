@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big Buddy Friend.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big Buddy Friend.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Big Buddy Friend/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child stands in awe on a city street, facing a towering, futuristic robot. The scene is set in a foggy urban environment, with the robot's glowing lights piercing through the mist.",
+      "description": "The scene depicts a dramatic encounter between a child and a massive robot in a foggy city. The child, wearing a red jacket, stands alone on the street, staring up at the imposing figure of the robot, which is illuminated by red and orange lights.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "robot",
+          "car",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "staring"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "scale",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big Buddy Friend.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Big Buddy Friend/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child stands in awe before a massive, futuristic robot in a cityscape. The robot looms over the child, its mechanical body illuminated by glowing red lights. The scene is set against a backdrop of tall, indistinct buildings shrouded in mist.",
+      "description": "The scene depicts a dramatic encounter between a child and a towering robot in a foggy urban environment. The atmosphere is tense yet awe-inspiring, highlighting the contrast between the small human figure and the colossal machine.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "robot",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "looming"
+        ],
+        "emotions": [
+          "awe",
+          "tension"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big Buddy Friend.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Big Buddy Friend/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child is lifted by a massive, futuristic robot in an urban setting. The robot's glowing lights contrast with the overcast sky, creating a dramatic scene. The child appears to be in mid-air, suggesting a moment of interaction or rescue.",
+      "description": "The scene takes place in a city environment with tall buildings and a misty atmosphere. A large robot, with intricate mechanical details and illuminated by red and orange lights, dominates the scene. The child, wearing a red jacket, is the focal point as they are held by the robot.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "robot",
+          "buildings"
+        ],
+        "actions": [
+          "lifting",
+          "interaction"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Objects: robot, buildings, car. Actions: standing, staring, looming, lifting, interaction. Emotions: awe, curiosity, tension. Scenes: urban, futuristic. Concepts: technology, contrast, scale, science fiction",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "objects": [
+      "robot",
+      "buildings",
+      "car"
+    ],
+    "actions": [
+      "standing",
+      "staring",
+      "looming",
+      "lifting",
+      "interaction"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity",
+      "tension"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "contrast",
+      "scale",
+      "science fiction"
+    ]
+  },
+  "metadata": {}
+}

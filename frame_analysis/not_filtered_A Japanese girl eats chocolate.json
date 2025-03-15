@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Japanese girl eats chocolate.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Japanese girl eats chocolate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Japanese girl eats chocolate/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits on a stool in a library, holding a chocolate bar near her mouth. She is wearing a black dress with lace sleeves and appears to be smiling gently. Bookshelves filled with books are visible in the background, along with people walking by.",
+      "description": "The scene is set in a library or bookstore, where a young woman is seated comfortably. She seems to be enjoying a moment of leisure, possibly taking a break from reading. The environment is calm and casual, with other people casually walking in the background.",
+      "labels": {
+        "people": [
+          "woman",
+          "bystanders"
+        ],
+        "objects": [
+          "chocolate bar",
+          "books",
+          "bookshelf",
+          "stool"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "library",
+          "bookstore"
+        ],
+        "concepts": [
+          "leisure",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Japanese girl eats chocolate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Japanese girl eats chocolate/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in a black lace dress sits on a stool by a bookshelf, gently touching her hair. She appears relaxed and content, surrounded by people walking in the background.",
+      "description": "The scene is set in a bookstore or library with a bustling atmosphere. The woman is seated near a shelf filled with books, while others move around in the background, suggesting a busy public space.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bookshelf",
+          "books",
+          "stool"
+        ],
+        "actions": [
+          "sitting",
+          "touching hair"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "bookstore",
+          "library"
+        ],
+        "concepts": [
+          "public space",
+          "casual setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, bystanders. Objects: books, bookshelf, stool, chocolate bar. Actions: sitting, holding, touching hair. Emotions: contentment, relaxed, content. Scenes: library, bookstore. Concepts: leisure, relaxation, public space, casual setting",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "bystanders"
+    ],
+    "objects": [
+      "books",
+      "bookshelf",
+      "stool",
+      "chocolate bar"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "touching hair"
+    ],
+    "emotions": [
+      "contentment",
+      "relaxed",
+      "content"
+    ],
+    "scenes": [
+      "library",
+      "bookstore"
+    ],
+    "concepts": [
+      "leisure",
+      "relaxation",
+      "public space",
+      "casual setting"
+    ]
+  },
+  "metadata": {}
+}

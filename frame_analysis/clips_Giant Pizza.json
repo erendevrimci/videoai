@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Pizza.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant Pizza/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive pizza stretches across an outdoor venue, surrounded by a crowd of onlookers. Large mechanical arms are slicing the pizza into sections, creating an impressive spectacle.",
+      "description": "The scene is set in an outdoor event, possibly a festival or record-breaking attempt, where a gigantic pizza is being sliced. The atmosphere is lively, with many people gathered around to witness the event.",
+      "labels": {
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "objects": [
+          "pizza",
+          "mechanical arms",
+          "tents"
+        ],
+        "actions": [
+          "slicing",
+          "gathering"
+        ],
+        "emotions": [
+          "excitement",
+          "curiosity"
+        ],
+        "scenes": [
+          "outdoor",
+          "event"
+        ],
+        "concepts": [
+          "record-breaking",
+          "food festival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant Pizza/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive pizza stretches across an outdoor event, surrounded by a crowd of onlookers. Robotic arms are slicing the pizza, creating an impressive spectacle. The scene is lively, with people eagerly observing the process.",
+      "description": "The scene takes place at an outdoor event where a gigantic pizza is being sliced by robotic arms. A large crowd has gathered to witness this unique event, creating a festive atmosphere.",
+      "labels": {
+        "people": [
+          "crowd",
+          "onlookers"
+        ],
+        "objects": [
+          "pizza",
+          "robotic arms",
+          "tents"
+        ],
+        "actions": [
+          "slicing",
+          "observing"
+        ],
+        "emotions": [
+          "excitement",
+          "curiosity"
+        ],
+        "scenes": [
+          "outdoor event",
+          "festival"
+        ],
+        "concepts": [
+          "food spectacle",
+          "world record attempt"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, onlookers. Objects: pizza, tents, mechanical arms, robotic arms. Actions: slicing, gathering, observing. Emotions: excitement, curiosity. Scenes: outdoor, event, outdoor event, festival. Concepts: record-breaking, food festival, food spectacle, world record attempt",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "onlookers"
+    ],
+    "objects": [
+      "pizza",
+      "tents",
+      "mechanical arms",
+      "robotic arms"
+    ],
+    "actions": [
+      "slicing",
+      "gathering",
+      "observing"
+    ],
+    "emotions": [
+      "excitement",
+      "curiosity"
+    ],
+    "scenes": [
+      "outdoor",
+      "event",
+      "outdoor event",
+      "festival"
+    ],
+    "concepts": [
+      "record-breaking",
+      "food festival",
+      "food spectacle",
+      "world record attempt"
+    ]
+  },
+  "metadata": {}
+}

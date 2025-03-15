@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sapphire Sea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sapphire Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sapphire Sea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical underwater scene features a mermaid with flowing silver hair holding a trident. The light filters through the water, casting a serene glow on her shimmering scales.",
+      "description": "The scene is set underwater, depicting a mermaid in an enchanting aquatic environment. She is poised and appears to be swimming or floating, surrounded by the tranquil beauty of the ocean depths.",
+      "labels": {
+        "people": [
+          "mermaid"
+        ],
+        "nature": [
+          "underwater",
+          "ocean"
+        ],
+        "objects": [
+          "trident"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "mythology",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sapphire Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sapphire Sea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical underwater scene featuring a mermaid with long, flowing hair holding a trident. Sunlight filters through the water, casting ethereal beams around her as she gazes forward.",
+      "description": "The scene is set underwater, where a mermaid is surrounded by a serene and magical atmosphere. She holds a trident and is illuminated by soft, filtered sunlight, creating a dreamlike ambiance.",
+      "labels": {
+        "people": [
+          "mermaid"
+        ],
+        "objects": [
+          "trident"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "underwater",
+          "mystical"
+        ],
+        "concepts": [
+          "mythical",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sapphire Sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sapphire Sea/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A mystical underwater scene features a woman with long, flowing hair holding a trident. She is surrounded by beams of light filtering through the water, creating an ethereal atmosphere.",
+      "description": "The scene is set underwater, depicting a fantasy-like environment with a woman resembling a mermaid. The lighting is dramatic, with sun rays piercing through the water, highlighting her features and the trident she holds.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "trident"
+        ],
+        "nature": [
+          "water",
+          "light beams"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "underwater",
+          "fantasy"
+        ],
+        "concepts": [
+          "mythical",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: mermaid, woman. Nature: underwater, ocean, water, light beams. Objects: trident. Actions: holding, swimming. Emotions: serene, mystical. Scenes: fantasy, underwater, mystical. Concepts: mythical, mythology, enchantment, fantasy, ethereal",
+  "primary_labels": {
+    "people": [
+      "mermaid",
+      "woman"
+    ],
+    "nature": [
+      "underwater",
+      "ocean",
+      "water",
+      "light beams"
+    ],
+    "objects": [
+      "trident"
+    ],
+    "actions": [
+      "holding",
+      "swimming"
+    ],
+    "emotions": [
+      "serene",
+      "mystical"
+    ],
+    "scenes": [
+      "fantasy",
+      "underwater",
+      "mystical"
+    ],
+    "concepts": [
+      "mythical",
+      "mythology",
+      "enchantment",
+      "fantasy",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

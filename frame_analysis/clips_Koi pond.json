@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Koi pond.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Koi pond.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Koi pond/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene pond scene features several koi fish swimming gracefully in clear, turquoise water. Lush greenery and rocks border the pond, casting gentle shadows on the water's surface.",
+      "description": "The scene depicts a tranquil pond with koi fish swimming in clear water surrounded by rocks and foliage. The setting is peaceful and natural, evoking a sense of calm and harmony.",
+      "labels": {
+        "animals": [
+          "koi fish"
+        ],
+        "nature": [
+          "pond",
+          "rocks",
+          "foliage",
+          "water"
+        ],
+        "objects": [
+          "stones"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "nature",
+          "aquatic"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Koi pond.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Koi pond/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene pond scene featuring colorful koi fish swimming gracefully among smooth stones and lush greenery. Sunlight filters through the leaves, casting dappled shadows on the clear water. The tranquil setting is enhanced by the vibrant colors of the fish and the surrounding foliage.",
+      "description": "The scene depicts a tranquil pond environment where koi fish swim leisurely. The setting is natural and peaceful, with clear water, rocks, and abundant plant life.",
+      "labels": {
+        "animals": [
+          "koi fish"
+        ],
+        "nature": [
+          "pond",
+          "rocks",
+          "leaves",
+          "water"
+        ],
+        "objects": [
+          "stones"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "aquatic",
+          "natural"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: koi fish. Nature: pond, rocks, water, foliage, leaves. Objects: stones. Actions: swimming. Emotions: calm, serene, serenity. Scenes: aquatic, nature, natural. Concepts: tranquility, harmony",
+  "primary_labels": {
+    "animals": [
+      "koi fish"
+    ],
+    "nature": [
+      "pond",
+      "rocks",
+      "water",
+      "foliage",
+      "leaves"
+    ],
+    "objects": [
+      "stones"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "aquatic",
+      "nature",
+      "natural"
+    ],
+    "concepts": [
+      "tranquility",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

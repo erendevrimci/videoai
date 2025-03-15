@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/th\u00e2y thu\u1ed1c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/th\u00e2y thu\u1ed1c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/th\u00e2y thu\u1ed1c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with long white hair and a beard stands in a traditional room, holding a teacup. The room is adorned with red lanterns and calligraphy scrolls, creating a serene and cultural atmosphere.",
+      "description": "The scene is set in a traditional Asian-style room, likely a tea house or a study, characterized by wooden furniture and decor. The man appears to be enjoying a moment of tranquility, possibly engaged in a tea ceremony.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "teacup",
+          "teapot",
+          "wooden table",
+          "calligraphy scrolls",
+          "red lanterns",
+          "wooden box"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "traditional room",
+          "tea ceremony"
+        ],
+        "concepts": [
+          "cultural heritage",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/th\u00e2y thu\u1ed1c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/th\u00e2y thu\u1ed1c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man with long white hair and a beard stands in a traditional room, holding a cup of tea. The room is adorned with red lanterns and calligraphy on the walls, creating a serene and cultural atmosphere.",
+      "description": "The scene depicts a peaceful moment in a traditional Asian setting, likely a tea room or study. The man appears contemplative as he enjoys his tea, surrounded by elements that suggest a rich cultural heritage.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "tea cup",
+          "teapot",
+          "wooden table",
+          "red lanterns",
+          "calligraphy",
+          "wooden box"
+        ],
+        "actions": [
+          "drinking tea"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "traditional room",
+          "tea ceremony"
+        ],
+        "concepts": [
+          "culture",
+          "heritage",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man. Objects: teapot, wooden table, red lanterns, wooden box, teacup. Actions: holding, standing, drinking tea. Emotions: serenity, calm, contemplative. Scenes: traditional room, tea ceremony. Concepts: cultural heritage, tranquility, culture, heritage, serenity",
+  "primary_labels": {
+    "people": [
+      "elderly man"
+    ],
+    "objects": [
+      "teapot",
+      "wooden table",
+      "red lanterns",
+      "wooden box",
+      "teacup"
+    ],
+    "actions": [
+      "holding",
+      "standing",
+      "drinking tea"
+    ],
+    "emotions": [
+      "serenity",
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "traditional room",
+      "tea ceremony"
+    ],
+    "concepts": [
+      "cultural heritage",
+      "tranquility",
+      "culture",
+      "heritage",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

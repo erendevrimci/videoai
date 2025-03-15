@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_10.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_10.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_10/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image shows a first-person view from inside a car, with a person gripping the steering wheel and another hand on the gear shift. The car is driving down a two-lane road bordered by greenery and trees.",
+      "description": "The scene captures a driving experience on a rural road, emphasizing the control and focus of the driver. The dashboard and steering wheel are prominently visible, indicating a classic or vintage car model.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "car",
+          "steering wheel",
+          "gear shift",
+          "dashboard",
+          "rearview mirror"
+        ],
+        "actions": [
+          "driving",
+          "steering",
+          "shifting gears"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "road",
+          "car interior"
+        ],
+        "concepts": [
+          "driving experience",
+          "classic car"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_10.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_10/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image captures a driver's perspective from inside a car, showing hands on the steering wheel as the vehicle travels down a two-lane road. The dashboard displays various gauges, and the road ahead is bordered by greenery. Another car is visible in the opposite lane, approaching from a distance.",
+      "description": "The scene is set inside a car, providing a first-person view of driving on a rural road. The setting suggests a leisurely drive through a countryside area, with trees and grass lining the road.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "objects": [
+          "car",
+          "steering wheel",
+          "dashboard",
+          "gauges",
+          "rearview mirror"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "scenes": [
+          "road",
+          "countryside"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "transportation",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_10.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_10/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "The image captures a first-person view from inside a car, showing the driver holding the steering wheel while driving on a two-lane road. The road is surrounded by greenery, and the dashboard displays various gauges. The scene conveys a sense of motion and focus on the road ahead.",
+      "description": "The scene is set inside a moving car on a rural road, with the driver actively steering. The environment outside is lush with trees and grass, indicating a countryside setting.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "objects": [
+          "car",
+          "steering wheel",
+          "dashboard",
+          "rearview mirror"
+        ],
+        "actions": [
+          "driving",
+          "steering"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "road",
+          "interior"
+        ],
+        "concepts": [
+          "transportation",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: driver. Nature: trees, greenery. Objects: car, steering wheel, dashboard, rearview mirror, gear shift. Actions: driving, steering, shifting gears. Emotions: focus, calm. Scenes: road, car interior, countryside, interior. Concepts: transportation, travel, driving experience, classic car",
+  "primary_labels": {
+    "people": [
+      "driver"
+    ],
+    "nature": [
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "car",
+      "steering wheel",
+      "dashboard",
+      "rearview mirror",
+      "gear shift"
+    ],
+    "actions": [
+      "driving",
+      "steering",
+      "shifting gears"
+    ],
+    "emotions": [
+      "focus",
+      "calm"
+    ],
+    "scenes": [
+      "road",
+      "car interior",
+      "countryside",
+      "interior"
+    ],
+    "concepts": [
+      "transportation",
+      "travel",
+      "driving experience",
+      "classic car"
+    ]
+  },
+  "metadata": {}
+}

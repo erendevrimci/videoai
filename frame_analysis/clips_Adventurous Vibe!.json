@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Adventurous Vibe!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Adventurous Vibe!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Adventurous Vibe!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A panda wearing an orange life vest skillfully surfs on a large wave in the ocean. The bright blue sky and fluffy white clouds create a vibrant and lively backdrop. The panda appears confident and balanced on its orange surfboard.",
+      "description": "The scene depicts a whimsical and adventurous moment where a panda is surfing on a large ocean wave. The setting is a sunny day at sea with clear skies and dynamic waves.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "surfboard",
+          "life vest"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "emotions": [
+          "adventurous",
+          "playful"
+        ],
+        "scenes": [
+          "ocean",
+          "surfing"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Adventurous Vibe!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Adventurous Vibe!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A panda wearing a life jacket is skillfully surfing on a vibrant orange surfboard amidst a large ocean wave. The backdrop features a scenic coastline with lush green hills under a clear sky.",
+      "description": "The scene captures a playful and adventurous moment as a panda surfs on a dynamic ocean wave. The setting is a coastal area with visible hills and a beach, creating a lively and energetic atmosphere.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "surfboard",
+          "life jacket"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "nature": [
+          "ocean",
+          "wave",
+          "coastline",
+          "hills"
+        ],
+        "emotions": [
+          "adventure",
+          "playfulness"
+        ],
+        "scenes": [
+          "beach",
+          "ocean"
+        ],
+        "concepts": [
+          "adventure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Adventurous Vibe!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Adventurous Vibe!/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A panda wearing a life jacket is surfing on a large wave with an orange surfboard. The scene captures the panda mid-air as it skillfully maneuvers through the ocean. The bright blue sky and dynamic waves create a vibrant and adventurous atmosphere.",
+      "description": "The image depicts a playful and adventurous scene where a panda is surfing on a large ocean wave. The setting is outdoors, likely at a beach or open sea, under a clear blue sky.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "surfboard",
+          "life jacket"
+        ],
+        "actions": [
+          "surfing"
+        ],
+        "emotions": [
+          "adventurous",
+          "playful"
+        ],
+        "scenes": [
+          "ocean",
+          "surfing"
+        ],
+        "concepts": [
+          "adventure",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: panda. Objects: surfboard, life jacket, life vest. Actions: surfing. Emotions: adventurous, playful, adventure, playfulness. Scenes: ocean, surfing, beach. Concepts: adventure, fun, whimsy. Nature: ocean, wave, coastline, hills",
+  "primary_labels": {
+    "animals": [
+      "panda"
+    ],
+    "objects": [
+      "surfboard",
+      "life jacket",
+      "life vest"
+    ],
+    "actions": [
+      "surfing"
+    ],
+    "emotions": [
+      "adventurous",
+      "playful",
+      "adventure",
+      "playfulness"
+    ],
+    "scenes": [
+      "ocean",
+      "surfing",
+      "beach"
+    ],
+    "concepts": [
+      "adventure",
+      "fun",
+      "whimsy"
+    ],
+    "nature": [
+      "ocean",
+      "wave",
+      "coastline",
+      "hills"
+    ]
+  },
+  "metadata": {}
+}

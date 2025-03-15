@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 13.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 13.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 13/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with striking red hair stands in a forest, holding a large owl on her arm. The owl's piercing orange eyes mirror the intensity of the woman's gaze, creating a mystical and enchanting atmosphere.",
+      "description": "The scene is set in a dense forest, where a woman and an owl are the central focus. The woman, dressed in a dark, lacy garment, holds the owl close, suggesting a bond between them. The background is blurred, emphasizing the subjects.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "owl"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intensity",
+          "mystical"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "bond",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Seraphine 13.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Seraphine 13/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with striking red hair stands in a forest, holding a large owl on her arm. Her intense gaze matches the owl's piercing eyes, creating a mysterious and enchanting atmosphere.",
+      "description": "The scene is set in a dense forest, where a woman and an owl share a captivating moment. The natural setting and the woman's attire contribute to a mystical and ethereal vibe.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "owl"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "enchanting"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "mystical",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: owl. Nature: forest, trees. Objects: dress. Actions: holding. Emotions: intensity, mystical, mysterious, enchanting. Scenes: forest. Concepts: bond, enchantment, mystical, ethereal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "owl"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "intensity",
+      "mystical",
+      "mysterious",
+      "enchanting"
+    ],
+    "scenes": [
+      "forest"
+    ],
+    "concepts": [
+      "bond",
+      "enchantment",
+      "mystical",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

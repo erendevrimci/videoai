@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Le chat ...mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Le chat ...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Le chat ../frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A curious cat appears to be cooking, holding a piece of fish with one paw and a wooden spoon with the other. The cat is focused on a pan filled with a bubbling stew, with steam rising around it.",
+      "description": "The scene is set in a kitchen where a cat is humorously depicted as cooking. The cat is engaged in preparing a meal, adding fish to a simmering stew in a pan. The atmosphere is playful and whimsical, with steam adding a sense of warmth and activity.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pan",
+          "fish",
+          "wooden spoon"
+        ],
+        "actions": [
+          "cooking",
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Le chat ...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Le chat ../frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat is intently stirring a pot of soup with a wooden spoon. The scene is set in a cozy kitchen environment, with steam rising from the pot, adding warmth to the atmosphere.",
+      "description": "The image depicts a domestic cat engaging in a humorous and anthropomorphic activity by cooking. The setting suggests a home kitchen, with the cat focused on the task of stirring a bubbling pot of soup.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pot",
+          "wooden spoon"
+        ],
+        "actions": [
+          "stirring",
+          "cooking"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Le chat ...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Le chat ../frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A curious cat intently watches a pan of food cooking on the stove. The pan contains salmon and beans, with steam rising from the hot surface. The cat's focused gaze suggests intrigue or hunger.",
+      "description": "The scene is set in a kitchen where a cat is observing a pan of food cooking on the stove. The environment suggests a cozy, domestic setting with warm lighting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pan",
+          "salmon",
+          "beans",
+          "stove"
+        ],
+        "actions": [
+          "cooking",
+          "watching"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "domestic life",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: pan, wooden spoon, fish, pot, salmon. Actions: cooking, holding, stirring, watching. Emotions: curiosity, playfulness, focused. Scenes: kitchen. Concepts: humor, anthropomorphism, domestic life, cooking",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "pan",
+      "wooden spoon",
+      "fish",
+      "pot",
+      "salmon"
+    ],
+    "actions": [
+      "cooking",
+      "holding",
+      "stirring",
+      "watching"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness",
+      "focused"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "domestic life",
+      "cooking"
+    ]
+  },
+  "metadata": {}
+}

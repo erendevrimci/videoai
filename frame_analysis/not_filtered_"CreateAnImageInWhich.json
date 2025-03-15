@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAnImageInWhich.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAnImageInWhich.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateAnImageInWhich/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a woman's face being tended to by miniature figures in lab coats. These tiny individuals are engaged in various activities, such as applying makeup and inspecting her skin. The image creates a whimsical and imaginative atmosphere.",
+      "description": "The scene is set in a surreal context where a woman's face is the central focus, surrounded by miniature figures performing detailed tasks. The setting suggests a blend of beauty and scientific exploration.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "makeup tools",
+          "ladder"
+        ],
+        "actions": [
+          "applying makeup",
+          "inspecting"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "close-up"
+        ],
+        "concepts": [
+          "beauty",
+          "miniaturization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"CreateAnImageInWhich.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"CreateAnImageInWhich/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a woman receiving makeup from miniature figures. These tiny individuals are meticulously applying cosmetics, using ladders and brushes to reach her face. The image blends reality with fantasy, creating an imaginative portrayal of beauty routines.",
+      "description": "The scene is set in a surreal context where a woman's face is being attended to by miniature figures. These figures are engaged in applying makeup, highlighting a whimsical and artistic interpretation of a beauty routine.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "makeup brush",
+          "ladder"
+        ],
+        "actions": [
+          "applying makeup",
+          "climbing"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "beauty",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, miniature figures. Objects: ladder, makeup tools, makeup brush. Actions: applying makeup, inspecting, climbing. Emotions: whimsical, imaginative, calm, focused. Scenes: surreal, close-up, artistic. Concepts: beauty, miniaturization, imagination",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "miniature figures"
+    ],
+    "objects": [
+      "ladder",
+      "makeup tools",
+      "makeup brush"
+    ],
+    "actions": [
+      "applying makeup",
+      "inspecting",
+      "climbing"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative",
+      "calm",
+      "focused"
+    ],
+    "scenes": [
+      "surreal",
+      "close-up",
+      "artistic"
+    ],
+    "concepts": [
+      "beauty",
+      "miniaturization",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

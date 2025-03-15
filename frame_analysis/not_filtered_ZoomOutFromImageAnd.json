@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOutFromImageAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOutFromImageAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ZoomOutFromImageAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a bustling office setting, a robotic arm is pouring coffee into a large cup, suspended above a group of focused workers. The scene captures the blend of technology and daily routine, with computers and office supplies scattered around.",
+      "description": "The image depicts a modern office environment where technology and human activity coexist. A robotic arm is prominently pouring coffee into a cup, symbolizing automation amidst a group of people working at their desks.",
+      "labels": {
+        "people": [
+          "workers"
+        ],
+        "objects": [
+          "robotic arm",
+          "coffee cup",
+          "computers",
+          "desks",
+          "office supplies"
+        ],
+        "actions": [
+          "pouring coffee",
+          "working"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "office",
+          "workplace"
+        ],
+        "concepts": [
+          "automation",
+          "technology",
+          "daily routine"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOutFromImageAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ZoomOutFromImageAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a blurred close-up of a person in the foreground, with an office setting in the background. Several people are seated at desks with computer monitors, suggesting a busy work environment.",
+      "description": "The scene is set in an office or control room, where multiple individuals are engaged in work at their desks. The focus is on the person in the foreground, though their features are not clear.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "desk",
+          "computer monitor",
+          "chair"
+        ],
+        "actions": [
+          "working",
+          "sitting"
+        ],
+        "scenes": [
+          "office",
+          "control room"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "concepts": [
+          "workplace",
+          "business environment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: workers, person. Objects: robotic arm, coffee cup, computers, desks, office supplies. Actions: working, pouring coffee, sitting. Emotions: focus, focused. Scenes: office, workplace, control room. Concepts: automation, technology, daily routine, workplace, business environment",
+  "primary_labels": {
+    "people": [
+      "workers",
+      "person"
+    ],
+    "objects": [
+      "robotic arm",
+      "coffee cup",
+      "computers",
+      "desks",
+      "office supplies"
+    ],
+    "actions": [
+      "working",
+      "pouring coffee",
+      "sitting"
+    ],
+    "emotions": [
+      "focus",
+      "focused"
+    ],
+    "scenes": [
+      "office",
+      "workplace",
+      "control room"
+    ],
+    "concepts": [
+      "automation",
+      "technology",
+      "daily routine",
+      "workplace",
+      "business environment"
+    ]
+  },
+  "metadata": {}
+}

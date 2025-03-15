@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/N\u1eef ki\u1ebfm s\u0129 2.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/N\u1eef ki\u1ebfm s\u0129 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/N\u1eef ki\u1ebfm s\u0129 2/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in a sleek, futuristic warrior outfit stands confidently. She wears a black and gold armored suit with a red skirt and has a sword strapped to her back. Her expression is focused and determined, suggesting readiness for action.",
+      "description": "The scene depicts a strong, confident female warrior in a stylized, futuristic setting. The focus is on her detailed armor and poised stance, highlighting her readiness for battle.",
+      "labels": {
+        "people": [
+          "woman",
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "futuristic",
+          "stylized"
+        ],
+        "concepts": [
+          "strength",
+          "readiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/N\u1eef ki\u1ebfm s\u0129 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/N\u1eef ki\u1ebfm s\u0129 2/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is seen from the back, wearing a sleek, dark armored outfit with gold accents. Their long hair is tied in a high ponytail, cascading down their back.",
+      "description": "The scene depicts a person in a futuristic or fantasy setting, dressed in a form-fitting, metallic armor. The focus is on the intricate design of the armor and the person's hairstyle.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "armor",
+          "ponytail"
+        ],
+        "scenes": [
+          "futuristic",
+          "fantasy"
+        ],
+        "emotions": [
+          "mysterious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, warrior, person. Objects: armor, sword, ponytail. Actions: standing. Emotions: confidence, determination, mysterious. Scenes: futuristic, stylized, fantasy. Concepts: strength, readiness",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "warrior",
+      "person"
+    ],
+    "objects": [
+      "armor",
+      "sword",
+      "ponytail"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "determination",
+      "mysterious"
+    ],
+    "scenes": [
+      "futuristic",
+      "stylized",
+      "fantasy"
+    ],
+    "concepts": [
+      "strength",
+      "readiness"
+    ]
+  },
+  "metadata": {}
+}

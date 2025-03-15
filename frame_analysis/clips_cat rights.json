@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat rights.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat rights.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat rights/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat wearing a formal shirt and tie sits confidently on a wooden desk in a courtroom setting. The cat appears to be in a position of authority, with a microphone in front of it, while two blurred figures are visible in the background.",
+      "description": "The scene is set in a courtroom where a cat, humorously dressed in a formal attire, takes center stage. The setting suggests a playful take on a legal proceeding, with the cat seemingly playing the role of a lawyer or judge.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "shirt",
+          "tie",
+          "microphone",
+          "desk"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "courtroom"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat rights.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat rights/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat dressed in a formal shirt and tie stands confidently at a courtroom podium. The cat appears to be addressing the court with a serious expression, its paw raised near the microphone.",
+      "description": "The scene is set in a courtroom where a cat, humorously dressed in formal attire, is positioned as if giving a speech or testimony. The background shows blurred figures, suggesting an audience or courtroom attendees.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "microphone",
+          "podium",
+          "tie",
+          "shirt"
+        ],
+        "actions": [
+          "standing",
+          "addressing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "courtroom"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: shirt, tie, microphone, desk, podium. Actions: sitting, standing, addressing. Emotions: confident, serious. Scenes: courtroom. Concepts: humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "shirt",
+      "tie",
+      "microphone",
+      "desk",
+      "podium"
+    ],
+    "actions": [
+      "sitting",
+      "standing",
+      "addressing"
+    ],
+    "emotions": [
+      "confident",
+      "serious"
+    ],
+    "scenes": [
+      "courtroom"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

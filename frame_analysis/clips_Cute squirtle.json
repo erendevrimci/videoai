@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute squirtle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute squirtle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute squirtle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, turtle-like creature with a blue, textured skin and a yellow shell stands on a sunlit forest floor. Its large, expressive eyes and slight smile give it a curious and friendly appearance. The background is blurred, with hints of green foliage and sunbeams filtering through the trees.",
+      "description": "The scene depicts a cute, animated creature in a natural forest setting. It stands on a sandy ground with scattered leaves, surrounded by a soft, warm light that creates a serene and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "turtle-like creature"
+        ],
+        "nature": [
+          "forest",
+          "foliage",
+          "sunlight"
+        ],
+        "objects": [
+          "shell"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "curiosity",
+          "friendliness"
+        ],
+        "scenes": [
+          "forest floor",
+          "natural setting"
+        ],
+        "concepts": [
+          "animation",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute squirtle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute squirtle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, turtle-like creature stands confidently on a sunlit forest floor. Its large, expressive eyes and textured shell are highlighted by the dappled sunlight filtering through the trees.",
+      "description": "The scene depicts a cartoonish, turtle-like creature in a forest setting. The creature appears to be standing still, with a curious yet determined expression. The environment is lush with greenery, and sunlight creates a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "turtle-like creature"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "shell"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "curiosity",
+          "determination"
+        ],
+        "scenes": [
+          "forest floor"
+        ],
+        "concepts": [
+          "animation",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: turtle-like creature. Nature: forest, sunlight, foliage, trees. Objects: shell. Actions: standing. Emotions: curiosity, friendliness, determination. Scenes: forest floor, natural setting. Concepts: animation, fantasy, character design",
+  "primary_labels": {
+    "animals": [
+      "turtle-like creature"
+    ],
+    "nature": [
+      "forest",
+      "sunlight",
+      "foliage",
+      "trees"
+    ],
+    "objects": [
+      "shell"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "curiosity",
+      "friendliness",
+      "determination"
+    ],
+    "scenes": [
+      "forest floor",
+      "natural setting"
+    ],
+    "concepts": [
+      "animation",
+      "fantasy",
+      "character design"
+    ]
+  },
+  "metadata": {}
+}

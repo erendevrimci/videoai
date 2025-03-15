@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Cats.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Cats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Cats/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two cats elegantly dressed in formal attire are dancing gracefully under a grand chandelier in a luxurious ballroom. The scene captures a whimsical moment as the cats hold each other in a classic dance pose, surrounded by warm lighting.",
+      "description": "The image depicts a whimsical ballroom scene where two anthropomorphic cats are engaged in a formal dance. The setting is opulent, with a large chandelier and ornate decor, creating an atmosphere of elegance and charm.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "chandelier",
+          "ballroom",
+          "tuxedo",
+          "dress"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "elegance",
+          "whimsy"
+        ],
+        "scenes": [
+          "ballroom",
+          "dance"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "formal attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Cats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Cats/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two anthropomorphic cats are elegantly dancing in a grand ballroom under a sparkling chandelier. The cat on the left wears a black top with a pink ruffled skirt, while the cat on the right sports a bow tie and formal attire. The warm lighting and luxurious setting create a romantic and whimsical atmosphere.",
+      "description": "The scene is set in an opulent ballroom with a large chandelier casting a warm glow. Two cats, dressed in formal attire, are engaged in a graceful dance, adding a whimsical touch to the elegant setting.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "chandelier",
+          "skirt",
+          "bow tie"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "romantic",
+          "whimsical"
+        ],
+        "scenes": [
+          "ballroom"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing Cats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing Cats/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two cats dressed in elegant attire are dancing gracefully under a grand chandelier in a luxurious ballroom. The scene captures a moment of affection and elegance as they hold each other closely, surrounded by the warm glow of the chandelier.",
+      "description": "The image depicts a whimsical and charming scene of two cats engaging in a ballroom dance. The setting is a lavish ballroom with a large chandelier illuminating the space, creating an atmosphere of sophistication and romance.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "chandelier",
+          "ballroom",
+          "dress",
+          "suit"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "affection",
+          "elegance"
+        ],
+        "scenes": [
+          "ballroom dance"
+        ],
+        "concepts": [
+          "whimsy",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: chandelier, ballroom, dress, tuxedo, skirt. Actions: dancing. Emotions: elegance, whimsy, romantic, whimsical, affection. Scenes: ballroom, dance, ballroom dance. Concepts: anthropomorphism, formal attire, elegance, whimsy, romance",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "chandelier",
+      "ballroom",
+      "dress",
+      "tuxedo",
+      "skirt"
+    ],
+    "actions": [
+      "dancing"
+    ],
+    "emotions": [
+      "elegance",
+      "whimsy",
+      "romantic",
+      "whimsical",
+      "affection"
+    ],
+    "scenes": [
+      "ballroom",
+      "dance",
+      "ballroom dance"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "formal attire",
+      "elegance",
+      "whimsy",
+      "romance"
+    ]
+  },
+  "metadata": {}
+}

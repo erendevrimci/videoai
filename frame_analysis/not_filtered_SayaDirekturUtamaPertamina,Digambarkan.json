@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A caricatured figure in a suit is seen energetically handling metal barrels at a gas station. The barrels are labeled with various logos, including 'PERTAMINA', and the setting is illuminated by artificial lighting.",
+      "description": "The scene takes place at a gas station, where a cartoonish character in formal attire is interacting with several metal barrels. The environment suggests a commercial setting, possibly indicating a humorous or satirical context.",
+      "labels": {
+        "people": [
+          "caricatured figure"
+        ],
+        "objects": [
+          "metal barrels",
+          "suit",
+          "gas station"
+        ],
+        "actions": [
+          "handling barrels"
+        ],
+        "emotions": [
+          "energetic"
+        ],
+        "scenes": [
+          "commercial setting"
+        ],
+        "concepts": [
+          "satire",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a suit is pouring liquid from two small barrels into a larger barrel at a gas station. The barrels are labeled with 'PERTAMAX' and 'PERTAMINA', indicating a focus on fuel. The scene is set at a gas station with a sign visible in the background.",
+      "description": "The image depicts a man in formal attire at a gas station, pouring liquid from two smaller containers into a larger one. The setting suggests a focus on fuel or energy, with branding visible on the barrels and station.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "barrels",
+          "suit",
+          "glasses"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "scenes": [
+          "gas station"
+        ],
+        "concepts": [
+          "fuel",
+          "energy",
+          "branding"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SayaDirekturUtamaPertamina,Digambarkan/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in a suit is pouring liquid from a container labeled 'TAX' into a barrel marked 'PERTAMINA'. He appears focused and intent on his task.",
+      "description": "The scene is set at a fuel station, indicated by the 'PERTAMINA' signage in the background. The man is engaged in an action that suggests a metaphorical or symbolic act, possibly related to taxation or fuel pricing.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "container",
+          "barrel",
+          "suit",
+          "glasses"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "scenes": [
+          "fuel station"
+        ],
+        "concepts": [
+          "taxation",
+          "fuel"
+        ],
+        "emotions": [
+          "focused"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, caricatured figure. Objects: suit, glasses, metal barrels, gas station, barrels. Actions: pouring, handling barrels. Emotions: energetic, focused. Scenes: commercial setting, gas station, fuel station. Concepts: fuel, satire, humor, energy, branding",
+  "primary_labels": {
+    "people": [
+      "man",
+      "caricatured figure"
+    ],
+    "objects": [
+      "suit",
+      "glasses",
+      "metal barrels",
+      "gas station",
+      "barrels"
+    ],
+    "actions": [
+      "pouring",
+      "handling barrels"
+    ],
+    "emotions": [
+      "energetic",
+      "focused"
+    ],
+    "scenes": [
+      "commercial setting",
+      "gas station",
+      "fuel station"
+    ],
+    "concepts": [
+      "fuel",
+      "satire",
+      "humor",
+      "energy",
+      "branding"
+    ]
+  },
+  "metadata": {}
+}

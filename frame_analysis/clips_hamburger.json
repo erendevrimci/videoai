@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamburger.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamburger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hamburger/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A giant hamburger is suspended mid-air by a crane over a busy city street. Cars are lined up on the road beneath, and pedestrians are walking along the sidewalks. The scene is surreal and eye-catching, blending urban life with whimsical elements.",
+      "description": "The image depicts a bustling urban street with a large, whimsical hamburger being lifted by a crane. The street is filled with cars and people, creating a lively city atmosphere. The sky is overcast, adding a dramatic backdrop to the unusual scene.",
+      "labels": {
+        "objects": [
+          "hamburger",
+          "crane",
+          "cars",
+          "buildings"
+        ],
+        "actions": [
+          "lifting",
+          "driving",
+          "walking"
+        ],
+        "emotions": [
+          "surprise",
+          "whimsy"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "surrealism",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamburger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hamburger/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A giant hamburger is suspended mid-air by a crane over a busy city street. Cars are lined up on the road, and pedestrians are walking along the sidewalks, seemingly unfazed by the unusual sight above them.",
+      "description": "The scene is set in an urban environment with a bustling street lined with cars and pedestrians. A large crane is lifting an oversized hamburger, creating a surreal and humorous contrast against the everyday city backdrop.",
+      "labels": {
+        "objects": [
+          "crane",
+          "hamburger",
+          "cars",
+          "buildings"
+        ],
+        "actions": [
+          "lifting",
+          "driving",
+          "walking"
+        ],
+        "emotions": [
+          "surprise",
+          "amusement"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "surrealism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamburger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hamburger/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A giant hamburger is being hoisted by a crane above a busy city street. Cars are lined up in traffic below, while pedestrians walk along the sidewalks. The scene is set against a backdrop of tall buildings under a cloudy sky.",
+      "description": "The scene captures a surreal urban setting where a massive hamburger is suspended in the air by a crane, creating a whimsical contrast against the everyday hustle of city life. The street is bustling with vehicles and people, framed by towering buildings.",
+      "labels": {
+        "objects": [
+          "hamburger",
+          "crane",
+          "cars",
+          "buildings"
+        ],
+        "actions": [
+          "hoisting",
+          "driving",
+          "walking"
+        ],
+        "emotions": [
+          "surreal",
+          "whimsical"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "contrast",
+          "everyday life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: hamburger, crane, cars, buildings. Actions: driving, walking, lifting, hoisting. Emotions: surprise, whimsy, amusement, surreal, whimsical. Scenes: urban, street, city street. Concepts: surrealism, contrast, city life, everyday life",
+  "primary_labels": {
+    "objects": [
+      "hamburger",
+      "crane",
+      "cars",
+      "buildings"
+    ],
+    "actions": [
+      "driving",
+      "walking",
+      "lifting",
+      "hoisting"
+    ],
+    "emotions": [
+      "surprise",
+      "whimsy",
+      "amusement",
+      "surreal",
+      "whimsical"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street"
+    ],
+    "concepts": [
+      "surrealism",
+      "contrast",
+      "city life",
+      "everyday life"
+    ]
+  },
+  "metadata": {}
+}

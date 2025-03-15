@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/MONTYPHYT.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/MONTYPHYT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/MONTYPHYT/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with a detailed back tattoo stands on a balcony overlooking a futuristic cityscape. Neon lights and advertisements illuminate the skyline, while a flying vehicle hovers in the distance. The scene conveys a sense of mystery and technological advancement.",
+      "description": "The scene is set in a futuristic city, characterized by tall skyscrapers adorned with bright neon advertisements. The woman, with her back to the viewer, is observing the city from a high vantage point, suggesting a moment of contemplation or anticipation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "balcony",
+          "flying vehicle",
+          "neon signs",
+          "skyscrapers"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "mystery"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/MONTYPHYT.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/MONTYPHYT/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with a tattoo on their back stands on a balcony overlooking a futuristic cityscape. The skyline is filled with towering buildings and bright neon advertisements, while flying vehicles move through the air.",
+      "description": "The scene depicts a futuristic urban environment viewed from a high vantage point. The person is gazing out over a bustling city filled with advanced technology and vibrant lights.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "balcony",
+          "buildings",
+          "neon advertisements",
+          "flying vehicles"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: balcony, flying vehicle, neon signs, skyscrapers, buildings. Actions: standing, observing, gazing. Emotions: mystery, contemplative. Scenes: futuristic cityscape. Concepts: technology, urban life",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "balcony",
+      "flying vehicle",
+      "neon signs",
+      "skyscrapers",
+      "buildings"
+    ],
+    "actions": [
+      "standing",
+      "observing",
+      "gazing"
+    ],
+    "emotions": [
+      "mystery",
+      "contemplative"
+    ],
+    "scenes": [
+      "futuristic cityscape"
+    ],
+    "concepts": [
+      "technology",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

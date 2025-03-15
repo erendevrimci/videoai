@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/earth rotation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/earth rotation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/earth rotation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a view of Earth from space, with the African continent prominently illuminated by glowing lights. The surrounding space is filled with stars and cosmic clouds, creating a striking contrast against the dark expanse.",
+      "description": "This scene captures a breathtaking view of Earth at night, highlighting the illuminated cities and regions across Africa. The image is set in outer space, with a focus on the vibrant glow of human activity visible from orbit.",
+      "labels": {
+        "nature": [
+          "Earth",
+          "space",
+          "stars"
+        ],
+        "objects": [
+          "planet",
+          "lights"
+        ],
+        "scenes": [
+          "night view",
+          "outer space"
+        ],
+        "concepts": [
+          "global illumination",
+          "cosmic perspective"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/earth rotation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/earth rotation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a glowing view of Earth from space, highlighting the continents with vibrant, illuminated patterns. The dark expanse of space surrounds the planet, with subtle hints of cosmic light and nebulae in the background.",
+      "description": "This scene captures a stunning view of Earth from space, focusing on the illuminated continents against the backdrop of the cosmos. The image emphasizes the beauty of the planet's surface as seen from afar, with a dramatic contrast between light and dark.",
+      "labels": {
+        "nature": [
+          "Earth",
+          "space",
+          "cosmos",
+          "nebula"
+        ],
+        "objects": [
+          "planet"
+        ],
+        "scenes": [
+          "outer space",
+          "planetary view"
+        ],
+        "concepts": [
+          "illumination",
+          "global perspective"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: Earth, space, stars, cosmos, nebula. Objects: planet, lights. Scenes: outer space, night view, planetary view. Concepts: global illumination, cosmic perspective, illumination, global perspective. Emotions: awe, wonder",
+  "primary_labels": {
+    "nature": [
+      "Earth",
+      "space",
+      "stars",
+      "cosmos",
+      "nebula"
+    ],
+    "objects": [
+      "planet",
+      "lights"
+    ],
+    "scenes": [
+      "outer space",
+      "night view",
+      "planetary view"
+    ],
+    "concepts": [
+      "global illumination",
+      "cosmic perspective",
+      "illumination",
+      "global perspective"
+    ],
+    "emotions": [
+      "awe",
+      "wonder"
+    ]
+  },
+  "metadata": {}
+}

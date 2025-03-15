@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee raindrops into cup from c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee raindrops into cup from c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffee raindrops into cup from c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts a cloud hovering above a cup of coffee, with rain-like droplets and a stream of liquid pouring into the cup. The setting is warmly lit, creating a cozy and imaginative atmosphere.",
+      "description": "The image presents a surreal and imaginative setting where a cloud appears to be raining coffee into a cup. The scene is set on a wooden table with coffee beans scattered around, illuminated by warm, ambient lighting.",
+      "labels": {
+        "objects": [
+          "coffee cup",
+          "cloud",
+          "coffee beans",
+          "candle",
+          "saucer"
+        ],
+        "actions": [
+          "pouring",
+          "raining"
+        ],
+        "emotions": [
+          "cozy",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "indoor"
+        ],
+        "concepts": [
+          "creativity",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee raindrops into cup from c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffee raindrops into cup from c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features a fluffy cloud hovering above a steaming cup of coffee, with droplets resembling rain falling into the cup. Coffee beans are scattered around the cup on a wooden table, adding to the cozy atmosphere.",
+      "description": "The image depicts a surreal setting where a cloud appears to rain into a cup of coffee, creating a magical and imaginative scene. The warm lighting and scattered coffee beans contribute to a cozy and inviting atmosphere.",
+      "labels": {
+        "objects": [
+          "coffee cup",
+          "cloud",
+          "coffee beans",
+          "table",
+          "saucer"
+        ],
+        "actions": [
+          "raining",
+          "steaming"
+        ],
+        "emotions": [
+          "whimsical",
+          "cozy"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: coffee cup, cloud, coffee beans, saucer, candle. Actions: raining, pouring, steaming. Emotions: cozy, imaginative, whimsical. Scenes: surreal, indoor, imaginative. Concepts: creativity, fantasy, imagination",
+  "primary_labels": {
+    "objects": [
+      "coffee cup",
+      "cloud",
+      "coffee beans",
+      "saucer",
+      "candle"
+    ],
+    "actions": [
+      "raining",
+      "pouring",
+      "steaming"
+    ],
+    "emotions": [
+      "cozy",
+      "imaginative",
+      "whimsical"
+    ],
+    "scenes": [
+      "surreal",
+      "indoor",
+      "imaginative"
+    ],
+    "concepts": [
+      "creativity",
+      "fantasy",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

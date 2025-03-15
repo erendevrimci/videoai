@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful kitten walking in snow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful kitten walking in snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful kitten walking in snow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange kitten with striking blue eyes walks through the snow, leaving tiny paw prints behind. The snowy landscape is dotted with evergreen trees, and distant hills are visible under a soft, overcast sky.",
+      "description": "The scene captures a serene winter landscape with a small kitten exploring the snow. The setting is a snowy field surrounded by snow-covered trees and distant hills, creating a peaceful and picturesque atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "hills"
+        ],
+        "objects": [
+          "paw prints"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "exploration",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful kitten walking in snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful kitten walking in snow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange kitten with striking blue eyes walks through a snowy landscape. The kitten's fur contrasts with the pristine white snow, creating a charming and serene scene.",
+      "description": "The scene captures a small kitten exploring a snow-covered area, surrounded by a backdrop of snow-laden trees. The setting appears to be a tranquil winter landscape, possibly in a forest or open field.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "exploration",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Nature: snow, trees, hills. Objects: paw prints. Actions: walking. Emotions: curiosity. Scenes: winter landscape, winter, outdoors. Concepts: exploration, serenity",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "nature": [
+      "snow",
+      "trees",
+      "hills"
+    ],
+    "objects": [
+      "paw prints"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "winter landscape",
+      "winter",
+      "outdoors"
+    ],
+    "concepts": [
+      "exploration",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

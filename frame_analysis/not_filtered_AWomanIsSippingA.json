@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsSippingA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsSippingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanIsSippingA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a teal hat and dress sits indoors, sipping a green smoothie through a straw. Sunlight filters through a window, casting a warm glow over the scene. A basket of fresh vegetables is visible on a table nearby.",
+      "description": "The scene takes place in a cozy, sunlit room where a woman enjoys a refreshing drink. The setting suggests a peaceful and leisurely atmosphere, with natural light enhancing the relaxed mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hat",
+          "glass",
+          "straw",
+          "basket",
+          "vegetables"
+        ],
+        "actions": [
+          "sipping"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor",
+          "sunlit room"
+        ],
+        "concepts": [
+          "leisure",
+          "refreshment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsSippingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanIsSippingA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a turquoise hat and dress enjoys a green smoothie through a straw. She is seated indoors near a window, with a basket of fresh vegetables on a table beside her.",
+      "description": "The scene depicts a serene indoor setting where a woman is sipping a green smoothie. The atmosphere is calm and refreshing, enhanced by natural light streaming through the window.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hat",
+          "glass",
+          "straw",
+          "basket",
+          "vegetables"
+        ],
+        "actions": [
+          "drinking"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "healthy lifestyle",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: hat, glass, straw, basket, vegetables. Actions: sipping, drinking. Emotions: relaxed, calm, content. Scenes: indoor, sunlit room, kitchen. Concepts: leisure, refreshment, healthy lifestyle, relaxation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "hat",
+      "glass",
+      "straw",
+      "basket",
+      "vegetables"
+    ],
+    "actions": [
+      "sipping",
+      "drinking"
+    ],
+    "emotions": [
+      "relaxed",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "indoor",
+      "sunlit room",
+      "kitchen"
+    ],
+    "concepts": [
+      "leisure",
+      "refreshment",
+      "healthy lifestyle",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

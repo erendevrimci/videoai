@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breakdown.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breakdown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Breakdown/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene features a humanoid figure with a cat's head, dressed in casual attire, standing beside a classic white Porsche. The car's trunk is open, releasing a large plume of smoke into the air. The setting is dark, highlighting the unusual and whimsical nature of the scene.",
+      "description": "The image presents a whimsical and surreal setting where a humanoid figure with a cat's head interacts with a classic car. The scene is set against a dark background, emphasizing the contrast between the white car and the smoke billowing from its trunk.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "car",
+          "smoke"
+        ],
+        "actions": [
+          "standing",
+          "smoke releasing"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Breakdown.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Breakdown/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene features a humanoid figure with a cat's head standing beside a classic white Porsche. The car's trunk is open, emitting a large plume of smoke, creating a dramatic backdrop. The figure is dressed in a pink shirt and white shorts, adding to the whimsical nature of the image.",
+      "description": "The image presents a fantastical and humorous setting where a humanoid with a cat's head interacts with a vintage sports car. The scene is set against a dark background, emphasizing the white car and the smoke billowing from its trunk.",
+      "labels": {
+        "people": [
+          "humanoid with cat head"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "Porsche",
+          "car",
+          "smoke"
+        ],
+        "actions": [
+          "standing",
+          "smoking car"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "fantasy",
+          "automotive"
+        ],
+        "concepts": [
+          "surrealism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid figure, humanoid with cat head. Animals: cat. Objects: car, smoke, Porsche. Actions: standing, smoke releasing, smoking car. Emotions: whimsical, surreal. Scenes: surreal, fantasy, automotive. Concepts: anthropomorphism, fantasy, surrealism, humor",
+  "primary_labels": {
+    "people": [
+      "humanoid figure",
+      "humanoid with cat head"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "car",
+      "smoke",
+      "Porsche"
+    ],
+    "actions": [
+      "standing",
+      "smoke releasing",
+      "smoking car"
+    ],
+    "emotions": [
+      "whimsical",
+      "surreal"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "automotive"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "fantasy",
+      "surrealism",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

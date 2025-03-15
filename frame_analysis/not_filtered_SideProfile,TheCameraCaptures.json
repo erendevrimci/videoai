@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SideProfile,TheCameraCaptures.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SideProfile,TheCameraCaptures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SideProfile,TheCameraCaptures/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with glasses and dark hair tied in a ponytail is seated in a gaming chair. The background features vibrant neon lights in blue and pink hues, creating a modern and dynamic atmosphere.",
+      "description": "The scene is set in a gaming or streaming environment, characterized by colorful neon lighting and a focus on technology. The woman appears to be engaged in an activity related to gaming or online interaction.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "glasses",
+          "gaming chair"
+        ],
+        "actions": [
+          "seated"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "gaming setup",
+          "modern"
+        ],
+        "concepts": [
+          "technology",
+          "streaming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SideProfile,TheCameraCaptures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SideProfile,TheCameraCaptures/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with glasses and dark hair tied in a ponytail sits in a modern setting. She appears relaxed, with her eyes closed and a slight smile on her face, illuminated by colorful ambient lighting.",
+      "description": "The scene depicts a young woman in a contemporary, possibly digital or gaming environment. The lighting is vibrant with hues of blue and pink, suggesting a playful and modern atmosphere.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "glasses",
+          "chair"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "modern setting",
+          "indoor"
+        ],
+        "concepts": [
+          "youth",
+          "technology",
+          "gaming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SideProfile,TheCameraCaptures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SideProfile,TheCameraCaptures/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman with glasses and a ponytail gazes thoughtfully to the side in a brightly lit room. The background features neon lights that create a vibrant and modern atmosphere.",
+      "description": "The scene depicts a young woman in a modern, neon-lit setting. She appears to be in a contemplative mood, with her head turned slightly to the side, showcasing her glasses and hairstyle.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "glasses",
+          "neon lights"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "modern setting"
+        ],
+        "concepts": [
+          "contemplation",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman. Objects: glasses, gaming chair, chair, neon lights. Actions: seated, sitting, smiling, gazing. Emotions: calm, focused, relaxed, content, thoughtful. Scenes: modern setting, gaming setup, modern, indoor. Concepts: technology, streaming, youth, gaming, contemplation",
+  "primary_labels": {
+    "people": [
+      "young woman"
+    ],
+    "objects": [
+      "glasses",
+      "gaming chair",
+      "chair",
+      "neon lights"
+    ],
+    "actions": [
+      "seated",
+      "sitting",
+      "smiling",
+      "gazing"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "relaxed",
+      "content",
+      "thoughtful"
+    ],
+    "scenes": [
+      "modern setting",
+      "gaming setup",
+      "modern",
+      "indoor"
+    ],
+    "concepts": [
+      "technology",
+      "streaming",
+      "youth",
+      "gaming",
+      "contemplation"
+    ]
+  },
+  "metadata": {}
+}

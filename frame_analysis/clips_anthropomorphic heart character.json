@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/anthropomorphic heart character.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/anthropomorphic heart character.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/anthropomorphic heart character/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cartoonish red heart character is confidently striding forward. It wears black sunglasses and red sneakers, with white gloves on its hands.",
+      "description": "The scene features an animated heart character with a playful and cool demeanor. The heart is depicted as a lively figure, suggesting a sense of fun and confidence.",
+      "labels": {
+        "objects": [
+          "heart",
+          "sunglasses",
+          "sneakers",
+          "gloves"
+        ],
+        "actions": [
+          "walking",
+          "striding"
+        ],
+        "emotions": [
+          "confident",
+          "playful"
+        ],
+        "scenes": [
+          "cartoon",
+          "animation"
+        ],
+        "concepts": [
+          "cool",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/anthropomorphic heart character.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/anthropomorphic heart character/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant red heart character stands confidently, wearing stylish sunglasses and sneakers. Its playful pose and cheerful expression convey a sense of fun and coolness.",
+      "description": "The scene features an animated heart character in a playful and lively setting. The heart is anthropomorphized with limbs and accessories, exuding a sense of personality and charm.",
+      "labels": {
+        "objects": [
+          "heart",
+          "sunglasses",
+          "sneakers"
+        ],
+        "actions": [
+          "posing",
+          "standing"
+        ],
+        "emotions": [
+          "cheerful",
+          "confident"
+        ],
+        "scenes": [
+          "animated",
+          "playful"
+        ],
+        "concepts": [
+          "fun",
+          "coolness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: heart, sunglasses, sneakers, gloves. Actions: walking, striding, posing, standing. Emotions: confident, playful, cheerful. Scenes: cartoon, animation, animated, playful. Concepts: fun, cool, coolness",
+  "primary_labels": {
+    "objects": [
+      "heart",
+      "sunglasses",
+      "sneakers",
+      "gloves"
+    ],
+    "actions": [
+      "walking",
+      "striding",
+      "posing",
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "playful",
+      "cheerful"
+    ],
+    "scenes": [
+      "cartoon",
+      "animation",
+      "animated",
+      "playful"
+    ],
+    "concepts": [
+      "fun",
+      "cool",
+      "coolness"
+    ]
+  },
+  "metadata": {}
+}

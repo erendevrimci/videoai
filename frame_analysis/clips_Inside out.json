@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inside out.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inside out.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Inside out/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man kneels in a dark forest, his face buried in his hands, under a large, glowing full moon. The trees around him are tall and shadowy, creating an eerie atmosphere.",
+      "description": "The scene takes place in a dense, dark forest at night, illuminated by the bright full moon. A man is the central focus, kneeling on the ground with a distressed posture, suggesting emotional turmoil.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "forest",
+          "moon",
+          "trees"
+        ],
+        "objects": [],
+        "actions": [
+          "kneeling",
+          "covering face"
+        ],
+        "emotions": [
+          "distress",
+          "despair"
+        ],
+        "scenes": [
+          "night",
+          "woods"
+        ],
+        "concepts": [
+          "solitude",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inside out.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Inside out/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A werewolf howls under a full moon in a dark forest. The creature's mouth is open wide, revealing sharp teeth, as it raises its arms in a dramatic pose. The moonlight casts an eerie glow over the scene, highlighting the werewolf's fur and muscular form.",
+      "description": "The scene depicts a werewolf in a forest at night, illuminated by a bright full moon. The creature is in a dynamic pose, suggesting transformation or a call to the wild.",
+      "labels": {
+        "animals": [
+          "werewolf"
+        ],
+        "nature": [
+          "moon",
+          "forest"
+        ],
+        "objects": [
+          "shirt"
+        ],
+        "actions": [
+          "howling",
+          "transformation"
+        ],
+        "emotions": [
+          "ferocity",
+          "wildness"
+        ],
+        "scenes": [
+          "night",
+          "supernatural"
+        ],
+        "concepts": [
+          "mythology",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Nature: forest, moon, trees. Objects: shirt. Actions: kneeling, covering face, howling, transformation. Emotions: distress, despair, ferocity, wildness. Scenes: night, woods, supernatural. Concepts: solitude, mystery, mythology, fantasy. Animals: werewolf",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "nature": [
+      "forest",
+      "moon",
+      "trees"
+    ],
+    "objects": [
+      "shirt"
+    ],
+    "actions": [
+      "kneeling",
+      "covering face",
+      "howling",
+      "transformation"
+    ],
+    "emotions": [
+      "distress",
+      "despair",
+      "ferocity",
+      "wildness"
+    ],
+    "scenes": [
+      "night",
+      "woods",
+      "supernatural"
+    ],
+    "concepts": [
+      "solitude",
+      "mystery",
+      "mythology",
+      "fantasy"
+    ],
+    "animals": [
+      "werewolf"
+    ]
+  },
+  "metadata": {}
+}

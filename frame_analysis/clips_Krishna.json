@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Krishna.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Krishna/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a vibrant pastoral setting, two figures sit beside a tranquil water body surrounded by colorful flowers. The sky is dominated by dramatic, billowing clouds against a bright blue backdrop, adding a sense of wonder to the scene.",
+      "description": "The scene depicts a serene and idyllic landscape with two figures resting by a reflective pond. They are surrounded by lush greenery and vibrant flowers, under a vast sky filled with dynamic cloud formations.",
+      "labels": {
+        "people": [
+          "two figures"
+        ],
+        "nature": [
+          "clouds",
+          "flowers",
+          "pond",
+          "grass"
+        ],
+        "objects": [
+          "peacock feather",
+          "clothing"
+        ],
+        "actions": [
+          "sitting",
+          "relaxing"
+        ],
+        "emotions": [
+          "peaceful",
+          "content"
+        ],
+        "scenes": [
+          "pastoral",
+          "idyllic"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Krishna/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant scene depicts two youthful figures walking hand in hand through a lush landscape. The sky is a vivid blue with fluffy white clouds, and colorful flowers bloom around them. Their expressions are joyful and serene, suggesting a deep connection and contentment.",
+      "description": "The image portrays a serene and idyllic setting with two characters walking together in a natural landscape. The scene is filled with bright colors and a sense of harmony, as the figures are surrounded by lush greenery and vibrant flowers under a clear blue sky.",
+      "labels": {
+        "people": [
+          "youthful figures",
+          "two characters"
+        ],
+        "nature": [
+          "clouds",
+          "flowers",
+          "greenery",
+          "sky"
+        ],
+        "objects": [
+          "clothing",
+          "peacock feather"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "joyful",
+          "serene",
+          "contentment"
+        ],
+        "scenes": [
+          "natural landscape",
+          "idyllic setting"
+        ],
+        "concepts": [
+          "connection",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: two figures, youthful figures, two characters. Nature: clouds, flowers, pond, grass, greenery. Objects: peacock feather, clothing. Actions: sitting, relaxing, walking, holding hands. Emotions: peaceful, content, joyful, serene, contentment. Scenes: pastoral, idyllic, natural landscape, idyllic setting. Concepts: tranquility, nature, connection, harmony",
+  "primary_labels": {
+    "people": [
+      "two figures",
+      "youthful figures",
+      "two characters"
+    ],
+    "nature": [
+      "clouds",
+      "flowers",
+      "pond",
+      "grass",
+      "greenery"
+    ],
+    "objects": [
+      "peacock feather",
+      "clothing"
+    ],
+    "actions": [
+      "sitting",
+      "relaxing",
+      "walking",
+      "holding hands"
+    ],
+    "emotions": [
+      "peaceful",
+      "content",
+      "joyful",
+      "serene",
+      "contentment"
+    ],
+    "scenes": [
+      "pastoral",
+      "idyllic",
+      "natural landscape",
+      "idyllic setting"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature",
+      "connection",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

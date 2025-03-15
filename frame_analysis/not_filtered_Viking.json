@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Viking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Viking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Viking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A bearded man with long hair stands confidently against a dark background, wearing a colorful, patterned sweater and leather straps. His intense gaze and rugged appearance suggest strength and determination.",
+      "description": "The scene captures a portrait of a man with a commanding presence, set against a plain, dark backdrop. The focus is on his facial expression and distinctive attire, which includes a vibrant sweater and leather accessories.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "sweater",
+          "leather straps"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "strength",
+          "ruggedness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Viking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Viking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man with long, wavy hair tied in a ponytail stands in profile against a dark background. He is wearing a colorful, patterned sweater and a leather strap with metal details.",
+      "description": "The scene depicts a man with a distinctive style, characterized by his long hair and full beard. The setting is minimalistic, with a focus on the subject against a plain, dark backdrop.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "sweater",
+          "leather strap"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "individuality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: sweater, leather straps, leather strap. Emotions: confidence, determination, calm. Scenes: portrait. Concepts: strength, ruggedness, fashion, individuality. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "sweater",
+      "leather straps",
+      "leather strap"
+    ],
+    "emotions": [
+      "confidence",
+      "determination",
+      "calm"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "strength",
+      "ruggedness",
+      "fashion",
+      "individuality"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

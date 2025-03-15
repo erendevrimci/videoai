@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/product publicity.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/product publicity.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/product publicity/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gold ring with embedded diamonds is elegantly placed on a rustic surface, surrounded by soft-focus pink flowers. The background features a serene sky with scattered clouds, creating a romantic and tranquil atmosphere.",
+      "description": "The scene captures a close-up of a gold ring adorned with diamonds, set against a backdrop of a peaceful sky and blurred flowers. The setting suggests a romantic or special occasion, emphasizing elegance and beauty.",
+      "labels": {
+        "objects": [
+          "gold ring",
+          "diamonds",
+          "flowers",
+          "rustic surface"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "emotions": [
+          "romantic",
+          "tranquil"
+        ],
+        "scenes": [
+          "close-up",
+          "romantic setting"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/product publicity.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/product publicity/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of elegant gold rings, one adorned with small diamonds, is displayed on a rustic wooden surface surrounded by soft pink flowers. The scene is set against a blurred background, suggesting a serene and romantic atmosphere.",
+      "description": "The image captures a close-up of two gold rings, one with diamond accents, placed on a wooden surface. Delicate pink flowers frame the rings, adding a touch of romance and beauty to the composition.",
+      "labels": {
+        "objects": [
+          "gold rings",
+          "diamonds",
+          "wooden surface"
+        ],
+        "nature": [
+          "pink flowers"
+        ],
+        "scenes": [
+          "romantic",
+          "serene"
+        ],
+        "concepts": [
+          "elegance",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: diamonds, gold ring, flowers, rustic surface, gold rings. Nature: sky, clouds, pink flowers. Emotions: romantic, tranquil. Scenes: close-up, romantic setting, romantic, serene. Concepts: elegance, beauty, romance",
+  "primary_labels": {
+    "objects": [
+      "diamonds",
+      "gold ring",
+      "flowers",
+      "rustic surface",
+      "gold rings"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "pink flowers"
+    ],
+    "emotions": [
+      "romantic",
+      "tranquil"
+    ],
+    "scenes": [
+      "close-up",
+      "romantic setting",
+      "romantic",
+      "serene"
+    ],
+    "concepts": [
+      "elegance",
+      "beauty",
+      "romance"
+    ]
+  },
+  "metadata": {}
+}

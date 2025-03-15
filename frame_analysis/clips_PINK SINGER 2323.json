@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/PINK SINGER 2323.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/PINK SINGER 2323.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/PINK SINGER 2323/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic character with long silver hair and glowing pink headphones stands amidst a backdrop of cherry blossoms. The character's attire is a blend of sleek armor and high-tech elements, reflecting a cybernetic theme.",
+      "description": "The scene depicts a cybernetic character in a serene setting filled with cherry blossoms. The combination of nature and advanced technology creates a juxtaposition of tranquility and modernity.",
+      "labels": {
+        "people": [
+          "cybernetic character"
+        ],
+        "nature": [
+          "cherry blossoms"
+        ],
+        "objects": [
+          "headphones",
+          "armor"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "futuristic",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/PINK SINGER 2323.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/PINK SINGER 2323/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic character with long silver hair and glowing pink headphones stands amidst blooming cherry blossoms. The character wears a sleek, metallic outfit that complements the vibrant pink hues of the flowers and accessories.",
+      "description": "The scene depicts a futuristic setting where a character with advanced technology is surrounded by nature. The cherry blossoms create a serene backdrop, contrasting with the high-tech elements of the character's attire.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "nature": [
+          "cherry blossoms"
+        ],
+        "objects": [
+          "headphones",
+          "metallic outfit"
+        ],
+        "emotions": [
+          "calm",
+          "futuristic"
+        ],
+        "scenes": [
+          "futuristic",
+          "nature"
+        ],
+        "concepts": [
+          "technology",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cybernetic character, character. Nature: cherry blossoms. Objects: headphones, armor, metallic outfit. Emotions: serene, calm, futuristic. Scenes: futuristic, cyberpunk, nature. Concepts: technology, nature, contrast",
+  "primary_labels": {
+    "people": [
+      "cybernetic character",
+      "character"
+    ],
+    "nature": [
+      "cherry blossoms"
+    ],
+    "objects": [
+      "headphones",
+      "armor",
+      "metallic outfit"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "futuristic"
+    ],
+    "scenes": [
+      "futuristic",
+      "cyberpunk",
+      "nature"
+    ],
+    "concepts": [
+      "technology",
+      "nature",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

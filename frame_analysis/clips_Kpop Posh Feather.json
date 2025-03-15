@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kpop Posh Feather.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kpop Posh Feather.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Kpop Posh Feather/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with blonde hair is wearing a black beret and a white sweater, holding a decorative feather. They are standing in an elegantly decorated room with framed art on the walls.",
+      "description": "The scene is set in a sophisticated interior space, likely a study or a living room, with classic decor elements. The individual appears poised and stylish, adding to the refined atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "beret",
+          "feather",
+          "sweater",
+          "necklace",
+          "belt"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "interior",
+          "elegant room"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Kpop Posh Feather.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Kpop Posh Feather/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently indoors, wearing a stylish outfit with a beret and layered necklaces. The setting is elegant, with framed artwork and ornate decor in the background.",
+      "description": "The scene is set in a sophisticated indoor environment, possibly a study or a living room, characterized by its classic and artistic decor. The person is dressed in a fashionable manner, exuding a sense of confidence and style.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "beret",
+          "necklaces",
+          "bracelet",
+          "belt",
+          "framed artwork"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "elegant setting"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: beret, belt, feather, sweater, necklace. Actions: holding, standing. Emotions: calm, confident. Scenes: interior, elegant room, indoor, elegant setting. Concepts: fashion, style, sophistication",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "beret",
+      "belt",
+      "feather",
+      "sweater",
+      "necklace"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "confident"
+    ],
+    "scenes": [
+      "interior",
+      "elegant room",
+      "indoor",
+      "elegant setting"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

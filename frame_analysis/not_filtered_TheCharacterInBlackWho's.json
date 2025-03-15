@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterInBlackWho's.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterInBlackWho's.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCharacterInBlackWho's/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two anthropomorphic pigs are exercising on treadmills in a modern gym. They are wearing athletic clothing and appear focused on their workout. The setting is clean and well-lit, emphasizing the characters' determination.",
+      "description": "The scene takes place in a gym where two animated pig characters are engaged in a treadmill workout. They are dressed in sporty attire, suggesting a commitment to fitness.",
+      "labels": {
+        "animals": [
+          "pigs"
+        ],
+        "objects": [
+          "treadmill",
+          "glasses",
+          "athletic clothing"
+        ],
+        "actions": [
+          "running",
+          "exercising"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "gym",
+          "workout"
+        ],
+        "concepts": [
+          "fitness",
+          "exercise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCharacterInBlackWho's.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCharacterInBlackWho's/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two anthropomorphic pigs are on a treadmill, with one holding a piece of cheese. The pig in the foreground appears focused, while the one in the background looks surprised.",
+      "description": "The scene takes place in a gym setting where two animated pigs are exercising on a treadmill. The pig in the foreground is holding a piece of cheese, seemingly unfazed by the workout, while the pig in the background looks shocked or amused.",
+      "labels": {
+        "animals": [
+          "pigs"
+        ],
+        "objects": [
+          "treadmill",
+          "cheese",
+          "glasses"
+        ],
+        "actions": [
+          "running",
+          "holding"
+        ],
+        "emotions": [
+          "focus",
+          "surprise"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "exercise",
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: pigs. Objects: treadmill, glasses, athletic clothing, cheese. Actions: running, exercising, holding. Emotions: determination, focus, surprise. Scenes: gym, workout. Concepts: exercise, fitness, humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "pigs"
+    ],
+    "objects": [
+      "treadmill",
+      "glasses",
+      "athletic clothing",
+      "cheese"
+    ],
+    "actions": [
+      "running",
+      "exercising",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "focus",
+      "surprise"
+    ],
+    "scenes": [
+      "gym",
+      "workout"
+    ],
+    "concepts": [
+      "exercise",
+      "fitness",
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

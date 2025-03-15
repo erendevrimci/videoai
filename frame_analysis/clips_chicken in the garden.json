@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/chicken in the garden.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/chicken in the garden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/chicken in the garden/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a chicken with its body humorously replaced by a cluster of apples. The chicken stands on a grassy path surrounded by apple trees, creating a surreal and amusing visual. The setting is a lush orchard, enhancing the playful nature of the image.",
+      "description": "The scene is set in an orchard with apple trees lining a grassy path. A chicken, creatively altered to have apples instead of its body, stands prominently in the center, adding a fantastical element to the natural setting.",
+      "labels": {
+        "animals": [
+          "chicken"
+        ],
+        "nature": [
+          "apple trees",
+          "grass",
+          "orchard"
+        ],
+        "objects": [
+          "apples"
+        ],
+        "emotions": [
+          "humor",
+          "whimsy"
+        ],
+        "scenes": [
+          "orchard",
+          "nature"
+        ],
+        "concepts": [
+          "surrealism",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/chicken in the garden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/chicken in the garden/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A rooster is humorously adorned with a cluster of apples on its back, strutting through a lush orchard. The scene captures the playful juxtaposition of the animal with the fruit, set against a backdrop of apple trees laden with ripe apples.",
+      "description": "The scene takes place in a verdant orchard filled with apple trees. A rooster, carrying an unusual load of apples on its back, walks through the grassy area, creating a whimsical and light-hearted atmosphere.",
+      "labels": {
+        "animals": [
+          "rooster"
+        ],
+        "nature": [
+          "orchard",
+          "apple trees",
+          "grass"
+        ],
+        "objects": [
+          "apples"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "humorous",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "farm"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: chicken, rooster. Nature: apple trees, grass, orchard. Objects: apples. Emotions: humor, whimsy, humorous, playful. Scenes: orchard, nature, outdoor, farm. Concepts: surrealism, fantasy, juxtaposition, whimsy. Actions: walking",
+  "primary_labels": {
+    "animals": [
+      "chicken",
+      "rooster"
+    ],
+    "nature": [
+      "apple trees",
+      "grass",
+      "orchard"
+    ],
+    "objects": [
+      "apples"
+    ],
+    "emotions": [
+      "humor",
+      "whimsy",
+      "humorous",
+      "playful"
+    ],
+    "scenes": [
+      "orchard",
+      "nature",
+      "outdoor",
+      "farm"
+    ],
+    "concepts": [
+      "surrealism",
+      "fantasy",
+      "juxtaposition",
+      "whimsy"
+    ],
+    "actions": [
+      "walking"
+    ]
+  },
+  "metadata": {}
+}

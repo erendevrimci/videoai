@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThrowCardsSmokeACigarette.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThrowCardsSmokeACigarette.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThrowCardsSmokeACigarette/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of anthropomorphic animals, including a fox, pig, rooster, and cat, are gathered around a poker table in a dimly lit room. They are dressed in human clothing, such as suits and leather jackets, and appear to be deeply engaged in a game of poker. Smoke drifts through the air, adding to the mysterious and intense atmosphere.",
+      "description": "The scene depicts a poker game in a dimly lit room, featuring anthropomorphic animals dressed in human attire. The setting suggests a secretive or exclusive gathering, with a focus on the intense expressions of the players.",
+      "labels": {
+        "animals": [
+          "fox",
+          "pig",
+          "rooster",
+          "cat"
+        ],
+        "objects": [
+          "poker table",
+          "cards",
+          "poker chips",
+          "lamps"
+        ],
+        "actions": [
+          "playing poker",
+          "smoking"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "poker game",
+          "dimly lit room"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "gambling",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ThrowCardsSmokeACigarette.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ThrowCardsSmokeACigarette/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fox, pig, and rooster, all anthropomorphic, are seated around a poker table, each wearing leather jackets. They are engaged in a game of poker, with poker chips and cards spread across the table. The scene is dimly lit, creating an intense and focused atmosphere.",
+      "description": "The scene depicts a group of anthropomorphic animals playing poker in a dimly lit room. The setting suggests a secretive or exclusive gathering, with the animals dressed in leather jackets, adding a sense of style and seriousness to the game.",
+      "labels": {
+        "animals": [
+          "fox",
+          "pig",
+          "rooster"
+        ],
+        "objects": [
+          "poker table",
+          "poker chips",
+          "playing cards",
+          "leather jackets"
+        ],
+        "actions": [
+          "playing poker"
+        ],
+        "emotions": [
+          "focus",
+          "intensity"
+        ],
+        "scenes": [
+          "poker game",
+          "dimly lit room"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "gambling"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fox, pig, rooster, cat. Objects: poker table, poker chips, cards, lamps, playing cards. Actions: playing poker, smoking. Emotions: intensity, focus. Scenes: poker game, dimly lit room. Concepts: anthropomorphism, gambling, mystery",
+  "primary_labels": {
+    "animals": [
+      "fox",
+      "pig",
+      "rooster",
+      "cat"
+    ],
+    "objects": [
+      "poker table",
+      "poker chips",
+      "cards",
+      "lamps",
+      "playing cards"
+    ],
+    "actions": [
+      "playing poker",
+      "smoking"
+    ],
+    "emotions": [
+      "intensity",
+      "focus"
+    ],
+    "scenes": [
+      "poker game",
+      "dimly lit room"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "gambling",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ladys at the Bar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ladys at the Bar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ladys at the Bar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two elegantly dressed women sit at a dimly lit bar, each holding a glass of whiskey. The warm glow of hanging lights creates a moody atmosphere, highlighting their striking features and stylish attire.",
+      "description": "The scene is set in a sophisticated bar with a vintage ambiance. The focus is on two women who exude confidence and elegance, surrounded by a backdrop of warm lighting and a lively bar setting.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "objects": [
+          "whiskey glass",
+          "hat",
+          "jewelry"
+        ],
+        "actions": [
+          "sitting",
+          "holding glass"
+        ],
+        "emotions": [
+          "confidence",
+          "elegance"
+        ],
+        "scenes": [
+          "bar",
+          "nightlife"
+        ],
+        "concepts": [
+          "sophistication",
+          "vintage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ladys at the Bar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ladys at the Bar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two women are seated at a bar, each holding a drink and engaging in conversation. The warm glow of hanging lamps creates an intimate and lively atmosphere. Both women are dressed stylishly, with one wearing a hat, adding a touch of elegance to the scene.",
+      "description": "The scene is set in a dimly lit bar with a lively and social atmosphere. The focus is on two women enjoying drinks, surrounded by the warm ambiance of hanging lights and other patrons in the background.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "objects": [
+          "drinks",
+          "bar",
+          "hat",
+          "lamps"
+        ],
+        "actions": [
+          "drinking",
+          "talking"
+        ],
+        "emotions": [
+          "enjoyment",
+          "relaxation"
+        ],
+        "scenes": [
+          "bar",
+          "social setting"
+        ],
+        "concepts": [
+          "friendship",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: women. Objects: hat, whiskey glass, jewelry, drinks, bar. Actions: sitting, holding glass, drinking, talking. Emotions: confidence, elegance, enjoyment, relaxation. Scenes: bar, nightlife, social setting. Concepts: sophistication, vintage, friendship, nightlife",
+  "primary_labels": {
+    "people": [
+      "women"
+    ],
+    "objects": [
+      "hat",
+      "whiskey glass",
+      "jewelry",
+      "drinks",
+      "bar"
+    ],
+    "actions": [
+      "sitting",
+      "holding glass",
+      "drinking",
+      "talking"
+    ],
+    "emotions": [
+      "confidence",
+      "elegance",
+      "enjoyment",
+      "relaxation"
+    ],
+    "scenes": [
+      "bar",
+      "nightlife",
+      "social setting"
+    ],
+    "concepts": [
+      "sophistication",
+      "vintage",
+      "friendship",
+      "nightlife"
+    ]
+  },
+  "metadata": {}
+}

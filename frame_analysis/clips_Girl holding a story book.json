@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl holding a story book.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl holding a story book.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl holding a story book/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with long brown hair sits on a patterned rug, engrossed in a book with an ornate cover. She wears a white dress and a red cardigan, with sunlight streaming through a window behind her.",
+      "description": "The scene depicts a cozy indoor setting where a girl is deeply focused on reading. The warm sunlight and comfortable surroundings suggest a peaceful and serene atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "book",
+          "rug",
+          "cardigan",
+          "dress"
+        ],
+        "actions": [
+          "reading",
+          "sitting"
+        ],
+        "emotions": [
+          "focused",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "literature",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl holding a story book.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl holding a story book/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with long brown hair, adorned with a red ribbon, is sitting on a patterned rug in a cozy room. She is engrossed in a large, ornate book that emits a warm, magical glow, illuminating her delighted expression.",
+      "description": "The scene is set in a warmly lit room with sunlight streaming through a window, casting a soft glow. The focus is on a young girl who is captivated by a magical book, suggesting a sense of wonder and enchantment.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "book",
+          "rug",
+          "window",
+          "ribbon"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "delight",
+          "wonder"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy room"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl holding a story book.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl holding a story book/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl with long brown hair sits on a rug, holding an ornate book that emits a warm, magical glow. She is dressed in a white dress and a red cardigan, looking at the book with a delighted expression.",
+      "description": "The scene depicts a cozy indoor setting where a girl is captivated by a magical book. Sunlight filters through the window, adding warmth to the room, and the girl's expression suggests wonder and excitement.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "book",
+          "rug",
+          "cardigan",
+          "dress"
+        ],
+        "actions": [
+          "reading",
+          "sitting"
+        ],
+        "emotions": [
+          "delight",
+          "wonder"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "magic",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: book, rug, cardigan, dress, window. Actions: reading, sitting. Emotions: delight, wonder, focused, calm. Scenes: indoor, cozy, cozy room. Concepts: magic, literature, relaxation, enchantment, imagination",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "book",
+      "rug",
+      "cardigan",
+      "dress",
+      "window"
+    ],
+    "actions": [
+      "reading",
+      "sitting"
+    ],
+    "emotions": [
+      "delight",
+      "wonder",
+      "focused",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy",
+      "cozy room"
+    ],
+    "concepts": [
+      "magic",
+      "literature",
+      "relaxation",
+      "enchantment",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

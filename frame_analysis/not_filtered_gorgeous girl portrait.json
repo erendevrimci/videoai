@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/gorgeous girl portrait.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/gorgeous girl portrait.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/gorgeous girl portrait/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a young woman with soft, natural lighting casting intricate shadows across her face. Her eyes are strikingly illuminated, and her expression is calm and contemplative.",
+      "description": "The scene captures an intimate and serene moment, focusing on the woman's face with dappled sunlight creating a pattern of light and shadow. The setting suggests a peaceful and introspective atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "face"
+        ],
+        "nature": [
+          "sunlight",
+          "shadows"
+        ],
+        "objects": [],
+        "actions": [],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait",
+          "close-up"
+        ],
+        "concepts": [
+          "intimacy",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/gorgeous girl portrait.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/gorgeous girl portrait/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a woman with soft, natural lighting casting intricate shadows on her face. Her expression is serene and introspective, with her eyes gently gazing downward.",
+      "description": "The scene captures an intimate and contemplative moment, focusing on the woman's face as dappled sunlight filters through foliage, creating a play of light and shadow.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sunlight",
+          "shadows"
+        ],
+        "objects": [],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "introspective"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "intimacy",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, face. Nature: sunlight, shadows. Actions: gazing. Emotions: calm, contemplative, serene, introspective. Scenes: portrait, close-up. Concepts: intimacy, serenity, contemplation",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "face"
+    ],
+    "nature": [
+      "sunlight",
+      "shadows"
+    ],
+    "objects": [],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative",
+      "serene",
+      "introspective"
+    ],
+    "scenes": [
+      "portrait",
+      "close-up"
+    ],
+    "concepts": [
+      "intimacy",
+      "serenity",
+      "contemplation"
+    ]
+  },
+  "metadata": {}
+}

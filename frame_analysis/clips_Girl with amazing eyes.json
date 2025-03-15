@@ -1,0 +1,142 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with amazing eyes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with amazing eyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with amazing eyes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with wet hair, standing in the rain. The individual has striking blue eyes and a calm, focused expression.",
+      "description": "The scene captures a person outdoors in the rain, with water droplets visible on their face and hair. The background is blurred, suggesting an urban setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "portrait",
+          "weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with amazing eyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with amazing eyes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with wet hair and water droplets on their face, smiling gently. The background is blurred, emphasizing the subject's bright eyes and serene expression.",
+      "description": "The scene captures a person standing in the rain, with water droplets visible on their face and hair. The focus is on the person's facial expression, which conveys a sense of calm and contentment.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "serenity",
+          "contentment"
+        ],
+        "scenes": [
+          "close-up portrait"
+        ],
+        "concepts": [
+          "rainy day",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with amazing eyes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with amazing eyes/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with wet hair smiles warmly at the camera, standing in the rain. Her blue eyes and joyful expression create a captivating focal point against the blurred urban background.",
+      "description": "The scene captures a close-up of a woman outdoors in a rainy urban setting. Her wet hair and raindrops on her face highlight the rainy weather, while her smile adds a cheerful tone to the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "joy",
+          "rainy day"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face, woman. Nature: rain. Objects: jacket. Actions: smiling, standing. Emotions: calm, focused, serenity, contentment, happiness. Scenes: outdoor, urban, close-up portrait. Concepts: rainy day, portrait, weather, natural beauty, joy",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face",
+      "woman"
+    ],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "jacket"
+    ],
+    "actions": [
+      "smiling",
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "serenity",
+      "contentment",
+      "happiness"
+    ],
+    "scenes": [
+      "outdoor",
+      "urban",
+      "close-up portrait"
+    ],
+    "concepts": [
+      "rainy day",
+      "portrait",
+      "weather",
+      "natural beauty",
+      "joy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u7f8e\u7f8e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u7f8e\u7f8e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u7f8e\u7f8e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red dress poses gracefully, her long hair flowing in the breeze. The sunlight creates a warm glow around her, highlighting her serene expression.",
+      "description": "The scene captures a woman outdoors, possibly near a body of water, as suggested by the blurred background. The focus is on her elegant posture and the vibrant red of her dress.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sunlight"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u7f8e\u7f8e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u7f8e\u7f8e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, flowing hair is captured in a serene moment, gently touching her hair. She is wearing a strapless red dress and a delicate necklace, exuding elegance and grace.",
+      "description": "The scene portrays a close-up of a woman in a peaceful and contemplative state, possibly outdoors given the soft lighting and natural background blur.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "necklace"
+        ],
+        "actions": [
+          "touching hair"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sunlight. Objects: dress, necklace. Actions: posing, touching hair. Emotions: serene, contemplative. Scenes: outdoor, portrait. Concepts: elegance, fashion, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sunlight"
+    ],
+    "objects": [
+      "dress",
+      "necklace"
+    ],
+    "actions": [
+      "posing",
+      "touching hair"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "outdoor",
+      "portrait"
+    ],
+    "concepts": [
+      "elegance",
+      "fashion",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

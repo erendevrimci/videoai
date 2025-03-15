@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/landscape photograph rainforest.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/landscape photograph rainforest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/landscape photograph rainforest/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lush, verdant forest scene with towering trees and dense foliage. A gentle stream winds through the moss-covered rocks, creating a serene and tranquil atmosphere.",
+      "description": "The scene is set in a dense, green forest with tall trees and abundant undergrowth. A small stream flows through the mossy landscape, adding to the peaceful ambiance.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees",
+          "stream",
+          "moss",
+          "foliage"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "flowing"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "scenes": [
+          "forest scene"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/landscape photograph rainforest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/landscape photograph rainforest/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lush, dense forest scene is depicted with towering trees covered in moss and large green leaves. A gentle stream flows through the forest, surrounded by moss-covered rocks and vibrant foliage. Sunlight filters through the canopy, creating a serene and tranquil atmosphere.",
+      "description": "The scene is set in a dense, verdant forest with a tranquil stream running through it. The forest is alive with greenery, featuring tall trees, moss-covered rocks, and a variety of plants. Sunlight gently illuminates the area, enhancing the natural beauty and peacefulness of the setting.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees",
+          "stream",
+          "rocks",
+          "moss",
+          "leaves"
+        ],
+        "objects": [
+          "rocks",
+          "stream"
+        ],
+        "actions": [
+          "flowing"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "scenes": [
+          "forest scene",
+          "nature"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility",
+          "lushness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, trees, stream, moss, foliage. Objects: rocks, stream. Actions: flowing. Emotions: serene, tranquil. Scenes: forest scene, nature. Concepts: nature, tranquility, lushness",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "trees",
+      "stream",
+      "moss",
+      "foliage"
+    ],
+    "objects": [
+      "rocks",
+      "stream"
+    ],
+    "actions": [
+      "flowing"
+    ],
+    "emotions": [
+      "serene",
+      "tranquil"
+    ],
+    "scenes": [
+      "forest scene",
+      "nature"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "lushness"
+    ]
+  },
+  "metadata": {}
+}

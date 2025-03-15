@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Farmers and hammers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Farmers and hammers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Farmers and hammers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three figures wearing traditional conical hats are engaged in agricultural work, tending to a pile of green produce in a sunlit field. The scene is set near a rustic wooden structure, with rows of similar produce visible in the background. The warm lighting suggests an early morning or late afternoon setting, adding a serene and industrious atmosphere.",
+      "description": "The scene depicts a rural agricultural setting where three individuals are actively working in a field. They are focused on a cluster of green produce, possibly harvesting or arranging it. The presence of a thatched structure and the alignment of the produce suggest an organized farming operation.",
+      "labels": {
+        "people": [
+          "farmers"
+        ],
+        "nature": [
+          "field",
+          "produce"
+        ],
+        "objects": [
+          "conical hats",
+          "wooden structure"
+        ],
+        "actions": [
+          "harvesting",
+          "arranging"
+        ],
+        "emotions": [
+          "industrious"
+        ],
+        "scenes": [
+          "agricultural setting",
+          "rural landscape"
+        ],
+        "concepts": [
+          "farming",
+          "traditional agriculture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Farmers and hammers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Farmers and hammers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three figures wearing traditional conical hats are engaged in agricultural work, tending to a pile of green produce. They are positioned in a rural setting with a thatched-roof structure in the background. The warm lighting suggests a sunrise or sunset, casting a serene glow over the scene.",
+      "description": "The scene depicts a rural agricultural setting where three individuals are working together to manage a pile of green produce. The figures are wearing traditional attire, including conical hats and aprons, suggesting a cultural context. The background features a thatched-roof structure, indicating a farm or village environment.",
+      "labels": {
+        "people": [
+          "figures",
+          "workers"
+        ],
+        "nature": [
+          "produce",
+          "plants"
+        ],
+        "objects": [
+          "conical hats",
+          "thatched-roof",
+          "tools"
+        ],
+        "actions": [
+          "tending",
+          "working"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "agricultural",
+          "rural"
+        ],
+        "concepts": [
+          "tradition",
+          "farming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: farmers, figures, workers. Nature: produce, field, plants. Objects: conical hats, wooden structure, thatched-roof, tools. Actions: harvesting, arranging, tending, working. Emotions: industrious, serene. Scenes: agricultural setting, rural landscape, agricultural, rural. Concepts: farming, traditional agriculture, tradition",
+  "primary_labels": {
+    "people": [
+      "farmers",
+      "figures",
+      "workers"
+    ],
+    "nature": [
+      "produce",
+      "field",
+      "plants"
+    ],
+    "objects": [
+      "conical hats",
+      "wooden structure",
+      "thatched-roof",
+      "tools"
+    ],
+    "actions": [
+      "harvesting",
+      "arranging",
+      "tending",
+      "working"
+    ],
+    "emotions": [
+      "industrious",
+      "serene"
+    ],
+    "scenes": [
+      "agricultural setting",
+      "rural landscape",
+      "agricultural",
+      "rural"
+    ],
+    "concepts": [
+      "farming",
+      "traditional agriculture",
+      "tradition"
+    ]
+  },
+  "metadata": {}
+}

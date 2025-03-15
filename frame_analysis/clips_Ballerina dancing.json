@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ballerina dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ballerina dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ballerina dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ballerina gracefully balances on the nose of a breaching orca amidst an icy seascape. The dancer is poised in an elegant arabesque, her white tutu contrasting with the orca's sleek black and white body. Icebergs and snow-covered mountains form a dramatic backdrop, enhancing the surreal beauty of the scene.",
+      "description": "The scene depicts a fantastical moment where a ballerina performs atop a breaching orca in an icy, oceanic setting. The juxtaposition of the delicate dancer and the powerful marine mammal creates a striking visual contrast.",
+      "labels": {
+        "people": [
+          "ballerina"
+        ],
+        "animals": [
+          "orca"
+        ],
+        "nature": [
+          "iceberg",
+          "ocean",
+          "snow-covered mountains"
+        ],
+        "objects": [
+          "tutu"
+        ],
+        "actions": [
+          "balancing",
+          "breaching"
+        ],
+        "emotions": [
+          "graceful",
+          "majestic"
+        ],
+        "scenes": [
+          "fantasy",
+          "marine"
+        ],
+        "concepts": [
+          "contrast",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ballerina dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ballerina dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ballerina in a white tutu gracefully balances on the nose of a breaching orca in an icy seascape. The scene is set against a backdrop of towering icebergs and a calm, reflective ocean. The juxtaposition of the delicate dancer and the powerful whale creates a surreal and captivating image.",
+      "description": "The scene depicts a unique and imaginative interaction between a human and a marine animal in a cold, arctic environment. The ballerina's poised elegance contrasts with the orca's dynamic movement, set amidst a serene, icy landscape.",
+      "labels": {
+        "people": [
+          "ballerina"
+        ],
+        "animals": [
+          "orca"
+        ],
+        "nature": [
+          "icebergs",
+          "ocean"
+        ],
+        "objects": [
+          "tutu"
+        ],
+        "actions": [
+          "balancing",
+          "breaching"
+        ],
+        "emotions": [
+          "graceful",
+          "surreal"
+        ],
+        "scenes": [
+          "arctic",
+          "seascape"
+        ],
+        "concepts": [
+          "contrast",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: ballerina. Animals: orca. Nature: ocean, iceberg, snow-covered mountains, icebergs. Objects: tutu. Actions: balancing, breaching. Emotions: graceful, majestic, surreal. Scenes: fantasy, marine, arctic, seascape. Concepts: contrast, surrealism, imagination",
+  "primary_labels": {
+    "people": [
+      "ballerina"
+    ],
+    "animals": [
+      "orca"
+    ],
+    "nature": [
+      "ocean",
+      "iceberg",
+      "snow-covered mountains",
+      "icebergs"
+    ],
+    "objects": [
+      "tutu"
+    ],
+    "actions": [
+      "balancing",
+      "breaching"
+    ],
+    "emotions": [
+      "graceful",
+      "majestic",
+      "surreal"
+    ],
+    "scenes": [
+      "fantasy",
+      "marine",
+      "arctic",
+      "seascape"
+    ],
+    "concepts": [
+      "contrast",
+      "surrealism",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

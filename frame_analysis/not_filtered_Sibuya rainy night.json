@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sibuya rainy night.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sibuya rainy night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Sibuya rainy night/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands confidently in a bustling urban street, her gaze directed towards the camera. She wears a green jacket and carries a backpack, while neon signs illuminate the rainy evening scene behind her.",
+      "description": "The scene is set in a vibrant city street at night, with a mix of modern architecture and neon lights. The atmosphere is lively yet moody, enhanced by the reflections on the wet pavement.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jacket",
+          "backpack",
+          "neon signs"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban street",
+          "night"
+        ],
+        "concepts": [
+          "city life",
+          "rainy evening"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Sibuya rainy night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Sibuya rainy night/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands confidently in a bustling city street at night, surrounded by neon lights and a light rain. She wears a green jacket and a black top, with her hair slightly tousled, exuding a sense of determination. The background is filled with people holding umbrellas and illuminated signs, creating a vibrant urban atmosphere.",
+      "description": "The scene is set in a busy city street during nighttime, characterized by vibrant neon lights and a rainy ambiance. The focus is on a young woman in the foreground, with a backdrop of people and bustling city life.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "jacket",
+          "umbrella",
+          "neon signs"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime",
+          "rain"
+        ],
+        "concepts": [
+          "urban life",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd. Objects: jacket, neon signs, backpack, umbrella. Actions: standing, walking. Emotions: confident, determination. Scenes: urban street, night, city street, nighttime, rain. Concepts: city life, rainy evening, urban life, vibrancy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd"
+    ],
+    "objects": [
+      "jacket",
+      "neon signs",
+      "backpack",
+      "umbrella"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "determination"
+    ],
+    "scenes": [
+      "urban street",
+      "night",
+      "city street",
+      "nighttime",
+      "rain"
+    ],
+    "concepts": [
+      "city life",
+      "rainy evening",
+      "urban life",
+      "vibrancy"
+    ]
+  },
+  "metadata": {}
+}

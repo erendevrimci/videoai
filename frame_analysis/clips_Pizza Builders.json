@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pizza Builders.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pizza Builders.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pizza Builders/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers on a pizza, using tiny machinery to spread cheese. The workers are dressed in red uniforms and helmets, actively engaged in their tasks amidst a snowy backdrop of grated cheese.",
+      "description": "The image presents a playful and imaginative setting where miniature figures are working on a pizza as if it were a construction site. The scene is set in a kitchen-like environment with a focus on cheese and pizza toppings.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "pizza",
+          "cheese",
+          "miniature machinery",
+          "pepperoni"
+        ],
+        "actions": [
+          "spreading cheese",
+          "operating machinery"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen",
+          "construction site"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pizza Builders.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pizza Builders/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature workers on a pizza, engaged in construction-like activities. Tiny figures in red uniforms are busy spreading cheese and arranging toppings, while a small tractor is seen moving across the pizza surface. The background is filled with large blocks of cheese, creating a surreal and playful atmosphere.",
+      "description": "The scene presents a creative and imaginative setting where miniature figures are working on a pizza as if it were a construction site. The setting is playful, with oversized cheese blocks in the background adding to the surreal nature of the image.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "pizza",
+          "cheese",
+          "tractor",
+          "toppings"
+        ],
+        "actions": [
+          "spreading cheese",
+          "arranging toppings"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "miniature world",
+          "food art"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, miniature figures, workers. Objects: pizza, cheese, miniature machinery, pepperoni, tractor. Actions: spreading cheese, operating machinery, arranging toppings. Emotions: playful, whimsical. Scenes: kitchen, construction site, miniature world, food art. Concepts: miniature world, food art, creativity, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "miniature figures",
+      "workers"
+    ],
+    "objects": [
+      "pizza",
+      "cheese",
+      "miniature machinery",
+      "pepperoni",
+      "tractor"
+    ],
+    "actions": [
+      "spreading cheese",
+      "operating machinery",
+      "arranging toppings"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen",
+      "construction site",
+      "miniature world",
+      "food art"
+    ],
+    "concepts": [
+      "miniature world",
+      "food art",
+      "creativity",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

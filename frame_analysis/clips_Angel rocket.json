@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angel rocket.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angel rocket.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Angel rocket/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in front of a glowing angel wing installation on a dimly lit street corner. The illuminated wings create a striking contrast against the night, casting a soft glow around the figure.",
+      "description": "The scene is set on a quiet street at night, featuring a person posing in front of a neon angel wing display attached to a building wall. The setting is urban, with stone walls and a cobblestone sidewalk.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "neon wings",
+          "coat",
+          "hat",
+          "boots"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "art installation",
+          "street art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angel rocket.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Angel rocket/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person appears to be ascending into the night sky, surrounded by glowing wings and a trail of light. The scene is set against a building with warm lighting, creating a mystical atmosphere.",
+      "description": "The image captures a surreal moment where a person is seemingly lifted off the ground, enveloped by ethereal wings and bright light. The setting is urban, with a building in the background, suggesting a nighttime scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "wings",
+          "building",
+          "light"
+        ],
+        "actions": [
+          "ascending",
+          "floating"
+        ],
+        "emotions": [
+          "mystical",
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "fantasy",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: neon wings, coat, hat, boots, wings. Actions: standing, posing, ascending, floating. Emotions: confident, mystical, awe. Scenes: urban, night. Concepts: art installation, street art, fantasy, supernatural",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "neon wings",
+      "coat",
+      "hat",
+      "boots",
+      "wings"
+    ],
+    "actions": [
+      "standing",
+      "posing",
+      "ascending",
+      "floating"
+    ],
+    "emotions": [
+      "confident",
+      "mystical",
+      "awe"
+    ],
+    "scenes": [
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "art installation",
+      "street art",
+      "fantasy",
+      "supernatural"
+    ]
+  },
+  "metadata": {}
+}

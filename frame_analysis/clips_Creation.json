@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Creation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with glowing blue eyes and luminescent freckles holds a vibrant, multicolored glass. The scene is illuminated with neon hues, creating a futuristic and ethereal atmosphere.",
+      "description": "The image depicts a close-up of a person in a dark setting, highlighted by vivid neon lighting. The focus is on the person's glowing features and the colorful glass they are holding, suggesting a futuristic or otherworldly theme.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "glass"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic",
+          "ethereal"
+        ],
+        "concepts": [
+          "neon",
+          "luminescence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Creation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a human eye with a glowing blue iris resembling a starry sky. The skin around the eye is softly illuminated with warm tones, creating a contrast with the cool, vibrant blue of the eye.",
+      "description": "The image captures an extreme close-up of a human eye, focusing on the strikingly luminous blue iris filled with star-like patterns. The surrounding skin is bathed in a warm, gentle light, enhancing the ethereal quality of the scene.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "iris",
+          "eyelashes"
+        ],
+        "emotions": [
+          "mystical"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "contrast",
+          "luminosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, eye. Objects: glass, iris, eyelashes. Actions: holding. Emotions: mysterious, mystical. Scenes: futuristic, ethereal, close-up. Concepts: neon, luminescence, contrast, luminosity",
+  "primary_labels": {
+    "people": [
+      "person",
+      "eye"
+    ],
+    "objects": [
+      "glass",
+      "iris",
+      "eyelashes"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "mysterious",
+      "mystical"
+    ],
+    "scenes": [
+      "futuristic",
+      "ethereal",
+      "close-up"
+    ],
+    "concepts": [
+      "neon",
+      "luminescence",
+      "contrast",
+      "luminosity"
+    ]
+  },
+  "metadata": {}
+}

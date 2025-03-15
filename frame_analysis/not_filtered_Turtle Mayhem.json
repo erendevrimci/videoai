@@ -1,0 +1,154 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Turtle Mayhem.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Turtle Mayhem.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Turtle Mayhem/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person is surrounded by numerous turtles in a dimly lit, enclosed space. Light streams in from above, casting an ethereal glow over the scene. The person appears to be crouching or sitting among the turtles, creating a sense of calm and introspection.",
+      "description": "The scene is set in a dark, enclosed area filled with turtles. A single person is present, surrounded by the animals, with light filtering in from above, creating a serene and contemplative atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "turtles"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "sitting",
+          "crouching"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "enclosed space"
+        ],
+        "concepts": [
+          "serenity",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Turtle Mayhem.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Turtle Mayhem/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person crouches amidst a large group of turtles, gently holding one in their hands. The scene is dimly lit, with soft rays of light filtering through, creating a serene and contemplative atmosphere.",
+      "description": "The scene is set in a dimly lit, enclosed space filled with numerous turtles. The person appears to be in a moment of quiet interaction with the turtle they are holding, surrounded by the calm presence of the other turtles.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "turtles"
+        ],
+        "objects": [],
+        "actions": [
+          "crouching",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "enclosed space"
+        ],
+        "concepts": [
+          "interaction with nature",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Turtle Mayhem.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Turtle Mayhem/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman wearing headphones gently cradles a turtle in her arms, surrounded by a multitude of turtles. The scene is enveloped in a soft, misty light, creating a serene and contemplative atmosphere.",
+      "description": "The scene takes place in a dimly lit environment, possibly an aquarium or a natural habitat, where a woman is closely interacting with a turtle. The presence of numerous turtles suggests a setting dedicated to marine life.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "turtle"
+        ],
+        "nature": [
+          "aquatic environment"
+        ],
+        "objects": [
+          "headphones"
+        ],
+        "actions": [
+          "cradling",
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "underwater",
+          "aquarium"
+        ],
+        "concepts": [
+          "connection with nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Animals: turtles, turtle. Nature: aquatic environment. Objects: headphones. Actions: crouching, holding, sitting, cradling. Emotions: calm, introspective, contemplative, serenity, contemplation. Scenes: enclosed space, underwater, aquarium. Concepts: serenity, contemplation, interaction with nature, connection with nature, tranquility",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "animals": [
+      "turtles",
+      "turtle"
+    ],
+    "nature": [
+      "aquatic environment"
+    ],
+    "objects": [
+      "headphones"
+    ],
+    "actions": [
+      "crouching",
+      "holding",
+      "sitting",
+      "cradling"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "contemplative",
+      "serenity",
+      "contemplation"
+    ],
+    "scenes": [
+      "enclosed space",
+      "underwater",
+      "aquarium"
+    ],
+    "concepts": [
+      "serenity",
+      "contemplation",
+      "interaction with nature",
+      "connection with nature",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

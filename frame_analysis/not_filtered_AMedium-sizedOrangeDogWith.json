@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMedium-sizedOrangeDogWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMedium-sizedOrangeDogWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMedium-sizedOrangeDogWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy dog wearing a red scarf stands in a kitchen, holding a knife and a spatula with a turtle on it. The dog appears to be cooking, with a pot of rice and fresh vegetables on the counter.",
+      "description": "The scene is set in a cozy kitchen where a dog is humorously depicted as a chef. The dog is engaged in cooking activities, surrounded by various kitchen items and ingredients.",
+      "labels": {
+        "animals": [
+          "dog",
+          "turtle"
+        ],
+        "objects": [
+          "knife",
+          "spatula",
+          "pot",
+          "rice",
+          "vegetables",
+          "fish",
+          "cutting board"
+        ],
+        "actions": [
+          "cooking"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMedium-sizedOrangeDogWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMedium-sizedOrangeDogWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy dog wearing a red scarf is standing on its hind legs in a kitchen, holding a spatula with a small turtle on it. The dog appears to be cooking, with a pot of rice on the stove and various vegetables and a fish on the counter.",
+      "description": "The scene is set in a cozy kitchen where a dog is humorously depicted as a chef. The dog is engaged in cooking activities, surrounded by kitchen utensils and ingredients, creating a whimsical and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "dog",
+          "turtle"
+        ],
+        "objects": [
+          "pot",
+          "spatula",
+          "knife",
+          "fish",
+          "vegetables",
+          "stove"
+        ],
+        "actions": [
+          "cooking",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "culinary"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog, turtle. Objects: knife, spatula, pot, vegetables, fish. Actions: cooking, holding. Emotions: humorous, playful. Scenes: kitchen. Concepts: anthropomorphism, cooking, culinary",
+  "primary_labels": {
+    "animals": [
+      "dog",
+      "turtle"
+    ],
+    "objects": [
+      "knife",
+      "spatula",
+      "pot",
+      "vegetables",
+      "fish"
+    ],
+    "actions": [
+      "cooking",
+      "holding"
+    ],
+    "emotions": [
+      "humorous",
+      "playful"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "cooking",
+      "culinary"
+    ]
+  },
+  "metadata": {}
+}

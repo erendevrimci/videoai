@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient feminine.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient feminine.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ancient feminine/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing turquoise dress walks confidently down a sunlit, ancient stone street. The scene is framed by tall, sandy-colored stone buildings, creating a sense of timeless elegance. Her long dark hair and intricate jewelry add to the regal atmosphere.",
+      "description": "The scene depicts a woman walking through an ancient, narrow street lined with tall stone buildings. The setting suggests a historical or fantasy context, with an emphasis on elegance and grace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "ancient street",
+          "historical setting"
+        ],
+        "concepts": [
+          "elegance",
+          "timelessness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient feminine.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ancient feminine/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing turquoise dress walks confidently down a sunlit stone pathway. The ancient stone buildings on either side create a historic and majestic backdrop.",
+      "description": "The scene is set in an ancient, possibly Middle Eastern or Mediterranean, city street. The woman is the focal point, dressed in elegant attire, suggesting a blend of modern fashion with historical influences.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "ancient city",
+          "stone pathway"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, jewelry. Actions: walking. Emotions: confidence. Scenes: ancient street, historical setting, ancient city, stone pathway. Concepts: elegance, timelessness, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "jewelry"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "ancient street",
+      "historical setting",
+      "ancient city",
+      "stone pathway"
+    ],
+    "concepts": [
+      "elegance",
+      "timelessness",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

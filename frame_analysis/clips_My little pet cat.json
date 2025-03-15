@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/My little pet cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/My little pet cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/My little pet cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long silver hair walks confidently alongside a black panther in a misty, rocky landscape. Both are adorned with ornate jewelry, adding a mystical quality to the scene. The setting is framed by towering cliffs and sparse trees, enhancing the enigmatic atmosphere.",
+      "description": "The scene depicts a mystical journey through a rugged, mist-covered landscape. The woman and panther exude a sense of power and grace as they move together in harmony.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "panther"
+        ],
+        "nature": [
+          "cliffs",
+          "trees",
+          "mist"
+        ],
+        "objects": [
+          "jewelry",
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "mystery"
+        ],
+        "scenes": [
+          "mystical",
+          "outdoor"
+        ],
+        "concepts": [
+          "companionship",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/My little pet cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/My little pet cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long silver hair walks alongside a majestic black panther on a rocky path. Both are adorned with intricate jewelry featuring green gemstones, exuding an aura of mystery and elegance. The background features a misty, mountainous landscape, enhancing the scene's mystical atmosphere.",
+      "description": "The scene depicts a mystical setting where a woman and a black panther walk together in harmony. The rocky path and mountainous backdrop contribute to the ethereal and enigmatic mood of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "black panther"
+        ],
+        "nature": [
+          "mountains",
+          "rocky path"
+        ],
+        "objects": [
+          "jewelry",
+          "green gemstones"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mystery",
+          "elegance"
+        ],
+        "scenes": [
+          "mystical",
+          "outdoor"
+        ],
+        "concepts": [
+          "harmony",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: panther, black panther. Nature: cliffs, trees, mist, mountains, rocky path. Objects: jewelry, dress, green gemstones. Actions: walking. Emotions: mystery, confidence, elegance. Scenes: mystical, outdoor. Concepts: companionship, power, harmony, mysticism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "panther",
+      "black panther"
+    ],
+    "nature": [
+      "cliffs",
+      "trees",
+      "mist",
+      "mountains",
+      "rocky path"
+    ],
+    "objects": [
+      "jewelry",
+      "dress",
+      "green gemstones"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "mystery",
+      "confidence",
+      "elegance"
+    ],
+    "scenes": [
+      "mystical",
+      "outdoor"
+    ],
+    "concepts": [
+      "companionship",
+      "power",
+      "harmony",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Calaf, the Prince.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Calaf, the Prince.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Calaf, the Prince/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in ornate traditional attire stands in a historical courtyard, with a grand building in the background. The setting sun casts a warm glow, highlighting the intricate details of the architecture.",
+      "description": "The scene depicts a person in traditional clothing within a historical or cultural setting, likely an ancient palace or temple courtyard. The architecture suggests a setting of significant cultural heritage.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "traditional clothing",
+          "courtyard",
+          "building",
+          "steps"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "historical setting",
+          "cultural heritage"
+        ],
+        "concepts": [
+          "tradition",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Calaf, the Prince.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Calaf, the Prince/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in traditional, ornate clothing stands in front of an ancient, grand architectural structure. The setting sun casts a warm glow, highlighting the intricate designs on the attire.",
+      "description": "The scene is set in a historical or fantasy setting, featuring traditional architecture reminiscent of ancient palaces. The person appears to be a character of importance, possibly a warrior or noble, given the elaborate costume.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "traditional clothing",
+          "headpiece"
+        ],
+        "scenes": [
+          "historical setting",
+          "palace courtyard"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "concepts": [
+          "tradition",
+          "nobility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: traditional clothing, courtyard, building, steps, headpiece. Actions: standing. Emotions: serene, serious. Scenes: historical setting, cultural heritage, palace courtyard. Concepts: tradition, heritage, nobility",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "traditional clothing",
+      "courtyard",
+      "building",
+      "steps",
+      "headpiece"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "serious"
+    ],
+    "scenes": [
+      "historical setting",
+      "cultural heritage",
+      "palace courtyard"
+    ],
+    "concepts": [
+      "tradition",
+      "heritage",
+      "nobility"
+    ]
+  },
+  "metadata": {}
+}

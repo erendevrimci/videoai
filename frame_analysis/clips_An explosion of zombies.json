@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An explosion of zombies.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An explosion of zombies.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An explosion of zombies/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive crowd of identical figures fills a city street, moving towards an explosion at the center of the scene. The explosion emits bright orange flames and thick smoke, contrasting with the dark shadows cast by the figures.",
+      "description": "The scene is set in a densely packed urban street, filled with a large number of identical humanoid figures. An explosion occurs in the middle of the street, creating a dramatic focal point with its bright colors and smoke.",
+      "labels": {
+        "people": [
+          "crowd",
+          "figures"
+        ],
+        "objects": [
+          "explosion",
+          "smoke",
+          "buildings"
+        ],
+        "actions": [
+          "walking",
+          "moving"
+        ],
+        "emotions": [
+          "chaos",
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "mass movement",
+          "disaster"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An explosion of zombies.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An explosion of zombies/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive crowd of identical figures fills a city street, moving towards an explosion at the center. The explosion emits bright orange flames and thick smoke, creating a dramatic focal point. The scene is set between tall buildings, casting long shadows over the crowd.",
+      "description": "The scene depicts a densely packed street in an urban setting, filled with numerous identical figures moving towards a fiery explosion. The explosion dominates the center of the image, with flames and smoke rising into the air. The surrounding buildings create a narrow corridor, emphasizing the scale of the crowd.",
+      "labels": {
+        "people": [
+          "crowd",
+          "figures"
+        ],
+        "objects": [
+          "explosion",
+          "buildings",
+          "smoke"
+        ],
+        "actions": [
+          "moving",
+          "exploding"
+        ],
+        "emotions": [
+          "chaos",
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "mass movement",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, figures. Objects: explosion, smoke, buildings. Actions: moving, walking, exploding. Emotions: chaos, intensity. Scenes: urban, street. Concepts: mass movement, disaster, destruction",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "figures"
+    ],
+    "objects": [
+      "explosion",
+      "smoke",
+      "buildings"
+    ],
+    "actions": [
+      "moving",
+      "walking",
+      "exploding"
+    ],
+    "emotions": [
+      "chaos",
+      "intensity"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "mass movement",
+      "disaster",
+      "destruction"
+    ]
+  },
+  "metadata": {}
+}

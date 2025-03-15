@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chinese New Year.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chinese New Year.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chinese New Year/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands outdoors in a snowy setting, holding a red envelope. She is wearing a red dress adorned with floral patterns, and there are blooming branches nearby.",
+      "description": "The scene captures a woman in a serene winter setting, surrounded by snow and blossoming branches. She is dressed elegantly, holding a red envelope, suggesting a festive or celebratory occasion.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "blossoming branches"
+        ],
+        "objects": [
+          "red envelope",
+          "red dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "festivity",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chinese New Year.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chinese New Year/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red dress adorned with floral patterns stands gracefully beside a blooming tree. She holds a red envelope in her hands, with a gentle smile on her face. Snowflakes gently fall around her, adding a serene touch to the scene.",
+      "description": "The scene captures a woman in a winter setting, surrounded by snow and blossoming branches. The atmosphere is peaceful and elegant, with a focus on the woman's poised demeanor and the delicate beauty of the flowers.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree",
+          "flowers",
+          "snow"
+        ],
+        "objects": [
+          "dress",
+          "red envelope"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chinese New Year.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chinese New Year/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands gracefully in a snowy outdoor setting, holding a red envelope. She is wearing a red dress adorned with floral embroidery, complementing the blooming branches beside her.",
+      "description": "The scene captures a serene winter landscape with a focus on a woman in a red dress, suggesting a festive or celebratory occasion. The presence of snow and blooming branches creates a contrast between winter and the promise of spring.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "branches",
+          "flowers"
+        ],
+        "objects": [
+          "red envelope",
+          "dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "celebration",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: snow, flowers, blossoming branches, tree, branches. Objects: red envelope, dress, red dress. Actions: holding, standing. Emotions: serene, joyful, content. Scenes: outdoor, winter. Concepts: festivity, celebration, elegance, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "snow",
+      "flowers",
+      "blossoming branches",
+      "tree",
+      "branches"
+    ],
+    "objects": [
+      "red envelope",
+      "dress",
+      "red dress"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "joyful",
+      "content"
+    ],
+    "scenes": [
+      "outdoor",
+      "winter"
+    ],
+    "concepts": [
+      "festivity",
+      "celebration",
+      "elegance",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

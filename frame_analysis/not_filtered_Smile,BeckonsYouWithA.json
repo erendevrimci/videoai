@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,BeckonsYouWithA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,BeckonsYouWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smile,BeckonsYouWithA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman dressed in traditional attire stands in an ornate setting, her gaze directed towards the viewer. Her outfit is richly detailed with embroidery, and her hair is adorned with decorative accessories.",
+      "description": "The scene depicts a woman in traditional clothing, possibly in a historical or cultural setting. The background suggests an architectural structure with intricate details, hinting at a historical or cultural context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "traditional clothing",
+          "hair accessories"
+        ],
+        "scenes": [
+          "cultural setting",
+          "historical setting"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,BeckonsYouWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smile,BeckonsYouWithA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman dressed in traditional attire smiles warmly at the camera. Her intricate clothing features delicate embroidery, and her hair is adorned with ornate accessories. The background suggests a historical or cultural setting, possibly an ancient palace or temple.",
+      "description": "The scene captures a moment of cultural elegance, with the woman embodying grace and tradition. The setting appears to be outdoors, with soft natural lighting enhancing the serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "traditional clothing",
+          "hair accessories"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "cultural setting",
+          "outdoor"
+        ],
+        "concepts": [
+          "tradition",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smile,BeckonsYouWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smile,BeckonsYouWithA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman in traditional attire smiles warmly at the camera. She stands in a softly lit setting, with intricate details on her clothing and accessories.",
+      "description": "The scene captures a woman in traditional clothing, possibly in a historical or cultural setting. The soft lighting and background suggest an outdoor or temple-like environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "traditional clothing",
+          "earrings",
+          "hair accessory"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "cultural setting",
+          "historical setting"
+        ],
+        "concepts": [
+          "tradition",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: traditional clothing, hair accessories, earrings, hair accessory. Scenes: cultural setting, historical setting, outdoor. Emotions: happiness, warmth, calm, serene. Actions: smiling. Concepts: tradition, elegance, heritage",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "traditional clothing",
+      "hair accessories",
+      "earrings",
+      "hair accessory"
+    ],
+    "scenes": [
+      "cultural setting",
+      "historical setting",
+      "outdoor"
+    ],
+    "emotions": [
+      "happiness",
+      "warmth",
+      "calm",
+      "serene"
+    ],
+    "actions": [
+      "smiling"
+    ],
+    "concepts": [
+      "tradition",
+      "elegance",
+      "heritage"
+    ]
+  },
+  "metadata": {}
+}

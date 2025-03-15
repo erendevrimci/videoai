@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADetailedClose-upOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADetailedClose-upOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ADetailedClose-upOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a woman's face with miniature figures applying cream to her cheeks. The figures, dressed in white uniforms, appear to be meticulously working on her skin. The scene combines elements of fantasy and beauty care.",
+      "description": "The image presents a close-up of a woman's face with tiny figures attending to her skin, creating a whimsical and imaginative scene. The setting suggests a blend of beauty treatment and artistic expression.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "face",
+          "cream"
+        ],
+        "actions": [
+          "applying cream"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "beauty care"
+        ],
+        "concepts": [
+          "fantasy",
+          "skincare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ADetailedClose-upOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ADetailedClose-upOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a close-up of a woman's face with miniature figures applying cream to her cheeks. The figures, dressed in white coats, appear to be meticulously working on her skin, creating an imaginative and whimsical atmosphere.",
+      "description": "The image presents a creative and surreal setting where miniature people are seen applying cream to a woman's face. This imaginative concept blends elements of beauty and fantasy, showcasing a unique perspective on skincare.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "cream",
+          "white coats"
+        ],
+        "actions": [
+          "applying cream"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "beauty",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, miniature figures. Objects: cream, face, white coats. Actions: applying cream. Emotions: calm, focused. Scenes: surreal, beauty care, imaginative. Concepts: fantasy, skincare, beauty",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "miniature figures"
+    ],
+    "objects": [
+      "cream",
+      "face",
+      "white coats"
+    ],
+    "actions": [
+      "applying cream"
+    ],
+    "emotions": [
+      "calm",
+      "focused"
+    ],
+    "scenes": [
+      "surreal",
+      "beauty care",
+      "imaginative"
+    ],
+    "concepts": [
+      "fantasy",
+      "skincare",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

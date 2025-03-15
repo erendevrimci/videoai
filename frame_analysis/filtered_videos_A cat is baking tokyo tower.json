@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cat is baking tokyo tower.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cat is baking tokyo tower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A cat is baking tokyo tower/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat wearing a white apron is standing on a kitchen counter, appearing to decorate a pyramid-shaped cake with strawberries and cream. The kitchen setting is warm and inviting, with wooden cabinets and a tiled backsplash.",
+      "description": "The scene takes place in a cozy kitchen where a cat, dressed in a white apron, is engaged in decorating a layered cake. The cake is adorned with strawberries and cream, and the cat seems focused on its task.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cake",
+          "apron",
+          "strawberries",
+          "counter",
+          "cabinet"
+        ],
+        "actions": [
+          "decorating"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "baking",
+          "humor",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cat is baking tokyo tower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A cat is baking tokyo tower/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat curiously interacts with a pyramid-shaped cake adorned with strawberries and cream. The cake is intricately decorated, featuring layers of whipped cream and a honeycomb topper. The scene takes place in a cozy kitchen setting.",
+      "description": "The image captures a playful moment in a kitchen where a cat is exploring a beautifully decorated cake. The cake is the centerpiece, with its unique pyramid shape and decorative elements, while the cat adds a whimsical touch to the scene.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cake",
+          "strawberries",
+          "cream",
+          "honeycomb topper"
+        ],
+        "actions": [
+          "interacting",
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "baking",
+          "decoration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: cake, strawberries, apron, counter, cabinet. Actions: decorating, interacting, exploring. Emotions: focused, curiosity, playfulness. Scenes: kitchen. Concepts: baking, humor, creativity, decoration",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "cake",
+      "strawberries",
+      "apron",
+      "counter",
+      "cabinet"
+    ],
+    "actions": [
+      "decorating",
+      "interacting",
+      "exploring"
+    ],
+    "emotions": [
+      "focused",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "baking",
+      "humor",
+      "creativity",
+      "decoration"
+    ]
+  },
+  "metadata": {}
+}

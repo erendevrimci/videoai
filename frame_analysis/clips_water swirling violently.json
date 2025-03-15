@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/water swirling violently.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/water swirling violently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/water swirling violently/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts a person with long white hair standing on a rock amidst a flowing stream. Sunlight filters through the bamboo forest, casting a mystical glow over the water and surrounding greenery.",
+      "description": "The scene is set in a tranquil bamboo forest with a flowing stream. A person stands contemplatively on a rock, surrounded by the natural beauty of the forest and the gentle rush of water.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "bamboo",
+          "stream",
+          "forest",
+          "rocks"
+        ],
+        "objects": [
+          "rock"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "nature",
+          "forest",
+          "stream"
+        ],
+        "concepts": [
+          "tranquility",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/water swirling violently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/water swirling violently/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene forest scene features a cascading waterfall flowing over moss-covered rocks. A person stands on a rock, gazing into the distance, surrounded by towering bamboo trees. Sunlight filters through the canopy, creating a mystical atmosphere.",
+      "description": "The scene is set in a tranquil forest with a flowing waterfall and dense bamboo trees. A person stands on a rock, adding a contemplative element to the natural setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "waterfall",
+          "bamboo",
+          "forest",
+          "rocks"
+        ],
+        "objects": [
+          "moss"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "forest",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/water swirling violently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/water swirling violently/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in a flowing robe stands on a rock beside a rushing river, surrounded by a dense bamboo forest. Mist rises from the water, creating an ethereal atmosphere as sunlight filters through the trees.",
+      "description": "The scene is set in a tranquil forest with a fast-flowing river. The person appears contemplative, gazing into the distance, adding a sense of mystery to the natural setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "river",
+          "bamboo forest",
+          "rocks"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "forest",
+          "riverbank"
+        ],
+        "concepts": [
+          "tranquility",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: rocks, bamboo, forest, stream, waterfall. Objects: rock, moss, robe. Actions: standing, gazing. Emotions: contemplative, serene. Scenes: forest, nature, stream, riverbank. Concepts: tranquility, solitude, nature, mystery",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "rocks",
+      "bamboo",
+      "forest",
+      "stream",
+      "waterfall"
+    ],
+    "objects": [
+      "rock",
+      "moss",
+      "robe"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "contemplative",
+      "serene"
+    ],
+    "scenes": [
+      "forest",
+      "nature",
+      "stream",
+      "riverbank"
+    ],
+    "concepts": [
+      "tranquility",
+      "solitude",
+      "nature",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

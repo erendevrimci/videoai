@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pensive man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pensive man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pensive man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A silhouette of a person is seen exhaling smoke, surrounded by floating petals. The scene is bathed in warm, orange hues, creating a dreamlike atmosphere.",
+      "description": "The image depicts a serene and artistic scene where a person is silhouetted against a backdrop of swirling smoke and petals. The warm colors and soft lighting contribute to a tranquil and contemplative mood.",
+      "labels": {
+        "people": [
+          "silhouette"
+        ],
+        "nature": [
+          "petals"
+        ],
+        "objects": [
+          "cigarette",
+          "smoke"
+        ],
+        "actions": [
+          "smoking",
+          "exhaling"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "artistic",
+          "dreamlike"
+        ],
+        "concepts": [
+          "tranquility",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pensive man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pensive man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A silhouette of a person stands against a warm, ethereal background filled with floating petals. The individual appears to be smoking, with smoke blending into the soft, swirling atmosphere. The scene evokes a sense of calm and introspection.",
+      "description": "The image depicts a serene and contemplative scene with a person in profile, surrounded by gently drifting petals. The warm tones and soft lighting create a dreamlike atmosphere, emphasizing a moment of solitude and reflection.",
+      "labels": {
+        "people": [
+          "silhouette",
+          "person"
+        ],
+        "nature": [
+          "petals"
+        ],
+        "objects": [
+          "cigarette"
+        ],
+        "actions": [
+          "smoking"
+        ],
+        "emotions": [
+          "calm",
+          "introspection"
+        ],
+        "scenes": [
+          "dreamlike",
+          "ethereal"
+        ],
+        "concepts": [
+          "solitude",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: silhouette, person. Nature: petals. Objects: cigarette, smoke. Actions: smoking, exhaling. Emotions: calm, contemplative, introspection. Scenes: dreamlike, artistic, ethereal. Concepts: tranquility, serenity, solitude, reflection",
+  "primary_labels": {
+    "people": [
+      "silhouette",
+      "person"
+    ],
+    "nature": [
+      "petals"
+    ],
+    "objects": [
+      "cigarette",
+      "smoke"
+    ],
+    "actions": [
+      "smoking",
+      "exhaling"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative",
+      "introspection"
+    ],
+    "scenes": [
+      "dreamlike",
+      "artistic",
+      "ethereal"
+    ],
+    "concepts": [
+      "tranquility",
+      "serenity",
+      "solitude",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

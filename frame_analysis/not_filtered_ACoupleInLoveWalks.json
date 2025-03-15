@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACoupleInLoveWalks.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACoupleInLoveWalks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACoupleInLoveWalks/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple walks hand in hand down a city street, both wearing matching graphic t-shirts. The woman wears sunglasses and black pants, while the man sports a cap and beige shorts. They appear relaxed and content as they stroll together.",
+      "description": "The scene captures a casual urban setting where a couple is enjoying a leisurely walk. The background suggests a city environment with buildings and a sidewalk.",
+      "labels": {
+        "people": [
+          "woman",
+          "man",
+          "couple"
+        ],
+        "objects": [
+          "sunglasses",
+          "cap",
+          "t-shirts",
+          "pants",
+          "shorts"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACoupleInLoveWalks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACoupleInLoveWalks/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple walks hand in hand down an urban street, both wearing matching graphic t-shirts. The woman wears sunglasses and earrings, while the man sports a cap and shorts. They appear relaxed and content as they stroll together.",
+      "description": "The scene captures a couple walking through a city street, likely during a casual outing. The urban setting is blurred in the background, emphasizing the couple's coordinated attire and their connection.",
+      "labels": {
+        "people": [
+          "woman",
+          "man",
+          "couple"
+        ],
+        "objects": [
+          "t-shirts",
+          "sunglasses",
+          "cap",
+          "earrings",
+          "shorts"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "relaxed",
+          "content"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "togetherness",
+          "casual outing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Objects: sunglasses, cap, t-shirts, shorts, pants. Actions: walking, holding hands. Emotions: relaxed, content. Scenes: urban, street. Concepts: fashion, togetherness, casual outing",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "objects": [
+      "sunglasses",
+      "cap",
+      "t-shirts",
+      "shorts",
+      "pants"
+    ],
+    "actions": [
+      "walking",
+      "holding hands"
+    ],
+    "emotions": [
+      "relaxed",
+      "content"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "togetherness",
+      "casual outing"
+    ]
+  },
+  "metadata": {}
+}

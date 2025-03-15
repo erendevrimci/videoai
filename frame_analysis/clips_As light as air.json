@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/As light as air.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/As light as air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/As light as air/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing white dress stands amidst a sea of clouds, her hair gently blowing in the wind. The sun is setting in the background, casting a warm glow over the scene.",
+      "description": "The scene depicts a serene and ethereal setting where a woman appears to be walking on clouds during a sunset. The atmosphere is peaceful and dreamlike, with soft lighting and a sense of tranquility.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "clouds",
+          "sunset"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "sky",
+          "sunset"
+        ],
+        "concepts": [
+          "dreamlike",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/As light as air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/As light as air/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing white dress walks gracefully on a bed of clouds, her hair gently blowing in the wind. The sun shines brightly in the background, casting a warm glow over the scene.",
+      "description": "The scene depicts a surreal and ethereal setting where a woman appears to be walking on clouds. The bright sunlight and expansive sky create a dreamlike atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "clouds",
+          "sky",
+          "sun"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "freedom"
+        ],
+        "scenes": [
+          "dreamlike",
+          "ethereal"
+        ],
+        "concepts": [
+          "surrealism",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: clouds, sunset, sky, sun. Objects: dress. Actions: walking, standing. Emotions: serene, peaceful, serenity, freedom. Scenes: sky, sunset, dreamlike, ethereal. Concepts: dreamlike, ethereal, surrealism, fantasy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "clouds",
+      "sunset",
+      "sky",
+      "sun"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "serenity",
+      "freedom"
+    ],
+    "scenes": [
+      "sky",
+      "sunset",
+      "dreamlike",
+      "ethereal"
+    ],
+    "concepts": [
+      "dreamlike",
+      "ethereal",
+      "surrealism",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

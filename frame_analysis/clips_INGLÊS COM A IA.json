@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/INGL\u00caS COM A IA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/INGL\u00caS COM A IA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/INGL\u00caS COM A IA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A light bulb contains a miniature storm cloud, with lightning bolts illuminating its interior. The scene is set against a softly lit window, creating a surreal and imaginative atmosphere.",
+      "description": "The image depicts a creative and imaginative scene where a light bulb encases a small storm cloud, complete with lightning. This surreal setting combines elements of nature and technology, suggesting themes of innovation and creativity.",
+      "labels": {
+        "objects": [
+          "light bulb",
+          "storm cloud"
+        ],
+        "nature": [
+          "cloud",
+          "lightning"
+        ],
+        "scenes": [
+          "indoor",
+          "surreal"
+        ],
+        "concepts": [
+          "innovation",
+          "creativity"
+        ],
+        "emotions": [
+          "imaginative",
+          "mysterious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/INGL\u00caS COM A IA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/INGL\u00caS COM A IA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A light bulb contains a miniature storm, with dark clouds and a vivid lightning bolt striking inside. The bulb rests on a wooden surface, with a softly lit background suggesting an indoor setting.",
+      "description": "The scene depicts a surreal image of a light bulb encapsulating a storm, complete with clouds and lightning. The setting appears to be indoors, with a focus on the imaginative concept of capturing nature's power within a man-made object.",
+      "labels": {
+        "objects": [
+          "light bulb",
+          "wooden surface"
+        ],
+        "nature": [
+          "clouds",
+          "lightning"
+        ],
+        "actions": [
+          "storm inside bulb"
+        ],
+        "scenes": [
+          "indoor",
+          "surreal"
+        ],
+        "concepts": [
+          "imagination",
+          "nature in technology"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: light bulb, storm cloud, wooden surface. Nature: lightning, cloud, clouds. Scenes: indoor, surreal. Concepts: innovation, creativity, imagination, nature in technology. Emotions: imaginative, mysterious, awe, wonder. Actions: storm inside bulb",
+  "primary_labels": {
+    "objects": [
+      "light bulb",
+      "storm cloud",
+      "wooden surface"
+    ],
+    "nature": [
+      "lightning",
+      "cloud",
+      "clouds"
+    ],
+    "scenes": [
+      "indoor",
+      "surreal"
+    ],
+    "concepts": [
+      "innovation",
+      "creativity",
+      "imagination",
+      "nature in technology"
+    ],
+    "emotions": [
+      "imaginative",
+      "mysterious",
+      "awe",
+      "wonder"
+    ],
+    "actions": [
+      "storm inside bulb"
+    ]
+  },
+  "metadata": {}
+}

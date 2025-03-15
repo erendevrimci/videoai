@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playing Mana in Advanced Fairchi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playing Mana in Advanced Fairchi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Playing Mana in Advanced Fairchi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child dressed in ornate, traditional attire stands amidst swirling flames, with an expression of focus and wonder. The fiery elements seem to dance around the child, creating a mystical and enchanting atmosphere.",
+      "description": "The scene depicts a magical setting where a child is interacting with swirling flames. The environment is ethereal, with floating debris and a mystical ambiance, suggesting a fantasy or mythical context.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "traditional attire",
+          "flames"
+        ],
+        "actions": [
+          "standing",
+          "interacting with flames"
+        ],
+        "emotions": [
+          "focus",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Playing Mana in Advanced Fairchi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Playing Mana in Advanced Fairchi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl dressed in traditional attire smiles brightly as she holds a swirling flame in her hands. Her hair is adorned with decorative ornaments, and the background is a misty, dark setting that contrasts with the bright fire.",
+      "description": "The scene depicts a magical moment where a young girl appears to be conjuring fire with her hands. The setting is mystical, with a smoky, dark background that enhances the vibrant glow of the flames.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "fire",
+          "traditional attire",
+          "hair ornaments"
+        ],
+        "actions": [
+          "smiling",
+          "holding fire"
+        ],
+        "emotions": [
+          "joyful",
+          "magical"
+        ],
+        "scenes": [
+          "mystical",
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, girl. Objects: traditional attire, flames, fire, hair ornaments. Actions: standing, interacting with flames, smiling, holding fire. Emotions: focus, wonder, joyful, magical. Scenes: fantasy, mystical. Concepts: magic, enchantment, innocence",
+  "primary_labels": {
+    "people": [
+      "child",
+      "girl"
+    ],
+    "objects": [
+      "traditional attire",
+      "flames",
+      "fire",
+      "hair ornaments"
+    ],
+    "actions": [
+      "standing",
+      "interacting with flames",
+      "smiling",
+      "holding fire"
+    ],
+    "emotions": [
+      "focus",
+      "wonder",
+      "joyful",
+      "magical"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

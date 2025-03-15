@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SkyWindowMovingWhiteLight,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SkyWindowMovingWhiteLight,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SkyWindowMovingWhiteLight,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Sunlight streams through a kitchen window, illuminating a lush array of potted plants and fresh produce on the counter. Leaves gently float in the air, adding a sense of movement to the serene, green-filled space. The shelves are lined with jars and kitchenware, creating a harmonious blend of nature and domesticity.",
+      "description": "The scene captures a sunlit kitchen filled with greenery and fresh produce. The atmosphere is peaceful and vibrant, with natural elements blending seamlessly with the kitchen setting.",
+      "labels": {
+        "nature": [
+          "plants",
+          "leaves"
+        ],
+        "objects": [
+          "window",
+          "jars",
+          "kitchenware",
+          "counter",
+          "produce",
+          "shelves"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "kitchen",
+          "sunlit"
+        ],
+        "concepts": [
+          "harmony",
+          "domesticity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SkyWindowMovingWhiteLight,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SkyWindowMovingWhiteLight,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Sunlight streams through a window into a cozy kitchen filled with lush greenery and fresh produce. Shelves lined with jars and plants create a vibrant, natural atmosphere. The scene is serene and inviting, with a warm glow illuminating the space.",
+      "description": "The image depicts a sunlit kitchen with an abundance of plants and fresh produce. Shelves are stocked with jars and bottles, and the countertop is adorned with fruits and vegetables. The overall atmosphere is tranquil and vibrant, suggesting a connection to nature.",
+      "labels": {
+        "nature": [
+          "plants",
+          "sunlight"
+        ],
+        "objects": [
+          "jars",
+          "bottles",
+          "fruits",
+          "vegetables",
+          "shelves",
+          "countertop"
+        ],
+        "scenes": [
+          "kitchen",
+          "interior"
+        ],
+        "emotions": [
+          "serene",
+          "inviting"
+        ],
+        "concepts": [
+          "coziness",
+          "natural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: plants, leaves, sunlight. Objects: jars, shelves, window, kitchenware, counter. Actions: floating. Emotions: serene, peaceful, inviting. Scenes: kitchen, sunlit, interior. Concepts: harmony, domesticity, coziness, natural",
+  "primary_labels": {
+    "nature": [
+      "plants",
+      "leaves",
+      "sunlight"
+    ],
+    "objects": [
+      "jars",
+      "shelves",
+      "window",
+      "kitchenware",
+      "counter"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "inviting"
+    ],
+    "scenes": [
+      "kitchen",
+      "sunlit",
+      "interior"
+    ],
+    "concepts": [
+      "harmony",
+      "domesticity",
+      "coziness",
+      "natural"
+    ]
+  },
+  "metadata": {}
+}

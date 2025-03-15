@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/oreo cake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/oreo cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/oreo cake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers building a towering stack of cookies and cream. The workers are strategically placed around the dessert, with ladders and tools, as chocolate pieces float in the air. The playful setup creates an imaginative world where cookies become construction sites.",
+      "description": "The scene is a creative and playful depiction of miniature construction workers interacting with a stack of cookies and cream. The setting is imaginative, blending elements of construction with dessert, creating a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cookies",
+          "cream",
+          "ladders",
+          "tools"
+        ],
+        "actions": [
+          "building",
+          "climbing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "construction",
+          "dessert"
+        ],
+        "concepts": [
+          "miniature world",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/oreo cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/oreo cake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature construction workers assembling a towering stack of cookies and cream. The tiny figures are actively engaged, using ladders and tools to build and manage the dessert structure. Crumbs and cookie pieces are scattered around, adding to the playful construction theme.",
+      "description": "The scene is set in a playful, imaginative world where miniature construction workers are building a tower made of cookies and cream. The setting is likely a kitchen or dessert-themed environment, with a focus on the creative juxtaposition of construction and baking.",
+      "labels": {
+        "people": [
+          "miniature construction workers"
+        ],
+        "objects": [
+          "cookies",
+          "cream",
+          "ladders",
+          "crumbs"
+        ],
+        "actions": [
+          "building",
+          "assembling",
+          "managing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "construction site",
+          "dessert"
+        ],
+        "concepts": [
+          "miniature world",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, miniature construction workers. Objects: cookies, cream, ladders, tools, crumbs. Actions: building, climbing, assembling, managing. Emotions: playful, whimsical. Scenes: dessert, construction, construction site. Concepts: miniature world, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "miniature construction workers"
+    ],
+    "objects": [
+      "cookies",
+      "cream",
+      "ladders",
+      "tools",
+      "crumbs"
+    ],
+    "actions": [
+      "building",
+      "climbing",
+      "assembling",
+      "managing"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "dessert",
+      "construction",
+      "construction site"
+    ],
+    "concepts": [
+      "miniature world",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

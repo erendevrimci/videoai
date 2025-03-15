@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Police Officer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Police Officer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Police Officer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, animated kitten is dressed in a police uniform, standing confidently on a wet street. The background is blurred with colorful bokeh lights, suggesting an urban setting at night.",
+      "description": "The scene depicts an adorable animated kitten wearing a detailed police uniform, complete with a cap and badges. It stands on a wet pavement, with the city lights creating a soft, colorful bokeh effect in the background, indicating a nighttime urban environment.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "police uniform",
+          "cap",
+          "badges"
+        ],
+        "nature": [
+          "wet pavement"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "emotions": [
+          "cute",
+          "playful"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Police Officer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Police Officer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute kitten dressed in a police officer's uniform stands on a wet street at night. The kitten's large eyes and tiny paws add to its adorable appearance, while blurred city lights create a vibrant backdrop.",
+      "description": "The scene captures a whimsical moment where a kitten is dressed as a police officer, standing on a wet urban street. The background features colorful bokeh lights, suggesting a lively city environment at night.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "police uniform",
+          "badge"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "adorable",
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "whimsy",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: police uniform, cap, badges, badge. Nature: wet pavement. Scenes: urban, night. Emotions: playful, cute, adorable. Concepts: anthropomorphism, animation, whimsy, cuteness. Actions: standing",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "police uniform",
+      "cap",
+      "badges",
+      "badge"
+    ],
+    "nature": [
+      "wet pavement"
+    ],
+    "scenes": [
+      "urban",
+      "night"
+    ],
+    "emotions": [
+      "playful",
+      "cute",
+      "adorable"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "animation",
+      "whimsy",
+      "cuteness"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

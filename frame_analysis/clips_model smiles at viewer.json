@@ -1,0 +1,84 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/model smiles at viewer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/model smiles at viewer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/model smiles at viewer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with blonde hair gazes softly at the camera, her expression serene and contemplative. She is wearing a light, flowing garment that adds to the gentle and airy atmosphere of the scene.",
+      "description": "The scene captures a close-up portrait of a woman in a softly lit environment. The background is a muted blue, creating a calm and soothing setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "garment"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/model smiles at viewer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/model smiles at viewer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with blonde hair smiles warmly at the camera. She is wearing a white off-shoulder top, and the background is softly lit in a blue hue.",
+      "description": "The scene captures a close-up portrait of a woman in a serene setting. The lighting highlights her features, creating a gentle and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "off-shoulder top"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: garment, off-shoulder top. Emotions: serene, contemplative, happiness. Scenes: portrait. Concepts: beauty, calmness, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "garment",
+      "off-shoulder top"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "happiness"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "calmness",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

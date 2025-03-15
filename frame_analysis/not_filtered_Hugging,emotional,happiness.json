@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,emotional,happiness.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,emotional,happiness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hugging,emotional,happiness/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three individuals are standing together in front of a blue curtain. The person on the left is wearing a formal suit with a red sash, the person in the middle is an elderly woman in a white lace blouse, and the person on the right is dressed in a yellow gown.",
+      "description": "The scene appears to be a formal or celebratory occasion, possibly a family gathering or cultural event. The setting is indoors with a simple backdrop of blue curtains.",
+      "labels": {
+        "people": [
+          "man",
+          "woman",
+          "elderly woman"
+        ],
+        "objects": [
+          "suit",
+          "sash",
+          "lace blouse",
+          "gown",
+          "curtain"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor",
+          "formal event"
+        ],
+        "concepts": [
+          "family",
+          "celebration",
+          "cultural attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hugging,emotional,happiness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hugging,emotional,happiness/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three people are standing together in front of a blue curtain. The person on the left is wearing a suit with a colorful sash, the person in the middle is wearing a white lace top, and the person on the right is in a yellow dress.",
+      "description": "The scene appears to be a formal or celebratory setting, possibly a family gathering or cultural event. The individuals are posing for a photo, suggesting a moment of togetherness and celebration.",
+      "labels": {
+        "people": [
+          "man",
+          "woman",
+          "elderly woman"
+        ],
+        "objects": [
+          "suit",
+          "sash",
+          "lace top",
+          "yellow dress",
+          "curtain"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "togetherness"
+        ],
+        "scenes": [
+          "formal event",
+          "family gathering"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman, elderly woman. Objects: suit, sash, curtain, lace blouse, gown. Actions: standing, posing. Emotions: calm, content, togetherness. Scenes: formal event, indoor, family gathering. Concepts: family, celebration, cultural attire",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman",
+      "elderly woman"
+    ],
+    "objects": [
+      "suit",
+      "sash",
+      "curtain",
+      "lace blouse",
+      "gown"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "calm",
+      "content",
+      "togetherness"
+    ],
+    "scenes": [
+      "formal event",
+      "indoor",
+      "family gathering"
+    ],
+    "concepts": [
+      "family",
+      "celebration",
+      "cultural attire"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraIsSteady,CharacterLooks.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraIsSteady,CharacterLooks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraIsSteady,CharacterLooks/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A simple stick figure stands with a friendly expression, extending one arm outward. The figure appears to be waving or gesturing in a welcoming manner.",
+      "description": "The scene depicts a stick figure character in a minimalistic style, set against a plain white background. The figure's posture and expression convey a sense of friendliness and openness.",
+      "labels": {
+        "people": [
+          "stick figure"
+        ],
+        "actions": [
+          "waving",
+          "gesturing"
+        ],
+        "emotions": [
+          "friendly",
+          "welcoming"
+        ],
+        "scenes": [
+          "minimalistic"
+        ],
+        "concepts": [
+          "simplicity",
+          "communication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraIsSteady,CharacterLooks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraIsSteady,CharacterLooks/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A simple stick figure stands with a hand on its hip, displaying a skeptical expression. The figure's other hand is extended outward, suggesting a gesture of questioning or uncertainty.",
+      "description": "The scene features a minimalist stick figure against a plain white background. The figure's posture and facial expression convey a sense of skepticism or contemplation.",
+      "labels": {
+        "people": [
+          "stick figure"
+        ],
+        "objects": [
+          "none"
+        ],
+        "actions": [
+          "gesturing",
+          "standing"
+        ],
+        "emotions": [
+          "skeptical",
+          "contemplative"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "skepticism",
+          "questioning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: stick figure. Actions: gesturing, waving, standing. Emotions: friendly, welcoming, skeptical, contemplative. Scenes: minimalistic, minimalist. Concepts: simplicity, communication, skepticism, questioning. Objects: none",
+  "primary_labels": {
+    "people": [
+      "stick figure"
+    ],
+    "actions": [
+      "gesturing",
+      "waving",
+      "standing"
+    ],
+    "emotions": [
+      "friendly",
+      "welcoming",
+      "skeptical",
+      "contemplative"
+    ],
+    "scenes": [
+      "minimalistic",
+      "minimalist"
+    ],
+    "concepts": [
+      "simplicity",
+      "communication",
+      "skepticism",
+      "questioning"
+    ],
+    "objects": [
+      "none"
+    ]
+  },
+  "metadata": {}
+}

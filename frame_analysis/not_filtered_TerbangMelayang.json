@@ -1,0 +1,156 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TerbangMelayang.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TerbangMelayang.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TerbangMelayang/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands on a stone pavement with his arms outstretched, wearing a white shirt and jeans. He appears to be looking up with a welcoming expression.",
+      "description": "The scene captures a man in an outdoor setting, possibly in a historic or rustic location with stone walls and pavement. The man is positioned centrally, engaging directly with the viewer.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "shirt",
+          "jeans",
+          "bag"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "welcoming"
+        ],
+        "scenes": [
+          "outdoor",
+          "stone pavement"
+        ],
+        "concepts": [
+          "greeting",
+          "engagement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TerbangMelayang.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TerbangMelayang/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands with arms outstretched against a stone wall, wearing a white shirt and jeans. The sky is partly cloudy, creating a serene backdrop.",
+      "description": "The scene captures a moment of freedom and openness, set against an outdoor stone wall. The person appears to be embracing the open air, suggesting a sense of liberation or joy.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "stone wall",
+          "shirt",
+          "jeans"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "freedom",
+          "joy"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "liberation",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TerbangMelayang.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TerbangMelayang/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is captured mid-air against a backdrop of a bright, cloudy sky. They are wearing a white shirt and blue jeans, with arms and legs outstretched, creating a sense of freedom and exhilaration.",
+      "description": "The scene depicts a person seemingly floating or flying in the sky, evoking a feeling of liberation and joy. The setting is outdoors, with a clear, expansive sky as the background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "floating",
+          "flying"
+        ],
+        "emotions": [
+          "freedom",
+          "exhilaration"
+        ],
+        "scenes": [
+          "outdoors"
+        ],
+        "concepts": [
+          "liberation",
+          "joy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, man. Objects: shirt, jeans, bag, stone wall, clothing. Actions: standing, arms outstretched, floating, flying. Emotions: freedom, welcoming, joy, exhilaration. Scenes: outdoor, stone pavement, outdoors. Concepts: liberation, greeting, engagement, serenity, joy. Nature: sky, clouds",
+  "primary_labels": {
+    "people": [
+      "person",
+      "man"
+    ],
+    "objects": [
+      "shirt",
+      "jeans",
+      "bag",
+      "stone wall",
+      "clothing"
+    ],
+    "actions": [
+      "standing",
+      "arms outstretched",
+      "floating",
+      "flying"
+    ],
+    "emotions": [
+      "freedom",
+      "welcoming",
+      "joy",
+      "exhilaration"
+    ],
+    "scenes": [
+      "outdoor",
+      "stone pavement",
+      "outdoors"
+    ],
+    "concepts": [
+      "liberation",
+      "greeting",
+      "engagement",
+      "serenity",
+      "joy"
+    ],
+    "nature": [
+      "sky",
+      "clouds"
+    ]
+  },
+  "metadata": {}
+}

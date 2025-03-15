@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_A_romantic_couple_is_floating_in.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_A_romantic_couple_is_floating_in.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_A_romantic_couple_is_floating_in/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple is enjoying a romantic hot air balloon ride over Paris at sunset. The Eiffel Tower stands prominently in the background, while the cityscape stretches out beneath them. The balloon basket is adorned with red flowers and lights, adding to the enchanting atmosphere.",
+      "description": "The scene captures a romantic moment as a couple floats in a hot air balloon above Paris. The setting sun casts a warm glow over the city, highlighting the iconic Eiffel Tower and the Seine River below.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "hot air balloon",
+          "Eiffel Tower",
+          "basket",
+          "flowers",
+          "lights"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "romantic",
+          "enchanting"
+        ],
+        "scenes": [
+          "cityscape",
+          "aerial view"
+        ],
+        "concepts": [
+          "romance",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_A_romantic_couple_is_floating_in.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_A_romantic_couple_is_floating_in/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is enjoying a romantic hot air balloon ride at sunset, overlooking a sprawling cityscape. The basket is adorned with red flowers, and the couple is dressed elegantly, sharing a toast as they float above the city.",
+      "description": "The scene captures a serene and romantic moment as a couple enjoys a hot air balloon ride during sunset. The city below is bathed in warm, golden light, creating a picturesque and intimate setting.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "hot air balloon",
+          "basket",
+          "red flowers",
+          "glasses"
+        ],
+        "actions": [
+          "toasting",
+          "floating"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "cityscape",
+          "sunset"
+        ],
+        "concepts": [
+          "romance",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Nature: sunset, sky. Objects: hot air balloon, basket, Eiffel Tower, flowers, lights. Actions: floating, toasting. Emotions: romantic, enchanting, serene. Scenes: cityscape, aerial view, sunset. Concepts: romance, adventure",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "nature": [
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "hot air balloon",
+      "basket",
+      "Eiffel Tower",
+      "flowers",
+      "lights"
+    ],
+    "actions": [
+      "floating",
+      "toasting"
+    ],
+    "emotions": [
+      "romantic",
+      "enchanting",
+      "serene"
+    ],
+    "scenes": [
+      "cityscape",
+      "aerial view",
+      "sunset"
+    ],
+    "concepts": [
+      "romance",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

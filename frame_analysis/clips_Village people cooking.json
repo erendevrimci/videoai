@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village people cooking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village people cooking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Village people cooking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Four individuals dressed in traditional attire are gathered around a large pot filled with various ingredients. They appear to be preparing a communal meal, with a focus on the rich assortment of food items in the pot. The scene is set in a warm, rustic kitchen environment with a fire burning in the background.",
+      "description": "The scene depicts a traditional cooking setting where four people are actively engaged in preparing a large meal. The environment suggests a communal or cultural gathering, emphasizing the importance of food and tradition.",
+      "labels": {
+        "people": [
+          "group of people",
+          "cooks"
+        ],
+        "objects": [
+          "pot",
+          "food",
+          "fire",
+          "kitchen utensils"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food"
+        ],
+        "emotions": [
+          "focused",
+          "collaborative"
+        ],
+        "scenes": [
+          "kitchen",
+          "traditional cooking"
+        ],
+        "concepts": [
+          "tradition",
+          "culinary arts"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Village people cooking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Village people cooking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four individuals dressed in traditional attire are gathered around a large pot filled with various ingredients, including meats and vegetables. The scene is set in a rustic kitchen with a warm, inviting atmosphere, and a fire burns brightly beneath the pot.",
+      "description": "The image depicts a traditional cooking scene in a rustic kitchen. The individuals are focused on preparing a large meal, with a fire providing both heat and ambiance.",
+      "labels": {
+        "people": [
+          "individuals",
+          "cooks"
+        ],
+        "objects": [
+          "pot",
+          "ingredients",
+          "fire",
+          "utensils"
+        ],
+        "actions": [
+          "cooking",
+          "preparing"
+        ],
+        "emotions": [
+          "focused",
+          "collaborative"
+        ],
+        "scenes": [
+          "kitchen",
+          "traditional"
+        ],
+        "concepts": [
+          "culinary",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cooks, group of people, individuals. Objects: pot, fire, food, kitchen utensils, ingredients. Actions: cooking, preparing food, preparing. Emotions: focused, collaborative. Scenes: kitchen, traditional cooking, traditional. Concepts: tradition, culinary arts, culinary, teamwork",
+  "primary_labels": {
+    "people": [
+      "cooks",
+      "group of people",
+      "individuals"
+    ],
+    "objects": [
+      "pot",
+      "fire",
+      "food",
+      "kitchen utensils",
+      "ingredients"
+    ],
+    "actions": [
+      "cooking",
+      "preparing food",
+      "preparing"
+    ],
+    "emotions": [
+      "focused",
+      "collaborative"
+    ],
+    "scenes": [
+      "kitchen",
+      "traditional cooking",
+      "traditional"
+    ],
+    "concepts": [
+      "tradition",
+      "culinary arts",
+      "culinary",
+      "teamwork"
+    ]
+  },
+  "metadata": {}
+}

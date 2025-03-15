@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands against a plain background, wearing a white shirt and a beige skirt. Her hands are clasped in front of her, and she gazes directly at the camera.",
+      "description": "The scene is a studio portrait featuring a young woman in a simple, neutral setting. The focus is on her attire and expression, with no additional elements in the background.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "white shirt",
+          "beige skirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "studio portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands against a neutral background, wearing a white blouse and a beige skirt. Her hair is styled in a ponytail, and she is looking directly at the camera with a calm expression.",
+      "description": "The scene features a young woman posing in a studio setting. The background is plain, emphasizing the subject's attire and expression.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "blouse",
+          "skirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman. Objects: white shirt, beige skirt, blouse, skirt. Actions: standing. Emotions: calm. Scenes: studio portrait, studio. Concepts: fashion, minimalism, portrait",
+  "primary_labels": {
+    "people": [
+      "young woman"
+    ],
+    "objects": [
+      "white shirt",
+      "beige skirt",
+      "blouse",
+      "skirt"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "studio portrait",
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "minimalism",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

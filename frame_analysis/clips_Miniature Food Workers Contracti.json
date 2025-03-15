@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature Food Workers Contracti.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature Food Workers Contracti.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature Food Workers Contracti/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers on a giant pizza, appearing to work on the toppings. The workers are equipped with tools, seemingly drilling into the pepperoni slices. The image cleverly combines elements of food and construction in a playful manner.",
+      "description": "The scene is set in a kitchen where a large pizza serves as a construction site for tiny figurines of workers. The workers are engaged in various activities, such as drilling and inspecting the pepperoni, creating an imaginative and humorous visual.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "pizza",
+          "pepperoni",
+          "tools"
+        ],
+        "actions": [
+          "drilling",
+          "working"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen",
+          "construction site"
+        ],
+        "concepts": [
+          "miniature",
+          "food art",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature Food Workers Contracti.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature Food Workers Contracti/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a bustling kitchen, three chefs in yellow uniforms and white hats are joyfully preparing an enormous pizza. The scene is lively, with the chefs carefully placing toppings on the pizza, surrounded by various kitchen utensils and ingredients.",
+      "description": "The scene takes place in a busy kitchen setting where chefs are engaged in the preparation of a gigantic pizza. The atmosphere is lively and energetic, with chefs working collaboratively.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "pizza",
+          "kitchen utensils",
+          "ingredients"
+        ],
+        "actions": [
+          "preparing",
+          "placing toppings"
+        ],
+        "emotions": [
+          "joyful",
+          "energetic"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "cooking",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, chefs. Objects: pizza, pepperoni, tools, kitchen utensils, ingredients. Actions: drilling, working, preparing, placing toppings. Emotions: playful, humorous, joyful, energetic. Scenes: kitchen, construction site. Concepts: miniature, food art, creativity, cooking, teamwork",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "chefs"
+    ],
+    "objects": [
+      "pizza",
+      "pepperoni",
+      "tools",
+      "kitchen utensils",
+      "ingredients"
+    ],
+    "actions": [
+      "drilling",
+      "working",
+      "preparing",
+      "placing toppings"
+    ],
+    "emotions": [
+      "playful",
+      "humorous",
+      "joyful",
+      "energetic"
+    ],
+    "scenes": [
+      "kitchen",
+      "construction site"
+    ],
+    "concepts": [
+      "miniature",
+      "food art",
+      "creativity",
+      "cooking",
+      "teamwork"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BerikutAdalahPromptYangBisa.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BerikutAdalahPromptYangBisa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BerikutAdalahPromptYangBisa/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute kitten dressed as a chef is standing in a kitchen, wearing a white chef's hat and apron. The kitten is holding wooden spoons over a pot on a stove, surrounded by colorful vegetables.",
+      "description": "The scene is a playful and whimsical depiction of a kitten acting as a chef in a kitchen setting. The kitten is the focal point, dressed in a chef's outfit, and appears to be cooking with enthusiasm. The background is a typical kitchen environment with a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "chef's hat",
+          "apron",
+          "wooden spoons",
+          "pot",
+          "stove",
+          "vegetables"
+        ],
+        "actions": [
+          "cooking"
+        ],
+        "emotions": [
+          "playful",
+          "cute"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "whimsy",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BerikutAdalahPromptYangBisa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BerikutAdalahPromptYangBisa/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute kitten dressed as a chef is standing in front of a pot on a stove, holding wooden spoons. The scene is set in a kitchen with fresh vegetables in the foreground.",
+      "description": "The image depicts a playful and whimsical scene in a kitchen where a kitten, wearing a chef's hat and apron, appears to be cooking. The setting is bright and colorful, with fresh vegetables like bell peppers and broccoli adding to the culinary theme.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "chef's hat",
+          "apron",
+          "pot",
+          "wooden spoons",
+          "stove",
+          "vegetables"
+        ],
+        "actions": [
+          "cooking"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "culinary"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: chef's hat, apron, wooden spoons, pot, stove. Actions: cooking. Emotions: playful, cute, whimsical. Scenes: kitchen. Concepts: humor, whimsy, culinary",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "chef's hat",
+      "apron",
+      "wooden spoons",
+      "pot",
+      "stove"
+    ],
+    "actions": [
+      "cooking"
+    ],
+    "emotions": [
+      "playful",
+      "cute",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "whimsy",
+      "culinary"
+    ]
+  },
+  "metadata": {}
+}

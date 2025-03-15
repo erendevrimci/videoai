@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with one arm in the air.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with one arm in the air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dance with one arm in the air/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with a beard and glasses stands indoors, displaying intricate tattoos on his chest and abdomen. He wears a black hoodie partially unzipped to reveal the colorful and detailed designs. The background features patterned curtains and a window with blinds.",
+      "description": "The scene is set indoors, likely in a living room or similar space, with a focus on a man showcasing his tattoos. The environment is casual and relaxed, with home furnishings visible.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "hoodie",
+          "curtains",
+          "blinds"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "tattoos",
+          "casual attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with one arm in the air.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dance with one arm in the air/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man with a long beard and glasses stands indoors, displaying intricate tattoos on his chest. He is wearing a cap and a black hoodie, with his arms raised and a playful expression on his face.",
+      "description": "The scene is set indoors, likely in a living room or bedroom, as suggested by the presence of curtains and a bed in the background. The man is the central focus, showcasing his tattoos with a confident demeanor.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "cap",
+          "hoodie",
+          "tattoos"
+        ],
+        "actions": [
+          "raising arms",
+          "posing"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "self-expression",
+          "body art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: glasses, hoodie, curtains, blinds, cap. Actions: standing, raising arms, posing. Emotions: neutral, playful, confident. Scenes: indoor. Concepts: tattoos, casual attire, self-expression, body art",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "glasses",
+      "hoodie",
+      "curtains",
+      "blinds",
+      "cap"
+    ],
+    "actions": [
+      "standing",
+      "raising arms",
+      "posing"
+    ],
+    "emotions": [
+      "neutral",
+      "playful",
+      "confident"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "tattoos",
+      "casual attire",
+      "self-expression",
+      "body art"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Steampunk Rider.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Steampunk Rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Steampunk Rider/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in black leather rides a vintage-style motorcycle through a blurred urban setting. The rider's long blonde hair flows dramatically behind them, emphasizing the speed and motion of the scene.",
+      "description": "The scene captures a dynamic moment of a motorcyclist speeding through a city street. The background is blurred, highlighting the focus on the rider and the motorcycle.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "leather clothing",
+          "helmet"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "adventurous",
+          "thrilling"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "motion",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Steampunk Rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Steampunk Rider/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in black leather rides a vintage-style motorcycle at high speed through an urban environment. Her long hair flows behind her as she leans forward, gripping the handlebars with determination.",
+      "description": "The scene captures a dynamic moment of a woman riding a motorcycle through a city. The background is blurred, emphasizing the speed and motion of the motorcycle.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "leather jacket"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "freedom",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: motorcyclist, woman. Objects: motorcycle, helmet, leather clothing, leather jacket. Actions: riding, speeding. Emotions: adventurous, thrilling, determination. Scenes: urban, street. Concepts: freedom, motion, adventure",
+  "primary_labels": {
+    "people": [
+      "motorcyclist",
+      "woman"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet",
+      "leather clothing",
+      "leather jacket"
+    ],
+    "actions": [
+      "riding",
+      "speeding"
+    ],
+    "emotions": [
+      "adventurous",
+      "thrilling",
+      "determination"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "freedom",
+      "motion",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

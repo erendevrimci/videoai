@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/new video from image 02.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/new video from image 02.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/new video from image 02/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model confidently walks down the runway in an elegant white dress, capturing the audience's attention. The crowd is seated in the background, observing the fashion show with interest.",
+      "description": "The scene is set at a fashion show, where a model is showcasing a designer dress on the runway. The audience is seated in rows, attentively watching the presentation.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "dress",
+          "runway",
+          "chairs"
+        ],
+        "actions": [
+          "walking",
+          "watching"
+        ],
+        "emotions": [
+          "confidence",
+          "interest"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "modeling"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/new video from image 02.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/new video from image 02/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model walks confidently down the runway in an elegant white dress with a flowing train. The audience watches attentively, seated in rows along the sides of the fashion show venue.",
+      "description": "The scene captures a fashion show runway with a model showcasing a designer dress. The setting is a modern indoor venue with a focused spotlight on the model, creating a dramatic and stylish atmosphere.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "dress",
+          "runway",
+          "spotlights"
+        ],
+        "actions": [
+          "walking",
+          "watching"
+        ],
+        "emotions": [
+          "confidence",
+          "attention"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, audience. Objects: dress, runway, chairs, spotlights. Actions: walking, watching. Emotions: confidence, interest, attention. Scenes: fashion show, runway. Concepts: fashion, modeling, style, elegance",
+  "primary_labels": {
+    "people": [
+      "model",
+      "audience"
+    ],
+    "objects": [
+      "dress",
+      "runway",
+      "chairs",
+      "spotlights"
+    ],
+    "actions": [
+      "walking",
+      "watching"
+    ],
+    "emotions": [
+      "confidence",
+      "interest",
+      "attention"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "modeling",
+      "style",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tame The Flame - promo song.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tame The Flame - promo song.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tame The Flame - promo song/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with long blonde hair and a bandana is performing on stage, holding a microphone close to their face. They are dressed in a studded black leather jacket, exuding a rock and roll vibe under dramatic stage lighting.",
+      "description": "The scene is set in a dimly lit concert venue, featuring a performer in a rock band. The focus is on the singer, who is engaging with the audience, creating an intense and captivating atmosphere.",
+      "labels": {
+        "people": [
+          "performer",
+          "singer"
+        ],
+        "objects": [
+          "microphone",
+          "leather jacket",
+          "bandana"
+        ],
+        "actions": [
+          "singing",
+          "performing"
+        ],
+        "emotions": [
+          "intensity",
+          "engagement"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "rock music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tame The Flame - promo song.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tame The Flame - promo song/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A performer with long blonde hair and a bandana passionately sings into a microphone on stage. The individual is wearing a studded leather jacket, with stage lights casting a dramatic blue glow around them.",
+      "description": "The scene captures a live musical performance, likely in a concert or club setting. The performer is deeply immersed in their singing, conveying emotion and intensity.",
+      "labels": {
+        "people": [
+          "performer"
+        ],
+        "objects": [
+          "microphone",
+          "leather jacket",
+          "bandana"
+        ],
+        "actions": [
+          "singing"
+        ],
+        "emotions": [
+          "passion",
+          "intensity"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tame The Flame - promo song.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tame The Flame - promo song/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A performer is captured mid-song on stage, holding a microphone with closed eyes. The individual is wearing a studded leather jacket and a patterned bandana, with long hair flowing under the stage lights.",
+      "description": "The scene is set on a dimly lit stage with a rock or metal concert atmosphere. The performer is deeply engaged in their performance, creating an intense and emotional moment.",
+      "labels": {
+        "people": [
+          "performer"
+        ],
+        "objects": [
+          "microphone",
+          "leather jacket",
+          "bandana"
+        ],
+        "actions": [
+          "singing"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: performer, singer. Objects: microphone, leather jacket, bandana. Actions: singing, performing. Emotions: intensity, engagement, passion, focus. Scenes: concert, stage. Concepts: performance, music, rock music",
+  "primary_labels": {
+    "people": [
+      "performer",
+      "singer"
+    ],
+    "objects": [
+      "microphone",
+      "leather jacket",
+      "bandana"
+    ],
+    "actions": [
+      "singing",
+      "performing"
+    ],
+    "emotions": [
+      "intensity",
+      "engagement",
+      "passion",
+      "focus"
+    ],
+    "scenes": [
+      "concert",
+      "stage"
+    ],
+    "concepts": [
+      "performance",
+      "music",
+      "rock music"
+    ]
+  },
+  "metadata": {}
+}

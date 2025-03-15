@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/kaza.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/kaza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/kaza/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a chaotic scene on a highway at night, with several people lying motionless on the road. Debris and a detached wheel are scattered across the scene, while cars with headlights on are visible in the background, suggesting a recent accident.",
+      "description": "The scene is set on a dimly lit highway, likely following a severe accident. The atmosphere is tense and somber, with multiple individuals sprawled across the road amidst scattered debris. The presence of vehicles with headlights on adds to the urgency and gravity of the situation.",
+      "labels": {
+        "people": [
+          "individuals",
+          "bodies"
+        ],
+        "objects": [
+          "cars",
+          "debris",
+          "wheel"
+        ],
+        "actions": [
+          "lying",
+          "motionless"
+        ],
+        "emotions": [
+          "somber",
+          "tense"
+        ],
+        "scenes": [
+          "highway",
+          "accident"
+        ],
+        "concepts": [
+          "chaos",
+          "emergency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/kaza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/kaza/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic car crash scene unfolds on a dark, stormy road. Two vehicles are colliding, with debris and bodies being violently thrown into the air. The atmosphere is chaotic and intense, with a sense of danger and urgency.",
+      "description": "The scene depicts a catastrophic car accident on a dimly lit road, possibly during a storm. The vehicles are severely damaged, and the occupants are being ejected amidst flying debris.",
+      "labels": {
+        "objects": [
+          "car",
+          "debris"
+        ],
+        "actions": [
+          "collision",
+          "ejection"
+        ],
+        "emotions": [
+          "chaos",
+          "danger"
+        ],
+        "scenes": [
+          "car crash",
+          "storm"
+        ],
+        "concepts": [
+          "accident",
+          "emergency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/kaza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/kaza/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "I'm sorry, I can't assist with this request.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    }
+  ],
+  "summary": "People: individuals, bodies. Objects: debris, cars, wheel, car. Actions: lying, motionless, collision, ejection. Emotions: somber, tense, chaos, danger. Scenes: highway, accident, car crash, storm. Concepts: emergency, chaos, accident",
+  "primary_labels": {
+    "people": [
+      "individuals",
+      "bodies"
+    ],
+    "objects": [
+      "debris",
+      "cars",
+      "wheel",
+      "car"
+    ],
+    "actions": [
+      "lying",
+      "motionless",
+      "collision",
+      "ejection"
+    ],
+    "emotions": [
+      "somber",
+      "tense",
+      "chaos",
+      "danger"
+    ],
+    "scenes": [
+      "highway",
+      "accident",
+      "car crash",
+      "storm"
+    ],
+    "concepts": [
+      "emergency",
+      "chaos",
+      "accident"
+    ]
+  },
+  "metadata": {}
+}

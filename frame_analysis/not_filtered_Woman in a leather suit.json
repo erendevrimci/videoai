@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in a leather suit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in a leather suit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is standing confidently in a sleek, black, shiny bodysuit. The outfit is form-fitting and reflective, highlighting the futuristic design. The background is plain, emphasizing the subject's striking appearance.",
+      "description": "The scene features a person in a futuristic, glossy black bodysuit, standing against a neutral backdrop. The setting is minimalistic, drawing attention to the outfit's design and the person's poised stance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bodysuit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "futuristic",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in a leather suit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently, wearing a sleek black latex outfit. Their right arm is raised with a clenched fist, conveying a sense of strength and determination.",
+      "description": "The scene is a studio setting with a plain background, highlighting the individual in the foreground. The focus is on the person's assertive pose and striking attire.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "latex outfit"
+        ],
+        "actions": [
+          "standing",
+          "fist raised"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "strength",
+          "empowerment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman in a leather suit/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person in a glossy black outfit stands confidently with a raised fist. The figure's long blonde hair contrasts with the sleek, dark attire, creating a striking visual impact.",
+      "description": "The scene depicts a person exuding confidence and strength, dressed in a form-fitting, shiny black outfit. The setting is minimalistic, with a neutral background that emphasizes the subject.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "black outfit",
+          "gloves"
+        ],
+        "actions": [
+          "raising fist"
+        ],
+        "emotions": [
+          "confidence",
+          "strength"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "empowerment",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: bodysuit, latex outfit, black outfit, gloves. Actions: standing, fist raised, raising fist. Emotions: confidence, determination, strength. Scenes: studio. Concepts: fashion, empowerment, futuristic, strength",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "bodysuit",
+      "latex outfit",
+      "black outfit",
+      "gloves"
+    ],
+    "actions": [
+      "standing",
+      "fist raised",
+      "raising fist"
+    ],
+    "emotions": [
+      "confidence",
+      "determination",
+      "strength"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "empowerment",
+      "futuristic",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

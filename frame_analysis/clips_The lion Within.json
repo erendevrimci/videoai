@@ -1,0 +1,180 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Within.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Within.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Within/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic scene features a towering figure with a lion's head and expansive wings, standing amidst ancient pyramids. In the foreground, a regal woman walks confidently, surrounded by rows of seated figures. The setting evokes a sense of ancient power and divine presence.",
+      "description": "The scene is set in an ancient, mythical landscape dominated by pyramids and columns. A giant, winged figure with a lion's head stands prominently, symbolizing strength and divinity. A woman in ornate attire walks purposefully, while numerous figures sit in reverence, creating an atmosphere of awe and ceremony.",
+      "labels": {
+        "people": [
+          "woman",
+          "seated figures"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "pyramids"
+        ],
+        "objects": [
+          "columns"
+        ],
+        "actions": [
+          "walking",
+          "sitting"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "ancient",
+          "mythical"
+        ],
+        "concepts": [
+          "divinity",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Within.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Within/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal figure adorned in gold and blue attire walks confidently towards the viewer, flanked by a majestic winged creature. The scene is set against the backdrop of an ancient pyramid, illuminated by a dramatic beam of light from the sky.",
+      "description": "The scene depicts a powerful, mythical setting with a focus on ancient Egyptian themes. A central figure, possibly a queen or deity, is accompanied by a large, mythical beast resembling a sphinx with wings. The setting is grand and ceremonial, with an audience of people seated on either side, suggesting a moment of reverence or worship.",
+      "labels": {
+        "people": [
+          "queen",
+          "audience"
+        ],
+        "animals": [
+          "sphinx"
+        ],
+        "nature": [
+          "sky",
+          "light beam"
+        ],
+        "objects": [
+          "pyramid"
+        ],
+        "actions": [
+          "walking",
+          "sitting"
+        ],
+        "emotions": [
+          "reverence",
+          "awe"
+        ],
+        "scenes": [
+          "ceremonial",
+          "mythical"
+        ],
+        "concepts": [
+          "ancient Egypt",
+          "power",
+          "divinity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The lion Within.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The lion Within/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A regal woman adorned in ancient Egyptian attire confidently walks down a path lined with onlookers. Behind her, a massive, mythical creature with the body of a lion and wings looms majestically. The scene is set against the backdrop of grand pyramids under a dramatic sky.",
+      "description": "The scene depicts an ancient Egyptian setting with a strong emphasis on mythology and grandeur. A woman, possibly of royal status, is the focal point as she walks with grace and authority. The presence of the mythical creature adds an element of fantasy and power.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "animals": [
+          "mythical creature",
+          "lion"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "pyramids",
+          "jewelry"
+        ],
+        "actions": [
+          "walking",
+          "gathering"
+        ],
+        "emotions": [
+          "confidence",
+          "awe"
+        ],
+        "scenes": [
+          "ancient Egypt",
+          "ceremony"
+        ],
+        "concepts": [
+          "mythology",
+          "royalty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, seated figures, queen, audience, crowd. Animals: lion, sphinx, mythical creature. Nature: sky, pyramids, light beam. Objects: columns, pyramid, pyramids, jewelry. Actions: walking, sitting, gathering. Emotions: awe, reverence, confidence. Scenes: mythical, ancient, ceremonial, ancient Egypt, ceremony. Concepts: divinity, power, ancient Egypt, mythology, royalty",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "seated figures",
+      "queen",
+      "audience",
+      "crowd"
+    ],
+    "animals": [
+      "lion",
+      "sphinx",
+      "mythical creature"
+    ],
+    "nature": [
+      "sky",
+      "pyramids",
+      "light beam"
+    ],
+    "objects": [
+      "columns",
+      "pyramid",
+      "pyramids",
+      "jewelry"
+    ],
+    "actions": [
+      "walking",
+      "sitting",
+      "gathering"
+    ],
+    "emotions": [
+      "awe",
+      "reverence",
+      "confidence"
+    ],
+    "scenes": [
+      "mythical",
+      "ancient",
+      "ceremonial",
+      "ancient Egypt",
+      "ceremony"
+    ],
+    "concepts": [
+      "divinity",
+      "power",
+      "ancient Egypt",
+      "mythology",
+      "royalty"
+    ]
+  },
+  "metadata": {}
+}

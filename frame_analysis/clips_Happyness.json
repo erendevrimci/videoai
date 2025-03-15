@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happyness.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happyness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Happyness/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene features a cat wearing a shiny, reflective suit and sunglasses, lounging on a yellow rubber duck float. The background is a whimsical mix of pink foam and a bright blue sky with fluffy clouds. The cat appears relaxed and content, adding a playful touch to the vibrant setting.",
+      "description": "The scene is set in a fantastical, dream-like environment where a cat is the main focus, dressed in human-like attire. The setting combines elements of whimsy and imagination, with a vivid color palette that enhances the surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "rubber duck",
+          "sunglasses",
+          "reflective suit"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "actions": [
+          "lounging"
+        ],
+        "emotions": [
+          "playful",
+          "relaxed"
+        ],
+        "scenes": [
+          "surreal",
+          "fantastical"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Happyness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Happyness/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat wearing sunglasses and a shiny jacket lounges on a yellow inflatable duck in a surreal pink liquid landscape. The sky is a vibrant blue with a few fluffy clouds, creating a whimsical and dreamlike atmosphere.",
+      "description": "The scene is a whimsical and surreal setting featuring a cat dressed in a shiny outfit, relaxing on an inflatable duck in a pink liquid environment. The bright blue sky and fluffy clouds add to the fantastical feel of the image.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "jacket",
+          "inflatable duck"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "actions": [
+          "lounging"
+        ],
+        "emotions": [
+          "whimsical",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal",
+          "fantastical"
+        ],
+        "concepts": [
+          "relaxation",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, rubber duck, reflective suit, jacket, inflatable duck. Nature: clouds, sky. Actions: lounging. Emotions: playful, relaxed, whimsical, dreamlike. Scenes: surreal, fantastical. Concepts: imagination, whimsy, relaxation",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "rubber duck",
+      "reflective suit",
+      "jacket",
+      "inflatable duck"
+    ],
+    "nature": [
+      "clouds",
+      "sky"
+    ],
+    "actions": [
+      "lounging"
+    ],
+    "emotions": [
+      "playful",
+      "relaxed",
+      "whimsical",
+      "dreamlike"
+    ],
+    "scenes": [
+      "surreal",
+      "fantastical"
+    ],
+    "concepts": [
+      "imagination",
+      "whimsy",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

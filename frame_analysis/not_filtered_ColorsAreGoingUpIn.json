@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ColorsAreGoingUpIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ColorsAreGoingUpIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ColorsAreGoingUpIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant treble clef is surrounded by an explosion of colorful powder clouds, creating a dynamic and lively scene. Musical notes float around, enhancing the sense of rhythm and movement. The composition is a celebration of music and color, blending art and sound in a visually striking manner.",
+      "description": "The scene is an abstract representation of music, featuring a large, colorful treble clef amidst swirling clouds of vibrant powder. Musical notes are scattered throughout, suggesting a lively and energetic atmosphere.",
+      "labels": {
+        "objects": [
+          "treble clef",
+          "musical notes"
+        ],
+        "actions": [
+          "explosion",
+          "floating"
+        ],
+        "emotions": [
+          "vibrant",
+          "dynamic"
+        ],
+        "scenes": [
+          "abstract",
+          "musical"
+        ],
+        "concepts": [
+          "music",
+          "color",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ColorsAreGoingUpIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ColorsAreGoingUpIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant treble clef made of colorful powder bursts through a cloud of swirling colors. Musical notes float around, adding a sense of rhythm and movement to the scene. The explosion of hues creates a dynamic and lively atmosphere.",
+      "description": "The scene depicts a vivid and artistic representation of music, with a treble clef and musical notes surrounded by an explosion of colorful powders. The setting is abstract, focusing on the interplay between music and color.",
+      "labels": {
+        "objects": [
+          "treble clef",
+          "musical notes",
+          "colorful powder"
+        ],
+        "actions": [
+          "explosion",
+          "floating"
+        ],
+        "emotions": [
+          "vibrant",
+          "dynamic"
+        ],
+        "scenes": [
+          "abstract",
+          "artistic"
+        ],
+        "concepts": [
+          "music",
+          "color"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: treble clef, musical notes, colorful powder. Actions: explosion, floating. Emotions: vibrant, dynamic. Scenes: abstract, musical, artistic. Concepts: music, color, art",
+  "primary_labels": {
+    "objects": [
+      "treble clef",
+      "musical notes",
+      "colorful powder"
+    ],
+    "actions": [
+      "explosion",
+      "floating"
+    ],
+    "emotions": [
+      "vibrant",
+      "dynamic"
+    ],
+    "scenes": [
+      "abstract",
+      "musical",
+      "artistic"
+    ],
+    "concepts": [
+      "music",
+      "color",
+      "art"
+    ]
+  },
+  "metadata": {}
+}

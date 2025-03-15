@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Miko riddding his motorbike.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Miko riddding his motorbike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Miko riddding his motorbike/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a cat wearing glasses and a red beret, riding a scooter down a quiet street. The cat is dressed in a brown apron and has a basket containing groceries attached to the scooter. The background shows a quaint neighborhood with greenery and small shops.",
+      "description": "The scene depicts a playful and imaginative setting where a cat is anthropomorphized, riding a scooter in a peaceful residential area. The environment suggests a leisurely and lighthearted atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "scooter",
+          "glasses",
+          "beret",
+          "apron",
+          "basket",
+          "groceries"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "street",
+          "neighborhood"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Miko riddding his motorbike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Miko riddding his motorbike/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A charming orange tabby cat wearing glasses and a red beret is riding a bicycle. The cat is focused on the road ahead, with its paws gripping the handlebars and a basket filled with noodles in front. The background features a blurred outdoor setting, suggesting movement.",
+      "description": "The scene depicts a whimsical and humorous moment with a cat dressed in human-like accessories, riding a bicycle. The setting appears to be outdoors, possibly in a suburban or park area, with greenery in the background.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bicycle",
+          "glasses",
+          "beret",
+          "basket",
+          "noodles"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "focused",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: glasses, beret, basket, scooter, apron. Actions: riding. Emotions: whimsical, playful, focused. Scenes: street, neighborhood, outdoor. Concepts: anthropomorphism, imagination, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "glasses",
+      "beret",
+      "basket",
+      "scooter",
+      "apron"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful",
+      "focused"
+    ],
+    "scenes": [
+      "street",
+      "neighborhood",
+      "outdoor"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "imagination",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wedding Cake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wedding Cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wedding Cake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A beautifully decorated three-tiered wedding cake is adorned with intricate floral designs in shades of pink and white. Atop the cake, a bride and groom figurine stand elegantly, symbolizing a wedding celebration. The background features soft lighting and blurred floral arrangements, enhancing the romantic atmosphere.",
+      "description": "The scene depicts a wedding setting with a focus on an ornate wedding cake. The cake is the centerpiece, showcasing detailed icing work and a classic bride and groom topper. The ambiance is warm and romantic, with soft lighting and floral decorations.",
+      "labels": {
+        "people": [
+          "bride figurine",
+          "groom figurine"
+        ],
+        "objects": [
+          "wedding cake",
+          "cake topper",
+          "floral decorations"
+        ],
+        "emotions": [
+          "romantic"
+        ],
+        "scenes": [
+          "wedding",
+          "celebration"
+        ],
+        "concepts": [
+          "marriage",
+          "celebration",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wedding Cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wedding Cake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A beautifully decorated three-tier wedding cake is adorned with intricate floral designs and topped with a bride and groom figurine. The cake features delicate pink and white icing, with rose petals scattered around the base. The setting is elegant and romantic, with soft lighting and floral arrangements in the background.",
+      "description": "The scene depicts a wedding setting with a focus on an ornate wedding cake. The cake is the centerpiece, showcasing detailed craftsmanship and romantic elements, creating an atmosphere of celebration and elegance.",
+      "labels": {
+        "objects": [
+          "wedding cake",
+          "bride figurine",
+          "groom figurine",
+          "rose petals"
+        ],
+        "actions": [
+          "standing",
+          "decorated"
+        ],
+        "emotions": [
+          "romantic",
+          "celebratory"
+        ],
+        "scenes": [
+          "wedding",
+          "reception"
+        ],
+        "concepts": [
+          "marriage",
+          "celebration",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: bride figurine, groom figurine. Objects: wedding cake, cake topper, floral decorations, bride figurine, groom figurine. Emotions: romantic, celebratory. Scenes: wedding, celebration, reception. Concepts: marriage, celebration, romance, elegance. Actions: standing, decorated",
+  "primary_labels": {
+    "people": [
+      "bride figurine",
+      "groom figurine"
+    ],
+    "objects": [
+      "wedding cake",
+      "cake topper",
+      "floral decorations",
+      "bride figurine",
+      "groom figurine"
+    ],
+    "emotions": [
+      "romantic",
+      "celebratory"
+    ],
+    "scenes": [
+      "wedding",
+      "celebration",
+      "reception"
+    ],
+    "concepts": [
+      "marriage",
+      "celebration",
+      "romance",
+      "elegance"
+    ],
+    "actions": [
+      "standing",
+      "decorated"
+    ]
+  },
+  "metadata": {}
+}

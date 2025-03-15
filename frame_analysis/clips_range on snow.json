@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/range on snow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/range on snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/range on snow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A blue Range Rover navigates through a snowy mountain pass, leaving a trail in the fresh snow. The rugged mountain peaks tower in the background under a clear blue sky.",
+      "description": "The scene captures a dynamic moment of a vehicle driving through a snowy, mountainous landscape. The setting is a remote, wintery environment with towering peaks and a clear sky, suggesting a sense of adventure and exploration.",
+      "labels": {
+        "nature": [
+          "mountains",
+          "snow",
+          "sky"
+        ],
+        "objects": [
+          "car",
+          "Range Rover"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "scenes": [
+          "winter landscape",
+          "mountain pass"
+        ],
+        "emotions": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/range on snow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/range on snow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A blue SUV navigates a snowy mountain road with impressive speed and agility. The vehicle kicks up a trail of snow as it moves through the picturesque alpine landscape.",
+      "description": "The scene captures a dynamic moment of a blue SUV driving on a snow-covered road in a mountainous area. The backdrop features towering, snow-capped peaks under a clear blue sky, emphasizing the rugged and adventurous setting.",
+      "labels": {
+        "nature": [
+          "mountains",
+          "snow",
+          "sky"
+        ],
+        "objects": [
+          "SUV",
+          "road"
+        ],
+        "actions": [
+          "driving",
+          "snow kicking"
+        ],
+        "scenes": [
+          "winter landscape",
+          "mountain road"
+        ],
+        "concepts": [
+          "adventure",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: mountains, snow, sky. Objects: car, Range Rover, SUV, road. Actions: driving, snow kicking. Scenes: winter landscape, mountain pass, mountain road. Emotions: adventure, freedom. Concepts: adventure, exploration",
+  "primary_labels": {
+    "nature": [
+      "mountains",
+      "snow",
+      "sky"
+    ],
+    "objects": [
+      "car",
+      "Range Rover",
+      "SUV",
+      "road"
+    ],
+    "actions": [
+      "driving",
+      "snow kicking"
+    ],
+    "scenes": [
+      "winter landscape",
+      "mountain pass",
+      "mountain road"
+    ],
+    "emotions": [
+      "adventure",
+      "freedom"
+    ],
+    "concepts": [
+      "adventure",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

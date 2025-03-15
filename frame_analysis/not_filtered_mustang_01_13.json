@@ -1,0 +1,70 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_13.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_13.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_13/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic black car drives down a rural road surrounded by dense trees and greenery. The road stretches into the distance, flanked by a rusty guardrail on one side.",
+      "description": "The scene depicts a classic car cruising on a narrow, tree-lined road in a rural setting. The overcast sky and lush greenery create a serene yet slightly dramatic atmosphere.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "guardrail",
+          "trees"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "scenes": [
+          "rural",
+          "roadway"
+        ],
+        "concepts": [
+          "travel",
+          "classic car"
+        ],
+        "emotions": [
+          "serene",
+          "nostalgic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road, guardrail, trees. Nature: trees, greenery. Actions: driving. Scenes: rural, roadway. Concepts: travel, classic car. Emotions: serene, nostalgic",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road",
+      "guardrail",
+      "trees"
+    ],
+    "nature": [
+      "trees",
+      "greenery"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "scenes": [
+      "rural",
+      "roadway"
+    ],
+    "concepts": [
+      "travel",
+      "classic car"
+    ],
+    "emotions": [
+      "serene",
+      "nostalgic"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fallen Angel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fallen Angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fallen Angel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure with glowing red eyes and a fiery halo stands in a dimly lit setting. The person has long, flowing hair and wears a dark, ornate outfit with a cross necklace. The atmosphere is eerie and otherworldly, with a strong contrast between shadows and the warm glow of the halo.",
+      "description": "The scene depicts a supernatural or fantasy setting, featuring a person with an ethereal appearance. The glowing halo and eyes suggest a mystical or celestial theme, while the dark attire and setting add a gothic element.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "halo",
+          "cross necklace"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "supernatural",
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "gothic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fallen Angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fallen Angel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure with glowing red eyes and a halo of light hovers in a dark, ethereal setting. The figure wears a dark outfit and a cross necklace, adding to the enigmatic and otherworldly atmosphere.",
+      "description": "The scene depicts a supernatural or fantasy setting, featuring a central figure with an intense and mystical presence. The lighting and colors create a dramatic and eerie ambiance.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "halo",
+          "cross necklace"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "supernatural",
+          "fantasy"
+        ],
+        "concepts": [
+          "mysticism",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Objects: halo, cross necklace. Emotions: mysterious, eerie, intense. Scenes: supernatural, fantasy. Concepts: mystical, gothic, mysticism, darkness. Actions: hovering",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "objects": [
+      "halo",
+      "cross necklace"
+    ],
+    "emotions": [
+      "mysterious",
+      "eerie",
+      "intense"
+    ],
+    "scenes": [
+      "supernatural",
+      "fantasy"
+    ],
+    "concepts": [
+      "mystical",
+      "gothic",
+      "mysticism",
+      "darkness"
+    ],
+    "actions": [
+      "hovering"
+    ]
+  },
+  "metadata": {}
+}

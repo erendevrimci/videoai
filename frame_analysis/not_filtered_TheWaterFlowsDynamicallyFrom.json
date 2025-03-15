@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWaterFlowsDynamicallyFrom.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWaterFlowsDynamicallyFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWaterFlowsDynamicallyFrom/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a large whale swimming through a flooded library corridor. Sunlight filters through the water, creating a mesmerizing play of light and shadows. Bookshelves line the walls, contrasting with the aquatic environment.",
+      "description": "The image presents a fantastical setting where a whale swims through a library, blending elements of the ocean with an indoor space. The corridor is filled with water, and sunlight streams from above, illuminating the scene with a serene glow.",
+      "labels": {
+        "animals": [
+          "whale"
+        ],
+        "nature": [
+          "water",
+          "sunlight"
+        ],
+        "objects": [
+          "bookshelves",
+          "sofa",
+          "rug"
+        ],
+        "scenes": [
+          "library",
+          "underwater"
+        ],
+        "concepts": [
+          "surrealism",
+          "fantasy"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWaterFlowsDynamicallyFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWaterFlowsDynamicallyFrom/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene where a large whale swims through an underwater passage that appears to be inside a room. The room is lined with bookshelves and a couch, creating a juxtaposition between the aquatic and domestic environments.",
+      "description": "The image depicts a fantastical setting where a whale is swimming through an underwater corridor that seamlessly integrates into a room. The room features bookshelves filled with books and a comfortable couch, suggesting a library or living space.",
+      "labels": {
+        "animals": [
+          "whale"
+        ],
+        "nature": [
+          "underwater",
+          "ocean"
+        ],
+        "objects": [
+          "bookshelves",
+          "couch",
+          "books"
+        ],
+        "scenes": [
+          "surreal",
+          "indoor",
+          "aquatic"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "fantasy"
+        ],
+        "emotions": [
+          "wonder",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWaterFlowsDynamicallyFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWaterFlowsDynamicallyFrom/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A surreal scene depicts a large whale swimming through a hallway that resembles an underwater passage. Bookshelves line the walls, creating a juxtaposition between the aquatic and domestic elements. Light filters from above, casting a serene glow over the entire space.",
+      "description": "The image presents a fantastical setting where a whale appears to swim through a hallway that mimics an underwater environment. The presence of bookshelves and a sofa suggests a blend of a library or living room with an oceanic scene.",
+      "labels": {
+        "animals": [
+          "whale"
+        ],
+        "nature": [
+          "underwater",
+          "ocean"
+        ],
+        "objects": [
+          "bookshelves",
+          "sofa",
+          "rug"
+        ],
+        "scenes": [
+          "surreal",
+          "indoor",
+          "aquatic"
+        ],
+        "emotions": [
+          "serene",
+          "wonder"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: whale. Nature: underwater, ocean, water, sunlight. Objects: bookshelves, sofa, rug, couch, books. Scenes: surreal, indoor, aquatic, library, underwater. Concepts: fantasy, juxtaposition, surrealism. Emotions: wonder, serenity, awe, serene",
+  "primary_labels": {
+    "animals": [
+      "whale"
+    ],
+    "nature": [
+      "underwater",
+      "ocean",
+      "water",
+      "sunlight"
+    ],
+    "objects": [
+      "bookshelves",
+      "sofa",
+      "rug",
+      "couch",
+      "books"
+    ],
+    "scenes": [
+      "surreal",
+      "indoor",
+      "aquatic",
+      "library",
+      "underwater"
+    ],
+    "concepts": [
+      "fantasy",
+      "juxtaposition",
+      "surrealism"
+    ],
+    "emotions": [
+      "wonder",
+      "serenity",
+      "awe",
+      "serene"
+    ]
+  },
+  "metadata": {}
+}

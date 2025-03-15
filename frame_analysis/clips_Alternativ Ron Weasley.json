@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alternativ Ron Weasley.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alternativ Ron Weasley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alternativ Ron Weasley/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with bright orange hair is smiling widely, showcasing a set of diamond-studded grills. They are holding a white disposable cup and wearing multiple gold chains around their neck.",
+      "description": "The scene is set in a store, likely a liquor store, as indicated by the neon sign in the background. The person appears to be enjoying themselves, exuding confidence and a playful attitude.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "grills",
+          "gold chains",
+          "disposable cup",
+          "neon sign"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "confident"
+        ],
+        "scenes": [
+          "store",
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "self-expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alternativ Ron Weasley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alternativ Ron Weasley/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with bright orange hair is smiling broadly, showcasing a set of shiny grillz. They are holding a white disposable cup and wearing multiple gold chains around their neck.",
+      "description": "The scene is set inside a store, possibly a liquor store, as indicated by the neon sign in the background. The person appears to be in a cheerful mood, standing in front of shelves stocked with various products.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "disposable cup",
+          "gold chains",
+          "grillz",
+          "neon sign"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "store interior"
+        ],
+        "concepts": [
+          "fashion",
+          "jewelry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: gold chains, disposable cup, neon sign, grills, grillz. Actions: smiling, holding. Emotions: joyful, confident, cheerful. Scenes: store, indoor, store interior. Concepts: fashion, self-expression, jewelry",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "gold chains",
+      "disposable cup",
+      "neon sign",
+      "grills",
+      "grillz"
+    ],
+    "actions": [
+      "smiling",
+      "holding"
+    ],
+    "emotions": [
+      "joyful",
+      "confident",
+      "cheerful"
+    ],
+    "scenes": [
+      "store",
+      "indoor",
+      "store interior"
+    ],
+    "concepts": [
+      "fashion",
+      "self-expression",
+      "jewelry"
+    ]
+  },
+  "metadata": {}
+}

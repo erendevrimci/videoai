@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGoldfishFloatsInThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGoldfishFloatsInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGoldfishFloatsInThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person gently holds a vibrant orange and white fish in their hand, gazing at it with a serene expression. The background is softly blurred, emphasizing the connection between the person and the fish.",
+      "description": "The scene captures a tranquil moment between a person and a fish, likely set near a body of water. The person appears to be appreciating the beauty of the fish, creating a peaceful and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "fish",
+          "hand"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "connection"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate moment"
+        ],
+        "concepts": [
+          "nature appreciation",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGoldfishFloatsInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGoldfishFloatsInThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman adorned with a floral headpiece gently holds a vibrant orange fish in her hands. She gazes at the fish with a serene expression, set against a blurred aquatic background.",
+      "description": "The scene captures an intimate moment between a woman and a fish, suggesting a connection with nature. The setting appears to be near water, possibly a pond or lake.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "water",
+          "flowers"
+        ],
+        "objects": [
+          "floral headpiece"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "nature connection",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Animals: fish. Nature: water, flowers. Objects: fish, hand, floral headpiece. Actions: holding, gazing. Emotions: serenity, connection. Scenes: close-up, intimate moment, outdoor. Concepts: tranquility, nature appreciation, nature connection",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "animals": [
+      "fish"
+    ],
+    "nature": [
+      "water",
+      "flowers"
+    ],
+    "objects": [
+      "fish",
+      "hand",
+      "floral headpiece"
+    ],
+    "actions": [
+      "holding",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "connection"
+    ],
+    "scenes": [
+      "close-up",
+      "intimate moment",
+      "outdoor"
+    ],
+    "concepts": [
+      "tranquility",
+      "nature appreciation",
+      "nature connection"
+    ]
+  },
+  "metadata": {}
+}

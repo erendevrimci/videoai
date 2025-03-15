@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fall beauty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fall beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fall beauty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, dark curly hair stands amidst vibrant orange flowers in a misty forest. She wears a black lace dress with intricate orange floral patterns, blending harmoniously with the surrounding blooms. Her expression is intense and contemplative, adding to the mysterious atmosphere of the scene.",
+      "description": "The scene is set in a misty forest, where a woman is surrounded by vivid orange flowers. The combination of her attire and the natural elements creates a striking visual contrast, enhancing the ethereal and enigmatic mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "intense",
+          "contemplative"
+        ],
+        "scenes": [
+          "mystical",
+          "natural"
+        ],
+        "concepts": [
+          "contrast",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fall beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fall beauty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, dark curly hair stands in a forest surrounded by vibrant orange flowers. She wears a black lace dress with orange floral patterns, blending elegantly with the natural backdrop. Her expression is serene yet mysterious, adding to the enchanting atmosphere of the scene.",
+      "description": "The scene is set in a misty forest where a woman stands amidst a cluster of bright orange flowers. The atmosphere is mystical and serene, with the contrast of her dark attire against the vivid flowers creating a striking visual effect.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "serene",
+          "mysterious"
+        ],
+        "scenes": [
+          "forest scene",
+          "mystical"
+        ],
+        "concepts": [
+          "contrast",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, forest, mist, trees. Objects: dress. Emotions: intense, contemplative, serene, mysterious. Scenes: mystical, natural, forest scene. Concepts: contrast, harmony, enchantment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "forest",
+      "mist",
+      "trees"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "emotions": [
+      "intense",
+      "contemplative",
+      "serene",
+      "mysterious"
+    ],
+    "scenes": [
+      "mystical",
+      "natural",
+      "forest scene"
+    ],
+    "concepts": [
+      "contrast",
+      "harmony",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

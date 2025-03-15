@@ -1,0 +1,90 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CharmingExpressions.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CharmingExpressions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CharmingExpressions/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, platinum blonde hair holds a bouquet of vibrant red roses. She is dressed in a black garment, contrasting with the bright flowers she cradles gently in her hands.",
+      "description": "The scene depicts a serene and elegant portrait of a woman holding roses. The setting is minimalistic, focusing on the contrast between the woman's attire and the vivid red of the roses.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "roses",
+          "black garment"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "contrast",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CharmingExpressions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CharmingExpressions/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is seated, holding a bouquet of vibrant red roses. She is draped in a black garment, creating a striking contrast with the bright flowers.",
+      "description": "The scene is a portrait of a woman in a minimalistic setting, focusing on her serene expression and the vivid red roses she holds. The background is plain, emphasizing the subject and the floral arrangement.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "roses",
+          "black garment"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "contrast",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: roses, black garment. Emotions: serene, elegant. Scenes: portrait. Concepts: contrast, minimalism. Actions: holding",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "roses",
+      "black garment"
+    ],
+    "emotions": [
+      "serene",
+      "elegant"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "contrast",
+      "minimalism"
+    ],
+    "actions": [
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

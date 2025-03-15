@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/show me your beauty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/show me your beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/show me your beauty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair is smiling brightly, wearing a white ski jacket and ski goggles on her head. She stands in a snowy landscape with blurred mountains in the background, suggesting a winter sports setting.",
+      "description": "The scene captures a cheerful moment in a snowy mountain environment, likely a ski resort. The woman appears ready for skiing, with her attire and goggles indicating she is enjoying a day in the snow.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "ski goggles",
+          "ski jacket"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "winter sports",
+          "ski resort"
+        ],
+        "concepts": [
+          "outdoor recreation",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/show me your beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/show me your beauty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is smiling brightly while standing outdoors in a snowy setting. She is wearing a white sports bra and holding a jacket behind her, with ski goggles resting on her head.",
+      "description": "The scene captures a joyful moment in a snowy outdoor environment. The woman appears to be enjoying a winter activity, possibly skiing or snowboarding, given the presence of ski goggles.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "ski goggles",
+          "jacket"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "snowy"
+        ],
+        "concepts": [
+          "winter sports",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/show me your beauty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/show me your beauty/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in a snowy landscape, wearing a white bikini top and snow goggles. Her long hair flows in the breeze as she smiles brightly at the camera.",
+      "description": "The scene is set in a snowy mountainous area, suggesting a winter sports or vacation setting. The woman appears to be enjoying the cold environment despite her minimal attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "objects": [
+          "bikini",
+          "snow goggles",
+          "jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "winter sports",
+          "vacation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: ski goggles, jacket, ski jacket, bikini, snow goggles. Nature: snow, mountains. Actions: smiling, holding. Emotions: happiness, joyful, confidence. Scenes: winter sports, ski resort, outdoor, snowy, winter. Concepts: winter sports, outdoor recreation, winter, happiness, vacation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "ski goggles",
+      "jacket",
+      "ski jacket",
+      "bikini",
+      "snow goggles"
+    ],
+    "nature": [
+      "snow",
+      "mountains"
+    ],
+    "actions": [
+      "smiling",
+      "holding"
+    ],
+    "emotions": [
+      "happiness",
+      "joyful",
+      "confidence"
+    ],
+    "scenes": [
+      "winter sports",
+      "ski resort",
+      "outdoor",
+      "snowy",
+      "winter"
+    ],
+    "concepts": [
+      "winter sports",
+      "outdoor recreation",
+      "winter",
+      "happiness",
+      "vacation"
+    ]
+  },
+  "metadata": {}
+}

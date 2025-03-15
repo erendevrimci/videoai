@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cinematic fantasy scene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cinematic fantasy scene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cinematic fantasy scene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Under the luminous full moon, a towering spectral figure looms over a bridge where three cloaked figures stand, holding glowing staffs. The scene is set in a mystical landscape with rocky cliffs and a distant castle, creating an atmosphere of enchantment and mystery.",
+      "description": "The scene depicts a fantasy setting with a giant spectral figure in a hooded cloak, holding a staff and a wand, standing over three smaller cloaked figures on a bridge. The background features a full moon, rocky cliffs, and a castle, suggesting a magical and otherworldly environment.",
+      "labels": {
+        "people": [
+          "cloaked figures"
+        ],
+        "objects": [
+          "staff",
+          "wand",
+          "bridge",
+          "castle"
+        ],
+        "nature": [
+          "moon",
+          "cliffs",
+          "trees"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "mystery",
+          "enchantment"
+        ],
+        "scenes": [
+          "fantasy",
+          "night"
+        ],
+        "concepts": [
+          "magic",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cinematic fantasy scene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cinematic fantasy scene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a mystical, moonlit landscape, three robed figures stand on a bridge, holding glowing staffs. They face a towering spectral figure with a skeletal face, who holds a staff and dagger, illuminated by the full moon behind.",
+      "description": "The scene is set in a dark, fantastical landscape under a full moon. Three figures in robes stand on a bridge, confronting a large, ghostly apparition. The atmosphere is eerie and magical, with an air of mystery and tension.",
+      "labels": {
+        "people": [
+          "robed figures"
+        ],
+        "nature": [
+          "moon",
+          "clouds",
+          "trees",
+          "mountains"
+        ],
+        "objects": [
+          "staff",
+          "dagger",
+          "bridge"
+        ],
+        "actions": [
+          "standing",
+          "confronting"
+        ],
+        "emotions": [
+          "mystical",
+          "eerie"
+        ],
+        "scenes": [
+          "fantasy",
+          "nighttime"
+        ],
+        "concepts": [
+          "magic",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cloaked figures, robed figures. Objects: staff, bridge, wand, castle, dagger. Nature: moon, trees, cliffs, clouds, mountains. Actions: standing, holding, confronting. Emotions: mystery, enchantment, mystical, eerie. Scenes: fantasy, night, nighttime. Concepts: magic, supernatural",
+  "primary_labels": {
+    "people": [
+      "cloaked figures",
+      "robed figures"
+    ],
+    "objects": [
+      "staff",
+      "bridge",
+      "wand",
+      "castle",
+      "dagger"
+    ],
+    "nature": [
+      "moon",
+      "trees",
+      "cliffs",
+      "clouds",
+      "mountains"
+    ],
+    "actions": [
+      "standing",
+      "holding",
+      "confronting"
+    ],
+    "emotions": [
+      "mystery",
+      "enchantment",
+      "mystical",
+      "eerie"
+    ],
+    "scenes": [
+      "fantasy",
+      "night",
+      "nighttime"
+    ],
+    "concepts": [
+      "magic",
+      "supernatural"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Moment between friends.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Moment between friends.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Moment between friends/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, curly blonde hair stands beside a majestic white tiger. Both have striking blue eyes, and the woman is wearing an ornate blue and gold outfit. They are set against a grand, opulent background with golden columns.",
+      "description": "The scene depicts a fantastical setting where a woman and a white tiger stand together in a grand hall. The atmosphere is regal and mystical, with a focus on elegance and power.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "white tiger"
+        ],
+        "nature": [],
+        "objects": [
+          "ornate outfit",
+          "golden columns"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "regal",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "opulent hall"
+        ],
+        "concepts": [
+          "elegance",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Moment between friends.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Moment between friends/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair stands closely beside a majestic white tiger. She wears an ornate blue outfit with gold embellishments, and both share a serene moment in an opulent setting.",
+      "description": "The scene depicts a tranquil interaction between a woman and a white tiger in a grand, luxurious interior. The setting suggests a palace or a regal hall, with warm, diffused lighting enhancing the atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "white tiger"
+        ],
+        "objects": [
+          "ornate clothing",
+          "gold embellishments"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "opulent interior",
+          "regal setting"
+        ],
+        "concepts": [
+          "elegance",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Moment between friends.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Moment between friends/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long blonde hair and intricate braids stands face-to-face with a majestic white tiger. The scene is set in an opulent interior with golden accents, highlighting the regal atmosphere.",
+      "description": "The image depicts an intimate moment between a woman and a white tiger in a luxurious setting. The woman is dressed in ornate armor with golden details, and the tiger appears calm and composed.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "scenes": [
+          "opulent interior"
+        ],
+        "emotions": [
+          "calm",
+          "intimate"
+        ],
+        "actions": [
+          "gazing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: white tiger, tiger. Objects: ornate outfit, golden columns, ornate clothing, gold embellishments, armor. Actions: standing, gazing. Emotions: calm, regal, mystical, serenity, intimate. Scenes: opulent interior, fantasy, opulent hall, regal setting. Concepts: elegance, power, harmony",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "white tiger",
+      "tiger"
+    ],
+    "nature": [],
+    "objects": [
+      "ornate outfit",
+      "golden columns",
+      "ornate clothing",
+      "gold embellishments",
+      "armor"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "calm",
+      "regal",
+      "mystical",
+      "serenity",
+      "intimate"
+    ],
+    "scenes": [
+      "opulent interior",
+      "fantasy",
+      "opulent hall",
+      "regal setting"
+    ],
+    "concepts": [
+      "elegance",
+      "power",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

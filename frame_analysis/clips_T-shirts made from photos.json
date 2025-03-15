@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T-shirts made from photos.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T-shirts made from photos.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/T-shirts made from photos/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands on a tree-lined street, wearing a bright pink t-shirt and a black bucket hat. She has long brown hair and is smiling gently, with one hand in her pocket and the other holding a white bag over her shoulder.",
+      "description": "The scene is set outdoors on a sunny day, with trees lining a quiet street. The woman is casually dressed and appears relaxed, enjoying a leisurely moment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "t-shirt",
+          "bucket hat",
+          "bag",
+          "jeans"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "outdoor",
+          "street"
+        ],
+        "concepts": [
+          "casual",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T-shirts made from photos.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/T-shirts made from photos/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman walks confidently down a tree-lined street, wearing a bright pink t-shirt and light blue jeans. She carries a white tote bag and wears a black bucket hat, exuding a casual and stylish vibe.",
+      "description": "The scene is set on a sidewalk bordered by trees, with a car parked on the adjacent road. The woman appears to be enjoying a leisurely stroll, surrounded by the greenery of the urban environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "t-shirt",
+          "jeans",
+          "tote bag",
+          "bucket hat",
+          "car"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T-shirts made from photos.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/T-shirts made from photos/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman walks confidently along a tree-lined sidewalk, wearing a bright pink shirt and a black bucket hat. She has a relaxed demeanor, with one hand in her pocket and a slight smile on her face.",
+      "description": "The scene captures a casual stroll on a sidewalk bordered by trees, with a road and parked car visible in the background. The atmosphere is calm and pleasant, suggesting a leisurely walk in an urban setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "shirt",
+          "hat",
+          "car",
+          "sidewalk"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "leisure",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees. Objects: t-shirt, bucket hat, jeans, car, bag. Actions: walking, standing, smiling. Emotions: calm, content, confident, relaxed. Scenes: outdoor, street, urban. Concepts: fashion, casual, leisure",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "objects": [
+      "t-shirt",
+      "bucket hat",
+      "jeans",
+      "car",
+      "bag"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "calm",
+      "content",
+      "confident",
+      "relaxed"
+    ],
+    "scenes": [
+      "outdoor",
+      "street",
+      "urban"
+    ],
+    "concepts": [
+      "fashion",
+      "casual",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

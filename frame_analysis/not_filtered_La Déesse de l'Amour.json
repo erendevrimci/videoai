@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/La D\u00e9esse de l'Amour.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/La D\u00e9esse de l'Amour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/La D\u00e9esse de l'Amour/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a shimmering gown walks along the beach at sunset, with vibrant pink and orange clouds painting the sky. Her long hair cascades down her back as she approaches the water's edge, leaving footprints in the sand.",
+      "description": "The scene captures a serene beach setting during sunset, where a woman in an elegant dress is walking towards the ocean. The sky is filled with dramatic colors, creating a picturesque and tranquil atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [
+          "gown",
+          "footprints"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "beach at sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/La D\u00e9esse de l'Amour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/La D\u00e9esse de l'Amour/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a shimmering dress walks along the beach at sunset, with vibrant pink and orange clouds reflecting on the water. The scene captures the serene beauty of the ocean waves gently lapping at the shore.",
+      "description": "The image depicts a tranquil beach setting during sunset. A woman is walking along the shoreline, creating a peaceful and contemplative atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "clouds",
+          "sunset"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/La D\u00e9esse de l'Amour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/La D\u00e9esse de l'Amour/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in an elegant dress stands at the edge of the ocean, gazing at a vibrant sunset. The sky is painted with hues of pink, purple, and orange, reflecting on the water's surface. Gentle waves lap at her feet, creating a serene and contemplative atmosphere.",
+      "description": "The scene captures a tranquil moment at the beach during sunset. A woman is standing on the wet sand, facing the ocean as the sun sets, casting colorful reflections on the water.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "ocean",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: ocean, sunset, clouds, beach. Objects: dress, gown, footprints. Actions: walking, standing, gazing. Emotions: serenity, serene, contemplative. Scenes: beach, sunset, beach at sunset. Concepts: tranquility, reflection, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "ocean",
+      "sunset",
+      "clouds",
+      "beach"
+    ],
+    "objects": [
+      "dress",
+      "gown",
+      "footprints"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "beach",
+      "sunset",
+      "beach at sunset"
+    ],
+    "concepts": [
+      "tranquility",
+      "reflection",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

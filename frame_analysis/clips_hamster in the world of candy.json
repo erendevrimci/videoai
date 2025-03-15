@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamster in the world of candy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamster in the world of candy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hamster in the world of candy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute hamster stands triumphantly atop a lavishly decorated cake, holding a lit matchstick. The scene is set in a whimsical candy land, with lollipops and sweets surrounding the central figure.",
+      "description": "The image depicts a fantastical setting where a small hamster is the focal point, standing on a multi-tiered cake adorned with frosting and candy decorations. The background is filled with oversized lollipops, creating a dreamlike, sugary atmosphere.",
+      "labels": {
+        "animals": [
+          "hamster"
+        ],
+        "objects": [
+          "cake",
+          "lollipop",
+          "matchstick"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "candy land"
+        ],
+        "concepts": [
+          "fantasy",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/hamster in the world of candy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/hamster in the world of candy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical candy land, a fluffy orange creature joyfully leaps through a vibrant landscape filled with pastel-colored sweets. The scene is adorned with towering candy structures under a bright, sunny sky, creating a dreamlike atmosphere.",
+      "description": "The scene depicts a fantastical candy-themed world with colorful, towering structures resembling castles made of sweets. A lively, fluffy creature is seen leaping amidst the sugary landscape, adding a sense of motion and joy to the setting.",
+      "labels": {
+        "animals": [
+          "creature"
+        ],
+        "nature": [
+          "sky",
+          "sun"
+        ],
+        "objects": [
+          "candy",
+          "sweets",
+          "castle"
+        ],
+        "actions": [
+          "leaping"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "fantasy",
+          "candy land"
+        ],
+        "concepts": [
+          "whimsy",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: hamster, creature. Objects: cake, lollipop, matchstick, candy, sweets. Actions: holding, leaping. Emotions: joyful. Scenes: candy land, fantasy. Concepts: fantasy, celebration, whimsy, dreamlike. Nature: sky, sun",
+  "primary_labels": {
+    "animals": [
+      "hamster",
+      "creature"
+    ],
+    "objects": [
+      "cake",
+      "lollipop",
+      "matchstick",
+      "candy",
+      "sweets"
+    ],
+    "actions": [
+      "holding",
+      "leaping"
+    ],
+    "emotions": [
+      "joyful"
+    ],
+    "scenes": [
+      "candy land",
+      "fantasy"
+    ],
+    "concepts": [
+      "fantasy",
+      "celebration",
+      "whimsy",
+      "dreamlike"
+    ],
+    "nature": [
+      "sky",
+      "sun"
+    ]
+  },
+  "metadata": {}
+}

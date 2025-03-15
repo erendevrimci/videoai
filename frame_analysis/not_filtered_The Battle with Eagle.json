@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Battle with Eagle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Battle with Eagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Battle with Eagle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular man, draped in a white cloth, is dynamically interacting with a large eagle above a sunlit body of water. The scene captures the moment as water splashes around them, highlighting the intensity of their encounter.",
+      "description": "The scene is set in a natural environment, likely a river or stream, with sunlight filtering through the trees. The focus is on the interaction between the man and the eagle, creating a dramatic and intense atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "eagle"
+        ],
+        "nature": [
+          "water",
+          "trees"
+        ],
+        "objects": [
+          "cloth"
+        ],
+        "actions": [
+          "splashing",
+          "interaction"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "nature",
+          "dynamic"
+        ],
+        "concepts": [
+          "strength",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Battle with Eagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Battle with Eagle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a dynamic pose appears to be interacting with a large bird, possibly an eagle, over a body of water. The scene is set against a warm, glowing background, suggesting a sunrise or sunset.",
+      "description": "The image captures a moment of interaction between a man and a bird in a natural setting. The man is poised mid-air, wrapped in a white cloth, while the bird is in flight, both creating a sense of motion and energy.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "bird",
+          "eagle"
+        ],
+        "nature": [
+          "water",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "cloth"
+        ],
+        "actions": [
+          "jumping",
+          "flying"
+        ],
+        "emotions": [
+          "dynamic",
+          "energetic"
+        ],
+        "scenes": [
+          "nature",
+          "interaction"
+        ],
+        "concepts": [
+          "movement",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: eagle, bird. Nature: water, trees, sunlight. Objects: cloth. Actions: splashing, interaction, jumping, flying. Emotions: intensity, dynamic, energetic. Scenes: nature, dynamic, interaction. Concepts: harmony, strength, movement",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "eagle",
+      "bird"
+    ],
+    "nature": [
+      "water",
+      "trees",
+      "sunlight"
+    ],
+    "objects": [
+      "cloth"
+    ],
+    "actions": [
+      "splashing",
+      "interaction",
+      "jumping",
+      "flying"
+    ],
+    "emotions": [
+      "intensity",
+      "dynamic",
+      "energetic"
+    ],
+    "scenes": [
+      "nature",
+      "dynamic",
+      "interaction"
+    ],
+    "concepts": [
+      "harmony",
+      "strength",
+      "movement"
+    ]
+  },
+  "metadata": {}
+}

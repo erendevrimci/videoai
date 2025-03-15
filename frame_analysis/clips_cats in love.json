@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cats in love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cats in love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cats in love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two cats, one ginger and one white, sit closely together, illuminated by warm, ambient lighting. They both wear collars and gaze intently at the camera, creating a serene and cozy atmosphere.",
+      "description": "The scene captures two cats sitting side by side in a dimly lit environment, likely indoors. The warm glow from the lights adds a comforting and intimate feel to the image.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "collars",
+          "lights"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "companionship",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cats in love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cats in love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two cats are affectionately interacting under warm, ambient lighting. One cat, with orange fur, gently touches the other, a white cat, creating a tender moment. The soft glow of lights in the background adds to the intimate atmosphere.",
+      "description": "The scene captures a close interaction between two cats, set against a softly lit background. The warm lighting and gentle poses of the cats create a serene and affectionate atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "collars"
+        ],
+        "actions": [
+          "affectionate interaction",
+          "touching"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "intimate setting",
+          "warm lighting"
+        ],
+        "concepts": [
+          "companionship",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: collars, lights. Emotions: calm, serene, tenderness, affection. Scenes: indoor, cozy, intimate setting, warm lighting. Concepts: companionship, warmth, gentleness. Actions: affectionate interaction, touching",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "collars",
+      "lights"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "tenderness",
+      "affection"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy",
+      "intimate setting",
+      "warm lighting"
+    ],
+    "concepts": [
+      "companionship",
+      "warmth",
+      "gentleness"
+    ],
+    "actions": [
+      "affectionate interaction",
+      "touching"
+    ]
+  },
+  "metadata": {}
+}

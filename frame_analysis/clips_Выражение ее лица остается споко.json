@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0435\u0435 \u043b\u0438\u0446\u0430 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0441\u043f\u043e\u043a\u043e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0435\u0435 \u043b\u0438\u0446\u0430 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0441\u043f\u043e\u043a\u043e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0435\u0435 \u043b\u0438\u0446\u0430 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0441\u043f\u043e\u043a\u043e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with long, dark hair being swept across their face by the wind. The individual gazes directly at the camera with a calm yet intense expression, framed by strands of hair.",
+      "description": "The scene captures a dramatic and intimate moment, focusing on the interplay between the person's expression and the movement of their hair. The setting appears to be indoors or in a neutral background, emphasizing the subject's face and hair.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "actions": [
+          "gazing",
+          "wind blowing"
+        ],
+        "emotions": [
+          "calm",
+          "intense"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "intimacy",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0435\u0435 \u043b\u0438\u0446\u0430 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0441\u043f\u043e\u043a\u043e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0412\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0435\u0435 \u043b\u0438\u0446\u0430 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0441\u043f\u043e\u043a\u043e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair is smiling softly as her hair is gently blown across her face. She is wearing a black turtleneck and is positioned near a window with sheer curtains, allowing soft natural light to illuminate her features.",
+      "description": "The scene captures a close-up portrait of a woman indoors, with a focus on her gentle smile and flowing hair. The setting suggests a calm and serene atmosphere, enhanced by the soft lighting from the window.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "turtleneck",
+          "window",
+          "curtains"
+        ],
+        "actions": [
+          "smiling",
+          "hair blowing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face, woman. Objects: hair, turtleneck, window, curtains. Actions: gazing, wind blowing, smiling, hair blowing. Emotions: calm, intense, serene. Scenes: portrait, indoor. Concepts: intimacy, drama, beauty, tranquility",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face",
+      "woman"
+    ],
+    "objects": [
+      "hair",
+      "turtleneck",
+      "window",
+      "curtains"
+    ],
+    "actions": [
+      "gazing",
+      "wind blowing",
+      "smiling",
+      "hair blowing"
+    ],
+    "emotions": [
+      "calm",
+      "intense",
+      "serene"
+    ],
+    "scenes": [
+      "portrait",
+      "indoor"
+    ],
+    "concepts": [
+      "intimacy",
+      "drama",
+      "beauty",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

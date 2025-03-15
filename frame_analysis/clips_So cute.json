@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/So cute.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/So cute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/So cute/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child embraces a large owl by a serene lakeside. The child is smiling brightly, conveying a sense of joy and wonder. The owl stands calmly, its large eyes looking directly at the viewer.",
+      "description": "The image captures a heartwarming moment between a child and an owl in a natural setting. The scene is set by a lake with a blurred background of trees, suggesting a peaceful outdoor environment.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "owl"
+        ],
+        "nature": [
+          "lake",
+          "trees"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "outdoor",
+          "lakeside"
+        ],
+        "concepts": [
+          "friendship",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/So cute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/So cute/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child embraces a large owl by a tranquil lakeside. The child smiles joyfully, while the owl gazes forward with its striking orange eyes. The background features a serene, blurred view of trees and water.",
+      "description": "The scene captures a heartwarming moment between a child and an owl in a natural setting. The setting is outdoors, likely near a lake surrounded by trees, creating a peaceful and harmonious atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "owl"
+        ],
+        "nature": [
+          "lake",
+          "trees"
+        ],
+        "objects": [],
+        "actions": [
+          "hugging",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "affection"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "friendship",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: owl. Nature: lake, trees. Actions: embracing, hugging, smiling. Emotions: joy, wonder, affection. Scenes: outdoor, lakeside, nature. Concepts: friendship, nature, innocence",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "owl"
+    ],
+    "nature": [
+      "lake",
+      "trees"
+    ],
+    "objects": [],
+    "actions": [
+      "embracing",
+      "hugging",
+      "smiling"
+    ],
+    "emotions": [
+      "joy",
+      "wonder",
+      "affection"
+    ],
+    "scenes": [
+      "outdoor",
+      "lakeside",
+      "nature"
+    ],
+    "concepts": [
+      "friendship",
+      "nature",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

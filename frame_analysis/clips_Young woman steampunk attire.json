@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman steampunk attire.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman steampunk attire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Young woman steampunk attire/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long wavy hair stands confidently in front of a steam engine, wearing a steampunk-inspired outfit with goggles perched on her head. The background features industrial elements and a hint of steam, adding to the vintage aesthetic.",
+      "description": "The scene is set in a steampunk-inspired industrial environment, likely near a train or machinery. The woman is the central focus, exuding a sense of confidence and adventure.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "goggles",
+          "steampunk outfit",
+          "steam engine"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "industrial",
+          "steampunk"
+        ],
+        "concepts": [
+          "vintage",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman steampunk attire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Young woman steampunk attire/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands confidently in a steampunk-inspired setting, wearing vintage goggles atop her head and a detailed leather jacket. She smiles warmly, surrounded by the atmospheric steam and gears of an industrial backdrop.",
+      "description": "The scene is set in a steampunk environment, characterized by industrial elements and steam. The woman is the focal point, dressed in attire that reflects the steampunk aesthetic, with a backdrop suggesting machinery and innovation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "goggles",
+          "leather jacket",
+          "gears"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "warmth"
+        ],
+        "scenes": [
+          "steampunk",
+          "industrial"
+        ],
+        "concepts": [
+          "fashion",
+          "vintage",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman steampunk attire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Young woman steampunk attire/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman dressed in steampunk attire sits on the edge of a vintage train, surrounded by billowing steam. She wears goggles on her head and a leather jacket, exuding a sense of adventure and nostalgia.",
+      "description": "The scene is set in a vintage train environment, evoking a steampunk aesthetic. The woman appears relaxed and contemplative, with steam creating a dynamic backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "goggles",
+          "leather jacket",
+          "train"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "steampunk",
+          "vintage train"
+        ],
+        "concepts": [
+          "adventure",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: goggles, leather jacket, steampunk outfit, steam engine, gears. Actions: standing, smiling, sitting. Emotions: confidence, warmth, contemplative. Scenes: steampunk, industrial, vintage train. Concepts: vintage, adventure, fashion, innovation, nostalgia",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "goggles",
+      "leather jacket",
+      "steampunk outfit",
+      "steam engine",
+      "gears"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "sitting"
+    ],
+    "emotions": [
+      "confidence",
+      "warmth",
+      "contemplative"
+    ],
+    "scenes": [
+      "steampunk",
+      "industrial",
+      "vintage train"
+    ],
+    "concepts": [
+      "vintage",
+      "adventure",
+      "fashion",
+      "innovation",
+      "nostalgia"
+    ]
+  },
+  "metadata": {}
+}

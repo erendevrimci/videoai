@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other Side of Me.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other Side of Me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Other Side of Me/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in an elaborate white outfit holds a bottle labeled 'Alter Ego' in a futuristic setting. She wears a striking hat with a spiked design and stands in front of a large circular window showing a cloudy sky. The scene exudes a sense of elegance and modernity.",
+      "description": "The scene is set in a futuristic environment, possibly a spaceship or a modern architectural space, with a focus on a woman holding a perfume bottle. The setting is minimalistic and sleek, emphasizing the woman's avant-garde attire and the product she is presenting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "perfume bottle",
+          "hat",
+          "gloves",
+          "necklace"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "futuristic",
+          "interior"
+        ],
+        "concepts": [
+          "fashion",
+          "modernity",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other Side of Me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Other Side of Me/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in an elegant, futuristic white outfit and hat holds a decorative bottle labeled 'Alter Ego.' The setting appears to be a sleek, modern environment with a large window showing a cloudy sky.",
+      "description": "The scene is set in a futuristic, minimalist environment, possibly a high-tech room or vehicle. The woman is the focal point, exuding sophistication and elegance as she presents the ornate bottle.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hat",
+          "bottle",
+          "gloves",
+          "necklace"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "sophisticated"
+        ],
+        "scenes": [
+          "futuristic",
+          "modern"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: hat, gloves, necklace, perfume bottle, bottle. Actions: holding. Emotions: elegance, sophisticated. Scenes: futuristic, interior, modern. Concepts: luxury, fashion, modernity, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "hat",
+      "gloves",
+      "necklace",
+      "perfume bottle",
+      "bottle"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "elegance",
+      "sophisticated"
+    ],
+    "scenes": [
+      "futuristic",
+      "interior",
+      "modern"
+    ],
+    "concepts": [
+      "luxury",
+      "fashion",
+      "modernity",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

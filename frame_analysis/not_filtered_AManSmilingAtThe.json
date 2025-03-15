@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManSmilingAtThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManSmilingAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManSmilingAtThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man in a blue shirt and dark blazer walks confidently down a bustling city street. The background is filled with blurred pedestrians and vehicles, suggesting a busy urban environment.",
+      "description": "The scene is set on a city street, with a focus on a young man walking towards the camera. The background shows a typical urban setting with other people and cars, indicating a lively and active atmosphere.",
+      "labels": {
+        "people": [
+          "young man",
+          "pedestrians"
+        ],
+        "objects": [
+          "blazer",
+          "shirt",
+          "cars"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "city street",
+          "urban environment"
+        ],
+        "concepts": [
+          "urban life",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManSmilingAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManSmilingAtThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man with a bright smile walks down a city street, dressed in a blue shirt and dark blazer. The background features a blurred urban setting with other pedestrians and parked cars.",
+      "description": "The scene captures a lively urban street with a focus on a smiling man walking confidently. The atmosphere is vibrant and bustling, typical of a city environment.",
+      "labels": {
+        "people": [
+          "man",
+          "pedestrians"
+        ],
+        "objects": [
+          "blazer",
+          "shirt",
+          "cars"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "city life",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians, young man, man. Objects: blazer, shirt, cars. Actions: walking, smiling. Emotions: confident, happiness, confidence. Scenes: city street, urban environment, urban, street. Concepts: urban life, movement, city life, fashion",
+  "primary_labels": {
+    "people": [
+      "pedestrians",
+      "young man",
+      "man"
+    ],
+    "objects": [
+      "blazer",
+      "shirt",
+      "cars"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "confident",
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "city street",
+      "urban environment",
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "urban life",
+      "movement",
+      "city life",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

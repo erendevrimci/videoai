@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmilesQuiteABitAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmilesQuiteABitAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmilesQuiteABitAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands by a window, bathed in soft natural light. She wears a white blouse and a black skirt, accessorized with a choker and earrings. Her expression is contemplative as she gazes outside.",
+      "description": "The scene depicts a serene indoor setting with a focus on a woman standing near a window. The natural light highlights her features and attire, creating a calm and introspective atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "blouse",
+          "skirt",
+          "choker",
+          "earrings"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "indoor",
+          "window scene"
+        ],
+        "concepts": [
+          "fashion",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmilesQuiteABitAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmilesQuiteABitAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair stands by a window, smiling gently as sunlight illuminates her face and hair. She wears a white blouse and a black skirt, with a red flower accessory in her hair.",
+      "description": "The scene captures a serene and intimate moment as a woman stands near a window, basking in the soft glow of natural light. The setting appears to be indoors, possibly in a cozy room with a classic window design.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "blouse",
+          "skirt",
+          "flower accessory"
+        ],
+        "actions": [
+          "smiling",
+          "standing"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "indoor",
+          "natural lighting"
+        ],
+        "concepts": [
+          "intimacy",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: window, blouse, skirt, choker, earrings. Actions: standing, gazing, smiling. Emotions: contemplative, happiness, serenity. Scenes: indoor, window scene, natural lighting. Concepts: fashion, serenity, intimacy, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "window",
+      "blouse",
+      "skirt",
+      "choker",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "smiling"
+    ],
+    "emotions": [
+      "contemplative",
+      "happiness",
+      "serenity"
+    ],
+    "scenes": [
+      "indoor",
+      "window scene",
+      "natural lighting"
+    ],
+    "concepts": [
+      "fashion",
+      "serenity",
+      "intimacy",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

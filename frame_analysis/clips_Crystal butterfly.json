@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crystal butterfly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crystal butterfly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crystal butterfly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stunning glass sculpture of a butterfly perched on a flower, both crafted with intricate detail and vibrant colors. The butterfly's wings shimmer with a spectrum of colors, reflecting light beautifully, while the flower glows with a warm orange hue.",
+      "description": "The scene depicts an artistic glass sculpture set against a dark background, highlighting the vibrant colors and intricate details of a butterfly and flower. The setting is likely an art exhibit or gallery, focusing on the beauty of glass art.",
+      "labels": {
+        "objects": [
+          "glass sculpture",
+          "butterfly",
+          "flower"
+        ],
+        "actions": [
+          "perched"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "art exhibit",
+          "gallery"
+        ],
+        "concepts": [
+          "art",
+          "beauty",
+          "craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crystal butterfly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crystal butterfly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate glass sculpture of a butterfly perched on a flower, both crafted with intricate details and vibrant colors. The butterfly's wings display a spectrum of colors, while the flower glows with a warm orange hue.",
+      "description": "The scene depicts a beautifully crafted glass sculpture of a butterfly resting on a flower. The setting is likely an art exhibit or a display area, showcasing the craftsmanship and artistry involved in creating such detailed glasswork.",
+      "labels": {
+        "objects": [
+          "glass sculpture",
+          "butterfly",
+          "flower"
+        ],
+        "actions": [
+          "perched"
+        ],
+        "emotions": [
+          "delicate",
+          "vibrant"
+        ],
+        "scenes": [
+          "art exhibit",
+          "display"
+        ],
+        "concepts": [
+          "artistry",
+          "craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: glass sculpture, butterfly, flower. Actions: perched. Emotions: awe, wonder, delicate, vibrant. Scenes: art exhibit, gallery, display. Concepts: craftsmanship, art, beauty, artistry",
+  "primary_labels": {
+    "objects": [
+      "glass sculpture",
+      "butterfly",
+      "flower"
+    ],
+    "actions": [
+      "perched"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "delicate",
+      "vibrant"
+    ],
+    "scenes": [
+      "art exhibit",
+      "gallery",
+      "display"
+    ],
+    "concepts": [
+      "craftsmanship",
+      "art",
+      "beauty",
+      "artistry"
+    ]
+  },
+  "metadata": {}
+}

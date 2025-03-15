@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Drone shot of hot air balon floa.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Drone shot of hot air balon floa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Drone shot of hot air balon floa/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant scene depicts several hot air balloons floating above a winding river that cuts through a grand canyon at sunset. The sky is painted with rich hues of orange and blue, while the canyon walls are illuminated by the warm glow of the setting sun.",
+      "description": "The scene captures a breathtaking view of a canyon during sunset, with hot air balloons drifting gracefully above a river. The landscape is bathed in warm colors, creating a serene and majestic atmosphere.",
+      "labels": {
+        "nature": [
+          "canyon",
+          "river",
+          "sky",
+          "sunset"
+        ],
+        "objects": [
+          "hot air balloon"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "landscape",
+          "sunset"
+        ],
+        "concepts": [
+          "adventure",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Drone shot of hot air balon floa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Drone shot of hot air balon floa/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant scene depicts several hot air balloons floating over a deep canyon at sunset. The canyon is illuminated by the warm glow of the setting sun, casting dramatic shadows on the rugged cliffs. A winding river flows through the canyon, reflecting the colorful sky above.",
+      "description": "The image captures a breathtaking view of hot air balloons drifting over a canyon during sunset. The setting is serene and majestic, with the sun casting a golden hue over the landscape, creating a sense of wonder and tranquility.",
+      "labels": {
+        "nature": [
+          "canyon",
+          "river",
+          "sunset",
+          "cliffs"
+        ],
+        "objects": [
+          "hot air balloon"
+        ],
+        "actions": [
+          "floating",
+          "drifting"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "sunset",
+          "aerial view"
+        ],
+        "concepts": [
+          "adventure",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: canyon, river, sunset, sky, cliffs. Objects: hot air balloon. Actions: floating, drifting. Emotions: serene, majestic. Scenes: sunset, landscape, aerial view. Concepts: adventure, tranquility",
+  "primary_labels": {
+    "nature": [
+      "canyon",
+      "river",
+      "sunset",
+      "sky",
+      "cliffs"
+    ],
+    "objects": [
+      "hot air balloon"
+    ],
+    "actions": [
+      "floating",
+      "drifting"
+    ],
+    "emotions": [
+      "serene",
+      "majestic"
+    ],
+    "scenes": [
+      "sunset",
+      "landscape",
+      "aerial view"
+    ],
+    "concepts": [
+      "adventure",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

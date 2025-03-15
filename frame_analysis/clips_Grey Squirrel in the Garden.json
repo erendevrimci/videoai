@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grey Squirrel in the Garden.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grey Squirrel in the Garden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grey Squirrel in the Garden/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a squirrel dressed in denim overalls and boots, holding a small shovel in a garden. Surrounding the squirrel are vibrant flowers, apples hanging from a tree, and a bird feeder with two birds perched nearby. The setting is lively and imaginative, blending nature with playful elements.",
+      "description": "The image depicts a playful and imaginative garden scene where a squirrel is humorously dressed in human-like clothing, engaging in gardening activities. The setting includes a variety of plants, a bird feeder, and apples, creating a vibrant and lively atmosphere.",
+      "labels": {
+        "animals": [
+          "squirrel",
+          "birds"
+        ],
+        "nature": [
+          "flowers",
+          "apples",
+          "tree"
+        ],
+        "objects": [
+          "shovel",
+          "bird feeder",
+          "overalls",
+          "boots"
+        ],
+        "actions": [
+          "gardening"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grey Squirrel in the Garden.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grey Squirrel in the Garden/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features a squirrel dressed in denim overalls and boots, holding a small shovel in a garden. The squirrel stands amidst pots of flowers and freshly dug soil, with apples hanging from a tree above. Two birds perch on a nearby bird feeder, adding to the lively garden atmosphere.",
+      "description": "The image depicts a playful and imaginative garden scene where a squirrel, humorously dressed in human clothing, appears to be gardening. The setting is a vibrant garden with blooming flowers, apple trees, and a bird feeder attracting birds.",
+      "labels": {
+        "animals": [
+          "squirrel",
+          "birds"
+        ],
+        "nature": [
+          "apple tree",
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "shovel",
+          "overalls",
+          "boots",
+          "bird feeder",
+          "flower pots"
+        ],
+        "actions": [
+          "gardening",
+          "perching"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: squirrel, birds. Nature: flowers, apples, tree, apple tree, garden. Objects: shovel, bird feeder, overalls, boots, flower pots. Actions: gardening, perching. Emotions: whimsical, playful. Scenes: garden. Concepts: anthropomorphism, imagination, nature",
+  "primary_labels": {
+    "animals": [
+      "squirrel",
+      "birds"
+    ],
+    "nature": [
+      "flowers",
+      "apples",
+      "tree",
+      "apple tree",
+      "garden"
+    ],
+    "objects": [
+      "shovel",
+      "bird feeder",
+      "overalls",
+      "boots",
+      "flower pots"
+    ],
+    "actions": [
+      "gardening",
+      "perching"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "garden"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "imagination",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersAreOpening.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersAreOpening.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFlowersAreOpening/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious red perfume bottle is elegantly suspended amidst vibrant red flowers and transparent geometric shapes. The scene is artistically arranged, highlighting the perfume's opulence and sophistication.",
+      "description": "The image showcases a high-end perfume bottle set against a backdrop of red flowers and clear geometric structures. The composition emphasizes luxury and elegance, with a focus on the perfume as the central element.",
+      "labels": {
+        "objects": [
+          "perfume bottle",
+          "flowers",
+          "geometric shapes"
+        ],
+        "actions": [
+          "suspended"
+        ],
+        "emotions": [
+          "luxurious",
+          "sophisticated"
+        ],
+        "scenes": [
+          "artistic display"
+        ],
+        "concepts": [
+          "elegance",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersAreOpening.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFlowersAreOpening/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A luxurious perfume bottle is elegantly displayed amidst vibrant red flowers and geometric shapes. The scene is artfully composed with a focus on the rich red and gold hues of the bottle, creating a sense of opulence and sophistication.",
+      "description": "The image showcases a perfume bottle suspended in a minimalistic setting with bright red flowers and transparent geometric shapes. The overall composition highlights the elegance and luxury of the product.",
+      "labels": {
+        "objects": [
+          "perfume bottle",
+          "flowers",
+          "geometric shapes"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "scenes": [
+          "product display",
+          "luxury setting"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ],
+        "emotions": [
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: perfume bottle, flowers, geometric shapes. Actions: suspended. Emotions: luxurious, sophisticated, opulence. Scenes: artistic display, product display, luxury setting. Concepts: elegance, opulence, sophistication. Nature: flowers",
+  "primary_labels": {
+    "objects": [
+      "perfume bottle",
+      "flowers",
+      "geometric shapes"
+    ],
+    "actions": [
+      "suspended"
+    ],
+    "emotions": [
+      "luxurious",
+      "sophisticated",
+      "opulence"
+    ],
+    "scenes": [
+      "artistic display",
+      "product display",
+      "luxury setting"
+    ],
+    "concepts": [
+      "elegance",
+      "opulence",
+      "sophistication"
+    ],
+    "nature": [
+      "flowers"
+    ]
+  },
+  "metadata": {}
+}

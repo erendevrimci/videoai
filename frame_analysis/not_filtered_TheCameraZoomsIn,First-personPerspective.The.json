@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, realistic dinosaur animatronic is displayed in a spacious industrial warehouse. Several people are operating the animatronic, which features exposed mechanical components and a lifelike appearance. The dinosaur's mouth is wide open, showcasing its detailed teeth and tongue.",
+      "description": "The scene is set in a large industrial warehouse, where a team is working on a life-sized dinosaur animatronic. The environment is spacious and well-lit, with high ceilings and large windows.",
+      "labels": {
+        "people": [
+          "operators"
+        ],
+        "objects": [
+          "dinosaur animatronic",
+          "mechanical components",
+          "control equipment"
+        ],
+        "actions": [
+          "operating",
+          "animating"
+        ],
+        "scenes": [
+          "industrial warehouse",
+          "workshop"
+        ],
+        "emotions": [
+          "awe",
+          "focus"
+        ],
+        "concepts": [
+          "engineering",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large animatronic dinosaur roars menacingly inside a spacious industrial warehouse. The creature's mouth is wide open, revealing sharp teeth, as it stands amidst a cloud of dust on the concrete floor.",
+      "description": "The scene is set in a large, well-lit industrial warehouse, where a life-sized animatronic dinosaur is positioned as if in mid-roar. The atmosphere is intense and dramatic, with the dinosaur's presence dominating the space.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "animatronic",
+          "warehouse"
+        ],
+        "actions": [
+          "roaring"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "industrial setting"
+        ],
+        "concepts": [
+          "technology",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn,First-personPerspective.The/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large, mechanical dinosaur stands menacingly in an industrial warehouse. Its massive frame is accentuated by metal components and tubes, suggesting a fusion of organic and mechanical elements. Dust swirls around its feet, adding to the dramatic atmosphere.",
+      "description": "The scene takes place in a spacious industrial warehouse, where a hybrid dinosaur, part machine and part creature, dominates the space. The environment is gritty and filled with dust, creating a tense and dramatic setting.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "metal components",
+          "tubes"
+        ],
+        "actions": [
+          "standing",
+          "dust swirling"
+        ],
+        "emotions": [
+          "menacing"
+        ],
+        "scenes": [
+          "industrial warehouse"
+        ],
+        "concepts": [
+          "hybrid creature",
+          "mechanical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: operators. Objects: dinosaur animatronic, mechanical components, control equipment, animatronic, warehouse. Actions: operating, animating, roaring, standing, dust swirling. Scenes: industrial warehouse, workshop, industrial setting. Emotions: awe, focus, intensity, menacing. Concepts: entertainment, engineering, technology, hybrid creature, mechanical. Animals: dinosaur",
+  "primary_labels": {
+    "people": [
+      "operators"
+    ],
+    "objects": [
+      "dinosaur animatronic",
+      "mechanical components",
+      "control equipment",
+      "animatronic",
+      "warehouse"
+    ],
+    "actions": [
+      "operating",
+      "animating",
+      "roaring",
+      "standing",
+      "dust swirling"
+    ],
+    "scenes": [
+      "industrial warehouse",
+      "workshop",
+      "industrial setting"
+    ],
+    "emotions": [
+      "awe",
+      "focus",
+      "intensity",
+      "menacing"
+    ],
+    "concepts": [
+      "entertainment",
+      "engineering",
+      "technology",
+      "hybrid creature",
+      "mechanical"
+    ],
+    "animals": [
+      "dinosaur"
+    ]
+  },
+  "metadata": {}
+}

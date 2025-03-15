@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer at Mt. Fuji.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer at Mt. Fuji.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summer at Mt. Fuji/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with blonde hair stands near a window, bathed in warm sunlight. She wears a floral-patterned shirt and gazes softly at the camera, creating a serene and intimate atmosphere.",
+      "description": "The scene captures a tranquil moment indoors, with natural light streaming through a window. The setting suggests a peaceful, sunny day, possibly in a home or studio environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "shirt"
+        ],
+        "nature": [
+          "sunlight"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "intimate"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "natural light"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer at Mt. Fuji.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summer at Mt. Fuji/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with blonde hair smiles warmly while sitting by a window. She is wearing a floral-patterned shirt, and sunlight streams in, casting a soft glow around her.",
+      "description": "The scene captures a serene and cheerful moment indoors, with natural light enhancing the atmosphere. The woman appears relaxed and content, enjoying the sunlight.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "shirt"
+        ],
+        "actions": [
+          "smiling",
+          "sitting"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "serenity",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: window, shirt. Nature: sunlight. Actions: standing, smiling, sitting. Emotions: serene, intimate, happiness, contentment. Scenes: indoor, sunlit. Concepts: tranquility, natural light, serenity, warmth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "window",
+      "shirt"
+    ],
+    "nature": [
+      "sunlight"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "sitting"
+    ],
+    "emotions": [
+      "serene",
+      "intimate",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "indoor",
+      "sunlit"
+    ],
+    "concepts": [
+      "tranquility",
+      "natural light",
+      "serenity",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

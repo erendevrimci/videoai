@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl is riding a bike.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl is riding a bike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl is riding a bike/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A motorcyclist in a green suit is skillfully maneuvering a green sports bike on a winding road. The rider is leaning into a turn, showcasing precision and control. The background is a blur of greenery, emphasizing the speed and motion of the scene.",
+      "description": "The scene captures a dynamic moment on a rural road, where a motorcyclist is engaged in an intense ride. The setting is likely an outdoor, natural environment with lush greenery lining the road.",
+      "labels": {
+        "people": [
+          "motorcyclist"
+        ],
+        "objects": [
+          "motorcycle",
+          "riding gear"
+        ],
+        "actions": [
+          "riding",
+          "leaning",
+          "turning"
+        ],
+        "emotions": [
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "road",
+          "outdoor"
+        ],
+        "concepts": [
+          "speed",
+          "precision",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl is riding a bike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl is riding a bike/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in a green motorcycle suit rides a matching green sportbike down a winding road. Her hair flows in the wind as she maintains focus on the road ahead. The surrounding greenery blurs slightly, indicating motion.",
+      "description": "The scene captures a motorcyclist navigating a curvy road, surrounded by lush greenery. The focus is on the rider and her motorcycle, emphasizing speed and concentration.",
+      "labels": {
+        "people": [
+          "woman",
+          "motorcyclist"
+        ],
+        "nature": [
+          "roadside greenery"
+        ],
+        "objects": [
+          "motorcycle",
+          "motorcycle suit"
+        ],
+        "actions": [
+          "riding",
+          "driving"
+        ],
+        "emotions": [
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "road"
+        ],
+        "concepts": [
+          "speed",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A girl is riding a bike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A girl is riding a bike/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a green and black motorcycle suit is riding a green sports motorcycle on a winding road. The road is surrounded by greenery, suggesting a rural or forested setting. Her focused expression indicates concentration as she navigates the curve.",
+      "description": "The scene captures a dynamic moment of a motorcyclist maneuvering through a curvy road in a natural setting. The focus is on the rider and the motorcycle, highlighting speed and precision.",
+      "labels": {
+        "people": [
+          "woman",
+          "motorcyclist"
+        ],
+        "nature": [
+          "road",
+          "greenery"
+        ],
+        "objects": [
+          "motorcycle",
+          "motorcycle suit"
+        ],
+        "actions": [
+          "riding",
+          "maneuvering"
+        ],
+        "emotions": [
+          "focus",
+          "concentration"
+        ],
+        "scenes": [
+          "outdoor",
+          "road"
+        ],
+        "concepts": [
+          "speed",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: motorcyclist, woman. Objects: motorcycle, motorcycle suit, riding gear. Actions: riding, leaning, turning, driving, maneuvering. Emotions: focus, determination, concentration. Scenes: road, outdoor. Concepts: speed, adventure, precision, motion. Nature: roadside greenery, road, greenery",
+  "primary_labels": {
+    "people": [
+      "motorcyclist",
+      "woman"
+    ],
+    "objects": [
+      "motorcycle",
+      "motorcycle suit",
+      "riding gear"
+    ],
+    "actions": [
+      "riding",
+      "leaning",
+      "turning",
+      "driving",
+      "maneuvering"
+    ],
+    "emotions": [
+      "focus",
+      "determination",
+      "concentration"
+    ],
+    "scenes": [
+      "road",
+      "outdoor"
+    ],
+    "concepts": [
+      "speed",
+      "adventure",
+      "precision",
+      "motion"
+    ],
+    "nature": [
+      "roadside greenery",
+      "road",
+      "greenery"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Son of Kthulu.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Son of Kthulu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Son of Kthulu/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child in a mystical setting sits on an ornate throne, wearing a hooded robe. The child holds a glowing object, casting an eerie green light on their face, while tentacle-like structures loom in the background.",
+      "description": "The scene is set in a dark, mystical environment with a child seated on an intricately designed throne. The atmosphere is mysterious and slightly ominous, enhanced by the glowing object the child holds and the tentacle-like structures surrounding the throne.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "throne",
+          "robe",
+          "glowing object"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "mystical",
+          "dark"
+        ],
+        "concepts": [
+          "magic",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Son of Kthulu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Son of Kthulu/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child dressed in a dark, ornate robe sits on an intricately carved throne. The child holds a glowing object, casting an eerie green light on their face, while tentacle-like structures loom in the background.",
+      "description": "The scene is set in a mystical or fantasy environment, with a child seated on a throne in a dimly lit, mysterious setting. The atmosphere is magical and slightly ominous, enhanced by the glowing object and the presence of tentacle-like forms.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "throne",
+          "glowing object",
+          "robe"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Objects: throne, robe, glowing object. Actions: sitting, holding. Emotions: mysterious, ominous. Scenes: mystical, dark, fantasy. Concepts: magic, fantasy, mystery",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "objects": [
+      "throne",
+      "robe",
+      "glowing object"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "mysterious",
+      "ominous"
+    ],
+    "scenes": [
+      "mystical",
+      "dark",
+      "fantasy"
+    ],
+    "concepts": [
+      "magic",
+      "fantasy",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

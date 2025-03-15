@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cyberpunk Suit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cyberpunk Suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cyberpunk Suit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An animated character with long white hair is depicted in a dynamic pose against a solid blue background. The character is wearing a sleek black and blue bodysuit and white sneakers, with hair flowing as if caught in motion.",
+      "description": "The scene features an animated character in a futuristic setting, emphasizing motion and style. The background is a simple blue, highlighting the character's design and movement.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "objects": [
+          "bodysuit",
+          "sneakers"
+        ],
+        "actions": [
+          "posing",
+          "hair flowing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "futuristic"
+        ],
+        "concepts": [
+          "animation",
+          "motion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cyberpunk Suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cyberpunk Suit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An anime-style character with long white hair and striking blue eyes stands against a soft blue background. She wears a futuristic black and blue outfit, exuding a calm and composed demeanor.",
+      "description": "The scene features an anime character in a minimalist setting, emphasizing her vibrant appearance and modern attire. The focus is on her expressive eyes and flowing hair, creating a serene yet captivating atmosphere.",
+      "labels": {
+        "people": [
+          "anime character"
+        ],
+        "objects": [
+          "futuristic outfit"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "anime",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated character, anime character. Objects: bodysuit, sneakers, futuristic outfit. Actions: posing, hair flowing. Emotions: calm, composed. Scenes: futuristic, minimalist. Concepts: animation, motion, style, anime, futurism",
+  "primary_labels": {
+    "people": [
+      "animated character",
+      "anime character"
+    ],
+    "objects": [
+      "bodysuit",
+      "sneakers",
+      "futuristic outfit"
+    ],
+    "actions": [
+      "posing",
+      "hair flowing"
+    ],
+    "emotions": [
+      "calm",
+      "composed"
+    ],
+    "scenes": [
+      "futuristic",
+      "minimalist"
+    ],
+    "concepts": [
+      "animation",
+      "motion",
+      "style",
+      "anime",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

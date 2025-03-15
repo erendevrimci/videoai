@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyborg lady.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyborg lady.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cyborg lady/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid figure with a transparent, mechanical exoskeleton stands on a beach, facing the ocean. The sunset casts a warm glow on the intricate metallic structures visible through the figure's skin.",
+      "description": "The scene depicts a futuristic humanoid with a visible mechanical structure on a beach during sunset. The setting combines natural and technological elements, creating a juxtaposition of organic and artificial forms.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset"
+        ],
+        "objects": [
+          "exoskeleton",
+          "mechanical structure"
+        ],
+        "scenes": [
+          "futuristic",
+          "natural"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyborg lady.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cyborg lady/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a metallic, robotic structure is walking along a beach at sunset. The intricate design of the figure's back is illuminated by the warm glow of the setting sun, creating a striking contrast against the natural backdrop.",
+      "description": "The scene depicts a futuristic humanoid robot on a beach during sunset, highlighting the blend of technology and nature.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "nature": [
+          "beach",
+          "sunset",
+          "ocean"
+        ],
+        "objects": [
+          "robot",
+          "metallic structure"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "futuristic",
+          "coastal"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cyborg lady.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cyborg lady/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A humanoid figure with a transparent, mechanical exoskeleton walks along a sandy beach at sunset. The intricate design of the exoskeleton reflects the warm glow of the setting sun, creating a striking contrast against the natural backdrop of the ocean.",
+      "description": "The scene depicts a futuristic humanoid figure on a beach, showcasing advanced technology in a natural setting. The sunset casts a golden hue over the scene, highlighting the mechanical details of the figure's exoskeleton.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset"
+        ],
+        "objects": [
+          "exoskeleton"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "futuristic",
+          "natural"
+        ],
+        "concepts": [
+          "technology",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid. Nature: beach, ocean, sunset. Objects: exoskeleton, mechanical structure, robot, metallic structure. Scenes: futuristic, natural, coastal. Concepts: technology, nature, contrast. Emotions: serenity, wonder. Actions: walking",
+  "primary_labels": {
+    "people": [
+      "humanoid"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sunset"
+    ],
+    "objects": [
+      "exoskeleton",
+      "mechanical structure",
+      "robot",
+      "metallic structure"
+    ],
+    "scenes": [
+      "futuristic",
+      "natural",
+      "coastal"
+    ],
+    "concepts": [
+      "technology",
+      "nature",
+      "contrast"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder"
+    ],
+    "actions": [
+      "walking"
+    ]
+  },
+  "metadata": {}
+}

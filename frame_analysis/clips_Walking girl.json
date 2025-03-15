@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Walking girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Walking girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Walking girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long brown hair is walking through a park on a sunny day. She is wearing a white blouse, a black skirt, and carrying a brown shoulder bag. The background features lush green trees and a distant view of a building with spires.",
+      "description": "The scene is set in a park during a bright and sunny day. The atmosphere is lively and cheerful, with the woman appearing to enjoy a leisurely walk.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "nature": [
+          "trees",
+          "park"
+        ],
+        "objects": [
+          "blouse",
+          "skirt",
+          "shoulder bag"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "park"
+        ],
+        "concepts": [
+          "leisure",
+          "sunny day"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Walking girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Walking girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful anime girl with long brown hair walks through a sunlit park. She is wearing a white blouse and a black skirt, carrying a brown shoulder bag. The background features lush green trees and a distant view of a cathedral.",
+      "description": "The scene depicts a lively park setting on a bright day, with an anime character enjoying a stroll. The environment is serene, with greenery and a clear blue sky, suggesting a peaceful and joyful atmosphere.",
+      "labels": {
+        "people": [
+          "anime girl"
+        ],
+        "nature": [
+          "trees",
+          "park"
+        ],
+        "objects": [
+          "shoulder bag",
+          "blouse",
+          "skirt"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "cheerful",
+          "happy"
+        ],
+        "scenes": [
+          "park",
+          "outdoor"
+        ],
+        "concepts": [
+          "anime",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, anime girl. Nature: trees, park. Objects: blouse, skirt, shoulder bag. Actions: walking, smiling. Emotions: cheerful, happy. Scenes: park, outdoor. Concepts: leisure, sunny day, anime",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "anime girl"
+    ],
+    "nature": [
+      "trees",
+      "park"
+    ],
+    "objects": [
+      "blouse",
+      "skirt",
+      "shoulder bag"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "cheerful",
+      "happy"
+    ],
+    "scenes": [
+      "park",
+      "outdoor"
+    ],
+    "concepts": [
+      "leisure",
+      "sunny day",
+      "anime"
+    ]
+  },
+  "metadata": {}
+}

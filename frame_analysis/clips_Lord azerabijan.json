@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lord azerabijan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lord azerabijan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lord azerabijan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A distinguished man sits in an ornate wooden chair, dressed in a formal suit with a red flower pinned to his lapel. The background is adorned with vibrant red and yellow flowers, adding a touch of color to the otherwise subdued setting.",
+      "description": "The scene depicts a formal and composed setting, possibly in a study or a formal room. The man appears to be in a contemplative or authoritative pose, suggesting a sense of importance or introspection.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "chair",
+          "suit",
+          "flower"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "formal setting"
+        ],
+        "concepts": [
+          "authority",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Lord azerabijan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Lord azerabijan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man in a formal suit sits confidently in an ornate wooden chair. The background features a decorative setting with flowers and intricate patterns, suggesting a sophisticated environment.",
+      "description": "The scene depicts a distinguished gentleman seated in an elegant room, exuding an air of authority and composure. The setting is richly decorated, with floral arrangements and luxurious furnishings, creating a classic and refined atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "chair",
+          "suit",
+          "tie",
+          "glasses",
+          "flowers"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confident",
+          "composed"
+        ],
+        "scenes": [
+          "indoor",
+          "formal"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: chair, suit, flower, tie, glasses. Nature: flowers. Emotions: serious, confident, composed. Scenes: formal setting, indoor, formal. Concepts: authority, contemplation, elegance, sophistication. Actions: sitting",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "chair",
+      "suit",
+      "flower",
+      "tie",
+      "glasses"
+    ],
+    "nature": [
+      "flowers"
+    ],
+    "emotions": [
+      "serious",
+      "confident",
+      "composed"
+    ],
+    "scenes": [
+      "formal setting",
+      "indoor",
+      "formal"
+    ],
+    "concepts": [
+      "authority",
+      "contemplation",
+      "elegance",
+      "sophistication"
+    ],
+    "actions": [
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

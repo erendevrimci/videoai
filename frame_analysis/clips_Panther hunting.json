@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Panther hunting.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Panther hunting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Panther hunting/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black panther peers intently through dense green foliage, its piercing eyes focused and alert. The lush leaves partially obscure its face, adding a sense of mystery and stealth to the scene.",
+      "description": "The scene captures a black panther hidden among thick vegetation, creating an atmosphere of intrigue and suspense. The panther's eyes are the focal point, conveying a sense of watchfulness and presence.",
+      "labels": {
+        "animals": [
+          "black panther"
+        ],
+        "nature": [
+          "foliage",
+          "leaves"
+        ],
+        "objects": [
+          "plants"
+        ],
+        "actions": [
+          "watching",
+          "hiding"
+        ],
+        "emotions": [
+          "alertness",
+          "mystery"
+        ],
+        "scenes": [
+          "jungle",
+          "wildlife"
+        ],
+        "concepts": [
+          "stealth",
+          "camouflage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Panther hunting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Panther hunting/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A black panther peers through dense green foliage, its piercing green eyes focused and alert. The leaves partially obscure its face, creating a sense of mystery and stealth.",
+      "description": "The scene depicts a black panther hidden among lush green leaves, suggesting a jungle or forest setting. The panther's intense gaze and the surrounding foliage create an atmosphere of suspense and intrigue.",
+      "labels": {
+        "animals": [
+          "black panther"
+        ],
+        "nature": [
+          "leaves",
+          "foliage"
+        ],
+        "emotions": [
+          "mystery",
+          "stealth"
+        ],
+        "scenes": [
+          "jungle",
+          "forest"
+        ],
+        "concepts": [
+          "camouflage",
+          "alertness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: black panther. Nature: foliage, leaves. Objects: plants. Actions: watching, hiding. Emotions: mystery, alertness, stealth. Scenes: jungle, wildlife, forest. Concepts: camouflage, stealth, alertness",
+  "primary_labels": {
+    "animals": [
+      "black panther"
+    ],
+    "nature": [
+      "foliage",
+      "leaves"
+    ],
+    "objects": [
+      "plants"
+    ],
+    "actions": [
+      "watching",
+      "hiding"
+    ],
+    "emotions": [
+      "mystery",
+      "alertness",
+      "stealth"
+    ],
+    "scenes": [
+      "jungle",
+      "wildlife",
+      "forest"
+    ],
+    "concepts": [
+      "camouflage",
+      "stealth",
+      "alertness"
+    ]
+  },
+  "metadata": {}
+}

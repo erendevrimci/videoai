@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walk of Wonder.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walk of Wonder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walk of Wonder/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with red hair and a backpack walks towards a futuristic cityscape under a crescent moon. Towering skyscrapers line the path, surrounded by mist and glowing lights. Other figures, including a child and a character in a costume, are visible along the path.",
+      "description": "The scene depicts a futuristic city with a central figure walking towards a skyline of tall, illuminated buildings. The atmosphere is dreamlike, with a crescent moon in the sky and mist enveloping the lower parts of the skyscrapers. The setting suggests a blend of urban exploration and fantasy.",
+      "labels": {
+        "people": [
+          "person",
+          "child",
+          "character in costume"
+        ],
+        "nature": [
+          "moon",
+          "mist"
+        ],
+        "objects": [
+          "backpack",
+          "skyscrapers",
+          "lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "futuristic city",
+          "urban landscape"
+        ],
+        "concepts": [
+          "exploration",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walk of Wonder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walk of Wonder/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person with a backpack walks along a futuristic pathway towards a cityscape of towering skyscrapers. The scene is enveloped in a dreamy atmosphere with vibrant colors and soft clouds. Other figures are seen walking in the distance, adding to the sense of exploration and wonder.",
+      "description": "The scene depicts a futuristic cityscape with tall, illuminated skyscrapers under a colorful sky. A central figure walks towards the city on a glowing pathway, surrounded by clouds and other distant figures, creating a sense of adventure and discovery.",
+      "labels": {
+        "people": [
+          "young person",
+          "figures"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "backpack",
+          "skyscrapers",
+          "pathway"
+        ],
+        "actions": [
+          "walking",
+          "exploring"
+        ],
+        "emotions": [
+          "wonder",
+          "adventure"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "exploration",
+          "future"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, child, character in costume, young person, figures. Nature: moon, mist, clouds. Objects: backpack, skyscrapers, lights, pathway. Actions: walking, exploring. Emotions: wonder, curiosity, adventure. Scenes: futuristic city, urban landscape, futuristic cityscape. Concepts: exploration, fantasy, future",
+  "primary_labels": {
+    "people": [
+      "person",
+      "child",
+      "character in costume",
+      "young person",
+      "figures"
+    ],
+    "nature": [
+      "moon",
+      "mist",
+      "clouds"
+    ],
+    "objects": [
+      "backpack",
+      "skyscrapers",
+      "lights",
+      "pathway"
+    ],
+    "actions": [
+      "walking",
+      "exploring"
+    ],
+    "emotions": [
+      "wonder",
+      "curiosity",
+      "adventure"
+    ],
+    "scenes": [
+      "futuristic city",
+      "urban landscape",
+      "futuristic cityscape"
+    ],
+    "concepts": [
+      "exploration",
+      "fantasy",
+      "future"
+    ]
+  },
+  "metadata": {}
+}

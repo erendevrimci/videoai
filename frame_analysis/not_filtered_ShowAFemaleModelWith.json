@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShowAFemaleModelWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShowAFemaleModelWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShowAFemaleModelWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long dark hair holds a jar of skincare cream in front of a neutral background. Her expression is calm and serene, with soft lighting highlighting her features. The jar is prominently displayed, suggesting a focus on beauty or skincare.",
+      "description": "The scene is a portrait of a young woman holding a skincare product, set against a simple, neutral backdrop. The focus is on her face and the product she is holding, creating a serene and elegant atmosphere.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "skincare jar"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "skincare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShowAFemaleModelWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShowAFemaleModelWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair smiles warmly at the camera while holding a jar of skincare cream. She is dressed in an off-shoulder top, and the background is a simple, neutral color.",
+      "description": "The scene depicts a close-up portrait of a woman promoting a skincare product. The setting is minimalistic, focusing on the subject and the product she holds.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "skincare jar"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait",
+          "advertisement"
+        ],
+        "concepts": [
+          "beauty",
+          "skincare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Objects: skincare jar. Actions: holding, smiling. Emotions: calm, serene, happiness. Scenes: portrait, advertisement. Concepts: beauty, skincare",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "objects": [
+      "skincare jar"
+    ],
+    "actions": [
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "happiness"
+    ],
+    "scenes": [
+      "portrait",
+      "advertisement"
+    ],
+    "concepts": [
+      "beauty",
+      "skincare"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUV in California.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUV in California.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUV in California/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic yellow sports car with large tires is parked in front of a modern, glass-walled house. The setting is a desert landscape with palm trees and mountains in the background.",
+      "description": "The scene depicts a luxurious and futuristic setting, combining modern architecture with an advanced vehicle design. The environment suggests a desert location, emphasizing a blend of nature and technology.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "house",
+          "palm trees"
+        ],
+        "nature": [
+          "mountains",
+          "desert"
+        ],
+        "scenes": [
+          "modern architecture",
+          "luxury setting"
+        ],
+        "concepts": [
+          "futurism",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUV in California.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUV in California/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A modern house with large glass windows is set against a backdrop of rugged mountains and surrounded by tall palm trees. In the foreground, a yellow off-road vehicle speeds by, kicking up dust as it moves across the dry terrain.",
+      "description": "The scene depicts a contemporary architectural home in a desert-like setting, with a focus on the contrast between the sleek design of the house and the natural, rugged environment. The presence of the off-road vehicle suggests a dynamic and adventurous atmosphere.",
+      "labels": {
+        "nature": [
+          "mountains",
+          "palm trees"
+        ],
+        "objects": [
+          "house",
+          "off-road vehicle"
+        ],
+        "actions": [
+          "driving",
+          "dust kicking"
+        ],
+        "scenes": [
+          "desert",
+          "modern architecture"
+        ],
+        "concepts": [
+          "adventure",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: house, sports car, palm trees, off-road vehicle. Nature: mountains, desert, palm trees. Scenes: modern architecture, luxury setting, desert. Concepts: futurism, technology, adventure, contrast. Actions: driving, dust kicking",
+  "primary_labels": {
+    "objects": [
+      "house",
+      "sports car",
+      "palm trees",
+      "off-road vehicle"
+    ],
+    "nature": [
+      "mountains",
+      "desert",
+      "palm trees"
+    ],
+    "scenes": [
+      "modern architecture",
+      "luxury setting",
+      "desert"
+    ],
+    "concepts": [
+      "futurism",
+      "technology",
+      "adventure",
+      "contrast"
+    ],
+    "actions": [
+      "driving",
+      "dust kicking"
+    ]
+  },
+  "metadata": {}
+}

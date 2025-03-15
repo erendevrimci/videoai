@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg on junkyard.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg on junkyard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyborg on junkyard/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with cybernetic enhancements stands confidently in a post-apocalyptic landscape. She is dressed in a rugged outfit, with visible mechanical components integrated into her arms. The background features a desolate scrapyard under a cloudy sky.",
+      "description": "The scene depicts a futuristic, post-apocalyptic setting where a woman with cybernetic features stands amidst a scrapyard. The environment suggests a world where technology and survival intertwine.",
+      "labels": {
+        "people": [
+          "cyborg woman"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "objects": [
+          "scrapyard",
+          "mechanical components"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "post-apocalyptic"
+        ],
+        "concepts": [
+          "cybernetics",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg on junkyard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyborg on junkyard/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with cybernetic enhancements stands in a post-apocalyptic landscape. She is surrounded by piles of debris and smoke billowing in the background, suggesting a recent conflict or destruction. Her expression is contemplative as she gazes downward.",
+      "description": "The scene depicts a futuristic, dystopian setting where technology and humanity intersect. The woman appears to be a cyborg, blending human and mechanical elements, in a world marked by chaos and ruin.",
+      "labels": {
+        "people": [
+          "cyborg",
+          "woman"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "debris",
+          "smoke",
+          "cybernetic enhancements"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "post-apocalyptic",
+          "dystopian"
+        ],
+        "concepts": [
+          "technology",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cyborg woman, cyborg, woman. Nature: cloudy sky, sky, clouds. Objects: scrapyard, mechanical components, debris, smoke, cybernetic enhancements. Actions: standing, gazing. Emotions: confidence, contemplative. Scenes: post-apocalyptic, dystopian. Concepts: cybernetics, futuristic, technology, destruction",
+  "primary_labels": {
+    "people": [
+      "cyborg woman",
+      "cyborg",
+      "woman"
+    ],
+    "nature": [
+      "cloudy sky",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "scrapyard",
+      "mechanical components",
+      "debris",
+      "smoke",
+      "cybernetic enhancements"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "confidence",
+      "contemplative"
+    ],
+    "scenes": [
+      "post-apocalyptic",
+      "dystopian"
+    ],
+    "concepts": [
+      "cybernetics",
+      "futuristic",
+      "technology",
+      "destruction"
+    ]
+  },
+  "metadata": {}
+}

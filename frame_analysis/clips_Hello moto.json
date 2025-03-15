@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hello moto.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hello moto.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hello moto/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with a sleek bob haircut and striking makeup gazes confidently over her shoulder. She is wearing a yellow and black jacket, standing in front of a graffiti-covered wall with trees in the background.",
+      "description": "The scene is set outdoors, possibly in an urban environment, with a focus on the woman as the central figure. The background features graffiti art and blurred foliage, suggesting a lively and artistic setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jacket",
+          "graffiti"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "fashion",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hello moto.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hello moto/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with a sleek bob haircut is wearing a striking yellow and black jacket. She gazes intently over her shoulder, set against a backdrop of blurred trees and graffiti.",
+      "description": "The scene captures a woman in an outdoor setting, possibly a park or urban area, with a focus on her stylish appearance and confident demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: jacket, graffiti. Nature: trees. Actions: gazing. Emotions: confidence. Scenes: urban, outdoor. Concepts: fashion, artistic, style",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "jacket",
+      "graffiti"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor"
+    ],
+    "concepts": [
+      "fashion",
+      "artistic",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

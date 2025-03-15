@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/medieval stone archwa.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/medieval stone archwa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/medieval stone archwa/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An ancient stone archway frames a breathtaking view of a distant castle perched on a hill, surrounded by lush greenery. Inside the archway, a wooden table is adorned with old books and a detailed map, suggesting a scene of exploration and discovery.",
+      "description": "The scene is set in a historical or fantasy setting, with a focus on exploration and adventure. The castle in the distance hints at a medieval or fantastical world, while the table with books and a map suggests a scholarly or exploratory pursuit.",
+      "labels": {
+        "nature": [
+          "trees",
+          "mountains"
+        ],
+        "objects": [
+          "table",
+          "books",
+          "map"
+        ],
+        "scenes": [
+          "castle",
+          "archway",
+          "landscape"
+        ],
+        "concepts": [
+          "exploration",
+          "history",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/medieval stone archwa.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/medieval stone archwa/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A scenic view through an ivy-covered stone archway reveals a distant castle perched on a hill, surrounded by lush greenery and mountains. In the foreground, a wooden table holds an assortment of old books and a detailed map, suggesting a setting of exploration and discovery.",
+      "description": "The scene is set in a medieval or fantasy setting, viewed from within a stone structure. The focus is on a distant castle, surrounded by a vast landscape of forests and mountains, seen through an archway adorned with ivy. The foreground features a table with books and a map, indicating a theme of exploration.",
+      "labels": {
+        "nature": [
+          "ivy",
+          "forest",
+          "mountains"
+        ],
+        "objects": [
+          "castle",
+          "books",
+          "map",
+          "table"
+        ],
+        "scenes": [
+          "medieval",
+          "fantasy",
+          "exploration"
+        ],
+        "concepts": [
+          "discovery",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: mountains, trees, ivy, forest. Objects: table, books, map, castle. Scenes: castle, archway, landscape, medieval, fantasy. Concepts: exploration, history, fantasy, discovery, adventure",
+  "primary_labels": {
+    "nature": [
+      "mountains",
+      "trees",
+      "ivy",
+      "forest"
+    ],
+    "objects": [
+      "table",
+      "books",
+      "map",
+      "castle"
+    ],
+    "scenes": [
+      "castle",
+      "archway",
+      "landscape",
+      "medieval",
+      "fantasy"
+    ],
+    "concepts": [
+      "exploration",
+      "history",
+      "fantasy",
+      "discovery",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

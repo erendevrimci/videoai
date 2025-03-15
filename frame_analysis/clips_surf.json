@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/surf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/surf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/surf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surfer skillfully rides a wave, leaning forward with intense focus. The water splashes dynamically around him, capturing the energy of the ocean.",
+      "description": "The scene captures a thrilling moment of surfing, with a surfer navigating a powerful wave. The setting is likely a coastal area with a vibrant, energetic atmosphere.",
+      "labels": {
+        "people": [
+          "surfer"
+        ],
+        "nature": [
+          "ocean",
+          "wave"
+        ],
+        "objects": [
+          "surfboard"
+        ],
+        "actions": [
+          "surfing",
+          "riding wave"
+        ],
+        "emotions": [
+          "focus",
+          "intensity"
+        ],
+        "scenes": [
+          "surfing scene",
+          "ocean activity"
+        ],
+        "concepts": [
+          "adventure",
+          "sport"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/surf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/surf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene beach scene with gentle waves in the foreground and a person relaxing on the sandy shore. Lush green vegetation and rocks border the beach, creating a tranquil natural setting.",
+      "description": "The image depicts a peaceful beach setting with turquoise waves gently rolling in the foreground. A person is seen sitting on the sand, surrounded by rocks and dense green foliage, suggesting a secluded and calm atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "waves",
+          "vegetation",
+          "rocks"
+        ],
+        "objects": [
+          "sand"
+        ],
+        "actions": [
+          "relaxing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: surfer, person. Nature: ocean, wave, beach, waves, vegetation. Objects: surfboard, sand. Actions: surfing, riding wave, relaxing. Emotions: focus, intensity, calm. Scenes: surfing scene, ocean activity, beach scene. Concepts: adventure, sport, tranquility, nature",
+  "primary_labels": {
+    "people": [
+      "surfer",
+      "person"
+    ],
+    "nature": [
+      "ocean",
+      "wave",
+      "beach",
+      "waves",
+      "vegetation"
+    ],
+    "objects": [
+      "surfboard",
+      "sand"
+    ],
+    "actions": [
+      "surfing",
+      "riding wave",
+      "relaxing"
+    ],
+    "emotions": [
+      "focus",
+      "intensity",
+      "calm"
+    ],
+    "scenes": [
+      "surfing scene",
+      "ocean activity",
+      "beach scene"
+    ],
+    "concepts": [
+      "adventure",
+      "sport",
+      "tranquility",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

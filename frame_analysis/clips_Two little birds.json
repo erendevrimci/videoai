@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Two little birds.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Two little birds.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Two little birds/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two fluffy white birds nestle together inside an orange flower, sheltered from the rain. Raindrops cling to the petals and leaves, creating a serene and intimate scene.",
+      "description": "The scene depicts a pair of small birds taking refuge inside a vibrant orange flower during a gentle rain shower. The surrounding garden is lush with various flowers and foliage, adding to the tranquil atmosphere.",
+      "labels": {
+        "animals": [
+          "birds"
+        ],
+        "nature": [
+          "flower",
+          "raindrops",
+          "leaves",
+          "garden"
+        ],
+        "objects": [
+          "petals"
+        ],
+        "actions": [
+          "nestling",
+          "sheltering"
+        ],
+        "emotions": [
+          "serenity",
+          "intimacy"
+        ],
+        "scenes": [
+          "rainy garden"
+        ],
+        "concepts": [
+          "protection",
+          "nature's beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Two little birds.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Two little birds/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two fluffy white birds are nestled inside a vibrant orange flower, sheltered from the rain. The flower petals cradle the birds gently, with raindrops glistening on their surface. Surrounding the scene are various colorful flowers, adding to the serene and picturesque setting.",
+      "description": "The scene depicts a tranquil moment in a rain-soaked garden where two small birds find refuge inside a large, orange flower. The atmosphere is peaceful and intimate, with the rain adding a soothing backdrop to the cozy shelter provided by the flower.",
+      "labels": {
+        "animals": [
+          "birds"
+        ],
+        "nature": [
+          "flower",
+          "raindrops",
+          "garden"
+        ],
+        "objects": [
+          "petals"
+        ],
+        "actions": [
+          "nestled",
+          "sheltered"
+        ],
+        "emotions": [
+          "serene",
+          "intimate"
+        ],
+        "scenes": [
+          "garden",
+          "rain"
+        ],
+        "concepts": [
+          "shelter",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: birds. Nature: flower, raindrops, garden, leaves. Objects: petals. Actions: nestling, sheltering, nestled, sheltered. Emotions: serenity, intimacy, serene, intimate. Scenes: rainy garden, garden, rain. Concepts: protection, nature's beauty, shelter, tranquility",
+  "primary_labels": {
+    "animals": [
+      "birds"
+    ],
+    "nature": [
+      "flower",
+      "raindrops",
+      "garden",
+      "leaves"
+    ],
+    "objects": [
+      "petals"
+    ],
+    "actions": [
+      "nestling",
+      "sheltering",
+      "nestled",
+      "sheltered"
+    ],
+    "emotions": [
+      "serenity",
+      "intimacy",
+      "serene",
+      "intimate"
+    ],
+    "scenes": [
+      "rainy garden",
+      "garden",
+      "rain"
+    ],
+    "concepts": [
+      "protection",
+      "nature's beauty",
+      "shelter",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

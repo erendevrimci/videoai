@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pizza/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person resembling a classic portrait holds a steaming pepperoni pizza. The scene blends traditional art with a modern twist, creating a humorous juxtaposition.",
+      "description": "The image features a person styled like a famous painting, holding a freshly baked pepperoni pizza. The setting is a playful combination of classical art and contemporary food culture.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "pizza",
+          "plate"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "artistic"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pizza/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long dark hair smiles warmly while holding a steaming pizza. The scene is reminiscent of a classic portrait with a modern twist.",
+      "description": "The image depicts a person in a portrait-style setting, holding a freshly baked pizza. The atmosphere combines elements of classical art with contemporary humor.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "pizza",
+          "plate"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fusion of classic and modern",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: pizza, plate. Actions: holding. Emotions: humor, happiness, contentment. Scenes: artistic, portrait. Concepts: juxtaposition, fusion, fusion of classic and modern, humor",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "pizza",
+      "plate"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "humor",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "artistic",
+      "portrait"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "fusion",
+      "fusion of classic and modern",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

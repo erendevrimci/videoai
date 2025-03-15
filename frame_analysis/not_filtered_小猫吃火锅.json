@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u5c0f\u732b\u5403\u706b\u9505.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u5c0f\u732b\u5403\u706b\u9505.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u5c0f\u732b\u5403\u706b\u9505/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three curious cats sit attentively near a dining table, observing a hot pot meal being prepared. The scene captures the cats' fascination with the steaming pot filled with various ingredients. A glass of juice and a plate of food are also visible, adding to the cozy dining atmosphere.",
+      "description": "The scene is set in a modern dining room, where three cats are gathered around a table observing a hot pot meal. The setting suggests a home environment with a focus on dining and culinary activity.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "hot pot",
+          "glass",
+          "plate",
+          "table",
+          "chopsticks"
+        ],
+        "actions": [
+          "cooking",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "dining room",
+          "home"
+        ],
+        "concepts": [
+          "domestic life",
+          "meal preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u5c0f\u732b\u5403\u706b\u9505.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u5c0f\u732b\u5403\u706b\u9505/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three curious kittens sit attentively in front of a dining table, captivated by a steaming pot of soup. The scene is set in a cozy dining room with a wooden table and elegant lighting. The kittens' expressions convey a mix of curiosity and anticipation as they gaze at the food.",
+      "description": "The image captures a dining room setting where three kittens are focused on a meal laid out on the table. The room features a wooden table, chairs, and a decorative chandelier, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "kittens"
+        ],
+        "objects": [
+          "table",
+          "soup pot",
+          "glass",
+          "bowl",
+          "chairs",
+          "chandelier"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "dining room"
+        ],
+        "concepts": [
+          "domestic life",
+          "meal time"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats, kittens. Objects: glass, table, hot pot, plate, chopsticks. Actions: cooking, observing, sitting, gazing. Emotions: curiosity. Scenes: dining room, home. Concepts: domestic life, meal preparation, meal time",
+  "primary_labels": {
+    "animals": [
+      "cats",
+      "kittens"
+    ],
+    "objects": [
+      "glass",
+      "table",
+      "hot pot",
+      "plate",
+      "chopsticks"
+    ],
+    "actions": [
+      "cooking",
+      "observing",
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "dining room",
+      "home"
+    ],
+    "concepts": [
+      "domestic life",
+      "meal preparation",
+      "meal time"
+    ]
+  },
+  "metadata": {}
+}

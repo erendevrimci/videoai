@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dinner in dim neon glow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dinner in dim neon glow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dinner in dim neon glow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a sleek black outfit sits at a small table in a bustling urban street, illuminated by vibrant neon signs. She appears contemplative, with her chin resting on her hand, while a steaming bowl of food sits in front of her. The background is filled with the glow of red and blue lights, creating a lively yet intimate atmosphere.",
+      "description": "The scene is set in a busy city street at night, characterized by bright neon lights and a sense of urban vibrancy. The woman is seated at an outdoor table, suggesting a casual dining setting amidst the hustle and bustle of the city.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "table",
+          "chair",
+          "bowl",
+          "neon signs"
+        ],
+        "actions": [
+          "sitting",
+          "resting chin on hand"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "city life",
+          "neon lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dinner in dim neon glow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dinner in dim neon glow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a sleek black outfit sits at a small table in a dimly lit urban alley, surrounded by vibrant neon signs. She gazes pensively at a steaming bowl of noodles, creating a striking contrast with the bustling city backdrop.",
+      "description": "The scene is set in a bustling urban alley at night, illuminated by bright neon signs with Asian script. The woman, dressed in a form-fitting black outfit, sits alone at a small table, adding a sense of solitude amidst the lively city environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bowl",
+          "noodles",
+          "table",
+          "chair",
+          "neon signs"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "pensiveness"
+        ],
+        "scenes": [
+          "urban alley",
+          "nighttime"
+        ],
+        "concepts": [
+          "solitude",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: table, chair, bowl, neon signs, noodles. Actions: sitting, resting chin on hand, gazing. Emotions: contemplative, pensiveness. Scenes: urban, night, urban alley, nighttime. Concepts: city life, neon lighting, solitude, contrast",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "table",
+      "chair",
+      "bowl",
+      "neon signs",
+      "noodles"
+    ],
+    "actions": [
+      "sitting",
+      "resting chin on hand",
+      "gazing"
+    ],
+    "emotions": [
+      "contemplative",
+      "pensiveness"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "urban alley",
+      "nighttime"
+    ],
+    "concepts": [
+      "city life",
+      "neon lighting",
+      "solitude",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

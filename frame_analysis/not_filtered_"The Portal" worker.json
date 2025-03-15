@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" worker.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" worker.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" worker/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic robot is prominently featured, showcasing its glossy white and black exterior with glowing blue lights. The robot is set against a blurred industrial background, suggesting an advanced technological environment. Its design highlights intricate mechanical details and a humanoid form.",
+      "description": "The scene depicts a high-tech robot in what appears to be a futuristic industrial setting. The focus is on the robot's advanced design and glowing elements, indicating a sophisticated level of technology.",
+      "labels": {
+        "objects": [
+          "robot",
+          "lights"
+        ],
+        "scenes": [
+          "industrial",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" worker.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" worker/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot stands in a high-tech corridor, its sleek white armor reflecting the ambient light. Blue lights adorn its head, suggesting advanced technology and artificial intelligence. The setting is a modern facility, with a blurred background of industrial design.",
+      "description": "The scene depicts a high-tech environment, likely a laboratory or industrial facility, where a humanoid robot is present. The focus is on the robot's advanced design and the technological atmosphere of the setting.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "robot",
+          "armor",
+          "corridor"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [],
+        "scenes": [
+          "futuristic",
+          "industrial"
+        ],
+        "concepts": [
+          "technology",
+          "artificial intelligence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, lights, armor, corridor. Scenes: industrial, futuristic. Concepts: technology, innovation, artificial intelligence. Emotions: awe, curiosity. Actions: standing",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "lights",
+      "armor",
+      "corridor"
+    ],
+    "scenes": [
+      "industrial",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "innovation",
+      "artificial intelligence"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity"
+    ],
+    "people": [],
+    "animals": [],
+    "nature": [],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

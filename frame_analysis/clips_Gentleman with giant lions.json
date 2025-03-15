@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gentleman with giant lions.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gentleman with giant lions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gentleman with giant lions/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A confident man in a suit walks forward flanked by two majestic lions. The scene is set in a brightly lit, modern indoor space, creating a striking contrast between the wild and the urban.",
+      "description": "The image depicts a man walking confidently in a modern indoor setting, accompanied by two large lions. The setting appears to be a spacious, well-lit area, possibly a mall or an atrium, with a focus on the juxtaposition of the man and the lions.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "lions"
+        ],
+        "objects": [
+          "suit"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "modern"
+        ],
+        "concepts": [
+          "contrast",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gentleman with giant lions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gentleman with giant lions/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a sharp suit confidently walks down a modern hallway flanked by two majestic lions. The setting appears to be an upscale indoor environment with bright lighting and sleek architectural elements.",
+      "description": "The scene is set in a contemporary indoor space, possibly a shopping mall or office building, with a man walking alongside two lions. The atmosphere is one of power and elegance, highlighted by the man's confident stride and the lions' regal presence.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "lions"
+        ],
+        "objects": [
+          "suit",
+          "watch"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "hallway"
+        ],
+        "concepts": [
+          "power",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gentleman with giant lions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gentleman with giant lions/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in a sharp suit confidently walks down a modern corridor flanked by two majestic lions. The setting is an indoor space with a high ceiling and bright lighting, creating a surreal and powerful atmosphere. The lions stride alongside the man, exuding strength and elegance.",
+      "description": "The scene depicts a man walking in a modern indoor environment with two lions by his side. The setting suggests a blend of urban sophistication and wild majesty, creating a striking visual contrast.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "lions"
+        ],
+        "nature": [],
+        "objects": [
+          "suit",
+          "corridor"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "modern"
+        ],
+        "concepts": [
+          "power",
+          "elegance",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: lions. Objects: suit, watch, corridor. Actions: walking. Emotions: confidence. Scenes: indoor, modern, hallway. Concepts: power, elegance, contrast, surreal",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "lions"
+    ],
+    "objects": [
+      "suit",
+      "watch",
+      "corridor"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "indoor",
+      "modern",
+      "hallway"
+    ],
+    "concepts": [
+      "power",
+      "elegance",
+      "contrast",
+      "surreal"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

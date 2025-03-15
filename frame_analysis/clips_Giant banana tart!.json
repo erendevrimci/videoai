@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant banana tart!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers assembling a dessert made of layered apple slices and powdered sugar. The workers, wearing hard hats, are carefully arranging the fruit atop a cake, creating a playful blend of culinary art and construction. Sunlight filters through, adding a magical touch to the scene.",
+      "description": "The scene is set in a fantastical kitchen environment where tiny figures are engaged in constructing an elaborate dessert. The combination of food and miniature workers creates a surreal and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "cake",
+          "apple slices",
+          "ladder",
+          "hard hats"
+        ],
+        "actions": [
+          "assembling",
+          "arranging",
+          "sprinkling"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary art"
+        ],
+        "concepts": [
+          "miniature",
+          "construction",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant banana tart!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant banana tart!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature construction workers assembling a cake made of apple slices and dusted with powdered sugar. The workers, wearing yellow helmets, are carefully stacking apple slices on top of a layered cake. Sunlight filters through the trees, casting a warm glow over the playful setup.",
+      "description": "The image portrays a creative and imaginative setting where tiny figures are engaged in building a dessert. The scene is set outdoors, with natural light enhancing the vibrant colors of the apples and the cake.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "construction workers"
+        ],
+        "objects": [
+          "cake",
+          "apple slices",
+          "ladder",
+          "helmets"
+        ],
+        "actions": [
+          "stacking",
+          "dusting"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor",
+          "construction"
+        ],
+        "concepts": [
+          "miniature world",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers, miniature figures, construction workers. Objects: cake, apple slices, ladder, hard hats, helmets. Actions: assembling, arranging, sprinkling, stacking, dusting. Emotions: playful, whimsical. Scenes: kitchen, culinary art, outdoor, construction. Concepts: miniature, construction, food art, miniature world, culinary art",
+  "primary_labels": {
+    "people": [
+      "miniature workers",
+      "miniature figures",
+      "construction workers"
+    ],
+    "objects": [
+      "cake",
+      "apple slices",
+      "ladder",
+      "hard hats",
+      "helmets"
+    ],
+    "actions": [
+      "assembling",
+      "arranging",
+      "sprinkling",
+      "stacking",
+      "dusting"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary art",
+      "outdoor",
+      "construction"
+    ],
+    "concepts": [
+      "miniature",
+      "construction",
+      "food art",
+      "miniature world",
+      "culinary art"
+    ]
+  },
+  "metadata": {}
+}

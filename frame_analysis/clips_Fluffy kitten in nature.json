@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy kitten in nature.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy kitten in nature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fluffy kitten in nature/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy kitten with wide eyes is joyfully leaping through a sunlit garden. The vibrant green grass and colorful flowers create a lively and cheerful atmosphere. Sunlight filters through the leaves, adding a magical touch to the scene.",
+      "description": "The scene captures a playful kitten in mid-air, surrounded by a lush garden. The setting is bright and sunny, with a focus on the kitten's energetic movement and the vivid natural environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "garden",
+          "grass",
+          "flowers",
+          "leaves"
+        ],
+        "objects": [
+          "sunlight"
+        ],
+        "actions": [
+          "leaping"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "playfulness",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fluffy kitten in nature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fluffy kitten in nature/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy kitten with large, expressive eyes walks through a vibrant meadow filled with colorful flowers. The sunlight filters through the trees, casting a warm glow on the scene.",
+      "description": "The scene depicts a cute kitten exploring a lush, flower-filled meadow on a sunny day. The setting is tranquil and idyllic, with a focus on the kitten's adorable features and the natural beauty surrounding it.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "meadow",
+          "flowers",
+          "trees",
+          "grass"
+        ],
+        "objects": [
+          "flowers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "innocence",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Nature: grass, flowers, garden, leaves, meadow. Objects: sunlight, flowers. Actions: leaping, walking. Emotions: joyful, curiosity, playfulness. Scenes: outdoor, sunlit, nature. Concepts: playfulness, happiness, innocence, exploration",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "nature": [
+      "grass",
+      "flowers",
+      "garden",
+      "leaves",
+      "meadow"
+    ],
+    "objects": [
+      "sunlight",
+      "flowers"
+    ],
+    "actions": [
+      "leaping",
+      "walking"
+    ],
+    "emotions": [
+      "joyful",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "outdoor",
+      "sunlit",
+      "nature"
+    ],
+    "concepts": [
+      "playfulness",
+      "happiness",
+      "innocence",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

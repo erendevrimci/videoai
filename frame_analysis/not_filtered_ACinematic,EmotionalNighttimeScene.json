@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,EmotionalNighttimeScene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,EmotionalNighttimeScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,EmotionalNighttimeScene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid white cat in a pink dress kneels on a wet cobblestone street, cradling a small black kitten. The scene is set in a rainy evening, with street lamps casting a warm glow amidst the downpour. The cat's expression is somber, reflecting the melancholic atmosphere.",
+      "description": "The scene depicts a rainy evening on a quiet street, where a humanoid cat character is tenderly holding a kitten. The setting is serene yet melancholic, with rain softly falling and street lamps illuminating the path.",
+      "labels": {
+        "people": [
+          "humanoid cat"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "dress",
+          "street lamps"
+        ],
+        "actions": [
+          "kneeling",
+          "holding"
+        ],
+        "emotions": [
+          "somber",
+          "melancholic"
+        ],
+        "scenes": [
+          "rainy street"
+        ],
+        "concepts": [
+          "compassion",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematic,EmotionalNighttimeScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematic,EmotionalNighttimeScene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid cat figure in a pink dress is gently holding a small black kitten in the rain. The scene is set on a dimly lit street with a warm glow from street lamps in the background.",
+      "description": "The image depicts a serene and slightly melancholic scene of a humanoid cat character cradling a kitten on a rainy evening. The setting is an outdoor street with soft lighting, creating a calm and intimate atmosphere.",
+      "labels": {
+        "animals": [
+          "humanoid cat",
+          "kitten"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "dress",
+          "street lamps"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "melancholic"
+        ],
+        "scenes": [
+          "street",
+          "evening"
+        ],
+        "concepts": [
+          "intimacy",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid cat. Animals: kitten, humanoid cat. Nature: rain. Objects: dress, street lamps. Actions: holding, kneeling. Emotions: melancholic, somber, calm. Scenes: rainy street, street, evening. Concepts: compassion, solitude, intimacy, serenity",
+  "primary_labels": {
+    "people": [
+      "humanoid cat"
+    ],
+    "animals": [
+      "kitten",
+      "humanoid cat"
+    ],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "dress",
+      "street lamps"
+    ],
+    "actions": [
+      "holding",
+      "kneeling"
+    ],
+    "emotions": [
+      "melancholic",
+      "somber",
+      "calm"
+    ],
+    "scenes": [
+      "rainy street",
+      "street",
+      "evening"
+    ],
+    "concepts": [
+      "compassion",
+      "solitude",
+      "intimacy",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

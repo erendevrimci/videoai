@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,AMiniPandaYawnsOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,AMiniPandaYawnsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,AMiniPandaYawnsOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny panda cub is gently held in a person's hand, surrounded by a warm, blurred background. The cub's fur is fluffy and its eyes are wide open, giving it an adorable expression.",
+      "description": "The scene captures a close-up of a small panda cub being held by a human hand. The background is softly blurred with a golden bokeh effect, suggesting a serene outdoor setting.",
+      "labels": {
+        "animals": [
+          "panda cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "adorable",
+          "gentle"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,AMiniPandaYawnsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,AMiniPandaYawnsOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny, fluffy panda cub is being gently held in a person's hand, its mouth open in a playful expression. The background is softly blurred with warm, golden bokeh, enhancing the cub's adorable features.",
+      "description": "The scene captures a close-up of a small panda cub being held by a human hand. The setting appears to be outdoors, possibly in a natural environment, with soft, warm lighting creating a serene and joyful atmosphere.",
+      "labels": {
+        "animals": [
+          "panda cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "nature"
+        ],
+        "concepts": [
+          "cuteness",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: panda cub. Objects: hand. Actions: holding. Emotions: adorable, gentle, playful, joyful. Scenes: close-up, outdoor, nature. Concepts: cuteness, care, innocence",
+  "primary_labels": {
+    "animals": [
+      "panda cub"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "adorable",
+      "gentle",
+      "playful",
+      "joyful"
+    ],
+    "scenes": [
+      "close-up",
+      "outdoor",
+      "nature"
+    ],
+    "concepts": [
+      "cuteness",
+      "care",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

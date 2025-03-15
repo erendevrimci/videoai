@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Buzz Beggar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Buzz Beggar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Buzz Beggar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands in front of a wall of vintage televisions, holding a smaller TV displaying the words 'Buzz Please'. The screens around her emit a soft blue glow, creating a surreal and nostalgic atmosphere.",
+      "description": "The scene is set in a dimly lit room filled with retro televisions stacked closely together. The woman is centrally positioned, drawing attention with her calm expression and the message on the TV she holds.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "televisions",
+          "screen"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "retro"
+        ],
+        "concepts": [
+          "nostalgia",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Buzz Beggar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Buzz Beggar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands in front of a wall of vintage televisions, holding a smaller TV displaying the text 'Buzz Please'. The screens behind her are mostly blank or showing static, creating a retro and surreal atmosphere.",
+      "description": "The scene is set in a dimly lit room filled with old-fashioned televisions. The woman is centrally positioned, drawing attention to the message on the screen she holds. The setting suggests a blend of nostalgia and modern commentary.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "television",
+          "screen"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "indoor",
+          "retro"
+        ],
+        "concepts": [
+          "nostalgia",
+          "media"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: screen, televisions, television. Actions: holding. Emotions: calm, introspective. Scenes: indoor, retro. Concepts: nostalgia, technology, media",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "screen",
+      "televisions",
+      "television"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "introspective"
+    ],
+    "scenes": [
+      "indoor",
+      "retro"
+    ],
+    "concepts": [
+      "nostalgia",
+      "technology",
+      "media"
+    ]
+  },
+  "metadata": {}
+}

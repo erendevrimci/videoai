@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Through a Venetian canal.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Through a Venetian canal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Through a Venetian canal/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gondola glides smoothly along a narrow canal in Venice, flanked by historic buildings. The calm water reflects the soft light of the setting sun, while a stone bridge arches gracefully in the background.",
+      "description": "The scene captures a quintessential Venetian canal with a gondola moving through the water. The setting is serene, with historic architecture lining the canal and a bridge adding to the picturesque view.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "gondola",
+          "bridge",
+          "buildings"
+        ],
+        "actions": [
+          "gliding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "canal",
+          "urban"
+        ],
+        "concepts": [
+          "travel",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Through a Venetian canal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Through a Venetian canal/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A gondola glides through a narrow canal in Venice, flanked by historic buildings. The scene is framed by a picturesque stone bridge arching over the water. The soft lighting of the setting sun casts a warm glow over the scene, enhancing the romantic atmosphere.",
+      "description": "The image captures a serene moment in Venice, Italy, with a gondola navigating a canal lined with classic Venetian architecture. The setting sun creates a tranquil ambiance, highlighting the city's charm and timeless beauty.",
+      "labels": {
+        "people": [
+          "gondolier"
+        ],
+        "nature": [
+          "canal",
+          "water"
+        ],
+        "objects": [
+          "gondola",
+          "bridge",
+          "buildings"
+        ],
+        "actions": [
+          "gliding",
+          "rowing"
+        ],
+        "emotions": [
+          "serenity",
+          "romance"
+        ],
+        "scenes": [
+          "urban",
+          "waterway"
+        ],
+        "concepts": [
+          "travel",
+          "architecture",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: gondolier. Nature: water, canal. Objects: gondola, bridge, buildings. Actions: gliding, rowing. Emotions: serene, serenity, romance. Scenes: urban, canal, waterway. Concepts: travel, architecture, culture",
+  "primary_labels": {
+    "people": [
+      "gondolier"
+    ],
+    "animals": [],
+    "nature": [
+      "water",
+      "canal"
+    ],
+    "objects": [
+      "gondola",
+      "bridge",
+      "buildings"
+    ],
+    "actions": [
+      "gliding",
+      "rowing"
+    ],
+    "emotions": [
+      "serene",
+      "serenity",
+      "romance"
+    ],
+    "scenes": [
+      "urban",
+      "canal",
+      "waterway"
+    ],
+    "concepts": [
+      "travel",
+      "architecture",
+      "culture"
+    ]
+  },
+  "metadata": {}
+}

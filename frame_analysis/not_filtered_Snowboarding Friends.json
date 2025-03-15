@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snowboarding Friends.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snowboarding Friends.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Snowboarding Friends/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sloth and a pig are joyfully snowboarding down a snowy slope. The sloth is wearing a backpack and appears to be guiding the pig as they glide through the snow. Birds are flying in the background, adding to the dynamic scene.",
+      "description": "The scene depicts a whimsical and adventurous moment where a sloth and a pig are snowboarding together down a snowy hill. The setting is a winter landscape with snow-covered trees and a clear blue sky.",
+      "labels": {
+        "animals": [
+          "sloth",
+          "pig",
+          "birds"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "snowboard",
+          "backpack"
+        ],
+        "actions": [
+          "snowboarding",
+          "flying"
+        ],
+        "emotions": [
+          "joyful",
+          "adventurous"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor adventure"
+        ],
+        "concepts": [
+          "friendship",
+          "fun",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Snowboarding Friends.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Snowboarding Friends/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sloth wearing a pink backpack is riding a pig down a snowy slope on a snowboard. The scene is set in a winter landscape with snow-covered trees in the background.",
+      "description": "The image depicts a whimsical winter scene where a sloth and a pig are engaged in an adventurous snowboarding activity. The setting is a snowy mountain with trees covered in snow, suggesting a playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "sloth",
+          "pig"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "mountain"
+        ],
+        "objects": [
+          "snowboard",
+          "backpack"
+        ],
+        "actions": [
+          "snowboarding",
+          "riding"
+        ],
+        "emotions": [
+          "playful",
+          "adventurous"
+        ],
+        "scenes": [
+          "winter landscape",
+          "snowy slope"
+        ],
+        "concepts": [
+          "imagination",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: sloth, pig, birds. Nature: snow, trees, sky, mountain. Objects: snowboard, backpack. Actions: snowboarding, flying, riding. Emotions: adventurous, joyful, playful. Scenes: winter landscape, outdoor adventure, snowy slope. Concepts: friendship, fun, whimsy, imagination, adventure",
+  "primary_labels": {
+    "animals": [
+      "sloth",
+      "pig",
+      "birds"
+    ],
+    "nature": [
+      "snow",
+      "trees",
+      "sky",
+      "mountain"
+    ],
+    "objects": [
+      "snowboard",
+      "backpack"
+    ],
+    "actions": [
+      "snowboarding",
+      "flying",
+      "riding"
+    ],
+    "emotions": [
+      "adventurous",
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "winter landscape",
+      "outdoor adventure",
+      "snowy slope"
+    ],
+    "concepts": [
+      "friendship",
+      "fun",
+      "whimsy",
+      "imagination",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

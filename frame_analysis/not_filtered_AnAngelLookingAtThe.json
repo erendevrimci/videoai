@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAngelLookingAtThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAngelLookingAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnAngelLookingAtThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic figure clad in ornate armor stands with ethereal wings spread wide, glowing with a radiant light. The scene is set against the backdrop of the Eiffel Tower, adding a blend of fantasy and reality. The figure's intense gaze and poised stance suggest readiness and power.",
+      "description": "The image depicts a fantasy character in elaborate armor with glowing wings, standing in front of the Eiffel Tower. The setting merges elements of fantasy with a real-world landmark, creating a surreal and captivating atmosphere.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "objects": [
+          "armor",
+          "sword",
+          "Eiffel Tower"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "fantasy",
+          "urban"
+        ],
+        "concepts": [
+          "majesty",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAngelLookingAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnAngelLookingAtThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic armored figure stands with luminous wings unfurled, set against the backdrop of the Eiffel Tower. The figure exudes an ethereal glow, with intricate armor and a crown, holding a sword with determination.",
+      "description": "The scene depicts a fantasy character, possibly an angelic warrior, in a dramatic pose in front of the Eiffel Tower. The setting combines elements of fantasy and reality, creating a surreal atmosphere.",
+      "labels": {
+        "people": [
+          "fantasy character",
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "sword",
+          "crown"
+        ],
+        "actions": [
+          "standing",
+          "holding sword"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "urban"
+        ],
+        "concepts": [
+          "angelic",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fantasy character, warrior. Objects: armor, sword, Eiffel Tower, crown. Actions: standing, gazing, holding sword. Emotions: intensity, power, determination. Scenes: fantasy, urban. Concepts: majesty, surrealism, angelic, ethereal",
+  "primary_labels": {
+    "people": [
+      "fantasy character",
+      "warrior"
+    ],
+    "objects": [
+      "armor",
+      "sword",
+      "Eiffel Tower",
+      "crown"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "holding sword"
+    ],
+    "emotions": [
+      "intensity",
+      "power",
+      "determination"
+    ],
+    "scenes": [
+      "fantasy",
+      "urban"
+    ],
+    "concepts": [
+      "majesty",
+      "surrealism",
+      "angelic",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

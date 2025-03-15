@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scarlette O'Hara.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scarlette O'Hara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scarlette O'Hara/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with red hair adorned with pink flowers gazes softly to the side. She is draped in a delicate pink fabric that complements the floral arrangement in her hair.",
+      "description": "The scene captures a serene and ethereal portrait of a woman in a soft, dreamy setting. The focus is on her gentle expression and the harmonious blend of colors in her hair and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "fabric"
+        ],
+        "emotions": [
+          "serene",
+          "ethereal"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "softness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scarlette O'Hara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scarlette O'Hara/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vibrant red hair adorned with flowers smiles softly, wearing a delicate pink off-shoulder dress. The background is a soft blur, emphasizing her serene expression and graceful pose.",
+      "description": "The scene captures a close-up profile of a woman in a gentle, elegant setting. Her bright red hair and floral adornments contrast with the muted background, creating a focus on her joyful expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "flowers"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Scarlette O'Hara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Scarlette O'Hara/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with vibrant red hair adorned with pink flowers smiles gently as she looks downward. She is wearing a flowing pink sheer garment that adds a whimsical touch to the scene.",
+      "description": "The scene captures a serene and intimate moment, likely set in a studio or outdoor setting with a blurred dark background. The focus is on the woman's expression and attire, creating a dreamy and ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "flowers",
+          "garment"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "joyful"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "whimsy",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers. Objects: flowers, fabric, dress, garment. Emotions: serene, ethereal, happiness, serenity, joyful. Scenes: portrait. Concepts: beauty, softness, elegance, whimsy, ethereal. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers"
+    ],
+    "objects": [
+      "flowers",
+      "fabric",
+      "dress",
+      "garment"
+    ],
+    "emotions": [
+      "serene",
+      "ethereal",
+      "happiness",
+      "serenity",
+      "joyful"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "softness",
+      "elegance",
+      "whimsy",
+      "ethereal"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

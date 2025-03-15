@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Women Fashion Couture.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Women Fashion Couture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Women Fashion Couture/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently on a stage, adorned in a stunning gown decorated with vibrant blue and orange butterflies. Her dress features large, ethereal butterfly wings, creating a whimsical and enchanting appearance. The background is illuminated with bright stage lights, enhancing the magical atmosphere.",
+      "description": "The scene is set on a stage, likely during a fashion show or performance, where a woman is the focal point, showcasing an elaborate butterfly-themed costume. The setting is lively and vibrant, with an audience visible in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "butterflies",
+          "wings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "stage",
+          "performance"
+        ],
+        "concepts": [
+          "fashion",
+          "whimsy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Women Fashion Couture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Women Fashion Couture/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently on a stage, adorned in an elaborate gown with shimmering butterfly wings. Surrounding her are animated butterflies, adding a magical touch to the scene.",
+      "description": "The scene takes place on a glamorous stage, possibly during a fashion show or a performance. The woman is the focal point, dressed in a stunning gown with intricate details and large, translucent wings, creating a fantasy-like atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "objects": [
+          "gown",
+          "wings"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "joy"
+        ],
+        "scenes": [
+          "stage",
+          "performance"
+        ],
+        "concepts": [
+          "fantasy",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, wings, butterflies. Actions: standing, smiling. Emotions: confidence, joy. Scenes: stage, performance. Concepts: fashion, whimsy, enchantment, fantasy, glamour. Animals: butterflies",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "wings",
+      "butterflies"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "joy"
+    ],
+    "scenes": [
+      "stage",
+      "performance"
+    ],
+    "concepts": [
+      "fashion",
+      "whimsy",
+      "enchantment",
+      "fantasy",
+      "glamour"
+    ],
+    "animals": [
+      "butterflies"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lightsaber woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lightsaber woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lightsaber woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in futuristic armor stands confidently in a dimly lit urban street, holding a glowing red lightsaber. The scene is set at night, with neon lights reflecting off the wet pavement, creating a dramatic and intense atmosphere.",
+      "description": "The scene depicts a futuristic urban setting at night, with a central figure in armor holding a lightsaber. The environment is characterized by dim lighting and neon reflections, suggesting a sci-fi or dystopian theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "armor",
+          "lightsaber"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "sci-fi"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lightsaber woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lightsaber woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior in futuristic armor stands confidently in a dimly lit urban street, wielding a glowing red sword. The wet pavement reflects the neon lights from the surrounding buildings, creating a dramatic and intense atmosphere.",
+      "description": "The scene is set in a futuristic city street at night, with a focus on a lone warrior. The environment is urban and moody, with neon lights illuminating the wet pavement.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "sword",
+          "neon lights"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intense",
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "futurism",
+          "combat"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lightsaber woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lightsaber woman/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic warrior stands confidently in a rain-soaked urban street, wielding a glowing red energy sword. The scene is illuminated by neon lights reflecting off the wet pavement, creating a dramatic and intense atmosphere.",
+      "description": "The scene is set in a futuristic city street at night, characterized by neon lights and wet surfaces. A warrior in advanced armor holds a red energy sword, exuding a sense of power and readiness. The background features blurred figures and buildings, enhancing the focus on the central figure.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "energy sword",
+          "armor"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "futurism",
+          "cyberpunk"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, woman. Objects: armor, lightsaber, sword, neon lights, energy sword. Actions: standing, holding. Emotions: confidence, intense, confident. Scenes: urban, futuristic, night. Concepts: futurism, futuristic, sci-fi, combat, cyberpunk",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "woman"
+    ],
+    "objects": [
+      "armor",
+      "lightsaber",
+      "sword",
+      "neon lights",
+      "energy sword"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "confidence",
+      "intense",
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "night"
+    ],
+    "concepts": [
+      "futurism",
+      "futuristic",
+      "sci-fi",
+      "combat",
+      "cyberpunk"
+    ]
+  },
+  "metadata": {}
+}

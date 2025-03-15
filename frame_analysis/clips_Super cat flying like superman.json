@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super cat flying like superman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super cat flying like superman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super cat flying like superman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A white cat wearing a red cape appears to be flying between tall skyscrapers in a cityscape. The cat's expression is focused and determined, while birds can be seen flying in the background.",
+      "description": "The scene is set in a bustling city with towering skyscrapers. A cat, dressed in a superhero-like red cape, is depicted in mid-air, creating a whimsical and fantastical atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "birds"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "cape",
+          "skyscrapers"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "cityscape"
+        ],
+        "concepts": [
+          "superhero",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super cat flying like superman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super cat flying like superman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white cat wearing a red cape is soaring through a cityscape, surrounded by tall skyscrapers. The cat appears to be flying, with its cape billowing behind it as birds fly in the distance.",
+      "description": "The scene depicts a whimsical and surreal moment where a cat, dressed as a superhero, is flying through an urban environment. The setting is a bustling city with towering buildings and a clear sky.",
+      "labels": {
+        "animals": [
+          "cat",
+          "birds"
+        ],
+        "objects": [
+          "cape",
+          "skyscrapers"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "adventurous"
+        ],
+        "scenes": [
+          "cityscape"
+        ],
+        "concepts": [
+          "superhero",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, birds. Nature: sky. Objects: cape, skyscrapers. Actions: flying. Emotions: determination, adventurous. Scenes: cityscape. Concepts: superhero, fantasy",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "birds"
+    ],
+    "nature": [
+      "sky"
+    ],
+    "objects": [
+      "cape",
+      "skyscrapers"
+    ],
+    "actions": [
+      "flying"
+    ],
+    "emotions": [
+      "determination",
+      "adventurous"
+    ],
+    "scenes": [
+      "cityscape"
+    ],
+    "concepts": [
+      "superhero",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

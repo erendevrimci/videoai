@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flight attendant in airport.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flight attendant in airport.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flight attendant in airport/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a pilot uniform sits on a bench in an airport terminal, with a suitcase beside her. She is smiling and appears relaxed, suggesting she is either waiting for a flight or has just arrived.",
+      "description": "The scene is set in an airport terminal, characterized by large windows and modern seating. The woman, dressed in a professional pilot uniform, is seated calmly, indicating a moment of rest or anticipation.",
+      "labels": {
+        "people": [
+          "woman",
+          "pilot"
+        ],
+        "objects": [
+          "suitcase",
+          "bench",
+          "pilot uniform"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "airport terminal"
+        ],
+        "concepts": [
+          "travel",
+          "aviation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flight attendant in airport.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flight attendant in airport/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a professional uniform walks confidently through an airport terminal. She is smiling and appears to be on her way to work, with a suitcase in the background.",
+      "description": "The scene is set in an airport terminal, with a focus on a woman in a formal uniform. The environment is modern and busy, typical of an airport setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suitcase",
+          "uniform",
+          "coffee cup"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "airport",
+          "terminal"
+        ],
+        "concepts": [
+          "travel",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, pilot. Objects: suitcase, bench, pilot uniform, uniform, coffee cup. Actions: smiling, sitting, walking. Emotions: calm, relaxed, confidence, happiness. Scenes: airport terminal, airport, terminal. Concepts: travel, aviation, professionalism",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "pilot"
+    ],
+    "objects": [
+      "suitcase",
+      "bench",
+      "pilot uniform",
+      "uniform",
+      "coffee cup"
+    ],
+    "actions": [
+      "smiling",
+      "sitting",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "relaxed",
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "airport terminal",
+      "airport",
+      "terminal"
+    ],
+    "concepts": [
+      "travel",
+      "aviation",
+      "professionalism"
+    ]
+  },
+  "metadata": {}
+}

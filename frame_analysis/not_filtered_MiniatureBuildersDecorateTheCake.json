@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureBuildersDecorateTheCake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureBuildersDecorateTheCake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MiniatureBuildersDecorateTheCake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Four miniature construction worker figurines are positioned around a decadent chocolate cake, appearing to work on its decoration. The cake is adorned with fresh strawberries and colorful sprinkles, creating a playful and whimsical scene.",
+      "description": "The scene depicts a creative and humorous setup where small construction worker figurines are seemingly decorating a chocolate cake. The setting is likely a kitchen or a dining area, with the focus on the cake as a centerpiece.",
+      "labels": {
+        "people": [
+          "figurines"
+        ],
+        "objects": [
+          "cake",
+          "strawberries",
+          "sprinkles",
+          "construction tools"
+        ],
+        "actions": [
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen",
+          "dining area"
+        ],
+        "concepts": [
+          "miniature",
+          "creativity",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureBuildersDecorateTheCake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MiniatureBuildersDecorateTheCake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical scene where four miniature construction worker figurines are positioned around a chocolate cake. The cake is adorned with strawberries and colorful sprinkles, creating a playful contrast between the workers and the dessert.",
+      "description": "This scene combines elements of culinary art and playful imagination, featuring toy construction workers seemingly working on a chocolate cake. The setting is likely a kitchen or a creative studio where food art is crafted.",
+      "labels": {
+        "people": [
+          "figurines",
+          "construction workers"
+        ],
+        "objects": [
+          "cake",
+          "strawberries",
+          "sprinkles",
+          "plate"
+        ],
+        "actions": [
+          "decorating",
+          "constructing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "food art",
+          "miniature scene"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figurines, construction workers. Objects: cake, strawberries, sprinkles, construction tools, plate. Actions: decorating, constructing. Emotions: playful, whimsical. Scenes: kitchen, dining area, food art, miniature scene. Concepts: creativity, miniature, humor, imagination",
+  "primary_labels": {
+    "people": [
+      "figurines",
+      "construction workers"
+    ],
+    "objects": [
+      "cake",
+      "strawberries",
+      "sprinkles",
+      "construction tools",
+      "plate"
+    ],
+    "actions": [
+      "decorating",
+      "constructing"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen",
+      "dining area",
+      "food art",
+      "miniature scene"
+    ],
+    "concepts": [
+      "creativity",
+      "miniature",
+      "humor",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

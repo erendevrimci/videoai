@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassStatue,AdornedWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassStatue,AdornedWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGlassStatue,AdornedWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal sculpture of a human head is adorned with vibrant blue and magenta flowers, set against a backdrop of a barren landscape. The transparent material of the sculpture allows light to filter through, creating a mesmerizing interplay of colors and shadows. The scene evokes a sense of harmony between nature and art.",
+      "description": "The scene depicts a large, artistic sculpture of a human head in an open field. The sculpture is intricately designed with flowers, blending natural elements with human form. The setting is outdoors, with a cloudy sky and leafless trees in the background, suggesting a late autumn or early winter atmosphere.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "trees",
+          "field"
+        ],
+        "objects": [
+          "sculpture",
+          "human head"
+        ],
+        "scenes": [
+          "outdoor",
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "harmony",
+          "nature and art"
+        ],
+        "emotions": [
+          "tranquility",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassStatue,AdornedWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGlassStatue,AdornedWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A striking sculpture of a human head is adorned with vibrant blue and purple flowers, set against a natural outdoor backdrop. The transparent material of the sculpture allows the flowers to appear as if they are growing from within, creating a harmonious blend of art and nature.",
+      "description": "The scene depicts a large, artistic sculpture of a human head in a field. The sculpture is transparent and filled with colorful flowers, blending seamlessly with the natural surroundings.",
+      "labels": {
+        "nature": [
+          "field",
+          "trees"
+        ],
+        "objects": [
+          "sculpture",
+          "flowers"
+        ],
+        "scenes": [
+          "outdoor",
+          "art installation"
+        ],
+        "concepts": [
+          "harmony",
+          "nature and art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: trees, field, flowers. Objects: sculpture, human head, flowers. Scenes: outdoor, surreal, artistic, art installation. Concepts: harmony, nature and art. Emotions: tranquility, wonder",
+  "primary_labels": {
+    "nature": [
+      "trees",
+      "field",
+      "flowers"
+    ],
+    "objects": [
+      "sculpture",
+      "human head",
+      "flowers"
+    ],
+    "scenes": [
+      "outdoor",
+      "surreal",
+      "artistic",
+      "art installation"
+    ],
+    "concepts": [
+      "harmony",
+      "nature and art"
+    ],
+    "emotions": [
+      "tranquility",
+      "wonder"
+    ]
+  },
+  "metadata": {}
+}

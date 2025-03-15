@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Mage.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Mage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Female Mage/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure stands in a dark, ethereal environment, enveloped in a glowing green aura. The person is clad in a sleek, futuristic suit with intricate patterns, and their eyes emit an intense green light. Wisps of energy seem to flow around them, enhancing the otherworldly atmosphere.",
+      "description": "The scene depicts a lone figure in a dark, mystical setting, possibly a forest or an abstract space. The figure's attire and the glowing energy suggest a blend of science fiction and fantasy elements.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "futuristic suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "ethereal environment"
+        ],
+        "concepts": [
+          "science fiction",
+          "fantasy",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Female Mage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Female Mage/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure emerges from a dark, ethereal background, their eyes and body glowing with an eerie green light. The scene is filled with swirling energy, creating an otherworldly atmosphere.",
+      "description": "The image depicts a supernatural scene where a humanoid figure with glowing green eyes and body stands amidst a swirling, dark environment. The energy surrounding them suggests a powerful, mystical presence.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "objects": [
+          "glowing eyes",
+          "glowing body"
+        ],
+        "actions": [
+          "emerging",
+          "glowing"
+        ],
+        "emotions": [
+          "mysterious",
+          "powerful"
+        ],
+        "scenes": [
+          "supernatural",
+          "mystical"
+        ],
+        "concepts": [
+          "energy",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, humanoid figure. Objects: futuristic suit, glowing eyes, glowing body. Actions: standing, emerging, glowing. Emotions: mysterious, powerful. Scenes: ethereal environment, supernatural, mystical. Concepts: science fiction, fantasy, mysticism, energy, mystery",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "humanoid figure"
+    ],
+    "objects": [
+      "futuristic suit",
+      "glowing eyes",
+      "glowing body"
+    ],
+    "actions": [
+      "standing",
+      "emerging",
+      "glowing"
+    ],
+    "emotions": [
+      "mysterious",
+      "powerful"
+    ],
+    "scenes": [
+      "ethereal environment",
+      "supernatural",
+      "mystical"
+    ],
+    "concepts": [
+      "science fiction",
+      "fantasy",
+      "mysticism",
+      "energy",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

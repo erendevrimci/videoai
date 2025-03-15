@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Indio.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Indio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Indio/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person wearing a feathered headdress rides a horse through a shallow stream. The scene is set against a backdrop of lush greenery and a warm, glowing sunset.",
+      "description": "The image depicts a serene and picturesque scene of a person on horseback traversing a stream. The setting sun casts a golden hue over the landscape, enhancing the natural beauty of the surroundings.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "stream",
+          "greenery",
+          "sunset"
+        ],
+        "objects": [
+          "headdress"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "connection with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Indio.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Indio/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing a feathered headdress rides a horse through a shallow stream surrounded by lush greenery. The scene is bathed in warm, golden light from the setting sun, creating a serene and majestic atmosphere.",
+      "description": "The image depicts a tranquil natural setting where a person on horseback is moving through a stream. The surrounding environment is rich with vegetation, and the sunlight casts a warm glow over the scene, enhancing its peaceful and timeless quality.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "stream",
+          "vegetation",
+          "sunset"
+        ],
+        "objects": [
+          "feathered headdress"
+        ],
+        "actions": [
+          "riding",
+          "splashing"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "nature",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: horse. Nature: stream, sunset, greenery, vegetation. Objects: headdress, feathered headdress. Actions: riding, splashing. Emotions: serene, majestic. Scenes: nature, outdoor, sunset. Concepts: tranquility, connection with nature, heritage",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "stream",
+      "sunset",
+      "greenery",
+      "vegetation"
+    ],
+    "objects": [
+      "headdress",
+      "feathered headdress"
+    ],
+    "actions": [
+      "riding",
+      "splashing"
+    ],
+    "emotions": [
+      "serene",
+      "majestic"
+    ],
+    "scenes": [
+      "nature",
+      "outdoor",
+      "sunset"
+    ],
+    "concepts": [
+      "tranquility",
+      "connection with nature",
+      "heritage"
+    ]
+  },
+  "metadata": {}
+}

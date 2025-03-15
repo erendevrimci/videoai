@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/yellow cute fluffy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/yellow cute fluffy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/yellow cute fluffy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy yellow creature is holding a green bottle with a cheerful expression. The creature's fur is vibrant and its eyes are large and expressive, creating an endearing appearance.",
+      "description": "The scene features a cute, fluffy creature standing on a textured surface, holding a bottle. The setting appears to be outdoors, with soft lighting highlighting the creature's bright yellow fur.",
+      "labels": {
+        "animals": [
+          "creature"
+        ],
+        "objects": [
+          "bottle"
+        ],
+        "emotions": [
+          "cheerful",
+          "endearing"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/yellow cute fluffy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/yellow cute fluffy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy yellow creature is holding a green bottle with a cheerful expression. The creature's fur is vibrant and its eyes are large and shiny, giving it a cute and friendly appearance.",
+      "description": "The scene features a whimsical, animated setting with a focus on a cute, fluffy creature. The creature is standing on a textured surface, possibly outdoors, and is holding a bottle with Asian script on it.",
+      "labels": {
+        "animals": [
+          "creature"
+        ],
+        "objects": [
+          "bottle"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "cheerful",
+          "friendly"
+        ],
+        "scenes": [
+          "animated",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsical",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: creature. Objects: bottle. Emotions: cheerful, endearing, friendly. Scenes: outdoor, animated. Concepts: cuteness, fantasy, whimsical, cute. Actions: holding",
+  "primary_labels": {
+    "animals": [
+      "creature"
+    ],
+    "objects": [
+      "bottle"
+    ],
+    "emotions": [
+      "cheerful",
+      "endearing",
+      "friendly"
+    ],
+    "scenes": [
+      "outdoor",
+      "animated"
+    ],
+    "concepts": [
+      "cuteness",
+      "fantasy",
+      "whimsical",
+      "cute"
+    ],
+    "actions": [
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

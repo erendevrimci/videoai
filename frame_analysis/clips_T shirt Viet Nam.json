@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T shirt Viet Nam.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T shirt Viet Nam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/T shirt Viet Nam/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently indoors, wearing a lavender t-shirt with 'The Girls Club' printed on it. She has long dark hair and is holding a small handbag with a chain strap.",
+      "description": "The scene is set indoors with warm lighting, possibly in a lobby or hallway. The woman is posing casually with one hand in her hair, exuding a relaxed and confident demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "handbag"
+        ],
+        "actions": [
+          "posing",
+          "holding"
+        ],
+        "emotions": [
+          "confident",
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/T shirt Viet Nam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/T shirt Viet Nam/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is walking confidently towards the camera, wearing a stylish purple t-shirt and a white skirt. She carries a small handbag over her shoulder and has a gentle smile on her face.",
+      "description": "The scene captures a fashionable woman walking in a modern, urban setting, possibly near a building entrance. The atmosphere is casual yet elegant, suggesting a sense of confidence and style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "skirt",
+          "handbag"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: t-shirt, handbag, skirt. Actions: posing, holding, walking. Emotions: confident, relaxed, confidence. Scenes: indoor, urban, fashion. Concepts: fashion, casual, style, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "t-shirt",
+      "handbag",
+      "skirt"
+    ],
+    "actions": [
+      "posing",
+      "holding",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "relaxed",
+      "confidence"
+    ],
+    "scenes": [
+      "indoor",
+      "urban",
+      "fashion"
+    ],
+    "concepts": [
+      "fashion",
+      "casual",
+      "style",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

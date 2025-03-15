@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The little match-seller.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The little match-seller.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The little match-seller/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman gazes upwards, her face illuminated by colorful, blurred lights in the background. Her skin glistens with droplets, suggesting a recent rain or misty atmosphere.",
+      "description": "The scene captures a close-up of a young woman in a vibrant, urban setting, possibly at night. The background is filled with bokeh lights, creating a dreamy and reflective mood.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "bokeh lights"
+        ],
+        "actions": [
+          "gazing upwards"
+        ],
+        "emotions": [
+          "reflective",
+          "contemplative"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "dreamy",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The little match-seller.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The little match-seller/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman gazes upwards, her face illuminated by colorful lights. Raindrops glisten on her skin, creating a reflective and dreamy atmosphere.",
+      "description": "The scene captures a close-up of a young woman standing in the rain, with vibrant city lights in the background. Her expression is one of wonder and contemplation as she looks towards the sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "raindrops"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "wonder",
+          "contemplation"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "reflection",
+          "dreamy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Objects: bokeh lights, raindrops. Actions: gazing upwards, gazing, standing. Emotions: reflective, contemplative, wonder, contemplation. Scenes: urban, night. Concepts: dreamy, introspection, reflection. Nature: rain",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "objects": [
+      "bokeh lights",
+      "raindrops"
+    ],
+    "actions": [
+      "gazing upwards",
+      "gazing",
+      "standing"
+    ],
+    "emotions": [
+      "reflective",
+      "contemplative",
+      "wonder",
+      "contemplation"
+    ],
+    "scenes": [
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "dreamy",
+      "introspection",
+      "reflection"
+    ],
+    "nature": [
+      "rain"
+    ]
+  },
+  "metadata": {}
+}

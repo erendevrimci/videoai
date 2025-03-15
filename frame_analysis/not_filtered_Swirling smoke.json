@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Swirling smoke.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Swirling smoke.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Swirling smoke/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal landscape unfolds with swirling clouds and vibrant colors, dominated by a massive, twisting vortex. The sky is painted with shades of pink, purple, and teal, creating a dramatic and otherworldly atmosphere. The scene is both chaotic and mesmerizing, with clouds forming intricate patterns around the central storm.",
+      "description": "The scene depicts a fantastical and surreal landscape with a focus on a large, swirling vortex in the sky. The setting appears to be otherworldly, with dramatic cloud formations and vibrant colors creating a sense of awe and wonder.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "vortex",
+          "sky"
+        ],
+        "objects": [
+          "vortex",
+          "cloud formations"
+        ],
+        "scenes": [
+          "surreal landscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "chaos",
+          "otherworldly"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Swirling smoke.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Swirling smoke/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene unfolds in the sky with swirling, dark storm clouds forming a vortex. A vibrant, colorful beam of light pierces through the clouds, creating a striking contrast against the ominous backdrop. The scene is both chaotic and mesmerizing, with a sense of otherworldly beauty.",
+      "description": "The scene depicts a surreal and dynamic sky filled with swirling storm clouds and a vivid beam of light. The setting appears to be a fantastical or dreamlike environment, emphasizing the power and beauty of nature.",
+      "labels": {
+        "nature": [
+          "storm clouds",
+          "vortex",
+          "sky"
+        ],
+        "objects": [
+          "beam of light"
+        ],
+        "scenes": [
+          "storm",
+          "fantasy"
+        ],
+        "emotions": [
+          "chaotic",
+          "mesmerizing"
+        ],
+        "concepts": [
+          "contrast",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Swirling smoke.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Swirling smoke/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A swirling vortex of clouds creates a tunnel-like formation, with vibrant hues of pink and blue illuminating the scene. The light at the end of the tunnel suggests a sense of depth and motion, drawing the viewer's eye inward.",
+      "description": "The scene depicts a dramatic and surreal cloud formation resembling a vortex or tunnel. The swirling clouds are highlighted by a mix of colors, creating a dynamic and otherworldly atmosphere.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "vortex"
+        ],
+        "objects": [
+          "tunnel"
+        ],
+        "actions": [
+          "swirling"
+        ],
+        "emotions": [
+          "mysterious",
+          "awe-inspiring"
+        ],
+        "scenes": [
+          "surreal",
+          "atmospheric"
+        ],
+        "concepts": [
+          "motion",
+          "depth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: vortex, clouds, sky, storm clouds. Objects: vortex, cloud formations, beam of light, tunnel. Scenes: fantasy, surreal landscape, storm, surreal, atmospheric. Concepts: otherworldly, chaos, contrast, motion, depth. Emotions: awe, wonder, chaotic, mesmerizing, mysterious. Actions: swirling",
+  "primary_labels": {
+    "nature": [
+      "vortex",
+      "clouds",
+      "sky",
+      "storm clouds"
+    ],
+    "objects": [
+      "vortex",
+      "cloud formations",
+      "beam of light",
+      "tunnel"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal landscape",
+      "storm",
+      "surreal",
+      "atmospheric"
+    ],
+    "concepts": [
+      "otherworldly",
+      "chaos",
+      "contrast",
+      "motion",
+      "depth"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "chaotic",
+      "mesmerizing",
+      "mysterious"
+    ],
+    "actions": [
+      "swirling"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElCami\u00f3nDeBomberosEst\u00e1.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElCami\u00f3nDeBomberosEst\u00e1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ElCami\u00f3nDeBomberosEst\u00e1/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A LEGO fire truck is positioned on a road with a firefighter minifigure standing on top, ready to combat a large fire in the background. The scene depicts an emergency response with bright flames illuminating the area.",
+      "description": "The scene is set in an urban environment where a LEGO fire truck is responding to a large fire. The background shows intense flames engulfing a structure, creating a dramatic and urgent atmosphere.",
+      "labels": {
+        "objects": [
+          "LEGO fire truck",
+          "fire",
+          "road"
+        ],
+        "people": [
+          "LEGO firefighter"
+        ],
+        "actions": [
+          "firefighting",
+          "emergency response"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "emergency"
+        ],
+        "concepts": [
+          "fire safety",
+          "rescue operation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElCami\u00f3nDeBomberosEst\u00e1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ElCami\u00f3nDeBomberosEst\u00e1/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A LEGO fire truck is positioned prominently in the foreground, with a LEGO firefighter figure standing on top. In the background, a large fire blazes, casting an intense glow over the scene.",
+      "description": "The scene depicts a LEGO fire truck and firefighter in action against a backdrop of a large fire. The setting appears to be an urban environment with a sense of urgency and danger.",
+      "labels": {
+        "people": [
+          "LEGO firefighter"
+        ],
+        "objects": [
+          "LEGO fire truck",
+          "fire"
+        ],
+        "actions": [
+          "firefighting"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "urban"
+        ],
+        "concepts": [
+          "emergency response",
+          "firefighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: LEGO fire truck, fire, road. People: LEGO firefighter. Actions: firefighting, emergency response. Emotions: urgency. Scenes: urban, emergency. Concepts: fire safety, rescue operation, emergency response, firefighting",
+  "primary_labels": {
+    "objects": [
+      "LEGO fire truck",
+      "fire",
+      "road"
+    ],
+    "people": [
+      "LEGO firefighter"
+    ],
+    "actions": [
+      "firefighting",
+      "emergency response"
+    ],
+    "emotions": [
+      "urgency"
+    ],
+    "scenes": [
+      "urban",
+      "emergency"
+    ],
+    "concepts": [
+      "fire safety",
+      "rescue operation",
+      "emergency response",
+      "firefighting"
+    ]
+  },
+  "metadata": {}
+}

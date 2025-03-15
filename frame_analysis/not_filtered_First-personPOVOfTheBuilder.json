@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPOVOfTheBuilder.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPOVOfTheBuilder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personPOVOfTheBuilder/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of people dressed in ancient attire walk towards a large pyramid under a clear blue sky. The scene is framed by stone walls, suggesting an entrance or passageway leading to the pyramid. The atmosphere is dusty and warm, evoking a historical setting.",
+      "description": "The image depicts a historical scene set in ancient Egypt, with individuals walking towards a pyramid. The setting is likely a bustling area near the pyramids, with stone structures and sandy terrain.",
+      "labels": {
+        "people": [
+          "group",
+          "individuals",
+          "ancient attire"
+        ],
+        "nature": [
+          "sky",
+          "sand"
+        ],
+        "objects": [
+          "pyramid",
+          "stone walls"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "historical",
+          "ancient Egypt"
+        ],
+        "concepts": [
+          "history",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPOVOfTheBuilder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personPOVOfTheBuilder/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of people dressed in ancient attire walk towards a large pyramid under a clear blue sky. The scene is framed by the stone entrance of a structure, emphasizing the grandeur of the pyramid in the background.",
+      "description": "The scene depicts an ancient setting with a focus on a monumental pyramid. People in traditional garments are seen walking on a sandy path, suggesting a historical or archaeological context.",
+      "labels": {
+        "people": [
+          "group",
+          "ancient attire"
+        ],
+        "nature": [
+          "sand",
+          "sky"
+        ],
+        "objects": [
+          "pyramid",
+          "stone structure"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "historical",
+          "archaeological site"
+        ],
+        "concepts": [
+          "ancient civilization",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: group, ancient attire, individuals. Nature: sky, sand. Objects: pyramid, stone walls, stone structure. Actions: walking. Emotions: calm, awe. Scenes: historical, ancient Egypt, archaeological site. Concepts: architecture, history, ancient civilization",
+  "primary_labels": {
+    "people": [
+      "group",
+      "ancient attire",
+      "individuals"
+    ],
+    "nature": [
+      "sky",
+      "sand"
+    ],
+    "objects": [
+      "pyramid",
+      "stone walls",
+      "stone structure"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "awe"
+    ],
+    "scenes": [
+      "historical",
+      "ancient Egypt",
+      "archaeological site"
+    ],
+    "concepts": [
+      "architecture",
+      "history",
+      "ancient civilization"
+    ]
+  },
+  "metadata": {}
+}

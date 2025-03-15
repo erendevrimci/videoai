@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Teamwork in the bakery.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Teamwork in the bakery.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Teamwork in the bakery/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three miniature chefs are gathered around a large loaf of bread, dusting it with powdered sugar. The scene is set on a wooden board, with the chefs appearing to be deeply focused on their task. The background is softly blurred, emphasizing the whimsical nature of the scene.",
+      "description": "The image depicts a playful and imaginative scene where tiny chefs are working on a giant loaf of bread. The setting appears to be a kitchen or bakery environment, with a focus on the creative interaction between the miniature figures and the oversized bread.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "bread",
+          "wooden board",
+          "powdered sugar"
+        ],
+        "actions": [
+          "dusting",
+          "baking"
+        ],
+        "emotions": [
+          "whimsical",
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "bakery"
+        ],
+        "concepts": [
+          "miniature",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Teamwork in the bakery.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Teamwork in the bakery/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, freshly baked loaf of bread is dusted with powdered sugar, surrounded by two miniature chefs. The chefs appear to be carefully inspecting and decorating the bread, adding a whimsical touch to the scene.",
+      "description": "The scene takes place in a kitchen setting, focusing on a large loaf of bread on a wooden board. Two miniature chefs are interacting with the bread, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "objects": [
+          "bread",
+          "wooden board",
+          "powdered sugar"
+        ],
+        "people": [
+          "miniature chefs"
+        ],
+        "actions": [
+          "dusting",
+          "decorating"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "baking",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: bread, wooden board, powdered sugar. Actions: dusting, baking, decorating. Emotions: whimsical, focused, playful. Scenes: kitchen, bakery. Concepts: miniature, culinary art, baking",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "bread",
+      "wooden board",
+      "powdered sugar"
+    ],
+    "actions": [
+      "dusting",
+      "baking",
+      "decorating"
+    ],
+    "emotions": [
+      "whimsical",
+      "focused",
+      "playful"
+    ],
+    "scenes": [
+      "kitchen",
+      "bakery"
+    ],
+    "concepts": [
+      "miniature",
+      "culinary art",
+      "baking"
+    ]
+  },
+  "metadata": {}
+}

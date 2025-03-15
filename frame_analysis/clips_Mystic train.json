@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mystic train.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mystic train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mystic train/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vintage steam locomotive chugs through a dense forest, surrounded by autumn foliage. Thick plumes of smoke billow from its chimney, contrasting with the warm hues of the leaves. The train's headlights shine brightly, illuminating the path ahead.",
+      "description": "The scene captures a historic steam train traveling through a forest during autumn. The vibrant orange and brown leaves create a picturesque backdrop, enhancing the nostalgic feel of the locomotive's journey.",
+      "labels": {
+        "nature": [
+          "forest",
+          "autumn foliage"
+        ],
+        "objects": [
+          "steam locomotive",
+          "train tracks",
+          "headlights"
+        ],
+        "actions": [
+          "train moving",
+          "smoke billowing"
+        ],
+        "emotions": [
+          "nostalgia"
+        ],
+        "scenes": [
+          "autumn landscape",
+          "railway journey"
+        ],
+        "concepts": [
+          "transportation",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mystic train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mystic train/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vintage steam locomotive travels through a forest adorned with autumn foliage. Thick plumes of smoke billow from the train's chimney, blending with the warm hues of the leaves. Passengers can be seen enjoying the scenic journey from the train's windows.",
+      "description": "The scene captures a historic steam train moving through a forest during the fall season. The vibrant autumn colors create a picturesque backdrop as the train emits clouds of smoke.",
+      "labels": {
+        "nature": [
+          "forest",
+          "autumn leaves"
+        ],
+        "objects": [
+          "steam locomotive",
+          "train",
+          "smoke"
+        ],
+        "actions": [
+          "traveling",
+          "smoking"
+        ],
+        "emotions": [
+          "nostalgic",
+          "tranquil"
+        ],
+        "scenes": [
+          "autumn landscape",
+          "railway journey"
+        ],
+        "concepts": [
+          "vintage transportation",
+          "scenic travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, autumn foliage, autumn leaves. Objects: steam locomotive, train tracks, headlights, train, smoke. Actions: train moving, smoke billowing, traveling, smoking. Emotions: nostalgia, nostalgic, tranquil. Scenes: autumn landscape, railway journey. Concepts: transportation, history, vintage transportation, scenic travel",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "autumn foliage",
+      "autumn leaves"
+    ],
+    "objects": [
+      "steam locomotive",
+      "train tracks",
+      "headlights",
+      "train",
+      "smoke"
+    ],
+    "actions": [
+      "train moving",
+      "smoke billowing",
+      "traveling",
+      "smoking"
+    ],
+    "emotions": [
+      "nostalgia",
+      "nostalgic",
+      "tranquil"
+    ],
+    "scenes": [
+      "autumn landscape",
+      "railway journey"
+    ],
+    "concepts": [
+      "transportation",
+      "history",
+      "vintage transportation",
+      "scenic travel"
+    ]
+  },
+  "metadata": {}
+}

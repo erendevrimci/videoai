@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiger.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tiger/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A white tiger wrapped in bandages and a cat dressed as a superhero are lying in the back of an ambulance. The tiger appears injured with blood-stained bandages, while the cat looks content and relaxed. The scene is illuminated by the red emergency lights of the vehicle.",
+      "description": "The image depicts a whimsical scene inside an ambulance, where a bandaged white tiger and a cat in a superhero costume are lying together. The setting is humorous yet slightly dramatic, with the tiger's injuries contrasting the cat's calm demeanor.",
+      "labels": {
+        "animals": [
+          "tiger",
+          "cat"
+        ],
+        "objects": [
+          "ambulance",
+          "bandages",
+          "superhero costume"
+        ],
+        "actions": [
+          "lying down"
+        ],
+        "emotions": [
+          "calm",
+          "injured"
+        ],
+        "scenes": [
+          "emergency vehicle interior"
+        ],
+        "concepts": [
+          "humor",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tiger/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white tiger wrapped in bandages and a cat dressed as a superhero are lying in the back of an ambulance. The tiger appears injured with blood-stained bandages, while the cat looks content and relaxed. The scene is illuminated by the red emergency lights of the vehicle.",
+      "description": "The scene takes place in the back of an ambulance, where a bandaged white tiger and a superhero-costumed cat are resting. The atmosphere is a mix of tension and humor, with the injured tiger contrasting the calm demeanor of the cat.",
+      "labels": {
+        "animals": [
+          "tiger",
+          "cat"
+        ],
+        "objects": [
+          "ambulance",
+          "bandages",
+          "superhero costume"
+        ],
+        "actions": [
+          "resting",
+          "lying down"
+        ],
+        "emotions": [
+          "calm",
+          "injured"
+        ],
+        "scenes": [
+          "emergency",
+          "humorous"
+        ],
+        "concepts": [
+          "injury",
+          "superhero"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger, cat. Objects: ambulance, bandages, superhero costume. Actions: lying down, resting. Emotions: calm, injured. Scenes: emergency vehicle interior, emergency, humorous. Concepts: humor, contrast, injury, superhero",
+  "primary_labels": {
+    "animals": [
+      "tiger",
+      "cat"
+    ],
+    "objects": [
+      "ambulance",
+      "bandages",
+      "superhero costume"
+    ],
+    "actions": [
+      "lying down",
+      "resting"
+    ],
+    "emotions": [
+      "calm",
+      "injured"
+    ],
+    "scenes": [
+      "emergency vehicle interior",
+      "emergency",
+      "humorous"
+    ],
+    "concepts": [
+      "humor",
+      "contrast",
+      "injury",
+      "superhero"
+    ]
+  },
+  "metadata": {}
+}

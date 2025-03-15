@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A World Obsessed with Proof Shot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A World Obsessed with Proof Shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A World Obsessed with Proof Shot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands in a surreal landscape, raising their arm towards a massive, glowing moon that dominates the sky. The scene is illuminated by an ethereal blue light, with clouds swirling dramatically around the moon.",
+      "description": "The scene depicts a fantastical setting where a person is interacting with a dreamlike environment. The large, luminescent moon and the swirling clouds create an otherworldly atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "moon",
+          "clouds"
+        ],
+        "objects": [
+          "camera"
+        ],
+        "actions": [
+          "raising arm"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "surreal",
+          "night"
+        ],
+        "concepts": [
+          "fantasy",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A World Obsessed with Proof Shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A World Obsessed with Proof Shot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands on a rocky terrain under a dramatic sky filled with vibrant pink and blue hues. The sky is illuminated by a celestial phenomenon, casting an ethereal glow over the landscape.",
+      "description": "The scene depicts a person on a rugged landscape, possibly volcanic, with a striking sky above. The sky is alive with colors and light, suggesting a supernatural or otherworldly event.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "rocky terrain"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "landscape",
+          "celestial event"
+        ],
+        "concepts": [
+          "otherworldly",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A World Obsessed with Proof Shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A World Obsessed with Proof Shot/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dramatic scene unfolds as a fiery explosion lights up the night sky. A figure stands in the foreground, seemingly reacting to the intense light and chaos surrounding them.",
+      "description": "The scene is set in a chaotic environment, possibly a battlefield or disaster area, with a large explosion dominating the background. The atmosphere is tense and dramatic, with a sense of urgency and danger.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "explosion",
+          "debris"
+        ],
+        "actions": [
+          "reacting",
+          "exploding"
+        ],
+        "emotions": [
+          "intensity",
+          "urgency"
+        ],
+        "scenes": [
+          "chaotic environment",
+          "nighttime"
+        ],
+        "concepts": [
+          "disaster",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Nature: clouds, moon, sky, rocky terrain. Objects: camera, rocks, explosion, debris. Actions: raising arm, standing, reacting, exploding. Emotions: awe, wonder, intensity, urgency. Scenes: surreal, night, landscape, celestial event, chaotic environment. Concepts: fantasy, dreamlike, otherworldly, dramatic, disaster",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "nature": [
+      "clouds",
+      "moon",
+      "sky",
+      "rocky terrain"
+    ],
+    "objects": [
+      "camera",
+      "rocks",
+      "explosion",
+      "debris"
+    ],
+    "actions": [
+      "raising arm",
+      "standing",
+      "reacting",
+      "exploding"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "intensity",
+      "urgency"
+    ],
+    "scenes": [
+      "surreal",
+      "night",
+      "landscape",
+      "celestial event",
+      "chaotic environment"
+    ],
+    "concepts": [
+      "fantasy",
+      "dreamlike",
+      "otherworldly",
+      "dramatic",
+      "disaster"
+    ]
+  },
+  "metadata": {}
+}

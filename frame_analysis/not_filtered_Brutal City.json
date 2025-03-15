@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brutal City.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brutal City.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Brutal City/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A red car drives along a snow-covered road in a desolate, wintry landscape. The scene is enveloped in a cold, foggy atmosphere with distant city lights barely visible through the mist. Snow blankets the ground and the car, adding to the serene yet isolated feeling of the setting.",
+      "description": "The scene depicts a solitary car traveling on a snowy road in a remote area with sparse vegetation and distant urban structures. The environment is cold and foggy, suggesting a winter setting.",
+      "labels": {
+        "nature": [
+          "snow",
+          "fog"
+        ],
+        "objects": [
+          "car",
+          "road",
+          "buildings"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "isolation",
+          "serenity"
+        ],
+        "scenes": [
+          "winter landscape",
+          "urban outskirts"
+        ],
+        "concepts": [
+          "solitude",
+          "journey"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brutal City.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Brutal City/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vintage red car drives down a snow-covered road, leaving a trail of exhaust in the cold air. The scene is set in a wintry landscape with distant buildings barely visible through the fog. The car's taillights glow warmly against the icy backdrop.",
+      "description": "The scene depicts a solitary car journey through a snowy, desolate area. The environment is cold and foggy, with urban structures faintly visible in the background, suggesting a remote outskirts setting.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "snow",
+          "buildings"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "solitude"
+        ],
+        "scenes": [
+          "winter",
+          "urban outskirts"
+        ],
+        "concepts": [
+          "journey",
+          "cold weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: snow, fog. Objects: car, road, buildings, snow. Actions: driving. Emotions: isolation, serenity, solitude. Scenes: urban outskirts, winter landscape, winter. Concepts: journey, solitude, cold weather",
+  "primary_labels": {
+    "nature": [
+      "snow",
+      "fog"
+    ],
+    "objects": [
+      "car",
+      "road",
+      "buildings",
+      "snow"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "emotions": [
+      "isolation",
+      "serenity",
+      "solitude"
+    ],
+    "scenes": [
+      "urban outskirts",
+      "winter landscape",
+      "winter"
+    ],
+    "concepts": [
+      "journey",
+      "solitude",
+      "cold weather"
+    ]
+  },
+  "metadata": {}
+}

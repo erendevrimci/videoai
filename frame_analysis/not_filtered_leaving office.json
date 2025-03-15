@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/leaving office.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/leaving office.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/leaving office/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed in a business suit confidently walks through an office, carrying a backpack. The office is bustling with professionals working at their desks, creating a lively and humorous atmosphere.",
+      "description": "The scene is set in a modern office environment where a cat, humorously dressed as a business professional, strides purposefully. The background shows several people engaged in work, contributing to the busy office ambiance.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "suit",
+          "backpack",
+          "desk",
+          "computer"
+        ],
+        "actions": [
+          "walking",
+          "working"
+        ],
+        "emotions": [
+          "humor",
+          "confidence"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "business"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/leaving office.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/leaving office/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat with a human body is dressed in a formal suit and tie, walking confidently through an office setting. The cat carries a backpack and appears to be on a mission, surrounded by office furniture and equipment.",
+      "description": "The scene takes place in an office environment where a cat with a human body is depicted as a professional. The setting includes desks, computers, and office lighting, creating a humorous and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "backpack",
+          "desk",
+          "computer"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "office"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: suit, backpack, desk, computer, tie. Actions: walking, working. Emotions: humor, confidence, confident. Scenes: office. Concepts: anthropomorphism, business, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "suit",
+      "backpack",
+      "desk",
+      "computer",
+      "tie"
+    ],
+    "actions": [
+      "walking",
+      "working"
+    ],
+    "emotions": [
+      "humor",
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "office"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "business",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

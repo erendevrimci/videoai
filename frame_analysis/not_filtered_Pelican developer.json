@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pelican developer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pelican developer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pelican developer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A pelican is perched on a desk in a dimly lit office, surrounded by computer monitors displaying data. The room is illuminated by the glow of the screens and a desk lamp, creating a surreal atmosphere.",
+      "description": "The scene is set in an office environment during what appears to be evening or early morning, as suggested by the low lighting and the view of a cityscape through the window. The presence of a pelican in this setting adds an unexpected and whimsical element.",
+      "labels": {
+        "animals": [
+          "pelican"
+        ],
+        "objects": [
+          "computer monitors",
+          "desk",
+          "keyboard",
+          "lamp"
+        ],
+        "actions": [
+          "perched"
+        ],
+        "scenes": [
+          "office",
+          "workstation"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "concepts": [
+          "contrast",
+          "unexpected"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pelican developer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pelican developer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pelican is perched on a desk in a dimly lit room filled with computer monitors displaying various data. The scene is illuminated by the glow of the screens and a desk lamp, creating a contrast between the bird and the technological environment.",
+      "description": "The scene takes place in a dark, high-tech office or control room with multiple computer monitors. The presence of a pelican amidst the technology creates an unusual juxtaposition, suggesting a blend of nature and modernity.",
+      "labels": {
+        "animals": [
+          "pelican"
+        ],
+        "objects": [
+          "computer monitors",
+          "desk lamp",
+          "desk",
+          "wires"
+        ],
+        "actions": [
+          "perched"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "office",
+          "control room"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: pelican. Objects: computer monitors, desk, keyboard, lamp, desk lamp. Actions: perched. Scenes: office, workstation, control room. Emotions: whimsical, surreal, curiosity. Concepts: contrast, unexpected, technology, nature",
+  "primary_labels": {
+    "animals": [
+      "pelican"
+    ],
+    "objects": [
+      "computer monitors",
+      "desk",
+      "keyboard",
+      "lamp",
+      "desk lamp"
+    ],
+    "actions": [
+      "perched"
+    ],
+    "scenes": [
+      "office",
+      "workstation",
+      "control room"
+    ],
+    "emotions": [
+      "whimsical",
+      "surreal",
+      "curiosity"
+    ],
+    "concepts": [
+      "contrast",
+      "unexpected",
+      "technology",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

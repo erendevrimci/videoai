@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boots are ready for shipping.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boots are ready for shipping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boots are ready for shipping/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, intricately designed leather boot dominates the scene, surrounded by miniature figures and tools on a wooden table. The setting appears to be a workshop, with a focus on craftsmanship and attention to detail. The dim lighting and warm tones create an intimate and focused atmosphere.",
+      "description": "The scene is set in a workshop where a large leather boot is the centerpiece, surrounded by small figures and various crafting tools. The environment suggests a focus on artisanal craftsmanship, with an emphasis on the detailed work involved in shoemaking.",
+      "labels": {
+        "objects": [
+          "leather boot",
+          "miniature figures",
+          "tools",
+          "wooden table"
+        ],
+        "actions": [
+          "crafting",
+          "shoemaking"
+        ],
+        "emotions": [
+          "focus",
+          "intimacy"
+        ],
+        "scenes": [
+          "workshop",
+          "artisanal setting"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "attention to detail"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Boots are ready for shipping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Boots are ready for shipping/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, intricately designed leather boot dominates the scene, surrounded by tiny figurines and miniature tools. The setting appears to be a workshop, with a warm, focused light highlighting the craftsmanship of the boot. The background is softly blurred, suggesting a bustling environment.",
+      "description": "The scene is set in a workshop where a giant leather boot is the focal point, surrounded by miniature figures and tools, creating a whimsical and artistic atmosphere. The lighting is warm and concentrated, emphasizing the detailed craftsmanship of the boot.",
+      "labels": {
+        "objects": [
+          "boot",
+          "miniature figures",
+          "tools"
+        ],
+        "actions": [
+          "crafting",
+          "workshop activity"
+        ],
+        "emotions": [
+          "whimsical",
+          "artistic"
+        ],
+        "scenes": [
+          "workshop",
+          "crafting area"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "miniaturization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: miniature figures, tools, leather boot, wooden table, boot. Actions: crafting, shoemaking, workshop activity. Emotions: focus, intimacy, whimsical, artistic. Scenes: workshop, artisanal setting, crafting area. Concepts: craftsmanship, attention to detail, miniaturization",
+  "primary_labels": {
+    "objects": [
+      "miniature figures",
+      "tools",
+      "leather boot",
+      "wooden table",
+      "boot"
+    ],
+    "actions": [
+      "crafting",
+      "shoemaking",
+      "workshop activity"
+    ],
+    "emotions": [
+      "focus",
+      "intimacy",
+      "whimsical",
+      "artistic"
+    ],
+    "scenes": [
+      "workshop",
+      "artisanal setting",
+      "crafting area"
+    ],
+    "concepts": [
+      "craftsmanship",
+      "attention to detail",
+      "miniaturization"
+    ]
+  },
+  "metadata": {}
+}

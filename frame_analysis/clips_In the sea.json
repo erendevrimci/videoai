@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/In the sea.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/In the sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/In the sea/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing white dress stands gracefully on a sailboat, holding onto the sail as the wind blows her hair. The sky is partly cloudy, and the boat is sailing on a vast body of water.",
+      "description": "The scene captures a serene moment on a sailboat, with a woman enjoying the breeze and the open water. The setting is tranquil, with a partly cloudy sky and gentle waves.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sky",
+          "water",
+          "clouds"
+        ],
+        "objects": [
+          "sailboat",
+          "sail",
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "sailing",
+          "outdoor"
+        ],
+        "concepts": [
+          "freedom",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/In the sea.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/In the sea/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white dress stands on a boat, looking at a large orca breaching the water nearby. The scene captures the dramatic moment as the whale emerges from the ocean against a backdrop of a partly cloudy sky.",
+      "description": "The image depicts a thrilling encounter between a person on a boat and a breaching orca in the ocean. The setting is a sunny day with scattered clouds, creating a vibrant and dynamic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "orca"
+        ],
+        "nature": [
+          "ocean",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "boat",
+          "dress"
+        ],
+        "actions": [
+          "breaching",
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "excitement"
+        ],
+        "scenes": [
+          "marine",
+          "outdoor"
+        ],
+        "concepts": [
+          "wildlife encounter",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sky, clouds, water, ocean. Objects: dress, sailboat, sail, boat. Actions: standing, holding, breaching. Emotions: serene, awe, excitement. Scenes: outdoor, sailing, marine. Concepts: freedom, tranquility, wildlife encounter, adventure. Animals: orca",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "water",
+      "ocean"
+    ],
+    "objects": [
+      "dress",
+      "sailboat",
+      "sail",
+      "boat"
+    ],
+    "actions": [
+      "standing",
+      "holding",
+      "breaching"
+    ],
+    "emotions": [
+      "serene",
+      "awe",
+      "excitement"
+    ],
+    "scenes": [
+      "outdoor",
+      "sailing",
+      "marine"
+    ],
+    "concepts": [
+      "freedom",
+      "tranquility",
+      "wildlife encounter",
+      "adventure"
+    ],
+    "animals": [
+      "orca"
+    ]
+  },
+  "metadata": {}
+}

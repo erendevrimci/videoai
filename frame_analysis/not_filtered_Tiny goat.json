@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny goat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny goat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny goat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny, fluffy lamb is gently held in human hands, its soft white fur contrasting with the warm skin tones. The lamb's innocent eyes and small ears give it an adorable appearance, creating a heartwarming scene.",
+      "description": "The scene captures a close-up of a small lamb being held tenderly by a person, emphasizing the gentle interaction between humans and animals. The background is softly blurred, highlighting the lamb and the hands.",
+      "labels": {
+        "animals": [
+          "lamb"
+        ],
+        "objects": [
+          "hands"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "innocence",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny goat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny goat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny, fluffy lamb is gently held between two hands, its big eyes gazing curiously at the viewer. The lamb's soft fur and delicate features are highlighted against a softly blurred background.",
+      "description": "The scene captures a close-up of a small lamb being held by human hands, creating an intimate and tender moment. The focus is on the lamb's face, with its innocent expression and soft fur, set against a warm, blurred backdrop.",
+      "labels": {
+        "animals": [
+          "lamb"
+        ],
+        "objects": [
+          "hands"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "innocence",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lamb. Objects: hands. Actions: holding. Emotions: tenderness, affection, curiosity. Scenes: close-up. Concepts: innocence, care",
+  "primary_labels": {
+    "animals": [
+      "lamb"
+    ],
+    "objects": [
+      "hands"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "tenderness",
+      "affection",
+      "curiosity"
+    ],
+    "scenes": [
+      "close-up"
+    ],
+    "concepts": [
+      "innocence",
+      "care"
+    ]
+  },
+  "metadata": {}
+}

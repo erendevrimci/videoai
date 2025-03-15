@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Viking Princess.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Viking Princess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Viking Princess/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A determined woman in ornate armor stands with her arms raised, set against a mountainous backdrop. Her intense gaze and flowing hair convey a sense of strength and focus.",
+      "description": "The scene depicts a warrior woman in a medieval or fantasy setting, preparing for battle or rallying troops. The background features blurred mountains and banners, suggesting a battlefield or ceremonial gathering.",
+      "labels": {
+        "people": [
+          "woman",
+          "warrior"
+        ],
+        "nature": [
+          "mountains"
+        ],
+        "objects": [
+          "armor",
+          "banners"
+        ],
+        "actions": [
+          "standing",
+          "arms raised"
+        ],
+        "emotions": [
+          "determination",
+          "focus"
+        ],
+        "scenes": [
+          "battlefield",
+          "fantasy"
+        ],
+        "concepts": [
+          "strength",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Viking Princess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Viking Princess/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior woman stands confidently with her arms raised in a commanding gesture, surrounded by soldiers holding shields and red banners. The scene is set against a backdrop of rugged mountains under a clear sky, suggesting a historical or fantasy battle setting.",
+      "description": "The image depicts a powerful female warrior leading an army. She is dressed in ornate armor, and her determined expression conveys leadership and strength. The soldiers behind her are in formation, holding shields and banners, indicating readiness for battle.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "objects": [
+          "armor",
+          "shields",
+          "banners"
+        ],
+        "actions": [
+          "commanding gesture",
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "battlefield",
+          "historical",
+          "fantasy"
+        ],
+        "concepts": [
+          "leadership",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, woman, soldiers. Nature: mountains. Objects: armor, banners, shields. Actions: standing, arms raised, commanding gesture. Emotions: determination, focus, confidence. Scenes: battlefield, fantasy, historical. Concepts: strength, leadership",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "woman",
+      "soldiers"
+    ],
+    "nature": [
+      "mountains"
+    ],
+    "objects": [
+      "armor",
+      "banners",
+      "shields"
+    ],
+    "actions": [
+      "standing",
+      "arms raised",
+      "commanding gesture"
+    ],
+    "emotions": [
+      "determination",
+      "focus",
+      "confidence"
+    ],
+    "scenes": [
+      "battlefield",
+      "fantasy",
+      "historical"
+    ],
+    "concepts": [
+      "strength",
+      "leadership"
+    ]
+  },
+  "metadata": {}
+}

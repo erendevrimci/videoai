@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithShort.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithShort.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACheerfulGirlWithShort/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with a red scarf walks confidently down a flower-lined path, accompanied by a small dog. Behind her, a charming house with a red-tiled roof and flower boxes is set against a backdrop of vibrant pink and purple blossoms.",
+      "description": "The scene depicts a picturesque countryside setting, with a focus on a young woman and her dog walking past a quaint house. The atmosphere is serene and colorful, suggesting a peaceful, leisurely moment in a vibrant spring or summer day.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "house",
+          "scarf",
+          "hat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "countryside",
+          "spring"
+        ],
+        "concepts": [
+          "leisure",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithShort.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACheerfulGirlWithShort/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with a red scarf walks joyfully along a flower-lined path accompanied by a cheerful dog. Behind them, a charming house with a red roof and flower boxes stands under a clear sky. The scene is vibrant with blooming flowers and lush greenery.",
+      "description": "The scene depicts a picturesque countryside setting with a focus on a woman and her dog walking along a path. The background features a quaint house adorned with flowers, set amidst a colorful garden.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "house",
+          "scarf",
+          "hat"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "countryside",
+          "garden"
+        ],
+        "concepts": [
+          "harmony",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: dog. Nature: flowers, trees. Objects: house, scarf, hat. Actions: walking, smiling. Emotions: serenity, joyful, cheerful. Scenes: countryside, spring, garden. Concepts: leisure, vibrancy, harmony, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "flowers",
+      "trees"
+    ],
+    "objects": [
+      "house",
+      "scarf",
+      "hat"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "serenity",
+      "joyful",
+      "cheerful"
+    ],
+    "scenes": [
+      "countryside",
+      "spring",
+      "garden"
+    ],
+    "concepts": [
+      "leisure",
+      "vibrancy",
+      "harmony",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

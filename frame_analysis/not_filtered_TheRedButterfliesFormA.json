@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheRedButterfliesFormA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheRedButterfliesFormA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheRedButterfliesFormA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A human figure is formed entirely from red butterflies, surrounded by additional butterflies in flight. The scene is set against a minimalist, light background, highlighting the vibrant red hues.",
+      "description": "The image depicts a surreal and artistic scene where a human silhouette is composed of numerous red butterflies. These butterflies appear to be both forming and dispersing from the figure, creating a dynamic and ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "human figure"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "butterflies"
+        ],
+        "objects": [],
+        "actions": [
+          "forming",
+          "dispersing"
+        ],
+        "emotions": [
+          "ethereal",
+          "dynamic"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "transformation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheRedButterfliesFormA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheRedButterfliesFormA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A heart shape is formed by a swarm of vibrant red butterflies against a soft, light background. The butterflies appear to be in motion, creating a dynamic and lively scene. The composition evokes a sense of love and freedom.",
+      "description": "The scene depicts a heart shape made up of numerous red butterflies, set against a plain, light-colored background. The butterflies are arranged to form the heart, with some appearing to fly away, adding a sense of movement and life.",
+      "labels": {
+        "animals": [
+          "butterflies"
+        ],
+        "objects": [
+          "heart shape"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "love",
+          "freedom"
+        ],
+        "scenes": [
+          "artistic composition"
+        ],
+        "concepts": [
+          "romance",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: human figure. Animals: butterflies. Nature: butterflies. Objects: heart shape. Actions: forming, dispersing, flying. Emotions: ethereal, dynamic, love, freedom. Scenes: surreal, artistic, artistic composition. Concepts: nature, transformation, romance",
+  "primary_labels": {
+    "people": [
+      "human figure"
+    ],
+    "animals": [
+      "butterflies"
+    ],
+    "nature": [
+      "butterflies"
+    ],
+    "objects": [
+      "heart shape"
+    ],
+    "actions": [
+      "forming",
+      "dispersing",
+      "flying"
+    ],
+    "emotions": [
+      "ethereal",
+      "dynamic",
+      "love",
+      "freedom"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "artistic composition"
+    ],
+    "concepts": [
+      "nature",
+      "transformation",
+      "romance"
+    ]
+  },
+  "metadata": {}
+}

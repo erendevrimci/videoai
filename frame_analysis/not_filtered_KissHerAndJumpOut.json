@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KissHerAndJumpOut.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KissHerAndJumpOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KissHerAndJumpOut/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands closely together, taking a selfie with a scenic rocky coastline in the background. The woman wears a colorful hooded jacket, while the man is dressed in a gray coat. Behind them, waves crash against the rugged cliffs under a cloudy sky.",
+      "description": "The scene captures a couple enjoying a moment by a dramatic coastal landscape. The rocky cliffs and turbulent sea create a striking natural backdrop, suggesting a location known for its scenic beauty.",
+      "labels": {
+        "people": [
+          "couple",
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "coastline",
+          "cliffs",
+          "sea",
+          "waves",
+          "sky"
+        ],
+        "objects": [
+          "jacket",
+          "coat"
+        ],
+        "actions": [
+          "selfie",
+          "standing"
+        ],
+        "emotions": [
+          "contentment",
+          "togetherness"
+        ],
+        "scenes": [
+          "outdoor",
+          "coastal"
+        ],
+        "concepts": [
+          "travel",
+          "nature appreciation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KissHerAndJumpOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KissHerAndJumpOut/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is captured mid-jump near the edge of a scenic cliff overlooking the ocean. The woman wears a colorful beanie and a long black coat, while the man is dressed in a gray jacket and jeans. The dramatic backdrop features rugged cliffs and a choppy sea under an overcast sky.",
+      "description": "The scene is set on a grassy cliffside overlooking the ocean, with two people joyfully jumping near the edge. The setting is natural and dramatic, with rocky cliffs and a turbulent sea creating a striking contrast against the cloudy sky.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "cliff",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "beanie",
+          "coat",
+          "jacket"
+        ],
+        "actions": [
+          "jumping"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "coastline",
+          "outdoors"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Nature: sky, coastline, cliffs, sea, waves. Objects: jacket, coat, beanie. Actions: selfie, standing, jumping. Emotions: contentment, togetherness, joy. Scenes: outdoor, coastal, coastline, outdoors. Concepts: travel, nature appreciation, adventure, freedom",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "nature": [
+      "sky",
+      "coastline",
+      "cliffs",
+      "sea",
+      "waves"
+    ],
+    "objects": [
+      "jacket",
+      "coat",
+      "beanie"
+    ],
+    "actions": [
+      "selfie",
+      "standing",
+      "jumping"
+    ],
+    "emotions": [
+      "contentment",
+      "togetherness",
+      "joy"
+    ],
+    "scenes": [
+      "outdoor",
+      "coastal",
+      "coastline",
+      "outdoors"
+    ],
+    "concepts": [
+      "travel",
+      "nature appreciation",
+      "adventure",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Drift.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Drift.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Drift/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The scene depicts a surreal landscape with floating rocky formations amidst vibrant purple lightning. The sky is filled with dramatic clouds, creating a mystical and otherworldly atmosphere.",
+      "description": "This image portrays a fantastical setting with large rocks suspended in mid-air, surrounded by intense purple lightning and a dark, cloud-filled sky. The environment suggests a supernatural or alien world.",
+      "labels": {
+        "nature": [
+          "rocks",
+          "clouds"
+        ],
+        "objects": [
+          "lightning"
+        ],
+        "scenes": [
+          "fantasy landscape",
+          "surreal environment"
+        ],
+        "emotions": [
+          "mystical",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Drift.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Drift/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal landscape is depicted with jagged rock formations under a vibrant, stormy sky. Bright purple lightning streaks across the scene, illuminating the rugged terrain. The atmosphere is otherworldly, with intense colors and dynamic energy.",
+      "description": "The scene captures a fantastical landscape filled with rocky outcrops and dramatic lighting effects. The sky is filled with swirling clouds and vibrant purple lightning, creating a sense of chaos and wonder.",
+      "labels": {
+        "nature": [
+          "rock formations",
+          "clouds"
+        ],
+        "objects": [
+          "lightning"
+        ],
+        "actions": [
+          "lightning streaking"
+        ],
+        "emotions": [
+          "chaotic",
+          "intense"
+        ],
+        "scenes": [
+          "fantasy landscape"
+        ],
+        "concepts": [
+          "surreal",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Drift.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Drift/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dramatic landscape is illuminated by vibrant pink lightning streaks cutting through a turbulent sky. Jagged rock formations rise from the ground, partially covered in patches of green moss. The scene is otherworldly, with a sense of chaos and energy permeating the atmosphere.",
+      "description": "The scene depicts a fantastical landscape with intense lightning activity in a stormy sky. The rocky terrain is rugged and uneven, suggesting a wild and untamed environment.",
+      "labels": {
+        "nature": [
+          "rock formations",
+          "clouds",
+          "lightning"
+        ],
+        "objects": [
+          "moss",
+          "rocks"
+        ],
+        "actions": [
+          "lightning striking"
+        ],
+        "emotions": [
+          "chaotic",
+          "energetic"
+        ],
+        "scenes": [
+          "fantasy landscape",
+          "storm"
+        ],
+        "concepts": [
+          "otherworldly",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, rock formations, rocks, lightning. Objects: lightning, moss, rocks. Scenes: fantasy landscape, surreal environment, storm. Emotions: chaotic, mystical, dramatic, intense, energetic. Actions: lightning streaking, lightning striking. Concepts: otherworldly, surreal, dramatic",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "rock formations",
+      "rocks",
+      "lightning"
+    ],
+    "objects": [
+      "lightning",
+      "moss",
+      "rocks"
+    ],
+    "scenes": [
+      "fantasy landscape",
+      "surreal environment",
+      "storm"
+    ],
+    "emotions": [
+      "chaotic",
+      "mystical",
+      "dramatic",
+      "intense",
+      "energetic"
+    ],
+    "actions": [
+      "lightning streaking",
+      "lightning striking"
+    ],
+    "concepts": [
+      "otherworldly",
+      "surreal",
+      "dramatic"
+    ]
+  },
+  "metadata": {}
+}

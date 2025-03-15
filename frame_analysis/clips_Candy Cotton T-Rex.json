@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Candy Cotton T-Rex.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Candy Cotton T-Rex.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Candy Cotton T-Rex/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant dinosaur with colorful scales and feathers charges forward through a cloud of pink and blue mist. Its mouth is open wide, displaying sharp teeth, and its eyes are fixed ahead with intensity.",
+      "description": "The scene depicts a fantastical dinosaur in a surreal environment filled with colorful clouds. The dinosaur appears dynamic and fierce, set against a backdrop of swirling pink and blue hues.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "mist"
+        ],
+        "actions": [
+          "charging"
+        ],
+        "emotions": [
+          "intensity",
+          "fierceness"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Candy Cotton T-Rex.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Candy Cotton T-Rex/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant, fantastical dinosaur with bright blue and pink fur charges forward through a cloud-filled landscape. The creature's open mouth and sharp teeth create an intense and dynamic scene, surrounded by swirling pastel clouds.",
+      "description": "The scene depicts a surreal and colorful environment where a dinosaur-like creature, covered in vivid blue and pink fur, is in motion. The background is filled with fluffy, pastel-colored clouds, enhancing the dreamlike atmosphere.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "fur"
+        ],
+        "actions": [
+          "charging",
+          "moving forward"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "vibrant colors",
+          "dynamic motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dinosaur. Nature: clouds. Objects: mist, fur. Actions: charging, moving forward. Emotions: intensity, fierceness. Scenes: fantasy, surreal. Concepts: surrealism, vibrancy, vibrant colors, dynamic motion",
+  "primary_labels": {
+    "animals": [
+      "dinosaur"
+    ],
+    "nature": [
+      "clouds"
+    ],
+    "objects": [
+      "mist",
+      "fur"
+    ],
+    "actions": [
+      "charging",
+      "moving forward"
+    ],
+    "emotions": [
+      "intensity",
+      "fierceness"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal"
+    ],
+    "concepts": [
+      "surrealism",
+      "vibrancy",
+      "vibrant colors",
+      "dynamic motion"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Glimpse into the Future.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Glimpse into the Future.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Glimpse into the Future/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure is suspended within a glowing triangular structure, surrounded by a haze of smoke and dust. The scene is illuminated by the warm, intense light emanating from the triangle, casting an otherworldly glow over the environment.",
+      "description": "The scene takes place in a dark, industrial setting, possibly a futuristic or dystopian environment. The central focus is a figure entangled in cables, suspended in mid-air within a luminous triangular frame.",
+      "labels": {
+        "objects": [
+          "triangular structure",
+          "cables"
+        ],
+        "actions": [
+          "suspended",
+          "glowing"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "futuristic",
+          "industrial",
+          "dystopian"
+        ],
+        "concepts": [
+          "sci-fi",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Glimpse into the Future.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Glimpse into the Future/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure is suspended in the air, surrounded by glowing orange light and intricate web-like structures. The scene is set in a desolate, smoky landscape, with a lone person standing on cracked ground, gazing up at the spectacle.",
+      "description": "The scene depicts a surreal and otherworldly environment, possibly a post-apocalyptic or alien setting. The focus is on a suspended figure within a triangular frame of light, suggesting a ritualistic or supernatural event.",
+      "labels": {
+        "people": [
+          "figure",
+          "person"
+        ],
+        "objects": [
+          "triangular frame",
+          "web-like structures"
+        ],
+        "actions": [
+          "suspended",
+          "gazing"
+        ],
+        "emotions": [
+          "mystery",
+          "awe"
+        ],
+        "scenes": [
+          "desolate landscape",
+          "supernatural event"
+        ],
+        "concepts": [
+          "ritual",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Glimpse into the Future.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Glimpse into the Future/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A lone figure stands in a desolate landscape, gazing up at a massive, glowing triangular structure suspended in the sky. The structure is entangled with cables and appears to be holding a dark, humanoid form. The scene is enveloped in an eerie, orange glow, creating a sense of mystery and foreboding.",
+      "description": "The scene depicts a dystopian or science fiction setting where a solitary person confronts a colossal, illuminated triangular structure in a barren environment. The atmosphere is tense and otherworldly, suggesting a moment of confrontation or revelation.",
+      "labels": {
+        "people": [
+          "lone figure"
+        ],
+        "objects": [
+          "triangular structure",
+          "cables"
+        ],
+        "actions": [
+          "gazing",
+          "suspended"
+        ],
+        "emotions": [
+          "mystery",
+          "foreboding"
+        ],
+        "scenes": [
+          "dystopian",
+          "science fiction"
+        ],
+        "concepts": [
+          "confrontation",
+          "revelation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: triangular structure, cables, triangular frame, web-like structures. Actions: suspended, gazing, glowing. Emotions: mystery, mysterious, ominous, awe, foreboding. Scenes: dystopian, futuristic, industrial, desolate landscape, supernatural event. Concepts: sci-fi, technology, ritual, otherworldly, confrontation. People: figure, person, lone figure",
+  "primary_labels": {
+    "objects": [
+      "triangular structure",
+      "cables",
+      "triangular frame",
+      "web-like structures"
+    ],
+    "actions": [
+      "suspended",
+      "gazing",
+      "glowing"
+    ],
+    "emotions": [
+      "mystery",
+      "mysterious",
+      "ominous",
+      "awe",
+      "foreboding"
+    ],
+    "scenes": [
+      "dystopian",
+      "futuristic",
+      "industrial",
+      "desolate landscape",
+      "supernatural event"
+    ],
+    "concepts": [
+      "sci-fi",
+      "technology",
+      "ritual",
+      "otherworldly",
+      "confrontation"
+    ],
+    "people": [
+      "figure",
+      "person",
+      "lone figure"
+    ]
+  },
+  "metadata": {}
+}

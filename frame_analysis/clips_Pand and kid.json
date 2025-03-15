@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pand and kid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pand and kid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pand and kid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child in a blue suit walks hand in hand with a cute panda-like creature, both appearing joyful. They are surrounded by warm, glowing red lanterns, creating a festive atmosphere.",
+      "description": "The scene depicts a charming interaction between a child and a panda-like creature, set in a warmly lit environment with red lanterns, suggesting a festive or celebratory setting.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "panda-like creature"
+        ],
+        "objects": [
+          "lanterns",
+          "suit",
+          "backpack"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "festive",
+          "celebratory"
+        ],
+        "concepts": [
+          "friendship",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pand and kid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pand and kid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child and a cartoon-like panda walk hand in hand down a warmly lit hallway adorned with red lanterns. The child is dressed in a smart blue suit with a red bow tie, while the panda carries a small backpack, adding to the whimsical atmosphere.",
+      "description": "The scene is set in a hallway decorated with glowing red lanterns, creating a festive and enchanting ambiance. A child and a panda are the main focus, walking together with joyful expressions.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "lanterns",
+          "backpack",
+          "suit"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "hallway",
+          "festive"
+        ],
+        "concepts": [
+          "friendship",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: panda-like creature, panda. Objects: lanterns, suit, backpack. Actions: walking, holding hands. Emotions: joyful, happy. Scenes: festive, celebratory, hallway. Concepts: friendship, innocence, whimsy",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "panda-like creature",
+      "panda"
+    ],
+    "objects": [
+      "lanterns",
+      "suit",
+      "backpack"
+    ],
+    "actions": [
+      "walking",
+      "holding hands"
+    ],
+    "emotions": [
+      "joyful",
+      "happy"
+    ],
+    "scenes": [
+      "festive",
+      "celebratory",
+      "hallway"
+    ],
+    "concepts": [
+      "friendship",
+      "innocence",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

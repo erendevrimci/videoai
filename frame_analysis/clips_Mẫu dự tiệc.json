@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/M\u1eabu d\u1ef1 ti\u1ec7c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/M\u1eabu d\u1ef1 ti\u1ec7c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/M\u1eabu d\u1ef1 ti\u1ec7c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in a modern, minimalist room, wearing a stylish blue outfit with ruffled details. She holds a small handbag and wears knee-high black boots, exuding a chic and fashionable vibe.",
+      "description": "The scene is set in a contemporary indoor space with sleek, light-colored walls and a reflective surface in the background. The woman is the focal point, showcasing a fashion-forward look.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "handbag",
+          "boots",
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "fashion"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "modern"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/M\u1eabu d\u1ef1 ti\u1ec7c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/M\u1eabu d\u1ef1 ti\u1ec7c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a modern interior space, wearing a stylish blue outfit with ruffled details. She holds a small handbag and wears knee-high black boots, exuding a fashionable and poised demeanor.",
+      "description": "The scene is set in a contemporary indoor environment, likely a boutique or a stylish room, with a focus on fashion and elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "handbag",
+          "boots",
+          "mirror",
+          "shelves"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: handbag, boots, dress, mirror, shelves. Actions: standing. Emotions: confident. Scenes: indoor, fashion. Concepts: style, fashion, modern, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "handbag",
+      "boots",
+      "dress",
+      "mirror",
+      "shelves"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident"
+    ],
+    "scenes": [
+      "indoor",
+      "fashion"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "modern",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

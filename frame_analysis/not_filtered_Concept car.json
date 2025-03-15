@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Concept car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Concept car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Concept car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic car is showcased in a dimly lit environment, surrounded by mist. The car's aerodynamic design and glowing headlights create a striking visual effect.",
+      "description": "The scene captures a high-performance sports car in a modern, industrial setting. The atmosphere is dramatic and futuristic, emphasizing the car's advanced design and technology.",
+      "labels": {
+        "objects": [
+          "car",
+          "headlights"
+        ],
+        "actions": [
+          "showcased",
+          "surrounded by mist"
+        ],
+        "emotions": [
+          "futuristic",
+          "dramatic"
+        ],
+        "scenes": [
+          "industrial setting"
+        ],
+        "concepts": [
+          "technology",
+          "aerodynamics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Concept car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Concept car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, futuristic silver sports car is showcased in a dimly lit environment. The car's aerodynamic design and large, shiny wheels are highlighted by soft lighting and a misty atmosphere.",
+      "description": "The scene depicts a modern, high-performance sports car in a studio-like setting. The focus is on the car's elegant design and technological sophistication, emphasized by the surrounding mist and strategic lighting.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "wheels"
+        ],
+        "scenes": [
+          "studio",
+          "automotive showcase"
+        ],
+        "concepts": [
+          "futurism",
+          "technology",
+          "luxury"
+        ],
+        "emotions": [
+          "awe",
+          "admiration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, headlights, sports car, wheels. Actions: showcased, surrounded by mist. Emotions: futuristic, dramatic, awe, admiration. Scenes: industrial setting, studio, automotive showcase. Concepts: technology, aerodynamics, futurism, luxury",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "headlights",
+      "sports car",
+      "wheels"
+    ],
+    "actions": [
+      "showcased",
+      "surrounded by mist"
+    ],
+    "emotions": [
+      "futuristic",
+      "dramatic",
+      "awe",
+      "admiration"
+    ],
+    "scenes": [
+      "industrial setting",
+      "studio",
+      "automotive showcase"
+    ],
+    "concepts": [
+      "technology",
+      "aerodynamics",
+      "futurism",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

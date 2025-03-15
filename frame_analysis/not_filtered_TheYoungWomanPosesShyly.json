@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanPosesShyly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanPosesShyly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheYoungWomanPosesShyly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, wavy blonde hair and a warm smile is sitting indoors. She is wearing a casual, long-sleeved top and is looking directly at the camera. The background is softly blurred, emphasizing her relaxed and friendly expression.",
+      "description": "The scene captures a close-up portrait of a woman indoors, likely in a home setting. The focus is on her facial expression and hair, with a softly blurred background creating a cozy atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "relaxation",
+          "friendliness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheYoungWomanPosesShyly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheYoungWomanPosesShyly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long, wavy hair sits indoors, gently touching their ear and smiling softly. They wear a casual green sweater, and the background is softly blurred, suggesting a cozy, intimate setting.",
+      "description": "The scene captures a relaxed and intimate moment indoors, with a focus on a person displaying a gentle smile. The setting appears to be a calm, personal space with warm lighting.",
+      "labels": {
+        "people": [
+          "person",
+          "smile"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "actions": [
+          "touching ear"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "intimacy",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, smile. Objects: clothing, sweater. Emotions: happiness, warmth, calm, content. Scenes: indoor, portrait. Concepts: relaxation, friendliness, intimacy. Actions: touching ear",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "smile"
+    ],
+    "objects": [
+      "clothing",
+      "sweater"
+    ],
+    "emotions": [
+      "happiness",
+      "warmth",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "relaxation",
+      "friendliness",
+      "intimacy"
+    ],
+    "actions": [
+      "touching ear"
+    ]
+  },
+  "metadata": {}
+}

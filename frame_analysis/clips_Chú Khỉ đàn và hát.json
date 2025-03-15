@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ch\u00fa Kh\u1ec9 \u0111\u00e0n v\u00e0 h\u00e1t.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ch\u00fa Kh\u1ec9 \u0111\u00e0n v\u00e0 h\u00e1t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ch\u00fa Kh\u1ec9 \u0111\u00e0n v\u00e0 h\u00e1t/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful monkey is playing a guitar while sitting on a wooden stool. The monkey is wearing a plaid shirt and denim shorts, with a wide, joyful expression on its face. The background features a rustic setting with lush greenery and soft, warm lighting.",
+      "description": "The scene depicts a lively and whimsical moment where a monkey, dressed in casual attire, is joyfully strumming a guitar. The setting appears to be outdoors, possibly in a garden or a rural area, with a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "objects": [
+          "guitar",
+          "stool",
+          "plaid shirt",
+          "denim shorts"
+        ],
+        "actions": [
+          "playing guitar",
+          "sitting"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "outdoor",
+          "rustic"
+        ],
+        "concepts": [
+          "music",
+          "happiness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ch\u00fa Kh\u1ec9 \u0111\u00e0n v\u00e0 h\u00e1t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ch\u00fa Kh\u1ec9 \u0111\u00e0n v\u00e0 h\u00e1t/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful monkey is sitting on a stool, playing an acoustic guitar. The monkey is wearing a plaid shirt and denim shorts, creating a whimsical and playful scene.",
+      "description": "The scene depicts a monkey engaging in a musical performance in an outdoor setting. The background features lush greenery and a rustic structure, suggesting a natural and relaxed environment.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "objects": [
+          "guitar",
+          "stool",
+          "shirt",
+          "shorts"
+        ],
+        "actions": [
+          "playing guitar",
+          "sitting"
+        ],
+        "emotions": [
+          "cheerful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "musical performance"
+        ],
+        "concepts": [
+          "whimsy",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: monkey. Objects: guitar, stool, plaid shirt, denim shorts, shirt. Actions: playing guitar, sitting. Emotions: cheerful, joyful, playful. Scenes: outdoor, rustic, musical performance. Concepts: whimsy, music, happiness, entertainment",
+  "primary_labels": {
+    "animals": [
+      "monkey"
+    ],
+    "objects": [
+      "guitar",
+      "stool",
+      "plaid shirt",
+      "denim shorts",
+      "shirt"
+    ],
+    "actions": [
+      "playing guitar",
+      "sitting"
+    ],
+    "emotions": [
+      "cheerful",
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "outdoor",
+      "rustic",
+      "musical performance"
+    ],
+    "concepts": [
+      "whimsy",
+      "music",
+      "happiness",
+      "entertainment"
+    ]
+  },
+  "metadata": {}
+}

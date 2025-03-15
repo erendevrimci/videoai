@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0441 \u0446\u0432\u0435\u0442\u0430\u043c\u0438.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0441 \u0446\u0432\u0435\u0442\u0430\u043c\u0438.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0441 \u0446\u0432\u0435\u0442\u0430\u043c\u0438/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person walks down a misty urban street holding an enormous bouquet of pink flowers. The scene is set against a backdrop of foggy weather and blurred city traffic.",
+      "description": "The image depicts a person walking along a city street on a foggy day, carrying a large bouquet of pink flowers. The street is wet, suggesting recent rain, and the atmosphere is serene yet slightly mysterious due to the fog.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "bouquet",
+          "car"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fog",
+          "rain"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0441 \u0446\u0432\u0435\u0442\u0430\u043c\u0438.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0441 \u0446\u0432\u0435\u0442\u0430\u043c\u0438/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is holding a large bouquet of vibrant pink peonies, partially obscuring their face. The background is blurred, suggesting an outdoor setting with lush greenery.",
+      "description": "The scene captures a person outdoors, holding a striking bouquet of pink peonies. The focus is on the flowers, with a blurred background indicating a natural environment, possibly a park or garden.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "flowers",
+          "greenery"
+        ],
+        "objects": [
+          "bouquet",
+          "peonies"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: flowers, trees, greenery. Objects: bouquet, car, peonies. Actions: walking, holding. Emotions: serene, serenity. Scenes: urban, street, outdoor, garden. Concepts: fog, rain, beauty, nature",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "flowers",
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "bouquet",
+      "car",
+      "peonies"
+    ],
+    "actions": [
+      "walking",
+      "holding"
+    ],
+    "emotions": [
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "outdoor",
+      "garden"
+    ],
+    "concepts": [
+      "fog",
+      "rain",
+      "beauty",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

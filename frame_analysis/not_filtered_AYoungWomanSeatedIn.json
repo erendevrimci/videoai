@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanSeatedIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanSeatedIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWomanSeatedIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits gracefully on a train seat, gazing softly at the camera. She is wearing a delicate pink dress, and the sunlight filters through the window, casting a gentle glow on her face.",
+      "description": "The scene is set inside a train, with a calm and serene atmosphere. The woman is the focal point, seated comfortably by the window, suggesting a moment of quiet reflection during a journey.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "train seat",
+          "window",
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "train interior"
+        ],
+        "concepts": [
+          "travel",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanSeatedIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWomanSeatedIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman sits comfortably on a train seat, gazing softly at the camera. She is wearing a light pink dress, and sunlight streams through the window, illuminating her face and creating a serene atmosphere.",
+      "description": "The scene is set inside a train compartment, with a young woman seated by the window. The setting is calm and intimate, with natural light enhancing the peaceful mood.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "train seat",
+          "window",
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "train interior"
+        ],
+        "concepts": [
+          "travel",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanSeatedIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWomanSeatedIn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman sits comfortably on a train seat, wearing a light pink dress. Sunlight filters through the window, casting a gentle glow on her face as she smiles softly.",
+      "description": "The scene takes place inside a train, where a woman is seated by the window. The atmosphere is calm and serene, with natural light enhancing the warm tones of the setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "train seat",
+          "window",
+          "dress"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "train interior"
+        ],
+        "concepts": [
+          "travel",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, young woman. Objects: train seat, window, dress. Actions: sitting, smiling. Emotions: calm, serene, content. Scenes: train interior. Concepts: travel, relaxation, reflection",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "young woman"
+    ],
+    "objects": [
+      "train seat",
+      "window",
+      "dress"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "content"
+    ],
+    "scenes": [
+      "train interior"
+    ],
+    "concepts": [
+      "travel",
+      "relaxation",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

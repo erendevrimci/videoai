@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u0440\u043e\u043b\u0438\u043a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u0440\u043e\u043b\u0438\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u041a\u0440\u043e\u043b\u0438\u043a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute rabbit peeks through a circular opening, its ears perked up and eyes wide open. The soft pink and beige background complements the rabbit's fluffy white fur, creating a serene and charming scene.",
+      "description": "The scene features a rabbit looking through a circular cutout, set against a pastel-colored background. The rabbit's attentive posture and the gentle color palette convey a sense of calm and curiosity.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "fur"
+        ],
+        "objects": [
+          "circle"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "cuteness",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u0440\u043e\u043b\u0438\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u041a\u0440\u043e\u043b\u0438\u043a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up view of a rabbit's ear and part of its head is visible through a circular frame. The background is a soft pink, creating a gentle and warm atmosphere.",
+      "description": "The scene captures a rabbit partially visible through a circular cutout, with a focus on its ear. The setting is minimalistic, with a pastel pink background enhancing the serene mood.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "circular frame"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "close-up",
+          "minimalistic"
+        ],
+        "concepts": [
+          "gentleness",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u0440\u043e\u043b\u0438\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u041a\u0440\u043e\u043b\u0438\u043a/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A circular mirror reflects a portion of a person's head with short hair. The background is a soft pink, creating a minimalist and serene atmosphere.",
+      "description": "The scene captures a close-up reflection in a circular mirror, focusing on the top of a person's head. The setting is minimalistic with a soft pink background, suggesting a calm and simple environment.",
+      "labels": {
+        "objects": [
+          "mirror"
+        ],
+        "people": [
+          "person"
+        ],
+        "nature": [],
+        "animals": [],
+        "actions": [
+          "reflection"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "reflection",
+          "simplicity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit. Nature: fur. Objects: circle, circular frame, mirror. Emotions: calm, curiosity, serenity. Scenes: portrait, close-up, minimalistic, minimalist. Concepts: cuteness, serenity, gentleness, warmth, reflection. People: person. Actions: reflection",
+  "primary_labels": {
+    "animals": [
+      "rabbit"
+    ],
+    "nature": [
+      "fur"
+    ],
+    "objects": [
+      "circle",
+      "circular frame",
+      "mirror"
+    ],
+    "emotions": [
+      "calm",
+      "curiosity",
+      "serenity"
+    ],
+    "scenes": [
+      "portrait",
+      "close-up",
+      "minimalistic",
+      "minimalist"
+    ],
+    "concepts": [
+      "cuteness",
+      "serenity",
+      "gentleness",
+      "warmth",
+      "reflection"
+    ],
+    "people": [
+      "person"
+    ],
+    "actions": [
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

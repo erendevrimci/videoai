@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3 cats dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3 cats dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/3 cats dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three playful kittens stand on their hind legs with their front paws raised, appearing to dance or play. The scene is set indoors with warm lighting and a cozy atmosphere.",
+      "description": "The image depicts three kittens, each of a different color, standing upright on a wooden floor. They are positioned in a line, with an orange kitten in the center, flanked by a gray kitten on the left and a white kitten on the right. The background features soft, warm lighting and hints of indoor plants, suggesting a comfortable home setting.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "objects": [
+          "wooden floor",
+          "indoor plants"
+        ],
+        "actions": [
+          "standing",
+          "playing"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "indoor",
+          "home"
+        ],
+        "concepts": [
+          "playfulness",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3 cats dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/3 cats dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three adorable kittens stand on their hind legs in a cozy room, each with a curious expression. The central orange tabby is flanked by a grey and a white kitten, all appearing playful and alert. Soft lighting and a warm atmosphere enhance the charm of the scene.",
+      "description": "The scene captures three kittens standing upright in a warmly lit room, creating a playful and endearing atmosphere. The kittens are positioned on a wooden floor, with soft, ambient lighting from a lamp in the background.",
+      "labels": {
+        "animals": [
+          "kittens",
+          "cats"
+        ],
+        "objects": [
+          "lamp",
+          "wooden floor"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy room"
+        ],
+        "concepts": [
+          "cuteness",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kittens, cats. Objects: wooden floor, indoor plants, lamp. Actions: standing, playing, posing. Emotions: playful, joyful, curiosity, playfulness. Scenes: indoor, home, cozy room. Concepts: companionship, playfulness, cuteness",
+  "primary_labels": {
+    "animals": [
+      "kittens",
+      "cats"
+    ],
+    "objects": [
+      "wooden floor",
+      "indoor plants",
+      "lamp"
+    ],
+    "actions": [
+      "standing",
+      "playing",
+      "posing"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "indoor",
+      "home",
+      "cozy room"
+    ],
+    "concepts": [
+      "companionship",
+      "playfulness",
+      "cuteness"
+    ]
+  },
+  "metadata": {}
+}

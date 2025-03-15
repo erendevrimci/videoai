@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the girl is talking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the girl is talking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the girl is talking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with striking blue eyes and dark hair, set against a vibrant background of pink flowers. The person is wearing a light-colored sweater, and their expression is calm and introspective.",
+      "description": "The scene captures a serene and intimate moment, focusing on the person's facial features and the soft texture of their sweater. The background of pink flowers adds a touch of nature and vibrancy to the portrait.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the girl is talking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the girl is talking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a young woman with dark hair and expressive eyes, surrounded by vibrant pink flowers. Her face is slightly turned, and she appears to be speaking or expressing surprise.",
+      "description": "The scene captures a young woman outdoors, possibly in a garden or park, with bright pink flowers in the background. The focus is on her facial expression, which conveys a lively and engaging presence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [],
+        "actions": [
+          "speaking"
+        ],
+        "emotions": [
+          "surprise",
+          "engagement"
+        ],
+        "scenes": [
+          "outdoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face, woman. Nature: flowers. Objects: sweater. Emotions: calm, introspective, surprise, engagement. Scenes: portrait, outdoor. Concepts: beauty, serenity, expression. Actions: speaking",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face",
+      "woman"
+    ],
+    "nature": [
+      "flowers"
+    ],
+    "objects": [
+      "sweater"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "surprise",
+      "engagement"
+    ],
+    "scenes": [
+      "portrait",
+      "outdoor"
+    ],
+    "concepts": [
+      "beauty",
+      "serenity",
+      "expression"
+    ],
+    "actions": [
+      "speaking"
+    ]
+  },
+  "metadata": {}
+}

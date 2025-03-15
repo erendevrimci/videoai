@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beef steak.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beef steak.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/beef steak/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers on a large steak, surrounded by vibrant vegetables. The workers appear to be building or decorating the steak with tools, adding a playful and imaginative touch. The setting resembles a construction site, but with food elements replacing traditional materials.",
+      "description": "The scene creatively combines culinary and construction themes, featuring tiny figures working on a steak as if it were a construction project. The playful juxtaposition of food and construction elements creates a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "steak",
+          "bell peppers",
+          "construction tools",
+          "crane",
+          "forks"
+        ],
+        "actions": [
+          "building",
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "construction site",
+          "culinary art"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beef steak.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/beef steak/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Miniature construction workers are busy on a large piece of steak, surrounded by vibrant vegetables. They appear to be building or decorating the steak with peppers and greens, using tools and machinery.",
+      "description": "The scene depicts a whimsical miniature world where tiny construction workers are engaged in culinary construction on a steak. The setting is a playful, imaginative representation of food preparation, blending elements of construction and cooking.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "steak",
+          "bell peppers",
+          "construction tools",
+          "crane",
+          "forks"
+        ],
+        "actions": [
+          "building",
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "miniature world",
+          "culinary construction"
+        ],
+        "concepts": [
+          "imagination",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature workers. Objects: steak, bell peppers, construction tools, crane, forks. Actions: building, decorating. Emotions: playful, imaginative, creative. Scenes: construction site, culinary art, miniature world, culinary construction. Concepts: food art, miniature world, imagination",
+  "primary_labels": {
+    "people": [
+      "miniature workers"
+    ],
+    "objects": [
+      "steak",
+      "bell peppers",
+      "construction tools",
+      "crane",
+      "forks"
+    ],
+    "actions": [
+      "building",
+      "decorating"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "creative"
+    ],
+    "scenes": [
+      "construction site",
+      "culinary art",
+      "miniature world",
+      "culinary construction"
+    ],
+    "concepts": [
+      "food art",
+      "miniature world",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

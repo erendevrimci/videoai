@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/QueSeDenUnAbrazo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/QueSeDenUnAbrazo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/QueSeDenUnAbrazo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two men are in an outdoor setting at night. One is standing in a suit with hands in pockets, while the other is sitting on a car, smiling and looking relaxed.",
+      "description": "The scene takes place outdoors at night, possibly in a parking area or open space. The atmosphere is casual and friendly.",
+      "labels": {
+        "people": [
+          "man in suit",
+          "man sitting"
+        ],
+        "objects": [
+          "car"
+        ],
+        "actions": [
+          "standing",
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "relaxed",
+          "friendly"
+        ],
+        "scenes": [
+          "nighttime",
+          "outdoor"
+        ],
+        "concepts": [
+          "casual interaction",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/QueSeDenUnAbrazo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/QueSeDenUnAbrazo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two men are in a nighttime outdoor setting. One man is standing in a suit, while the other is sitting on a car, smiling.",
+      "description": "The scene depicts two men in a dimly lit outdoor area at night. One man is dressed formally in a suit, standing with his hands in his pockets. The other man is casually dressed, sitting on the hood of a car, smiling.",
+      "labels": {
+        "people": [
+          "man in suit",
+          "man sitting"
+        ],
+        "objects": [
+          "car"
+        ],
+        "actions": [
+          "standing",
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "nighttime",
+          "outdoor"
+        ],
+        "concepts": [
+          "casual",
+          "formal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man in suit, man sitting. Objects: car. Actions: standing, sitting, smiling. Emotions: relaxed, friendly, happiness. Scenes: nighttime, outdoor. Concepts: casual interaction, friendship, casual, formal",
+  "primary_labels": {
+    "people": [
+      "man in suit",
+      "man sitting"
+    ],
+    "objects": [
+      "car"
+    ],
+    "actions": [
+      "standing",
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "relaxed",
+      "friendly",
+      "happiness"
+    ],
+    "scenes": [
+      "nighttime",
+      "outdoor"
+    ],
+    "concepts": [
+      "casual interaction",
+      "friendship",
+      "casual",
+      "formal"
+    ]
+  },
+  "metadata": {}
+}

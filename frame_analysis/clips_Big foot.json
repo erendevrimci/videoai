@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big foot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big foot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Big foot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image shows two figures standing in a forested area. One appears to be a person dressed in traditional attire with feathers and beads, while the other resembles a large, hairy creature. They stand close together, looking directly at the camera.",
+      "description": "This scene takes place in a wooded environment, possibly depicting a mythical or historical context. The presence of the large, hairy figure suggests a representation of folklore or legend, while the person in traditional attire adds a cultural or historical element.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "feathers",
+          "beads"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "outdoor",
+          "forest"
+        ],
+        "concepts": [
+          "mythology",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Big foot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Big foot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sepia-toned photograph depicts two figures standing in a forest setting. One figure is dressed in a costume resembling a large, hairy creature, while the other is wearing traditional attire with beads and feathers.",
+      "description": "The scene is set in a wooded area, possibly during a historical reenactment or a staged photo. The atmosphere is mysterious and somewhat surreal, with the juxtaposition of the costumed figure and the traditionally dressed person.",
+      "labels": {
+        "people": [
+          "person",
+          "costumed figure"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "costume",
+          "beads",
+          "feathers"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "historical",
+          "staged"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, costumed figure. Animals: mythical creature. Nature: forest, trees. Objects: feathers, beads, costume. Actions: standing. Emotions: serious, mysterious. Scenes: outdoor, forest, historical, staged. Concepts: mythology, culture, juxtaposition, tradition",
+  "primary_labels": {
+    "people": [
+      "person",
+      "costumed figure"
+    ],
+    "animals": [
+      "mythical creature"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "feathers",
+      "beads",
+      "costume"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serious",
+      "mysterious"
+    ],
+    "scenes": [
+      "outdoor",
+      "forest",
+      "historical",
+      "staged"
+    ],
+    "concepts": [
+      "mythology",
+      "culture",
+      "juxtaposition",
+      "tradition"
+    ]
+  },
+  "metadata": {}
+}

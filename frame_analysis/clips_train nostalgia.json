@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/train nostalgia.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/train nostalgia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/train nostalgia/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A steam train travels along a railway track, emitting a plume of smoke against a backdrop of a grand mosque with multiple minarets. The scene is set during a vibrant sunset, casting warm hues across the sky and landscape.",
+      "description": "The image depicts a steam train moving through an urban area with a prominent mosque in the background. The setting sun creates a dramatic sky filled with orange and yellow tones, enhancing the architectural beauty of the mosque and the nostalgic feel of the train.",
+      "labels": {
+        "objects": [
+          "steam train",
+          "railway track",
+          "mosque",
+          "minarets",
+          "buildings"
+        ],
+        "nature": [
+          "sunset",
+          "clouds"
+        ],
+        "actions": [
+          "train moving",
+          "smoke emitting"
+        ],
+        "scenes": [
+          "urban landscape",
+          "sunset"
+        ],
+        "concepts": [
+          "travel",
+          "architecture",
+          "nostalgia"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/train nostalgia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/train nostalgia/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A steam locomotive travels along railway tracks with a grand mosque in the background, set against a vibrant sunset sky. The train emits billowing clouds of steam as it moves through an urban landscape. The scene is bathed in warm, golden light, creating a dramatic and nostalgic atmosphere.",
+      "description": "The scene captures a steam train moving through a cityscape with a prominent mosque in the background. The setting sun casts a warm glow over the scene, highlighting the architectural details of the mosque and the train. The image evokes a sense of travel and history, with the steam train symbolizing a bygone era.",
+      "labels": {
+        "objects": [
+          "steam locomotive",
+          "railway tracks",
+          "mosque"
+        ],
+        "nature": [
+          "clouds",
+          "sunset"
+        ],
+        "actions": [
+          "traveling",
+          "emitting steam"
+        ],
+        "emotions": [
+          "nostalgic",
+          "dramatic"
+        ],
+        "scenes": [
+          "urban landscape",
+          "sunset"
+        ],
+        "concepts": [
+          "travel",
+          "history"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: mosque, steam train, railway track, minarets, buildings. Nature: sunset, clouds. Actions: train moving, smoke emitting, traveling, emitting steam. Scenes: urban landscape, sunset. Concepts: travel, architecture, nostalgia, history. Emotions: serenity, awe, nostalgic, dramatic",
+  "primary_labels": {
+    "objects": [
+      "mosque",
+      "steam train",
+      "railway track",
+      "minarets",
+      "buildings"
+    ],
+    "nature": [
+      "sunset",
+      "clouds"
+    ],
+    "actions": [
+      "train moving",
+      "smoke emitting",
+      "traveling",
+      "emitting steam"
+    ],
+    "scenes": [
+      "urban landscape",
+      "sunset"
+    ],
+    "concepts": [
+      "travel",
+      "architecture",
+      "nostalgia",
+      "history"
+    ],
+    "emotions": [
+      "serenity",
+      "awe",
+      "nostalgic",
+      "dramatic"
+    ]
+  },
+  "metadata": {}
+}

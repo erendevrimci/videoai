@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheJuiceFlowsOutOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheJuiceFlowsOutOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheJuiceFlowsOutOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a mango carved into the shape of a human face, resting on a plate. The mango juice flows out from the base, creating a glossy stream on the surface below. Green leaves sprout from the top, adding a touch of realism to the fantastical scene.",
+      "description": "The scene presents a creative and surreal representation of a mango, intricately carved to resemble a human face. It is set against a neutral background, emphasizing the vibrant colors and textures of the fruit and juice.",
+      "labels": {
+        "objects": [
+          "mango",
+          "plate",
+          "leaves"
+        ],
+        "actions": [
+          "carving",
+          "flowing"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheJuiceFlowsOutOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheJuiceFlowsOutOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal image features a mango carved into the shape of a human face, placed on a white plate. The mango juice flows out onto the surface, creating a glossy, reflective pool. Green leaves sprout from the top, adding a natural touch to the artistic composition.",
+      "description": "The scene presents a creative and surreal depiction of a mango intricately carved to resemble a human face. It is set on a simple white background, emphasizing the vibrant colors and textures of the fruit and juice.",
+      "labels": {
+        "objects": [
+          "mango",
+          "plate",
+          "leaves"
+        ],
+        "actions": [
+          "carving",
+          "flowing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: mango, plate, leaves. Actions: carving, flowing. Emotions: calm, serene, serenity. Scenes: surreal, artistic. Concepts: creativity, fusion",
+  "primary_labels": {
+    "objects": [
+      "mango",
+      "plate",
+      "leaves"
+    ],
+    "actions": [
+      "carving",
+      "flowing"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic"
+    ],
+    "concepts": [
+      "creativity",
+      "fusion"
+    ]
+  },
+  "metadata": {}
+}

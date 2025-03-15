@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatAndAnElephant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatAndAnElephant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatAndAnElephant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large elephant and a fluffy cat stand side by side on a cobblestone street at sunset. The scene is set in a quaint town with a tower visible in the background, illuminated by warm streetlights.",
+      "description": "The image depicts a surreal scene where an elephant and a cat are positioned together in an urban setting. The street is lined with old-fashioned buildings, and a tower rises in the distance under a colorful sunset sky.",
+      "labels": {
+        "animals": [
+          "elephant",
+          "cat"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "objects": [
+          "cobblestone street",
+          "streetlights",
+          "tower",
+          "buildings"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "surreal"
+        ],
+        "emotions": [
+          "calm",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatAndAnElephant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatAndAnElephant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fantastical creature with the body of a cat and the trunk of an elephant stands illuminated by a glowing light beneath its feet. The scene is set against a backdrop of a historic tower and a cityscape at dusk, with a warm, colorful sky.",
+      "description": "The image depicts a surreal scene where a hybrid animal, combining features of a cat and an elephant, is positioned in front of a well-known tower. The setting is urban, likely in a city square or plaza, with a magical atmosphere created by the glowing light and the colorful sunset.",
+      "labels": {
+        "animals": [
+          "hybrid animal",
+          "cat",
+          "elephant"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "objects": [
+          "tower",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "fantastical",
+          "whimsical"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "fantasy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: elephant, cat, hybrid animal. Nature: sunset. Objects: tower, buildings, cobblestone street, streetlights. Scenes: urban, street, surreal, cityscape. Emotions: whimsical, calm, fantastical. Actions: standing. Concepts: fantasy, surrealism",
+  "primary_labels": {
+    "animals": [
+      "elephant",
+      "cat",
+      "hybrid animal"
+    ],
+    "nature": [
+      "sunset"
+    ],
+    "objects": [
+      "tower",
+      "buildings",
+      "cobblestone street",
+      "streetlights"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "surreal",
+      "cityscape"
+    ],
+    "emotions": [
+      "whimsical",
+      "calm",
+      "fantastical"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "concepts": [
+      "fantasy",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

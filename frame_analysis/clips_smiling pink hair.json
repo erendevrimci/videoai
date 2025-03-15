@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/smiling pink hair.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/smiling pink hair.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/smiling pink hair/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with pink hair gazes directly at the camera, standing in a softly lit room. She wears a white lace top, and her expression is calm and composed.",
+      "description": "The scene captures a close-up portrait of a woman indoors, with natural light filtering through a window. The focus is on her facial features and hair, creating an intimate and serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "lace top"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "serenity",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/smiling pink hair.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/smiling pink hair/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with pink hair is smiling softly while looking directly at the camera. They are wearing a white lace top and are positioned in front of a softly lit window.",
+      "description": "The scene captures a close-up portrait of a person indoors, with natural light coming through a window, creating a serene and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "lace top",
+          "window"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/smiling pink hair.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/smiling pink hair/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with pink hair smiles warmly at the camera, exuding a friendly and inviting presence. She is wearing a delicate white lace top, with soft natural light illuminating her features.",
+      "description": "The scene captures a close-up portrait of a woman indoors, likely near a window given the soft lighting. The setting is calm and intimate, focusing on her expression and appearance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "lace top"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: lace top, window. Actions: smiling, gazing. Emotions: calm, contentment, happiness, warmth. Scenes: indoor, portrait. Concepts: serenity, beauty, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "lace top",
+      "window"
+    ],
+    "actions": [
+      "smiling",
+      "gazing"
+    ],
+    "emotions": [
+      "calm",
+      "contentment",
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "serenity",
+      "beauty",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

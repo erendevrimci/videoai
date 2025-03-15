@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Charge, forward!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Charge, forward!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Charge, forward!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed in military gear charges forward with determination. It wields a handgun and wears a helmet, surrounded by flying debris and dust.",
+      "description": "The scene depicts a surreal and dynamic moment where a cat, equipped with military attire, is in the midst of an action-packed environment. The setting suggests a battlefield or combat zone with a focus on movement and intensity.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "handgun",
+          "helmet",
+          "military gear"
+        ],
+        "actions": [
+          "running",
+          "charging"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "battlefield",
+          "combat"
+        ],
+        "concepts": [
+          "surreal",
+          "action"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Charge, forward!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Charge, forward!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in military gear is seen running through a dusty environment, holding a gun in its paw. The cat's expression is focused and determined, as it navigates the rugged terrain.",
+      "description": "The scene depicts a cat in full military attire, including a helmet and tactical vest, sprinting across a dusty battlefield. The setting suggests an intense and action-packed environment, with dust and debris flying around.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "gun",
+          "helmet",
+          "tactical vest"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "determined"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "military",
+          "action"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: helmet, handgun, military gear, gun, tactical vest. Actions: running, charging. Emotions: determination, determined. Scenes: battlefield, combat. Concepts: action, surreal, military",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "helmet",
+      "handgun",
+      "military gear",
+      "gun",
+      "tactical vest"
+    ],
+    "actions": [
+      "running",
+      "charging"
+    ],
+    "emotions": [
+      "determination",
+      "determined"
+    ],
+    "scenes": [
+      "battlefield",
+      "combat"
+    ],
+    "concepts": [
+      "action",
+      "surreal",
+      "military"
+    ]
+  },
+  "metadata": {}
+}

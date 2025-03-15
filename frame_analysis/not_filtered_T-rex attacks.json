@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T-rex attacks.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T-rex attacks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/T-rex attacks/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive dinosaur roams the city streets, causing chaos and destruction. A helicopter is caught in the turmoil, while people and vehicles scramble to escape the scene.",
+      "description": "The scene is set in a bustling urban environment, with skyscrapers lining the street. A dinosaur is causing panic as it moves through the city, with debris flying and vehicles in disarray.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "helicopter",
+          "taxi",
+          "buildings",
+          "debris"
+        ],
+        "actions": [
+          "running",
+          "escaping",
+          "roaring"
+        ],
+        "emotions": [
+          "panic",
+          "fear"
+        ],
+        "scenes": [
+          "urban",
+          "chaotic"
+        ],
+        "concepts": [
+          "destruction",
+          "disaster"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T-rex attacks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/T-rex attacks/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive dinosaur roams through a bustling city street, towering over the surrounding buildings. A helicopter is grounded amidst the chaos, with debris scattered across the road. The scene is tense and dramatic, capturing a moment of urban disruption.",
+      "description": "The scene depicts a large dinosaur, possibly a T-Rex, in an urban setting, causing destruction as it moves down a city street. The presence of a helicopter and damaged vehicles suggests a chaotic and urgent situation.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "helicopter",
+          "cars",
+          "buildings",
+          "debris"
+        ],
+        "actions": [
+          "roaming",
+          "destruction"
+        ],
+        "emotions": [
+          "chaos",
+          "tension"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "concepts": [
+          "disruption",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/T-rex attacks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/T-rex attacks/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A massive dinosaur foot crushes a helicopter in the middle of a bustling city street, sending debris flying. The scene is chaotic, with dust and destruction dominating the urban landscape. Skyscrapers tower in the background, emphasizing the scale of the creature.",
+      "description": "The scene takes place in a city where a giant dinosaur is causing havoc. The dinosaur's foot is crushing a helicopter, creating a dramatic and destructive moment. The urban setting is filled with tall buildings, and the street is littered with debris.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "helicopter",
+          "debris",
+          "skyscrapers"
+        ],
+        "actions": [
+          "crushing",
+          "destruction"
+        ],
+        "emotions": [
+          "chaos",
+          "fear"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "concepts": [
+          "scale",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dinosaur. Objects: helicopter, debris, buildings, taxi, cars. Actions: destruction, running, escaping, roaring, roaming. Emotions: fear, chaos, panic, tension. Scenes: urban, disaster, chaotic. Concepts: danger, destruction, disaster, disruption, scale",
+  "primary_labels": {
+    "animals": [
+      "dinosaur"
+    ],
+    "objects": [
+      "helicopter",
+      "debris",
+      "buildings",
+      "taxi",
+      "cars"
+    ],
+    "actions": [
+      "destruction",
+      "running",
+      "escaping",
+      "roaring",
+      "roaming"
+    ],
+    "emotions": [
+      "fear",
+      "chaos",
+      "panic",
+      "tension"
+    ],
+    "scenes": [
+      "urban",
+      "disaster",
+      "chaotic"
+    ],
+    "concepts": [
+      "danger",
+      "destruction",
+      "disaster",
+      "disruption",
+      "scale"
+    ]
+  },
+  "metadata": {}
+}

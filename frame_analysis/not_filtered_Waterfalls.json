@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waterfalls.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waterfalls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Waterfalls/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image blends the profile of a person's face with a breathtaking natural landscape. The scene within the silhouette features a vibrant sunset over mountains, a dense forest, and a cascading waterfall. A small figure stands on a rocky outcrop, gazing towards the majestic view.",
+      "description": "The image presents a dreamlike fusion of human and nature, where a person's profile seamlessly integrates with a picturesque landscape. The setting evokes a sense of tranquility and introspection, combining elements of both the natural world and human contemplation.",
+      "labels": {
+        "people": [
+          "profile",
+          "silhouette"
+        ],
+        "nature": [
+          "mountains",
+          "forest",
+          "waterfall",
+          "sunset"
+        ],
+        "objects": [
+          "rocky outcrop"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "tranquility",
+          "introspection"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "fusion",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waterfalls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Waterfalls/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal image blends a serene landscape with a human profile, creating a dreamlike scene. The silhouette of a person's head is filled with a vibrant sunset, mountains, and a cascading waterfall. A lone figure stands on a rock, gazing at the scene.",
+      "description": "The scene is a digital art composition combining elements of nature with a human profile. It features a sunset over mountains and a waterfall, all within the silhouette of a person's head, creating a harmonious blend of human and nature.",
+      "labels": {
+        "people": [
+          "silhouette",
+          "profile",
+          "figure"
+        ],
+        "nature": [
+          "mountains",
+          "waterfall",
+          "sunset",
+          "trees"
+        ],
+        "objects": [
+          "rock"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "harmony",
+          "nature",
+          "human connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: profile, silhouette, figure. Nature: mountains, waterfall, sunset, forest, trees. Objects: rocky outcrop, rock. Actions: gazing. Emotions: tranquility, introspection, serenity, contemplation. Scenes: surreal, dreamlike. Concepts: harmony, fusion, nature, human connection",
+  "primary_labels": {
+    "people": [
+      "profile",
+      "silhouette",
+      "figure"
+    ],
+    "nature": [
+      "mountains",
+      "waterfall",
+      "sunset",
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "rocky outcrop",
+      "rock"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "tranquility",
+      "introspection",
+      "serenity",
+      "contemplation"
+    ],
+    "scenes": [
+      "surreal",
+      "dreamlike"
+    ],
+    "concepts": [
+      "harmony",
+      "fusion",
+      "nature",
+      "human connection"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHigh-definition,CinematicVideo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHigh-definition,CinematicVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAHigh-definition,CinematicVideo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic underwater vehicle glides through a vibrant coral reef, illuminated by beams of sunlight filtering through the water. The sleek, glass-encased structure offers a panoramic view of the colorful marine life surrounding it. Schools of fish swim gracefully around the submarine, adding to the dynamic underwater scene.",
+      "description": "The scene depicts a futuristic underwater exploration setting, featuring a high-tech submarine navigating through a colorful coral reef. The environment is teeming with marine life, and the sunlight creates a serene and enchanting atmosphere.",
+      "labels": {
+        "objects": [
+          "submarine",
+          "coral reef",
+          "glass structure"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "water",
+          "sunlight",
+          "coral"
+        ],
+        "actions": [
+          "swimming",
+          "gliding"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "underwater",
+          "futuristic"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAHigh-definition,CinematicVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAHigh-definition,CinematicVideo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic underwater scene features a sleek, transparent tunnel-like structure illuminated from within, gliding through a vibrant marine environment. Sunlight filters through the water, casting beams of light onto the rocky underwater landscape adorned with colorful corals and schools of fish. The scene evokes a sense of wonder and exploration beneath the ocean's surface.",
+      "description": "The image depicts a futuristic underwater setting where a transparent, tube-like structure moves gracefully through a vibrant marine environment. The scene is illuminated by sunlight streaming through the water, highlighting the rich marine life and rocky formations.",
+      "labels": {
+        "objects": [
+          "tunnel",
+          "structure",
+          "corals"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "ocean",
+          "rocks",
+          "water"
+        ],
+        "actions": [
+          "gliding"
+        ],
+        "emotions": [
+          "wonder"
+        ],
+        "scenes": [
+          "underwater",
+          "futuristic"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: submarine, coral reef, glass structure, tunnel, structure. Animals: fish. Nature: water, sunlight, coral, ocean, rocks. Actions: gliding, swimming. Emotions: wonder, serenity. Scenes: underwater, futuristic. Concepts: exploration, technology",
+  "primary_labels": {
+    "objects": [
+      "submarine",
+      "coral reef",
+      "glass structure",
+      "tunnel",
+      "structure"
+    ],
+    "animals": [
+      "fish"
+    ],
+    "nature": [
+      "water",
+      "sunlight",
+      "coral",
+      "ocean",
+      "rocks"
+    ],
+    "actions": [
+      "gliding",
+      "swimming"
+    ],
+    "emotions": [
+      "wonder",
+      "serenity"
+    ],
+    "scenes": [
+      "underwater",
+      "futuristic"
+    ],
+    "concepts": [
+      "exploration",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

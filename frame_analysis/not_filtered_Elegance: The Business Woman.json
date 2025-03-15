@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegance: The Business Woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegance: The Business Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elegance: The Business Woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is confidently walking towards the camera in a stylish beige suit. She is smiling warmly, exuding a professional and approachable demeanor in a modern interior setting.",
+      "description": "The scene captures a professional setting with a woman in business attire, suggesting a corporate or formal environment. The background features modern decor elements, enhancing the sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "jacket",
+          "trousers"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "interior",
+          "modern"
+        ],
+        "concepts": [
+          "professionalism",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegance: The Business Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elegance: The Business Woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is dressed in a stylish beige suit, with their hands gracefully positioned near their waist. The scene captures a sense of elegance and sophistication, emphasizing the tailored fit of the outfit.",
+      "description": "The image focuses on a person wearing a beige suit, highlighting the fashion and style of the attire. The setting appears to be indoors, possibly in a modern or professional environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "suit",
+          "clothing"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "elegance",
+          "sophistication"
+        ],
+        "scenes": [
+          "indoor",
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "professional attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: suit, jacket, trousers, clothing. Actions: walking, smiling, posing. Emotions: confidence, happiness, elegance, sophistication. Scenes: interior, modern, indoor, fashion. Concepts: professionalism, fashion, style, professional attire",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "suit",
+      "jacket",
+      "trousers",
+      "clothing"
+    ],
+    "actions": [
+      "walking",
+      "smiling",
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness",
+      "elegance",
+      "sophistication"
+    ],
+    "scenes": [
+      "interior",
+      "modern",
+      "indoor",
+      "fashion"
+    ],
+    "concepts": [
+      "professionalism",
+      "fashion",
+      "style",
+      "professional attire"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Apex Predators' Reign.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Apex Predators' Reign.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Apex Predators' Reign/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a rain-soaked urban alley, a pack of wolves charges forward with intensity, their fur slick with rain. Above them, crows fly through the stormy sky, while lightning illuminates the scene, casting an eerie glow on the abandoned city bus nearby.",
+      "description": "The scene is set in a dystopian urban environment, characterized by heavy rain and a dramatic lightning storm. A group of wolves is running through a deserted street, accompanied by crows flying overhead, suggesting a sense of chaos and wildness in the city.",
+      "labels": {
+        "animals": [
+          "wolves",
+          "crows"
+        ],
+        "nature": [
+          "rain",
+          "lightning"
+        ],
+        "objects": [
+          "city bus",
+          "buildings"
+        ],
+        "actions": [
+          "running",
+          "flying"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "urban",
+          "storm"
+        ],
+        "concepts": [
+          "dystopia",
+          "wildness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Apex Predators' Reign.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Apex Predators' Reign/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a rain-soaked urban street, a pack of wolves charges forward with fierce determination. Above them, crows fly through the stormy sky, while lightning illuminates the scene, casting dramatic shadows. A yellow bus stands in the background, adding to the chaotic atmosphere.",
+      "description": "The scene depicts a dramatic and intense moment in a city setting, where wild animals have taken over the streets during a storm. The presence of lightning and rain adds to the tension and urgency of the moment.",
+      "labels": {
+        "animals": [
+          "wolves",
+          "crows"
+        ],
+        "nature": [
+          "rain",
+          "lightning"
+        ],
+        "objects": [
+          "bus",
+          "buildings"
+        ],
+        "actions": [
+          "running",
+          "flying"
+        ],
+        "emotions": [
+          "intensity",
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "storm"
+        ],
+        "concepts": [
+          "chaos",
+          "wildlife invasion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolves, crows. Nature: rain, lightning. Objects: buildings, city bus, bus. Actions: running, flying. Emotions: intensity, chaos, urgency. Scenes: urban, storm. Concepts: dystopia, wildness, chaos, wildlife invasion",
+  "primary_labels": {
+    "animals": [
+      "wolves",
+      "crows"
+    ],
+    "nature": [
+      "rain",
+      "lightning"
+    ],
+    "objects": [
+      "buildings",
+      "city bus",
+      "bus"
+    ],
+    "actions": [
+      "running",
+      "flying"
+    ],
+    "emotions": [
+      "intensity",
+      "chaos",
+      "urgency"
+    ],
+    "scenes": [
+      "urban",
+      "storm"
+    ],
+    "concepts": [
+      "dystopia",
+      "wildness",
+      "chaos",
+      "wildlife invasion"
+    ]
+  },
+  "metadata": {}
+}

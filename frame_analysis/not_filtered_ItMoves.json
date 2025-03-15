@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItMoves.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItMoves.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ItMoves/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A confident pirate stands on a sandy beach, holding a sword with a ship in the background. She wears a traditional pirate outfit, complete with a tricorn hat adorned with a skull and crossbones. The sea is calm, and another ship sails in the distance.",
+      "description": "The scene depicts a pirate-themed setting on a beach with a focus on a female pirate. The background features a large sailing ship, suggesting an adventurous maritime context.",
+      "labels": {
+        "people": [
+          "pirate"
+        ],
+        "objects": [
+          "sword",
+          "tricorn hat",
+          "ship"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "beach",
+          "maritime"
+        ],
+        "concepts": [
+          "piracy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ItMoves.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ItMoves/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pirate stands confidently on a sandy beach, holding a sword with a ship sailing in the background. She wears a red pirate hat with a skull emblem and a white blouse, exuding a bold and adventurous aura. The ocean waves gently crash onto the shore, adding to the dynamic scene.",
+      "description": "The scene depicts a pirate-themed setting on a beach with a ship in the distance. The focus is on a female pirate who appears ready for adventure, embodying a sense of freedom and daring.",
+      "labels": {
+        "people": [
+          "pirate"
+        ],
+        "objects": [
+          "sword",
+          "pirate hat",
+          "ship"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confident",
+          "adventurous"
+        ],
+        "scenes": [
+          "beach",
+          "ocean"
+        ],
+        "concepts": [
+          "piracy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pirate. Objects: sword, ship, tricorn hat, pirate hat. Actions: standing, holding. Emotions: confidence, confident, adventurous. Scenes: beach, maritime, ocean. Concepts: piracy, adventure",
+  "primary_labels": {
+    "people": [
+      "pirate"
+    ],
+    "objects": [
+      "sword",
+      "ship",
+      "tricorn hat",
+      "pirate hat"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "confidence",
+      "confident",
+      "adventurous"
+    ],
+    "scenes": [
+      "beach",
+      "maritime",
+      "ocean"
+    ],
+    "concepts": [
+      "piracy",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

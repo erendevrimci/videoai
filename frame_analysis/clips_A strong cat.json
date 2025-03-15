@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A strong cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A strong cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A strong cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, anthropomorphic cat dressed in tactical gear is firing a rifle in an intense indoor setting. The scene is chaotic, with sparks flying and people in the background reacting to the action.",
+      "description": "The scene takes place in a high-stakes, action-packed environment, possibly a bank or office under siege. The central figure is a cat, humorously depicted as a soldier, adding a surreal and comedic element to the intense situation.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "rifle",
+          "tactical gear",
+          "bullets",
+          "sparks"
+        ],
+        "people": [
+          "bystanders"
+        ],
+        "actions": [
+          "firing",
+          "reacting"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "action",
+          "indoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A strong cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A strong cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene unfolds as a large explosion occurs in an industrial setting. Sparks and debris fly through the air, illuminating the dimly lit room. A person in protective gear is visible amidst the chaos.",
+      "description": "The scene takes place in an industrial environment, possibly a factory or a warehouse. The explosion creates a chaotic and intense atmosphere, with debris scattered across the floor.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "explosion",
+          "debris",
+          "protective gear"
+        ],
+        "actions": [
+          "exploding",
+          "flying debris"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "industrial setting",
+          "chaotic scene"
+        ],
+        "concepts": [
+          "danger",
+          "action"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: rifle, tactical gear, bullets, sparks, explosion. People: bystanders, person. Actions: firing, reacting, exploding, flying debris. Emotions: intensity, chaos. Scenes: action, indoor, industrial setting, chaotic scene. Concepts: anthropomorphism, humor, danger, action",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "rifle",
+      "tactical gear",
+      "bullets",
+      "sparks",
+      "explosion"
+    ],
+    "people": [
+      "bystanders",
+      "person"
+    ],
+    "actions": [
+      "firing",
+      "reacting",
+      "exploding",
+      "flying debris"
+    ],
+    "emotions": [
+      "intensity",
+      "chaos"
+    ],
+    "scenes": [
+      "action",
+      "indoor",
+      "industrial setting",
+      "chaotic scene"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "danger",
+      "action"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nova Steamlace.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nova Steamlace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nova Steamlace/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in a steampunk-inspired outfit confidently walks down a dimly lit, wet cobblestone street. The scene is set in a historic cityscape with vintage street lamps casting a warm glow. Her red cape flows behind her, adding a dynamic element to the scene.",
+      "description": "The image depicts a steampunk-themed scene in a historic urban setting. The street is wet, suggesting recent rain, and is illuminated by warm street lamps. The atmosphere is mysterious and slightly dramatic, enhanced by the woman's striking attire and confident stride.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "street lamps",
+          "cobblestones",
+          "red cape",
+          "steampunk outfit"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "night",
+          "historic"
+        ],
+        "concepts": [
+          "steampunk",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nova Steamlace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nova Steamlace/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a steampunk-inspired outfit walks confidently down a dimly lit urban street. Her attire includes a corset, a top hat adorned with goggles, and a long red coat. The street is lined with old-fashioned lamps casting a warm glow.",
+      "description": "The scene depicts a steampunk-themed setting in an urban environment, likely during the evening or night. The woman is the central focus, exuding confidence and style as she walks down the street.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "corset",
+          "top hat",
+          "goggles",
+          "red coat",
+          "street lamps"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban street",
+          "steampunk"
+        ],
+        "concepts": [
+          "steampunk fashion",
+          "evening setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: street lamps, cobblestones, red cape, steampunk outfit, corset. Actions: walking. Emotions: confidence. Scenes: urban, night, historic, urban street, steampunk. Concepts: steampunk, mystery, steampunk fashion, evening setting",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "street lamps",
+      "cobblestones",
+      "red cape",
+      "steampunk outfit",
+      "corset"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "historic",
+      "urban street",
+      "steampunk"
+    ],
+    "concepts": [
+      "steampunk",
+      "mystery",
+      "steampunk fashion",
+      "evening setting"
+    ]
+  },
+  "metadata": {}
+}

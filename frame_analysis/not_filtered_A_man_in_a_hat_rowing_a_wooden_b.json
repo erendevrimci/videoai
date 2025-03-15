@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_man_in_a_hat_rowing_a_wooden_b.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_man_in_a_hat_rowing_a_wooden_b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A_man_in_a_hat_rowing_a_wooden_b/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure sits in a red rowboat floating above a sea of clouds, gazing at a crescent moon in a starry sky. The scene blends elements of surrealism and tranquility, creating a dreamlike atmosphere.",
+      "description": "The image depicts a surreal scene where a person is seated in a red rowboat that appears to be floating above the clouds. The sky is filled with stars and features a prominent crescent moon, adding to the ethereal quality of the setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "rowboat",
+          "oars"
+        ],
+        "nature": [
+          "clouds",
+          "crescent moon",
+          "stars"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "tranquility"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "solitude",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_man_in_a_hat_rowing_a_wooden_b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A_man_in_a_hat_rowing_a_wooden_b/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure sits in a red rowboat floating amidst a sea of clouds, gazing at a crescent moon in a starry sky. The scene blends elements of surrealism and tranquility, creating a dreamlike atmosphere. The boat appears to be navigating through the clouds as if they were water.",
+      "description": "The image depicts a surreal scene where a person in a red rowboat is surrounded by fluffy clouds, with a crescent moon and stars above. The setting combines elements of both sky and sea, creating an ethereal and contemplative mood.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "clouds",
+          "moon",
+          "stars"
+        ],
+        "objects": [
+          "rowboat",
+          "oars"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "tranquility",
+          "contemplation"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "solitude",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: rowboat, oars. Nature: clouds, stars, crescent moon, moon. Actions: sitting, gazing. Emotions: tranquility, contemplation. Scenes: surreal, dreamlike. Concepts: solitude, imagination",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "rowboat",
+      "oars"
+    ],
+    "nature": [
+      "clouds",
+      "stars",
+      "crescent moon",
+      "moon"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "tranquility",
+      "contemplation"
+    ],
+    "scenes": [
+      "surreal",
+      "dreamlike"
+    ],
+    "concepts": [
+      "solitude",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

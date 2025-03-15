@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cozy room.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cozy room.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a cozy room/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cozy room with a warm fireplace and a large window overlooking a rocky coastline. The room features wooden walls, a comfortable armchair, and a vase of flowers, creating a serene and inviting atmosphere.",
+      "description": "The scene depicts a cozy interior setting with a focus on comfort and tranquility. A fireplace provides warmth, while large windows offer a view of the ocean and rocky shore, suggesting a peaceful retreat.",
+      "labels": {
+        "objects": [
+          "fireplace",
+          "armchair",
+          "vase",
+          "flowers",
+          "window",
+          "candles",
+          "bookshelf"
+        ],
+        "nature": [
+          "ocean",
+          "rocks",
+          "coastline"
+        ],
+        "actions": [
+          "fire burning"
+        ],
+        "emotions": [
+          "coziness",
+          "serenity"
+        ],
+        "scenes": [
+          "interior",
+          "living room",
+          "seaside view"
+        ],
+        "concepts": [
+          "comfort",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cozy room.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a cozy room/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cozy room with a warm fireplace and a large window overlooking a rocky coastline. The room is adorned with wooden paneling, a comfortable armchair, and a vase of flowers, creating a serene and inviting atmosphere.",
+      "description": "The scene depicts a tranquil interior setting with a focus on comfort and nature. The room features a lit fireplace, a plush armchair, and a large window offering a view of the ocean and rocky shore, suggesting a peaceful retreat.",
+      "labels": {
+        "objects": [
+          "fireplace",
+          "armchair",
+          "window",
+          "vase",
+          "flowers",
+          "candlesticks",
+          "bookshelf"
+        ],
+        "nature": [
+          "ocean",
+          "rocks",
+          "coastline"
+        ],
+        "actions": [
+          "fire burning"
+        ],
+        "emotions": [
+          "coziness",
+          "serenity"
+        ],
+        "scenes": [
+          "interior",
+          "coastal view"
+        ],
+        "concepts": [
+          "comfort",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: fireplace, armchair, vase, flowers, window. Nature: ocean, rocks, coastline. Actions: fire burning. Emotions: coziness, serenity. Scenes: interior, living room, seaside view, coastal view. Concepts: comfort, tranquility",
+  "primary_labels": {
+    "objects": [
+      "fireplace",
+      "armchair",
+      "vase",
+      "flowers",
+      "window"
+    ],
+    "nature": [
+      "ocean",
+      "rocks",
+      "coastline"
+    ],
+    "actions": [
+      "fire burning"
+    ],
+    "emotions": [
+      "coziness",
+      "serenity"
+    ],
+    "scenes": [
+      "interior",
+      "living room",
+      "seaside view",
+      "coastal view"
+    ],
+    "concepts": [
+      "comfort",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

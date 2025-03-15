@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real Madrid Mbappe Fighter jet.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real Madrid Mbappe Fighter jet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Real Madrid Mbappe Fighter jet/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek jet flies low over the ocean, creating a trail of mist as it skims the water's surface. The sky is clear with a few fluffy clouds, adding to the serene yet dynamic scene.",
+      "description": "The scene captures a jet aircraft flying just above the ocean, with its reflection visible on the water. The setting is a vast open sea under a bright blue sky with scattered clouds.",
+      "labels": {
+        "objects": [
+          "jet",
+          "ocean",
+          "clouds"
+        ],
+        "actions": [
+          "flying",
+          "skimming"
+        ],
+        "emotions": [
+          "exhilaration"
+        ],
+        "scenes": [
+          "aerial",
+          "oceanic"
+        ],
+        "concepts": [
+          "speed",
+          "aviation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real Madrid Mbappe Fighter jet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Real Madrid Mbappe Fighter jet/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek fighter jet soars above the ocean, leaving a trail of mist in its wake. The aircraft is adorned with distinctive markings and flies under a partly cloudy sky.",
+      "description": "The scene captures a fighter jet in flight over the ocean, with clouds scattered across the blue sky. The jet displays unique insignia and markings, suggesting a customized design.",
+      "labels": {
+        "objects": [
+          "fighter jet",
+          "ocean",
+          "clouds"
+        ],
+        "actions": [
+          "flying",
+          "soaring"
+        ],
+        "scenes": [
+          "aerial",
+          "oceanic"
+        ],
+        "concepts": [
+          "aviation",
+          "speed",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: ocean, clouds, jet, fighter jet. Actions: flying, skimming, soaring. Emotions: exhilaration. Scenes: aerial, oceanic. Concepts: speed, aviation, technology",
+  "primary_labels": {
+    "objects": [
+      "ocean",
+      "clouds",
+      "jet",
+      "fighter jet"
+    ],
+    "actions": [
+      "flying",
+      "skimming",
+      "soaring"
+    ],
+    "emotions": [
+      "exhilaration"
+    ],
+    "scenes": [
+      "aerial",
+      "oceanic"
+    ],
+    "concepts": [
+      "speed",
+      "aviation",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

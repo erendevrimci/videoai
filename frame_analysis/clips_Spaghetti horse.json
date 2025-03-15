@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaghetti horse.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaghetti horse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spaghetti horse/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A creative sculpture of a horse is crafted entirely from pasta and various food items, standing on a wooden surface. The horse's mane and tail are made from spaghetti, while its body is adorned with slices of ham and cheese. The scene is set in a kitchen, with scattered ingredients like olives and herbs enhancing the artistic presentation.",
+      "description": "The scene is set in a kitchen environment, showcasing a whimsical and artistic representation of a horse made from food. The sculpture is detailed and lifelike, with careful attention to texture and color, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "horse"
+        ],
+        "objects": [
+          "pasta",
+          "spaghetti",
+          "ham",
+          "cheese",
+          "olives",
+          "wooden surface"
+        ],
+        "actions": [
+          "sculpture",
+          "crafting"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "food art",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaghetti horse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spaghetti horse/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A creative sculpture of a horse is crafted entirely from pasta and other food ingredients. The horse's body is intricately designed with spaghetti, ham, and various garnishes, standing on a wooden surface. The background suggests a kitchen setting with warm lighting.",
+      "description": "The scene depicts a kitchen environment where a detailed horse sculpture made of pasta and food items is displayed. The sculpture showcases culinary creativity and artistry.",
+      "labels": {
+        "objects": [
+          "pasta",
+          "wooden surface",
+          "food ingredients",
+          "bottle"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary art",
+          "food sculpture"
+        ],
+        "emotions": [
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaghetti horse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spaghetti horse/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A creative sculpture of a horse made entirely from food items, including pasta, vegetables, and fruits. The intricate details show spaghetti forming the mane and tail, while slices of vegetables create the body texture.",
+      "description": "The scene depicts a kitchen setting where a food sculpture resembling a horse is prominently displayed on a wooden surface. The sculpture is crafted using various food items, showcasing culinary artistry.",
+      "labels": {
+        "animals": [
+          "horse"
+        ],
+        "objects": [
+          "pasta",
+          "vegetables",
+          "fruits",
+          "wooden surface"
+        ],
+        "actions": [
+          "sculpting"
+        ],
+        "emotions": [
+          "creativity"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary art",
+          "food sculpture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: horse. Objects: pasta, wooden surface, spaghetti, ham, cheese. Actions: sculpture, crafting, sculpting. Emotions: creativity, playful, creative. Scenes: kitchen. Concepts: culinary art, food sculpture, food art, creativity",
+  "primary_labels": {
+    "animals": [
+      "horse"
+    ],
+    "objects": [
+      "pasta",
+      "wooden surface",
+      "spaghetti",
+      "ham",
+      "cheese"
+    ],
+    "actions": [
+      "sculpture",
+      "crafting",
+      "sculpting"
+    ],
+    "emotions": [
+      "creativity",
+      "playful",
+      "creative"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "culinary art",
+      "food sculpture",
+      "food art",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

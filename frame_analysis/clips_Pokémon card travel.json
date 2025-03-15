@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pok\u00e9mon card travel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pok\u00e9mon card travel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pok\u00e9mon card travel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A Wailord Pok\u00e9mon card is placed on a wooden surface. The card features an illustration of Wailord, a large whale-like creature, emerging from the ocean waves.",
+      "description": "The scene depicts a Pok\u00e9mon trading card featuring Wailord, set against a wooden background. The card showcases Wailord in an oceanic setting, emphasizing its aquatic nature.",
+      "labels": {
+        "objects": [
+          "Pok\u00e9mon card",
+          "wooden surface"
+        ],
+        "animals": [
+          "Wailord"
+        ],
+        "nature": [
+          "ocean",
+          "waves"
+        ],
+        "scenes": [
+          "trading card game"
+        ],
+        "concepts": [
+          "collectible",
+          "game"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pok\u00e9mon card travel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pok\u00e9mon card travel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary whale swims gracefully in the deep blue ocean, illuminated by rays of sunlight filtering through the water. The serene scene captures the whale's gentle movement as it glides upward toward the light.",
+      "description": "The image depicts an underwater scene featuring a whale swimming in the ocean. Sunlight penetrates the water, creating a tranquil and ethereal atmosphere.",
+      "labels": {
+        "animals": [
+          "whale"
+        ],
+        "nature": [
+          "ocean",
+          "water"
+        ],
+        "objects": [
+          "sunlight"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: Pok\u00e9mon card, wooden surface, sunlight. Animals: Wailord, whale. Nature: ocean, waves, water. Scenes: trading card game, underwater. Concepts: collectible, game, tranquility, nature. Actions: swimming. Emotions: serenity",
+  "primary_labels": {
+    "objects": [
+      "Pok\u00e9mon card",
+      "wooden surface",
+      "sunlight"
+    ],
+    "animals": [
+      "Wailord",
+      "whale"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "water"
+    ],
+    "scenes": [
+      "trading card game",
+      "underwater"
+    ],
+    "concepts": [
+      "collectible",
+      "game",
+      "tranquility",
+      "nature"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

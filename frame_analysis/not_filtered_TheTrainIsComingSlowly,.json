@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTrainIsComingSlowly,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTrainIsComingSlowly,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTrainIsComingSlowly,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene train scene unfolds under a canopy of vibrant cherry blossoms. A pink train travels along the tracks, surrounded by lush pink trees and a clear blue sky. The ground reflects the blossoms, adding to the enchanting atmosphere.",
+      "description": "The scene depicts a tranquil railway setting during cherry blossom season. A pink train moves along the tracks, flanked by blooming cherry trees, under a bright blue sky with scattered clouds.",
+      "labels": {
+        "nature": [
+          "cherry blossoms",
+          "trees",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "train",
+          "railway tracks",
+          "fence"
+        ],
+        "actions": [
+          "train moving"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "spring",
+          "railway",
+          "nature"
+        ],
+        "concepts": [
+          "travel",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTrainIsComingSlowly,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTrainIsComingSlowly,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene depicts a pink train traveling along a railway surrounded by vibrant cherry blossom trees. The sky is clear with a few clouds, and cherry blossom petals gently fall, adding to the tranquil atmosphere. The wet ground reflects the pink hues of the trees, enhancing the dreamlike quality of the setting.",
+      "description": "The scene is set in a picturesque, tranquil environment where a train moves through a landscape adorned with cherry blossom trees. The setting suggests a peaceful, springtime day with clear skies and falling petals.",
+      "labels": {
+        "nature": [
+          "cherry blossom trees",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "train",
+          "railway",
+          "petals"
+        ],
+        "actions": [
+          "train traveling",
+          "petals falling"
+        ],
+        "emotions": [
+          "serene",
+          "tranquil"
+        ],
+        "scenes": [
+          "springtime",
+          "landscape"
+        ],
+        "concepts": [
+          "peaceful",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTrainIsComingSlowly,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTrainIsComingSlowly,/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A picturesque scene featuring a pink train traveling along a railway lined with vibrant cherry blossom trees. The sky is a clear blue, dotted with a few clouds, and cherry blossom petals gently float through the air. The wet ground reflects the pink hues of the blossoms, adding to the serene atmosphere.",
+      "description": "The scene depicts a tranquil spring day with a train moving through a cherry blossom-lined path. The setting is likely a countryside or park area, emphasizing the beauty of nature and the gentle motion of the train.",
+      "labels": {
+        "nature": [
+          "cherry blossom trees",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "train",
+          "railway",
+          "lamppost"
+        ],
+        "actions": [
+          "train traveling",
+          "petals falling"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "spring",
+          "countryside"
+        ],
+        "concepts": [
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: sky, clouds, cherry blossom trees, cherry blossoms, trees. Objects: train, railway, railway tracks, fence, petals. Actions: train traveling, petals falling, train moving. Emotions: serenity, tranquility, serene, tranquil. Scenes: spring, railway, nature, springtime, landscape. Concepts: beauty, travel, peaceful, dreamlike, nature",
+  "primary_labels": {
+    "nature": [
+      "sky",
+      "clouds",
+      "cherry blossom trees",
+      "cherry blossoms",
+      "trees"
+    ],
+    "objects": [
+      "train",
+      "railway",
+      "railway tracks",
+      "fence",
+      "petals"
+    ],
+    "actions": [
+      "train traveling",
+      "petals falling",
+      "train moving"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility",
+      "serene",
+      "tranquil"
+    ],
+    "scenes": [
+      "spring",
+      "railway",
+      "nature",
+      "springtime",
+      "landscape"
+    ],
+    "concepts": [
+      "beauty",
+      "travel",
+      "peaceful",
+      "dreamlike",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

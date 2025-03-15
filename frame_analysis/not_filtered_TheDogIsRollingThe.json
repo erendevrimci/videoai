@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogIsRollingThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogIsRollingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogIsRollingThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white dog is adorably holding a ball of dough in its paws, standing on a wooden kitchen counter. The background shows wooden cabinets, suggesting a cozy kitchen setting.",
+      "description": "The scene takes place in a kitchen where a small, fluffy white dog is positioned on a wooden counter, holding a ball of dough. The setting is warm and domestic, with wooden cabinets in the background.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "dough",
+          "kitchen counter",
+          "cabinets"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "adorable"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "domestic",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogIsRollingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogIsRollingThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, fluffy white dog is holding a ball of dough with its paws, standing on a wooden kitchen counter dusted with flour. The dog looks directly at the camera with a curious expression, surrounded by a warm, cozy kitchen setting.",
+      "description": "The scene is set in a kitchen where a small dog is playfully interacting with a ball of dough. The environment is warm and inviting, with wooden cabinets and a countertop that suggests a homey atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "dough",
+          "kitchen counter",
+          "flour"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "playfulness",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: dough, kitchen counter, cabinets, flour. Actions: holding. Emotions: adorable, curiosity. Scenes: kitchen. Concepts: domestic, cute, playfulness, cooking",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "dough",
+      "kitchen counter",
+      "cabinets",
+      "flour"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "adorable",
+      "curiosity"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "domestic",
+      "cute",
+      "playfulness",
+      "cooking"
+    ]
+  },
+  "metadata": {}
+}

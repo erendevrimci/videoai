@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Descends to Earth.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Descends to Earth.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alien Descends to Earth/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene unfolds on a tropical beach, where a small, alien-like creature hovers in mid-air between two palm trees. The turquoise ocean and clear blue sky create a serene backdrop, contrasting with the unusual presence of the creature.",
+      "description": "The image depicts a tropical beach setting with a fantastical element. A small, alien-like creature is floating in the air, framed by palm trees and a vibrant ocean view.",
+      "labels": {
+        "nature": [
+          "beach",
+          "palm trees",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "alien-like creature"
+        ],
+        "actions": [
+          "hovering"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "tropical",
+          "fantasy"
+        ],
+        "concepts": [
+          "contrast",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alien Descends to Earth.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alien Descends to Earth/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, animated creature with large eyes is running on a sandy beach surrounded by palm trees. The bright blue sky and the tropical setting create a vibrant and lively atmosphere.",
+      "description": "The scene depicts an animated creature running energetically on a beach. The tropical environment is characterized by palm trees and a clear blue sky, suggesting a warm and sunny day.",
+      "labels": {
+        "animals": [
+          "animated creature"
+        ],
+        "nature": [
+          "beach",
+          "palm trees",
+          "sky"
+        ],
+        "actions": [
+          "running"
+        ],
+        "scenes": [
+          "tropical",
+          "beach"
+        ],
+        "emotions": [
+          "energetic",
+          "lively"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: beach, palm trees, sky, ocean. Objects: alien-like creature. Actions: hovering, running. Emotions: surreal, energetic, lively. Scenes: tropical, fantasy, beach. Concepts: contrast, serenity. Animals: animated creature",
+  "primary_labels": {
+    "nature": [
+      "beach",
+      "palm trees",
+      "sky",
+      "ocean"
+    ],
+    "objects": [
+      "alien-like creature"
+    ],
+    "actions": [
+      "hovering",
+      "running"
+    ],
+    "emotions": [
+      "surreal",
+      "energetic",
+      "lively"
+    ],
+    "scenes": [
+      "tropical",
+      "fantasy",
+      "beach"
+    ],
+    "concepts": [
+      "contrast",
+      "serenity"
+    ],
+    "animals": [
+      "animated creature"
+    ]
+  },
+  "metadata": {}
+}

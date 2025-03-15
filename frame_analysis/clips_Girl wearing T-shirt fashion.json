@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl wearing T-shirt fashion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl wearing T-shirt fashion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl wearing T-shirt fashion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in front of a large, ornate doorway. She is wearing a black t-shirt with text and a light blue denim skirt, exuding a casual yet stylish vibe.",
+      "description": "The scene is set in front of a grand entrance with golden doors, suggesting an urban or formal setting. The woman appears poised and self-assured, with a slight smile.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "denim skirt",
+          "necklace",
+          "door"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "entrance"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl wearing T-shirt fashion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl wearing T-shirt fashion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in front of a glass door, wearing a black t-shirt and blue jeans. She has one hand raised to her head, with a slight smile on her face.",
+      "description": "The scene captures a woman posing casually in an urban setting, possibly outside a building. The background features glass doors, suggesting a modern environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "jeans",
+          "necklace",
+          "glass door"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl wearing T-shirt fashion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl wearing T-shirt fashion/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in front of a building entrance, wearing a black t-shirt and a denim skirt. She is smiling softly and adjusting her hair with one hand.",
+      "description": "The scene captures a woman standing outside a building, possibly an urban setting, with a focus on her casual yet stylish attire. The background suggests a city environment with architectural elements visible.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "t-shirt",
+          "denim skirt",
+          "necklace"
+        ],
+        "actions": [
+          "standing",
+          "smiling",
+          "adjusting hair"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: t-shirt, necklace, denim skirt, door, jeans. Actions: standing, smiling, posing, adjusting hair. Emotions: confidence, happiness. Scenes: urban, outdoor, entrance. Concepts: fashion, style, casual",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "t-shirt",
+      "necklace",
+      "denim skirt",
+      "door",
+      "jeans"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "posing",
+      "adjusting hair"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor",
+      "entrance"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

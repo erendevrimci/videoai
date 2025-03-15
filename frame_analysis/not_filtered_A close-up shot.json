@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A close-up shot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A close-up shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A close-up shot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a woman with long, dark hair and striking makeup. Her dark lipstick and eyeliner accentuate her features, while her hand gently rests near her face.",
+      "description": "The scene is a studio portrait capturing a woman with a focus on her facial features and makeup. The setting is likely a controlled environment with professional lighting, highlighting her makeup and hair.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A close-up shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A close-up shot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with dark, flowing hair and striking makeup poses against a neutral background. Her dark lipstick and nails add a dramatic contrast to her soft skin tone, creating a bold and captivating look.",
+      "description": "The scene is a close-up portrait of a woman in a studio setting, focusing on her facial features and makeup. The atmosphere is elegant and sophisticated, with a focus on beauty and style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "lipstick",
+          "nail polish"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: makeup, lipstick, nail polish. Actions: posing. Emotions: confident, confidence. Scenes: portrait, studio. Concepts: beauty, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "makeup",
+      "lipstick",
+      "nail polish"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "beauty",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

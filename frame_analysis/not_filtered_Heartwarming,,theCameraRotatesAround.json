@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming,,theCameraRotatesAround.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming,,theCameraRotatesAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Heartwarming,,theCameraRotatesAround/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple is enjoying a tender moment in a swimming pool, with the sun shining brightly. They are close to each other, sharing a smile and a sense of intimacy.",
+      "description": "The scene is set in a backyard with a swimming pool, surrounded by greenery and outdoor furniture. The atmosphere is relaxed and romantic, with warm sunlight enhancing the mood.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "trees",
+          "bushes"
+        ],
+        "objects": [
+          "swimming pool",
+          "outdoor furniture"
+        ],
+        "actions": [
+          "smiling",
+          "embracing"
+        ],
+        "emotions": [
+          "intimacy",
+          "happiness"
+        ],
+        "scenes": [
+          "backyard",
+          "poolside"
+        ],
+        "concepts": [
+          "romance",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming,,theCameraRotatesAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Heartwarming,,theCameraRotatesAround/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is sharing a tender kiss while relaxing in a swimming pool. The sun casts a warm glow over the scene, highlighting their intimate moment. In the background, poolside chairs are visible, suggesting a leisurely setting.",
+      "description": "The scene takes place at a swimming pool, where a couple is enjoying a romantic moment. The setting is relaxed and intimate, with the sun providing natural lighting that enhances the warm atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "swimming pool",
+          "poolside chairs"
+        ],
+        "actions": [
+          "kissing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "outdoor",
+          "leisure"
+        ],
+        "concepts": [
+          "affection",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming,,theCameraRotatesAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Heartwarming,,theCameraRotatesAround/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A couple is embracing and kissing in a swimming pool under the bright sunlight. The scene captures an intimate moment with water gently rippling around them.",
+      "description": "The image depicts a romantic scene set in a swimming pool, where a couple is sharing a kiss. The setting appears to be outdoors, possibly in a private or resort-like environment, with clear blue water and sunlight enhancing the mood.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "swimming pool"
+        ],
+        "actions": [
+          "kissing",
+          "embracing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "outdoor",
+          "poolside"
+        ],
+        "concepts": [
+          "love",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Nature: trees, bushes, water. Objects: swimming pool, outdoor furniture, poolside chairs. Actions: embracing, kissing, smiling. Emotions: romantic, intimate, intimacy, happiness. Scenes: poolside, outdoor, backyard, leisure. Concepts: affection, romance, leisure, relaxation, love",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "nature": [
+      "trees",
+      "bushes",
+      "water"
+    ],
+    "objects": [
+      "swimming pool",
+      "outdoor furniture",
+      "poolside chairs"
+    ],
+    "actions": [
+      "embracing",
+      "kissing",
+      "smiling"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate",
+      "intimacy",
+      "happiness"
+    ],
+    "scenes": [
+      "poolside",
+      "outdoor",
+      "backyard",
+      "leisure"
+    ],
+    "concepts": [
+      "affection",
+      "romance",
+      "leisure",
+      "relaxation",
+      "love"
+    ]
+  },
+  "metadata": {}
+}

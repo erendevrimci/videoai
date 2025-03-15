@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat eating pizza.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat eating pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat eating pizza/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is eagerly biting into a slice of pizza, with cheese stretching from the slice. The scene captures the cat's wide-eyed enthusiasm as it enjoys the cheesy treat.",
+      "description": "The scene depicts a playful and humorous moment where a cat is indulging in a slice of pizza. The setting appears to be indoors, possibly in a kitchen or dining area, with pizza boxes and slices scattered around.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pizza",
+          "pizza box"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "enthusiasm",
+          "hunger"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "indulgence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat eating pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat eating pizza/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is holding a slice of pizza with a curious expression. The cheese is melting and dripping from the pizza, and the cat's tongue is out, seemingly eager to taste it. Other slices of pizza are scattered around, adding to the playful scene.",
+      "description": "The scene depicts a humorous and whimsical moment with a cat interacting with pizza in a cozy indoor setting. The cat's wide eyes and tongue out suggest a playful curiosity and desire for the cheesy treat.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pizza",
+          "cheese"
+        ],
+        "actions": [
+          "holding",
+          "licking"
+        ],
+        "emotions": [
+          "curiosity",
+          "eagerness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: pizza, pizza box, cheese. Actions: eating, holding, licking. Emotions: enthusiasm, hunger, curiosity, eagerness. Scenes: indoor. Concepts: humor, indulgence, playfulness",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "pizza",
+      "pizza box",
+      "cheese"
+    ],
+    "actions": [
+      "eating",
+      "holding",
+      "licking"
+    ],
+    "emotions": [
+      "enthusiasm",
+      "hunger",
+      "curiosity",
+      "eagerness"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "humor",
+      "indulgence",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

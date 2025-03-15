@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc740\ube5b\uc5ec\uc6b0.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc740\ube5b\uc5ec\uc6b0.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc740\ube5b\uc5ec\uc6b0/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts a wolf sitting in a moonlit forest clearing, surrounded by glowing flowers and fireflies. The full moon illuminates the night sky, casting a gentle glow over the tranquil landscape. The wolf gazes upwards, seemingly captivated by the celestial view.",
+      "description": "The scene is set in a mystical forest at night, where a wolf is seated in a clearing filled with luminescent flowers and fireflies. The atmosphere is peaceful and enchanting, with the bright full moon dominating the sky.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "moon",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "fireflies"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "night",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc740\ube5b\uc5ec\uc6b0.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc740\ube5b\uc5ec\uc6b0/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, flowing hair stands in an enchanting forest, gazing at a luminous full moon. The scene is illuminated by the moonlight, casting a magical glow over the vibrant flowers surrounding her. Fireflies dance around, enhancing the ethereal atmosphere.",
+      "description": "The scene depicts a mystical forest setting at night, where a woman stands amidst blooming flowers under a bright full moon. The environment is serene and magical, with fireflies adding to the dreamlike ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "moon",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "night",
+          "magical"
+        ],
+        "concepts": [
+          "enchantment",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc740\ube5b\uc5ec\uc6b0.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc740\ube5b\uc5ec\uc6b0/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long, flowing hair stands in a moonlit forest, gazing back over her shoulder. Her elegant dress shimmers under the soft glow of the full moon, surrounded by tall trees and a serene night sky.",
+      "description": "The scene depicts a tranquil night setting in a forest, where a woman is illuminated by the moonlight. The atmosphere is calm and enchanting, with a sense of mystery and beauty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "moon",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "serene",
+          "mysterious"
+        ],
+        "scenes": [
+          "night",
+          "moonlit"
+        ],
+        "concepts": [
+          "elegance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. Nature: forest, moon, trees, flowers. Objects: dress, fireflies. Actions: gazing. Emotions: serenity, wonder, serene, mysterious. Scenes: night, nature, magical, moonlit. Concepts: tranquility, enchantment, elegance. People: woman",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "forest",
+      "moon",
+      "trees",
+      "flowers"
+    ],
+    "objects": [
+      "dress",
+      "fireflies"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "serene",
+      "mysterious"
+    ],
+    "scenes": [
+      "night",
+      "nature",
+      "magical",
+      "moonlit"
+    ],
+    "concepts": [
+      "tranquility",
+      "enchantment",
+      "elegance"
+    ],
+    "people": [
+      "woman"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/next ai influencer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/next ai influencer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/next ai influencer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking blue eyes and dark hair gazes directly at the camera. She is wearing a deep blue top, and the background is softly blurred, suggesting an indoor setting.",
+      "description": "The scene captures a close-up portrait of a woman indoors, focusing on her facial features and expression. The setting appears to be a room with natural lighting coming from a window.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/next ai influencer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/next ai influencer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with dark hair and bright blue eyes smiles warmly at the camera. She is wearing a dark blue top and is positioned in a softly lit indoor setting.",
+      "description": "The scene captures a close-up portrait of a smiling woman indoors, suggesting a relaxed and welcoming atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "smile"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/next ai influencer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/next ai influencer/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with dark hair and bright blue eyes smiles warmly at the camera. She is wearing a dark blue top, and the background features soft, natural lighting with a hint of greenery.",
+      "description": "The scene captures a close-up portrait of a woman indoors, likely in a well-lit room with natural elements. The focus is on her expressive smile and engaging eyes.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "plant"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: clothing. Emotions: happiness, calm, confident. Scenes: indoor, portrait. Concepts: beauty, portrait, focus, smile. Nature: plant. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "emotions": [
+      "happiness",
+      "calm",
+      "confident"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "portrait",
+      "focus",
+      "smile"
+    ],
+    "nature": [
+      "plant"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

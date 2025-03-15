@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleTigerLooksAround.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleTigerLooksAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleTigerLooksAround/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small tiger cub with striking blue eyes rests gently on a person's hand. The cub's soft fur is marked with distinct black stripes, and it appears calm and curious.",
+      "description": "The scene captures a tender moment between a human and a tiger cub, likely in a controlled environment such as a sanctuary or zoo. The focus is on the cub's delicate features and the gentle interaction.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "calm",
+          "curious"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "wildlife",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleTigerLooksAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleTigerLooksAround/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small tiger cub is gently cradled in a person's hand, showcasing its delicate features and soft fur. The cub looks curiously to the side, highlighting its youthful innocence.",
+      "description": "The scene captures a tender moment between a human and a tiger cub, set against a blurred natural background. The focus is on the cub's expressive face and the gentle support of the hand.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "cradling"
+        ],
+        "emotions": [
+          "curiosity",
+          "innocence"
+        ],
+        "scenes": [
+          "close-up",
+          "nature"
+        ],
+        "concepts": [
+          "gentleness",
+          "youth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleTigerLooksAround.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleTigerLooksAround/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small tiger cub with striking blue eyes is gently held in a person's hand. The cub's soft fur features distinct black stripes against a light orange background, creating a captivating contrast.",
+      "description": "The scene captures a tender moment between a human and a tiger cub, highlighting the cub's innocence and the person's gentle care. The setting appears to be indoors, with a neutral background that emphasizes the cub's vibrant colors.",
+      "labels": {
+        "animals": [
+          "tiger cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "gentle",
+          "curious"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "care",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: tiger cub. Objects: hand. Actions: resting, cradling, holding. Emotions: curious, calm, curiosity, innocence, gentle. Scenes: close-up, nature, indoor. Concepts: care, wildlife, gentleness, youth, innocence",
+  "primary_labels": {
+    "animals": [
+      "tiger cub"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "resting",
+      "cradling",
+      "holding"
+    ],
+    "emotions": [
+      "curious",
+      "calm",
+      "curiosity",
+      "innocence",
+      "gentle"
+    ],
+    "scenes": [
+      "close-up",
+      "nature",
+      "indoor"
+    ],
+    "concepts": [
+      "care",
+      "wildlife",
+      "gentleness",
+      "youth",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

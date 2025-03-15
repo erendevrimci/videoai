@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model in a fashion gold dress.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model in a fashion gold dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model in a fashion gold dress/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a shimmering gold gown stands against a dark background, her long hair flowing gracefully. The dress is adorned with reflective sequins, capturing the light and creating a dazzling effect.",
+      "description": "The scene depicts a glamorous setting with a focus on fashion and elegance. The woman is poised and confident, embodying a sense of sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "sequins"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "glamour",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model in a fashion gold dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model in a fashion gold dress/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a shimmering gold gown poses against a black background, her hair flowing elegantly. The dress features a fitted bodice and a flared, floor-length skirt, adding to the glamorous atmosphere.",
+      "description": "The scene captures a fashion-forward moment with a focus on elegance and style. The woman stands confidently, showcasing the luxurious texture and design of her gown.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "high heels"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "elegance",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, sequins, high heels. Actions: standing, posing. Emotions: confidence. Scenes: fashion. Concepts: glamour, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "sequins",
+      "high heels"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "fashion"
+    ],
+    "concepts": [
+      "glamour",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

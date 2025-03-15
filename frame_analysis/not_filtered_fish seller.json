@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish seller.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish seller.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fish seller/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man stands in a bustling street, carrying a transparent backpack filled with goldfish. The scene is set in an urban environment with blurred figures and glowing streetlights in the background. The contrast between the vibrant orange fish and the cool tones of the street creates a striking visual effect.",
+      "description": "The scene takes place in a busy urban street, possibly during the evening or night. The focus is on a young man with a unique backpack, filled with swimming goldfish, amidst a crowd of people.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "animals": [
+          "goldfish"
+        ],
+        "nature": [],
+        "objects": [
+          "transparent backpack"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "contrast",
+          "uniqueness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish seller.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fish seller/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person walks through a bustling street wearing a transparent backpack filled with vibrant orange goldfish. The scene is set in an urban environment with blurred figures and shop lights in the background, creating a surreal juxtaposition of nature and city life.",
+      "description": "The image captures a unique moment in a busy city street where a person carries a clear backpack containing several goldfish. The setting is urban, possibly a market or shopping area, with people moving in the background and warm lights illuminating the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "goldfish"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "backpack",
+          "clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/fish seller.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/fish seller/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person walks down a bustling street carrying a transparent bag filled with vibrant goldfish. The scene is set in a busy urban area, with blurred figures and shopfronts in the background, creating a sense of movement and liveliness.",
+      "description": "The image captures a street scene in an urban setting, where a person is seen from behind carrying a large, clear bag filled with goldfish. The street is wet, suggesting recent rain, and is lined with shops and pedestrians, contributing to a dynamic and lively atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "goldfish"
+        ],
+        "nature": [],
+        "objects": [
+          "bag",
+          "fish"
+        ],
+        "actions": [
+          "walking",
+          "carrying"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "urban street",
+          "market"
+        ],
+        "concepts": [
+          "movement",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, young man. Animals: goldfish. Nature: water. Objects: transparent backpack, backpack, clothing, bag, fish. Actions: walking, standing, carrying. Emotions: calm, surreal, curiosity. Scenes: urban street, urban, street, market. Concepts: contrast, uniqueness, juxtaposition, movement, urban life",
+  "primary_labels": {
+    "people": [
+      "person",
+      "young man"
+    ],
+    "animals": [
+      "goldfish"
+    ],
+    "nature": [
+      "water"
+    ],
+    "objects": [
+      "transparent backpack",
+      "backpack",
+      "clothing",
+      "bag",
+      "fish"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "carrying"
+    ],
+    "emotions": [
+      "calm",
+      "surreal",
+      "curiosity"
+    ],
+    "scenes": [
+      "urban street",
+      "urban",
+      "street",
+      "market"
+    ],
+    "concepts": [
+      "contrast",
+      "uniqueness",
+      "juxtaposition",
+      "movement",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

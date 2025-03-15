@@ -1,0 +1,156 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pikachu playing guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pikachu playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pikachu playing guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, yellow creature with large ears and a lightning bolt-shaped tail is sitting on a sandy beach, playing a small guitar. The sun is setting in the background, casting a warm glow over the ocean and palm trees.",
+      "description": "The scene is set on a tranquil beach during sunset, featuring a playful creature enjoying music by the shore. The environment is serene, with gentle waves and a picturesque sky.",
+      "labels": {
+        "animals": [
+          "fictional creature"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees",
+          "sunset"
+        ],
+        "objects": [
+          "guitar"
+        ],
+        "actions": [
+          "playing music"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset"
+        ],
+        "concepts": [
+          "relaxation",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pikachu playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pikachu playing guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful Pikachu is playing a small guitar on a sandy beach during a beautiful sunset. The scene is set against a backdrop of palm trees and gentle ocean waves, creating a serene and joyful atmosphere.",
+      "description": "The scene depicts a lively and animated Pikachu enjoying a musical moment on a picturesque beach. The setting sun casts a warm glow over the sand and sea, enhancing the tranquil yet playful mood.",
+      "labels": {
+        "animals": [
+          "Pikachu"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees",
+          "sunset"
+        ],
+        "objects": [
+          "guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "cheerful",
+          "joyful"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset"
+        ],
+        "concepts": [
+          "music",
+          "relaxation",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pikachu playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pikachu playing guitar/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cute, yellow creature with large ears is playing a small guitar on a sandy beach during sunset. The ocean waves gently roll in the background, creating a serene and peaceful atmosphere.",
+      "description": "The scene is set on a tranquil beach at sunset, where a charming creature is strumming a guitar. The warm glow of the setting sun casts a golden hue over the sand and sea, enhancing the relaxed and joyful mood.",
+      "labels": {
+        "animals": [
+          "yellow creature"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset"
+        ],
+        "objects": [
+          "guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "serene",
+          "joyful"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset"
+        ],
+        "concepts": [
+          "relaxation",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fictional creature, Pikachu, yellow creature. Nature: beach, ocean, sunset, palm trees. Objects: guitar. Actions: playing guitar, playing music. Emotions: joyful, playful, cheerful, serene. Scenes: beach scene, sunset. Concepts: relaxation, music, animation",
+  "primary_labels": {
+    "animals": [
+      "fictional creature",
+      "Pikachu",
+      "yellow creature"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sunset",
+      "palm trees"
+    ],
+    "objects": [
+      "guitar"
+    ],
+    "actions": [
+      "playing guitar",
+      "playing music"
+    ],
+    "emotions": [
+      "joyful",
+      "playful",
+      "cheerful",
+      "serene"
+    ],
+    "scenes": [
+      "beach scene",
+      "sunset"
+    ],
+    "concepts": [
+      "relaxation",
+      "music",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

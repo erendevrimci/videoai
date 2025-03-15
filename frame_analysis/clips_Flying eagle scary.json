@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flying eagle scary.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flying eagle scary.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flying eagle scary/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic phoenix soars through a fiery sky, its wings ablaze with vibrant flames. The creature's powerful form is silhouetted against a dramatic backdrop of swirling clouds and intense light.",
+      "description": "The scene depicts a mythical phoenix flying through a sky filled with fiery clouds, embodying themes of rebirth and transformation. The setting is otherworldly, with a focus on the dynamic interplay between light and shadow.",
+      "labels": {
+        "animals": [
+          "phoenix"
+        ],
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "flames"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "majestic",
+          "powerful"
+        ],
+        "scenes": [
+          "mythical",
+          "dramatic"
+        ],
+        "concepts": [
+          "rebirth",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flying eagle scary.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flying eagle scary/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic bird with fiery wings soars through a dramatic sky filled with swirling clouds. The sunlight casts a warm glow, highlighting the bird's powerful form as it glides effortlessly.",
+      "description": "The scene depicts a large bird, possibly a mythical creature, flying through a sky ablaze with the colors of sunset. The clouds are illuminated by the sun, creating a dynamic and intense atmosphere.",
+      "labels": {
+        "animals": [
+          "bird",
+          "mythical creature"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "sunlight"
+        ],
+        "objects": [
+          "wings"
+        ],
+        "actions": [
+          "flying",
+          "soaring"
+        ],
+        "emotions": [
+          "majestic",
+          "powerful"
+        ],
+        "scenes": [
+          "sunset",
+          "dramatic sky"
+        ],
+        "concepts": [
+          "freedom",
+          "mythology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Flying eagle scary.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Flying eagle scary/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic bird, engulfed in flames, soars through a stormy sky. Lightning crackles around it, illuminating the dark clouds with fiery streaks. The scene captures a powerful and mythical atmosphere.",
+      "description": "The scene depicts a fiery bird flying through a dramatic, stormy sky. The bird is surrounded by flames and lightning, creating an intense and mythical setting.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "storm",
+          "clouds",
+          "lightning"
+        ],
+        "objects": [
+          "flames"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "powerful",
+          "mythical"
+        ],
+        "scenes": [
+          "stormy sky"
+        ],
+        "concepts": [
+          "mythology",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bird, phoenix, mythical creature. Nature: clouds, sky, sunlight, storm, lightning. Objects: flames, wings. Actions: flying, soaring. Emotions: powerful, majestic, mythical. Scenes: mythical, dramatic, sunset, dramatic sky, stormy sky. Concepts: mythology, rebirth, transformation, freedom, power",
+  "primary_labels": {
+    "animals": [
+      "bird",
+      "phoenix",
+      "mythical creature"
+    ],
+    "nature": [
+      "clouds",
+      "sky",
+      "sunlight",
+      "storm",
+      "lightning"
+    ],
+    "objects": [
+      "flames",
+      "wings"
+    ],
+    "actions": [
+      "flying",
+      "soaring"
+    ],
+    "emotions": [
+      "powerful",
+      "majestic",
+      "mythical"
+    ],
+    "scenes": [
+      "mythical",
+      "dramatic",
+      "sunset",
+      "dramatic sky",
+      "stormy sky"
+    ],
+    "concepts": [
+      "mythology",
+      "rebirth",
+      "transformation",
+      "freedom",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fast & Furious car style.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fast & Furious car style.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fast & Furious car style/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek sports car emits vibrant green smoke as it speeds through an urban tunnel adorned with colorful graffiti. The scene is illuminated by warm, artificial lighting, creating a dramatic and edgy atmosphere. The car's glossy surface reflects the surrounding lights and graffiti, enhancing the dynamic feel of the image.",
+      "description": "The scene is set in an urban environment, likely a tunnel or underpass, characterized by graffiti-covered walls and industrial lighting. The focus is on a high-performance sports car in motion, leaving a trail of green smoke.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "graffiti",
+          "green smoke",
+          "license plate"
+        ],
+        "actions": [
+          "driving",
+          "smoke emission"
+        ],
+        "emotions": [
+          "excitement",
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "tunnel",
+          "night"
+        ],
+        "concepts": [
+          "speed",
+          "urban art",
+          "automotive"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fast & Furious car style.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fast & Furious car style/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek sports car is partially obscured by vibrant green smoke in an urban setting. The scene is illuminated by neon lights and colorful graffiti, creating a dynamic and edgy atmosphere.",
+      "description": "The image depicts a modern urban environment with a focus on a sports car surrounded by green smoke. Neon lights and graffiti add to the vibrant and gritty cityscape.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "neon lights",
+          "graffiti"
+        ],
+        "actions": [
+          "smoke billowing"
+        ],
+        "emotions": [
+          "edgy",
+          "dynamic"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "modern",
+          "street culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, graffiti, green smoke, license plate, neon lights. Actions: driving, smoke emission, smoke billowing. Emotions: excitement, intensity, edgy, dynamic. Scenes: urban, tunnel, night, nighttime. Concepts: speed, urban art, automotive, modern, street culture",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "graffiti",
+      "green smoke",
+      "license plate",
+      "neon lights"
+    ],
+    "actions": [
+      "driving",
+      "smoke emission",
+      "smoke billowing"
+    ],
+    "emotions": [
+      "excitement",
+      "intensity",
+      "edgy",
+      "dynamic"
+    ],
+    "scenes": [
+      "urban",
+      "tunnel",
+      "night",
+      "nighttime"
+    ],
+    "concepts": [
+      "speed",
+      "urban art",
+      "automotive",
+      "modern",
+      "street culture"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAHumanoid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAHumanoid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAHumanoid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid figure with a leopard's head is crouched in a dry, open landscape. The figure is adorned with vibrant orange and blue garments, and numerous bracelets encircle its arms. The scene is set against a clear blue sky, highlighting the striking contrast of colors.",
+      "description": "The image depicts a fantastical scene where a creature with the body of a human and the head of a leopard is positioned in a crouching stance. The setting appears to be a dry, possibly savanna-like environment, under a bright blue sky.",
+      "labels": {
+        "animals": [
+          "leopard"
+        ],
+        "objects": [
+          "garments",
+          "bracelets"
+        ],
+        "nature": [
+          "dry grass",
+          "clear sky"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAHumanoid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAHumanoid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid leopard figure stands confidently in a desert landscape, draped in vibrant orange and blue garments. The figure's piercing eyes and detailed fur pattern create a striking contrast against the clear blue sky. The scene conveys a sense of mystique and strength, enhanced by the arid surroundings.",
+      "description": "The scene is set in a desert environment, featuring a humanoid leopard character. The character is adorned in colorful clothing, standing amidst sandy terrain and sparse vegetation.",
+      "labels": {
+        "animals": [
+          "leopard"
+        ],
+        "nature": [
+          "desert",
+          "sand",
+          "sky"
+        ],
+        "objects": [
+          "clothing",
+          "garments"
+        ],
+        "emotions": [
+          "confidence",
+          "mystique"
+        ],
+        "scenes": [
+          "fantasy",
+          "wilderness"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: leopard. Objects: garments, bracelets, clothing. Nature: dry grass, clear sky, desert, sand, sky. Emotions: mysterious, confidence, mystique. Scenes: fantasy, wilderness. Concepts: anthropomorphism, strength",
+  "primary_labels": {
+    "animals": [
+      "leopard"
+    ],
+    "objects": [
+      "garments",
+      "bracelets",
+      "clothing"
+    ],
+    "nature": [
+      "dry grass",
+      "clear sky",
+      "desert",
+      "sand",
+      "sky"
+    ],
+    "emotions": [
+      "mysterious",
+      "confidence",
+      "mystique"
+    ],
+    "scenes": [
+      "fantasy",
+      "wilderness"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

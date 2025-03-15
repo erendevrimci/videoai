@@ -1,0 +1,142 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl walks 4.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl walks 4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl walks 4/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in the middle of a bustling city street at night, surrounded by vibrant neon lights and towering buildings. The scene captures the lively atmosphere of an urban nightlife setting, with people crossing the street and illuminated signs in the background.",
+      "description": "The scene is set in a busy city street at night, likely in a major urban area known for its nightlife and vibrant atmosphere. The woman in the foreground is the focal point, standing amidst a backdrop of brightly lit buildings and neon signs.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "neon signs",
+          "buildings",
+          "crosswalk"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "nightlife",
+          "city street"
+        ],
+        "concepts": [
+          "nightlife",
+          "urban environment",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl walks 4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl walks 4/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in the foreground of a bustling city street at night, surrounded by vibrant neon lights and towering buildings. The scene is lively with people crossing the street and the bright signage of various establishments illuminating the area.",
+      "description": "The image captures a vibrant urban scene at night, likely in a busy district known for its nightlife and entertainment. The setting is characterized by tall buildings adorned with colorful neon signs and a crowded pedestrian crossing.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "neon signs",
+          "buildings",
+          "crosswalk"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "nightlife"
+        ],
+        "concepts": [
+          "city life",
+          "night scene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The girl walks 4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The girl walks 4/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in the foreground of a bustling city street at night, surrounded by vibrant neon lights and towering buildings. The scene captures the lively atmosphere of an urban nightlife setting.",
+      "description": "The image depicts a nighttime urban scene, likely in a busy district known for its nightlife and vibrant atmosphere. The woman is positioned in the foreground, with a backdrop of illuminated buildings and neon signs, suggesting a popular city area.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "neon signs",
+          "buildings",
+          "crosswalk"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "nightlife"
+        ],
+        "concepts": [
+          "city life",
+          "nighttime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd. Objects: neon signs, buildings, crosswalk. Actions: standing, walking. Emotions: confidence, confident. Scenes: urban, nightlife, city street. Concepts: city life, nightlife, urban environment, vibrancy, night scene",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd"
+    ],
+    "objects": [
+      "neon signs",
+      "buildings",
+      "crosswalk"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "nightlife",
+      "city street"
+    ],
+    "concepts": [
+      "city life",
+      "nightlife",
+      "urban environment",
+      "vibrancy",
+      "night scene"
+    ]
+  },
+  "metadata": {}
+}

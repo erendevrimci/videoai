@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The content of the human head: t.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The content of the human head: t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The content of the human head: t/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a transparent human skull filled with various objects, including photographs, a camera, and other memorabilia. The skull is set against a blurred background with soft lighting, creating a futuristic and introspective atmosphere.",
+      "description": "This scene presents a conceptual visualization of memories and thoughts stored within the human mind. The transparent skull allows a view of the diverse items inside, symbolizing the complexity and richness of human experiences.",
+      "labels": {
+        "objects": [
+          "skull",
+          "camera",
+          "photographs",
+          "memorabilia"
+        ],
+        "scenes": [
+          "conceptual",
+          "futuristic"
+        ],
+        "concepts": [
+          "memory",
+          "thoughts",
+          "introspection"
+        ],
+        "emotions": [
+          "introspective",
+          "contemplative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The content of the human head: t.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The content of the human head: t/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A transparent human skull reveals a glowing brain with a luminous heart symbol and a scene of people walking inside. The background is a mystical, blurred forest with floating lights, creating a surreal atmosphere.",
+      "description": "The image depicts a transparent skull with a visible brain, inside which a glowing heart symbol and a scene of people walking are present. The setting is ethereal, with a blurred, dreamlike forest in the background and floating lights that add to the mystical ambiance.",
+      "labels": {
+        "people": [
+          "silhouettes"
+        ],
+        "objects": [
+          "transparent skull",
+          "brain",
+          "heart symbol"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mystical",
+          "surreal"
+        ],
+        "scenes": [
+          "dreamlike",
+          "ethereal"
+        ],
+        "concepts": [
+          "inner thoughts",
+          "imagination",
+          "consciousness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skull, camera, photographs, memorabilia, transparent skull. Scenes: conceptual, futuristic, dreamlike, ethereal. Concepts: memory, thoughts, introspection, inner thoughts, imagination. Emotions: introspective, contemplative, mystical, surreal. People: silhouettes. Actions: walking",
+  "primary_labels": {
+    "objects": [
+      "skull",
+      "camera",
+      "photographs",
+      "memorabilia",
+      "transparent skull"
+    ],
+    "scenes": [
+      "conceptual",
+      "futuristic",
+      "dreamlike",
+      "ethereal"
+    ],
+    "concepts": [
+      "memory",
+      "thoughts",
+      "introspection",
+      "inner thoughts",
+      "imagination"
+    ],
+    "emotions": [
+      "introspective",
+      "contemplative",
+      "mystical",
+      "surreal"
+    ],
+    "people": [
+      "silhouettes"
+    ],
+    "actions": [
+      "walking"
+    ]
+  },
+  "metadata": {}
+}

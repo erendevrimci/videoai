@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Teacher walks slowly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Teacher walks slowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Teacher walks slowly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in a sunlit room, wearing a cream blouse and light blue jeans. She poses with one hand on her hip and the other near her face, exuding a relaxed yet poised demeanor.",
+      "description": "The scene is set in a bright, airy room with natural light streaming through sheer curtains. The woman is the focal point, standing near a bedside table with books and a lamp, suggesting a cozy, personal space.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "jeans",
+          "high heels",
+          "bedside table",
+          "books",
+          "lamp"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "relaxation"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom"
+        ],
+        "concepts": [
+          "fashion",
+          "personal style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Teacher walks slowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Teacher walks slowly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a softly lit room, wearing a light-colored blouse and fitted jeans. She poses with one hand on her hip and the other gently touching her hair, exuding a calm and poised demeanor.",
+      "description": "The scene is set in a bright, cozy room with natural light streaming through sheer curtains. The woman is the focal point, standing near a window, with a bedside table and a stack of books visible in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "jeans",
+          "high heels",
+          "bedside table",
+          "lamp",
+          "books"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom"
+        ],
+        "concepts": [
+          "fashion",
+          "poise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, jeans, high heels, bedside table, books. Actions: standing, posing. Emotions: confidence, relaxation, calm, confident. Scenes: indoor, bedroom. Concepts: fashion, personal style, poise",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "jeans",
+      "high heels",
+      "bedside table",
+      "books"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "relaxation",
+      "calm",
+      "confident"
+    ],
+    "scenes": [
+      "indoor",
+      "bedroom"
+    ],
+    "concepts": [
+      "fashion",
+      "personal style",
+      "poise"
+    ]
+  },
+  "metadata": {}
+}

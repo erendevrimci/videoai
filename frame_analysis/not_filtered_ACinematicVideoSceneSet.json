@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicVideoSceneSet.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicVideoSceneSet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicVideoSceneSet/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two anthropomorphic cats are engaged in a tender moment inside a cozy shop. The scene is warmly lit by hanging lamps, creating an intimate atmosphere as they hold hands across a wooden counter.",
+      "description": "The setting is a quaint shop with a warm, inviting ambiance. The focus is on two animated cat characters sharing a heartfelt interaction, surrounded by shelves of jars and bottles.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "lamps",
+          "jars",
+          "bottles",
+          "counter"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "shop",
+          "intimate setting"
+        ],
+        "concepts": [
+          "friendship",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicVideoSceneSet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicVideoSceneSet/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two animated cats are engaged in a friendly interaction in a cozy, warmly lit setting. One cat, white and wearing a shirt, is reaching out to touch the face of the other cat, which is brown and wearing an apron.",
+      "description": "The scene takes place in a warmly lit, rustic kitchen or caf\u00e9 setting. The two animated cats are positioned at a wooden counter, surrounded by bottles and jars, under the glow of hanging lamps with Asian script.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "bottles",
+          "jars",
+          "lamps",
+          "apron",
+          "shirt"
+        ],
+        "actions": [
+          "touching",
+          "interacting"
+        ],
+        "emotions": [
+          "friendly",
+          "curious"
+        ],
+        "scenes": [
+          "kitchen",
+          "caf\u00e9"
+        ],
+        "concepts": [
+          "animation",
+          "warmth",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: lamps, jars, bottles, counter, apron. Actions: holding hands, touching, interacting. Emotions: tenderness, affection, friendly, curious. Scenes: shop, intimate setting, kitchen, caf\u00e9. Concepts: warmth, friendship, animation, coziness",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "lamps",
+      "jars",
+      "bottles",
+      "counter",
+      "apron"
+    ],
+    "actions": [
+      "holding hands",
+      "touching",
+      "interacting"
+    ],
+    "emotions": [
+      "tenderness",
+      "affection",
+      "friendly",
+      "curious"
+    ],
+    "scenes": [
+      "shop",
+      "intimate setting",
+      "kitchen",
+      "caf\u00e9"
+    ],
+    "concepts": [
+      "warmth",
+      "friendship",
+      "animation",
+      "coziness"
+    ]
+  },
+  "metadata": {}
+}

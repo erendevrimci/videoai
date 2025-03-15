@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaceship POV.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaceship POV.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spaceship POV/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts the interior of a spacecraft cockpit, with a view of Earth through the large front windows. The cockpit is filled with illuminated control panels and screens, suggesting a high-tech environment.",
+      "description": "This scene is set inside a futuristic spacecraft, looking out at Earth from space. The cockpit is equipped with advanced technology, indicating a setting in a science fiction universe.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "control panels",
+          "screens"
+        ],
+        "scenes": [
+          "space",
+          "cockpit",
+          "futuristic"
+        ],
+        "actions": [
+          "viewing Earth"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "concepts": [
+          "space exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spaceship POV.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spaceship POV/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts the interior of a spacecraft cockpit, with a view of Earth visible through the large front windows. The control panels are illuminated with various lights and screens, displaying complex data and navigation information.",
+      "description": "The scene is set inside a futuristic spacecraft cockpit, orbiting above Earth. The vastness of space and the curvature of the Earth create a sense of awe and exploration.",
+      "labels": {
+        "objects": [
+          "cockpit",
+          "control panels",
+          "screens",
+          "windows"
+        ],
+        "nature": [
+          "Earth",
+          "space",
+          "stars"
+        ],
+        "actions": [
+          "navigation"
+        ],
+        "emotions": [
+          "awe",
+          "exploration"
+        ],
+        "scenes": [
+          "spacecraft interior",
+          "orbit"
+        ],
+        "concepts": [
+          "technology",
+          "space travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: control panels, screens, spacecraft, cockpit, windows. Scenes: space, cockpit, futuristic, spacecraft interior, orbit. Actions: viewing Earth, navigation. Emotions: awe, curiosity, exploration. Concepts: technology, space exploration, space travel. Nature: Earth, space, stars",
+  "primary_labels": {
+    "objects": [
+      "control panels",
+      "screens",
+      "spacecraft",
+      "cockpit",
+      "windows"
+    ],
+    "scenes": [
+      "space",
+      "cockpit",
+      "futuristic",
+      "spacecraft interior",
+      "orbit"
+    ],
+    "actions": [
+      "viewing Earth",
+      "navigation"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity",
+      "exploration"
+    ],
+    "concepts": [
+      "technology",
+      "space exploration",
+      "space travel"
+    ],
+    "nature": [
+      "Earth",
+      "space",
+      "stars"
+    ]
+  },
+  "metadata": {}
+}

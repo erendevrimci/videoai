@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/retro sci-fi 1950s.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/retro sci-fi 1950s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/retro sci-fi 1950s/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with vintage hairstyle and makeup stands next to a retro-styled robot with glowing eyes. Both appear surprised, with the woman's mouth slightly open and the robot's eyes brightly illuminated.",
+      "description": "The scene depicts a woman and a robot in a close-up shot, suggesting a moment of surprise or discovery. The setting has a retro-futuristic vibe, reminiscent of mid-20th century science fiction.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "robot"
+        ],
+        "actions": [
+          "surprise"
+        ],
+        "emotions": [
+          "surprise"
+        ],
+        "scenes": [
+          "retro-futuristic"
+        ],
+        "concepts": [
+          "vintage",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/retro sci-fi 1950s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/retro sci-fi 1950s/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with vintage-style hair and attire gazes intently at a humanoid robot with glowing eyes. The robot's metallic surface reflects the warm ambient lighting, creating a futuristic yet retro atmosphere.",
+      "description": "The scene depicts a close interaction between a woman and a robot, set in a retro-futuristic environment. The woman appears curious and engaged, while the robot's glowing eyes suggest a sense of awareness or communication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "robot"
+        ],
+        "actions": [
+          "gazing",
+          "interaction"
+        ],
+        "emotions": [
+          "curiosity",
+          "engagement"
+        ],
+        "scenes": [
+          "retro-futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "human-robot interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: robot. Actions: surprise, gazing, interaction. Emotions: surprise, curiosity, engagement. Scenes: retro-futuristic. Concepts: vintage, science fiction, technology, human-robot interaction",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "robot"
+    ],
+    "actions": [
+      "surprise",
+      "gazing",
+      "interaction"
+    ],
+    "emotions": [
+      "surprise",
+      "curiosity",
+      "engagement"
+    ],
+    "scenes": [
+      "retro-futuristic"
+    ],
+    "concepts": [
+      "vintage",
+      "science fiction",
+      "technology",
+      "human-robot interaction"
+    ]
+  },
+  "metadata": {}
+}

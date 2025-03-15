@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ravens.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ravens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ravens/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman adorned with a dark, feathered crown stands gracefully, her eyes closed in serene contemplation. Two ravens, one perched on her shoulder and another near her face, add an air of mystery to the scene. The interplay of shadows and light creates a dramatic and ethereal atmosphere.",
+      "description": "The scene depicts a mystical setting where a woman, possibly a queen or enchantress, is surrounded by ravens. The lighting is low and moody, casting intricate shadows that enhance the mysterious and regal ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "ravens"
+        ],
+        "objects": [
+          "crown",
+          "necklace"
+        ],
+        "actions": [
+          "standing",
+          "contemplating"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ],
+        "scenes": [
+          "mystical",
+          "dramatic"
+        ],
+        "concepts": [
+          "regality",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ravens.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ravens/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman adorned in a dark, ornate crown and necklace stands with her eyes closed, exuding an air of mystery. Two ravens perch closely, one on her shoulder and another near her face, creating an enigmatic connection. The scene is bathed in dramatic lighting, casting shadows that enhance the mystical atmosphere.",
+      "description": "The scene depicts a gothic and mystical setting, featuring a woman with a crown and dark attire, accompanied by two ravens. The lighting is moody and atmospheric, suggesting a sense of mystery and intrigue.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "raven"
+        ],
+        "objects": [
+          "crown",
+          "necklace"
+        ],
+        "actions": [
+          "perching",
+          "standing"
+        ],
+        "emotions": [
+          "mystery",
+          "intrigue"
+        ],
+        "scenes": [
+          "gothic",
+          "mystical"
+        ],
+        "concepts": [
+          "mystery",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: ravens, raven. Objects: crown, necklace. Actions: standing, contemplating, perching. Emotions: mystery, serenity, intrigue. Scenes: mystical, dramatic, gothic. Concepts: regality, enchantment, mystery, darkness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "ravens",
+      "raven"
+    ],
+    "objects": [
+      "crown",
+      "necklace"
+    ],
+    "actions": [
+      "standing",
+      "contemplating",
+      "perching"
+    ],
+    "emotions": [
+      "mystery",
+      "serenity",
+      "intrigue"
+    ],
+    "scenes": [
+      "mystical",
+      "dramatic",
+      "gothic"
+    ],
+    "concepts": [
+      "regality",
+      "enchantment",
+      "mystery",
+      "darkness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bay eagle walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bay eagle walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/bay eagle walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, animated bird with large, expressive eyes stands on a forest floor covered in autumn leaves. The bird's fluffy white feathers and bright yellow beak contrast with the warm orange and brown tones of the surrounding foliage. The scene captures a whimsical and serene moment in a vibrant autumn setting.",
+      "description": "The scene depicts an animated bird character in a stylized autumn forest. The focus is on the bird, which is surrounded by fallen leaves, creating a cozy and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "forest",
+          "autumn leaves"
+        ],
+        "objects": [
+          "leaves"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "autumn",
+          "forest"
+        ],
+        "concepts": [
+          "animation",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bay eagle walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/bay eagle walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute, animated bird with large eyes and a bright yellow beak stands amidst a carpet of autumn leaves. The scene is set in a forest with warm, golden hues, creating a cozy and inviting atmosphere.",
+      "description": "The image depicts an animated bird character in a forest setting during autumn. The bird is the central focus, surrounded by fallen leaves and trees in the background, suggesting a peaceful and natural environment.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "forest",
+          "autumn leaves"
+        ],
+        "objects": [
+          "leaves"
+        ],
+        "emotions": [
+          "cute",
+          "inviting"
+        ],
+        "scenes": [
+          "forest",
+          "autumn"
+        ],
+        "concepts": [
+          "animation",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bird. Nature: forest, autumn leaves. Objects: leaves. Emotions: whimsical, serene, cute, inviting. Scenes: autumn, forest. Concepts: animation, cute, nature",
+  "primary_labels": {
+    "animals": [
+      "bird"
+    ],
+    "nature": [
+      "forest",
+      "autumn leaves"
+    ],
+    "objects": [
+      "leaves"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene",
+      "cute",
+      "inviting"
+    ],
+    "scenes": [
+      "autumn",
+      "forest"
+    ],
+    "concepts": [
+      "animation",
+      "cute",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

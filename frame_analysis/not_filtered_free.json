@@ -1,0 +1,161 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/free.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/free.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/free/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands outdoors with arms outstretched, wearing a light blue shirt. The background features residential buildings and greenery, suggesting an urban setting.",
+      "description": "The scene captures a person in a casual pose in an outdoor urban environment, with residential buildings and greenery in the background. The person appears confident and relaxed.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "objects": [
+          "buildings",
+          "shirt"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "confidence",
+          "relaxation"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "casual",
+          "relaxed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/free.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/free/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man in a blue shirt stands on a cobblestone street with his arms outstretched and a joyful expression on his face. The background features greenery and a building, suggesting a quaint urban setting.",
+      "description": "The scene captures a moment of happiness and freedom as the young man embraces the open space of a quiet street. The setting appears to be an urban area with cobblestone paving and surrounding greenery, creating a serene atmosphere.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "objects": [
+          "cobblestone street",
+          "building"
+        ],
+        "actions": [
+          "arms outstretched",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "freedom",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/free.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/free/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young man in a blue shirt joyfully spreads his arms wide as he looks upwards with a smile. He stands on a cobblestone street, surrounded by potted plants and shadowy buildings.",
+      "description": "The scene captures a moment of happiness and freedom as the man embraces the open space of a quiet, urban street. The setting is serene, with natural elements like plants adding to the peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "plants"
+        ],
+        "objects": [
+          "cobblestones",
+          "potted plants"
+        ],
+        "actions": [
+          "spreading arms",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "freedom"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "happiness",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, young man, man. Nature: greenery, plants. Objects: buildings, shirt, cobblestone street, building, cobblestones. Actions: arms outstretched, smiling, standing, spreading arms. Emotions: confidence, relaxation, joyful, happy, joy. Scenes: urban, outdoor, street, urban street. Concepts: serenity, casual, relaxed, freedom, happiness",
+  "primary_labels": {
+    "people": [
+      "person",
+      "young man",
+      "man"
+    ],
+    "nature": [
+      "greenery",
+      "plants"
+    ],
+    "objects": [
+      "buildings",
+      "shirt",
+      "cobblestone street",
+      "building",
+      "cobblestones"
+    ],
+    "actions": [
+      "arms outstretched",
+      "smiling",
+      "standing",
+      "spreading arms"
+    ],
+    "emotions": [
+      "confidence",
+      "relaxation",
+      "joyful",
+      "happy",
+      "joy"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor",
+      "street",
+      "urban street"
+    ],
+    "concepts": [
+      "serenity",
+      "casual",
+      "relaxed",
+      "freedom",
+      "happiness"
+    ]
+  },
+  "metadata": {}
+}

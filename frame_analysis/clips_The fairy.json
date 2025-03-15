@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The fairy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The fairy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The fairy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate fairy with translucent wings sits gracefully on a snow-covered branch in a winter forest. Her ethereal appearance is accentuated by a shimmering dress and the soft glow of the icy surroundings.",
+      "description": "The scene depicts a magical winter setting where a fairy is perched on a branch, surrounded by snow and icicles. The atmosphere is serene and enchanting, with a focus on the fairy's intricate details and the glistening environment.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "snow",
+          "icicles",
+          "forest",
+          "branch"
+        ],
+        "objects": [
+          "wings",
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ],
+        "scenes": [
+          "winter",
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The fairy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The fairy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate fairy with translucent wings gracefully balances on a snow-covered branch in a winter forest. Her ethereal dress resembles petals, and her serene expression reflects the tranquil atmosphere around her.",
+      "description": "The scene captures a magical winter setting where a fairy stands elegantly on a frosty branch. The background is a blurred forest, enhancing the focus on the fairy and the enchanting ambiance.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "forest",
+          "snow",
+          "branch"
+        ],
+        "objects": [
+          "wings",
+          "dress"
+        ],
+        "actions": [
+          "balancing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "winter",
+          "magical"
+        ],
+        "concepts": [
+          "fantasy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The fairy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The fairy/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fairy-like figure with translucent wings gracefully leaps through a snowy forest. She is adorned in a delicate, feather-like dress, with her hair flowing behind her. The scene captures the ethereal beauty of her movement against a backdrop of snow-covered branches and icicles.",
+      "description": "The image depicts a magical winter scene where a fairy-like figure is in mid-leap. The setting is a snowy forest, creating a serene and enchanting atmosphere.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "snow",
+          "forest",
+          "icicles"
+        ],
+        "objects": [
+          "wings",
+          "dress"
+        ],
+        "actions": [
+          "leaping"
+        ],
+        "emotions": [
+          "graceful",
+          "magical"
+        ],
+        "scenes": [
+          "winter",
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fairy. Nature: snow, forest, icicles, branch. Objects: wings, dress. Actions: sitting, balancing, leaping. Emotions: serene, enchanting, serenity, graceful, magical. Scenes: winter, fantasy, magical. Concepts: magic, ethereal, fantasy, enchantment",
+  "primary_labels": {
+    "people": [
+      "fairy"
+    ],
+    "nature": [
+      "snow",
+      "forest",
+      "icicles",
+      "branch"
+    ],
+    "objects": [
+      "wings",
+      "dress"
+    ],
+    "actions": [
+      "sitting",
+      "balancing",
+      "leaping"
+    ],
+    "emotions": [
+      "serene",
+      "enchanting",
+      "serenity",
+      "graceful",
+      "magical"
+    ],
+    "scenes": [
+      "winter",
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "ethereal",
+      "fantasy",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

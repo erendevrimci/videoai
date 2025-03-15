@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,LookingAtViewer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,LookingAtViewer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticCamera,LookingAtViewer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red dress kneels on a beach at sunset, with waves gently lapping in the background. Her long blonde hair cascades over her shoulders as she smiles softly at the camera.",
+      "description": "The scene captures a serene beach setting during sunset, with a woman posing gracefully by the ocean. The warm hues of the sunset create a tranquil and picturesque atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "clouds"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "kneeling",
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "beach scene",
+          "sunset"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticCamera,LookingAtViewer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticCamera,LookingAtViewer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red dress is sitting on the beach, gazing towards the camera with a gentle smile. The sun is setting over the ocean, casting a warm glow on the scene.",
+      "description": "The scene captures a serene moment at the beach during sunset. The woman is the focal point, with the ocean and setting sun providing a picturesque backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "serenity",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sunset, clouds. Objects: dress. Actions: kneeling, smiling, sitting. Emotions: content, serene, calm. Scenes: sunset, beach scene, beach. Concepts: beauty, tranquility, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sunset",
+      "clouds"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "kneeling",
+      "smiling",
+      "sitting"
+    ],
+    "emotions": [
+      "content",
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "sunset",
+      "beach scene",
+      "beach"
+    ],
+    "concepts": [
+      "beauty",
+      "tranquility",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

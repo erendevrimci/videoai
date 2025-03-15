@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brave cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brave cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Brave cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat with a soldier's body is seen advancing through a war-torn urban landscape. The feline's head is seamlessly integrated with the military uniform, complete with tactical gear and a rifle. The backdrop features dilapidated buildings and rubble, adding to the scene's surreal nature.",
+      "description": "The scene depicts a surreal and imaginative setting where a cat is portrayed as a soldier in a war-torn environment. The combination of a cat's head with a soldier's body creates a humorous and unexpected visual. The setting is an urban area with significant destruction, suggesting a recent conflict.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "rifle",
+          "military uniform",
+          "tactical gear"
+        ],
+        "actions": [
+          "advancing",
+          "holding rifle"
+        ],
+        "emotions": [
+          "surreal",
+          "humorous"
+        ],
+        "scenes": [
+          "urban",
+          "war-torn"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Brave cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Brave cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat with a soldier's body is dressed in military gear, holding a rifle and moving through a war-torn environment. The background shows a dilapidated building, suggesting a battlefield setting.",
+      "description": "The scene depicts a surreal and humorous image of a cat with the body of a soldier, fully equipped with military attire and weaponry. The setting is a desolate, war-torn area with rubble and a damaged building in the background.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "rifle",
+          "military gear"
+        ],
+        "actions": [
+          "holding",
+          "moving"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "battlefield",
+          "war-torn"
+        ],
+        "concepts": [
+          "surreal",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: rifle, military uniform, tactical gear, military gear. Actions: advancing, holding rifle, holding, moving. Emotions: surreal, humorous, serious. Scenes: war-torn, urban, battlefield. Concepts: anthropomorphism, imagination, surreal, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "rifle",
+      "military uniform",
+      "tactical gear",
+      "military gear"
+    ],
+    "actions": [
+      "advancing",
+      "holding rifle",
+      "holding",
+      "moving"
+    ],
+    "emotions": [
+      "surreal",
+      "humorous",
+      "serious"
+    ],
+    "scenes": [
+      "war-torn",
+      "urban",
+      "battlefield"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "imagination",
+      "surreal",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

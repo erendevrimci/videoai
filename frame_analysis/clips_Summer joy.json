@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer joy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer joy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summer joy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in a vibrant field of orange and pink flowers, smiling softly at the camera. Her floral dress complements the surrounding blooms, and her long blonde hair catches the warm sunlight.",
+      "description": "The scene captures a serene moment in a flower field during golden hour, with a woman enjoying the natural beauty around her. The setting is peaceful and filled with colorful flowers under a clear sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "field"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "flower field",
+          "outdoor"
+        ],
+        "concepts": [
+          "beauty",
+          "nature",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Summer joy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Summer joy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands amidst a vibrant field of orange and pink flowers, smiling warmly at the camera. Her floral dress complements the colorful surroundings, and her long hair catches the soft sunlight.",
+      "description": "The scene is set in a picturesque flower field during what appears to be golden hour, creating a warm and inviting atmosphere. The woman is the focal point, surrounded by blooming flowers that stretch into the blurred background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "field"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "beauty",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, field. Objects: dress. Actions: smiling, standing. Emotions: serene, content, happiness. Scenes: outdoor, flower field, nature. Concepts: beauty, nature, harmony, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "field"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "smiling",
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "content",
+      "happiness"
+    ],
+    "scenes": [
+      "outdoor",
+      "flower field",
+      "nature"
+    ],
+    "concepts": [
+      "beauty",
+      "nature",
+      "harmony",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

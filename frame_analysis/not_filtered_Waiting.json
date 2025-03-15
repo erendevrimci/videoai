@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waiting.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waiting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Waiting/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man and a pug sit closely by a window, gazing at each other with a snowy landscape in the background. The scene captures a quiet moment of connection between the two, framed by the softly falling snow outside.",
+      "description": "The image depicts an intimate indoor scene where a young man and a pug share a moment by a window. Outside, snow is gently falling, creating a serene and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "animals": [
+          "pug"
+        ],
+        "nature": [
+          "snow",
+          "snowfall"
+        ],
+        "objects": [
+          "window"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "connection",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "winter"
+        ],
+        "concepts": [
+          "companionship",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Waiting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Waiting/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person and a small dog sit side by side, gazing out of a large window at a snowy landscape. The person is wearing a cozy, fur-lined coat, while the dog sits attentively, both seemingly captivated by the falling snow.",
+      "description": "The scene depicts a tranquil moment indoors, where a person and their dog are observing a wintery scene outside. The setting suggests a peaceful and contemplative atmosphere as they watch the snow fall.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "window",
+          "coat"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "indoor",
+          "winter"
+        ],
+        "concepts": [
+          "companionship",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young man, young person. Animals: pug, dog. Nature: snow, snowfall, trees. Objects: window, coat. Actions: gazing, sitting. Emotions: calm, connection, contemplative. Scenes: indoor, winter. Concepts: companionship, serenity, tranquility",
+  "primary_labels": {
+    "people": [
+      "young man",
+      "young person"
+    ],
+    "animals": [
+      "pug",
+      "dog"
+    ],
+    "nature": [
+      "snow",
+      "snowfall",
+      "trees"
+    ],
+    "objects": [
+      "window",
+      "coat"
+    ],
+    "actions": [
+      "gazing",
+      "sitting"
+    ],
+    "emotions": [
+      "calm",
+      "connection",
+      "contemplative"
+    ],
+    "scenes": [
+      "indoor",
+      "winter"
+    ],
+    "concepts": [
+      "companionship",
+      "serenity",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

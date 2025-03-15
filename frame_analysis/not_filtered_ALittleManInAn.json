@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALittleManInAn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALittleManInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALittleManInAn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate figure, adorned with autumn leaves, gracefully balances on the edge of a rustic clay pot. Sunlight filters through the foliage, casting a warm glow over the scene, creating an enchanting and whimsical atmosphere.",
+      "description": "The scene depicts a whimsical, fairy-like figure dancing on the rim of a moss-covered clay pot in a forest setting. The figure is crafted from natural elements, with leaves forming its attire, and is illuminated by a beam of sunlight breaking through the dense canopy.",
+      "labels": {
+        "nature": [
+          "leaves",
+          "foliage"
+        ],
+        "objects": [
+          "clay pot"
+        ],
+        "actions": [
+          "dancing",
+          "balancing"
+        ],
+        "emotions": [
+          "whimsical",
+          "enchanting"
+        ],
+        "scenes": [
+          "forest",
+          "natural setting"
+        ],
+        "concepts": [
+          "fantasy",
+          "autumn"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALittleManInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALittleManInAn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate figure resembling a fairy stands gracefully on the edge of a large clay pot, adorned with vibrant autumn leaves. Sunlight filters through the trees, casting a warm glow over the scene, enhancing the magical atmosphere. The figure appears to be in a poised dance, with arms extended and leaves fluttering gently.",
+      "description": "The scene depicts a whimsical and enchanting setting, likely in a forest or garden, where a fairy-like figure is the focal point. The use of autumn leaves as attire and the soft sunlight create a serene and magical ambiance.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "leaves",
+          "sunlight",
+          "forest"
+        ],
+        "objects": [
+          "clay pot"
+        ],
+        "actions": [
+          "dancing",
+          "posing"
+        ],
+        "emotions": [
+          "whimsy",
+          "serenity"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "magic",
+          "autumn"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALittleManInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALittleManInAn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A delicate figure adorned with autumn leaves gracefully poses atop a large earthen pot in a sunlit forest. Sunbeams filter through the trees, casting a warm glow on the scene. The figure's elegant stance and leaf attire blend harmoniously with the natural surroundings.",
+      "description": "The scene is set in a serene forest during autumn, with sunlight streaming through the trees. A figure, seemingly a fairy or dancer, is dressed in leaves and stands on an earthen pot, adding a whimsical touch to the natural setting.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "leaves",
+          "sunlight"
+        ],
+        "objects": [
+          "earthen pot"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "forest scene",
+          "autumn setting"
+        ],
+        "concepts": [
+          "whimsy",
+          "nature harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: leaves, sunlight, forest, foliage, trees. Objects: clay pot, earthen pot. Actions: dancing, posing, balancing. Emotions: serenity, whimsical, enchanting, whimsy. Scenes: forest, natural setting, fantasy, nature, forest scene. Concepts: autumn, fantasy, magic, whimsy, nature harmony. People: fairy, figure",
+  "primary_labels": {
+    "nature": [
+      "leaves",
+      "sunlight",
+      "forest",
+      "foliage",
+      "trees"
+    ],
+    "objects": [
+      "clay pot",
+      "earthen pot"
+    ],
+    "actions": [
+      "dancing",
+      "posing",
+      "balancing"
+    ],
+    "emotions": [
+      "serenity",
+      "whimsical",
+      "enchanting",
+      "whimsy"
+    ],
+    "scenes": [
+      "forest",
+      "natural setting",
+      "fantasy",
+      "nature",
+      "forest scene"
+    ],
+    "concepts": [
+      "autumn",
+      "fantasy",
+      "magic",
+      "whimsy",
+      "nature harmony"
+    ],
+    "people": [
+      "fairy",
+      "figure"
+    ]
+  },
+  "metadata": {}
+}

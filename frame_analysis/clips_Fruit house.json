@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fruit house.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fruit house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fruit house/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical house designed to resemble a giant fruit salad, featuring large pineapples and various sliced fruits adorning its structure. The vibrant colors of the fruits contrast with the lush green foliage surrounding the scene. The house appears to be a fantastical creation, blending architecture with nature.",
+      "description": "The scene depicts a fantastical house made entirely of fruits, set in a tropical environment. The structure is adorned with large pineapples, sliced kiwis, oranges, and berries, creating a vibrant and surreal atmosphere. The setting suggests a whimsical and imaginative world where architecture and nature merge seamlessly.",
+      "labels": {
+        "nature": [
+          "tropical plants",
+          "foliage"
+        ],
+        "objects": [
+          "house",
+          "fruits",
+          "pineapples",
+          "kiwis",
+          "oranges",
+          "berries"
+        ],
+        "scenes": [
+          "fantasy",
+          "tropical"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fruit house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fruit house/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical house constructed entirely from various fruits, including pineapples, oranges, kiwis, and berries. The structure features rounded windows and staircases, with vibrant fruit decorations covering every surface. Tall palm trees surround the house, adding to the tropical atmosphere.",
+      "description": "A fantastical scene set in a tropical environment, showcasing a house made of fruits. The structure is creatively designed with fruit elements, surrounded by lush greenery and palm trees.",
+      "labels": {
+        "nature": [
+          "palm trees",
+          "tropical setting"
+        ],
+        "objects": [
+          "fruit house",
+          "pineapples",
+          "oranges",
+          "kiwis",
+          "berries"
+        ],
+        "scenes": [
+          "fantasy",
+          "tropical"
+        ],
+        "concepts": [
+          "whimsy",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: tropical plants, foliage, palm trees, tropical setting. Objects: pineapples, kiwis, oranges, berries, house. Scenes: fantasy, tropical. Concepts: whimsy, imagination, surrealism, creativity",
+  "primary_labels": {
+    "nature": [
+      "tropical plants",
+      "foliage",
+      "palm trees",
+      "tropical setting"
+    ],
+    "objects": [
+      "pineapples",
+      "kiwis",
+      "oranges",
+      "berries",
+      "house"
+    ],
+    "scenes": [
+      "fantasy",
+      "tropical"
+    ],
+    "concepts": [
+      "whimsy",
+      "imagination",
+      "surrealism",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

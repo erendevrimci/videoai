@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Prompt:\"ALittleGirlSits.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Prompt:\"ALittleGirlSits.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Prompt:\"ALittleGirlSits/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl in a delicate white dress sits gracefully on a glowing crescent moon amidst a dreamy, cloud-filled sky. Her expression is serene as she gazes into the distance, surrounded by twinkling stars and a soft, ethereal light.",
+      "description": "The scene depicts a whimsical and magical setting where a young girl is seated on a crescent moon. The atmosphere is dreamlike, with fluffy clouds and a starry night sky creating a sense of wonder and tranquility.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "crescent moon",
+          "dress",
+          "clouds"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "dreamy"
+        ],
+        "scenes": [
+          "night sky",
+          "fantasy"
+        ],
+        "concepts": [
+          "whimsy",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Prompt:\"ALittleGirlSits.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Prompt:\"ALittleGirlSits/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl in a white dress sits gracefully on a glowing crescent moon, surrounded by fluffy clouds. The night sky is dotted with soft, twinkling stars, creating a dreamy and magical atmosphere.",
+      "description": "The scene depicts a whimsical and enchanting setting where a girl is perched on a luminous crescent moon amidst a starry night sky. The clouds add a surreal touch, enhancing the dreamlike quality of the image.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "crescent moon",
+          "clouds",
+          "stars"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "dreamy",
+          "magical"
+        ],
+        "scenes": [
+          "night sky",
+          "fantasy"
+        ],
+        "concepts": [
+          "whimsy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: crescent moon, clouds, dress, stars. Actions: sitting, gazing. Emotions: dreamy, serene, magical. Scenes: night sky, fantasy. Concepts: whimsy, magic, enchantment",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "crescent moon",
+      "clouds",
+      "dress",
+      "stars"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "dreamy",
+      "serene",
+      "magical"
+    ],
+    "scenes": [
+      "night sky",
+      "fantasy"
+    ],
+    "concepts": [
+      "whimsy",
+      "magic",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

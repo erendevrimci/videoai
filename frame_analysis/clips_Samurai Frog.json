@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Frog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Frog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samurai Frog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid frog dressed in traditional samurai attire stands confidently in a serene forest. The frog wears a straw hat and carries a wooden staff on its back, exuding a sense of calm and readiness.",
+      "description": "The scene is set in a tranquil forest with soft sunlight filtering through the trees. The main focus is on a humanoid frog character, dressed in a rustic samurai outfit, suggesting a blend of fantasy and traditional Japanese culture.",
+      "labels": {
+        "animals": [
+          "frog"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "straw hat",
+          "wooden staff"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "samurai",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Samurai Frog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Samurai Frog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid frog dressed in traditional samurai attire strides confidently through a forest. The frog wears a straw hat and carries a sword on its back, exuding a sense of purpose and determination.",
+      "description": "The scene depicts a humanoid frog character in a forest setting, dressed as a samurai. The atmosphere is mystical and adventurous, suggesting a journey or quest.",
+      "labels": {
+        "animals": [
+          "frog"
+        ],
+        "objects": [
+          "straw hat",
+          "sword",
+          "samurai attire"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "adventure",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: frog. Nature: forest, trees. Objects: straw hat, wooden staff, sword, samurai attire. Actions: standing, walking. Emotions: calm, confident, determination. Scenes: fantasy, nature, forest. Concepts: samurai, anthropomorphism, adventure, fantasy",
+  "primary_labels": {
+    "animals": [
+      "frog"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "straw hat",
+      "wooden staff",
+      "sword",
+      "samurai attire"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "confident",
+      "determination"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "forest"
+    ],
+    "concepts": [
+      "samurai",
+      "anthropomorphism",
+      "adventure",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

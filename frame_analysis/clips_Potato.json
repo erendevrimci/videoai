@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Potato.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Potato.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Potato/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical character stands in a lush forest, holding a walking stick and a small shovel. The character is adorned with a wide-brimmed hat and a vest, with plants growing on its shoulders, adding to the magical atmosphere. The forest is dense with tall trees and soft, dappled light filtering through the canopy.",
+      "description": "The scene depicts a fantastical setting in a dense forest with a whimsical character. The character appears to be an explorer or gardener, surrounded by the serene and magical ambiance of the woods.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "mushrooms"
+        ],
+        "objects": [
+          "walking stick",
+          "shovel",
+          "hat",
+          "vest"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical",
+          "curious"
+        ],
+        "scenes": [
+          "forest",
+          "fantasy"
+        ],
+        "concepts": [
+          "exploration",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Potato.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Potato/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical character stands in a lush forest, holding a walking stick. The character has a round face, a bushy mustache, and is adorned with a hat and vest covered in small plants.",
+      "description": "The scene depicts a fantasy setting in a dense, green forest. The main focus is on a cartoonish character that appears to be a forest dweller or explorer.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "nature": [
+          "forest",
+          "plants"
+        ],
+        "objects": [
+          "walking stick",
+          "hat",
+          "vest"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "exploration",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: character, fantasy character. Nature: forest, trees, mushrooms, plants. Objects: walking stick, hat, vest, shovel. Actions: standing. Emotions: whimsical, curious. Scenes: fantasy, forest, nature. Concepts: exploration, magic, adventure",
+  "primary_labels": {
+    "people": [
+      "character",
+      "fantasy character"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "mushrooms",
+      "plants"
+    ],
+    "objects": [
+      "walking stick",
+      "hat",
+      "vest",
+      "shovel"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "whimsical",
+      "curious"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest",
+      "nature"
+    ],
+    "concepts": [
+      "exploration",
+      "magic",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

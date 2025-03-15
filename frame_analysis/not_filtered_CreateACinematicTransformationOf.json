@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicTransformationOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicTransformationOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateACinematicTransformationOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic car is parked on a quiet, wet street lined with elegant, historic buildings. The overcast sky casts a soft, diffused light over the scene, highlighting the architectural details of the facades.",
+      "description": "The scene captures a vintage car on a damp street in a historic urban area, with ornate buildings lining the road. The atmosphere is calm and serene, with no visible activity.",
+      "labels": {
+        "objects": [
+          "car",
+          "buildings",
+          "street"
+        ],
+        "nature": [
+          "overcast sky"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "vintage",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateACinematicTransformationOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateACinematicTransformationOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic vehicle resembling a car with robotic legs is seen walking down a city street. The car's hood is open, and its headlights are on, suggesting movement and activity. The scene is set against a backdrop of classic urban architecture.",
+      "description": "The image depicts a unique blend of automotive and robotic technology, with a car transformed into a walking machine. It is set on a wet city street lined with historical buildings, creating a contrast between the old and the new.",
+      "labels": {
+        "objects": [
+          "car",
+          "robotic legs",
+          "headlights"
+        ],
+        "actions": [
+          "walking",
+          "moving"
+        ],
+        "scenes": [
+          "city street",
+          "urban setting"
+        ],
+        "concepts": [
+          "futuristic technology",
+          "innovation"
+        ],
+        "emotions": [
+          "surprise",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, buildings, street, robotic legs, headlights. Nature: overcast sky. Actions: parked, walking, moving. Emotions: calm, serene, surprise, curiosity. Scenes: urban, historic, city street, urban setting. Concepts: vintage, architecture, futuristic technology, innovation",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "buildings",
+      "street",
+      "robotic legs",
+      "headlights"
+    ],
+    "nature": [
+      "overcast sky"
+    ],
+    "actions": [
+      "parked",
+      "walking",
+      "moving"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "surprise",
+      "curiosity"
+    ],
+    "scenes": [
+      "urban",
+      "historic",
+      "city street",
+      "urban setting"
+    ],
+    "concepts": [
+      "vintage",
+      "architecture",
+      "futuristic technology",
+      "innovation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby dressed in a cozy white knit outfit sits in the snow, joyfully interacting with a small white fox. The scene is illuminated by a warm, glowing light, creating a magical winter atmosphere.",
+      "description": "The image depicts a serene winter scene where a baby and a white fox are playfully engaging with each other in a snowy landscape. The setting is tranquil and enchanting, enhanced by softly falling snowflakes and a warm glow in the background.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "fox"
+        ],
+        "nature": [
+          "snow",
+          "snowflakes"
+        ],
+        "objects": [
+          "knit outfit"
+        ],
+        "actions": [
+          "interaction",
+          "play"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "innocence",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby dressed in a cozy knit outfit sits in the snow, gently touching the paw of a fluffy white animal. The sun shines softly through the trees, illuminating the scene with a warm glow.",
+      "description": "The scene captures a serene winter moment where a baby interacts with a small, fluffy animal in a snowy forest. The sunlight filters through the trees, creating a magical and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "fluffy animal"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "knit outfit"
+        ],
+        "actions": [
+          "touching"
+        ],
+        "emotions": [
+          "gentle",
+          "peaceful"
+        ],
+        "scenes": [
+          "winter",
+          "forest"
+        ],
+        "concepts": [
+          "innocence",
+          "nature interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: fox, fluffy animal. Nature: snow, snowflakes, trees. Objects: knit outfit. Actions: interaction, play, touching. Emotions: joy, wonder, gentle, peaceful. Scenes: winter, outdoors, forest. Concepts: innocence, friendship, nature interaction",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "fox",
+      "fluffy animal"
+    ],
+    "nature": [
+      "snow",
+      "snowflakes",
+      "trees"
+    ],
+    "objects": [
+      "knit outfit"
+    ],
+    "actions": [
+      "interaction",
+      "play",
+      "touching"
+    ],
+    "emotions": [
+      "joy",
+      "wonder",
+      "gentle",
+      "peaceful"
+    ],
+    "scenes": [
+      "winter",
+      "outdoors",
+      "forest"
+    ],
+    "concepts": [
+      "innocence",
+      "friendship",
+      "nature interaction"
+    ]
+  },
+  "metadata": {}
+}

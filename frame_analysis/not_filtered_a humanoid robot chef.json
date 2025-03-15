@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a humanoid robot chef.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a humanoid robot chef.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a humanoid robot chef/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic robot is preparing a meal in a high-tech kitchen. The robot is adding ingredients to a dish with precision, surrounded by advanced technology and glowing interfaces.",
+      "description": "The scene is set in a futuristic kitchen where a humanoid robot is actively engaged in cooking. The environment is filled with advanced technology, including glowing interfaces and sleek metallic surfaces.",
+      "labels": {
+        "objects": [
+          "robot",
+          "plate",
+          "ingredients",
+          "kitchen",
+          "pot"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food",
+          "adding ingredients"
+        ],
+        "scenes": [
+          "futuristic kitchen",
+          "high-tech environment"
+        ],
+        "concepts": [
+          "technology",
+          "automation",
+          "future"
+        ],
+        "emotions": [
+          "precision",
+          "efficiency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a humanoid robot chef.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a humanoid robot chef/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot is actively preparing meals in a high-tech kitchen. The robot, with glowing blue accents, is handling cooking utensils and ingredients with precision. The kitchen is equipped with advanced technology, including digital screens and modern appliances.",
+      "description": "The scene is set in a futuristic kitchen where a humanoid robot is engaged in cooking. The environment is sleek and modern, featuring advanced technology and digital interfaces.",
+      "labels": {
+        "objects": [
+          "robot",
+          "cooking utensils",
+          "digital screens",
+          "kitchen appliances",
+          "plates",
+          "pots"
+        ],
+        "actions": [
+          "cooking",
+          "preparing meals"
+        ],
+        "emotions": [
+          "focused",
+          "efficient"
+        ],
+        "scenes": [
+          "futuristic kitchen",
+          "high-tech environment"
+        ],
+        "concepts": [
+          "technology",
+          "automation",
+          "future cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, plate, ingredients, kitchen, pot. Actions: cooking, preparing food, adding ingredients, preparing meals. Scenes: futuristic kitchen, high-tech environment. Concepts: technology, automation, future, future cooking. Emotions: precision, efficiency, focused, efficient",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "plate",
+      "ingredients",
+      "kitchen",
+      "pot"
+    ],
+    "actions": [
+      "cooking",
+      "preparing food",
+      "adding ingredients",
+      "preparing meals"
+    ],
+    "scenes": [
+      "futuristic kitchen",
+      "high-tech environment"
+    ],
+    "concepts": [
+      "technology",
+      "automation",
+      "future",
+      "future cooking"
+    ],
+    "emotions": [
+      "precision",
+      "efficiency",
+      "focused",
+      "efficient"
+    ]
+  },
+  "metadata": {}
+}

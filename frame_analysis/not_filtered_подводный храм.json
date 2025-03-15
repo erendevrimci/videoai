@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0439 \u0445\u0440\u0430\u043c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0439 \u0445\u0440\u0430\u043c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0439 \u0445\u0440\u0430\u043c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An ornate, ancient door stands underwater, adorned with intricate golden carvings and symbols. Surrounding the door are various golden artifacts, casting a mystical glow in the submerged environment.",
+      "description": "The scene depicts an underwater setting with a large, elaborately decorated door as the focal point. The door is embellished with gold and intricate designs, suggesting a historical or cultural significance. The surrounding area is filled with golden artifacts, enhancing the mysterious and ancient atmosphere.",
+      "labels": {
+        "objects": [
+          "door",
+          "golden artifacts",
+          "carvings",
+          "symbols"
+        ],
+        "scenes": [
+          "underwater",
+          "ancient",
+          "mystical"
+        ],
+        "emotions": [
+          "mystery",
+          "awe"
+        ],
+        "concepts": [
+          "history",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0439 \u0445\u0440\u0430\u043c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u043f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0439 \u0445\u0440\u0430\u043c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts an underwater scene featuring a large, ornate door partially open, revealing a glowing light source beyond. The door is intricately decorated with golden embellishments and symbols, suggesting a sense of mystery and grandeur.",
+      "description": "The scene is set underwater, showcasing an ancient, possibly mythical structure with a large, elaborately decorated door. The light emanating from behind the door adds an element of intrigue and wonder.",
+      "labels": {
+        "objects": [
+          "ornate door",
+          "golden embellishments",
+          "symbols"
+        ],
+        "actions": [
+          "glowing light"
+        ],
+        "scenes": [
+          "underwater",
+          "ancient structure"
+        ],
+        "concepts": [
+          "mystery",
+          "grandeur"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: symbols, door, golden artifacts, carvings, ornate door. Scenes: underwater, ancient, mystical, ancient structure. Emotions: mystery, awe. Concepts: history, culture, mystery, grandeur. Actions: glowing light",
+  "primary_labels": {
+    "objects": [
+      "symbols",
+      "door",
+      "golden artifacts",
+      "carvings",
+      "ornate door"
+    ],
+    "scenes": [
+      "underwater",
+      "ancient",
+      "mystical",
+      "ancient structure"
+    ],
+    "emotions": [
+      "mystery",
+      "awe"
+    ],
+    "concepts": [
+      "history",
+      "culture",
+      "mystery",
+      "grandeur"
+    ],
+    "actions": [
+      "glowing light"
+    ]
+  },
+  "metadata": {}
+}

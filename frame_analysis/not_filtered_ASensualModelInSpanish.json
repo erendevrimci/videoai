@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASensualModelInSpanish.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASensualModelInSpanish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASensualModelInSpanish/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, curly blonde hair stands confidently in an elegant red dress with intricate lace details. The background features an architectural setting with soft, warm lighting, enhancing the dramatic and sophisticated atmosphere.",
+      "description": "The scene captures a woman in a striking red dress, set against a backdrop of warm-toned architecture. The lighting and composition emphasize her poised and elegant demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "scenes": [
+          "architectural setting"
+        ],
+        "emotions": [
+          "confidence",
+          "elegance"
+        ],
+        "visual_attributes": [
+          "blonde hair",
+          "red dress",
+          "warm lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASensualModelInSpanish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASensualModelInSpanish/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, curly blonde hair stands confidently in an elegant red dress with lace details. She poses with her hands on her hips against a backdrop of arched architecture, exuding a sense of strength and poise.",
+      "description": "The scene captures a woman in a striking red dress standing in a setting that appears to be a historic or classical architectural environment. The arches in the background suggest a location with a timeless or romantic ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "arches"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "architectural"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, arches. Scenes: architectural setting, architectural. Emotions: confidence, elegance. Visual_attributes: blonde hair, red dress, warm lighting. Actions: posing. Concepts: elegance, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "arches"
+    ],
+    "scenes": [
+      "architectural setting",
+      "architectural"
+    ],
+    "emotions": [
+      "confidence",
+      "elegance"
+    ],
+    "visual_attributes": [
+      "blonde hair",
+      "red dress",
+      "warm lighting"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "concepts": [
+      "elegance",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

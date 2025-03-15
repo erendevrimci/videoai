@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksAtThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLooksAtThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman in a flowing white dress stands by a window, holding two lit candles. The room is softly illuminated by the glow of the candles and colorful lights, creating a magical atmosphere.",
+      "description": "The scene is set in a cozy, mystical room filled with books and plants. A woman stands near a window, gazing thoughtfully into the distance as sunlight filters through the trees outside, casting a serene glow.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "books",
+          "window"
+        ],
+        "nature": [
+          "plants",
+          "trees"
+        ],
+        "actions": [
+          "holding candles"
+        ],
+        "emotions": [
+          "serene",
+          "thoughtful"
+        ],
+        "scenes": [
+          "indoor",
+          "magical"
+        ],
+        "concepts": [
+          "tranquility",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLooksAtThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in a flowing white dress stands by a window, holding two lit candles. The room is softly illuminated by the candles and colorful lights, with bookshelves and greenery surrounding her.",
+      "description": "The scene is set in a cozy, mystical room with a large window revealing a forest bathed in ethereal light. The atmosphere is serene and magical, enhanced by the warm glow of candles and twinkling lights.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "bookshelves",
+          "window"
+        ],
+        "nature": [
+          "greenery",
+          "forest"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "indoor",
+          "mystical"
+        ],
+        "concepts": [
+          "tranquility",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlLooksAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlLooksAtThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman stands by a window, holding two lit candles, surrounded by a magical ambiance. The scene is illuminated by soft, colorful lights and a gentle glow from the outside. Her expression is serene and contemplative, adding to the enchanting atmosphere.",
+      "description": "The scene is set in a cozy, mystical room with a large window overlooking a forest. The woman is dressed in a flowing gown, and the room is adorned with books and plants, creating a warm and inviting environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "books",
+          "window"
+        ],
+        "actions": [
+          "holding candles"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "indoor",
+          "magical"
+        ],
+        "concepts": [
+          "mystical",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: candles, window, books, bookshelves. Nature: plants, trees, greenery, forest. Actions: holding candles, holding. Emotions: serene, thoughtful, magical, contemplative. Scenes: indoor, magical, mystical. Concepts: tranquility, enchantment, mysticism, mystical",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "candles",
+      "window",
+      "books",
+      "bookshelves"
+    ],
+    "nature": [
+      "plants",
+      "trees",
+      "greenery",
+      "forest"
+    ],
+    "actions": [
+      "holding candles",
+      "holding"
+    ],
+    "emotions": [
+      "serene",
+      "thoughtful",
+      "magical",
+      "contemplative"
+    ],
+    "scenes": [
+      "indoor",
+      "magical",
+      "mystical"
+    ],
+    "concepts": [
+      "tranquility",
+      "enchantment",
+      "mysticism",
+      "mystical"
+    ]
+  },
+  "metadata": {}
+}

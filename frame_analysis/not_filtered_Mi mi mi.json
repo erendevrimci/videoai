@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mi mi mi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mi mi mi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mi mi mi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small kitten with striking blue eyes sits by a rain-speckled window, wearing a cute knitted hat with frog eyes. The warm glow of lights outside contrasts with the cool, rainy atmosphere, creating a cozy yet melancholic scene.",
+      "description": "The scene captures a kitten indoors during a rainy day, looking out a window. The setting is intimate and cozy, with the kitten's playful hat adding a whimsical touch.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "window",
+          "knitted hat"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cozy",
+          "melancholic"
+        ],
+        "scenes": [
+          "indoor",
+          "rainy"
+        ],
+        "concepts": [
+          "cuteness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mi mi mi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mi mi mi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small kitten wearing a cozy knitted hat sits by a rain-speckled window, gazing outside. The warm glow of lights reflects softly on the glass, creating a serene and contemplative atmosphere.",
+      "description": "The scene captures a kitten indoors on a rainy day, looking out the window. The setting suggests a cozy, warm environment contrasted with the cold, wet weather outside.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "hat",
+          "window"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "indoor",
+          "rainy day"
+        ],
+        "concepts": [
+          "coziness",
+          "curiosity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: window, knitted hat, hat. Actions: sitting, gazing. Emotions: cozy, melancholic, serene, contemplative. Scenes: indoor, rainy, rainy day. Concepts: cuteness, whimsy, coziness, curiosity. Nature: rain",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "window",
+      "knitted hat",
+      "hat"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "cozy",
+      "melancholic",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "indoor",
+      "rainy",
+      "rainy day"
+    ],
+    "concepts": [
+      "cuteness",
+      "whimsy",
+      "coziness",
+      "curiosity"
+    ],
+    "nature": [
+      "rain"
+    ]
+  },
+  "metadata": {}
+}

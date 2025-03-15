@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Do you like beautiful older sist.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Do you like beautiful older sist.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Do you like beautiful older sist/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in front of a store, wearing a stylish cream blouse with a bow and high-waisted rust-colored pants. Her hair is styled in loose waves, and she gazes directly at the camera with a poised expression.",
+      "description": "The scene is set outside a store, possibly in an urban shopping area. The woman is the focal point, exuding a sense of elegance and fashion-forward style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "pants",
+          "storefront"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "shopping area"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Do you like beautiful older sist.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Do you like beautiful older sist/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in front of a modern building, smiling warmly at the camera. She is dressed in a stylish outfit featuring a cream blouse with a large bow and a high-waisted, rust-colored skirt adorned with decorative buttons.",
+      "description": "The scene captures a fashionable woman posing outdoors in an urban setting. The background suggests a city environment with glass and metal architectural elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "skirt",
+          "buttons"
+        ],
+        "actions": [
+          "smiling",
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Do you like beautiful older sist.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Do you like beautiful older sist/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with blonde hair is smiling while walking in an urban setting. She is dressed in a stylish outfit featuring a cream blouse with a bow and an orange skirt with decorative buttons.",
+      "description": "The scene captures a woman walking confidently along a city street, possibly near a shopping area. The background shows a store window, suggesting a fashionable urban environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "skirt",
+          "store window"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, skirt, pants, storefront, buttons. Actions: standing, smiling, walking. Emotions: confidence, happiness. Scenes: urban, shopping area, fashion, street. Concepts: fashion, style, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "skirt",
+      "pants",
+      "storefront",
+      "buttons"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "urban",
+      "shopping area",
+      "fashion",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0438\u0434\u0451\u0442 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0443.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0438\u0434\u0451\u0442 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0443.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0438\u0434\u0451\u0442 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0443/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a stylish white suit walks confidently down a city street. The background features classic European architecture and a passing bus, adding to the urban atmosphere.",
+      "description": "The scene captures a fashionable woman walking in a bustling city environment, characterized by historic buildings and active street traffic.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "bus",
+          "car"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "fashion",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0438\u0434\u0451\u0442 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0443.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0414\u0435\u0432\u0443\u0448\u043a\u0430 \u0438\u0434\u0451\u0442 \u043d\u0430 \u0440\u0430\u0431\u043e\u0442\u0443/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white blazer is walking confidently along a city street. Her hair flows naturally as she smiles, with an orange bus visible in the background.",
+      "description": "The scene captures a moment in an urban setting where a woman is walking past a bus. The atmosphere is lively and bustling, typical of a city environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blazer",
+          "bus"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "city life",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: bus, suit, car, blazer. Actions: walking, smiling. Emotions: confidence, happiness. Scenes: city street, urban, street. Concepts: fashion, urban life, city life",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "bus",
+      "suit",
+      "car",
+      "blazer"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "city street",
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "urban life",
+      "city life"
+    ]
+  },
+  "metadata": {}
+}

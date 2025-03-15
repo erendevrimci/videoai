@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWell-dressedCrocodileInA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWell-dressedCrocodileInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWell-dressedCrocodileInA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid alligator dressed in a brown suit and hat sits on a park bench playing an accordion. The scene is set by a tranquil pond with a duck swimming in the background, surrounded by lush greenery.",
+      "description": "The image depicts a whimsical scene where a humanoid alligator is engaging in a musical performance by a serene pond in a park. The setting is peaceful, with soft lighting filtering through the trees, creating a harmonious atmosphere.",
+      "labels": {
+        "animals": [
+          "alligator",
+          "duck"
+        ],
+        "nature": [
+          "pond",
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "accordion",
+          "bench",
+          "suit",
+          "hat"
+        ],
+        "actions": [
+          "playing music"
+        ],
+        "emotions": [
+          "serenity",
+          "whimsy"
+        ],
+        "scenes": [
+          "park"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWell-dressedCrocodileInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWell-dressedCrocodileInA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid alligator dressed in a brown suit and hat sits on a park bench, playing an accordion. The scene is set by a tranquil pond surrounded by lush greenery, creating a whimsical and serene atmosphere.",
+      "description": "The image depicts a surreal scene where a humanoid alligator is engaged in playing music on an accordion in a peaceful park setting. The combination of the alligator's formal attire and the natural surroundings adds a whimsical touch to the scene.",
+      "labels": {
+        "animals": [
+          "alligator"
+        ],
+        "objects": [
+          "accordion",
+          "bench",
+          "hat",
+          "suit"
+        ],
+        "nature": [
+          "pond",
+          "trees",
+          "park"
+        ],
+        "actions": [
+          "playing music",
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "park",
+          "outdoor"
+        ],
+        "concepts": [
+          "surreal",
+          "anthropomorphic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: alligator, duck. Nature: pond, trees, greenery, park. Objects: accordion, bench, suit, hat. Actions: playing music, sitting. Emotions: serenity, whimsy, serene, whimsical. Scenes: park, outdoor. Concepts: anthropomorphism, music, surreal, anthropomorphic",
+  "primary_labels": {
+    "animals": [
+      "alligator",
+      "duck"
+    ],
+    "nature": [
+      "pond",
+      "trees",
+      "greenery",
+      "park"
+    ],
+    "objects": [
+      "accordion",
+      "bench",
+      "suit",
+      "hat"
+    ],
+    "actions": [
+      "playing music",
+      "sitting"
+    ],
+    "emotions": [
+      "serenity",
+      "whimsy",
+      "serene",
+      "whimsical"
+    ],
+    "scenes": [
+      "park",
+      "outdoor"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "music",
+      "surreal",
+      "anthropomorphic"
+    ]
+  },
+  "metadata": {}
+}

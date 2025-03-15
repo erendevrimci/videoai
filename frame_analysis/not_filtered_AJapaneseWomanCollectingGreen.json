@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJapaneseWomanCollectingGreen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJapaneseWomanCollectingGreen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AJapaneseWomanCollectingGreen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone farmer stands amidst lush, terraced tea fields, wearing a traditional conical hat. The vibrant green terraces stretch into the distance, creating a serene and harmonious landscape.",
+      "description": "The scene depicts a tranquil agricultural setting with expansive, meticulously arranged tea terraces. A single person is engaged in farming activities, contributing to the peaceful rural atmosphere.",
+      "labels": {
+        "people": [
+          "farmer"
+        ],
+        "nature": [
+          "tea fields",
+          "terraces",
+          "greenery"
+        ],
+        "objects": [
+          "conical hat",
+          "basket"
+        ],
+        "actions": [
+          "farming",
+          "harvesting"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "agricultural landscape",
+          "rural setting"
+        ],
+        "concepts": [
+          "traditional farming",
+          "harmony with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AJapaneseWomanCollectingGreen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AJapaneseWomanCollectingGreen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing a traditional conical hat walks through lush green tea terraces under the soft glow of the morning sun. The terraced fields stretch into the distance, creating a serene and picturesque landscape.",
+      "description": "The scene depicts a tranquil morning in a rural setting, with a focus on agriculture and traditional practices. The terraced fields suggest a location in a mountainous or hilly region, commonly associated with tea cultivation.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "tea terraces",
+          "hills",
+          "vegetation"
+        ],
+        "objects": [
+          "conical hat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "agricultural landscape",
+          "morning"
+        ],
+        "concepts": [
+          "tradition",
+          "cultivation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: farmer, person. Nature: tea fields, terraces, greenery, tea terraces, hills. Objects: conical hat, basket. Actions: farming, harvesting, walking. Emotions: serenity, peacefulness. Scenes: agricultural landscape, rural setting, morning. Concepts: traditional farming, harmony with nature, tradition, cultivation",
+  "primary_labels": {
+    "people": [
+      "farmer",
+      "person"
+    ],
+    "nature": [
+      "tea fields",
+      "terraces",
+      "greenery",
+      "tea terraces",
+      "hills"
+    ],
+    "objects": [
+      "conical hat",
+      "basket"
+    ],
+    "actions": [
+      "farming",
+      "harvesting",
+      "walking"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness"
+    ],
+    "scenes": [
+      "agricultural landscape",
+      "rural setting",
+      "morning"
+    ],
+    "concepts": [
+      "traditional farming",
+      "harmony with nature",
+      "tradition",
+      "cultivation"
+    ]
+  },
+  "metadata": {}
+}

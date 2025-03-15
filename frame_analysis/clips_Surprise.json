@@ -1,0 +1,88 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Surprise.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Surprise.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Surprise/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking image of a white dog with blue eyes, featuring intricate tattoos covering its neck and chest. The tattoos depict colorful koi fish and flowers, creating a vivid contrast against the dog's pale fur.",
+      "description": "The scene captures a close-up portrait of a dog with detailed tattoos, set against a neutral gray background. The focus is on the dog's unique appearance, highlighting the artistry of the tattoos.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "tattoos",
+          "koi fish",
+          "flowers"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "artistic expression",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Surprise.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Surprise/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white dog with striking blue eyes is adorned with colorful tattoos across its body. The tattoos feature vibrant designs, including flowers and a koi fish, creating a striking contrast against the dog's pale fur. The dog stares directly at the camera, its large ears perked up attentively.",
+      "description": "The scene captures a close-up of a white dog with tattoos, set against a neutral gray background. The focus is on the dog's expressive face and the intricate tattoo designs covering its body.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "tattoos",
+          "flowers",
+          "koi fish"
+        ],
+        "emotions": [
+          "calm",
+          "attentive"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "body art",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: tattoos, koi fish, flowers. Emotions: calm, attentive. Scenes: portrait. Concepts: contrast, artistic expression, body art",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "tattoos",
+      "koi fish",
+      "flowers"
+    ],
+    "emotions": [
+      "calm",
+      "attentive"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "contrast",
+      "artistic expression",
+      "body art"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An ant walks with a little girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An ant walks with a little girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An ant walks with a little girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child joyfully rides atop a giant ant, holding a small piece of food. The scene is set outdoors with a blurred natural background, emphasizing the surreal and whimsical nature of the moment.",
+      "description": "The image depicts a fantastical scene where a child is riding a large ant as if it were a horse. The child appears happy and carefree, adding a playful and imaginative tone to the scene.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "ant"
+        ],
+        "nature": [
+          "outdoor",
+          "natural background"
+        ],
+        "objects": [
+          "food"
+        ],
+        "actions": [
+          "riding",
+          "holding"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An ant walks with a little girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An ant walks with a little girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child is joyfully riding on the back of a giant ant, holding a piece of food. The scene is set against a blurred natural background, giving a whimsical and imaginative feel.",
+      "description": "The image depicts a surreal scene where a child is riding a giant ant as if it were a horse. The setting appears to be outdoors, with a focus on the child and the ant, creating a playful and fantastical atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "ant"
+        ],
+        "objects": [
+          "food"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: ant. Nature: outdoor, natural background. Objects: food. Actions: riding, holding. Emotions: joyful, playful. Scenes: fantasy, surreal. Concepts: imagination, whimsy",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "ant"
+    ],
+    "nature": [
+      "outdoor",
+      "natural background"
+    ],
+    "objects": [
+      "food"
+    ],
+    "actions": [
+      "riding",
+      "holding"
+    ],
+    "emotions": [
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal"
+    ],
+    "concepts": [
+      "imagination",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

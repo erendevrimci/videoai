@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassBirdSitsOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassBirdSitsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGlassBirdSitsOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A delicate glass sculpture of a bird perches gracefully on a branch, its surface reflecting a spectrum of iridescent colors. The intricate details of the glasswork capture the essence of a real bird, while the surrounding foliage adds a natural touch to the scene.",
+      "description": "The scene depicts a glass bird sculpture set against a backdrop of blurred greenery. The bird is perched on a branch, showcasing the artist's skill in capturing the fluidity and elegance of a real bird through glass.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "branch",
+          "leaves"
+        ],
+        "objects": [
+          "glass sculpture"
+        ],
+        "scenes": [
+          "artistic",
+          "nature"
+        ],
+        "concepts": [
+          "art",
+          "craftsmanship"
+        ],
+        "emotions": [
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGlassBirdSitsOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGlassBirdSitsOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A delicate glass sculpture of a bird perches gracefully on a branch, capturing the light with its translucent, iridescent surface. The bird's intricate design reflects hues of pink and purple, contrasting with the natural green background. The scene is serene and enchanting, blending art with nature.",
+      "description": "The image depicts a glass bird sculpture set against a blurred natural background. The bird is perched on a branch, with leaves visible, creating a harmonious blend of art and nature.",
+      "labels": {
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "branch",
+          "leaves"
+        ],
+        "objects": [
+          "glass sculpture"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ],
+        "scenes": [
+          "nature",
+          "artistic"
+        ],
+        "concepts": [
+          "art",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bird. Nature: branch, leaves. Objects: glass sculpture. Scenes: artistic, nature. Concepts: art, craftsmanship, harmony. Emotions: serenity, serene, enchanting",
+  "primary_labels": {
+    "animals": [
+      "bird"
+    ],
+    "nature": [
+      "branch",
+      "leaves"
+    ],
+    "objects": [
+      "glass sculpture"
+    ],
+    "scenes": [
+      "artistic",
+      "nature"
+    ],
+    "concepts": [
+      "art",
+      "craftsmanship",
+      "harmony"
+    ],
+    "emotions": [
+      "serenity",
+      "serene",
+      "enchanting"
+    ]
+  },
+  "metadata": {}
+}

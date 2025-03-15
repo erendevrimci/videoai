@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Defender Transformed.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Defender Transformed.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Defender Transformed/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern SUV is parked on an open road under a vast, cloudy sky. The vehicle's white and black exterior contrasts with the muted tones of the surrounding landscape. The scene is calm and serene, with no visible movement.",
+      "description": "The image depicts a stationary SUV on a wide, empty road. The setting appears to be outdoors, possibly on a test track or a quiet highway, with a backdrop of distant trees and a cloudy sky.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "road"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "trees"
+        ],
+        "scenes": [
+          "outdoor",
+          "roadway"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Defender Transformed.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Defender Transformed/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, humanoid robot stands prominently on an open tarmac, with mountains visible in the background. The robot has a metallic, armored exterior with glowing blue eyes, exuding a powerful and imposing presence.",
+      "description": "The scene depicts a futuristic setting where a giant robot is positioned on a flat, open area, likely an airstrip or similar location. The background features distant mountains under a partly cloudy sky, suggesting a remote or industrial environment.",
+      "labels": {
+        "objects": [
+          "robot",
+          "tarmac",
+          "mountains"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "powerful",
+          "imposing"
+        ],
+        "scenes": [
+          "futuristic",
+          "industrial"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Defender Transformed.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Defender Transformed/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large, humanoid robot stands prominently on an open tarmac, with mountains visible in the background. The robot's design is intricate, featuring mechanical limbs and a robust, armored exterior.",
+      "description": "The scene depicts a futuristic setting where a giant robot is positioned on a flat, open area, possibly an airfield or a testing ground. The backdrop of mountains and a cloudy sky adds to the dramatic and high-tech atmosphere.",
+      "labels": {
+        "objects": [
+          "robot",
+          "tarmac"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "powerful",
+          "imposing"
+        ],
+        "scenes": [
+          "futuristic",
+          "outdoor"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, tarmac, SUV, road, mountains. Nature: sky, clouds, trees, mountains. Scenes: outdoor, futuristic, roadway, industrial. Emotions: powerful, imposing, calm, serene. Actions: standing. Concepts: technology, innovation",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "tarmac",
+      "SUV",
+      "road",
+      "mountains"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "trees",
+      "mountains"
+    ],
+    "scenes": [
+      "outdoor",
+      "futuristic",
+      "roadway",
+      "industrial"
+    ],
+    "emotions": [
+      "powerful",
+      "imposing",
+      "calm",
+      "serene"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "concepts": [
+      "technology",
+      "innovation"
+    ]
+  },
+  "metadata": {}
+}

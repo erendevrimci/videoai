@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man Shooting On Helicopter.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man Shooting On Helicopter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Man Shooting On Helicopter/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a white sports uniform is positioned at the open door of a helicopter, firing a weapon. The scene is dynamic, with the bright flash from the gun contrasting against the dark interior of the aircraft.",
+      "description": "The image depicts a high-action scene involving a person in sports attire engaging in a combat scenario from a helicopter. The setting appears to be intense and possibly part of a dramatic or fictional narrative.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "helicopter",
+          "weapon",
+          "sports uniform",
+          "headphones"
+        ],
+        "actions": [
+          "firing",
+          "kneeling"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "action",
+          "combat"
+        ],
+        "concepts": [
+          "military",
+          "sports crossover"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man Shooting On Helicopter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Man Shooting On Helicopter/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a white sports uniform is positioned at the open door of a helicopter, firing a weapon with visible flames. The scene is dynamic, with the helicopter in flight and smoke visible in the background.",
+      "description": "The scene depicts a high-intensity action moment with a person engaging in a combat scenario from a helicopter. The setting suggests a military or tactical operation, with the individual wearing a sports jersey, adding an unusual twist to the scene.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "helicopter",
+          "weapon",
+          "sports uniform",
+          "headphones"
+        ],
+        "actions": [
+          "firing",
+          "flying"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "combat",
+          "action"
+        ],
+        "concepts": [
+          "military",
+          "sports crossover"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: helicopter, weapon, sports uniform, headphones. Actions: firing, kneeling, flying. Emotions: intensity. Scenes: action, combat. Concepts: military, sports crossover",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "helicopter",
+      "weapon",
+      "sports uniform",
+      "headphones"
+    ],
+    "actions": [
+      "firing",
+      "kneeling",
+      "flying"
+    ],
+    "emotions": [
+      "intensity"
+    ],
+    "scenes": [
+      "action",
+      "combat"
+    ],
+    "concepts": [
+      "military",
+      "sports crossover"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outono Inverno.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outono Inverno.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Outono Inverno/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cozy, romantic setting with a couple in the background, softly lit by a warm fire. In the foreground, a table is set with a bottle of red wine, glasses, and an assortment of cheeses, creating an inviting atmosphere.",
+      "description": "The scene depicts a romantic and intimate setting, likely in a cabin or cozy home. The focus is on a table laden with wine and cheese, while a couple shares a tender moment by the fire in the background.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "wine bottle",
+          "wine glasses",
+          "cheese",
+          "table",
+          "fireplace"
+        ],
+        "actions": [
+          "sitting",
+          "embracing"
+        ],
+        "emotions": [
+          "romantic",
+          "warm"
+        ],
+        "scenes": [
+          "indoor",
+          "dining"
+        ],
+        "concepts": [
+          "romance",
+          "coziness",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outono Inverno.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Outono Inverno/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple sits closely together in a cozy cabin, sharing an intimate moment by a window adorned with warm string lights. In front of them, a table is set with a fondue pot and glasses of red wine, creating a romantic and inviting atmosphere.",
+      "description": "The scene is set in a warm, rustic cabin during winter, as indicated by the snowy landscape visible through the window. The couple is enjoying a cozy evening together, surrounded by the soft glow of string lights and the warmth of a fondue meal.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "fondue pot",
+          "wine glasses",
+          "string lights",
+          "table"
+        ],
+        "actions": [
+          "sitting",
+          "embracing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "cabin interior",
+          "winter"
+        ],
+        "concepts": [
+          "coziness",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Objects: wine glasses, table, wine bottle, cheese, fireplace. Actions: sitting, embracing. Emotions: romantic, warm, intimate. Scenes: indoor, dining, cabin interior, winter. Concepts: romance, coziness, intimacy",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "objects": [
+      "wine glasses",
+      "table",
+      "wine bottle",
+      "cheese",
+      "fireplace"
+    ],
+    "actions": [
+      "sitting",
+      "embracing"
+    ],
+    "emotions": [
+      "romantic",
+      "warm",
+      "intimate"
+    ],
+    "scenes": [
+      "indoor",
+      "dining",
+      "cabin interior",
+      "winter"
+    ],
+    "concepts": [
+      "romance",
+      "coziness",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

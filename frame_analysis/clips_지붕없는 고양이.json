@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A wet cat sits on a rain-soaked pavement beside a park bench, with raindrops glistening on its fur. The background is blurred with hints of greenery, creating a serene yet melancholic atmosphere.",
+      "description": "The scene depicts a solitary cat enduring a rainy day in a park setting. The cat is positioned next to a bench, with rain visibly falling around it, adding to the somber mood.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "rain",
+          "greenery"
+        ],
+        "objects": [
+          "bench"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "melancholic",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "rainy"
+        ],
+        "concepts": [
+          "solitude",
+          "endurance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A wet cat sits on a rain-soaked pathway next to a park bench, with droplets glistening on its fur. The background is softly blurred, highlighting the cat's solitary presence in the gentle rain.",
+      "description": "The scene depicts a solitary cat sitting beside a park bench during a rain shower. The setting appears to be a park or garden, with greenery in the background and raindrops visible in the air.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "rain",
+          "park",
+          "greenery"
+        ],
+        "objects": [
+          "bench"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "solitude"
+        ],
+        "scenes": [
+          "outdoor",
+          "rainy"
+        ],
+        "concepts": [
+          "tranquility",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc9c0\ubd95\uc5c6\ub294 \uace0\uc591\uc774/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A wet cat walks cautiously across a rain-soaked surface, its fur clinging to its body. Raindrops are visible, adding to the sense of a fresh downpour.",
+      "description": "The scene captures a cat moving through a rainy environment, likely outdoors, with a focus on the texture of its wet fur and the rain.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "raindrops"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "cautious"
+        ],
+        "scenes": [
+          "outdoor",
+          "rainy"
+        ],
+        "concepts": [
+          "wet",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: rain, greenery, park. Objects: bench, raindrops. Actions: sitting, walking. Emotions: melancholic, serene, solitude, cautious. Scenes: rainy, outdoor, park. Concepts: solitude, endurance, tranquility, isolation, wet",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "rain",
+      "greenery",
+      "park"
+    ],
+    "objects": [
+      "bench",
+      "raindrops"
+    ],
+    "actions": [
+      "sitting",
+      "walking"
+    ],
+    "emotions": [
+      "melancholic",
+      "serene",
+      "solitude",
+      "cautious"
+    ],
+    "scenes": [
+      "rainy",
+      "outdoor",
+      "park"
+    ],
+    "concepts": [
+      "solitude",
+      "endurance",
+      "tranquility",
+      "isolation",
+      "wet"
+    ]
+  },
+  "metadata": {}
+}

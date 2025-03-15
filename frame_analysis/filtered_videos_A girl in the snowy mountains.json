@@ -1,0 +1,163 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A girl in the snowy mountains.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A girl in the snowy mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A girl in the snowy mountains/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person wearing a blue ski jacket and helmet poses for a selfie on a snowy mountain. The reflective goggles show a scenic view of the snow-covered landscape. The backdrop features majestic snow-capped mountains and evergreen trees.",
+      "description": "The scene captures a winter sports enthusiast taking a selfie on a snowy mountain. The setting is a picturesque alpine environment with clear skies and snow-covered peaks.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "ski helmet",
+          "ski goggles",
+          "ski jacket"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "winter sports",
+          "alpine landscape"
+        ],
+        "concepts": [
+          "outdoor recreation",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A girl in the snowy mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A girl in the snowy mountains/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing a blue ski jacket and helmet smiles broadly while standing on a snowy mountain slope. The reflective goggles show a hint of the surrounding snowy landscape under a clear blue sky.",
+      "description": "The scene captures a joyful moment on a snowy mountain, likely during a skiing or snowboarding trip. The person is dressed in winter sports gear, surrounded by a vast expanse of snow and distant snow-covered trees.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "snow",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "ski jacket",
+          "helmet",
+          "goggles"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "winter sports",
+          "outdoor",
+          "mountain"
+        ],
+        "concepts": [
+          "joy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A girl in the snowy mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A girl in the snowy mountains/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person wearing a blue ski jacket and a white helmet smiles broadly while standing on a snowy slope. The reflective goggles show a scenic view of the snowy landscape and clear blue sky.",
+      "description": "The scene captures a joyful moment on a sunny day in a snowy mountain setting, likely during a skiing or snowboarding trip.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "snow",
+          "mountain",
+          "sky"
+        ],
+        "objects": [
+          "helmet",
+          "goggles",
+          "ski jacket"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "snowy landscape",
+          "outdoor"
+        ],
+        "concepts": [
+          "winter sports",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: snow, mountains, trees, mountain, sky. Objects: ski jacket, helmet, goggles, ski helmet, ski goggles. Actions: smiling, selfie. Emotions: happiness, contentment. Scenes: winter sports, outdoor, alpine landscape, mountain, snowy landscape. Concepts: outdoor recreation, winter, joy, adventure, winter sports",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "trees",
+      "mountain",
+      "sky"
+    ],
+    "objects": [
+      "ski jacket",
+      "helmet",
+      "goggles",
+      "ski helmet",
+      "ski goggles"
+    ],
+    "actions": [
+      "smiling",
+      "selfie"
+    ],
+    "emotions": [
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "winter sports",
+      "outdoor",
+      "alpine landscape",
+      "mountain",
+      "snowy landscape"
+    ],
+    "concepts": [
+      "outdoor recreation",
+      "winter",
+      "joy",
+      "adventure",
+      "winter sports"
+    ]
+  },
+  "metadata": {}
+}

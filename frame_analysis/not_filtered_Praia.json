@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Praia.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Praia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Praia/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands on a sandy beach, smiling and holding drinks, with a backdrop of clear blue water and lush green mountains. The sky is bright with fluffy clouds, and several boats are anchored in the water nearby.",
+      "description": "The scene captures a sunny day at a beach with a couple enjoying their time by the sea. The setting includes a picturesque view of mountains and anchored boats, indicating a popular leisure spot.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "mountains",
+          "clouds"
+        ],
+        "objects": [
+          "boats",
+          "drinks"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "beach scene",
+          "vacation"
+        ],
+        "concepts": [
+          "leisure",
+          "summer"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Praia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Praia/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands is squeezing a colorful, soft object against a backdrop of a serene landscape. The sky is bright blue with fluffy white clouds, and a mountain is visible in the distance.",
+      "description": "The scene depicts a close-up view of hands manipulating a squishy, multicolored object, possibly a stress ball or clay, with a picturesque natural setting in the background. The setting suggests a peaceful outdoor environment, enhancing the tactile focus of the foreground action.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "mountain"
+        ],
+        "objects": [
+          "squishy object"
+        ],
+        "actions": [
+          "squeezing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "landscape"
+        ],
+        "concepts": [
+          "relaxation",
+          "tactile"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple, hands. Nature: clouds, beach, ocean, mountains, sky. Objects: boats, drinks, squishy object. Actions: standing, smiling, squeezing. Emotions: happiness, calm. Scenes: beach scene, vacation, outdoor, landscape. Concepts: leisure, summer, relaxation, tactile",
+  "primary_labels": {
+    "people": [
+      "couple",
+      "hands"
+    ],
+    "nature": [
+      "clouds",
+      "beach",
+      "ocean",
+      "mountains",
+      "sky"
+    ],
+    "objects": [
+      "boats",
+      "drinks",
+      "squishy object"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "squeezing"
+    ],
+    "emotions": [
+      "happiness",
+      "calm"
+    ],
+    "scenes": [
+      "beach scene",
+      "vacation",
+      "outdoor",
+      "landscape"
+    ],
+    "concepts": [
+      "leisure",
+      "summer",
+      "relaxation",
+      "tactile"
+    ]
+  },
+  "metadata": {}
+}

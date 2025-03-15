@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The alien Queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The alien Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The alien Queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is adorned in an intricately patterned, colorful garment with a metallic headdress. The vibrant attire is embellished with various geometric shapes and symbols, creating a futuristic and artistic appearance.",
+      "description": "The scene depicts a close-up of an individual wearing an elaborate and colorful outfit, set against a blurred background. The focus is on the detailed patterns and textures of the clothing and accessories, suggesting a blend of traditional and modern influences.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "garment",
+          "headdress",
+          "rings"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "futuristic",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The alien Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The alien Queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is adorned in an intricately decorated garment, featuring vibrant colors and various embellishments. Her expression is contemplative, and she gazes off to the side, with her hands gently clasped near her face. The background is subtly blurred, highlighting her as the focal point of the image.",
+      "description": "The scene captures a close-up of a woman in an ornate, colorful outfit, set against a dimly lit, modern background. The focus is on her detailed attire and thoughtful expression, creating an atmosphere of elegance and introspection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "garment",
+          "embellishments",
+          "rings"
+        ],
+        "actions": [
+          "gazing",
+          "clasping hands"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The alien Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The alien Queen/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is adorned in a richly decorated garment, featuring an array of colorful beads and embellishments. The scene captures a side profile, highlighting the intricate details of the attire against a blurred, modern background.",
+      "description": "The image portrays a person in an elaborate, bejeweled outfit, possibly in a futuristic or artistic setting. The focus is on the vibrant and detailed craftsmanship of the garment, suggesting a blend of tradition and modernity.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bejeweled garment",
+          "embellishments"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "futuristic setting"
+        ],
+        "concepts": [
+          "artistic expression",
+          "cultural fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: garment, rings, embellishments, headdress, bejeweled garment. Actions: posing, gazing, clasping hands. Emotions: serene, contemplative, serenity. Scenes: portrait, futuristic setting. Concepts: futuristic, artistic, elegance, introspection, artistic expression",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "garment",
+      "rings",
+      "embellishments",
+      "headdress",
+      "bejeweled garment"
+    ],
+    "actions": [
+      "posing",
+      "gazing",
+      "clasping hands"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "serenity"
+    ],
+    "scenes": [
+      "portrait",
+      "futuristic setting"
+    ],
+    "concepts": [
+      "futuristic",
+      "artistic",
+      "elegance",
+      "introspection",
+      "artistic expression"
+    ]
+  },
+  "metadata": {}
+}

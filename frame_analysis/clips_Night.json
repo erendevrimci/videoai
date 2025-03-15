@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Night.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Night/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman elegantly dressed in a dark green gown is seated on a plush teal sofa, sipping from a glass. The background reveals a cityscape through large windows, with a starry night sky adding to the ambiance.",
+      "description": "The scene is set in a luxurious indoor setting, possibly a high-rise apartment or a lounge, with a view of the city at night. The atmosphere is sophisticated and serene, with an emphasis on elegance and style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass",
+          "sofa",
+          "jewelry"
+        ],
+        "actions": [
+          "sipping"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "night"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Night/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant green dress sits on a plush green chair, gazing out at a city skyline through large windows. The night sky is dotted with stars, and a prominent building is illuminated in the distance.",
+      "description": "The scene is set in a luxurious, high-rise apartment with a panoramic view of a city at night. The atmosphere is sophisticated and serene, with the woman appearing contemplative as she enjoys the view.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "green dress",
+          "green chair",
+          "jewelry"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "luxurious apartment",
+          "city skyline"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Night/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman elegantly dressed in a green gown sits on a luxurious velvet sofa, gently holding a small animal. The city skyline, illuminated by twinkling lights, provides a stunning backdrop through the large window behind her.",
+      "description": "The scene is set in a sophisticated, high-rise apartment with a panoramic view of the city at night. The atmosphere is one of elegance and tranquility, highlighted by the woman's graceful demeanor and the soft lighting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "small animal"
+        ],
+        "nature": [],
+        "objects": [
+          "velvet sofa",
+          "window",
+          "city skyline"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "interior",
+          "night"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: jewelry, glass, sofa, green dress, green chair. Actions: sitting, sipping, gazing, holding. Emotions: serene, contemplative, calm, content. Scenes: night, indoor, luxurious apartment, city skyline, interior. Concepts: elegance, luxury, sophistication. Animals: small animal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "jewelry",
+      "glass",
+      "sofa",
+      "green dress",
+      "green chair"
+    ],
+    "actions": [
+      "sitting",
+      "sipping",
+      "gazing",
+      "holding"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "night",
+      "indoor",
+      "luxurious apartment",
+      "city skyline",
+      "interior"
+    ],
+    "concepts": [
+      "elegance",
+      "luxury",
+      "sophistication"
+    ],
+    "animals": [
+      "small animal"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

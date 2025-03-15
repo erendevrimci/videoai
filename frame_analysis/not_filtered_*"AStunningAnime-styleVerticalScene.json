@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/*\"AStunningAnime-styleVerticalScene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/*\"AStunningAnime-styleVerticalScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/*\"AStunningAnime-styleVerticalScene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A traditional wooden house stands amidst lush greenery, overlooking a serene pond filled with blooming lotus flowers. In the background, a herd of buffalo grazes peacefully in the expansive rice fields under a vibrant sunset sky.",
+      "description": "The scene depicts a tranquil rural setting with a traditional wooden house surrounded by tropical plants and a pond with lotus flowers. In the distance, buffalo roam the rice fields as the sun sets, casting a warm glow over the landscape.",
+      "labels": {
+        "nature": [
+          "lotus flowers",
+          "rice fields",
+          "palm trees",
+          "sunset"
+        ],
+        "animals": [
+          "buffalo"
+        ],
+        "objects": [
+          "wooden house",
+          "pond",
+          "stairs"
+        ],
+        "scenes": [
+          "rural",
+          "sunset"
+        ],
+        "emotions": [
+          "tranquility",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/*\"AStunningAnime-styleVerticalScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/*\"AStunningAnime-styleVerticalScene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A traditional wooden house stands beside a serene pond filled with blooming lotus flowers. In the background, a lush green rice field stretches towards the horizon, where buffaloes graze under a vibrant sunset sky. The scene is framed by large banana leaves, adding to the tropical atmosphere.",
+      "description": "The image depicts a tranquil rural setting at sunset, featuring a traditional wooden house, a lotus pond, and a rice field with grazing buffaloes. The warm colors of the sunset create a peaceful and idyllic atmosphere.",
+      "labels": {
+        "nature": [
+          "lotus flowers",
+          "banana leaves",
+          "rice field",
+          "sunset"
+        ],
+        "objects": [
+          "wooden house",
+          "pond"
+        ],
+        "animals": [
+          "buffaloes"
+        ],
+        "scenes": [
+          "rural landscape",
+          "tropical setting"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/*\"AStunningAnime-styleVerticalScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/*\"AStunningAnime-styleVerticalScene/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene rural landscape at sunset features a traditional wooden house overlooking lush green rice fields. Water buffaloes graze peacefully along a winding path, while lotus flowers bloom in a nearby pond. The sky is painted with vibrant hues of orange and pink, enhancing the tranquil atmosphere.",
+      "description": "The scene depicts a peaceful rural setting at sunset, with a traditional wooden house, rice fields, and grazing water buffaloes. The atmosphere is calm and serene, with warm colors illuminating the landscape.",
+      "labels": {
+        "nature": [
+          "rice fields",
+          "lotus flowers",
+          "palm trees",
+          "sunset"
+        ],
+        "animals": [
+          "water buffaloes"
+        ],
+        "objects": [
+          "wooden house",
+          "pond"
+        ],
+        "actions": [
+          "grazing"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "rural landscape",
+          "sunset"
+        ],
+        "concepts": [
+          "peacefulness",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: lotus flowers, sunset, rice fields, palm trees, banana leaves. Animals: buffalo, buffaloes, water buffaloes. Objects: wooden house, pond, stairs. Scenes: sunset, rural landscape, rural, tropical setting. Emotions: tranquility, peacefulness, serenity. Actions: grazing. Concepts: peacefulness, nature",
+  "primary_labels": {
+    "nature": [
+      "lotus flowers",
+      "sunset",
+      "rice fields",
+      "palm trees",
+      "banana leaves"
+    ],
+    "animals": [
+      "buffalo",
+      "buffaloes",
+      "water buffaloes"
+    ],
+    "objects": [
+      "wooden house",
+      "pond",
+      "stairs"
+    ],
+    "scenes": [
+      "sunset",
+      "rural landscape",
+      "rural",
+      "tropical setting"
+    ],
+    "emotions": [
+      "tranquility",
+      "peacefulness",
+      "serenity"
+    ],
+    "actions": [
+      "grazing"
+    ],
+    "concepts": [
+      "peacefulness",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

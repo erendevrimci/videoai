@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hotel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hotel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hotel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious resort is illuminated at dusk, with a stunning view of a large pool and surrounding cabanas. The scene overlooks a vast beach and ocean, with mountains in the background under a colorful sunset sky.",
+      "description": "The image captures a high-end resort setting during sunset, featuring a multi-level structure with bright lights and a vibrant pool area. The resort is situated by the ocean, offering a picturesque view of the coastline and distant mountains.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "beach",
+          "mountains",
+          "sunset"
+        ],
+        "objects": [
+          "resort",
+          "pool",
+          "cabanas",
+          "yacht"
+        ],
+        "scenes": [
+          "luxury resort",
+          "coastal view",
+          "sunset"
+        ],
+        "emotions": [
+          "relaxation",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hotel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hotel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image captures a luxurious beachfront resort at sunset, with vibrant lights illuminating the buildings and pool area. The scene overlooks a serene beach with palm trees and distant mountains under a colorful sky.",
+      "description": "This is a vibrant sunset scene at a beachfront resort, showcasing a lively atmosphere with illuminated buildings and a glowing pool. The setting is tropical, with palm trees and a beach extending into the distance, framed by mountains.",
+      "labels": {
+        "nature": [
+          "beach",
+          "palm trees",
+          "mountains",
+          "sunset"
+        ],
+        "objects": [
+          "resort",
+          "pool",
+          "buildings",
+          "lights"
+        ],
+        "actions": [
+          "illuminating"
+        ],
+        "emotions": [
+          "vibrant",
+          "serene"
+        ],
+        "scenes": [
+          "beachfront",
+          "resort",
+          "sunset"
+        ],
+        "concepts": [
+          "luxury",
+          "vacation",
+          "tropical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hotel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hotel/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "The image captures a luxurious resort complex at sunset, with a stunning view of the ocean and surrounding landscape. The resort is illuminated with warm lights, highlighting its modern architecture and multiple levels. The coastline stretches into the distance, bordered by lush greenery and mountains.",
+      "description": "This scene depicts a coastal resort at dusk, showcasing a blend of natural beauty and architectural elegance. The setting sun casts a warm glow over the ocean, while the resort's lights create a vibrant and inviting atmosphere.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "coastline",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "resort",
+          "buildings",
+          "lights",
+          "pools"
+        ],
+        "scenes": [
+          "sunset",
+          "aerial view"
+        ],
+        "emotions": [
+          "relaxation",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: mountains, ocean, beach, sunset, palm trees. Objects: resort, pool, buildings, lights, cabanas. Scenes: sunset, luxury resort, coastal view, beachfront, resort. Emotions: relaxation, luxury, vibrant, serene. Actions: illuminating. Concepts: luxury, vacation, tropical",
+  "primary_labels": {
+    "nature": [
+      "mountains",
+      "ocean",
+      "beach",
+      "sunset",
+      "palm trees"
+    ],
+    "objects": [
+      "resort",
+      "pool",
+      "buildings",
+      "lights",
+      "cabanas"
+    ],
+    "scenes": [
+      "sunset",
+      "luxury resort",
+      "coastal view",
+      "beachfront",
+      "resort"
+    ],
+    "emotions": [
+      "relaxation",
+      "luxury",
+      "vibrant",
+      "serene"
+    ],
+    "actions": [
+      "illuminating"
+    ],
+    "concepts": [
+      "luxury",
+      "vacation",
+      "tropical"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The coolest vintage cat model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The coolest vintage cat model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The coolest vintage cat model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed in Victorian-era attire confidently walks down a cobblestone street. It wears a top hat and carries two walking canes, exuding an air of sophistication.",
+      "description": "The scene depicts a surreal and whimsical setting where a cat, dressed in formal Victorian clothing, strolls through an old city street. The atmosphere is both amusing and intriguing, blending historical fashion with a playful twist.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "top hat",
+          "walking canes",
+          "Victorian clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "sophisticated",
+          "whimsical"
+        ],
+        "scenes": [
+          "city street",
+          "cobblestone"
+        ],
+        "concepts": [
+          "surreal",
+          "historical fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The coolest vintage cat model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The coolest vintage cat model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in Victorian-era attire, complete with a top hat and a formal suit, confidently walks down a cobblestone street. The scene is set in an old city with tall brick buildings lining the narrow path.",
+      "description": "The image depicts a whimsical scene where a cat, anthropomorphized with formal clothing, strolls through a historic urban setting. The atmosphere is both surreal and charming, blending elements of fantasy with a vintage backdrop.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "top hat",
+          "suit",
+          "cobblestone street",
+          "walking canes"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "fantasy",
+          "Victorian era"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: top hat, walking canes, Victorian clothing, suit, cobblestone street. Actions: walking. Emotions: sophisticated, whimsical, confident. Scenes: city street, cobblestone, urban, historic. Concepts: surreal, historical fashion, anthropomorphism, fantasy, Victorian era",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "top hat",
+      "walking canes",
+      "Victorian clothing",
+      "suit",
+      "cobblestone street"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "sophisticated",
+      "whimsical",
+      "confident"
+    ],
+    "scenes": [
+      "city street",
+      "cobblestone",
+      "urban",
+      "historic"
+    ],
+    "concepts": [
+      "surreal",
+      "historical fashion",
+      "anthropomorphism",
+      "fantasy",
+      "Victorian era"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSlowlyFloatingOnThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSlowlyFloatingOnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipSlowlyFloatingOnThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic aircraft carrier with sleek, modern design elements cuts through the ocean waters. The ship features advanced technology and a prominent logo on its bow, suggesting a blend of military and commercial branding.",
+      "description": "The scene depicts a large, futuristic aircraft carrier navigating through the ocean. The ship's design is sleek and modern, with glowing blue lights and a recognizable logo at the front, indicating a fusion of military and commercial aesthetics.",
+      "labels": {
+        "objects": [
+          "aircraft carrier",
+          "logo",
+          "ocean"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "emotions": [
+          "futuristic",
+          "powerful"
+        ],
+        "scenes": [
+          "ocean",
+          "technology"
+        ],
+        "concepts": [
+          "innovation",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSlowlyFloatingOnThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipSlowlyFloatingOnThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic aircraft carrier with sleek, modern design elements cuts through the ocean waves. The vessel is adorned with glowing blue lights and a prominent logo at the front, set against a dramatic sky with lightning in the distance.",
+      "description": "The scene depicts a technologically advanced aircraft carrier navigating through the ocean. The setting is dynamic, with the ship moving swiftly through the water, and the sky above is charged with energy, featuring a striking lightning bolt.",
+      "labels": {
+        "objects": [
+          "aircraft carrier",
+          "ocean",
+          "logo",
+          "lights"
+        ],
+        "actions": [
+          "moving",
+          "navigating"
+        ],
+        "emotions": [
+          "futuristic",
+          "powerful"
+        ],
+        "scenes": [
+          "ocean",
+          "stormy sky"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: aircraft carrier, logo, ocean, lights. Actions: sailing, moving, navigating. Emotions: futuristic, powerful. Scenes: ocean, technology, stormy sky. Concepts: innovation, modernity, technology",
+  "primary_labels": {
+    "objects": [
+      "aircraft carrier",
+      "logo",
+      "ocean",
+      "lights"
+    ],
+    "actions": [
+      "sailing",
+      "moving",
+      "navigating"
+    ],
+    "emotions": [
+      "futuristic",
+      "powerful"
+    ],
+    "scenes": [
+      "ocean",
+      "technology",
+      "stormy sky"
+    ],
+    "concepts": [
+      "innovation",
+      "modernity",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

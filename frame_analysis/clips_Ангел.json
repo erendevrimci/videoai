@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0410\u043d\u0433\u0435\u043b.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0410\u043d\u0433\u0435\u043b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0410\u043d\u0433\u0435\u043b/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands against a dark background, partially wrapped in a black garment. Her expression is contemplative as she gazes into the distance.",
+      "description": "The scene captures a woman in a serene and introspective moment, set against a simple, dark backdrop. The focus is on her thoughtful expression and the gentle drape of the fabric around her shoulders.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black garment"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "introspection",
+          "simplicity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0410\u043d\u0433\u0435\u043b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0410\u043d\u0433\u0435\u043b/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure with large, luminous wings stands gracefully, dressed in an elegant gown with golden accents. The scene is illuminated from behind, creating a halo effect around the wings, enhancing the ethereal atmosphere.",
+      "description": "The scene depicts a mystical and serene setting, possibly representing an angelic or fantasy theme. The focus is on the figure's back, highlighting the intricate details of the wings and gown.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "wings",
+          "gown"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "angelic",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, figure. Objects: black garment, wings, gown. Actions: standing, gazing. Emotions: serene, contemplative. Scenes: portrait, fantasy, mystical. Concepts: introspection, simplicity, angelic, ethereal",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "figure"
+    ],
+    "objects": [
+      "black garment",
+      "wings",
+      "gown"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "portrait",
+      "fantasy",
+      "mystical"
+    ],
+    "concepts": [
+      "introspection",
+      "simplicity",
+      "angelic",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

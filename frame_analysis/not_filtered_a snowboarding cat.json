@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a snowboarding cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a snowboarding cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a snowboarding cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A playful scene depicts a kitten dressed in a snowsuit, skillfully snowboarding down a snowy slope. The background features a clear blue sky and blurred evergreen trees, adding to the wintry atmosphere. Snowflakes are scattered in the air, enhancing the dynamic motion of the scene.",
+      "description": "The image captures a whimsical moment where a kitten, dressed in winter attire, is snowboarding in a snowy landscape. The setting is a bright, sunny winter day with a clear sky and snow-covered trees in the background.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "snowboard",
+          "snowsuit"
+        ],
+        "actions": [
+          "snowboarding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a snowboarding cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a snowboarding cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A kitten dressed in a gray snowsuit is snowboarding down a snowy slope. The scene captures the playful and whimsical nature of the kitten as it balances on the snowboard amidst a winter landscape.",
+      "description": "The scene is set in a snowy, winter environment with a clear blue sky and snow-covered trees in the background. A kitten, humorously dressed in a snowsuit, is actively snowboarding, creating a playful and lighthearted atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "snowsuit",
+          "snowboard"
+        ],
+        "actions": [
+          "snowboarding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsical",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Nature: snow, trees, sky. Objects: snowboard, snowsuit. Actions: snowboarding. Emotions: playful. Scenes: winter, outdoor. Concepts: whimsy, fun, whimsical, humor",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "nature": [
+      "snow",
+      "trees",
+      "sky"
+    ],
+    "objects": [
+      "snowboard",
+      "snowsuit"
+    ],
+    "actions": [
+      "snowboarding"
+    ],
+    "emotions": [
+      "playful"
+    ],
+    "scenes": [
+      "winter",
+      "outdoor"
+    ],
+    "concepts": [
+      "whimsy",
+      "fun",
+      "whimsical",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

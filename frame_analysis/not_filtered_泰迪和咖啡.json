@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6cf0\u8fea\u548c\u5496\u5561.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6cf0\u8fea\u548c\u5496\u5561.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u6cf0\u8fea\u548c\u5496\u5561/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy brown dog is sitting on a chair in a kitchen, holding a small red cup. The dog appears to be wearing a cute outfit, adding to the playful atmosphere of the scene.",
+      "description": "The scene is set in a cozy kitchen with warm lighting. A small dog is the focal point, sitting on a chair and holding a cup, creating a whimsical and charming moment.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "chair",
+          "cup",
+          "table",
+          "kitchen"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "charming"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "coziness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6cf0\u8fea\u548c\u5496\u5561.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u6cf0\u8fea\u548c\u5496\u5561/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy dog dressed in a cute outfit sits on a chair, holding a small red cup. The background reveals a cozy kitchen setting with a table set for tea.",
+      "description": "The scene captures a charming moment in a kitchen where a dog, dressed in a pink outfit, is seated on a chair holding a red cup. The kitchen is warmly lit, with visible cabinets and a table set with cups and plates, suggesting a casual, homey atmosphere.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "cup",
+          "chair",
+          "table",
+          "kitchen"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cute",
+          "playful"
+        ],
+        "scenes": [
+          "kitchen",
+          "indoor"
+        ],
+        "concepts": [
+          "coziness",
+          "domestic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: chair, cup, table, kitchen. Actions: sitting, holding. Emotions: playful, charming, cute. Scenes: kitchen, indoor. Concepts: coziness, whimsy, domestic life",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "chair",
+      "cup",
+      "table",
+      "kitchen"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "charming",
+      "cute"
+    ],
+    "scenes": [
+      "kitchen",
+      "indoor"
+    ],
+    "concepts": [
+      "coziness",
+      "whimsy",
+      "domestic life"
+    ]
+  },
+  "metadata": {}
+}

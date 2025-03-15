@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALitCandle,ABurning.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALitCandle,ABurning.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALitCandle,ABurning/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warm candle glows softly on a wooden windowsill, accompanied by a vase of delicate pink flowers. The window offers a breathtaking view of a vibrant sunset over rolling hills and distant mountains.",
+      "description": "The scene captures a tranquil moment indoors, with a focus on a candlelit setting by a window. Outside, the sun sets over a picturesque landscape, casting a warm glow through the glass.",
+      "labels": {
+        "objects": [
+          "candle",
+          "vase",
+          "flowers",
+          "windowsill"
+        ],
+        "nature": [
+          "sunset",
+          "mountains",
+          "hills"
+        ],
+        "emotions": [
+          "tranquility",
+          "warmth"
+        ],
+        "scenes": [
+          "indoor",
+          "landscape"
+        ],
+        "concepts": [
+          "serenity",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ALitCandle,ABurning.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ALitCandle,ABurning/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warm candle glows on a rustic wooden windowsill, casting a gentle light on a vase of delicate flowers. Beyond the window, a breathtaking sunset paints the sky in vibrant hues of orange and pink over distant mountains.",
+      "description": "The scene captures a tranquil moment indoors with a focus on a lit candle and flowers by a window, overlooking a scenic sunset view of mountains.",
+      "labels": {
+        "objects": [
+          "candle",
+          "vase",
+          "flowers",
+          "windowsill",
+          "window"
+        ],
+        "nature": [
+          "sunset",
+          "mountains"
+        ],
+        "scenes": [
+          "indoor",
+          "sunset view"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: candle, vase, flowers, windowsill, window. Nature: sunset, mountains, hills. Emotions: tranquility, warmth, calm, serene. Scenes: indoor, landscape, sunset view. Concepts: serenity, coziness",
+  "primary_labels": {
+    "objects": [
+      "candle",
+      "vase",
+      "flowers",
+      "windowsill",
+      "window"
+    ],
+    "nature": [
+      "sunset",
+      "mountains",
+      "hills"
+    ],
+    "emotions": [
+      "tranquility",
+      "warmth",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "indoor",
+      "landscape",
+      "sunset view"
+    ],
+    "concepts": [
+      "serenity",
+      "coziness"
+    ]
+  },
+  "metadata": {}
+}

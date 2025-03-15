@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The martyrs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The martyrs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The martyrs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of ethereal figures, draped in flowing robes, kneel in reverence beneath a radiant celestial being. The scene is illuminated by a divine light, casting a heavenly glow over the assembly. Winged figures hover in the air, adding to the mystical atmosphere.",
+      "description": "The scene depicts a celestial gathering, possibly in a heavenly or divine setting. Figures are shown kneeling in worship or adoration, while others float gracefully above, suggesting a spiritual or otherworldly event.",
+      "labels": {
+        "people": [
+          "ethereal figures",
+          "celestial being"
+        ],
+        "nature": [],
+        "objects": [
+          "flowing robes",
+          "columns"
+        ],
+        "actions": [
+          "kneeling",
+          "hovering"
+        ],
+        "emotions": [
+          "reverence",
+          "adoration"
+        ],
+        "scenes": [
+          "celestial gathering",
+          "heavenly setting"
+        ],
+        "concepts": [
+          "divinity",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The martyrs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The martyrs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of robed figures kneel in reverence within a grand, ornate hall. Above them, ethereal beings draped in flowing garments descend from a luminous source. The atmosphere is one of awe and divine presence.",
+      "description": "The scene is set in a majestic hall with towering columns and intricate architectural details. A group of individuals, cloaked in robes, kneel in a semi-circle, gazing upwards. Above them, celestial figures appear to descend from a radiant light, creating a sense of spiritual or divine encounter.",
+      "labels": {
+        "people": [
+          "group",
+          "kneeling figures"
+        ],
+        "objects": [
+          "robes",
+          "columns",
+          "ornate architecture"
+        ],
+        "actions": [
+          "kneeling",
+          "gazing"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "divine encounter",
+          "spiritual gathering"
+        ],
+        "concepts": [
+          "spirituality",
+          "divinity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The martyrs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The martyrs/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Four figures stand in a grand hall, gazing upwards towards a radiant, celestial light. Their robes shimmer with blue accents, reflecting the ethereal glow from above.",
+      "description": "The scene is set in a majestic, cathedral-like space with ornate columns and a luminous, otherworldly light source overhead. The figures appear to be in awe or reverence, suggesting a moment of significance or revelation.",
+      "labels": {
+        "people": [
+          "figures"
+        ],
+        "objects": [
+          "robes",
+          "columns"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "cathedral",
+          "celestial"
+        ],
+        "concepts": [
+          "mystical",
+          "spiritual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: ethereal figures, celestial being, group, kneeling figures, figures. Objects: columns, robes, flowing robes, ornate architecture. Actions: kneeling, gazing, hovering, standing. Emotions: reverence, awe, adoration. Scenes: celestial gathering, heavenly setting, divine encounter, spiritual gathering, cathedral. Concepts: divinity, spirituality, mystical, spiritual",
+  "primary_labels": {
+    "people": [
+      "ethereal figures",
+      "celestial being",
+      "group",
+      "kneeling figures",
+      "figures"
+    ],
+    "nature": [],
+    "objects": [
+      "columns",
+      "robes",
+      "flowing robes",
+      "ornate architecture"
+    ],
+    "actions": [
+      "kneeling",
+      "gazing",
+      "hovering",
+      "standing"
+    ],
+    "emotions": [
+      "reverence",
+      "awe",
+      "adoration"
+    ],
+    "scenes": [
+      "celestial gathering",
+      "heavenly setting",
+      "divine encounter",
+      "spiritual gathering",
+      "cathedral"
+    ],
+    "concepts": [
+      "divinity",
+      "spirituality",
+      "mystical",
+      "spiritual"
+    ]
+  },
+  "metadata": {}
+}

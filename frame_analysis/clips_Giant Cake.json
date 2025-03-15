@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Cake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant Cake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene of two small figurines on top of a cake, surrounded by colorful sprinkles and a lit candle. The figurines appear to be engaged in a playful activity amidst the vibrant decorations.",
+      "description": "The image captures a close-up view of a cake adorned with colorful sprinkles and topped with two small figurines. A lit candle adds a warm glow to the scene, creating a festive atmosphere.",
+      "labels": {
+        "objects": [
+          "cake",
+          "candle",
+          "figurines",
+          "sprinkles"
+        ],
+        "actions": [
+          "playing",
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "festive"
+        ],
+        "scenes": [
+          "celebration",
+          "birthday"
+        ],
+        "concepts": [
+          "miniature",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant Cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant Cake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a decorated cake features two small figurines of children playing among colorful sprinkles and flowers. A single lit candle stands prominently, casting a warm glow over the scene.",
+      "description": "The scene depicts a whimsical and festive setting on top of a cake, adorned with playful figurines and vibrant decorations, suggesting a celebration or birthday atmosphere.",
+      "labels": {
+        "objects": [
+          "cake",
+          "candle",
+          "figurines",
+          "sprinkles",
+          "flowers"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "festive",
+          "joyful"
+        ],
+        "scenes": [
+          "celebration",
+          "birthday"
+        ],
+        "concepts": [
+          "miniature",
+          "decoration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: cake, candle, figurines, sprinkles, flowers. Actions: playing, decorating. Emotions: festive, playful, joyful. Scenes: celebration, birthday. Concepts: miniature, whimsy, decoration",
+  "primary_labels": {
+    "objects": [
+      "cake",
+      "candle",
+      "figurines",
+      "sprinkles",
+      "flowers"
+    ],
+    "actions": [
+      "playing",
+      "decorating"
+    ],
+    "emotions": [
+      "festive",
+      "playful",
+      "joyful"
+    ],
+    "scenes": [
+      "celebration",
+      "birthday"
+    ],
+    "concepts": [
+      "miniature",
+      "whimsy",
+      "decoration"
+    ]
+  },
+  "metadata": {}
+}

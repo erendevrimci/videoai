@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GeneratesAVideoOfThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GeneratesAVideoOfThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GeneratesAVideoOfThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features two individuals standing side by side against a plain background. One person is dressed in modern attire with a leather jacket and white pants, while the other is wearing a flowing robe with arms outstretched.",
+      "description": "The scene depicts a juxtaposition of contemporary and traditional styles, with both figures standing in a neutral space. The contrast in clothing suggests a blend of modern and historical elements.",
+      "labels": {
+        "people": [
+          "man",
+          "person in robe"
+        ],
+        "objects": [
+          "leather jacket",
+          "white pants",
+          "robe"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "contrast",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GeneratesAVideoOfThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GeneratesAVideoOfThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals are embracing warmly against a plain background. One person is wearing a leather jacket and white pants, while the other is in a long, flowing robe. Their expressions convey a sense of connection and warmth.",
+      "description": "The scene depicts a heartfelt embrace between two people, highlighting themes of friendship and acceptance. The setting is minimalistic, focusing attention on the interaction between the individuals.",
+      "labels": {
+        "people": [
+          "two people",
+          "embrace"
+        ],
+        "objects": [
+          "leather jacket",
+          "robe"
+        ],
+        "actions": [
+          "hugging"
+        ],
+        "emotions": [
+          "warmth",
+          "connection"
+        ],
+        "scenes": [
+          "minimalistic"
+        ],
+        "concepts": [
+          "friendship",
+          "acceptance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person in robe, two people, embrace. Objects: leather jacket, robe, white pants. Actions: standing, arms outstretched, hugging. Emotions: neutral, warmth, connection. Scenes: studio, minimalistic. Concepts: contrast, juxtaposition, friendship, acceptance",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person in robe",
+      "two people",
+      "embrace"
+    ],
+    "objects": [
+      "leather jacket",
+      "robe",
+      "white pants"
+    ],
+    "actions": [
+      "standing",
+      "arms outstretched",
+      "hugging"
+    ],
+    "emotions": [
+      "neutral",
+      "warmth",
+      "connection"
+    ],
+    "scenes": [
+      "studio",
+      "minimalistic"
+    ],
+    "concepts": [
+      "contrast",
+      "juxtaposition",
+      "friendship",
+      "acceptance"
+    ]
+  },
+  "metadata": {}
+}

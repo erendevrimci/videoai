@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Liu and Calaf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Liu and Calaf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Liu and Calaf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a grand courtyard, a woman kneels on the stone pavement, her hand placed thoughtfully on her chest. Behind her stands a man in dark traditional attire, both set against the backdrop of an imposing ancient building under a dramatic sky.",
+      "description": "The scene is set in a historical or cultural courtyard, likely of Asian influence, with traditional architecture. The atmosphere is tense and dramatic, with a focus on the interaction between the two individuals.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [],
+        "objects": [
+          "ancient building",
+          "stone pavement"
+        ],
+        "actions": [
+          "kneeling",
+          "standing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "tense"
+        ],
+        "scenes": [
+          "courtyard",
+          "historical setting"
+        ],
+        "concepts": [
+          "tradition",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Liu and Calaf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Liu and Calaf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman and a man stand in front of a traditional Asian palace under a dramatic, cloudy sky. The woman appears concerned, while the man stands protectively behind her, both dressed in period clothing.",
+      "description": "The scene is set in front of an ancient Asian palace, with two individuals standing on a large stone courtyard. The atmosphere is tense, emphasized by the dark, looming clouds overhead.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "objects": [
+          "palace",
+          "stone courtyard"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "concern",
+          "protection"
+        ],
+        "scenes": [
+          "historical setting",
+          "dramatic"
+        ],
+        "concepts": [
+          "protection",
+          "tension"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Nature: cloudy sky. Objects: ancient building, stone pavement, palace, stone courtyard. Actions: standing, kneeling. Emotions: thoughtful, tense, concern, protection. Scenes: historical setting, courtyard, dramatic. Concepts: tradition, drama, protection, tension",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "nature": [
+      "cloudy sky"
+    ],
+    "objects": [
+      "ancient building",
+      "stone pavement",
+      "palace",
+      "stone courtyard"
+    ],
+    "actions": [
+      "standing",
+      "kneeling"
+    ],
+    "emotions": [
+      "thoughtful",
+      "tense",
+      "concern",
+      "protection"
+    ],
+    "scenes": [
+      "historical setting",
+      "courtyard",
+      "dramatic"
+    ],
+    "concepts": [
+      "tradition",
+      "drama",
+      "protection",
+      "tension"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSpeak.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSpeak.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheSpeak/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman sits at a table with various objects in front of her, speaking directly to the camera. She is wearing a white blouse and has a calm expression.",
+      "description": "The scene is set in a simple, indoor environment with a neutral background. The woman appears to be engaged in a conversation or presentation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "table",
+          "blouse",
+          "containers",
+          "plates"
+        ],
+        "actions": [
+          "sitting",
+          "speaking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "presentation"
+        ],
+        "concepts": [
+          "communication",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSpeak.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheSpeak/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with shoulder-length hair is seated at a table, wearing a white blouse. She is looking directly at the camera with a slight smile, exuding a calm and professional demeanor.",
+      "description": "The scene depicts a woman in a professional setting, possibly during an interview or presentation. The background is plain, emphasizing the subject.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "table",
+          "blouse"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "professional"
+        ],
+        "scenes": [
+          "interview",
+          "presentation"
+        ],
+        "concepts": [
+          "professionalism",
+          "communication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheSpeak.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheSpeak/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with shoulder-length hair is looking directly at the camera with a gentle smile. She is wearing a white blouse against a plain, light-colored background.",
+      "description": "The scene features a close-up of a woman in a calm and neutral setting, likely an indoor environment. The focus is on her facial expression and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse"
+        ],
+        "emotions": [
+          "calm",
+          "gentle"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "focus",
+          "neutral background"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, table, containers, plates. Actions: sitting, speaking. Emotions: calm, professional, gentle. Scenes: indoor, presentation, interview, portrait. Concepts: communication, interaction, professionalism, focus, neutral background",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "table",
+      "containers",
+      "plates"
+    ],
+    "actions": [
+      "sitting",
+      "speaking"
+    ],
+    "emotions": [
+      "calm",
+      "professional",
+      "gentle"
+    ],
+    "scenes": [
+      "indoor",
+      "presentation",
+      "interview",
+      "portrait"
+    ],
+    "concepts": [
+      "communication",
+      "interaction",
+      "professionalism",
+      "focus",
+      "neutral background"
+    ]
+  },
+  "metadata": {}
+}

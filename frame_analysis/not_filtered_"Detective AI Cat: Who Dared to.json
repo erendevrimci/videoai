@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"Detective AI Cat: Who Dared to.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"Detective AI Cat: Who Dared to.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"Detective AI Cat: Who Dared to/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as a detective stands on a cobblestone street under a full moon. The feline wears a classic detective outfit, complete with a deerstalker hat and magnifying glass. Street lamps cast a warm glow, adding to the mysterious atmosphere.",
+      "description": "The scene is set in a foggy, moonlit street reminiscent of a classic detective story. A cat, anthropomorphically dressed as a detective, is the central figure, suggesting a playful and imaginative take on a mystery-solving scenario.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "deerstalker hat",
+          "magnifying glass",
+          "street lamps"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "playful"
+        ],
+        "scenes": [
+          "street",
+          "night"
+        ],
+        "concepts": [
+          "detective",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"Detective AI Cat: Who Dared to.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"Detective AI Cat: Who Dared to/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands is squeezing a textured object under a cloudy night sky. The scene is set on a cobblestone street illuminated by vintage street lamps, with a full moon visible in the background.",
+      "description": "The image depicts a nighttime street scene with a focus on hands manipulating a textured object. The setting is atmospheric, with cobblestones, glowing street lamps, and a full moon, creating a mysterious and slightly eerie ambiance.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "textured object",
+          "street lamps",
+          "cobblestones"
+        ],
+        "nature": [
+          "moon",
+          "cloudy sky"
+        ],
+        "actions": [
+          "squeezing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "night street"
+        ],
+        "concepts": [
+          "mystery",
+          "nighttime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: street lamps, deerstalker hat, magnifying glass, textured object, cobblestones. Actions: standing, squeezing. Emotions: mysterious, playful. Scenes: street, night, night street. Concepts: detective, anthropomorphism, mystery, nighttime. People: hands. Nature: moon, cloudy sky",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "street lamps",
+      "deerstalker hat",
+      "magnifying glass",
+      "textured object",
+      "cobblestones"
+    ],
+    "actions": [
+      "standing",
+      "squeezing"
+    ],
+    "emotions": [
+      "mysterious",
+      "playful"
+    ],
+    "scenes": [
+      "street",
+      "night",
+      "night street"
+    ],
+    "concepts": [
+      "detective",
+      "anthropomorphism",
+      "mystery",
+      "nighttime"
+    ],
+    "people": [
+      "hands"
+    ],
+    "nature": [
+      "moon",
+      "cloudy sky"
+    ]
+  },
+  "metadata": {}
+}

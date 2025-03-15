@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Princess of the Germany.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Princess of the Germany.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Princess of the Germany/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An anthropomorphic eagle, adorned with a regal crown and luxurious robes, stands in a grand, medieval-style hall. The eagle holds an ornate scepter and a richly decorated orb, exuding an air of authority and majesty.",
+      "description": "The scene is set in a grand medieval hall, featuring an anthropomorphic eagle dressed as a monarch. The setting is opulent, with stone columns and dim candlelight creating a majestic and historical atmosphere.",
+      "labels": {
+        "animals": [
+          "eagle"
+        ],
+        "objects": [
+          "crown",
+          "scepter",
+          "orb",
+          "robes"
+        ],
+        "scenes": [
+          "medieval hall",
+          "royal setting"
+        ],
+        "concepts": [
+          "royalty",
+          "authority"
+        ],
+        "emotions": [
+          "majesty",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Princess of the Germany.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Princess of the Germany/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An eagle-headed figure stands regally in a grand hall, adorned in royal attire. The figure wears a golden crown and holds a scepter, exuding an aura of authority and majesty.",
+      "description": "The scene depicts a majestic eagle-headed character in a royal setting, likely a throne room or palace. The figure is dressed in elaborate robes with intricate patterns and jewels, suggesting a position of power and nobility.",
+      "labels": {
+        "animals": [
+          "eagle"
+        ],
+        "objects": [
+          "crown",
+          "scepter",
+          "robes"
+        ],
+        "scenes": [
+          "royal hall",
+          "throne room"
+        ],
+        "emotions": [
+          "regal",
+          "majestic"
+        ],
+        "concepts": [
+          "authority",
+          "nobility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: eagle. Objects: crown, scepter, robes, orb. Scenes: medieval hall, royal setting, royal hall, throne room. Concepts: authority, royalty, nobility. Emotions: majesty, power, regal, majestic",
+  "primary_labels": {
+    "animals": [
+      "eagle"
+    ],
+    "objects": [
+      "crown",
+      "scepter",
+      "robes",
+      "orb"
+    ],
+    "scenes": [
+      "medieval hall",
+      "royal setting",
+      "royal hall",
+      "throne room"
+    ],
+    "concepts": [
+      "authority",
+      "royalty",
+      "nobility"
+    ],
+    "emotions": [
+      "majesty",
+      "power",
+      "regal",
+      "majestic"
+    ]
+  },
+  "metadata": {}
+}

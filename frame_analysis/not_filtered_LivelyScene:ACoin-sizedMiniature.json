@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LivelyScene:ACoin-sizedMiniature.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LivelyScene:ACoin-sizedMiniature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LivelyScene:ACoin-sizedMiniature/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, fluffy rabbit is being gently held up by a hand in front of a blurred urban background. The rabbit is wearing a bright red knit hat, adding a whimsical touch to the scene.",
+      "description": "The scene captures a cute rabbit in an urban setting, possibly outside a cafe or shop, as indicated by the blurred lights and reflections in the background. The focus is on the rabbit, creating a charming and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "hat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "cute",
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "whimsy",
+          "adorableness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LivelyScene:ACoin-sizedMiniature.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LivelyScene:ACoin-sizedMiniature/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, fluffy rabbit wearing a red knit hat is gently held by a person's hands. The background features a blurred urban setting with warm lights, suggesting a cozy atmosphere.",
+      "description": "The scene captures a cute rabbit in an urban environment, likely outside a caf\u00e9 or shop, as indicated by the blurred lights and glass reflections. The rabbit's red hat adds a playful touch to the scene.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "red knit hat"
+        ],
+        "actions": [
+          "being held"
+        ],
+        "emotions": [
+          "cute",
+          "cozy"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "adorable",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit. Objects: hat, red knit hat. Actions: holding, being held. Emotions: cute, playful, cozy. Scenes: urban, outdoor. Concepts: whimsy, adorableness, adorable, playful",
+  "primary_labels": {
+    "animals": [
+      "rabbit"
+    ],
+    "objects": [
+      "hat",
+      "red knit hat"
+    ],
+    "actions": [
+      "holding",
+      "being held"
+    ],
+    "emotions": [
+      "cute",
+      "playful",
+      "cozy"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor"
+    ],
+    "concepts": [
+      "whimsy",
+      "adorableness",
+      "adorable",
+      "playful"
+    ]
+  },
+  "metadata": {}
+}

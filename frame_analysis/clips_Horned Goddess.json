@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Horned Goddess.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Horned Goddess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Horned Goddess/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure adorned with intricate jewelry and tattoos gazes intensely at the viewer. Her elaborate headdress features large horns and ornate decorations, blending seamlessly with her dark, flowing hair.",
+      "description": "The scene depicts a fantasy character set against a lush, blurred forest background. The focus is on the figure's detailed attire and accessories, creating an ethereal and enigmatic atmosphere.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "objects": [
+          "headdress",
+          "jewelry",
+          "tattoos"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "intense",
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "mysticism",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Horned Goddess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Horned Goddess/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical figure stands adorned with elaborate jewelry and intricate tattoos, set against a lush forest backdrop. Her elaborate headpiece features large, spiraled horns and ornate designs, enhancing her otherworldly appearance. The scene is rich with earthy tones and a sense of enchantment.",
+      "description": "The image depicts a fantasy character in a forest setting, showcasing a blend of nature and mystical elements. The figure's attire and accessories suggest a connection to ancient or mythical themes.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "jewelry",
+          "headpiece",
+          "horns"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "mystical",
+          "enchanting"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "mysticism",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fantasy character. Objects: jewelry, headdress, tattoos, headpiece, horns. Actions: gazing, posing. Emotions: intense, mysterious, mystical, enchanting. Scenes: fantasy, forest, mythical. Concepts: mysticism, enchantment. Nature: forest",
+  "primary_labels": {
+    "people": [
+      "fantasy character"
+    ],
+    "objects": [
+      "jewelry",
+      "headdress",
+      "tattoos",
+      "headpiece",
+      "horns"
+    ],
+    "actions": [
+      "gazing",
+      "posing"
+    ],
+    "emotions": [
+      "intense",
+      "mysterious",
+      "mystical",
+      "enchanting"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest",
+      "mythical"
+    ],
+    "concepts": [
+      "mysticism",
+      "enchantment"
+    ],
+    "nature": [
+      "forest"
+    ]
+  },
+  "metadata": {}
+}

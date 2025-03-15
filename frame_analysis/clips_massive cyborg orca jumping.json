@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/massive cyborg orca jumping.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/massive cyborg orca jumping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/massive cyborg orca jumping/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene depicts a cybernetic orca leaping gracefully over a sleek, high-tech speedboat. The vibrant neon lights of both the orca and the boat illuminate the surrounding ocean and sky, creating a striking contrast against the natural elements.",
+      "description": "The image presents a futuristic and imaginative setting where technology and nature blend seamlessly. A cybernetic orca is captured mid-leap over a high-tech speedboat, both adorned with glowing neon lights. The scene is set against a backdrop of a cloudy sky and a dynamic ocean, suggesting a world where advanced technology coexists with natural beauty.",
+      "labels": {
+        "animals": [
+          "orca"
+        ],
+        "objects": [
+          "speedboat"
+        ],
+        "nature": [
+          "ocean",
+          "cloudy sky"
+        ],
+        "actions": [
+          "leaping"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "futuristic",
+          "ocean"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/massive cyborg orca jumping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/massive cyborg orca jumping/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic orca leaps out of the water next to a futuristic yacht, creating a dramatic splash under vibrant purple and pink lighting. The scene captures the dynamic motion of the orca against a backdrop of a cloudy sky, with the yacht's neon lights reflecting off the water.",
+      "description": "The scene is set in a futuristic marine environment where an orca is breaching near a high-tech yacht. The lighting is vivid, casting purple and pink hues across the water and sky, enhancing the dramatic and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "orca"
+        ],
+        "objects": [
+          "yacht",
+          "water"
+        ],
+        "actions": [
+          "breaching",
+          "splashing"
+        ],
+        "emotions": [
+          "awe",
+          "excitement"
+        ],
+        "scenes": [
+          "marine",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: orca. Objects: speedboat, yacht, water. Nature: ocean, cloudy sky. Actions: leaping, breaching, splashing. Emotions: awe, excitement. Scenes: futuristic, ocean, marine. Concepts: technology, nature",
+  "primary_labels": {
+    "animals": [
+      "orca"
+    ],
+    "objects": [
+      "speedboat",
+      "yacht",
+      "water"
+    ],
+    "nature": [
+      "ocean",
+      "cloudy sky"
+    ],
+    "actions": [
+      "leaping",
+      "breaching",
+      "splashing"
+    ],
+    "emotions": [
+      "awe",
+      "excitement"
+    ],
+    "scenes": [
+      "futuristic",
+      "ocean",
+      "marine"
+    ],
+    "concepts": [
+      "technology",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

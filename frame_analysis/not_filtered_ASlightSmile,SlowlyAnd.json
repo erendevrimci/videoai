@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASlightSmile,SlowlyAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASlightSmile,SlowlyAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASlightSmile,SlowlyAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with blonde hair stands in a dimly lit corridor, wearing a black outfit with a serious expression. The wooden walls and soft lighting create a warm yet somber atmosphere.",
+      "description": "The scene is set in a narrow, wooden-paneled corridor, possibly on a train or an old building. The woman is the focal point, dressed in black, with natural light filtering through a window, casting a soft glow.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "buttons",
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "corridor",
+          "indoor"
+        ],
+        "concepts": [
+          "solitude",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASlightSmile,SlowlyAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASlightSmile,SlowlyAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with blonde hair is smiling warmly in a dimly lit hallway. She is wearing a black outfit, and the soft lighting creates a cozy atmosphere.",
+      "description": "The scene is set in a narrow, warmly lit hallway with wooden paneling. The woman stands in the center, exuding a friendly and inviting presence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hallway",
+          "light fixture"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "warmth",
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "hallway"
+        ],
+        "concepts": [
+          "coziness",
+          "friendliness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: window, buttons, black outfit, hallway, light fixture. Actions: standing, smiling. Emotions: serious, warmth, happiness. Scenes: indoor, corridor, hallway. Concepts: solitude, introspection, coziness, friendliness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "window",
+      "buttons",
+      "black outfit",
+      "hallway",
+      "light fixture"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "serious",
+      "warmth",
+      "happiness"
+    ],
+    "scenes": [
+      "indoor",
+      "corridor",
+      "hallway"
+    ],
+    "concepts": [
+      "solitude",
+      "introspection",
+      "coziness",
+      "friendliness"
+    ]
+  },
+  "metadata": {}
+}

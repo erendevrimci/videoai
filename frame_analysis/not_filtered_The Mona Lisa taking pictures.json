@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mona Lisa taking pictures.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mona Lisa taking pictures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Mona Lisa taking pictures/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A portrait of a woman with a serene expression, sitting against a distant landscape. Her hands are gently crossed, and she wears a dark, elegant dress. The background features a winding path and a serene body of water.",
+      "description": "The scene is a classic portrait of a woman set against a mysterious and softly lit landscape. The setting is tranquil, with a harmonious blend of natural elements in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "landscape",
+          "water"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "art",
+          "classical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mona Lisa taking pictures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Mona Lisa taking pictures/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A portrait of a woman with a serene expression, sitting with her hands gently crossed. She is dressed in a dark, elegant garment, set against a distant, mysterious landscape.",
+      "description": "The scene depicts a classic portrait of a woman, known for its enigmatic expression and detailed background. The setting is a blend of portraiture and landscape, creating a harmonious balance between the subject and her surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "landscape"
+        ],
+        "objects": [
+          "garment"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystery",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mona Lisa taking pictures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Mona Lisa taking pictures/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A classic portrait of a woman with a serene expression, holding up a peace sign with her right hand. The background features a softly blurred landscape with winding paths and distant hills.",
+      "description": "The scene is a reinterpretation of the famous Mona Lisa painting, with the subject making a modern gesture. The setting is a blend of Renaissance art style with a contemporary twist.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "portrait"
+        ],
+        "actions": [
+          "peace sign"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "art",
+          "portrait"
+        ],
+        "concepts": [
+          "classic",
+          "modern twist"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: landscape, water. Objects: dress, garment, portrait. Emotions: serene. Scenes: portrait, art. Concepts: art, classical, mystery, classic, modern twist. Actions: peace sign",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "landscape",
+      "water"
+    ],
+    "objects": [
+      "dress",
+      "garment",
+      "portrait"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "portrait",
+      "art"
+    ],
+    "concepts": [
+      "art",
+      "classical",
+      "mystery",
+      "classic",
+      "modern twist"
+    ],
+    "actions": [
+      "peace sign"
+    ]
+  },
+  "metadata": {}
+}

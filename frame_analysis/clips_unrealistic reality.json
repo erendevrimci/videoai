@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/unrealistic reality.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/unrealistic reality.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/unrealistic reality/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child in a warm coat rides a large, majestic wolf through a bustling, neon-lit city. Snowflakes gently fall around them, creating a magical and surreal atmosphere. The wolf's eyes glow with an ethereal light, adding to the fantastical scene.",
+      "description": "The scene depicts a child riding a wolf in a vibrant, futuristic cityscape. The setting is filled with bright neon lights and falling snow, suggesting a blend of urban and fantasy elements.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "coat",
+          "backpack",
+          "neon lights"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "wonder",
+          "adventure"
+        ],
+        "scenes": [
+          "cityscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "urban fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/unrealistic reality.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/unrealistic reality/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child is riding on the back of a large, majestic wolf through a bustling city street at night. The scene is illuminated by the glow of streetlights and the soft fall of snowflakes, creating a magical atmosphere.",
+      "description": "The image depicts a fantastical scene set in an urban environment at night. A child, bundled in a warm coat, rides a giant wolf, suggesting a blend of reality and fantasy. The city lights and falling snow add to the enchanting ambiance.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "coat",
+          "backpack"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "wonder",
+          "adventure"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "fantasy",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: wolf. Nature: snow. Objects: coat, backpack, neon lights. Actions: riding. Emotions: wonder, adventure. Scenes: cityscape, fantasy, urban, night. Concepts: surrealism, urban fantasy, fantasy, companionship",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "snow"
+    ],
+    "objects": [
+      "coat",
+      "backpack",
+      "neon lights"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "wonder",
+      "adventure"
+    ],
+    "scenes": [
+      "cityscape",
+      "fantasy",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "surrealism",
+      "urban fantasy",
+      "fantasy",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

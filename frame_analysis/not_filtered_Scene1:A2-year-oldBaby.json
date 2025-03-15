@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1:A2-year-oldBaby.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1:A2-year-oldBaby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene1:A2-year-oldBaby/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child walks alongside a large wolf on a cobblestone street, holding its leash. The street is illuminated by warm streetlights, creating a cozy atmosphere. The child's expression is calm and confident, while the wolf appears protective.",
+      "description": "The scene takes place on a dimly lit cobblestone street, likely during the evening or early night. A child and a large wolf walk together, suggesting a bond between them. The warm glow from the streetlights adds to the serene and slightly magical ambiance.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [],
+        "objects": [
+          "leash",
+          "streetlights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm",
+          "protective"
+        ],
+        "scenes": [
+          "street",
+          "evening"
+        ],
+        "concepts": [
+          "companionship",
+          "trust"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene1:A2-year-oldBaby.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene1:A2-year-oldBaby/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child walks alongside a large, wolf-like dog down a warmly lit street. The child holds onto the dog's leash confidently, creating a charming and serene scene. The background is softly blurred, highlighting the pair as they stroll together.",
+      "description": "The scene captures a peaceful evening walk on a cobblestone street, where a child and a large dog are the central focus. The street is illuminated by warm streetlights, creating a cozy and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "leash",
+          "streetlights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "confidence"
+        ],
+        "scenes": [
+          "street",
+          "evening"
+        ],
+        "concepts": [
+          "companionship",
+          "trust"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Animals: wolf, dog. Objects: leash, streetlights. Actions: walking. Emotions: calm, protective, serenity, confidence. Scenes: street, evening. Concepts: companionship, trust",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "animals": [
+      "wolf",
+      "dog"
+    ],
+    "nature": [],
+    "objects": [
+      "leash",
+      "streetlights"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "protective",
+      "serenity",
+      "confidence"
+    ],
+    "scenes": [
+      "street",
+      "evening"
+    ],
+    "concepts": [
+      "companionship",
+      "trust"
+    ]
+  },
+  "metadata": {}
+}

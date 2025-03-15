@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAnImageFeaturingA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAnImageFeaturingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cCreateAnImageFeaturingA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a black dress and knee-high boots is seated by a window, smiling warmly at the camera. The background reveals a cityscape at night with blurred lights, suggesting a lively urban setting.",
+      "description": "The scene takes place in a sophisticated indoor setting, possibly a restaurant or lounge, with a view of a city at night. The atmosphere is elegant and relaxed, with people enjoying their time.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "dress",
+          "boots",
+          "window",
+          "drink"
+        ],
+        "actions": [
+          "smiling",
+          "sitting"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "nightlife"
+        ],
+        "concepts": [
+          "urban",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAnImageFeaturingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cCreateAnImageFeaturingA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a black dress sits confidently in a dimly lit room, accompanied by a majestic black panther. The panther's intense gaze and the woman's poised demeanor create a striking and mysterious atmosphere.",
+      "description": "The scene is set in an elegant, dimly lit indoor environment, possibly a lounge or upscale bar. A woman dressed in a black outfit sits next to a black panther, both exuding a sense of elegance and mystery. The background features soft lighting and blurred elements, enhancing the intimate and sophisticated setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "black panther"
+        ],
+        "objects": [
+          "chair",
+          "table",
+          "glass",
+          "candle"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence",
+          "mystery"
+        ],
+        "scenes": [
+          "indoor",
+          "lounge"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Objects: dress, boots, window, drink, chair. Actions: sitting, smiling. Emotions: happiness, confidence, mystery. Scenes: indoor, nightlife, lounge. Concepts: elegance, urban, sophistication. Animals: black panther",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "dress",
+      "boots",
+      "window",
+      "drink",
+      "chair"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "confidence",
+      "mystery"
+    ],
+    "scenes": [
+      "indoor",
+      "nightlife",
+      "lounge"
+    ],
+    "concepts": [
+      "elegance",
+      "urban",
+      "sophistication"
+    ],
+    "animals": [
+      "black panther"
+    ]
+  },
+  "metadata": {}
+}

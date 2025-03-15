@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoFiguresConvergedInAn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoFiguresConvergedInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoFiguresConvergedInAn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A pair of translucent figures, one clear and the other red, are elegantly dancing amidst a flurry of heart-shaped petals. The scene is set against a softly blurred background, creating a dreamy and romantic atmosphere.",
+      "description": "The scene depicts two stylized figures engaged in a graceful dance, surrounded by floating heart-shaped elements. The setting is ethereal and romantic, emphasizing the connection between the figures.",
+      "labels": {
+        "people": [
+          "dancing figures"
+        ],
+        "objects": [
+          "heart-shaped petals"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "romantic",
+          "dreamy"
+        ],
+        "scenes": [
+          "dance",
+          "romantic setting"
+        ],
+        "concepts": [
+          "love",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoFiguresConvergedInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoFiguresConvergedInAn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two translucent figures, one red and one clear, engage in a graceful dance surrounded by floating heart shapes. Their elegant movements create a sense of harmony and connection, emphasized by the soft lighting and reflective floor.",
+      "description": "The scene depicts a pair of translucent dancers, one in red and the other in clear, performing a dance on a reflective surface. The background is blurred, enhancing the focus on the dancers and the floating hearts around them.",
+      "labels": {
+        "people": [
+          "dancers"
+        ],
+        "objects": [
+          "floating hearts"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "romantic",
+          "graceful"
+        ],
+        "scenes": [
+          "dance performance"
+        ],
+        "concepts": [
+          "love",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TwoFiguresConvergedInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TwoFiguresConvergedInAn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A pair of translucent figures, one in red and the other in white, are gracefully dancing amidst a flurry of floating heart shapes. The scene is set against a dark, blurred background, enhancing the vibrant colors of the dancers and the hearts around them.",
+      "description": "The image depicts two elegant figures engaged in a dance, surrounded by small heart shapes. The setting appears to be an abstract or artistic representation, with a focus on the fluidity and grace of the dancers' movements.",
+      "labels": {
+        "people": [
+          "dancers"
+        ],
+        "objects": [
+          "hearts"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "romantic",
+          "graceful"
+        ],
+        "scenes": [
+          "artistic",
+          "abstract"
+        ],
+        "concepts": [
+          "love",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: dancers, dancing figures. Objects: heart-shaped petals, floating hearts, hearts. Actions: dancing. Emotions: romantic, graceful, dreamy. Scenes: dance, romantic setting, dance performance, artistic, abstract. Concepts: love, elegance, connection",
+  "primary_labels": {
+    "people": [
+      "dancers",
+      "dancing figures"
+    ],
+    "objects": [
+      "heart-shaped petals",
+      "floating hearts",
+      "hearts"
+    ],
+    "actions": [
+      "dancing"
+    ],
+    "emotions": [
+      "romantic",
+      "graceful",
+      "dreamy"
+    ],
+    "scenes": [
+      "dance",
+      "romantic setting",
+      "dance performance",
+      "artistic",
+      "abstract"
+    ],
+    "concepts": [
+      "love",
+      "elegance",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

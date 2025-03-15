@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicSceneFromMovies.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicSceneFromMovies.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicSceneFromMovies/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy joyfully rides on the back of a roaring dinosaur, surrounded by a lush prehistoric landscape. In the sky, a pterosaur soars gracefully, adding to the dynamic scene. The sunlight filters through the trees, casting a warm glow over the entire setting.",
+      "description": "The scene is set in a vibrant prehistoric jungle, filled with towering trees and dense foliage. A boy is seen riding a dinosaur, with other dinosaurs visible in the background. The atmosphere is adventurous and exhilarating, capturing a moment of pure excitement and wonder.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "dinosaur",
+          "pterosaur"
+        ],
+        "nature": [
+          "jungle",
+          "trees",
+          "foliage"
+        ],
+        "objects": [],
+        "actions": [
+          "riding",
+          "soaring"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "prehistoric",
+          "adventure"
+        ],
+        "concepts": [
+          "exploration",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicSceneFromMovies.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicSceneFromMovies/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic scene unfolds in a prehistoric jungle as a large dinosaur moves through the dense foliage. Above, a pterosaur soars gracefully against a backdrop of a golden sky. The interplay of light and shadow highlights the textures of the dinosaur's skin and the vibrant greenery around.",
+      "description": "The scene is set in a prehistoric jungle environment, featuring a large dinosaur in the foreground and a flying pterosaur in the sky. The atmosphere is serene yet awe-inspiring, capturing the grandeur of the ancient world.",
+      "labels": {
+        "animals": [
+          "dinosaur",
+          "pterosaur"
+        ],
+        "nature": [
+          "jungle",
+          "foliage",
+          "sky"
+        ],
+        "objects": [
+          "trees"
+        ],
+        "actions": [
+          "walking",
+          "flying"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ],
+        "scenes": [
+          "prehistoric",
+          "natural"
+        ],
+        "concepts": [
+          "ancient",
+          "wildlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy. Animals: dinosaur, pterosaur. Nature: jungle, foliage, trees, sky. Objects: trees. Actions: riding, soaring, walking, flying. Emotions: joy, excitement, awe, serenity. Scenes: prehistoric, adventure, natural. Concepts: exploration, imagination, ancient, wildlife",
+  "primary_labels": {
+    "people": [
+      "boy"
+    ],
+    "animals": [
+      "dinosaur",
+      "pterosaur"
+    ],
+    "nature": [
+      "jungle",
+      "foliage",
+      "trees",
+      "sky"
+    ],
+    "objects": [
+      "trees"
+    ],
+    "actions": [
+      "riding",
+      "soaring",
+      "walking",
+      "flying"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "awe",
+      "serenity"
+    ],
+    "scenes": [
+      "prehistoric",
+      "adventure",
+      "natural"
+    ],
+    "concepts": [
+      "exploration",
+      "imagination",
+      "ancient",
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

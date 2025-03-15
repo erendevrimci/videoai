@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wild West.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wild West.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wild West/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A prairie dog dressed as a cowboy stands confidently on a wooden porch, holding a rifle. The scene captures a whimsical blend of wildlife and Western themes.",
+      "description": "The image depicts a prairie dog in a cowboy outfit, complete with a hat and coat, standing on a wooden porch in a Western setting. The animal holds a rifle, adding to the playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "prairie dog"
+        ],
+        "objects": [
+          "rifle",
+          "cowboy hat",
+          "coat",
+          "belt"
+        ],
+        "scenes": [
+          "Western",
+          "porch"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "wild west"
+        ],
+        "emotions": [
+          "confident",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wild West.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wild West/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A squirrel dressed as a cowboy stands confidently on a wooden porch, holding a rifle. The scene evokes a Wild West atmosphere with the squirrel's attire, including a wide-brimmed hat and a long coat.",
+      "description": "The image depicts a whimsical scene where a squirrel is anthropomorphized as a cowboy, set in a Western-style setting. The wooden structures in the background suggest an old town or saloon environment.",
+      "labels": {
+        "animals": [
+          "squirrel"
+        ],
+        "objects": [
+          "rifle",
+          "hat",
+          "coat",
+          "belt"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "Western",
+          "porch"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "Wild West"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Wild West.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Wild West/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A squirrel dressed as a cowboy stands confidently in a Western-style setting, holding a rifle. The squirrel wears a cowboy hat, bandana, and long coat, embodying a classic Wild West look.",
+      "description": "The scene depicts a whimsical take on a Western theme, featuring a squirrel dressed in cowboy attire. The setting is reminiscent of an old Western town, with wooden structures and a rustic atmosphere.",
+      "labels": {
+        "animals": [
+          "squirrel"
+        ],
+        "objects": [
+          "rifle",
+          "cowboy hat",
+          "bandana",
+          "coat"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "Western",
+          "town"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "Wild West"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: squirrel, prairie dog. Objects: rifle, coat, cowboy hat, belt, hat. Scenes: Western, porch, town. Concepts: anthropomorphism, Wild West, wild west. Emotions: confident, playful. Actions: standing, holding",
+  "primary_labels": {
+    "animals": [
+      "squirrel",
+      "prairie dog"
+    ],
+    "objects": [
+      "rifle",
+      "coat",
+      "cowboy hat",
+      "belt",
+      "hat"
+    ],
+    "scenes": [
+      "Western",
+      "porch",
+      "town"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "Wild West",
+      "wild west"
+    ],
+    "emotions": [
+      "confident",
+      "playful"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

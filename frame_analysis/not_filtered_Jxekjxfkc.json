@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jxekjxfkc.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jxekjxfkc.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Jxekjxfkc/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl wearing glasses and a light pink sweater stands indoors, smiling and making a peace sign with her fingers. Beside her is a well-dressed person with light brown hair, wearing a stylish jacket and a white shirt.",
+      "description": "The scene is set indoors with a backdrop of curtains, featuring two people posing for a photo. The atmosphere is casual and friendly, with the girl displaying a cheerful expression.",
+      "labels": {
+        "people": [
+          "girl",
+          "person"
+        ],
+        "objects": [
+          "glasses",
+          "sweater",
+          "jacket",
+          "shirt",
+          "curtains"
+        ],
+        "actions": [
+          "smiling",
+          "posing",
+          "making peace sign"
+        ],
+        "emotions": [
+          "cheerful",
+          "friendly"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "friendship",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Jxekjxfkc.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Jxekjxfkc/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with glasses smiles and holds up a peace sign while standing next to a stylishly dressed person. They are positioned in front of a curtain backdrop, suggesting an indoor setting.",
+      "description": "The scene depicts a casual indoor setting where a young girl poses happily beside another individual. The curtain backdrop and lighting suggest a relaxed, informal environment.",
+      "labels": {
+        "people": [
+          "girl",
+          "person"
+        ],
+        "objects": [
+          "glasses",
+          "curtain",
+          "shirt"
+        ],
+        "actions": [
+          "smiling",
+          "posing",
+          "peace sign"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "friendship",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, person. Objects: glasses, shirt, sweater, jacket, curtains. Actions: smiling, posing, making peace sign, peace sign. Emotions: cheerful, friendly, happiness. Scenes: indoor. Concepts: friendship, fashion, casual",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "person"
+    ],
+    "objects": [
+      "glasses",
+      "shirt",
+      "sweater",
+      "jacket",
+      "curtains"
+    ],
+    "actions": [
+      "smiling",
+      "posing",
+      "making peace sign",
+      "peace sign"
+    ],
+    "emotions": [
+      "cheerful",
+      "friendly",
+      "happiness"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "friendship",
+      "fashion",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,73 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435\u0412\u0438\u0434\u0435\u043e,\u0413\u0434\u0435\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439\u041f\u0438\u0434\u0436\u0430\u043a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435\u0412\u0438\u0434\u0435\u043e,\u0413\u0434\u0435\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439\u041f\u0438\u0434\u0436\u0430\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435\u0412\u0438\u0434\u0435\u043e,\u0413\u0434\u0435\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439\u041f\u0438\u0434\u0436\u0430\u043a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish black blazer is displayed against a plain background. The blazer features a unique design with a belt and decorative fringe on one side.",
+      "description": "The scene showcases a black blazer with a modern design, emphasizing its fashion-forward elements such as a belt and fringe detailing. The plain background highlights the garment's features.",
+      "labels": {
+        "objects": [
+          "blazer",
+          "belt",
+          "fringe"
+        ],
+        "scenes": [
+          "fashion display"
+        ],
+        "concepts": [
+          "fashion",
+          "clothing",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435\u0412\u0438\u0434\u0435\u043e,\u0413\u0434\u0435\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439\u041f\u0438\u0434\u0436\u0430\u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435\u0412\u0438\u0434\u0435\u043e,\u0413\u0434\u0435\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439\u041f\u0438\u0434\u0436\u0430\u043a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A black coat with a belt and intricate detailing is displayed against an urban backdrop. The coat is positioned in front of a building with large windows, reflecting a warm interior light.",
+      "description": "The scene features a stylish black coat prominently displayed in an urban setting. The background shows a building facade with large windows, suggesting a city environment.",
+      "labels": {
+        "objects": [
+          "coat",
+          "belt",
+          "window"
+        ],
+        "scenes": [
+          "urban",
+          "fashion display"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: belt, blazer, fringe, coat, window. Scenes: fashion display, urban. Concepts: fashion, style, clothing",
+  "primary_labels": {
+    "objects": [
+      "belt",
+      "blazer",
+      "fringe",
+      "coat",
+      "window"
+    ],
+    "scenes": [
+      "fashion display",
+      "urban"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "clothing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ICE CREAM.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ICE CREAM.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ICE CREAM/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl stands against a soft pink background, holding a cone of pink ice cream. She is wearing a light-colored coat and has her hair styled in a neat bun.",
+      "description": "The scene features a young girl posing with a pink ice cream cone in front of a pastel pink backdrop. Her expression is calm and content, conveying a sense of innocence and joy.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "ice cream cone",
+          "coat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "innocence",
+          "childhood"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ICE CREAM.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ICE CREAM/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl enjoys a pink ice cream cone against a pastel pink background. She is dressed warmly in a light-colored coat and appears focused on savoring the treat.",
+      "description": "The scene captures a young girl in a cozy setting, enjoying an ice cream cone. The background is a soft pink, enhancing the sweet and playful atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "ice cream cone",
+          "coat"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "enjoyment"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "childhood",
+          "sweetness",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: ice cream cone, coat. Actions: holding, eating. Emotions: contentment, enjoyment. Scenes: portrait, indoor. Concepts: innocence, childhood, sweetness",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "ice cream cone",
+      "coat"
+    ],
+    "actions": [
+      "holding",
+      "eating"
+    ],
+    "emotions": [
+      "contentment",
+      "enjoyment"
+    ],
+    "scenes": [
+      "portrait",
+      "indoor"
+    ],
+    "concepts": [
+      "innocence",
+      "childhood",
+      "sweetness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nature unnaturally created.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nature unnaturally created.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nature unnaturally created/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Sunlight filters through the dense canopy of a lush forest, casting a warm glow on the path below. Tall trees tower overhead, their leaves creating intricate patterns of light and shadow. The scene is serene and inviting, evoking a sense of tranquility and connection with nature.",
+      "description": "The image depicts a tranquil forest setting with sunlight streaming through the trees, illuminating a path that winds through the undergrowth. The atmosphere is peaceful and serene, inviting exploration and reflection.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees",
+          "canopy",
+          "sunlight",
+          "path"
+        ],
+        "objects": [
+          "leaves",
+          "undergrowth"
+        ],
+        "scenes": [
+          "forest path",
+          "natural landscape"
+        ],
+        "emotions": [
+          "tranquility",
+          "serenity"
+        ],
+        "concepts": [
+          "nature",
+          "peace",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Nature unnaturally created.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Nature unnaturally created/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene forest scene is captured with tall trees reaching towards a vibrant sky. The sunlight filters through the leaves, casting a warm glow on the lush greenery and the narrow dirt path winding through the underbrush.",
+      "description": "The image depicts a tranquil forest setting during what appears to be late afternoon or early morning. The scene is dominated by towering trees and dense foliage, with sunlight creating a peaceful and inviting atmosphere.",
+      "labels": {
+        "nature": [
+          "forest",
+          "trees",
+          "foliage",
+          "path"
+        ],
+        "objects": [
+          "dirt path"
+        ],
+        "actions": [
+          "sunlight filtering"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "natural landscape",
+          "woodland"
+        ],
+        "concepts": [
+          "nature",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, trees, path, canopy, sunlight. Objects: leaves, undergrowth, dirt path. Scenes: natural landscape, forest path, woodland. Emotions: tranquility, serenity. Concepts: nature, peace, exploration, peacefulness. Actions: sunlight filtering",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "trees",
+      "path",
+      "canopy",
+      "sunlight"
+    ],
+    "objects": [
+      "leaves",
+      "undergrowth",
+      "dirt path"
+    ],
+    "scenes": [
+      "natural landscape",
+      "forest path",
+      "woodland"
+    ],
+    "emotions": [
+      "tranquility",
+      "serenity"
+    ],
+    "concepts": [
+      "nature",
+      "peace",
+      "exploration",
+      "peacefulness"
+    ],
+    "actions": [
+      "sunlight filtering"
+    ]
+  },
+  "metadata": {}
+}

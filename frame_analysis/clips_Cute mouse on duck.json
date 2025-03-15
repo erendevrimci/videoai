@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mouse on duck.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mouse on duck.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute mouse on duck/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small mouse is perched on a yellow rubber duck floating on a calm body of water. The scene is serene, with soft reflections on the water's surface and blurred greenery in the background.",
+      "description": "The image depicts a tranquil setting where a mouse is sitting on a toy duck in a pond or small body of water. The background is softly blurred, suggesting a natural environment with plants.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "rubber duck"
+        ],
+        "nature": [
+          "water",
+          "plants"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "pond"
+        ],
+        "concepts": [
+          "serenity",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mouse on duck.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute mouse on duck/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small mouse sits adorably on a yellow rubber duck floating on water. The scene is serene, with the mouse looking upwards, adding a whimsical touch to the setting.",
+      "description": "The image captures a tranquil moment where a mouse is perched on a rubber duck, gently floating on a body of water. The setting appears to be calm and peaceful, with soft lighting enhancing the cute and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "rubber duck"
+        ],
+        "nature": [
+          "water"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "playful"
+        ],
+        "concepts": [
+          "tranquility",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mouse. Objects: rubber duck. Nature: water, plants. Actions: floating. Emotions: calm, whimsical, serene. Scenes: outdoor, pond, playful. Concepts: serenity, playfulness, tranquility, cuteness",
+  "primary_labels": {
+    "animals": [
+      "mouse"
+    ],
+    "objects": [
+      "rubber duck"
+    ],
+    "nature": [
+      "water",
+      "plants"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "calm",
+      "whimsical",
+      "serene"
+    ],
+    "scenes": [
+      "outdoor",
+      "pond",
+      "playful"
+    ],
+    "concepts": [
+      "serenity",
+      "playfulness",
+      "tranquility",
+      "cuteness"
+    ]
+  },
+  "metadata": {}
+}

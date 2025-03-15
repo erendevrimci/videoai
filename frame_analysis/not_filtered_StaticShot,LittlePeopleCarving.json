@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticShot,LittlePeopleCarving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticShot,LittlePeopleCarving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticShot,LittlePeopleCarving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts workers sculpting large, glowing purple letters that spell 'JF MEDIA'. Two workers are on ladders, while another is on the ground using a shovel-like tool to shape the letters.",
+      "description": "The scene is set in a surreal, nighttime environment where workers are engaged in crafting large, illuminated letters made of a crystal-like material. The atmosphere is vibrant and creative, with a focus on the meticulous process of sculpting.",
+      "labels": {
+        "people": [
+          "workers"
+        ],
+        "objects": [
+          "ladders",
+          "shovel",
+          "letters"
+        ],
+        "actions": [
+          "sculpting",
+          "climbing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "nighttime",
+          "creative"
+        ],
+        "concepts": [
+          "artistic creation",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StaticShot,LittlePeopleCarving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StaticShot,LittlePeopleCarving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The scene depicts workers interacting with large, ice-like letters spelling 'JF MEDIA' in a surreal, purple-lit environment. Two workers are on ladders, seemingly sculpting or maintaining the letters, while another worker on the ground uses a shovel. The atmosphere is otherworldly, with a focus on the glowing, crystalline structures.",
+      "description": "The setting is a fantastical environment where large, ice-like letters are being constructed or maintained by workers. The scene is illuminated with a vibrant purple hue, creating a surreal and futuristic atmosphere.",
+      "labels": {
+        "people": [
+          "workers"
+        ],
+        "objects": [
+          "ladders",
+          "shovel",
+          "ice-like letters"
+        ],
+        "actions": [
+          "climbing",
+          "sculpting",
+          "shoveling"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "surreal",
+          "futuristic"
+        ],
+        "concepts": [
+          "construction",
+          "artistic installation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: workers. Objects: ladders, shovel, letters, ice-like letters. Actions: sculpting, climbing, shoveling. Emotions: focused. Scenes: nighttime, creative, surreal, futuristic. Concepts: artistic creation, teamwork, construction, artistic installation",
+  "primary_labels": {
+    "people": [
+      "workers"
+    ],
+    "objects": [
+      "ladders",
+      "shovel",
+      "letters",
+      "ice-like letters"
+    ],
+    "actions": [
+      "sculpting",
+      "climbing",
+      "shoveling"
+    ],
+    "emotions": [
+      "focused"
+    ],
+    "scenes": [
+      "nighttime",
+      "creative",
+      "surreal",
+      "futuristic"
+    ],
+    "concepts": [
+      "artistic creation",
+      "teamwork",
+      "construction",
+      "artistic installation"
+    ]
+  },
+  "metadata": {}
+}

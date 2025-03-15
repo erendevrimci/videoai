@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Test 1.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Test 1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Test 1/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a sleek black dress and large sunglasses walks confidently down a neon-lit city street. The vibrant lights of the cityscape create a dynamic and futuristic atmosphere around her.",
+      "description": "The scene is set in a bustling urban environment at night, characterized by bright neon signs and a lively street. The woman is the focal point, exuding confidence and style as she moves through the city.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "dress",
+          "neon lights",
+          "cars"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "nightlife"
+        ],
+        "concepts": [
+          "fashion",
+          "futuristic",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Test 1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Test 1/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a sleek black dress and sunglasses confidently walks down a bustling city street at night. Neon lights illuminate the background, casting vibrant colors across the scene.",
+      "description": "The scene captures a dynamic urban environment at night, filled with bright neon lights and a lively atmosphere. The focus is on a woman walking with confidence amidst the bustling city backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "sunglasses",
+          "neon lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "nightlife"
+        ],
+        "concepts": [
+          "urban",
+          "fashion",
+          "vibrant"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Test 1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Test 1/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a sleek black dress walks confidently down a city street at night. She wears stylish sunglasses and her long hair flows behind her. The background is blurred, with colorful lights and other pedestrians visible.",
+      "description": "The scene is set in an urban environment, likely a busy city street at night. The focus is on a woman walking with confidence, surrounded by the vibrant lights of the city.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "dress",
+          "sunglasses",
+          "car"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "nightlife"
+        ],
+        "concepts": [
+          "fashion",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, pedestrians. Objects: sunglasses, dress, neon lights, cars, car. Actions: walking. Emotions: confidence. Scenes: nightlife, city street, urban. Concepts: fashion, futuristic, city life, urban, vibrant",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "pedestrians"
+    ],
+    "objects": [
+      "sunglasses",
+      "dress",
+      "neon lights",
+      "cars",
+      "car"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "nightlife",
+      "city street",
+      "urban"
+    ],
+    "concepts": [
+      "fashion",
+      "futuristic",
+      "city life",
+      "urban",
+      "vibrant"
+    ]
+  },
+  "metadata": {}
+}

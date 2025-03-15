@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A long time no see.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A long time no see.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A long time no see/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant, vintage-style dress stands in front of an ornate window with intricate designs. Her hair is styled in an elaborate updo adorned with flowers, and she gazes over her shoulder with a poised expression.",
+      "description": "The scene is set in a luxurious, historical interior, possibly a grand hall or parlor, characterized by its ornate architecture and decorative elements. The woman is the focal point, exuding grace and sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "window",
+          "flowers"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "poised",
+          "elegant"
+        ],
+        "scenes": [
+          "interior",
+          "vintage"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A long time no see.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A long time no see/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant, vintage-style dress poses gracefully in front of an ornate window. The setting features intricate architectural details and vibrant floral decorations, creating a classic and sophisticated atmosphere.",
+      "description": "The scene is set in a luxurious, vintage interior with a focus on elegance and style. The woman is the central figure, exuding confidence and grace as she poses in front of a large, decorative window. The background includes ornate columns and floral elements, enhancing the classic ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "window",
+          "columns",
+          "floral decorations"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "grace"
+        ],
+        "scenes": [
+          "vintage interior",
+          "luxurious setting"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A long time no see.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A long time no see/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a vintage-style dress poses gracefully in front of an ornate window. The setting features intricate architectural details and vibrant floral decorations. Her expression is confident and inviting, complementing the elegant atmosphere.",
+      "description": "The scene captures a woman in a historical or vintage setting, likely from the late 19th or early 20th century. She stands in front of a large, decorative window with floral and architectural embellishments, suggesting a luxurious or theatrical environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "window",
+          "flower",
+          "architectural details"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "vintage setting",
+          "luxurious environment"
+        ],
+        "concepts": [
+          "elegance",
+          "historical fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, window, flowers, columns, floral decorations. Actions: posing, standing, gazing. Emotions: confidence, poised, elegant, grace. Scenes: interior, vintage, vintage interior, luxurious setting, vintage setting. Concepts: elegance, sophistication, historical fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "window",
+      "flowers",
+      "columns",
+      "floral decorations"
+    ],
+    "actions": [
+      "posing",
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "confidence",
+      "poised",
+      "elegant",
+      "grace"
+    ],
+    "scenes": [
+      "interior",
+      "vintage",
+      "vintage interior",
+      "luxurious setting",
+      "vintage setting"
+    ],
+    "concepts": [
+      "elegance",
+      "sophistication",
+      "historical fashion"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTheCameraFollowsA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTheCameraFollowsA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTheCameraFollowsA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently on a sunlit cobblestone street, wearing an elegant cream dress with a slit. She holds a stylish clutch and wears glasses, her blonde hair cascading over her shoulders.",
+      "description": "The scene is set on a picturesque city street, likely in a European urban area, with historic architecture lining the background. The woman is the focal point, exuding elegance and sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "clutch",
+          "glasses"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheTheCameraFollowsA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheTheCameraFollowsA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant white dress walks down a sunlit cobblestone street. The scene is framed by historic buildings with intricate architectural details. Her blonde hair cascades down her back, and she carries a small clutch in her hand.",
+      "description": "The image captures a stylish woman walking through a picturesque urban setting during the golden hour. The street is lined with classic European-style buildings, creating a sophisticated and serene atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "clutch"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, clutch, glasses. Actions: standing, walking. Emotions: confidence, serene. Scenes: urban, city street, street. Concepts: fashion, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "clutch",
+      "glasses"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serene"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

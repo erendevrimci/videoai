@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AStunningClose-upShotOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AStunningClose-upShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AStunningClose-upShotOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with flowing brown hair is captured in a graceful pose, wearing an elegant white dress adorned with intricate beadwork. Pink petals float around her, adding a whimsical touch to the scene.",
+      "description": "The scene depicts a serene and elegant moment, likely in a studio setting, where a woman is the focal point amidst a gentle cascade of petals.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "petals"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "grace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AStunningClose-upShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AStunningClose-upShotOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, wavy brown hair is seen from behind, wearing an elegant white dress adorned with delicate embellishments. Pink petals float gently around her, creating a dreamy and romantic atmosphere.",
+      "description": "The scene captures a serene and romantic moment, likely set in a studio or controlled environment. The focus is on the woman's back and hair, with soft petals enhancing the ethereal quality of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "petals"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "romantic"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, petals. Actions: posing, floating. Emotions: serene, romantic. Scenes: studio. Concepts: elegance, grace, serenity. Nature: petals",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "petals"
+    ],
+    "actions": [
+      "posing",
+      "floating"
+    ],
+    "emotions": [
+      "serene",
+      "romantic"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "elegance",
+      "grace",
+      "serenity"
+    ],
+    "nature": [
+      "petals"
+    ]
+  },
+  "metadata": {}
+}

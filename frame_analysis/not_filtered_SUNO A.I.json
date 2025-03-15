@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUNO A.I.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUNO A.I.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUNO A.I/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A digital artwork depicting a futuristic face, half human and half machine, with intricate circuit patterns and glowing elements. The face is split down the middle, with one side showing a human-like eye and the other a robotic eye, surrounded by vibrant blue and red lights.",
+      "description": "The scene is a digital representation of the fusion between humanity and technology, set in a futuristic or cybernetic context. The artwork explores themes of artificial intelligence and the merging of human and machine elements.",
+      "labels": {
+        "people": [
+          "face"
+        ],
+        "objects": [
+          "circuit",
+          "lights"
+        ],
+        "scenes": [
+          "futuristic",
+          "cybernetic"
+        ],
+        "concepts": [
+          "artificial intelligence",
+          "human-machine fusion"
+        ],
+        "emotions": [
+          "mysterious",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SUNO A.I.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SUNO A.I/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic digital artwork depicts a humanoid face with intricate neural networks extending from it. The face is illuminated in vibrant blue and red hues, suggesting a blend of technology and human features. The surrounding elements resemble a complex web of circuits and lights, creating a sense of advanced artificial intelligence.",
+      "description": "The scene is a digital representation of a humanoid figure, likely symbolizing artificial intelligence or a cybernetic entity. The setting is abstract, with a focus on the integration of human-like features with technological elements.",
+      "labels": {
+        "people": [
+          "humanoid face"
+        ],
+        "objects": [
+          "neural networks",
+          "circuits",
+          "lights"
+        ],
+        "actions": [
+          "illumination"
+        ],
+        "emotions": [
+          "futuristic",
+          "technological"
+        ],
+        "scenes": [
+          "digital art",
+          "cybernetic"
+        ],
+        "concepts": [
+          "artificial intelligence",
+          "technology integration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: face, humanoid face. Objects: lights, circuit, neural networks, circuits. Scenes: cybernetic, futuristic, digital art. Concepts: artificial intelligence, human-machine fusion, technology integration. Emotions: futuristic, mysterious, technological. Actions: illumination",
+  "primary_labels": {
+    "people": [
+      "face",
+      "humanoid face"
+    ],
+    "objects": [
+      "lights",
+      "circuit",
+      "neural networks",
+      "circuits"
+    ],
+    "scenes": [
+      "cybernetic",
+      "futuristic",
+      "digital art"
+    ],
+    "concepts": [
+      "artificial intelligence",
+      "human-machine fusion",
+      "technology integration"
+    ],
+    "emotions": [
+      "futuristic",
+      "mysterious",
+      "technological"
+    ],
+    "actions": [
+      "illumination"
+    ]
+  },
+  "metadata": {}
+}

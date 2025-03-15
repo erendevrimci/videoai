@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beautiful girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beautiful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/beautiful girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands in a dramatic setting wearing an elegant black gown with a large lampshade covering their head. The background is filled with swirling smoke, adding a mysterious and surreal atmosphere.",
+      "description": "The scene depicts a surreal and artistic setting where a person is dressed in a glamorous black gown. The unusual addition of a lampshade as a headpiece creates a striking visual contrast against the smoky background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "gown",
+          "lampshade"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "fashion",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beautiful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/beautiful girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a sleek black gown stands confidently amidst swirling smoke, holding a large hat above her head. The dramatic lighting casts shadows that enhance the elegance of her attire.",
+      "description": "The scene captures a woman in a formal setting, possibly a fashion show or photoshoot, with a mysterious and glamorous atmosphere created by the smoke and lighting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "hat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "dramatic"
+        ],
+        "concepts": [
+          "elegance",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/beautiful girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/beautiful girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman confidently walks down a runway in an elegant black dress with intricate lace details. The background is filled with atmospheric smoke, enhancing the dramatic effect of the scene.",
+      "description": "The scene captures a fashion runway setting with a model showcasing a designer gown. The environment is theatrical, with smoke adding to the ambiance, suggesting a high-fashion event.",
+      "labels": {
+        "people": [
+          "woman",
+          "model"
+        ],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "runway",
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, model. Objects: gown, lampshade, hat, dress, earrings. Actions: standing, holding, walking. Emotions: confidence, mysterious. Scenes: surreal, artistic, fashion, dramatic, runway. Concepts: fashion, elegance, creativity, mystery",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "model"
+    ],
+    "objects": [
+      "gown",
+      "lampshade",
+      "hat",
+      "dress",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "holding",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "mysterious"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "fashion",
+      "dramatic",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "creativity",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

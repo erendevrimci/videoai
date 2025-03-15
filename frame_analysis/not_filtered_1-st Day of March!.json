@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1-st Day of March!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1-st Day of March!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/1-st Day of March!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long hair gently holds a bouquet of pink tulips close to her face. Her serene expression and soft gaze create a tranquil and intimate atmosphere.",
+      "description": "The scene captures a close-up portrait of a young woman embracing a bouquet of tulips. The setting is intimate, with a focus on the connection between the woman and the flowers.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "nature": [
+          "tulips"
+        ],
+        "objects": [
+          "flowers"
+        ],
+        "emotions": [
+          "serenity",
+          "intimacy"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/1-st Day of March!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/1-st Day of March!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, wavy hair smiles warmly at the camera, holding a bouquet of soft pink tulips. Her expression is joyful and serene, set against a blurred, dark background that highlights her features.",
+      "description": "The scene captures a close-up portrait of a smiling woman holding flowers, creating a warm and inviting atmosphere. The focus is on her face and the delicate tulips, with a soft, diffused lighting enhancing the gentle tones.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "tulips"
+        ],
+        "objects": [
+          "bouquet"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "joyful",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Nature: tulips, flowers. Objects: flowers, bouquet. Emotions: serenity, intimacy, joyful, serene. Scenes: portrait. Concepts: beauty, tranquility, happiness. Actions: smiling, holding",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "nature": [
+      "tulips",
+      "flowers"
+    ],
+    "objects": [
+      "flowers",
+      "bouquet"
+    ],
+    "emotions": [
+      "serenity",
+      "intimacy",
+      "joyful",
+      "serene"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "tranquility",
+      "happiness"
+    ],
+    "actions": [
+      "smiling",
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

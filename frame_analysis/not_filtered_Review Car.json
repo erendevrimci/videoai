@@ -1,0 +1,88 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Review Car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Review Car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Review Car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A row of bright yellow cars is parked in front of a modern building, aligned neatly along a paved area. The cars are identical in design, suggesting a display or promotional event. Palm trees and a clear sky provide a tropical backdrop to the scene.",
+      "description": "The scene depicts a lineup of yellow cars parked outside a contemporary building, likely a dealership or showroom. The setting appears to be in a warm climate, indicated by the palm trees and clear weather.",
+      "labels": {
+        "objects": [
+          "cars",
+          "building",
+          "pavement",
+          "palm trees"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "scenes": [
+          "car dealership",
+          "outdoor"
+        ],
+        "emotions": [
+          "orderly",
+          "vibrant"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Review Car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Review Car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A line of bright yellow cars is parked in front of a modern building. The cars are neatly arranged in a row, suggesting a dealership or promotional event. Palm trees and flags are visible in the background, adding a tropical feel to the scene.",
+      "description": "The scene is set outside a car dealership or showroom, with a focus on a fleet of identical yellow cars. The setting appears to be in a tropical or warm climate, indicated by the presence of palm trees and clear skies.",
+      "labels": {
+        "objects": [
+          "cars",
+          "building",
+          "palm trees",
+          "flags"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "scenes": [
+          "car dealership",
+          "showroom exterior"
+        ],
+        "concepts": [
+          "promotion",
+          "automotive"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: cars, building, palm trees, pavement, flags. Actions: parked. Scenes: car dealership, outdoor, showroom exterior. Emotions: orderly, vibrant. Concepts: promotion, automotive",
+  "primary_labels": {
+    "objects": [
+      "cars",
+      "building",
+      "palm trees",
+      "pavement",
+      "flags"
+    ],
+    "actions": [
+      "parked"
+    ],
+    "scenes": [
+      "car dealership",
+      "outdoor",
+      "showroom exterior"
+    ],
+    "emotions": [
+      "orderly",
+      "vibrant"
+    ],
+    "concepts": [
+      "promotion",
+      "automotive"
+    ]
+  },
+  "metadata": {}
+}

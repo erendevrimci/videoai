@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAGoat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAGoat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAGoat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a humanoid figure with a goat's head dressed in military gear, standing between rocky cliffs. The figure holds a rifle and is equipped with tactical gear, creating a juxtaposition of animal and human elements. The setting is rugged and misty, adding to the mysterious atmosphere.",
+      "description": "The image presents a fantastical blend of human and animal characteristics, set in a rugged, outdoor environment. The humanoid figure, with a goat's head, is dressed in full military attire, holding a rifle, and standing confidently between rocky cliffs. The scene is enveloped in mist, enhancing the surreal and enigmatic tone.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "animals": [
+          "goat"
+        ],
+        "nature": [
+          "rocks",
+          "cliffs"
+        ],
+        "objects": [
+          "rifle",
+          "military gear"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "outdoor",
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAGoat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAGoat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal image depicts a soldier with the head of a goat navigating a rocky terrain. The figure is dressed in full military gear, including camouflage clothing and tactical equipment, while holding a rifle. The background features rugged cliffs and a misty atmosphere, adding to the mysterious ambiance.",
+      "description": "The scene is set in a mountainous area with a soldier-like figure that has a goat's head, creating a fantastical and surreal visual. The setting suggests a military operation in a challenging, rocky environment.",
+      "labels": {
+        "people": [
+          "soldier"
+        ],
+        "animals": [
+          "goat"
+        ],
+        "nature": [
+          "mountains",
+          "rocks"
+        ],
+        "objects": [
+          "rifle",
+          "military gear",
+          "camouflage clothing"
+        ],
+        "actions": [
+          "climbing",
+          "navigating"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "mountainous terrain",
+          "military operation"
+        ],
+        "concepts": [
+          "surrealism",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid, soldier. Animals: goat. Nature: rocks, cliffs, mountains. Objects: rifle, military gear, camouflage clothing. Actions: standing, climbing, navigating. Emotions: mysterious. Scenes: outdoor, fantasy, mountainous terrain, military operation. Concepts: surrealism, juxtaposition, fantasy",
+  "primary_labels": {
+    "people": [
+      "humanoid",
+      "soldier"
+    ],
+    "animals": [
+      "goat"
+    ],
+    "nature": [
+      "rocks",
+      "cliffs",
+      "mountains"
+    ],
+    "objects": [
+      "rifle",
+      "military gear",
+      "camouflage clothing"
+    ],
+    "actions": [
+      "standing",
+      "climbing",
+      "navigating"
+    ],
+    "emotions": [
+      "mysterious"
+    ],
+    "scenes": [
+      "outdoor",
+      "fantasy",
+      "mountainous terrain",
+      "military operation"
+    ],
+    "concepts": [
+      "surrealism",
+      "juxtaposition",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

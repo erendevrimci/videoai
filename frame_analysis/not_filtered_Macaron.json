@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Macaron.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Macaron.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Macaron/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two miniature chefs are seen working on a large pink macaron, carefully adding cream filling with their utensils. The macaron is oversized compared to the chefs, creating a whimsical and imaginative scene. The background is softly blurred, highlighting the focus on the chefs and the macaron.",
+      "description": "The scene depicts a playful and imaginative setting where two tiny chefs are engaged in the intricate task of decorating a giant macaron. The setting is likely a creative studio or a conceptual art piece, emphasizing the contrast between the size of the chefs and the dessert.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "macaron",
+          "utensils",
+          "cream filling"
+        ],
+        "actions": [
+          "decorating",
+          "working"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "conceptual art",
+          "culinary"
+        ],
+        "concepts": [
+          "miniature",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Macaron.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Macaron/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two miniature chefs are seen meticulously working on a giant pink macaron, carefully applying cream between its layers. The chefs, dressed in traditional white uniforms and hats, use oversized utensils to perfect the dessert's appearance.",
+      "description": "The scene depicts a whimsical and imaginative setting where tiny chefs are engaged in the detailed preparation of a large macaron. The focus is on the intricate work being done to enhance the dessert's presentation.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "macaron",
+          "utensils",
+          "cream",
+          "chef hats"
+        ],
+        "actions": [
+          "applying cream",
+          "working"
+        ],
+        "emotions": [
+          "focused",
+          "meticulous"
+        ],
+        "scenes": [
+          "culinary",
+          "whimsical"
+        ],
+        "concepts": [
+          "miniature",
+          "food preparation",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: macaron, utensils, cream filling, cream, chef hats. Actions: working, decorating, applying cream. Emotions: whimsical, playful, focused, meticulous. Scenes: culinary, conceptual art, whimsical. Concepts: miniature, contrast, food preparation, creativity",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "macaron",
+      "utensils",
+      "cream filling",
+      "cream",
+      "chef hats"
+    ],
+    "actions": [
+      "working",
+      "decorating",
+      "applying cream"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful",
+      "focused",
+      "meticulous"
+    ],
+    "scenes": [
+      "culinary",
+      "conceptual art",
+      "whimsical"
+    ],
+    "concepts": [
+      "miniature",
+      "contrast",
+      "food preparation",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

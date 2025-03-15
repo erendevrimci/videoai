@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHoodedWarriorWadesSilently.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHoodedWarriorWadesSilently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHoodedWarriorWadesSilently/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure clad in dark, tattered robes stands in a misty forest, partially submerged in water. The figure holds a sword in each hand, poised and ready for action. The surrounding foliage and the soft glow of falling snowflakes create an ethereal atmosphere.",
+      "description": "The scene is set in a dense, mist-covered forest with a mysterious, hooded figure standing in shallow water. The figure is armed with two swords, suggesting readiness for combat or stealth. The environment is tranquil yet tense, with a sense of anticipation.",
+      "labels": {
+        "people": [
+          "hooded figure"
+        ],
+        "nature": [
+          "forest",
+          "water",
+          "foliage"
+        ],
+        "objects": [
+          "swords",
+          "robes"
+        ],
+        "actions": [
+          "standing",
+          "holding swords"
+        ],
+        "emotions": [
+          "mysterious",
+          "tense"
+        ],
+        "scenes": [
+          "forest",
+          "misty"
+        ],
+        "concepts": [
+          "mystery",
+          "anticipation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHoodedWarriorWadesSilently.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHoodedWarriorWadesSilently/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure in a hooded cloak stands partially submerged in a misty forest stream, gripping two swords. The surrounding foliage and the figure's attire suggest a stealthy and enigmatic presence.",
+      "description": "The scene is set in a misty forest, with a hooded figure standing in a shallow stream. The figure is dressed in dark, draped clothing and holds two swords, exuding an air of mystery and stealth.",
+      "labels": {
+        "people": [
+          "hooded figure"
+        ],
+        "nature": [
+          "forest",
+          "stream",
+          "foliage"
+        ],
+        "objects": [
+          "swords",
+          "cloak"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "stealthy"
+        ],
+        "scenes": [
+          "forest",
+          "misty"
+        ],
+        "concepts": [
+          "mystery",
+          "stealth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hooded figure. Nature: forest, foliage, water, stream. Objects: swords, robes, cloak. Actions: standing, holding swords, holding. Emotions: mysterious, tense, stealthy. Scenes: forest, misty. Concepts: mystery, anticipation, stealth",
+  "primary_labels": {
+    "people": [
+      "hooded figure"
+    ],
+    "nature": [
+      "forest",
+      "foliage",
+      "water",
+      "stream"
+    ],
+    "objects": [
+      "swords",
+      "robes",
+      "cloak"
+    ],
+    "actions": [
+      "standing",
+      "holding swords",
+      "holding"
+    ],
+    "emotions": [
+      "mysterious",
+      "tense",
+      "stealthy"
+    ],
+    "scenes": [
+      "forest",
+      "misty"
+    ],
+    "concepts": [
+      "mystery",
+      "anticipation",
+      "stealth"
+    ]
+  },
+  "metadata": {}
+}

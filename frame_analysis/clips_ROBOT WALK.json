@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ROBOT WALK.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ROBOT WALK.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ROBOT WALK/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic robot stands in the middle of a rainy city street, illuminated by the glow of neon signs. The robot's red eyes and chest light create a striking contrast against the dark, wet environment. The cityscape is vibrant with colorful advertisements and reflections on the wet pavement.",
+      "description": "The scene is set in a futuristic urban environment during nighttime, characterized by rain and neon lights. A humanoid robot is prominently featured, suggesting a theme of advanced technology within a bustling city.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "robot",
+          "neon signs",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intimidating"
+        ],
+        "scenes": [
+          "cityscape",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ROBOT WALK.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ROBOT WALK/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering robot strides confidently down a rain-slicked city street, its glowing red eyes and chest piece illuminating the scene. Neon lights from towering skyscrapers reflect off the wet pavement, creating a vibrant and futuristic atmosphere. Pedestrians walk alongside, dwarfed by the robot's imposing presence.",
+      "description": "The scene is set in a futuristic urban environment, likely a bustling metropolis at night. The focus is on a large humanoid robot walking down the street, surrounded by tall buildings adorned with neon signs. The wet pavement suggests recent rain, adding to the cinematic and atmospheric feel of the scene.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "robot",
+          "neon lights",
+          "skyscrapers",
+          "wet pavement"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "futuristic",
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians. Nature: rain. Objects: robot, neon signs, buildings, neon lights, skyscrapers. Actions: standing, walking. Emotions: intimidating, futuristic, awe. Scenes: cityscape, nighttime, urban, night. Concepts: technology, futuristic, future, city life",
+  "primary_labels": {
+    "people": [
+      "pedestrians"
+    ],
+    "animals": [],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "robot",
+      "neon signs",
+      "buildings",
+      "neon lights",
+      "skyscrapers"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "intimidating",
+      "futuristic",
+      "awe"
+    ],
+    "scenes": [
+      "cityscape",
+      "nighttime",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "technology",
+      "futuristic",
+      "future",
+      "city life"
+    ]
+  },
+  "metadata": {}
+}

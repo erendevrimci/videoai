@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your Fiery Love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your Fiery Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Your Fiery Love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking scene depicts two elemental figures embracing in a pool of water. The fiery figure, composed of molten lava, contrasts with the cool, fluid form of the water figure, creating a dynamic interplay of heat and coolness. Their intimate pose suggests a powerful connection despite their opposing natures.",
+      "description": "The scene captures a fantastical moment where a lava figure and a water figure are intertwined in an embrace. Set against a dark, natural backdrop, the image highlights the elemental contrast between fire and water.",
+      "labels": {
+        "people": [
+          "lava figure",
+          "water figure"
+        ],
+        "nature": [
+          "water",
+          "lava"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "intimacy",
+          "connection"
+        ],
+        "scenes": [
+          "fantasy",
+          "elemental"
+        ],
+        "concepts": [
+          "contrast",
+          "opposites"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Your Fiery Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Your Fiery Love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fiery figure and an icy figure are locked in an intimate embrace, symbolizing the meeting of opposing forces. The fiery figure is engulfed in flames and lava, while the icy figure is covered in frost and ice. Their contrasting elements create a striking visual of heat and cold merging together.",
+      "description": "The scene depicts a dramatic and symbolic encounter between two elemental beings, one representing fire and the other representing ice. This artistic representation highlights the theme of duality and balance between opposing forces.",
+      "labels": {
+        "people": [
+          "fiery figure",
+          "icy figure"
+        ],
+        "objects": [
+          "flames",
+          "lava",
+          "frost",
+          "ice"
+        ],
+        "actions": [
+          "embrace"
+        ],
+        "emotions": [
+          "intimacy",
+          "passion"
+        ],
+        "scenes": [
+          "elemental encounter"
+        ],
+        "concepts": [
+          "duality",
+          "opposing forces",
+          "balance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: lava figure, water figure, fiery figure, icy figure. Nature: water, lava. Objects: flames, lava, frost, ice. Actions: embracing, embrace. Emotions: intimacy, connection, passion. Scenes: fantasy, elemental, elemental encounter. Concepts: contrast, opposites, duality, opposing forces, balance",
+  "primary_labels": {
+    "people": [
+      "lava figure",
+      "water figure",
+      "fiery figure",
+      "icy figure"
+    ],
+    "nature": [
+      "water",
+      "lava"
+    ],
+    "objects": [
+      "flames",
+      "lava",
+      "frost",
+      "ice"
+    ],
+    "actions": [
+      "embracing",
+      "embrace"
+    ],
+    "emotions": [
+      "intimacy",
+      "connection",
+      "passion"
+    ],
+    "scenes": [
+      "fantasy",
+      "elemental",
+      "elemental encounter"
+    ],
+    "concepts": [
+      "contrast",
+      "opposites",
+      "duality",
+      "opposing forces",
+      "balance"
+    ]
+  },
+  "metadata": {}
+}

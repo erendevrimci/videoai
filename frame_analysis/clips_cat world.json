@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat world.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat world/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange kitten sits in a small wooden boat, holding a fishing rod with a focused expression. The boat floats gently on a calm body of water, reflecting the warm glow of the sunset in the background.",
+      "description": "The scene depicts a whimsical and serene moment where a kitten is seemingly engaged in fishing. The setting is a tranquil body of water at sunset, creating a peaceful and dreamlike atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "boat",
+          "fishing rod",
+          "fish"
+        ],
+        "nature": [
+          "water",
+          "sunset"
+        ],
+        "actions": [
+          "fishing"
+        ],
+        "emotions": [
+          "focused",
+          "calm"
+        ],
+        "scenes": [
+          "sunset",
+          "water"
+        ],
+        "concepts": [
+          "whimsy",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat world/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange kitten is sitting in a small wooden boat on a calm body of water, holding a fishing rod. The background is a warm, golden sunset, casting a serene glow over the scene.",
+      "description": "The scene depicts a whimsical and serene setting where a kitten is engaging in fishing on a tranquil lake during sunset. The warm colors and gentle lighting create a peaceful and charming atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "nature": [
+          "water",
+          "sunset"
+        ],
+        "objects": [
+          "boat",
+          "fishing rod",
+          "fish"
+        ],
+        "actions": [
+          "fishing"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "lake",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: boat, fishing rod, fish. Nature: water, sunset. Actions: fishing. Emotions: focused, calm, serene, whimsical. Scenes: sunset, water, lake. Concepts: whimsy, serenity, tranquility, playfulness",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "boat",
+      "fishing rod",
+      "fish"
+    ],
+    "nature": [
+      "water",
+      "sunset"
+    ],
+    "actions": [
+      "fishing"
+    ],
+    "emotions": [
+      "focused",
+      "calm",
+      "serene",
+      "whimsical"
+    ],
+    "scenes": [
+      "sunset",
+      "water",
+      "lake"
+    ],
+    "concepts": [
+      "whimsy",
+      "serenity",
+      "tranquility",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

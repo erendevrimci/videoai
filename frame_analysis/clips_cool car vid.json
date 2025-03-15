@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cool car vid.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cool car vid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cool car vid/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking sports car is parked on a tree-lined road, featuring a unique black and white split design. A hand holding a car key is prominently visible in the foreground, suggesting the intention to unlock or start the vehicle.",
+      "description": "The scene captures a luxury sports car with a distinctive two-tone color scheme parked on a quiet road. The setting is outdoors, with dappled sunlight filtering through the trees, casting shadows on the car and pavement.",
+      "labels": {
+        "objects": [
+          "car",
+          "car key",
+          "road"
+        ],
+        "actions": [
+          "holding",
+          "parking"
+        ],
+        "emotions": [
+          "anticipation"
+        ],
+        "scenes": [
+          "outdoor",
+          "roadside"
+        ],
+        "concepts": [
+          "luxury",
+          "automobile design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cool car vid.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cool car vid/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek sports car with a striking black and white split design is parked on a city street at night. Streetlights illuminate the scene, casting reflections on the car's glossy surface. The urban setting is quiet, with trees lining the road and buildings in the background.",
+      "description": "The scene captures a high-end sports car parked on an urban street at night. The environment is calm, with minimal activity, and the focus is on the car's unique design and the ambient city lights.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "streetlights",
+          "buildings",
+          "trees"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "luxury",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, car key, road, sports car, streetlights. Actions: holding, parking, parked. Emotions: anticipation, calm. Scenes: outdoor, roadside, urban, night. Concepts: luxury, automobile design, design",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "car key",
+      "road",
+      "sports car",
+      "streetlights"
+    ],
+    "actions": [
+      "holding",
+      "parking",
+      "parked"
+    ],
+    "emotions": [
+      "anticipation",
+      "calm"
+    ],
+    "scenes": [
+      "outdoor",
+      "roadside",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "luxury",
+      "automobile design",
+      "design"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rolls royce batmobil.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rolls royce batmobil.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/rolls royce batmobil/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic black car is parked on a wet cobblestone street in a historic city. The street is lined with ornate buildings and glowing street lamps, creating a contrast between modern technology and classic architecture. In the background, silhouettes of people walk under the dim, overcast sky.",
+      "description": "The scene is set in a historic city street, possibly in Europe, characterized by cobblestones and classic architecture. The presence of a modern, luxury car adds a futuristic element to the otherwise traditional setting.",
+      "labels": {
+        "objects": [
+          "car",
+          "street lamps",
+          "buildings",
+          "cobblestones"
+        ],
+        "people": [
+          "silhouettes"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mystery",
+          "elegance"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "contrast",
+          "modernity vs tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rolls royce batmobil.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/rolls royce batmobil/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, futuristic car is parked on a wet cobblestone street, surrounded by historic architecture. The scene is illuminated by warm streetlights, creating a contrast with the car's glossy black surface.",
+      "description": "The image depicts a futuristic car set against the backdrop of an old city street. The wet cobblestones reflect the streetlights, adding a dramatic effect to the scene.",
+      "labels": {
+        "objects": [
+          "car",
+          "streetlights",
+          "cobblestones"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime",
+          "historic"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "mysterious",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rolls royce batmobil.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/rolls royce batmobil/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek, black luxury car is parked on a wet cobblestone street in a dimly lit urban setting. The vehicle's glossy surface reflects the warm glow of street lamps lining the road. In the background, silhouettes of people are visible, adding a sense of movement to the scene.",
+      "description": "The scene is set in an urban environment, likely an old city street, with a focus on a luxurious car. The atmosphere is moody and sophisticated, enhanced by the evening lighting and wet pavement.",
+      "labels": {
+        "objects": [
+          "car",
+          "street lamps",
+          "cobblestones"
+        ],
+        "actions": [
+          "parked",
+          "reflections"
+        ],
+        "emotions": [
+          "sophisticated",
+          "moody"
+        ],
+        "scenes": [
+          "urban",
+          "evening"
+        ],
+        "concepts": [
+          "luxury",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, cobblestones, street lamps, buildings, streetlights. People: silhouettes. Actions: parked, walking, reflections. Emotions: mystery, elegance, mysterious, dramatic, sophisticated. Scenes: urban, city street, nighttime, historic, evening. Concepts: contrast, modernity vs tradition, luxury, elegance",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "cobblestones",
+      "street lamps",
+      "buildings",
+      "streetlights"
+    ],
+    "people": [
+      "silhouettes"
+    ],
+    "actions": [
+      "parked",
+      "walking",
+      "reflections"
+    ],
+    "emotions": [
+      "mystery",
+      "elegance",
+      "mysterious",
+      "dramatic",
+      "sophisticated"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "nighttime",
+      "historic",
+      "evening"
+    ],
+    "concepts": [
+      "contrast",
+      "modernity vs tradition",
+      "luxury",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

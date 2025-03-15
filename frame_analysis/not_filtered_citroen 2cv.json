@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/citroen 2cv.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/citroen 2cv.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/citroen 2cv/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a detailed drawing of a vintage car with a classic design. The car is rendered with a mix of green and black colors, showcasing its retro aesthetic against a textured background.",
+      "description": "This scene presents a realistic drawing of a vintage automobile, emphasizing its classic features and nostalgic charm. The setting is minimalistic, focusing entirely on the car itself.",
+      "labels": {
+        "objects": [
+          "car",
+          "vintage car"
+        ],
+        "scenes": [
+          "drawing",
+          "artwork"
+        ],
+        "concepts": [
+          "vintage",
+          "retro",
+          "classic"
+        ],
+        "emotions": [
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/citroen 2cv.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/citroen 2cv/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A classic vintage car is displayed indoors, positioned on a polished wooden floor. The setting is well-lit, with natural light streaming in through large windows, highlighting the car's elegant curves and retro design.",
+      "description": "The scene is set in a modern indoor space, possibly a showroom or a gallery, featuring a vintage car as the centerpiece. The environment is calm and sophisticated, with an emphasis on the car's aesthetic appeal.",
+      "labels": {
+        "objects": [
+          "vintage car",
+          "wooden floor",
+          "windows",
+          "table"
+        ],
+        "scenes": [
+          "indoor",
+          "showroom",
+          "gallery"
+        ],
+        "emotions": [
+          "calm",
+          "sophisticated"
+        ],
+        "concepts": [
+          "vintage",
+          "elegance",
+          "display"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: vintage car, car, wooden floor, windows, table. Scenes: drawing, artwork, indoor, showroom, gallery. Concepts: vintage, retro, classic, elegance, display. Emotions: nostalgia, calm, sophisticated",
+  "primary_labels": {
+    "objects": [
+      "vintage car",
+      "car",
+      "wooden floor",
+      "windows",
+      "table"
+    ],
+    "scenes": [
+      "drawing",
+      "artwork",
+      "indoor",
+      "showroom",
+      "gallery"
+    ],
+    "concepts": [
+      "vintage",
+      "retro",
+      "classic",
+      "elegance",
+      "display"
+    ],
+    "emotions": [
+      "nostalgia",
+      "calm",
+      "sophisticated"
+    ]
+  },
+  "metadata": {}
+}

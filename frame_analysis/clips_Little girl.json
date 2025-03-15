@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An animated girl with large expressive eyes stands in front of a chalkboard, wearing a bright yellow dress. Her hair is long and dark, and she has a gentle smile on her face.",
+      "description": "The scene is set in a classroom with a chalkboard in the background. The animated girl appears to be a student, and the setting suggests a learning environment.",
+      "labels": {
+        "people": [
+          "animated girl"
+        ],
+        "objects": [
+          "chalkboard",
+          "yellow dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "gentle smile"
+        ],
+        "scenes": [
+          "classroom"
+        ],
+        "concepts": [
+          "education",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An animated girl with long dark hair stands in front of a chalkboard with her eyes closed and a serene expression. She wears a yellow dress, and the word 'sad' is partially visible on the board behind her.",
+      "description": "The scene depicts an animated character in a classroom setting, standing calmly in front of a chalkboard. The atmosphere is peaceful, with a hint of introspection suggested by the girl's closed eyes and the word 'sad' on the board.",
+      "labels": {
+        "people": [
+          "animated girl"
+        ],
+        "objects": [
+          "chalkboard",
+          "yellow dress"
+        ],
+        "actions": [
+          "standing",
+          "eyes closed"
+        ],
+        "emotions": [
+          "serene",
+          "introspective"
+        ],
+        "scenes": [
+          "classroom"
+        ],
+        "concepts": [
+          "animation",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young animated girl with long dark hair stands in front of a chalkboard, her eyes closed and a gentle, serene expression on her face. She is wearing a bright yellow dress, and the word 'sad' is partially visible on the board behind her.",
+      "description": "The scene depicts an animated character in a classroom setting, standing calmly in front of a chalkboard. The atmosphere is peaceful, with a focus on the character's expression and the word 'sad' written behind her.",
+      "labels": {
+        "people": [
+          "animated girl"
+        ],
+        "objects": [
+          "chalkboard",
+          "yellow dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "classroom"
+        ],
+        "concepts": [
+          "emotion",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated girl. Objects: chalkboard, yellow dress. Actions: standing, eyes closed. Emotions: serene, gentle smile, introspective, calm. Scenes: classroom. Concepts: animation, emotion, education",
+  "primary_labels": {
+    "people": [
+      "animated girl"
+    ],
+    "objects": [
+      "chalkboard",
+      "yellow dress"
+    ],
+    "actions": [
+      "standing",
+      "eyes closed"
+    ],
+    "emotions": [
+      "serene",
+      "gentle smile",
+      "introspective",
+      "calm"
+    ],
+    "scenes": [
+      "classroom"
+    ],
+    "concepts": [
+      "animation",
+      "emotion",
+      "education"
+    ]
+  },
+  "metadata": {}
+}

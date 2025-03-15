@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smoking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with voluminous curly hair stands confidently in a dimly lit room, exuding elegance and poise. She wears a white lace blouse under a black lace jacket, with soft lighting highlighting her features against a smoky background.",
+      "description": "The scene is set in a dimly lit, possibly vintage interior with a mysterious and elegant atmosphere. The focus is on a woman who appears poised and confident, standing against a backdrop of soft light and smoke.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "jacket"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "interior",
+          "dimly lit"
+        ],
+        "concepts": [
+          "elegance",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smoking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with voluminous curly hair and striking makeup stands confidently in a dimly lit room. She wears a white lace-trimmed blouse under a black lace jacket, exuding elegance and poise.",
+      "description": "The scene is set in a dimly lit, possibly vintage or gothic room, with a mysterious and dramatic atmosphere. The focus is on a woman who exudes confidence and sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "jacket"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident",
+          "elegant"
+        ],
+        "scenes": [
+          "indoor",
+          "dimly lit"
+        ],
+        "concepts": [
+          "fashion",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Smoking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Smoking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with voluminous curly hair and striking makeup stands confidently in a dimly lit room. She wears a white lace blouse under a dark, sheer garment, exuding elegance and poise.",
+      "description": "The scene is set in a dimly lit, possibly vintage or gothic room, with soft lighting creating a mysterious and dramatic atmosphere. The focus is on a single woman, who appears poised and confident.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse",
+          "earrings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "elegance"
+        ],
+        "scenes": [
+          "indoor",
+          "dramatic lighting"
+        ],
+        "concepts": [
+          "fashion",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse, jacket, earrings. Actions: standing. Emotions: confidence, confident, elegant, elegance. Scenes: dimly lit, indoor, interior, dramatic lighting. Concepts: mystery, fashion, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse",
+      "jacket",
+      "earrings"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "confident",
+      "elegant",
+      "elegance"
+    ],
+    "scenes": [
+      "dimly lit",
+      "indoor",
+      "interior",
+      "dramatic lighting"
+    ],
+    "concepts": [
+      "mystery",
+      "fashion",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

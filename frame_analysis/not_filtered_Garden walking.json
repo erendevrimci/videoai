@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Garden walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Garden walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Garden walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with blonde hair and a large bow stands on a path lined with trees, surrounded by fluttering butterflies. She wears a delicate pink dress and looks delighted as she clasps her hands together. The scene is bathed in warm, golden light, creating a magical atmosphere.",
+      "description": "The scene depicts a whimsical, fairytale-like setting in a park or garden. The young girl is the focal point, and her joyful expression suggests a moment of wonder and innocence. Butterflies flit around her, enhancing the enchanting ambiance.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "trees",
+          "path"
+        ],
+        "objects": [
+          "dress",
+          "bow"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "garden",
+          "park"
+        ],
+        "concepts": [
+          "innocence",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Garden walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Garden walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with a large bow in her hair gently touches a flower while butterflies flutter around her. The scene is set in a sunlit garden, creating a serene and enchanting atmosphere.",
+      "description": "The image depicts a whimsical and peaceful garden scene where a young girl interacts with nature. The setting is bright and cheerful, with a focus on the girl's joyful expression and the delicate butterflies surrounding her.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "butterflies"
+        ],
+        "nature": [
+          "flower",
+          "garden"
+        ],
+        "objects": [
+          "bow"
+        ],
+        "actions": [
+          "touching",
+          "fluttering"
+        ],
+        "emotions": [
+          "joy",
+          "serenity"
+        ],
+        "scenes": [
+          "garden scene"
+        ],
+        "concepts": [
+          "innocence",
+          "nature interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Animals: butterflies. Nature: trees, path, flower, garden. Objects: bow, dress. Actions: standing, smiling, touching, fluttering. Emotions: joy, wonder, serenity. Scenes: garden, park, garden scene. Concepts: innocence, magic, nature interaction",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "animals": [
+      "butterflies"
+    ],
+    "nature": [
+      "trees",
+      "path",
+      "flower",
+      "garden"
+    ],
+    "objects": [
+      "bow",
+      "dress"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "touching",
+      "fluttering"
+    ],
+    "emotions": [
+      "joy",
+      "wonder",
+      "serenity"
+    ],
+    "scenes": [
+      "garden",
+      "park",
+      "garden scene"
+    ],
+    "concepts": [
+      "innocence",
+      "magic",
+      "nature interaction"
+    ]
+  },
+  "metadata": {}
+}

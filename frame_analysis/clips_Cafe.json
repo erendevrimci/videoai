@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cafe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cafe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cafe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature workers surrounding a large glass of coffee, with one hand pouring caramel into the drink. The tiny figures are positioned on ladders and around the plate, creating the illusion of a construction site.",
+      "description": "The image presents a creative and playful setting where miniature figures appear to be working on a coffee drink as if it were a construction project. The scene is set on a reflective surface with a blurred background, enhancing the focus on the central activity.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "hand"
+        ],
+        "objects": [
+          "coffee glass",
+          "caramel",
+          "ladder",
+          "plate",
+          "coffee beans"
+        ],
+        "actions": [
+          "pouring",
+          "construction"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "miniature scene",
+          "construction theme"
+        ],
+        "concepts": [
+          "creativity",
+          "illusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cafe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cafe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features miniature workers surrounding a steaming glass of coffee placed on a plate. The tiny figures, equipped with ladders and tools, appear to be constructing or maintaining the coffee setup, adding a playful touch to the image. The setting is surreal, blending everyday objects with imaginative elements.",
+      "description": "The scene is set in a playful, imaginative world where miniature workers interact with a large glass of coffee. The setting combines elements of construction with a cozy coffee atmosphere, creating a unique and whimsical visual experience.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "glass of coffee",
+          "plate",
+          "ladder",
+          "tools"
+        ],
+        "actions": [
+          "constructing",
+          "maintaining"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature world",
+          "coffee construction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, hand, miniature workers. Objects: ladder, plate, coffee glass, caramel, coffee beans. Actions: pouring, construction, constructing, maintaining. Emotions: playful, whimsical. Scenes: miniature scene, construction theme, surreal, imaginative. Concepts: creativity, illusion, miniature world, coffee construction",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "hand",
+      "miniature workers"
+    ],
+    "objects": [
+      "ladder",
+      "plate",
+      "coffee glass",
+      "caramel",
+      "coffee beans"
+    ],
+    "actions": [
+      "pouring",
+      "construction",
+      "constructing",
+      "maintaining"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "miniature scene",
+      "construction theme",
+      "surreal",
+      "imaginative"
+    ],
+    "concepts": [
+      "creativity",
+      "illusion",
+      "miniature world",
+      "coffee construction"
+    ]
+  },
+  "metadata": {}
+}

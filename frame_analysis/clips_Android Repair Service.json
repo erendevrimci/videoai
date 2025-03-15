@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android Repair Service.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android Repair Service.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Android Repair Service/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid figure with short white hair and a sleek, high-collared outfit stands against a plain background. The figure's attire and visible mechanical components suggest an advanced robotic design.",
+      "description": "The scene depicts a humanoid robot in a minimalist setting, highlighting its futuristic and sophisticated design. The focus is on the robot's upper body, showcasing its blend of human-like features and mechanical elements.",
+      "labels": {
+        "people": [
+          "humanoid",
+          "robot"
+        ],
+        "objects": [
+          "mechanical components",
+          "high-collared outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "futuristic",
+          "minimalist"
+        ],
+        "concepts": [
+          "technology",
+          "advanced robotics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android Repair Service.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Android Repair Service/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic scene depicts a woman wearing a high-tech headset, assisted by a robotic arm. The woman, dressed in a sleek, white outfit, stands calmly as the robotic hand adjusts the device on her head.",
+      "description": "The image portrays a sci-fi setting where advanced technology and human interaction are seamlessly integrated. The focus is on the woman and the robotic elements, suggesting a theme of human-technology synergy.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "robotic arm",
+          "headset",
+          "futuristic outfit"
+        ],
+        "actions": [
+          "adjusting",
+          "wearing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "human-robot interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid, robot, woman. Objects: mechanical components, high-collared outfit, robotic arm, headset, futuristic outfit. Actions: standing, adjusting, wearing. Emotions: neutral, calm. Scenes: futuristic, minimalist, sci-fi. Concepts: technology, advanced robotics, human-robot interaction",
+  "primary_labels": {
+    "people": [
+      "humanoid",
+      "robot",
+      "woman"
+    ],
+    "objects": [
+      "mechanical components",
+      "high-collared outfit",
+      "robotic arm",
+      "headset",
+      "futuristic outfit"
+    ],
+    "actions": [
+      "standing",
+      "adjusting",
+      "wearing"
+    ],
+    "emotions": [
+      "neutral",
+      "calm"
+    ],
+    "scenes": [
+      "futuristic",
+      "minimalist",
+      "sci-fi"
+    ],
+    "concepts": [
+      "technology",
+      "advanced robotics",
+      "human-robot interaction"
+    ]
+  },
+  "metadata": {}
+}

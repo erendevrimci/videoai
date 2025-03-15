@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A G C.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A G C.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A G C/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands on a rural road, wearing traditional attire and a turban. The background features a clear blue sky and fields with trees on the horizon.",
+      "description": "The scene depicts a serene rural setting with a person in traditional clothing standing on a road. The landscape includes open fields and a clear sky, suggesting a peaceful countryside atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "tree",
+          "field",
+          "sky"
+        ],
+        "objects": [
+          "turban",
+          "glasses",
+          "traditional clothing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "rural",
+          "countryside"
+        ],
+        "concepts": [
+          "tradition",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A G C.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A G C/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands is squeezing a soft, colorful object against a bright background. The object appears to be made of a squishy material, with layers of purple, yellow, and white visible.",
+      "description": "The scene captures a close-up of hands manipulating a soft, squishy object, likely a stress ball or similar toy. The background is bright and slightly blurred, suggesting an outdoor setting with natural light.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "squishy toy",
+          "stress ball"
+        ],
+        "actions": [
+          "squeezing"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "tactile interaction",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, hands. Nature: tree, field, sky. Objects: turban, glasses, traditional clothing, squishy toy, stress ball. Emotions: calm. Scenes: rural, countryside, close-up. Concepts: tradition, serenity, tactile interaction, relaxation. Actions: squeezing",
+  "primary_labels": {
+    "people": [
+      "person",
+      "hands"
+    ],
+    "nature": [
+      "tree",
+      "field",
+      "sky"
+    ],
+    "objects": [
+      "turban",
+      "glasses",
+      "traditional clothing",
+      "squishy toy",
+      "stress ball"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "rural",
+      "countryside",
+      "close-up"
+    ],
+    "concepts": [
+      "tradition",
+      "serenity",
+      "tactile interaction",
+      "relaxation"
+    ],
+    "actions": [
+      "squeezing"
+    ]
+  },
+  "metadata": {}
+}

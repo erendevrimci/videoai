@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsLookingAt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsLookingAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlIsLookingAt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands on a beach at sunset, gazing over her shoulder towards the camera. The sun casts a warm glow over the ocean, highlighting her light blue outfit and flowing hair.",
+      "description": "The scene captures a serene moment at the beach during sunset, with a focus on a woman enjoying the tranquil setting. The ocean waves gently lap at the shore, and the sky is painted with hues of orange and blue.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "beach",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsLookingAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlIsLookingAt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands on a beach at sunset, her hair gently blowing in the breeze. Behind her, a large whale breaches dramatically from the ocean, creating a splash against the backdrop of a colorful sky.",
+      "description": "The scene captures a serene beach setting during sunset, with a young woman in the foreground and a whale breaching in the background. The juxtaposition of the calm human presence and the dynamic ocean life creates a striking visual contrast.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "whale"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "breaching",
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "beach scene"
+        ],
+        "concepts": [
+          "contrast",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sunset, sky. Objects: clothing. Actions: standing, gazing, breaching. Emotions: serene, calm. Scenes: beach, sunset, beach scene. Concepts: tranquility, beauty, contrast, serenity. Animals: whale",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "breaching"
+    ],
+    "emotions": [
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "beach",
+      "sunset",
+      "beach scene"
+    ],
+    "concepts": [
+      "tranquility",
+      "beauty",
+      "contrast",
+      "serenity"
+    ],
+    "animals": [
+      "whale"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uad8c\uc900.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uad8c\uc900.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\uad8c\uc900/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy sits calmly in a garden, surrounded by lush greenery and blooming plants. He wears a striped shirt and looks directly at the camera with a neutral expression.",
+      "description": "The scene captures a peaceful moment in a garden setting, with a young boy seated amidst various plants and shrubs. The background shows a building, suggesting a residential or educational environment.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "nature": [
+          "garden",
+          "plants",
+          "shrubs"
+        ],
+        "objects": [
+          "striped shirt",
+          "building"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "childhood",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uad8c\uc900.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\uad8c\uc900/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is partially visible, with their upper body resting on a large, dark blue exercise ball. The scene is set in a garden with lush greenery and a stone path.",
+      "description": "The image depicts an outdoor garden setting where a person is interacting with a large exercise ball. The surrounding area is filled with plants and a stone path, suggesting a peaceful and natural environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "garden",
+          "plants"
+        ],
+        "objects": [
+          "exercise ball",
+          "stone"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "relaxation",
+          "balance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy, person. Nature: garden, plants, shrubs. Objects: striped shirt, building, exercise ball, stone. Actions: sitting, resting. Emotions: calm. Scenes: outdoor, garden. Concepts: childhood, nature, relaxation, balance",
+  "primary_labels": {
+    "people": [
+      "boy",
+      "person"
+    ],
+    "nature": [
+      "garden",
+      "plants",
+      "shrubs"
+    ],
+    "objects": [
+      "striped shirt",
+      "building",
+      "exercise ball",
+      "stone"
+    ],
+    "actions": [
+      "sitting",
+      "resting"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "outdoor",
+      "garden"
+    ],
+    "concepts": [
+      "childhood",
+      "nature",
+      "relaxation",
+      "balance"
+    ]
+  },
+  "metadata": {}
+}

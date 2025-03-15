@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DutchAngle,AHandsomeYoung.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DutchAngle,AHandsomeYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DutchAngle,AHandsomeYoung/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A smiling vendor with silver hair is preparing skewers of meat at a food stall. The stall is filled with various cuts of meat displayed in glass cases, and a warm light bulb hangs above, illuminating the scene.",
+      "description": "The scene is set in a bustling food market, where a vendor is preparing meat skewers. The atmosphere is lively and inviting, with the vendor's cheerful demeanor adding warmth to the setting.",
+      "labels": {
+        "people": [
+          "vendor"
+        ],
+        "objects": [
+          "meat skewers",
+          "food stall",
+          "glass cases",
+          "light bulb"
+        ],
+        "actions": [
+          "preparing",
+          "smiling"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "market",
+          "food preparation"
+        ],
+        "concepts": [
+          "cooking",
+          "street food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DutchAngle,AHandsomeYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DutchAngle,AHandsomeYoung/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man with silver hair is smiling as he prepares skewers of meat at a food stall. The scene is warmly lit, highlighting the fresh cuts of meat displayed in front of him.",
+      "description": "The image depicts a lively street food market setting where a vendor is preparing meat skewers. The atmosphere is inviting and bustling, typical of a vibrant market environment.",
+      "labels": {
+        "people": [
+          "young man",
+          "vendor"
+        ],
+        "objects": [
+          "meat skewers",
+          "food stall",
+          "cutting board",
+          "light bulb"
+        ],
+        "actions": [
+          "preparing food",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "market",
+          "food stall"
+        ],
+        "concepts": [
+          "street food",
+          "culinary preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: vendor, young man. Objects: meat skewers, food stall, light bulb, glass cases, cutting board. Actions: smiling, preparing, preparing food. Emotions: cheerful, happiness. Scenes: market, food preparation, food stall. Concepts: street food, cooking, culinary preparation",
+  "primary_labels": {
+    "people": [
+      "vendor",
+      "young man"
+    ],
+    "objects": [
+      "meat skewers",
+      "food stall",
+      "light bulb",
+      "glass cases",
+      "cutting board"
+    ],
+    "actions": [
+      "smiling",
+      "preparing",
+      "preparing food"
+    ],
+    "emotions": [
+      "cheerful",
+      "happiness"
+    ],
+    "scenes": [
+      "market",
+      "food preparation",
+      "food stall"
+    ],
+    "concepts": [
+      "street food",
+      "cooking",
+      "culinary preparation"
+    ]
+  },
+  "metadata": {}
+}

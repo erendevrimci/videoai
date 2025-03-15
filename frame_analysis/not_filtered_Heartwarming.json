@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Heartwarming/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl stands face-to-face with a realistic dinosaur model, gazing at it with curiosity and delight. The dinosaur's detailed features are highlighted, creating a striking contrast with the girl's delicate appearance.",
+      "description": "The scene captures a playful interaction between a child and a dinosaur model, set against a neutral background. The focus is on the girl's expression and the lifelike details of the dinosaur, creating a whimsical and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "dinosaur model"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity",
+          "delight"
+        ],
+        "scenes": [
+          "playful interaction"
+        ],
+        "concepts": [
+          "imagination",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Heartwarming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Heartwarming/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl stands face-to-face with a realistic dinosaur model, gazing at it with a look of wonder. The dinosaur's detailed features and the girl's expression create a whimsical and imaginative scene.",
+      "description": "The scene captures a playful interaction between a child and a dinosaur model, set against a neutral backdrop. The girl's curiosity and the lifelike appearance of the dinosaur suggest a moment of imaginative play.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "dinosaur model"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "wonder",
+          "curiosity"
+        ],
+        "scenes": [
+          "imaginative play"
+        ],
+        "concepts": [
+          "interaction",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: dinosaur model, dress. Actions: gazing. Emotions: curiosity, delight, wonder. Scenes: playful interaction, imaginative play. Concepts: imagination, contrast, interaction. Animals: dinosaur model",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "dinosaur model",
+      "dress"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity",
+      "delight",
+      "wonder"
+    ],
+    "scenes": [
+      "playful interaction",
+      "imaginative play"
+    ],
+    "concepts": [
+      "imagination",
+      "contrast",
+      "interaction"
+    ],
+    "animals": [
+      "dinosaur model"
+    ]
+  },
+  "metadata": {}
+}

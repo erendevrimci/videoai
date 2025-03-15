@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk businessman on a super.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk businessman on a super.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk businessman on a super/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a white suit drives a vintage, steampunk-style car through a cobblestone street flanked by ornate, historical buildings. The scene is set in a dimly lit, atmospheric cityscape with a cloudy sky overhead.",
+      "description": "The image depicts a steampunk-themed street scene with a man driving a uniquely designed vehicle. The setting is an old-fashioned city with intricate architecture, creating a blend of historical and fantastical elements.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "steampunk car",
+          "cobblestone street",
+          "historical buildings"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "nostalgic"
+        ],
+        "scenes": [
+          "cityscape",
+          "steampunk"
+        ],
+        "concepts": [
+          "steampunk",
+          "vintage",
+          "historical architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk businessman on a super.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk businessman on a super/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A distinguished individual in a white suit is seated in a vintage vehicle, navigating through a narrow, ornate street lined with intricate, historic buildings. The scene is set during twilight, with warm lights emanating from the windows, creating a contrast against the cool, cloudy sky.",
+      "description": "The scene depicts a sophisticated, possibly steampunk-inspired setting with a blend of historical and futuristic elements. The individual appears to be driving through an old European-style street, characterized by its detailed architecture and ambient lighting.",
+      "labels": {
+        "people": [
+          "individual"
+        ],
+        "objects": [
+          "vintage vehicle",
+          "white suit"
+        ],
+        "scenes": [
+          "historic street",
+          "twilight setting"
+        ],
+        "emotions": [
+          "sophisticated"
+        ],
+        "concepts": [
+          "steampunk",
+          "historical architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, individual. Objects: steampunk car, cobblestone street, historical buildings, vintage vehicle, white suit. Actions: driving. Emotions: nostalgic, sophisticated. Scenes: cityscape, steampunk, historic street, twilight setting. Concepts: steampunk, historical architecture, vintage",
+  "primary_labels": {
+    "people": [
+      "man",
+      "individual"
+    ],
+    "objects": [
+      "steampunk car",
+      "cobblestone street",
+      "historical buildings",
+      "vintage vehicle",
+      "white suit"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "emotions": [
+      "nostalgic",
+      "sophisticated"
+    ],
+    "scenes": [
+      "cityscape",
+      "steampunk",
+      "historic street",
+      "twilight setting"
+    ],
+    "concepts": [
+      "steampunk",
+      "historical architecture",
+      "vintage"
+    ]
+  },
+  "metadata": {}
+}

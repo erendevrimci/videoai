@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAnthropomorphicOrangeKittenWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAnthropomorphicOrangeKittenWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnAnthropomorphicOrangeKittenWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A playful orange kitten is sitting in a cardboard box filled with dollar bills, raising its paws excitedly. The kitten's wide eyes and open mouth convey a sense of joy and mischief.",
+      "description": "The scene depicts a lively and humorous setting where an adorable kitten is surrounded by money, creating a playful and whimsical atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "cardboard box",
+          "dollar bills"
+        ],
+        "actions": [
+          "raising paws",
+          "sitting"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "playful",
+          "humorous"
+        ],
+        "concepts": [
+          "wealth",
+          "mischief"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnAnthropomorphicOrangeKittenWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnAnthropomorphicOrangeKittenWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A playful orange kitten is sitting in a cardboard box filled with dollar bills, appearing to be laughing joyfully. The kitten's eyes are closed, and its mouth is open wide, showcasing its small teeth, as it playfully paws at the money.",
+      "description": "The scene depicts a humorous and whimsical setting where a kitten is surrounded by money, creating a playful and lighthearted atmosphere. The focus is on the kitten's expressive face and its interaction with the money.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "cardboard box",
+          "dollar bills"
+        ],
+        "actions": [
+          "laughing",
+          "pawing"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "humorous",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: cardboard box, dollar bills. Actions: raising paws, sitting, laughing, pawing. Emotions: joy, excitement, joyful, playful. Scenes: humorous, playful, whimsical. Concepts: wealth, mischief",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "cardboard box",
+      "dollar bills"
+    ],
+    "actions": [
+      "raising paws",
+      "sitting",
+      "laughing",
+      "pawing"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "humorous",
+      "playful",
+      "whimsical"
+    ],
+    "concepts": [
+      "wealth",
+      "mischief"
+    ]
+  },
+  "metadata": {}
+}

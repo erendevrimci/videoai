@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"ACaptivatingAnimatedSceneOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"ACaptivatingAnimatedSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"ACaptivatingAnimatedSceneOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a whimsical scene of miniature people working around giant perfume bottles. They are engaged in various tasks such as climbing ladders, examining bottles, and mixing ingredients. The setting is illuminated by warm, golden lighting, creating an enchanting atmosphere.",
+      "description": "This scene is set in a fantastical workshop where tiny figures are meticulously crafting and inspecting oversized perfume bottles. The environment is reminiscent of a laboratory or a perfumery, filled with an array of glass bottles and tools.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "perfume bottles",
+          "ladders",
+          "tools"
+        ],
+        "actions": [
+          "climbing",
+          "examining",
+          "mixing"
+        ],
+        "emotions": [
+          "whimsical",
+          "enchanted"
+        ],
+        "scenes": [
+          "workshop",
+          "laboratory"
+        ],
+        "concepts": [
+          "miniature world",
+          "perfumery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"ACaptivatingAnimatedSceneOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"ACaptivatingAnimatedSceneOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature people working around giant perfume bottles, meticulously crafting fragrances. The setting is a fantastical laboratory with glowing lights framing the background. Each figure is engaged in tasks like mixing, measuring, and inspecting the perfume bottles.",
+      "description": "The scene is set in a surreal perfume laboratory where tiny figures are seen working around oversized perfume bottles. The atmosphere is lively and industrious, with a sense of creativity and precision.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "perfume bottles",
+          "ladders",
+          "tools",
+          "lights"
+        ],
+        "actions": [
+          "mixing",
+          "measuring",
+          "inspecting"
+        ],
+        "emotions": [
+          "industrious",
+          "creative"
+        ],
+        "scenes": [
+          "laboratory",
+          "fantasy"
+        ],
+        "concepts": [
+          "miniature world",
+          "craftsmanship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, workers. Objects: perfume bottles, ladders, tools, lights. Actions: mixing, climbing, examining, measuring, inspecting. Emotions: whimsical, enchanted, industrious, creative. Scenes: laboratory, workshop, fantasy. Concepts: miniature world, perfumery, craftsmanship",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "workers"
+    ],
+    "objects": [
+      "perfume bottles",
+      "ladders",
+      "tools",
+      "lights"
+    ],
+    "actions": [
+      "mixing",
+      "climbing",
+      "examining",
+      "measuring",
+      "inspecting"
+    ],
+    "emotions": [
+      "whimsical",
+      "enchanted",
+      "industrious",
+      "creative"
+    ],
+    "scenes": [
+      "laboratory",
+      "workshop",
+      "fantasy"
+    ],
+    "concepts": [
+      "miniature world",
+      "perfumery",
+      "craftsmanship"
+    ]
+  },
+  "metadata": {}
+}

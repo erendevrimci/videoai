@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shahmaran.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shahmaran.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Shahmaran/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long dark hair and a golden crown sits surrounded by snakes in a dimly lit stone chamber. She wears ornate jewelry and a flowing gown, exuding an aura of power and mystery. Flames flicker in the background, casting a warm glow over the scene.",
+      "description": "The scene is set in an ancient, mystical chamber with stone walls and flickering torches. The central figure is a regal woman, possibly a sorceress or queen, seated amidst several large snakes. The atmosphere is tense and enigmatic, suggesting a moment of quiet power or ritual.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "snakes"
+        ],
+        "nature": [],
+        "objects": [
+          "crown",
+          "jewelry",
+          "gown",
+          "flames"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mysterious",
+          "powerful"
+        ],
+        "scenes": [
+          "chamber",
+          "ritual"
+        ],
+        "concepts": [
+          "mysticism",
+          "regality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shahmaran.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Shahmaran/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A regal woman sits confidently on a throne, adorned in intricate gold jewelry and a crown. Her intense gaze is complemented by the dimly lit, ancient stone chamber surrounding her, with torches casting a warm glow. A large snake coils around her, adding an air of mystique and power.",
+      "description": "The scene is set in a dimly lit, ancient stone chamber, suggesting a historical or fantasy setting. The central figure is a woman dressed in elaborate gold attire, exuding authority and confidence. The presence of a snake adds an element of danger and intrigue.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "nature": [],
+        "objects": [
+          "crown",
+          "jewelry",
+          "throne",
+          "torches"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "confidence",
+          "intensity"
+        ],
+        "scenes": [
+          "ancient chamber",
+          "fantasy"
+        ],
+        "concepts": [
+          "power",
+          "mystique",
+          "regality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: snakes, snake. Objects: crown, jewelry, gown, flames, throne. Actions: sitting. Emotions: mysterious, powerful, confidence, intensity. Scenes: chamber, ritual, ancient chamber, fantasy. Concepts: regality, mysticism, power, mystique",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "snakes",
+      "snake"
+    ],
+    "nature": [],
+    "objects": [
+      "crown",
+      "jewelry",
+      "gown",
+      "flames",
+      "throne"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "mysterious",
+      "powerful",
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "chamber",
+      "ritual",
+      "ancient chamber",
+      "fantasy"
+    ],
+    "concepts": [
+      "regality",
+      "mysticism",
+      "power",
+      "mystique"
+    ]
+  },
+  "metadata": {}
+}

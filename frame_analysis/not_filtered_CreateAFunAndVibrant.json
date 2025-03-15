@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAFunAndVibrant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAFunAndVibrant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAFunAndVibrant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features small, yellow characters interacting with a large pile of macaroni and cheese. They appear to be playing and exploring, with one character emerging from a bread structure as cheese sauce flows down. The setting is a cozy kitchen with warm lighting.",
+      "description": "The scene takes place in a kitchen where animated characters are engaging with a dish of macaroni and cheese. The playful atmosphere is enhanced by the characters' expressions and the flowing cheese, creating a sense of fun and mischief.",
+      "labels": {
+        "people": [
+          "animated characters"
+        ],
+        "objects": [
+          "macaroni and cheese",
+          "bread structure",
+          "cheese sauce"
+        ],
+        "actions": [
+          "playing",
+          "exploring"
+        ],
+        "emotions": [
+          "playful",
+          "mischievous"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "whimsy",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateAFunAndVibrant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateAFunAndVibrant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of small, yellow, animated characters are playfully interacting with a pan of cheesy pasta on a wooden kitchen table. The cheese is overflowing from the pan, creating a playful and messy scene. The background shows a cozy kitchen setting with a window and various kitchen items.",
+      "description": "The scene is set in a warm, inviting kitchen where animated characters are engaging with food in a humorous manner. The focus is on the interaction between the characters and the overflowing cheesy pasta, creating a whimsical and lighthearted atmosphere.",
+      "labels": {
+        "people": [
+          "animated characters"
+        ],
+        "objects": [
+          "pan",
+          "cheesy pasta",
+          "wooden table"
+        ],
+        "actions": [
+          "playing",
+          "interacting"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "animation",
+          "humor",
+          "food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated characters. Objects: macaroni and cheese, bread structure, cheese sauce, pan, cheesy pasta. Actions: playing, exploring, interacting. Emotions: playful, mischievous, humorous. Scenes: kitchen. Concepts: whimsy, fun, animation, humor, food",
+  "primary_labels": {
+    "people": [
+      "animated characters"
+    ],
+    "objects": [
+      "macaroni and cheese",
+      "bread structure",
+      "cheese sauce",
+      "pan",
+      "cheesy pasta"
+    ],
+    "actions": [
+      "playing",
+      "exploring",
+      "interacting"
+    ],
+    "emotions": [
+      "playful",
+      "mischievous",
+      "humorous"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "whimsy",
+      "fun",
+      "animation",
+      "humor",
+      "food"
+    ]
+  },
+  "metadata": {}
+}

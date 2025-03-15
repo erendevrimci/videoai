@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lost in Time.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lost in Time.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lost in Time/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene portrait of a person shrouded in a dark hood with ethereal wisps of smoke swirling around. The soft lighting highlights the calm expression and delicate features, creating a mystical atmosphere.",
+      "description": "The scene depicts a close-up portrait of a person enveloped in a dark hood, surrounded by swirling smoke. The setting is mysterious and atmospheric, with a focus on the interplay between light and shadow.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hood"
+        ],
+        "actions": [
+          "swirling"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystical",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lost in Time.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lost in Time/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person with a serene expression is enveloped in a dark hood, with wisps of smoke swirling around their face. The soft lighting highlights their delicate features against the dark background, creating a mysterious and ethereal atmosphere.",
+      "description": "The scene depicts a close-up portrait of a person wearing a dark hood, surrounded by swirling smoke. The setting is likely indoors with controlled lighting, emphasizing the contrast between the subject's pale skin and the dark fabric.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hood",
+          "fabric"
+        ],
+        "actions": [
+          "smoke swirling"
+        ],
+        "emotions": [
+          "serene",
+          "mysterious"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystery",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lost in Time.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lost in Time/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene portrait of a person with striking blue eyes, wrapped in a dark hood. Wisps of smoke swirl gently around their face, adding an ethereal quality to the scene.",
+      "description": "The image captures a close-up profile of a person enveloped in a dark hood, with smoke creating a mysterious atmosphere. The focus is on the person's calm expression and vivid eyes, set against a dark background.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hood"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "mystery",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: hood, fabric. Actions: swirling, smoke swirling, looking. Emotions: serene, calm, mysterious. Scenes: portrait. Concepts: ethereal, mystery, mystical",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "hood",
+      "fabric"
+    ],
+    "actions": [
+      "swirling",
+      "smoke swirling",
+      "looking"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "mysterious"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "ethereal",
+      "mystery",
+      "mystical"
+    ]
+  },
+  "metadata": {}
+}

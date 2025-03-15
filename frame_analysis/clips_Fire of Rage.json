@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fire of Rage.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fire of Rage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fire of Rage/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior stands poised with a glowing sword enveloped in swirling flames. The intense firelight casts dramatic shadows, highlighting the warrior's focused expression and traditional attire.",
+      "description": "The scene depicts a warrior in a traditional outfit, surrounded by dynamic, fiery energy. The setting suggests a mystical or fantasy environment where the warrior is possibly engaged in a magical battle or ritual.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "focus",
+          "intensity"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "fire",
+          "magic",
+          "battle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fire of Rage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fire of Rage/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior in traditional attire stands amidst swirling flames, holding a glowing sword. The intense fire creates a dramatic backdrop, highlighting the warrior's determined expression.",
+      "description": "The scene depicts a warrior in a dramatic, fiery setting, suggesting a moment of power or confrontation. The flames and glowing sword add to the intensity and focus on the central figure.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "dramatic"
+        ],
+        "concepts": [
+          "power",
+          "confrontation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fire of Rage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fire of Rage/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A warrior stands confidently amidst swirling flames, holding a sword in his right hand. His traditional attire and intense expression convey a sense of determination and strength.",
+      "description": "The scene depicts a warrior in a dramatic setting engulfed by flames, suggesting a moment of intense action or confrontation. The fiery background enhances the warrior's commanding presence.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "sword",
+          "traditional attire"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "dramatic",
+          "fiery"
+        ],
+        "concepts": [
+          "courage",
+          "battle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Objects: sword, traditional attire. Actions: standing, holding. Emotions: determination, focus, intensity, strength. Scenes: dramatic, fantasy, mystical, fiery. Concepts: battle, fire, magic, power, confrontation",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "objects": [
+      "sword",
+      "traditional attire"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "focus",
+      "intensity",
+      "strength"
+    ],
+    "scenes": [
+      "dramatic",
+      "fantasy",
+      "mystical",
+      "fiery"
+    ],
+    "concepts": [
+      "battle",
+      "fire",
+      "magic",
+      "power",
+      "confrontation"
+    ]
+  },
+  "metadata": {}
+}

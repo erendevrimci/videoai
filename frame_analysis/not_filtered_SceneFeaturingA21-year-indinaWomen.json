@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneFeaturingA21-year-indinaWomen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneFeaturingA21-year-indinaWomen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SceneFeaturingA21-year-indinaWomen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a vibrant orange saree walks gracefully down a sunlit street, her long hair flowing in the breeze. She smiles warmly, exuding confidence and joy, while the soft sunlight highlights her features.",
+      "description": "The scene captures a lively street setting where a woman is the focal point, dressed in traditional attire. The background is slightly blurred, indicating a bustling environment with other people present.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "saree",
+          "earrings"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "street",
+          "outdoor"
+        ],
+        "concepts": [
+          "fashion",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SceneFeaturingA21-year-indinaWomen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SceneFeaturingA21-year-indinaWomen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is walking outdoors, wearing a vibrant orange saree with intricate gold detailing. She has long, flowing hair and is adorned with elegant earrings, smiling warmly as she moves.",
+      "description": "The scene captures a woman walking confidently in a sunny outdoor setting, possibly on a street or in a park. The background is softly blurred, emphasizing her presence and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "saree",
+          "earrings"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunny"
+        ],
+        "concepts": [
+          "fashion",
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: saree, earrings. Actions: walking, smiling. Emotions: happiness, confidence. Scenes: outdoor, street, sunny. Concepts: fashion, tradition, confidence",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "saree",
+      "earrings"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "outdoor",
+      "street",
+      "sunny"
+    ],
+    "concepts": [
+      "fashion",
+      "tradition",
+      "confidence"
+    ]
+  },
+  "metadata": {}
+}

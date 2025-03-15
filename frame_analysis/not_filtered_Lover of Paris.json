@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lover of Paris.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lover of Paris.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lover of Paris/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish couple stands in front of the Eiffel Tower, with the man whispering into the woman's ear. The woman is dressed in a pink coat and large sunglasses, exuding a sense of vintage glamour.",
+      "description": "The scene captures a romantic moment between a couple in Paris, with the iconic Eiffel Tower in the background. The setting suggests a classic, timeless atmosphere, enhanced by the couple's fashionable attire.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "Eiffel Tower",
+          "sunglasses",
+          "pink coat"
+        ],
+        "actions": [
+          "whispering",
+          "standing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "urban",
+          "tourist attraction"
+        ],
+        "concepts": [
+          "fashion",
+          "vintage",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lover of Paris.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lover of Paris/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish couple shares an intimate moment in front of the Eiffel Tower. The woman, dressed in a pink coat and large sunglasses, smiles warmly while the man leans in close. The iconic Parisian landmark looms softly in the background, adding a romantic touch to the scene.",
+      "description": "The scene is set in Paris, with the Eiffel Tower prominently visible, suggesting a romantic or tourist setting. The focus is on a couple, with the woman dressed in a vintage style, evoking a sense of classic elegance.",
+      "labels": {
+        "people": [
+          "woman",
+          "man",
+          "couple"
+        ],
+        "objects": [
+          "Eiffel Tower",
+          "sunglasses",
+          "pink coat"
+        ],
+        "actions": [
+          "leaning",
+          "smiling"
+        ],
+        "emotions": [
+          "intimacy",
+          "happiness"
+        ],
+        "scenes": [
+          "romantic",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "vintage",
+          "Paris"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, couple. Objects: Eiffel Tower, sunglasses, pink coat. Actions: whispering, standing, leaning, smiling. Emotions: romantic, intimate, intimacy, happiness. Scenes: urban, tourist attraction, romantic. Concepts: fashion, vintage, romance, Paris",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "couple"
+    ],
+    "objects": [
+      "Eiffel Tower",
+      "sunglasses",
+      "pink coat"
+    ],
+    "actions": [
+      "whispering",
+      "standing",
+      "leaning",
+      "smiling"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate",
+      "intimacy",
+      "happiness"
+    ],
+    "scenes": [
+      "urban",
+      "tourist attraction",
+      "romantic"
+    ],
+    "concepts": [
+      "fashion",
+      "vintage",
+      "romance",
+      "Paris"
+    ]
+  },
+  "metadata": {}
+}

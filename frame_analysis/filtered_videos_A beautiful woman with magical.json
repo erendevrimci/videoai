@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful woman with magical.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful woman with magical.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautiful woman with magical/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with striking blue eyes extends her hand forward, conjuring a glowing orb surrounded by swirling water. Her intense gaze is framed by long, dark hair, and she wears a dark cloak with a pendant around her neck. The scene is mystical, with an ethereal light illuminating the orb and water.",
+      "description": "The scene depicts a magical moment where a woman appears to be performing a spell or magical act, set against a dark, mystical backdrop. The focus is on the glowing orb and the dynamic movement of water, suggesting an atmosphere of power and mystery.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "orb",
+          "cloak",
+          "pendant"
+        ],
+        "actions": [
+          "conjuring",
+          "extending hand"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "magical",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A beautiful woman with magical.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A beautiful woman with magical/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure with striking blue eyes extends their hand forward, holding a glowing orb surrounded by ethereal, swirling energy. The scene is set against a dark background, enhancing the mystical atmosphere.",
+      "description": "The image portrays a fantasy scene where a person appears to be performing magic. The focus is on the glowing orb in their hand, with energy swirling around it, creating a sense of power and mystery.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "orb",
+          "necklace"
+        ],
+        "actions": [
+          "holding",
+          "casting"
+        ],
+        "emotions": [
+          "mystical",
+          "intense"
+        ],
+        "scenes": [
+          "fantasy",
+          "magic"
+        ],
+        "concepts": [
+          "mysticism",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: orb, cloak, pendant, necklace. Actions: conjuring, extending hand, holding, casting. Emotions: intensity, focus, mystical, intense. Scenes: magical, mystical, fantasy, magic. Concepts: magic, power, mysticism, energy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "orb",
+      "cloak",
+      "pendant",
+      "necklace"
+    ],
+    "actions": [
+      "conjuring",
+      "extending hand",
+      "holding",
+      "casting"
+    ],
+    "emotions": [
+      "intensity",
+      "focus",
+      "mystical",
+      "intense"
+    ],
+    "scenes": [
+      "magical",
+      "mystical",
+      "fantasy",
+      "magic"
+    ],
+    "concepts": [
+      "magic",
+      "power",
+      "mysticism",
+      "energy"
+    ]
+  },
+  "metadata": {}
+}

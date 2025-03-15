@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/world leaders on steroides.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/world leaders on steroides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/world leaders on steroides/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in military attire walks confidently through a war-torn street, surrounded by soldiers and a drone hovering in the background. The scene is filled with smoke and debris, suggesting recent conflict. The man's determined expression and the fiery backdrop create a dramatic atmosphere.",
+      "description": "The scene depicts a military setting in an urban environment, likely after a battle. The central figure is dressed in red camouflage with tactical gear, walking amidst chaos. Other soldiers are visible, and a drone flies overhead, adding to the tension.",
+      "labels": {
+        "people": [
+          "man",
+          "soldiers"
+        ],
+        "objects": [
+          "drone",
+          "tactical gear",
+          "firearm"
+        ],
+        "actions": [
+          "walking",
+          "hovering"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "military",
+          "urban warfare"
+        ],
+        "concepts": [
+          "conflict",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/world leaders on steroides.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/world leaders on steroides/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular man stands confidently in a rugged environment, wearing red camouflage pants and a belt. Behind him, a drone hovers in the air, and soldiers are visible in the background, suggesting a military setting.",
+      "description": "The scene depicts a strong, confident figure in a military or combat zone. The environment appears tense, with soldiers and a drone indicating a possible operation or mission.",
+      "labels": {
+        "people": [
+          "muscular man",
+          "soldiers"
+        ],
+        "objects": [
+          "drone",
+          "camouflage pants",
+          "belt"
+        ],
+        "actions": [
+          "standing",
+          "hovering"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "military setting",
+          "combat zone"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: soldiers, man, muscular man. Objects: drone, tactical gear, firearm, camouflage pants, belt. Actions: hovering, walking, standing. Emotions: determination, confidence. Scenes: military, urban warfare, military setting, combat zone. Concepts: conflict, leadership",
+  "primary_labels": {
+    "people": [
+      "soldiers",
+      "man",
+      "muscular man"
+    ],
+    "objects": [
+      "drone",
+      "tactical gear",
+      "firearm",
+      "camouflage pants",
+      "belt"
+    ],
+    "actions": [
+      "hovering",
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "confidence"
+    ],
+    "scenes": [
+      "military",
+      "urban warfare",
+      "military setting",
+      "combat zone"
+    ],
+    "concepts": [
+      "conflict",
+      "leadership"
+    ]
+  },
+  "metadata": {}
+}

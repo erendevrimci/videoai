@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StopMotionEffect.FocusedOn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StopMotionEffect.FocusedOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StopMotionEffect.FocusedOn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is sitting at a table, holding a piece of fried chicken with both paws. The cat is surrounded by microphones, suggesting a recording or broadcast setting.",
+      "description": "The scene depicts a cute, animated orange cat engaged in a mukbang-style setup, where it appears to be participating in a food broadcast or recording. The cat is the central focus, with a plate of fried chicken in front of it and microphones positioned around it.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "fried chicken",
+          "microphones",
+          "plate"
+        ],
+        "actions": [
+          "eating",
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "contentment"
+        ],
+        "scenes": [
+          "mukbang",
+          "recording studio"
+        ],
+        "concepts": [
+          "broadcast",
+          "food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StopMotionEffect.FocusedOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StopMotionEffect.FocusedOn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is intensely focused on a piece of fried chicken, surrounded by microphones. The scene suggests a humorous take on a mukbang, with the cat as the star performer.",
+      "description": "The scene is set in a bright, cozy room where a fluffy orange cat is the center of attention, seemingly participating in a mukbang. The cat is surrounded by microphones, adding a comedic element to the scene as it concentrates on eating fried chicken.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "fried chicken",
+          "microphones",
+          "plate"
+        ],
+        "actions": [
+          "eating",
+          "mukbang"
+        ],
+        "emotions": [
+          "focus",
+          "humor"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "mukbang",
+          "comedy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/StopMotionEffect.FocusedOn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/StopMotionEffect.FocusedOn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy orange cat eagerly bites into a piece of fried chicken, surrounded by several microphones. The scene is set in a light-hearted, playful environment with a plate of chicken wings in front of the cat.",
+      "description": "The image depicts a humorous and engaging scene where a cat is seemingly performing a mukbang, a popular online eating show format. The setting is bright and cheerful, with microphones suggesting a broadcast or recording environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "microphones",
+          "fried chicken",
+          "plate"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "eagerness",
+          "playfulness"
+        ],
+        "scenes": [
+          "mukbang",
+          "recording studio"
+        ],
+        "concepts": [
+          "humor",
+          "broadcast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: fried chicken, microphones, plate. Actions: eating, holding, mukbang. Emotions: curiosity, contentment, focus, humor, eagerness. Scenes: mukbang, recording studio, indoor, kitchen. Concepts: broadcast, food, mukbang, comedy, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "fried chicken",
+      "microphones",
+      "plate"
+    ],
+    "actions": [
+      "eating",
+      "holding",
+      "mukbang"
+    ],
+    "emotions": [
+      "curiosity",
+      "contentment",
+      "focus",
+      "humor",
+      "eagerness"
+    ],
+    "scenes": [
+      "mukbang",
+      "recording studio",
+      "indoor",
+      "kitchen"
+    ],
+    "concepts": [
+      "broadcast",
+      "food",
+      "mukbang",
+      "comedy",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fashion model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently against a plain background, dressed in a stylish all-black outfit. They wear a black jacket, cropped pants, and shiny black shoes, complemented by dark sunglasses.",
+      "description": "The scene captures a fashion-forward individual posing in a minimalist setting, emphasizing their modern and sleek attire.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "jacket",
+          "pants",
+          "shoes",
+          "sunglasses"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fashion model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish individual stands confidently against a plain white background, wearing a black jacket, cropped pants, and sunglasses. The person exudes a sense of modern fashion with their hands casually in their pockets.",
+      "description": "The scene is a fashion photoshoot set in a minimalist studio environment. The focus is on the individual's contemporary and sleek attire, emphasizing a modern and confident style.",
+      "labels": {
+        "people": [
+          "individual"
+        ],
+        "objects": [
+          "jacket",
+          "pants",
+          "sunglasses",
+          "shoes"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, individual. Objects: jacket, pants, shoes, sunglasses. Actions: standing, posing. Emotions: confident, confidence. Scenes: fashion, studio. Concepts: style, minimalism, fashion",
+  "primary_labels": {
+    "people": [
+      "person",
+      "individual"
+    ],
+    "objects": [
+      "jacket",
+      "pants",
+      "shoes",
+      "sunglasses"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "fashion",
+      "studio"
+    ],
+    "concepts": [
+      "style",
+      "minimalism",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

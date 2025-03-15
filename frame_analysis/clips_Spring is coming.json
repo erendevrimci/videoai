@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spring is coming.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spring is coming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spring is coming/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts the entrance of a historical building with an ornate stone archway and large wooden doors. Two potted plants flank the entrance, and the ground is covered with a patterned mosaic tile design. Above the entrance, there are two large windows and decorative plaques on either side.",
+      "description": "The scene captures the front entrance of a classic, possibly historical building, likely located in an urban setting. The architecture suggests a blend of traditional and modern elements, with a focus on symmetry and decorative details.",
+      "labels": {
+        "objects": [
+          "archway",
+          "wooden doors",
+          "potted plants",
+          "mosaic tiles",
+          "plaques",
+          "windows"
+        ],
+        "nature": [
+          "plants"
+        ],
+        "scenes": [
+          "urban",
+          "architectural"
+        ],
+        "concepts": [
+          "historical building",
+          "entrance",
+          "symmetry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spring is coming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spring is coming/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A grand archway adorned with vibrant pink flowers stands at the entrance of a building. The flowers create a striking contrast against the neutral tones of the building's facade. The patterned stone pavement adds an elegant touch to the scene.",
+      "description": "The scene depicts an ornate floral archway at the entrance of a classical building. The setting appears to be an urban area, possibly a shopping district or a cultural venue.",
+      "labels": {
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "archway",
+          "building",
+          "pavement"
+        ],
+        "scenes": [
+          "urban",
+          "entrance"
+        ],
+        "concepts": [
+          "decoration",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spring is coming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spring is coming/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A grand floral arch made of vibrant pink flowers frames the entrance of a building. The arch is flanked by large pots, adding to the decorative display. The building's facade features classic architectural elements, enhancing the elegance of the scene.",
+      "description": "The scene is set at the entrance of a building, adorned with a striking floral arch made of large pink flowers. The setting suggests a celebratory or decorative purpose, possibly for an event or special occasion.",
+      "labels": {
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "arch",
+          "pots",
+          "building"
+        ],
+        "scenes": [
+          "entrance",
+          "decorative display"
+        ],
+        "concepts": [
+          "celebration",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: archway, building, wooden doors, potted plants, mosaic tiles. Nature: flowers, plants. Scenes: urban, entrance, architectural, decorative display. Concepts: historical building, entrance, symmetry, decoration, contrast",
+  "primary_labels": {
+    "objects": [
+      "archway",
+      "building",
+      "wooden doors",
+      "potted plants",
+      "mosaic tiles"
+    ],
+    "nature": [
+      "flowers",
+      "plants"
+    ],
+    "scenes": [
+      "urban",
+      "entrance",
+      "architectural",
+      "decorative display"
+    ],
+    "concepts": [
+      "historical building",
+      "entrance",
+      "symmetry",
+      "decoration",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

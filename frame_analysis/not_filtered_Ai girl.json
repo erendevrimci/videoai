@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ai girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ai girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ai girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person wearing futuristic armor and headphones stands in a dimly lit, high-tech environment. The scene is illuminated by blue lights, with numerous screens visible in the background.",
+      "description": "The image depicts a futuristic setting, possibly a control room or spaceship interior. The person appears focused and serious, surrounded by advanced technology.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "armor",
+          "headphones",
+          "screens"
+        ],
+        "scenes": [
+          "futuristic",
+          "high-tech environment"
+        ],
+        "emotions": [
+          "focused",
+          "serious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ai girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ai girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing advanced, futuristic armor interacts with a high-tech digital interface. The scene is bathed in a cool blue light, highlighting the holographic elements on the screen.",
+      "description": "The scene is set in a futuristic, high-tech environment, possibly a control room or a spaceship. A person is engaged with a digital interface, suggesting an advanced technological setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "computer screen",
+          "armor",
+          "holographic interface"
+        ],
+        "actions": [
+          "interacting",
+          "touching screen"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "futuristic",
+          "high-tech"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: armor, headphones, screens, computer screen, holographic interface. Scenes: futuristic, high-tech environment, high-tech. Emotions: focused, serious. Actions: interacting, touching screen. Concepts: technology, innovation",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "armor",
+      "headphones",
+      "screens",
+      "computer screen",
+      "holographic interface"
+    ],
+    "scenes": [
+      "futuristic",
+      "high-tech environment",
+      "high-tech"
+    ],
+    "emotions": [
+      "focused",
+      "serious"
+    ],
+    "actions": [
+      "interacting",
+      "touching screen"
+    ],
+    "concepts": [
+      "technology",
+      "innovation"
+    ]
+  },
+  "metadata": {}
+}

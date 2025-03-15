@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lovely girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lovely girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lovely girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands amidst a vibrant lavender field, her gaze directly meeting the camera. She wears a colorful, intricately embroidered garment that complements the natural beauty surrounding her.",
+      "description": "The scene captures a serene moment in a lavender field, with a focus on a woman in traditional attire. The setting is outdoors, likely during daylight, emphasizing the harmonious blend of nature and culture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "lavender field"
+        ],
+        "objects": [
+          "traditional garment"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "cultural attire",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lovely girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lovely girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands in a vibrant lavender field, smiling warmly at the camera. She is wearing a colorful, intricately embroidered garment that adds to the lively atmosphere of the scene.",
+      "description": "The scene captures a joyful moment in a lavender field, with a focus on a smiling woman dressed in traditional, colorful attire. The background is filled with blooming lavender, creating a serene and picturesque setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "lavender field"
+        ],
+        "objects": [
+          "embroidered garment"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "joy",
+          "cultural attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: lavender field. Objects: traditional garment, embroidered garment. Emotions: serene, happiness. Scenes: outdoor, nature. Concepts: cultural attire, natural beauty, joy. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "lavender field"
+    ],
+    "objects": [
+      "traditional garment",
+      "embroidered garment"
+    ],
+    "emotions": [
+      "serene",
+      "happiness"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature"
+    ],
+    "concepts": [
+      "cultural attire",
+      "natural beauty",
+      "joy"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

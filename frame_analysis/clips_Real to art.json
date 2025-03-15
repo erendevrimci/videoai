@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real to art.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real to art.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Real to art/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A hand holds an open book displaying a winter scene illustration. The artwork depicts a snowy street with a person walking a dog under a tree with snow-covered branches. The background features colorful houses and a clear blue sky.",
+      "description": "The scene is set in a wintery neighborhood, captured in a hand-held book illustration. A person walks a small dog along a snow-covered path, surrounded by vibrant houses and a prominent tree with snow-laden branches.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "tree",
+          "snow"
+        ],
+        "objects": [
+          "book",
+          "houses"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "winter",
+          "neighborhood"
+        ],
+        "concepts": [
+          "art",
+          "illustration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Real to art.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Real to art/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A hand holds an open sketchbook displaying a winter scene. The illustration depicts a snowy street with a person walking a dog, surrounded by houses and a bare tree covered in snow.",
+      "description": "The image shows a hand holding a sketchbook with a detailed illustration of a winter scene. The drawing captures a serene neighborhood street blanketed in snow, with a person and a dog walking along the path. The bright blue sky contrasts with the snow-covered ground, creating a peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "tree",
+          "snow"
+        ],
+        "objects": [
+          "sketchbook",
+          "houses"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "winter scene",
+          "neighborhood"
+        ],
+        "concepts": [
+          "art",
+          "illustration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: dog. Nature: tree, snow. Objects: houses, book, sketchbook. Actions: walking. Emotions: calm, serenity. Scenes: neighborhood, winter, winter scene. Concepts: art, illustration",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "tree",
+      "snow"
+    ],
+    "objects": [
+      "houses",
+      "book",
+      "sketchbook"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "serenity"
+    ],
+    "scenes": [
+      "neighborhood",
+      "winter",
+      "winter scene"
+    ],
+    "concepts": [
+      "art",
+      "illustration"
+    ]
+  },
+  "metadata": {}
+}

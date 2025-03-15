@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chefs Work.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chefs Work.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chefs Work/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature chefs are creatively engaged in preparing a dish on a large plate. One chef pours a golden sauce from a large spoon, while others work around the plate, adding garnishes and inspecting the food. The setting is a lavish dining room with ornate decor and warm lighting.",
+      "description": "The scene is set in an opulent dining room, where tiny chefs are humorously depicted as they prepare a dish on an oversized plate. The playful atmosphere is enhanced by the chefs' exaggerated actions and the luxurious surroundings.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "plate",
+          "spoon",
+          "ladder",
+          "food",
+          "garnish"
+        ],
+        "actions": [
+          "pouring",
+          "garnishing",
+          "inspecting"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "dining room",
+          "culinary preparation"
+        ],
+        "concepts": [
+          "miniature",
+          "culinary art",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chefs Work.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chefs Work/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The scene depicts a whimsical kitchen setting where miniature chefs are creatively preparing a dish. One chef stands on a plate, pouring a vibrant yellow sauce, while others are engaged in garnishing and stirring the dish. The background is softly blurred, suggesting a bustling kitchen environment.",
+      "description": "This image captures a playful and imaginative culinary scene with tiny chefs working together to create a dish. The setting appears to be a kitchen, filled with activity and creativity.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "plate",
+          "sauce",
+          "spoon",
+          "garnish"
+        ],
+        "actions": [
+          "pouring",
+          "garnishing",
+          "stirring"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "culinary art",
+          "miniature world"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: plate, spoon, garnish, ladder, food. Actions: pouring, garnishing, inspecting, stirring. Emotions: playful, whimsical, creative. Scenes: dining room, culinary preparation, kitchen. Concepts: culinary art, miniature, humor, miniature world",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "plate",
+      "spoon",
+      "garnish",
+      "ladder",
+      "food"
+    ],
+    "actions": [
+      "pouring",
+      "garnishing",
+      "inspecting",
+      "stirring"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "creative"
+    ],
+    "scenes": [
+      "dining room",
+      "culinary preparation",
+      "kitchen"
+    ],
+    "concepts": [
+      "culinary art",
+      "miniature",
+      "humor",
+      "miniature world"
+    ]
+  },
+  "metadata": {}
+}

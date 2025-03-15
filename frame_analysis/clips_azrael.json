@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/azrael.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/azrael.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/azrael/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dark, armored figure with large, feathered wings stands ominously against a stormy sky. The figure is cloaked and hooded, holding two swords, exuding an aura of power and mystery.",
+      "description": "The scene depicts a mysterious, possibly supernatural being in a dramatic and foreboding setting. The figure's armor and wings suggest a blend of medieval and fantastical elements, set against a turbulent, cloudy backdrop.",
+      "labels": {
+        "people": [
+          "armored figure"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "objects": [
+          "armor",
+          "swords"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "ominous",
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "supernatural",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/azrael.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/azrael/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dark, armored figure stands with wings spread wide, holding a glowing sword aloft. The figure's eyes emit a bright light, contrasting with the ominous, cloudy sky behind.",
+      "description": "The scene depicts a mysterious, armored being with large, dark wings, set against a stormy sky. The figure holds a radiant sword, creating a stark contrast with the dark atmosphere.",
+      "labels": {
+        "people": [
+          "armored figure"
+        ],
+        "objects": [
+          "sword",
+          "armor"
+        ],
+        "actions": [
+          "holding sword"
+        ],
+        "emotions": [
+          "mysterious",
+          "ominous"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "power",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: armored figure. Nature: cloudy sky. Objects: armor, swords, sword. Actions: standing, holding sword. Emotions: ominous, mysterious. Scenes: fantasy, dramatic. Concepts: power, supernatural, mystery",
+  "primary_labels": {
+    "people": [
+      "armored figure"
+    ],
+    "nature": [
+      "cloudy sky"
+    ],
+    "objects": [
+      "armor",
+      "swords",
+      "sword"
+    ],
+    "actions": [
+      "standing",
+      "holding sword"
+    ],
+    "emotions": [
+      "ominous",
+      "mysterious"
+    ],
+    "scenes": [
+      "fantasy",
+      "dramatic"
+    ],
+    "concepts": [
+      "power",
+      "supernatural",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Enchanted Bakery.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Enchanted Bakery.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Enchanted Bakery/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular man with a beard is kneading dough on a wooden table in a rustic kitchen. The warm glow from a nearby stone oven illuminates the scene, highlighting the man's focused expression and the flour-dusted surface.",
+      "description": "The scene is set in a rustic kitchen with stone walls and a traditional oven. The man is engaged in the process of making bread, surrounded by baking ingredients and tools.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "dough",
+          "table",
+          "oven",
+          "shelves",
+          "jars"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "baking"
+        ],
+        "concepts": [
+          "rustic",
+          "traditional cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Enchanted Bakery.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Enchanted Bakery/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular man with a beard is kneading dough on a wooden table in a rustic kitchen. The warm glow of a nearby fire illuminates the stone walls and shelves filled with jars and bread. The scene captures a moment of focused concentration and traditional craftsmanship.",
+      "description": "The scene is set in a rustic kitchen with stone walls and a warm, inviting atmosphere. A man is engaged in the process of kneading dough, surrounded by various kitchen elements, including a fire and shelves stocked with jars and bread.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "dough",
+          "table",
+          "fire",
+          "jars",
+          "bread",
+          "shelves"
+        ],
+        "actions": [
+          "kneading",
+          "baking"
+        ],
+        "emotions": [
+          "focused",
+          "concentration"
+        ],
+        "scenes": [
+          "kitchen",
+          "rustic"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Enchanted Bakery.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Enchanted Bakery/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A muscular man with a beard is focused on kneading dough in a rustic kitchen. The warm glow of a nearby fire illuminates the stone walls and shelves filled with jars and bread. The scene evokes a sense of dedication and craftsmanship.",
+      "description": "The scene is set in a rustic kitchen with stone walls and a warm, inviting atmosphere. A man is engaged in the process of kneading dough, surrounded by traditional baking elements.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "dough",
+          "fireplace",
+          "jars",
+          "bread",
+          "table"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "focus",
+          "dedication"
+        ],
+        "scenes": [
+          "kitchen",
+          "rustic"
+        ],
+        "concepts": [
+          "craftsmanship",
+          "baking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: dough, table, jars, shelves, bread. Actions: kneading, baking. Emotions: focused, concentration, focus, dedication. Scenes: kitchen, rustic, baking. Concepts: craftsmanship, rustic, traditional cooking, tradition, baking",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "dough",
+      "table",
+      "jars",
+      "shelves",
+      "bread"
+    ],
+    "actions": [
+      "kneading",
+      "baking"
+    ],
+    "emotions": [
+      "focused",
+      "concentration",
+      "focus",
+      "dedication"
+    ],
+    "scenes": [
+      "kitchen",
+      "rustic",
+      "baking"
+    ],
+    "concepts": [
+      "craftsmanship",
+      "rustic",
+      "traditional cooking",
+      "tradition",
+      "baking"
+    ]
+  },
+  "metadata": {}
+}

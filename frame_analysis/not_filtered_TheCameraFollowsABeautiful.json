@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsABeautiful.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsABeautiful.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraFollowsABeautiful/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person is captured in mid-air, seemingly falling or floating above a cityscape at night. The expression on their face is intense, with wide eyes and slightly parted lips, suggesting surprise or determination. The city lights below create a blurred, bokeh effect, adding to the dynamic and dramatic atmosphere.",
+      "description": "The scene depicts a dramatic moment where a person is suspended above a city at night, possibly in free fall. The setting is urban, with a focus on the individual's expression and the blurred city lights below.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "actions": [
+          "falling",
+          "floating"
+        ],
+        "emotions": [
+          "surprise",
+          "determination"
+        ],
+        "scenes": [
+          "cityscape",
+          "night"
+        ],
+        "concepts": [
+          "suspense",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsABeautiful.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraFollowsABeautiful/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a young person with wide eyes and a slightly open mouth, conveying surprise or concern. The background is blurred with bokeh lights, adding a sense of depth and focus on the subject.",
+      "description": "The scene captures an intense moment with a focus on the person's facial expression. The setting appears to be urban or futuristic, suggested by the blurred lights in the background.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "actions": [
+          "looking",
+          "expressing emotion"
+        ],
+        "emotions": [
+          "surprise",
+          "concern"
+        ],
+        "scenes": [
+          "close-up",
+          "urban"
+        ],
+        "concepts": [
+          "focus",
+          "intensity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: jacket. Actions: falling, floating, looking, expressing emotion. Emotions: surprise, determination, concern. Scenes: cityscape, night, close-up, urban. Concepts: suspense, drama, focus, intensity",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "jacket"
+    ],
+    "actions": [
+      "falling",
+      "floating",
+      "looking",
+      "expressing emotion"
+    ],
+    "emotions": [
+      "surprise",
+      "determination",
+      "concern"
+    ],
+    "scenes": [
+      "cityscape",
+      "night",
+      "close-up",
+      "urban"
+    ],
+    "concepts": [
+      "suspense",
+      "drama",
+      "focus",
+      "intensity"
+    ]
+  },
+  "metadata": {}
+}

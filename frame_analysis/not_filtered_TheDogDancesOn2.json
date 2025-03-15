@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogDancesOn2.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogDancesOn2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogDancesOn2/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white dog sits on a dark tiled floor, looking directly at the camera with its tongue out. The dog appears well-groomed and cheerful, surrounded by a few household items.",
+      "description": "The scene captures a small, fluffy white dog indoors, sitting on a dark tile floor. The setting appears to be a home environment, possibly a kitchen or living area, with some furniture and objects in the background.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "floor",
+          "furniture",
+          "box"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cheerful"
+        ],
+        "scenes": [
+          "indoor",
+          "home"
+        ],
+        "concepts": [
+          "pet",
+          "domestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogDancesOn2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogDancesOn2/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white dog sits on a dark tiled floor, its tongue playfully sticking out. Nearby, a small metal bowl with a spoon rests on the ground, and a wooden table stands in the background.",
+      "description": "The scene is set in a cozy indoor environment, likely a kitchen or dining area. The focus is on a cute, fluffy dog sitting contentedly on the floor.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "bowl",
+          "spoon",
+          "table"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "pet",
+          "domestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheDogDancesOn2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheDogDancesOn2/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy white dog sits on a dark tiled floor with its tongue out, looking playful and eager. Nearby, a small metal bowl with a spoon rests on the floor, suggesting a recent meal or treat.",
+      "description": "The scene is set in a cozy indoor environment, likely a kitchen or dining area, with a wooden table and various items on it. The focus is on the dog, which appears to be in a playful mood.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "objects": [
+          "bowl",
+          "spoon",
+          "table"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "pet",
+          "domestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Objects: bowl, spoon, table, floor, furniture. Actions: sitting. Emotions: playful, cheerful. Scenes: indoor, kitchen, home. Concepts: pet, domestic",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "objects": [
+      "bowl",
+      "spoon",
+      "table",
+      "floor",
+      "furniture"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful"
+    ],
+    "scenes": [
+      "indoor",
+      "kitchen",
+      "home"
+    ],
+    "concepts": [
+      "pet",
+      "domestic"
+    ]
+  },
+  "metadata": {}
+}

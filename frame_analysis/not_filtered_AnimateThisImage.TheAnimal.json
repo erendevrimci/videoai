@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheAnimal.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheAnimal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage.TheAnimal/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic, mythical creature with glowing fur strides across a starlit landscape. The creature's luminous presence illuminates the ground, creating a magical aura. Stars twinkle in the night sky, enhancing the enchanting atmosphere.",
+      "description": "The scene depicts a fantastical setting with a mythical creature walking through a starlit landscape. The creature's glowing fur casts light on the ground, creating a surreal and magical environment.",
+      "labels": {
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "night sky",
+          "stars"
+        ],
+        "objects": [
+          "glowing fur"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "majestic",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy landscape",
+          "nighttime"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.TheAnimal.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage.TheAnimal/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic, mythical creature resembling a lion with glowing fur stands under a starry sky. Its luminous body casts a warm, golden light on the ground, creating an ethereal glow around it. The creature appears powerful and otherworldly, set against the vastness of the cosmos.",
+      "description": "The scene depicts a fantastical setting where a mythical creature, akin to a lion, is illuminated by its own radiant glow. It stands on a barren landscape under a clear, star-filled sky, suggesting a mystical or dreamlike environment.",
+      "labels": {
+        "animals": [
+          "mythical creature",
+          "lion"
+        ],
+        "nature": [
+          "starry sky"
+        ],
+        "objects": [
+          "glowing fur"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "majestic",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "night"
+        ],
+        "concepts": [
+          "mythology",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mythical creature, lion. Nature: night sky, stars, starry sky. Objects: glowing fur. Actions: walking, standing. Emotions: majestic, mystical, powerful. Scenes: fantasy landscape, nighttime, fantasy, night. Concepts: magic, enchantment, mythology, otherworldly",
+  "primary_labels": {
+    "animals": [
+      "mythical creature",
+      "lion"
+    ],
+    "nature": [
+      "night sky",
+      "stars",
+      "starry sky"
+    ],
+    "objects": [
+      "glowing fur"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "majestic",
+      "mystical",
+      "powerful"
+    ],
+    "scenes": [
+      "fantasy landscape",
+      "nighttime",
+      "fantasy",
+      "night"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "mythology",
+      "otherworldly"
+    ]
+  },
+  "metadata": {}
+}

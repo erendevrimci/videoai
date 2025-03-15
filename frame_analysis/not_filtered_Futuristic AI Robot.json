@@ -1,0 +1,142 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic AI Robot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic AI Robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Futuristic AI Robot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic figure in a sleek, armored suit stands in an urban setting, illuminated by vibrant neon lights. Drones hover in the background, casting a sense of urgency and action. The scene is set against a backdrop of towering skyscrapers under a moody sky.",
+      "description": "The scene depicts a high-tech, urban environment with a focus on a futuristic character and drones. The atmosphere is tense and dynamic, suggesting a narrative of action or pursuit.",
+      "labels": {
+        "people": [
+          "futuristic figure"
+        ],
+        "objects": [
+          "drones",
+          "armored suit"
+        ],
+        "actions": [
+          "hovering",
+          "standing"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "action"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic AI Robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Futuristic AI Robot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic figure in a sleek, black suit is running down a neon-lit city street. The urban environment is illuminated by colorful signs and lights, creating a vibrant yet mysterious atmosphere.",
+      "description": "The scene depicts a high-tech cityscape at night, with a focus on a person in advanced attire sprinting through the streets. The environment is characterized by tall buildings and bright neon lights, suggesting a cyberpunk setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "suit",
+          "buildings",
+          "neon signs"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime",
+          "futuristic"
+        ],
+        "concepts": [
+          "cyberpunk",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic AI Robot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Futuristic AI Robot/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A figure in a sleek black suit is running swiftly down a dimly lit urban street. The scene is blurred, emphasizing the speed and motion of the runner as they pass by large windows.",
+      "description": "The scene captures a dynamic moment in an urban setting at night. The focus is on a single figure in motion, suggesting urgency or pursuit.",
+      "labels": {
+        "people": [
+          "runner"
+        ],
+        "objects": [
+          "black suit",
+          "windows"
+        ],
+        "actions": [
+          "running"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "emotions": [
+          "urgency"
+        ],
+        "concepts": [
+          "speed",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: futuristic figure, person, runner. Objects: drones, armored suit, suit, buildings, neon signs. Actions: running, hovering, standing. Emotions: urgency. Scenes: urban, futuristic, city street, nighttime, night. Concepts: technology, action, cyberpunk, speed, motion",
+  "primary_labels": {
+    "people": [
+      "futuristic figure",
+      "person",
+      "runner"
+    ],
+    "objects": [
+      "drones",
+      "armored suit",
+      "suit",
+      "buildings",
+      "neon signs"
+    ],
+    "actions": [
+      "running",
+      "hovering",
+      "standing"
+    ],
+    "emotions": [
+      "urgency"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "city street",
+      "nighttime",
+      "night"
+    ],
+    "concepts": [
+      "technology",
+      "action",
+      "cyberpunk",
+      "speed",
+      "motion"
+    ]
+  },
+  "metadata": {}
+}

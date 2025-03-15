@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/palace in egypt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/palace in egypt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/palace in egypt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure in ornate armor sits by a tranquil canal, surrounded by lush greenery and ancient architecture. The scene is bathed in warm sunlight, with a majestic domed building visible in the distance. The atmosphere is serene and contemplative, evoking a sense of historical grandeur.",
+      "description": "The scene depicts a peaceful moment in a historical or fantastical setting, likely inspired by Middle Eastern or ancient architecture. The presence of palm trees and intricate buildings suggests a warm, exotic location.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "palm trees",
+          "canal",
+          "flowers"
+        ],
+        "objects": [
+          "armor",
+          "vessels",
+          "dome",
+          "buildings"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "historical",
+          "fantasy"
+        ],
+        "concepts": [
+          "tranquility",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/palace in egypt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/palace in egypt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure in ornate armor and a flowing orange robe sits by a tranquil waterway, surrounded by lush greenery and intricate architecture. The scene is set in a sunlit, exotic cityscape with a prominent domed building in the background. The atmosphere is serene and contemplative, with a sense of historical grandeur.",
+      "description": "The scene depicts a peaceful, historical setting in an exotic city, characterized by lush vegetation and elaborate architectural designs. A person in armor and robes is seated by a calm waterway, suggesting a moment of reflection or meditation.",
+      "labels": {
+        "people": [
+          "figure in armor"
+        ],
+        "nature": [
+          "palm trees",
+          "flowers",
+          "waterway"
+        ],
+        "objects": [
+          "armor",
+          "robe",
+          "cup",
+          "domed building"
+        ],
+        "actions": [
+          "sitting",
+          "contemplating"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "exotic cityscape",
+          "historical setting"
+        ],
+        "concepts": [
+          "tranquility",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, figure in armor. Nature: palm trees, flowers, canal, waterway. Objects: armor, vessels, dome, buildings, robe. Actions: sitting, contemplating. Emotions: serenity, contemplation. Scenes: historical, fantasy, exotic cityscape, historical setting. Concepts: tranquility, heritage, reflection",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "figure in armor"
+    ],
+    "nature": [
+      "palm trees",
+      "flowers",
+      "canal",
+      "waterway"
+    ],
+    "objects": [
+      "armor",
+      "vessels",
+      "dome",
+      "buildings",
+      "robe"
+    ],
+    "actions": [
+      "sitting",
+      "contemplating"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation"
+    ],
+    "scenes": [
+      "historical",
+      "fantasy",
+      "exotic cityscape",
+      "historical setting"
+    ],
+    "concepts": [
+      "tranquility",
+      "heritage",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

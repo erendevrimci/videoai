@@ -1,0 +1,84 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She is enchanting.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She is enchanting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/She is enchanting/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A detailed anime-style figurine stands on a textured platform, showcasing intricate armor and flowing hair. The background is softly blurred, highlighting the figure's detailed craftsmanship and design.",
+      "description": "The scene features an anime-style figurine in a fantasy setting, emphasizing detailed armor and character design. The background is blurred, suggesting a focus on the figurine itself, which is placed on a textured base.",
+      "labels": {
+        "people": [
+          "anime character"
+        ],
+        "objects": [
+          "figurine",
+          "armor"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "art",
+          "design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She is enchanting.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/She is enchanting/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A detailed figurine of a female warrior stands on a pedestal, showcasing intricate armor and long flowing hair. The background is blurred, suggesting a setting filled with various artifacts or sculptures.",
+      "description": "The scene features a highly detailed figurine of a female character in fantasy armor, positioned in what appears to be a gallery or collection space. The focus is on the craftsmanship of the figurine, with attention to the armor details and the character's pose.",
+      "labels": {
+        "objects": [
+          "figurine",
+          "armor",
+          "pedestal"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "scenes": [
+          "gallery",
+          "collection"
+        ],
+        "concepts": [
+          "fantasy",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: anime character. Objects: figurine, armor, pedestal. Scenes: fantasy, gallery, collection. Concepts: art, design, fantasy. Actions: standing, posing",
+  "primary_labels": {
+    "people": [
+      "anime character"
+    ],
+    "objects": [
+      "figurine",
+      "armor",
+      "pedestal"
+    ],
+    "scenes": [
+      "fantasy",
+      "gallery",
+      "collection"
+    ],
+    "concepts": [
+      "art",
+      "design",
+      "fantasy"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ]
+  },
+  "metadata": {}
+}

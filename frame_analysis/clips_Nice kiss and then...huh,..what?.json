@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nice kiss and then...huh,..what?.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nice kiss and then...huh,..what?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nice kiss and then...huh,..what?/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple sits at a small round table on a balcony, overlooking a scenic view of a town and distant mountains. The woman, wearing a stylish hat and a coral dress, smiles warmly at the man in a navy suit, who is holding her hand.",
+      "description": "The scene is set on a charming balcony with a view of a picturesque town and mountains in the background. The couple appears to be enjoying a romantic moment together, surrounded by blooming flowers.",
+      "labels": {
+        "people": [
+          "man",
+          "woman",
+          "couple"
+        ],
+        "nature": [
+          "mountains",
+          "flowers"
+        ],
+        "objects": [
+          "table",
+          "chairs",
+          "hat"
+        ],
+        "actions": [
+          "sitting",
+          "holding hands",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "balcony",
+          "town view"
+        ],
+        "concepts": [
+          "romance",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Nice kiss and then...huh,..what?.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Nice kiss and then...huh,..what?/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple sits on a terrace overlooking a scenic waterfront, engaged in a lively conversation. The woman, dressed in a peach dress and a straw hat, smiles warmly at the man in a navy suit. The background features a serene view of the water and distant mountains under a soft, golden sky.",
+      "description": "The scene captures a romantic moment between a couple seated on a terrace with a picturesque view of a waterfront and mountains. The setting suggests a leisurely afternoon in a quaint town, with vibrant flowers adding to the charm.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "nature": [
+          "waterfront",
+          "mountains"
+        ],
+        "objects": [
+          "table",
+          "chairs",
+          "flowers",
+          "hat"
+        ],
+        "actions": [
+          "sitting",
+          "talking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "romantic"
+        ],
+        "scenes": [
+          "terrace",
+          "outdoor"
+        ],
+        "concepts": [
+          "leisure",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman, couple. Nature: mountains, flowers, waterfront. Objects: table, chairs, hat, flowers. Actions: sitting, smiling, holding hands, talking. Emotions: happiness, affection, romantic. Scenes: balcony, town view, terrace, outdoor. Concepts: romance, leisure",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman",
+      "couple"
+    ],
+    "nature": [
+      "mountains",
+      "flowers",
+      "waterfront"
+    ],
+    "objects": [
+      "table",
+      "chairs",
+      "hat",
+      "flowers"
+    ],
+    "actions": [
+      "sitting",
+      "smiling",
+      "holding hands",
+      "talking"
+    ],
+    "emotions": [
+      "happiness",
+      "affection",
+      "romantic"
+    ],
+    "scenes": [
+      "balcony",
+      "town view",
+      "terrace",
+      "outdoor"
+    ],
+    "concepts": [
+      "romance",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

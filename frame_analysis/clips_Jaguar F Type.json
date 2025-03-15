@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jaguar F Type.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jaguar F Type.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jaguar F Type/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek sports car is parked on a wet road under a dramatic sky. Lightning illuminates the scene, casting a vibrant pink hue across the landscape. The car's glossy surface reflects the intense colors of the stormy backdrop.",
+      "description": "The scene depicts a powerful sports car on a rain-soaked road during a thunderstorm. The sky is filled with dark clouds and a striking bolt of lightning, creating a vivid and intense atmosphere.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "road"
+        ],
+        "nature": [
+          "lightning",
+          "clouds"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "storm",
+          "night"
+        ],
+        "concepts": [
+          "power",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jaguar F Type.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jaguar F Type/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek sports car is parked on a wet road under a dramatic sky lit by a vibrant lightning bolt. The scene is bathed in a striking red hue, creating an intense and dynamic atmosphere. Broken debris is scattered on the ground, adding to the scene's dramatic tension.",
+      "description": "The image captures a high-performance sports car on a rain-soaked road during a thunderstorm. The sky is illuminated by a vivid lightning strike, casting a red glow over the entire scene. The presence of debris suggests a recent disturbance or accident.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "debris",
+          "road"
+        ],
+        "nature": [
+          "lightning",
+          "storm clouds"
+        ],
+        "actions": [
+          "lightning strike"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "thunderstorm",
+          "night"
+        ],
+        "concepts": [
+          "power",
+          "speed",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, road, debris. Nature: lightning, clouds, storm clouds. Actions: parked, lightning strike. Emotions: intensity, drama. Scenes: night, storm, thunderstorm. Concepts: power, drama, speed, danger",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "road",
+      "debris"
+    ],
+    "nature": [
+      "lightning",
+      "clouds",
+      "storm clouds"
+    ],
+    "actions": [
+      "parked",
+      "lightning strike"
+    ],
+    "emotions": [
+      "intensity",
+      "drama"
+    ],
+    "scenes": [
+      "night",
+      "storm",
+      "thunderstorm"
+    ],
+    "concepts": [
+      "power",
+      "drama",
+      "speed",
+      "danger"
+    ]
+  },
+  "metadata": {}
+}

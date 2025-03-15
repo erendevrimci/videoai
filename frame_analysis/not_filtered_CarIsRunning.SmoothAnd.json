@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CarIsRunning.SmoothAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CarIsRunning.SmoothAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CarIsRunning.SmoothAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classic car drives down a sunlit street lined with historic buildings. The architecture is grand, with palm trees adding a tropical touch to the urban scene. The low angle of the shot emphasizes the car's vintage design against a clear blue sky.",
+      "description": "The scene captures a vintage car cruising through a historic city street, surrounded by colonial-style buildings and palm trees. The sun casts a warm glow, creating a nostalgic atmosphere.",
+      "labels": {
+        "objects": [
+          "car",
+          "buildings",
+          "palm trees"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "nostalgia"
+        ],
+        "scenes": [
+          "urban",
+          "historic",
+          "street"
+        ],
+        "concepts": [
+          "vintage",
+          "architecture",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CarIsRunning.SmoothAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CarIsRunning.SmoothAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A classic car cruises down a sunlit street flanked by historic buildings. The scene captures the essence of a bygone era with its vintage architecture and palm trees lining the road. The car's polished surface gleams under the clear blue sky, adding to the nostalgic atmosphere.",
+      "description": "The scene is set in a historic urban area, likely in a city known for its classic architecture and vintage cars. The street is wide and empty, allowing the car to move freely, enhancing the sense of timelessness and tranquility.",
+      "labels": {
+        "objects": [
+          "car",
+          "buildings",
+          "palm trees"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "nostalgia"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "vintage",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, buildings, palm trees. Actions: driving. Emotions: nostalgia. Scenes: urban, historic, street. Concepts: vintage, architecture, travel",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "buildings",
+      "palm trees"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "emotions": [
+      "nostalgia"
+    ],
+    "scenes": [
+      "urban",
+      "historic",
+      "street"
+    ],
+    "concepts": [
+      "vintage",
+      "architecture",
+      "travel"
+    ]
+  },
+  "metadata": {}
+}

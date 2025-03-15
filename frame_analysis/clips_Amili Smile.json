@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Amili Smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Amili Smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Amili Smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long dark hair gazes softly at the camera, wearing a red dress and matching earrings. The background is a deep red, complementing her attire and creating a cohesive color scheme.",
+      "description": "The scene captures a close-up portrait of a woman in a studio setting. The focus is on her elegant appearance and the harmonious color palette of red tones.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earrings",
+          "dress"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Amili Smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Amili Smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long dark hair gazes directly at the camera, wearing a red dress and matching earrings. The background is a deep red, complementing her attire and creating a cohesive color scheme.",
+      "description": "The scene is a portrait of a woman in an elegant setting, likely intended for a fashion or beauty context. The focus is on her facial expression and attire, with a rich red color theme throughout.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earrings",
+          "dress"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Amili Smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Amili Smile/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is smiling warmly at the camera, wearing elegant red attire and matching earrings. Her hair is styled in soft waves, and she stands against a deep red background.",
+      "description": "The scene captures a close-up portrait of a woman in a formal setting. The focus is on her expressive smile and stylish appearance, suggesting a moment of confidence and poise.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earrings",
+          "dress"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: earrings, dress. Emotions: calm, confident, happiness, confidence. Scenes: portrait. Concepts: fashion, elegance, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "earrings",
+      "dress"
+    ],
+    "emotions": [
+      "calm",
+      "confident",
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

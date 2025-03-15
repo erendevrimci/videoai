@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A Stormy Ocean.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A Stormy Ocean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A Stormy Ocean/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small dog clings to a piece of driftwood amidst turbulent ocean waves. The sky above is dark and ominous, with flashes of lightning illuminating the stormy scene.",
+      "description": "The scene depicts a small dog stranded on a piece of driftwood in a stormy ocean. The environment is chaotic, with rough waves and a dark, cloudy sky punctuated by lightning.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "ocean",
+          "clouds",
+          "lightning"
+        ],
+        "objects": [
+          "driftwood"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "fear",
+          "anxiety"
+        ],
+        "scenes": [
+          "storm",
+          "sea"
+        ],
+        "concepts": [
+          "survival",
+          "adversity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A Stormy Ocean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A Stormy Ocean/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small dog clings to a piece of driftwood amidst a turbulent sea. Dark storm clouds loom overhead, and a flash of lightning illuminates the dramatic scene. The dog's expression conveys a mix of fear and determination as it navigates the rough waters.",
+      "description": "The scene depicts a tense moment at sea with a small dog on a piece of driftwood, surrounded by stormy weather. The atmosphere is charged with tension and urgency, highlighted by the dark clouds and lightning.",
+      "labels": {
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "sea",
+          "storm clouds",
+          "lightning"
+        ],
+        "objects": [
+          "driftwood"
+        ],
+        "actions": [
+          "clinging",
+          "floating"
+        ],
+        "emotions": [
+          "fear",
+          "determination"
+        ],
+        "scenes": [
+          "stormy sea"
+        ],
+        "concepts": [
+          "survival",
+          "adversity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dog. Nature: lightning, ocean, clouds, sea, storm clouds. Objects: driftwood. Actions: floating, clinging. Emotions: fear, anxiety, determination. Scenes: storm, sea, stormy sea. Concepts: survival, adversity",
+  "primary_labels": {
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "lightning",
+      "ocean",
+      "clouds",
+      "sea",
+      "storm clouds"
+    ],
+    "objects": [
+      "driftwood"
+    ],
+    "actions": [
+      "floating",
+      "clinging"
+    ],
+    "emotions": [
+      "fear",
+      "anxiety",
+      "determination"
+    ],
+    "scenes": [
+      "storm",
+      "sea",
+      "stormy sea"
+    ],
+    "concepts": [
+      "survival",
+      "adversity"
+    ]
+  },
+  "metadata": {}
+}

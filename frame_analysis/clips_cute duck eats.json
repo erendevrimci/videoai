@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute duck eats.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute duck eats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cute duck eats/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, animated chick with large eyes and a purple scarf is joyfully holding a cupcake. The chick is sitting in a basket surrounded by colorful Easter eggs and butterflies fluttering around. The background is a softly blurred, sunlit garden setting.",
+      "description": "The scene depicts an adorable animated chick in a vibrant garden setting, enjoying a cupcake. The atmosphere is cheerful and whimsical, with butterflies adding to the lively ambiance.",
+      "labels": {
+        "animals": [
+          "chick"
+        ],
+        "objects": [
+          "cupcake",
+          "basket",
+          "Easter eggs"
+        ],
+        "nature": [
+          "butterflies",
+          "garden"
+        ],
+        "actions": [
+          "holding",
+          "sitting"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "animated",
+          "whimsical"
+        ],
+        "concepts": [
+          "spring",
+          "Easter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cute duck eats.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cute duck eats/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute, fluffy yellow duckling wearing a purple scarf is joyfully holding a cupcake with white frosting. The scene is set in a whimsical outdoor environment with soft lighting and colorful butterflies fluttering around.",
+      "description": "The scene depicts a cheerful duckling in a vibrant, magical setting. The duckling is sitting on a wicker basket surrounded by colorful eggs and flowers, creating a playful and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "duckling",
+          "butterflies"
+        ],
+        "objects": [
+          "cupcake",
+          "scarf",
+          "wicker basket",
+          "eggs"
+        ],
+        "actions": [
+          "holding",
+          "fluttering"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "outdoor",
+          "whimsical"
+        ],
+        "concepts": [
+          "playfulness",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: chick, duckling, butterflies. Objects: cupcake, basket, Easter eggs, scarf, wicker basket. Nature: butterflies, garden. Actions: holding, sitting, fluttering. Emotions: joyful, cheerful. Scenes: whimsical, animated, outdoor. Concepts: spring, Easter, playfulness, enchantment",
+  "primary_labels": {
+    "animals": [
+      "chick",
+      "duckling",
+      "butterflies"
+    ],
+    "objects": [
+      "cupcake",
+      "basket",
+      "Easter eggs",
+      "scarf",
+      "wicker basket"
+    ],
+    "nature": [
+      "butterflies",
+      "garden"
+    ],
+    "actions": [
+      "holding",
+      "sitting",
+      "fluttering"
+    ],
+    "emotions": [
+      "joyful",
+      "cheerful"
+    ],
+    "scenes": [
+      "whimsical",
+      "animated",
+      "outdoor"
+    ],
+    "concepts": [
+      "spring",
+      "Easter",
+      "playfulness",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

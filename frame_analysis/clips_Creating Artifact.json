@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creating Artifact.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creating Artifact.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Creating Artifact/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits cross-legged in a mystical forest, holding a glowing orb in her hands. The sunlight filters through the trees, casting a serene glow over the scene. Her intense gaze and the magical light create an enchanting atmosphere.",
+      "description": "The scene is set in a dense forest with tall trees and dappled sunlight. A young woman is the focal point, sitting on a cloth with various objects around her, including stones and a pot. The glowing orb in her hands suggests a magical or mystical element.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "glowing orb",
+          "cloth",
+          "stones",
+          "pot"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "intense",
+          "mystical"
+        ],
+        "scenes": [
+          "forest scene",
+          "magical setting"
+        ],
+        "concepts": [
+          "magic",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Creating Artifact.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Creating Artifact/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman sits cross-legged in a serene forest, holding a glowing orb in her hands. Sunlight filters through the trees, casting a warm glow around her as she gazes intently at the light.",
+      "description": "The scene is set in a tranquil forest with tall trees and dappled sunlight. The woman appears to be engaged in a mystical or meditative activity, focusing on the radiant orb she cradles.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "glowing orb",
+          "cloth",
+          "bowl"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "forest setting",
+          "mystical"
+        ],
+        "concepts": [
+          "meditation",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Nature: forest, trees, sunlight. Objects: glowing orb, cloth, stones, pot, bowl. Actions: sitting, holding. Emotions: intense, mystical, calm, focused. Scenes: forest scene, magical setting, forest setting, mystical. Concepts: magic, mysticism, meditation",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "sunlight"
+    ],
+    "objects": [
+      "glowing orb",
+      "cloth",
+      "stones",
+      "pot",
+      "bowl"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "intense",
+      "mystical",
+      "calm",
+      "focused"
+    ],
+    "scenes": [
+      "forest scene",
+      "magical setting",
+      "forest setting",
+      "mystical"
+    ],
+    "concepts": [
+      "magic",
+      "mysticism",
+      "meditation"
+    ]
+  },
+  "metadata": {}
+}

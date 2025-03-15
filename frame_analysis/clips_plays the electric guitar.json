@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/plays the electric guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/plays the electric guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/plays the electric guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A musician passionately plays an electric guitar on stage, surrounded by a drum set. The vibrant stage lights create a dynamic and energetic atmosphere.",
+      "description": "The scene captures a live music performance, with a focus on a guitarist who is deeply engaged in playing. The setting is a concert stage with colorful lighting enhancing the mood.",
+      "labels": {
+        "people": [
+          "musician"
+        ],
+        "objects": [
+          "electric guitar",
+          "drum set",
+          "microphone"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "passion",
+          "intensity"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "music",
+          "performance",
+          "rock"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/plays the electric guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/plays the electric guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A musician passionately plays an electric guitar on stage, surrounded by drums and vibrant stage lights. The performer is dressed in a leather jacket, exuding a rock and roll vibe, with long hair cascading over their face. The scene is dynamic, with colorful lights illuminating the energetic performance.",
+      "description": "The scene captures a live music performance on stage, featuring a guitarist deeply engaged in playing. The setting is likely a concert or music venue, with stage lights creating a lively and intense atmosphere.",
+      "labels": {
+        "people": [
+          "musician"
+        ],
+        "objects": [
+          "electric guitar",
+          "drums",
+          "microphone",
+          "stage lights"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "passionate",
+          "energetic"
+        ],
+        "scenes": [
+          "concert",
+          "live performance"
+        ],
+        "concepts": [
+          "rock music",
+          "stage performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: musician. Objects: electric guitar, microphone, drum set, drums, stage lights. Actions: playing guitar. Emotions: passion, intensity, passionate, energetic. Scenes: concert, live performance. Concepts: music, performance, rock, rock music, stage performance",
+  "primary_labels": {
+    "people": [
+      "musician"
+    ],
+    "objects": [
+      "electric guitar",
+      "microphone",
+      "drum set",
+      "drums",
+      "stage lights"
+    ],
+    "actions": [
+      "playing guitar"
+    ],
+    "emotions": [
+      "passion",
+      "intensity",
+      "passionate",
+      "energetic"
+    ],
+    "scenes": [
+      "concert",
+      "live performance"
+    ],
+    "concepts": [
+      "music",
+      "performance",
+      "rock",
+      "rock music",
+      "stage performance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Like a historical drama.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Like a historical drama.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Like a historical drama/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary figure in a red robe walks along a path through a dense bamboo forest under the light of a full moon. The path leads to a traditional Asian pagoda, partially obscured by mist. The scene is serene and mystical, evoking a sense of solitude and reflection.",
+      "description": "The scene depicts a tranquil night setting in a bamboo forest, with a person walking towards a pagoda. The full moon illuminates the path, creating a mystical and serene atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "bamboo forest",
+          "moon",
+          "mist"
+        ],
+        "objects": [
+          "pagoda",
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "solitude"
+        ],
+        "scenes": [
+          "night",
+          "forest"
+        ],
+        "concepts": [
+          "tranquility",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Like a historical drama.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Like a historical drama/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary figure in a red cloak walks along a path surrounded by towering bamboo trees. The scene is illuminated by a large, glowing full moon in the sky, casting a mystical light over a traditional pagoda in the distance.",
+      "description": "The scene is set in a serene bamboo forest at night, with a path leading towards a traditional pagoda. The atmosphere is calm and mysterious, enhanced by the moonlight filtering through the trees.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "bamboo forest",
+          "moon"
+        ],
+        "objects": [
+          "pagoda",
+          "cloak"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ],
+        "scenes": [
+          "nighttime",
+          "forest path"
+        ],
+        "concepts": [
+          "solitude",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Nature: bamboo forest, moon, mist. Objects: pagoda, path, cloak. Actions: walking. Emotions: serenity, solitude, mystery. Scenes: night, forest, nighttime, forest path. Concepts: tranquility, mysticism, solitude",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "nature": [
+      "bamboo forest",
+      "moon",
+      "mist"
+    ],
+    "objects": [
+      "pagoda",
+      "path",
+      "cloak"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "serenity",
+      "solitude",
+      "mystery"
+    ],
+    "scenes": [
+      "night",
+      "forest",
+      "nighttime",
+      "forest path"
+    ],
+    "concepts": [
+      "tranquility",
+      "mysticism",
+      "solitude"
+    ]
+  },
+  "metadata": {}
+}

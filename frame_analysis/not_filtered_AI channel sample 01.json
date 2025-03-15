@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AI channel sample 01.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AI channel sample 01.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AI channel sample 01/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with long blonde hair sits pensively in a sunlit courtyard, her expression thoughtful and serene. Behind her, a group of people in medieval attire gather near a fountain, partially obscured by the spray of water. The scene is bathed in warm sunlight, highlighting the girl's features and the lush greenery around her.",
+      "description": "The scene is set in a medieval-style courtyard with a central fountain. The focus is on a young girl in the foreground, while a group of people in period clothing are visible in the background. The atmosphere is calm and contemplative, with a sense of historical or fantasy ambiance.",
+      "labels": {
+        "people": [
+          "girl",
+          "group of people"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "objects": [
+          "fountain"
+        ],
+        "actions": [
+          "sitting",
+          "gathering"
+        ],
+        "emotions": [
+          "thoughtful",
+          "serene"
+        ],
+        "scenes": [
+          "courtyard",
+          "medieval setting"
+        ],
+        "concepts": [
+          "historical",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AI channel sample 01.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AI channel sample 01/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with long blonde hair sits pensively by a fountain in a medieval courtyard. Her expression is contemplative as she rests her arms on her knees, surrounded by blurred figures in the background. The scene is bathed in warm sunlight, highlighting the girl's features and the vibrant greenery around her.",
+      "description": "The scene is set in a medieval courtyard, featuring a young girl sitting by a fountain. The background includes several blurred figures, suggesting a bustling environment. The atmosphere is serene yet introspective, with a focus on the girl's thoughtful demeanor.",
+      "labels": {
+        "people": [
+          "girl",
+          "figures"
+        ],
+        "nature": [
+          "fountain",
+          "greenery"
+        ],
+        "objects": [
+          "fountain"
+        ],
+        "actions": [
+          "sitting",
+          "contemplating"
+        ],
+        "emotions": [
+          "thoughtful",
+          "contemplative"
+        ],
+        "scenes": [
+          "medieval courtyard"
+        ],
+        "concepts": [
+          "introspection",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, group of people, figures. Nature: greenery, fountain. Objects: fountain. Actions: sitting, gathering, contemplating. Emotions: thoughtful, serene, contemplative. Scenes: courtyard, medieval setting, medieval courtyard. Concepts: historical, fantasy, introspection, serenity",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "group of people",
+      "figures"
+    ],
+    "nature": [
+      "greenery",
+      "fountain"
+    ],
+    "objects": [
+      "fountain"
+    ],
+    "actions": [
+      "sitting",
+      "gathering",
+      "contemplating"
+    ],
+    "emotions": [
+      "thoughtful",
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "courtyard",
+      "medieval setting",
+      "medieval courtyard"
+    ],
+    "concepts": [
+      "historical",
+      "fantasy",
+      "introspection",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

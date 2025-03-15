@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DancingPastasToPianoMusic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DancingPastasToPianoMusic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DancingPastasToPianoMusic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features spaghetti shaped into dancing figures atop a plate, with steam rising gently. A glass of red wine and a lit candle add a touch of elegance to the setting.",
+      "description": "The image depicts a creative and artistic presentation of spaghetti, crafted into figures that appear to be dancing. The setting is a dimly lit dining table, suggesting a cozy and intimate atmosphere.",
+      "labels": {
+        "objects": [
+          "spaghetti",
+          "plate",
+          "wine glass",
+          "candle",
+          "table"
+        ],
+        "actions": [
+          "dancing",
+          "steaming"
+        ],
+        "emotions": [
+          "whimsical",
+          "elegant"
+        ],
+        "scenes": [
+          "dining",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DancingPastasToPianoMusic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DancingPastasToPianoMusic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features spaghetti shaped into dancing figures atop a plate of pasta. A glass of red wine and a lit candle add to the elegant dining setting. Steam rises gently from the pasta, enhancing the surreal atmosphere.",
+      "description": "The image depicts a creative and artistic dining scene where spaghetti is crafted into human-like figures dancing on a plate. The setting is intimate and warm, with a glass of wine and a candle suggesting a fine dining experience.",
+      "labels": {
+        "objects": [
+          "spaghetti",
+          "plate",
+          "wine glass",
+          "candle"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "whimsical",
+          "elegant"
+        ],
+        "scenes": [
+          "dining",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: spaghetti, plate, wine glass, candle, table. Actions: dancing, steaming. Emotions: whimsical, elegant. Scenes: dining, artistic. Concepts: creativity, culinary art, surrealism",
+  "primary_labels": {
+    "objects": [
+      "spaghetti",
+      "plate",
+      "wine glass",
+      "candle",
+      "table"
+    ],
+    "actions": [
+      "dancing",
+      "steaming"
+    ],
+    "emotions": [
+      "whimsical",
+      "elegant"
+    ],
+    "scenes": [
+      "dining",
+      "artistic"
+    ],
+    "concepts": [
+      "creativity",
+      "culinary art",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

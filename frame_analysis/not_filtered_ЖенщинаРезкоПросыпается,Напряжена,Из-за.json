@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0420\u0435\u0437\u043a\u043e\u041f\u0440\u043e\u0441\u044b\u043f\u0430\u0435\u0442\u0441\u044f,\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0430,\u0418\u0437-\u0437\u0430.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0420\u0435\u0437\u043a\u043e\u041f\u0440\u043e\u0441\u044b\u043f\u0430\u0435\u0442\u0441\u044f,\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0430,\u0418\u0437-\u0437\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0420\u0435\u0437\u043a\u043e\u041f\u0440\u043e\u0441\u044b\u043f\u0430\u0435\u0442\u0441\u044f,\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0430,\u0418\u0437-\u0437\u0430/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman lies in bed, illuminated by a dim light, with a look of surprise or fear on her face. She is partially covered by a blanket, and the room is dark, creating a tense atmosphere.",
+      "description": "The scene takes place in a dimly lit bedroom at night. A woman is lying in bed, seemingly startled or concerned, as she looks towards a light source.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "blanket",
+          "pillow"
+        ],
+        "actions": [
+          "lying",
+          "looking"
+        ],
+        "emotions": [
+          "surprise",
+          "fear"
+        ],
+        "scenes": [
+          "bedroom",
+          "night"
+        ],
+        "concepts": [
+          "nighttime",
+          "startled"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0420\u0435\u0437\u043a\u043e\u041f\u0440\u043e\u0441\u044b\u043f\u0430\u0435\u0442\u0441\u044f,\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0430,\u0418\u0437-\u0437\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0420\u0435\u0437\u043a\u043e\u041f\u0440\u043e\u0441\u044b\u043f\u0430\u0435\u0442\u0441\u044f,\u041d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0430,\u0418\u0437-\u0437\u0430/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is lying in bed, appearing to be in a state of distress or discomfort. Her eyes are closed, and her hands are gripping the blanket tightly.",
+      "description": "The scene depicts a woman in a dimly lit bedroom, lying on a bed with white pillows and sheets. She looks tense, possibly experiencing a nightmare or feeling unwell.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "pillow",
+          "blanket"
+        ],
+        "actions": [
+          "lying down",
+          "gripping blanket"
+        ],
+        "emotions": [
+          "distress",
+          "discomfort"
+        ],
+        "scenes": [
+          "bedroom",
+          "nighttime"
+        ],
+        "concepts": [
+          "sleep",
+          "nightmare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: bed, blanket, pillow. Actions: lying, looking, lying down, gripping blanket. Emotions: surprise, fear, distress, discomfort. Scenes: bedroom, night, nighttime. Concepts: nighttime, startled, sleep, nightmare",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "bed",
+      "blanket",
+      "pillow"
+    ],
+    "actions": [
+      "lying",
+      "looking",
+      "lying down",
+      "gripping blanket"
+    ],
+    "emotions": [
+      "surprise",
+      "fear",
+      "distress",
+      "discomfort"
+    ],
+    "scenes": [
+      "bedroom",
+      "night",
+      "nighttime"
+    ],
+    "concepts": [
+      "nighttime",
+      "startled",
+      "sleep",
+      "nightmare"
+    ]
+  },
+  "metadata": {}
+}

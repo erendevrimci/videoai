@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Darth Player.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Darth Player.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Darth Player/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a dark costume stands between two women in silver bikinis, all posing confidently in front of a luxury car. The scene is set against a dark background, highlighting the figures and the vehicle. The composition suggests a blend of fantasy and luxury.",
+      "description": "The scene features a person in a recognizable dark costume flanked by two women in glamorous attire, standing in front of a high-end car. The setting is likely a studio with controlled lighting to emphasize the subjects and the vehicle.",
+      "labels": {
+        "people": [
+          "person in costume",
+          "two women"
+        ],
+        "objects": [
+          "luxury car",
+          "bikinis",
+          "costume"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio setting"
+        ],
+        "concepts": [
+          "fantasy",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Darth Player.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Darth Player/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed as a well-known sci-fi character stands between two women in silver bikinis, posing confidently. Behind them is a luxury car, adding to the glamorous and surreal setting.",
+      "description": "The scene is a blend of science fiction and glamour, featuring a character from a popular sci-fi franchise alongside models in a luxurious setting. The backdrop of a high-end car enhances the opulent atmosphere.",
+      "labels": {
+        "people": [
+          "sci-fi character",
+          "models"
+        ],
+        "objects": [
+          "luxury car",
+          "bikinis"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "glamour",
+          "sci-fi"
+        ],
+        "concepts": [
+          "luxury",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Darth Player.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Darth Player/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "In a dramatic and surreal scene, a person dressed as a well-known sci-fi character stands confidently between two women in metallic bikinis. They are posed in front of a luxury car, creating a striking contrast between fantasy and opulence. The setting is minimalistic, with a dark background emphasizing the figures and the vehicle.",
+      "description": "The scene is set in a studio environment with a focus on a sci-fi theme and luxury. The central figure is dressed as a famous science fiction villain, flanked by two women in glamorous attire, all positioned in front of a high-end car.",
+      "labels": {
+        "people": [
+          "person in costume",
+          "women"
+        ],
+        "objects": [
+          "luxury car",
+          "costume",
+          "bikinis"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fantasy",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person in costume, two women, sci-fi character, models, women. Objects: luxury car, bikinis, costume. Actions: posing. Emotions: confidence. Scenes: studio setting, glamour, sci-fi, studio. Concepts: luxury, fantasy, surreal",
+  "primary_labels": {
+    "people": [
+      "person in costume",
+      "two women",
+      "sci-fi character",
+      "models",
+      "women"
+    ],
+    "objects": [
+      "luxury car",
+      "bikinis",
+      "costume"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "studio setting",
+      "glamour",
+      "sci-fi",
+      "studio"
+    ],
+    "concepts": [
+      "luxury",
+      "fantasy",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A young man and a giant panda.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A young man and a giant panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A young man and a giant panda/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a red sports outfit is smiling broadly while a panda playfully hugs him from behind. The scene takes place in a gym setting, adding a humorous twist to the workout environment.",
+      "description": "The image captures a lighthearted moment in a gym where a man is being hugged by a panda. The setting is filled with gym equipment, creating a contrast between the playful interaction and the serious workout environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "gym equipment"
+        ],
+        "actions": [
+          "hugging",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "friendship",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A young man and a giant panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A young man and a giant panda/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a red sports outfit is joyfully embraced by a panda in a gym setting. The panda's arms are wrapped around the man, creating a playful and affectionate moment.",
+      "description": "The scene takes place in a gym where a man is being hugged by a panda. The setting suggests a lighthearted and fun interaction between the two.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "sports outfit",
+          "gym equipment"
+        ],
+        "actions": [
+          "hugging",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "playfulness"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "friendship",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: panda. Objects: gym equipment, sports outfit. Actions: hugging, smiling. Emotions: playfulness, happiness, joy. Scenes: gym. Concepts: friendship, humor, affection",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "panda"
+    ],
+    "objects": [
+      "gym equipment",
+      "sports outfit"
+    ],
+    "actions": [
+      "hugging",
+      "smiling"
+    ],
+    "emotions": [
+      "playfulness",
+      "happiness",
+      "joy"
+    ],
+    "scenes": [
+      "gym"
+    ],
+    "concepts": [
+      "friendship",
+      "humor",
+      "affection"
+    ]
+  },
+  "metadata": {}
+}

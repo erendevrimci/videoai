@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The streets of Nineveh.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The streets of Nineveh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The streets of Nineveh/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in ornate, ancient-style clothing walks confidently down a sunlit street. The background features a bustling marketplace with people in traditional attire.",
+      "description": "The scene is set in a historical or fantasy setting, possibly inspired by ancient civilizations. The woman appears to be of high status, given her elaborate attire and jewelry, and she is walking through a busy street lined with architectural structures reminiscent of ancient times.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "traditional clothing",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "marketplace",
+          "ancient city"
+        ],
+        "concepts": [
+          "historical",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The streets of Nineveh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The streets of Nineveh/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in ornate, ancient-style clothing walks confidently down a sunlit street. The background reveals a bustling marketplace with people in traditional attire.",
+      "description": "The scene is set in a historical or fantasy setting, possibly resembling an ancient city. The woman appears to be of high status, given her elaborate attire and jewelry, as she moves through a crowded marketplace.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "ornate clothing",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "marketplace",
+          "ancient city"
+        ],
+        "concepts": [
+          "historical",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd. Objects: jewelry, traditional clothing, ornate clothing. Actions: walking. Emotions: confidence. Scenes: marketplace, ancient city. Concepts: historical, fantasy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd"
+    ],
+    "objects": [
+      "jewelry",
+      "traditional clothing",
+      "ornate clothing"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "marketplace",
+      "ancient city"
+    ],
+    "concepts": [
+      "historical",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

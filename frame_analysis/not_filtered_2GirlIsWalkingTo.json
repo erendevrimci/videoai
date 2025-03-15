@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2GirlIsWalkingTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2GirlIsWalkingTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/2GirlIsWalkingTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two women are smiling on a sunny beach, with clear blue skies and palm trees in the background. One is wearing a blue dress, while the other is in a floral dress with a wide-brimmed hat adorned with a pink flower.",
+      "description": "The scene is set on a tropical beach with white sand and turquoise waters. The women appear relaxed and happy, enjoying a sunny day by the ocean.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "nature": [
+          "beach",
+          "palm trees",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "dress",
+          "hat",
+          "flower"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "tropical",
+          "vacation"
+        ],
+        "concepts": [
+          "leisure",
+          "summer"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2GirlIsWalkingTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/2GirlIsWalkingTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two women walk side by side along a pristine tropical beach, with gentle waves lapping at the shore. The bright sun casts a warm glow over the scene, highlighting the vibrant colors of their summer dresses.",
+      "description": "The scene is set on a tropical beach with clear blue skies and turquoise waters. Two women are walking along the sandy shore, surrounded by palm trees and lush greenery.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees",
+          "sky"
+        ],
+        "objects": [
+          "dresses",
+          "sun hat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "relaxation"
+        ],
+        "scenes": [
+          "tropical",
+          "vacation"
+        ],
+        "concepts": [
+          "leisure",
+          "summer"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: women. Nature: beach, palm trees, ocean, sky. Objects: dress, hat, flower, dresses, sun hat. Emotions: happiness, relaxation. Scenes: tropical, vacation. Concepts: leisure, summer. Actions: walking",
+  "primary_labels": {
+    "people": [
+      "women"
+    ],
+    "nature": [
+      "beach",
+      "palm trees",
+      "ocean",
+      "sky"
+    ],
+    "objects": [
+      "dress",
+      "hat",
+      "flower",
+      "dresses",
+      "sun hat"
+    ],
+    "emotions": [
+      "happiness",
+      "relaxation"
+    ],
+    "scenes": [
+      "tropical",
+      "vacation"
+    ],
+    "concepts": [
+      "leisure",
+      "summer"
+    ],
+    "actions": [
+      "walking"
+    ]
+  },
+  "metadata": {}
+}

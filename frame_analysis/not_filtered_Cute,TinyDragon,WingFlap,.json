@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute,TinyDragon,WingFlap,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute,TinyDragon,WingFlap,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute,TinyDragon,WingFlap,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, vibrant orange creature with dragon-like features is perched on a person's hand. Its large eyes and delicate wings give it an endearing and whimsical appearance.",
+      "description": "The scene captures a fantastical creature resembling a miniature dragon, held gently by a human hand. The background is softly blurred, suggesting a natural outdoor setting.",
+      "labels": {
+        "animals": [
+          "fantasy creature",
+          "dragon"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute,TinyDragon,WingFlap,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute,TinyDragon,WingFlap,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, animated dragon is perched on a person's hand, exhaling a gentle flame. The dragon's bright orange scales and wings contrast with the blurred natural background.",
+      "description": "The scene depicts a whimsical moment in a natural setting, where a tiny, cartoon-like dragon interacts playfully with a human. The focus is on the dragon's vibrant colors and the magical flame it produces.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "breathing fire"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dragon, fantasy creature. Objects: hand. Emotions: curiosity, wonder, playful. Scenes: fantasy, nature. Concepts: whimsy, imagination, magic, animation. Actions: breathing fire",
+  "primary_labels": {
+    "animals": [
+      "dragon",
+      "fantasy creature"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder",
+      "playful"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "whimsy",
+      "imagination",
+      "magic",
+      "animation"
+    ],
+    "actions": [
+      "breathing fire"
+    ]
+  },
+  "metadata": {}
+}

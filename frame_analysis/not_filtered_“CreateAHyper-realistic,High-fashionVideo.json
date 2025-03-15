@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAHyper-realistic,High-fashionVideo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAHyper-realistic,High-fashionVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cCreateAHyper-realistic,High-fashionVideo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands elegantly in a luxurious gown inspired by animal patterns. The dress features intricate designs resembling a leopard's spots and butterfly wings, with rich golden and brown hues. Her hair is styled in an elaborate updo, complemented by statement earrings.",
+      "description": "The scene depicts a fashion-forward setting with a focus on high couture. The background is neutral, drawing attention to the detailed and artistic design of the dress. The atmosphere is sophisticated and artistic.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "earrings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "luxury",
+          "animal-inspired design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u201cCreateAHyper-realistic,High-fashionVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u201cCreateAHyper-realistic,High-fashionVideo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model stands elegantly on a runway, wearing a gown with intricate patterns resembling giraffe spots. The background features artistic depictions of giraffes, complementing the dress's design.",
+      "description": "The scene is set on a fashion runway, where the model showcases a dress inspired by wildlife. The setting is artistic and sophisticated, with a focus on the harmony between fashion and nature.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "nature": [
+          "wildlife"
+        ],
+        "objects": [
+          "gown",
+          "runway"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, model. Objects: gown, earrings, runway. Actions: standing. Emotions: elegance. Scenes: fashion, fashion show. Concepts: luxury, animal-inspired design, fashion, art. Animals: giraffe. Nature: wildlife",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "model"
+    ],
+    "objects": [
+      "gown",
+      "earrings",
+      "runway"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "elegance"
+    ],
+    "scenes": [
+      "fashion",
+      "fashion show"
+    ],
+    "concepts": [
+      "luxury",
+      "animal-inspired design",
+      "fashion",
+      "art"
+    ],
+    "animals": [
+      "giraffe"
+    ],
+    "nature": [
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

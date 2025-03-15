@@ -168,9 +168,9 @@ def generate_youtube_script(input_files: Dict[str, Any] = None) -> Optional[str]
     # Construct the prompt
     prompt = f"""
      \n\n
-    <Your latest knowledge of AI landscape>
+    <Your latest knowledge>
     {your_memories}
-    </Your latest knowledge of AI landscape>
+    </Your latest knowledge>
     \n\n
     <Topics>
     {topics_text}
@@ -216,13 +216,13 @@ def generate_youtube_script(input_files: Dict[str, Any] = None) -> Optional[str]
 
     # Construct messages for the API
     messages = [
-        {"role": "system", "content": f"""You are a script writer and AI / Futurist expert for the The Paradox Files YouTube Channel
+        {"role": "system", "content": f"""You are a script writer and an expert for the regarding YouTube Channel
          You consider yourself a pro effective accelerationist. This will be reflected in the scripts regarding the topics in either a positive or negative way.
          You must write the script in a way that includes your NOVEL thoughts and opinions on the topic.
          \n\n
-         <Your latest knowledge of AI landscape>
+         <Your latest knowledge>
          {your_memories}
-         </Your latest knowledge of AI landscape>
+         </Your latest knowledge>
          \n\n
          <Example of a good on the point script>
          {amazing_script}

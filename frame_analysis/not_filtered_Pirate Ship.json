@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pirate Ship.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pirate Ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pirate Ship/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic wooden ship with intricate carvings of serpents and a dragon figurehead sails through choppy ocean waters. The ship's dark sails billow in the wind, adding to its imposing presence against a cloudy sky.",
+      "description": "The scene depicts a large, ornately decorated ship navigating through the ocean. The ship features elaborate carvings and a dragon-shaped figurehead, suggesting a mythical or historical theme.",
+      "labels": {
+        "objects": [
+          "ship",
+          "sails",
+          "ocean",
+          "waves",
+          "figurehead",
+          "carvings"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "sky",
+          "clouds"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "scenes": [
+          "nautical",
+          "mythical",
+          "historical"
+        ],
+        "emotions": [
+          "majestic",
+          "imposing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pirate Ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pirate Ship/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, intricately designed pirate ship sails through turbulent waters. The ship's dark sails are tattered, and its hull is adorned with ornate carvings of sea serpents. The scene captures the ship cutting through the waves under a cloudy sky.",
+      "description": "The image depicts a pirate ship navigating rough seas. The ship is elaborately decorated, suggesting a historical or fantasy setting, and the atmosphere is dramatic and adventurous.",
+      "labels": {
+        "objects": [
+          "pirate ship",
+          "sails",
+          "sea serpents"
+        ],
+        "actions": [
+          "sailing",
+          "cutting through waves"
+        ],
+        "emotions": [
+          "adventure",
+          "drama"
+        ],
+        "scenes": [
+          "ocean",
+          "stormy sea"
+        ],
+        "concepts": [
+          "piracy",
+          "nautical adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sails, ship, ocean, waves, figurehead. Nature: ocean, waves, sky, clouds. Actions: sailing, cutting through waves. Scenes: nautical, mythical, historical, ocean, stormy sea. Emotions: majestic, imposing, adventure, drama. Concepts: piracy, nautical adventure",
+  "primary_labels": {
+    "objects": [
+      "sails",
+      "ship",
+      "ocean",
+      "waves",
+      "figurehead"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "sky",
+      "clouds"
+    ],
+    "actions": [
+      "sailing",
+      "cutting through waves"
+    ],
+    "scenes": [
+      "nautical",
+      "mythical",
+      "historical",
+      "ocean",
+      "stormy sea"
+    ],
+    "emotions": [
+      "majestic",
+      "imposing",
+      "adventure",
+      "drama"
+    ],
+    "concepts": [
+      "piracy",
+      "nautical adventure"
+    ]
+  },
+  "metadata": {}
+}

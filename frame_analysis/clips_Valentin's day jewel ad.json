@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentin's day jewel ad.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentin's day jewel ad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentin's day jewel ad/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands elegantly in a lavishly decorated room, wearing a stunning red gown adorned with intricate patterns. She is surrounded by a backdrop of red roses and softly glowing candles, creating a romantic and luxurious atmosphere.",
+      "description": "The scene is set in an opulent indoor environment, likely a venue for a special occasion or celebration. The focus is on a woman dressed in a red gown, with the background featuring a large arrangement of red roses and several lit candles, enhancing the ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "roses"
+        ],
+        "objects": [
+          "gown",
+          "candles",
+          "flower arrangement"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "indoor",
+          "celebration"
+        ],
+        "concepts": [
+          "luxury",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentin's day jewel ad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentin's day jewel ad/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing red gown stands gracefully in front of a large arch adorned with red roses. The setting is warmly lit with candles, creating a romantic and elegant atmosphere.",
+      "description": "The scene depicts a formal or celebratory setting, possibly a special event or photo shoot. The focus is on the woman and the luxurious, floral backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "candles",
+          "arch",
+          "roses"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "formal event",
+          "photo shoot"
+        ],
+        "concepts": [
+          "romance",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: roses. Objects: gown, candles, flower arrangement, arch, roses. Actions: standing. Emotions: elegance. Scenes: indoor, celebration, formal event, photo shoot. Concepts: romance, luxury, celebration",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "roses"
+    ],
+    "objects": [
+      "gown",
+      "candles",
+      "flower arrangement",
+      "arch",
+      "roses"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "elegance"
+    ],
+    "scenes": [
+      "indoor",
+      "celebration",
+      "formal event",
+      "photo shoot"
+    ],
+    "concepts": [
+      "romance",
+      "luxury",
+      "celebration"
+    ]
+  },
+  "metadata": {}
+}

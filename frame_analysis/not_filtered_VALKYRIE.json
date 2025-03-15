@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VALKYRIE.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VALKYRIE.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VALKYRIE/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce warrior woman with long blonde hair and a fur cloak strides confidently through a snowy battlefield. Her face is marked with war paint and blood, and she holds a sword in her right hand. Behind her, a group of similarly armored warriors follows, their expressions determined and focused.",
+      "description": "The scene is set in a cold, snowy landscape, likely during or after a battle. The central figure, a warrior woman, appears to be leading a group of soldiers through the snow. The atmosphere is tense and dramatic, with a sense of impending conflict or victory.",
+      "labels": {
+        "people": [
+          "warrior woman",
+          "soldiers"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "sword",
+          "armor",
+          "fur cloak"
+        ],
+        "actions": [
+          "walking",
+          "leading"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "battlefield",
+          "winter"
+        ],
+        "concepts": [
+          "warfare",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VALKYRIE.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VALKYRIE/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce warrior stands in a snowy landscape, holding a sword aloft with determination. Her face is marked with war paint and blood, conveying a sense of battle readiness.",
+      "description": "The scene depicts a warrior in a wintery setting, likely preparing for or emerging from battle. The background shows a blurred group of figures, suggesting an army or group of allies.",
+      "labels": {
+        "people": [
+          "warrior",
+          "group"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "sword",
+          "fur clothing"
+        ],
+        "actions": [
+          "holding sword",
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "fierceness"
+        ],
+        "scenes": [
+          "battlefield",
+          "winter"
+        ],
+        "concepts": [
+          "war",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior woman, soldiers, warrior, group. Nature: snow, forest. Objects: sword, armor, fur cloak, fur clothing. Actions: walking, leading, holding sword, standing. Emotions: determination, intensity, fierceness. Scenes: battlefield, winter. Concepts: warfare, leadership, war, strength",
+  "primary_labels": {
+    "people": [
+      "warrior woman",
+      "soldiers",
+      "warrior",
+      "group"
+    ],
+    "nature": [
+      "snow",
+      "forest"
+    ],
+    "objects": [
+      "sword",
+      "armor",
+      "fur cloak",
+      "fur clothing"
+    ],
+    "actions": [
+      "walking",
+      "leading",
+      "holding sword",
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "intensity",
+      "fierceness"
+    ],
+    "scenes": [
+      "battlefield",
+      "winter"
+    ],
+    "concepts": [
+      "warfare",
+      "leadership",
+      "war",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

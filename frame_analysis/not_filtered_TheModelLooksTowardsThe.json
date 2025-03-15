@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelLooksTowardsThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelLooksTowardsThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheModelLooksTowardsThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in an elegant red saree stands gracefully in a richly decorated corridor. Her eyes are closed, and she is adorned with intricate gold jewelry, exuding a sense of calm and poise.",
+      "description": "The scene is set in a luxurious, ornately designed corridor with golden accents and chandeliers. The woman, dressed in traditional attire, appears serene and composed, embodying a moment of introspection or meditation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "saree",
+          "jewelry",
+          "chandelier"
+        ],
+        "actions": [
+          "standing",
+          "meditating"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "corridor",
+          "interior"
+        ],
+        "concepts": [
+          "tradition",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelLooksTowardsThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheModelLooksTowardsThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a traditional red saree adorned with intricate gold jewelry stands in an ornate corridor. She smiles warmly, exuding elegance and grace against a backdrop of golden architectural details.",
+      "description": "The scene captures a woman in traditional attire within a luxurious, ornately decorated corridor. The setting suggests a cultural or ceremonial context, with an emphasis on elegance and tradition.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "saree",
+          "jewelry",
+          "necklace",
+          "earrings",
+          "bangles"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "elegance"
+        ],
+        "scenes": [
+          "indoor",
+          "corridor"
+        ],
+        "concepts": [
+          "tradition",
+          "culture",
+          "ceremony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelLooksTowardsThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheModelLooksTowardsThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman dressed in a traditional red saree adorned with intricate gold jewelry stands in an ornate hallway. The warm lighting highlights the rich textures of her attire and the elegant chandeliers in the background.",
+      "description": "The scene is set in a luxurious, ornately decorated hallway with chandeliers and detailed architectural elements. The woman is the focal point, exuding grace and elegance in her traditional attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "saree",
+          "jewelry",
+          "chandeliers"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "hallway",
+          "traditional"
+        ],
+        "concepts": [
+          "elegance",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: saree, jewelry, chandelier, necklace, earrings. Actions: standing, smiling, meditating. Emotions: happiness, calm, serene, elegance. Scenes: corridor, interior, indoor, hallway, traditional. Concepts: tradition, elegance, culture, ceremony",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "saree",
+      "jewelry",
+      "chandelier",
+      "necklace",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "smiling",
+      "meditating"
+    ],
+    "emotions": [
+      "happiness",
+      "calm",
+      "serene",
+      "elegance"
+    ],
+    "scenes": [
+      "corridor",
+      "interior",
+      "indoor",
+      "hallway",
+      "traditional"
+    ],
+    "concepts": [
+      "tradition",
+      "elegance",
+      "culture",
+      "ceremony"
+    ]
+  },
+  "metadata": {}
+}

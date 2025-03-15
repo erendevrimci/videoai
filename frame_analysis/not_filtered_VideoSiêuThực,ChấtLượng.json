@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant orange rests on a reflective surface, partially submerged in water. The light highlights the texture of the orange peel, creating a dramatic contrast with the dark background.",
+      "description": "The scene captures a close-up of an orange sitting on a reflective, watery surface. The lighting emphasizes the orange's texture and the surrounding shadows create a moody atmosphere.",
+      "labels": {
+        "objects": [
+          "orange",
+          "water"
+        ],
+        "actions": [
+          "submerged"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "close-up",
+          "still life"
+        ],
+        "concepts": [
+          "contrast",
+          "texture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A partially peeled orange sits on a reflective surface, its vibrant interior glowing warmly. The orange's texture is highlighted by soft lighting, creating a serene and inviting atmosphere.",
+      "description": "The scene depicts a close-up of a partially peeled orange resting on a reflective surface. The lighting emphasizes the orange's texture and creates a warm glow from within, suggesting a peaceful and contemplative setting.",
+      "labels": {
+        "objects": [
+          "orange",
+          "reflective surface"
+        ],
+        "actions": [
+          "glowing",
+          "resting"
+        ],
+        "emotions": [
+          "serene",
+          "inviting"
+        ],
+        "scenes": [
+          "close-up",
+          "still life"
+        ],
+        "concepts": [
+          "warmth",
+          "texture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/VideoSi\u00eauTh\u1ef1c,Ch\u1ea5tL\u01b0\u1ee3ng/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is partially submerged in water with a large orange peel surrounding their head. The vibrant orange peel contrasts with the dark water, creating a surreal and artistic composition.",
+      "description": "The scene depicts a creative and surreal setting where a person is in water, with an orange peel framing their head. The focus is on the vibrant colors and unusual juxtaposition of elements.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "orange peel",
+          "water"
+        ],
+        "actions": [
+          "submerged"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "contrast",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: orange, water, reflective surface, orange peel. Actions: submerged, glowing, resting. Emotions: calm, serene, inviting. Scenes: close-up, still life, surreal, artistic. Concepts: contrast, texture, warmth, creativity. People: person",
+  "primary_labels": {
+    "objects": [
+      "orange",
+      "water",
+      "reflective surface",
+      "orange peel"
+    ],
+    "actions": [
+      "submerged",
+      "glowing",
+      "resting"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "inviting"
+    ],
+    "scenes": [
+      "close-up",
+      "still life",
+      "surreal",
+      "artistic"
+    ],
+    "concepts": [
+      "contrast",
+      "texture",
+      "warmth",
+      "creativity"
+    ],
+    "people": [
+      "person"
+    ]
+  },
+  "metadata": {}
+}

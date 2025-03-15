@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shushundeli in rain forest.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shushundeli in rain forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Shushundeli in rain forest/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A crocheted fox and chicken stand together in a lush green setting, with the fox holding a yellow umbrella. The scene is set against a rainy backdrop, adding a whimsical touch to the cozy companionship between the two figures.",
+      "description": "The scene depicts a handmade crocheted fox and chicken amidst greenery, with rain falling around them. The fox holds a yellow umbrella, providing shelter for both characters, creating a charming and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "fox",
+          "chicken"
+        ],
+        "objects": [
+          "umbrella",
+          "crochet"
+        ],
+        "nature": [
+          "rain",
+          "greenery"
+        ],
+        "actions": [
+          "holding",
+          "sheltering"
+        ],
+        "emotions": [
+          "companionship",
+          "whimsy"
+        ],
+        "scenes": [
+          "rainy",
+          "outdoor"
+        ],
+        "concepts": [
+          "handmade",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shushundeli in rain forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Shushundeli in rain forest/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A crocheted fox and chicken stand together under a yellow umbrella amidst a rainy backdrop. The scene captures a whimsical moment as the two characters appear to share a bond, sheltered from the rain by the umbrella.",
+      "description": "The scene is set outdoors during a rainy day, with a crocheted fox and chicken as the main subjects. They are positioned among green foliage, suggesting a natural setting, possibly a garden or forest. The fox holds a yellow umbrella, providing shelter from the rain.",
+      "labels": {
+        "animals": [
+          "fox",
+          "chicken"
+        ],
+        "objects": [
+          "umbrella",
+          "crochet"
+        ],
+        "actions": [
+          "sheltering",
+          "standing"
+        ],
+        "emotions": [
+          "companionship",
+          "whimsy"
+        ],
+        "scenes": [
+          "rainy day",
+          "outdoor"
+        ],
+        "concepts": [
+          "friendship",
+          "protection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Shushundeli in rain forest.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Shushundeli in rain forest/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A crocheted fox and chicken stand together under a yellow umbrella in a lush, rainy forest setting. The fox holds the umbrella, providing shelter for both from the rain. The scene is whimsical and serene, with the rain softly falling around them.",
+      "description": "The scene depicts a handcrafted fox and chicken in a forest during a rain shower. The fox is holding a bright yellow umbrella, offering a sense of companionship and protection to the chicken. The background is filled with green foliage, creating a peaceful and natural atmosphere.",
+      "labels": {
+        "animals": [
+          "fox",
+          "chicken"
+        ],
+        "nature": [
+          "forest",
+          "rain",
+          "foliage"
+        ],
+        "objects": [
+          "umbrella",
+          "crochet"
+        ],
+        "actions": [
+          "holding",
+          "standing"
+        ],
+        "emotions": [
+          "companionship",
+          "serenity"
+        ],
+        "scenes": [
+          "rainy forest"
+        ],
+        "concepts": [
+          "protection",
+          "friendship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fox, chicken. Objects: umbrella, crochet. Nature: rain, greenery, forest, foliage. Actions: holding, sheltering, standing. Emotions: companionship, whimsy, serenity. Scenes: outdoor, rainy, rainy day, rainy forest. Concepts: friendship, protection, handmade, imagination",
+  "primary_labels": {
+    "animals": [
+      "fox",
+      "chicken"
+    ],
+    "objects": [
+      "umbrella",
+      "crochet"
+    ],
+    "nature": [
+      "rain",
+      "greenery",
+      "forest",
+      "foliage"
+    ],
+    "actions": [
+      "holding",
+      "sheltering",
+      "standing"
+    ],
+    "emotions": [
+      "companionship",
+      "whimsy",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "rainy",
+      "rainy day",
+      "rainy forest"
+    ],
+    "concepts": [
+      "friendship",
+      "protection",
+      "handmade",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

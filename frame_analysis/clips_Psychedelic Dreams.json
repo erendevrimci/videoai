@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Psychedelic Dreams.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Psychedelic Dreams.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Psychedelic Dreams/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A metallic humanoid head with glowing purple eyes floats in a surreal, organic corridor. The walls of the corridor are textured and undulate like a cave, while the floor is scattered with geometric tiles. The scene is illuminated with a mysterious, ethereal light, enhancing the otherworldly atmosphere.",
+      "description": "The scene depicts a futuristic and surreal environment, possibly a digital or virtual space. A metallic head with glowing eyes is the focal point, suggesting themes of artificial intelligence or cybernetic entities. The organic, cave-like corridor adds to the mysterious and eerie setting.",
+      "labels": {
+        "people": [
+          "humanoid head"
+        ],
+        "objects": [
+          "metallic head",
+          "geometric tiles"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "surreal corridor",
+          "futuristic setting"
+        ],
+        "concepts": [
+          "artificial intelligence",
+          "cybernetic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Psychedelic Dreams.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Psychedelic Dreams/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A metallic, humanoid face with glowing purple eyes floats in a dark, cavernous environment. The background features abstract, wavy structures and a path of scattered, broken tiles leading towards the face.",
+      "description": "The scene is set in a surreal, otherworldly environment resembling a cave or tunnel. The central focus is a futuristic, metallic face with illuminated eyes, creating a mysterious and eerie atmosphere.",
+      "labels": {
+        "objects": [
+          "metallic face",
+          "glowing eyes",
+          "broken tiles"
+        ],
+        "scenes": [
+          "cave",
+          "tunnel",
+          "surreal environment"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "concepts": [
+          "futuristic",
+          "otherworldly"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid head. Objects: metallic head, geometric tiles, metallic face, glowing eyes, broken tiles. Actions: floating. Emotions: mysterious, eerie. Scenes: surreal corridor, futuristic setting, cave, tunnel, surreal environment. Concepts: artificial intelligence, cybernetic, futuristic, otherworldly",
+  "primary_labels": {
+    "people": [
+      "humanoid head"
+    ],
+    "objects": [
+      "metallic head",
+      "geometric tiles",
+      "metallic face",
+      "glowing eyes",
+      "broken tiles"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "mysterious",
+      "eerie"
+    ],
+    "scenes": [
+      "surreal corridor",
+      "futuristic setting",
+      "cave",
+      "tunnel",
+      "surreal environment"
+    ],
+    "concepts": [
+      "artificial intelligence",
+      "cybernetic",
+      "futuristic",
+      "otherworldly"
+    ]
+  },
+  "metadata": {}
+}

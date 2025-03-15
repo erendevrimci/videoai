@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TODESRITTER.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TODESRITTER.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/TODESRITTER/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing skeletal figure stands amidst a fiery, volcanic landscape, holding a spear. The sky is dark and stormy, with lightning illuminating the ominous scene. The figure's attire is adorned with skulls, enhancing its fearsome presence.",
+      "description": "The scene depicts a dark fantasy setting with a skeletal figure in a volcanic landscape. The environment is filled with lava flows and a stormy sky, creating a dramatic and intense atmosphere.",
+      "labels": {
+        "people": [
+          "skeletal figure"
+        ],
+        "nature": [
+          "volcanic landscape",
+          "stormy sky",
+          "lightning"
+        ],
+        "objects": [
+          "spear",
+          "skulls"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "menacing",
+          "ominous"
+        ],
+        "scenes": [
+          "dark fantasy"
+        ],
+        "concepts": [
+          "fear",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TODESRITTER.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/TODESRITTER/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing figure clad in dark armor stands amidst a fiery landscape, wielding a large, jagged weapon. The sky is filled with ominous clouds and sparks, creating an intense and foreboding atmosphere.",
+      "description": "The scene depicts a dark, fantasy setting with a powerful, skeletal warrior in a volcanic landscape. The environment is chaotic, with lava flows and a stormy sky, suggesting a battle or apocalyptic event.",
+      "labels": {
+        "people": [
+          "skeletal warrior"
+        ],
+        "nature": [
+          "volcanic landscape",
+          "stormy sky"
+        ],
+        "objects": [
+          "armor",
+          "jagged weapon",
+          "skulls"
+        ],
+        "actions": [
+          "wielding weapon"
+        ],
+        "emotions": [
+          "menacing",
+          "foreboding"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "power",
+          "darkness",
+          "chaos"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TODESRITTER.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/TODESRITTER/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A menacing skeletal figure clad in dark armor stands amidst a fiery, hellish landscape. The ground is cracked and glowing with molten lava, while ominous clouds swirl above. The figure wields a large, spiked weapon, exuding an aura of power and dread.",
+      "description": "The scene depicts a dark fantasy setting with a skeletal warrior in a desolate, fiery environment. The atmosphere is tense and foreboding, with elements of chaos and destruction.",
+      "labels": {
+        "people": [
+          "skeletal figure"
+        ],
+        "objects": [
+          "armor",
+          "spiked weapon"
+        ],
+        "nature": [
+          "lava",
+          "clouds"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "menacing",
+          "ominous"
+        ],
+        "scenes": [
+          "hellish landscape",
+          "dark fantasy"
+        ],
+        "concepts": [
+          "power",
+          "dread"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skeletal figure, skeletal warrior. Nature: volcanic landscape, stormy sky, lightning, lava, clouds. Objects: skulls, armor, spear, jagged weapon, spiked weapon. Actions: standing, wielding weapon. Emotions: menacing, ominous, foreboding. Scenes: dark fantasy, fantasy, battle, hellish landscape. Concepts: power, fear, darkness, chaos, dread",
+  "primary_labels": {
+    "people": [
+      "skeletal figure",
+      "skeletal warrior"
+    ],
+    "nature": [
+      "volcanic landscape",
+      "stormy sky",
+      "lightning",
+      "lava",
+      "clouds"
+    ],
+    "objects": [
+      "skulls",
+      "armor",
+      "spear",
+      "jagged weapon",
+      "spiked weapon"
+    ],
+    "actions": [
+      "standing",
+      "wielding weapon"
+    ],
+    "emotions": [
+      "menacing",
+      "ominous",
+      "foreboding"
+    ],
+    "scenes": [
+      "dark fantasy",
+      "fantasy",
+      "battle",
+      "hellish landscape"
+    ],
+    "concepts": [
+      "power",
+      "fear",
+      "darkness",
+      "chaos",
+      "dread"
+    ]
+  },
+  "metadata": {}
+}

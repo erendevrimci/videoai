@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hazelnut.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hazelnut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hazelnut/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature figures are engaged in harvesting hazelnuts from a tree. The figures use ladders and ropes to collect the nuts, surrounded by a serene garden setting. A large cup in the background adds to the playful scale of the scene.",
+      "description": "The scene depicts a creative, miniature world where tiny figures are harvesting hazelnuts. The setting is a garden with lush greenery and a warm, golden light that enhances the imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "nature": [
+          "hazelnut tree",
+          "leaves"
+        ],
+        "objects": [
+          "ladder",
+          "basket",
+          "cup"
+        ],
+        "actions": [
+          "harvesting",
+          "climbing",
+          "collecting"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "garden",
+          "miniature world"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Hazelnut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Hazelnut/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical scene, miniature figures are engaged in harvesting hazelnuts among oversized leaves and nuts. One figure climbs a ladder to reach the nuts, while another uses a rope to lower a nut. The setting is a playful blend of nature and fantasy, with a warm, inviting atmosphere.",
+      "description": "The scene depicts a fantastical world where tiny people are harvesting hazelnuts. The setting combines elements of nature with a surreal twist, as the figures interact with oversized nuts and leaves. A cup in the background adds a touch of everyday life to the imaginative scene.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "nature": [
+          "hazelnuts",
+          "leaves"
+        ],
+        "objects": [
+          "ladder",
+          "basket",
+          "cup"
+        ],
+        "actions": [
+          "climbing",
+          "harvesting",
+          "lowering"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "miniature world",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures. Nature: leaves, hazelnut tree, hazelnuts. Objects: ladder, basket, cup. Actions: harvesting, climbing, collecting, lowering. Emotions: whimsical, playful. Scenes: garden, miniature world, fantasy, nature. Concepts: creativity, imagination, miniature world, surrealism",
+  "primary_labels": {
+    "people": [
+      "miniature figures"
+    ],
+    "nature": [
+      "leaves",
+      "hazelnut tree",
+      "hazelnuts"
+    ],
+    "objects": [
+      "ladder",
+      "basket",
+      "cup"
+    ],
+    "actions": [
+      "harvesting",
+      "climbing",
+      "collecting",
+      "lowering"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "garden",
+      "miniature world",
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "miniature world",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

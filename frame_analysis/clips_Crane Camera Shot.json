@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crane Camera Shot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crane Camera Shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crane Camera Shot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person sits on a beige sofa in a spacious, minimalist living room, holding a blue object. The room features a large, cream-colored sectional sofa, a textured rug, and a round ottoman. The walls and ceiling are painted in a light, neutral tone, enhancing the airy atmosphere.",
+      "description": "The scene is set in a modern, minimalist living room with a focus on neutral tones and simple design elements. The space is open and uncluttered, creating a calm and serene environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sofa",
+          "rug",
+          "ottoman",
+          "blue object"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "living room",
+          "interior"
+        ],
+        "concepts": [
+          "minimalism",
+          "modern design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crane Camera Shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crane Camera Shot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A modern living room with minimalist design features a person sitting on a sofa, engrossed in a blue book. The room is spacious with light-colored walls and flooring, complemented by large arched doorways and ample natural light streaming in.",
+      "description": "The scene is set in a contemporary living room characterized by its minimalist and airy design. The space is well-lit with natural light, creating a serene and calm atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sofa",
+          "book",
+          "rug",
+          "coffee table"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "living room",
+          "interior"
+        ],
+        "concepts": [
+          "minimalism",
+          "modern design",
+          "natural light"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: sofa, rug, ottoman, blue object, book. Actions: sitting, holding, reading. Emotions: calm. Scenes: living room, interior. Concepts: minimalism, modern design, natural light",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "sofa",
+      "rug",
+      "ottoman",
+      "blue object",
+      "book"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "reading"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "living room",
+      "interior"
+    ],
+    "concepts": [
+      "minimalism",
+      "modern design",
+      "natural light"
+    ]
+  },
+  "metadata": {}
+}

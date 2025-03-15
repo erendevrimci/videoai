@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u1eaduB\u00e9M\u1eddiChaU\u1ed1ng.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u1eaduB\u00e9M\u1eddiChaU\u1ed1ng.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u1eaduB\u00e9M\u1eddiChaU\u1ed1ng/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy and an older man sit by a window, each holding a steaming cup. They gaze at each other warmly, suggesting a moment of connection and conversation.",
+      "description": "The scene depicts an intimate moment between a child and an adult, likely in a cozy indoor setting. The soft light filtering through the window creates a serene atmosphere.",
+      "labels": {
+        "people": [
+          "boy",
+          "man"
+        ],
+        "objects": [
+          "cup",
+          "window"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "warmth",
+          "connection"
+        ],
+        "scenes": [
+          "indoor",
+          "intimate"
+        ],
+        "concepts": [
+          "family",
+          "conversation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u1eaduB\u00e9M\u1eddiChaU\u1ed1ng.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u1eaduB\u00e9M\u1eddiChaU\u1ed1ng/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child and an older man sit by a window, each holding a cup, engaged in a warm conversation. The soft light from outside creates a cozy atmosphere, highlighting their expressions of connection and understanding.",
+      "description": "The scene depicts a tender moment between a child and an adult, likely a family setting, where they share a quiet conversation over drinks. The setting suggests an intimate and peaceful environment, enhanced by the gentle lighting and the simplicity of the surroundings.",
+      "labels": {
+        "people": [
+          "child",
+          "man"
+        ],
+        "objects": [
+          "cups",
+          "window"
+        ],
+        "actions": [
+          "holding",
+          "talking"
+        ],
+        "emotions": [
+          "warmth",
+          "connection"
+        ],
+        "scenes": [
+          "indoor",
+          "family"
+        ],
+        "concepts": [
+          "bonding",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, boy, child. Objects: window, cup, cups. Actions: holding, gazing, talking. Emotions: warmth, connection. Scenes: indoor, intimate, family. Concepts: family, conversation, bonding, intimacy",
+  "primary_labels": {
+    "people": [
+      "man",
+      "boy",
+      "child"
+    ],
+    "objects": [
+      "window",
+      "cup",
+      "cups"
+    ],
+    "actions": [
+      "holding",
+      "gazing",
+      "talking"
+    ],
+    "emotions": [
+      "warmth",
+      "connection"
+    ],
+    "scenes": [
+      "indoor",
+      "intimate",
+      "family"
+    ],
+    "concepts": [
+      "family",
+      "conversation",
+      "bonding",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

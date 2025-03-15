@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASceneWhereA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASceneWhereA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateASceneWhereA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat wearing a pink helmet rides a pink scooter down a city street. The cat is dressed in a white shirt and green shorts, with a basket of vegetables attached to the scooter. The scene is set on a sunny day with blurred buildings in the background.",
+      "description": "The scene depicts a whimsical and humorous moment where a cat, anthropomorphized to ride a scooter, travels through an urban setting. The bright colors and playful elements create a cheerful atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "basket",
+          "vegetables"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful",
+          "cheerful"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "whimsy",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CreateASceneWhereA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CreateASceneWhereA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features a cat with a human-like body riding a pink scooter down a city street. The cat wears a pink helmet and a white shirt, with a basket of fresh vegetables attached to the scooter.",
+      "description": "The image depicts a humorous and imaginative setting where a cat is personified, riding a scooter through an urban environment. The scene is playful and surreal, blending elements of fantasy with everyday life.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "basket",
+          "vegetables"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fantasy",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: scooter, helmet, basket, vegetables. Actions: riding. Emotions: playful, cheerful. Scenes: urban, city street, street. Concepts: whimsy, humor, fantasy, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "scooter",
+      "helmet",
+      "basket",
+      "vegetables"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "street"
+    ],
+    "concepts": [
+      "whimsy",
+      "humor",
+      "fantasy",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

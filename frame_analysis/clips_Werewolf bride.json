@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Werewolf bride.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Werewolf bride.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Werewolf bride/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid wolf character is dressed in an ornate wedding gown, standing in a dimly lit church. The character's bright blue eyes contrast with the warm tones of the stained glass windows in the background.",
+      "description": "The scene is set in a church, where a humanoid wolf character is depicted as a bride. The atmosphere is serene and mystical, enhanced by the interplay of light filtering through stained glass windows.",
+      "labels": {
+        "people": [
+          "humanoid wolf"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "objects": [
+          "wedding gown",
+          "veil",
+          "stained glass",
+          "candles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "church",
+          "wedding"
+        ],
+        "concepts": [
+          "fantasy",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Werewolf bride.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Werewolf bride/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a wolf's head is dressed in an elegant bridal gown, standing in a dimly lit church. The scene is illuminated by colorful light streaming through stained glass windows, casting a serene and mystical atmosphere.",
+      "description": "The setting is a church with gothic architecture, featuring stained glass windows and wooden pews. The figure, a blend of human and animal characteristics, is dressed as a bride, suggesting a surreal or fantasy theme.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [],
+        "objects": [
+          "bridal gown",
+          "veil",
+          "stained glass windows",
+          "candles",
+          "pews"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "church",
+          "wedding"
+        ],
+        "concepts": [
+          "fantasy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid wolf, humanoid figure. Animals: wolf. Objects: veil, candles, wedding gown, stained glass, bridal gown. Actions: standing. Emotions: serenity, serene. Scenes: church, wedding. Concepts: fantasy, anthropomorphism, surrealism",
+  "primary_labels": {
+    "people": [
+      "humanoid wolf",
+      "humanoid figure"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "objects": [
+      "veil",
+      "candles",
+      "wedding gown",
+      "stained glass",
+      "bridal gown"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "serene"
+    ],
+    "scenes": [
+      "church",
+      "wedding"
+    ],
+    "concepts": [
+      "fantasy",
+      "anthropomorphism",
+      "surrealism"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

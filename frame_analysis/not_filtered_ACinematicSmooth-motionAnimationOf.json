@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSmooth-motionAnimationOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSmooth-motionAnimationOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicSmooth-motionAnimationOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A giant, knitted white rabbit stands towering between two rows of buildings, casting a shadow over the street. A person stands in the foreground, gazing up at the enormous figure, creating a surreal juxtaposition of scale. The sky is clear with a few clouds, adding to the whimsical atmosphere.",
+      "description": "The scene depicts a surreal urban setting where a massive, knitted rabbit figure is positioned between tall buildings. The presence of a person looking up at the rabbit emphasizes the fantastical scale and adds a sense of wonder.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "buildings",
+          "knitted sculpture",
+          "cars"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "wonder"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "surreal",
+          "juxtaposition",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicSmooth-motionAnimationOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicSmooth-motionAnimationOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A colossal, knitted bunny towers over a city street, casting a whimsical presence amidst the urban landscape. Pedestrians walk nearby, dwarfed by the enormous figure, creating a surreal juxtaposition between the fantastical and the everyday. The scene is bathed in soft, warm light, enhancing the dreamlike quality of the setting.",
+      "description": "The scene is set in a city street where a gigantic, knitted bunny stands among tall buildings. Pedestrians move along the sidewalk, seemingly unfazed by the surreal sight. The atmosphere is whimsical and slightly surreal, with a warm, inviting light illuminating the scene.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "animals": [
+          "bunny"
+        ],
+        "objects": [
+          "buildings",
+          "knitted sculpture"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, pedestrians. Animals: rabbit, bunny. Objects: buildings, knitted sculpture, cars. Actions: gazing, walking. Emotions: wonder, whimsical, surreal. Scenes: urban, street, city street. Concepts: juxtaposition, fantasy, surreal",
+  "primary_labels": {
+    "people": [
+      "person",
+      "pedestrians"
+    ],
+    "animals": [
+      "rabbit",
+      "bunny"
+    ],
+    "objects": [
+      "buildings",
+      "knitted sculpture",
+      "cars"
+    ],
+    "actions": [
+      "gazing",
+      "walking"
+    ],
+    "emotions": [
+      "wonder",
+      "whimsical",
+      "surreal"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "fantasy",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

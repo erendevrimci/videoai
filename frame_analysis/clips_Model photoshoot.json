@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model photoshoot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model photoshoot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model photoshoot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands casually against a white door in a modern, minimalistic room. She is wearing a black top and wide-legged beige pants, exuding a relaxed yet stylish demeanor.",
+      "description": "The scene is set in a contemporary interior space with neutral tones. The woman leans slightly against a door, creating a calm and composed atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "door",
+          "radiator",
+          "vase",
+          "curtains"
+        ],
+        "actions": [
+          "standing",
+          "leaning"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "interior",
+          "modern room"
+        ],
+        "concepts": [
+          "fashion",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model photoshoot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model photoshoot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands casually against a wall in a well-lit room, wearing a black top and beige wide-legged pants. The setting includes a white door and minimalist decor, creating a modern and serene atmosphere.",
+      "description": "The scene is set indoors in a modern, minimalist room with light-colored walls and wooden flooring. The woman is leaning against a wall, looking relaxed and contemplative.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "door",
+          "radiator",
+          "vase",
+          "wall art"
+        ],
+        "actions": [
+          "standing",
+          "leaning"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "modern"
+        ],
+        "concepts": [
+          "fashion",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: door, radiator, vase, curtains, wall art. Actions: standing, leaning. Emotions: calm, relaxed. Scenes: interior, modern room, indoor, modern. Concepts: fashion, minimalism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "door",
+      "radiator",
+      "vase",
+      "curtains",
+      "wall art"
+    ],
+    "actions": [
+      "standing",
+      "leaning"
+    ],
+    "emotions": [
+      "calm",
+      "relaxed"
+    ],
+    "scenes": [
+      "interior",
+      "modern room",
+      "indoor",
+      "modern"
+    ],
+    "concepts": [
+      "fashion",
+      "minimalism"
+    ]
+  },
+  "metadata": {}
+}

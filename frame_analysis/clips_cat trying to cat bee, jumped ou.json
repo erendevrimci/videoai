@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat trying to cat bee, jumped ou.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat trying to cat bee, jumped ou.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat trying to cat bee, jumped ou/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy gray cat with bright eyes sits on a windowsill, intently watching a bee hovering outside the window. The cityscape in the background is softly blurred, with warm lights glowing against the evening sky.",
+      "description": "The scene captures a tranquil moment indoors, where a curious cat is captivated by a bee flying near the window. The setting is a cozy room with a view of the city at dusk, creating a peaceful and contemplative atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "bee"
+        ],
+        "nature": [
+          "plants"
+        ],
+        "objects": [
+          "window",
+          "potted plants"
+        ],
+        "actions": [
+          "watching",
+          "hovering"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "cityscape"
+        ],
+        "concepts": [
+          "tranquility",
+          "observation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/cat trying to cat bee, jumped ou.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/cat trying to cat bee, jumped ou/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat is captured mid-air, seemingly in a free-fall, with a blurred urban background below. The scene is dynamic, with the cat's fur and tail visibly affected by the motion.",
+      "description": "The image depicts a cat in mid-air, possibly falling or jumping, against a blurred cityscape. The focus is on the cat, highlighting its movement and the surrounding urban environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "falling",
+          "jumping"
+        ],
+        "emotions": [
+          "dynamic"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "motion",
+          "gravity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, bee. Nature: plants. Objects: window, potted plants. Actions: watching, hovering, falling, jumping. Emotions: curiosity, calm, dynamic. Scenes: cityscape, indoor, urban. Concepts: tranquility, observation, motion, gravity",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "bee"
+    ],
+    "nature": [
+      "plants"
+    ],
+    "objects": [
+      "window",
+      "potted plants"
+    ],
+    "actions": [
+      "watching",
+      "hovering",
+      "falling",
+      "jumping"
+    ],
+    "emotions": [
+      "curiosity",
+      "calm",
+      "dynamic"
+    ],
+    "scenes": [
+      "cityscape",
+      "indoor",
+      "urban"
+    ],
+    "concepts": [
+      "tranquility",
+      "observation",
+      "motion",
+      "gravity"
+    ]
+  },
+  "metadata": {}
+}

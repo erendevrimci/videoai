@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man walks down a dark alley.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man walks down a dark alley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Man walks down a dark alley/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a classic suit and fedora walks confidently down a narrow alleyway. The scene is lit by a single overhead light, casting dramatic shadows on the brick walls.",
+      "description": "The image depicts a noir-style scene with a man walking through an urban alley at night. The setting is reminiscent of mid-20th century film noir, characterized by its moody and mysterious atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "suit",
+          "fedora",
+          "brick walls",
+          "overhead light"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "alleyway",
+          "noir"
+        ],
+        "concepts": [
+          "mystery",
+          "vintage",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man walks down a dark alley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Man walks down a dark alley/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a classic suit and fedora walks confidently down a dimly lit alleyway. The scene is captured in black and white, emphasizing the shadows and textures of the brick walls. His face is partially obscured by the hat, adding an air of mystery.",
+      "description": "The scene takes place in a narrow alleyway, likely in an urban setting, with a noir atmosphere. The man is dressed in a vintage style, suggesting a mid-20th-century setting.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "suit",
+          "fedora",
+          "brick walls"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "alleyway",
+          "urban"
+        ],
+        "concepts": [
+          "noir",
+          "vintage",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Man walks down a dark alley.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Man walks down a dark alley/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in a classic suit and fedora walks confidently down a narrow, dimly lit alley. The scene is captured in black and white, emphasizing the shadows and highlights on the brick walls.",
+      "description": "The image depicts a noir-style scene with a man walking through a narrow alleyway. The setting is dark and mysterious, with a vintage feel.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "suit",
+          "fedora",
+          "brick walls"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mystery",
+          "confidence"
+        ],
+        "scenes": [
+          "alleyway",
+          "noir"
+        ],
+        "concepts": [
+          "vintage",
+          "film noir"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: suit, fedora, brick walls, overhead light. Actions: walking. Emotions: confidence, mysterious, mystery. Scenes: alleyway, noir, urban. Concepts: vintage, mystery, urban, noir, film noir",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "suit",
+      "fedora",
+      "brick walls",
+      "overhead light"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "mysterious",
+      "mystery"
+    ],
+    "scenes": [
+      "alleyway",
+      "noir",
+      "urban"
+    ],
+    "concepts": [
+      "vintage",
+      "mystery",
+      "urban",
+      "noir",
+      "film noir"
+    ]
+  },
+  "metadata": {}
+}

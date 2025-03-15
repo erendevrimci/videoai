@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chiffon Symphony - White.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chiffon Symphony - White.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chiffon Symphony - White/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, dark hair gazes softly at the camera, wearing a delicate, sheer white top. The lighting casts gentle shadows, highlighting her features against a neutral background.",
+      "description": "The scene captures a serene and intimate portrait of a woman in soft lighting, creating a calm and gentle atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "white top"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "intimacy",
+          "soft lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Chiffon Symphony - White.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Chiffon Symphony - White/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, flowing hair gazes softly towards the camera. She is wearing a delicate, white off-the-shoulder dress, and the scene is bathed in soft, natural light from a nearby window.",
+      "description": "The scene captures a serene and intimate moment, likely indoors near a window. The focus is on the woman, highlighting her gentle expression and the soft texture of her dress.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "softness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: white top, dress. Actions: gazing. Emotions: serene. Scenes: portrait, indoor. Concepts: intimacy, soft lighting, beauty, softness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "white top",
+      "dress"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "serene"
+    ],
+    "scenes": [
+      "portrait",
+      "indoor"
+    ],
+    "concepts": [
+      "intimacy",
+      "soft lighting",
+      "beauty",
+      "softness"
+    ]
+  },
+  "metadata": {}
+}

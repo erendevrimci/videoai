@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9154\u3063\u6255\u3044\u304c\u898b\u308b\u5e7b\u899a\uff1f\u6e05\u9152\u306e\u6edd\u884c...mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9154\u3063\u6255\u3044\u304c\u898b\u308b\u5e7b\u899a\uff1f\u6e05\u9152\u306e\u6edd\u884c...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u9154\u3063\u6255\u3044\u304c\u898b\u308b\u5e7b\u899a\uff1f\u6e05\u9152\u306e\u6edd\u884c../frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A bottle pours liquid into a wooden cup adorned with miniature figures in prayer. The scene is set on a table with various Japanese dishes, including sushi and skewers. The background features a blurred traditional Japanese decor.",
+      "description": "The image depicts a traditional Japanese dining setting with a focus on a unique wooden cup being filled with liquid. Surrounding the cup are plates of sushi, edamame, and skewered meats, suggesting a meal setting.",
+      "labels": {
+        "objects": [
+          "bottle",
+          "wooden cup",
+          "miniature figures",
+          "sushi",
+          "skewers",
+          "edamame"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "scenes": [
+          "Japanese dining",
+          "meal setting"
+        ],
+        "concepts": [
+          "tradition",
+          "culinary art"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9154\u3063\u6255\u3044\u304c\u898b\u308b\u5e7b\u899a\uff1f\u6e05\u9152\u306e\u6edd\u884c...mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u9154\u3063\u6255\u3044\u304c\u898b\u308b\u5e7b\u899a\uff1f\u6e05\u9152\u306e\u6edd\u884c../frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A bottle pours liquid into a wooden cup adorned with small monk figurines in a serene arrangement. Surrounding the cup are plates of edamame, sushi, and skewered meats, creating a harmonious dining scene. The background features blurred Japanese characters, adding cultural context.",
+      "description": "The scene is set in a Japanese dining context, featuring traditional food items and a unique cup with monk figurines. The pouring liquid suggests a ceremonial or artistic element, enhancing the cultural atmosphere.",
+      "labels": {
+        "objects": [
+          "bottle",
+          "wooden cup",
+          "monk figurines",
+          "edamame",
+          "sushi",
+          "skewers"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "dining",
+          "Japanese culture"
+        ],
+        "concepts": [
+          "tradition",
+          "ceremony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: bottle, wooden cup, sushi, skewers, edamame. Actions: pouring. Scenes: Japanese dining, meal setting, dining, Japanese culture. Concepts: tradition, culinary art, ceremony. Emotions: serenity, calmness",
+  "primary_labels": {
+    "objects": [
+      "bottle",
+      "wooden cup",
+      "sushi",
+      "skewers",
+      "edamame"
+    ],
+    "actions": [
+      "pouring"
+    ],
+    "scenes": [
+      "Japanese dining",
+      "meal setting",
+      "dining",
+      "Japanese culture"
+    ],
+    "concepts": [
+      "tradition",
+      "culinary art",
+      "ceremony"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness"
+    ]
+  },
+  "metadata": {}
+}

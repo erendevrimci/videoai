@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Pirouette:.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Pirouette:.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Pirouette:/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is gracefully ice skating on a frozen lake, dressed in a white jacket and gray leggings. The skater appears to be enjoying the moment, with arms outstretched and a joyful expression. The background features a serene winter landscape with a line of trees in the distance.",
+      "description": "The scene captures a winter setting where a person is ice skating on a vast frozen lake. The atmosphere is peaceful and joyful, with the skater moving elegantly across the ice.",
+      "labels": {
+        "people": [
+          "skater"
+        ],
+        "nature": [
+          "frozen lake",
+          "trees"
+        ],
+        "objects": [
+          "ice skates",
+          "jacket",
+          "leggings"
+        ],
+        "actions": [
+          "ice skating"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "gracefulness",
+          "recreation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Pirouette:.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Pirouette:/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is ice skating on a frozen lake, surrounded by a serene winter landscape. They are dressed warmly in a white jacket and hat, gliding gracefully across the smooth ice surface.",
+      "description": "The scene captures a peaceful winter setting where a person is enjoying ice skating on a natural frozen lake. The background features a distant line of trees under a cloudy sky, enhancing the tranquil atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "frozen lake",
+          "trees",
+          "cloudy sky"
+        ],
+        "objects": [
+          "ice skates",
+          "jacket",
+          "hat"
+        ],
+        "actions": [
+          "ice skating"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor activity"
+        ],
+        "concepts": [
+          "leisure",
+          "winter sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skater, person. Nature: frozen lake, trees, cloudy sky. Objects: ice skates, jacket, leggings, hat. Actions: ice skating. Emotions: joy, serenity. Scenes: winter landscape, outdoor activity. Concepts: gracefulness, recreation, leisure, winter sports",
+  "primary_labels": {
+    "people": [
+      "skater",
+      "person"
+    ],
+    "nature": [
+      "frozen lake",
+      "trees",
+      "cloudy sky"
+    ],
+    "objects": [
+      "ice skates",
+      "jacket",
+      "leggings",
+      "hat"
+    ],
+    "actions": [
+      "ice skating"
+    ],
+    "emotions": [
+      "joy",
+      "serenity"
+    ],
+    "scenes": [
+      "winter landscape",
+      "outdoor activity"
+    ],
+    "concepts": [
+      "gracefulness",
+      "recreation",
+      "leisure",
+      "winter sports"
+    ]
+  },
+  "metadata": {}
+}

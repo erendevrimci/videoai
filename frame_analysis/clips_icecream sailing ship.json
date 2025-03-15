@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/icecream sailing ship.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/icecream sailing ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/icecream sailing ship/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical ship made of ice cream sails across a calm sea under a vibrant sky. The ship's sails and structure are crafted from scoops of pink and white ice cream, creating a fantastical and surreal scene.",
+      "description": "The scene depicts a fantasy setting where a ship constructed from ice cream is navigating through tranquil waters. The sky is filled with fluffy clouds, adding to the dreamlike atmosphere.",
+      "labels": {
+        "objects": [
+          "ship",
+          "ice cream",
+          "sails"
+        ],
+        "nature": [
+          "sea",
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "emotions": [
+          "whimsical",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/icecream sailing ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/icecream sailing ship/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical ship sails across calm waters, adorned with giant scoops of pink ice cream as its sails. The sky is painted with soft, warm hues of a sunset, creating a dreamlike atmosphere.",
+      "description": "The scene depicts a fantastical ship on the ocean, creatively designed with ice cream cones and scoops as its sails. The setting sun casts a warm glow, enhancing the surreal and imaginative quality of the image.",
+      "labels": {
+        "objects": [
+          "ship",
+          "ice cream",
+          "sails",
+          "ocean"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "water"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "emotions": [
+          "whimsical",
+          "dreamlike"
+        ],
+        "scenes": [
+          "fantasy",
+          "sunset"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: ship, ice cream, sails, ocean. Nature: sky, clouds, sea, water. Scenes: fantasy, surreal, sunset. Emotions: whimsical, dreamlike. Actions: sailing. Concepts: imagination, creativity",
+  "primary_labels": {
+    "objects": [
+      "ship",
+      "ice cream",
+      "sails",
+      "ocean"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "sea",
+      "water"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal",
+      "sunset"
+    ],
+    "emotions": [
+      "whimsical",
+      "dreamlike"
+    ],
+    "actions": [
+      "sailing"
+    ],
+    "concepts": [
+      "imagination",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

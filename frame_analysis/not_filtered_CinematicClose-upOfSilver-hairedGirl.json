@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CinematicClose-upOfSilver-hairedGirl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CinematicClose-upOfSilver-hairedGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CinematicClose-upOfSilver-hairedGirl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long, flowing silver hair stands on a balcony, gazing towards a magnificent, illuminated airship city in the sky. The scene is set during twilight, with a crescent moon visible in the background, casting a mystical glow over the ornate architecture.",
+      "description": "The scene depicts a fantastical setting where a young woman stands in a steampunk-inspired world. She is positioned on a wooden balcony, overlooking a grand, floating city that resembles a massive ship with intricate towers and spires. The atmosphere is magical and otherworldly, enhanced by the warm, golden lighting and the presence of a crescent moon in the sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "airship",
+          "balcony",
+          "moon",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "calm",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "steampunk"
+        ],
+        "concepts": [
+          "mystery",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CinematicClose-upOfSilver-hairedGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CinematicClose-upOfSilver-hairedGirl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long white hair stands on a balcony, gazing at a majestic, illuminated cityscape. The scene is framed by heavy drapes, and a large, ornate airship hovers in the background, casting a golden glow over the scene.",
+      "description": "The image depicts a fantastical setting where a woman stands on a balcony, overlooking a grand city with intricate architecture and a massive airship. The atmosphere is dreamlike and magical, with warm lighting enhancing the scene's ethereal quality.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "balcony",
+          "airship",
+          "drapes"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy cityscape"
+        ],
+        "concepts": [
+          "fantasy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: airship, balcony, moon, buildings, drapes. Actions: gazing, standing. Emotions: calm, mystical, wonder. Scenes: fantasy, steampunk, fantasy cityscape. Concepts: adventure, mystery, fantasy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "airship",
+      "balcony",
+      "moon",
+      "buildings",
+      "drapes"
+    ],
+    "actions": [
+      "gazing",
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "mystical",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "steampunk",
+      "fantasy cityscape"
+    ],
+    "concepts": [
+      "adventure",
+      "mystery",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

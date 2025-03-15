@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Baby and cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Baby and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute Baby and cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful baby is playfully interacting with a fluffy white cat. The cat appears to be meowing or hissing, while the baby smiles brightly, seemingly enjoying the moment.",
+      "description": "The scene captures a playful interaction between a baby and a cat in a well-lit indoor setting. The baby is sitting on the floor, engaging with the cat, which is expressing a vocal reaction.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [],
+        "actions": [
+          "smiling",
+          "meowing"
+        ],
+        "emotions": [
+          "happiness",
+          "surprise"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "playfulness",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cute Baby and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cute Baby and cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A joyful child is playfully sitting on a large, fluffy cat. The child is laughing with delight, while the cat appears calm and tolerant.",
+      "description": "The scene captures a playful interaction between a young child and a cat in a bright, indoor setting. The child is wearing a colorful outfit and is visibly happy, while the cat is standing still.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "sitting",
+          "laughing"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "playful"
+        ],
+        "concepts": [
+          "interaction",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby, child. Animals: cat. Objects: clothing. Actions: smiling, meowing, sitting, laughing. Emotions: happiness, surprise, joy. Scenes: indoor, playful. Concepts: interaction, playfulness, companionship",
+  "primary_labels": {
+    "people": [
+      "baby",
+      "child"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "smiling",
+      "meowing",
+      "sitting",
+      "laughing"
+    ],
+    "emotions": [
+      "happiness",
+      "surprise",
+      "joy"
+    ],
+    "scenes": [
+      "indoor",
+      "playful"
+    ],
+    "concepts": [
+      "interaction",
+      "playfulness",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spread some love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spread some love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spread some love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of meerkats stands in a snowy landscape, with one prominently holding a heart-shaped snowball. The meerkats appear curious and attentive, surrounded by a gentle snowfall.",
+      "description": "The scene captures a group of meerkats in a snowy environment, with the focus on one meerkat holding a heart-shaped snowball. The background is a wintry forest, creating a serene and charming atmosphere.",
+      "labels": {
+        "animals": [
+          "meerkats"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "snowball"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "charm"
+        ],
+        "scenes": [
+          "winter",
+          "wildlife"
+        ],
+        "concepts": [
+          "love",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spread some love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spread some love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of meerkats stands on a snowy ground, with one meerkat prominently holding a heart-shaped snowball. The meerkat in the foreground appears to be smiling, creating a cheerful and playful atmosphere.",
+      "description": "The scene depicts a group of meerkats in a snowy environment, with a focus on one meerkat holding a heart-shaped snowball. The setting suggests a playful interaction among the animals in a winter landscape.",
+      "labels": {
+        "animals": [
+          "meerkat"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "snowball"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "winter",
+          "wildlife"
+        ],
+        "concepts": [
+          "friendship",
+          "joy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spread some love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spread some love/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A group of meerkats stands in a snowy landscape, with one prominently holding a heart-shaped snowball. The meerkats appear curious and playful, creating a charming scene in the winter setting.",
+      "description": "The scene captures a group of meerkats in a snowy environment, with the central meerkat holding a heart-shaped snowball. The setting is a winter landscape with snow-covered ground and bare trees in the background.",
+      "labels": {
+        "animals": [
+          "meerkats"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "snowball"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "friendship",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: meerkats, meerkat. Nature: snow, forest, trees. Objects: snowball. Actions: holding. Emotions: curiosity, playfulness, charm, happiness. Scenes: winter, wildlife, winter landscape. Concepts: friendship, love, togetherness, joy, winter",
+  "primary_labels": {
+    "animals": [
+      "meerkats",
+      "meerkat"
+    ],
+    "nature": [
+      "snow",
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "snowball"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "curiosity",
+      "playfulness",
+      "charm",
+      "happiness"
+    ],
+    "scenes": [
+      "winter",
+      "wildlife",
+      "winter landscape"
+    ],
+    "concepts": [
+      "friendship",
+      "love",
+      "togetherness",
+      "joy",
+      "winter"
+    ]
+  },
+  "metadata": {}
+}

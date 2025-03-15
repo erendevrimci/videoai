@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Home care noline shop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Home care noline shop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Home care noline shop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is applying a white facial mask, gently touching her face with her hands. Her expression is calm and relaxed, set against a simple blue background.",
+      "description": "The scene depicts a skincare routine where a woman is applying a facial mask. The setting is serene, focusing on personal care and relaxation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "facial mask"
+        ],
+        "actions": [
+          "applying",
+          "touching face"
+        ],
+        "emotions": [
+          "calm",
+          "relaxed"
+        ],
+        "scenes": [
+          "skincare routine"
+        ],
+        "concepts": [
+          "self-care",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Home care noline shop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Home care noline shop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with a serene expression applies a white facial mask, her hands gently touching her cheeks. The intricate patterns of the mask contrast with her smooth skin, creating a calming visual effect.",
+      "description": "The scene depicts a close-up of a woman engaged in a skincare routine, applying a facial mask. The setting is likely a bathroom or a spa, with a focus on relaxation and self-care.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "facial mask"
+        ],
+        "actions": [
+          "applying",
+          "touching"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "skincare routine",
+          "self-care"
+        ],
+        "concepts": [
+          "beauty",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: facial mask. Actions: applying, touching face, touching. Emotions: calm, relaxed, serene. Scenes: skincare routine, self-care. Concepts: beauty, self-care, relaxation",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "facial mask"
+    ],
+    "actions": [
+      "applying",
+      "touching face",
+      "touching"
+    ],
+    "emotions": [
+      "calm",
+      "relaxed",
+      "serene"
+    ],
+    "scenes": [
+      "skincare routine",
+      "self-care"
+    ],
+    "concepts": [
+      "beauty",
+      "self-care",
+      "relaxation"
+    ]
+  },
+  "metadata": {}
+}

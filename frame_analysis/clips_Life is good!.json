@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Life is good!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Life is good!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Life is good!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black cat wearing headphones is sitting on a robotic vacuum cleaner, holding a glass of champagne. The scene is set in a modern living room with large windows and stylish furniture.",
+      "description": "The image depicts a whimsical scene where a black cat, equipped with headphones, is perched on a robotic vacuum cleaner. It holds a champagne glass, adding a humorous and surreal touch to the modern living room setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "headphones",
+          "robotic vacuum cleaner",
+          "champagne glass"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "living room",
+          "modern interior"
+        ],
+        "concepts": [
+          "whimsy",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Life is good!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Life is good!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A black cat wearing headphones sits on a robotic vacuum cleaner, holding a glass of champagne. The scene is set in a modern living room with large windows and stylish furniture.",
+      "description": "The image captures a playful and surreal moment in a contemporary living space. A black cat, appearing relaxed and content, is perched atop a robotic vacuum cleaner, adding a whimsical touch to the otherwise sleek and modern setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "headphones",
+          "champagne glass",
+          "robotic vacuum cleaner"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor",
+          "living room"
+        ],
+        "concepts": [
+          "surreal",
+          "modern living"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Life is good!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Life is good!/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A black cat wearing headphones sits on a robotic vacuum cleaner, holding a glass of champagne. The scene is set in a modern, well-lit living room with large windows and stylish furniture.",
+      "description": "The image depicts a whimsical scene where a cat is engaged in a humorous and surreal activity, suggesting a playful and imaginative atmosphere. The setting is a contemporary living room with a luxurious feel.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "headphones",
+          "robotic vacuum",
+          "champagne glass"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "indoor",
+          "living room"
+        ],
+        "concepts": [
+          "humor",
+          "luxury",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: headphones, champagne glass, robotic vacuum cleaner, robotic vacuum. Actions: sitting, holding. Emotions: playful, relaxed, whimsical. Scenes: living room, indoor, modern interior. Concepts: surreal, whimsy, modern living, humor, luxury",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "headphones",
+      "champagne glass",
+      "robotic vacuum cleaner",
+      "robotic vacuum"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "relaxed",
+      "whimsical"
+    ],
+    "scenes": [
+      "living room",
+      "indoor",
+      "modern interior"
+    ],
+    "concepts": [
+      "surreal",
+      "whimsy",
+      "modern living",
+      "humor",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

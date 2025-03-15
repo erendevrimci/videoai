@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiny chefs make a heart-shaped m.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiny chefs make a heart-shaped m.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tiny chefs make a heart-shaped m/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three miniature figures in white coats are standing on ladders, meticulously painting a large red heart-shaped object. The scene is set against a backdrop of smaller heart-shaped items scattered around, creating a whimsical and creative atmosphere.",
+      "description": "The image depicts a playful and imaginative scene where tiny figures appear to be decorating a large heart-shaped confectionery. The setting suggests a creative workshop or an artistic project focused on love-themed objects.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "heart-shaped object",
+          "ladders",
+          "paintbrushes"
+        ],
+        "actions": [
+          "painting",
+          "decorating"
+        ],
+        "emotions": [
+          "whimsy",
+          "creativity"
+        ],
+        "scenes": [
+          "artistic",
+          "miniature"
+        ],
+        "concepts": [
+          "love",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tiny chefs make a heart-shaped m.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tiny chefs make a heart-shaped m/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three miniature figures in chef attire are seen painting a large, red heart-shaped macaron. They stand on small ladders, meticulously adding details to the dessert. Surrounding them are smaller heart-shaped macarons scattered on a dark surface.",
+      "description": "The scene depicts a whimsical setting where tiny chefs are engaged in decorating a giant heart-shaped macaron. The setting is playful and imaginative, with an emphasis on the artistry of baking.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "chefs"
+        ],
+        "objects": [
+          "heart-shaped macaron",
+          "ladders",
+          "paintbrushes"
+        ],
+        "actions": [
+          "painting",
+          "decorating"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "baking",
+          "creative"
+        ],
+        "concepts": [
+          "miniature art",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, chefs. Objects: ladders, paintbrushes, heart-shaped object, heart-shaped macaron. Actions: painting, decorating. Emotions: whimsy, creativity, whimsical, playful. Scenes: artistic, miniature, baking, creative. Concepts: love, creativity, miniature art, culinary art",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "chefs"
+    ],
+    "objects": [
+      "ladders",
+      "paintbrushes",
+      "heart-shaped object",
+      "heart-shaped macaron"
+    ],
+    "actions": [
+      "painting",
+      "decorating"
+    ],
+    "emotions": [
+      "whimsy",
+      "creativity",
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "artistic",
+      "miniature",
+      "baking",
+      "creative"
+    ],
+    "concepts": [
+      "love",
+      "creativity",
+      "miniature art",
+      "culinary art"
+    ]
+  },
+  "metadata": {}
+}

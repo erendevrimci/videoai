@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful holiday city located.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful holiday city located.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful holiday city located/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image captures a picturesque coastal town with a blend of historical and modern architecture. Sunlight glistens on the sea, highlighting the vibrant blue rooftops and the winding streets below. The scene is tranquil, with a few cars visible on the road, suggesting a peaceful afternoon.",
+      "description": "Aerial view of a coastal town featuring a mix of historical buildings and modern structures. The sea borders the town, reflecting sunlight, while the streets are lined with cars and greenery.",
+      "labels": {
+        "nature": [
+          "sea",
+          "coastline"
+        ],
+        "objects": [
+          "buildings",
+          "rooftops",
+          "cars"
+        ],
+        "scenes": [
+          "coastal town",
+          "aerial view"
+        ],
+        "concepts": [
+          "architecture",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful holiday city located.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful holiday city located/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An aerial view of a coastal town showcases a cluster of historic buildings with blue and orange rooftops. The scene captures a quiet street winding through the architecture, leading to the shimmering sea in the background. The sun casts a warm glow over the town, highlighting its charming Mediterranean character.",
+      "description": "The image depicts a picturesque coastal town with historic buildings and a serene seaside atmosphere. The architecture features a mix of blue and orange rooftops, with a street curving through the scene. The sea is visible in the background, adding to the tranquil setting.",
+      "labels": {
+        "nature": [
+          "sea"
+        ],
+        "objects": [
+          "buildings",
+          "rooftops",
+          "street"
+        ],
+        "scenes": [
+          "coastal town",
+          "aerial view"
+        ],
+        "emotions": [
+          "serene",
+          "charming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful holiday city located.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful holiday city located/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "An aerial view of a historic European cityscape reveals a network of narrow streets and tightly packed buildings with varied architectural styles. The scene captures the vibrant colors of the rooftops and the intricate facades of the buildings, highlighting the charm of the urban landscape. The image is bathed in warm sunlight, adding a golden hue to the scene.",
+      "description": "The scene depicts an aerial view of a historic city, likely Mediterranean, characterized by its dense urban layout and diverse architecture. The buildings are closely packed, with visible streets winding through the city. The image captures the essence of a bustling, yet serene urban environment.",
+      "labels": {
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "buildings",
+          "rooftops",
+          "streets"
+        ],
+        "scenes": [
+          "cityscape",
+          "aerial view",
+          "urban"
+        ],
+        "concepts": [
+          "architecture",
+          "historic",
+          "Mediterranean"
+        ],
+        "emotions": [
+          "serene",
+          "charming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: sea, coastline, trees. Objects: buildings, rooftops, cars, street, streets. Scenes: aerial view, coastal town, cityscape, urban. Concepts: architecture, tranquility, historic, Mediterranean. Emotions: serene, charming",
+  "primary_labels": {
+    "nature": [
+      "sea",
+      "coastline",
+      "trees"
+    ],
+    "objects": [
+      "buildings",
+      "rooftops",
+      "cars",
+      "street",
+      "streets"
+    ],
+    "scenes": [
+      "aerial view",
+      "coastal town",
+      "cityscape",
+      "urban"
+    ],
+    "concepts": [
+      "architecture",
+      "tranquility",
+      "historic",
+      "Mediterranean"
+    ],
+    "emotions": [
+      "serene",
+      "charming"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFerociousLion,Mid-roar,Standing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFerociousLion,Mid-roar,Standing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFerociousLion,Mid-roar,Standing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic lion stands in the foreground, roaring with its mouth wide open, displaying its sharp teeth. The sunlit savanna stretches out behind it, with dust swirling around its powerful paws.",
+      "description": "The scene captures a lion in a dynamic pose, roaring amidst the vast expanse of the savanna. The bright sky and arid landscape emphasize the wild and untamed nature of its habitat.",
+      "labels": {
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "savanna",
+          "sky"
+        ],
+        "objects": [
+          "dust"
+        ],
+        "actions": [
+          "roaring"
+        ],
+        "emotions": [
+          "fierce"
+        ],
+        "scenes": [
+          "wildlife"
+        ],
+        "concepts": [
+          "power",
+          "majesty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFerociousLion,Mid-roar,Standing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFerociousLion,Mid-roar,Standing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic lion is captured mid-roar, its mane flowing in the breeze against a backdrop of a clear sky. The lion's fierce expression and bared teeth convey a sense of power and dominance.",
+      "description": "The scene depicts a lion in a natural setting, possibly a savanna, with the focus on its intense expression and movement. The background is a blurred landscape, emphasizing the lion's presence.",
+      "labels": {
+        "animals": [
+          "lion"
+        ],
+        "nature": [
+          "savanna",
+          "sky"
+        ],
+        "objects": [],
+        "actions": [
+          "roaring"
+        ],
+        "emotions": [
+          "fierce",
+          "dominant"
+        ],
+        "scenes": [
+          "wildlife",
+          "nature"
+        ],
+        "concepts": [
+          "power",
+          "majesty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion. Nature: savanna, sky. Objects: dust. Actions: roaring. Emotions: fierce, dominant. Scenes: wildlife, nature. Concepts: power, majesty",
+  "primary_labels": {
+    "animals": [
+      "lion"
+    ],
+    "nature": [
+      "savanna",
+      "sky"
+    ],
+    "objects": [
+      "dust"
+    ],
+    "actions": [
+      "roaring"
+    ],
+    "emotions": [
+      "fierce",
+      "dominant"
+    ],
+    "scenes": [
+      "wildlife",
+      "nature"
+    ],
+    "concepts": [
+      "power",
+      "majesty"
+    ]
+  },
+  "metadata": {}
+}

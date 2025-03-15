@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/wizard cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/wizard cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/wizard cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat wearing a witch hat is holding a slice of pizza and a glass of beer in a forest setting. The scene is whimsical, with the cat appearing to enjoy a picnic surrounded by autumn leaves.",
+      "description": "The scene is set in a forest during autumn, with a cat dressed in a witch hat enjoying a picnic. The cat is holding a slice of pizza and a glass of beer, surrounded by fallen leaves and additional glasses of beer on the table.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "forest",
+          "autumn leaves"
+        ],
+        "objects": [
+          "witch hat",
+          "pizza",
+          "beer glass"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "picnic",
+          "forest setting"
+        ],
+        "concepts": [
+          "autumn",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/wizard cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/wizard cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat wearing a whimsical witch hat is enjoying a slice of pizza while holding a glass of beer. The scene is set outdoors with an autumnal forest background, creating a cozy and humorous atmosphere.",
+      "description": "The image depicts a cat dressed in a witch hat, indulging in pizza and beer amidst a forest setting. The scene combines elements of whimsy and humor, with the cat's attire and the unusual activity creating a playful tone.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "witch hat",
+          "pizza",
+          "beer glass"
+        ],
+        "nature": [
+          "forest",
+          "autumn leaves"
+        ],
+        "actions": [
+          "eating",
+          "drinking"
+        ],
+        "emotions": [
+          "humorous",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "forest"
+        ],
+        "concepts": [
+          "whimsy",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: forest, autumn leaves. Objects: witch hat, pizza, beer glass. Actions: holding, eating, drinking. Emotions: whimsical, humorous, playful. Scenes: picnic, forest setting, outdoor, forest. Concepts: autumn, fantasy, whimsy, humor",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "forest",
+      "autumn leaves"
+    ],
+    "objects": [
+      "witch hat",
+      "pizza",
+      "beer glass"
+    ],
+    "actions": [
+      "holding",
+      "eating",
+      "drinking"
+    ],
+    "emotions": [
+      "whimsical",
+      "humorous",
+      "playful"
+    ],
+    "scenes": [
+      "picnic",
+      "forest setting",
+      "outdoor",
+      "forest"
+    ],
+    "concepts": [
+      "autumn",
+      "fantasy",
+      "whimsy",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

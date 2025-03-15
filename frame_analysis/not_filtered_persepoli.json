@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/persepoli.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/persepoli.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/persepoli/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a grand architectural complex with a large, ornate entrance gate adorned with intricate sculptures. People are gathered around the entrance, and the scene is bathed in warm, golden sunlight, suggesting a late afternoon setting.",
+      "description": "The scene is set in a large, open courtyard of a temple or palace complex. The architecture is elaborate, featuring detailed carvings and statues, with a bustling crowd of visitors or worshippers moving through the area.",
+      "labels": {
+        "people": [
+          "crowd",
+          "visitors"
+        ],
+        "nature": [
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "gate",
+          "statues",
+          "buildings"
+        ],
+        "actions": [
+          "gathering",
+          "walking"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "temple",
+          "courtyard"
+        ],
+        "concepts": [
+          "architecture",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/persepoli.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/persepoli/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a grand architectural complex with intricate carvings and ornate gates, bustling with people. The scene is set during sunset, casting a warm glow over the structures and the crowd gathered below. The atmosphere is vibrant and lively, with a sense of cultural or religious significance.",
+      "description": "The scene is set in a large, ornate temple complex, likely of cultural or religious importance. The architecture features detailed carvings and statues, with a large entrance gate adorned with golden elements. The area is filled with people, suggesting a gathering or event.",
+      "labels": {
+        "people": [
+          "crowd",
+          "gathering"
+        ],
+        "objects": [
+          "temple",
+          "gate",
+          "statues"
+        ],
+        "actions": [
+          "walking",
+          "gathering"
+        ],
+        "emotions": [
+          "vibrant",
+          "lively"
+        ],
+        "scenes": [
+          "temple complex",
+          "cultural event"
+        ],
+        "concepts": [
+          "architecture",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, visitors, gathering. Nature: trees, sunlight. Objects: gate, statues, buildings, temple. Actions: gathering, walking. Emotions: awe, reverence, vibrant, lively. Scenes: temple, courtyard, temple complex, cultural event. Concepts: architecture, heritage",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "visitors",
+      "gathering"
+    ],
+    "nature": [
+      "trees",
+      "sunlight"
+    ],
+    "objects": [
+      "gate",
+      "statues",
+      "buildings",
+      "temple"
+    ],
+    "actions": [
+      "gathering",
+      "walking"
+    ],
+    "emotions": [
+      "awe",
+      "reverence",
+      "vibrant",
+      "lively"
+    ],
+    "scenes": [
+      "temple",
+      "courtyard",
+      "temple complex",
+      "cultural event"
+    ],
+    "concepts": [
+      "architecture",
+      "heritage"
+    ]
+  },
+  "metadata": {}
+}

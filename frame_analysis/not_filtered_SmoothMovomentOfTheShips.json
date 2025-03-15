@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmoothMovomentOfTheShips.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmoothMovomentOfTheShips.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmoothMovomentOfTheShips/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic sailing ship navigates through a turbulent sea under a dramatic sky filled with lightning. The ship's sails are full, and it cuts through the waves with determination. In the distance, another ship is visible, also braving the storm.",
+      "description": "The scene depicts a historical sailing ship amidst a stormy sea. The sky is dark and filled with lightning, creating a dramatic and intense atmosphere.",
+      "labels": {
+        "nature": [
+          "sea",
+          "storm",
+          "lightning",
+          "clouds"
+        ],
+        "objects": [
+          "sailing ship",
+          "sails",
+          "waves"
+        ],
+        "actions": [
+          "sailing",
+          "navigating"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "maritime",
+          "stormy weather"
+        ],
+        "concepts": [
+          "adventure",
+          "navigation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmoothMovomentOfTheShips.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmoothMovomentOfTheShips/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large sailing ship is caught in a fierce storm at sea, with lightning illuminating the dark sky. The ship's sails are full, and crew members are visible on deck, bracing against the turbulent waves.",
+      "description": "The scene depicts a dramatic maritime setting where a sailing ship is navigating through a stormy sea. Lightning strikes in the background, casting an eerie glow over the vessel and highlighting the tension of the moment.",
+      "labels": {
+        "people": [
+          "crew"
+        ],
+        "nature": [
+          "storm",
+          "lightning",
+          "sea",
+          "waves"
+        ],
+        "objects": [
+          "sailing ship",
+          "sails"
+        ],
+        "actions": [
+          "sailing",
+          "bracing"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "maritime",
+          "stormy sea"
+        ],
+        "concepts": [
+          "adventure",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: sea, storm, lightning, clouds, waves. Objects: sailing ship, sails, waves. Actions: sailing, navigating, bracing. Emotions: drama, intensity, tension. Scenes: maritime, stormy weather, stormy sea. Concepts: adventure, navigation, danger. People: crew",
+  "primary_labels": {
+    "nature": [
+      "sea",
+      "storm",
+      "lightning",
+      "clouds",
+      "waves"
+    ],
+    "objects": [
+      "sailing ship",
+      "sails",
+      "waves"
+    ],
+    "actions": [
+      "sailing",
+      "navigating",
+      "bracing"
+    ],
+    "emotions": [
+      "drama",
+      "intensity",
+      "tension"
+    ],
+    "scenes": [
+      "maritime",
+      "stormy weather",
+      "stormy sea"
+    ],
+    "concepts": [
+      "adventure",
+      "navigation",
+      "danger"
+    ],
+    "people": [
+      "crew"
+    ]
+  },
+  "metadata": {}
+}

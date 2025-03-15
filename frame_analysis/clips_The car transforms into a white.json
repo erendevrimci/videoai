@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a white.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car transforms into a white/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, white sports car is parked on a palm-lined street under a vibrant sunset sky. The dramatic colors of the sunset create a striking backdrop, enhancing the car's glossy finish and modern design.",
+      "description": "The scene captures a luxury sports car on a city street lined with tall palm trees during a vivid sunset. The setting suggests an urban environment, possibly in a warm climate region.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "palm trees"
+        ],
+        "nature": [
+          "sunset",
+          "sky"
+        ],
+        "scenes": [
+          "urban street",
+          "sunset"
+        ],
+        "concepts": [
+          "luxury",
+          "automobile",
+          "evening"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a white.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car transforms into a white/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large robotic figure stands prominently on a city street, surrounded by palm trees under a dramatic sunset sky. The robot's metallic body reflects the vibrant hues of the sunset, creating a striking contrast against the urban backdrop. Mist swirls around its feet, adding to the dynamic atmosphere of the scene.",
+      "description": "The scene depicts a futuristic setting where a giant robot is positioned on a city street lined with palm trees. The sky is ablaze with sunset colors, enhancing the dramatic and cinematic feel of the moment.",
+      "labels": {
+        "objects": [
+          "robot",
+          "palm trees",
+          "street"
+        ],
+        "nature": [
+          "sunset",
+          "sky"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "dramatic"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "future"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: palm trees, sports car, robot, street. Nature: sunset, sky. Scenes: urban street, sunset, urban, futuristic. Concepts: luxury, automobile, evening, technology, future. Actions: standing. Emotions: dramatic",
+  "primary_labels": {
+    "objects": [
+      "palm trees",
+      "sports car",
+      "robot",
+      "street"
+    ],
+    "nature": [
+      "sunset",
+      "sky"
+    ],
+    "scenes": [
+      "urban street",
+      "sunset",
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "luxury",
+      "automobile",
+      "evening",
+      "technology",
+      "future"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "dramatic"
+    ]
+  },
+  "metadata": {}
+}

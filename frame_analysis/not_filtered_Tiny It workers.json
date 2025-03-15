@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny It workers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny It workers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny It workers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a miniature scene where tiny figures are working on a computer motherboard. These figures appear to be installing or repairing a RAM module, surrounded by various electronic components.",
+      "description": "The scene is a creative representation of a computer motherboard being serviced by miniature workers. The figures are engaged in tasks that mimic real-life computer maintenance, set against the intricate backdrop of electronic circuits and components.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "motherboard",
+          "RAM module",
+          "electronic components"
+        ],
+        "actions": [
+          "installing",
+          "repairing"
+        ],
+        "scenes": [
+          "miniature scene",
+          "technology"
+        ],
+        "concepts": [
+          "technology maintenance",
+          "miniaturization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny It workers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny It workers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a surreal scene where miniature figures are working on a computer motherboard. The tiny workers are engaged in various tasks around a large RAM module, creating an imaginative portrayal of technology maintenance.",
+      "description": "The scene is set on a computer motherboard, with miniature figures resembling construction workers interacting with the components. This imaginative setup creates a whimsical interpretation of technology repair and maintenance.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "motherboard",
+          "RAM module",
+          "capacitors",
+          "chips"
+        ],
+        "actions": [
+          "working",
+          "lifting",
+          "repairing"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "technology",
+          "miniature world"
+        ],
+        "concepts": [
+          "technology maintenance",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures. Objects: motherboard, RAM module, electronic components, capacitors, chips. Actions: repairing, installing, working, lifting. Scenes: technology, miniature scene, miniature world. Concepts: technology maintenance, miniaturization, surrealism. Emotions: whimsical, imaginative",
+  "primary_labels": {
+    "people": [
+      "miniature figures"
+    ],
+    "objects": [
+      "motherboard",
+      "RAM module",
+      "electronic components",
+      "capacitors",
+      "chips"
+    ],
+    "actions": [
+      "repairing",
+      "installing",
+      "working",
+      "lifting"
+    ],
+    "scenes": [
+      "technology",
+      "miniature scene",
+      "miniature world"
+    ],
+    "concepts": [
+      "technology maintenance",
+      "miniaturization",
+      "surrealism"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ]
+  },
+  "metadata": {}
+}

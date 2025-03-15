@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dance Groot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dance Groot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dance Groot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, tree-like character stands confidently amidst a dramatic scene of glowing embers and a blurred, fiery background. The character's green-tipped head contrasts with the warm, burning hues surrounding it. In the distance, iconic architecture is faintly visible, adding depth to the scene.",
+      "description": "The scene depicts a fantastical character standing in a fiery setting, with embers floating around. The background features blurred architectural structures, suggesting a city or historical landmark. The atmosphere is intense and dramatic, with a mix of fantasy and realism.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [
+          "tree-like character"
+        ],
+        "objects": [
+          "embers",
+          "architecture"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "contrast",
+          "intensity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dance Groot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dance Groot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, tree-like creature walks through a fiery landscape, with flames and embers surrounding it. In the background, a blurred, illuminated structure resembling a cathedral adds a dramatic backdrop to the scene.",
+      "description": "The scene depicts a fantasy setting where a small, humanoid tree creature is navigating a burning landscape. The atmosphere is intense and dramatic, with a mix of natural and architectural elements.",
+      "labels": {
+        "people": [
+          "tree-like creature"
+        ],
+        "nature": [
+          "flames",
+          "embers"
+        ],
+        "objects": [
+          "cathedral"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "adventure",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: tree-like creature. Nature: tree-like character, flames, embers. Objects: embers, architecture, cathedral. Actions: standing, walking. Emotions: confidence, intensity. Scenes: fantasy, dramatic. Concepts: contrast, intensity, adventure, survival",
+  "primary_labels": {
+    "people": [
+      "tree-like creature"
+    ],
+    "animals": [],
+    "nature": [
+      "tree-like character",
+      "flames",
+      "embers"
+    ],
+    "objects": [
+      "embers",
+      "architecture",
+      "cathedral"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "fantasy",
+      "dramatic"
+    ],
+    "concepts": [
+      "contrast",
+      "intensity",
+      "adventure",
+      "survival"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheCharacterDoA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheCharacterDoA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheCharacterDoA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylized character stands confidently against a soft gradient background. The character is wearing a cap, large headphones, sunglasses, and layered clothing with gold chains, exuding a trendy and modern vibe.",
+      "description": "The scene features a cartoon-like character in a minimalistic setting, showcasing a stylish and urban fashion sense. The focus is on the character's attire and accessories, highlighting a playful and contemporary aesthetic.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "objects": [
+          "cap",
+          "headphones",
+          "sunglasses",
+          "chains",
+          "jacket",
+          "shirt",
+          "shoes"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheCharacterDoA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheCharacterDoA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cartoon character is joyfully dancing with headphones on, wearing a colorful outfit and sunglasses. The character exudes a carefree and lively vibe, set against a soft gradient background.",
+      "description": "The scene features a cartoon character in a playful dance pose, suggesting a fun and energetic atmosphere. The background is simple, enhancing the focus on the character's vibrant attire and dynamic movement.",
+      "labels": {
+        "people": [
+          "cartoon character"
+        ],
+        "objects": [
+          "headphones",
+          "sunglasses",
+          "jacket",
+          "sneakers"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful",
+          "carefree"
+        ],
+        "scenes": [
+          "animated",
+          "playful"
+        ],
+        "concepts": [
+          "fun",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeTheCharacterDoA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeTheCharacterDoA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cartoon character is dressed in a colorful outfit, wearing a cap and large headphones. The character appears to be dancing joyfully with arms outstretched and a wide smile.",
+      "description": "The scene features a playful and vibrant cartoon character in a casual setting, likely engaging in a dance or celebration. The character's attire and accessories suggest a modern, urban style.",
+      "labels": {
+        "people": [
+          "cartoon character"
+        ],
+        "objects": [
+          "cap",
+          "headphones",
+          "sunglasses",
+          "jacket",
+          "shirt",
+          "jeans",
+          "sneakers"
+        ],
+        "actions": [
+          "dancing",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "casual setting"
+        ],
+        "concepts": [
+          "urban style",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cartoon character, character. Objects: headphones, sunglasses, jacket, cap, shirt. Emotions: joyful, confident, carefree, playful. Scenes: portrait, animated, playful, casual setting. Concepts: fashion, style, urban, fun, energy. Actions: dancing, smiling",
+  "primary_labels": {
+    "people": [
+      "cartoon character",
+      "character"
+    ],
+    "objects": [
+      "headphones",
+      "sunglasses",
+      "jacket",
+      "cap",
+      "shirt"
+    ],
+    "emotions": [
+      "joyful",
+      "confident",
+      "carefree",
+      "playful"
+    ],
+    "scenes": [
+      "portrait",
+      "animated",
+      "playful",
+      "casual setting"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "urban",
+      "fun",
+      "energy"
+    ],
+    "actions": [
+      "dancing",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witch on fire.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witch on fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Witch on fire/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious woman stands in a dimly lit, ancient setting, holding a flickering torch. Her dark attire and somber expression add to the enigmatic atmosphere, as embers float around her.",
+      "description": "The scene depicts a gothic, mystical setting with a focus on a woman dressed in dark, elaborate clothing. She holds a torch, illuminating her surroundings with a warm glow amidst the cold, stone architecture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "torch"
+        ],
+        "nature": [
+          "embers"
+        ],
+        "scenes": [
+          "gothic",
+          "mystical"
+        ],
+        "emotions": [
+          "mysterious",
+          "somber"
+        ],
+        "concepts": [
+          "mystery",
+          "gothic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Witch on fire.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Witch on fire/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious woman stands in a dimly lit ancient ruin, surrounded by glowing embers and flickering torches. Her dark, flowing hair and intense gaze add to the enigmatic atmosphere, while her gothic attire enhances the dramatic setting.",
+      "description": "The scene takes place in an ancient ruin, possibly a temple or castle, with a mystical and dark ambiance. The woman is the central figure, exuding a sense of power and mystery.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "torch",
+          "ruins"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "ancient ruins",
+          "gothic"
+        ],
+        "concepts": [
+          "mystery",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: torch, ruins. Nature: embers. Scenes: gothic, mystical, ancient ruins. Emotions: mysterious, somber, intense. Concepts: mystery, gothic, power. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "torch",
+      "ruins"
+    ],
+    "nature": [
+      "embers"
+    ],
+    "scenes": [
+      "gothic",
+      "mystical",
+      "ancient ruins"
+    ],
+    "emotions": [
+      "mysterious",
+      "somber",
+      "intense"
+    ],
+    "concepts": [
+      "mystery",
+      "gothic",
+      "power"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

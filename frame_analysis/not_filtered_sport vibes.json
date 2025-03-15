@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sport vibes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sport vibes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/sport vibes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two sleek sports cars navigate a winding mountain road, surrounded by lush greenery and rugged cliffs. The vehicles are captured in motion, emphasizing speed and precision as they take on the curves of the scenic route.",
+      "description": "The scene depicts a dynamic drive along a mountainous road, with two sports cars in motion. The setting is a picturesque landscape with steep cliffs and verdant hills, suggesting a remote and adventurous location.",
+      "labels": {
+        "objects": [
+          "sports cars",
+          "road",
+          "guardrail"
+        ],
+        "nature": [
+          "mountains",
+          "cliffs",
+          "trees"
+        ],
+        "actions": [
+          "driving",
+          "turning"
+        ],
+        "scenes": [
+          "mountain road",
+          "driving scene"
+        ],
+        "emotions": [
+          "exhilaration",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sport vibes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/sport vibes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two sleek sports cars are racing down a winding mountain road, surrounded by lush greenery and towering hills. The scene captures the thrill of speed and the beauty of nature as the vehicles navigate the curves with precision.",
+      "description": "The image depicts a dynamic scene of two sports cars traveling at high speed on a curvy mountain road. The setting is a picturesque landscape with mountains and dense vegetation, suggesting a remote and scenic location.",
+      "labels": {
+        "objects": [
+          "sports cars",
+          "road"
+        ],
+        "nature": [
+          "mountains",
+          "vegetation"
+        ],
+        "actions": [
+          "racing",
+          "driving"
+        ],
+        "scenes": [
+          "mountain road",
+          "outdoor"
+        ],
+        "concepts": [
+          "speed",
+          "adventure"
+        ],
+        "emotions": [
+          "excitement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/sport vibes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/sport vibes/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two sleek sports cars are driving along a winding mountain road. The scene captures the vehicles from behind as they navigate the curves with precision. The surrounding landscape features rocky cliffs and sparse vegetation under a soft, overcast sky.",
+      "description": "The image depicts a dynamic scene of two sports cars racing along a curvy mountain road. The setting is a mountainous area with rocky cliffs and minimal vegetation, suggesting a remote and scenic route.",
+      "labels": {
+        "objects": [
+          "sports cars",
+          "road",
+          "rocky cliffs"
+        ],
+        "nature": [
+          "mountains",
+          "vegetation"
+        ],
+        "actions": [
+          "driving",
+          "racing"
+        ],
+        "scenes": [
+          "mountain road",
+          "outdoor"
+        ],
+        "emotions": [
+          "excitement",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports cars, road, guardrail, rocky cliffs. Nature: mountains, vegetation, cliffs, trees. Actions: driving, racing, turning. Scenes: mountain road, outdoor, driving scene. Emotions: adventure, excitement, exhilaration. Concepts: speed, adventure",
+  "primary_labels": {
+    "objects": [
+      "sports cars",
+      "road",
+      "guardrail",
+      "rocky cliffs"
+    ],
+    "nature": [
+      "mountains",
+      "vegetation",
+      "cliffs",
+      "trees"
+    ],
+    "actions": [
+      "driving",
+      "racing",
+      "turning"
+    ],
+    "scenes": [
+      "mountain road",
+      "outdoor",
+      "driving scene"
+    ],
+    "emotions": [
+      "adventure",
+      "excitement",
+      "exhilaration"
+    ],
+    "concepts": [
+      "speed",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAMagical.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAMagical.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManInAMagical/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands confidently in a futuristic setting, wearing a sleek, armored suit with glowing red accents. Behind him, a vertical beam of light illuminates the scene, adding a dramatic effect to the high-tech environment.",
+      "description": "The scene is set in a futuristic, possibly sci-fi environment with advanced technology. The man appears to be a central figure, possibly a hero or a warrior, in a setting that suggests a high-tech or otherworldly location.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "armored suit",
+          "glowing accents",
+          "beam of light"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "heroic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAMagical.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManInAMagical/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in futuristic armor stands in a dimly lit, industrial setting. The armor features intricate designs with glowing red accents, and the background is illuminated by vertical light beams.",
+      "description": "The scene is set in a high-tech, industrial environment, possibly a futuristic or sci-fi setting. The man is wearing advanced armor, suggesting a role as a soldier or warrior in this context.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "scenes": [
+          "futuristic",
+          "industrial"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "concepts": [
+          "technology",
+          "sci-fi"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: armored suit, glowing accents, beam of light, armor. Actions: standing. Emotions: confident, serious. Scenes: futuristic, sci-fi, industrial. Concepts: technology, heroic, sci-fi",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "armored suit",
+      "glowing accents",
+      "beam of light",
+      "armor"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "serious"
+    ],
+    "scenes": [
+      "futuristic",
+      "sci-fi",
+      "industrial"
+    ],
+    "concepts": [
+      "technology",
+      "heroic",
+      "sci-fi"
+    ]
+  },
+  "metadata": {}
+}

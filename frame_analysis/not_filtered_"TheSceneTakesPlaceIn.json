@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"TheSceneTakesPlaceIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"TheSceneTakesPlaceIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"TheSceneTakesPlaceIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In an opulent ballroom, two anthropomorphic cats dressed in formal attire stand elegantly. The female cat wears a shimmering silver gown, while the male cat is in a classic black tuxedo. They are surrounded by other guests, adding to the sophisticated atmosphere.",
+      "description": "The scene is set in a luxurious ballroom, characterized by grand chandeliers and a polished floor. Anthropomorphic cats in formal wear are the focal point, amidst a backdrop of elegantly dressed guests engaged in conversation.",
+      "labels": {
+        "people": [
+          "anthropomorphic cats"
+        ],
+        "animals": [
+          "cats"
+        ],
+        "nature": [],
+        "objects": [
+          "gown",
+          "tuxedo",
+          "chandelier"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "ballroom",
+          "formal event"
+        ],
+        "concepts": [
+          "sophistication",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"TheSceneTakesPlaceIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"TheSceneTakesPlaceIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In an elegant ballroom, two anthropomorphic cat figures dressed in formal attire stand facing each other. The female figure wears a shimmering silver gown, while the male is in a classic black tuxedo.",
+      "description": "The scene is set in a grand ballroom with a luxurious chandelier overhead, where two anthropomorphic cat figures are engaged in a poised interaction amidst a formal gathering.",
+      "labels": {
+        "people": [
+          "anthropomorphic figures"
+        ],
+        "objects": [
+          "chandelier",
+          "gown",
+          "tuxedo"
+        ],
+        "actions": [
+          "standing",
+          "facing each other"
+        ],
+        "emotions": [
+          "elegance",
+          "poise"
+        ],
+        "scenes": [
+          "ballroom",
+          "formal event"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "formal attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: anthropomorphic cats, anthropomorphic figures. Animals: cats. Objects: gown, tuxedo, chandelier. Actions: standing, facing each other. Emotions: elegance, poise. Scenes: ballroom, formal event. Concepts: sophistication, luxury, anthropomorphism, formal attire",
+  "primary_labels": {
+    "people": [
+      "anthropomorphic cats",
+      "anthropomorphic figures"
+    ],
+    "animals": [
+      "cats"
+    ],
+    "nature": [],
+    "objects": [
+      "gown",
+      "tuxedo",
+      "chandelier"
+    ],
+    "actions": [
+      "standing",
+      "facing each other"
+    ],
+    "emotions": [
+      "elegance",
+      "poise"
+    ],
+    "scenes": [
+      "ballroom",
+      "formal event"
+    ],
+    "concepts": [
+      "sophistication",
+      "luxury",
+      "anthropomorphism",
+      "formal attire"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FightingPoseAmazing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FightingPoseAmazing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FightingPoseAmazing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat and a dog, both wearing red boxing gloves, face each other in a boxing ring. The arena is filled with a cheering crowd under bright overhead lights.",
+      "description": "The scene depicts a humorous and imaginative boxing match between a cat and a dog. Set in a lively arena, the animals are anthropomorphized, engaging in a playful standoff as the audience watches with excitement.",
+      "labels": {
+        "animals": [
+          "cat",
+          "dog"
+        ],
+        "objects": [
+          "boxing gloves",
+          "boxing ring",
+          "lights"
+        ],
+        "actions": [
+          "facing off",
+          "boxing"
+        ],
+        "emotions": [
+          "competitive",
+          "playful"
+        ],
+        "scenes": [
+          "arena",
+          "sports event"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FightingPoseAmazing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FightingPoseAmazing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat and a dog, both wearing red boxing gloves, face off in a boxing ring under bright stadium lights. The audience in the background watches eagerly, adding to the competitive atmosphere.",
+      "description": "The scene is set in a boxing ring, with a cat and a dog as the main contenders. The setting is lively, with a large audience and bright overhead lights, creating an energetic and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "dog"
+        ],
+        "objects": [
+          "boxing gloves",
+          "boxing ring",
+          "stadium lights"
+        ],
+        "actions": [
+          "facing off"
+        ],
+        "emotions": [
+          "competitive",
+          "humorous"
+        ],
+        "scenes": [
+          "boxing match",
+          "sports event"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "competition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, dog. Objects: boxing gloves, boxing ring, lights, stadium lights. Actions: facing off, boxing. Emotions: competitive, playful, humorous. Scenes: sports event, arena, boxing match. Concepts: anthropomorphism, humor, competition",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "dog"
+    ],
+    "objects": [
+      "boxing gloves",
+      "boxing ring",
+      "lights",
+      "stadium lights"
+    ],
+    "actions": [
+      "facing off",
+      "boxing"
+    ],
+    "emotions": [
+      "competitive",
+      "playful",
+      "humorous"
+    ],
+    "scenes": [
+      "sports event",
+      "arena",
+      "boxing match"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "competition"
+    ]
+  },
+  "metadata": {}
+}

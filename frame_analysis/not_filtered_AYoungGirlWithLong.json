@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungGirlWithLong.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungGirlWithLong.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungGirlWithLong/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with long hair sits on the edge of a rocky cliff, gazing pensively at the turbulent sea below. Her arms and legs are wrapped in bandages, and she wears a simple blue dress. Dark storm clouds loom overhead, adding to the somber atmosphere.",
+      "description": "The scene depicts a solitary girl sitting on a cliff overlooking a stormy ocean. The setting is dramatic and emotional, with the girl's contemplative posture and the ominous weather creating a sense of melancholy and introspection.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "ocean",
+          "cliff",
+          "storm clouds"
+        ],
+        "objects": [
+          "bandages",
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "pensiveness",
+          "melancholy"
+        ],
+        "scenes": [
+          "coastal",
+          "stormy"
+        ],
+        "concepts": [
+          "solitude",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungGirlWithLong.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungGirlWithLong/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with wet hair sits on the edge of a rocky cliff, overlooking a turbulent sea under a stormy sky. She appears contemplative, with bandages on her arms and legs, suggesting recent injuries.",
+      "description": "The scene depicts a solitary child sitting on a cliff by the sea, with dark storm clouds overhead. The atmosphere is tense and dramatic, emphasizing themes of solitude and resilience.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "sea",
+          "cliff",
+          "storm clouds"
+        ],
+        "objects": [
+          "bandages",
+          "clothing"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "contemplative",
+          "somber"
+        ],
+        "scenes": [
+          "coastline",
+          "storm"
+        ],
+        "concepts": [
+          "solitude",
+          "resilience"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungGirlWithLong.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungGirlWithLong/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl sits on the edge of a rocky cliff, gazing pensively at the turbulent sea below. Her wet hair and bandaged limbs suggest she has endured a recent struggle. Dark storm clouds loom overhead, adding to the somber atmosphere.",
+      "description": "The scene depicts a solitary girl on a cliff by the sea during a storm. The setting is dramatic and emotional, with the girl appearing contemplative and possibly distressed.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "sea",
+          "cliff",
+          "storm clouds"
+        ],
+        "objects": [
+          "bandages",
+          "blue dress"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "pensiveness",
+          "somberness"
+        ],
+        "scenes": [
+          "stormy seascape"
+        ],
+        "concepts": [
+          "solitude",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Nature: cliff, storm clouds, sea, ocean. Objects: bandages, dress, clothing, blue dress. Actions: sitting, gazing. Emotions: pensiveness, melancholy, contemplative, somber, somberness. Scenes: coastal, stormy, coastline, storm, stormy seascape. Concepts: solitude, introspection, resilience, contemplation",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "nature": [
+      "cliff",
+      "storm clouds",
+      "sea",
+      "ocean"
+    ],
+    "objects": [
+      "bandages",
+      "dress",
+      "clothing",
+      "blue dress"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "pensiveness",
+      "melancholy",
+      "contemplative",
+      "somber",
+      "somberness"
+    ],
+    "scenes": [
+      "coastal",
+      "stormy",
+      "coastline",
+      "storm",
+      "stormy seascape"
+    ],
+    "concepts": [
+      "solitude",
+      "introspection",
+      "resilience",
+      "contemplation"
+    ]
+  },
+  "metadata": {}
+}

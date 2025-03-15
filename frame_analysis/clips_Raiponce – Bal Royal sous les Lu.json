@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Raiponce \u2013 Bal Royal sous les Lu.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Raiponce \u2013 Bal Royal sous les Lu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Raiponce \u2013 Bal Royal sous les Lu/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman in an elegant, purple gown stands in a lavishly decorated room, smiling softly as she glances over her shoulder. The warm glow of candlelight illuminates her face, adding to the opulent atmosphere.",
+      "description": "The scene is set in a luxurious, possibly historical setting, with a focus on elegance and refinement. The woman is dressed in a detailed, ornate gown, suggesting a formal event or gathering.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "candles",
+          "tableware"
+        ],
+        "actions": [
+          "smiling",
+          "standing"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "formal event",
+          "luxurious setting"
+        ],
+        "concepts": [
+          "elegance",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Raiponce \u2013 Bal Royal sous les Lu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Raiponce \u2013 Bal Royal sous les Lu/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in an elegant, lavender gown stands gracefully in a lavishly decorated room. The soft lighting from numerous candles enhances the opulence of the setting, highlighting her serene smile and flowing hair.",
+      "description": "The scene is set in a luxurious ballroom or dining area, characterized by ornate chandeliers and candlelit ambiance. The woman, dressed in a detailed, off-the-shoulder gown, appears to be part of a formal event or celebration.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "candles",
+          "chandeliers",
+          "table"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "serenity",
+          "happiness"
+        ],
+        "scenes": [
+          "ballroom",
+          "formal event"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, candles, tableware, chandeliers, table. Actions: smiling, standing. Emotions: happiness, contentment, serenity. Scenes: formal event, luxurious setting, ballroom. Concepts: elegance, opulence, luxury",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "candles",
+      "tableware",
+      "chandeliers",
+      "table"
+    ],
+    "actions": [
+      "smiling",
+      "standing"
+    ],
+    "emotions": [
+      "happiness",
+      "contentment",
+      "serenity"
+    ],
+    "scenes": [
+      "formal event",
+      "luxurious setting",
+      "ballroom"
+    ],
+    "concepts": [
+      "elegance",
+      "opulence",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

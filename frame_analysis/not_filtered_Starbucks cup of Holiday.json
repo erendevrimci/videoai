@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Starbucks cup of Holiday.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Starbucks cup of Holiday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Starbucks cup of Holiday/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts a tropical island landscape contained within a coffee cup. The cup features a miniature beach with palm trees, rocky cliffs, and two small boats floating in the water. Fluffy clouds hover above, adding to the surreal and imaginative atmosphere.",
+      "description": "The image portrays a fantastical miniature island setting inside a coffee cup, blending elements of nature with everyday objects. The scene is creatively designed to evoke a sense of wonder and escape.",
+      "labels": {
+        "nature": [
+          "palm trees",
+          "beach",
+          "cliffs",
+          "clouds"
+        ],
+        "objects": [
+          "coffee cup",
+          "boats"
+        ],
+        "scenes": [
+          "tropical island",
+          "miniature landscape"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ],
+        "emotions": [
+          "wonder",
+          "escape"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Starbucks cup of Holiday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Starbucks cup of Holiday/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts a miniature tropical island inside a coffee cup. The island features lush greenery, palm trees, and tiny sailboats floating on a serene blue sea. The cup rests on a textured surface, creating a charming contrast between the imaginative world and reality.",
+      "description": "The image presents a creative miniature landscape of a tropical island contained within a coffee cup. The setting combines elements of nature with everyday objects, creating a surreal and imaginative scene.",
+      "labels": {
+        "nature": [
+          "island",
+          "palm trees",
+          "sea"
+        ],
+        "objects": [
+          "coffee cup",
+          "sailboats"
+        ],
+        "scenes": [
+          "miniature landscape",
+          "tropical"
+        ],
+        "concepts": [
+          "imagination",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: palm trees, beach, cliffs, clouds, island. Objects: coffee cup, boats, sailboats. Scenes: miniature landscape, tropical island, tropical. Concepts: imagination, whimsy, surrealism. Emotions: wonder, escape",
+  "primary_labels": {
+    "nature": [
+      "palm trees",
+      "beach",
+      "cliffs",
+      "clouds",
+      "island"
+    ],
+    "objects": [
+      "coffee cup",
+      "boats",
+      "sailboats"
+    ],
+    "scenes": [
+      "miniature landscape",
+      "tropical island",
+      "tropical"
+    ],
+    "concepts": [
+      "imagination",
+      "whimsy",
+      "surrealism"
+    ],
+    "emotions": [
+      "wonder",
+      "escape"
+    ]
+  },
+  "metadata": {}
+}

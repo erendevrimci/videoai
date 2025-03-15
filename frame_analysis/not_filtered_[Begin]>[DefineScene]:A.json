@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/[Begin]>[DefineScene]:A.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/[Begin]>[DefineScene]:A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/[Begin]>[DefineScene]:A/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A steaming cup of coffee sits in a pink cup and saucer, with swirling steam forming the silhouette of a woman's profile. The background is dark and moody, enhancing the ethereal quality of the steam's transformation.",
+      "description": "The scene depicts a creative and artistic representation of a coffee cup, where the steam forms an imaginative silhouette of a woman. The setting is likely indoors, with a focus on the interplay between the physical and the conceptual.",
+      "labels": {
+        "objects": [
+          "coffee cup",
+          "saucer",
+          "coffee beans"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "calm",
+          "imaginative"
+        ],
+        "scenes": [
+          "artistic",
+          "conceptual"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/[Begin]>[DefineScene]:A.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/[Begin]>[DefineScene]:A/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A steaming cup of coffee sits in a pink cup and saucer, surrounded by scattered coffee beans. In the background, a silhouette of a person is visible, with steam intertwining around them, creating a mysterious and calming atmosphere.",
+      "description": "The scene captures a close-up of a coffee cup with steam rising, set against a dark, moody background. The silhouette of a person adds an element of intrigue and introspection.",
+      "labels": {
+        "people": [
+          "silhouette"
+        ],
+        "objects": [
+          "coffee cup",
+          "saucer",
+          "coffee beans"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "calm",
+          "mysterious"
+        ],
+        "scenes": [
+          "intimate setting"
+        ],
+        "concepts": [
+          "relaxation",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: coffee cup, saucer, coffee beans. Actions: steaming. Emotions: calm, imaginative, mysterious. Scenes: artistic, conceptual, intimate setting. Concepts: imagination, creativity, relaxation, introspection. People: silhouette",
+  "primary_labels": {
+    "objects": [
+      "coffee cup",
+      "saucer",
+      "coffee beans"
+    ],
+    "actions": [
+      "steaming"
+    ],
+    "emotions": [
+      "calm",
+      "imaginative",
+      "mysterious"
+    ],
+    "scenes": [
+      "artistic",
+      "conceptual",
+      "intimate setting"
+    ],
+    "concepts": [
+      "imagination",
+      "creativity",
+      "relaxation",
+      "introspection"
+    ],
+    "people": [
+      "silhouette"
+    ]
+  },
+  "metadata": {}
+}

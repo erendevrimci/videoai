@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec l'image.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec l'image.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/parfaitement avec l'image/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior in ornate armor kneels on a battlefield, surrounded by soldiers holding spears. Dark storm clouds loom overhead, with a bolt of lightning illuminating the scene.",
+      "description": "The scene depicts a dramatic moment on a battlefield, where a warrior kneels amidst a group of soldiers. The atmosphere is tense, with stormy skies and lightning adding to the intensity.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "nature": [
+          "storm clouds",
+          "lightning"
+        ],
+        "objects": [
+          "armor",
+          "spears"
+        ],
+        "actions": [
+          "kneeling"
+        ],
+        "emotions": [
+          "tension"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "war",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/parfaitement avec l'image.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/parfaitement avec l'image/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior kneels before a leader in ornate armor amidst a vast army under a stormy sky. Lightning strikes in the background, adding drama to the tense scene. The soldiers stand in formation, holding spears, as they witness the moment.",
+      "description": "The scene depicts a dramatic and intense moment on a battlefield, where a kneeling warrior faces a leader in front of an assembled army. The dark, stormy sky and lightning enhance the epic and solemn atmosphere.",
+      "labels": {
+        "people": [
+          "warrior",
+          "leader",
+          "soldiers"
+        ],
+        "nature": [
+          "stormy sky",
+          "lightning"
+        ],
+        "objects": [
+          "armor",
+          "spears"
+        ],
+        "actions": [
+          "kneeling",
+          "standing"
+        ],
+        "emotions": [
+          "tension",
+          "solemnity"
+        ],
+        "scenes": [
+          "battlefield",
+          "military formation"
+        ],
+        "concepts": [
+          "leadership",
+          "submission"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, soldiers, leader. Nature: lightning, storm clouds, stormy sky. Objects: armor, spears. Actions: kneeling, standing. Emotions: tension, solemnity. Scenes: battlefield, military formation. Concepts: leadership, war, submission",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "soldiers",
+      "leader"
+    ],
+    "nature": [
+      "lightning",
+      "storm clouds",
+      "stormy sky"
+    ],
+    "objects": [
+      "armor",
+      "spears"
+    ],
+    "actions": [
+      "kneeling",
+      "standing"
+    ],
+    "emotions": [
+      "tension",
+      "solemnity"
+    ],
+    "scenes": [
+      "battlefield",
+      "military formation"
+    ],
+    "concepts": [
+      "leadership",
+      "war",
+      "submission"
+    ]
+  },
+  "metadata": {}
+}

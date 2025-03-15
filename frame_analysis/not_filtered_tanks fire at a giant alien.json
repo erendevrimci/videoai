@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/tanks fire at a giant alien.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/tanks fire at a giant alien.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/tanks fire at a giant alien/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dramatic urban setting, two tanks fire at a colossal, fiery octopus-like creature towering over the city. The creature's tentacles are wrapped around buildings, causing destruction and chaos. Flames and smoke fill the scene, highlighting the intense battle between the military and the monstrous entity.",
+      "description": "The scene depicts a chaotic battle in a city where military tanks are engaged in combat with a giant, fiery octopus-like creature. The setting is urban, with tall buildings surrounding the combat area, some of which are damaged by the creature's tentacles.",
+      "labels": {
+        "objects": [
+          "tanks",
+          "buildings",
+          "flames",
+          "smoke"
+        ],
+        "animals": [
+          "octopus-like creature"
+        ],
+        "actions": [
+          "firing",
+          "destruction"
+        ],
+        "emotions": [
+          "intensity",
+          "chaos"
+        ],
+        "scenes": [
+          "urban battle",
+          "military engagement"
+        ],
+        "concepts": [
+          "conflict",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/tanks fire at a giant alien.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/tanks fire at a giant alien/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a dramatic urban setting, two tanks face off against a colossal octopus-like creature amidst a fiery explosion. The scene is set between towering buildings, with flames and destruction highlighting the chaos. The tanks are positioned in the foreground, aiming their cannons at the monstrous entity.",
+      "description": "The scene depicts an intense battle in a city environment, where military forces are engaged in combat with a giant creature. The setting is urban, with high-rise buildings surrounding the action, and the atmosphere is tense and chaotic.",
+      "labels": {
+        "animals": [
+          "octopus"
+        ],
+        "objects": [
+          "tanks",
+          "buildings",
+          "flames"
+        ],
+        "actions": [
+          "combat",
+          "explosion"
+        ],
+        "emotions": [
+          "chaos",
+          "tension"
+        ],
+        "scenes": [
+          "urban",
+          "battle"
+        ],
+        "concepts": [
+          "conflict",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: tanks, buildings, flames, smoke. Animals: octopus-like creature, octopus. Actions: firing, destruction, combat, explosion. Emotions: chaos, intensity, tension. Scenes: urban battle, military engagement, urban, battle. Concepts: conflict, destruction",
+  "primary_labels": {
+    "objects": [
+      "tanks",
+      "buildings",
+      "flames",
+      "smoke"
+    ],
+    "animals": [
+      "octopus-like creature",
+      "octopus"
+    ],
+    "actions": [
+      "firing",
+      "destruction",
+      "combat",
+      "explosion"
+    ],
+    "emotions": [
+      "chaos",
+      "intensity",
+      "tension"
+    ],
+    "scenes": [
+      "urban battle",
+      "military engagement",
+      "urban",
+      "battle"
+    ],
+    "concepts": [
+      "conflict",
+      "destruction"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/london road.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/london road.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/london road/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An empty road stretches towards the iconic landmarks of London, including the Houses of Parliament and Big Ben. The sky is filled with soft, scattered clouds, creating a serene and peaceful atmosphere.",
+      "description": "The scene depicts a wide, empty road leading towards the historic buildings of London, with a focus on the architectural grandeur of the Houses of Parliament and Big Ben. The setting is calm and devoid of any human activity, emphasizing the beauty of the cityscape under a partly cloudy sky.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "road",
+          "Houses of Parliament",
+          "Big Ben"
+        ],
+        "scenes": [
+          "cityscape",
+          "landmark"
+        ],
+        "concepts": [
+          "architecture",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/london road.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/london road/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An empty road stretches towards the iconic Big Ben and the Houses of Parliament under a dramatic sky. The scene captures the grandeur of the historic architecture with no vehicles or people in sight. The soft lighting and scattered clouds create a serene yet majestic atmosphere.",
+      "description": "The scene is set on a wide, empty road leading to the Houses of Parliament and Big Ben in London. The absence of traffic and people highlights the architectural beauty of the buildings against a backdrop of a picturesque sky.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "road",
+          "Big Ben",
+          "Houses of Parliament"
+        ],
+        "scenes": [
+          "urban",
+          "landmark",
+          "empty street"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/london road.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/london road/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "An empty road stretches towards iconic architecture under a sky filled with scattered clouds. The scene captures a tranquil moment in a usually bustling urban area, highlighting the grandeur of historical buildings.",
+      "description": "The image depicts a wide, empty road leading towards a famous clock tower and historical buildings. The setting is an urban environment, likely in a city known for its iconic architecture.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "road",
+          "buildings",
+          "clock tower"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "emotions": [
+          "tranquility",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, sky. Objects: road, Houses of Parliament, Big Ben, buildings, clock tower. Scenes: cityscape, landmark, urban, empty street. Concepts: architecture, tranquility. Emotions: serene, majestic, tranquility, calm",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "road",
+      "Houses of Parliament",
+      "Big Ben",
+      "buildings",
+      "clock tower"
+    ],
+    "scenes": [
+      "cityscape",
+      "landmark",
+      "urban",
+      "empty street"
+    ],
+    "concepts": [
+      "architecture",
+      "tranquility"
+    ],
+    "emotions": [
+      "serene",
+      "majestic",
+      "tranquility",
+      "calm"
+    ]
+  },
+  "metadata": {}
+}

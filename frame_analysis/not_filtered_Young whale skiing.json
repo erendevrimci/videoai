@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Young whale skiing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Young whale skiing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Young whale skiing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful, animated character is snowboarding down a snowy slope, surrounded by a winter wonderland. The character is dressed warmly in a blue outfit with a matching hat, and appears to be having a great time in the snow.",
+      "description": "The scene is set in a snowy, mountainous landscape with evergreen trees dusted with snow. The focus is on a cheerful, animated character enjoying a snowboarding adventure.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "nature": [
+          "snow",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "snowboard",
+          "winter clothing"
+        ],
+        "actions": [
+          "snowboarding"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "winter landscape",
+          "outdoor adventure"
+        ],
+        "concepts": [
+          "fun",
+          "winter sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Young whale skiing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Young whale skiing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful, animated character with blue skin is joyfully skiing down a snowy slope. The character is dressed warmly in a blue winter outfit with a fluffy hat, surrounded by a picturesque winter landscape with snow-covered trees.",
+      "description": "The scene depicts a lively and playful moment in a winter wonderland. The animated character is skiing down a gentle slope, creating a sense of movement and excitement against a backdrop of snow-laden trees.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "skis",
+          "winter clothing"
+        ],
+        "actions": [
+          "skiing"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "playfulness",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Young whale skiing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Young whale skiing/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cheerful animated character is skiing down a snowy slope, dressed in a cozy blue winter outfit with a fluffy hat. The character's expression is joyful as it glides through the snow, surrounded by snow-covered pine trees.",
+      "description": "The scene depicts a lively winter setting with an animated character enjoying a ski run. The environment is a snowy landscape with trees, creating a festive and playful atmosphere.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "nature": [
+          "snow",
+          "pine trees"
+        ],
+        "objects": [
+          "skis",
+          "winter clothing"
+        ],
+        "actions": [
+          "skiing"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "winter",
+          "outdoors"
+        ],
+        "concepts": [
+          "animation",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated character. Nature: snow, trees, mountains, pine trees. Objects: winter clothing, skis, snowboard. Actions: skiing, snowboarding. Emotions: joy, excitement, joyful. Scenes: winter landscape, outdoor adventure, winter, outdoors. Concepts: fun, winter sports, playfulness, adventure, animation",
+  "primary_labels": {
+    "people": [
+      "animated character"
+    ],
+    "nature": [
+      "snow",
+      "trees",
+      "mountains",
+      "pine trees"
+    ],
+    "objects": [
+      "winter clothing",
+      "skis",
+      "snowboard"
+    ],
+    "actions": [
+      "skiing",
+      "snowboarding"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "joyful"
+    ],
+    "scenes": [
+      "winter landscape",
+      "outdoor adventure",
+      "winter",
+      "outdoors"
+    ],
+    "concepts": [
+      "fun",
+      "winter sports",
+      "playfulness",
+      "adventure",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rabbit and carrot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rabbit and carrot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/rabbit and carrot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant flower garden stretches across the landscape, with rows of colorful blooms creating a picturesque scene. In the foreground, a white rabbit is seen exploring among the flowers, adding a touch of whimsy to the serene setting.",
+      "description": "The scene is set in a lush garden filled with neatly arranged rows of flowers in various colors. A white rabbit is present, enhancing the natural and peaceful atmosphere of the garden.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "flowers",
+          "garden",
+          "trees"
+        ],
+        "objects": [
+          "flowers"
+        ],
+        "actions": [
+          "exploring"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/rabbit and carrot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/rabbit and carrot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white rabbit nibbles on a large orange carrot in a lush garden. The rabbit's whiskers are visible as it enjoys its meal, surrounded by green leaves and small vegetables.",
+      "description": "The scene captures a rabbit in a garden setting, actively eating a carrot. The environment is vibrant with greenery and hints of other vegetables, suggesting a thriving garden.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "garden",
+          "leaves"
+        ],
+        "objects": [
+          "carrot",
+          "vegetables"
+        ],
+        "actions": [
+          "eating",
+          "nibbling"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "nature",
+          "wildlife",
+          "gardening"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit. Nature: garden, flowers, trees, leaves. Objects: flowers, carrot, vegetables. Actions: exploring, eating, nibbling. Emotions: serenity, contentment. Scenes: garden. Concepts: nature, tranquility, wildlife, gardening",
+  "primary_labels": {
+    "animals": [
+      "rabbit"
+    ],
+    "nature": [
+      "garden",
+      "flowers",
+      "trees",
+      "leaves"
+    ],
+    "objects": [
+      "flowers",
+      "carrot",
+      "vegetables"
+    ],
+    "actions": [
+      "exploring",
+      "eating",
+      "nibbling"
+    ],
+    "emotions": [
+      "serenity",
+      "contentment"
+    ],
+    "scenes": [
+      "garden"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "wildlife",
+      "gardening"
+    ]
+  },
+  "metadata": {}
+}

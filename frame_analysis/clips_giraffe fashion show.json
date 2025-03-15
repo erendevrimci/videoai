@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giraffe fashion show.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giraffe fashion show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/giraffe fashion show/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is dressed in a whimsical costume that combines human attire with giraffe features. The scene is set on a stage with dramatic lighting, highlighting the unique outfit.",
+      "description": "The image depicts a person standing on a stage, wearing a costume that blends a giraffe's head and legs with a human's vest and shirt. The setting suggests a theatrical or performance environment with spotlights in the background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "costume",
+          "vest",
+          "shirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "stage",
+          "performance"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "theater"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giraffe fashion show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/giraffe fashion show/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands on a stage wearing a giraffe costume, complete with a giraffe head and patterned clothing. The background is dark with warm, glowing lights creating a theatrical atmosphere.",
+      "description": "The scene is set on a stage, likely during a performance or a costume event. The individual is dressed in a whimsical giraffe costume, blending human and animal features in a creative display.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "costume",
+          "stage"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "theater",
+          "performance"
+        ],
+        "concepts": [
+          "creativity",
+          "costume"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/giraffe fashion show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/giraffe fashion show/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is dressed in a costume that combines a giraffe head with a formal outfit. The ensemble includes a vest, shirt, and boots, creating a whimsical and surreal appearance.",
+      "description": "The scene depicts a theatrical or performance setting where a person is wearing a giraffe mask and a formal outfit. The background is dark with warm, blurred lights, suggesting a stage environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "costume",
+          "vest",
+          "boots"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "stage",
+          "performance"
+        ],
+        "concepts": [
+          "surreal",
+          "theatrical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: giraffe. Objects: costume, vest, shirt, stage, boots. Actions: standing. Emotions: whimsical. Scenes: performance, stage, theater. Concepts: anthropomorphism, theater, creativity, costume, surreal",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "giraffe"
+    ],
+    "objects": [
+      "costume",
+      "vest",
+      "shirt",
+      "stage",
+      "boots"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "whimsical"
+    ],
+    "scenes": [
+      "performance",
+      "stage",
+      "theater"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "theater",
+      "creativity",
+      "costume",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

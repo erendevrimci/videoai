@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shadows Under the Rain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shadows Under the Rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Shadows Under the Rain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two individuals walk side by side on a rainy city street, their reflections visible in the puddles below. The woman wears a hooded coat, while the man dons a fedora and leather jacket, both appearing deep in thought.",
+      "description": "The scene captures a rainy day in an urban setting, with two people walking through a wet street. The atmosphere is somber and reflective, enhanced by the overcast sky and the sound of raindrops hitting the ground.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "coat",
+          "fedora",
+          "leather jacket",
+          "puddles"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "somber",
+          "reflective"
+        ],
+        "scenes": [
+          "urban",
+          "rainy"
+        ],
+        "concepts": [
+          "reflection",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shadows Under the Rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Shadows Under the Rain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals walk side by side on a rainy city street, their heads bowed under the weight of the weather and their thoughts. The woman wears a long, dark coat with the hood up, while the man dons a fedora and a leather jacket. Raindrops create ripples in the puddles on the pavement, reflecting the somber mood.",
+      "description": "The scene takes place on a city street during a rainy day. The atmosphere is melancholic, with two people walking quietly through the rain, seemingly lost in thought. The urban setting is characterized by tall buildings and wet pavement.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "coat",
+          "hat",
+          "leather jacket",
+          "pavement"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "somber",
+          "melancholic"
+        ],
+        "scenes": [
+          "city street",
+          "rainy day"
+        ],
+        "concepts": [
+          "urban life",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Nature: rain. Objects: coat, leather jacket, fedora, puddles, hat. Actions: walking. Emotions: somber, reflective, melancholic. Scenes: urban, rainy, city street, rainy day. Concepts: reflection, contemplation, urban life, introspection",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "coat",
+      "leather jacket",
+      "fedora",
+      "puddles",
+      "hat"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "somber",
+      "reflective",
+      "melancholic"
+    ],
+    "scenes": [
+      "urban",
+      "rainy",
+      "city street",
+      "rainy day"
+    ],
+    "concepts": [
+      "reflection",
+      "contemplation",
+      "urban life",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

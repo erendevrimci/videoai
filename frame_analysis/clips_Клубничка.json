@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u043b\u0443\u0431\u043d\u0438\u0447\u043a\u0430.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u043b\u0443\u0431\u043d\u0438\u0447\u043a\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u041a\u043b\u0443\u0431\u043d\u0438\u0447\u043a\u0430/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A Coca-Cola can is tilted on a cobblestone street, surrounded by fresh strawberries. Bright red liquid and strawberries are explosively bursting from the can, creating a dynamic splash effect. The scene is set in an urban environment with blurred buildings in the background.",
+      "description": "The scene captures a vibrant and dynamic moment on a city street, where a Coca-Cola can is the focal point of an explosive splash of red liquid and strawberries. The setting appears to be urban, with buildings lining the street, adding to the lively atmosphere.",
+      "labels": {
+        "objects": [
+          "Coca-Cola can",
+          "strawberries",
+          "cobblestones"
+        ],
+        "actions": [
+          "splash",
+          "burst"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "refreshment",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u041a\u043b\u0443\u0431\u043d\u0438\u0447\u043a\u0430.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u041a\u043b\u0443\u0431\u043d\u0438\u0447\u043a\u0430/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A Coca-Cola can is prominently displayed in the center of a bustling urban street. Surrounding the can are splashes of liquid and scattered strawberries, creating a dynamic and refreshing scene.",
+      "description": "The scene captures a vibrant street setting with a Coca-Cola can as the focal point. The can is surrounded by splashes of liquid and strawberries, suggesting a refreshing and lively atmosphere.",
+      "labels": {
+        "objects": [
+          "Coca-Cola can",
+          "strawberries"
+        ],
+        "actions": [
+          "splashing"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "emotions": [
+          "refreshing",
+          "vibrant"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: Coca-Cola can, strawberries, cobblestones. Actions: splash, burst, splashing. Emotions: excitement, refreshing, vibrant. Scenes: urban street. Concepts: refreshment, vibrancy",
+  "primary_labels": {
+    "objects": [
+      "Coca-Cola can",
+      "strawberries",
+      "cobblestones"
+    ],
+    "actions": [
+      "splash",
+      "burst",
+      "splashing"
+    ],
+    "emotions": [
+      "excitement",
+      "refreshing",
+      "vibrant"
+    ],
+    "scenes": [
+      "urban street"
+    ],
+    "concepts": [
+      "refreshment",
+      "vibrancy"
+    ]
+  },
+  "metadata": {}
+}

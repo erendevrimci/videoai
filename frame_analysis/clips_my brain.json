@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my brain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my brain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my brain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a fluffy white cloud floating inside a grand, open room with tall doors leading to a bright sky. The room is bathed in soft, natural light, casting gentle shadows on the tiled floor. The sky outside is a vibrant blue, dotted with more clouds, creating a dreamlike atmosphere.",
+      "description": "The image presents a surreal and dreamlike setting where a cloud is inexplicably floating indoors. The room is spacious with high ceilings and large open doors, suggesting a blend between the interior and the vastness of the sky outside.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sky"
+        ],
+        "objects": [
+          "doors",
+          "tiled floor"
+        ],
+        "scenes": [
+          "surreal",
+          "interior"
+        ],
+        "concepts": [
+          "dreamlike",
+          "imagination"
+        ],
+        "emotions": [
+          "calm",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my brain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my brain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a large, fluffy cloud floating inside an elegant room with high ceilings and ornate walls. The room features a large window or door that opens to a bright blue sky filled with more clouds, creating a seamless blend between the interior and the exterior. The lighting casts soft shadows on the tiled floor, enhancing the dreamlike atmosphere.",
+      "description": "The scene is set in a grand room with an open doorway leading to a sky filled with clouds, creating a surreal and dreamlike environment. The juxtaposition of the indoor setting with the outdoor elements blurs the line between reality and imagination.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sky"
+        ],
+        "objects": [
+          "door",
+          "window",
+          "tile floor"
+        ],
+        "scenes": [
+          "interior",
+          "surreal"
+        ],
+        "concepts": [
+          "dreamlike",
+          "surrealism"
+        ],
+        "emotions": [
+          "calm",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my brain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my brain/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A surreal scene depicts a fluffy white cloud floating inside a room with large open doors. Birds are seen flying around, blending the boundaries between the interior and the sky outside.",
+      "description": "The image presents a dreamlike setting where a cloud hovers inside a room with open doors, seamlessly connecting the indoor space to the sky. The scene captures a sense of wonder and tranquility, with birds flying freely between the interior and exterior.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sky"
+        ],
+        "objects": [
+          "doors",
+          "windows"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "emotions": [
+          "wonder",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: cloud, sky. Objects: doors, tiled floor, door, window, tile floor. Scenes: surreal, interior, dreamlike. Concepts: dreamlike, imagination, surrealism. Emotions: calm, wonder, whimsical, tranquility. Animals: birds",
+  "primary_labels": {
+    "nature": [
+      "cloud",
+      "sky"
+    ],
+    "objects": [
+      "doors",
+      "tiled floor",
+      "door",
+      "window",
+      "tile floor"
+    ],
+    "scenes": [
+      "surreal",
+      "interior",
+      "dreamlike"
+    ],
+    "concepts": [
+      "dreamlike",
+      "imagination",
+      "surrealism"
+    ],
+    "emotions": [
+      "calm",
+      "wonder",
+      "whimsical",
+      "tranquility"
+    ],
+    "animals": [
+      "birds"
+    ]
+  },
+  "metadata": {}
+}

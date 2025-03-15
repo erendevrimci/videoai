@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc0b4\uc778\ubbf8\uc18c.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc0b4\uc778\ubbf8\uc18c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc0b4\uc778\ubbf8\uc18c/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long dark hair smiles warmly at the camera. The background is a blur of vibrant colors, suggesting a lively and cheerful setting.",
+      "description": "The scene captures a close-up portrait of a smiling woman against a colorful, blurred backdrop. The image conveys a sense of warmth and positivity.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "background"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "vibrancy",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc0b4\uc778\ubbf8\uc18c.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc0b4\uc778\ubbf8\uc18c/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a young woman with long black hair and a serene expression. The background is softly blurred with hints of warm colors.",
+      "description": "The image captures a close-up of a young woman, focusing on her face. The setting appears to be indoors with soft lighting, creating a warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "youth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: background, hair. Emotions: happiness, serene. Scenes: portrait. Concepts: vibrancy, warmth, beauty, youth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "background",
+      "hair"
+    ],
+    "emotions": [
+      "happiness",
+      "serene"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "vibrancy",
+      "warmth",
+      "beauty",
+      "youth"
+    ]
+  },
+  "metadata": {}
+}

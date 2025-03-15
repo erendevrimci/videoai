@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalkingConfidently.EagleFlying.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalkingConfidently.EagleFlying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalkingConfidently.EagleFlying/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman adorned with a floral crown walks confidently through a mountainous landscape. An eagle with outstretched wings perches majestically on her shoulder, adding a sense of companionship and power to the scene.",
+      "description": "The scene is set in a rugged mountainous area, depicting a blend of nature and adventure. The woman, dressed in a leather jacket and equipped with accessories, appears to be on a journey, accompanied by a striking eagle.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "eagle"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "floral crown",
+          "leather jacket",
+          "belt",
+          "necklace"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "mountain landscape"
+        ],
+        "concepts": [
+          "adventure",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WomanWalkingConfidently.EagleFlying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WomanWalkingConfidently.EagleFlying/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in adventurous attire strides confidently through a rugged mountainous landscape. An eagle with outstretched wings perches on her shoulder, and she wears a crown of flowers. The scene conveys a sense of strength and harmony with nature.",
+      "description": "The scene is set in a mountainous region, where a woman appears to be on a journey. Her attire suggests she is prepared for exploration, and the eagle on her shoulder adds a majestic element to the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "eagle"
+        ],
+        "nature": [
+          "mountains",
+          "flowers"
+        ],
+        "objects": [
+          "leather jacket",
+          "sword"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "adventure",
+          "exploration"
+        ],
+        "concepts": [
+          "strength",
+          "harmony with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: eagle. Nature: mountains, sky, flowers. Objects: leather jacket, floral crown, belt, necklace, sword. Actions: walking. Emotions: confidence. Scenes: mountain landscape, adventure, exploration. Concepts: adventure, companionship, strength, harmony with nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "eagle"
+    ],
+    "nature": [
+      "mountains",
+      "sky",
+      "flowers"
+    ],
+    "objects": [
+      "leather jacket",
+      "floral crown",
+      "belt",
+      "necklace",
+      "sword"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "mountain landscape",
+      "adventure",
+      "exploration"
+    ],
+    "concepts": [
+      "adventure",
+      "companionship",
+      "strength",
+      "harmony with nature"
+    ]
+  },
+  "metadata": {}
+}

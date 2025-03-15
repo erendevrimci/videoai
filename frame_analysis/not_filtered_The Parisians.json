@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Parisians.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Parisians.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Parisians/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts two individuals walking closely together on a city street. The scene is captured with a motion blur effect, giving a sense of movement and urgency.",
+      "description": "The scene takes place in an urban setting, likely on a busy street. The blurred background suggests a bustling environment, possibly with traffic and buildings.",
+      "labels": {
+        "people": [
+          "individuals",
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "buildings",
+          "street"
+        ],
+        "actions": [
+          "walking",
+          "motion"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "city"
+        ],
+        "concepts": [
+          "movement",
+          "blur"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Parisians.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Parisians/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple walks closely together on a city street, sharing a warm smile. The background reveals a bustling urban setting with classic architecture and vehicles passing by.",
+      "description": "The scene captures a tender moment between two people in an urban environment, likely during the evening or late afternoon. The street is lined with historical buildings, and there is a sense of movement and life around them.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "cars",
+          "buildings"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "togetherness",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: individuals, man, woman, couple. Objects: buildings, street, cars. Actions: walking, motion, smiling. Emotions: intensity, happiness, affection. Scenes: urban, city, street. Concepts: movement, blur, togetherness, city life",
+  "primary_labels": {
+    "people": [
+      "individuals",
+      "man",
+      "woman",
+      "couple"
+    ],
+    "objects": [
+      "buildings",
+      "street",
+      "cars"
+    ],
+    "actions": [
+      "walking",
+      "motion",
+      "smiling"
+    ],
+    "emotions": [
+      "intensity",
+      "happiness",
+      "affection"
+    ],
+    "scenes": [
+      "urban",
+      "city",
+      "street"
+    ],
+    "concepts": [
+      "movement",
+      "blur",
+      "togetherness",
+      "city life"
+    ]
+  },
+  "metadata": {}
+}

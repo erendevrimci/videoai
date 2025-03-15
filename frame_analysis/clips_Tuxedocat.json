@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tuxedocat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tuxedocat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tuxedocat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black and white cat sits among lush tomato plants, holding a wicker basket filled with ripe tomatoes. The cat's wide eyes and curious expression add a playful element to the garden setting.",
+      "description": "The scene is set in a vibrant garden filled with tomato plants. A black and white cat is the focal point, holding a basket of tomatoes, surrounded by greenery and ripe red tomatoes.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "tomato plants",
+          "garden"
+        ],
+        "objects": [
+          "basket",
+          "tomatoes"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "harvest",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tuxedocat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tuxedocat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A black and white cat stands in a lush tomato garden, holding a wicker basket filled with ripe tomatoes. The cat gazes curiously at the camera, surrounded by vibrant green leaves and red tomatoes.",
+      "description": "The scene is set in a garden filled with tomato plants, where a cat is interacting with its surroundings. The atmosphere is serene and playful, with the cat appearing inquisitive amidst the greenery.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "garden",
+          "tomato plants",
+          "leaves"
+        ],
+        "objects": [
+          "wicker basket",
+          "tomatoes"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "garden"
+        ],
+        "concepts": [
+          "harvest",
+          "nature",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: tomato plants, garden, leaves. Objects: tomatoes, basket, wicker basket. Actions: holding. Emotions: curiosity. Scenes: garden. Concepts: harvest, playfulness, nature",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "tomato plants",
+      "garden",
+      "leaves"
+    ],
+    "objects": [
+      "tomatoes",
+      "basket",
+      "wicker basket"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "curiosity"
+    ],
+    "scenes": [
+      "garden"
+    ],
+    "concepts": [
+      "harvest",
+      "playfulness",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

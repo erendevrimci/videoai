@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cowboy couple dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cowboy couple dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cowboy couple dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple dressed in Western attire is joyfully dancing in an outdoor setting. They are holding hands and smiling, surrounded by rustic wooden structures and trees.",
+      "description": "The scene depicts a lively and cheerful moment in a Western-themed setting. The couple's attire and the rustic environment suggest a historical or themed event, possibly in a rural or desert area.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "cowboy hats",
+          "boots",
+          "belt buckles",
+          "wooden structures"
+        ],
+        "actions": [
+          "dancing",
+          "holding hands",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "Western",
+          "outdoor"
+        ],
+        "concepts": [
+          "Western theme",
+          "dance",
+          "couple"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cowboy couple dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cowboy couple dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man and a woman dressed in Western attire are joyfully dancing in an outdoor setting. They are wearing cowboy hats, boots, and denim, embodying a classic Western style.",
+      "description": "The scene depicts a lively dance between two people in a Western-themed setting, possibly a ranch or a historical town. The atmosphere is cheerful and energetic, with a rustic backdrop.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "cowboy hats",
+          "boots",
+          "denim",
+          "belt buckles"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joyful",
+          "energetic"
+        ],
+        "scenes": [
+          "Western",
+          "outdoor"
+        ],
+        "concepts": [
+          "Western attire",
+          "dance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman. Objects: cowboy hats, boots, belt buckles, wooden structures, denim. Actions: dancing, holding hands, smiling. Emotions: joyful, happy, energetic. Scenes: Western, outdoor. Concepts: dance, Western theme, couple, Western attire",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman"
+    ],
+    "objects": [
+      "cowboy hats",
+      "boots",
+      "belt buckles",
+      "wooden structures",
+      "denim"
+    ],
+    "actions": [
+      "dancing",
+      "holding hands",
+      "smiling"
+    ],
+    "emotions": [
+      "joyful",
+      "happy",
+      "energetic"
+    ],
+    "scenes": [
+      "Western",
+      "outdoor"
+    ],
+    "concepts": [
+      "dance",
+      "Western theme",
+      "couple",
+      "Western attire"
+    ]
+  },
+  "metadata": {}
+}

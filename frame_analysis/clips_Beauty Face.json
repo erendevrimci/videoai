@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Face.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beauty Face/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts a woman's face being painted by miniature figures in lab coats. The figures stand on ladders, meticulously applying black paint to her skin. The woman's eyes are closed, creating a serene and introspective atmosphere.",
+      "description": "The image presents a surreal and artistic scene where miniature figures are painting a woman's face. The setting is imaginative, blending elements of art and fantasy, with the figures appearing to be scientists or artists. The woman's calm expression contrasts with the unusual activity taking place.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "ladders",
+          "paintbrushes"
+        ],
+        "actions": [
+          "painting",
+          "standing"
+        ],
+        "emotions": [
+          "serenity",
+          "introspection"
+        ],
+        "scenes": [
+          "surreal",
+          "artistic"
+        ],
+        "concepts": [
+          "creativity",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beauty Face/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a close-up of a woman's face with her eyes closed, covered partially in a black substance. Miniature figures in lab coats appear to be applying or inspecting the substance with tiny tools.",
+      "description": "The image presents a creative and surreal composition where a woman's face is the central focus. The scene is enhanced by the presence of tiny figures, creating a whimsical and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature figures"
+        ],
+        "objects": [
+          "black substance",
+          "tools",
+          "lab coats"
+        ],
+        "actions": [
+          "applying",
+          "inspecting"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "creativity",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beauty Face/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A surreal scene depicts a tiny person in a lab coat applying a black facial mask on a giant face. The face has closed eyes, and the mask is being carefully spread across the forehead and cheek. The contrast between the small figure and the large face creates a whimsical and imaginative atmosphere.",
+      "description": "The image presents a surreal and imaginative setting where a miniature person is engaged in applying a facial mask on an oversized face. The setting is likely a conceptual or artistic representation rather than a real-life scenario.",
+      "labels": {
+        "people": [
+          "miniature person",
+          "giant face"
+        ],
+        "objects": [
+          "facial mask",
+          "lab coat",
+          "brush"
+        ],
+        "actions": [
+          "applying mask"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "surreal",
+          "conceptual"
+        ],
+        "concepts": [
+          "contrast",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, miniature figures, miniature person, giant face. Objects: ladders, paintbrushes, black substance, tools, lab coats. Actions: painting, standing, applying, inspecting, applying mask. Emotions: calm, serenity, introspection, serene. Scenes: surreal, artistic, imaginative, conceptual. Concepts: creativity, transformation, artistic expression, contrast, imagination",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "miniature figures",
+      "miniature person",
+      "giant face"
+    ],
+    "objects": [
+      "ladders",
+      "paintbrushes",
+      "black substance",
+      "tools",
+      "lab coats"
+    ],
+    "actions": [
+      "painting",
+      "standing",
+      "applying",
+      "inspecting",
+      "applying mask"
+    ],
+    "emotions": [
+      "calm",
+      "serenity",
+      "introspection",
+      "serene"
+    ],
+    "scenes": [
+      "surreal",
+      "artistic",
+      "imaginative",
+      "conceptual"
+    ],
+    "concepts": [
+      "creativity",
+      "transformation",
+      "artistic expression",
+      "contrast",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

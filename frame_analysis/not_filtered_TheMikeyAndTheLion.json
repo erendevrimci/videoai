@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheMikeyAndTheLion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheMikeyAndTheLion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheMikeyAndTheLion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a sun-dappled forest, a lion and a gorilla face each other with intense focus. The golden light filters through the trees, casting dramatic shadows on the forest floor.",
+      "description": "The scene is set in a dense forest where a lion and a gorilla are engaged in a silent confrontation. Sunlight streams through the canopy, highlighting the tension between the two powerful animals.",
+      "labels": {
+        "animals": [
+          "lion",
+          "gorilla"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "actions": [
+          "facing each other",
+          "standing"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "wildlife encounter",
+          "forest setting"
+        ],
+        "concepts": [
+          "power",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheMikeyAndTheLion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheMikeyAndTheLion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fearsome creature stands in a forest clearing, illuminated by rays of sunlight filtering through the trees. The creature, resembling a hybrid between a gorilla and a wolf, roars menacingly, displaying its sharp fangs and muscular build.",
+      "description": "The scene depicts a mythical creature in a dense forest setting, creating a sense of tension and danger. The sunlight creates dramatic lighting, highlighting the creature's features and the surrounding foliage.",
+      "labels": {
+        "animals": [
+          "mythical creature",
+          "gorilla-wolf hybrid"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "foliage",
+          "branches"
+        ],
+        "actions": [
+          "roaring"
+        ],
+        "emotions": [
+          "menacing",
+          "intimidating"
+        ],
+        "scenes": [
+          "forest clearing"
+        ],
+        "concepts": [
+          "mythical",
+          "danger",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: lion, gorilla, mythical creature, gorilla-wolf hybrid. Nature: forest, trees, sunlight. Actions: facing each other, standing, roaring. Emotions: intensity, focus, menacing, intimidating. Scenes: wildlife encounter, forest setting, forest clearing. Concepts: power, nature, mythical, danger, fantasy. Objects: foliage, branches",
+  "primary_labels": {
+    "animals": [
+      "lion",
+      "gorilla",
+      "mythical creature",
+      "gorilla-wolf hybrid"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "sunlight"
+    ],
+    "actions": [
+      "facing each other",
+      "standing",
+      "roaring"
+    ],
+    "emotions": [
+      "intensity",
+      "focus",
+      "menacing",
+      "intimidating"
+    ],
+    "scenes": [
+      "wildlife encounter",
+      "forest setting",
+      "forest clearing"
+    ],
+    "concepts": [
+      "power",
+      "nature",
+      "mythical",
+      "danger",
+      "fantasy"
+    ],
+    "objects": [
+      "foliage",
+      "branches"
+    ]
+  },
+  "metadata": {}
+}

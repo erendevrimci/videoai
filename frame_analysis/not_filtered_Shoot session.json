@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shoot session.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shoot session.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Shoot session/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands in the foreground of a city street on a foggy day, gazing directly at the camera. The blurred background features soft, colorful bokeh lights from street lamps and vehicles.",
+      "description": "The scene is set on a city street during a foggy day, creating a moody and introspective atmosphere. The focus is on a man in a dark coat, with the urban environment softly blurred behind him.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "coat",
+          "scarf"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "introspective",
+          "serious"
+        ],
+        "scenes": [
+          "city street",
+          "foggy day"
+        ],
+        "concepts": [
+          "urban",
+          "moody",
+          "bokeh"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Shoot session.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Shoot session/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man smiles warmly at the camera while standing on a city street. The background is blurred, with colorful bokeh lights suggesting a bustling urban environment.",
+      "description": "The scene captures a man in a city setting, exuding a cheerful and approachable demeanor. The blurred lights in the background indicate a lively street, possibly during the evening or early morning.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "coat",
+          "scarf"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "warmth",
+          "approachability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: coat, scarf. Actions: standing, smiling. Emotions: introspective, serious, happiness. Scenes: city street, foggy day, urban, street. Concepts: urban, moody, bokeh, warmth, approachability",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "coat",
+      "scarf"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "introspective",
+      "serious",
+      "happiness"
+    ],
+    "scenes": [
+      "city street",
+      "foggy day",
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "urban",
+      "moody",
+      "bokeh",
+      "warmth",
+      "approachability"
+    ]
+  },
+  "metadata": {}
+}

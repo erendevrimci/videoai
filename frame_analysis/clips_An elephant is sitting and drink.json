@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An elephant is sitting and drink.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An elephant is sitting and drink.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An elephant is sitting and drink/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, plush pink elephant sits adorably on a tree stump in the middle of a serene forest stream. Sunlight filters through the trees, casting a warm glow over the scene.",
+      "description": "The scene is set in a tranquil forest with a clear, flowing stream. A plush pink elephant is the focal point, sitting on a tree stump surrounded by lush greenery and dappled sunlight.",
+      "labels": {
+        "animals": [
+          "elephant"
+        ],
+        "nature": [
+          "forest",
+          "stream",
+          "trees"
+        ],
+        "objects": [
+          "tree stump",
+          "plush toy"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "adorable",
+          "serene"
+        ],
+        "scenes": [
+          "nature",
+          "forest"
+        ],
+        "concepts": [
+          "tranquility",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An elephant is sitting and drink.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An elephant is sitting and drink/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A plush pink elephant sits adorably on a tree stump in the middle of a serene river. Sunlight filters through the dense forest canopy, casting a warm glow over the tranquil scene.",
+      "description": "The image depicts a whimsical scene in a lush forest setting, featuring a cute plush elephant on a tree stump surrounded by a gently flowing river. The atmosphere is peaceful and enchanting, enhanced by the soft sunlight filtering through the trees.",
+      "labels": {
+        "animals": [
+          "elephant"
+        ],
+        "nature": [
+          "forest",
+          "river",
+          "tree stump"
+        ],
+        "objects": [
+          "plush toy"
+        ],
+        "scenes": [
+          "forest",
+          "riverbank"
+        ],
+        "emotions": [
+          "calm",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An elephant is sitting and drink.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An elephant is sitting and drink/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cute, plush pink elephant sits on a tree stump in the middle of a serene forest stream. Sunlight filters through the trees, casting a warm glow over the scene. The water gently flows around the stump, creating a peaceful atmosphere.",
+      "description": "The scene is set in a tranquil forest with a clear, flowing stream. A plush pink elephant is the focal point, sitting adorably on a tree stump in the middle of the water. The sunlight creates a magical ambiance, enhancing the serene and whimsical feel of the setting.",
+      "labels": {
+        "animals": [
+          "elephant"
+        ],
+        "nature": [
+          "forest",
+          "stream",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "tree stump"
+        ],
+        "emotions": [
+          "peaceful",
+          "whimsical"
+        ],
+        "scenes": [
+          "forest scene",
+          "nature"
+        ],
+        "concepts": [
+          "serenity",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: elephant. Nature: forest, stream, trees, river, tree stump. Objects: tree stump, plush toy. Actions: sitting. Emotions: whimsical, adorable, serene, calm, peaceful. Scenes: nature, forest, riverbank, forest scene. Concepts: cuteness, tranquility, serenity",
+  "primary_labels": {
+    "animals": [
+      "elephant"
+    ],
+    "nature": [
+      "forest",
+      "stream",
+      "trees",
+      "river",
+      "tree stump"
+    ],
+    "objects": [
+      "tree stump",
+      "plush toy"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "whimsical",
+      "adorable",
+      "serene",
+      "calm",
+      "peaceful"
+    ],
+    "scenes": [
+      "nature",
+      "forest",
+      "riverbank",
+      "forest scene"
+    ],
+    "concepts": [
+      "cuteness",
+      "tranquility",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

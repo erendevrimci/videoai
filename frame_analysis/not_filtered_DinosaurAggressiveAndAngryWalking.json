@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DinosaurAggressiveAndAngryWalking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DinosaurAggressiveAndAngryWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DinosaurAggressiveAndAngryWalking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive dinosaur stands imposingly in front of the ancient Colosseum, its red eyes glowing menacingly. The creature's scales glisten under the warm sunlight, casting long shadows on the cobblestone path.",
+      "description": "The scene depicts a surreal encounter between a dinosaur and the historic Colosseum, blending elements of fantasy and history. The setting is a cityscape with a clear sky and warm lighting, emphasizing the contrast between the ancient architecture and the mythical creature.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "Colosseum",
+          "cobblestones"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "menacing"
+        ],
+        "scenes": [
+          "cityscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "surreal",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DinosaurAggressiveAndAngryWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DinosaurAggressiveAndAngryWalking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive dinosaur with glowing red eyes stands menacingly in front of the Colosseum. The creature's presence contrasts with the ancient architecture, creating a surreal and dramatic scene.",
+      "description": "The scene depicts a large dinosaur, reminiscent of a T-Rex, positioned in front of the iconic Colosseum in Rome. The setting combines elements of fantasy with historical architecture, creating a juxtaposition between the prehistoric and the ancient world.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "Colosseum"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "menacing"
+        ],
+        "scenes": [
+          "urban",
+          "fantasy"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DinosaurAggressiveAndAngryWalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DinosaurAggressiveAndAngryWalking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A massive dinosaur strides past an ancient Roman amphitheater under a vibrant sky. The creature's imposing presence contrasts with the historic architecture, creating a surreal scene. The sun casts dramatic shadows on the cobblestone street, enhancing the atmosphere.",
+      "description": "The scene depicts a large dinosaur walking beside a historic Roman amphitheater, likely the Colosseum, during sunset. The setting combines elements of ancient history with a fantastical creature, creating a juxtaposition of time periods.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "nature": [
+          "sky",
+          "sunlight"
+        ],
+        "objects": [
+          "amphitheater",
+          "cobblestones"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "awe",
+          "surprise"
+        ],
+        "scenes": [
+          "urban",
+          "historical"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dinosaur. Objects: Colosseum, cobblestones, amphitheater. Actions: standing, walking. Emotions: menacing, awe, surprise. Scenes: fantasy, urban, cityscape, historical. Concepts: surreal, juxtaposition, contrast, fantasy. Nature: sky, sunlight",
+  "primary_labels": {
+    "animals": [
+      "dinosaur"
+    ],
+    "objects": [
+      "Colosseum",
+      "cobblestones",
+      "amphitheater"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "menacing",
+      "awe",
+      "surprise"
+    ],
+    "scenes": [
+      "fantasy",
+      "urban",
+      "cityscape",
+      "historical"
+    ],
+    "concepts": [
+      "surreal",
+      "juxtaposition",
+      "contrast",
+      "fantasy"
+    ],
+    "nature": [
+      "sky",
+      "sunlight"
+    ]
+  },
+  "metadata": {}
+}

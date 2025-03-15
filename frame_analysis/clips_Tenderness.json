@@ -1,0 +1,157 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tenderness.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tenderness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tenderness/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with a serene expression is adorned with a crown of pink roses, holding a white rabbit gently against her shoulder. The scene is filled with soft, pastel colors, creating a harmonious and peaceful atmosphere.",
+      "description": "The image depicts a tranquil and artistic portrait of a woman in a floral setting. She is wearing a crown made of pink roses, and her gentle hold on the rabbit adds a touch of tenderness to the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "roses",
+          "flowers"
+        ],
+        "objects": [
+          "flower crown"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tenderness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tenderness/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman adorned with a crown of pink roses gently cradles a white rabbit in her arms. Her serene expression and the soft lighting create an ethereal and peaceful atmosphere. The scene is rich in floral elements, enhancing the natural and delicate mood.",
+      "description": "The scene depicts a tranquil moment where a woman, wearing a floral crown, holds a rabbit. The setting is intimate and serene, with a focus on nature and beauty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "flowers",
+          "roses"
+        ],
+        "objects": [
+          "floral crown"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "nature",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tenderness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tenderness/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman adorned with a crown of pink roses gently holds a white rabbit close to her shoulder. She smiles softly, creating a serene and tender moment between her and the animal.",
+      "description": "The scene captures an intimate and whimsical moment between a woman and a rabbit, set against a soft, natural background. The woman, wearing a floral crown, exudes a sense of harmony with nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "flowers",
+          "roses"
+        ],
+        "objects": [
+          "floral crown"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "serenity",
+          "tenderness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "nature",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: rabbit. Nature: roses, flowers. Objects: floral crown, flower crown. Actions: holding, smiling. Emotions: serenity, serene, peaceful, peacefulness, tenderness. Scenes: portrait. Concepts: nature, beauty, harmony",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "rabbit"
+    ],
+    "nature": [
+      "roses",
+      "flowers"
+    ],
+    "objects": [
+      "floral crown",
+      "flower crown"
+    ],
+    "actions": [
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "serenity",
+      "serene",
+      "peaceful",
+      "peacefulness",
+      "tenderness"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "nature",
+      "beauty",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

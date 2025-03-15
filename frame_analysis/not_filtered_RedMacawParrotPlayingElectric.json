@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RedMacawParrotPlayingElectric.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RedMacawParrotPlayingElectric.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RedMacawParrotPlayingElectric/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large cockatoo is perched on a nest in a desert landscape, skillfully playing an electric guitar. Three smaller cockatoos watch in awe from the nest, their expressions full of wonder and excitement.",
+      "description": "The scene is set in a desert environment, featuring a cockatoo playing an electric guitar while three baby cockatoos look on. The setting is whimsical and imaginative, blending elements of nature with musical performance.",
+      "labels": {
+        "animals": [
+          "cockatoo",
+          "birds"
+        ],
+        "nature": [
+          "desert",
+          "nest",
+          "cactus"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "wonder",
+          "excitement"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RedMacawParrotPlayingElectric.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RedMacawParrotPlayingElectric/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large white cockatoo is perched on a nest, skillfully playing an electric guitar with its wings. Three baby cockatoos watch in awe from the nest, set against a warm, desert-like backdrop.",
+      "description": "The scene depicts a whimsical and imaginative setting where a cockatoo is playing an electric guitar in a desert environment. The bird is perched on a nest, surrounded by its curious chicks, creating a surreal and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cockatoo",
+          "baby cockatoos"
+        ],
+        "objects": [
+          "electric guitar",
+          "nest"
+        ],
+        "nature": [
+          "desert",
+          "rocks"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "curiosity",
+          "amusement"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "surrealism",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/RedMacawParrotPlayingElectric.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/RedMacawParrotPlayingElectric/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large white cockatoo is perched on a nest, playing an electric guitar. Three baby cockatoos are in the nest, looking up with curiosity. The scene is set in a desert landscape with warm lighting.",
+      "description": "The image depicts a whimsical scene where a cockatoo is playing an electric guitar in a desert setting. The bird is perched on a nest with three baby cockatoos, surrounded by a warm, sandy environment.",
+      "labels": {
+        "animals": [
+          "cockatoo",
+          "baby cockatoos"
+        ],
+        "objects": [
+          "electric guitar",
+          "nest"
+        ],
+        "nature": [
+          "desert",
+          "sand"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "whimsy",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cockatoo, baby cockatoos, birds. Nature: desert, nest, cactus, rocks, sand. Objects: electric guitar, nest. Actions: playing guitar. Emotions: curiosity, wonder, excitement, amusement. Scenes: desert landscape. Concepts: whimsy, imagination, surrealism, music",
+  "primary_labels": {
+    "animals": [
+      "cockatoo",
+      "baby cockatoos",
+      "birds"
+    ],
+    "nature": [
+      "desert",
+      "nest",
+      "cactus",
+      "rocks",
+      "sand"
+    ],
+    "objects": [
+      "electric guitar",
+      "nest"
+    ],
+    "actions": [
+      "playing guitar"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder",
+      "excitement",
+      "amusement"
+    ],
+    "scenes": [
+      "desert landscape"
+    ],
+    "concepts": [
+      "whimsy",
+      "imagination",
+      "surrealism",
+      "music"
+    ]
+  },
+  "metadata": {}
+}

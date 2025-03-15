@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman\u2019s makeup.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman\u2019s makeup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman\u2019s makeup/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman lies on the grass with her head tilted back, surrounded by miniature construction workers. The tiny figures appear to be working on her face, creating a whimsical and surreal scene.",
+      "description": "The scene is set outdoors on a grassy field, where a woman is lying down. Around her, several miniature construction workers are engaged in various activities, giving the impression that they are 'working' on her face.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature construction workers"
+        ],
+        "objects": [
+          "grass",
+          "construction cones",
+          "ladder",
+          "desk"
+        ],
+        "actions": [
+          "lying down",
+          "miniature construction work"
+        ],
+        "emotions": [
+          "serene",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "surreal"
+        ],
+        "concepts": [
+          "miniature",
+          "surrealism",
+          "construction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman\u2019s makeup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman\u2019s makeup/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is lying on the grass with her head surrounded by miniature construction workers. The scene creates a whimsical contrast between the serene expression of the woman and the bustling activity of the tiny figures.",
+      "description": "The image depicts a surreal scene where a woman is lying on a grassy field, and miniature construction workers appear to be working around her head. This imaginative setup blends elements of reality and fantasy, creating a playful and artistic composition.",
+      "labels": {
+        "people": [
+          "woman",
+          "miniature workers"
+        ],
+        "objects": [
+          "grass",
+          "construction cones",
+          "ladder",
+          "table"
+        ],
+        "actions": [
+          "lying",
+          "working"
+        ],
+        "emotions": [
+          "serenity",
+          "whimsy"
+        ],
+        "scenes": [
+          "surreal",
+          "outdoor"
+        ],
+        "concepts": [
+          "contrast",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, miniature construction workers, miniature workers. Objects: grass, construction cones, ladder, desk, table. Actions: lying down, miniature construction work, lying, working. Emotions: serene, playful, serenity, whimsy. Scenes: outdoor, surreal. Concepts: miniature, surrealism, construction, contrast, imagination",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "miniature construction workers",
+      "miniature workers"
+    ],
+    "objects": [
+      "grass",
+      "construction cones",
+      "ladder",
+      "desk",
+      "table"
+    ],
+    "actions": [
+      "lying down",
+      "miniature construction work",
+      "lying",
+      "working"
+    ],
+    "emotions": [
+      "serene",
+      "playful",
+      "serenity",
+      "whimsy"
+    ],
+    "scenes": [
+      "outdoor",
+      "surreal"
+    ],
+    "concepts": [
+      "miniature",
+      "surrealism",
+      "construction",
+      "contrast",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

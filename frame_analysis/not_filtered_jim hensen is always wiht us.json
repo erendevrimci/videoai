@@ -1,0 +1,87 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/jim hensen is always wiht us.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/jim hensen is always wiht us.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/jim hensen is always wiht us/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A puppet with large eyes and a red nose is seen against a blurred, warm-toned background. The puppet has shaggy black hair and is wearing a red and black plaid shirt.",
+      "description": "The scene features a close-up of a puppet character with exaggerated facial features, set against a softly blurred background that suggests a cozy, indoor environment.",
+      "labels": {
+        "objects": [
+          "puppet",
+          "shirt"
+        ],
+        "emotions": [
+          "curiosity",
+          "amusement"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "puppetry",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/jim hensen is always wiht us.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/jim hensen is always wiht us/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A puppet with wild black hair and large eyes stands against a blurred background. The puppet wears a red and black plaid shirt, giving it a casual appearance.",
+      "description": "The scene features a puppet character in a close-up shot, likely set in a studio or performance setting. The background is softly blurred, emphasizing the puppet's expressive features.",
+      "labels": {
+        "objects": [
+          "puppet",
+          "plaid shirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "curiosity",
+          "surprise"
+        ],
+        "scenes": [
+          "studio",
+          "performance"
+        ],
+        "concepts": [
+          "puppetry",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: puppet, shirt, plaid shirt. Emotions: curiosity, amusement, surprise. Scenes: indoor, studio, performance. Concepts: puppetry, character design. Actions: standing",
+  "primary_labels": {
+    "objects": [
+      "puppet",
+      "shirt",
+      "plaid shirt"
+    ],
+    "emotions": [
+      "curiosity",
+      "amusement",
+      "surprise"
+    ],
+    "scenes": [
+      "indoor",
+      "studio",
+      "performance"
+    ],
+    "concepts": [
+      "puppetry",
+      "character design"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

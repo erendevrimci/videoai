@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands in a sunlit field, holding a delicate pink flower close to her face. Her expression is serene and contemplative, complemented by her soft pink dress that matches the flower. The background is a blur of tall grasses and gentle sunlight, creating a dreamy atmosphere.",
+      "description": "The scene captures a tranquil moment in a natural setting, with a focus on the woman's gentle expression and the harmony between her attire and the surrounding environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "field",
+          "grasses"
+        ],
+        "objects": [
+          "flower",
+          "dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands in a field of tall grasses, holding a delicate pink flower close to her face. Her expression is serene, and she wears a soft pink dress that complements the flower and the natural setting.",
+      "description": "The scene captures a tranquil moment in a sunlit field, where a woman is surrounded by nature. The focus is on her gentle expression and the harmony between her attire and the environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "field",
+          "grasses"
+        ],
+        "objects": [
+          "flower",
+          "dress"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "nature",
+          "portrait"
+        ],
+        "concepts": [
+          "harmony",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: field, grasses. Objects: flower, dress. Actions: holding. Emotions: serene, contemplative. Scenes: nature, outdoor, portrait. Concepts: tranquility, harmony",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "field",
+      "grasses"
+    ],
+    "objects": [
+      "flower",
+      "dress"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative"
+    ],
+    "scenes": [
+      "nature",
+      "outdoor",
+      "portrait"
+    ],
+    "concepts": [
+      "tranquility",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An astronaut sitting in the midd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An astronaut sitting in the midd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An astronaut sitting in the midd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An astronaut in a white spacesuit is seated in a field of vibrant pink flowers, playing a cello. The scene is enveloped in a misty atmosphere, creating a surreal and tranquil setting.",
+      "description": "The image depicts an astronaut playing a cello in a field of pink flowers, surrounded by a foggy, dreamlike landscape. The juxtaposition of space exploration and classical music in a natural setting creates a unique and imaginative scene.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "flowers",
+          "field",
+          "mist"
+        ],
+        "objects": [
+          "cello",
+          "spacesuit"
+        ],
+        "actions": [
+          "playing cello"
+        ],
+        "emotions": [
+          "tranquility",
+          "serenity"
+        ],
+        "scenes": [
+          "surreal",
+          "dreamlike"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An astronaut sitting in the midd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An astronaut sitting in the midd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut in a white spacesuit is seated in a field of vibrant pink flowers, playing a cello. The scene is set against a misty, overcast sky, creating a surreal and tranquil atmosphere.",
+      "description": "The image depicts an astronaut playing a cello in a field of pink flowers. The setting is otherworldly, with a misty sky adding to the dreamlike quality of the scene.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "flowers",
+          "field",
+          "sky"
+        ],
+        "objects": [
+          "cello",
+          "spacesuit"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "tranquil",
+          "surreal"
+        ],
+        "scenes": [
+          "outdoor",
+          "dreamlike"
+        ],
+        "concepts": [
+          "harmony",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An astronaut sitting in the midd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An astronaut sitting in the midd/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "An astronaut in a white spacesuit is seated in a field of vibrant pink flowers, playing a cello. The misty background adds a surreal and ethereal quality to the scene, blending the boundaries between earth and space.",
+      "description": "The scene depicts an astronaut playing a cello in a field of pink flowers under a misty sky. The juxtaposition of the space suit and the natural setting creates a dreamlike atmosphere.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "flowers",
+          "field",
+          "mist"
+        ],
+        "objects": [
+          "cello",
+          "spacesuit"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "serene",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal",
+          "ethereal"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: astronaut. Nature: flowers, field, mist, sky. Objects: cello, spacesuit. Actions: playing, playing cello. Emotions: tranquility, serenity, tranquil, surreal, serene. Scenes: surreal, dreamlike, outdoor, ethereal. Concepts: juxtaposition, harmony, imagination",
+  "primary_labels": {
+    "people": [
+      "astronaut"
+    ],
+    "nature": [
+      "flowers",
+      "field",
+      "mist",
+      "sky"
+    ],
+    "objects": [
+      "cello",
+      "spacesuit"
+    ],
+    "actions": [
+      "playing",
+      "playing cello"
+    ],
+    "emotions": [
+      "tranquility",
+      "serenity",
+      "tranquil",
+      "surreal",
+      "serene"
+    ],
+    "scenes": [
+      "surreal",
+      "dreamlike",
+      "outdoor",
+      "ethereal"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "harmony",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman walking outside.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman walking outside.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman walking outside/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in athletic attire stands confidently on a path surrounded by lush greenery. Her hair is tied back in a ponytail, and she appears focused and serene.",
+      "description": "The scene depicts a woman outdoors, possibly in a park or natural setting, dressed in workout clothes. She is standing on a paved path with trees and greenery in the background, suggesting a peaceful and natural environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "athletic clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "park"
+        ],
+        "concepts": [
+          "fitness",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman walking outside.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman walking outside/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in athletic attire walks confidently along a tree-lined path. She is dressed in a black tank top and leggings, with her hair tied back, suggesting a focus on fitness.",
+      "description": "The scene captures a woman walking on a paved path in a park-like setting, surrounded by lush greenery. The atmosphere is serene and focused, with an emphasis on outdoor activity and personal well-being.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "path"
+        ],
+        "objects": [
+          "athletic clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "outdoor",
+          "park"
+        ],
+        "concepts": [
+          "fitness",
+          "well-being"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: trees, greenery, path. Objects: athletic clothing. Actions: standing, walking. Emotions: confidence, serenity. Scenes: outdoor, park. Concepts: fitness, nature, well-being",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "trees",
+      "greenery",
+      "path"
+    ],
+    "objects": [
+      "athletic clothing"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "park"
+    ],
+    "concepts": [
+      "fitness",
+      "nature",
+      "well-being"
+    ]
+  },
+  "metadata": {}
+}

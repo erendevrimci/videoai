@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Polished Mirrorball Eruption.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Polished Mirrorball Eruption.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Polished Mirrorball Eruption/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a decorative, golden spherical object with intricate patterns and a reflective surface. The object is surrounded by smaller, shiny spheres, all illuminated by warm, ambient lighting.",
+      "description": "The scene captures a luxurious and artistic setting, focusing on a golden, intricately designed sphere. The warm lighting creates a cozy and elegant atmosphere, highlighting the reflective surfaces and intricate details.",
+      "labels": {
+        "objects": [
+          "golden sphere",
+          "decorative object",
+          "small spheres"
+        ],
+        "scenes": [
+          "luxurious setting",
+          "artistic composition"
+        ],
+        "emotions": [
+          "elegance",
+          "warmth"
+        ],
+        "concepts": [
+          "luxury",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Polished Mirrorball Eruption.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Polished Mirrorball Eruption/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dynamic close-up captures the dramatic collision of a creamy liquid with a golden, viscous substance. Droplets and splashes are frozen mid-air, creating an intricate dance of textures and colors. The scene is illuminated with warm, glowing light, enhancing the richness of the golden hues.",
+      "description": "The scene depicts a high-speed collision between a creamy liquid and a golden fluid, likely oil or syrup, captured in a close-up shot. The interaction creates a visually striking pattern of droplets and splashes, set against a dark background that emphasizes the luminous quality of the liquids.",
+      "labels": {
+        "objects": [
+          "liquid",
+          "droplets",
+          "splash"
+        ],
+        "actions": [
+          "collision",
+          "splashing"
+        ],
+        "emotions": [
+          "dynamic",
+          "energetic"
+        ],
+        "scenes": [
+          "close-up",
+          "high-speed photography"
+        ],
+        "concepts": [
+          "fluid dynamics",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Polished Mirrorball Eruption.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Polished Mirrorball Eruption/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up view of a swirling liquid with golden and silver hues, capturing the intricate patterns and reflections. The fluid appears to be in motion, creating dynamic shapes and textures against a dark background.",
+      "description": "The scene depicts a macro photograph of a liquid, possibly oil or another viscous substance, swirling in a mesmerizing pattern. The focus is on the interplay of light and color, with gold and silver tones dominating the composition.",
+      "labels": {
+        "objects": [
+          "liquid",
+          "oil",
+          "fluid"
+        ],
+        "actions": [
+          "swirling",
+          "flowing"
+        ],
+        "emotions": [
+          "mesmerizing",
+          "dynamic"
+        ],
+        "scenes": [
+          "macro photography",
+          "abstract"
+        ],
+        "concepts": [
+          "motion",
+          "reflection",
+          "texture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: liquid, golden sphere, decorative object, small spheres, droplets. Scenes: luxurious setting, artistic composition, close-up, high-speed photography, macro photography. Emotions: dynamic, elegance, warmth, energetic, mesmerizing. Concepts: motion, luxury, artistry, fluid dynamics, reflection. Actions: collision, splashing, swirling, flowing",
+  "primary_labels": {
+    "objects": [
+      "liquid",
+      "golden sphere",
+      "decorative object",
+      "small spheres",
+      "droplets"
+    ],
+    "scenes": [
+      "luxurious setting",
+      "artistic composition",
+      "close-up",
+      "high-speed photography",
+      "macro photography"
+    ],
+    "emotions": [
+      "dynamic",
+      "elegance",
+      "warmth",
+      "energetic",
+      "mesmerizing"
+    ],
+    "concepts": [
+      "motion",
+      "luxury",
+      "artistry",
+      "fluid dynamics",
+      "reflection"
+    ],
+    "actions": [
+      "collision",
+      "splashing",
+      "swirling",
+      "flowing"
+    ]
+  },
+  "metadata": {}
+}

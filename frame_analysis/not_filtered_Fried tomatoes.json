@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fried tomatoes.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fried tomatoes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fried tomatoes/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dynamic scene of tomatoes and vibrant liquid swirling out of a frying pan, creating an artistic splash. The tomatoes are suspended mid-air, surrounded by a wave of orange and red liquid, suggesting motion and energy.",
+      "description": "The image depicts a culinary explosion with tomatoes and liquid bursting from a frying pan. The scene captures the essence of cooking with a dramatic and artistic flair, emphasizing movement and color.",
+      "labels": {
+        "objects": [
+          "frying pan",
+          "tomatoes",
+          "liquid"
+        ],
+        "actions": [
+          "splashing",
+          "swirling"
+        ],
+        "emotions": [
+          "dynamic",
+          "energetic"
+        ],
+        "scenes": [
+          "culinary",
+          "artistic"
+        ],
+        "concepts": [
+          "cooking",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fried tomatoes.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fried tomatoes/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dynamic scene of tomatoes and liquid swirling energetically above a frying pan. The vibrant red tomatoes and golden liquid create a dramatic, swirling motion, suggesting a burst of culinary creativity.",
+      "description": "The scene captures a lively and artistic depiction of tomatoes and liquid in motion, set against a dark background. The focus is on the vibrant colors and dynamic movement, creating a sense of excitement and energy.",
+      "labels": {
+        "objects": [
+          "tomatoes",
+          "frying pan",
+          "liquid"
+        ],
+        "actions": [
+          "swirling",
+          "splashing"
+        ],
+        "emotions": [
+          "excitement",
+          "creativity"
+        ],
+        "scenes": [
+          "culinary",
+          "artistic"
+        ],
+        "concepts": [
+          "motion",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: frying pan, tomatoes, liquid. Actions: splashing, swirling. Emotions: dynamic, energetic, excitement, creativity. Scenes: culinary, artistic. Concepts: motion, cooking, vibrancy",
+  "primary_labels": {
+    "objects": [
+      "frying pan",
+      "tomatoes",
+      "liquid"
+    ],
+    "actions": [
+      "splashing",
+      "swirling"
+    ],
+    "emotions": [
+      "dynamic",
+      "energetic",
+      "excitement",
+      "creativity"
+    ],
+    "scenes": [
+      "culinary",
+      "artistic"
+    ],
+    "concepts": [
+      "motion",
+      "cooking",
+      "vibrancy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Burning Girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Burning Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Burning Girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking figure with fiery red hair and glowing eyes stands amidst swirling flames. The character is clad in a form-fitting, dark suit with vibrant red and orange accents resembling molten lava. The intense gaze and dynamic flames create a powerful and dramatic scene.",
+      "description": "The scene depicts a fantastical character enveloped in flames, suggesting a supernatural or otherworldly setting. The focus is on the character's intense expression and the interplay of fire and shadow around them.",
+      "labels": {
+        "people": [
+          "fantasy character",
+          "female"
+        ],
+        "objects": [
+          "suit",
+          "flames"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "fantasy",
+          "dramatic"
+        ],
+        "concepts": [
+          "fire",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Burning Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Burning Girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce, armored female warrior with fiery red hair is surrounded by flames. Her intense gaze and outstretched arm suggest she is conjuring or controlling the fire. The scene is engulfed in a dramatic, fiery atmosphere.",
+      "description": "The scene depicts a powerful, fantasy-themed setting where a female warrior appears to be in control of fire. The environment is filled with flames and a dark, smoky background, creating a sense of intensity and action.",
+      "labels": {
+        "people": [
+          "female warrior"
+        ],
+        "objects": [
+          "armor",
+          "fire"
+        ],
+        "actions": [
+          "conjuring fire",
+          "controlling flames"
+        ],
+        "emotions": [
+          "intensity",
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "power",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fantasy character, female, female warrior. Objects: suit, flames, armor, fire. Actions: standing, gazing, conjuring fire, controlling flames. Emotions: intensity, power, determination. Scenes: fantasy, dramatic, battle. Concepts: fire, supernatural, power, magic",
+  "primary_labels": {
+    "people": [
+      "fantasy character",
+      "female",
+      "female warrior"
+    ],
+    "objects": [
+      "suit",
+      "flames",
+      "armor",
+      "fire"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "conjuring fire",
+      "controlling flames"
+    ],
+    "emotions": [
+      "intensity",
+      "power",
+      "determination"
+    ],
+    "scenes": [
+      "fantasy",
+      "dramatic",
+      "battle"
+    ],
+    "concepts": [
+      "fire",
+      "supernatural",
+      "power",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/American model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/American model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/American model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in an opulent setting, adorned in a luxurious white gown with intricate detailing. The soft lighting casts a gentle glow, highlighting the elegance of the scene. Other figures in similar attire are visible in the background, adding depth to the composition.",
+      "description": "The scene is set in a lavish, possibly historical interior, suggesting a fashion show or formal event. The focus is on a woman in an elaborate white dress, with others similarly dressed in the background, creating a sense of grandeur and sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show",
+          "formal event"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/American model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/American model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model gracefully walks down the runway in an elegant, voluminous white gown. The soft lighting highlights her serene expression and the intricate details of the dress. Behind her, other models in similar attire follow, creating a dreamy and ethereal atmosphere.",
+      "description": "The scene is set at a fashion show runway, where models are showcasing a collection of luxurious white gowns. The focus is on the lead model, who exudes confidence and poise as she walks. The setting is elegant and sophisticated, with a spotlight emphasizing the beauty of the garments.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "gown",
+          "earrings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, model. Objects: gown, dress, earrings. Actions: standing, walking. Emotions: confidence, serene. Scenes: fashion show, formal event, runway. Concepts: elegance, luxury, fashion, beauty",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "model"
+    ],
+    "objects": [
+      "gown",
+      "dress",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serene"
+    ],
+    "scenes": [
+      "fashion show",
+      "formal event",
+      "runway"
+    ],
+    "concepts": [
+      "elegance",
+      "luxury",
+      "fashion",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

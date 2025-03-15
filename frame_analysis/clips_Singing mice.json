@@ -1,0 +1,152 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Singing mice.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Singing mice.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Singing mice/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish mouse in a suit plays an electric guitar while a cool cat in sunglasses and a hat plays the drums. The scene captures a whimsical band performance with anthropomorphic animals.",
+      "description": "The image depicts a lively and imaginative musical performance featuring a mouse and a cat. The mouse, dressed in a formal suit and bow tie, is energetically playing an electric guitar. Beside it, the cat, wearing sunglasses and a hat, is skillfully playing the drums. The setting suggests a playful and creative atmosphere, likely in a cozy indoor space.",
+      "labels": {
+        "animals": [
+          "mouse",
+          "cat"
+        ],
+        "objects": [
+          "electric guitar",
+          "drums",
+          "sunglasses",
+          "hat",
+          "suit"
+        ],
+        "actions": [
+          "playing guitar",
+          "playing drums"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "musical performance"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "band"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Singing mice.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Singing mice/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A rat dressed in a suit plays an electric guitar while a cat wearing sunglasses and a hat plays the drums. The scene is lively and whimsical, capturing the charm of an animal band performing together.",
+      "description": "The image depicts a playful and imaginative scene where a rat and a cat are performing music together. The setting appears to be a cozy, wooden stage or room, enhancing the intimate concert vibe.",
+      "labels": {
+        "animals": [
+          "rat",
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "drums",
+          "sunglasses",
+          "hat",
+          "suit"
+        ],
+        "actions": [
+          "playing guitar",
+          "playing drums"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "musical performance",
+          "animal band"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Singing mice.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Singing mice/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical scene features a mouse dressed in a suit playing an electric guitar, accompanied by a cat wearing sunglasses and a hat, sitting behind a drum set. The mouse appears focused on strumming the guitar, while the cat exudes a cool demeanor.",
+      "description": "The scene is a playful and imaginative depiction of animals engaging in a musical performance. Set against a simple backdrop, the mouse and cat are portrayed as musicians, adding a humorous twist to the setting.",
+      "labels": {
+        "animals": [
+          "mouse",
+          "cat"
+        ],
+        "objects": [
+          "guitar",
+          "drum set",
+          "sunglasses",
+          "hat"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "musical performance"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, mouse, rat. Objects: sunglasses, hat, drums, suit, guitar. Actions: playing guitar, playing drums. Emotions: playful, creative, joyful, whimsical. Scenes: musical performance, animal band. Concepts: anthropomorphism, band, whimsy, imagination, humor",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "mouse",
+      "rat"
+    ],
+    "objects": [
+      "sunglasses",
+      "hat",
+      "drums",
+      "suit",
+      "guitar"
+    ],
+    "actions": [
+      "playing guitar",
+      "playing drums"
+    ],
+    "emotions": [
+      "playful",
+      "creative",
+      "joyful",
+      "whimsical"
+    ],
+    "scenes": [
+      "musical performance",
+      "animal band"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "band",
+      "whimsy",
+      "imagination",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

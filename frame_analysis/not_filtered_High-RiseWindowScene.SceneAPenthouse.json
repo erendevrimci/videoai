@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/High-RiseWindowScene.SceneAPenthouse.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/High-RiseWindowScene.SceneAPenthouse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/High-RiseWindowScene.SceneAPenthouse/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands by a large window, gazing out at a vibrant cityscape illuminated by city lights at night. The scene captures the reflection of the city in the glass, creating a serene and contemplative atmosphere.",
+      "description": "The scene is set in a high-rise building overlooking a bustling city at night. The woman appears to be in a moment of reflection, observing the city lights and skyscrapers from a distance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "skyscrapers",
+          "city lights"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "contemplative",
+          "serene"
+        ],
+        "scenes": [
+          "cityscape",
+          "night view"
+        ],
+        "concepts": [
+          "reflection",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/High-RiseWindowScene.SceneAPenthouse.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/High-RiseWindowScene.SceneAPenthouse/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant black dress stands by a large window, gazing out at a brightly lit city skyline at night. The room is dimly lit, creating a contrast with the vibrant city lights outside. The scene conveys a sense of contemplation and tranquility.",
+      "description": "The scene is set in a high-rise apartment or hotel room with a panoramic view of a city at night. The woman appears to be lost in thought as she looks out over the illuminated buildings and river below.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "window",
+          "dress",
+          "sofa",
+          "curtains"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "contemplation",
+          "tranquility"
+        ],
+        "scenes": [
+          "cityscape",
+          "nighttime",
+          "interior"
+        ],
+        "concepts": [
+          "elegance",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: window, skyscrapers, city lights, dress, sofa. Actions: gazing, standing. Emotions: contemplative, serene, contemplation, tranquility. Scenes: cityscape, night view, nighttime, interior. Concepts: reflection, urban life, elegance, solitude",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "window",
+      "skyscrapers",
+      "city lights",
+      "dress",
+      "sofa"
+    ],
+    "actions": [
+      "gazing",
+      "standing"
+    ],
+    "emotions": [
+      "contemplative",
+      "serene",
+      "contemplation",
+      "tranquility"
+    ],
+    "scenes": [
+      "cityscape",
+      "night view",
+      "nighttime",
+      "interior"
+    ],
+    "concepts": [
+      "reflection",
+      "urban life",
+      "elegance",
+      "solitude"
+    ]
+  },
+  "metadata": {}
+}

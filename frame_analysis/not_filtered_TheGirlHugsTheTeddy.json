@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlHugsTheTeddy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlHugsTheTeddy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlHugsTheTeddy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman lies in bed, holding a plush teddy bear close to her. Her expression is serene and contemplative, with soft lighting highlighting her features.",
+      "description": "The scene is set in a cozy bedroom environment, with the woman resting on a bed. The atmosphere is calm and intimate, suggesting a moment of relaxation or introspection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "teddy bear",
+          "bed",
+          "pillow"
+        ],
+        "actions": [
+          "lying down",
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "bedroom"
+        ],
+        "concepts": [
+          "comfort",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlHugsTheTeddy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlHugsTheTeddy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman lies in bed, smiling warmly as she cuddles a soft teddy bear. Her hair is spread out on the pillow, and she appears relaxed and content.",
+      "description": "The scene captures a peaceful and intimate moment in a bedroom setting. The woman is embracing a teddy bear, suggesting comfort and affection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "teddy bear",
+          "pillow",
+          "bed"
+        ],
+        "actions": [
+          "smiling",
+          "cuddling"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "bedroom",
+          "relaxation"
+        ],
+        "concepts": [
+          "comfort",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: teddy bear, bed, pillow. Actions: lying down, holding, smiling, cuddling. Emotions: serene, contemplative, happiness, contentment. Scenes: bedroom, relaxation. Concepts: comfort, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "teddy bear",
+      "bed",
+      "pillow"
+    ],
+    "actions": [
+      "lying down",
+      "holding",
+      "smiling",
+      "cuddling"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "bedroom",
+      "relaxation"
+    ],
+    "concepts": [
+      "comfort",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

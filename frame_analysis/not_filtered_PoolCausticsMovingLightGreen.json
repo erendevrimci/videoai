@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PoolCausticsMovingLightGreen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PoolCausticsMovingLightGreen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PoolCausticsMovingLightGreen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene indoor pool area bathed in natural light from large circular skylights above. Lush greenery surrounds the space, with comfortable seating arranged along the poolside. The atmosphere is tranquil and inviting, enhanced by the gentle play of light and shadows.",
+      "description": "The scene depicts a luxurious indoor pool area with abundant natural light filtering through large skylights. The setting is lush with greenery, creating a harmonious blend of nature and architecture. Comfortable seating is arranged alongside the pool, inviting relaxation.",
+      "labels": {
+        "nature": [
+          "greenery",
+          "plants",
+          "trees"
+        ],
+        "objects": [
+          "pool",
+          "sofa",
+          "skylight"
+        ],
+        "scenes": [
+          "indoor",
+          "luxurious",
+          "serene"
+        ],
+        "emotions": [
+          "tranquil",
+          "inviting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PoolCausticsMovingLightGreen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PoolCausticsMovingLightGreen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene indoor pool area is bathed in natural light streaming through large circular skylights. Lush greenery surrounds the pool, creating a tranquil oasis with comfortable seating nearby.",
+      "description": "The scene depicts a luxurious indoor pool area with a natural and tranquil atmosphere. Sunlight filters through circular openings in the ceiling, illuminating the pool and surrounding greenery.",
+      "labels": {
+        "nature": [
+          "trees",
+          "plants",
+          "greenery"
+        ],
+        "objects": [
+          "pool",
+          "sofa",
+          "skylight"
+        ],
+        "actions": [
+          "sunlight streaming"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "indoor oasis",
+          "luxurious setting"
+        ],
+        "concepts": [
+          "relaxation",
+          "nature integration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: greenery, plants, trees. Objects: pool, sofa, skylight. Scenes: indoor, luxurious, serene, indoor oasis, luxurious setting. Emotions: tranquil, inviting, serenity, tranquility. Actions: sunlight streaming. Concepts: relaxation, nature integration",
+  "primary_labels": {
+    "nature": [
+      "greenery",
+      "plants",
+      "trees"
+    ],
+    "objects": [
+      "pool",
+      "sofa",
+      "skylight"
+    ],
+    "scenes": [
+      "indoor",
+      "luxurious",
+      "serene",
+      "indoor oasis",
+      "luxurious setting"
+    ],
+    "emotions": [
+      "tranquil",
+      "inviting",
+      "serenity",
+      "tranquility"
+    ],
+    "actions": [
+      "sunlight streaming"
+    ],
+    "concepts": [
+      "relaxation",
+      "nature integration"
+    ]
+  },
+  "metadata": {}
+}

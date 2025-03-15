@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Bad business man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Bad business man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Bad business man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a suit is holding a cigar, with smoke swirling around him. The scene is captured in black and white, emphasizing the dramatic lighting and shadows on his face.",
+      "description": "The image depicts a sophisticated and intense atmosphere, with a man exuding a sense of mystery and authority. The setting is likely indoors, with focused lighting creating a noir-like effect.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "cigar",
+          "suit"
+        ],
+        "actions": [
+          "smoking"
+        ],
+        "emotions": [
+          "intense",
+          "mysterious"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "noir",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Bad business man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Bad business man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a suit is captured in a dramatic black and white portrait, holding a cigar with smoke swirling around him. The lighting highlights his intense expression and the texture of his suit.",
+      "description": "The scene is a close-up portrait of a man in a formal suit, set against a dark background. The focus is on his face and the cigar, with smoke adding a dynamic element to the composition.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "cigar",
+          "suit"
+        ],
+        "actions": [
+          "smoking"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "drama",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: cigar, suit. Actions: smoking. Emotions: intense, mysterious. Scenes: indoor, portrait. Concepts: drama, noir, mystery",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "cigar",
+      "suit"
+    ],
+    "actions": [
+      "smoking"
+    ],
+    "emotions": [
+      "intense",
+      "mysterious"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "drama",
+      "noir",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

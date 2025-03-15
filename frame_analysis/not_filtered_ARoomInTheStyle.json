@@ -1,0 +1,129 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ARoomInTheStyle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ARoomInTheStyle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ARoomInTheStyle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman sits at a sewing machine in a dimly lit room, focused on her work. A man in a suit and hat stands in the doorway, appearing thoughtful or concerned. A young child sits on the floor playing with toy cars, adding a sense of innocence to the scene.",
+      "description": "The scene is set in a modest, dimly lit room, suggesting a mid-20th century domestic environment. The atmosphere is quiet and contemplative, with each person absorbed in their own world.",
+      "labels": {
+        "people": [
+          "woman",
+          "man",
+          "child"
+        ],
+        "objects": [
+          "sewing machine",
+          "toy cars",
+          "table",
+          "chair",
+          "clock"
+        ],
+        "actions": [
+          "sewing",
+          "playing",
+          "standing"
+        ],
+        "emotions": [
+          "focus",
+          "thoughtfulness",
+          "innocence"
+        ],
+        "scenes": [
+          "domestic",
+          "interior"
+        ],
+        "concepts": [
+          "family",
+          "contemplation",
+          "domestic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ARoomInTheStyle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ARoomInTheStyle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman sits at a table using a sewing machine, focused on her work. In the background, a man in a coat and hat stands in a doorway, appearing contemplative. A young child sits on the floor, surrounded by toy cars, looking towards the woman.",
+      "description": "The scene is set in a modest, dimly lit room with a vintage feel, suggesting a mid-20th century domestic setting. The woman is engaged in sewing, while the man seems to be deep in thought, possibly preparing to leave or having just arrived. The child is quietly playing, adding a sense of everyday life to the scene.",
+      "labels": {
+        "people": [
+          "woman",
+          "man",
+          "child"
+        ],
+        "objects": [
+          "sewing machine",
+          "table",
+          "chair",
+          "toy cars",
+          "clock"
+        ],
+        "actions": [
+          "sewing",
+          "standing",
+          "sitting"
+        ],
+        "emotions": [
+          "contemplative",
+          "focused"
+        ],
+        "scenes": [
+          "domestic",
+          "vintage"
+        ],
+        "concepts": [
+          "family",
+          "routine",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, child. Objects: sewing machine, toy cars, table, chair, clock. Actions: sewing, standing, playing, sitting. Emotions: focus, thoughtfulness, innocence, contemplative, focused. Scenes: domestic, interior, vintage. Concepts: family, contemplation, domestic life, routine, nostalgia",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "child"
+    ],
+    "objects": [
+      "sewing machine",
+      "toy cars",
+      "table",
+      "chair",
+      "clock"
+    ],
+    "actions": [
+      "sewing",
+      "standing",
+      "playing",
+      "sitting"
+    ],
+    "emotions": [
+      "focus",
+      "thoughtfulness",
+      "innocence",
+      "contemplative",
+      "focused"
+    ],
+    "scenes": [
+      "domestic",
+      "interior",
+      "vintage"
+    ],
+    "concepts": [
+      "family",
+      "contemplation",
+      "domestic life",
+      "routine",
+      "nostalgia"
+    ]
+  },
+  "metadata": {}
+}

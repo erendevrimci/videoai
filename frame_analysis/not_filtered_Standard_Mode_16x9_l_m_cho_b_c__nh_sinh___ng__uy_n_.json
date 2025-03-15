@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_l_m_cho_b_c__nh_sinh___ng__uy_n_.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_l_m_cho_b_c__nh_sinh___ng__uy_n_.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9_l_m_cho_b_c__nh_sinh___ng__uy_n_/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in traditional attire sits on a wooden bench, playing a pipa. She is surrounded by a serene outdoor setting with blooming cherry blossoms and distant mountains.",
+      "description": "The scene depicts a tranquil outdoor setting where a woman in traditional clothing is playing a pipa. The background features cherry blossoms and a mountainous landscape, suggesting a peaceful and culturally rich environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "cherry blossoms",
+          "mountains"
+        ],
+        "objects": [
+          "pipa",
+          "traditional clothing",
+          "wooden bench"
+        ],
+        "actions": [
+          "playing instrument"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "cultural"
+        ],
+        "concepts": [
+          "tradition",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_l_m_cho_b_c__nh_sinh___ng__uy_n_.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9_l_m_cho_b_c__nh_sinh___ng__uy_n_/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a red garment stands at the threshold of a wooden structure, gazing out towards a mountainous landscape. The scene captures a moment of contemplation as the person looks into the distance.",
+      "description": "The scene is set at the entrance of a wooden building, possibly a traditional or historical structure. The person appears to be observing the natural scenery outside, which includes mountains under a cloudy sky.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "wooden structure",
+          "doorway"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor",
+          "threshold"
+        ],
+        "concepts": [
+          "contemplation",
+          "nature observation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Nature: mountains, cherry blossoms, sky. Objects: pipa, traditional clothing, wooden bench, wooden structure, doorway. Actions: playing instrument, gazing, standing. Emotions: serenity, contemplative. Scenes: outdoor, cultural, threshold. Concepts: tradition, music, contemplation, nature observation",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "nature": [
+      "mountains",
+      "cherry blossoms",
+      "sky"
+    ],
+    "objects": [
+      "pipa",
+      "traditional clothing",
+      "wooden bench",
+      "wooden structure",
+      "doorway"
+    ],
+    "actions": [
+      "playing instrument",
+      "gazing",
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplative"
+    ],
+    "scenes": [
+      "outdoor",
+      "cultural",
+      "threshold"
+    ],
+    "concepts": [
+      "tradition",
+      "music",
+      "contemplation",
+      "nature observation"
+    ]
+  },
+  "metadata": {}
+}

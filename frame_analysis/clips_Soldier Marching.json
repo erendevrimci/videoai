@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Soldier Marching.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Soldier Marching.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Soldier Marching/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a white sports jersey runs energetically, holding a spear and shield, leading a group of individuals dressed as Roman soldiers. The scene is dynamic, with dust rising from the ground, creating a sense of motion and urgency.",
+      "description": "The image depicts a blend of modern sports and historical elements, with a person in a football jersey leading a charge alongside people dressed as Roman soldiers. The setting appears to be an open, dusty field under a clear sky.",
+      "labels": {
+        "people": [
+          "athlete",
+          "soldiers"
+        ],
+        "objects": [
+          "spear",
+          "shield",
+          "sports jersey"
+        ],
+        "actions": [
+          "running",
+          "leading"
+        ],
+        "emotions": [
+          "determination",
+          "focus"
+        ],
+        "scenes": [
+          "historical reenactment",
+          "sports"
+        ],
+        "concepts": [
+          "fusion of history and modernity",
+          "leadership"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Soldier Marching.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Soldier Marching/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a white sports uniform is running forward, holding a spear and a shield. He is surrounded by a group of people dressed in Roman soldier attire, also in motion.",
+      "description": "The scene depicts a blend of modern sports and ancient warfare, with a man in a soccer uniform leading a charge alongside individuals dressed as Roman soldiers. The setting appears to be outdoors on a dusty field under a clear sky.",
+      "labels": {
+        "people": [
+          "man",
+          "group"
+        ],
+        "objects": [
+          "spear",
+          "shield",
+          "sports uniform",
+          "Roman soldier attire"
+        ],
+        "actions": [
+          "running",
+          "holding"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "battlefield"
+        ],
+        "concepts": [
+          "historical fusion",
+          "sports and warfare"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: athlete, soldiers, man, group. Objects: spear, shield, sports jersey, sports uniform, Roman soldier attire. Actions: running, leading, holding. Emotions: determination, focus. Scenes: historical reenactment, sports, outdoor, battlefield. Concepts: fusion of history and modernity, leadership, historical fusion, sports and warfare",
+  "primary_labels": {
+    "people": [
+      "athlete",
+      "soldiers",
+      "man",
+      "group"
+    ],
+    "objects": [
+      "spear",
+      "shield",
+      "sports jersey",
+      "sports uniform",
+      "Roman soldier attire"
+    ],
+    "actions": [
+      "running",
+      "leading",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "focus"
+    ],
+    "scenes": [
+      "historical reenactment",
+      "sports",
+      "outdoor",
+      "battlefield"
+    ],
+    "concepts": [
+      "fusion of history and modernity",
+      "leadership",
+      "historical fusion",
+      "sports and warfare"
+    ]
+  },
+  "metadata": {}
+}

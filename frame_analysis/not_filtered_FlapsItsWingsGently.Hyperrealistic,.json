@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlapsItsWingsGently.Hyperrealistic,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlapsItsWingsGently.Hyperrealistic,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FlapsItsWingsGently.Hyperrealistic,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, animated squirrel with wings is perched on a human hand, appearing lively and curious. The background is softly blurred, highlighting the whimsical creature.",
+      "description": "The scene depicts a fantastical squirrel with wings, sitting on a person's hand. The setting is outdoors with a blurred natural background, creating a magical and serene atmosphere.",
+      "labels": {
+        "animals": [
+          "squirrel",
+          "winged creature"
+        ],
+        "nature": [
+          "outdoors",
+          "natural background"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "perching"
+        ],
+        "emotions": [
+          "curiosity",
+          "whimsy"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "imagination",
+          "fantasy creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlapsItsWingsGently.Hyperrealistic,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FlapsItsWingsGently.Hyperrealistic,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small creature resembling a squirrel with wings is perched on a human hand. The scene captures the whimsical and imaginative nature of the creature, set against a soft, blurred background.",
+      "description": "The image depicts a fantastical scene where a winged squirrel-like creature is gently held in a person's hand, suggesting a magical or surreal setting.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "squirrel"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "imagination",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: squirrel, winged creature. Nature: outdoors, natural background. Objects: hand. Actions: perching, holding. Emotions: curiosity, whimsy, wonder. Scenes: fantasy, nature. Concepts: imagination, fantasy creature, magic. People: hand",
+  "primary_labels": {
+    "animals": [
+      "squirrel",
+      "winged creature"
+    ],
+    "nature": [
+      "outdoors",
+      "natural background"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "perching",
+      "holding"
+    ],
+    "emotions": [
+      "curiosity",
+      "whimsy",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "imagination",
+      "fantasy creature",
+      "magic"
+    ],
+    "people": [
+      "hand"
+    ]
+  },
+  "metadata": {}
+}

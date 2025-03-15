@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lets squish.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lets squish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lets squish/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands gracefully in a field of wildflowers, her long hair flowing gently in the breeze. She is wearing an elegant blue dress adorned with intricate floral embroidery, complementing the natural beauty around her. The scene captures a serene and ethereal moment in nature.",
+      "description": "The scene is set in a lush, open field filled with wildflowers under a clear sky. The focus is on a young woman, exuding a sense of calm and grace as she stands amidst the natural beauty. Her attire and the setting create a harmonious blend of elegance and nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "field",
+          "wildflowers"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "nature",
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Lets squish.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Lets squish/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pair of hands is squeezing a soft, multicolored object, possibly clay or dough, against a blurred outdoor background. The object appears to be a mix of blue and orange hues, with a fluffy texture on top.",
+      "description": "The scene captures a close-up of hands manipulating a soft material, set against a natural, blurred background suggesting an outdoor setting. The focus is on the tactile interaction with the material.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "clay",
+          "dough"
+        ],
+        "actions": [
+          "squeezing",
+          "manipulating"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "outdoor",
+          "close-up"
+        ],
+        "concepts": [
+          "tactile",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, hands. Nature: field, wildflowers. Objects: dress, clay, dough. Actions: standing, squeezing, manipulating. Emotions: serene, calm, focused. Scenes: outdoor, nature, close-up. Concepts: elegance, beauty, tactile, creativity",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "hands"
+    ],
+    "nature": [
+      "field",
+      "wildflowers"
+    ],
+    "objects": [
+      "dress",
+      "clay",
+      "dough"
+    ],
+    "actions": [
+      "standing",
+      "squeezing",
+      "manipulating"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "focused"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature",
+      "close-up"
+    ],
+    "concepts": [
+      "elegance",
+      "beauty",
+      "tactile",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Professional_Mode_The_water_floods_the_gallery__Th.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Professional_Mode_The_water_floods_the_gallery__Th.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Professional_Mode_The_water_floods_the_gallery__Th/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dramatic scene unfolds as a ship emerges from a painting, surrounded by swirling clouds. The artwork is framed in an ornate gold frame, creating a striking contrast with the ethereal mist spilling into the room. The illusion blurs the line between reality and art, captivating the viewer with its surreal quality.",
+      "description": "The scene is set in an art gallery or exhibition space, where a painting of a ship at sea appears to come to life. The ship, depicted in black and white, seems to sail out of the frame amidst billowing clouds that extend into the room, creating a three-dimensional effect.",
+      "labels": {
+        "objects": [
+          "painting",
+          "frame",
+          "ship",
+          "clouds"
+        ],
+        "actions": [
+          "emerging",
+          "sailing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "art gallery",
+          "exhibition"
+        ],
+        "concepts": [
+          "surrealism",
+          "illusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Professional_Mode_The_water_floods_the_gallery__Th.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Professional_Mode_The_water_floods_the_gallery__Th/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene features a painting of a ship navigating through turbulent seas, with waves appearing to spill out of the frame into the room. The ornate golden frame contrasts with the stormy ocean depicted in the artwork, creating a surreal blend of art and reality.",
+      "description": "The scene is set in a gallery or museum where a painting of a ship in a stormy sea is displayed. The artwork is framed in an elaborate golden frame, and the waves seem to extend beyond the painting, merging with the physical space.",
+      "labels": {
+        "objects": [
+          "painting",
+          "ship",
+          "frame"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "storm"
+        ],
+        "actions": [
+          "navigating",
+          "spilling"
+        ],
+        "emotions": [
+          "dramatic",
+          "surreal"
+        ],
+        "scenes": [
+          "gallery",
+          "museum"
+        ],
+        "concepts": [
+          "art",
+          "reality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: painting, frame, ship, clouds. Actions: emerging, sailing, navigating, spilling. Emotions: awe, wonder, dramatic, surreal. Scenes: art gallery, exhibition, gallery, museum. Concepts: surrealism, illusion, art, reality. Nature: ocean, waves, storm",
+  "primary_labels": {
+    "objects": [
+      "painting",
+      "frame",
+      "ship",
+      "clouds"
+    ],
+    "actions": [
+      "emerging",
+      "sailing",
+      "navigating",
+      "spilling"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "dramatic",
+      "surreal"
+    ],
+    "scenes": [
+      "art gallery",
+      "exhibition",
+      "gallery",
+      "museum"
+    ],
+    "concepts": [
+      "surrealism",
+      "illusion",
+      "art",
+      "reality"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "storm"
+    ]
+  },
+  "metadata": {}
+}

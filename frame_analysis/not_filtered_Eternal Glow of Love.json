@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Eternal Glow of Love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Eternal Glow of Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Eternal Glow of Love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands intimately on a reflective surface, surrounded by floating lanterns and draped fabric. The scene is illuminated by the warm glow of the lanterns, creating a magical and romantic atmosphere.",
+      "description": "The scene depicts a romantic setting, possibly a wedding or engagement, with a couple standing on a reflective surface under a canopy of lanterns. The warm lighting and floating fabric add to the enchanting ambiance.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "lanterns",
+          "fabric",
+          "flowers"
+        ],
+        "actions": [
+          "standing",
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "wedding",
+          "night"
+        ],
+        "concepts": [
+          "love",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Eternal Glow of Love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Eternal Glow of Love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands on a reflective surface under a canopy of glowing lanterns, creating a magical and romantic atmosphere. The bride's dress flows elegantly, illuminated by the warm light of the lanterns. The scene is set against a backdrop of a serene water body and a dark, cloudy sky.",
+      "description": "The scene depicts a romantic moment between a couple, likely during a wedding or special occasion, surrounded by floating lanterns. The setting is outdoors, possibly near a lake or pond, with a dramatic sky enhancing the enchanting ambiance.",
+      "labels": {
+        "people": [
+          "couple",
+          "bride",
+          "groom"
+        ],
+        "objects": [
+          "lanterns",
+          "wedding dress",
+          "canopy"
+        ],
+        "actions": [
+          "standing",
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "magical"
+        ],
+        "scenes": [
+          "wedding",
+          "outdoor celebration"
+        ],
+        "concepts": [
+          "love",
+          "celebration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple, bride, groom. Objects: lanterns, fabric, flowers, wedding dress, canopy. Actions: standing, holding hands. Emotions: romantic, intimate, magical. Scenes: wedding, night, outdoor celebration. Concepts: love, celebration",
+  "primary_labels": {
+    "people": [
+      "couple",
+      "bride",
+      "groom"
+    ],
+    "objects": [
+      "lanterns",
+      "fabric",
+      "flowers",
+      "wedding dress",
+      "canopy"
+    ],
+    "actions": [
+      "standing",
+      "holding hands"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate",
+      "magical"
+    ],
+    "scenes": [
+      "wedding",
+      "night",
+      "outdoor celebration"
+    ],
+    "concepts": [
+      "love",
+      "celebration"
+    ]
+  },
+  "metadata": {}
+}

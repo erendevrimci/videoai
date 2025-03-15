@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Replicant Three.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Replicant Three.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Replicant Three/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with a somber expression stands in front of a rain-speckled window, gazing outside. The reflection in the glass shows a cityscape illuminated by colorful neon lights, creating a vivid contrast with the person's muted appearance.",
+      "description": "The scene is set in an urban environment at night, characterized by bright neon lights and a rainy atmosphere. The focus is on a solitary figure, whose reflective gaze suggests introspection or contemplation.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "window",
+          "rain droplets"
+        ],
+        "actions": [
+          "gazing",
+          "reflecting"
+        ],
+        "emotions": [
+          "somber",
+          "contemplative"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "introspection",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Replicant Three.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Replicant Three/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a metallic appearance stands in front of a rain-speckled window, gazing pensively into the distance. The city lights behind them create a colorful, blurred backdrop, enhancing the reflective mood of the scene.",
+      "description": "The scene depicts a futuristic setting where a humanoid figure, possibly a robot or cyborg, is positioned inside a building, looking out through a rain-covered window. The vibrant city lights outside suggest a bustling urban environment, contrasting with the somber expression of the figure.",
+      "labels": {
+        "people": [
+          "humanoid",
+          "cyborg"
+        ],
+        "objects": [
+          "window",
+          "rain",
+          "city lights"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "pensive",
+          "somber"
+        ],
+        "scenes": [
+          "futuristic",
+          "urban"
+        ],
+        "concepts": [
+          "reflection",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Replicant Three.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Replicant Three/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A humanoid figure with a metallic appearance gazes pensively through a rain-speckled window. The vibrant city lights reflect off the glass, creating a colorful backdrop. The figure's expression is somber, adding to the scene's melancholic atmosphere.",
+      "description": "The scene depicts a futuristic setting where a humanoid with a robotic appearance stands by a window, looking out at a city illuminated by neon lights. The rain on the window adds a layer of texture and mood to the scene.",
+      "labels": {
+        "people": [
+          "humanoid",
+          "robotic figure"
+        ],
+        "objects": [
+          "window",
+          "city lights"
+        ],
+        "actions": [
+          "gazing",
+          "reflecting"
+        ],
+        "emotions": [
+          "somber",
+          "melancholic"
+        ],
+        "scenes": [
+          "futuristic",
+          "urban"
+        ],
+        "concepts": [
+          "technology",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid, person, cyborg, robotic figure. Objects: window, city lights, rain droplets, rain. Actions: gazing, reflecting, standing. Emotions: somber, contemplative, pensive, melancholic. Scenes: urban, futuristic, nighttime. Concepts: technology, introspection, solitude, reflection, isolation",
+  "primary_labels": {
+    "people": [
+      "humanoid",
+      "person",
+      "cyborg",
+      "robotic figure"
+    ],
+    "objects": [
+      "window",
+      "city lights",
+      "rain droplets",
+      "rain"
+    ],
+    "actions": [
+      "gazing",
+      "reflecting",
+      "standing"
+    ],
+    "emotions": [
+      "somber",
+      "contemplative",
+      "pensive",
+      "melancholic"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "nighttime"
+    ],
+    "concepts": [
+      "technology",
+      "introspection",
+      "solitude",
+      "reflection",
+      "isolation"
+    ]
+  },
+  "metadata": {}
+}

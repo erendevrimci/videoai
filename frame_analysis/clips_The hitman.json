@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The hitman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The hitman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The hitman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a vintage suit and fedora stands in a narrow alleyway, pointing a gun directly at the viewer. The dim lighting and brick walls create a tense, noir atmosphere.",
+      "description": "The scene is set in a narrow, dimly lit alleyway, reminiscent of a classic film noir setting. The man is dressed in a vintage suit and fedora, evoking a mid-20th-century style. He is holding a gun, aiming it forward with a serious expression, suggesting a moment of confrontation or tension.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "gun",
+          "suit",
+          "hat"
+        ],
+        "actions": [
+          "pointing"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "alleyway",
+          "noir"
+        ],
+        "concepts": [
+          "confrontation",
+          "vintage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The hitman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The hitman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a classic suit and fedora stands in a narrow alleyway, pointing a gun directly at the viewer. The dim lighting and brick walls create a tense and dramatic atmosphere.",
+      "description": "The scene is set in a narrow, dimly lit alleyway, evoking a noir or vintage detective story. The man is dressed in a formal suit and fedora, holding a gun with a serious expression, suggesting a confrontation or dramatic moment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "gun",
+          "suit",
+          "fedora"
+        ],
+        "actions": [
+          "pointing"
+        ],
+        "emotions": [
+          "serious",
+          "tense"
+        ],
+        "scenes": [
+          "alleyway",
+          "noir"
+        ],
+        "concepts": [
+          "confrontation",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The hitman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The hitman/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in a classic suit and fedora stands in a narrow alleyway, pointing a gun directly at the viewer. The dim lighting casts shadows on the brick walls, enhancing the suspenseful atmosphere.",
+      "description": "The scene is set in a dimly lit alleyway, evoking a noir film vibe. A man dressed in a vintage suit and fedora is the central figure, holding a gun with a serious expression.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "gun",
+          "suit",
+          "fedora",
+          "brick walls"
+        ],
+        "actions": [
+          "pointing gun"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "alleyway",
+          "noir"
+        ],
+        "concepts": [
+          "suspense",
+          "vintage",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: gun, suit, fedora, hat, brick walls. Actions: pointing, pointing gun. Emotions: serious, tense. Scenes: alleyway, noir. Concepts: confrontation, vintage, drama, suspense, mystery",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "gun",
+      "suit",
+      "fedora",
+      "hat",
+      "brick walls"
+    ],
+    "actions": [
+      "pointing",
+      "pointing gun"
+    ],
+    "emotions": [
+      "serious",
+      "tense"
+    ],
+    "scenes": [
+      "alleyway",
+      "noir"
+    ],
+    "concepts": [
+      "confrontation",
+      "vintage",
+      "drama",
+      "suspense",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

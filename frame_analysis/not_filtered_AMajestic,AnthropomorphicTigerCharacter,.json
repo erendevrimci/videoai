@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajestic,AnthropomorphicTigerCharacter,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajestic,AnthropomorphicTigerCharacter,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMajestic,AnthropomorphicTigerCharacter,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid figure with a tiger's head stands in a desert setting, dressed in military gear. The figure exudes a sense of strength and readiness, with a blurred figure in the background adding depth to the scene.",
+      "description": "The scene depicts a surreal character with a tiger's head and a human body, clad in tactical military attire, set against a desert landscape. The image combines elements of fantasy and realism, creating a striking visual contrast.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "desert"
+        ],
+        "objects": [
+          "military gear",
+          "watch",
+          "scarf"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "strength",
+          "readiness"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "surrealism",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMajestic,AnthropomorphicTigerCharacter,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMajestic,AnthropomorphicTigerCharacter,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiger stands upright in a desert setting, wearing tactical military gear. The tiger's intense gaze is directed at the viewer, creating a striking and surreal image.",
+      "description": "The scene depicts a tiger in a desert environment, equipped with military attire including a tactical vest and various pouches. The background is a blurred sandy landscape, emphasizing the tiger's presence.",
+      "labels": {
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "tactical gear",
+          "military vest"
+        ],
+        "nature": [
+          "desert"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "surreal",
+          "desert"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "military"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid figure. Animals: tiger. Nature: desert. Objects: military gear, watch, scarf, tactical gear, military vest. Actions: standing. Emotions: strength, readiness, intensity. Scenes: desert landscape, surreal, desert. Concepts: surrealism, fantasy, anthropomorphism, military",
+  "primary_labels": {
+    "people": [
+      "humanoid figure"
+    ],
+    "animals": [
+      "tiger"
+    ],
+    "nature": [
+      "desert"
+    ],
+    "objects": [
+      "military gear",
+      "watch",
+      "scarf",
+      "tactical gear",
+      "military vest"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "strength",
+      "readiness",
+      "intensity"
+    ],
+    "scenes": [
+      "desert landscape",
+      "surreal",
+      "desert"
+    ],
+    "concepts": [
+      "surrealism",
+      "fantasy",
+      "anthropomorphism",
+      "military"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043b\u0435\u0432\u0430\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0418\u0423\u043b\u044b\u0431\u0430\u0435\u0442\u0441\u044f.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043b\u0435\u0432\u0430\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0418\u0423\u043b\u044b\u0431\u0430\u0435\u0442\u0441\u044f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0421\u043b\u0435\u0432\u0430\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0418\u0423\u043b\u044b\u0431\u0430\u0435\u0442\u0441\u044f/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features a split view with a contemporary portrait on the left and an older photograph on the right. The left side shows an older woman standing indoors, while the right side displays a younger version of the same woman in a formal portrait.",
+      "description": "The scene presents a juxtaposition of past and present through two portraits of the same woman at different ages. The left side is a modern setting with natural lighting, while the right side is a black-and-white photograph, likely taken years earlier.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "photograph",
+          "portrait"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "nostalgia"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "aging",
+          "time"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0421\u043b\u0435\u0432\u0430\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0418\u0423\u043b\u044b\u0431\u0430\u0435\u0442\u0441\u044f.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0421\u043b\u0435\u0432\u0430\u0416\u0435\u043d\u0449\u0438\u043d\u0430\u0421\u043c\u043e\u0442\u0440\u0438\u0442\u0418\u0423\u043b\u044b\u0431\u0430\u0435\u0442\u0441\u044f/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly woman is warmly embracing a young girl, both sharing a moment of affection. The woman is smiling broadly, conveying a sense of joy and tenderness.",
+      "description": "The scene captures a heartfelt interaction between an elderly woman and a young girl, set against a simple, neutral background. The focus is on their emotional connection, highlighted by the woman's gentle embrace and smile.",
+      "labels": {
+        "people": [
+          "elderly woman",
+          "young girl"
+        ],
+        "actions": [
+          "embracing",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "joy"
+        ],
+        "scenes": [
+          "intimate moment",
+          "family interaction"
+        ],
+        "concepts": [
+          "love",
+          "generational bond"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, elderly woman, young girl. Objects: photograph, portrait. Actions: standing, embracing, smiling. Emotions: nostalgia, affection, joy. Scenes: indoor, portrait, intimate moment, family interaction. Concepts: aging, time, love, generational bond",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "elderly woman",
+      "young girl"
+    ],
+    "objects": [
+      "photograph",
+      "portrait"
+    ],
+    "actions": [
+      "standing",
+      "embracing",
+      "smiling"
+    ],
+    "emotions": [
+      "nostalgia",
+      "affection",
+      "joy"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait",
+      "intimate moment",
+      "family interaction"
+    ],
+    "concepts": [
+      "aging",
+      "time",
+      "love",
+      "generational bond"
+    ]
+  },
+  "metadata": {}
+}

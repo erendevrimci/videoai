@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/DeLorean.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/DeLorean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/DeLorean/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A DeLorean car, reminiscent of a time machine, is parked in a muddy, overgrown area in front of an iconic Russian cathedral with colorful onion domes. The scene suggests a juxtaposition of futuristic technology and historical architecture, set against a backdrop of decay and neglect.",
+      "description": "The scene depicts a DeLorean car situated in a muddy, overgrown landscape, with the iconic Saint Basil's Cathedral in the background. This setting combines elements of futuristic technology with historical architecture, creating a surreal atmosphere.",
+      "labels": {
+        "objects": [
+          "DeLorean car",
+          "cathedral",
+          "mud",
+          "vegetation"
+        ],
+        "nature": [
+          "overgrown plants",
+          "muddy ground"
+        ],
+        "scenes": [
+          "urban decay",
+          "historical architecture"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "futurism vs history"
+        ],
+        "emotions": [
+          "surreal",
+          "neglect"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/DeLorean.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/DeLorean/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A weathered car is partially submerged in a muddy, overgrown area in front of a historic, ornate building with colorful domes. The scene suggests a post-apocalyptic setting with nature reclaiming the area. The building's architecture is reminiscent of Eastern European styles, adding a sense of historical significance to the desolate environment.",
+      "description": "The scene depicts a dystopian landscape where a classic car is stuck in mud, surrounded by overgrown vegetation. In the background, a grand, colorful domed building stands, partially obscured by mist and decay. The setting suggests abandonment and the passage of time, with nature overtaking human-made structures.",
+      "labels": {
+        "objects": [
+          "car",
+          "building",
+          "domes"
+        ],
+        "nature": [
+          "mud",
+          "vegetation"
+        ],
+        "scenes": [
+          "post-apocalyptic",
+          "urban decay"
+        ],
+        "concepts": [
+          "abandonment",
+          "nature reclaiming"
+        ],
+        "emotions": [
+          "desolation",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: DeLorean car, cathedral, mud, vegetation, car. Nature: overgrown plants, muddy ground, mud, vegetation. Scenes: urban decay, historical architecture, post-apocalyptic. Concepts: juxtaposition, futurism vs history, abandonment, nature reclaiming. Emotions: surreal, neglect, desolation, nostalgia",
+  "primary_labels": {
+    "objects": [
+      "DeLorean car",
+      "cathedral",
+      "mud",
+      "vegetation",
+      "car"
+    ],
+    "nature": [
+      "overgrown plants",
+      "muddy ground",
+      "mud",
+      "vegetation"
+    ],
+    "scenes": [
+      "urban decay",
+      "historical architecture",
+      "post-apocalyptic"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "futurism vs history",
+      "abandonment",
+      "nature reclaiming"
+    ],
+    "emotions": [
+      "surreal",
+      "neglect",
+      "desolation",
+      "nostalgia"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An angel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/An angel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene angelic figure with flowing blonde hair sits gracefully, enveloped by large, majestic white wings. The angel wears a flowing white gown, exuding a sense of peace and divinity in a softly lit, ethereal setting.",
+      "description": "The scene depicts a celestial being, an angel, seated in a tranquil and otherworldly environment. The focus is on the angel's serene expression and the grandeur of her wings, creating a divine and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "angel"
+        ],
+        "nature": [],
+        "objects": [
+          "wings",
+          "gown"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "peace"
+        ],
+        "scenes": [
+          "ethereal",
+          "celestial"
+        ],
+        "concepts": [
+          "divinity",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/An angel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene angelic figure with flowing blonde hair and large, white wings sits gracefully. The angel is dressed in a soft, white gown that drapes elegantly around her. The background is a subtle gradient of dark to light, enhancing the ethereal glow around her.",
+      "description": "The scene depicts an angelic figure in a calm and mystical setting. The focus is on the angel, highlighting her divine and peaceful presence.",
+      "labels": {
+        "people": [
+          "angel"
+        ],
+        "objects": [
+          "wings",
+          "gown"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mystical",
+          "ethereal"
+        ],
+        "concepts": [
+          "divinity",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/An angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/An angel/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene angelic figure with flowing blonde hair and large, white wings sits gracefully. The angel is dressed in a flowing white gown, exuding an ethereal and peaceful presence. The background is a soft, dark gradient, enhancing the angel's luminous appearance.",
+      "description": "The scene depicts a celestial setting with an angelic figure as the central focus. The angel is seated, with an aura of tranquility and divinity, set against a dark, contrasting background that highlights the purity and brightness of the figure.",
+      "labels": {
+        "people": [
+          "angelic figure"
+        ],
+        "nature": [
+          "wings"
+        ],
+        "objects": [
+          "gown"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "celestial",
+          "ethereal"
+        ],
+        "concepts": [
+          "divinity",
+          "purity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: angel, angelic figure. Nature: wings. Objects: gown, wings. Actions: sitting. Emotions: serenity, peace, peacefulness. Scenes: ethereal, celestial, mystical. Concepts: divinity, tranquility, peace, purity",
+  "primary_labels": {
+    "people": [
+      "angel",
+      "angelic figure"
+    ],
+    "nature": [
+      "wings"
+    ],
+    "objects": [
+      "gown",
+      "wings"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "serenity",
+      "peace",
+      "peacefulness"
+    ],
+    "scenes": [
+      "ethereal",
+      "celestial",
+      "mystical"
+    ],
+    "concepts": [
+      "divinity",
+      "tranquility",
+      "peace",
+      "purity"
+    ]
+  },
+  "metadata": {}
+}

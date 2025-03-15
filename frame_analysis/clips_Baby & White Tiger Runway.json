@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & White Tiger Runway.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & White Tiger Runway.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby & White Tiger Runway/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child dressed in a fluffy white costume sits atop a majestic white tiger. The scene is set in a warmly lit indoor environment with an audience in the background.",
+      "description": "The image captures a whimsical moment where a child in a bear-like costume is riding a white tiger. The setting appears to be a staged event or performance, with blurred spectators in the background, suggesting an audience watching the scene.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "indoor",
+          "performance"
+        ],
+        "concepts": [
+          "fantasy",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & White Tiger Runway.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby & White Tiger Runway/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child dressed in a fluffy white costume sits atop a large, realistic-looking white tiger. The scene is set in a crowded indoor environment with people in the background capturing the moment on their phones.",
+      "description": "The image captures a unique and playful scene where a child, dressed in a cozy animal-themed outfit, is positioned on a lifelike white tiger. The setting appears to be a public event or show, with an audience observing and taking photos.",
+      "labels": {
+        "people": [
+          "child",
+          "audience"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "costume",
+          "phones"
+        ],
+        "actions": [
+          "sitting",
+          "photographing"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "public event",
+          "indoor"
+        ],
+        "concepts": [
+          "imagination",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, audience. Animals: tiger. Objects: costume, phones. Actions: riding, sitting, photographing. Emotions: curiosity, wonder. Scenes: indoor, performance, public event. Concepts: fantasy, innocence, imagination, playfulness",
+  "primary_labels": {
+    "people": [
+      "child",
+      "audience"
+    ],
+    "animals": [
+      "tiger"
+    ],
+    "objects": [
+      "costume",
+      "phones"
+    ],
+    "actions": [
+      "riding",
+      "sitting",
+      "photographing"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder"
+    ],
+    "scenes": [
+      "indoor",
+      "performance",
+      "public event"
+    ],
+    "concepts": [
+      "fantasy",
+      "innocence",
+      "imagination",
+      "playfulness"
+    ]
+  },
+  "metadata": {}
+}

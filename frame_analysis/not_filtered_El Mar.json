@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El Mar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El Mar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/El Mar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dimly lit room with rich red curtains, a man sits with his eyes closed, deeply engaged in clapping to the rhythm. Beside him, another man plays a guitar, focusing intently on the music.",
+      "description": "The scene captures an intimate musical performance, possibly in a small venue or studio. The focus is on the emotional connection between the performers and the music.",
+      "labels": {
+        "people": [
+          "man",
+          "guitarist"
+        ],
+        "objects": [
+          "guitar",
+          "curtains"
+        ],
+        "actions": [
+          "clapping",
+          "playing guitar"
+        ],
+        "emotions": [
+          "concentration",
+          "passion"
+        ],
+        "scenes": [
+          "musical performance",
+          "intimate setting"
+        ],
+        "concepts": [
+          "music",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El Mar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/El Mar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a dimly lit room, two men are engaged in an intimate musical performance. One man is playing a guitar while the other appears to be deeply engrossed in thought or prayer, with his hands clasped together.",
+      "description": "The scene takes place in a dark, intimate setting, possibly a small stage or a private room. The focus is on the emotional connection between the two men, enhanced by the soft lighting and shadows.",
+      "labels": {
+        "people": [
+          "man1",
+          "man2"
+        ],
+        "objects": [
+          "guitar",
+          "shirt"
+        ],
+        "actions": [
+          "playing guitar",
+          "clasping hands"
+        ],
+        "emotions": [
+          "introspection",
+          "concentration"
+        ],
+        "scenes": [
+          "musical performance",
+          "intimate setting"
+        ],
+        "concepts": [
+          "music",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El Mar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/El Mar/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "In a dimly lit room, a man in the foreground clasps his hands together, deep in thought or emotion, while another man in the background plays a guitar. The scene is intimate and focused, with soft lighting highlighting the expressions and actions of the individuals.",
+      "description": "The scene captures an intimate musical setting, possibly a small performance or rehearsal. The focus is on the emotional connection between the individuals and the music.",
+      "labels": {
+        "people": [
+          "man",
+          "musician"
+        ],
+        "objects": [
+          "guitar",
+          "shirt"
+        ],
+        "actions": [
+          "playing guitar",
+          "contemplating"
+        ],
+        "emotions": [
+          "introspective",
+          "focused"
+        ],
+        "scenes": [
+          "musical performance",
+          "intimate setting"
+        ],
+        "concepts": [
+          "music",
+          "emotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, guitarist, man1, man2, musician. Objects: guitar, shirt, curtains. Actions: playing guitar, clapping, clasping hands, contemplating. Emotions: concentration, passion, introspection, introspective, focused. Scenes: musical performance, intimate setting. Concepts: music, emotion",
+  "primary_labels": {
+    "people": [
+      "man",
+      "guitarist",
+      "man1",
+      "man2",
+      "musician"
+    ],
+    "objects": [
+      "guitar",
+      "shirt",
+      "curtains"
+    ],
+    "actions": [
+      "playing guitar",
+      "clapping",
+      "clasping hands",
+      "contemplating"
+    ],
+    "emotions": [
+      "concentration",
+      "passion",
+      "introspection",
+      "introspective",
+      "focused"
+    ],
+    "scenes": [
+      "musical performance",
+      "intimate setting"
+    ],
+    "concepts": [
+      "music",
+      "emotion"
+    ]
+  },
+  "metadata": {}
+}

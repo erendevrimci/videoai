@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Magical Corgi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Magical Corgi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Magical Corgi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A corgi wearing a small wizard hat sits attentively in a cozy log cabin, surrounded by flickering candles and a bubbling cauldron emitting blue smoke. The scene is warmly lit, with a large window revealing a forest outside.",
+      "description": "The scene is set in a rustic log cabin, creating a magical and cozy atmosphere. A corgi is the focal point, sitting near a cauldron with blue smoke, suggesting a whimsical or magical theme.",
+      "labels": {
+        "animals": [
+          "corgi"
+        ],
+        "objects": [
+          "cauldron",
+          "candles",
+          "books",
+          "wizard hat"
+        ],
+        "actions": [
+          "sitting",
+          "bubbling"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "cabin interior",
+          "forest view"
+        ],
+        "concepts": [
+          "magic",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Magical Corgi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Magical Corgi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A corgi wearing a wizard hat sits attentively in a cozy cabin, gazing at a steaming cauldron with blue smoke. The room is warmly lit by numerous candles, creating a magical and enchanting atmosphere.",
+      "description": "The scene takes place in a rustic cabin surrounded by a forest, visible through a large window. The setting is mystical, with a corgi seemingly engaged in a magical ritual or spellcasting, surrounded by books and candles.",
+      "labels": {
+        "animals": [
+          "corgi"
+        ],
+        "objects": [
+          "cauldron",
+          "candles",
+          "books",
+          "wizard hat"
+        ],
+        "actions": [
+          "gazing",
+          "spellcasting"
+        ],
+        "emotions": [
+          "curiosity",
+          "enchantment"
+        ],
+        "scenes": [
+          "cabin",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: corgi. Objects: cauldron, candles, books, wizard hat. Actions: sitting, bubbling, gazing, spellcasting. Emotions: curiosity, enchantment. Scenes: cabin interior, forest view, cabin, forest. Concepts: magic, coziness",
+  "primary_labels": {
+    "animals": [
+      "corgi"
+    ],
+    "objects": [
+      "cauldron",
+      "candles",
+      "books",
+      "wizard hat"
+    ],
+    "actions": [
+      "sitting",
+      "bubbling",
+      "gazing",
+      "spellcasting"
+    ],
+    "emotions": [
+      "curiosity",
+      "enchantment"
+    ],
+    "scenes": [
+      "cabin interior",
+      "forest view",
+      "cabin",
+      "forest"
+    ],
+    "concepts": [
+      "magic",
+      "coziness"
+    ]
+  },
+  "metadata": {}
+}

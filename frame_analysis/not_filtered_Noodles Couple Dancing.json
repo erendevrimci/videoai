@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noodles Couple Dancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noodles Couple Dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Noodles Couple Dancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a warmly lit kitchen, two figures made of spaghetti stand on a plate, appearing to hold hands. Sunlight streams through a window, casting a gentle glow on the scene.",
+      "description": "The scene is set in a cozy kitchen with sunlight filtering through a window, illuminating a plate of spaghetti. Two human-like figures crafted from the pasta are positioned on top, creating a whimsical and artistic display.",
+      "labels": {
+        "objects": [
+          "plate",
+          "spaghetti",
+          "window"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "kitchen",
+          "artistic display"
+        ],
+        "concepts": [
+          "creativity",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noodles Couple Dancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Noodles Couple Dancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a warmly lit kitchen, two figures made of spaghetti stand atop a plate of pasta, appearing to engage in a gentle handshake. Sunlight streams through a window, casting a soft glow on the whimsical scene.",
+      "description": "The scene is set in a cozy kitchen with sunlight filtering through a window, illuminating two spaghetti figures on a plate. The figures, crafted from pasta, seem to be interacting in a friendly manner, adding a touch of whimsy to the everyday setting.",
+      "labels": {
+        "people": [
+          "spaghetti figures"
+        ],
+        "objects": [
+          "plate",
+          "spaghetti",
+          "window"
+        ],
+        "actions": [
+          "handshake"
+        ],
+        "emotions": [
+          "whimsical",
+          "friendly"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "creativity",
+          "art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: plate, spaghetti, window. Actions: holding hands, handshake. Emotions: whimsical, serene, friendly. Scenes: kitchen, artistic display. Concepts: creativity, art. People: spaghetti figures",
+  "primary_labels": {
+    "objects": [
+      "plate",
+      "spaghetti",
+      "window"
+    ],
+    "actions": [
+      "holding hands",
+      "handshake"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene",
+      "friendly"
+    ],
+    "scenes": [
+      "kitchen",
+      "artistic display"
+    ],
+    "concepts": [
+      "creativity",
+      "art"
+    ],
+    "people": [
+      "spaghetti figures"
+    ]
+  },
+  "metadata": {}
+}

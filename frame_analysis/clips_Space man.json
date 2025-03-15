@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Space man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Space man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Space man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An astronaut stands on a rocky, dusty terrain of a distant planet, holding a glowing blue orb. The scene is set against a backdrop of towering cliffs and a hazy, star-filled sky with a visible planet in the distance.",
+      "description": "The scene depicts an astronaut exploring an alien landscape, possibly Mars or a similar planet. The environment is characterized by its reddish-brown rocky terrain and a dramatic sky, suggesting an extraterrestrial setting.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "nature": [
+          "planet",
+          "cliffs",
+          "dust"
+        ],
+        "objects": [
+          "space suit",
+          "glowing orb"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "mystery",
+          "exploration"
+        ],
+        "scenes": [
+          "alien landscape",
+          "space exploration"
+        ],
+        "concepts": [
+          "extraterrestrial",
+          "discovery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Space man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Space man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An astronaut stands on a rocky extraterrestrial landscape, holding a glowing, holographic object. The starry sky above adds to the otherworldly atmosphere, highlighting the advanced technology in use.",
+      "description": "The scene depicts an astronaut on an alien planet, interacting with a holographic display. The setting is a rocky, barren landscape under a star-filled sky, suggesting exploration and discovery.",
+      "labels": {
+        "people": [
+          "astronaut"
+        ],
+        "objects": [
+          "spacesuit",
+          "hologram"
+        ],
+        "actions": [
+          "holding",
+          "interacting"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "alien landscape",
+          "night sky"
+        ],
+        "concepts": [
+          "space exploration",
+          "advanced technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: astronaut. Nature: planet, cliffs, dust. Objects: space suit, glowing orb, spacesuit, hologram. Actions: holding, standing, interacting. Emotions: mystery, exploration, curiosity. Scenes: alien landscape, space exploration, night sky. Concepts: extraterrestrial, discovery, space exploration, advanced technology",
+  "primary_labels": {
+    "people": [
+      "astronaut"
+    ],
+    "nature": [
+      "planet",
+      "cliffs",
+      "dust"
+    ],
+    "objects": [
+      "space suit",
+      "glowing orb",
+      "spacesuit",
+      "hologram"
+    ],
+    "actions": [
+      "holding",
+      "standing",
+      "interacting"
+    ],
+    "emotions": [
+      "mystery",
+      "exploration",
+      "curiosity"
+    ],
+    "scenes": [
+      "alien landscape",
+      "space exploration",
+      "night sky"
+    ],
+    "concepts": [
+      "extraterrestrial",
+      "discovery",
+      "space exploration",
+      "advanced technology"
+    ]
+  },
+  "metadata": {}
+}

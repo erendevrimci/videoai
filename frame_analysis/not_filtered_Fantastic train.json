@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fantastic train.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fantastic train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fantastic train/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fantastical steam train glides through the sky, surrounded by fluffy clouds and hot air balloons. The train's intricate design features golden accents and vintage details, creating a sense of wonder and nostalgia. The scene is bathed in warm, golden light, enhancing the dreamlike atmosphere.",
+      "description": "The scene depicts a surreal, steampunk-inspired train traveling through the sky amidst clouds and hot air balloons. The setting is otherworldly, combining elements of fantasy and retro-futurism.",
+      "labels": {
+        "objects": [
+          "train",
+          "clouds",
+          "hot air balloons"
+        ],
+        "actions": [
+          "gliding",
+          "floating"
+        ],
+        "emotions": [
+          "wonder",
+          "nostalgia"
+        ],
+        "scenes": [
+          "fantasy",
+          "steampunk"
+        ],
+        "concepts": [
+          "surrealism",
+          "retro-futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Fantastic train.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Fantastic train/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fantastical steam train travels through the sky, surrounded by fluffy clouds and hot air balloons. The train is ornately decorated with intricate details, and its path is illuminated by a warm, golden light. Birds fly alongside, enhancing the whimsical atmosphere.",
+      "description": "The scene depicts a surreal, dreamlike setting where a vintage steam train glides through the sky amidst clouds. Hot air balloons float nearby, adding to the fantastical nature of the scene.",
+      "labels": {
+        "objects": [
+          "steam train",
+          "hot air balloons",
+          "clouds"
+        ],
+        "actions": [
+          "traveling",
+          "floating"
+        ],
+        "emotions": [
+          "whimsical",
+          "dreamlike"
+        ],
+        "scenes": [
+          "fantasy",
+          "aerial"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: clouds, hot air balloons, train, steam train. Actions: floating, gliding, traveling. Emotions: wonder, nostalgia, whimsical, dreamlike. Scenes: fantasy, steampunk, aerial. Concepts: surrealism, retro-futurism, imagination",
+  "primary_labels": {
+    "objects": [
+      "clouds",
+      "hot air balloons",
+      "train",
+      "steam train"
+    ],
+    "actions": [
+      "floating",
+      "gliding",
+      "traveling"
+    ],
+    "emotions": [
+      "wonder",
+      "nostalgia",
+      "whimsical",
+      "dreamlike"
+    ],
+    "scenes": [
+      "fantasy",
+      "steampunk",
+      "aerial"
+    ],
+    "concepts": [
+      "surrealism",
+      "retro-futurism",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

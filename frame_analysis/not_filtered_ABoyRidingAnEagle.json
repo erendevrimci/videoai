@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABoyRidingAnEagle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABoyRidingAnEagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABoyRidingAnEagle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child rides a majestic white Pegasus through a breathtaking mountain landscape. The sky is filled with fluffy clouds, and a bird soars nearby, adding to the sense of freedom and adventure.",
+      "description": "The scene depicts a fantastical journey through a serene and expansive mountain range. The child and Pegasus are mid-flight, surrounded by towering peaks and a vast, open sky.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "Pegasus",
+          "bird"
+        ],
+        "nature": [
+          "mountains",
+          "clouds",
+          "sky"
+        ],
+        "objects": [],
+        "actions": [
+          "riding",
+          "flying"
+        ],
+        "emotions": [
+          "adventure",
+          "freedom"
+        ],
+        "scenes": [
+          "fantasy",
+          "mountain landscape"
+        ],
+        "concepts": [
+          "fantasy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABoyRidingAnEagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABoyRidingAnEagle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy rides a majestic white pegasus through a breathtaking mountainous landscape. The sky is filled with fluffy clouds and birds soaring high, creating a sense of freedom and adventure.",
+      "description": "The scene depicts a fantasy setting where a boy is riding a flying horse, known as a pegasus, amidst towering mountains and a vast sky. The atmosphere is serene and adventurous, evoking a sense of wonder and exploration.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "pegasus",
+          "birds"
+        ],
+        "nature": [
+          "mountains",
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "cap",
+          "saddle"
+        ],
+        "actions": [
+          "riding",
+          "flying"
+        ],
+        "emotions": [
+          "adventure",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "mountainous landscape"
+        ],
+        "concepts": [
+          "freedom",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, boy. Animals: Pegasus, bird, pegasus, birds. Nature: mountains, clouds, sky. Objects: cap, saddle. Actions: riding, flying. Emotions: adventure, freedom, wonder. Scenes: fantasy, mountain landscape, mountainous landscape. Concepts: fantasy, adventure, freedom, exploration",
+  "primary_labels": {
+    "people": [
+      "child",
+      "boy"
+    ],
+    "animals": [
+      "Pegasus",
+      "bird",
+      "pegasus",
+      "birds"
+    ],
+    "nature": [
+      "mountains",
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "cap",
+      "saddle"
+    ],
+    "actions": [
+      "riding",
+      "flying"
+    ],
+    "emotions": [
+      "adventure",
+      "freedom",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "mountain landscape",
+      "mountainous landscape"
+    ],
+    "concepts": [
+      "fantasy",
+      "adventure",
+      "freedom",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bela e a fogo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bela e a fogo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/bela e a fogo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long hair is depicted in a mystical setting, holding her hands out as if conjuring or controlling small sparks of light. Her expression is focused and serene, suggesting a sense of control and magic.",
+      "description": "The scene portrays a mystical and magical atmosphere, with a young woman seemingly performing an act of magic or enchantment. The background is dark, enhancing the glow of the sparks around her hands.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "sparks",
+          "light"
+        ],
+        "actions": [
+          "conjuring",
+          "controlling"
+        ],
+        "emotions": [
+          "focused",
+          "serene"
+        ],
+        "scenes": [
+          "mystical",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/bela e a fogo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/bela e a fogo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands with an intense expression, holding a flame in her outstretched hand. The fire illuminates her face, casting a warm glow against a dark, smoky background.",
+      "description": "The scene depicts a mystical setting where a woman appears to be conjuring or controlling fire. The atmosphere is dramatic and magical, with a focus on the interplay between light and shadow.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "flame"
+        ],
+        "actions": [
+          "holding",
+          "conjuring"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "mystical",
+          "dramatic"
+        ],
+        "concepts": [
+          "magic",
+          "fire control"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Objects: sparks, light, flame. Actions: conjuring, controlling, holding. Emotions: focused, serene, intense. Scenes: mystical, magical, dramatic. Concepts: magic, enchantment, fire control",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "objects": [
+      "sparks",
+      "light",
+      "flame"
+    ],
+    "actions": [
+      "conjuring",
+      "controlling",
+      "holding"
+    ],
+    "emotions": [
+      "focused",
+      "serene",
+      "intense"
+    ],
+    "scenes": [
+      "mystical",
+      "magical",
+      "dramatic"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "fire control"
+    ]
+  },
+  "metadata": {}
+}

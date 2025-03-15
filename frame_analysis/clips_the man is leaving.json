@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the man is leaving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the man is leaving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the man is leaving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a dark coat walks down a city street during sunset. The warm glow of the setting sun casts long shadows and illuminates the street with a golden hue. Flower baskets hang from the building, adding a touch of color to the scene.",
+      "description": "The scene is set in an urban environment during sunset, with a man walking along a sidewalk. The street is lined with buildings, and there are a few pedestrians in the background. The atmosphere is calm and serene, enhanced by the warm lighting.",
+      "labels": {
+        "people": [
+          "man",
+          "pedestrians"
+        ],
+        "nature": [
+          "flowers",
+          "sunset"
+        ],
+        "objects": [
+          "coat",
+          "flower baskets",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "serenity",
+          "evening"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the man is leaving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the man is leaving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man walks down a sunlit street during golden hour, casting a warm glow on his surroundings. He is dressed in a dark coat, and the soft light highlights his features as he moves forward with a contemplative expression.",
+      "description": "The scene captures a man walking along a city street during the golden hour, with sunlight creating a warm and serene atmosphere. The background is softly blurred, suggesting an urban setting with buildings and trees.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "coat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "city street",
+          "golden hour"
+        ],
+        "concepts": [
+          "urban",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, pedestrians. Nature: flowers, sunset. Objects: coat, flower baskets, buildings. Actions: walking. Emotions: calm, contemplative. Scenes: urban, street, city street, golden hour. Concepts: serenity, evening, urban",
+  "primary_labels": {
+    "people": [
+      "man",
+      "pedestrians"
+    ],
+    "nature": [
+      "flowers",
+      "sunset"
+    ],
+    "objects": [
+      "coat",
+      "flower baskets",
+      "buildings"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "city street",
+      "golden hour"
+    ],
+    "concepts": [
+      "serenity",
+      "evening",
+      "urban"
+    ]
+  },
+  "metadata": {}
+}

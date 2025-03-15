@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Climbing mountain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Climbing mountain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Climbing mountain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is climbing a rocky cliff with determination, set against a backdrop of lush green mountains. She is wearing a backpack and casual outdoor attire, focusing intently on her ascent. The scene captures a moment of adventure and perseverance in a natural setting.",
+      "description": "The scene is set in a mountainous area with a woman climbing a rocky surface. The background features expansive green hills and a winding road, suggesting a remote and serene outdoor location. The woman appears focused and determined as she navigates the challenging terrain.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "rocky cliff"
+        ],
+        "objects": [
+          "backpack"
+        ],
+        "actions": [
+          "climbing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "adventure"
+        ],
+        "concepts": [
+          "perseverance",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Climbing mountain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Climbing mountain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is climbing a rocky mountain with determination. She is focused and appears to be in a natural setting with expansive views of mountains and valleys in the background.",
+      "description": "The scene depicts a woman engaged in rock climbing on a mountain. The setting is outdoors, surrounded by a vast landscape of mountains and forests, suggesting a remote and adventurous location.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountain",
+          "valley",
+          "forest"
+        ],
+        "objects": [
+          "backpack",
+          "rocks"
+        ],
+        "actions": [
+          "climbing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "adventure"
+        ],
+        "concepts": [
+          "exploration",
+          "challenge"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: mountains, rocky cliff, mountain, valley, forest. Objects: backpack, rocks. Actions: climbing. Emotions: determination. Scenes: outdoor, adventure. Concepts: exploration, perseverance, challenge",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "mountains",
+      "rocky cliff",
+      "mountain",
+      "valley",
+      "forest"
+    ],
+    "objects": [
+      "backpack",
+      "rocks"
+    ],
+    "actions": [
+      "climbing"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "outdoor",
+      "adventure"
+    ],
+    "concepts": [
+      "exploration",
+      "perseverance",
+      "challenge"
+    ]
+  },
+  "metadata": {}
+}

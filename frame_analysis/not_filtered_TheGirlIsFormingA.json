@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsFormingA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsFormingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlIsFormingA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands confidently against a plain background, wearing a yellow tube top and blue jeans. Her expression is calm and composed, with one hand on her hip.",
+      "description": "The scene captures a young woman posing indoors, likely in a room with minimal decoration. The setting is simple, focusing attention on her expression and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing",
+          "yellow tube top",
+          "blue jeans"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "calm"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlIsFormingA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlIsFormingA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands against a plain background, forming a heart shape with her hands. She is wearing a yellow tube top and has a gentle smile on her face.",
+      "description": "The scene captures a woman in a casual indoor setting, focusing on her expressive gesture of forming a heart with her hands. The neutral background emphasizes her presence and the gesture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "tube top"
+        ],
+        "actions": [
+          "hand gesture",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "affection"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "expression",
+          "gesture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: clothing, yellow tube top, blue jeans, tube top. Actions: posing, hand gesture, smiling. Emotions: confidence, calm, happiness, affection. Scenes: indoor, portrait. Concepts: fashion, portrait, expression, gesture",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "clothing",
+      "yellow tube top",
+      "blue jeans",
+      "tube top"
+    ],
+    "actions": [
+      "posing",
+      "hand gesture",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "happiness",
+      "affection"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "portrait",
+      "expression",
+      "gesture"
+    ]
+  },
+  "metadata": {}
+}

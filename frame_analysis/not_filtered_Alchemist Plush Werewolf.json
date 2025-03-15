@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Alchemist Plush Werewolf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Alchemist Plush Werewolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Alchemist Plush Werewolf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical creature with vibrant purple fur and large blue eyes sits on a wooden table surrounded by various jars and a glowing lantern. The setting appears cozy and magical, with warm lighting and a blurred background suggesting an enchanting workshop or study.",
+      "description": "The scene is set in a cozy, magical workshop filled with warm, ambient lighting. A fantastical creature with colorful fur is the focal point, surrounded by jars containing mysterious substances and a lantern casting a soft glow.",
+      "labels": {
+        "animals": [
+          "fantastical creature"
+        ],
+        "objects": [
+          "jars",
+          "lantern",
+          "wooden table"
+        ],
+        "scenes": [
+          "magical workshop",
+          "cozy setting"
+        ],
+        "concepts": [
+          "fantasy",
+          "enchantment"
+        ],
+        "emotions": [
+          "whimsical",
+          "curious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Alchemist Plush Werewolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Alchemist Plush Werewolf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical creature with vibrant purple fur and large blue eyes sits at a wooden table surrounded by various potion bottles and a glowing lantern. The scene is set in a cozy, dimly lit room with a warm, magical atmosphere.",
+      "description": "The image depicts a fantastical setting where a cute, furry creature appears to be engaged in potion-making or alchemy. The room is softly illuminated by a lantern, creating a mystical and inviting ambiance.",
+      "labels": {
+        "people": [],
+        "animals": [
+          "fantasy creature"
+        ],
+        "nature": [],
+        "objects": [
+          "potion bottles",
+          "lantern",
+          "wooden table"
+        ],
+        "actions": [
+          "sitting",
+          "potion-making"
+        ],
+        "emotions": [
+          "curiosity",
+          "whimsy"
+        ],
+        "scenes": [
+          "magical",
+          "cozy room"
+        ],
+        "concepts": [
+          "fantasy",
+          "alchemy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fantastical creature, fantasy creature. Objects: lantern, wooden table, jars, potion bottles. Scenes: magical workshop, cozy setting, magical, cozy room. Concepts: fantasy, enchantment, alchemy. Emotions: whimsical, curious, curiosity, whimsy. Actions: sitting, potion-making",
+  "primary_labels": {
+    "animals": [
+      "fantastical creature",
+      "fantasy creature"
+    ],
+    "objects": [
+      "lantern",
+      "wooden table",
+      "jars",
+      "potion bottles"
+    ],
+    "scenes": [
+      "magical workshop",
+      "cozy setting",
+      "magical",
+      "cozy room"
+    ],
+    "concepts": [
+      "fantasy",
+      "enchantment",
+      "alchemy"
+    ],
+    "emotions": [
+      "whimsical",
+      "curious",
+      "curiosity",
+      "whimsy"
+    ],
+    "people": [],
+    "nature": [],
+    "actions": [
+      "sitting",
+      "potion-making"
+    ]
+  },
+  "metadata": {}
+}

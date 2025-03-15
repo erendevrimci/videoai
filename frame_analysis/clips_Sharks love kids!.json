@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sharks love kids!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sharks love kids!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sharks love kids!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child with curly hair and a big smile is underwater, wearing goggles and playfully interacting with a realistic-looking shark model. The scene is vibrant and full of energy, capturing the joy and excitement of underwater exploration.",
+      "description": "The image depicts a playful underwater scene where a child is engaging with a model of a shark. The setting is likely in a pool or controlled environment, emphasizing a sense of adventure and fun.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "shark model"
+        ],
+        "objects": [
+          "goggles"
+        ],
+        "actions": [
+          "smiling",
+          "swimming"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "playfulness",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sharks love kids!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sharks love kids!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person wearing goggles is swimming underwater alongside a shark. The scene captures the dynamic movement of water and the close proximity of the swimmer to the shark.",
+      "description": "The image depicts an underwater scene where a person is swimming closely with a shark. The water is clear, allowing visibility of both the swimmer and the shark, creating a thrilling and adventurous atmosphere.",
+      "labels": {
+        "people": [
+          "swimmer"
+        ],
+        "animals": [
+          "shark"
+        ],
+        "nature": [
+          "underwater",
+          "ocean"
+        ],
+        "objects": [
+          "goggles"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "thrill"
+        ],
+        "scenes": [
+          "underwater scene"
+        ],
+        "concepts": [
+          "adventure",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, swimmer. Animals: shark model, shark. Objects: goggles. Actions: swimming, smiling. Emotions: joy, excitement, thrill. Scenes: underwater, underwater scene. Concepts: adventure, playfulness, marine life. Nature: underwater, ocean",
+  "primary_labels": {
+    "people": [
+      "child",
+      "swimmer"
+    ],
+    "animals": [
+      "shark model",
+      "shark"
+    ],
+    "objects": [
+      "goggles"
+    ],
+    "actions": [
+      "swimming",
+      "smiling"
+    ],
+    "emotions": [
+      "joy",
+      "excitement",
+      "thrill"
+    ],
+    "scenes": [
+      "underwater",
+      "underwater scene"
+    ],
+    "concepts": [
+      "adventure",
+      "playfulness",
+      "marine life"
+    ],
+    "nature": [
+      "underwater",
+      "ocean"
+    ]
+  },
+  "metadata": {}
+}

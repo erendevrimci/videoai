@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fashionista pose 2.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fashionista pose 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fashionista pose 2/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person poses elegantly against a vibrant red backdrop, wearing a striking white outfit with dramatic sleeves and a matching hat. The attire features intricate designs and a structured silhouette, evoking a sense of high fashion. The subject's expression is poised and confident, adding to the sophisticated atmosphere.",
+      "description": "The scene is set in a studio with a bold red background, highlighting a fashion-forward individual. The focus is on the unique and stylish clothing, which includes a white top with voluminous sleeves and a woven skirt. The lighting accentuates the textures and colors, creating a dramatic and artistic composition.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hat",
+          "dress",
+          "gloves"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion shoot"
+        ],
+        "concepts": [
+          "elegance",
+          "high fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fashionista pose 2.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fashionista pose 2/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in an elegant, structured white outfit poses against a rich red backdrop. She wears a wide-brimmed hat and gazes thoughtfully into the distance, her hand gently resting on her cheek.",
+      "description": "The scene captures a fashion-forward moment with a focus on style and elegance. The setting is likely a studio environment, emphasizing the contrast between the model's attire and the vibrant background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hat",
+          "dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "fashion",
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: hat, dress, gloves. Actions: posing. Emotions: confidence, thoughtful. Scenes: fashion shoot, fashion, studio. Concepts: elegance, high fashion, style",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "hat",
+      "dress",
+      "gloves"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "thoughtful"
+    ],
+    "scenes": [
+      "fashion shoot",
+      "fashion",
+      "studio"
+    ],
+    "concepts": [
+      "elegance",
+      "high fashion",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

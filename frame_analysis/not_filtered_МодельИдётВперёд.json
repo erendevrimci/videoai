@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041c\u043e\u0434\u0435\u043b\u044c\u0418\u0434\u0451\u0442\u0412\u043f\u0435\u0440\u0451\u0434.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041c\u043e\u0434\u0435\u043b\u044c\u0418\u0434\u0451\u0442\u0412\u043f\u0435\u0440\u0451\u0434.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u041c\u043e\u0434\u0435\u043b\u044c\u0418\u0434\u0451\u0442\u0412\u043f\u0435\u0440\u0451\u0434/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman walks along a paved path near a running track, holding sunglasses in her hand. She is dressed in a casual peach-colored outfit and pink sneakers, with her hair tied back in a ponytail.",
+      "description": "The scene is set outdoors near a running track, suggesting a casual or athletic environment. The woman appears to be taking a leisurely walk, possibly after a workout or during a break.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sunglasses",
+          "sneakers",
+          "outfit"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "athletic track"
+        ],
+        "concepts": [
+          "casual",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u041c\u043e\u0434\u0435\u043b\u044c\u0418\u0434\u0451\u0442\u0412\u043f\u0435\u0440\u0451\u0434.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u041c\u043e\u0434\u0435\u043b\u044c\u0418\u0434\u0451\u0442\u0412\u043f\u0435\u0440\u0451\u0434/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is walking confidently along a paved path in a park. She is dressed in athletic wear, including a black crop top and leggings, with pink sneakers.",
+      "description": "The scene takes place in an outdoor park setting, featuring a woman walking on a paved path next to a running track. The background is lush with greenery and trees, suggesting a serene and natural environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "trees",
+          "grass"
+        ],
+        "objects": [
+          "athletic wear",
+          "sneakers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "park",
+          "outdoor"
+        ],
+        "concepts": [
+          "fitness",
+          "exercise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: sneakers, sunglasses, outfit, athletic wear. Actions: walking. Emotions: calm, confidence. Scenes: outdoor, athletic track, park. Concepts: casual, leisure, fitness, exercise. Nature: trees, grass",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "sneakers",
+      "sunglasses",
+      "outfit",
+      "athletic wear"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "confidence"
+    ],
+    "scenes": [
+      "outdoor",
+      "athletic track",
+      "park"
+    ],
+    "concepts": [
+      "casual",
+      "leisure",
+      "fitness",
+      "exercise"
+    ],
+    "nature": [
+      "trees",
+      "grass"
+    ]
+  },
+  "metadata": {}
+}

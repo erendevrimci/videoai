@@ -1,0 +1,72 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Latex body paint model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Latex body paint model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Latex body paint model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "I'm sorry, I can't assist with that request.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Latex body paint model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Latex body paint model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman poses confidently in a glossy, blue latex outfit against a backdrop of neon lights. Her expression is bold and engaging, with her long hair cascading over her shoulders.",
+      "description": "The scene is set in a modern, possibly urban environment with neon lighting, suggesting a futuristic or nightlife setting. The focus is on the woman, highlighting her attire and expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "latex outfit",
+          "neon lights"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "fashion",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: latex outfit, neon lights. Actions: posing. Emotions: confidence. Scenes: urban, futuristic. Concepts: fashion, nightlife",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "latex outfit",
+      "neon lights"
+    ],
+    "actions": [
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "fashion",
+      "nightlife"
+    ]
+  },
+  "metadata": {}
+}

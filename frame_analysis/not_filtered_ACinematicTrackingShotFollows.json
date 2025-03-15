@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicTrackingShotFollows.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicTrackingShotFollows.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicTrackingShotFollows/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three skiers stand on a snowy slope in front of a large sign reading 'AVORIAZ'. The backdrop features majestic snow-covered mountains under a clear blue sky.",
+      "description": "The scene is set on a ski slope in a mountainous region, likely a popular ski resort. Three individuals are equipped with skiing gear, posing for a photo in front of a prominent sign, with expansive mountain views in the background.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "skis",
+          "ski poles",
+          "sign"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "ski resort",
+          "mountain landscape"
+        ],
+        "concepts": [
+          "winter sports",
+          "outdoor recreation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicTrackingShotFollows.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicTrackingShotFollows/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two skiers in vibrant gear glide down a pristine snowy slope, leaving trails in the fresh powder. The expansive mountain range in the background is bathed in sunlight, creating a breathtaking alpine scene.",
+      "description": "The scene captures a dynamic moment of skiing in a mountainous region, with two individuals navigating a wide, snow-covered slope. The setting is a sunny day in the mountains, offering a clear view of the surrounding peaks.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "nature": [
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "ski poles",
+          "ski gear"
+        ],
+        "actions": [
+          "skiing",
+          "gliding"
+        ],
+        "emotions": [
+          "exhilaration"
+        ],
+        "scenes": [
+          "alpine",
+          "outdoor sports"
+        ],
+        "concepts": [
+          "adventure",
+          "winter sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skiers. Nature: mountains, snow. Objects: ski poles, skis, sign, ski gear. Actions: posing, skiing, gliding. Emotions: joy, exhilaration. Scenes: ski resort, mountain landscape, alpine, outdoor sports. Concepts: winter sports, outdoor recreation, adventure",
+  "primary_labels": {
+    "people": [
+      "skiers"
+    ],
+    "nature": [
+      "mountains",
+      "snow"
+    ],
+    "objects": [
+      "ski poles",
+      "skis",
+      "sign",
+      "ski gear"
+    ],
+    "actions": [
+      "posing",
+      "skiing",
+      "gliding"
+    ],
+    "emotions": [
+      "joy",
+      "exhilaration"
+    ],
+    "scenes": [
+      "ski resort",
+      "mountain landscape",
+      "alpine",
+      "outdoor sports"
+    ],
+    "concepts": [
+      "winter sports",
+      "outdoor recreation",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

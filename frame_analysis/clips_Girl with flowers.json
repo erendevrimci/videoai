@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with flowers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with flowers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with flowers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl walks along a path bordered by a vibrant wall of yellow flowers. The scene captures her from behind, highlighting her casual attire and the lush floral backdrop.",
+      "description": "The image depicts a serene outdoor setting where a girl is walking beside a wall densely covered with bright yellow flowers. The path is paved, suggesting a garden or park environment.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "flowers",
+          "plants"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "serenity",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with flowers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with flowers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person walks along a path bordered by a vibrant wall of yellow flowers. The flowers create a striking visual contrast against the clear sky, forming a vivid backdrop. The scene captures a moment of tranquility and natural beauty.",
+      "description": "The scene depicts a serene outdoor setting with a person walking beside a tall, dense wall of yellow flowers. The path is paved, suggesting a garden or park environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "flowers",
+          "yellow flowers"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "tranquility"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "nature",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl with flowers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl with flowers/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person walks along a narrow path bordered by a towering wall of vibrant yellow flowers. The scene is set in a lush, green landscape under an overcast sky.",
+      "description": "The image depicts a serene rural setting with a long path flanked by a massive wall of yellow flowers on one side and green fields on the other. A person is seen walking along the path, adding a sense of scale to the towering floral display.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "flowers",
+          "fields",
+          "sky"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "rural",
+          "landscape"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, girl. Nature: flowers, plants, yellow flowers, fields, sky. Objects: path. Actions: walking. Emotions: calm, tranquility, serenity. Scenes: outdoor, garden, rural, landscape. Concepts: nature, serenity, beauty, tranquility",
+  "primary_labels": {
+    "people": [
+      "person",
+      "girl"
+    ],
+    "nature": [
+      "flowers",
+      "plants",
+      "yellow flowers",
+      "fields",
+      "sky"
+    ],
+    "objects": [
+      "path"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "tranquility",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "garden",
+      "rural",
+      "landscape"
+    ],
+    "concepts": [
+      "nature",
+      "serenity",
+      "beauty",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

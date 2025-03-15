@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bar bar shop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bar bar shop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bar bar shop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A barber is meticulously styling the hair of a gorilla seated in a salon chair. The gorilla is dressed in a pinstripe suit, adding a humorous twist to the scene.",
+      "description": "The scene takes place in a modern barbershop where a barber is attending to a gorilla as if it were a regular client. The setting is clean and well-lit, with a focus on the unusual interaction between the human and the animal.",
+      "labels": {
+        "people": [
+          "barber"
+        ],
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "salon chair",
+          "comb",
+          "pinstripe suit"
+        ],
+        "actions": [
+          "styling hair"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "barbershop"
+        ],
+        "concepts": [
+          "unexpected",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bar bar shop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bar bar shop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A barber is attentively styling the hair of a gorilla seated comfortably in a salon chair. The gorilla is dressed in a pinstripe suit, adding a humorous twist to the scene.",
+      "description": "The scene takes place in a modern barbershop where a barber is styling a gorilla's hair. The gorilla is dressed in a formal pinstripe suit, creating a whimsical and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "barber"
+        ],
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "salon chair",
+          "comb",
+          "suit"
+        ],
+        "actions": [
+          "styling hair"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "barbershop"
+        ],
+        "concepts": [
+          "surreal",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: barber. Animals: gorilla. Objects: salon chair, comb, pinstripe suit, suit. Actions: styling hair. Emotions: humor. Scenes: barbershop. Concepts: unexpected, anthropomorphism, surreal, whimsical",
+  "primary_labels": {
+    "people": [
+      "barber"
+    ],
+    "animals": [
+      "gorilla"
+    ],
+    "objects": [
+      "salon chair",
+      "comb",
+      "pinstripe suit",
+      "suit"
+    ],
+    "actions": [
+      "styling hair"
+    ],
+    "emotions": [
+      "humor"
+    ],
+    "scenes": [
+      "barbershop"
+    ],
+    "concepts": [
+      "unexpected",
+      "anthropomorphism",
+      "surreal",
+      "whimsical"
+    ]
+  },
+  "metadata": {}
+}

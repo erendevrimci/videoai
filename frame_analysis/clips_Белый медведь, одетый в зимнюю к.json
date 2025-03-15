@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A polar bear wearing a brown leather jacket steps out of a shop onto a snowy sidewalk. The scene captures a surreal moment as the bear appears to be casually exiting a clothing store in an urban setting.",
+      "description": "The image depicts a whimsical scene where a polar bear, dressed in a leather jacket, is stepping out of a store onto a snow-covered street. The setting is urban, with buildings and pedestrians visible in the background, creating a contrast between the natural and the man-made.",
+      "labels": {
+        "animals": [
+          "polar bear"
+        ],
+        "objects": [
+          "leather jacket",
+          "storefront",
+          "snow"
+        ],
+        "actions": [
+          "stepping out"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "store"
+        ],
+        "concepts": [
+          "surreal",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A polar bear is walking down a city street wearing a brown leather jacket. The scene is set in an urban environment with people walking in the background.",
+      "description": "The image depicts a whimsical scene where a polar bear, dressed in a leather jacket, strolls along a snowy city sidewalk. The setting is a bustling urban street, with pedestrians visible in the background, suggesting a busy day in the city.",
+      "labels": {
+        "animals": [
+          "polar bear"
+        ],
+        "objects": [
+          "leather jacket",
+          "building",
+          "sidewalk"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0435\u043b\u044b\u0439 \u043c\u0435\u0434\u0432\u0435\u0434\u044c, \u043e\u0434\u0435\u0442\u044b\u0439 \u0432 \u0437\u0438\u043c\u043d\u044e\u044e \u043a/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A polar bear walks confidently down a city street, wearing a stylish brown leather jacket. The urban setting is bustling with pedestrians, and the bear's presence adds a surreal element to the scene.",
+      "description": "The scene takes place on a busy city street, where a polar bear is seen walking upright among people. The bear is wearing a leather jacket, creating a humorous and unexpected contrast with the urban environment.",
+      "labels": {
+        "animals": [
+          "polar bear"
+        ],
+        "objects": [
+          "leather jacket",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "humorous",
+          "surreal"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "contrast",
+          "unexpected"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: polar bear. Objects: leather jacket, storefront, snow, building, sidewalk. Actions: walking, stepping out. Scenes: urban, city street, street, store. Concepts: contrast, surreal, unexpected. Emotions: surreal, whimsical, humorous",
+  "primary_labels": {
+    "animals": [
+      "polar bear"
+    ],
+    "objects": [
+      "leather jacket",
+      "storefront",
+      "snow",
+      "building",
+      "sidewalk"
+    ],
+    "actions": [
+      "walking",
+      "stepping out"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "street",
+      "store"
+    ],
+    "concepts": [
+      "contrast",
+      "surreal",
+      "unexpected"
+    ],
+    "emotions": [
+      "surreal",
+      "whimsical",
+      "humorous"
+    ]
+  },
+  "metadata": {}
+}

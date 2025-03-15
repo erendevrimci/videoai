@@ -1,0 +1,171 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A child who loses their pet.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A child who loses their pet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A child who loses their pet/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy crouches on a forest path, engaging with a curious cat. The lush forest surrounds them, with sunlight filtering through the trees, creating a serene and magical atmosphere.",
+      "description": "The scene is set in a vibrant forest, where a young boy and a cat share a moment of curiosity and connection. The forest is alive with greenery and soft sunlight, suggesting a peaceful and enchanting environment.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "path"
+        ],
+        "actions": [
+          "crouching",
+          "looking"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "friendship",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A child who loses their pet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A child who loses their pet/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy crouches on a forest path, intently observing a small cat sitting opposite him. Above them, a glowing holographic screen displays an image, casting a soft blue light over the scene.",
+      "description": "In a serene forest setting, a boy and a cat engage in a moment of curiosity and wonder as they examine a futuristic holographic display. The forest is lush and vibrant, with tall trees and colorful flowers surrounding the path.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "holographic screen"
+        ],
+        "actions": [
+          "crouching",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity",
+          "wonder"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "technology",
+          "nature interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A child who loses their pet.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A child who loses their pet/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young animated character stands in a serene forest, gazing softly ahead with a gentle smile. The lush greenery of the forest surrounds the character, creating a peaceful and enchanting atmosphere.",
+      "description": "The scene depicts a young animated character in a forest setting. The character appears calm and content, surrounded by tall trees and dappled sunlight filtering through the leaves.",
+      "labels": {
+        "people": [
+          "animated character",
+          "child"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "hoodie"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "forest scene"
+        ],
+        "concepts": [
+          "serenity",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: boy, animated character, child. Animals: cat. Nature: forest, trees, flowers, greenery. Objects: path, holographic screen, hoodie. Actions: crouching, looking, observing, gazing. Emotions: curiosity, wonder, calm, content. Scenes: outdoor, nature, forest path, forest scene. Concepts: friendship, exploration, technology, nature interaction, serenity",
+  "primary_labels": {
+    "people": [
+      "boy",
+      "animated character",
+      "child"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "flowers",
+      "greenery"
+    ],
+    "objects": [
+      "path",
+      "holographic screen",
+      "hoodie"
+    ],
+    "actions": [
+      "crouching",
+      "looking",
+      "observing",
+      "gazing"
+    ],
+    "emotions": [
+      "curiosity",
+      "wonder",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature",
+      "forest path",
+      "forest scene"
+    ],
+    "concepts": [
+      "friendship",
+      "exploration",
+      "technology",
+      "nature interaction",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

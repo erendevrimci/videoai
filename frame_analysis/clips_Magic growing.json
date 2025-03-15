@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Magic growing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Magic growing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Magic growing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with braided hair holds a glowing plant in her hands, standing in a mysterious, ancient setting. Her intense gaze is directed towards the viewer, while the plant emits a soft, green light that illuminates her face.",
+      "description": "The scene is set in a mystical, ancient environment, possibly a ruin or temple. The focus is on a young girl who appears to be performing a magical or spiritual act with a glowing plant.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "plant"
+        ],
+        "objects": [
+          "glowing plant"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "mystical",
+          "ancient"
+        ],
+        "concepts": [
+          "magic",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Magic growing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Magic growing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with glowing eyes gazes intently at a small plant emitting a mystical green light from her hands. Her braided hair and focused expression suggest a magical or supernatural setting. The background is blurred, hinting at an ancient or mysterious environment.",
+      "description": "The scene depicts a young girl in a magical setting, holding a glowing plant. Her eyes are illuminated, enhancing the mystical atmosphere. The setting appears to be otherworldly, with an ancient or enchanted ambiance.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "plant",
+          "light"
+        ],
+        "actions": [
+          "gazing",
+          "holding"
+        ],
+        "emotions": [
+          "focus",
+          "wonder"
+        ],
+        "scenes": [
+          "magical",
+          "supernatural"
+        ],
+        "concepts": [
+          "magic",
+          "growth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Nature: plant. Objects: glowing plant, plant, light. Actions: holding, gazing. Emotions: intensity, focus, wonder. Scenes: mystical, ancient, magical, supernatural. Concepts: magic, mystery, growth",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "nature": [
+      "plant"
+    ],
+    "objects": [
+      "glowing plant",
+      "plant",
+      "light"
+    ],
+    "actions": [
+      "holding",
+      "gazing"
+    ],
+    "emotions": [
+      "intensity",
+      "focus",
+      "wonder"
+    ],
+    "scenes": [
+      "mystical",
+      "ancient",
+      "magical",
+      "supernatural"
+    ],
+    "concepts": [
+      "magic",
+      "mystery",
+      "growth"
+    ]
+  },
+  "metadata": {}
+}

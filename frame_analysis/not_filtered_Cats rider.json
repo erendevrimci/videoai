@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cats rider.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cats rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cats rider/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat sits atop a robotic vacuum cleaner in a sunlit room. The cat appears calm and curious, observing its surroundings as the vacuum moves across the wooden floor.",
+      "description": "The scene is set in a cozy, sunlit living room with a wooden floor. A cat is perched on a robotic vacuum cleaner, which is in motion, creating a playful and serene atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "robotic vacuum cleaner",
+          "curtains",
+          "plant"
+        ],
+        "actions": [
+          "sitting",
+          "moving"
+        ],
+        "emotions": [
+          "calm",
+          "curious"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "technology",
+          "domestic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cats rider.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cats rider/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat sits comfortably on a robotic vacuum cleaner as it moves across a wooden floor. Sunlight filters through sheer curtains, casting soft shadows in the room.",
+      "description": "The scene takes place in a cozy living room with a warm and relaxed atmosphere. A cat is riding a robotic vacuum cleaner, which is gliding across the floor near a couch and a window with sheer curtains.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "robotic vacuum cleaner",
+          "couch",
+          "curtains",
+          "wooden floor"
+        ],
+        "actions": [
+          "sitting",
+          "moving"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "technology",
+          "comfort",
+          "domestic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: robotic vacuum cleaner, curtains, plant, couch, wooden floor. Actions: sitting, moving. Emotions: calm, curious, content. Scenes: living room, indoor. Concepts: technology, domestic life, comfort",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "robotic vacuum cleaner",
+      "curtains",
+      "plant",
+      "couch",
+      "wooden floor"
+    ],
+    "actions": [
+      "sitting",
+      "moving"
+    ],
+    "emotions": [
+      "calm",
+      "curious",
+      "content"
+    ],
+    "scenes": [
+      "living room",
+      "indoor"
+    ],
+    "concepts": [
+      "technology",
+      "domestic life",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

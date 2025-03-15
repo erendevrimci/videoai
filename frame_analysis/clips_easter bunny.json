@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/easter bunny.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/easter bunny.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/easter bunny/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A giant, colorful knitted bunny stands in front of a historic cathedral, holding a basket filled with vibrant Easter eggs. The scene is bustling with people who are gathered around, taking photos and enjoying the festive atmosphere. The bright blue sky and intricate architecture provide a stunning backdrop to this whimsical display.",
+      "description": "The scene is set in a public square in front of a grand cathedral, likely a popular tourist location. The focus is on a large, multicolored knitted bunny sculpture holding a basket of Easter eggs, attracting a crowd of onlookers.",
+      "labels": {
+        "people": [
+          "crowd",
+          "tourists"
+        ],
+        "objects": [
+          "knitted bunny",
+          "basket",
+          "Easter eggs"
+        ],
+        "actions": [
+          "gathering",
+          "photographing"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "public square",
+          "cathedral"
+        ],
+        "concepts": [
+          "festivity",
+          "art installation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/easter bunny.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/easter bunny/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A giant, colorful knitted bunny stands prominently in front of a historic cathedral, holding a basket filled with vibrant, multicolored eggs. The scene is bustling with people gathered around, capturing the whimsical display against a bright blue sky.",
+      "description": "The scene takes place in a public square in front of a grand cathedral, likely a popular tourist destination. The focus is on a massive, intricately knitted bunny sculpture, creating a playful and festive atmosphere.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "knitted bunny",
+          "basket",
+          "eggs"
+        ],
+        "actions": [
+          "gathering",
+          "observing"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "public square",
+          "cathedral"
+        ],
+        "concepts": [
+          "art installation",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, tourists. Objects: knitted bunny, basket, Easter eggs, eggs. Actions: gathering, photographing, observing. Emotions: joy, wonder. Scenes: public square, cathedral. Concepts: festivity, art installation",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "tourists"
+    ],
+    "objects": [
+      "knitted bunny",
+      "basket",
+      "Easter eggs",
+      "eggs"
+    ],
+    "actions": [
+      "gathering",
+      "photographing",
+      "observing"
+    ],
+    "emotions": [
+      "joy",
+      "wonder"
+    ],
+    "scenes": [
+      "public square",
+      "cathedral"
+    ],
+    "concepts": [
+      "festivity",
+      "art installation"
+    ]
+  },
+  "metadata": {}
+}

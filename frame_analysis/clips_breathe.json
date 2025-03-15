@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/breathe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/breathe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/breathe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with closed eyes is surrounded by swirling smoke and debris, creating a dramatic and ethereal atmosphere. The scene is illuminated by subtle sparks and glowing particles, adding a sense of mysticism and intensity.",
+      "description": "The image depicts a surreal and dynamic scene where a person appears to be enveloped in a cloud of smoke and debris. The setting is dark and atmospheric, with glowing particles enhancing the mystical ambiance.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "debris",
+          "particles"
+        ],
+        "actions": [
+          "swirling",
+          "enveloped"
+        ],
+        "emotions": [
+          "intensity",
+          "mysticism"
+        ],
+        "scenes": [
+          "surreal",
+          "dramatic"
+        ],
+        "concepts": [
+          "ethereal",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/breathe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/breathe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is depicted in a dramatic scene, surrounded by swirling smoke and glowing embers. Their face is tilted upwards, eyes closed, as if in a state of transformation or release.",
+      "description": "The scene portrays a surreal and mystical atmosphere, where a person is enveloped in a cloud of smoke and embers, suggesting a transformation or ethereal experience.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "smoke",
+          "embers"
+        ],
+        "actions": [
+          "transformation",
+          "release"
+        ],
+        "emotions": [
+          "serenity",
+          "intensity"
+        ],
+        "scenes": [
+          "surreal",
+          "mystical"
+        ],
+        "concepts": [
+          "transformation",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/breathe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/breathe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dramatic scene captures a woman with her head tilted back, surrounded by swirling smoke and glowing embers. Her expression is serene and introspective, as if lost in a moment of transformation or release.",
+      "description": "The scene is set in a dark, mystical environment where a woman is enveloped by smoke and embers, creating a sense of magic and mystery. The lighting highlights her features against the dark background, enhancing the ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "smoke",
+          "embers"
+        ],
+        "actions": [
+          "tilting head",
+          "breathing"
+        ],
+        "emotions": [
+          "serenity",
+          "introspection"
+        ],
+        "scenes": [
+          "mystical",
+          "dramatic"
+        ],
+        "concepts": [
+          "transformation",
+          "release"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: smoke, embers, debris, particles. Actions: swirling, enveloped, transformation, release, tilting head. Emotions: intensity, serenity, mysticism, introspection. Scenes: surreal, dramatic, mystical. Concepts: ethereal, transformation, mystical, release",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "smoke",
+      "embers",
+      "debris",
+      "particles"
+    ],
+    "actions": [
+      "swirling",
+      "enveloped",
+      "transformation",
+      "release",
+      "tilting head"
+    ],
+    "emotions": [
+      "intensity",
+      "serenity",
+      "mysticism",
+      "introspection"
+    ],
+    "scenes": [
+      "surreal",
+      "dramatic",
+      "mystical"
+    ],
+    "concepts": [
+      "ethereal",
+      "transformation",
+      "mystical",
+      "release"
+    ]
+  },
+  "metadata": {}
+}

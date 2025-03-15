@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aphrodite.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aphrodite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aphrodite/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal woman in a flowing white gown stands confidently in front of a grand architectural structure, bathed in golden light. Her expression is serene and commanding, while figures in the background appear to be in motion, adding a sense of dynamic energy to the scene.",
+      "description": "The scene depicts a majestic setting with classical architecture, possibly a temple or palace, in a golden, ethereal atmosphere. The central figure exudes grace and authority, surrounded by an animated crowd.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "nature": [
+          "sky",
+          "birds"
+        ],
+        "objects": [
+          "gown",
+          "temple",
+          "columns"
+        ],
+        "actions": [
+          "standing",
+          "gesturing"
+        ],
+        "emotions": [
+          "serenity",
+          "confidence"
+        ],
+        "scenes": [
+          "classical architecture",
+          "ceremonial"
+        ],
+        "concepts": [
+          "majesty",
+          "grandeur"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aphrodite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aphrodite/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with flowing blonde hair stands gracefully in an ancient, sunlit city. She is dressed in a white gown with gold accents, exuding an aura of elegance and confidence. The background features grand architecture with domes and columns, bathed in warm golden light.",
+      "description": "The scene is set in a majestic, ancient city with classical architecture. The focus is on a woman in a white gown, surrounded by a bustling crowd and grand structures, suggesting a setting of historical or mythical significance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sunlight"
+        ],
+        "objects": [
+          "gown",
+          "columns",
+          "dome"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance",
+          "confidence"
+        ],
+        "scenes": [
+          "ancient city",
+          "classical architecture"
+        ],
+        "concepts": [
+          "mythical",
+          "historical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aphrodite.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aphrodite/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A radiant woman in a flowing white gown stands gracefully amidst an ancient, sunlit cityscape. Her golden hair cascades around her as she smiles warmly, surrounded by grand architecture and mythical figures. The scene exudes an ethereal and majestic atmosphere.",
+      "description": "The image depicts a serene and majestic scene set in an ancient, mythical city. The central figure is a woman in a white gown, standing amidst grand columns and domes, with mythical creatures and figures surrounding her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [],
+        "objects": [
+          "gown",
+          "columns",
+          "dome"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "ancient city",
+          "mythical setting"
+        ],
+        "concepts": [
+          "mythology",
+          "grandeur"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd. Nature: sky, birds, sunlight. Objects: gown, columns, dome, temple. Actions: standing, gesturing, smiling. Emotions: confidence, serenity, elegance, serene, majestic. Scenes: classical architecture, ancient city, ceremonial, mythical setting. Concepts: grandeur, majesty, mythical, historical, mythology",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd"
+    ],
+    "nature": [
+      "sky",
+      "birds",
+      "sunlight"
+    ],
+    "objects": [
+      "gown",
+      "columns",
+      "dome",
+      "temple"
+    ],
+    "actions": [
+      "standing",
+      "gesturing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "serenity",
+      "elegance",
+      "serene",
+      "majestic"
+    ],
+    "scenes": [
+      "classical architecture",
+      "ancient city",
+      "ceremonial",
+      "mythical setting"
+    ],
+    "concepts": [
+      "grandeur",
+      "majesty",
+      "mythical",
+      "historical",
+      "mythology"
+    ]
+  },
+  "metadata": {}
+}

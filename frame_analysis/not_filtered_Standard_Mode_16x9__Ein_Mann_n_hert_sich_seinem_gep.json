@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9__Ein_Mann_n_hert_sich_seinem_gep.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9__Ein_Mann_n_hert_sich_seinem_gep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9__Ein_Mann_n_hert_sich_seinem_gep/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands beside a silver car parked on a wet, paved surface. He is wearing a blue jacket and appears to be in the process of closing the car door.",
+      "description": "The scene takes place outdoors on a damp, overcast day, with a man interacting with a parked car. The setting suggests a quiet, possibly rural or suburban area with visible greenery in the background.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "car",
+          "jacket"
+        ],
+        "actions": [
+          "standing",
+          "closing door"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "outdoor",
+          "parking area"
+        ],
+        "concepts": [
+          "transportation",
+          "weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9__Ein_Mann_n_hert_sich_seinem_gep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9__Ein_Mann_n_hert_sich_seinem_gep/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is caught in a turbulent flood, struggling against the force of the water. A partially submerged car is visible in the background, indicating the severity of the situation.",
+      "description": "The scene depicts a chaotic and dangerous flood situation where a person is fighting to stay above water. The presence of a car being swept away highlights the intensity of the flood.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "car"
+        ],
+        "actions": [
+          "struggling",
+          "flooding"
+        ],
+        "emotions": [
+          "panic",
+          "fear"
+        ],
+        "scenes": [
+          "flood"
+        ],
+        "concepts": [
+          "disaster",
+          "emergency"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Objects: car, jacket. Actions: standing, closing door, struggling, flooding. Emotions: neutral, panic, fear. Scenes: outdoor, parking area, flood. Concepts: transportation, weather, disaster, emergency",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "objects": [
+      "car",
+      "jacket"
+    ],
+    "actions": [
+      "standing",
+      "closing door",
+      "struggling",
+      "flooding"
+    ],
+    "emotions": [
+      "neutral",
+      "panic",
+      "fear"
+    ],
+    "scenes": [
+      "outdoor",
+      "parking area",
+      "flood"
+    ],
+    "concepts": [
+      "transportation",
+      "weather",
+      "disaster",
+      "emergency"
+    ]
+  },
+  "metadata": {}
+}

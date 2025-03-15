@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairies make pizza.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairies make pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fairies make pizza/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two small fairy-like figures are gathered around a freshly baked pizza, set on a wooden surface. They are near a rustic, glowing brick oven, surrounded by a whimsical forest setting with soft, warm lighting.",
+      "description": "The scene depicts a magical, fairy-tale setting where two fairy-like figures are interacting with a pizza in front of a cozy, glowing brick oven. The environment is lush with greenery and mushrooms, creating an enchanting and warm atmosphere.",
+      "labels": {
+        "people": [
+          "fairy-like figures"
+        ],
+        "nature": [
+          "forest",
+          "mushrooms",
+          "greenery"
+        ],
+        "objects": [
+          "pizza",
+          "brick oven",
+          "wooden surface"
+        ],
+        "actions": [
+          "gathering",
+          "interacting"
+        ],
+        "emotions": [
+          "whimsical",
+          "enchanting"
+        ],
+        "scenes": [
+          "fairy-tale",
+          "magical"
+        ],
+        "concepts": [
+          "fantasy",
+          "culinary"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairies make pizza.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fairies make pizza/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical forest setting, two fairy-like figures are preparing a pizza near a rustic stone oven. The scene is illuminated by the warm glow of the oven's fire, casting a magical ambiance over the lush greenery and mushrooms surrounding them.",
+      "description": "The scene depicts a fantastical kitchen in a forest, where fairy-like figures are engaged in cooking. The setting is enchanting, with a stone oven and a wooden surface holding a freshly made pizza topped with basil leaves.",
+      "labels": {
+        "people": [
+          "fairy figures"
+        ],
+        "objects": [
+          "pizza",
+          "stone oven",
+          "wooden surface",
+          "mushrooms"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "forest",
+          "fantasy kitchen"
+        ],
+        "concepts": [
+          "fantasy",
+          "culinary"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fairy-like figures, fairy figures. Nature: forest, mushrooms, greenery. Objects: pizza, wooden surface, brick oven, stone oven, mushrooms. Actions: gathering, interacting, cooking, preparing food. Emotions: whimsical, enchanting, magical. Scenes: fairy-tale, magical, forest, fantasy kitchen. Concepts: fantasy, culinary",
+  "primary_labels": {
+    "people": [
+      "fairy-like figures",
+      "fairy figures"
+    ],
+    "nature": [
+      "forest",
+      "mushrooms",
+      "greenery"
+    ],
+    "objects": [
+      "pizza",
+      "wooden surface",
+      "brick oven",
+      "stone oven",
+      "mushrooms"
+    ],
+    "actions": [
+      "gathering",
+      "interacting",
+      "cooking",
+      "preparing food"
+    ],
+    "emotions": [
+      "whimsical",
+      "enchanting",
+      "magical"
+    ],
+    "scenes": [
+      "fairy-tale",
+      "magical",
+      "forest",
+      "fantasy kitchen"
+    ],
+    "concepts": [
+      "fantasy",
+      "culinary"
+    ]
+  },
+  "metadata": {}
+}

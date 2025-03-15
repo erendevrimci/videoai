@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAHat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAHat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManInAHat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person sits in a red rowboat floating among fluffy clouds, gazing at a crescent moon in a starry sky. The scene blends elements of fantasy and reality, creating a surreal atmosphere. The boat appears to be navigating through a sea of clouds under a celestial night sky.",
+      "description": "The image depicts a dreamlike scene where a person in a boat floats above the clouds, looking towards a crescent moon and stars. The setting combines elements of both sky and sea, creating a fantastical and serene environment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "clouds",
+          "crescent moon",
+          "stars"
+        ],
+        "objects": [
+          "rowboat",
+          "oars"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "dreamlike",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AManInAHat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AManInAHat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure sits in a red rowboat floating among fluffy clouds, gazing at a crescent moon and starry sky. The scene blends elements of fantasy and serenity, with the boat appearing to sail through a celestial ocean.",
+      "description": "The image depicts a surreal scene where a person in a red boat is surrounded by clouds, as if floating in the sky. Above, a crescent moon and stars create a dreamlike atmosphere, merging the realms of earth and space.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "clouds",
+          "moon",
+          "stars"
+        ],
+        "objects": [
+          "boat",
+          "oars"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "celestial"
+        ],
+        "concepts": [
+          "surrealism",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Nature: clouds, stars, crescent moon, moon. Objects: oars, rowboat, boat. Actions: sitting, gazing. Emotions: serenity, wonder. Scenes: fantasy, surreal, celestial. Concepts: dreamlike, imagination, surrealism",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "nature": [
+      "clouds",
+      "stars",
+      "crescent moon",
+      "moon"
+    ],
+    "objects": [
+      "oars",
+      "rowboat",
+      "boat"
+    ],
+    "actions": [
+      "sitting",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal",
+      "celestial"
+    ],
+    "concepts": [
+      "dreamlike",
+      "imagination",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

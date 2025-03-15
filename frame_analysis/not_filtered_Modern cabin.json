@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modern cabin.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modern cabin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Modern cabin/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A modern house with a sleek design is perched on a rocky cliff, featuring an infinity pool that overlooks a vast forest and distant mountains. The scene is bathed in warm, golden sunlight, creating a serene and luxurious atmosphere.",
+      "description": "The image depicts a contemporary house situated on a cliff edge, offering a panoramic view of a lush forest and mountains in the distance. The setting sun casts a warm glow over the scene, highlighting the architectural elegance of the house and the natural beauty surrounding it.",
+      "labels": {
+        "nature": [
+          "forest",
+          "mountains",
+          "cliff"
+        ],
+        "objects": [
+          "house",
+          "infinity pool"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "serenity",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modern cabin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Modern cabin/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A modern house is perched on the edge of a cliff, featuring a stunning infinity pool that overlooks a lush forest. The structure is designed with clean lines and large windows, offering panoramic views of the surrounding landscape. The vibrant autumn foliage adds a warm contrast to the sleek architecture.",
+      "description": "The scene depicts a contemporary house situated on a cliff, surrounded by a forest with colorful autumn trees. The house includes an infinity pool and expansive outdoor spaces, showcasing a blend of modern design and natural beauty.",
+      "labels": {
+        "nature": [
+          "forest",
+          "cliff",
+          "autumn trees"
+        ],
+        "objects": [
+          "house",
+          "infinity pool",
+          "windows"
+        ],
+        "scenes": [
+          "modern architecture",
+          "cliffside dwelling"
+        ],
+        "concepts": [
+          "luxury",
+          "nature integration"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Modern cabin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Modern cabin/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A modern interior is visible through a large window, showcasing a cozy living space with a comfortable sofa and soft lighting. The exterior features a minimalist concrete patio, blending seamlessly with the natural surroundings.",
+      "description": "The scene depicts a modern architectural setting, focusing on the transition between indoor and outdoor spaces. The interior is warmly lit, suggesting a welcoming and serene atmosphere.",
+      "labels": {
+        "objects": [
+          "window",
+          "sofa",
+          "curtains",
+          "patio"
+        ],
+        "nature": [
+          "natural light"
+        ],
+        "scenes": [
+          "modern architecture",
+          "interior design"
+        ],
+        "concepts": [
+          "indoor-outdoor living",
+          "minimalism"
+        ],
+        "emotions": [
+          "serenity",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, cliff, mountains, autumn trees, natural light. Objects: house, infinity pool, windows, window, sofa. Scenes: modern architecture, sunset, landscape, cliffside dwelling, interior design. Emotions: serenity, luxury, awe, comfort. Concepts: luxury, nature integration, indoor-outdoor living, minimalism",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "cliff",
+      "mountains",
+      "autumn trees",
+      "natural light"
+    ],
+    "objects": [
+      "house",
+      "infinity pool",
+      "windows",
+      "window",
+      "sofa"
+    ],
+    "scenes": [
+      "modern architecture",
+      "sunset",
+      "landscape",
+      "cliffside dwelling",
+      "interior design"
+    ],
+    "emotions": [
+      "serenity",
+      "luxury",
+      "awe",
+      "comfort"
+    ],
+    "concepts": [
+      "luxury",
+      "nature integration",
+      "indoor-outdoor living",
+      "minimalism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BunniesComeAliveAndJump.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BunniesComeAliveAndJump.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BunniesComeAliveAndJump/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a modern living room with a white sofa adorned with patterned cushions. Above the sofa, two framed rabbit illustrations add a whimsical touch to the minimalist decor.",
+      "description": "This scene captures a stylish and contemporary living room setting. The focus is on the white sofa and the two rabbit illustrations that bring a playful element to the space.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "objects": [
+          "sofa",
+          "cushions",
+          "framed art"
+        ],
+        "scenes": [
+          "living room",
+          "interior design"
+        ],
+        "concepts": [
+          "modern decor",
+          "minimalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BunniesComeAliveAndJump.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BunniesComeAliveAndJump/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two animated rabbits are playfully bouncing on a white sofa in a minimalist living room. The rabbits appear lively and energetic, adding a whimsical touch to the serene setting.",
+      "description": "The scene is set in a minimalist living room with a white sofa as the focal point. Two animated rabbits are energetically bouncing on the sofa, creating a playful and lively atmosphere.",
+      "labels": {
+        "animals": [
+          "rabbits"
+        ],
+        "objects": [
+          "sofa",
+          "cushions"
+        ],
+        "actions": [
+          "bouncing",
+          "playing"
+        ],
+        "emotions": [
+          "playful",
+          "energetic"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "animation",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit, rabbits. Objects: sofa, cushions, framed art. Scenes: living room, interior design, indoor. Concepts: modern decor, minimalism, animation, whimsy. Actions: bouncing, playing. Emotions: playful, energetic",
+  "primary_labels": {
+    "animals": [
+      "rabbit",
+      "rabbits"
+    ],
+    "objects": [
+      "sofa",
+      "cushions",
+      "framed art"
+    ],
+    "scenes": [
+      "living room",
+      "interior design",
+      "indoor"
+    ],
+    "concepts": [
+      "modern decor",
+      "minimalism",
+      "animation",
+      "whimsy"
+    ],
+    "actions": [
+      "bouncing",
+      "playing"
+    ],
+    "emotions": [
+      "playful",
+      "energetic"
+    ]
+  },
+  "metadata": {}
+}

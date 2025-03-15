@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wake up shot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wake up shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wake up shot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman is lying peacefully on a bed with her eyes closed, bathed in soft sunlight. Her expression is serene, and her long hair is spread out over the pillow.",
+      "description": "The scene captures a tranquil moment of rest, with the woman appearing relaxed and content. The setting suggests a bedroom environment with natural lighting creating a warm and calm atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "pillow"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "bedroom"
+        ],
+        "concepts": [
+          "relaxation",
+          "peacefulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Wake up shot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Wake up shot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman lies peacefully on a bed with her eyes closed, bathed in soft, warm sunlight. Her long hair is spread out on the pillow, and she appears serene and relaxed.",
+      "description": "The scene captures a tranquil moment of rest, with the woman lying on a bed in a sunlit room. The atmosphere is calm and soothing, emphasizing a sense of peace and relaxation.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bed",
+          "pillow"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "bedroom",
+          "sunlit room"
+        ],
+        "concepts": [
+          "relaxation",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: bed, pillow. Actions: resting. Emotions: serenity, calmness. Scenes: bedroom, sunlit room. Concepts: relaxation, peacefulness, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "bed",
+      "pillow"
+    ],
+    "actions": [
+      "resting"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness"
+    ],
+    "scenes": [
+      "bedroom",
+      "sunlit room"
+    ],
+    "concepts": [
+      "relaxation",
+      "peacefulness",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

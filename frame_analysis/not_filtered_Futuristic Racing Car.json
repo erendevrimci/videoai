@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic Racing Car.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic Racing Car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Futuristic Racing Car/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic sports car is captured in motion on a wet city street at night. The car's aerodynamic design and glowing taillights stand out against the blurred background of illuminated buildings. The scene conveys a sense of speed and modernity.",
+      "description": "The image depicts a high-performance sports car driving through a city street at night. The wet pavement reflects the warm glow of streetlights, enhancing the dynamic and vibrant atmosphere.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "streetlights",
+          "buildings"
+        ],
+        "actions": [
+          "driving",
+          "motion"
+        ],
+        "emotions": [
+          "excitement",
+          "thrill"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime"
+        ],
+        "concepts": [
+          "speed",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Futuristic Racing Car.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Futuristic Racing Car/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, futuristic sports car speeds down a city street at night, its taillights glowing brightly. The car's aerodynamic design and the blurred motion of nearby lights emphasize its high speed. The wet road reflects the city lights, adding to the dynamic and vibrant atmosphere.",
+      "description": "The scene captures a high-performance sports car racing through an urban environment at night. The setting is a city street illuminated by streetlights, with the car's motion creating a sense of speed and excitement.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "streetlights"
+        ],
+        "actions": [
+          "speeding",
+          "racing"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "high speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, streetlights, buildings. Actions: driving, motion, speeding, racing. Emotions: excitement, thrill. Scenes: city street, nighttime, urban, night. Concepts: speed, modernity, futuristic, high speed",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "streetlights",
+      "buildings"
+    ],
+    "actions": [
+      "driving",
+      "motion",
+      "speeding",
+      "racing"
+    ],
+    "emotions": [
+      "excitement",
+      "thrill"
+    ],
+    "scenes": [
+      "city street",
+      "nighttime",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "speed",
+      "modernity",
+      "futuristic",
+      "high speed"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/new city.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/new city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/new city/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fantastical floating structure composed of various architectural styles rises against a vibrant blue sky. Birds soar around the building, which is adorned with plants and balconies, creating an imaginative and whimsical scene. The structure appears to be suspended among fluffy clouds, adding to its surreal atmosphere.",
+      "description": "The scene depicts a surreal floating building made up of eclectic architectural elements, set against a bright blue sky filled with clouds. Birds are flying around the structure, enhancing the dreamlike quality of the image.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "building",
+          "balconies",
+          "plants"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "architecture",
+          "floating"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/new city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/new city/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fantastical floating building composed of various architectural styles hovers amidst a bright blue sky. The structure is adorned with balconies, windows, and greenery, creating an eclectic and imaginative appearance. Fluffy clouds surround the building, enhancing its surreal and dreamlike quality.",
+      "description": "The scene depicts a whimsical, floating building in the sky, combining elements of different architectural styles. The structure appears to be suspended among clouds, suggesting a fantastical or imaginative setting.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky"
+        ],
+        "objects": [
+          "building",
+          "balconies",
+          "windows",
+          "greenery"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "imagination",
+          "architecture",
+          "floating"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/new city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/new city/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fantastical floating building hovers amidst a clear blue sky, adorned with lush greenery and colorful balconies. The structure combines elements of classical architecture with modern design, creating a whimsical and surreal appearance. Puffy clouds surround the building, enhancing its dreamlike quality.",
+      "description": "The scene depicts a surreal, floating building set against a vibrant blue sky. The structure features a mix of architectural styles and is embellished with plants and colorful facades, giving it a whimsical and imaginative feel.",
+      "labels": {
+        "objects": [
+          "building",
+          "balconies",
+          "plants"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "fantasy",
+          "surrealism"
+        ],
+        "concepts": [
+          "floating",
+          "architecture",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, sky. Objects: building, balconies, plants, windows, greenery. Animals: birds. Actions: flying. Emotions: whimsical, imaginative. Scenes: fantasy, surreal, surrealism. Concepts: architecture, floating, imagination",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "sky"
+    ],
+    "objects": [
+      "building",
+      "balconies",
+      "plants",
+      "windows",
+      "greenery"
+    ],
+    "animals": [
+      "birds"
+    ],
+    "actions": [
+      "flying"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal",
+      "surrealism"
+    ],
+    "concepts": [
+      "architecture",
+      "floating",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

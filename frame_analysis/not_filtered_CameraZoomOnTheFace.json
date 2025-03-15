@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomOnTheFace.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomOnTheFace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraZoomOnTheFace/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic cityscape with a stylish individual in the foreground, dressed in a shimmering outfit. The background is filled with neon lights and towering buildings, creating a cyberpunk atmosphere.",
+      "description": "The scene is set in a futuristic urban environment, characterized by bright neon lights and high-rise buildings. A person stands confidently in the foreground, wearing a glittering top and metallic pants, embodying a sense of modern fashion and technology.",
+      "labels": {
+        "people": [
+          "individual"
+        ],
+        "objects": [
+          "buildings",
+          "neon lights",
+          "glittering outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic cityscape",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "fashion",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomOnTheFace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraZoomOnTheFace/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in a futuristic cityscape, illuminated by vibrant neon lights. She wears a shimmering outfit that reflects the surrounding glow, exuding a sense of style and modernity.",
+      "description": "The scene is set in a futuristic urban environment, characterized by towering skyscrapers and bright neon lights. The atmosphere is vibrant and dynamic, suggesting a bustling city at night.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "skyscrapers",
+          "neon lights",
+          "shimmering outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic cityscape"
+        ],
+        "concepts": [
+          "modernity",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: individual, woman. Objects: neon lights, buildings, glittering outfit, skyscrapers, shimmering outfit. Actions: standing. Emotions: confidence. Scenes: futuristic cityscape, cyberpunk. Concepts: fashion, technology, modernity, style",
+  "primary_labels": {
+    "people": [
+      "individual",
+      "woman"
+    ],
+    "objects": [
+      "neon lights",
+      "buildings",
+      "glittering outfit",
+      "skyscrapers",
+      "shimmering outfit"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "futuristic cityscape",
+      "cyberpunk"
+    ],
+    "concepts": [
+      "fashion",
+      "technology",
+      "modernity",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Falling asleep.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Falling asleep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Falling asleep/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with closed eyes and a serene expression sits on a chessboard, surrounded by chess pieces. She wears a delicate, floral dress and a large bow in her hair, exuding an air of innocence and contemplation.",
+      "description": "The scene depicts a young girl seated on a large chessboard, creating a whimsical and surreal atmosphere. The setting combines elements of playfulness with a sense of calm introspection.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "chessboard",
+          "chess pieces",
+          "dress",
+          "bow"
+        ],
+        "actions": [
+          "sitting",
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "whimsical",
+          "surreal"
+        ],
+        "concepts": [
+          "innocence",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Falling asleep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Falling asleep/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A doll-like figure with delicate features and a large bow in her hair rests her head on a chessboard. The scene is set against a muted blue background, with chess pieces scattered around her.",
+      "description": "The scene depicts a serene and whimsical setting where a doll-like figure is peacefully resting on a chessboard. The setting suggests a blend of fantasy and playfulness, with a focus on the contrast between the soft figure and the structured chess pieces.",
+      "labels": {
+        "people": [
+          "doll"
+        ],
+        "objects": [
+          "chessboard",
+          "chess pieces",
+          "bow"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "whimsy"
+        ],
+        "scenes": [
+          "fantasy",
+          "playful"
+        ],
+        "concepts": [
+          "contrast",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, doll. Objects: chessboard, chess pieces, bow, dress. Actions: resting, sitting. Emotions: serenity, contemplation, whimsy. Scenes: whimsical, surreal, fantasy, playful. Concepts: innocence, introspection, contrast",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "doll"
+    ],
+    "objects": [
+      "chessboard",
+      "chess pieces",
+      "bow",
+      "dress"
+    ],
+    "actions": [
+      "resting",
+      "sitting"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "whimsy"
+    ],
+    "scenes": [
+      "whimsical",
+      "surreal",
+      "fantasy",
+      "playful"
+    ],
+    "concepts": [
+      "innocence",
+      "introspection",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

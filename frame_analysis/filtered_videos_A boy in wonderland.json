@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy in wonderland.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy in wonderland.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A boy in wonderland/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young boy joyfully rides a majestic white Pegasus through the sky. The scene is set against a backdrop of towering mountains and a clear blue sky, with a bird soaring nearby.",
+      "description": "The image depicts a fantastical scene where a boy is riding a winged horse, known as a Pegasus, high above a mountainous landscape. The sky is bright and clear, adding to the sense of freedom and adventure.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "animals": [
+          "Pegasus",
+          "bird"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [],
+        "actions": [
+          "riding",
+          "flying"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "fantasy",
+          "aerial"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy in wonderland.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A boy in wonderland/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A child joyfully rides a majestic white Pegasus soaring through the sky. The scene is set against a backdrop of towering mountains and fluffy clouds, with a bird gliding nearby.",
+      "description": "The image depicts a fantastical scene where a child is riding a Pegasus, a mythical winged horse, high above the clouds. The setting is serene and dreamlike, with a bright blue sky and distant mountains enhancing the sense of wonder.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "Pegasus",
+          "bird"
+        ],
+        "nature": [
+          "clouds",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "actions": [
+          "riding",
+          "flying"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "fantasy",
+          "aerial"
+        ],
+        "concepts": [
+          "mythology",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A boy in wonderland.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A boy in wonderland/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child joyfully rides a majestic white Pegasus through a sky filled with fluffy clouds. The scene is set against a backdrop of distant mountains and a towering structure, evoking a sense of adventure and wonder.",
+      "description": "The image depicts a fantastical scene where a child is riding a Pegasus, soaring through a bright, cloud-filled sky. The setting suggests a magical world with elements of fantasy and adventure.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "Pegasus"
+        ],
+        "nature": [
+          "clouds",
+          "mountains"
+        ],
+        "objects": [
+          "tower"
+        ],
+        "actions": [
+          "riding",
+          "flying"
+        ],
+        "emotions": [
+          "joy"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "magic",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, boy. Animals: Pegasus, bird. Nature: mountains, sky, clouds. Objects: jacket, tower. Actions: riding, flying. Emotions: joy. Scenes: fantasy, aerial, adventure. Concepts: adventure, freedom, mythology, magic",
+  "primary_labels": {
+    "people": [
+      "child",
+      "boy"
+    ],
+    "animals": [
+      "Pegasus",
+      "bird"
+    ],
+    "nature": [
+      "mountains",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "jacket",
+      "tower"
+    ],
+    "actions": [
+      "riding",
+      "flying"
+    ],
+    "emotions": [
+      "joy"
+    ],
+    "scenes": [
+      "fantasy",
+      "aerial",
+      "adventure"
+    ],
+    "concepts": [
+      "adventure",
+      "freedom",
+      "mythology",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

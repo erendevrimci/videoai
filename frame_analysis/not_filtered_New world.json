@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New world.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/New world/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mesmerizing scene of the ocean at night, with a brilliant burst of light on the horizon illuminating the sky and water. The stars twinkle above, while clouds frame the radiant glow, creating a sense of wonder and tranquility.",
+      "description": "The scene depicts a nighttime ocean view with a dramatic explosion of light on the horizon, possibly a sunset or celestial event. The sky is filled with stars, and the light reflects beautifully on the water's surface, surrounded by clouds.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "sky",
+          "clouds",
+          "stars"
+        ],
+        "objects": [
+          "light",
+          "horizon"
+        ],
+        "scenes": [
+          "night",
+          "seascape"
+        ],
+        "emotions": [
+          "wonder",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/New world.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/New world/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical island with jagged peaks rises from the misty ocean under a starry night sky. Bright blue and green lights illuminate the island, creating a magical glow. The calm water reflects the island's vibrant colors, enhancing the ethereal atmosphere.",
+      "description": "The scene depicts a fantastical island surrounded by a calm ocean at night. The island is illuminated with vibrant blue and green lights, giving it a magical appearance. The night sky is filled with stars, adding to the mystical ambiance.",
+      "labels": {
+        "nature": [
+          "island",
+          "ocean",
+          "night sky",
+          "stars"
+        ],
+        "objects": [
+          "water",
+          "lights"
+        ],
+        "scenes": [
+          "fantasy",
+          "nighttime"
+        ],
+        "concepts": [
+          "mystical",
+          "ethereal"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: ocean, stars, sky, clouds, island. Objects: light, horizon, water, lights. Scenes: night, seascape, fantasy, nighttime. Emotions: wonder, tranquility, awe. Concepts: mystical, ethereal",
+  "primary_labels": {
+    "nature": [
+      "ocean",
+      "stars",
+      "sky",
+      "clouds",
+      "island"
+    ],
+    "objects": [
+      "light",
+      "horizon",
+      "water",
+      "lights"
+    ],
+    "scenes": [
+      "night",
+      "seascape",
+      "fantasy",
+      "nighttime"
+    ],
+    "emotions": [
+      "wonder",
+      "tranquility",
+      "awe"
+    ],
+    "concepts": [
+      "mystical",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Finger kitten.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Finger kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Finger kitten/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny kitten dressed in a blue and red coat sits adorably on a person's hand. The kitten's wide eyes and small stature emphasize its cuteness and innocence.",
+      "description": "The scene captures a small kitten wearing a colorful coat, perched on a human hand, suggesting a gentle and intimate interaction. The background is softly blurred, focusing attention on the kitten.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "coat"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cuteness",
+          "innocence"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "adorable",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Finger kitten.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Finger kitten/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny kitten is perched on a person's hand, wearing an adorable blue and red outfit. The kitten's wide eyes and small stature give it an irresistibly cute appearance.",
+      "description": "The scene captures a small kitten sitting on a human hand, dressed in a colorful outfit. The setting is likely indoors, with a soft, neutral background that emphasizes the kitten's features.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "outfit",
+          "hand"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cute",
+          "adorable"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "pet"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: coat, outfit, hand. Actions: sitting. Emotions: cuteness, innocence, cute, adorable. Scenes: close-up, indoor. Concepts: adorable, gentleness, cuteness, pet",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "coat",
+      "outfit",
+      "hand"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "cuteness",
+      "innocence",
+      "cute",
+      "adorable"
+    ],
+    "scenes": [
+      "close-up",
+      "indoor"
+    ],
+    "concepts": [
+      "adorable",
+      "gentleness",
+      "cuteness",
+      "pet"
+    ]
+  },
+  "metadata": {}
+}

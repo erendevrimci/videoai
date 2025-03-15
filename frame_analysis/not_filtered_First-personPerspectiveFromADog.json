@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPerspectiveFromADog.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPerspectiveFromADog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personPerspectiveFromADog/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A herd of reindeer runs through a snowy forest under the vibrant display of the Northern Lights. The scene captures the natural beauty of the aurora borealis illuminating the night sky, with snow-laden trees lining the path. The reindeer, with their majestic antlers, create a sense of movement and vitality in the serene winter landscape.",
+      "description": "The image depicts a winter scene in a snowy forest, where a group of reindeer is running along a path. Above them, the Northern Lights cast a green glow across the sky, adding a magical quality to the setting.",
+      "labels": {
+        "animals": [
+          "reindeer"
+        ],
+        "nature": [
+          "snow",
+          "forest",
+          "Northern Lights",
+          "aurora borealis"
+        ],
+        "objects": [
+          "trees"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "winter landscape",
+          "nighttime"
+        ],
+        "concepts": [
+          "natural beauty",
+          "wilderness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/First-personPerspectiveFromADog.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/First-personPerspectiveFromADog/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of reindeer run through a snowy forest under a vibrant display of the Northern Lights. The sky is illuminated with green auroras, creating a magical atmosphere. Snow-covered trees line the path, adding to the winter wonderland setting.",
+      "description": "The scene captures a herd of reindeer moving swiftly through a snow-laden forest at night. Above them, the sky is alive with the Northern Lights, casting a green glow over the landscape.",
+      "labels": {
+        "animals": [
+          "reindeer"
+        ],
+        "nature": [
+          "snow",
+          "forest",
+          "Northern Lights",
+          "auroras"
+        ],
+        "objects": [
+          "trees"
+        ],
+        "actions": [
+          "running"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "winter",
+          "night"
+        ],
+        "concepts": [
+          "nature",
+          "wildlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: reindeer. Nature: snow, forest, Northern Lights, aurora borealis, auroras. Objects: trees. Actions: running. Emotions: serenity, wonder, serene, magical. Scenes: winter landscape, nighttime, winter, night. Concepts: natural beauty, wilderness, nature, wildlife",
+  "primary_labels": {
+    "animals": [
+      "reindeer"
+    ],
+    "nature": [
+      "snow",
+      "forest",
+      "Northern Lights",
+      "aurora borealis",
+      "auroras"
+    ],
+    "objects": [
+      "trees"
+    ],
+    "actions": [
+      "running"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "serene",
+      "magical"
+    ],
+    "scenes": [
+      "winter landscape",
+      "nighttime",
+      "winter",
+      "night"
+    ],
+    "concepts": [
+      "natural beauty",
+      "wilderness",
+      "nature",
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

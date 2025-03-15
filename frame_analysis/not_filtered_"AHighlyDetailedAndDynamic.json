@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHighlyDetailedAndDynamic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHighlyDetailedAndDynamic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AHighlyDetailedAndDynamic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, ornate platter is filled with a colorful dish of rice, vegetables, and meat, surrounded by miniature figures dressed in traditional attire. The figures appear to be serving or preparing the dish, each holding a small bowl or spoon. The scene is vibrant and detailed, showcasing a cultural and communal culinary experience.",
+      "description": "The scene depicts a traditional and communal setting where a large platter of food, likely a cultural dish, is being served or prepared by miniature figures in traditional clothing. The figures are arranged around the platter, emphasizing a sense of community and shared experience.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "traditional attire"
+        ],
+        "objects": [
+          "platter",
+          "rice",
+          "meat",
+          "vegetables",
+          "bowls",
+          "spoons"
+        ],
+        "actions": [
+          "serving",
+          "preparing"
+        ],
+        "emotions": [
+          "communal",
+          "cultural"
+        ],
+        "scenes": [
+          "culinary",
+          "traditional"
+        ],
+        "concepts": [
+          "community",
+          "culture",
+          "food preparation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AHighlyDetailedAndDynamic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AHighlyDetailedAndDynamic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a large, ornate platter of rice and meat, surrounded by miniature figures dressed in traditional attire. The figures appear to be serving or arranging the food, creating a sense of a communal gathering or feast. The vibrant colors of the clothing and food create a visually striking scene.",
+      "description": "The scene is set around a large platter of rice and meat, with miniature figures in traditional clothing interacting with the food. The setting suggests a cultural or festive occasion, emphasizing community and tradition.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "traditional attire"
+        ],
+        "objects": [
+          "platter",
+          "rice",
+          "meat",
+          "traditional clothing"
+        ],
+        "actions": [
+          "serving",
+          "arranging"
+        ],
+        "emotions": [
+          "communal",
+          "festive"
+        ],
+        "scenes": [
+          "feast",
+          "cultural gathering"
+        ],
+        "concepts": [
+          "tradition",
+          "community"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, traditional attire. Objects: platter, rice, meat, vegetables, bowls. Actions: serving, preparing, arranging. Emotions: communal, cultural, festive. Scenes: culinary, traditional, feast, cultural gathering. Concepts: community, culture, food preparation, tradition",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "traditional attire"
+    ],
+    "objects": [
+      "platter",
+      "rice",
+      "meat",
+      "vegetables",
+      "bowls"
+    ],
+    "actions": [
+      "serving",
+      "preparing",
+      "arranging"
+    ],
+    "emotions": [
+      "communal",
+      "cultural",
+      "festive"
+    ],
+    "scenes": [
+      "culinary",
+      "traditional",
+      "feast",
+      "cultural gathering"
+    ],
+    "concepts": [
+      "community",
+      "culture",
+      "food preparation",
+      "tradition"
+    ]
+  },
+  "metadata": {}
+}

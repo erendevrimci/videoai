@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fluffy cat sitting in a bathtub.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fluffy cat sitting in a bathtub.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fluffy cat sitting in a bathtub/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy cat and a joyful baby are sharing a playful moment in a bathtub filled with water and bubbles. The baby is laughing heartily while the cat curiously interacts with the bubbles, creating a heartwarming scene.",
+      "description": "The scene takes place in a bathroom, where a baby and a cat are enjoying a bath together. The atmosphere is playful and joyful, with the baby laughing and the cat engaging with the bubbles.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bathtub",
+          "bubbles",
+          "bath toys"
+        ],
+        "actions": [
+          "laughing",
+          "playing"
+        ],
+        "emotions": [
+          "joyful",
+          "curious"
+        ],
+        "scenes": [
+          "bathroom"
+        ],
+        "concepts": [
+          "friendship",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fluffy cat sitting in a bathtub.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fluffy cat sitting in a bathtub/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat and a baby are playfully interacting in a bathtub filled with water and colorful toys. The baby is laughing joyfully while the cat curiously paws at a soapy object. The scene captures a moment of innocent fun and companionship.",
+      "description": "The scene is set in a bathroom where a baby and a cat are sharing a playful moment in a bathtub. The baby is enjoying a bath surrounded by floating toys, while the cat is intrigued by the bubbles and water.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "bathtub",
+          "toys",
+          "soap",
+          "water"
+        ],
+        "actions": [
+          "laughing",
+          "playing",
+          "pawing"
+        ],
+        "emotions": [
+          "joy",
+          "curiosity"
+        ],
+        "scenes": [
+          "bathroom",
+          "bathtime"
+        ],
+        "concepts": [
+          "innocence",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fluffy cat sitting in a bathtub.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fluffy cat sitting in a bathtub/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A baby and a fluffy orange cat are enjoying a playful bath together. The baby is laughing joyfully while surrounded by colorful bath toys. The cat sits calmly next to the baby, adding a sense of warmth and companionship to the scene.",
+      "description": "The scene takes place in a bathroom where a baby and a cat are sharing a bath. The atmosphere is playful and heartwarming, with the baby engaging with the water and toys, while the cat observes quietly.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bathtub",
+          "bath toys"
+        ],
+        "actions": [
+          "bathing",
+          "playing"
+        ],
+        "emotions": [
+          "joy",
+          "contentment"
+        ],
+        "scenes": [
+          "bathroom"
+        ],
+        "concepts": [
+          "companionship",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: bathtub, bath toys, bubbles, toys, soap. Actions: playing, laughing, pawing, bathing. Emotions: joy, joyful, curious, curiosity, contentment. Scenes: bathroom, bathtime. Concepts: playfulness, companionship, friendship, innocence",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "bathtub",
+      "bath toys",
+      "bubbles",
+      "toys",
+      "soap"
+    ],
+    "actions": [
+      "playing",
+      "laughing",
+      "pawing",
+      "bathing"
+    ],
+    "emotions": [
+      "joy",
+      "joyful",
+      "curious",
+      "curiosity",
+      "contentment"
+    ],
+    "scenes": [
+      "bathroom",
+      "bathtime"
+    ],
+    "concepts": [
+      "playfulness",
+      "companionship",
+      "friendship",
+      "innocence"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

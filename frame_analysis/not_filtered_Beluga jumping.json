@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beluga jumping.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beluga jumping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beluga jumping/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A beluga whale gracefully breaches the surface of the icy water, creating a splash against a backdrop of snow-covered mountains. The serene Arctic environment is bathed in soft, natural light, highlighting the whale's smooth, white skin.",
+      "description": "The scene captures a beluga whale in mid-breach within an Arctic setting, surrounded by calm waters and distant snowy peaks. The atmosphere is peaceful and majestic, emphasizing the beauty of nature.",
+      "labels": {
+        "animals": [
+          "beluga whale"
+        ],
+        "nature": [
+          "Arctic",
+          "snow",
+          "mountains",
+          "water"
+        ],
+        "actions": [
+          "breaching",
+          "splashing"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "scenes": [
+          "wildlife",
+          "nature"
+        ],
+        "concepts": [
+          "natural beauty",
+          "wildlife photography"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beluga jumping.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beluga jumping/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dolphin gracefully emerges from the water, creating ripples around it. The backdrop features snow-capped mountains under a clear blue sky, enhancing the serene atmosphere.",
+      "description": "The scene captures a dolphin in an arctic or subarctic environment, surrounded by icy waters and distant snowy peaks. The lighting is bright, suggesting a clear day.",
+      "labels": {
+        "animals": [
+          "dolphin"
+        ],
+        "nature": [
+          "ocean",
+          "mountains",
+          "snow"
+        ],
+        "objects": [
+          "water"
+        ],
+        "actions": [
+          "emerging",
+          "swimming"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "arctic",
+          "natural habitat"
+        ],
+        "concepts": [
+          "wildlife",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: beluga whale, dolphin. Nature: snow, mountains, Arctic, water, ocean. Actions: breaching, splashing, emerging, swimming. Emotions: serene, majestic. Scenes: wildlife, nature, arctic, natural habitat. Concepts: natural beauty, wildlife photography, wildlife, nature. Objects: water",
+  "primary_labels": {
+    "animals": [
+      "beluga whale",
+      "dolphin"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "Arctic",
+      "water",
+      "ocean"
+    ],
+    "actions": [
+      "breaching",
+      "splashing",
+      "emerging",
+      "swimming"
+    ],
+    "emotions": [
+      "serene",
+      "majestic"
+    ],
+    "scenes": [
+      "wildlife",
+      "nature",
+      "arctic",
+      "natural habitat"
+    ],
+    "concepts": [
+      "natural beauty",
+      "wildlife photography",
+      "wildlife",
+      "nature"
+    ],
+    "objects": [
+      "water"
+    ]
+  },
+  "metadata": {}
+}

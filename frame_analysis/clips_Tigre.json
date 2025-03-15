@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tigre/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in ornate traditional attire walks confidently with a majestic tiger behind her. The scene is dramatic, with the tiger's presence adding an element of power and mystique. The lighting highlights the intricate details of her clothing and the tiger's striking features.",
+      "description": "The scene depicts a woman in traditional, embellished clothing walking forward with a tiger closely following her. The setting is theatrical, with dramatic lighting creating a sense of intensity and grandeur.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "traditional attire",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "power"
+        ],
+        "scenes": [
+          "theatrical",
+          "dramatic"
+        ],
+        "concepts": [
+          "strength",
+          "mystique"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tigre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tigre/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in traditional attire walks confidently in front of a large, majestic tiger. The scene is dramatic, with the tiger appearing to follow closely behind her.",
+      "description": "The image depicts a powerful and dramatic scene where a woman in ornate, traditional clothing is walking with a large tiger behind her. The setting suggests a theatrical or artistic performance, with dark lighting and a focus on the subjects.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "traditional attire"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "theatrical performance"
+        ],
+        "concepts": [
+          "power",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: tiger. Objects: traditional attire, jewelry. Actions: walking. Emotions: confidence, power. Scenes: theatrical, dramatic, theatrical performance. Concepts: strength, mystique, power, drama",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "tiger"
+    ],
+    "objects": [
+      "traditional attire",
+      "jewelry"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "power"
+    ],
+    "scenes": [
+      "theatrical",
+      "dramatic",
+      "theatrical performance"
+    ],
+    "concepts": [
+      "strength",
+      "mystique",
+      "power",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

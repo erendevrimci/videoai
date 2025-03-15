@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2025 \u9664\u5915\u570d\u7210.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2025 \u9664\u5915\u570d\u7210.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/2025 \u9664\u5915\u570d\u7210/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two ginger cats sit at a table, each with a plate of food in front of them, holding utensils. A roasted chicken and lemon slices are prominently displayed in the foreground, creating a humorous dining scene.",
+      "description": "The scene depicts two cats humorously posed as if they are about to enjoy a meal at a dining table. The setting appears to be a cozy indoor environment with a focus on the dining experience.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "plates",
+          "food",
+          "utensils",
+          "roasted chicken",
+          "lemon slices"
+        ],
+        "actions": [
+          "sitting",
+          "holding utensils"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "dining",
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/2025 \u9664\u5915\u570d\u7210.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/2025 \u9664\u5915\u570d\u7210/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two cats are seated at a table, seemingly enjoying a meal with various dishes in front of them. One cat is licking its lips while the other appears to be using a fork. The scene is playful and whimsical, set in a cozy indoor environment.",
+      "description": "The scene depicts two cats humorously posed as if they are dining at a table, surrounded by plates of food including a roasted chicken and various side dishes. The setting is indoors, likely in a living room with a comfortable and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "objects": [
+          "table",
+          "plates",
+          "food",
+          "roasted chicken",
+          "fork"
+        ],
+        "actions": [
+          "eating",
+          "licking"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "indoor",
+          "dining"
+        ],
+        "concepts": [
+          "whimsy",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats. Objects: plates, food, roasted chicken, utensils, lemon slices. Actions: sitting, holding utensils, eating, licking. Emotions: humorous, playful. Scenes: dining, indoor. Concepts: anthropomorphism, humor, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cats"
+    ],
+    "objects": [
+      "plates",
+      "food",
+      "roasted chicken",
+      "utensils",
+      "lemon slices"
+    ],
+    "actions": [
+      "sitting",
+      "holding utensils",
+      "eating",
+      "licking"
+    ],
+    "emotions": [
+      "humorous",
+      "playful"
+    ],
+    "scenes": [
+      "dining",
+      "indoor"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

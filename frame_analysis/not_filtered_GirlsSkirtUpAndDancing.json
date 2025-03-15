@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlsSkirtUpAndDancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlsSkirtUpAndDancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlsSkirtUpAndDancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Four young women stand together in a room, wearing coordinated outfits consisting of white blouses with red bows and navy skirts. They are positioned closely, looking directly at the camera with neutral expressions. The room has a soft, neutral color palette with minimal decor.",
+      "description": "The scene depicts a group of four young women in a well-lit room, possibly a bedroom or a study area. They are dressed in matching school uniforms, suggesting a formal or academic setting.",
+      "labels": {
+        "people": [
+          "young women",
+          "group"
+        ],
+        "objects": [
+          "uniform",
+          "blouse",
+          "skirt",
+          "bow"
+        ],
+        "scenes": [
+          "indoor",
+          "formal",
+          "academic"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "visual_attributes": [
+          "soft lighting",
+          "neutral colors",
+          "minimal decor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlsSkirtUpAndDancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlsSkirtUpAndDancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four young women are standing together, smiling warmly at the camera. They are dressed in matching school uniforms, consisting of white blouses with red bows and navy skirts. The setting appears to be indoors, possibly in a classroom or a common area.",
+      "description": "The scene depicts a group of four young women in school uniforms, suggesting a school or academic setting. The atmosphere is friendly and cheerful, with the women standing close together and smiling.",
+      "labels": {
+        "people": [
+          "women",
+          "students"
+        ],
+        "objects": [
+          "school uniform",
+          "blouse",
+          "skirt",
+          "bow"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "friendliness"
+        ],
+        "scenes": [
+          "indoor",
+          "academic setting"
+        ],
+        "concepts": [
+          "youth",
+          "education",
+          "uniformity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young women, group, women, students. Objects: blouse, skirt, bow, uniform, school uniform. Scenes: indoor, formal, academic, academic setting. Emotions: neutral, happiness, friendliness. Visual_attributes: soft lighting, neutral colors, minimal decor. Actions: standing, smiling. Concepts: youth, education, uniformity",
+  "primary_labels": {
+    "people": [
+      "young women",
+      "group",
+      "women",
+      "students"
+    ],
+    "objects": [
+      "blouse",
+      "skirt",
+      "bow",
+      "uniform",
+      "school uniform"
+    ],
+    "scenes": [
+      "indoor",
+      "formal",
+      "academic",
+      "academic setting"
+    ],
+    "emotions": [
+      "neutral",
+      "happiness",
+      "friendliness"
+    ],
+    "visual_attributes": [
+      "soft lighting",
+      "neutral colors",
+      "minimal decor"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "concepts": [
+      "youth",
+      "education",
+      "uniformity"
+    ]
+  },
+  "metadata": {}
+}

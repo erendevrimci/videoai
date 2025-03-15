@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkingWithSlightlySmile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkingWithSlightlySmile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkingWithSlightlySmile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black and white photograph depicts two individuals walking inside a store. The man and woman are dressed in long coats, with the woman holding a package. The store is filled with various products displayed on shelves.",
+      "description": "The scene is set inside a store, likely from a past era given the black and white format. The environment is bustling with people in the background, suggesting a busy shopping area.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "coats",
+          "package",
+          "shelves",
+          "products"
+        ],
+        "actions": [
+          "walking",
+          "holding"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "store",
+          "indoor"
+        ],
+        "concepts": [
+          "shopping",
+          "vintage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkingWithSlightlySmile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkingWithSlightlySmile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals stand in a dimly lit indoor setting, possibly a store or a lobby. One person holds a package, while the other has their hands in their coat pockets.",
+      "description": "The scene appears to be set in a vintage indoor environment, likely a store or public area, with visible shelves and products in the background. The atmosphere is subdued and somewhat formal.",
+      "labels": {
+        "people": [
+          "two individuals"
+        ],
+        "objects": [
+          "package",
+          "coat",
+          "shelves",
+          "products"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor",
+          "store"
+        ],
+        "concepts": [
+          "vintage",
+          "formal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman, two individuals. Objects: package, shelves, products, coats, coat. Actions: holding, walking, standing. Emotions: neutral. Scenes: store, indoor. Concepts: vintage, shopping, formal",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman",
+      "two individuals"
+    ],
+    "objects": [
+      "package",
+      "shelves",
+      "products",
+      "coats",
+      "coat"
+    ],
+    "actions": [
+      "holding",
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "neutral"
+    ],
+    "scenes": [
+      "store",
+      "indoor"
+    ],
+    "concepts": [
+      "vintage",
+      "shopping",
+      "formal"
+    ]
+  },
+  "metadata": {}
+}

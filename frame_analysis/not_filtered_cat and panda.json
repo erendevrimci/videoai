@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cat and panda.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cat and panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cat and panda/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful animated scene featuring a cat and a panda dressed in suits, laughing heartily while holding a smartphone. The vibrant city lights in the background add a lively atmosphere to the scene.",
+      "description": "The scene takes place in a bustling urban setting, likely at night, with bright neon lights illuminating the background. The main focus is on a cat and a panda, both wearing black suits and ties, engaged in a moment of shared amusement.",
+      "labels": {
+        "animals": [
+          "cat",
+          "panda"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "smartphone"
+        ],
+        "actions": [
+          "laughing",
+          "holding"
+        ],
+        "emotions": [
+          "joy",
+          "amusement"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "friendship",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/cat and panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/cat and panda/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful orange cat and a panda, both dressed in black suits, are laughing heartily while looking at a smartphone. The scene is set against a vibrant, colorful cityscape with neon lights in the background.",
+      "description": "The image depicts a lively and humorous moment between an anthropomorphic cat and panda, both wearing formal attire. They appear to be enjoying a humorous moment together, possibly sharing a joke or funny content on the smartphone.",
+      "labels": {
+        "animals": [
+          "cat",
+          "panda"
+        ],
+        "objects": [
+          "suit",
+          "smartphone"
+        ],
+        "actions": [
+          "laughing",
+          "holding"
+        ],
+        "emotions": [
+          "joy",
+          "amusement"
+        ],
+        "scenes": [
+          "cityscape",
+          "nightlife"
+        ],
+        "concepts": [
+          "friendship",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, panda. Objects: suit, smartphone, tie. Actions: laughing, holding. Emotions: joy, amusement. Scenes: urban, night, cityscape, nightlife. Concepts: friendship, humor",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "panda"
+    ],
+    "objects": [
+      "suit",
+      "smartphone",
+      "tie"
+    ],
+    "actions": [
+      "laughing",
+      "holding"
+    ],
+    "emotions": [
+      "joy",
+      "amusement"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "cityscape",
+      "nightlife"
+    ],
+    "concepts": [
+      "friendship",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

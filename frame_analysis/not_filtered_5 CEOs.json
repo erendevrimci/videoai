@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/5 CEOs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/5 CEOs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/5 CEOs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features five caricatured portraits of individuals with exaggerated facial features, each displaying a unique expression. The characters are lined up side by side, each wearing formal attire, set against a simple blue background. The artwork highlights the distinct personalities and humorous exaggerations of each subject.",
+      "description": "This is a digitally created caricature artwork depicting five individuals in a row, each with exaggerated facial features and expressions. The setting is minimalistic, focusing on the characters themselves.",
+      "labels": {
+        "people": [
+          "caricature",
+          "portraits"
+        ],
+        "objects": [
+          "glasses",
+          "suits",
+          "ties"
+        ],
+        "emotions": [
+          "humor",
+          "quirky"
+        ],
+        "scenes": [
+          "artwork",
+          "digital art"
+        ],
+        "concepts": [
+          "exaggeration",
+          "caricature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/5 CEOs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/5 CEOs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image features four caricatured individuals with exaggerated facial features and expressions. Each person displays a unique emotion, ranging from amusement to contemplation. The vibrant and detailed artwork highlights the distinct personalities of each character.",
+      "description": "This scene is a digitally created caricature featuring four individuals with exaggerated facial features, set against a simple, neutral background. The focus is on the expressions and interactions between the characters.",
+      "labels": {
+        "people": [
+          "caricature",
+          "group"
+        ],
+        "objects": [
+          "glasses",
+          "suit",
+          "tie"
+        ],
+        "actions": [
+          "smiling",
+          "conversing"
+        ],
+        "emotions": [
+          "amusement",
+          "contemplation"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "exaggeration",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: caricature, portraits, group. Objects: glasses, suits, ties, suit, tie. Emotions: humor, quirky, amusement, contemplation. Scenes: artwork, digital art, portrait. Concepts: exaggeration, caricature, humor. Actions: smiling, conversing",
+  "primary_labels": {
+    "people": [
+      "caricature",
+      "portraits",
+      "group"
+    ],
+    "objects": [
+      "glasses",
+      "suits",
+      "ties",
+      "suit",
+      "tie"
+    ],
+    "emotions": [
+      "humor",
+      "quirky",
+      "amusement",
+      "contemplation"
+    ],
+    "scenes": [
+      "artwork",
+      "digital art",
+      "portrait"
+    ],
+    "concepts": [
+      "exaggeration",
+      "caricature",
+      "humor"
+    ],
+    "actions": [
+      "smiling",
+      "conversing"
+    ]
+  },
+  "metadata": {}
+}

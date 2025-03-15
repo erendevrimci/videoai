@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romanian girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romanian girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Romanian girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of people dressed in traditional Eastern European attire stand outside a rustic wooden building. The central figure, a young woman, wears a colorful embroidered dress and headscarf, while the others, mostly older men, wear fur hats and layered garments. The scene is set against a snowy backdrop, suggesting a cold, winter day.",
+      "description": "The image depicts a traditional Eastern European setting with individuals in cultural attire, standing in front of a wooden structure. The snow on the ground and rooftops indicates a winter environment, adding to the authenticity of the cultural representation.",
+      "labels": {
+        "people": [
+          "woman",
+          "men",
+          "group"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "traditional clothing",
+          "wooden building"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "outdoor",
+          "cultural"
+        ],
+        "concepts": [
+          "tradition",
+          "heritage",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Romanian girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Romanian girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman in traditional attire stands in the foreground, surrounded by a group of older individuals also dressed in cultural clothing. The setting appears to be a rural village with wooden houses and snow on the rooftops.",
+      "description": "The scene is set in a rural village, likely during winter, as indicated by the snow on the rooftops. The focus is on a young woman in traditional clothing, with several older individuals in similar attire standing behind her, suggesting a cultural or familial gathering.",
+      "labels": {
+        "people": [
+          "young woman",
+          "older individuals"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "wooden houses"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "rural village",
+          "winter setting"
+        ],
+        "concepts": [
+          "tradition",
+          "cultural attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, men, group, young woman, older individuals. Nature: snow, trees. Objects: traditional clothing, wooden building, wooden houses. Actions: standing. Emotions: serene, calm. Scenes: outdoor, cultural, rural village, winter setting. Concepts: tradition, heritage, winter, cultural attire",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "men",
+      "group",
+      "young woman",
+      "older individuals"
+    ],
+    "nature": [
+      "snow",
+      "trees"
+    ],
+    "objects": [
+      "traditional clothing",
+      "wooden building",
+      "wooden houses"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "outdoor",
+      "cultural",
+      "rural village",
+      "winter setting"
+    ],
+    "concepts": [
+      "tradition",
+      "heritage",
+      "winter",
+      "cultural attire"
+    ]
+  },
+  "metadata": {}
+}

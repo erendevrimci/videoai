@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pufferfish and Clowns.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pufferfish and Clowns.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pufferfish and Clowns/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a vibrant coral reef, two animated blue fish swim alongside a curious pufferfish. The scene is bathed in sunlight filtering through the water, highlighting the pink coral surrounding them.",
+      "description": "The image depicts an underwater scene in a coral reef, featuring animated marine life. The setting is colorful and lively, with sunlight streaming through the water, creating a serene and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "fish",
+          "pufferfish"
+        ],
+        "nature": [
+          "coral",
+          "reef"
+        ],
+        "objects": [
+          "coral"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "underwater",
+          "coral reef"
+        ],
+        "concepts": [
+          "marine life",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pufferfish and Clowns.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pufferfish and Clowns/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a vibrant underwater scene, a cartoonish pufferfish with large, expressive eyes floats amidst colorful coral. Nearby, a small blue fish swims, adding to the lively marine environment.",
+      "description": "The scene is set in a bright, colorful coral reef, featuring animated marine life. The focus is on a playful interaction between a pufferfish and a small blue fish, surrounded by pink coral formations.",
+      "labels": {
+        "animals": [
+          "pufferfish",
+          "fish"
+        ],
+        "nature": [
+          "coral reef",
+          "ocean"
+        ],
+        "objects": [
+          "coral"
+        ],
+        "actions": [
+          "floating",
+          "swimming"
+        ],
+        "emotions": [
+          "playful",
+          "curious"
+        ],
+        "scenes": [
+          "underwater",
+          "animated"
+        ],
+        "concepts": [
+          "marine life",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fish, pufferfish. Nature: coral, reef, coral reef, ocean. Objects: coral. Actions: swimming, floating. Emotions: curiosity, playful, curious. Scenes: underwater, coral reef, animated. Concepts: marine life, animation",
+  "primary_labels": {
+    "animals": [
+      "fish",
+      "pufferfish"
+    ],
+    "nature": [
+      "coral",
+      "reef",
+      "coral reef",
+      "ocean"
+    ],
+    "objects": [
+      "coral"
+    ],
+    "actions": [
+      "swimming",
+      "floating"
+    ],
+    "emotions": [
+      "curiosity",
+      "playful",
+      "curious"
+    ],
+    "scenes": [
+      "underwater",
+      "coral reef",
+      "animated"
+    ],
+    "concepts": [
+      "marine life",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

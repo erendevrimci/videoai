@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraPullOutAMagic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraPullOutAMagic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraPullOutAMagic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene depicts workers in blue uniforms and yellow helmets walking on a pathway surrounded by intricate, ornate structures. A large spherical object with glowing lights is visible in the background, adding to the sci-fi atmosphere.",
+      "description": "The scene is set in a futuristic, possibly alien environment with elaborate architectural designs. Workers appear to be engaged in construction or maintenance activities, contributing to the development of this advanced setting.",
+      "labels": {
+        "people": [
+          "workers"
+        ],
+        "objects": [
+          "spherical object",
+          "ornate structures",
+          "pathway"
+        ],
+        "actions": [
+          "walking",
+          "working"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "futuristic",
+          "construction site"
+        ],
+        "concepts": [
+          "technology",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraPullOutAMagic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraPullOutAMagic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The scene depicts a fantastical, intricate landscape with a large circular structure in the foreground, adorned with ornate details. Several small figures in blue uniforms and orange helmets are walking along a pathway leading to a spherical building in the background. The setting is surreal, combining elements of fantasy and industrial design.",
+      "description": "The image presents a surreal, otherworldly environment with a blend of fantasy and industrial elements. The scene is populated by small figures in work attire, suggesting an exploratory or construction activity. The architecture features elaborate, decorative designs, creating a whimsical yet structured atmosphere.",
+      "labels": {
+        "people": [
+          "figures",
+          "workers"
+        ],
+        "objects": [
+          "circular structure",
+          "spherical building",
+          "pathway"
+        ],
+        "actions": [
+          "walking",
+          "exploring"
+        ],
+        "scenes": [
+          "fantasy",
+          "industrial"
+        ],
+        "concepts": [
+          "surrealism",
+          "ornate design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: workers, figures. Objects: pathway, spherical object, ornate structures, circular structure, spherical building. Actions: walking, working, exploring. Emotions: focused. Scenes: futuristic, construction site, fantasy, industrial. Concepts: technology, architecture, surrealism, ornate design",
+  "primary_labels": {
+    "people": [
+      "workers",
+      "figures"
+    ],
+    "objects": [
+      "pathway",
+      "spherical object",
+      "ornate structures",
+      "circular structure",
+      "spherical building"
+    ],
+    "actions": [
+      "walking",
+      "working",
+      "exploring"
+    ],
+    "emotions": [
+      "focused"
+    ],
+    "scenes": [
+      "futuristic",
+      "construction site",
+      "fantasy",
+      "industrial"
+    ],
+    "concepts": [
+      "technology",
+      "architecture",
+      "surrealism",
+      "ornate design"
+    ]
+  },
+  "metadata": {}
+}

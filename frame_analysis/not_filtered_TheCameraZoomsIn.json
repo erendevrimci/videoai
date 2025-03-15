@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a yellow dress is seated at a table, smiling warmly at the camera. She is writing in a notebook with a tablet propped up beside her, suggesting a blend of traditional and digital work methods.",
+      "description": "The scene is set in a modern, minimalist office or study environment. The woman appears engaged and content, creating a professional yet approachable atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "notebook",
+          "tablet",
+          "pen",
+          "table",
+          "chair"
+        ],
+        "actions": [
+          "writing",
+          "smiling"
+        ],
+        "emotions": [
+          "content",
+          "engaged"
+        ],
+        "scenes": [
+          "office",
+          "study"
+        ],
+        "concepts": [
+          "professionalism",
+          "modern work"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraZoomsIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraZoomsIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, wavy hair is smiling warmly at the camera. She is wearing a bright yellow top, and the background is softly blurred, focusing attention on her expression.",
+      "description": "The scene captures a close-up portrait of a woman in a studio setting. The focus is on her friendly and inviting smile, with a neutral, blurred background adding depth to the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "yellow top"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "warmth",
+          "approachability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: notebook, tablet, pen, table, chair. Actions: smiling, writing. Emotions: content, engaged, happiness. Scenes: office, study, portrait. Concepts: professionalism, modern work, warmth, approachability",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "notebook",
+      "tablet",
+      "pen",
+      "table",
+      "chair"
+    ],
+    "actions": [
+      "smiling",
+      "writing"
+    ],
+    "emotions": [
+      "content",
+      "engaged",
+      "happiness"
+    ],
+    "scenes": [
+      "office",
+      "study",
+      "portrait"
+    ],
+    "concepts": [
+      "professionalism",
+      "modern work",
+      "warmth",
+      "approachability"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/bunnies strawberry feast.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/bunnies strawberry feast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/bunnies strawberry feast/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy rabbit peeks out from a tree hollow, surrounded by vibrant red strawberries and green leaves. The scene is set against a clear blue sky, creating a serene and natural atmosphere.",
+      "description": "The image depicts a tranquil woodland setting where a rabbit is nestled in a tree hollow. The presence of strawberries and leaves adds a touch of freshness and color to the scene.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "tree",
+          "strawberries",
+          "leaves"
+        ],
+        "objects": [
+          "strawberries"
+        ],
+        "scenes": [
+          "woodland",
+          "nature"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/bunnies strawberry feast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/bunnies strawberry feast/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy rabbit is nestled in a tree hollow, surrounded by vibrant red strawberries and green leaves. The rabbit is nibbling on one of the strawberries, creating a charming and serene scene.",
+      "description": "The scene is set within a tree hollow, where a rabbit is enjoying a snack of strawberries. The bright colors of the strawberries contrast with the soft fur of the rabbit and the rough texture of the tree bark.",
+      "labels": {
+        "animals": [
+          "rabbit"
+        ],
+        "nature": [
+          "tree",
+          "leaves"
+        ],
+        "objects": [
+          "strawberries"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "nature",
+          "wildlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: rabbit. Nature: tree, leaves, strawberries. Objects: strawberries. Scenes: woodland, nature, forest. Emotions: calm, serene, serenity. Concepts: nature, tranquility, wildlife. Actions: eating",
+  "primary_labels": {
+    "animals": [
+      "rabbit"
+    ],
+    "nature": [
+      "tree",
+      "leaves",
+      "strawberries"
+    ],
+    "objects": [
+      "strawberries"
+    ],
+    "scenes": [
+      "woodland",
+      "nature",
+      "forest"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "serenity"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "wildlife"
+    ],
+    "actions": [
+      "eating"
+    ]
+  },
+  "metadata": {}
+}

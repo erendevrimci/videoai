@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Angel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little Angel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl with angelic wings leans over a wooden table, her expression contemplative. The room is dimly lit, with vintage photographs and papers adorning the wall, creating a nostalgic atmosphere.",
+      "description": "The scene depicts a serene and introspective moment, set in a vintage-style room. The presence of angel wings on the girl adds a mystical element, blending innocence with ethereal beauty.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "table",
+          "papers",
+          "photographs"
+        ],
+        "actions": [
+          "leaning"
+        ],
+        "emotions": [
+          "contemplative",
+          "serene"
+        ],
+        "scenes": [
+          "vintage room"
+        ],
+        "concepts": [
+          "innocence",
+          "mystical",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little Angel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with angelic wings stands by a wooden table, surrounded by vintage photographs and dried flowers. Her serene expression and flowing white dress add to the ethereal atmosphere of the room. The dim lighting and rustic decor create a nostalgic and dreamlike setting.",
+      "description": "The scene depicts a young girl dressed in a white gown with angel wings, standing beside a table filled with old photographs and dried flowers. The setting is reminiscent of a vintage study or artist's studio, with a warm, muted color palette enhancing the nostalgic feel.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "table",
+          "photographs",
+          "books",
+          "dried flowers",
+          "angel wings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "nostalgic"
+        ],
+        "scenes": [
+          "vintage room",
+          "dreamlike setting"
+        ],
+        "concepts": [
+          "nostalgia",
+          "innocence",
+          "angelic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Little Angel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Little Angel/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl dressed in a white gown with angel wings stands by a rustic wooden table. The table is adorned with framed photographs, dried flowers, and books, creating a nostalgic and serene atmosphere.",
+      "description": "The scene is set in a dimly lit room with a vintage aesthetic. The girl appears to be in a contemplative state, surrounded by personal mementos and dried floral arrangements, evoking a sense of nostalgia and tranquility.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "table",
+          "photographs",
+          "books",
+          "dried flowers",
+          "angel wings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "nostalgic"
+        ],
+        "scenes": [
+          "vintage room",
+          "contemplative setting"
+        ],
+        "concepts": [
+          "nostalgia",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: table, photographs, books, dried flowers, angel wings. Actions: standing, leaning. Emotions: serene, nostalgic, contemplative. Scenes: vintage room, dreamlike setting, contemplative setting. Concepts: nostalgia, innocence, mystical, angelic, tranquility",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "table",
+      "photographs",
+      "books",
+      "dried flowers",
+      "angel wings"
+    ],
+    "actions": [
+      "standing",
+      "leaning"
+    ],
+    "emotions": [
+      "serene",
+      "nostalgic",
+      "contemplative"
+    ],
+    "scenes": [
+      "vintage room",
+      "dreamlike setting",
+      "contemplative setting"
+    ],
+    "concepts": [
+      "nostalgia",
+      "innocence",
+      "mystical",
+      "angelic",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

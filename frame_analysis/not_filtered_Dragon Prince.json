@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dragon Prince.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dragon Prince.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dragon Prince/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young warrior stands confidently amidst a rugged mountain landscape, clad in intricately designed dark armor. His gaze is set towards the horizon, suggesting determination and resolve. The dramatic sky and towering peaks create a majestic and epic backdrop.",
+      "description": "The scene depicts a solitary figure in armor standing in a mountainous region, evoking a sense of adventure and heroism. The setting is likely a fantasy world, characterized by its dramatic natural elements and the warrior's detailed attire.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "emotions": [
+          "determination",
+          "resolve"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "heroism",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Dragon Prince.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Dragon Prince/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in detailed armor stands against a backdrop of majestic mountains. His expression is contemplative, and he gazes into the distance, suggesting a sense of purpose or reflection.",
+      "description": "The scene depicts a solitary figure clad in intricate armor, set against a dramatic mountain landscape. The atmosphere is one of introspection and grandeur, with the natural setting enhancing the character's enigmatic presence.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "mountains"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "emotions": [
+          "contemplative",
+          "reflective"
+        ],
+        "scenes": [
+          "mountain landscape",
+          "portrait"
+        ],
+        "concepts": [
+          "solitude",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, man. Nature: mountains, sky. Objects: armor. Emotions: determination, resolve, contemplative, reflective. Scenes: fantasy, adventure, mountain landscape, portrait. Concepts: solitude, heroism, introspection",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "man"
+    ],
+    "nature": [
+      "mountains",
+      "sky"
+    ],
+    "objects": [
+      "armor"
+    ],
+    "emotions": [
+      "determination",
+      "resolve",
+      "contemplative",
+      "reflective"
+    ],
+    "scenes": [
+      "fantasy",
+      "adventure",
+      "mountain landscape",
+      "portrait"
+    ],
+    "concepts": [
+      "solitude",
+      "heroism",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

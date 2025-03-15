@@ -1,0 +1,142 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/deep.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/deep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/deep/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A classical statue is humorously adorned with modern accessories, including pink sunglasses and headphones, while blowing a bubblegum bubble. The scene is set underwater, adding a surreal and whimsical touch to the image.",
+      "description": "The image depicts a classical statue submerged underwater, wearing contemporary items like sunglasses and headphones. The statue is blowing a bubblegum bubble, creating a playful contrast between the ancient and the modern.",
+      "labels": {
+        "objects": [
+          "statue",
+          "sunglasses",
+          "headphones",
+          "bubblegum"
+        ],
+        "actions": [
+          "blowing bubble"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "underwater",
+          "surreal"
+        ],
+        "concepts": [
+          "contrast",
+          "modern vs classical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/deep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/deep/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A classical statue of a bearded figure is adorned with modern pink headphones and sunglasses, submerged underwater. Pink smoke or bubbles emanate from the statue's mouth, creating a surreal and whimsical scene.",
+      "description": "The scene depicts a blend of classical and modern elements, with a statue resembling a Greek god or philosopher submerged in an underwater setting. The addition of contemporary accessories like headphones and sunglasses adds a humorous and unexpected twist.",
+      "labels": {
+        "objects": [
+          "statue",
+          "headphones",
+          "sunglasses"
+        ],
+        "actions": [
+          "submerged",
+          "smoke emanating"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "classical meets modern",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/deep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/deep/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A statue resembling a classical figure stands underwater, adorned with modern accessories like headphones and sunglasses. Bubbles rise from the statue's head, creating a surreal and whimsical scene. The surrounding environment is an underwater landscape with coral formations.",
+      "description": "The scene depicts a submerged statue in an underwater setting, blending classical art with modern elements. The statue is accessorized with headphones and sunglasses, exuding a playful and imaginative atmosphere. The underwater environment is rich with coral and marine life, enhancing the surreal quality of the image.",
+      "labels": {
+        "objects": [
+          "statue",
+          "headphones",
+          "sunglasses",
+          "coral"
+        ],
+        "nature": [
+          "underwater",
+          "bubbles"
+        ],
+        "actions": [
+          "bubbles rising"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "underwater landscape"
+        ],
+        "concepts": [
+          "classical art",
+          "modern elements",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: statue, sunglasses, headphones, bubblegum, coral. Actions: blowing bubble, submerged, smoke emanating, bubbles rising. Emotions: whimsical, surreal, playful. Scenes: underwater, surreal, underwater landscape. Concepts: contrast, modern vs classical, classical meets modern, humor, classical art. Nature: underwater, bubbles",
+  "primary_labels": {
+    "objects": [
+      "statue",
+      "sunglasses",
+      "headphones",
+      "bubblegum",
+      "coral"
+    ],
+    "actions": [
+      "blowing bubble",
+      "submerged",
+      "smoke emanating",
+      "bubbles rising"
+    ],
+    "emotions": [
+      "whimsical",
+      "surreal",
+      "playful"
+    ],
+    "scenes": [
+      "underwater",
+      "surreal",
+      "underwater landscape"
+    ],
+    "concepts": [
+      "contrast",
+      "modern vs classical",
+      "classical meets modern",
+      "humor",
+      "classical art"
+    ],
+    "nature": [
+      "underwater",
+      "bubbles"
+    ]
+  },
+  "metadata": {}
+}

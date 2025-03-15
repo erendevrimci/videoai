@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Cleaver Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Cleaver Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Cleaver Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is humorously depicted as a chef, wielding a cleaver to cut a piece of meat on a wooden board. The scene is set outdoors in front of a traditional house, surrounded by fresh vegetables like lettuce, cucumbers, and tomatoes.",
+      "description": "The image presents a whimsical scene where a cat is portrayed as a chef preparing a meal in a serene outdoor setting. The backdrop features a traditional house, suggesting a rural or countryside environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cleaver",
+          "meat",
+          "cutting board",
+          "vegetables",
+          "house"
+        ],
+        "actions": [
+          "cutting"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "outdoor",
+          "countryside"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Cleaver Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Cleaver Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is humorously depicted using a cleaver to chop meat on a wooden cutting board. The scene is set outdoors with a traditional house and lush greenery in the background, creating a whimsical and surreal atmosphere.",
+      "description": "The image portrays a surreal scene where a cat is anthropomorphically engaged in cooking, set against a picturesque outdoor backdrop. The setting includes a traditional house and vibrant greenery, enhancing the whimsical nature of the scene.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cleaver",
+          "cutting board",
+          "meat",
+          "vegetables",
+          "house"
+        ],
+        "actions": [
+          "chopping"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor",
+          "cooking"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Cleaver Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Cleaver Cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy orange cat is humorously depicted chopping meat with a cleaver on a wooden cutting board. The scene is set outdoors with a traditional house and lush greenery in the background, creating a whimsical and surreal atmosphere.",
+      "description": "The image shows a cat engaging in a human-like activity of cooking, set against a serene countryside backdrop. The juxtaposition of the cat's serious expression with the absurdity of the situation adds a comedic element.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "trees",
+          "grass",
+          "countryside"
+        ],
+        "objects": [
+          "cleaver",
+          "cutting board",
+          "meat",
+          "vegetables"
+        ],
+        "actions": [
+          "chopping"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "outdoor",
+          "countryside"
+        ],
+        "concepts": [
+          "humor",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: cleaver, meat, cutting board, vegetables, house. Actions: chopping, cutting. Emotions: humor, whimsical, serious. Scenes: outdoor, countryside, cooking. Concepts: anthropomorphism, humor, cooking, surreal. Nature: trees, grass, countryside",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "cleaver",
+      "meat",
+      "cutting board",
+      "vegetables",
+      "house"
+    ],
+    "actions": [
+      "chopping",
+      "cutting"
+    ],
+    "emotions": [
+      "humor",
+      "whimsical",
+      "serious"
+    ],
+    "scenes": [
+      "outdoor",
+      "countryside",
+      "cooking"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "cooking",
+      "surreal"
+    ],
+    "nature": [
+      "trees",
+      "grass",
+      "countryside"
+    ]
+  },
+  "metadata": {}
+}

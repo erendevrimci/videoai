@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/H\"ACinematicTrackingShotOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/H\"ACinematicTrackingShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/H\"ACinematicTrackingShotOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a straw hat is rowing a wooden boat along a tranquil river. The water is clear, revealing colorful fish swimming beneath the surface. Lush greenery and trees line the riverbank, creating a serene natural setting.",
+      "description": "The scene depicts a peaceful river journey with a person navigating a small wooden boat. The river is teeming with vibrant fish, and the surrounding environment is rich with greenery, suggesting a calm and idyllic outdoor setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "fish"
+        ],
+        "nature": [
+          "river",
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "boat",
+          "straw hat",
+          "oar"
+        ],
+        "actions": [
+          "rowing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "nature",
+          "river"
+        ],
+        "concepts": [
+          "tranquility",
+          "outdoor exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/H\"ACinematicTrackingShotOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/H\"ACinematicTrackingShotOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a straw hat navigates a wooden canoe down a serene river surrounded by lush greenery. Below the canoe, colorful koi fish swim gracefully in the clear water, reflecting the sunlight. The scene is tranquil, capturing a moment of peaceful coexistence with nature.",
+      "description": "The image depicts a tranquil river scene with a person in a canoe, surrounded by vibrant greenery and swimming koi fish. The setting suggests a peaceful, natural environment, possibly in a secluded forest or garden area.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "koi fish"
+        ],
+        "nature": [
+          "river",
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "canoe",
+          "straw hat"
+        ],
+        "actions": [
+          "paddling",
+          "swimming"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "nature",
+          "river"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: fish, koi fish. Nature: river, trees, greenery. Objects: straw hat, boat, oar, canoe. Actions: rowing, paddling, swimming. Emotions: serenity, peacefulness. Scenes: nature, river. Concepts: tranquility, outdoor exploration, harmony with nature",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "fish",
+      "koi fish"
+    ],
+    "nature": [
+      "river",
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "straw hat",
+      "boat",
+      "oar",
+      "canoe"
+    ],
+    "actions": [
+      "rowing",
+      "paddling",
+      "swimming"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness"
+    ],
+    "scenes": [
+      "nature",
+      "river"
+    ],
+    "concepts": [
+      "tranquility",
+      "outdoor exploration",
+      "harmony with nature"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,85 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunder.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Thunder/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a human eye with a striking electric blue iris, featuring lightning-like patterns radiating from the pupil. The intricate details of the eyelashes and skin texture are vividly captured, creating a surreal and electrifying visual effect.",
+      "description": "The image presents an extreme close-up of a human eye, emphasizing the vibrant blue iris and the dynamic lightning patterns. The focus on the eye creates a sense of intensity and energy.",
+      "labels": {
+        "people": [
+          "eye",
+          "eyelashes"
+        ],
+        "objects": [
+          "lightning pattern"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "electricity",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Thunder/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of an eye with vibrant blue lightning-like energy radiating from the pupil. The surrounding skin and eyelashes are visible, highlighting the intense focus on the eye's dynamic energy.",
+      "description": "The scene captures a highly detailed and dramatic close-up of an eye, emphasizing the electric energy emanating from it. The setting is abstract, focusing on the eye's striking visual effect.",
+      "labels": {
+        "people": [
+          "eye"
+        ],
+        "objects": [
+          "lightning",
+          "energy"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "power",
+          "electricity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: eye, eyelashes. Objects: lightning pattern, lightning, energy. Emotions: intensity. Scenes: close-up. Concepts: electricity, energy, power",
+  "primary_labels": {
+    "people": [
+      "eye",
+      "eyelashes"
+    ],
+    "objects": [
+      "lightning pattern",
+      "lightning",
+      "energy"
+    ],
+    "emotions": [
+      "intensity"
+    ],
+    "scenes": [
+      "close-up"
+    ],
+    "concepts": [
+      "electricity",
+      "energy",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u8fd1\u672a\u6765\u90fd\u5e02\u3068\u5b87\u5b993.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u8fd1\u672a\u6765\u90fd\u5e02\u3068\u5b87\u5b993.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u8fd1\u672a\u6765\u90fd\u5e02\u3068\u5b87\u5b993/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic cityscape with towering skyscrapers stretches into the distance, under a starry sky with a visible planet. Flying vehicles zip through the air, navigating between the buildings on elevated highways.",
+      "description": "The scene depicts a bustling futuristic metropolis, characterized by advanced architecture and technology. The city is alive with activity as flying vehicles move swiftly along aerial pathways, set against a cosmic backdrop.",
+      "labels": {
+        "objects": [
+          "skyscrapers",
+          "flying vehicles",
+          "highways"
+        ],
+        "actions": [
+          "flying",
+          "navigating"
+        ],
+        "scenes": [
+          "futuristic city",
+          "metropolis"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "urbanization"
+        ],
+        "nature": [
+          "planet",
+          "starry sky"
+        ],
+        "emotions": [
+          "awe",
+          "excitement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u8fd1\u672a\u6765\u90fd\u5e02\u3068\u5b87\u5b993.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u8fd1\u672a\u6765\u90fd\u5e02\u3068\u5b87\u5b993/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek spacecraft soars through a futuristic cityscape under a starry sky. Towering structures rise from the ground, while distant planets and cosmic phenomena create a mesmerizing backdrop. The scene captures a sense of adventure and exploration in a vast, otherworldly environment.",
+      "description": "The image depicts a futuristic setting with a spacecraft flying amidst towering skyscrapers. The background features a star-filled sky with visible planets, suggesting a scene set in a distant galaxy or an advanced civilization.",
+      "labels": {
+        "objects": [
+          "spacecraft",
+          "skyscrapers",
+          "planets"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "scenes": [
+          "futuristic cityscape",
+          "outer space"
+        ],
+        "concepts": [
+          "exploration",
+          "adventure"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skyscrapers, flying vehicles, highways, spacecraft, planets. Actions: flying, navigating. Scenes: futuristic city, metropolis, futuristic cityscape, outer space. Concepts: technology, future, urbanization, exploration, adventure. Nature: planet, starry sky. Emotions: awe, excitement, wonder",
+  "primary_labels": {
+    "objects": [
+      "skyscrapers",
+      "flying vehicles",
+      "highways",
+      "spacecraft",
+      "planets"
+    ],
+    "actions": [
+      "flying",
+      "navigating"
+    ],
+    "scenes": [
+      "futuristic city",
+      "metropolis",
+      "futuristic cityscape",
+      "outer space"
+    ],
+    "concepts": [
+      "technology",
+      "future",
+      "urbanization",
+      "exploration",
+      "adventure"
+    ],
+    "nature": [
+      "planet",
+      "starry sky"
+    ],
+    "emotions": [
+      "awe",
+      "excitement",
+      "wonder"
+    ]
+  },
+  "metadata": {}
+}

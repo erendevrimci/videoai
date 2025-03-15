@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Just a Fairy Tale.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Just a Fairy Tale.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Just a Fairy Tale/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a large wolf with its mouth open, revealing a forest path inside. A figure in a red cloak stands at the center of the path, creating a striking contrast against the wolf's dark fur.",
+      "description": "The scene combines elements of fantasy and fairy tale, with a wolf's head dominating the frame. Inside the wolf's mouth is a forest path, where a cloaked figure stands, evoking a sense of mystery and intrigue.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "path"
+        ],
+        "objects": [
+          "cloak"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mystery",
+          "intrigue"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "fairy tale",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Just a Fairy Tale.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Just a Fairy Tale/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large wolf's face dominates the scene, its mouth open wide to reveal a path through a forest. A figure in a red cloak walks along the path, creating a striking contrast against the wolf's dark fur.",
+      "description": "The image presents a surreal and imaginative scene where a wolf's mouth forms the entrance to a forest path. The setting suggests a fairy-tale atmosphere, reminiscent of classic stories like Little Red Riding Hood.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "figure in red cloak"
+        ],
+        "nature": [
+          "forest",
+          "path"
+        ],
+        "objects": [
+          "cloak"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mystery",
+          "tension"
+        ],
+        "scenes": [
+          "fairy-tale",
+          "surreal"
+        ],
+        "concepts": [
+          "imagination",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Just a Fairy Tale.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Just a Fairy Tale/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up of a wolf with intense, glowing amber eyes staring directly at the viewer. The wolf's fur is a mix of gray and brown, highlighted by the dim lighting, creating a dramatic and mysterious atmosphere.",
+      "description": "The scene captures the fierce and enigmatic presence of a wolf in a dark, possibly forested setting. The focus is on the wolf's face, emphasizing its piercing gaze and detailed fur texture.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [],
+        "actions": [
+          "staring"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "wildlife"
+        ],
+        "concepts": [
+          "predator",
+          "wild"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: wolf. Nature: forest, path. Objects: cloak. Actions: standing, walking, staring. Emotions: mystery, intrigue, tension, intensity. Scenes: surreal, fantasy, fairy-tale, wildlife. Concepts: contrast, fairy tale, imagination, predator, wild. People: figure in red cloak",
+  "primary_labels": {
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "forest",
+      "path"
+    ],
+    "objects": [
+      "cloak"
+    ],
+    "actions": [
+      "standing",
+      "walking",
+      "staring"
+    ],
+    "emotions": [
+      "mystery",
+      "intrigue",
+      "tension",
+      "intensity"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "fairy-tale",
+      "wildlife"
+    ],
+    "concepts": [
+      "contrast",
+      "fairy tale",
+      "imagination",
+      "predator",
+      "wild"
+    ],
+    "people": [
+      "figure in red cloak"
+    ]
+  },
+  "metadata": {}
+}

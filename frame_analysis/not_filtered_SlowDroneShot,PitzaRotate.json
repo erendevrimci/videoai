@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowDroneShot,PitzaRotate.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowDroneShot,PitzaRotate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowDroneShot,PitzaRotate/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts the Leaning Tower of Pisa with a large pizza placed on top, blending architectural wonder with culinary delight. The scene is set against an aerial view of a quaint Italian town with terracotta rooftops and lush greenery.",
+      "description": "The image combines elements of Italian culture by placing a pizza atop the iconic Leaning Tower of Pisa, set in a picturesque town. This whimsical scene merges architecture and food in a creative and humorous way.",
+      "labels": {
+        "objects": [
+          "Leaning Tower of Pisa",
+          "pizza",
+          "buildings",
+          "trees"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "scenes": [
+          "aerial view",
+          "town",
+          "surreal"
+        ],
+        "concepts": [
+          "architecture",
+          "culinary",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowDroneShot,PitzaRotate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowDroneShot,PitzaRotate/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts the Leaning Tower of Pisa topped with a large pizza. The tower stands amidst a picturesque landscape with buildings and greenery surrounding it, set against a serene body of water.",
+      "description": "The image presents a whimsical and imaginative setting where the iconic Leaning Tower of Pisa is humorously topped with a giant pizza. The scene is set in a coastal area with traditional architecture and lush greenery, creating a blend of reality and fantasy.",
+      "labels": {
+        "objects": [
+          "Leaning Tower of Pisa",
+          "pizza",
+          "buildings",
+          "water"
+        ],
+        "nature": [
+          "greenery",
+          "coastline"
+        ],
+        "scenes": [
+          "surreal",
+          "urban",
+          "coastal"
+        ],
+        "concepts": [
+          "fantasy",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: Leaning Tower of Pisa, pizza, buildings, trees, water. Nature: trees, greenery, coastline. Scenes: surreal, aerial view, town, urban, coastal. Concepts: humor, architecture, culinary, fantasy",
+  "primary_labels": {
+    "objects": [
+      "Leaning Tower of Pisa",
+      "pizza",
+      "buildings",
+      "trees",
+      "water"
+    ],
+    "nature": [
+      "trees",
+      "greenery",
+      "coastline"
+    ],
+    "scenes": [
+      "surreal",
+      "aerial view",
+      "town",
+      "urban",
+      "coastal"
+    ],
+    "concepts": [
+      "humor",
+      "architecture",
+      "culinary",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

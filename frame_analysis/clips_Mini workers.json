@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini workers.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini workers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini workers/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up scene depicts a large, glittery red fingernail surrounded by four miniature figurines dressed in black. The figures appear to be interacting with the nail, creating a whimsical and surreal atmosphere. In the background, a blurred red bottle adds to the vibrant color scheme.",
+      "description": "The scene is set in a stylized, imaginative environment where miniature figures are engaged with a human-sized fingernail. The setting is likely a creative studio or a conceptual art piece, emphasizing the contrast between scale and reality.",
+      "labels": {
+        "people": [
+          "miniature figurines"
+        ],
+        "objects": [
+          "fingernail",
+          "red bottle",
+          "glitter"
+        ],
+        "actions": [
+          "interacting"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "conceptual art",
+          "close-up"
+        ],
+        "concepts": [
+          "surrealism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini workers.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini workers/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts tiny figurines appearing to polish a large, glittery red fingernail. The setting is accentuated by a vibrant red nail polish bottle in the background, creating a playful and imaginative atmosphere.",
+      "description": "The scene presents a creative and surreal depiction of miniature figures working on a human fingernail, set against a backdrop of red hues and sparkles. It combines elements of fantasy and beauty care.",
+      "labels": {
+        "people": [
+          "figurines"
+        ],
+        "objects": [
+          "fingernail",
+          "nail polish bottle"
+        ],
+        "actions": [
+          "polishing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "fantasy",
+          "beauty care"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figurines, figurines. Objects: fingernail, red bottle, glitter, nail polish bottle. Actions: interacting, polishing. Emotions: whimsical, playful. Scenes: conceptual art, close-up, fantasy, beauty care. Concepts: surrealism, contrast, miniature, surreal",
+  "primary_labels": {
+    "people": [
+      "miniature figurines",
+      "figurines"
+    ],
+    "objects": [
+      "fingernail",
+      "red bottle",
+      "glitter",
+      "nail polish bottle"
+    ],
+    "actions": [
+      "interacting",
+      "polishing"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "conceptual art",
+      "close-up",
+      "fantasy",
+      "beauty care"
+    ],
+    "concepts": [
+      "surrealism",
+      "contrast",
+      "miniature",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DollyShot:TheCameraMoves.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DollyShot:TheCameraMoves.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DollyShot:TheCameraMoves/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three children stand in awe before a swirling, luminous portal in a rocky cavern. The portal emits a golden glow with a blue center, casting light on the children's faces. Each child carries a backpack, suggesting they are on an adventurous journey.",
+      "description": "The scene depicts a mystical setting where three children encounter a magical portal within a cave. The environment is rugged, with rocky walls and a mysterious atmosphere.",
+      "labels": {
+        "people": [
+          "children"
+        ],
+        "nature": [
+          "cave",
+          "rocks"
+        ],
+        "objects": [
+          "portal",
+          "backpacks"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "mystery",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DollyShot:TheCameraMoves.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DollyShot:TheCameraMoves/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three children stand in awe before a swirling, luminous portal in a cavernous setting. The portal emits a radiant golden and blue light, illuminating the rocky surroundings. The children, wearing backpacks, appear mesmerized by the mystical phenomenon.",
+      "description": "The scene depicts a group of children encountering a magical portal in a cave-like environment. The portal's vibrant colors and swirling motion create a sense of wonder and adventure.",
+      "labels": {
+        "people": [
+          "children"
+        ],
+        "nature": [
+          "cave"
+        ],
+        "objects": [
+          "portal",
+          "backpacks"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "curiosity"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "mystery",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: children. Nature: cave, rocks. Objects: portal, backpacks. Actions: standing, observing. Emotions: awe, wonder, curiosity. Scenes: fantasy, adventure. Concepts: mystery, exploration",
+  "primary_labels": {
+    "people": [
+      "children"
+    ],
+    "nature": [
+      "cave",
+      "rocks"
+    ],
+    "objects": [
+      "portal",
+      "backpacks"
+    ],
+    "actions": [
+      "standing",
+      "observing"
+    ],
+    "emotions": [
+      "awe",
+      "wonder",
+      "curiosity"
+    ],
+    "scenes": [
+      "fantasy",
+      "adventure"
+    ],
+    "concepts": [
+      "mystery",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

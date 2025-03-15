@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Antarctic Lands View.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Antarctic Lands View.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Antarctic Lands View/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image captures a vast, snow-covered landscape with undulating snowdrifts stretching towards distant mountains. A glacier can be seen in the mid-ground, with rugged cliffs framing the scene on the right. The sky is clear with a few clouds, suggesting a cold but calm day.",
+      "description": "The scene depicts a remote, icy wilderness, likely in a polar or high-altitude region. The expansive snowfield and glacier suggest a pristine and untouched environment, with no visible signs of human presence.",
+      "labels": {
+        "nature": [
+          "snow",
+          "mountains",
+          "glacier",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "snowdrifts",
+          "cliffs"
+        ],
+        "scenes": [
+          "winter landscape",
+          "polar region"
+        ],
+        "emotions": [
+          "serenity",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Antarctic Lands View.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Antarctic Lands View/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vast, snow-covered landscape stretches across the scene, with undulating snowdrifts and distant mountains under a clear blue sky. The sunlight casts soft shadows, highlighting the textures of the snow and the rugged mountain peaks in the background. The scene is serene and untouched, evoking a sense of isolation and tranquility.",
+      "description": "The scene depicts a remote, icy landscape with expansive snowfields and distant mountains. The setting is likely a polar or high-altitude region, characterized by its cold and pristine environment.",
+      "labels": {
+        "nature": [
+          "snow",
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "snowdrifts"
+        ],
+        "scenes": [
+          "landscape",
+          "wilderness"
+        ],
+        "emotions": [
+          "serenity",
+          "isolation"
+        ],
+        "concepts": [
+          "cold",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: snow, mountains, sky, glacier, clouds. Objects: snowdrifts, cliffs. Scenes: winter landscape, polar region, landscape, wilderness. Emotions: serenity, isolation. Concepts: cold, tranquility",
+  "primary_labels": {
+    "nature": [
+      "snow",
+      "mountains",
+      "sky",
+      "glacier",
+      "clouds"
+    ],
+    "objects": [
+      "snowdrifts",
+      "cliffs"
+    ],
+    "scenes": [
+      "winter landscape",
+      "polar region",
+      "landscape",
+      "wilderness"
+    ],
+    "emotions": [
+      "serenity",
+      "isolation"
+    ],
+    "concepts": [
+      "cold",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

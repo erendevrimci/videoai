@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Drifts on the road.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Drifts on the road.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Drifts on the road/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sports car with a vibrant, abstract paint job drifts around a curve on a mountainous road. Dust and smoke trail behind the car, emphasizing its speed and agility. The sun casts a warm glow over the rugged landscape, highlighting the car's dynamic movement.",
+      "description": "The scene captures a high-speed drift of a sports car on a winding mountain road. The setting is a desert-like area with rocky hills and a clear sky, suggesting a remote and challenging driving environment.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "road",
+          "mountains"
+        ],
+        "actions": [
+          "drifting",
+          "driving"
+        ],
+        "emotions": [
+          "excitement",
+          "adrenaline"
+        ],
+        "scenes": [
+          "mountain road",
+          "desert landscape"
+        ],
+        "concepts": [
+          "speed",
+          "agility",
+          "motorsport"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Drifts on the road.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Drifts on the road/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sports car with a vibrant, abstract paint job speeds along an urban roadway. The car is captured in motion, with a slight blur indicating its high speed. The background features a cityscape with buildings and a clear sky.",
+      "description": "The scene depicts a dynamic moment of a sports car racing through a city street. The car's colorful design stands out against the muted tones of the urban environment.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "buildings",
+          "road"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "motion",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sports car, road, mountains, buildings. Actions: driving, drifting, speeding. Emotions: excitement, adrenaline. Scenes: mountain road, desert landscape, urban, cityscape. Concepts: speed, agility, motorsport, motion",
+  "primary_labels": {
+    "objects": [
+      "sports car",
+      "road",
+      "mountains",
+      "buildings"
+    ],
+    "actions": [
+      "driving",
+      "drifting",
+      "speeding"
+    ],
+    "emotions": [
+      "excitement",
+      "adrenaline"
+    ],
+    "scenes": [
+      "mountain road",
+      "desert landscape",
+      "urban",
+      "cityscape"
+    ],
+    "concepts": [
+      "speed",
+      "agility",
+      "motorsport",
+      "motion"
+    ]
+  },
+  "metadata": {}
+}

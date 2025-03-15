@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Donkey Kong talking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Donkey Kong talking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Donkey Kong talking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular, anthropomorphic gorilla stands confidently, wearing blue jeans and red shoes. The character has a determined expression, with fur-covered arms and a prominent brow. The lighting highlights the texture of the fur and the details of the clothing.",
+      "description": "The scene features a stylized, cartoonish gorilla character in a studio setting. The focus is on the character's strong physique and unique attire, creating a sense of power and readiness.",
+      "labels": {
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "jeans",
+          "shoes",
+          "gloves"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "strength",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Donkey Kong talking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Donkey Kong talking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cartoonish gorilla character stands confidently, showcasing a muscular build and wearing casual clothing. The character's expression is determined, with a slight frown and focused eyes.",
+      "description": "The scene features a stylized gorilla character in a studio setting, emphasizing its strong physique and casual attire. The character is depicted with exaggerated features typical of animated designs.",
+      "labels": {
+        "people": [],
+        "animals": [
+          "gorilla"
+        ],
+        "nature": [],
+        "objects": [
+          "jeans",
+          "gloves",
+          "shoes"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determined"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "animation",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Donkey Kong talking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Donkey Kong talking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A muscular gorilla-like character stands confidently, wearing blue jeans and red shoes. The character's fur is detailed, and it has a determined expression on its face.",
+      "description": "The scene features a stylized, anthropomorphic gorilla character in a studio setting. The character is posed in a strong stance, emphasizing its muscular build and expressive features.",
+      "labels": {
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "jeans",
+          "shoes",
+          "gloves"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "character design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: gorilla. Objects: jeans, shoes, gloves. Emotions: determination, determined, confidence. Scenes: studio. Concepts: character design, anthropomorphism, strength, animation. Actions: standing",
+  "primary_labels": {
+    "animals": [
+      "gorilla"
+    ],
+    "objects": [
+      "jeans",
+      "shoes",
+      "gloves"
+    ],
+    "emotions": [
+      "determination",
+      "determined",
+      "confidence"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "character design",
+      "anthropomorphism",
+      "strength",
+      "animation"
+    ],
+    "people": [],
+    "nature": [],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

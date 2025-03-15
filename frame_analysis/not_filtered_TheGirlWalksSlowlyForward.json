@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalksSlowlyForward.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalksSlowlyForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlWalksSlowlyForward/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot stands prominently in an urban cityscape, blending seamlessly with the advanced architecture. The robot's design is sleek and intricate, featuring metallic components and glowing elements. The background showcases a bustling city with towering buildings and flying vehicles in the sky.",
+      "description": "The scene is set in a futuristic city where technology and urban life intertwine. The humanoid robot appears to be a central figure, possibly an advanced AI or cyborg, amidst a backdrop of modern skyscrapers and aerial traffic.",
+      "labels": {
+        "people": [
+          "humanoid robot"
+        ],
+        "objects": [
+          "robot",
+          "buildings",
+          "flying vehicles"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "futuristic city",
+          "urban landscape"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "cybernetics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalksSlowlyForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlWalksSlowlyForward/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic humanoid robot stands confidently in an urban setting, blending seamlessly with the cityscape. The robot's sleek, metallic armor is accentuated by glowing orange and blue lights, contrasting with the bustling backdrop of a modern city street.",
+      "description": "The scene is set in a futuristic urban environment, featuring a humanoid robot in advanced armor walking through a city street. The architecture is modern with high-rise buildings and overhead wires, suggesting a technologically advanced society.",
+      "labels": {
+        "people": [
+          "humanoid robot"
+        ],
+        "objects": [
+          "armor",
+          "buildings",
+          "wires"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "cybernetics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlWalksSlowlyForward.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlWalksSlowlyForward/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic humanoid robot stands confidently in a bustling urban environment. The robot's sleek metallic armor is intricately designed with glowing accents, reflecting the advanced technology of the setting.",
+      "description": "The scene is set in a futuristic cityscape with towering buildings and advanced technology. The humanoid robot is the focal point, exuding a sense of strength and sophistication.",
+      "labels": {
+        "people": [
+          "humanoid robot"
+        ],
+        "objects": [
+          "metallic armor",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "futuristic city"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "robotics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid robot. Objects: buildings, robot, flying vehicles, armor, wires. Actions: standing, walking. Emotions: confidence, neutral. Scenes: futuristic city, urban landscape, urban, futuristic. Concepts: technology, future, cybernetics, robotics",
+  "primary_labels": {
+    "people": [
+      "humanoid robot"
+    ],
+    "objects": [
+      "buildings",
+      "robot",
+      "flying vehicles",
+      "armor",
+      "wires"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "neutral"
+    ],
+    "scenes": [
+      "futuristic city",
+      "urban landscape",
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "future",
+      "cybernetics",
+      "robotics"
+    ]
+  },
+  "metadata": {}
+}

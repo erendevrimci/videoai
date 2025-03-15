@@ -1,0 +1,82 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The bag flies down the street.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The bag flies down the street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The bag flies down the street/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious yellow handbag is prominently displayed in the foreground against the backdrop of an ornate, historic building. The architecture features classical elements with columns and intricate sculptures, suggesting a grand and cultural setting.",
+      "description": "The scene captures a juxtaposition between a modern fashion accessory and a historic architectural landmark. The setting appears to be an urban environment with a focus on cultural heritage.",
+      "labels": {
+        "objects": [
+          "handbag",
+          "building"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "luxury",
+          "fashion",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The bag flies down the street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The bag flies down the street/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant yellow handbag is prominently displayed in the foreground against the backdrop of a grand, historic building. The architectural structure features ornate details and columns, suggesting a classical style.",
+      "description": "The scene is set in an urban environment, likely a city square or street, with a focus on a luxurious handbag and an impressive historical building in the background.",
+      "labels": {
+        "objects": [
+          "handbag",
+          "building"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "luxury",
+          "fashion"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "emotions": [
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: handbag, building. Scenes: urban, historic, cityscape. Concepts: luxury, fashion, architecture. Nature: clouds. Emotions: elegance",
+  "primary_labels": {
+    "objects": [
+      "handbag",
+      "building"
+    ],
+    "scenes": [
+      "urban",
+      "historic",
+      "cityscape"
+    ],
+    "concepts": [
+      "luxury",
+      "fashion",
+      "architecture"
+    ],
+    "nature": [
+      "clouds"
+    ],
+    "emotions": [
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

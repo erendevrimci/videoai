@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Taco Factory.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Taco Factory.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiny Taco Factory/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a whimsical scene where miniature chefs are adding sauce to a row of tacos. A large spoon drips sauce onto the tacos, while the tiny chefs appear to be orchestrating the process with precision.",
+      "description": "The scene is set in a playful culinary environment, where oversized tacos are being garnished by tiny chefs. The focus is on the interaction between the chefs and the food, creating a surreal and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "tacos",
+          "spoon",
+          "sauce"
+        ],
+        "actions": [
+          "pouring",
+          "garnishing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "culinary",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Taco Factory.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiny Taco Factory/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical scene, miniature chefs are seen preparing tacos, adding toppings with precision. The tacos are filled with seasoned meat and garnished with fresh herbs, creating a playful culinary display.",
+      "description": "The image depicts a creative and imaginative setting where tiny chefs are working on oversized tacos. The scene blends elements of food art and fantasy, capturing a unique culinary moment.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "tacos",
+          "herbs",
+          "cooking pot"
+        ],
+        "actions": [
+          "cooking",
+          "garnishing"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "culinary",
+          "fantasy"
+        ],
+        "concepts": [
+          "food art",
+          "miniature world"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: tacos, spoon, sauce, herbs, cooking pot. Actions: garnishing, pouring, cooking. Emotions: playful, whimsical, creative. Scenes: culinary, imaginative, fantasy. Concepts: food art, miniature, miniature world",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "tacos",
+      "spoon",
+      "sauce",
+      "herbs",
+      "cooking pot"
+    ],
+    "actions": [
+      "garnishing",
+      "pouring",
+      "cooking"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "creative"
+    ],
+    "scenes": [
+      "culinary",
+      "imaginative",
+      "fantasy"
+    ],
+    "concepts": [
+      "food art",
+      "miniature",
+      "miniature world"
+    ]
+  },
+  "metadata": {}
+}

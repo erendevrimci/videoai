@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimaLaPiccolaGiraffaMentre.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimaLaPiccolaGiraffaMentre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimaLaPiccolaGiraffaMentre/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny giraffe stands delicately on a human palm, bathed in warm, golden light. The background features a blurred savannah landscape, enhancing the surreal nature of the scene.",
+      "description": "The image depicts a miniature giraffe standing on a person's hand, set against a blurred savannah backdrop. The lighting is warm and golden, suggesting a sunrise or sunset, creating a magical and whimsical atmosphere.",
+      "labels": {
+        "animals": [
+          "giraffe"
+        ],
+        "nature": [
+          "savannah",
+          "sunset"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimaLaPiccolaGiraffaMentre.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimaLaPiccolaGiraffaMentre/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny, adorable giraffe stands gracefully in the palm of a human hand, set against a warm, sunlit savannah background. The scene captures a whimsical blend of nature and fantasy, highlighting the gentle interaction between human and animal.",
+      "description": "The image depicts a surreal scene where a miniature giraffe is delicately perched on a person's hand. The background suggests a savannah setting, with soft, golden lighting that enhances the magical atmosphere.",
+      "labels": {
+        "animals": [
+          "giraffe"
+        ],
+        "nature": [
+          "savannah"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical",
+          "gentle"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "miniature",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: giraffe. Nature: savannah, sunset. Objects: hand. Emotions: whimsical, magical, gentle. Scenes: fantasy, nature. Concepts: miniature, surreal, interaction. Actions: standing",
+  "primary_labels": {
+    "animals": [
+      "giraffe"
+    ],
+    "nature": [
+      "savannah",
+      "sunset"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "emotions": [
+      "whimsical",
+      "magical",
+      "gentle"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "miniature",
+      "surreal",
+      "interaction"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A robot walkin an orange cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A robot walkin an orange cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A robot walkin an orange cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic robot walks a ginger cat on a leash down a tree-lined urban street. The robot's sleek metallic design contrasts with the natural greenery surrounding them. Passersby in the background add a sense of normalcy to this extraordinary scene.",
+      "description": "The scene takes place on a city street lined with trees, where a humanoid robot is walking a cat. The setting blends futuristic technology with a natural urban environment, showcasing a harmonious coexistence between advanced robotics and everyday life.",
+      "labels": {
+        "people": [
+          "robot",
+          "passersby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "leash",
+          "sidewalk"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "coexistence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A robot walkin an orange cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A robot walkin an orange cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot walks down a tree-lined street, holding a leash attached to a ginger cat. The scene is set in an urban environment with people in the background, creating a blend of technology and everyday life.",
+      "description": "The image depicts a robot and a cat walking together on a city street, surrounded by trees and pedestrians. The robot's sleek, metallic design contrasts with the natural setting, highlighting the integration of advanced technology into daily life.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "robot",
+          "leash"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "technology",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot, passersby, pedestrians. Animals: cat. Nature: trees. Objects: leash, sidewalk, robot. Actions: walking. Emotions: calm. Scenes: urban, futuristic, street. Concepts: technology, coexistence, futurism",
+  "primary_labels": {
+    "people": [
+      "robot",
+      "passersby",
+      "pedestrians"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "trees"
+    ],
+    "objects": [
+      "leash",
+      "sidewalk",
+      "robot"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "street"
+    ],
+    "concepts": [
+      "technology",
+      "coexistence",
+      "futurism"
+    ]
+  },
+  "metadata": {}
+}

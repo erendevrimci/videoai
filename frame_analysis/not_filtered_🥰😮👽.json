@@ -1,0 +1,142 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a cosmic scene with two Earth-like planets in space. One planet shows signs of volcanic activity with glowing red fissures, while the other appears calm with visible cloud formations. The scene is set against a backdrop of countless stars, adding depth to the vastness of space.",
+      "description": "The scene is set in outer space, featuring two Earth-like planets. One planet exhibits intense volcanic activity, while the other is serene, with visible continents and cloud cover. The image captures the grandeur and mystery of the cosmos.",
+      "labels": {
+        "nature": [
+          "planets",
+          "stars",
+          "space"
+        ],
+        "objects": [
+          "volcanic activity",
+          "clouds"
+        ],
+        "scenes": [
+          "cosmic",
+          "outer space"
+        ],
+        "concepts": [
+          "vastness",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a dramatic cosmic scene with two planets in close proximity, one of which is Earth. The other planet appears to be experiencing volcanic activity, with glowing red lava visible on its surface. A smaller celestial body, possibly a moon, is seen in the background against a starry sky.",
+      "description": "This scene is set in outer space, showcasing a view of Earth from above, along with another planet exhibiting intense volcanic eruptions. The presence of a moon and numerous stars adds depth to the cosmic setting.",
+      "labels": {
+        "nature": [
+          "planet",
+          "moon",
+          "stars",
+          "lava"
+        ],
+        "objects": [
+          "Earth",
+          "volcanic planet"
+        ],
+        "scenes": [
+          "outer space",
+          "cosmic"
+        ],
+        "concepts": [
+          "volcanic activity",
+          "planetary proximity"
+        ],
+        "emotions": [
+          "dramatic",
+          "intense"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\ud83e\udd70\ud83d\ude2e\ud83d\udc7d/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "The image depicts a dramatic cosmic scene with a fiery celestial body approaching Earth. The planet is partially illuminated, showcasing continents and oceans, while the fiery object emits intense flames and smoke. A spacecraft is visible, suggesting an extraterrestrial or futuristic setting.",
+      "description": "This scene captures a catastrophic event in space, where a massive, flaming celestial body is nearing Earth. The planet's surface is detailed with visible landmasses and oceans, while the fiery object suggests a potential collision. The presence of a spacecraft adds a science fiction element to the scene.",
+      "labels": {
+        "nature": [
+          "Earth",
+          "celestial body",
+          "space"
+        ],
+        "objects": [
+          "spacecraft",
+          "flames",
+          "smoke"
+        ],
+        "actions": [
+          "approaching",
+          "emitting"
+        ],
+        "emotions": [
+          "dramatic",
+          "intense"
+        ],
+        "scenes": [
+          "cosmic",
+          "catastrophic"
+        ],
+        "concepts": [
+          "collision",
+          "extraterrestrial",
+          "futuristic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: stars, space, planets, planet, moon. Objects: volcanic activity, clouds, Earth, volcanic planet, spacecraft. Scenes: cosmic, outer space, catastrophic. Concepts: vastness, mystery, volcanic activity, planetary proximity, collision. Emotions: dramatic, intense. Actions: approaching, emitting",
+  "primary_labels": {
+    "nature": [
+      "stars",
+      "space",
+      "planets",
+      "planet",
+      "moon"
+    ],
+    "objects": [
+      "volcanic activity",
+      "clouds",
+      "Earth",
+      "volcanic planet",
+      "spacecraft"
+    ],
+    "scenes": [
+      "cosmic",
+      "outer space",
+      "catastrophic"
+    ],
+    "concepts": [
+      "vastness",
+      "mystery",
+      "volcanic activity",
+      "planetary proximity",
+      "collision"
+    ],
+    "emotions": [
+      "dramatic",
+      "intense"
+    ],
+    "actions": [
+      "approaching",
+      "emitting"
+    ]
+  },
+  "metadata": {}
+}

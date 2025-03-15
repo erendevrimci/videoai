@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticSnake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticSnake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfGiganticSnake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure stands in a dimly lit cavern, holding a torch that casts a warm glow. Looming above is a massive, intricately scaled serpent with glowing eyes, creating a tense and dramatic confrontation.",
+      "description": "The scene depicts a dramatic encounter in a dark, rocky cavern. A person holding a torch faces a gigantic serpent, whose scales glisten in the dim light.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "serpent"
+        ],
+        "nature": [
+          "cavern",
+          "rock"
+        ],
+        "objects": [
+          "torch"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "tension"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "danger",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfGiganticSnake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfGiganticSnake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure stands in a cavernous space, holding a torch that casts a warm glow. Looming above is a massive, intricately scaled serpent with glowing eyes, its mouth slightly open to reveal sharp fangs.",
+      "description": "The scene is set in a dark, expansive cave where a human confronts a gigantic serpent. The atmosphere is tense and dramatic, with the torchlight highlighting the textures of the serpent's scales and the rocky surroundings.",
+      "labels": {
+        "people": [
+          "human"
+        ],
+        "animals": [
+          "serpent"
+        ],
+        "nature": [
+          "cave",
+          "rocks"
+        ],
+        "objects": [
+          "torch"
+        ],
+        "actions": [
+          "standing",
+          "confronting"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "danger",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, human. Animals: serpent. Nature: cavern, rock, cave, rocks. Objects: torch. Actions: confrontation, standing, confronting. Emotions: tension, drama. Scenes: fantasy, adventure. Concepts: danger, exploration, courage",
+  "primary_labels": {
+    "people": [
+      "person",
+      "human"
+    ],
+    "animals": [
+      "serpent"
+    ],
+    "nature": [
+      "cavern",
+      "rock",
+      "cave",
+      "rocks"
+    ],
+    "objects": [
+      "torch"
+    ],
+    "actions": [
+      "confrontation",
+      "standing",
+      "confronting"
+    ],
+    "emotions": [
+      "tension",
+      "drama"
+    ],
+    "scenes": [
+      "fantasy",
+      "adventure"
+    ],
+    "concepts": [
+      "danger",
+      "exploration",
+      "courage"
+    ]
+  },
+  "metadata": {}
+}

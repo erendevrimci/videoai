@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant bag.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant bag.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant bag/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A helicopter hovers above a bustling city street at sunset, carrying a large object suspended below. A crowd of people gathers below, gazing upwards at the spectacle. The scene is framed by towering skyscrapers reflecting the warm hues of the setting sun.",
+      "description": "The scene takes place in a city street during sunset, with a helicopter carrying an object and a crowd of people watching. The setting is urban, surrounded by tall buildings.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "helicopter",
+          "suspended object",
+          "skyscrapers"
+        ],
+        "actions": [
+          "hovering",
+          "gathering"
+        ],
+        "emotions": [
+          "curiosity",
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "sunset"
+        ],
+        "concepts": [
+          "spectacle",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Giant bag.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Giant bag/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A helicopter hovers above a bustling city street, carrying a large black bag suspended by a cable. The scene is set against a dramatic sunset, casting warm hues across the towering skyscrapers and the crowd below.",
+      "description": "The image captures an urban setting where a helicopter is flying low between skyscrapers, transporting a large bag. The sun is setting, creating a striking backdrop of orange and gold tones. A crowd of people is gathered on the street, observing the unusual aerial transport.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "helicopter",
+          "bag",
+          "skyscrapers"
+        ],
+        "actions": [
+          "hovering",
+          "transporting"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "sunset"
+        ],
+        "concepts": [
+          "transportation",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd. Objects: helicopter, skyscrapers, suspended object, bag. Actions: hovering, gathering, transporting. Emotions: awe, curiosity. Scenes: urban, sunset. Concepts: city life, spectacle, transportation",
+  "primary_labels": {
+    "people": [
+      "crowd"
+    ],
+    "objects": [
+      "helicopter",
+      "skyscrapers",
+      "suspended object",
+      "bag"
+    ],
+    "actions": [
+      "hovering",
+      "gathering",
+      "transporting"
+    ],
+    "emotions": [
+      "awe",
+      "curiosity"
+    ],
+    "scenes": [
+      "urban",
+      "sunset"
+    ],
+    "concepts": [
+      "city life",
+      "spectacle",
+      "transportation"
+    ]
+  },
+  "metadata": {}
+}

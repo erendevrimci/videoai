@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleGirlAndThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleGirlAndThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleGirlAndThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl in a blue dress walks confidently along a forest path, accompanied by a large, majestic wolf. The wolf follows closely behind, its gaze steady and protective.",
+      "description": "The scene depicts a serene and mystical moment in a forest setting, where a young girl and a wolf share a quiet companionship. The path is surrounded by soft, natural colors, enhancing the magical atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "path"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "companionship",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheLittleGirlAndThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheLittleGirlAndThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl in a blue dress stands confidently in a forest, accompanied by a large, majestic wolf. The wolf towers protectively behind her, creating a striking contrast between the delicate child and the powerful animal.",
+      "description": "The scene takes place in a forest setting, where a young girl and a large wolf share a moment of calm companionship. The forest provides a natural backdrop, enhancing the mystical and serene atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "protective"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "companionship",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Animals: wolf. Nature: forest, path. Objects: dress. Actions: walking, standing. Emotions: calm, serene, protective. Scenes: forest path, forest. Concepts: companionship, mystical, contrast",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "forest",
+      "path"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "protective"
+    ],
+    "scenes": [
+      "forest path",
+      "forest"
+    ],
+    "concepts": [
+      "companionship",
+      "mystical",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

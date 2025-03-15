@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a small country making.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a small country making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/People in a small country making/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature chefs are seen working on a giant pizza, with one chef lifting a slice with gooey cheese stretching from it. The backdrop features a rustic brick oven with a warm fire glowing inside.",
+      "description": "The image depicts a playful and imaginative setting where tiny chefs are interacting with an oversized pizza. The scene is set in a kitchen environment with a traditional brick oven in the background, adding a cozy and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "brick oven",
+          "cheese",
+          "forklift"
+        ],
+        "actions": [
+          "lifting cheese",
+          "preparing pizza"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen",
+          "food preparation"
+        ],
+        "concepts": [
+          "miniature world",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a small country making.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/People in a small country making/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature chefs working on a giant pizza in front of a rustic brick oven. Tiny figures are seen arranging toppings and using a small forklift to handle blocks of cheese. The setting is playful and imaginative, blending culinary art with fantasy.",
+      "description": "The scene is set in a cozy kitchen environment with a large, wood-fired brick oven in the background. Miniature chefs are actively engaged in preparing a giant pizza, creating a surreal and playful atmosphere.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pizza",
+          "brick oven",
+          "forklift",
+          "cheese",
+          "pepperoni",
+          "basil leaves"
+        ],
+        "actions": [
+          "arranging toppings",
+          "handling cheese"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "miniature",
+          "fantasy",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: pizza, brick oven, cheese, forklift, pepperoni. Actions: lifting cheese, preparing pizza, arranging toppings, handling cheese. Emotions: playful, whimsical, imaginative. Scenes: kitchen, food preparation, culinary. Concepts: miniature world, culinary art, miniature, fantasy, food art",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "pizza",
+      "brick oven",
+      "cheese",
+      "forklift",
+      "pepperoni"
+    ],
+    "actions": [
+      "lifting cheese",
+      "preparing pizza",
+      "arranging toppings",
+      "handling cheese"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "kitchen",
+      "food preparation",
+      "culinary"
+    ],
+    "concepts": [
+      "miniature world",
+      "culinary art",
+      "miniature",
+      "fantasy",
+      "food art"
+    ]
+  },
+  "metadata": {}
+}

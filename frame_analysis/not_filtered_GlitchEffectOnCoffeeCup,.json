@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GlitchEffectOnCoffeeCup,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GlitchEffectOnCoffeeCup,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GlitchEffectOnCoffeeCup,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A transparent cup sits on a matching saucer, filled with swirling, colorful liquid that appears to be in motion. Bright hues of pink, blue, and orange create a vibrant display, with droplets seemingly splashing upwards.",
+      "description": "The scene depicts a single cup and saucer set against a dark background, showcasing a dynamic and colorful liquid inside. The liquid appears to be illuminated, creating a striking contrast with the surrounding darkness.",
+      "labels": {
+        "objects": [
+          "cup",
+          "saucer"
+        ],
+        "actions": [
+          "swirling",
+          "splashing"
+        ],
+        "emotions": [
+          "vibrant"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "motion",
+          "colorful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GlitchEffectOnCoffeeCup,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GlitchEffectOnCoffeeCup,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A transparent glass teacup sits on a matching saucer, filled with a vibrant, swirling liquid that emits a soft glow. The liquid features neon hues of pink and blue, creating a mesmerizing visual effect against the dark background. Wisps of steam rise gently from the cup, adding a sense of warmth and motion.",
+      "description": "The scene depicts a futuristic and artistic representation of a teacup filled with a glowing liquid. The setting is minimalistic, with a focus on the luminous colors and reflections created by the liquid and glassware.",
+      "labels": {
+        "objects": [
+          "teacup",
+          "saucer",
+          "liquid"
+        ],
+        "actions": [
+          "swirling",
+          "emitting steam"
+        ],
+        "emotions": [
+          "mesmerizing",
+          "futuristic"
+        ],
+        "scenes": [
+          "minimalistic",
+          "artistic"
+        ],
+        "concepts": [
+          "neon",
+          "glow",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: saucer, cup, teacup, liquid. Actions: swirling, splashing, emitting steam. Emotions: vibrant, mesmerizing, futuristic. Scenes: abstract, minimalistic, artistic. Concepts: motion, colorful, neon, glow, reflection",
+  "primary_labels": {
+    "objects": [
+      "saucer",
+      "cup",
+      "teacup",
+      "liquid"
+    ],
+    "actions": [
+      "swirling",
+      "splashing",
+      "emitting steam"
+    ],
+    "emotions": [
+      "vibrant",
+      "mesmerizing",
+      "futuristic"
+    ],
+    "scenes": [
+      "abstract",
+      "minimalistic",
+      "artistic"
+    ],
+    "concepts": [
+      "motion",
+      "colorful",
+      "neon",
+      "glow",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

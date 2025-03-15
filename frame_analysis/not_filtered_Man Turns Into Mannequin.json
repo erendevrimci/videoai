@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Man Turns Into Mannequin.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Man Turns Into Mannequin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Man Turns Into Mannequin/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man is lying in a hospital bed, wearing a patterned hospital gown. He appears relaxed and is resting against white pillows.",
+      "description": "The scene is set in a hospital room, with a man resting in bed. The environment is calm and clinical, typical of a healthcare setting.",
+      "labels": {
+        "people": [
+          "man",
+          "patient"
+        ],
+        "objects": [
+          "hospital bed",
+          "hospital gown",
+          "pillows",
+          "cabinet"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "hospital room"
+        ],
+        "concepts": [
+          "healthcare",
+          "recovery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Man Turns Into Mannequin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Man Turns Into Mannequin/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A medical training mannequin is positioned on a hospital bed, dressed in a patterned hospital gown. The mannequin is lying on its back with its head resting on a pillow, and its arms are slightly bent at the sides.",
+      "description": "The scene is set in a medical training facility, likely a hospital or educational institution. The focus is on a life-sized mannequin used for medical simulations, placed on a neatly made hospital bed.",
+      "labels": {
+        "objects": [
+          "mannequin",
+          "hospital bed",
+          "pillow",
+          "hospital gown",
+          "cabinet"
+        ],
+        "actions": [
+          "lying"
+        ],
+        "scenes": [
+          "medical training",
+          "hospital room"
+        ],
+        "concepts": [
+          "simulation",
+          "medical education"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, patient. Objects: hospital bed, hospital gown, cabinet, pillows, mannequin. Actions: resting, lying. Emotions: calm. Scenes: hospital room, medical training. Concepts: healthcare, recovery, simulation, medical education",
+  "primary_labels": {
+    "people": [
+      "man",
+      "patient"
+    ],
+    "objects": [
+      "hospital bed",
+      "hospital gown",
+      "cabinet",
+      "pillows",
+      "mannequin"
+    ],
+    "actions": [
+      "resting",
+      "lying"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "hospital room",
+      "medical training"
+    ],
+    "concepts": [
+      "healthcare",
+      "recovery",
+      "simulation",
+      "medical education"
+    ]
+  },
+  "metadata": {}
+}

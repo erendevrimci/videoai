@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ada.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ada.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ada/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a red, floral-embroidered dress walks confidently down a narrow alleyway. She holds a black object in her right hand, suggesting a sense of purpose and determination.",
+      "description": "The scene is set in a narrow, possibly urban alleyway, with a woman as the central figure. The atmosphere is tense yet elegant, with a focus on her poised demeanor and striking attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "black object"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "urban alleyway"
+        ],
+        "concepts": [
+          "elegance",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ada.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ada/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a red dress is kneeling in a narrow alleyway, holding a gun with a focused expression. The background is blurred, emphasizing her intense gaze and the weapon she is aiming forward.",
+      "description": "The scene is set in a narrow alleyway, creating a tense and dramatic atmosphere. The woman is the central focus, with her poised stance and determined look suggesting a moment of confrontation or high stakes.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gun",
+          "dress"
+        ],
+        "actions": [
+          "kneeling",
+          "aiming"
+        ],
+        "emotions": [
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "alleyway"
+        ],
+        "concepts": [
+          "tension",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, black object, gun. Actions: walking, kneeling, aiming. Emotions: determination, confidence, focus. Scenes: urban alleyway, alleyway. Concepts: elegance, mystery, tension, drama",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "black object",
+      "gun"
+    ],
+    "actions": [
+      "walking",
+      "kneeling",
+      "aiming"
+    ],
+    "emotions": [
+      "determination",
+      "confidence",
+      "focus"
+    ],
+    "scenes": [
+      "urban alleyway",
+      "alleyway"
+    ],
+    "concepts": [
+      "elegance",
+      "mystery",
+      "tension",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

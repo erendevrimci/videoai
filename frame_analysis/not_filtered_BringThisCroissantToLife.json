@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThisCroissantToLife.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThisCroissantToLife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BringThisCroissantToLife/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up view of a freshly baked croissant resting on a white plate, with a blurred background featuring a cup and a vase. The croissant's golden-brown, flaky layers glisten under soft lighting.",
+      "description": "The scene captures a cozy breakfast setting with a focus on a croissant, suggesting a relaxed morning atmosphere. The blurred background elements add depth and context to the setting.",
+      "labels": {
+        "objects": [
+          "croissant",
+          "plate",
+          "cup",
+          "vase"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "cozy",
+          "relaxed"
+        ],
+        "scenes": [
+          "breakfast",
+          "kitchen"
+        ],
+        "concepts": [
+          "morning",
+          "baking",
+          "food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BringThisCroissantToLife.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BringThisCroissantToLife/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A realistic, adorable fox-shaped pastry sits on a decorative plate, dusted with powdered sugar. In the background, a blurred vase of colorful flowers adds a touch of elegance to the scene.",
+      "description": "The scene is set in a cozy, well-lit dining area featuring a charming fox-shaped pastry as the centerpiece. The pastry is meticulously crafted to resemble a small fox, complete with detailed fur texture and expressive eyes.",
+      "labels": {
+        "animals": [
+          "fox"
+        ],
+        "objects": [
+          "plate",
+          "vase",
+          "flowers"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "cuteness"
+        ],
+        "scenes": [
+          "dining area"
+        ],
+        "concepts": [
+          "realism",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: plate, vase, croissant, cup, flowers. Actions: resting, sitting. Emotions: cozy, relaxed, cuteness. Scenes: breakfast, kitchen, dining area. Concepts: morning, baking, food, realism, artistry. Animals: fox",
+  "primary_labels": {
+    "objects": [
+      "plate",
+      "vase",
+      "croissant",
+      "cup",
+      "flowers"
+    ],
+    "actions": [
+      "resting",
+      "sitting"
+    ],
+    "emotions": [
+      "cozy",
+      "relaxed",
+      "cuteness"
+    ],
+    "scenes": [
+      "breakfast",
+      "kitchen",
+      "dining area"
+    ],
+    "concepts": [
+      "morning",
+      "baking",
+      "food",
+      "realism",
+      "artistry"
+    ],
+    "animals": [
+      "fox"
+    ]
+  },
+  "metadata": {}
+}

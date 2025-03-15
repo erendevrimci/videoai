@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Frau reitet auf Wolf durch Flamm.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Frau reitet auf Wolf durch Flamm.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Frau reitet auf Wolf durch Flamm/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman in a red hooded cloak rides a large, majestic wolf through a snowy forest. Her expression is determined as she navigates the dense, misty woods. The wolf's fur is dark and its eyes are sharp, exuding strength and loyalty.",
+      "description": "The scene depicts a fantastical setting where a woman, reminiscent of a fairy tale character, is riding a wolf through an enchanted forest. The atmosphere is mystical and adventurous, with a sense of urgency and purpose.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest",
+          "snow"
+        ],
+        "objects": [
+          "cloak"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "fairy tale",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Frau reitet auf Wolf durch Flamm.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Frau reitet auf Wolf durch Flamm/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in a red cloak stands near a blazing fire in a snowy forest. The flames illuminate the scene, contrasting with the cold, misty atmosphere of the surrounding pine trees.",
+      "description": "The scene depicts a dramatic moment in a snowy forest where a person in a red cloak is positioned near a large fire. The setting is a misty, cold forest with tall pine trees, creating a stark contrast with the warmth and intensity of the flames.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "forest",
+          "pine trees",
+          "snow"
+        ],
+        "objects": [
+          "fire",
+          "cloak"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "dramatic"
+        ],
+        "scenes": [
+          "forest fire",
+          "winter"
+        ],
+        "concepts": [
+          "contrast",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Animals: wolf. Nature: forest, snow, pine trees. Objects: cloak, fire. Actions: riding, standing. Emotions: determination, dramatic. Scenes: fantasy, adventure, forest fire, winter. Concepts: fairy tale, mystical, contrast, survival",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "forest",
+      "snow",
+      "pine trees"
+    ],
+    "objects": [
+      "cloak",
+      "fire"
+    ],
+    "actions": [
+      "riding",
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "dramatic"
+    ],
+    "scenes": [
+      "fantasy",
+      "adventure",
+      "forest fire",
+      "winter"
+    ],
+    "concepts": [
+      "fairy tale",
+      "mystical",
+      "contrast",
+      "survival"
+    ]
+  },
+  "metadata": {}
+}

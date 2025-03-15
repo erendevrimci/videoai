@@ -1,0 +1,150 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Red cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Red cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Red cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid cat is preparing a bowl of oatmeal topped with fresh berries in a sunlit kitchen. The cat, wearing a gray shirt, appears focused as it arranges the fruit with a spoon. Sunlight streams through a large window, illuminating the countertop and the vibrant colors of the berries.",
+      "description": "The scene is set in a bright and cozy kitchen, where a humanoid cat is engaged in preparing a meal. The atmosphere is warm and inviting, with natural light enhancing the cheerful mood.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "bowl",
+          "oatmeal",
+          "berries",
+          "spoon",
+          "shirt",
+          "countertop",
+          "window",
+          "plants"
+        ],
+        "actions": [
+          "preparing",
+          "arranging"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humanoid",
+          "cooking",
+          "sunlight"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Red cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Red cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humorous scene depicts a cat with a human body enjoying breakfast in a sunlit kitchen. The cat, dressed in a gray shirt, is leaning over a bowl of cereal topped with fresh berries. Sunlight streams through the large window, illuminating the playful setup.",
+      "description": "The image is set in a bright kitchen where a cat with a human-like body is interacting with a breakfast scene. The playful and surreal composition creates a whimsical atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cereal bowl",
+          "berries",
+          "shirt"
+        ],
+        "actions": [
+          "eating",
+          "leaning"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen",
+          "breakfast"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Red cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Red cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A ginger cat, dressed in a gray t-shirt, is seated at a table in a sunlit kitchen. The cat appears to be holding a fork, poised over a plate of cereal topped with fresh berries.",
+      "description": "The scene takes place in a bright kitchen with large windows allowing sunlight to stream in. A cat, humorously dressed in a t-shirt, is engaging in a human-like activity of eating breakfast.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "t-shirt",
+          "fork",
+          "plate",
+          "cereal",
+          "berries"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen",
+          "breakfast"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "morning routine"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: berries, shirt, bowl, oatmeal, spoon. Actions: eating, preparing, arranging, leaning. Emotions: humorous, focused, playful. Scenes: kitchen, breakfast. Concepts: anthropomorphism, humanoid, cooking, sunlight, surreal",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "berries",
+      "shirt",
+      "bowl",
+      "oatmeal",
+      "spoon"
+    ],
+    "actions": [
+      "eating",
+      "preparing",
+      "arranging",
+      "leaning"
+    ],
+    "emotions": [
+      "humorous",
+      "focused",
+      "playful"
+    ],
+    "scenes": [
+      "kitchen",
+      "breakfast"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humanoid",
+      "cooking",
+      "sunlight",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_A_dinosaur_sitting_quietly__hold.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_A_dinosaur_sitting_quietly__hold.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9_A_dinosaur_sitting_quietly__hold/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large dinosaur stands inside a modern fast-food restaurant, holding a hamburger in its tiny arms. The restaurant features bright red seating and large windows that let in ample sunlight, creating a surreal juxtaposition of prehistoric and contemporary elements.",
+      "description": "The scene takes place in a brightly lit fast-food restaurant with a dinosaur holding a burger, creating a whimsical and humorous atmosphere. The setting is modern, with red and yellow decor and large windows showcasing a sunny day outside.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "burger",
+          "tables",
+          "chairs",
+          "windows"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "restaurant",
+          "indoor"
+        ],
+        "concepts": [
+          "surreal",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Standard_Mode_16x9_A_dinosaur_sitting_quietly__hold.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Standard_Mode_16x9_A_dinosaur_sitting_quietly__hold/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large dinosaur is humorously depicted inside a fast-food restaurant, holding and about to eat a burger. The setting is bright and colorful, with modern decor and large windows letting in natural light.",
+      "description": "The scene takes place in a fast-food restaurant where a dinosaur is comically holding a burger. The atmosphere is lighthearted and surreal, blending prehistoric elements with modern dining.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "objects": [
+          "burger",
+          "table",
+          "chair",
+          "windows"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "restaurant",
+          "indoor"
+        ],
+        "concepts": [
+          "surrealism",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dinosaur. Objects: burger, windows, tables, chairs, table. Actions: holding, eating. Emotions: humor. Scenes: restaurant, indoor. Concepts: juxtaposition, surreal, surrealism",
+  "primary_labels": {
+    "animals": [
+      "dinosaur"
+    ],
+    "objects": [
+      "burger",
+      "windows",
+      "tables",
+      "chairs",
+      "table"
+    ],
+    "actions": [
+      "holding",
+      "eating"
+    ],
+    "emotions": [
+      "humor"
+    ],
+    "scenes": [
+      "restaurant",
+      "indoor"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "surreal",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

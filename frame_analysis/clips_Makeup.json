@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Makeup.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Makeup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Makeup/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features a surreal scene where three miniature workers are painting a woman's face. One worker stands on her head, another is on a scaffold painting her cheek, and the third is mixing paint in a can. The woman's expression is neutral, adding to the whimsical nature of the scene.",
+      "description": "This is a creative and surreal composition depicting miniature workers engaged in painting a woman's face as if it were a canvas. The setting is imaginative, blending elements of reality and fantasy.",
+      "labels": {
+        "people": [
+          "woman",
+          "workers"
+        ],
+        "objects": [
+          "paintbrush",
+          "paint can",
+          "scaffold"
+        ],
+        "actions": [
+          "painting",
+          "mixing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "surreal",
+          "creative"
+        ],
+        "concepts": [
+          "artistic",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Makeup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Makeup/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal scene depicts a woman's face with miniature construction workers on and around her head. The workers appear to be painting and working on her hair, using brushes and paint cans. The image combines elements of portraiture and imaginative art to create a whimsical atmosphere.",
+      "description": "The scene presents a creative and surreal setting where a woman's face is the central focus, surrounded by tiny construction workers engaged in painting tasks. The workers are dressed in overalls and hard hats, emphasizing a construction theme. This imaginative composition blends reality with fantasy, creating a unique visual narrative.",
+      "labels": {
+        "people": [
+          "woman",
+          "construction workers"
+        ],
+        "objects": [
+          "paint brushes",
+          "paint cans",
+          "hard hats"
+        ],
+        "actions": [
+          "painting",
+          "working"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "creative"
+        ],
+        "concepts": [
+          "artistic expression",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, workers, construction workers. Objects: paintbrush, paint can, scaffold, paint brushes, paint cans. Actions: painting, mixing, working. Emotions: neutral, whimsical, imaginative. Scenes: surreal, creative. Concepts: artistic, imaginative, artistic expression, imagination",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "workers",
+      "construction workers"
+    ],
+    "objects": [
+      "paintbrush",
+      "paint can",
+      "scaffold",
+      "paint brushes",
+      "paint cans"
+    ],
+    "actions": [
+      "painting",
+      "mixing",
+      "working"
+    ],
+    "emotions": [
+      "neutral",
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "surreal",
+      "creative"
+    ],
+    "concepts": [
+      "artistic",
+      "imaginative",
+      "artistic expression",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

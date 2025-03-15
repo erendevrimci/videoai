@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4e5d\u5c3e\u72d0\u53d8\u8eab.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4e5d\u5c3e\u72d0\u53d8\u8eab.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u4e5d\u5c3e\u72d0\u53d8\u8eab/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical figure stands gracefully in a forest, adorned in a flowing white gown with golden accents. Her long, vibrant red hair cascades behind her, blending with the autumn leaves surrounding her. The soft sunlight filters through the trees, creating a serene and ethereal atmosphere.",
+      "description": "The scene depicts a fantasy setting in a sunlit forest during autumn. The main subject is a woman in an elegant gown, exuding an aura of mystery and grace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "autumn leaves"
+        ],
+        "objects": [
+          "gown",
+          "hair"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "mysticism",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u4e5d\u5c3e\u72d0\u53d8\u8eab.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u4e5d\u5c3e\u72d0\u53d8\u8eab/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical figure with a fox's head and flowing white hair stands gracefully in a serene forest setting. The figure is dressed in an elegant white robe with golden accents, exuding an ethereal presence.",
+      "description": "The scene depicts a fantastical creature, part human and part fox, in a tranquil forest environment. The character's attire and the gentle movement of their hair suggest a connection to nature and magic.",
+      "labels": {
+        "people": [
+          "mythical figure"
+        ],
+        "animals": [
+          "fox"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "robe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "mythology",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, mythical figure. Nature: forest, trees, autumn leaves. Objects: gown, hair, robe. Actions: standing. Emotions: serene, mystical, serenity. Scenes: fantasy, forest. Concepts: mysticism, elegance, mythology, magic. Animals: fox",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "mythical figure"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "autumn leaves"
+    ],
+    "objects": [
+      "gown",
+      "hair",
+      "robe"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "mystical",
+      "serenity"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest"
+    ],
+    "concepts": [
+      "mysticism",
+      "elegance",
+      "mythology",
+      "magic"
+    ],
+    "animals": [
+      "fox"
+    ]
+  },
+  "metadata": {}
+}

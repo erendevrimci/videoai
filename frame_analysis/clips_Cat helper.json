@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat helper.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat helper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat helper/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat stands upright holding a broom in a sunlit kitchen. The cat appears to be mimicking a human action, creating a humorous and charming scene.",
+      "description": "The scene is set in a cozy kitchen with sunlight streaming through a window, casting warm light on the floor. A ginger cat is playfully holding a broom, giving the impression of sweeping.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "broom",
+          "kitchen"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "indoor",
+          "domestic"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat helper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat helper/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat stands upright, holding a broom with its front paws, as sunlight streams through a nearby window. The cat appears focused, as if attempting to sweep the floor in a cozy kitchen setting.",
+      "description": "The scene captures a playful moment in a kitchen where a cat is engaging with a broom. The warm lighting and domestic setting create a charming and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "broom",
+          "door",
+          "kitchen"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "focused",
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "domestic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: broom, kitchen, door. Actions: standing, holding. Emotions: playful, humorous, focused. Scenes: indoor, domestic, kitchen. Concepts: humor, anthropomorphism, domestic",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "broom",
+      "kitchen",
+      "door"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "humorous",
+      "focused"
+    ],
+    "scenes": [
+      "indoor",
+      "domestic",
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "domestic"
+    ]
+  },
+  "metadata": {}
+}

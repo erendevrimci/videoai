@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful Sirena.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful Sirena.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful Sirena/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman rests peacefully on a rock by the sea, with her eyes closed as the golden sunset bathes the scene in warm light. Her wet hair cascades down, blending with the shimmering water around her.",
+      "description": "The scene captures a tranquil moment at the seaside during sunset. The woman appears relaxed and serene, with the ocean waves gently lapping against the rocks.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sea",
+          "sunset",
+          "rocks"
+        ],
+        "objects": [
+          "rock"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "seaside",
+          "sunset"
+        ],
+        "concepts": [
+          "tranquility",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful Sirena.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful Sirena/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with wet hair is lying on a rock by the sea, smiling gently as the sun sets in the background. The golden light of the sunset reflects off the water, creating a warm and serene atmosphere. Her relaxed posture and content expression suggest a moment of peaceful enjoyment.",
+      "description": "The scene captures a tranquil moment at the seaside during sunset. The woman appears to be enjoying the natural beauty around her, with the ocean waves gently lapping against the rocks.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "sea",
+          "sunset",
+          "rock"
+        ],
+        "objects": [
+          "water"
+        ],
+        "actions": [
+          "lying",
+          "smiling"
+        ],
+        "emotions": [
+          "contentment",
+          "serenity"
+        ],
+        "scenes": [
+          "seaside",
+          "sunset"
+        ],
+        "concepts": [
+          "relaxation",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: sea, sunset, rocks, rock. Objects: rock, water. Actions: resting, lying, smiling. Emotions: serenity, peacefulness, contentment. Scenes: seaside, sunset. Concepts: relaxation, tranquility, peace",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "sea",
+      "sunset",
+      "rocks",
+      "rock"
+    ],
+    "objects": [
+      "rock",
+      "water"
+    ],
+    "actions": [
+      "resting",
+      "lying",
+      "smiling"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness",
+      "contentment"
+    ],
+    "scenes": [
+      "seaside",
+      "sunset"
+    ],
+    "concepts": [
+      "relaxation",
+      "tranquility",
+      "peace"
+    ]
+  },
+  "metadata": {}
+}

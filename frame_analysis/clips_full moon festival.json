@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/full moon festival.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/full moon festival.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/full moon festival/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene depicts a woman in a white robe sitting by a tranquil water body under a full moon. She holds a glowing lotus flower, creating a peaceful and mystical atmosphere. The background features large rocks and floating lanterns, enhancing the ethereal setting.",
+      "description": "The scene is set at night by a calm water body, illuminated by a full moon. The woman is meditating or reflecting, adding to the tranquil and spiritual ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "moon",
+          "water",
+          "rocks"
+        ],
+        "objects": [
+          "lotus flower",
+          "lanterns"
+        ],
+        "actions": [
+          "holding",
+          "meditating"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "night",
+          "outdoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "spirituality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/full moon festival.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/full moon festival/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene woman dressed in a flowing white robe sits by a tranquil lake under a full moon. She holds a glowing lotus flower, which illuminates her gentle smile and the surrounding darkness. The scene is framed by rocky formations and floating lanterns, creating a mystical atmosphere.",
+      "description": "The scene depicts a peaceful night setting by a lake, with a woman holding a luminous lotus flower. The full moon casts a soft glow over the water and rocky landscape, enhancing the ethereal ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "moon",
+          "lake",
+          "rocks"
+        ],
+        "objects": [
+          "lotus flower",
+          "lanterns"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "night",
+          "mystical"
+        ],
+        "concepts": [
+          "tranquility",
+          "illumination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: moon, rocks, water, lake. Objects: lotus flower, lanterns. Actions: holding, meditating. Emotions: serenity, peacefulness, calm. Scenes: night, outdoor, mystical. Concepts: tranquility, spirituality, illumination",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "moon",
+      "rocks",
+      "water",
+      "lake"
+    ],
+    "objects": [
+      "lotus flower",
+      "lanterns"
+    ],
+    "actions": [
+      "holding",
+      "meditating"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness",
+      "calm"
+    ],
+    "scenes": [
+      "night",
+      "outdoor",
+      "mystical"
+    ],
+    "concepts": [
+      "tranquility",
+      "spirituality",
+      "illumination"
+    ]
+  },
+  "metadata": {}
+}

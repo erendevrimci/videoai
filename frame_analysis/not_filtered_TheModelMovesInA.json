@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelMovesInA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelMovesInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheModelMovesInA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is posing confidently in a vibrant orange and black outfit. She is smiling warmly at the camera, with one hand gently touching her hair. The background is a simple, light-colored backdrop, highlighting her presence.",
+      "description": "The scene is a portrait of a woman posing against a plain backdrop. The setting is likely a studio environment, focusing on fashion or personal portraiture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "outfit",
+          "backdrop"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheModelMovesInA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheModelMovesInA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is posing confidently in a vibrant orange and black outfit against a plain background. Her off-the-shoulder top features ruffled details, complementing the corset-style design of the attire. She appears to be smiling softly, exuding a sense of elegance and poise.",
+      "description": "The scene captures a fashion-oriented setting with a focus on the woman's stylish attire. The plain background emphasizes the vivid colors and design of the outfit, highlighting the model's confident pose.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "outfit",
+          "corset",
+          "top"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "elegance"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "style",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: outfit, backdrop, corset, top. Actions: posing, smiling. Emotions: confidence, happiness, elegance. Scenes: portrait, studio, fashion. Concepts: fashion, beauty, style",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "outfit",
+      "backdrop",
+      "corset",
+      "top"
+    ],
+    "actions": [
+      "posing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness",
+      "elegance"
+    ],
+    "scenes": [
+      "portrait",
+      "studio",
+      "fashion"
+    ],
+    "concepts": [
+      "fashion",
+      "beauty",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

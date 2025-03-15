@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jane Foster & Loki.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jane Foster & Loki.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jane Foster & Loki/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two armored figures stand heroically amidst a fiery landscape, each holding a glowing weapon aloft. The scene is filled with dramatic lighting, emphasizing their powerful and determined expressions.",
+      "description": "The scene depicts a fantasy setting with two characters in elaborate armor, standing on rocky terrain surrounded by flames and smoke. They appear to be in a moment of triumph or defiance, holding their weapons high as if ready for battle.",
+      "labels": {
+        "people": [
+          "armored figures"
+        ],
+        "objects": [
+          "glowing weapon",
+          "armor",
+          "cape"
+        ],
+        "actions": [
+          "holding weapons",
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "triumph"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "heroism",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jane Foster & Loki.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jane Foster & Loki/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two armored figures stand heroically against a smoky, fiery backdrop. One holds a glowing hammer aloft, while the other raises a staff emitting light. Their expressions are determined, embodying strength and resolve.",
+      "description": "The scene depicts a dramatic, fantasy setting with two characters in elaborate armor standing amidst a smoky, fiery landscape. They appear to be in a moment of triumph or defiance.",
+      "labels": {
+        "people": [
+          "armored figure",
+          "heroic stance"
+        ],
+        "objects": [
+          "hammer",
+          "staff",
+          "armor"
+        ],
+        "actions": [
+          "holding aloft",
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "heroism",
+          "triumph"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: armored figures, armored figure, heroic stance. Objects: armor, glowing weapon, cape, hammer, staff. Actions: standing, holding weapons, holding aloft. Emotions: determination, triumph, strength. Scenes: fantasy, battle. Concepts: heroism, power, triumph",
+  "primary_labels": {
+    "people": [
+      "armored figures",
+      "armored figure",
+      "heroic stance"
+    ],
+    "objects": [
+      "armor",
+      "glowing weapon",
+      "cape",
+      "hammer",
+      "staff"
+    ],
+    "actions": [
+      "standing",
+      "holding weapons",
+      "holding aloft"
+    ],
+    "emotions": [
+      "determination",
+      "triumph",
+      "strength"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle"
+    ],
+    "concepts": [
+      "heroism",
+      "power",
+      "triumph"
+    ]
+  },
+  "metadata": {}
+}

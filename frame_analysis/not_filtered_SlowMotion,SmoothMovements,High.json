@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotion,SmoothMovements,High.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotion,SmoothMovements,High.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowMotion,SmoothMovements,High/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing figure with a cracked, volcanic surface and glowing eyes emerges from a smoky, fiery background. The figure's skin resembles molten lava, with bright orange fissures illuminating the dark, rocky texture. The atmosphere is intense and otherworldly, evoking a sense of power and mystery.",
+      "description": "The scene depicts a supernatural entity with a volcanic appearance, set against a backdrop of smoke and fire. The figure's glowing eyes and the fiery cracks in its skin suggest a powerful, elemental presence.",
+      "labels": {
+        "people": [
+          "supernatural entity"
+        ],
+        "nature": [
+          "smoke",
+          "fire"
+        ],
+        "objects": [
+          "lava",
+          "cracks"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "menacing",
+          "intense"
+        ],
+        "scenes": [
+          "otherworldly"
+        ],
+        "concepts": [
+          "power",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowMotion,SmoothMovements,High.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowMotion,SmoothMovements,High/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with a cracked, volcanic surface stands amidst a fiery backdrop. The figure's eyes glow intensely, and its body appears to be composed of smoldering lava and ash.",
+      "description": "The scene depicts a mythical or fantastical setting where a lava-like humanoid emerges from a fiery environment. The atmosphere is intense and otherworldly, with elements of fire and smoke surrounding the figure.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "nature": [
+          "lava",
+          "fire",
+          "smoke"
+        ],
+        "objects": [
+          "volcanic surface"
+        ],
+        "actions": [
+          "glowing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "elemental",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: supernatural entity, humanoid. Nature: smoke, fire, lava. Objects: lava, cracks, volcanic surface. Actions: emerging, glowing. Emotions: menacing, intense, intensity. Scenes: otherworldly, fantasy, mythical. Concepts: power, mystery, elemental, supernatural",
+  "primary_labels": {
+    "people": [
+      "supernatural entity",
+      "humanoid"
+    ],
+    "nature": [
+      "smoke",
+      "fire",
+      "lava"
+    ],
+    "objects": [
+      "lava",
+      "cracks",
+      "volcanic surface"
+    ],
+    "actions": [
+      "emerging",
+      "glowing"
+    ],
+    "emotions": [
+      "menacing",
+      "intense",
+      "intensity"
+    ],
+    "scenes": [
+      "otherworldly",
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "power",
+      "mystery",
+      "elemental",
+      "supernatural"
+    ]
+  },
+  "metadata": {}
+}

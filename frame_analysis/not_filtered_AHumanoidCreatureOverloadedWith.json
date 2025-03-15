@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHumanoidCreatureOverloadedWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHumanoidCreatureOverloadedWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHumanoidCreatureOverloadedWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical creature made of food elements, including sausages, pancakes, and fried eggs, is creatively assembled to resemble a playful monster. The creature has arms made of sausage links and eyes formed by sunny-side-up eggs, with vibrant garnishes adding to its quirky appearance.",
+      "description": "The scene presents a fantastical creature composed entirely of food items, set against a neutral background. The creature's body is made of stacked sausages and pancakes, with its eyes represented by fried eggs. Its arms are made of sausage links, and it is adorned with small orange spheres and green leaves.",
+      "labels": {
+        "objects": [
+          "sausages",
+          "pancakes",
+          "fried eggs",
+          "garnishes",
+          "orange spheres"
+        ],
+        "actions": [
+          "stacking",
+          "dripping"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "creative"
+        ],
+        "concepts": [
+          "food art",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHumanoidCreatureOverloadedWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHumanoidCreatureOverloadedWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical creature made of food elements, including fried eggs for eyes and stacked sausages for the body, is creatively assembled. The creature is adorned with caramel sauce and garnished with herbs, giving it a playful and imaginative appearance. Its arms are made of twisted breadsticks, adding to its quirky charm.",
+      "description": "The scene depicts a fantastical creature crafted from various food items, set against a neutral background. The composition focuses on the creature's unique and imaginative design, blending culinary elements with artistic creativity.",
+      "labels": {
+        "objects": [
+          "fried eggs",
+          "sausages",
+          "caramel sauce",
+          "herbs",
+          "breadsticks"
+        ],
+        "actions": [
+          "dripping",
+          "stacking"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "culinary art"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHumanoidCreatureOverloadedWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHumanoidCreatureOverloadedWith/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical food sculpture features a stack of various foods creatively arranged to resemble a creature. The 'eyes' are made from fried eggs, while the 'body' consists of stacked sausages and pancakes, adorned with drizzles of sauce and garnished with herbs.",
+      "description": "The scene presents a playful and imaginative food art piece, set against a neutral background to highlight the intricate details of the sculpture. The combination of breakfast items and artistic elements creates a surreal and humorous visual experience.",
+      "labels": {
+        "objects": [
+          "fried eggs",
+          "sausages",
+          "pancakes",
+          "sauce",
+          "herbs"
+        ],
+        "actions": [
+          "drizzling"
+        ],
+        "emotions": [
+          "whimsical",
+          "humorous"
+        ],
+        "scenes": [
+          "food art"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: sausages, fried eggs, pancakes, herbs, garnishes. Actions: stacking, dripping, drizzling. Emotions: whimsical, playful, humorous. Scenes: fantasy, creative, culinary art, food art. Concepts: creativity, imagination, food art",
+  "primary_labels": {
+    "objects": [
+      "sausages",
+      "fried eggs",
+      "pancakes",
+      "herbs",
+      "garnishes"
+    ],
+    "actions": [
+      "stacking",
+      "dripping",
+      "drizzling"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful",
+      "humorous"
+    ],
+    "scenes": [
+      "fantasy",
+      "creative",
+      "culinary art",
+      "food art"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "food art"
+    ]
+  },
+  "metadata": {}
+}

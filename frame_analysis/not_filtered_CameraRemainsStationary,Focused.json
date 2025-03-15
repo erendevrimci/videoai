@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraRemainsStationary,Focused.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraRemainsStationary,Focused.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraRemainsStationary,Focused/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid robot is in a modern kitchen, skillfully chopping vegetables on a wooden countertop. The robot's sleek design and glowing blue eyes suggest advanced technology, while the fresh produce adds a touch of natural color to the scene.",
+      "description": "The scene is set in a contemporary kitchen where a humanoid robot is preparing food. The robot is focused on slicing vegetables, demonstrating precision and dexterity.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "objects": [
+          "knife",
+          "vegetables",
+          "cutting board",
+          "kitchen appliances",
+          "countertop"
+        ],
+        "actions": [
+          "chopping",
+          "cooking"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking"
+        ],
+        "concepts": [
+          "technology",
+          "automation",
+          "future"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraRemainsStationary,Focused.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraRemainsStationary,Focused/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid robot is in a modern kitchen, skillfully chopping vegetables on a wooden countertop. The robot's design is sleek and futuristic, with glowing blue eyes and metallic features.",
+      "description": "The scene is set in a contemporary kitchen where a humanoid robot is preparing food. The robot is focused on slicing vegetables, surrounded by a neatly organized kitchen environment.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "objects": [
+          "knife",
+          "vegetables",
+          "cutting board",
+          "kitchen countertop",
+          "shelves",
+          "bowls"
+        ],
+        "actions": [
+          "chopping",
+          "preparing food"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking"
+        ],
+        "concepts": [
+          "technology",
+          "automation",
+          "futuristic"
+        ],
+        "emotions": [
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot. Objects: knife, vegetables, cutting board, kitchen appliances, countertop. Actions: chopping, cooking, preparing food. Emotions: focused, focus. Scenes: kitchen, cooking. Concepts: technology, automation, future, futuristic",
+  "primary_labels": {
+    "people": [
+      "robot"
+    ],
+    "objects": [
+      "knife",
+      "vegetables",
+      "cutting board",
+      "kitchen appliances",
+      "countertop"
+    ],
+    "actions": [
+      "chopping",
+      "cooking",
+      "preparing food"
+    ],
+    "emotions": [
+      "focused",
+      "focus"
+    ],
+    "scenes": [
+      "kitchen",
+      "cooking"
+    ],
+    "concepts": [
+      "technology",
+      "automation",
+      "future",
+      "futuristic"
+    ]
+  },
+  "metadata": {}
+}

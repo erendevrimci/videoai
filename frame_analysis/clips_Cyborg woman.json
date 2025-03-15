@@ -1,0 +1,87 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyborg woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot stands in profile, showcasing sleek, metallic features and advanced cybernetic enhancements. The robot's design includes a smooth, black exoskeleton and intricate mechanical components, giving it a sophisticated and high-tech appearance.",
+      "description": "The scene depicts a humanoid robot in a minimalist setting, emphasizing its advanced technology and design. The robot's sleek, black exoskeleton and mechanical features highlight its futuristic nature.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "objects": [
+          "robot",
+          "cybernetic enhancements",
+          "exoskeleton"
+        ],
+        "scenes": [
+          "futuristic",
+          "minimalist"
+        ],
+        "concepts": [
+          "technology",
+          "artificial intelligence",
+          "cybernetics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyborg woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyborg woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic humanoid figure stands in profile, showcasing sleek, metallic armor and advanced headgear. The design blends human features with robotic elements, emphasizing a seamless integration of technology and biology.",
+      "description": "The scene depicts a futuristic setting where a humanoid figure, possibly a cyborg, is adorned with high-tech armor and headgear. The focus is on the intricate design of the suit, highlighting the advanced technology.",
+      "labels": {
+        "people": [
+          "humanoid",
+          "cyborg"
+        ],
+        "objects": [
+          "armor",
+          "headgear"
+        ],
+        "scenes": [
+          "futuristic",
+          "technology"
+        ],
+        "concepts": [
+          "integration",
+          "advanced technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid, cyborg. Objects: robot, cybernetic enhancements, exoskeleton, armor, headgear. Scenes: futuristic, minimalist, technology. Concepts: technology, artificial intelligence, cybernetics, integration, advanced technology",
+  "primary_labels": {
+    "people": [
+      "humanoid",
+      "cyborg"
+    ],
+    "objects": [
+      "robot",
+      "cybernetic enhancements",
+      "exoskeleton",
+      "armor",
+      "headgear"
+    ],
+    "scenes": [
+      "futuristic",
+      "minimalist",
+      "technology"
+    ],
+    "concepts": [
+      "technology",
+      "artificial intelligence",
+      "cybernetics",
+      "integration",
+      "advanced technology"
+    ]
+  },
+  "metadata": {}
+}

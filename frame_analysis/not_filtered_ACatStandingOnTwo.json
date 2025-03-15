@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatStandingOnTwo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatStandingOnTwo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatStandingOnTwo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular anthropomorphic cat is lifting a heavy barbell in a gym setting. The cat is dressed in a tank top and shorts, showcasing its strength and determination. The gym environment is modern, with blurred equipment in the background.",
+      "description": "The scene depicts an anthropomorphic cat engaging in weightlifting within a gym. The cat's muscular build and attire suggest a focus on fitness and strength training.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "tank top",
+          "shorts",
+          "sneakers"
+        ],
+        "actions": [
+          "weightlifting"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "fitness",
+          "strength",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatStandingOnTwo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatStandingOnTwo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular anthropomorphic cat is lifting a heavy barbell in a gym setting. The cat is wearing a black tank top and shorts, with orange sneakers, showcasing an intense focus on the task. The gym environment is dimly lit, highlighting the cat's impressive physique and determination.",
+      "description": "The scene is set in a gym where an anthropomorphic cat is engaged in weightlifting. The cat displays a strong and muscular build, emphasizing a blend of human and feline characteristics. The gym's industrial interior and subdued lighting create a serious and focused atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "tank top",
+          "shorts",
+          "sneakers"
+        ],
+        "actions": [
+          "weightlifting"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACatStandingOnTwo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACatStandingOnTwo/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A muscular cat stands confidently in a gym, lifting a heavy barbell with focused determination. Dressed in athletic gear, the cat's intense gaze and strong posture highlight its commitment to fitness.",
+      "description": "The scene takes place in a modern gym setting where a cat, anthropomorphized with human-like features, is engaged in weightlifting. The environment is equipped with gym equipment, and the lighting is bright, emphasizing the cat's athletic form.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "gym equipment"
+        ],
+        "actions": [
+          "weightlifting"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "fitness",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: barbell, tank top, shorts, sneakers, gym equipment. Actions: weightlifting. Emotions: determination. Scenes: gym. Concepts: fitness, anthropomorphism, strength",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "barbell",
+      "tank top",
+      "shorts",
+      "sneakers",
+      "gym equipment"
+    ],
+    "actions": [
+      "weightlifting"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "gym"
+    ],
+    "concepts": [
+      "fitness",
+      "anthropomorphism",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uc6b0\uc8fc \uc804\uc7c11.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uc6b0\uc8fc \uc804\uc7c11.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\uc6b0\uc8fc \uc804\uc7c11/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid robot stands on a rocky ledge, gazing at a massive spherical structure in the distance. The landscape is dominated by towering rock formations under a partly cloudy sky.",
+      "description": "The scene depicts a futuristic setting where a humanoid robot overlooks a vast, rugged terrain with a prominent spherical structure in the background. The environment suggests an alien or otherworldly landscape, characterized by its dramatic rock formations and expansive view.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "nature": [
+          "rock formations",
+          "clouds"
+        ],
+        "objects": [
+          "spherical structure"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "futuristic",
+          "alien landscape"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\uc6b0\uc8fc \uc804\uc7c11.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\uc6b0\uc8fc \uc804\uc7c11/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic robot leaps across a rugged alien landscape, with towering rock formations and a massive spherical structure in the background. The scene is set under a bright, cloudy sky, creating a sense of exploration and adventure.",
+      "description": "The image depicts a science fiction setting with a robot in mid-air, jumping over a rocky terrain on an alien planet. The presence of a large, dome-like structure suggests advanced technology and exploration.",
+      "labels": {
+        "objects": [
+          "robot",
+          "spherical structure",
+          "rock formations"
+        ],
+        "actions": [
+          "jumping"
+        ],
+        "scenes": [
+          "alien landscape",
+          "futuristic setting"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot. Nature: rock formations, clouds. Objects: spherical structure, robot, rock formations. Actions: standing, gazing, jumping. Emotions: contemplative. Scenes: alien landscape, futuristic, futuristic setting. Concepts: exploration, technology",
+  "primary_labels": {
+    "people": [
+      "robot"
+    ],
+    "nature": [
+      "rock formations",
+      "clouds"
+    ],
+    "objects": [
+      "spherical structure",
+      "robot",
+      "rock formations"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "jumping"
+    ],
+    "emotions": [
+      "contemplative"
+    ],
+    "scenes": [
+      "alien landscape",
+      "futuristic",
+      "futuristic setting"
+    ],
+    "concepts": [
+      "exploration",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

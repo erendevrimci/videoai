@@ -1,0 +1,164 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Desert Girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Desert Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Desert Girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylishly dressed woman walks confidently through a desert landscape, flanked by two elephants. Her attire is elegant and modern, contrasting with the natural setting around her.",
+      "description": "The scene is set in a vast desert with a clear blue sky, where a woman in fashionable clothing strides forward, accompanied by elephants. The juxtaposition of fashion and wildlife creates a striking visual.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "elephants"
+        ],
+        "nature": [
+          "desert",
+          "sky"
+        ],
+        "objects": [
+          "sunglasses",
+          "coat",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "nature"
+        ],
+        "concepts": [
+          "contrast",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Desert Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Desert Girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylishly dressed person walks confidently across a sandy desert landscape, flanked by two elephants. The bright blue sky and the expansive sand dunes create a striking backdrop, highlighting the elegance of the scene.",
+      "description": "The scene is set in a desert environment with a clear blue sky, featuring a person in fashionable attire walking alongside two elephants. The setting conveys a blend of fashion and nature, creating a unique and captivating visual.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "elephants"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes",
+          "sky"
+        ],
+        "objects": [
+          "sunglasses",
+          "clothing"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "nature"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Desert Girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Desert Girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A stylishly dressed person walks confidently through a desert landscape, flanked by two elephants. The person wears a long, patterned coat, sunglasses, and a headscarf, exuding a sense of elegance and poise. The elephants add a majestic and serene backdrop to the scene.",
+      "description": "The scene is set in a desert with clear blue skies, where a fashion-forward individual walks alongside elephants. The combination of fashion and wildlife creates a striking contrast, highlighting both elegance and the grandeur of nature.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "elephants"
+        ],
+        "nature": [
+          "desert",
+          "sky"
+        ],
+        "objects": [
+          "coat",
+          "sunglasses",
+          "headscarf"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "wildlife"
+        ],
+        "concepts": [
+          "elegance",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Animals: elephants. Nature: desert, sky, sand dunes. Objects: sunglasses, coat, jewelry, clothing, headscarf. Actions: walking. Emotions: confidence. Scenes: fashion, nature, wildlife. Concepts: contrast, style, elegance",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "animals": [
+      "elephants"
+    ],
+    "nature": [
+      "desert",
+      "sky",
+      "sand dunes"
+    ],
+    "objects": [
+      "sunglasses",
+      "coat",
+      "jewelry",
+      "clothing",
+      "headscarf"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "fashion",
+      "nature",
+      "wildlife"
+    ],
+    "concepts": [
+      "contrast",
+      "style",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merlin.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merlin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Merlin/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A monochrome portrait of a woman with voluminous, styled hair and tattoos on her shoulders. She gazes directly at the camera with a calm and confident expression, wearing a strapless top with a bow detail.",
+      "description": "The scene is a black and white portrait of a woman in a studio setting. The focus is on her striking hairstyle and tattoos, with a minimalist background enhancing her features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "strapless top",
+          "tattoos"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "monochrome",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merlin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Merlin/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking platinum blonde hair styled in voluminous waves gazes confidently at the camera. She wears a strapless top with a large bow detail and has tattoos on her arms, adding an edgy contrast to her elegant appearance.",
+      "description": "The image is a black and white portrait of a woman in a studio setting. The focus is on her sophisticated hairstyle and confident expression, with a minimalist background that emphasizes her features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "strapless top",
+          "bow"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "style",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: strapless top, tattoos, bow. Emotions: calm, confident, confidence. Scenes: portrait, studio. Concepts: monochrome, fashion, elegance, style, contrast. Actions: gazing",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "strapless top",
+      "tattoos",
+      "bow"
+    ],
+    "emotions": [
+      "calm",
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "monochrome",
+      "fashion",
+      "elegance",
+      "style",
+      "contrast"
+    ],
+    "actions": [
+      "gazing"
+    ]
+  },
+  "metadata": {}
+}

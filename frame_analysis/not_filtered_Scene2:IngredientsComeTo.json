@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene2:IngredientsComeTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene2:IngredientsComeTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene2:IngredientsComeTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant scene shows a stream of chocolate being poured into a blue cup, surrounded by colorful marshmallows and sprinkles. The background is a dreamy blend of pink and blue hues, enhancing the whimsical atmosphere.",
+      "description": "The image captures a playful and delightful moment of hot chocolate preparation, emphasizing the joy and indulgence associated with sweet treats.",
+      "labels": {
+        "objects": [
+          "chocolate",
+          "cup",
+          "marshmallows",
+          "sprinkles"
+        ],
+        "actions": [
+          "pouring"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "kitchen",
+          "dessert preparation"
+        ],
+        "concepts": [
+          "indulgence",
+          "sweetness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Scene2:IngredientsComeTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Scene2:IngredientsComeTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stream of rich chocolate is being poured into a bowl, creating a swirling motion. Colorful marshmallows and whimsical, animated creatures appear to be interacting with the chocolate flow. The background is a vibrant blend of blues and purples, adding a magical atmosphere.",
+      "description": "The scene depicts a playful and imaginative setting where chocolate is being poured into a bowl, accompanied by lively, colorful elements. The environment suggests a fantastical, animated world.",
+      "labels": {
+        "objects": [
+          "chocolate",
+          "bowl",
+          "marshmallows"
+        ],
+        "actions": [
+          "pouring",
+          "swirling"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "animated"
+        ],
+        "concepts": [
+          "imagination",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: chocolate, marshmallows, cup, sprinkles, bowl. Actions: pouring, swirling. Emotions: playful, joyful, whimsical. Scenes: kitchen, dessert preparation, fantasy, animated. Concepts: indulgence, sweetness, imagination, magic",
+  "primary_labels": {
+    "objects": [
+      "chocolate",
+      "marshmallows",
+      "cup",
+      "sprinkles",
+      "bowl"
+    ],
+    "actions": [
+      "pouring",
+      "swirling"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen",
+      "dessert preparation",
+      "fantasy",
+      "animated"
+    ],
+    "concepts": [
+      "indulgence",
+      "sweetness",
+      "imagination",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Delicious cake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Delicious cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Delicious cake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luscious stream of rich chocolate sauce is being poured over a freshly baked \u00e9clair, creating a glossy coating. The pastry sits on a dusting of powdered sugar, enhancing its decadent appearance.",
+      "description": "The scene captures a close-up view of an \u00e9clair being drizzled with chocolate sauce. The setting is likely a kitchen or a dessert preparation area, focusing on the indulgent dessert.",
+      "labels": {
+        "objects": [
+          "\u00e9clair",
+          "chocolate sauce",
+          "powdered sugar",
+          "plate"
+        ],
+        "actions": [
+          "pouring",
+          "drizzling"
+        ],
+        "emotions": [
+          "indulgence",
+          "temptation"
+        ],
+        "scenes": [
+          "dessert preparation",
+          "culinary art"
+        ],
+        "concepts": [
+          "decadence",
+          "gourmet dessert"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Delicious cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Delicious cake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up shot of a pastry being drizzled with rich, glossy chocolate sauce. The chocolate cascades smoothly over the pastry, which is set on a plate dusted with powdered sugar.",
+      "description": "The scene captures a delectable dessert moment, focusing on the indulgent pouring of chocolate over a pastry. The setting is likely a kitchen or a dining area, emphasizing a culinary theme.",
+      "labels": {
+        "objects": [
+          "pastry",
+          "chocolate sauce",
+          "plate",
+          "powdered sugar"
+        ],
+        "actions": [
+          "drizzling",
+          "pouring"
+        ],
+        "emotions": [
+          "indulgence",
+          "satisfaction"
+        ],
+        "scenes": [
+          "culinary",
+          "dessert preparation"
+        ],
+        "concepts": [
+          "gourmet",
+          "decadence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: chocolate sauce, powdered sugar, plate, \u00e9clair, pastry. Actions: pouring, drizzling. Emotions: indulgence, temptation, satisfaction. Scenes: dessert preparation, culinary art, culinary. Concepts: decadence, gourmet dessert, gourmet",
+  "primary_labels": {
+    "objects": [
+      "chocolate sauce",
+      "powdered sugar",
+      "plate",
+      "\u00e9clair",
+      "pastry"
+    ],
+    "actions": [
+      "pouring",
+      "drizzling"
+    ],
+    "emotions": [
+      "indulgence",
+      "temptation",
+      "satisfaction"
+    ],
+    "scenes": [
+      "dessert preparation",
+      "culinary art",
+      "culinary"
+    ],
+    "concepts": [
+      "decadence",
+      "gourmet dessert",
+      "gourmet"
+    ]
+  },
+  "metadata": {}
+}

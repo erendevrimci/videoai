@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El viejo y el Mar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El viejo y el Mar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/El viejo y el Mar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with a white beard is rowing a small boat through rough seas. He wears a straw hat and a weathered shirt, appearing focused and determined amidst the crashing waves.",
+      "description": "The scene depicts an elderly man navigating a small boat through turbulent ocean waters. The sky is overcast, suggesting an impending storm, and the man is engaged in rowing, showcasing resilience and determination.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "sky"
+        ],
+        "objects": [
+          "boat",
+          "straw hat"
+        ],
+        "actions": [
+          "rowing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "maritime",
+          "stormy sea"
+        ],
+        "concepts": [
+          "resilience",
+          "struggle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/El viejo y el Mar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/El viejo y el Mar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man with a white beard is seated in a small boat, gripping a fishing rod. He wears a straw hat and a weathered shirt, surrounded by choppy ocean waves under a cloudy sky.",
+      "description": "The scene depicts a solitary fisherman at sea, battling the elements as he focuses on his task. The setting is a turbulent ocean with dramatic skies, highlighting the man's resilience and determination.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "fisherman"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "cloudy sky"
+        ],
+        "objects": [
+          "boat",
+          "fishing rod",
+          "straw hat"
+        ],
+        "actions": [
+          "fishing",
+          "gripping"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "sea",
+          "fishing"
+        ],
+        "concepts": [
+          "resilience",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man, fisherman. Nature: ocean, waves, sky, cloudy sky. Objects: boat, straw hat, fishing rod. Actions: rowing, fishing, gripping. Emotions: determination. Scenes: maritime, stormy sea, sea, fishing. Concepts: resilience, struggle, solitude",
+  "primary_labels": {
+    "people": [
+      "elderly man",
+      "fisherman"
+    ],
+    "nature": [
+      "ocean",
+      "waves",
+      "sky",
+      "cloudy sky"
+    ],
+    "objects": [
+      "boat",
+      "straw hat",
+      "fishing rod"
+    ],
+    "actions": [
+      "rowing",
+      "fishing",
+      "gripping"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "maritime",
+      "stormy sea",
+      "sea",
+      "fishing"
+    ],
+    "concepts": [
+      "resilience",
+      "struggle",
+      "solitude"
+    ]
+  },
+  "metadata": {}
+}

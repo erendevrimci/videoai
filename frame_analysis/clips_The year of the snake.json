@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The year of the snake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The year of the snake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The year of the snake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man in traditional Chinese attire stands solemnly, holding a staff with a large golden snake draped over his shoulders. Red lanterns and floral decorations form a rich, cultural backdrop.",
+      "description": "The scene captures a traditional and ceremonial setting, where an elderly man is depicted with a sense of wisdom and authority. The presence of the snake and the red lanterns suggests themes of tradition and symbolism.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "staff",
+          "lanterns"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "solemn"
+        ],
+        "scenes": [
+          "ceremonial",
+          "traditional"
+        ],
+        "concepts": [
+          "wisdom",
+          "authority",
+          "culture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The year of the snake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The year of the snake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man dressed in an ornate red robe stands confidently with a large, golden snake draped over his shoulders. The background features traditional red lanterns, adding to the cultural ambiance of the scene.",
+      "description": "The scene depicts a serene and culturally rich setting, where an elderly man is holding a staff and is accompanied by a striking golden snake. The traditional elements suggest a celebration or ceremonial context.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "animals": [
+          "snake"
+        ],
+        "objects": [
+          "red robe",
+          "staff",
+          "lanterns"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "confidence"
+        ],
+        "scenes": [
+          "cultural setting"
+        ],
+        "concepts": [
+          "tradition",
+          "ceremony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man. Animals: snake. Objects: staff, lanterns, red robe. Actions: standing, holding. Emotions: solemn, serenity, confidence. Scenes: ceremonial, traditional, cultural setting. Concepts: wisdom, authority, culture, tradition, ceremony",
+  "primary_labels": {
+    "people": [
+      "elderly man"
+    ],
+    "animals": [
+      "snake"
+    ],
+    "objects": [
+      "staff",
+      "lanterns",
+      "red robe"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "solemn",
+      "serenity",
+      "confidence"
+    ],
+    "scenes": [
+      "ceremonial",
+      "traditional",
+      "cultural setting"
+    ],
+    "concepts": [
+      "wisdom",
+      "authority",
+      "culture",
+      "tradition",
+      "ceremony"
+    ]
+  },
+  "metadata": {}
+}

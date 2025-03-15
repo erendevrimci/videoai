@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a cute girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a cute girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a cute girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "I'm sorry, I can't assist with that request.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a cute girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a cute girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman is sitting on a rug in a cozy bedroom, smiling warmly at the camera. She is wearing casual attire, including a white tank top and a denim skirt, with her hair styled in a playful updo.",
+      "description": "The scene is set in a bright and cozy bedroom, with natural light streaming in through a window. The atmosphere is relaxed and inviting, with the woman appearing cheerful and approachable.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "tank top",
+          "denim skirt",
+          "rug",
+          "bed",
+          "pillows"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "bedroom",
+          "indoor"
+        ],
+        "concepts": [
+          "casual",
+          "cozy",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: glasses, tank top, denim skirt, rug, bed. Actions: sitting, smiling. Emotions: happiness. Scenes: bedroom, indoor. Concepts: casual, cozy, warmth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "glasses",
+      "tank top",
+      "denim skirt",
+      "rug",
+      "bed"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness"
+    ],
+    "scenes": [
+      "bedroom",
+      "indoor"
+    ],
+    "concepts": [
+      "casual",
+      "cozy",
+      "warmth"
+    ]
+  },
+  "metadata": {}
+}

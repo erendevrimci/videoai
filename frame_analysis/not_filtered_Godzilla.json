@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Godzilla.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Godzilla.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Godzilla/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A colossal, roaring creature towers over a cityscape, with flames and smoke billowing in the background. The creature's scales and spikes are illuminated by the fiery glow, creating a dramatic and intense scene.",
+      "description": "The scene depicts a massive, dinosaur-like creature rampaging through an urban environment. The city is engulfed in flames, suggesting chaos and destruction as the creature moves through the buildings.",
+      "labels": {
+        "animals": [
+          "dinosaur",
+          "monster"
+        ],
+        "objects": [
+          "buildings",
+          "flames",
+          "smoke"
+        ],
+        "actions": [
+          "roaring",
+          "rampaging"
+        ],
+        "emotions": [
+          "chaos",
+          "intensity"
+        ],
+        "scenes": [
+          "urban destruction",
+          "apocalyptic"
+        ],
+        "concepts": [
+          "giant monster",
+          "city attack"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Godzilla.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Godzilla/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive, spiked creature towers over a city, with flames and smoke engulfing the skyline. The creature's menacing presence is accentuated by its glowing eyes and open mouth, suggesting a roar. Below, people are seen fleeing in panic, adding to the chaos of the scene.",
+      "description": "The scene depicts a dramatic and chaotic urban setting where a giant monster is attacking a city. The backdrop is filled with fire and smoke, indicating widespread destruction and panic among the city's inhabitants.",
+      "labels": {
+        "animals": [
+          "giant creature",
+          "monster"
+        ],
+        "nature": [
+          "fire",
+          "smoke"
+        ],
+        "objects": [
+          "buildings",
+          "cityscape"
+        ],
+        "actions": [
+          "fleeing",
+          "roaring"
+        ],
+        "emotions": [
+          "panic",
+          "fear"
+        ],
+        "scenes": [
+          "urban destruction",
+          "monster attack"
+        ],
+        "concepts": [
+          "chaos",
+          "disaster"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Godzilla.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Godzilla/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A massive, spiked creature towers over a cityscape, with flames erupting from buildings below. The creature's scales glisten in the light, and its eyes glow ominously as it moves through the urban environment.",
+      "description": "The scene depicts a giant monster rampaging through a city, causing destruction and chaos. The setting is a modern urban area with skyscrapers and smaller buildings, some of which are on fire.",
+      "labels": {
+        "animals": [
+          "monster"
+        ],
+        "nature": [],
+        "objects": [
+          "buildings",
+          "flames"
+        ],
+        "actions": [
+          "rampaging",
+          "destruction"
+        ],
+        "emotions": [
+          "chaos",
+          "fear"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "concepts": [
+          "apocalypse",
+          "creature attack"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: monster, dinosaur, giant creature. Objects: buildings, flames, smoke, cityscape. Actions: roaring, rampaging, fleeing, destruction. Emotions: chaos, fear, intensity, panic. Scenes: urban destruction, apocalyptic, monster attack, urban, disaster. Concepts: giant monster, city attack, chaos, disaster, apocalypse. Nature: fire, smoke",
+  "primary_labels": {
+    "animals": [
+      "monster",
+      "dinosaur",
+      "giant creature"
+    ],
+    "objects": [
+      "buildings",
+      "flames",
+      "smoke",
+      "cityscape"
+    ],
+    "actions": [
+      "roaring",
+      "rampaging",
+      "fleeing",
+      "destruction"
+    ],
+    "emotions": [
+      "chaos",
+      "fear",
+      "intensity",
+      "panic"
+    ],
+    "scenes": [
+      "urban destruction",
+      "apocalyptic",
+      "monster attack",
+      "urban",
+      "disaster"
+    ],
+    "concepts": [
+      "giant monster",
+      "city attack",
+      "chaos",
+      "disaster",
+      "apocalypse"
+    ],
+    "nature": [
+      "fire",
+      "smoke"
+    ]
+  },
+  "metadata": {}
+}

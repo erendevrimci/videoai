@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Inventor.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Inventor.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk Inventor/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long red hair stands confidently in a workshop setting, wearing a brown leather corset with ruffled details. She holds a tool in her hands, suggesting she is engaged in mechanical work.",
+      "description": "The scene is set in a workshop or industrial environment, with various mechanical tools and equipment visible in the background. The woman appears focused and determined, contributing to a sense of empowerment and skill.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "tool",
+          "leather corset"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "scenes": [
+          "workshop",
+          "industrial"
+        ],
+        "emotions": [
+          "confident",
+          "focused"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Inventor.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk Inventor/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long red hair stands confidently in a workshop setting, wearing a brown leather corset. She holds a mechanical tool in her hands, suggesting involvement in a hands-on task. The background is filled with industrial elements, enhancing the steampunk aesthetic.",
+      "description": "The scene is set in a workshop or industrial environment, characterized by mechanical and steampunk elements. The woman appears focused and engaged, possibly working on a project or repair.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "corset",
+          "mechanical tool"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "scenes": [
+          "workshop",
+          "steampunk"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "concepts": [
+          "industrial",
+          "hands-on"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Steampunk Inventor.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Steampunk Inventor/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long red hair stands in a dimly lit industrial setting, wearing a brown leather corset. She holds a mechanical tool in her hands, gazing directly at the camera with a serious expression.",
+      "description": "The scene is set in an industrial environment, possibly a workshop or factory, with machinery visible in the background. The woman appears to be engaged in some form of mechanical work or repair.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "corset",
+          "mechanical tool",
+          "machinery"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serious"
+        ],
+        "scenes": [
+          "industrial",
+          "workshop"
+        ],
+        "concepts": [
+          "mechanical",
+          "industrial"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: corset, mechanical tool, tool, leather corset, machinery. Actions: holding. Scenes: workshop, industrial, steampunk. Emotions: confident, focused, serious. Concepts: industrial, hands-on, mechanical",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "corset",
+      "mechanical tool",
+      "tool",
+      "leather corset",
+      "machinery"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "scenes": [
+      "workshop",
+      "industrial",
+      "steampunk"
+    ],
+    "emotions": [
+      "confident",
+      "focused",
+      "serious"
+    ],
+    "concepts": [
+      "industrial",
+      "hands-on",
+      "mechanical"
+    ]
+  },
+  "metadata": {}
+}

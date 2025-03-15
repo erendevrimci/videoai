@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/monkey rapper.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/monkey rapper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/monkey rapper/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A chimpanzee dressed in stylish attire performs on stage, holding a microphone. The scene is vibrant with colorful stage lights illuminating the background.",
+      "description": "The image depicts a chimpanzee dressed in a cap, sunglasses, and gold chains, performing on a stage with a microphone. The setting appears to be a lively concert or performance venue with an enthusiastic audience.",
+      "labels": {
+        "animals": [
+          "chimpanzee"
+        ],
+        "objects": [
+          "microphone",
+          "cap",
+          "sunglasses",
+          "gold chains",
+          "sneakers"
+        ],
+        "actions": [
+          "performing",
+          "singing"
+        ],
+        "emotions": [
+          "energetic"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "performance",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/monkey rapper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/monkey rapper/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A chimpanzee dressed in stylish attire performs energetically on stage, gripping a microphone. The scene is vibrant, with colorful stage lights illuminating the performer and the audience in the background.",
+      "description": "The image captures a lively concert setting where a chimpanzee, dressed in a hoodie, sunglasses, and gold chains, is performing on stage. The atmosphere is electric, with bright lights and an engaged crowd.",
+      "labels": {
+        "animals": [
+          "chimpanzee"
+        ],
+        "objects": [
+          "microphone",
+          "sunglasses",
+          "hoodie",
+          "gold chains",
+          "shoes"
+        ],
+        "actions": [
+          "performing",
+          "singing"
+        ],
+        "emotions": [
+          "energetic"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "performance",
+          "music",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/monkey rapper.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/monkey rapper/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A chimpanzee dressed in human clothing is performing on stage, holding a microphone. The chimp is wearing sunglasses, a cap, a hoodie, and sneakers, creating a humorous and surreal scene.",
+      "description": "The scene is set in a lively concert or club environment with a chimpanzee as the main performer. The audience is visible in the background, adding to the energetic atmosphere.",
+      "labels": {
+        "animals": [
+          "chimpanzee"
+        ],
+        "objects": [
+          "microphone",
+          "sunglasses",
+          "cap",
+          "hoodie",
+          "sneakers"
+        ],
+        "actions": [
+          "performing",
+          "holding microphone"
+        ],
+        "emotions": [
+          "humorous",
+          "surreal"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: chimpanzee. Objects: microphone, sunglasses, cap, gold chains, sneakers. Actions: performing, singing, holding microphone. Emotions: energetic, humorous, surreal. Scenes: concert, stage. Concepts: entertainment, performance, music, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "chimpanzee"
+    ],
+    "objects": [
+      "microphone",
+      "sunglasses",
+      "cap",
+      "gold chains",
+      "sneakers"
+    ],
+    "actions": [
+      "performing",
+      "singing",
+      "holding microphone"
+    ],
+    "emotions": [
+      "energetic",
+      "humorous",
+      "surreal"
+    ],
+    "scenes": [
+      "concert",
+      "stage"
+    ],
+    "concepts": [
+      "entertainment",
+      "performance",
+      "music",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

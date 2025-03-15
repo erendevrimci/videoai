@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sexy latex woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sexy latex woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sexy latex woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "I'm sorry, I can't assist with that request.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sexy latex woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sexy latex woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a striking black and yellow outfit stands in a modern, stylized setting. The outfit features a glossy, form-fitting design with a short skirt and long sleeves.",
+      "description": "The scene depicts a person in a futuristic or themed costume, possibly inspired by a fictional or fantasy character. The background consists of geometric patterns with bright lighting, enhancing the dramatic effect of the attire.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "costume",
+          "boots"
+        ],
+        "scenes": [
+          "futuristic",
+          "themed"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "concepts": [
+          "cosplay",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/sexy latex woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/sexy latex woman/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is standing with their back to the camera, wearing a shiny black and yellow outfit. The background features a modern design with vertical yellow and black panels.",
+      "description": "The scene depicts a person in a futuristic or themed outfit, possibly in a setting designed for a photoshoot or a themed event. The lighting is bright, highlighting the glossy texture of the clothing and the sleek design of the background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "outfit",
+          "panels"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "scenes": [
+          "photoshoot",
+          "themed setting"
+        ],
+        "concepts": [
+          "futuristic",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: costume, boots, outfit, panels. Scenes: futuristic, themed, photoshoot, themed setting. Emotions: confident. Concepts: fashion, cosplay, futuristic. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "costume",
+      "boots",
+      "outfit",
+      "panels"
+    ],
+    "scenes": [
+      "futuristic",
+      "themed",
+      "photoshoot",
+      "themed setting"
+    ],
+    "emotions": [
+      "confident"
+    ],
+    "concepts": [
+      "fashion",
+      "cosplay",
+      "futuristic"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

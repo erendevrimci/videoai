@@ -1,0 +1,163 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Little Krishna.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Little Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Little Krishna/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A charming, animated child with curly hair and large eyes stands underwater, adorned with traditional jewelry and a peacock feather in his hair. The background features an underwater scene with soft lighting and marine life.",
+      "description": "The scene depicts an animated child character in a serene underwater setting. The child is dressed in traditional attire with intricate jewelry, and the environment is filled with aquatic elements, creating a mystical atmosphere.",
+      "labels": {
+        "people": [
+          "animated child"
+        ],
+        "animals": [
+          "peacock feather"
+        ],
+        "nature": [
+          "underwater",
+          "marine life"
+        ],
+        "objects": [
+          "jewelry",
+          "traditional attire"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "charming",
+          "serene"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "animation",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Little Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Little Krishna/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A charming child-like figure stands underwater, adorned with traditional jewelry and a peacock feather in its hair. The scene is serene, with soft lighting filtering through the water, illuminating the figure's joyful expression.",
+      "description": "The image depicts an underwater setting where a child-like figure, dressed in traditional attire, is standing amidst coral and aquatic life. The atmosphere is peaceful and enchanting, with a focus on the figure's joyful expression and intricate adornments.",
+      "labels": {
+        "people": [
+          "child-like figure"
+        ],
+        "nature": [
+          "underwater",
+          "coral"
+        ],
+        "objects": [
+          "jewelry",
+          "peacock feather"
+        ],
+        "emotions": [
+          "joyful",
+          "serene"
+        ],
+        "scenes": [
+          "underwater scene"
+        ],
+        "concepts": [
+          "enchantment",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute Little Krishna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute Little Krishna/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young animated character with curly hair is underwater, carefully examining a vibrant purple object. The character is adorned with gold jewelry and has a small bird perched on their head.",
+      "description": "The scene takes place underwater, where an animated character is exploring the ocean floor. The setting is serene and magical, with soft lighting filtering through the water, illuminating the character and the surrounding coral.",
+      "labels": {
+        "people": [
+          "animated character"
+        ],
+        "animals": [
+          "bird"
+        ],
+        "nature": [
+          "underwater",
+          "coral"
+        ],
+        "objects": [
+          "purple object",
+          "gold jewelry"
+        ],
+        "actions": [
+          "examining",
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "underwater scene"
+        ],
+        "concepts": [
+          "exploration",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: animated child, child-like figure, animated character. Animals: peacock feather, bird. Nature: underwater, coral, marine life. Objects: jewelry, traditional attire, peacock feather, purple object, gold jewelry. Actions: standing, examining, exploring. Emotions: serene, charming, joyful, curiosity. Scenes: underwater scene, underwater. Concepts: animation, mythical, enchantment, tradition, exploration",
+  "primary_labels": {
+    "people": [
+      "animated child",
+      "child-like figure",
+      "animated character"
+    ],
+    "animals": [
+      "peacock feather",
+      "bird"
+    ],
+    "nature": [
+      "underwater",
+      "coral",
+      "marine life"
+    ],
+    "objects": [
+      "jewelry",
+      "traditional attire",
+      "peacock feather",
+      "purple object",
+      "gold jewelry"
+    ],
+    "actions": [
+      "standing",
+      "examining",
+      "exploring"
+    ],
+    "emotions": [
+      "serene",
+      "charming",
+      "joyful",
+      "curiosity"
+    ],
+    "scenes": [
+      "underwater scene",
+      "underwater"
+    ],
+    "concepts": [
+      "animation",
+      "mythical",
+      "enchantment",
+      "tradition",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83d\udccdLocation:AMassiveClub.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83d\udccdLocation:AMassiveClub.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\ud83d\udccdLocation:AMassiveClub/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A DJ stands confidently behind a mixing console, wearing sunglasses and a leather jacket. The scene is filled with vibrant lights and fog, creating an energetic atmosphere. The DJ appears focused as they manipulate the controls, immersed in the music.",
+      "description": "The scene is set at a lively music event or club, with a DJ performing on stage. The environment is dynamic, with colorful lighting and fog enhancing the visual experience.",
+      "labels": {
+        "people": [
+          "DJ"
+        ],
+        "objects": [
+          "mixing console",
+          "sunglasses",
+          "leather jacket"
+        ],
+        "actions": [
+          "performing",
+          "mixing music"
+        ],
+        "emotions": [
+          "focused",
+          "confident"
+        ],
+        "scenes": [
+          "music event",
+          "club"
+        ],
+        "concepts": [
+          "music performance",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\ud83d\udccdLocation:AMassiveClub.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\ud83d\udccdLocation:AMassiveClub/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant nightclub scene features a DJ performing on stage, surrounded by a large crowd of enthusiastic dancers. Colorful lights and smoke create a dynamic atmosphere as the audience raises their hands in excitement.",
+      "description": "The image captures a lively nightclub setting where a DJ is performing on stage. The crowd is densely packed, with people dancing energetically and engaging with the music.",
+      "labels": {
+        "people": [
+          "DJ",
+          "crowd",
+          "dancers"
+        ],
+        "objects": [
+          "DJ booth",
+          "lights",
+          "smoke"
+        ],
+        "actions": [
+          "performing",
+          "dancing",
+          "cheering"
+        ],
+        "emotions": [
+          "excitement",
+          "enthusiasm"
+        ],
+        "scenes": [
+          "nightclub",
+          "concert"
+        ],
+        "concepts": [
+          "music",
+          "entertainment",
+          "party"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: DJ, crowd, dancers. Objects: mixing console, sunglasses, leather jacket, DJ booth, lights. Actions: performing, mixing music, dancing, cheering. Emotions: focused, confident, excitement, enthusiasm. Scenes: music event, club, nightclub, concert. Concepts: entertainment, music performance, music, party",
+  "primary_labels": {
+    "people": [
+      "DJ",
+      "crowd",
+      "dancers"
+    ],
+    "objects": [
+      "mixing console",
+      "sunglasses",
+      "leather jacket",
+      "DJ booth",
+      "lights"
+    ],
+    "actions": [
+      "performing",
+      "mixing music",
+      "dancing",
+      "cheering"
+    ],
+    "emotions": [
+      "focused",
+      "confident",
+      "excitement",
+      "enthusiasm"
+    ],
+    "scenes": [
+      "music event",
+      "club",
+      "nightclub",
+      "concert"
+    ],
+    "concepts": [
+      "entertainment",
+      "music performance",
+      "music",
+      "party"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/waves into rock.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/waves into rock.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/waves into rock/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dramatic seascape captures a stormy ocean with towering waves crashing against rugged rocks. A bolt of lightning illuminates the dark, cloudy sky, while a faint glow on the horizon hints at a distant sunset.",
+      "description": "The scene depicts a turbulent ocean setting during a storm, with dark clouds and lightning creating a dramatic atmosphere. The rocky shoreline adds to the wild and untamed nature of the scene.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "clouds",
+          "lightning",
+          "rocks"
+        ],
+        "objects": [
+          "waves"
+        ],
+        "actions": [
+          "crashing"
+        ],
+        "emotions": [
+          "dramatic",
+          "intense"
+        ],
+        "scenes": [
+          "stormy seascape"
+        ],
+        "concepts": [
+          "nature's power",
+          "storm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/waves into rock.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/waves into rock/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic seascape captures the power of the ocean as waves crash against dark, rugged rocks. The sky is filled with ominous clouds, while a faint glow on the horizon suggests the sun setting or rising. The scene is both powerful and serene, embodying the raw beauty of nature.",
+      "description": "The scene depicts a turbulent ocean setting with waves crashing against rocky cliffs. The sky is overcast with dark clouds, creating a moody atmosphere. A subtle light on the horizon hints at a transition between day and night.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "rocks",
+          "clouds"
+        ],
+        "objects": [
+          "waves"
+        ],
+        "actions": [
+          "crashing"
+        ],
+        "emotions": [
+          "dramatic",
+          "serene"
+        ],
+        "scenes": [
+          "seascape",
+          "sunset"
+        ],
+        "concepts": [
+          "nature's power",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: ocean, clouds, rocks, lightning. Objects: waves. Actions: crashing. Emotions: dramatic, intense, serene. Scenes: stormy seascape, seascape, sunset. Concepts: nature's power, storm, tranquility",
+  "primary_labels": {
+    "nature": [
+      "ocean",
+      "clouds",
+      "rocks",
+      "lightning"
+    ],
+    "objects": [
+      "waves"
+    ],
+    "actions": [
+      "crashing"
+    ],
+    "emotions": [
+      "dramatic",
+      "intense",
+      "serene"
+    ],
+    "scenes": [
+      "stormy seascape",
+      "seascape",
+      "sunset"
+    ],
+    "concepts": [
+      "nature's power",
+      "storm",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

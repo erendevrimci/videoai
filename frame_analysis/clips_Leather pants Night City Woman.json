@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Leather pants Night City Woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Leather pants Night City Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Leather pants Night City Woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in the middle of a rain-soaked street, surrounded by neon lights reflecting off the wet pavement. Her leather outfit and determined posture create a striking silhouette against the urban backdrop.",
+      "description": "The scene is set in a bustling city at night, with neon signs illuminating the rainy street. The atmosphere is moody and cinematic, emphasizing the solitary figure's presence amidst the urban chaos.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather outfit",
+          "neon lights"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "solitude",
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Leather pants Night City Woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Leather pants Night City Woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a black leather outfit stands confidently on a wet city street at night. Neon lights illuminate the scene, casting vibrant reflections on the pavement. The atmosphere is moody and cinematic, with a sense of mystery and intrigue.",
+      "description": "The scene is set in a bustling city street at night, characterized by bright neon lights and wet pavement. The woman, dressed in a black leather jacket and pants, is the focal point, exuding confidence and mystery. The urban environment is enhanced by the reflections of colorful lights, creating a dramatic and atmospheric setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather jacket",
+          "leather pants",
+          "neon lights"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "mystery"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime"
+        ],
+        "concepts": [
+          "urban",
+          "cinematic",
+          "moody"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: neon lights, leather outfit, leather jacket, leather pants. Actions: standing. Emotions: determination, confidence, mystery. Scenes: urban, night, city street, nighttime. Concepts: solitude, confidence, urban, cinematic, moody",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "neon lights",
+      "leather outfit",
+      "leather jacket",
+      "leather pants"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "confidence",
+      "mystery"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "city street",
+      "nighttime"
+    ],
+    "concepts": [
+      "solitude",
+      "confidence",
+      "urban",
+      "cinematic",
+      "moody"
+    ]
+  },
+  "metadata": {}
+}

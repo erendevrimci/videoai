@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yantek pln.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yantek pln.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Yantek pln/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A utility worker is performing maintenance on a power line while standing on a utility pole. The worker is wearing safety gear, including a hard hat and harness, against a backdrop of a clear blue sky.",
+      "description": "The scene depicts a utility worker engaged in maintenance work on a power line, high above the ground. The setting is outdoors, likely in a rural or suburban area, with a clear sky and scattered clouds.",
+      "labels": {
+        "people": [
+          "utility worker"
+        ],
+        "objects": [
+          "utility pole",
+          "power lines",
+          "hard hat",
+          "safety harness",
+          "truck",
+          "traffic cone"
+        ],
+        "actions": [
+          "maintenance",
+          "working"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "outdoor",
+          "daytime"
+        ],
+        "concepts": [
+          "safety",
+          "electricity maintenance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yantek pln.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Yantek pln/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A utility worker wearing safety gear is repairing electrical lines atop a utility pole. The worker is focused on the task, surrounded by a clear blue sky and a few clouds. Below, a service vehicle and traffic cone indicate an active work zone.",
+      "description": "The scene depicts a utility worker performing maintenance on electrical lines. The setting is outdoors, likely alongside a road, with clear weather conditions.",
+      "labels": {
+        "people": [
+          "utility worker"
+        ],
+        "objects": [
+          "utility pole",
+          "electrical lines",
+          "safety gear",
+          "service vehicle",
+          "traffic cone"
+        ],
+        "actions": [
+          "repairing",
+          "working"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "outdoor",
+          "work zone"
+        ],
+        "concepts": [
+          "maintenance",
+          "safety",
+          "electricity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Yantek pln.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Yantek pln/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A utility worker wearing safety gear is standing on a power pole, performing maintenance work on electrical lines. The worker is equipped with a safety harness and helmet, ensuring secure handling of the task. The scene is set against a clear blue sky, with a few clouds visible.",
+      "description": "The image depicts a utility worker engaged in electrical maintenance on a power pole. The setting is outdoors, likely along a road or highway, with utility vehicles and traffic cones visible below.",
+      "labels": {
+        "people": [
+          "utility worker"
+        ],
+        "objects": [
+          "power pole",
+          "electrical lines",
+          "safety harness",
+          "helmet",
+          "utility vehicle",
+          "traffic cone"
+        ],
+        "actions": [
+          "maintenance",
+          "working"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "outdoor",
+          "industrial"
+        ],
+        "concepts": [
+          "safety",
+          "electricity",
+          "infrastructure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: utility worker. Objects: traffic cone, utility pole, safety harness, electrical lines, power lines. Actions: working, maintenance, repairing. Emotions: focused, focus. Scenes: outdoor, daytime, work zone, industrial. Concepts: safety, electricity, electricity maintenance, maintenance, infrastructure",
+  "primary_labels": {
+    "people": [
+      "utility worker"
+    ],
+    "objects": [
+      "traffic cone",
+      "utility pole",
+      "safety harness",
+      "electrical lines",
+      "power lines"
+    ],
+    "actions": [
+      "working",
+      "maintenance",
+      "repairing"
+    ],
+    "emotions": [
+      "focused",
+      "focus"
+    ],
+    "scenes": [
+      "outdoor",
+      "daytime",
+      "work zone",
+      "industrial"
+    ],
+    "concepts": [
+      "safety",
+      "electricity",
+      "electricity maintenance",
+      "maintenance",
+      "infrastructure"
+    ]
+  },
+  "metadata": {}
+}

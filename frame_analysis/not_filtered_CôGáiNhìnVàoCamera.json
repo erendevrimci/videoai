@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is seated in a warmly lit bar, holding a glass of beer with a gentle smile. The background is softly blurred, highlighting the warm, ambient glow of the bar's lighting.",
+      "description": "The scene takes place in a cozy bar setting, where a woman is enjoying a drink. The atmosphere is intimate and inviting, with warm lighting creating a relaxed ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass",
+          "beer"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "bar",
+          "indoor"
+        ],
+        "concepts": [
+          "relaxation",
+          "socializing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is sitting in a warmly lit bar, holding a glass of beer and smiling at the camera. The background is softly blurred, showcasing shelves filled with bottles and warm lighting.",
+      "description": "The scene takes place in a cozy bar setting with a warm and inviting atmosphere. The woman appears relaxed and happy, enjoying her drink in a social environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass",
+          "beer",
+          "bottles",
+          "shelves"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "relaxation"
+        ],
+        "scenes": [
+          "bar",
+          "social setting"
+        ],
+        "concepts": [
+          "leisure",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/C\u00f4G\u00e1iNh\u00ecnV\u00e0oCamera/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is sipping a drink from a glass, set against a warmly lit background. The soft lighting creates a cozy and intimate atmosphere, highlighting her relaxed demeanor.",
+      "description": "The scene takes place in a dimly lit bar or lounge, where a woman is enjoying a drink. The background is filled with warm, ambient lighting, possibly from decorative lights or illuminated shelves.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glass",
+          "drink"
+        ],
+        "actions": [
+          "sipping"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "bar",
+          "lounge"
+        ],
+        "concepts": [
+          "intimacy",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: glass, beer, bottles, shelves, drink. Actions: holding, smiling, sipping. Emotions: contentment, happiness, relaxation, relaxed. Scenes: bar, indoor, social setting, lounge. Concepts: relaxation, socializing, leisure, warmth, intimacy",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "glass",
+      "beer",
+      "bottles",
+      "shelves",
+      "drink"
+    ],
+    "actions": [
+      "holding",
+      "smiling",
+      "sipping"
+    ],
+    "emotions": [
+      "contentment",
+      "happiness",
+      "relaxation",
+      "relaxed"
+    ],
+    "scenes": [
+      "bar",
+      "indoor",
+      "social setting",
+      "lounge"
+    ],
+    "concepts": [
+      "relaxation",
+      "socializing",
+      "leisure",
+      "warmth",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

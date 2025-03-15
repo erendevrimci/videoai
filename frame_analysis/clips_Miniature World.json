@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature World.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature World/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large bottle of shampoo is placed prominently in a lush, green terraced landscape. Miniature people are scattered around, engaging in various activities, with traditional huts in the background.",
+      "description": "The scene depicts a surreal blend of a natural terraced landscape with a giant shampoo bottle as the focal point. Miniature figures are seen interacting with the environment, suggesting a whimsical and imaginative setting.",
+      "labels": {
+        "objects": [
+          "shampoo bottle",
+          "huts"
+        ],
+        "people": [
+          "miniature figures"
+        ],
+        "nature": [
+          "terraced landscape",
+          "greenery"
+        ],
+        "actions": [
+          "walking",
+          "gathering"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "advertisement",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniature World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniature World/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large green bottle of product is prominently displayed in the foreground, surrounded by miniature people walking through lush, terraced fields. In the background, traditional huts are scattered across the verdant landscape, with mountains rising in the distance.",
+      "description": "The scene depicts a surreal blend of a large product bottle set against a picturesque rural landscape. The setting is a terraced field with small figures of people engaged in various activities, and traditional huts are visible in the background, suggesting a rural village environment.",
+      "labels": {
+        "objects": [
+          "bottle",
+          "huts"
+        ],
+        "people": [
+          "miniature figures"
+        ],
+        "nature": [
+          "terraced fields",
+          "mountains"
+        ],
+        "actions": [
+          "walking",
+          "gathering"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "rural landscape",
+          "agricultural setting"
+        ],
+        "concepts": [
+          "advertisement",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: huts, shampoo bottle, bottle. People: miniature figures. Nature: terraced landscape, greenery, terraced fields, mountains. Actions: walking, gathering. Emotions: whimsical, serene. Scenes: fantasy, nature, rural landscape, agricultural setting. Concepts: advertisement, surreal, surrealism",
+  "primary_labels": {
+    "objects": [
+      "huts",
+      "shampoo bottle",
+      "bottle"
+    ],
+    "people": [
+      "miniature figures"
+    ],
+    "nature": [
+      "terraced landscape",
+      "greenery",
+      "terraced fields",
+      "mountains"
+    ],
+    "actions": [
+      "walking",
+      "gathering"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "rural landscape",
+      "agricultural setting"
+    ],
+    "concepts": [
+      "advertisement",
+      "surreal",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

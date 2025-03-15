@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noubian Queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noubian Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Noubian Queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striking portrait of a woman adorned in elaborate, ancient Egyptian-inspired jewelry and attire. Her expression is confident and regal, set against a backdrop of warm, glowing lights that enhance the mystical atmosphere.",
+      "description": "The scene captures a woman dressed in ornate, gold jewelry reminiscent of ancient Egyptian royalty. The setting is dramatic, with warm lighting and intricate patterns that suggest a historical or mythical context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jewelry",
+          "headpiece",
+          "earrings",
+          "necklace"
+        ],
+        "emotions": [
+          "confident",
+          "regal"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "ancient Egyptian",
+          "royalty",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noubian Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Noubian Queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in elaborate, ancient Egyptian-inspired attire stands in a dimly lit room with intricate golden patterns on the walls. She extends her hand forward, as if gesturing or casting a spell, with a confident and commanding expression.",
+      "description": "The scene depicts a mystical and regal setting, reminiscent of ancient Egyptian themes. The woman, adorned with gold jewelry and a headdress, is the focal point, suggesting a sense of power and authority.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jewelry",
+          "headdress",
+          "golden patterns"
+        ],
+        "actions": [
+          "gesturing"
+        ],
+        "emotions": [
+          "confidence",
+          "commanding"
+        ],
+        "scenes": [
+          "mystical",
+          "regal"
+        ],
+        "concepts": [
+          "ancient Egyptian",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Noubian Queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Noubian Queen/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently in an ornate setting, adorned with intricate gold jewelry and a regal headdress. The warm glow of ambient lighting highlights the detailed patterns on the walls behind her.",
+      "description": "The scene depicts a woman in a luxurious, possibly ancient or fantasy setting, characterized by elaborate gold accents and a mystical atmosphere. The background features intricate designs illuminated by a soft, golden light, suggesting a setting of historical or cultural significance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jewelry",
+          "headdress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "ornate setting",
+          "mystical atmosphere"
+        ],
+        "concepts": [
+          "luxury",
+          "regality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: jewelry, headdress, headpiece, earrings, necklace. Emotions: confidence, confident, regal, commanding. Scenes: portrait, mystical, regal, ornate setting, mystical atmosphere. Concepts: ancient Egyptian, royalty, mystical, power, luxury. Actions: gesturing, standing",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "jewelry",
+      "headdress",
+      "headpiece",
+      "earrings",
+      "necklace"
+    ],
+    "emotions": [
+      "confidence",
+      "confident",
+      "regal",
+      "commanding"
+    ],
+    "scenes": [
+      "portrait",
+      "mystical",
+      "regal",
+      "ornate setting",
+      "mystical atmosphere"
+    ],
+    "concepts": [
+      "ancient Egyptian",
+      "royalty",
+      "mystical",
+      "power",
+      "luxury"
+    ],
+    "actions": [
+      "gesturing",
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

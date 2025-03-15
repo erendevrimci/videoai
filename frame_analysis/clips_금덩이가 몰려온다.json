@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uae08\ub369\uc774\uac00 \ubab0\ub824\uc628\ub2e4.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uae08\ub369\uc774\uac00 \ubab0\ub824\uc628\ub2e4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uae08\ub369\uc774\uac00 \ubab0\ub824\uc628\ub2e4/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large truck has tipped over on a highway, spilling numerous gold bars onto the road. Several people stand nearby, observing the unexpected scene as cars are halted by the obstruction. The city skyline looms in the background under a dramatic sky.",
+      "description": "The scene is set on a highway near a city, where a truck has overturned, causing gold bars to spill onto the road. People and vehicles are stopped, creating a moment of chaos and curiosity.",
+      "labels": {
+        "people": [
+          "bystanders",
+          "observers"
+        ],
+        "objects": [
+          "truck",
+          "gold bars",
+          "cars"
+        ],
+        "actions": [
+          "spilling",
+          "observing"
+        ],
+        "emotions": [
+          "surprise",
+          "curiosity"
+        ],
+        "scenes": [
+          "urban",
+          "highway"
+        ],
+        "concepts": [
+          "accident",
+          "unexpected event"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uae08\ub369\uc774\uac00 \ubab0\ub824\uc628\ub2e4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uae08\ub369\uc774\uac00 \ubab0\ub824\uc628\ub2e4/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large truck is tilted on a highway, spilling numerous gold bars onto the road. Several people stand nearby, observing the scene with curiosity and surprise. The city skyline is visible in the background under a dramatic sky.",
+      "description": "The scene takes place on a highway near a city, where a truck has spilled a load of gold bars. Bystanders and vehicles are present, creating a sense of unexpected chaos and intrigue.",
+      "labels": {
+        "people": [
+          "bystanders"
+        ],
+        "objects": [
+          "truck",
+          "gold bars",
+          "cars"
+        ],
+        "actions": [
+          "spilling",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity",
+          "surprise"
+        ],
+        "scenes": [
+          "highway",
+          "cityscape"
+        ],
+        "concepts": [
+          "accident",
+          "unexpected event"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: bystanders, observers. Objects: truck, gold bars, cars. Actions: spilling, observing. Emotions: surprise, curiosity. Scenes: highway, urban, cityscape. Concepts: accident, unexpected event",
+  "primary_labels": {
+    "people": [
+      "bystanders",
+      "observers"
+    ],
+    "objects": [
+      "truck",
+      "gold bars",
+      "cars"
+    ],
+    "actions": [
+      "spilling",
+      "observing"
+    ],
+    "emotions": [
+      "surprise",
+      "curiosity"
+    ],
+    "scenes": [
+      "highway",
+      "urban",
+      "cityscape"
+    ],
+    "concepts": [
+      "accident",
+      "unexpected event"
+    ]
+  },
+  "metadata": {}
+}

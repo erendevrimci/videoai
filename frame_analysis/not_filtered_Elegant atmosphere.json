@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegant atmosphere.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegant atmosphere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elegant atmosphere/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a cream-colored suit walks confidently through a traditional setting, with cherry blossoms in the foreground. The backdrop features a building with a tiled roof, suggesting a serene and culturally rich environment.",
+      "description": "The scene captures a woman walking in a traditional setting, likely a historical or cultural site. The presence of cherry blossoms and a building with a tiled roof adds to the tranquil and elegant atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "cherry blossoms"
+        ],
+        "objects": [
+          "suit",
+          "tiled roof"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "traditional setting",
+          "cultural site"
+        ],
+        "concepts": [
+          "elegance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elegant atmosphere.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elegant atmosphere/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a cream-colored suit walks confidently through a serene garden setting. Cherry blossoms frame the scene, with traditional architecture visible in the background.",
+      "description": "The scene is set in a tranquil garden with blooming cherry blossoms and traditional East Asian architecture. A woman is walking forward, exuding confidence and elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "cherry blossoms",
+          "trees"
+        ],
+        "objects": [
+          "suit",
+          "traditional building"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "garden",
+          "traditional architecture"
+        ],
+        "concepts": [
+          "elegance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: cherry blossoms, trees. Objects: suit, tiled roof, traditional building. Actions: walking. Emotions: confidence. Scenes: traditional setting, cultural site, garden, traditional architecture. Concepts: elegance, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "cherry blossoms",
+      "trees"
+    ],
+    "objects": [
+      "suit",
+      "tiled roof",
+      "traditional building"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "traditional setting",
+      "cultural site",
+      "garden",
+      "traditional architecture"
+    ],
+    "concepts": [
+      "elegance",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

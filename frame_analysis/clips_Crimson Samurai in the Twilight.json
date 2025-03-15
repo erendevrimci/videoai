@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crimson Samurai in the Twilight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crimson Samurai in the Twilight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crimson Samurai in the Twilight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A figure clad in red armor rides a white horse through a dense, dark forest. The rider's attire is ornate, featuring a helmet with decorative elements, suggesting a warrior or knight. The forest is enveloped in a misty, blue ambiance, adding a mystical atmosphere to the scene.",
+      "description": "The scene depicts a lone rider on horseback navigating through a shadowy forest. The setting is serene yet mysterious, with towering trees and a misty blue hue creating an ethereal backdrop.",
+      "labels": {
+        "people": [
+          "rider",
+          "warrior"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "forest path",
+          "medieval"
+        ],
+        "concepts": [
+          "adventure",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Crimson Samurai in the Twilight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Crimson Samurai in the Twilight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure clad in red armor rides a white horse through a misty forest. The rider's helmet is adorned with intricate designs, adding to the mysterious atmosphere. The forest is dimly lit, with a blue hue creating an ethereal setting.",
+      "description": "The scene is set in a dense, misty forest with a mysterious and medieval atmosphere. A person in red armor is riding a white horse, moving through the forest with purpose.",
+      "labels": {
+        "people": [
+          "rider"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "mist"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "medieval",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: rider, warrior. Animals: horse. Nature: forest, trees, mist. Objects: armor, helmet. Actions: riding. Emotions: mystical, serene, mysterious. Scenes: forest path, medieval, forest. Concepts: adventure, solitude, medieval, mystery",
+  "primary_labels": {
+    "people": [
+      "rider",
+      "warrior"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "mist"
+    ],
+    "objects": [
+      "armor",
+      "helmet"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "mystical",
+      "serene",
+      "mysterious"
+    ],
+    "scenes": [
+      "forest path",
+      "medieval",
+      "forest"
+    ],
+    "concepts": [
+      "adventure",
+      "solitude",
+      "medieval",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

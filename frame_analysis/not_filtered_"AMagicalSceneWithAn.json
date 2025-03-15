@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AMagicalSceneWithAn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AMagicalSceneWithAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AMagicalSceneWithAn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene figure with angelic wings sits gracefully on a stone platform, enveloped in a flowing white gown. The soft, ethereal lighting enhances the tranquil atmosphere, with clouds of mist surrounding the scene.",
+      "description": "The scene depicts a peaceful and mystical setting, where a person with angel wings is seated on a stone block. The environment is dreamlike, with mist adding to the ethereal quality.",
+      "labels": {
+        "people": [
+          "angel"
+        ],
+        "objects": [
+          "wings",
+          "gown",
+          "stone platform"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "mystical",
+          "ethereal"
+        ],
+        "concepts": [
+          "angelic",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AMagicalSceneWithAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AMagicalSceneWithAn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene figure with angelic wings sits gracefully on a stone block. The person is dressed in a flowing white gown, exuding an ethereal presence against a dark background.",
+      "description": "The scene depicts a person with large, white feathered wings, embodying an angelic figure. The setting is minimalistic, focusing on the subject's serene and peaceful demeanor.",
+      "labels": {
+        "people": [
+          "angelic figure"
+        ],
+        "objects": [
+          "wings",
+          "gown",
+          "stone block"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "peacefulness"
+        ],
+        "scenes": [
+          "ethereal",
+          "minimalistic"
+        ],
+        "concepts": [
+          "angel",
+          "grace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"AMagicalSceneWithAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"AMagicalSceneWithAn/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A serene woman dressed in an elegant white gown sits gracefully, adorned with large, feathered wings. Her gentle expression and poised posture evoke a sense of calm and ethereal beauty.",
+      "description": "The scene depicts a woman with angelic wings sitting in a tranquil setting. The focus is on her serene demeanor and the elegance of her attire, creating a celestial atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "wings",
+          "jewelry"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "ethereal",
+          "celestial"
+        ],
+        "concepts": [
+          "angelic",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: angel, angelic figure, woman. Objects: wings, gown, stone platform, stone block, jewelry. Actions: sitting. Emotions: serenity, peacefulness, calm. Scenes: ethereal, mystical, minimalistic, celestial. Concepts: angelic, tranquility, angel, grace, beauty",
+  "primary_labels": {
+    "people": [
+      "angel",
+      "angelic figure",
+      "woman"
+    ],
+    "objects": [
+      "wings",
+      "gown",
+      "stone platform",
+      "stone block",
+      "jewelry"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "serenity",
+      "peacefulness",
+      "calm"
+    ],
+    "scenes": [
+      "ethereal",
+      "mystical",
+      "minimalistic",
+      "celestial"
+    ],
+    "concepts": [
+      "angelic",
+      "tranquility",
+      "angel",
+      "grace",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

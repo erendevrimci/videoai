@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/spicy noodles.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/spicy noodles.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/spicy noodles/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman is enthusiastically eating a large plate of spicy noodles. Her hands are covered in sauce as she takes a big bite, showcasing the vibrant red color of the dish. The scene captures the intensity and enjoyment of indulging in a flavorful meal.",
+      "description": "The scene is set indoors, focusing on a woman enjoying a meal of spicy noodles. The emphasis is on the act of eating and the vibrant colors of the food, creating a lively and dynamic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "noodles",
+          "plate",
+          "sauce"
+        ],
+        "actions": [
+          "eating",
+          "holding"
+        ],
+        "emotions": [
+          "enthusiasm"
+        ],
+        "scenes": [
+          "indoor",
+          "meal"
+        ],
+        "concepts": [
+          "food enjoyment",
+          "spicy food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/spicy noodles.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/spicy noodles/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is enthusiastically eating a bowl of spicy noodles, with sauce visibly dripping from the noodles and lips. The scene captures the intensity of the meal, highlighting the vibrant red color of the sauce.",
+      "description": "The scene depicts a close-up of a person consuming a bowl of spicy noodles. The focus is on the act of eating, with the red sauce adding a dynamic visual element.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bowl",
+          "noodles",
+          "sauce"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "spicy food",
+          "meal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: noodles, sauce, plate, bowl. Actions: eating, holding. Emotions: enthusiasm, intensity. Scenes: indoor, meal, close-up. Concepts: spicy food, food enjoyment, meal",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "noodles",
+      "sauce",
+      "plate",
+      "bowl"
+    ],
+    "actions": [
+      "eating",
+      "holding"
+    ],
+    "emotions": [
+      "enthusiasm",
+      "intensity"
+    ],
+    "scenes": [
+      "indoor",
+      "meal",
+      "close-up"
+    ],
+    "concepts": [
+      "spicy food",
+      "food enjoyment",
+      "meal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanWithLight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanWithLight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWomanWithLight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with curly blonde hair is holding a small white lamb in her arms. She is wearing a brown coat, and the background is blurred with autumn colors, suggesting a park setting.",
+      "description": "The scene captures a serene moment in an outdoor setting, likely a park during autumn. The woman is gently holding a lamb, creating a peaceful and nurturing atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "lamb"
+        ],
+        "nature": [
+          "trees",
+          "autumn leaves"
+        ],
+        "objects": [
+          "coat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "outdoor",
+          "park"
+        ],
+        "concepts": [
+          "serenity",
+          "nurture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AYoungWomanWithLight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AYoungWomanWithLight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with curly blonde hair is standing outdoors, holding a small lamb in her arms. She is wearing a brown coat, and the background suggests an autumn setting with blurred trees and buildings.",
+      "description": "The scene depicts a serene outdoor setting in autumn, with a woman gently holding a lamb. The background is softly blurred, highlighting the woman and the lamb as the main focus.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "lamb"
+        ],
+        "nature": [
+          "trees",
+          "autumn"
+        ],
+        "objects": [
+          "coat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "care",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: lamb. Nature: trees, autumn leaves, autumn. Objects: coat. Actions: holding. Emotions: calm, content, serenity. Scenes: outdoor, park. Concepts: serenity, nurture, care, gentleness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "lamb"
+    ],
+    "nature": [
+      "trees",
+      "autumn leaves",
+      "autumn"
+    ],
+    "objects": [
+      "coat"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "content",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "park"
+    ],
+    "concepts": [
+      "serenity",
+      "nurture",
+      "care",
+      "gentleness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Moises.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Moises.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Moises/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with a long beard stands confidently in the center of a parted sea, holding a wooden staff. The towering walls of water on either side create a dramatic and awe-inspiring scene, illuminated by beams of light from above.",
+      "description": "The scene depicts a powerful and mythical moment where a man stands amidst a miraculously parted sea. The setting is otherworldly, with towering waves held at bay, suggesting a moment of divine intervention or magic.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "nature": [
+          "sea",
+          "waves"
+        ],
+        "objects": [
+          "staff"
+        ],
+        "actions": [
+          "standing",
+          "parting sea"
+        ],
+        "emotions": [
+          "confidence",
+          "awe"
+        ],
+        "scenes": [
+          "mythical",
+          "dramatic"
+        ],
+        "concepts": [
+          "divine intervention",
+          "miracle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Moises.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Moises/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A figure stands with a staff in hand, surrounded by towering walls of parted water. Sunlight streams down dramatically, illuminating the scene with a divine glow.",
+      "description": "The scene depicts a dramatic and iconic moment of a person standing amidst parted waters, suggesting a miraculous event. The atmosphere is one of awe and reverence, enhanced by the powerful natural elements and the striking lighting.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "water",
+          "waves"
+        ],
+        "objects": [
+          "staff"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "awe",
+          "reverence"
+        ],
+        "scenes": [
+          "miraculous event"
+        ],
+        "concepts": [
+          "divine intervention",
+          "biblical scene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Moises.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Moises/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "An elderly man with a long beard stands confidently, holding a wooden staff, as towering walls of water rise dramatically on either side. Sunlight streams down from above, casting a divine glow around him, emphasizing the miraculous scene.",
+      "description": "The scene depicts a biblical moment, likely inspired by the story of the parting of the Red Sea. The setting is a dramatic and supernatural landscape with walls of water creating a path through the sea.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "sea",
+          "water",
+          "sunlight"
+        ],
+        "objects": [
+          "staff"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "awe"
+        ],
+        "scenes": [
+          "biblical",
+          "miraculous"
+        ],
+        "concepts": [
+          "divine intervention",
+          "miracle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man, figure, man. Nature: sea, waves, water, sunlight. Objects: staff. Actions: standing, parting sea. Emotions: awe, confidence, reverence. Scenes: mythical, dramatic, miraculous event, biblical, miraculous. Concepts: divine intervention, miracle, biblical scene",
+  "primary_labels": {
+    "people": [
+      "elderly man",
+      "figure",
+      "man"
+    ],
+    "nature": [
+      "sea",
+      "waves",
+      "water",
+      "sunlight"
+    ],
+    "objects": [
+      "staff"
+    ],
+    "actions": [
+      "standing",
+      "parting sea"
+    ],
+    "emotions": [
+      "awe",
+      "confidence",
+      "reverence"
+    ],
+    "scenes": [
+      "mythical",
+      "dramatic",
+      "miraculous event",
+      "biblical",
+      "miraculous"
+    ],
+    "concepts": [
+      "divine intervention",
+      "miracle",
+      "biblical scene"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Indian Woman Diwali.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Indian Woman Diwali.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Indian Woman Diwali/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in an ornate red traditional outfit sits gracefully amidst a setting adorned with candles and flower petals. Her attire is complemented by intricate jewelry, and she exudes a serene and poised demeanor. The warm glow of the candles enhances the rich colors of her attire, creating an intimate and elegant atmosphere.",
+      "description": "The scene is set in an elegant, possibly ceremonial environment, with a focus on traditional attire and decor. The presence of candles and flower petals suggests a festive or spiritual occasion.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "candles",
+          "flower petals",
+          "traditional outfit",
+          "jewelry"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "poised"
+        ],
+        "scenes": [
+          "ceremonial",
+          "festive"
+        ],
+        "concepts": [
+          "tradition",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Indian Woman Diwali.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Indian Woman Diwali/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in an ornate red traditional outfit sits gracefully, adorned with intricate jewelry. The warm glow of candlelight surrounds her, creating an intimate and serene atmosphere.",
+      "description": "The scene depicts a woman in traditional attire, sitting in a softly lit environment, likely during a cultural or ceremonial occasion. The setting is elegant and tranquil, with a focus on her elaborate jewelry and attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "traditional outfit",
+          "jewelry",
+          "candles"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "scenes": [
+          "ceremonial",
+          "cultural"
+        ],
+        "concepts": [
+          "tradition",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: candles, traditional outfit, jewelry, flower petals. Actions: sitting. Emotions: serene, poised, elegant. Scenes: ceremonial, festive, cultural. Concepts: tradition, elegance, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "candles",
+      "traditional outfit",
+      "jewelry",
+      "flower petals"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "serene",
+      "poised",
+      "elegant"
+    ],
+    "scenes": [
+      "ceremonial",
+      "festive",
+      "cultural"
+    ],
+    "concepts": [
+      "tradition",
+      "elegance",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

@@ -77,7 +77,7 @@ Generate only the extremely clickbait-style title in the style of the examples a
         print(traceback.format_exc())
         return "ERROR: Failed to generate title"
 
-def generate_desc(script: str, channel_name: str = "All About AI", channel_url: str = "https://www.youtube.com/@AllAboutAI") -> str:
+def generate_desc(script: str, channel_name: str = "WTFLOW", channel_url: str = "https://www.youtube.com/@w_t_flow") -> str:
     """
     Generate an SEO-optimized description for a YouTube video.
     

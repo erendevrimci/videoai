@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dream.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dream.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dream/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek black SUV is parked in the middle of a deserted urban street, flanked by tall brick buildings. The vehicle's glossy finish reflects the soft ambient light of the early evening.",
+      "description": "The scene captures a black SUV prominently positioned on an empty street lined with red brick buildings, suggesting an urban setting. The lighting is soft, indicating either early morning or late afternoon.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "buildings",
+          "street"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "luxury",
+          "automobile"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dream.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dream/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek black SUV is parked on a quiet urban street lined with red brick buildings. The vehicle's polished exterior contrasts with the rustic architecture, creating a striking visual scene.",
+      "description": "The scene captures a black SUV parked on a city street, surrounded by tall red brick buildings. The setting is urban, likely in a historical or industrial area, with a calm and composed atmosphere.",
+      "labels": {
+        "objects": [
+          "SUV",
+          "buildings",
+          "street"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "contrast",
+          "urban architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: SUV, buildings, street. Scenes: urban, street. Concepts: luxury, automobile, contrast, urban architecture. Emotions: calm, serene",
+  "primary_labels": {
+    "objects": [
+      "SUV",
+      "buildings",
+      "street"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "luxury",
+      "automobile",
+      "contrast",
+      "urban architecture"
+    ],
+    "emotions": [
+      "calm",
+      "serene"
+    ]
+  },
+  "metadata": {}
+}

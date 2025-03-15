@@ -1,0 +1,131 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMagicalSceneOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMagicalSceneOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMagicalSceneOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby dressed in a cozy white snowsuit sits in a snowy landscape, joyfully interacting with a plush toy reindeer. The scene is illuminated by soft, warm lights and a large full moon in the background, creating a magical winter atmosphere.",
+      "description": "The scene depicts a serene winter setting, with a baby and a toy reindeer in a snowy environment under a glowing full moon. The atmosphere is enchanting and joyful, enhanced by the soft lighting and snowflakes.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "reindeer toy"
+        ],
+        "nature": [
+          "snow",
+          "moon"
+        ],
+        "objects": [
+          "snowsuit",
+          "plush toy"
+        ],
+        "actions": [
+          "sitting",
+          "interacting"
+        ],
+        "emotions": [
+          "joy",
+          "wonder"
+        ],
+        "scenes": [
+          "winter",
+          "night"
+        ],
+        "concepts": [
+          "innocence",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMagicalSceneOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMagicalSceneOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child dressed in a cozy white snowsuit and hat is sitting in the snow, hugging a plush toy deer. The scene is set against a dreamy winter backdrop with a large, glowing moon and softly falling snowflakes.",
+      "description": "The image captures a serene winter scene where a child is joyfully embracing a stuffed deer toy amidst a snowy landscape. The full moon casts a gentle glow, enhancing the magical atmosphere.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "deer toy"
+        ],
+        "nature": [
+          "snow",
+          "moon",
+          "snowflakes"
+        ],
+        "objects": [
+          "snowsuit",
+          "hat"
+        ],
+        "actions": [
+          "hugging"
+        ],
+        "emotions": [
+          "joy",
+          "warmth"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "innocence",
+          "playfulness",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby, child. Animals: reindeer toy, deer toy. Nature: snow, moon, snowflakes. Objects: snowsuit, plush toy, hat. Actions: sitting, interacting, hugging. Emotions: joy, wonder, warmth. Scenes: winter, night, outdoor. Concepts: innocence, magic, playfulness, serenity",
+  "primary_labels": {
+    "people": [
+      "baby",
+      "child"
+    ],
+    "animals": [
+      "reindeer toy",
+      "deer toy"
+    ],
+    "nature": [
+      "snow",
+      "moon",
+      "snowflakes"
+    ],
+    "objects": [
+      "snowsuit",
+      "plush toy",
+      "hat"
+    ],
+    "actions": [
+      "sitting",
+      "interacting",
+      "hugging"
+    ],
+    "emotions": [
+      "joy",
+      "wonder",
+      "warmth"
+    ],
+    "scenes": [
+      "winter",
+      "night",
+      "outdoor"
+    ],
+    "concepts": [
+      "innocence",
+      "magic",
+      "playfulness",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

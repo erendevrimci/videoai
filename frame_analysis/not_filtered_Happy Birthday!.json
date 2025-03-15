@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Birthday!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Birthday!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Birthday!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man is depicted in a formal portrait, wearing a dark brown fedora and a matching overcoat. He gazes directly at the camera with a calm and composed expression, set against a softly blurred background.",
+      "description": "The scene is a classic portrait photograph, likely taken in a studio setting. The focus is on the man, who is dressed in formal attire, suggesting an early to mid-20th-century style.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "fedora",
+          "overcoat",
+          "bow tie"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "formal attire",
+          "vintage style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Happy Birthday!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Happy Birthday!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a vintage-style outfit smiles warmly while holding a red rose towards the camera. He wears a brown fedora and a matching bow tie, exuding a classic and charming demeanor.",
+      "description": "The scene captures a portrait of a man dressed in vintage attire, set against a soft, neutral background. The focus is on his friendly expression and the vibrant red rose he holds, suggesting a gesture of affection or romance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "rose",
+          "fedora",
+          "bow tie",
+          "coat"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "warmth",
+          "charm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "vintage",
+          "romance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: fedora, bow tie, overcoat, rose, coat. Emotions: calm, composed, warmth, charm. Scenes: portrait, studio. Concepts: formal attire, vintage style, vintage, romance. Actions: smiling, holding",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "fedora",
+      "bow tie",
+      "overcoat",
+      "rose",
+      "coat"
+    ],
+    "emotions": [
+      "calm",
+      "composed",
+      "warmth",
+      "charm"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "formal attire",
+      "vintage style",
+      "vintage",
+      "romance"
+    ],
+    "actions": [
+      "smiling",
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

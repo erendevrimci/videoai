@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sava\u015f\u00e7\u0131.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sava\u015f\u00e7\u0131.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sava\u015f\u00e7\u0131/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gladiator stands triumphantly in the center of an ancient arena, holding a helmet aloft. The crowd in the background is cheering, filling the multi-tiered stands with excitement. The gladiator's armor and red cape are prominently displayed, highlighting his victory.",
+      "description": "The scene is set in an ancient Roman arena, likely during a gladiatorial event. The central figure is a victorious gladiator, celebrated by a large, enthusiastic crowd.",
+      "labels": {
+        "people": [
+          "gladiator",
+          "crowd"
+        ],
+        "objects": [
+          "helmet",
+          "armor",
+          "cape"
+        ],
+        "actions": [
+          "holding",
+          "cheering"
+        ],
+        "emotions": [
+          "triumph",
+          "excitement"
+        ],
+        "scenes": [
+          "arena",
+          "gladiatorial event"
+        ],
+        "concepts": [
+          "victory",
+          "ancient Rome"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Sava\u015f\u00e7\u0131.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Sava\u015f\u00e7\u0131/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A triumphant warrior stands in a grand arena, raising a helmet high above his head. He is clad in ornate armor with a red cape, surrounded by a cheering crowd.",
+      "description": "The scene is set in an ancient coliseum filled with spectators, capturing a moment of victory and celebration. The central figure, a warrior, is the focal point, exuding strength and pride.",
+      "labels": {
+        "people": [
+          "warrior",
+          "crowd"
+        ],
+        "objects": [
+          "helmet",
+          "armor",
+          "cape"
+        ],
+        "actions": [
+          "raising",
+          "cheering"
+        ],
+        "emotions": [
+          "triumph",
+          "celebration"
+        ],
+        "scenes": [
+          "arena",
+          "coliseum"
+        ],
+        "concepts": [
+          "victory",
+          "ancient"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, gladiator, warrior. Objects: helmet, armor, cape. Actions: cheering, holding, raising. Emotions: triumph, excitement, celebration. Scenes: arena, gladiatorial event, coliseum. Concepts: victory, ancient Rome, ancient",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "gladiator",
+      "warrior"
+    ],
+    "objects": [
+      "helmet",
+      "armor",
+      "cape"
+    ],
+    "actions": [
+      "cheering",
+      "holding",
+      "raising"
+    ],
+    "emotions": [
+      "triumph",
+      "excitement",
+      "celebration"
+    ],
+    "scenes": [
+      "arena",
+      "gladiatorial event",
+      "coliseum"
+    ],
+    "concepts": [
+      "victory",
+      "ancient Rome",
+      "ancient"
+    ]
+  },
+  "metadata": {}
+}

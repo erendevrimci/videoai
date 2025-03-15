@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mice - gym.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mice - gym.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute mice - gym/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of adorable mice are engaged in a miniature workout session, with one mouse lifting a tiny dumbbell. The scene is set on a tabletop filled with small glass bottles and other mice observing or participating. The setting is whimsical and playful, with a soft focus and bright lighting enhancing the cute atmosphere.",
+      "description": "The image depicts a charming and imaginative scene where mice are partaking in a fitness routine. The setting appears to be a laboratory or a creative workspace, with various small objects scattered around. The focus is on the central mouse lifting a dumbbell, surrounded by other mice and laboratory paraphernalia.",
+      "labels": {
+        "animals": [
+          "mouse"
+        ],
+        "objects": [
+          "dumbbell",
+          "glass bottles",
+          "book"
+        ],
+        "actions": [
+          "lifting",
+          "observing"
+        ],
+        "emotions": [
+          "playful",
+          "cute"
+        ],
+        "scenes": [
+          "laboratory",
+          "workout"
+        ],
+        "concepts": [
+          "miniature",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute mice - gym.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute mice - gym/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of adorable white mice are engaged in various activities on a laboratory table. One mouse is lifting a tiny dumbbell, while others are curiously exploring their surroundings. The scene is set against a backdrop of laboratory glassware and equipment.",
+      "description": "The scene takes place in a whimsical laboratory setting where mice are anthropomorphized, engaging in human-like activities. The environment is filled with scientific equipment, creating a playful yet scientific atmosphere.",
+      "labels": {
+        "animals": [
+          "mice"
+        ],
+        "objects": [
+          "dumbbell",
+          "laboratory glassware",
+          "book"
+        ],
+        "actions": [
+          "lifting",
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "laboratory"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "science"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mouse, mice. Objects: dumbbell, book, glass bottles, laboratory glassware. Actions: lifting, observing, exploring. Emotions: playful, cute, curiosity, playfulness. Scenes: laboratory, workout. Concepts: miniature, fitness, anthropomorphism, science",
+  "primary_labels": {
+    "animals": [
+      "mouse",
+      "mice"
+    ],
+    "objects": [
+      "dumbbell",
+      "book",
+      "glass bottles",
+      "laboratory glassware"
+    ],
+    "actions": [
+      "lifting",
+      "observing",
+      "exploring"
+    ],
+    "emotions": [
+      "playful",
+      "cute",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "laboratory",
+      "workout"
+    ],
+    "concepts": [
+      "miniature",
+      "fitness",
+      "anthropomorphism",
+      "science"
+    ]
+  },
+  "metadata": {}
+}

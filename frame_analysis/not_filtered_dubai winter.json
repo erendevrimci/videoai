@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/dubai winter.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/dubai winter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/dubai winter/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed as Santa Claus rides a camel adorned with colorful gifts in a snowy landscape. In the background, a tall skyscraper rises against a clear blue sky, with snowflakes gently falling.",
+      "description": "The scene depicts a festive and whimsical setting where a Santa figure is riding a camel in a snowy environment, juxtaposed with a modern cityscape featuring a prominent skyscraper.",
+      "labels": {
+        "people": [
+          "Santa Claus"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "snow",
+          "sky"
+        ],
+        "objects": [
+          "gifts",
+          "skyscraper"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "festive"
+        ],
+        "scenes": [
+          "urban",
+          "winter"
+        ],
+        "concepts": [
+          "holiday",
+          "Christmas"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/dubai winter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/dubai winter/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed as Santa Claus rides a camel through a snowy landscape with a modern skyscraper in the background. The scene is festive, with the camel adorned in colorful decorations and gifts. Snowflakes gently fall, creating a whimsical holiday atmosphere.",
+      "description": "The image depicts a festive scene where a person dressed as Santa Claus is riding a camel in a snowy urban setting. A tall, modern skyscraper looms in the background, adding a unique contrast to the traditional holiday imagery.",
+      "labels": {
+        "people": [
+          "Santa Claus"
+        ],
+        "animals": [
+          "camel"
+        ],
+        "nature": [
+          "snow",
+          "snowflakes"
+        ],
+        "objects": [
+          "gifts",
+          "skyscraper"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "festive"
+        ],
+        "scenes": [
+          "urban",
+          "holiday"
+        ],
+        "concepts": [
+          "Christmas",
+          "winter"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: Santa Claus. Animals: camel. Nature: snow, sky, snowflakes. Objects: gifts, skyscraper. Actions: riding. Emotions: festive. Scenes: urban, winter, holiday. Concepts: Christmas, holiday, winter",
+  "primary_labels": {
+    "people": [
+      "Santa Claus"
+    ],
+    "animals": [
+      "camel"
+    ],
+    "nature": [
+      "snow",
+      "sky",
+      "snowflakes"
+    ],
+    "objects": [
+      "gifts",
+      "skyscraper"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "festive"
+    ],
+    "scenes": [
+      "urban",
+      "winter",
+      "holiday"
+    ],
+    "concepts": [
+      "Christmas",
+      "holiday",
+      "winter"
+    ]
+  },
+  "metadata": {}
+}

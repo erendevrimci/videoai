@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElChicoDeLaDerecha.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElChicoDeLaDerecha.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ElChicoDeLaDerecha/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl and a person with tattoos pose closely together, both looking directly at the camera. The girl wears a playful headband with heart-shaped decorations, while the person beside her sports a cap and has visible tattoos on their neck.",
+      "description": "The scene captures a close-up portrait of two individuals, suggesting a moment of camaraderie or friendship. The setting appears casual and intimate, with both subjects expressing a relaxed demeanor.",
+      "labels": {
+        "people": [
+          "girl",
+          "person with tattoos"
+        ],
+        "objects": [
+          "headband",
+          "cap"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "relaxed",
+          "friendly"
+        ],
+        "scenes": [
+          "portrait",
+          "close-up"
+        ],
+        "concepts": [
+          "friendship",
+          "youth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElChicoDeLaDerecha.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ElChicoDeLaDerecha/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl wearing a playful headband is gently touched on the chin by a person with tattoos and a hat. The interaction appears tender and caring, with both individuals sharing a quiet moment together.",
+      "description": "The scene depicts a close interaction between a young girl and a person with tattoos. The setting is intimate and focused on their connection, with the girl's expression calm and the other person showing a gentle demeanor.",
+      "labels": {
+        "people": [
+          "girl",
+          "person with tattoos"
+        ],
+        "objects": [
+          "headband",
+          "hat"
+        ],
+        "actions": [
+          "touching",
+          "looking"
+        ],
+        "emotions": [
+          "tenderness",
+          "calmness"
+        ],
+        "scenes": [
+          "intimate interaction"
+        ],
+        "concepts": [
+          "care",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ElChicoDeLaDerecha.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ElChicoDeLaDerecha/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl and a person with tattoos share a tender moment, gently touching noses. The scene captures a sense of closeness and affection between the two individuals.",
+      "description": "The image depicts an intimate moment between a young girl and a person with tattoos. They are close together, suggesting a familial or affectionate relationship.",
+      "labels": {
+        "people": [
+          "young girl",
+          "person with tattoos"
+        ],
+        "objects": [
+          "hat",
+          "clothing"
+        ],
+        "actions": [
+          "touching noses"
+        ],
+        "emotions": [
+          "affection",
+          "closeness"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "family",
+          "bonding"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person with tattoos, girl, young girl. Objects: headband, hat, cap, clothing. Actions: posing, touching, looking, touching noses. Emotions: relaxed, friendly, tenderness, calmness, affection. Scenes: portrait, close-up, intimate interaction, intimate moment. Concepts: friendship, youth, care, connection, family",
+  "primary_labels": {
+    "people": [
+      "person with tattoos",
+      "girl",
+      "young girl"
+    ],
+    "objects": [
+      "headband",
+      "hat",
+      "cap",
+      "clothing"
+    ],
+    "actions": [
+      "posing",
+      "touching",
+      "looking",
+      "touching noses"
+    ],
+    "emotions": [
+      "relaxed",
+      "friendly",
+      "tenderness",
+      "calmness",
+      "affection"
+    ],
+    "scenes": [
+      "portrait",
+      "close-up",
+      "intimate interaction",
+      "intimate moment"
+    ],
+    "concepts": [
+      "friendship",
+      "youth",
+      "care",
+      "connection",
+      "family"
+    ]
+  },
+  "metadata": {}
+}

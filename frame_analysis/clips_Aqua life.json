@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aqua life.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aqua life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aqua life/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A luxurious dining room features a large aquarium window showcasing dolphins swimming gracefully. The elegant table is set for a meal, surrounded by chairs, creating a serene underwater dining experience.",
+      "description": "The scene is set in an upscale dining room with a unique view into an underwater world. The main focus is the large aquarium window where dolphins and various fish swim, providing a captivating backdrop for the dining setup.",
+      "labels": {
+        "animals": [
+          "dolphins",
+          "fish"
+        ],
+        "objects": [
+          "dining table",
+          "chairs",
+          "aquarium",
+          "tableware"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "underwater",
+          "dining room"
+        ],
+        "concepts": [
+          "luxury",
+          "aquatic life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aqua life.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aqua life/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A luxurious dining table is set elegantly in front of a large aquarium window, showcasing a vibrant underwater world. Sharks and various fish swim gracefully among colorful coral reefs, creating a mesmerizing backdrop. The scene combines the sophistication of fine dining with the tranquility of marine life.",
+      "description": "The scene is set in a high-end restaurant with a unique aquarium view, offering diners an immersive experience. The table is beautifully arranged with fine dining settings, while the aquarium window reveals a lively underwater ecosystem.",
+      "labels": {
+        "objects": [
+          "dining table",
+          "chairs",
+          "plates",
+          "glasses",
+          "cutlery"
+        ],
+        "animals": [
+          "sharks",
+          "fish"
+        ],
+        "nature": [
+          "coral reefs",
+          "water"
+        ],
+        "actions": [
+          "swimming"
+        ],
+        "emotions": [
+          "tranquility",
+          "awe"
+        ],
+        "scenes": [
+          "restaurant",
+          "aquarium"
+        ],
+        "concepts": [
+          "luxury",
+          "underwater dining"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: fish, dolphins, sharks. Objects: dining table, chairs, aquarium, tableware, plates. Actions: swimming. Emotions: serenity, tranquility, awe. Scenes: underwater, dining room, restaurant, aquarium. Concepts: luxury, aquatic life, underwater dining. Nature: coral reefs, water",
+  "primary_labels": {
+    "animals": [
+      "fish",
+      "dolphins",
+      "sharks"
+    ],
+    "objects": [
+      "dining table",
+      "chairs",
+      "aquarium",
+      "tableware",
+      "plates"
+    ],
+    "actions": [
+      "swimming"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility",
+      "awe"
+    ],
+    "scenes": [
+      "underwater",
+      "dining room",
+      "restaurant",
+      "aquarium"
+    ],
+    "concepts": [
+      "luxury",
+      "aquatic life",
+      "underwater dining"
+    ],
+    "nature": [
+      "coral reefs",
+      "water"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PromptForCreatingAFuturistic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PromptForCreatingAFuturistic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PromptForCreatingAFuturistic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic cityscape features towering skyscrapers illuminated with bright lights against a twilight sky. A wide, tree-lined boulevard stretches towards the city, with vehicles traveling along it, creating a sense of movement and modernity.",
+      "description": "The scene depicts a futuristic urban setting with tall, illuminated skyscrapers and a bustling boulevard. The atmosphere is vibrant and technologically advanced, suggesting a city of the future.",
+      "labels": {
+        "objects": [
+          "skyscrapers",
+          "vehicles",
+          "trees",
+          "streetlights"
+        ],
+        "actions": [
+          "traveling"
+        ],
+        "emotions": [
+          "futuristic",
+          "vibrant"
+        ],
+        "scenes": [
+          "cityscape",
+          "urban"
+        ],
+        "concepts": [
+          "modernity",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PromptForCreatingAFuturistic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PromptForCreatingAFuturistic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a futuristic cityscape with towering skyscrapers and advanced architecture. The scene is illuminated with a bluish glow, highlighting the sleek design of the buildings and the lush greenery interspersed throughout the urban environment.",
+      "description": "This scene captures a futuristic city, showcasing advanced technology and architecture. The city is bustling with activity, as indicated by the presence of flying vehicles and illuminated structures.",
+      "labels": {
+        "scenes": [
+          "futuristic cityscape",
+          "urban environment"
+        ],
+        "objects": [
+          "skyscrapers",
+          "flying vehicles",
+          "greenery"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PromptForCreatingAFuturistic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PromptForCreatingAFuturistic/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic cityscape featuring towering skyscrapers and advanced architecture is illuminated by a cool blue glow. Flying vehicles traverse the skyline, while lush greenery and intricate roadways weave through the urban landscape.",
+      "description": "The scene depicts a highly advanced, futuristic city with a blend of nature and technology. Skyscrapers dominate the skyline, and flying vehicles indicate advanced transportation systems. The presence of greenery suggests a harmonious integration of nature within the urban environment.",
+      "labels": {
+        "scenes": [
+          "futuristic cityscape",
+          "urban landscape"
+        ],
+        "objects": [
+          "skyscrapers",
+          "flying vehicles",
+          "roadways"
+        ],
+        "nature": [
+          "greenery",
+          "trees"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "awe",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "urban planning"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skyscrapers, flying vehicles, vehicles, trees, streetlights. Actions: flying, traveling. Emotions: futuristic, awe, vibrant, wonder. Scenes: futuristic cityscape, cityscape, urban, urban environment, urban landscape. Concepts: technology, modernity, innovation, urban planning. Nature: greenery, trees",
+  "primary_labels": {
+    "objects": [
+      "skyscrapers",
+      "flying vehicles",
+      "vehicles",
+      "trees",
+      "streetlights"
+    ],
+    "actions": [
+      "flying",
+      "traveling"
+    ],
+    "emotions": [
+      "futuristic",
+      "awe",
+      "vibrant",
+      "wonder"
+    ],
+    "scenes": [
+      "futuristic cityscape",
+      "cityscape",
+      "urban",
+      "urban environment",
+      "urban landscape"
+    ],
+    "concepts": [
+      "technology",
+      "modernity",
+      "innovation",
+      "urban planning"
+    ],
+    "nature": [
+      "greenery",
+      "trees"
+    ]
+  },
+  "metadata": {}
+}

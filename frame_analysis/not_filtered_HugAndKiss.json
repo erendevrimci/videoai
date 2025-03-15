@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HugAndKiss.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HugAndKiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HugAndKiss/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is taking a selfie indoors, with a neutral expression on their face. The background shows a plain wall and a vertical pipe.",
+      "description": "The scene is a casual indoor setting where a person is capturing a selfie. The lighting is soft, suggesting natural light coming from a nearby source.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "pipe",
+          "wall"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "casual",
+          "self-portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HugAndKiss.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HugAndKiss/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple shares a tender kiss in a softly lit room. The woman has her arm around the man's shoulder, and they are both leaning in towards each other. A curtain in the background adds a serene touch to the intimate moment.",
+      "description": "The scene captures a romantic moment between two people in a cozy indoor setting. The gentle lighting and simple background emphasize the emotional connection between the couple.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "objects": [
+          "curtain"
+        ],
+        "actions": [
+          "kissing"
+        ],
+        "emotions": [
+          "affection",
+          "intimacy"
+        ],
+        "scenes": [
+          "indoor",
+          "romantic"
+        ],
+        "concepts": [
+          "love",
+          "relationship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, couple. Objects: pipe, wall, curtain. Actions: selfie, kissing. Emotions: neutral, affection, intimacy. Scenes: indoor, romantic. Concepts: casual, self-portrait, love, relationship",
+  "primary_labels": {
+    "people": [
+      "person",
+      "couple"
+    ],
+    "objects": [
+      "pipe",
+      "wall",
+      "curtain"
+    ],
+    "actions": [
+      "selfie",
+      "kissing"
+    ],
+    "emotions": [
+      "neutral",
+      "affection",
+      "intimacy"
+    ],
+    "scenes": [
+      "indoor",
+      "romantic"
+    ],
+    "concepts": [
+      "casual",
+      "self-portrait",
+      "love",
+      "relationship"
+    ]
+  },
+  "metadata": {}
+}

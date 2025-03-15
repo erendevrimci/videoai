@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shank.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shank.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shank/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A determined figure stands on the deck of a ship, gripping a sword with a focused expression. The scene is set against a backdrop of ship rigging and a clear sky, suggesting a maritime adventure.",
+      "description": "The image depicts a strong, resolute individual on a ship, possibly a captain or pirate, ready for action. The setting is nautical, with visible ropes and sails indicating a ship's deck.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "sword",
+          "ship",
+          "rigging"
+        ],
+        "actions": [
+          "standing",
+          "gripping"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "nautical",
+          "ship deck"
+        ],
+        "concepts": [
+          "adventure",
+          "maritime"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/shank.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/shank/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a man with long, tousled hair and a serious expression. His eyes are closed, and he appears deep in thought, with furrowed brows and slightly parted lips. The lighting highlights the contours of his face, adding depth to his intense demeanor.",
+      "description": "The scene captures a moment of introspection or contemplation, focusing on the man's facial expression. The setting is intimate, possibly suggesting an internal struggle or deep concentration.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "shirt"
+        ],
+        "actions": [
+          "thinking",
+          "contemplating"
+        ],
+        "emotions": [
+          "intense",
+          "serious"
+        ],
+        "scenes": [
+          "close-up",
+          "portrait"
+        ],
+        "concepts": [
+          "introspection",
+          "concentration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: sword, ship, rigging, shirt. Actions: standing, gripping, thinking, contemplating. Emotions: determination, intense, serious. Scenes: nautical, ship deck, close-up, portrait. Concepts: adventure, maritime, introspection, concentration",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "sword",
+      "ship",
+      "rigging",
+      "shirt"
+    ],
+    "actions": [
+      "standing",
+      "gripping",
+      "thinking",
+      "contemplating"
+    ],
+    "emotions": [
+      "determination",
+      "intense",
+      "serious"
+    ],
+    "scenes": [
+      "nautical",
+      "ship deck",
+      "close-up",
+      "portrait"
+    ],
+    "concepts": [
+      "adventure",
+      "maritime",
+      "introspection",
+      "concentration"
+    ]
+  },
+  "metadata": {}
+}

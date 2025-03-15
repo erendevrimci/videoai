@@ -1,0 +1,87 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pretty Chinese girl with a smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pretty Chinese girl with a smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pretty Chinese girl with a smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with short, dark hair gazes directly at the camera, her expression calm and composed. She is wearing a brown coat with a shearling collar, set against a blurred urban background.",
+      "description": "The image captures a close-up portrait of a woman in an outdoor urban setting. The focus is on her face, with a soft, neutral expression, suggesting a moment of contemplation or introspection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "urban"
+        ],
+        "concepts": [
+          "portrait",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/pretty Chinese girl with a smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/pretty Chinese girl with a smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with short, dark hair smiles warmly at the camera. She is wearing a cozy brown jacket with a shearling collar, suggesting a cool weather setting.",
+      "description": "The scene captures a close-up of a smiling woman outdoors, possibly in an urban environment. Her expression conveys warmth and friendliness, and the soft lighting adds to the inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jacket"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: coat, jacket. Emotions: calm, composed, happiness, warmth. Scenes: urban, outdoor. Concepts: portrait, fashion",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "coat",
+      "jacket"
+    ],
+    "emotions": [
+      "calm",
+      "composed",
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "urban",
+      "outdoor"
+    ],
+    "concepts": [
+      "portrait",
+      "fashion"
+    ]
+  },
+  "metadata": {}
+}

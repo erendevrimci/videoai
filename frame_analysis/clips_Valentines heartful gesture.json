@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentines heartful gesture.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentines heartful gesture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentines heartful gesture/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with blue hair and a wolf-themed hat gazes intently at a man standing close to her. She holds a heart-shaped box filled with flowers, creating a romantic and mystical atmosphere.",
+      "description": "The scene captures an intimate moment between two people in a softly lit setting. The woman, adorned with unique accessories, engages in a tender interaction with the man, suggesting a connection or exchange.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "hat",
+          "necklace",
+          "heart-shaped box",
+          "flowers"
+        ],
+        "actions": [
+          "gazing",
+          "holding"
+        ],
+        "emotions": [
+          "intimacy",
+          "romance"
+        ],
+        "scenes": [
+          "intimate setting"
+        ],
+        "concepts": [
+          "romance",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Valentines heartful gesture.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Valentines heartful gesture/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple shares a tender moment, exchanging smiles and a heart-shaped box filled with pink flowers. The woman, adorned with a wolf headdress and blue hair, gazes lovingly at the man. The warm lighting enhances the romantic atmosphere of the scene.",
+      "description": "The scene depicts a romantic interaction between a couple in a softly lit environment. The woman wears a unique wolf headdress, adding a touch of fantasy to the setting, while they exchange a heart-shaped box of flowers, symbolizing affection.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "heart-shaped box",
+          "flowers",
+          "wolf headdress"
+        ],
+        "actions": [
+          "smiling",
+          "gazing"
+        ],
+        "emotions": [
+          "love",
+          "happiness"
+        ],
+        "scenes": [
+          "romantic"
+        ],
+        "concepts": [
+          "affection",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man. Objects: heart-shaped box, flowers, hat, necklace, wolf headdress. Actions: gazing, holding, smiling. Emotions: intimacy, romance, love, happiness. Scenes: intimate setting, romantic. Concepts: romance, mysticism, affection, fantasy",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "heart-shaped box",
+      "flowers",
+      "hat",
+      "necklace",
+      "wolf headdress"
+    ],
+    "actions": [
+      "gazing",
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "intimacy",
+      "romance",
+      "love",
+      "happiness"
+    ],
+    "scenes": [
+      "intimate setting",
+      "romantic"
+    ],
+    "concepts": [
+      "romance",
+      "mysticism",
+      "affection",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

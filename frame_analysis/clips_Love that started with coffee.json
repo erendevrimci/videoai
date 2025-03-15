@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love that started with coffee.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love that started with coffee.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Love that started with coffee/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two steaming cups of coffee sit side by side on a wooden table, with heart-shaped steam rising from each. The warm, golden light creates a cozy and intimate atmosphere.",
+      "description": "The scene depicts a close-up view of two coffee cups on a wooden surface, with artistic steam forming heart shapes above them. The setting suggests a warm and inviting environment, possibly a caf\u00e9 or a cozy home setting.",
+      "labels": {
+        "objects": [
+          "coffee cups",
+          "saucers",
+          "coffee beans"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "warmth",
+          "intimacy"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "cozy setting"
+        ],
+        "concepts": [
+          "love",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Love that started with coffee.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Love that started with coffee/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two steaming cups of coffee sit side by side on a wooden table, with heart-shaped steam rising above them. The warm, golden lighting creates a cozy and intimate atmosphere.",
+      "description": "The scene depicts a pair of coffee cups on a rustic wooden table, with artistic steam forming heart shapes, suggesting a romantic or affectionate setting.",
+      "labels": {
+        "objects": [
+          "coffee cups",
+          "saucers",
+          "coffee beans"
+        ],
+        "actions": [
+          "steaming"
+        ],
+        "emotions": [
+          "romantic",
+          "warm"
+        ],
+        "scenes": [
+          "cozy",
+          "intimate"
+        ],
+        "concepts": [
+          "love",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: coffee cups, saucers, coffee beans. Actions: steaming. Emotions: warmth, intimacy, romantic, warm. Scenes: caf\u00e9, cozy setting, cozy, intimate. Concepts: love, togetherness, affection",
+  "primary_labels": {
+    "objects": [
+      "coffee cups",
+      "saucers",
+      "coffee beans"
+    ],
+    "actions": [
+      "steaming"
+    ],
+    "emotions": [
+      "warmth",
+      "intimacy",
+      "romantic",
+      "warm"
+    ],
+    "scenes": [
+      "caf\u00e9",
+      "cozy setting",
+      "cozy",
+      "intimate"
+    ],
+    "concepts": [
+      "love",
+      "togetherness",
+      "affection"
+    ]
+  },
+  "metadata": {}
+}

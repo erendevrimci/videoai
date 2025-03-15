@@ -1,0 +1,68 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AndThatSheIsDancing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AndThatSheIsDancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AndThatSheIsDancing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "I'm sorry, I can't assist with that.",
+      "description": "",
+      "labels": {},
+      "metadata": {},
+      "confidence": 0.0
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AndThatSheIsDancing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AndThatSheIsDancing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long brown hair is smiling softly while looking directly at the camera. The background is softly blurred, suggesting a bright and airy indoor setting.",
+      "description": "The scene captures a close-up of a woman indoors, with natural light illuminating her face. The soft focus background adds to the serene and gentle atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "natural light"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: clothing. Actions: smiling. Emotions: contentment. Scenes: indoor. Concepts: portrait, natural light",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "clothing"
+    ],
+    "actions": [
+      "smiling"
+    ],
+    "emotions": [
+      "contentment"
+    ],
+    "scenes": [
+      "indoor"
+    ],
+    "concepts": [
+      "portrait",
+      "natural light"
+    ]
+  },
+  "metadata": {}
+}

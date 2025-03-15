@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Supernatural fight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Supernatural fight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Supernatural fight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior stands in a grand cathedral, wielding a glowing sword amidst flames. The intricate stained glass window casts a dramatic light over the scene, highlighting the gothic architecture.",
+      "description": "The scene is set in a large, ornate cathedral with gothic architecture. A warrior is the focal point, brandishing a fiery sword as flames surround him, creating a dramatic and intense atmosphere.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "sword",
+          "stained glass window",
+          "flames"
+        ],
+        "actions": [
+          "wielding",
+          "standing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "cathedral",
+          "gothic architecture"
+        ],
+        "concepts": [
+          "battle",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Supernatural fight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Supernatural fight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic confrontation unfolds between two figures in a dimly lit, gothic setting. One figure, wearing a grotesque mask and elaborate costume, faces off against another person in a red coat. The scene is filled with tension and movement, suggesting an intense struggle.",
+      "description": "The scene takes place in a dark, gothic environment, possibly a cathedral or similar structure, with intricate architecture visible in the background. The atmosphere is tense and dramatic, with two figures engaged in a physical confrontation.",
+      "labels": {
+        "people": [
+          "masked figure",
+          "person in red coat"
+        ],
+        "objects": [
+          "mask",
+          "costume"
+        ],
+        "actions": [
+          "confrontation",
+          "struggle"
+        ],
+        "emotions": [
+          "tension",
+          "intensity"
+        ],
+        "scenes": [
+          "gothic setting",
+          "dramatic encounter"
+        ],
+        "concepts": [
+          "conflict",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, masked figure, person in red coat. Objects: sword, stained glass window, flames, mask, costume. Actions: wielding, standing, confrontation, struggle. Emotions: intensity, tension. Scenes: cathedral, gothic architecture, gothic setting, dramatic encounter. Concepts: battle, fantasy, conflict, drama",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "masked figure",
+      "person in red coat"
+    ],
+    "objects": [
+      "sword",
+      "stained glass window",
+      "flames",
+      "mask",
+      "costume"
+    ],
+    "actions": [
+      "wielding",
+      "standing",
+      "confrontation",
+      "struggle"
+    ],
+    "emotions": [
+      "intensity",
+      "tension"
+    ],
+    "scenes": [
+      "cathedral",
+      "gothic architecture",
+      "gothic setting",
+      "dramatic encounter"
+    ],
+    "concepts": [
+      "battle",
+      "fantasy",
+      "conflict",
+      "drama"
+    ]
+  },
+  "metadata": {}
+}

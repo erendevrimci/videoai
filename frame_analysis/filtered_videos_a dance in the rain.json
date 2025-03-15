@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a dance in the rain.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a dance in the rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a dance in the rain/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple dances intimately in the rain on a city street, their expressions filled with joy and connection. The vibrant colors of the city lights reflect off the wet pavement, creating a romantic and cinematic atmosphere.",
+      "description": "The scene depicts a couple dancing in the rain on a city street at night. The setting is urban, with blurred city lights in the background, adding to the romantic ambiance.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "city lights",
+          "wet pavement"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "joy",
+          "romance"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "romantic",
+          "cinematic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a dance in the rain.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a dance in the rain/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands closely together in the middle of a rain-soaked street, illuminated by the vibrant city lights. The woman, smiling brightly, holds the man's hands as they share a moment of joy. The scene is set against a backdrop of blurred neon lights, creating a romantic and cinematic atmosphere.",
+      "description": "The scene captures a romantic moment between two people in an urban setting, likely during nighttime. The rain adds a dramatic effect, with reflections of city lights on the wet pavement enhancing the mood.",
+      "labels": {
+        "people": [
+          "couple",
+          "man",
+          "woman"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "city lights",
+          "pavement"
+        ],
+        "actions": [
+          "holding hands",
+          "standing"
+        ],
+        "emotions": [
+          "joy",
+          "romance"
+        ],
+        "scenes": [
+          "urban",
+          "nighttime"
+        ],
+        "concepts": [
+          "romantic moment",
+          "cinematic atmosphere"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple, man, woman. Nature: rain. Objects: city lights, wet pavement, pavement. Actions: dancing, holding hands, standing. Emotions: joy, romance. Scenes: urban, night, nighttime. Concepts: romantic, cinematic, romantic moment, cinematic atmosphere",
+  "primary_labels": {
+    "people": [
+      "couple",
+      "man",
+      "woman"
+    ],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "city lights",
+      "wet pavement",
+      "pavement"
+    ],
+    "actions": [
+      "dancing",
+      "holding hands",
+      "standing"
+    ],
+    "emotions": [
+      "joy",
+      "romance"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "nighttime"
+    ],
+    "concepts": [
+      "romantic",
+      "cinematic",
+      "romantic moment",
+      "cinematic atmosphere"
+    ]
+  },
+  "metadata": {}
+}

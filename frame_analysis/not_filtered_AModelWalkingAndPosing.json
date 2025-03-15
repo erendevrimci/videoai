@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalkingAndPosing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalkingAndPosing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelWalkingAndPosing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in a stylish white suit walks confidently along a sunlit urban street. The architectural backdrop features classic stonework and large windows, complementing her sophisticated appearance.",
+      "description": "The scene captures a fashionable woman walking down a city street, exuding elegance and confidence. The setting is urban, with classic architectural elements providing a refined background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "sunglasses",
+          "heels"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelWalkingAndPosing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelWalkingAndPosing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently on a sunlit urban sidewalk, dressed in a stylish white suit and sunglasses. The architectural backdrop features ornate stonework, adding elegance to the scene.",
+      "description": "The scene captures a fashionable woman posing on a city street, exuding confidence and style. The setting is urban, with classic architectural elements visible in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "sunglasses",
+          "high heels"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: suit, sunglasses, heels, high heels. Actions: walking, standing, posing. Emotions: confidence. Scenes: urban, street. Concepts: fashion, elegance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "suit",
+      "sunglasses",
+      "heels",
+      "high heels"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance"
+    ]
+  },
+  "metadata": {}
+}

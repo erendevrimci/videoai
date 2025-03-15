@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eating hamburger and french.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eating hamburger and french.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat eating hamburger and french/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful cat is sitting at a diner table, eagerly holding a large burger with lettuce, tomato, and cheese. Beside it, a milkshake with whipped cream and a straw, along with a side of fries, completes the meal.",
+      "description": "The scene is set in a retro-style diner with warm lighting and classic decor. The cat appears animated and joyful, creating a whimsical and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "burger",
+          "milkshake",
+          "fries",
+          "table"
+        ],
+        "actions": [
+          "holding",
+          "eating"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "diner",
+          "restaurant"
+        ],
+        "concepts": [
+          "humor",
+          "whimsy",
+          "food"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eating hamburger and french.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat eating hamburger and french/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A playful cat is joyfully holding a large hamburger with lettuce, tomato, and cheese. The cat appears to be in a diner setting, with a bright and colorful background.",
+      "description": "The scene depicts a cat in a lively diner environment, enthusiastically holding and seemingly about to eat a hamburger. The atmosphere is cheerful and whimsical, with vibrant colors and a playful tone.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "hamburger",
+          "plate"
+        ],
+        "actions": [
+          "holding",
+          "eating"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "diner"
+        ],
+        "concepts": [
+          "whimsy",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: burger, milkshake, fries, table, hamburger. Actions: holding, eating. Emotions: joyful, cheerful, playful. Scenes: diner, restaurant. Concepts: whimsy, humor, food, fun",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "burger",
+      "milkshake",
+      "fries",
+      "table",
+      "hamburger"
+    ],
+    "actions": [
+      "holding",
+      "eating"
+    ],
+    "emotions": [
+      "joyful",
+      "cheerful",
+      "playful"
+    ],
+    "scenes": [
+      "diner",
+      "restaurant"
+    ],
+    "concepts": [
+      "whimsy",
+      "humor",
+      "food",
+      "fun"
+    ]
+  },
+  "metadata": {}
+}

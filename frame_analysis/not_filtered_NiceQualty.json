@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/NiceQualty.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/NiceQualty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/NiceQualty/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long dark hair is looking directly at the camera with a neutral expression. She is wearing a white top and is positioned in an indoor setting with a wooden ceiling visible in the background.",
+      "description": "The scene captures a close-up of a woman indoors, possibly in a casual or social setting. The focus is on her face, with a background that suggests a rustic or natural-themed environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "white top"
+        ],
+        "scenes": [
+          "indoor",
+          "social setting"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "concepts": [
+          "portrait",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/NiceQualty.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/NiceQualty/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair is smiling gently at the camera. She is wearing a white top and is seated in an outdoor setting with a rustic wooden roof visible in the background.",
+      "description": "The scene captures a close-up of a woman in a casual outdoor setting, possibly a caf\u00e9 or a similar venue. The atmosphere is relaxed and pleasant, with natural lighting enhancing the subject's features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "white top"
+        ],
+        "scenes": [
+          "outdoor",
+          "caf\u00e9"
+        ],
+        "emotions": [
+          "smiling",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: white top. Scenes: indoor, social setting, outdoor, caf\u00e9. Emotions: neutral, smiling, calm. Concepts: portrait, focus",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "white top"
+    ],
+    "scenes": [
+      "indoor",
+      "social setting",
+      "outdoor",
+      "caf\u00e9"
+    ],
+    "emotions": [
+      "neutral",
+      "smiling",
+      "calm"
+    ],
+    "concepts": [
+      "portrait",
+      "focus"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelTurningAroundTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelTurningAroundTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelTurningAroundTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands against a plain white background, wearing a navy blazer over a white dress. Her expression is neutral, and her long hair falls straight down her shoulders.",
+      "description": "The scene is a portrait of a woman in a studio setting, with a minimalist and professional appearance. The focus is on her attire and expression, suggesting a formal or business context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blazer",
+          "dress"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "professional",
+          "minimalist"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AModelTurningAroundTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AModelTurningAroundTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long brown hair is standing with her back to the camera, wearing a navy blazer and a white skirt. The setting is minimalistic with a plain white background.",
+      "description": "The scene depicts a woman in a simple, elegant outfit, standing in a neutral setting. The focus is on her attire and posture, with no other distractions in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blazer",
+          "skirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "minimalistic"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blazer, dress, skirt. Emotions: neutral. Scenes: studio, minimalistic. Concepts: professional, minimalist, fashion, elegance. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blazer",
+      "dress",
+      "skirt"
+    ],
+    "emotions": [
+      "neutral"
+    ],
+    "scenes": [
+      "studio",
+      "minimalistic"
+    ],
+    "concepts": [
+      "professional",
+      "minimalist",
+      "fashion",
+      "elegance"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

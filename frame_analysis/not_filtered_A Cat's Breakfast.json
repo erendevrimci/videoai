@@ -1,0 +1,83 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Cat's Breakfast.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Cat's Breakfast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Cat's Breakfast/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A plush toy cat sits at a table, holding a small pastry in its paws. The scene is set in a cozy indoor environment with a warm, inviting atmosphere.",
+      "description": "The image depicts a plush toy cat at a dining table, surrounded by a plate and a cup. The setting appears to be a comfortable indoor space, possibly a kitchen or dining room.",
+      "labels": {
+        "animals": [
+          "plush toy cat"
+        ],
+        "objects": [
+          "pastry",
+          "plate",
+          "cup",
+          "table"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "emotions": [
+          "cute",
+          "warm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A Cat's Breakfast.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A Cat's Breakfast/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A plush toy cat with large, expressive eyes is seated at a table, holding a small pastry. The scene is set in a cozy indoor environment with soft lighting, creating a warm and inviting atmosphere.",
+      "description": "The image depicts a plush toy cat sitting at a table, seemingly engaged in a pretend dining scenario. The setting appears to be a cozy room with wooden furniture and soft, natural lighting.",
+      "labels": {
+        "animals": [
+          "plush toy cat"
+        ],
+        "objects": [
+          "pastry",
+          "table",
+          "plate",
+          "cup"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "emotions": [
+          "cute",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: plush toy cat. Objects: pastry, plate, cup, table. Scenes: indoor, cozy. Emotions: cute, warm, whimsical",
+  "primary_labels": {
+    "animals": [
+      "plush toy cat"
+    ],
+    "objects": [
+      "pastry",
+      "plate",
+      "cup",
+      "table"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy"
+    ],
+    "emotions": [
+      "cute",
+      "warm",
+      "whimsical"
+    ]
+  },
+  "metadata": {}
+}

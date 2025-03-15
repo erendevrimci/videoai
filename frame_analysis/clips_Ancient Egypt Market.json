@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient Egypt Market.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient Egypt Market.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ancient Egypt Market/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dimly lit street market scene unfolds under a cloudy sky, with stalls lining the narrow path. The market is bustling with people, some walking away while others are engaged in trade. The warm glow from the lamps contrasts with the dark, overcast atmosphere above.",
+      "description": "The scene captures a bustling street market set in a historical or rustic urban environment. The market is active with people moving through the narrow alley, surrounded by stalls covered with fabric canopies. The setting suggests a lively yet somber atmosphere, enhanced by the dramatic lighting and cloudy sky.",
+      "labels": {
+        "people": [
+          "vendors",
+          "shoppers"
+        ],
+        "objects": [
+          "market stalls",
+          "lamps",
+          "fabric canopies",
+          "sacks",
+          "barrels"
+        ],
+        "actions": [
+          "walking",
+          "trading"
+        ],
+        "emotions": [
+          "bustling",
+          "somber"
+        ],
+        "scenes": [
+          "street market",
+          "urban alley"
+        ],
+        "concepts": [
+          "commerce",
+          "historical setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ancient Egypt Market.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ancient Egypt Market/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The scene depicts a narrow, dimly lit market street at night, with stalls covered by orange tarps. The ground is uneven and scattered with debris, while a few figures walk through the alleyway under the glow of sparse lighting.",
+      "description": "The image captures a nighttime market scene in a rustic, possibly historical setting. The atmosphere is moody and mysterious, with dim lighting and shadows creating a sense of intrigue. The market stalls are lined with various goods, and the street is bustling with a few people moving through the space.",
+      "labels": {
+        "people": [
+          "figures",
+          "pedestrians"
+        ],
+        "objects": [
+          "market stalls",
+          "tarps",
+          "goods",
+          "lights"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mysterious",
+          "intriguing"
+        ],
+        "scenes": [
+          "market",
+          "nighttime"
+        ],
+        "concepts": [
+          "commerce",
+          "historical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: vendors, shoppers, figures, pedestrians. Objects: market stalls, lamps, fabric canopies, sacks, barrels. Actions: walking, trading. Emotions: bustling, somber, mysterious, intriguing. Scenes: street market, urban alley, market, nighttime. Concepts: commerce, historical setting, historical",
+  "primary_labels": {
+    "people": [
+      "vendors",
+      "shoppers",
+      "figures",
+      "pedestrians"
+    ],
+    "objects": [
+      "market stalls",
+      "lamps",
+      "fabric canopies",
+      "sacks",
+      "barrels"
+    ],
+    "actions": [
+      "walking",
+      "trading"
+    ],
+    "emotions": [
+      "bustling",
+      "somber",
+      "mysterious",
+      "intriguing"
+    ],
+    "scenes": [
+      "street market",
+      "urban alley",
+      "market",
+      "nighttime"
+    ],
+    "concepts": [
+      "commerce",
+      "historical setting",
+      "historical"
+    ]
+  },
+  "metadata": {}
+}

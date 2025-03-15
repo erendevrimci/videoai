@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Giant woman in city.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Giant woman in city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Giant woman in city/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering woman with a metallic sheen walks confidently down a bustling city street. Her presence dominates the scene, drawing attention from the surrounding pedestrians and vehicles.",
+      "description": "The scene is set in a busy urban environment, with tall buildings lining the street. The focus is on a giant, metallic-looking woman striding through the city, creating a surreal and striking contrast with the everyday city life around her.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "cars",
+          "street"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "surreal",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Giant woman in city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Giant woman in city/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering, muscular woman in a bikini strides confidently through a bustling city street. Her presence dominates the scene, casting long shadows on the pavement as people around her look on in awe.",
+      "description": "The scene depicts a surreal urban setting where a giant woman walks through a city street, surrounded by smaller pedestrians and vehicles. The atmosphere is a mix of awe and disbelief, with the towering figure contrasting sharply against the urban backdrop.",
+      "labels": {
+        "people": [
+          "giant woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "buildings",
+          "cars",
+          "street"
+        ],
+        "actions": [
+          "walking",
+          "looking"
+        ],
+        "emotions": [
+          "awe",
+          "disbelief"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "surrealism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians, woman, giant woman. Objects: buildings, cars, street. Actions: walking, looking. Emotions: confidence, awe, disbelief. Scenes: urban, city street. Concepts: contrast, surreal, surrealism",
+  "primary_labels": {
+    "people": [
+      "pedestrians",
+      "woman",
+      "giant woman"
+    ],
+    "objects": [
+      "buildings",
+      "cars",
+      "street"
+    ],
+    "actions": [
+      "walking",
+      "looking"
+    ],
+    "emotions": [
+      "confidence",
+      "awe",
+      "disbelief"
+    ],
+    "scenes": [
+      "urban",
+      "city street"
+    ],
+    "concepts": [
+      "contrast",
+      "surreal",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

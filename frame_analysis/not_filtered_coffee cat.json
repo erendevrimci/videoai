@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/coffee cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/coffee cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/coffee cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy gray cat is holding a white mug that features its own image. The cat appears calm and content, with its paws wrapped around the mug filled with a warm beverage.",
+      "description": "The scene depicts a cute and fluffy gray cat in a minimalist setting, holding a mug with an image of itself. The setting is simple, focusing on the cat and the mug, creating a whimsical and cozy atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "mug",
+          "beverage"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "whimsical",
+          "cozy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/coffee cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/coffee cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy gray cat is holding a white mug with a picture of itself on it. The cat appears to be content and relaxed, with its eyes gently closed.",
+      "description": "The scene features a cute gray cat holding a mug in a minimalist setting. The mug has an image of the same cat, creating a whimsical and charming atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "mug"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "contentment",
+          "relaxation"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "whimsy",
+          "charm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: mug, beverage. Actions: holding. Emotions: calm, content, contentment, relaxation. Scenes: minimalist. Concepts: whimsical, cozy, whimsy, charm",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "mug",
+      "beverage"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "content",
+      "contentment",
+      "relaxation"
+    ],
+    "scenes": [
+      "minimalist"
+    ],
+    "concepts": [
+      "whimsical",
+      "cozy",
+      "whimsy",
+      "charm"
+    ]
+  },
+  "metadata": {}
+}

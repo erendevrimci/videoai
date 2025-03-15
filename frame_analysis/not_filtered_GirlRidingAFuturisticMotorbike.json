@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlRidingAFuturisticMotorbike.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlRidingAFuturisticMotorbike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlRidingAFuturisticMotorbike/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person with striking green hair leans forward intensely, their face glistening with moisture. They are dressed in a sleek, black outfit, gripping the handlebars of a futuristic motorcycle.",
+      "description": "The scene depicts a dynamic and intense moment, likely set in a futuristic or cyberpunk environment. The focus is on a person with vibrant green hair, suggesting a bold and edgy aesthetic.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle"
+        ],
+        "actions": [
+          "leaning",
+          "gripping"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic",
+          "cyberpunk"
+        ],
+        "concepts": [
+          "edgy",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/GirlRidingAFuturisticMotorbike.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/GirlRidingAFuturisticMotorbike/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with vibrant green hair is captured in a dynamic pose, seemingly in motion. The scene is filled with energy, with reflections and blurred lights creating a futuristic atmosphere.",
+      "description": "The image depicts a person with striking green hair, possibly in a high-speed setting. The background is blurred, suggesting movement and speed, while the lighting and reflections contribute to a modern, high-tech vibe.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet"
+        ],
+        "actions": [
+          "riding",
+          "moving"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "speed",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: motorcycle, helmet. Actions: leaning, gripping, riding, moving. Emotions: intensity. Scenes: futuristic, cyberpunk, urban. Concepts: edgy, dynamic, speed, technology",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet"
+    ],
+    "actions": [
+      "leaning",
+      "gripping",
+      "riding",
+      "moving"
+    ],
+    "emotions": [
+      "intensity"
+    ],
+    "scenes": [
+      "futuristic",
+      "cyberpunk",
+      "urban"
+    ],
+    "concepts": [
+      "edgy",
+      "dynamic",
+      "speed",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

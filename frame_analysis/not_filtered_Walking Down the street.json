@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Down the street.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Down the street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walking Down the street/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with pink hair takes a selfie on a city sidewalk. She is wearing a red dress and has facial piercings and a choker necklace. The background shows a street with parked cars and trees lining the sidewalk.",
+      "description": "The scene captures a vibrant urban setting where a young woman is taking a selfie. The city street is lined with trees and parked cars, suggesting a lively and bustling environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "necklace",
+          "piercings"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "individuality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Down the street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walking Down the street/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with pink hair and facial piercings takes a selfie on a city sidewalk. She is wearing a red dress and a choker necklace, standing barefoot on the pavement.",
+      "description": "The scene is set on a city street, with the woman capturing a casual moment. The background shows a typical urban environment with parked cars and trees lining the sidewalk.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "necklace",
+          "piercings"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "sidewalk"
+        ],
+        "concepts": [
+          "self-expression",
+          "youth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Down the street.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walking Down the street/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman with pink hair takes a selfie on a city sidewalk. She is wearing a red dress and has multiple piercings and a choker necklace. The background shows a street with parked cars and trees.",
+      "description": "The scene captures a vibrant urban setting where a woman is taking a selfie on a sidewalk. The street is lined with trees and parked cars, suggesting a lively city atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "necklace",
+          "piercings"
+        ],
+        "actions": [
+          "selfie"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "sidewalk"
+        ],
+        "concepts": [
+          "fashion",
+          "individuality"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, necklace, piercings. Actions: selfie. Emotions: confident. Scenes: urban, sidewalk, street. Concepts: fashion, individuality, self-expression, youth",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "necklace",
+      "piercings"
+    ],
+    "actions": [
+      "selfie"
+    ],
+    "emotions": [
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "sidewalk",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "individuality",
+      "self-expression",
+      "youth"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHandsAndTheLegs.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHandsAndTheLegs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheHandsAndTheLegs/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person lies in bed under a heavy blanket in a rustic room with a view of an industrial landscape through the window. The room is dimly lit by a small stove, casting a warm glow on the stone walls and wooden furniture. Outside, smoke billows from factory chimneys, contrasting with the tranquility inside.",
+      "description": "The scene is set in a rustic, dimly lit bedroom with a view of an industrial area through the window. The room features stone walls, wooden beams, and minimal furnishings, creating a cozy yet somber atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bed",
+          "blanket",
+          "stove",
+          "window",
+          "chimneys",
+          "furniture",
+          "shoes"
+        ],
+        "actions": [
+          "lying in bed"
+        ],
+        "emotions": [
+          "calm",
+          "somber"
+        ],
+        "scenes": [
+          "bedroom",
+          "industrial landscape"
+        ],
+        "concepts": [
+          "contrast",
+          "tranquility",
+          "industrialization"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHandsAndTheLegs.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheHandsAndTheLegs/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person lies in bed under a thick blanket in a rustic room with a view of an industrial scene outside the window. The room is dimly lit by a small stove, casting a warm glow on the stone walls and wooden furniture. Outside, a factory emits smoke into the sky, visible through the open window.",
+      "description": "The scene is set in a rustic bedroom with a view of an industrial landscape. The room is simple, with stone walls, wooden beams, and basic furnishings, creating a contrast with the industrial setting outside.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "bed",
+          "blanket",
+          "stove",
+          "window",
+          "shoes",
+          "bottles",
+          "furniture"
+        ],
+        "actions": [
+          "lying"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "bedroom",
+          "industrial landscape"
+        ],
+        "concepts": [
+          "contrast",
+          "industrialization",
+          "rustic living"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: bed, blanket, stove, window, furniture. Actions: lying in bed, lying. Emotions: calm, somber, contemplative. Scenes: bedroom, industrial landscape. Concepts: contrast, industrialization, tranquility, rustic living",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "bed",
+      "blanket",
+      "stove",
+      "window",
+      "furniture"
+    ],
+    "actions": [
+      "lying in bed",
+      "lying"
+    ],
+    "emotions": [
+      "calm",
+      "somber",
+      "contemplative"
+    ],
+    "scenes": [
+      "bedroom",
+      "industrial landscape"
+    ],
+    "concepts": [
+      "contrast",
+      "industrialization",
+      "tranquility",
+      "rustic living"
+    ]
+  },
+  "metadata": {}
+}

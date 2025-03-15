@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheManGentlyBendsForward,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheManGentlyBendsForward,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheManGentlyBendsForward,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene unfolds as a man in flowing robes gently reaches out to a small child standing in shallow water. The rain softly falls around them, creating ripples in the water and a tranquil atmosphere.",
+      "description": "The scene is set in a natural environment by a body of water, with rain creating a peaceful and reflective mood. A man and a child share a moment of connection, emphasizing themes of guidance and trust.",
+      "labels": {
+        "people": [
+          "man",
+          "child"
+        ],
+        "nature": [
+          "rain",
+          "water",
+          "trees"
+        ],
+        "objects": [
+          "robes",
+          "stone platform"
+        ],
+        "actions": [
+          "reaching",
+          "standing"
+        ],
+        "emotions": [
+          "serenity",
+          "trust"
+        ],
+        "scenes": [
+          "outdoor",
+          "rainy"
+        ],
+        "concepts": [
+          "guidance",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheManGentlyBendsForward,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheManGentlyBendsForward,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene scene unfolds as a man in flowing robes extends his hands towards a small child standing in shallow water. The child reaches upwards, creating a moment of connection amidst a gentle rain. The lush greenery in the background enhances the peaceful atmosphere.",
+      "description": "The scene captures a tranquil interaction between a man and a child in a natural setting. The man stands on a stone ledge, while the child is in the water, both engaged in a tender moment under the rain.",
+      "labels": {
+        "people": [
+          "man",
+          "child"
+        ],
+        "nature": [
+          "water",
+          "rain",
+          "greenery"
+        ],
+        "objects": [
+          "stone ledge"
+        ],
+        "actions": [
+          "reaching",
+          "standing"
+        ],
+        "emotions": [
+          "connection",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "natural"
+        ],
+        "concepts": [
+          "care",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, child. Nature: rain, water, trees, greenery. Objects: robes, stone platform, stone ledge. Actions: reaching, standing. Emotions: serenity, trust, connection. Scenes: outdoor, rainy, natural. Concepts: guidance, connection, care, peace",
+  "primary_labels": {
+    "people": [
+      "man",
+      "child"
+    ],
+    "nature": [
+      "rain",
+      "water",
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "robes",
+      "stone platform",
+      "stone ledge"
+    ],
+    "actions": [
+      "reaching",
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "trust",
+      "connection"
+    ],
+    "scenes": [
+      "outdoor",
+      "rainy",
+      "natural"
+    ],
+    "concepts": [
+      "guidance",
+      "connection",
+      "care",
+      "peace"
+    ]
+  },
+  "metadata": {}
+}

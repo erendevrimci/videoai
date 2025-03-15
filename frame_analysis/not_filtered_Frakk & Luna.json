@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Frakk & Luna.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Frakk & Luna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Frakk & Luna/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two futuristic characters stand back-to-back in a dimly lit, high-tech environment. Both are dressed in advanced combat suits, exuding a sense of readiness and determination.",
+      "description": "The scene is set in a futuristic, possibly sci-fi setting, with advanced technology and neon lighting. The characters appear to be in a bar or lounge area, suggested by the presence of bottles and a counter in the background.",
+      "labels": {
+        "people": [
+          "futuristic characters",
+          "combat suits"
+        ],
+        "objects": [
+          "bottles",
+          "counter",
+          "neon lights"
+        ],
+        "actions": [
+          "standing back-to-back"
+        ],
+        "emotions": [
+          "determination",
+          "readiness"
+        ],
+        "scenes": [
+          "futuristic setting",
+          "sci-fi environment"
+        ],
+        "concepts": [
+          "technology",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Frakk & Luna.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Frakk & Luna/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a dimly lit futuristic setting, two armored individuals face each other with intense expressions. The scene is filled with tension, as the characters appear to be in a standoff or deep discussion.",
+      "description": "The scene is set in a futuristic environment, possibly a bar or a command center, indicated by the bottles and neon lighting in the background. The characters are clad in high-tech armor, suggesting a sci-fi or action genre.",
+      "labels": {
+        "people": [
+          "armored individuals"
+        ],
+        "objects": [
+          "armor",
+          "bottles",
+          "neon lights"
+        ],
+        "actions": [
+          "facing each other"
+        ],
+        "emotions": [
+          "intensity",
+          "tension"
+        ],
+        "scenes": [
+          "futuristic setting"
+        ],
+        "concepts": [
+          "sci-fi",
+          "standoff"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: futuristic characters, combat suits, armored individuals. Objects: bottles, neon lights, counter, armor. Actions: standing back-to-back, facing each other. Emotions: determination, readiness, intensity, tension. Scenes: futuristic setting, sci-fi environment. Concepts: technology, futurism, sci-fi, standoff",
+  "primary_labels": {
+    "people": [
+      "futuristic characters",
+      "combat suits",
+      "armored individuals"
+    ],
+    "objects": [
+      "bottles",
+      "neon lights",
+      "counter",
+      "armor"
+    ],
+    "actions": [
+      "standing back-to-back",
+      "facing each other"
+    ],
+    "emotions": [
+      "determination",
+      "readiness",
+      "intensity",
+      "tension"
+    ],
+    "scenes": [
+      "futuristic setting",
+      "sci-fi environment"
+    ],
+    "concepts": [
+      "technology",
+      "futurism",
+      "sci-fi",
+      "standoff"
+    ]
+  },
+  "metadata": {}
+}

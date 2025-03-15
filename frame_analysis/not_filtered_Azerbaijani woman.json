@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Azerbaijani woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Azerbaijani woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Azerbaijani woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in an ancient, narrow street, wearing an ornate, embroidered dress. Her expression is serene and contemplative, with her hair elegantly styled. The background features stone buildings, adding a historic ambiance to the scene.",
+      "description": "The scene is set in a historic, narrow street lined with stone buildings. The woman is the central focus, dressed in a detailed, embroidered gown, suggesting a blend of modern elegance and classic charm.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "contemplative"
+        ],
+        "scenes": [
+          "historic street"
+        ],
+        "concepts": [
+          "elegance",
+          "heritage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Azerbaijani woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Azerbaijani woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands elegantly in an ornate dress with intricate gold embroidery, set against a backdrop of an old stone street. Her hair is styled in a sophisticated updo, and she wears large, decorative earrings, adding to her graceful appearance.",
+      "description": "The scene captures a woman in a historical or vintage setting, possibly a European street, with cobblestones and aged architecture. The focus is on her poised demeanor and the detailed craftsmanship of her attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "earrings"
+        ],
+        "scenes": [
+          "street",
+          "historical setting"
+        ],
+        "emotions": [
+          "elegance",
+          "poise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, earrings. Actions: standing. Emotions: serene, contemplative, elegance, poise. Scenes: historic street, street, historical setting. Concepts: elegance, heritage",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [],
+    "objects": [
+      "dress",
+      "earrings"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "contemplative",
+      "elegance",
+      "poise"
+    ],
+    "scenes": [
+      "historic street",
+      "street",
+      "historical setting"
+    ],
+    "concepts": [
+      "elegance",
+      "heritage"
+    ]
+  },
+  "metadata": {}
+}

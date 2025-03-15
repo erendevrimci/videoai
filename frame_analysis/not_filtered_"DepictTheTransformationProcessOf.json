@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"DepictTheTransformationProcessOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"DepictTheTransformationProcessOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"DepictTheTransformationProcessOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vintage white truck is parked indoors on a black and white tiled floor. The truck features a rugged design with a large front grille and a flatbed at the back. Overhead, fluorescent lights illuminate the scene, highlighting the truck's classic lines.",
+      "description": "The scene is set in a well-lit indoor showroom or garage, showcasing a vintage truck. The truck's design is robust and utilitarian, with a focus on its large tires and flatbed. The setting is clean and minimalistic, emphasizing the vehicle as the central focus.",
+      "labels": {
+        "objects": [
+          "truck",
+          "grille",
+          "flatbed",
+          "tires",
+          "fluorescent lights"
+        ],
+        "scenes": [
+          "indoor",
+          "showroom",
+          "garage"
+        ],
+        "concepts": [
+          "vintage",
+          "rugged",
+          "classic"
+        ],
+        "emotions": [
+          "nostalgic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"DepictTheTransformationProcessOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"DepictTheTransformationProcessOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white Ford Super Duty truck is parked indoors under bright fluorescent lighting. The truck's front wheels emit a blue glow, creating a striking visual effect against the otherwise neutral setting.",
+      "description": "The scene is set in a well-lit indoor showroom or garage, showcasing a Ford Super Duty truck. The environment is minimalistic, with white walls and a tiled floor, emphasizing the vehicle as the main focus.",
+      "labels": {
+        "objects": [
+          "truck",
+          "wheels",
+          "fluorescent lights"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "scenes": [
+          "indoor",
+          "showroom"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "concepts": [
+          "automobile display",
+          "vehicle showcase"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: truck, fluorescent lights, grille, flatbed, tires. Scenes: indoor, showroom, garage. Concepts: vintage, rugged, classic, automobile display, vehicle showcase. Emotions: nostalgic, neutral. Actions: parked",
+  "primary_labels": {
+    "objects": [
+      "truck",
+      "fluorescent lights",
+      "grille",
+      "flatbed",
+      "tires"
+    ],
+    "scenes": [
+      "indoor",
+      "showroom",
+      "garage"
+    ],
+    "concepts": [
+      "vintage",
+      "rugged",
+      "classic",
+      "automobile display",
+      "vehicle showcase"
+    ],
+    "emotions": [
+      "nostalgic",
+      "neutral"
+    ],
+    "actions": [
+      "parked"
+    ]
+  },
+  "metadata": {}
+}

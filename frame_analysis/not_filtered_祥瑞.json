@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7965\u745e.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7965\u745e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u7965\u745e/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic dragon and a powerful lion face each other in a mystical forest setting. The dragon coils with vibrant scales and fiery accents, while the lion stands firm with a regal mane. The scene is illuminated by ethereal light filtering through the dense foliage.",
+      "description": "The image depicts a fantastical encounter between a dragon and a lion in an enchanted forest. The atmosphere is tense yet awe-inspiring, with both creatures exuding strength and majesty.",
+      "labels": {
+        "animals": [
+          "dragon",
+          "lion"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "foliage"
+        ],
+        "objects": [
+          "clouds",
+          "rocks"
+        ],
+        "actions": [
+          "facing each other"
+        ],
+        "emotions": [
+          "tension",
+          "majesty"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "strength",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u7965\u745e.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u7965\u745e/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic mythical creature with a lion-like mane and dragon scales stands poised in a mystical forest. Its powerful stance and intricate details suggest a blend of strength and elegance. The creature's vibrant colors contrast with the serene, shadowy forest background.",
+      "description": "The scene depicts a fantastical creature in an enchanted forest, combining elements of a lion and a dragon. The setting is mystical, with a sense of ancient magic and wonder.",
+      "labels": {
+        "animals": [
+          "mythical creature",
+          "lion",
+          "dragon"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "moss"
+        ],
+        "objects": [
+          "scales",
+          "horns"
+        ],
+        "actions": [
+          "standing",
+          "poised"
+        ],
+        "emotions": [
+          "majestic",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "mythology",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dragon, lion, mythical creature. Nature: forest, trees, foliage, moss. Objects: clouds, rocks, scales, horns. Actions: facing each other, standing, poised. Emotions: tension, majesty, majestic, powerful. Scenes: fantasy, mythical. Concepts: strength, mysticism, mythology, magic",
+  "primary_labels": {
+    "animals": [
+      "dragon",
+      "lion",
+      "mythical creature"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "foliage",
+      "moss"
+    ],
+    "objects": [
+      "clouds",
+      "rocks",
+      "scales",
+      "horns"
+    ],
+    "actions": [
+      "facing each other",
+      "standing",
+      "poised"
+    ],
+    "emotions": [
+      "tension",
+      "majesty",
+      "majestic",
+      "powerful"
+    ],
+    "scenes": [
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "strength",
+      "mysticism",
+      "mythology",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

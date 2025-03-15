@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersOnTheRobot.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersOnTheRobot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFlowersOnTheRobot/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small, humanoid robot stands in a neutral pose against a plain background. The robot features a sleek design with a light blue and metallic color scheme, accented by gold details.",
+      "description": "The scene depicts a futuristic robot with large, expressive eyes, designed with a blend of smooth curves and mechanical joints. It is set against a simple, light backdrop, highlighting the robot's intricate design.",
+      "labels": {
+        "objects": [
+          "robot",
+          "mechanical joints"
+        ],
+        "scenes": [
+          "futuristic",
+          "technology"
+        ],
+        "concepts": [
+          "robotics",
+          "design",
+          "innovation"
+        ],
+        "emotions": [
+          "neutral"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheFlowersOnTheRobot.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheFlowersOnTheRobot/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, humanoid robot stands against a plain background, showcasing its intricate design. The robot features a glossy blue exterior with gold accents and large, expressive eyes.",
+      "description": "The scene depicts a futuristic, humanoid robot in a minimalistic setting. The robot's design is sleek and modern, emphasizing its advanced technology and friendly appearance.",
+      "labels": {
+        "objects": [
+          "robot",
+          "humanoid",
+          "technology"
+        ],
+        "scenes": [
+          "futuristic",
+          "minimalistic"
+        ],
+        "emotions": [
+          "friendly",
+          "curious"
+        ],
+        "concepts": [
+          "innovation",
+          "advanced technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, mechanical joints, humanoid, technology. Scenes: futuristic, technology, minimalistic. Concepts: innovation, robotics, design, advanced technology. Emotions: neutral, friendly, curious",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "mechanical joints",
+      "humanoid",
+      "technology"
+    ],
+    "scenes": [
+      "futuristic",
+      "technology",
+      "minimalistic"
+    ],
+    "concepts": [
+      "innovation",
+      "robotics",
+      "design",
+      "advanced technology"
+    ],
+    "emotions": [
+      "neutral",
+      "friendly",
+      "curious"
+    ]
+  },
+  "metadata": {}
+}

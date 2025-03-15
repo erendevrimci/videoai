@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A mesmerizing waterfall.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A mesmerizing waterfall.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A mesmerizing waterfall/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic waterfall cascades down a lush, green cliff into a serene pool below. A deer stands gracefully at the water's edge, surrounded by vibrant wildflowers. Sunlight filters through the trees, casting a magical glow over the scene.",
+      "description": "The scene depicts a tranquil natural setting with a towering waterfall in a dense forest. A deer is present in the foreground, adding a sense of harmony with nature. The atmosphere is peaceful and enchanting, enhanced by the soft sunlight and vibrant flora.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "forest",
+          "wildflowers"
+        ],
+        "animals": [
+          "deer"
+        ],
+        "objects": [
+          "rocks"
+        ],
+        "actions": [
+          "cascading water"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "natural landscape"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A mesmerizing waterfall.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A mesmerizing waterfall/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic waterfall cascades down a lush, green cliff into a serene pool below. A deer stands gracefully at the water's edge, surrounded by vibrant wildflowers. Sunlight filters through the trees, creating a tranquil and enchanting atmosphere.",
+      "description": "The scene depicts a tranquil natural setting with a large waterfall surrounded by dense greenery. A deer is present near the water, adding a sense of harmony with nature. The lighting is soft and dappled, enhancing the peaceful mood.",
+      "labels": {
+        "animals": [
+          "deer"
+        ],
+        "nature": [
+          "waterfall",
+          "forest",
+          "wildflowers",
+          "trees"
+        ],
+        "objects": [
+          "rocks",
+          "water"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "tranquility"
+        ],
+        "scenes": [
+          "nature",
+          "waterfall"
+        ],
+        "concepts": [
+          "serenity",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: waterfall, forest, wildflowers, trees. Animals: deer. Objects: rocks, water. Actions: cascading water, standing. Emotions: serenity, tranquility. Scenes: natural landscape, nature, waterfall. Concepts: tranquility, harmony with nature, serenity, harmony",
+  "primary_labels": {
+    "nature": [
+      "waterfall",
+      "forest",
+      "wildflowers",
+      "trees"
+    ],
+    "animals": [
+      "deer"
+    ],
+    "objects": [
+      "rocks",
+      "water"
+    ],
+    "actions": [
+      "cascading water",
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility"
+    ],
+    "scenes": [
+      "natural landscape",
+      "nature",
+      "waterfall"
+    ],
+    "concepts": [
+      "tranquility",
+      "harmony with nature",
+      "serenity",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

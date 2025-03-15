@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree on buetifool field.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree on buetifool field.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tree on buetifool field/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A solitary tree with vibrant red foliage stands in the middle of a vast field of flowers, under a sky painted with a warm, glowing sunset. The horizon is lined with distant mountains, and the scene is bathed in golden light, creating a serene and picturesque landscape.",
+      "description": "The scene depicts a tranquil natural setting at sunset, featuring a lone tree amidst a field of flowers. The sky is filled with colorful clouds, and the sun is setting behind the mountains, casting a warm glow over the landscape.",
+      "labels": {
+        "nature": [
+          "tree",
+          "flowers",
+          "mountains",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "tree"
+        ],
+        "scenes": [
+          "sunset",
+          "landscape"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "concepts": [
+          "solitude",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tree on buetifool field.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tree on buetifool field/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A solitary tree with vibrant red leaves stands majestically in the middle of a lush green field dotted with yellow flowers. The expansive landscape stretches into the distance under a dynamic sky filled with swirling clouds.",
+      "description": "The scene depicts a tranquil and picturesque landscape featuring a single red-leaved tree in a vast field of green grass and yellow flowers. The setting is likely a natural, open area with rolling hills in the background, suggesting a serene and untouched environment.",
+      "labels": {
+        "nature": [
+          "tree",
+          "field",
+          "flowers",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "tree"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "landscape",
+          "nature"
+        ],
+        "concepts": [
+          "solitude",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: tree, flowers, sky, clouds, mountains. Objects: tree. Scenes: landscape, sunset, nature. Emotions: serene, peaceful, serenity, tranquility. Concepts: solitude, beauty",
+  "primary_labels": {
+    "nature": [
+      "tree",
+      "flowers",
+      "sky",
+      "clouds",
+      "mountains"
+    ],
+    "objects": [
+      "tree"
+    ],
+    "scenes": [
+      "landscape",
+      "sunset",
+      "nature"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "serenity",
+      "tranquility"
+    ],
+    "concepts": [
+      "solitude",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

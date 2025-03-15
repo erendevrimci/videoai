@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grandma- Cat's stories.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grandma- Cat's stories.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grandma- Cat's stories/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed in an ornate, vintage-style dress sits comfortably on a chair, wearing glasses and appearing to read a book. The scene is set indoors, with a decorated Christmas tree visible in the foreground, adding a festive touch.",
+      "description": "The image depicts a cozy, festive indoor setting where a cat, dressed in elaborate clothing and glasses, is engaged in reading. The presence of a Christmas tree suggests a holiday atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "book",
+          "chair",
+          "Christmas tree"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "indoor",
+          "festive"
+        ],
+        "concepts": [
+          "holiday",
+          "coziness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grandma- Cat's stories.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grandma- Cat's stories/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in a detailed, embroidered dress sits comfortably on a chair, wearing glasses and appearing to read a book. The scene is set near a window with soft natural light filtering in, and a decorated Christmas tree is partially visible.",
+      "description": "The scene depicts a cozy, festive indoor setting with a cat dressed in human-like attire, adding a whimsical touch. The cat appears to be engaged in reading, suggesting a peaceful and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "glasses",
+          "book",
+          "chair",
+          "Christmas tree"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "whimsical",
+          "peaceful"
+        ],
+        "scenes": [
+          "indoor",
+          "festive"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "holiday"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: glasses, book, chair, Christmas tree. Actions: reading. Emotions: calm, focused, whimsical, peaceful. Scenes: indoor, festive. Concepts: holiday, coziness, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "glasses",
+      "book",
+      "chair",
+      "Christmas tree"
+    ],
+    "actions": [
+      "reading"
+    ],
+    "emotions": [
+      "calm",
+      "focused",
+      "whimsical",
+      "peaceful"
+    ],
+    "scenes": [
+      "indoor",
+      "festive"
+    ],
+    "concepts": [
+      "holiday",
+      "coziness",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

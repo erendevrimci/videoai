@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love in the city.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love in the city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/love in the city/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple walks hand in hand down a tree-lined path, illuminated by the warm glow of a setting sun. A heart-shaped balloon floats above them, adding a touch of whimsy to the romantic scene. The ground is covered in fallen autumn leaves, enhancing the cozy atmosphere.",
+      "description": "The scene is set in a serene park during autumn, with a couple walking along a path by a body of water. The sun is setting, casting a golden light through the trees and reflecting on the water's surface.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "trees",
+          "leaves",
+          "water"
+        ],
+        "objects": [
+          "balloon",
+          "lamp posts"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "peaceful"
+        ],
+        "scenes": [
+          "park",
+          "autumn"
+        ],
+        "concepts": [
+          "love",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love in the city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/love in the city/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands on a leaf-covered path during autumn, with a heart-shaped balloon between them. The warm glow of the setting sun filters through the trees, casting a romantic ambiance. The scene captures a tender moment as they share a connection in the serene park setting.",
+      "description": "The scene is set in a park during autumn, with fallen leaves scattered on the ground. A couple stands facing each other, holding a heart-shaped balloon. The lighting is warm and golden, suggesting a sunset, creating a romantic and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "trees",
+          "leaves"
+        ],
+        "objects": [
+          "balloon"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "autumn"
+        ],
+        "concepts": [
+          "love",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love in the city.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/love in the city/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A couple stands on a leaf-strewn path during sunset, holding a heart-shaped balloon. The warm glow of the setting sun filters through the autumn leaves, creating a romantic atmosphere. The woman reaches up to hold the balloon while the man gently holds her other hand.",
+      "description": "The scene is set in a park during autumn with a picturesque sunset. The couple is surrounded by vibrant orange and yellow leaves, enhancing the romantic and serene mood.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "trees",
+          "leaves"
+        ],
+        "objects": [
+          "balloon",
+          "lamp posts"
+        ],
+        "actions": [
+          "holding hands",
+          "holding balloon"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "sunset"
+        ],
+        "concepts": [
+          "love",
+          "autumn"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Nature: trees, leaves, water. Objects: balloon, lamp posts. Actions: holding hands, walking, standing, holding, holding balloon. Emotions: romantic, serene, peaceful. Scenes: park, autumn, sunset. Concepts: love, togetherness, connection, autumn",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "nature": [
+      "trees",
+      "leaves",
+      "water"
+    ],
+    "objects": [
+      "balloon",
+      "lamp posts"
+    ],
+    "actions": [
+      "holding hands",
+      "walking",
+      "standing",
+      "holding",
+      "holding balloon"
+    ],
+    "emotions": [
+      "romantic",
+      "serene",
+      "peaceful"
+    ],
+    "scenes": [
+      "park",
+      "autumn",
+      "sunset"
+    ],
+    "concepts": [
+      "love",
+      "togetherness",
+      "connection",
+      "autumn"
+    ]
+  },
+  "metadata": {}
+}

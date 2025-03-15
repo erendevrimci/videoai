@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithBright,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithBright,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACheerfulGirlWithBright,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A joyful young girl with braided hair is running energetically down a sunlit path lined with trees. She wears a floral t-shirt and a skirt, with a wide smile on her face, capturing the essence of carefree childhood.",
+      "description": "The scene depicts a vibrant, sunny day in a park-like setting, where a young girl is playfully running along a path. The area is surrounded by lush green trees, and the path is marked with numbers, suggesting a game of hopscotch.",
+      "labels": {
+        "people": [
+          "young girl"
+        ],
+        "nature": [
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "t-shirt",
+          "skirt",
+          "path"
+        ],
+        "actions": [
+          "running",
+          "playing"
+        ],
+        "emotions": [
+          "joy",
+          "happiness"
+        ],
+        "scenes": [
+          "park",
+          "daytime"
+        ],
+        "concepts": [
+          "childhood",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACheerfulGirlWithBright,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACheerfulGirlWithBright,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with braided hair joyfully hops on a hopscotch grid painted on a sunlit path. She is wearing a floral t-shirt and a black skirt, surrounded by a row of lush green trees. The sunlight casts a warm glow, enhancing the cheerful atmosphere.",
+      "description": "The scene depicts a lively outdoor setting where a girl is playing hopscotch on a bright, sunny day. The path is lined with trees, creating a serene and playful environment.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "hopscotch grid",
+          "t-shirt",
+          "skirt",
+          "shoes"
+        ],
+        "actions": [
+          "hopping",
+          "playing"
+        ],
+        "emotions": [
+          "joyful",
+          "cheerful"
+        ],
+        "scenes": [
+          "outdoor",
+          "playground"
+        ],
+        "concepts": [
+          "childhood",
+          "play",
+          "happiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young girl, girl. Nature: trees, sunlight. Objects: t-shirt, skirt, path, hopscotch grid, shoes. Actions: playing, running, hopping. Emotions: joy, happiness, joyful, cheerful. Scenes: park, daytime, outdoor, playground. Concepts: childhood, playfulness, play, happiness",
+  "primary_labels": {
+    "people": [
+      "young girl",
+      "girl"
+    ],
+    "nature": [
+      "trees",
+      "sunlight"
+    ],
+    "objects": [
+      "t-shirt",
+      "skirt",
+      "path",
+      "hopscotch grid",
+      "shoes"
+    ],
+    "actions": [
+      "playing",
+      "running",
+      "hopping"
+    ],
+    "emotions": [
+      "joy",
+      "happiness",
+      "joyful",
+      "cheerful"
+    ],
+    "scenes": [
+      "park",
+      "daytime",
+      "outdoor",
+      "playground"
+    ],
+    "concepts": [
+      "childhood",
+      "playfulness",
+      "play",
+      "happiness"
+    ]
+  },
+  "metadata": {}
+}

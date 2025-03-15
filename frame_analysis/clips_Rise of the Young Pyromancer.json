@@ -1,0 +1,158 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rise of the Young Pyromancer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rise of the Young Pyromancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rise of the Young Pyromancer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young adventurer stands in a mystical forest, holding a flame in his hand. He wears rugged, medieval-style clothing and a sword is strapped to his back. The scene is illuminated by the warm glow of the fire, contrasting with the cool, misty background.",
+      "description": "The scene depicts a fantasy setting in a dense, misty forest. The central figure is a young adventurer who appears to be harnessing magical fire. The atmosphere is mysterious and magical, with a sense of adventure.",
+      "labels": {
+        "people": [
+          "young adventurer"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "flame",
+          "sword",
+          "medieval clothing"
+        ],
+        "actions": [
+          "holding flame"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rise of the Young Pyromancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rise of the Young Pyromancer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young warrior stands in a mystical forest, holding a flame in his hand. His intense gaze and rugged attire suggest readiness for an adventure. The warm glow of the fire contrasts with the cool, misty background.",
+      "description": "The scene depicts a fantasy setting where a young warrior is wielding magic in a dense, mysterious forest. The atmosphere is filled with a sense of magic and anticipation.",
+      "labels": {
+        "people": [
+          "warrior",
+          "young man"
+        ],
+        "nature": [
+          "forest",
+          "mist"
+        ],
+        "objects": [
+          "flame",
+          "sword",
+          "cloak"
+        ],
+        "actions": [
+          "holding flame",
+          "standing"
+        ],
+        "emotions": [
+          "intense",
+          "determined"
+        ],
+        "scenes": [
+          "fantasy",
+          "adventure"
+        ],
+        "concepts": [
+          "magic",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rise of the Young Pyromancer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rise of the Young Pyromancer/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young warrior stands in a dimly lit forest, holding a flame in his hand. His intense gaze is fixed forward, and he is dressed in rugged, medieval-style clothing with a sword strapped to his back.",
+      "description": "The scene depicts a fantasy setting in a forest, where a young warrior is harnessing fire magic. The atmosphere is mystical and tense, with the glow of the flame illuminating his determined expression.",
+      "labels": {
+        "people": [
+          "young warrior"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "flame",
+          "sword",
+          "medieval clothing"
+        ],
+        "actions": [
+          "holding flame",
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young adventurer, warrior, young man, young warrior. Nature: forest, mist. Objects: flame, sword, medieval clothing, cloak. Actions: holding flame, standing. Emotions: determination, intense, determined. Scenes: fantasy, mystical, adventure. Concepts: magic, adventure, mysticism",
+  "primary_labels": {
+    "people": [
+      "young adventurer",
+      "warrior",
+      "young man",
+      "young warrior"
+    ],
+    "nature": [
+      "forest",
+      "mist"
+    ],
+    "objects": [
+      "flame",
+      "sword",
+      "medieval clothing",
+      "cloak"
+    ],
+    "actions": [
+      "holding flame",
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "intense",
+      "determined"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical",
+      "adventure"
+    ],
+    "concepts": [
+      "magic",
+      "adventure",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

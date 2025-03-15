@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/very hungry kitten eating hambur.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/very hungry kitten eating hambur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/very hungry kitten eating hambur/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is joyfully devouring a large cheeseburger, surrounded by flying fries and scattered food. The cat's eyes are closed in delight as it takes a big bite, with its paws gripping the burger tightly.",
+      "description": "The scene depicts a playful and whimsical moment featuring a cat enjoying a fast-food meal. The setting is lively, with food items like fries and burgers creating a dynamic atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cheeseburger",
+          "fries"
+        ],
+        "actions": [
+          "eating",
+          "biting"
+        ],
+        "emotions": [
+          "joyful",
+          "delight"
+        ],
+        "scenes": [
+          "playful",
+          "whimsical"
+        ],
+        "concepts": [
+          "fast food",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/very hungry kitten eating hambur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/very hungry kitten eating hambur/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat is contentedly holding a large hamburger, surrounded by flying fries and scattered food items. The cat appears to be in a state of bliss, with its eyes closed and a serene expression.",
+      "description": "The scene depicts a humorous and whimsical setting where a cat is indulging in a fast-food feast. The background is filled with dynamic movement as fries and other food items float around, creating a playful atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "hamburger",
+          "fries"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "contentment",
+          "bliss"
+        ],
+        "scenes": [
+          "whimsical",
+          "playful"
+        ],
+        "concepts": [
+          "indulgence",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/very hungry kitten eating hambur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/very hungry kitten eating hambur/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy kitten is adorably holding a large cheeseburger with both paws, looking ready to take a big bite. The scene is playful and humorous, with fries and other food items scattered around.",
+      "description": "The image depicts a cute, fluffy kitten in a whimsical setting, surrounded by fast food items like a cheeseburger and fries. The kitten's expression and the scattered food create a lighthearted and amusing atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "cheeseburger",
+          "fries"
+        ],
+        "actions": [
+          "holding",
+          "eating"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "indoor",
+          "food"
+        ],
+        "concepts": [
+          "whimsy",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, kitten. Objects: fries, cheeseburger, hamburger. Actions: eating, biting, holding. Emotions: joyful, delight, contentment, bliss, playful. Scenes: playful, whimsical, indoor, food. Concepts: humor, fast food, indulgence, whimsy, cuteness",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "kitten"
+    ],
+    "objects": [
+      "fries",
+      "cheeseburger",
+      "hamburger"
+    ],
+    "actions": [
+      "eating",
+      "biting",
+      "holding"
+    ],
+    "emotions": [
+      "joyful",
+      "delight",
+      "contentment",
+      "bliss",
+      "playful"
+    ],
+    "scenes": [
+      "playful",
+      "whimsical",
+      "indoor",
+      "food"
+    ],
+    "concepts": [
+      "humor",
+      "fast food",
+      "indulgence",
+      "whimsy",
+      "cuteness"
+    ]
+  },
+  "metadata": {}
+}

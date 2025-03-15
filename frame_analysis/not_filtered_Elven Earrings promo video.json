@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elven Earrings promo video.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elven Earrings promo video.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elven Earrings promo video/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two ornate silver earrings with blue gemstones hang delicately from a tree branch. The background is a lush, blurred green, suggesting a natural setting.",
+      "description": "The scene captures a pair of earrings suspended from a branch in a serene, natural environment. The focus is on the intricate design of the jewelry against a soft, green backdrop.",
+      "labels": {
+        "nature": [
+          "tree branch",
+          "leaves"
+        ],
+        "objects": [
+          "earrings",
+          "jewelry",
+          "gemstones"
+        ],
+        "scenes": [
+          "natural setting",
+          "outdoors"
+        ],
+        "concepts": [
+          "elegance",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Elven Earrings promo video.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Elven Earrings promo video/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two intricately designed earrings hang from a tree branch, glistening with a radiant blue glow. The surrounding leaves and soft, diffused light create a serene and magical atmosphere.",
+      "description": "The scene depicts a pair of earrings suspended from a tree branch in a lush, green forest. The earrings emit a bright blue light, enhancing the mystical feel of the natural setting.",
+      "labels": {
+        "objects": [
+          "earrings",
+          "tree branch",
+          "leaves"
+        ],
+        "nature": [
+          "forest",
+          "tree"
+        ],
+        "actions": [
+          "hanging"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "nature",
+          "jewelry display"
+        ],
+        "concepts": [
+          "mystical",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: tree branch, leaves, forest, tree. Objects: earrings, jewelry, gemstones, tree branch, leaves. Scenes: natural setting, outdoors, nature, jewelry display. Concepts: elegance, serenity, mystical, enchantment. Actions: hanging. Emotions: serene, magical",
+  "primary_labels": {
+    "nature": [
+      "tree branch",
+      "leaves",
+      "forest",
+      "tree"
+    ],
+    "objects": [
+      "earrings",
+      "jewelry",
+      "gemstones",
+      "tree branch",
+      "leaves"
+    ],
+    "scenes": [
+      "natural setting",
+      "outdoors",
+      "nature",
+      "jewelry display"
+    ],
+    "concepts": [
+      "elegance",
+      "serenity",
+      "mystical",
+      "enchantment"
+    ],
+    "actions": [
+      "hanging"
+    ],
+    "emotions": [
+      "serene",
+      "magical"
+    ]
+  },
+  "metadata": {}
+}

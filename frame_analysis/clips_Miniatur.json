@@ -1,0 +1,159 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniatur.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniatur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniatur/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature construction workers seemingly preparing a large dish of rice and chicken. The tiny figures, wearing yellow hard hats, are positioned around the food, creating an imaginative culinary construction site. In the background, a chef appears to be observing the scene while enjoying a meal.",
+      "description": "The image presents a playful and imaginative setting where food preparation is humorously likened to a construction project. Miniature figures are creatively integrated into the scene to simulate a construction site around a dish of rice and chicken.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "chef"
+        ],
+        "objects": [
+          "rice",
+          "chicken",
+          "hard hats",
+          "serving dish"
+        ],
+        "actions": [
+          "construction",
+          "eating"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "culinary",
+          "construction"
+        ],
+        "concepts": [
+          "miniature",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniatur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniatur/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts a large dish of rice and chicken being 'constructed' by miniature figures wearing construction helmets. Steam rises from the dish, adding a sense of warmth and freshness, while a person in the background appears to be preparing food.",
+      "description": "The scene is set in a playful, imaginative world where food is portrayed as a construction site. Miniature figures, resembling construction workers, are interacting with a large dish of rice and chicken, creating a humorous and creative visual. The background features a person in a white chef's coat, adding to the culinary theme.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "person in chef coat"
+        ],
+        "objects": [
+          "rice",
+          "chicken",
+          "construction helmets",
+          "copper lid"
+        ],
+        "actions": [
+          "cooking",
+          "constructing"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "kitchen",
+          "construction site"
+        ],
+        "concepts": [
+          "miniature world",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Miniatur.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Miniatur/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A whimsical culinary scene features a large dish of rice and chicken, with miniature construction workers seemingly preparing the meal. A piece of chicken is being lowered onto the dish by a tiny crane, adding to the playful atmosphere. Steam rises from the dish, enhancing the illusion of a freshly cooked meal.",
+      "description": "The scene is set in a kitchen environment where a creative food presentation is taking place. The focus is on a large platter of rice and chicken, with miniature figures adding a playful construction theme.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "chef"
+        ],
+        "objects": [
+          "rice",
+          "chicken",
+          "crane",
+          "platter"
+        ],
+        "actions": [
+          "lowering chicken",
+          "construction theme"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary presentation"
+        ],
+        "concepts": [
+          "creativity",
+          "miniature world"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, chef, person in chef coat. Objects: rice, chicken, hard hats, serving dish, construction helmets. Actions: construction, eating, cooking, constructing, lowering chicken. Emotions: playful, humorous, creative, whimsical. Scenes: kitchen, culinary, construction, construction site, culinary presentation. Concepts: miniature world, miniature, imaginative, culinary art, creativity",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "chef",
+      "person in chef coat"
+    ],
+    "objects": [
+      "rice",
+      "chicken",
+      "hard hats",
+      "serving dish",
+      "construction helmets"
+    ],
+    "actions": [
+      "construction",
+      "eating",
+      "cooking",
+      "constructing",
+      "lowering chicken"
+    ],
+    "emotions": [
+      "playful",
+      "humorous",
+      "creative",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary",
+      "construction",
+      "construction site",
+      "culinary presentation"
+    ],
+    "concepts": [
+      "miniature world",
+      "miniature",
+      "imaginative",
+      "culinary art",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

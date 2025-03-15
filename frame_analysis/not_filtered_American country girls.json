@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/American country girls.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/American country girls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/American country girls/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of young girls sits closely together, with one girl in the foreground looking directly at the camera. The girls wear patterned dresses, and their expressions are calm and introspective.",
+      "description": "The scene captures a moment of stillness among a group of young girls, possibly in a social or outdoor setting. The focus is on the girl in the foreground, whose direct gaze creates a connection with the viewer.",
+      "labels": {
+        "people": [
+          "young girls"
+        ],
+        "objects": [
+          "dresses"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "social gathering",
+          "outdoor"
+        ],
+        "concepts": [
+          "youth",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/American country girls.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/American country girls/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of young girls sits closely together, with one girl in the foreground gazing directly at the camera. The girls are dressed in vintage-style clothing, and their expressions range from curious to contemplative.",
+      "description": "The scene depicts a group of young girls sitting outdoors, possibly on a porch or patio. The setting suggests a casual, sunny day with a nostalgic feel, enhanced by the vintage clothing and hairstyles.",
+      "labels": {
+        "people": [
+          "girls",
+          "children"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "curiosity",
+          "contemplation"
+        ],
+        "scenes": [
+          "outdoor",
+          "group portrait"
+        ],
+        "concepts": [
+          "nostalgia",
+          "vintage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young girls, girls, children. Objects: dresses, clothing. Actions: sitting. Emotions: calm, introspective, curiosity, contemplation. Scenes: outdoor, social gathering, group portrait. Concepts: youth, introspection, nostalgia, vintage",
+  "primary_labels": {
+    "people": [
+      "young girls",
+      "girls",
+      "children"
+    ],
+    "objects": [
+      "dresses",
+      "clothing"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "curiosity",
+      "contemplation"
+    ],
+    "scenes": [
+      "outdoor",
+      "social gathering",
+      "group portrait"
+    ],
+    "concepts": [
+      "youth",
+      "introspection",
+      "nostalgia",
+      "vintage"
+    ]
+  },
+  "metadata": {}
+}

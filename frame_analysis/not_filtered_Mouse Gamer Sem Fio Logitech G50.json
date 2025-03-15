@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse Gamer Sem Fio Logitech G50.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse Gamer Sem Fio Logitech G50.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mouse Gamer Sem Fio Logitech G50/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, black gaming mouse with multiple buttons and a prominent scroll wheel is displayed against a plain white background. The mouse features a glowing blue logo, adding a touch of modern design.",
+      "description": "The image showcases a high-performance gaming mouse, designed for precision and comfort. It is set against a simple white backdrop, emphasizing its ergonomic and futuristic design.",
+      "labels": {
+        "objects": [
+          "gaming mouse",
+          "buttons",
+          "scroll wheel",
+          "logo"
+        ],
+        "colors": [
+          "black",
+          "blue"
+        ],
+        "scenes": [
+          "product display"
+        ],
+        "concepts": [
+          "technology",
+          "gaming",
+          "ergonomics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mouse Gamer Sem Fio Logitech G50.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mouse Gamer Sem Fio Logitech G50/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce dragon with glowing blue eyes and sharp horns stands prominently, its wings partially spread. The dragon's scales shimmer with a mix of blue and black hues, adding to its intimidating presence.",
+      "description": "The scene depicts a mythical dragon in a dramatic pose, set against a blurred, atmospheric background. The creature's detailed features and dynamic stance suggest a moment of action or confrontation.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "wings",
+          "horns"
+        ],
+        "actions": [
+          "posing",
+          "spreading wings"
+        ],
+        "emotions": [
+          "fierce",
+          "intimidating"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "mythology",
+          "creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: gaming mouse, buttons, scroll wheel, logo, wings. Colors: black, blue. Scenes: product display, fantasy, mythical. Concepts: technology, gaming, ergonomics, mythology, creature. Animals: dragon. Actions: posing, spreading wings. Emotions: fierce, intimidating",
+  "primary_labels": {
+    "objects": [
+      "gaming mouse",
+      "buttons",
+      "scroll wheel",
+      "logo",
+      "wings"
+    ],
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "scenes": [
+      "product display",
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "technology",
+      "gaming",
+      "ergonomics",
+      "mythology",
+      "creature"
+    ],
+    "animals": [
+      "dragon"
+    ],
+    "actions": [
+      "posing",
+      "spreading wings"
+    ],
+    "emotions": [
+      "fierce",
+      "intimidating"
+    ]
+  },
+  "metadata": {}
+}

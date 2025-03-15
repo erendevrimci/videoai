@@ -1,0 +1,136 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gatito dj.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gatito dj.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gatito dj/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat wearing headphones stands in front of a DJ turntable, appearing to be in control of the music. The background is filled with colorful lights and a blurred crowd, suggesting a lively party atmosphere.",
+      "description": "The scene is set in a vibrant nightclub or party environment where a cat is humorously depicted as a DJ. The cat is positioned prominently with a DJ turntable, and the background is filled with colorful bokeh lights and an energetic crowd.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "headphones",
+          "DJ turntable"
+        ],
+        "actions": [
+          "DJing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "nightclub",
+          "party"
+        ],
+        "concepts": [
+          "humor",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gatito dj.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gatito dj/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat is positioned at a DJ booth, appearing to operate the turntable with one paw. The scene is set in a lively club environment with colorful lights and a blurred crowd in the background.",
+      "description": "The image depicts a humorous and surreal scene where a cat is acting as a DJ in a nightclub. The setting is vibrant, with bright stage lights and an audience that seems to be enjoying the music.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "DJ booth",
+          "turntable",
+          "headphones"
+        ],
+        "actions": [
+          "DJing"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "nightclub",
+          "party"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gatito dj.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gatito dj/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A tabby cat is positioned at a DJ booth, appearing to mix music with its paw on the turntable. The cat is wearing headphones, creating a playful and whimsical scene.",
+      "description": "The scene is set in a lively club environment with colorful lights and a blurred crowd in the background, suggesting a party atmosphere. The focus is on the cat, which humorously takes on the role of a DJ.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "DJ booth",
+          "headphones",
+          "turntable"
+        ],
+        "actions": [
+          "DJing",
+          "mixing music"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "club",
+          "party"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: headphones, DJ booth, turntable, DJ turntable. Actions: DJing, mixing music. Emotions: playful, whimsical. Scenes: party, nightclub, club. Concepts: humor, anthropomorphism, music",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "headphones",
+      "DJ booth",
+      "turntable",
+      "DJ turntable"
+    ],
+    "actions": [
+      "DJing",
+      "mixing music"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "party",
+      "nightclub",
+      "club"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism",
+      "music"
+    ]
+  },
+  "metadata": {}
+}

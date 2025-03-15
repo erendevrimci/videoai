@@ -1,0 +1,151 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGreenEyedWomanStarts.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGreenEyedWomanStarts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGreenEyedWomanStarts/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with dark hair styled in pigtails stands confidently against a graffiti-covered wall. She wears a black leather jacket, a crop top with a skull design, and plaid shorts with harness details. The background features red heart motifs and various posters, adding to the edgy atmosphere.",
+      "description": "The scene is set in an urban environment, likely an alley or a street with graffiti and posters. The woman is the focal point, exuding a punk or goth aesthetic. Her pose and attire suggest confidence and a rebellious attitude.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "leather jacket",
+          "crop top",
+          "plaid shorts",
+          "harness",
+          "posters",
+          "graffiti"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "rebellion"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "punk",
+          "goth",
+          "edgy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGreenEyedWomanStarts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGreenEyedWomanStarts/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently in front of a graffiti-covered wall, wearing a black leather jacket and a graphic t-shirt. The background features vibrant red heart designs and various posters, adding an edgy and artistic vibe to the scene.",
+      "description": "The scene is set indoors against a creatively decorated wall, filled with graffiti and posters. The person is dressed in a punk-inspired outfit, exuding a bold and confident presence.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "leather jacket",
+          "graphic t-shirt",
+          "posters",
+          "graffiti"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "artistic"
+        ],
+        "concepts": [
+          "punk style",
+          "edgy fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGreenEyedWomanStarts.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGreenEyedWomanStarts/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person with styled pigtails and bold makeup stands confidently against a graffiti-covered wall. They wear a black leather jacket, a graphic crop top, and plaid shorts with harness details. The background is adorned with various posters and a prominent red heart shape.",
+      "description": "The scene is set in an urban, artistic environment, possibly a studio or a street with graffiti art. The person is posing with a playful and edgy demeanor, embodying a punk or alternative fashion style.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "leather jacket",
+          "crop top",
+          "plaid shorts",
+          "posters",
+          "graffiti"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident",
+          "playful"
+        ],
+        "scenes": [
+          "urban",
+          "artistic"
+        ],
+        "concepts": [
+          "punk fashion",
+          "alternative style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: leather jacket, posters, graffiti, crop top, plaid shorts. Actions: standing, posing. Emotions: confidence, rebellion, confident, playful. Scenes: urban, artistic, street, indoor. Concepts: punk, goth, edgy, punk style, edgy fashion",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "leather jacket",
+      "posters",
+      "graffiti",
+      "crop top",
+      "plaid shorts"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "rebellion",
+      "confident",
+      "playful"
+    ],
+    "scenes": [
+      "urban",
+      "artistic",
+      "street",
+      "indoor"
+    ],
+    "concepts": [
+      "punk",
+      "goth",
+      "edgy",
+      "punk style",
+      "edgy fashion"
+    ]
+  },
+  "metadata": {}
+}

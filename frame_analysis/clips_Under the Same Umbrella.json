@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Under the Same Umbrella.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Under the Same Umbrella.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Under the Same Umbrella/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple stands closely under an umbrella on a rainy evening, illuminated by the warm glow of streetlights. The rain creates a shimmering effect on the umbrella and the wet street, enhancing the romantic atmosphere. They gaze into each other's eyes, sharing an intimate moment amidst the bustling city backdrop.",
+      "description": "The scene captures a romantic moment between two people under an umbrella on a rainy city street. The warm streetlights contrast with the cool rain, creating a cozy and intimate setting.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "rain"
+        ],
+        "objects": [
+          "umbrella",
+          "streetlights"
+        ],
+        "actions": [
+          "gazing",
+          "standing"
+        ],
+        "emotions": [
+          "romantic",
+          "intimate"
+        ],
+        "scenes": [
+          "city street",
+          "rainy evening"
+        ],
+        "concepts": [
+          "romance",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Under the Same Umbrella.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Under the Same Umbrella/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple stands closely under an umbrella on a rainy street, illuminated by warm streetlights. The man holds the umbrella, shielding both from the rain, while the woman looks down with a gentle smile.",
+      "description": "The scene captures a tender moment between two people on a rainy evening. The street is wet, reflecting the golden glow of the streetlights, creating a romantic and serene atmosphere.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "umbrella",
+          "streetlights"
+        ],
+        "actions": [
+          "standing",
+          "holding umbrella"
+        ],
+        "emotions": [
+          "tenderness",
+          "serenity"
+        ],
+        "scenes": [
+          "rainy street",
+          "evening"
+        ],
+        "concepts": [
+          "romance",
+          "intimacy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple, man, woman. Nature: rain. Objects: umbrella, streetlights. Actions: standing, gazing, holding umbrella. Emotions: romantic, intimate, tenderness, serenity. Scenes: city street, rainy evening, rainy street, evening. Concepts: romance, intimacy",
+  "primary_labels": {
+    "people": [
+      "couple",
+      "man",
+      "woman"
+    ],
+    "nature": [
+      "rain"
+    ],
+    "objects": [
+      "umbrella",
+      "streetlights"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "holding umbrella"
+    ],
+    "emotions": [
+      "romantic",
+      "intimate",
+      "tenderness",
+      "serenity"
+    ],
+    "scenes": [
+      "city street",
+      "rainy evening",
+      "rainy street",
+      "evening"
+    ],
+    "concepts": [
+      "romance",
+      "intimacy"
+    ]
+  },
+  "metadata": {}
+}

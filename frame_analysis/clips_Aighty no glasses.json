@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aighty no glasses.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aighty no glasses.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aighty no glasses/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A digitally illustrated portrait of a young woman with striking green eyes and glasses. Her hair is dark with vibrant green highlights, and she wears a black choker and elegant earrings.",
+      "description": "The scene is a close-up digital artwork of a young woman, focusing on her facial features and accessories. The background is softly blurred, emphasizing the subject.",
+      "labels": {
+        "people": [
+          "young woman"
+        ],
+        "objects": [
+          "glasses",
+          "choker",
+          "earrings"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "digital art",
+          "illustration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Aighty no glasses.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Aighty no glasses/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with striking green eyes and dark hair with green highlights smiles warmly at the camera. She holds a pair of glasses in her hand, adding a playful element to her expression.",
+      "description": "The scene captures a close-up portrait of a woman in a bright setting, focusing on her expressive features and vibrant hair color. The atmosphere is lighthearted and engaging, with a sense of personal connection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "earrings",
+          "choker"
+        ],
+        "actions": [
+          "smiling",
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young woman, woman. Objects: glasses, choker, earrings. Emotions: calm, happiness, playfulness. Scenes: portrait. Concepts: digital art, illustration, fashion, style. Actions: smiling, holding",
+  "primary_labels": {
+    "people": [
+      "young woman",
+      "woman"
+    ],
+    "objects": [
+      "glasses",
+      "choker",
+      "earrings"
+    ],
+    "emotions": [
+      "calm",
+      "happiness",
+      "playfulness"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "digital art",
+      "illustration",
+      "fashion",
+      "style"
+    ],
+    "actions": [
+      "smiling",
+      "holding"
+    ]
+  },
+  "metadata": {}
+}

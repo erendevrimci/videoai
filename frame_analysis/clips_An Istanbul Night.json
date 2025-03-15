@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An Istanbul Night.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An Istanbul Night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An Istanbul Night/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two individuals dressed in superhero costumes stand closely by a waterfront at dusk. The scene is set against a backdrop of a softly lit tower, reflecting on the water.",
+      "description": "The image depicts a dramatic moment between two people in superhero costumes, possibly Batman and Catwoman, by a waterfront. The setting is serene with a historical tower in the background, suggesting a cityscape at dusk.",
+      "labels": {
+        "people": [
+          "superheroes"
+        ],
+        "objects": [
+          "costumes",
+          "tower"
+        ],
+        "actions": [
+          "standing",
+          "embracing"
+        ],
+        "emotions": [
+          "intensity",
+          "connection"
+        ],
+        "scenes": [
+          "waterfront",
+          "cityscape"
+        ],
+        "concepts": [
+          "superhero theme",
+          "evening setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An Istanbul Night.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An Istanbul Night/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two individuals dressed in superhero costumes stand closely together by the waterfront. The background features a blurred lighthouse, suggesting a coastal setting. Their body language indicates a moment of connection or conversation.",
+      "description": "The scene depicts two people in superhero costumes, possibly Batman and Catwoman, standing by a waterfront with a lighthouse in the background. The setting appears to be at dusk or dawn, creating a serene and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "superheroes"
+        ],
+        "objects": [
+          "costumes",
+          "lighthouse"
+        ],
+        "actions": [
+          "standing",
+          "embracing"
+        ],
+        "emotions": [
+          "intimacy"
+        ],
+        "scenes": [
+          "waterfront",
+          "dusk"
+        ],
+        "concepts": [
+          "superhero",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: superheroes. Objects: costumes, tower, lighthouse. Actions: standing, embracing. Emotions: intensity, connection, intimacy. Scenes: waterfront, cityscape, dusk. Concepts: superhero theme, evening setting, superhero, connection",
+  "primary_labels": {
+    "people": [
+      "superheroes"
+    ],
+    "objects": [
+      "costumes",
+      "tower",
+      "lighthouse"
+    ],
+    "actions": [
+      "standing",
+      "embracing"
+    ],
+    "emotions": [
+      "intensity",
+      "connection",
+      "intimacy"
+    ],
+    "scenes": [
+      "waterfront",
+      "cityscape",
+      "dusk"
+    ],
+    "concepts": [
+      "superhero theme",
+      "evening setting",
+      "superhero",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

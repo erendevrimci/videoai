@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/weight lifting cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/weight lifting cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/weight lifting cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy brown cat humorously appears to lift a barbell in a gym setting. The cat's determined expression adds to the comedic effect of the scene.",
+      "description": "The image depicts a cat in a gym environment, seemingly lifting a barbell. The scene is playful and surreal, combining elements of fitness with a whimsical twist.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "weights"
+        ],
+        "actions": [
+          "lifting"
+        ],
+        "emotions": [
+          "humor",
+          "determination"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "fitness",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/weight lifting cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/weight lifting cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A determined cat is lifting a barbell in a gym, with a colorful bird perched on its head. The cat's expression is focused, while the bird appears to be flapping its wings energetically.",
+      "description": "The scene takes place in a gym setting, where a cat is humorously depicted lifting weights. A bird adds a whimsical touch by sitting on the cat's head, creating a playful and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cat",
+          "bird"
+        ],
+        "objects": [
+          "barbell",
+          "weights"
+        ],
+        "actions": [
+          "lifting",
+          "flapping"
+        ],
+        "emotions": [
+          "determination",
+          "focus"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "humor",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/weight lifting cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/weight lifting cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy cat stands on its hind legs, appearing to lift a heavy barbell in a gym setting. The cat's expression is determined, adding a humorous touch to the scene.",
+      "description": "The image depicts a gym environment where a cat is humorously portrayed as lifting a barbell. The setting suggests a fitness theme, and the cat's stance and expression create a playful atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "barbell",
+          "gym equipment"
+        ],
+        "actions": [
+          "lifting"
+        ],
+        "emotions": [
+          "determination",
+          "humor"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "fitness",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat, bird. Objects: barbell, weights, gym equipment. Actions: lifting, flapping. Emotions: determination, humor, focus. Scenes: gym. Concepts: fitness, humor, anthropomorphism, surreal",
+  "primary_labels": {
+    "animals": [
+      "cat",
+      "bird"
+    ],
+    "objects": [
+      "barbell",
+      "weights",
+      "gym equipment"
+    ],
+    "actions": [
+      "lifting",
+      "flapping"
+    ],
+    "emotions": [
+      "determination",
+      "humor",
+      "focus"
+    ],
+    "scenes": [
+      "gym"
+    ],
+    "concepts": [
+      "fitness",
+      "humor",
+      "anthropomorphism",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merge.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merge.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Merge/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering robot clad in a weathered red cape strides confidently through a deserted urban street. The scene is filled with swirling autumn leaves and a backdrop of misty, dilapidated buildings.",
+      "description": "The image depicts a futuristic setting where a large humanoid robot, resembling a mech, is walking down an empty city street. The environment is gritty and atmospheric, with signs of decay and abandonment.",
+      "labels": {
+        "objects": [
+          "robot",
+          "cape",
+          "buildings",
+          "leaves"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "abandonment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Merge.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Merge/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering robot clad in metallic armor strides forward with a sense of purpose. The robot is adorned with a red cape that billows behind it, adding a dramatic flair to its imposing presence.",
+      "description": "The scene depicts a futuristic setting where a large robot is walking through a misty environment. The robot's design is intricate, with visible wear and tear, suggesting it has been through battles.",
+      "labels": {
+        "objects": [
+          "robot",
+          "armor",
+          "cape"
+        ],
+        "actions": [
+          "walking",
+          "striding"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "futuristic",
+          "misty"
+        ],
+        "concepts": [
+          "technology",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, cape, buildings, leaves, armor. Actions: walking, striding. Emotions: determination. Scenes: futuristic, urban, misty. Concepts: technology, abandonment, strength",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "cape",
+      "buildings",
+      "leaves",
+      "armor"
+    ],
+    "actions": [
+      "walking",
+      "striding"
+    ],
+    "emotions": [
+      "determination"
+    ],
+    "scenes": [
+      "futuristic",
+      "urban",
+      "misty"
+    ],
+    "concepts": [
+      "technology",
+      "abandonment",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

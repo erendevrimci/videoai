@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6a5f\u5668\u4eba\u8ddf\u8457\u6211\u5f80\u53f3\u908a\u8d70\u53bb.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6a5f\u5668\u4eba\u8ddf\u8457\u6211\u5f80\u53f3\u908a\u8d70\u53bb.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u6a5f\u5668\u4eba\u8ddf\u8457\u6211\u5f80\u53f3\u908a\u8d70\u53bb/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man walks confidently down a futuristic city street with a large robot following closely behind. The scene is set in a misty urban environment with neon lights and towering buildings.",
+      "description": "The image depicts a futuristic cityscape where a man in a casual outfit is walking down a street, accompanied by a large robotic figure. The atmosphere is misty and the city is illuminated by neon signs, suggesting a high-tech, urban setting.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "robot",
+          "buildings",
+          "neon signs"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "futuristic city",
+          "urban street"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u6a5f\u5668\u4eba\u8ddf\u8457\u6211\u5f80\u53f3\u908a\u8d70\u53bb.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u6a5f\u5668\u4eba\u8ddf\u8457\u6211\u5f80\u53f3\u908a\u8d70\u53bb/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic armored figure stands in a dimly lit urban environment. The figure is clad in a high-tech exosuit with glowing accents, suggesting advanced technology.",
+      "description": "The scene depicts a high-tech, futuristic setting with a focus on a robotic or armored figure. The environment appears to be an urban area, possibly a city at night, with artificial lighting casting a moody atmosphere.",
+      "labels": {
+        "objects": [
+          "exosuit",
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intense",
+          "focused"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "cybernetic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: robot, buildings, neon signs, exosuit, armor. Actions: walking, standing. Emotions: confident, intense, focused. Scenes: futuristic city, urban street, urban, futuristic. Concepts: technology, future, urban life, cybernetic",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "robot",
+      "buildings",
+      "neon signs",
+      "exosuit",
+      "armor"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "intense",
+      "focused"
+    ],
+    "scenes": [
+      "futuristic city",
+      "urban street",
+      "urban",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "future",
+      "urban life",
+      "cybernetic"
+    ]
+  },
+  "metadata": {}
+}

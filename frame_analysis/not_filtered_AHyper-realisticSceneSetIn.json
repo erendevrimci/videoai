@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticSceneSetIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticSceneSetIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticSceneSetIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek red sports car is parked on a cobblestone street in front of an ancient Roman structure, surrounded by people in traditional Roman attire. The scene juxtaposes modern technology with historical architecture, creating a striking visual contrast. The Colosseum looms majestically in the background, adding to the grandeur of the setting.",
+      "description": "The scene is set in an ancient Roman environment, likely a digital or artistic representation, where a modern red sports car is placed among historical architecture and people dressed in Roman clothing. The Colosseum is prominently visible, suggesting a blend of past and present.",
+      "labels": {
+        "people": [
+          "crowd",
+          "Roman attire"
+        ],
+        "objects": [
+          "sports car",
+          "Colosseum",
+          "columns"
+        ],
+        "actions": [
+          "standing",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity",
+          "awe"
+        ],
+        "scenes": [
+          "historical",
+          "urban"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "time travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticSceneSetIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticSceneSetIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek red sports car is parked on a cobblestone street with its door open, set against the backdrop of an ancient architectural structure. The car's glossy finish reflects the ambient light, adding to its striking appearance.",
+      "description": "The scene captures a vibrant red sports car in a historic urban setting, likely a European city with cobblestone streets and classical architecture. The car is prominently positioned in the foreground, while people in the background suggest a lively atmosphere.",
+      "labels": {
+        "objects": [
+          "sports car",
+          "cobblestone street",
+          "open car door"
+        ],
+        "people": [
+          "crowd"
+        ],
+        "actions": [
+          "parking"
+        ],
+        "emotions": [
+          "excitement"
+        ],
+        "scenes": [
+          "urban",
+          "historic"
+        ],
+        "concepts": [
+          "luxury",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd, Roman attire. Objects: sports car, Colosseum, columns, cobblestone street, open car door. Actions: standing, observing, parking. Emotions: curiosity, awe, excitement. Scenes: urban, historical, historic. Concepts: juxtaposition, time travel, luxury, speed",
+  "primary_labels": {
+    "people": [
+      "crowd",
+      "Roman attire"
+    ],
+    "objects": [
+      "sports car",
+      "Colosseum",
+      "columns",
+      "cobblestone street",
+      "open car door"
+    ],
+    "actions": [
+      "standing",
+      "observing",
+      "parking"
+    ],
+    "emotions": [
+      "curiosity",
+      "awe",
+      "excitement"
+    ],
+    "scenes": [
+      "urban",
+      "historical",
+      "historic"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "time travel",
+      "luxury",
+      "speed"
+    ]
+  },
+  "metadata": {}
+}

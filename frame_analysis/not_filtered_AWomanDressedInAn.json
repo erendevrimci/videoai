@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanDressedInAn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanDressedInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanDressedInAn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a black dress and fishnet stockings kneels beside a lion, gently holding its face. The scene is set against a plain, light-colored background, highlighting the contrast between the woman's attire and the lion's mane.",
+      "description": "The image captures a striking interaction between a woman and a lion in a controlled setting. The woman appears calm and composed as she engages with the lion, suggesting a sense of trust and connection.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "objects": [
+          "dress",
+          "fishnet stockings",
+          "shoes"
+        ],
+        "actions": [
+          "kneeling",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "trust"
+        ],
+        "scenes": [
+          "controlled setting"
+        ],
+        "concepts": [
+          "interaction",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanDressedInAn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanDressedInAn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a black dress sits closely beside a majestic lion, gently touching its mane. The scene exudes a sense of calm and mutual trust between the two. The lion appears relaxed, with its eyes closed, basking in the gentle interaction.",
+      "description": "The scene captures a serene moment between a woman and a lion, set against a simple background. The woman, dressed elegantly, is seated next to the lion, creating an intimate and tranquil atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "lion"
+        ],
+        "objects": [
+          "dress",
+          "shoes"
+        ],
+        "actions": [
+          "sitting",
+          "touching"
+        ],
+        "emotions": [
+          "calm",
+          "trust"
+        ],
+        "scenes": [
+          "intimate interaction"
+        ],
+        "concepts": [
+          "serenity",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: lion. Objects: dress, shoes, fishnet stockings. Actions: kneeling, holding, sitting, touching. Emotions: calm, trust. Scenes: controlled setting, intimate interaction. Concepts: interaction, contrast, serenity, connection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "lion"
+    ],
+    "objects": [
+      "dress",
+      "shoes",
+      "fishnet stockings"
+    ],
+    "actions": [
+      "kneeling",
+      "holding",
+      "sitting",
+      "touching"
+    ],
+    "emotions": [
+      "calm",
+      "trust"
+    ],
+    "scenes": [
+      "controlled setting",
+      "intimate interaction"
+    ],
+    "concepts": [
+      "interaction",
+      "contrast",
+      "serenity",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

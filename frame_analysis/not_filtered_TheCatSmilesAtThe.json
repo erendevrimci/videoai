@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatSmilesAtThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatSmilesAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCatSmilesAtThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cat dressed as a delivery person stands in a doorway, holding a pizza box. The cat wears a yellow helmet and matching jacket, adding a humorous twist to the scene. Its wide eyes and serious expression create a comical contrast to the situation.",
+      "description": "The scene depicts a cat humorously dressed as a pizza delivery person, standing in a doorway. The setting suggests a playful and imaginative scenario, likely indoors.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pizza box",
+          "helmet",
+          "jacket"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humorous",
+          "serious"
+        ],
+        "scenes": [
+          "indoor",
+          "doorway"
+        ],
+        "concepts": [
+          "imagination",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatSmilesAtThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCatSmilesAtThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat dressed in a yellow raincoat and helmet is holding a pizza box, presenting it with a playful expression. The cat's wide eyes and slightly open mouth suggest excitement or anticipation. The scene is both humorous and endearing, capturing a whimsical moment.",
+      "description": "The scene depicts a cat humorously dressed as a delivery person, complete with a yellow raincoat and helmet, holding a pizza box. The setting appears to be indoors, possibly near a doorway, with a focus on the cat's expressive face and the pizza.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "pizza",
+          "pizza box",
+          "helmet",
+          "raincoat"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "playful",
+          "excited"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: pizza box, helmet, jacket, pizza, raincoat. Actions: holding. Emotions: humorous, serious, playful, excited. Scenes: indoor, doorway. Concepts: humor, imagination, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "pizza box",
+      "helmet",
+      "jacket",
+      "pizza",
+      "raincoat"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "humorous",
+      "serious",
+      "playful",
+      "excited"
+    ],
+    "scenes": [
+      "indoor",
+      "doorway"
+    ],
+    "concepts": [
+      "humor",
+      "imagination",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

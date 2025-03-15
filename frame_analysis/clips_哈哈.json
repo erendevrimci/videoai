@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u54c8\u54c8.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u54c8\u54c8.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u54c8\u54c8/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with straight brown hair poses for a selfie against a textured wall. She is wearing a light teal sweater and has a neutral expression with slightly parted lips.",
+      "description": "The scene captures a close-up selfie of a woman indoors, likely in a casual setting. The background features a patterned wall, adding subtle texture to the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "actions": [
+          "posing",
+          "selfie"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "self-portrait",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u54c8\u54c8.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u54c8\u54c8/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with brown hair smiles warmly at the camera. She is wearing a light teal sweater and is set against a patterned wallpaper background.",
+      "description": "The scene captures a close-up portrait of a smiling woman indoors. The setting appears to be a cozy room with decorative wallpaper.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "portrait"
+        ],
+        "concepts": [
+          "warmth",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u54c8\u54c8.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u54c8\u54c8/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman with long brown hair smiles warmly at the camera. She is wearing a light green sweater, and the background features a subtle floral pattern.",
+      "description": "The scene captures a close-up of a woman indoors, likely in a casual setting. The focus is on her friendly expression and relaxed posture.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sweater"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "portrait",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: sweater. Actions: posing, selfie. Emotions: happiness, neutral. Scenes: indoor, portrait. Concepts: casual, self-portrait, fashion, warmth, portrait",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "sweater"
+    ],
+    "actions": [
+      "posing",
+      "selfie"
+    ],
+    "emotions": [
+      "happiness",
+      "neutral"
+    ],
+    "scenes": [
+      "indoor",
+      "portrait"
+    ],
+    "concepts": [
+      "casual",
+      "self-portrait",
+      "fashion",
+      "warmth",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

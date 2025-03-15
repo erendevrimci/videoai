@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A teenager with a butterfly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A teenager with a butterfly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A teenager with a butterfly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman sits on a wooden bench in a vibrant garden, gently holding her hand out to a butterfly. The sunlight filters through the trees, casting a warm glow over the scene.",
+      "description": "The scene is set in a lush garden during a sunny day, where a woman interacts with nature. She is seated on a bench surrounded by colorful flowers, with a butterfly resting on her hand.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "butterfly"
+        ],
+        "nature": [
+          "garden",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "bench"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "joy"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "tranquility",
+          "connection with nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A teenager with a butterfly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A teenager with a butterfly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman sits on a wooden bench in a vibrant garden, gently holding a butterfly on her hand. She smiles warmly, surrounded by colorful flowers under the soft glow of sunlight filtering through the trees.",
+      "description": "The scene depicts a serene moment in a garden setting, where a woman interacts with nature. The atmosphere is peaceful and joyful, enhanced by the natural beauty around her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "butterfly"
+        ],
+        "nature": [
+          "garden",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "bench"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "nature interaction",
+          "peaceful moment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: butterfly. Nature: garden, flowers, trees. Objects: bench. Actions: sitting, holding. Emotions: serenity, joy, happiness. Scenes: outdoor, nature, garden. Concepts: tranquility, connection with nature, nature interaction, peaceful moment",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "butterfly"
+    ],
+    "nature": [
+      "garden",
+      "flowers",
+      "trees"
+    ],
+    "objects": [
+      "bench"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "serenity",
+      "joy",
+      "happiness"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature",
+      "garden"
+    ],
+    "concepts": [
+      "tranquility",
+      "connection with nature",
+      "nature interaction",
+      "peaceful moment"
+    ]
+  },
+  "metadata": {}
+}

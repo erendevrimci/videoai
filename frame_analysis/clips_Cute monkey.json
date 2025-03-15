@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute monkey.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute monkey/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal image depicts a creature with the body of a monkey and the face of a human. The creature is perched on a tree branch in a lush, green forest setting. The expression on the face is calm and contemplative.",
+      "description": "The scene is set in a dense forest, where a hybrid creature sits quietly on a tree branch. The fusion of human and animal features creates a fantastical and intriguing atmosphere.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "nature": [
+          "forest",
+          "tree",
+          "branch"
+        ],
+        "objects": [
+          "tree branch"
+        ],
+        "emotions": [
+          "calm",
+          "contemplative"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "hybrid",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute monkey.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute monkey/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A monkey with a human-like face is perched on a tree branch, holding and eating a banana. The lush green foliage in the background suggests a dense jungle environment.",
+      "description": "The scene depicts a surreal image of a monkey with a human-like face sitting on a tree branch in a jungle. The monkey is focused on eating a banana, surrounded by vibrant greenery.",
+      "labels": {
+        "animals": [
+          "monkey"
+        ],
+        "nature": [
+          "jungle",
+          "tree",
+          "foliage"
+        ],
+        "objects": [
+          "banana"
+        ],
+        "actions": [
+          "eating",
+          "sitting"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "jungle"
+        ],
+        "concepts": [
+          "surreal",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: monkey. Nature: tree, forest, branch, jungle, foliage. Objects: tree branch, banana. Emotions: calm, contemplative. Scenes: forest, jungle. Concepts: surreal, hybrid, anthropomorphism. Actions: eating, sitting",
+  "primary_labels": {
+    "animals": [
+      "monkey"
+    ],
+    "nature": [
+      "tree",
+      "forest",
+      "branch",
+      "jungle",
+      "foliage"
+    ],
+    "objects": [
+      "tree branch",
+      "banana"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "forest",
+      "jungle"
+    ],
+    "concepts": [
+      "surreal",
+      "hybrid",
+      "anthropomorphism"
+    ],
+    "actions": [
+      "eating",
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

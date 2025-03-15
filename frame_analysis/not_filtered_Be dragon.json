@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Be dragon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Be dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Be dragon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with glasses and a beard is sitting indoors, looking directly at the camera. Behind him, a bed with pillows and a curtain is visible, suggesting a cozy room setting.",
+      "description": "The scene is set in a bedroom or living room, with a man sitting in front of a bed. The atmosphere is relaxed and personal, with soft lighting contributing to a calm ambiance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "bed",
+          "pillow",
+          "curtain"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "relaxation",
+          "personal space"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Be dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Be dragon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dragon stands prominently in a dimly lit room, its scales glistening under the soft light. The creature's wings are partially spread, and its eyes are focused intently forward.",
+      "description": "The scene takes place in a modestly furnished room with closed curtains. A dragon, an unusual presence in such a setting, dominates the space, creating a surreal and fantastical atmosphere.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "curtains",
+          "bed"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "indoor",
+          "fantasy"
+        ],
+        "concepts": [
+          "mythical creature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: bed, glasses, pillow, curtain, curtains. Scenes: indoor, bedroom, fantasy. Emotions: calm, intensity. Concepts: relaxation, personal space, mythical creature, surreal. Animals: dragon. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "bed",
+      "glasses",
+      "pillow",
+      "curtain",
+      "curtains"
+    ],
+    "scenes": [
+      "indoor",
+      "bedroom",
+      "fantasy"
+    ],
+    "emotions": [
+      "calm",
+      "intensity"
+    ],
+    "concepts": [
+      "relaxation",
+      "personal space",
+      "mythical creature",
+      "surreal"
+    ],
+    "animals": [
+      "dragon"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

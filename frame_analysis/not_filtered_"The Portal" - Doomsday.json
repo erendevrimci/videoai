@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Doomsday.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Doomsday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" - Doomsday/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A towering skyscraper is engulfed in flames, with fire visibly consuming multiple floors. A helicopter hovers nearby, seemingly assessing the situation as smoke billows into the sky.",
+      "description": "The scene depicts a dramatic urban disaster with a high-rise building on fire. The cityscape below is illuminated by the glow of the flames, creating a tense and urgent atmosphere.",
+      "labels": {
+        "objects": [
+          "skyscraper",
+          "helicopter",
+          "flames",
+          "smoke"
+        ],
+        "actions": [
+          "hovering",
+          "burning"
+        ],
+        "emotions": [
+          "urgency",
+          "danger"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "concepts": [
+          "emergency",
+          "fire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"The Portal\" - Doomsday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"The Portal\" - Doomsday/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering skyscraper is engulfed in flames, with fire spreading across multiple floors. A helicopter hovers nearby, possibly engaged in a rescue or firefighting operation. The cityscape below is illuminated by the glow of the fire, creating a dramatic and intense scene.",
+      "description": "The scene depicts a high-rise building in a city setting, with a significant fire consuming the structure. The presence of a helicopter suggests an emergency response, while the surrounding city is visible under the dim light of dusk or dawn.",
+      "labels": {
+        "objects": [
+          "skyscraper",
+          "helicopter",
+          "fire"
+        ],
+        "actions": [
+          "hovering",
+          "burning"
+        ],
+        "emotions": [
+          "intensity",
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "emergency"
+        ],
+        "concepts": [
+          "disaster",
+          "rescue"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: skyscraper, helicopter, flames, smoke, fire. Actions: hovering, burning. Emotions: urgency, danger, intensity. Scenes: urban, disaster, emergency. Concepts: emergency, fire, disaster, rescue",
+  "primary_labels": {
+    "objects": [
+      "skyscraper",
+      "helicopter",
+      "flames",
+      "smoke",
+      "fire"
+    ],
+    "actions": [
+      "hovering",
+      "burning"
+    ],
+    "emotions": [
+      "urgency",
+      "danger",
+      "intensity"
+    ],
+    "scenes": [
+      "urban",
+      "disaster",
+      "emergency"
+    ],
+    "concepts": [
+      "emergency",
+      "fire",
+      "disaster",
+      "rescue"
+    ]
+  },
+  "metadata": {}
+}

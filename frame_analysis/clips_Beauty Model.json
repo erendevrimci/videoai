@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beauty Model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with striking makeup, featuring bold red lips and shimmering eyeshadow. The lighting highlights the glossy texture of the makeup and the smoothness of the skin.",
+      "description": "The scene is a close-up beauty portrait, likely set in a studio environment. The focus is on the person's face, emphasizing the makeup and expression.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "makeup",
+          "lipstick"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "portrait",
+          "beauty"
+        ],
+        "concepts": [
+          "fashion",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beauty Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beauty Model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with striking makeup, featuring bold red lips and shimmering eyeshadow. The lighting highlights the smooth texture of the skin and the glossy finish of the lips.",
+      "description": "The image captures a dramatic and glamorous look, focusing on the person's face with an emphasis on makeup artistry. The setting appears to be a studio environment with controlled lighting to accentuate facial features.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "makeup",
+          "lipstick",
+          "eyeshadow"
+        ],
+        "emotions": [
+          "confidence",
+          "glamour"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: makeup, lipstick, eyeshadow. Emotions: intense, confidence, glamour. Scenes: portrait, beauty, studio. Concepts: fashion, glamour, beauty",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "makeup",
+      "lipstick",
+      "eyeshadow"
+    ],
+    "emotions": [
+      "intense",
+      "confidence",
+      "glamour"
+    ],
+    "scenes": [
+      "portrait",
+      "beauty",
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "glamour",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

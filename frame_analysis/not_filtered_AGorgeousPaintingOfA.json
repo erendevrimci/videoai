@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGorgeousPaintingOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGorgeousPaintingOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGorgeousPaintingOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman joyfully dances in an open field, surrounded by a group of people. Her flowing skirt and hair move gracefully in the breeze against a backdrop of fluffy clouds and blue sky.",
+      "description": "The scene captures a lively outdoor gathering, possibly a festival or celebration, with people dancing energetically in a sunlit field. The atmosphere is vibrant and carefree, emphasizing a sense of freedom and joy.",
+      "labels": {
+        "people": [
+          "woman",
+          "group"
+        ],
+        "nature": [
+          "clouds",
+          "sky",
+          "field"
+        ],
+        "objects": [
+          "skirt",
+          "jewelry"
+        ],
+        "actions": [
+          "dancing",
+          "moving"
+        ],
+        "emotions": [
+          "joyful",
+          "carefree"
+        ],
+        "scenes": [
+          "outdoor",
+          "festival"
+        ],
+        "concepts": [
+          "celebration",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGorgeousPaintingOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGorgeousPaintingOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman joyfully dances with her arm raised against a backdrop of a clear sky and fluffy clouds. She is surrounded by a crowd of people, all appearing to enjoy a lively outdoor event.",
+      "description": "The scene is set at an outdoor festival or party, with a vibrant and energetic atmosphere. The focus is on a woman in the foreground, dancing with enthusiasm, while others in the background join in the festivities.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "clothing",
+          "accessories"
+        ],
+        "actions": [
+          "dancing",
+          "celebrating"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "outdoor event",
+          "festival"
+        ],
+        "concepts": [
+          "celebration",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, group, crowd. Nature: clouds, sky, field. Objects: skirt, jewelry, clothing, accessories. Actions: dancing, moving, celebrating. Emotions: joyful, carefree, joy, excitement. Scenes: festival, outdoor, outdoor event. Concepts: celebration, freedom",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "group",
+      "crowd"
+    ],
+    "nature": [
+      "clouds",
+      "sky",
+      "field"
+    ],
+    "objects": [
+      "skirt",
+      "jewelry",
+      "clothing",
+      "accessories"
+    ],
+    "actions": [
+      "dancing",
+      "moving",
+      "celebrating"
+    ],
+    "emotions": [
+      "joyful",
+      "carefree",
+      "joy",
+      "excitement"
+    ],
+    "scenes": [
+      "festival",
+      "outdoor",
+      "outdoor event"
+    ],
+    "concepts": [
+      "celebration",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

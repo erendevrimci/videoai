@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat DJ.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat DJ.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat DJ/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A stylish cat wearing sunglasses and a leather jacket is positioned behind a DJ mixer, appearing to perform as a DJ. The scene is illuminated with colorful lights, creating a lively and vibrant atmosphere.",
+      "description": "The image depicts a humorous and imaginative scene where a cat is portrayed as a DJ in a nightclub setting. The cat is dressed in a leather jacket and sunglasses, adding to its cool persona, while colorful lights in the background suggest a lively party environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sunglasses",
+          "leather jacket",
+          "DJ mixer",
+          "headphones"
+        ],
+        "actions": [
+          "DJing"
+        ],
+        "emotions": [
+          "playful",
+          "cool"
+        ],
+        "scenes": [
+          "nightclub",
+          "party"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat DJ.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat DJ/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A stylish cat wearing sunglasses and a leather jacket is positioned behind a DJ mixing console. The colorful lights in the background create a lively and energetic atmosphere, suggesting a party or club setting.",
+      "description": "The scene depicts a cat dressed as a DJ, complete with sunglasses and a leather jacket, operating a mixing console in a vibrant club-like environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "DJ mixing console",
+          "sunglasses",
+          "leather jacket"
+        ],
+        "actions": [
+          "DJing"
+        ],
+        "emotions": [
+          "cool",
+          "confident"
+        ],
+        "scenes": [
+          "club",
+          "party"
+        ],
+        "concepts": [
+          "music",
+          "entertainment",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: sunglasses, leather jacket, DJ mixer, headphones, DJ mixing console. Actions: DJing. Emotions: cool, playful, confident. Scenes: party, nightclub, club. Concepts: anthropomorphism, humor, music, entertainment",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "sunglasses",
+      "leather jacket",
+      "DJ mixer",
+      "headphones",
+      "DJ mixing console"
+    ],
+    "actions": [
+      "DJing"
+    ],
+    "emotions": [
+      "cool",
+      "playful",
+      "confident"
+    ],
+    "scenes": [
+      "party",
+      "nightclub",
+      "club"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "humor",
+      "music",
+      "entertainment"
+    ]
+  },
+  "metadata": {}
+}

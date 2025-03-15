@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Franui.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Franui.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Franui/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature chefs are seen working on a giant raspberry, pouring chocolate over it. The chefs are meticulously positioned, with one standing on a ladder and others surrounding the berry, creating a playful culinary fantasy.",
+      "description": "The scene depicts a surreal culinary setting where tiny chefs are interacting with oversized food items, specifically a raspberry. The chefs appear to be decorating the berry with chocolate, emphasizing a playful and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "raspberry",
+          "ladder",
+          "chocolate",
+          "cup"
+        ],
+        "actions": [
+          "pouring",
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "culinary fantasy"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Franui.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Franui/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a whimsical scene, miniature chefs are seen working on a giant raspberry, pouring chocolate sauce over it. The chefs, equipped with tiny utensils, appear to be meticulously decorating the berry, which is set on a surface sprinkled with cocoa powder and chocolate pieces.",
+      "description": "The scene captures a playful and imaginative setting where tiny chefs are engaged in the intricate task of decorating a large raspberry with chocolate. The setting resembles a dessert landscape, emphasizing creativity and attention to detail.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "raspberry",
+          "chocolate sauce",
+          "ladder",
+          "utensils",
+          "cocoa powder",
+          "chocolate pieces"
+        ],
+        "actions": [
+          "pouring",
+          "decorating"
+        ],
+        "emotions": [
+          "playful",
+          "creative"
+        ],
+        "scenes": [
+          "culinary",
+          "miniature"
+        ],
+        "concepts": [
+          "imagination",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: raspberry, ladder, chocolate, cup, chocolate sauce. Actions: pouring, decorating. Emotions: playful, imaginative, creative. Scenes: culinary fantasy, culinary, miniature. Concepts: miniature, surreal, imagination, whimsy",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "raspberry",
+      "ladder",
+      "chocolate",
+      "cup",
+      "chocolate sauce"
+    ],
+    "actions": [
+      "pouring",
+      "decorating"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "creative"
+    ],
+    "scenes": [
+      "culinary fantasy",
+      "culinary",
+      "miniature"
+    ],
+    "concepts": [
+      "miniature",
+      "surreal",
+      "imagination",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

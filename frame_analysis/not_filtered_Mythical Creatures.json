@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mythical Creatures.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mythical Creatures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mythical Creatures/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A powerful, blue-skinned warrior strides through a snowy forest, exuding an aura of strength and determination. His fur-lined attire and glowing pendant suggest a mystical or otherworldly presence.",
+      "description": "The scene depicts a formidable figure walking through a snow-covered forest. The character's imposing stature and intense expression create a sense of power and mystery.",
+      "labels": {
+        "people": [
+          "warrior",
+          "mythical figure"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "fur cloak",
+          "glowing pendant"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "winter landscape",
+          "fantasy setting"
+        ],
+        "concepts": [
+          "strength",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Mythical Creatures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Mythical Creatures/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A powerful, blue-skinned warrior strides confidently through a snowy forest. Adorned with fur and a glowing pendant, he exudes strength and determination. Snowflakes gently fall around him, adding to the mystical atmosphere.",
+      "description": "The scene depicts a fantasy setting with a strong, mythical warrior walking through a snow-covered forest. The character's imposing presence and the glowing pendant suggest a magical or supernatural element.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "fur cloak",
+          "glowing pendant"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "winter"
+        ],
+        "concepts": [
+          "strength",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, mythical figure. Nature: snow, forest. Objects: fur cloak, glowing pendant. Actions: walking. Emotions: determination, intensity. Scenes: winter landscape, fantasy setting, fantasy, winter. Concepts: strength, mysticism, magic",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "mythical figure"
+    ],
+    "nature": [
+      "snow",
+      "forest"
+    ],
+    "objects": [
+      "fur cloak",
+      "glowing pendant"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "determination",
+      "intensity"
+    ],
+    "scenes": [
+      "winter landscape",
+      "fantasy setting",
+      "fantasy",
+      "winter"
+    ],
+    "concepts": [
+      "strength",
+      "mysticism",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

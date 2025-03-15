@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHairMovesInThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHairMovesInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheHairMovesInThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone samurai stands silhouetted against a striking red sun, wearing a traditional straw hat and a red robe. The samurai holds two swords, exuding a sense of readiness and calm determination. The background is a stark contrast of red and black, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a solitary samurai in a stylized, dramatic setting. The red sun serves as a powerful backdrop, symbolizing intensity and focus. The samurai's attire and posture suggest a moment of contemplation or preparation.",
+      "labels": {
+        "people": [
+          "samurai"
+        ],
+        "objects": [
+          "sword",
+          "straw hat",
+          "robe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "calm"
+        ],
+        "scenes": [
+          "dramatic",
+          "stylized"
+        ],
+        "concepts": [
+          "solitude",
+          "readiness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheHairMovesInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheHairMovesInThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone samurai stands silhouetted against a bold red circle, reminiscent of the rising sun. The figure is adorned in traditional attire with a straw hat and holds two swords, exuding a sense of readiness and calm determination.",
+      "description": "The scene depicts a samurai in a stylized, dramatic setting, likely inspired by Japanese art. The red circle in the background suggests a symbolic or cultural reference, enhancing the warrior's stoic presence.",
+      "labels": {
+        "people": [
+          "samurai"
+        ],
+        "objects": [
+          "straw hat",
+          "swords"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "calm"
+        ],
+        "scenes": [
+          "silhouette",
+          "dramatic"
+        ],
+        "concepts": [
+          "tradition",
+          "warrior"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: samurai. Objects: straw hat, sword, robe, swords. Actions: standing. Emotions: determination, calm. Scenes: dramatic, stylized, silhouette. Concepts: solitude, readiness, tradition, warrior",
+  "primary_labels": {
+    "people": [
+      "samurai"
+    ],
+    "objects": [
+      "straw hat",
+      "sword",
+      "robe",
+      "swords"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "determination",
+      "calm"
+    ],
+    "scenes": [
+      "dramatic",
+      "stylized",
+      "silhouette"
+    ],
+    "concepts": [
+      "solitude",
+      "readiness",
+      "tradition",
+      "warrior"
+    ]
+  },
+  "metadata": {}
+}

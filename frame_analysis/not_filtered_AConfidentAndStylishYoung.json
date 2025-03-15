@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AConfidentAndStylishYoung.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AConfidentAndStylishYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AConfidentAndStylishYoung/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in a stylish beige suit, posing with her hands in her pockets. She is in a modern, elegantly decorated living room with a plush sofa and a marble coffee table.",
+      "description": "The scene is set in a sophisticated living room, featuring a woman dressed in a beige suit. The room is tastefully decorated with neutral tones and elegant furnishings, creating a serene and upscale atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "sofa",
+          "coffee table",
+          "plant"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AConfidentAndStylishYoung.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AConfidentAndStylishYoung/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A confident woman stands in a stylish, modern living room, wearing a beige suit with a white blouse. She has her hands in her pockets and smiles warmly at the camera, exuding a sense of poise and elegance.",
+      "description": "The scene is set in a contemporary living room with neutral tones and sophisticated decor. The woman is the focal point, dressed in professional attire, suggesting a business or fashion context.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "suit",
+          "blouse",
+          "sofa",
+          "vase"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "warmth"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "fashion",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: suit, sofa, coffee table, plant, blouse. Actions: standing, posing, smiling. Emotions: confidence, warmth. Scenes: living room, indoor. Concepts: fashion, elegance, style, professionalism",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "suit",
+      "sofa",
+      "coffee table",
+      "plant",
+      "blouse"
+    ],
+    "actions": [
+      "standing",
+      "posing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "warmth"
+    ],
+    "scenes": [
+      "living room",
+      "indoor"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "style",
+      "professionalism"
+    ]
+  },
+  "metadata": {}
+}

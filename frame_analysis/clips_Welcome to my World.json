@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Welcome to my World.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Welcome to my World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Welcome to my World/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, fluffy white bunny with large eyes and a pink bow holds a pink macaron. The scene is surrounded by colorful macarons and candy canes, creating a whimsical and sweet atmosphere.",
+      "description": "The scene depicts an adorable animated bunny in a candy-themed setting, surrounded by pastel-colored sweets. The bunny is the focal point, exuding a playful and joyful vibe.",
+      "labels": {
+        "animals": [
+          "bunny"
+        ],
+        "objects": [
+          "macaron",
+          "candy cane"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "candy land",
+          "whimsical"
+        ],
+        "concepts": [
+          "cuteness",
+          "sweetness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Welcome to my World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Welcome to my World/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute, fluffy white bunny is joyfully nibbling on a pink macaron amidst a whimsical candy land. The scene is filled with colorful macarons and candy canes, creating a playful and delightful atmosphere.",
+      "description": "The scene is set in a fantastical candy land, featuring a charming white bunny enjoying a pink macaron. The setting is vibrant and colorful, with various sweets like macarons and candy canes surrounding the bunny, enhancing the whimsical and joyful mood.",
+      "labels": {
+        "animals": [
+          "bunny"
+        ],
+        "objects": [
+          "macaron",
+          "candy cane"
+        ],
+        "actions": [
+          "nibbling"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "candy land"
+        ],
+        "concepts": [
+          "whimsy",
+          "delight"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bunny. Objects: macaron, candy cane. Emotions: joyful, playful. Scenes: candy land, whimsical. Concepts: cuteness, sweetness, whimsy, delight. Actions: nibbling",
+  "primary_labels": {
+    "animals": [
+      "bunny"
+    ],
+    "objects": [
+      "macaron",
+      "candy cane"
+    ],
+    "emotions": [
+      "joyful",
+      "playful"
+    ],
+    "scenes": [
+      "candy land",
+      "whimsical"
+    ],
+    "concepts": [
+      "cuteness",
+      "sweetness",
+      "whimsy",
+      "delight"
+    ],
+    "actions": [
+      "nibbling"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Einstein taking a selfie.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Einstein taking a selfie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Einstein taking a selfie/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with distinctive, wild white hair and a mustache is taking a selfie with a modern smartphone. He is wearing a textured coat and gazes directly at the camera with a calm expression.",
+      "description": "The scene depicts a juxtaposition of classic and modern elements, with an older gentleman using contemporary technology. The setting is likely a studio, given the controlled lighting and neutral background.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "smartphone",
+          "coat"
+        ],
+        "actions": [
+          "taking a selfie"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "modern technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Einstein taking a selfie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Einstein taking a selfie/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man with wild, white hair is smiling as he holds a modern smartphone in his hand. He is wearing a textured coat and appears to be taking a selfie against a simple, dark background.",
+      "description": "The scene depicts an older man engaging with modern technology, creating a juxtaposition between his classic appearance and the contemporary device. The setting is minimalistic, focusing on the man's expression and the smartphone.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "smartphone",
+          "coat"
+        ],
+        "actions": [
+          "smiling",
+          "holding phone"
+        ],
+        "emotions": [
+          "happiness",
+          "amusement"
+        ],
+        "scenes": [
+          "portrait",
+          "indoor"
+        ],
+        "concepts": [
+          "technology",
+          "selfie"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man. Objects: smartphone, coat. Actions: taking a selfie, smiling, holding phone. Emotions: calm, happiness, amusement. Scenes: studio, portrait, indoor. Concepts: juxtaposition, modern technology, technology, selfie",
+  "primary_labels": {
+    "people": [
+      "elderly man"
+    ],
+    "objects": [
+      "smartphone",
+      "coat"
+    ],
+    "actions": [
+      "taking a selfie",
+      "smiling",
+      "holding phone"
+    ],
+    "emotions": [
+      "calm",
+      "happiness",
+      "amusement"
+    ],
+    "scenes": [
+      "studio",
+      "portrait",
+      "indoor"
+    ],
+    "concepts": [
+      "juxtaposition",
+      "modern technology",
+      "technology",
+      "selfie"
+    ]
+  },
+  "metadata": {}
+}

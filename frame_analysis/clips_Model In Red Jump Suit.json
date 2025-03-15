@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model In Red Jump Suit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model In Red Jump Suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model In Red Jump Suit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is smiling and looking over her shoulder, dressed in a shiny pink outfit. She stands confidently, with her hair cascading down her back, while other similarly dressed figures are partially visible in the background.",
+      "description": "The scene captures a fashion-forward setting with individuals dressed in vibrant, glossy pink attire. The focus is on a woman who exudes confidence and joy, suggesting a playful and energetic atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "pink outfit",
+          "high heels"
+        ],
+        "actions": [
+          "smiling",
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "joy"
+        ],
+        "scenes": [
+          "fashion",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Model In Red Jump Suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Model In Red Jump Suit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is confidently posing in a vibrant pink, shiny outfit on a runway. She is smiling and has her hands on her hips, exuding a sense of style and confidence.",
+      "description": "The scene is set on a fashion runway where a woman is modeling a striking pink outfit. The setting is likely a fashion show or a photoshoot, emphasizing glamour and style.",
+      "labels": {
+        "people": [
+          "woman",
+          "model"
+        ],
+        "objects": [
+          "pink outfit",
+          "boots"
+        ],
+        "actions": [
+          "posing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, model. Objects: pink outfit, high heels, boots. Actions: smiling, posing. Emotions: confidence, joy, happiness. Scenes: runway, fashion, fashion show. Concepts: fashion, style, glamour",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "model"
+    ],
+    "objects": [
+      "pink outfit",
+      "high heels",
+      "boots"
+    ],
+    "actions": [
+      "smiling",
+      "posing"
+    ],
+    "emotions": [
+      "confidence",
+      "joy",
+      "happiness"
+    ],
+    "scenes": [
+      "runway",
+      "fashion",
+      "fashion show"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "glamour"
+    ]
+  },
+  "metadata": {}
+}

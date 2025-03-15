@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Drinks Workshop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Drinks Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Drinks Workshop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a whimsical, miniature multi-level house with detailed interiors, featuring tiny chefs at work. Each floor is intricately decorated with kitchen elements, plants, and warm lighting, creating a cozy and inviting atmosphere. The chefs are engaged in culinary activities, surrounded by various kitchenware and food items.",
+      "description": "The scene is set in a miniature, multi-level house with a focus on culinary activities. The structure is detailed with small chefs, kitchen equipment, and food items, all illuminated by warm, ambient lighting. The setting is charming and imaginative, resembling a tiny, bustling kitchen environment.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "miniature house",
+          "kitchenware",
+          "food items",
+          "plants"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food"
+        ],
+        "emotions": [
+          "cozy",
+          "inviting"
+        ],
+        "scenes": [
+          "miniature kitchen"
+        ],
+        "concepts": [
+          "whimsy",
+          "culinary arts"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Drinks Workshop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Drinks Workshop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical miniature house with three levels, each bustling with activity. Tiny chefs in white uniforms are busy preparing food in a cozy, warmly lit kitchen setting. The house is adorned with plants and detailed kitchen elements, creating a charming and inviting atmosphere.",
+      "description": "This scene is set in a miniature, multi-level house designed as a detailed dollhouse kitchen. Each level showcases chefs engaged in culinary activities, surrounded by an array of food items and kitchenware. The setting is intimate and filled with warm lighting, enhancing the cozy and magical feel of the scene.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "miniature house",
+          "kitchen",
+          "food items",
+          "kitchenware",
+          "plants"
+        ],
+        "actions": [
+          "cooking",
+          "preparing food"
+        ],
+        "emotions": [
+          "cozy",
+          "inviting"
+        ],
+        "scenes": [
+          "miniature kitchen",
+          "dollhouse"
+        ],
+        "concepts": [
+          "whimsy",
+          "culinary arts"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: miniature house, kitchenware, food items, plants, kitchen. Actions: cooking, preparing food. Emotions: cozy, inviting. Scenes: miniature kitchen, dollhouse. Concepts: whimsy, culinary arts",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "miniature house",
+      "kitchenware",
+      "food items",
+      "plants",
+      "kitchen"
+    ],
+    "actions": [
+      "cooking",
+      "preparing food"
+    ],
+    "emotions": [
+      "cozy",
+      "inviting"
+    ],
+    "scenes": [
+      "miniature kitchen",
+      "dollhouse"
+    ],
+    "concepts": [
+      "whimsy",
+      "culinary arts"
+    ]
+  },
+  "metadata": {}
+}

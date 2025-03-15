@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/morning coffee.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/morning coffee.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/morning coffee/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long red hair is holding a white mug close to her face, gazing thoughtfully out of a window. The background reveals a snowy landscape with blurred trees and mountains, suggesting a cozy indoor setting.",
+      "description": "The scene captures a serene moment indoors, where a woman enjoys a warm drink while looking out at a wintery landscape. The soft lighting and warm tones of her hair contrast with the cool, snowy view outside.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "mug"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "winter"
+        ],
+        "concepts": [
+          "coziness",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/morning coffee.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/morning coffee/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long red hair is sipping from a white mug, gazing thoughtfully out of a large window. The background reveals a snowy landscape with mountains and trees, suggesting a cozy indoor setting.",
+      "description": "The scene captures a serene moment indoors, where a woman enjoys a warm drink while looking out at a wintery landscape. The setting is calm and intimate, with natural light illuminating the space.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "mug",
+          "window"
+        ],
+        "actions": [
+          "sipping",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "winter"
+        ],
+        "concepts": [
+          "coziness",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: snow, mountains, trees. Objects: mug, window. Actions: gazing, holding, sipping. Emotions: thoughtful, calm. Scenes: indoor, winter. Concepts: coziness, reflection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "trees"
+    ],
+    "objects": [
+      "mug",
+      "window"
+    ],
+    "actions": [
+      "gazing",
+      "holding",
+      "sipping"
+    ],
+    "emotions": [
+      "thoughtful",
+      "calm"
+    ],
+    "scenes": [
+      "indoor",
+      "winter"
+    ],
+    "concepts": [
+      "coziness",
+      "reflection"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal ship.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Crystal ship/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A magnificent, ornate ship adorned with intricate golden and jeweled designs sails across a calm ocean. The vessel's elaborate structure glistens under the clear blue sky, reflecting sunlight off its numerous embellishments. Puffy white clouds hover in the background, enhancing the scene's grandeur.",
+      "description": "The scene depicts a luxurious, fantasy-like ship cruising on a tranquil sea. The ship is highly decorated with gold and jewels, creating a sense of opulence and wonder.",
+      "labels": {
+        "objects": [
+          "ship",
+          "jewels",
+          "gold",
+          "ocean",
+          "clouds"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "emotions": [
+          "wonder",
+          "awe"
+        ],
+        "scenes": [
+          "ocean",
+          "fantasy"
+        ],
+        "concepts": [
+          "luxury",
+          "opulence",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Crystal ship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Crystal ship/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A luxurious yacht adorned with gold and jewels sails through the calm ocean. The vessel's intricate design features ornate decorations and sparkling embellishments, creating a striking contrast against the deep blue sea.",
+      "description": "The scene captures an opulent yacht navigating through tranquil ocean waters under a clear sky. The yacht is lavishly decorated with gold and jewels, reflecting sunlight and creating a dazzling display.",
+      "labels": {
+        "objects": [
+          "yacht",
+          "jewels",
+          "gold"
+        ],
+        "nature": [
+          "ocean",
+          "sky",
+          "clouds"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "emotions": [
+          "luxury",
+          "opulence"
+        ],
+        "scenes": [
+          "maritime",
+          "luxury travel"
+        ],
+        "concepts": [
+          "wealth",
+          "extravagance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: jewels, gold, ship, ocean, clouds. Actions: sailing. Emotions: wonder, awe, luxury, opulence. Scenes: ocean, fantasy, maritime, luxury travel. Concepts: luxury, opulence, fantasy, wealth, extravagance. Nature: ocean, sky, clouds",
+  "primary_labels": {
+    "objects": [
+      "jewels",
+      "gold",
+      "ship",
+      "ocean",
+      "clouds"
+    ],
+    "actions": [
+      "sailing"
+    ],
+    "emotions": [
+      "wonder",
+      "awe",
+      "luxury",
+      "opulence"
+    ],
+    "scenes": [
+      "ocean",
+      "fantasy",
+      "maritime",
+      "luxury travel"
+    ],
+    "concepts": [
+      "luxury",
+      "opulence",
+      "fantasy",
+      "wealth",
+      "extravagance"
+    ],
+    "nature": [
+      "ocean",
+      "sky",
+      "clouds"
+    ]
+  },
+  "metadata": {}
+}

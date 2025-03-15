@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TREND TIKTOK FUJI.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TREND TIKTOK FUJI.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/TREND TIKTOK FUJI/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands in the middle of a train station platform, holding an acoustic guitar. They are wearing a black hoodie with 'FALS MANIA' printed on it, a cap, and a backpack, with trains visible on either side.",
+      "description": "The scene is set in a train station, with a person standing on the platform between two stationary trains. The setting suggests a moment of pause or anticipation, possibly before or after travel.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "guitar",
+          "hoodie",
+          "cap",
+          "backpack",
+          "train"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "scenes": [
+          "train station",
+          "platform"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "travel",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/TREND TIKTOK FUJI.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/TREND TIKTOK FUJI/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man stands on a train platform holding an acoustic guitar. He wears a black hoodie with 'FALS MANIA' printed on it, a black cap, and a backpack. The setting is a dimly lit train station with trains on either side.",
+      "description": "The scene takes place in a train station, where a man is positioned centrally on the platform. The environment is urban and somewhat subdued, with overhead lighting casting a soft glow.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "guitar",
+          "hoodie",
+          "cap",
+          "backpack",
+          "train"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "train station",
+          "platform"
+        ],
+        "concepts": [
+          "music",
+          "travel"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, man. Objects: guitar, hoodie, cap, backpack, train. Actions: standing. Scenes: train station, platform. Emotions: calm. Concepts: travel, music",
+  "primary_labels": {
+    "people": [
+      "person",
+      "man"
+    ],
+    "objects": [
+      "guitar",
+      "hoodie",
+      "cap",
+      "backpack",
+      "train"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "scenes": [
+      "train station",
+      "platform"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "concepts": [
+      "travel",
+      "music"
+    ]
+  },
+  "metadata": {}
+}

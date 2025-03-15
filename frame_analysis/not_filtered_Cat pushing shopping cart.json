@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat pushing shopping cart.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat pushing shopping cart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat pushing shopping cart/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white kitten playfully pushes a miniature shopping cart filled with colorful groceries down a street. The scene is whimsical and charming, capturing the kitten's curious expression as it navigates its task.",
+      "description": "The scene takes place on a street, where a small white kitten is interacting with a toy shopping cart filled with various items. The background is blurred, suggesting a busy urban setting.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "shopping cart",
+          "groceries"
+        ],
+        "actions": [
+          "pushing"
+        ],
+        "emotions": [
+          "playful",
+          "curious"
+        ],
+        "scenes": [
+          "street"
+        ],
+        "concepts": [
+          "whimsy",
+          "charm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat pushing shopping cart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat pushing shopping cart/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy white kitten curiously peers into a miniature shopping cart filled with colorful groceries. The scene is set on an urban street, with blurred cars in the background adding a sense of depth and motion.",
+      "description": "The image captures a playful and whimsical moment on a city street, where a small white kitten is interacting with a toy shopping cart loaded with various grocery items. The background features blurred vehicles, suggesting an urban environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "shopping cart",
+          "groceries"
+        ],
+        "actions": [
+          "peering"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "playfulness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat pushing shopping cart.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat pushing shopping cart/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A fluffy white kitten playfully pushes a miniature shopping cart filled with colorful toy fruits and vegetables. The scene takes place on a blurred urban street, adding a whimsical touch to the playful moment.",
+      "description": "The image captures a playful scene where a white kitten is interacting with a toy shopping cart on a city street. The cart is filled with various toy groceries, creating a charming and imaginative setting.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "shopping cart",
+          "toy fruits",
+          "toy vegetables"
+        ],
+        "actions": [
+          "pushing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "play",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: shopping cart, groceries, toy fruits, toy vegetables. Actions: pushing, peering. Emotions: playful, curious, curiosity, whimsical. Scenes: urban street, street. Concepts: whimsy, charm, playfulness, play, imagination",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "shopping cart",
+      "groceries",
+      "toy fruits",
+      "toy vegetables"
+    ],
+    "actions": [
+      "pushing",
+      "peering"
+    ],
+    "emotions": [
+      "playful",
+      "curious",
+      "curiosity",
+      "whimsical"
+    ],
+    "scenes": [
+      "urban street",
+      "street"
+    ],
+    "concepts": [
+      "whimsy",
+      "charm",
+      "playfulness",
+      "play",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

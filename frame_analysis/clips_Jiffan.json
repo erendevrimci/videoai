@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jiffan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jiffan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jiffan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal portrait features a person with a giraffe-like face, wearing a textured cap and a knitted sweater. The image blends human and animal characteristics, creating an intriguing and imaginative visual. The background is dark, enhancing the focus on the subject's unique appearance.",
+      "description": "The scene is a creative and surreal portrait that combines human and giraffe features. The setting is likely a studio with controlled lighting to highlight the subject's detailed textures.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "cap",
+          "sweater"
+        ],
+        "emotions": [
+          "intrigue"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "surrealism",
+          "hybrid"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Jiffan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Jiffan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A surreal portrait features a person with a giraffe-like face, wearing a textured sweater and a flat cap. The image blends human and animal characteristics, creating a unique and imaginative visual. The background is dark, emphasizing the subject's detailed features.",
+      "description": "The scene presents a creative and surreal portrait that merges human and giraffe features. The subject is wearing a knitted sweater and a flat cap, set against a dark backdrop, highlighting the intricate details of the face.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "sweater",
+          "cap"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "surrealism",
+          "hybrid",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: giraffe. Objects: cap, sweater. Emotions: intrigue, neutral. Scenes: portrait. Concepts: surrealism, hybrid, creativity",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "giraffe"
+    ],
+    "objects": [
+      "cap",
+      "sweater"
+    ],
+    "emotions": [
+      "intrigue",
+      "neutral"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "surrealism",
+      "hybrid",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

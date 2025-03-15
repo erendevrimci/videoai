@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spiderman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spiderman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spiderman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A superhero in a futuristic suit is depicted with glowing orange lines and eyes, creating an intense and powerful aura. The suit's intricate design features a web-like pattern with bright, fiery accents that stand out against a dark background.",
+      "description": "The scene presents a superhero character in a highly stylized, glowing suit that appears to be infused with energy. The setting is dramatic, with a focus on the character's intense gaze and the vibrant, electric elements of the suit.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "mask"
+        ],
+        "actions": [
+          "glowing",
+          "staring"
+        ],
+        "emotions": [
+          "intense",
+          "powerful"
+        ],
+        "scenes": [
+          "futuristic",
+          "dramatic"
+        ],
+        "concepts": [
+          "energy",
+          "power",
+          "superhero"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Spiderman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Spiderman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A superhero figure stands enveloped in flames, with glowing eyes and intricate web-like patterns on their suit. The fiery aura and intense gaze create a powerful and dramatic presence.",
+      "description": "The scene depicts a superhero character, likely inspired by a well-known comic book figure, surrounded by flames. The setting is dynamic and intense, emphasizing the character's power and strength.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "web patterns"
+        ],
+        "actions": [
+          "standing",
+          "enveloped in flames"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "dramatic",
+          "dynamic"
+        ],
+        "concepts": [
+          "heroism",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: superhero. Objects: suit, mask, web patterns. Actions: glowing, staring, standing, enveloped in flames. Emotions: intense, powerful, intensity, power. Scenes: dramatic, futuristic, dynamic. Concepts: energy, power, superhero, heroism, strength",
+  "primary_labels": {
+    "people": [
+      "superhero"
+    ],
+    "objects": [
+      "suit",
+      "mask",
+      "web patterns"
+    ],
+    "actions": [
+      "glowing",
+      "staring",
+      "standing",
+      "enveloped in flames"
+    ],
+    "emotions": [
+      "intense",
+      "powerful",
+      "intensity",
+      "power"
+    ],
+    "scenes": [
+      "dramatic",
+      "futuristic",
+      "dynamic"
+    ],
+    "concepts": [
+      "energy",
+      "power",
+      "superhero",
+      "heroism",
+      "strength"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/racer queen.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/racer queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/racer queen/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A confident woman rides a motorcycle through a neon-lit city street at dusk. Her hair flows dramatically behind her as she speeds forward, exuding a sense of determination and adventure. The vibrant city lights create a dynamic and energetic atmosphere.",
+      "description": "The scene depicts a woman on a motorcycle navigating through a bustling city at dusk, surrounded by neon lights. The setting suggests a modern urban environment, filled with energy and movement.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "motorcycle",
+          "neon lights"
+        ],
+        "actions": [
+          "riding",
+          "speeding"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "city street",
+          "dusk"
+        ],
+        "concepts": [
+          "adventure",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/racer queen.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/racer queen/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman rides a motorcycle through a neon-lit city street at dusk. Her hair flows in the wind as she confidently grips the handlebars, surrounded by the vibrant glow of city lights. The scene captures a sense of freedom and adventure.",
+      "description": "The scene is set in a bustling urban environment during twilight, with neon signs illuminating the surroundings. The focus is on a woman riding a motorcycle, exuding a sense of empowerment and motion.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "motorcycle",
+          "neon signs"
+        ],
+        "actions": [
+          "riding",
+          "moving"
+        ],
+        "emotions": [
+          "confidence",
+          "freedom"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "adventure",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: motorcycle, neon lights, neon signs. Actions: riding, speeding, moving. Emotions: confidence, determination, freedom. Scenes: city street, dusk, urban. Concepts: adventure, urban life, nightlife",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "motorcycle",
+      "neon lights",
+      "neon signs"
+    ],
+    "actions": [
+      "riding",
+      "speeding",
+      "moving"
+    ],
+    "emotions": [
+      "confidence",
+      "determination",
+      "freedom"
+    ],
+    "scenes": [
+      "city street",
+      "dusk",
+      "urban"
+    ],
+    "concepts": [
+      "adventure",
+      "urban life",
+      "nightlife"
+    ]
+  },
+  "metadata": {}
+}

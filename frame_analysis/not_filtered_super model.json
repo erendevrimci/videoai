@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/super model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/super model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/super model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model confidently walks down a runway in a striking red suit, exuding elegance and poise. The audience is seated on either side, attentively observing the fashion show in a modern, well-lit venue.",
+      "description": "The scene captures a fashion show runway with a model showcasing a red ensemble. The setting is contemporary, with sleek architecture and a focused audience.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "red suit",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "modernity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/super model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/super model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model confidently walks down the runway wearing a striking red suit. The audience is seated on either side, observing the fashion show in a modern, well-lit venue.",
+      "description": "The scene is set at a fashion show runway, with a model showcasing a vibrant red outfit. The setting is contemporary, with a sleek architectural design and a focused audience.",
+      "labels": {
+        "people": [
+          "model",
+          "audience"
+        ],
+        "objects": [
+          "red suit",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model, audience. Objects: red suit, runway. Actions: walking. Emotions: confidence. Scenes: fashion show, runway. Concepts: fashion, style, modernity",
+  "primary_labels": {
+    "people": [
+      "model",
+      "audience"
+    ],
+    "objects": [
+      "red suit",
+      "runway"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "modernity"
+    ]
+  },
+  "metadata": {}
+}

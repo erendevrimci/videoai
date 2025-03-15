@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStaticAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStaticAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStaticAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A quiet, dimly lit urban park path stretches into the distance, lined with bare trees and illuminated by streetlights. A few people are walking along the path, creating a serene and peaceful nighttime atmosphere.",
+      "description": "The scene depicts a nighttime setting in an urban park. The path is paved with bricks and flanked by leafless trees, with a row of streetlights casting a soft glow. In the background, a residential building is visible, and a few people are seen walking, adding a sense of calm and tranquility.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "streetlights",
+          "paved path",
+          "residential building"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "urban park",
+          "nighttime"
+        ],
+        "concepts": [
+          "tranquility",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStaticAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStaticAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A building facade is covered in a vibrant array of flowers, creating a stunning vertical garden. The flowers are arranged in a gradient of colors, from white at the top to deep purples and reds at the bottom. The scene is illuminated by soft lighting, enhancing the vivid colors against the night sky.",
+      "description": "The scene depicts a building with its exterior entirely adorned with a variety of colorful flowers, creating a lush and artistic display. The setting appears to be an urban environment at night, with the floral arrangement serving as a striking visual focal point.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "vertical garden"
+        ],
+        "objects": [
+          "building",
+          "door"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "emotions": [
+          "awe",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians. Nature: trees, flowers, vertical garden. Objects: streetlights, paved path, residential building, building, door. Actions: walking. Emotions: calm, serene, awe, serenity. Scenes: urban park, nighttime, urban, night. Concepts: tranquility, urban life",
+  "primary_labels": {
+    "people": [
+      "pedestrians"
+    ],
+    "nature": [
+      "trees",
+      "flowers",
+      "vertical garden"
+    ],
+    "objects": [
+      "streetlights",
+      "paved path",
+      "residential building",
+      "building",
+      "door"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "awe",
+      "serenity"
+    ],
+    "scenes": [
+      "urban park",
+      "nighttime",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "tranquility",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

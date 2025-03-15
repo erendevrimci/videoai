@@ -1,0 +1,87 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/newest ai influencer.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/newest ai influencer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/newest ai influencer/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, wavy dark hair and striking blue eyes gazes directly at the camera. She is wearing a white, textured blouse against a plain, light-colored background.",
+      "description": "The scene is a portrait of a woman in a minimalist setting, focusing on her facial features and expression. The background is simple, emphasizing the subject.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "minimalism",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/newest ai influencer.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/newest ai influencer/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, wavy dark hair smiles warmly at the camera. She is wearing a white, textured blouse and is positioned against a neutral background.",
+      "description": "The scene captures a close-up portrait of a woman smiling, set against a simple, light-colored backdrop. The focus is on her expressive eyes and friendly demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "blouse"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: blouse. Emotions: calm, happiness. Scenes: portrait. Concepts: beauty, minimalism, warmth. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "blouse"
+    ],
+    "emotions": [
+      "calm",
+      "happiness"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "minimalism",
+      "warmth"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

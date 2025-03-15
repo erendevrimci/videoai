@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Vietnamese model in Paris.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Vietnamese model in Paris.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Vietnamese model in Paris/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long hair and a tan coat stands in a bustling city square, glancing back over her shoulder. The iconic Arc de Triomphe is visible in the background, adding a touch of historical grandeur to the scene.",
+      "description": "The scene is set in a busy urban environment, likely Paris, with the Arc de Triomphe in the background. The woman is the focal point, surrounded by blurred figures of people walking, suggesting a lively city atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat",
+          "Arc de Triomphe"
+        ],
+        "actions": [
+          "glancing back"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "urban",
+          "city square"
+        ],
+        "concepts": [
+          "fashion",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Vietnamese model in Paris.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Vietnamese model in Paris/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long hair stands in front of a famous monument, wearing a brown coat. The scene captures a bustling urban environment with people walking in the background.",
+      "description": "The image depicts a city scene with a focus on a woman standing near the Arc de Triomphe in Paris. The setting is lively, with people moving around and the iconic architecture visible in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coat",
+          "Arc de Triomphe"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban",
+          "city",
+          "landmark"
+        ],
+        "concepts": [
+          "travel",
+          "architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: coat, Arc de Triomphe. Actions: glancing back, standing. Emotions: contemplative, calm. Scenes: urban, city square, city, landmark. Concepts: architecture, fashion, travel",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "coat",
+      "Arc de Triomphe"
+    ],
+    "actions": [
+      "glancing back",
+      "standing"
+    ],
+    "emotions": [
+      "contemplative",
+      "calm"
+    ],
+    "scenes": [
+      "urban",
+      "city square",
+      "city",
+      "landmark"
+    ],
+    "concepts": [
+      "architecture",
+      "fashion",
+      "travel"
+    ]
+  },
+  "metadata": {}
+}

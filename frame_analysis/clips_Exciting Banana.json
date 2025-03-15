@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Exciting Banana.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Exciting Banana.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Exciting Banana/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A surreal scene depicts tiny skiers navigating a snowy slope that is creatively formed on a peeled banana. The banana is set against a soft, cloudy sky, adding to the whimsical atmosphere. The skiers appear to be enjoying their descent, with one reaching the peak of the banana's curve.",
+      "description": "The image presents a playful and imaginative setting where a banana is transformed into a ski slope. The scene combines elements of nature with a touch of fantasy, creating a dreamlike landscape.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "banana",
+          "ski poles"
+        ],
+        "actions": [
+          "skiing"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Exciting Banana.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Exciting Banana/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two snowboarders glide down a snowy slope, leaving trails of powder in their wake. The scene is set against a backdrop of dramatic ice formations and a cloudy sky.",
+      "description": "The image captures an exhilarating snowboarding scene on a snowy mountain slope. The snowboarders are navigating a steep descent, surrounded by striking ice formations and a cloudy atmosphere.",
+      "labels": {
+        "people": [
+          "snowboarders"
+        ],
+        "nature": [
+          "snow",
+          "ice formations",
+          "clouds"
+        ],
+        "objects": [
+          "snowboards"
+        ],
+        "actions": [
+          "snowboarding",
+          "gliding"
+        ],
+        "emotions": [
+          "exhilaration"
+        ],
+        "scenes": [
+          "mountain slope",
+          "winter sports"
+        ],
+        "concepts": [
+          "adventure",
+          "extreme sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skiers, snowboarders. Nature: clouds, snow, ice formations. Objects: banana, ski poles, snowboards. Actions: skiing, snowboarding, gliding. Emotions: playful, whimsical, exhilaration. Scenes: surreal, fantasy, mountain slope, winter sports. Concepts: creativity, imagination, adventure, extreme sports",
+  "primary_labels": {
+    "people": [
+      "skiers",
+      "snowboarders"
+    ],
+    "nature": [
+      "clouds",
+      "snow",
+      "ice formations"
+    ],
+    "objects": [
+      "banana",
+      "ski poles",
+      "snowboards"
+    ],
+    "actions": [
+      "skiing",
+      "snowboarding",
+      "gliding"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "exhilaration"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "mountain slope",
+      "winter sports"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "adventure",
+      "extreme sports"
+    ]
+  },
+  "metadata": {}
+}

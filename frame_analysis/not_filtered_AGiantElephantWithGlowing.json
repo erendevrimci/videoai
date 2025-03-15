@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGiantElephantWithGlowing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGiantElephantWithGlowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGiantElephantWithGlowing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive, towering elephant with glowing eyes stands in the middle of a city street, confronting a yellow taxi. A person in a hooded jacket and backpack faces the elephant, creating a surreal and tense atmosphere.",
+      "description": "The scene is set in an urban environment, likely a city street, with tall buildings lining the background. The presence of a gigantic elephant in the middle of the street creates a surreal juxtaposition against the everyday setting of a city taxi and pedestrian.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "elephant"
+        ],
+        "objects": [
+          "taxi",
+          "backpack",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "tension",
+          "surreal"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "surrealism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGiantElephantWithGlowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGiantElephantWithGlowing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A colossal elephant towers over a city street, its glowing eyes casting an eerie light. A lone figure stands in front of a yellow taxi, gazing up at the giant creature as steam rises around them.",
+      "description": "The scene is set in an urban environment, with towering buildings lining the street. A massive elephant dominates the scene, confronting a person and a taxi amidst the misty atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "elephant"
+        ],
+        "nature": [],
+        "objects": [
+          "taxi",
+          "buildings"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "awe",
+          "tension"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "surreal",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Animals: elephant. Objects: taxi, buildings, backpack. Actions: standing, facing, gazing. Emotions: tension, surreal, awe. Scenes: urban, city street, street. Concepts: surrealism, contrast, surreal, juxtaposition",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "animals": [
+      "elephant"
+    ],
+    "objects": [
+      "taxi",
+      "buildings",
+      "backpack"
+    ],
+    "actions": [
+      "standing",
+      "facing",
+      "gazing"
+    ],
+    "emotions": [
+      "tension",
+      "surreal",
+      "awe"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "street"
+    ],
+    "concepts": [
+      "surrealism",
+      "contrast",
+      "surreal",
+      "juxtaposition"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/STRAWBERRIES AND MILK.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/STRAWBERRIES AND MILK.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/STRAWBERRIES AND MILK/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant scene of fresh strawberries suspended in mid-air, surrounded by splashes of milk. The strawberries appear to be in motion, creating a dynamic and lively composition.",
+      "description": "The image captures a dynamic and colorful scene where ripe strawberries are seemingly floating amidst splashes of milk. The setting is likely a studio environment designed to highlight the freshness and vibrancy of the fruit.",
+      "labels": {
+        "nature": [
+          "strawberries"
+        ],
+        "objects": [
+          "milk"
+        ],
+        "actions": [
+          "splashing",
+          "floating"
+        ],
+        "emotions": [
+          "freshness",
+          "vibrancy"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "freshness",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/STRAWBERRIES AND MILK.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/STRAWBERRIES AND MILK/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant strawberry is captured mid-air as it splashes into a pool of creamy milk. The dynamic scene is filled with droplets and splashes, creating a sense of motion and freshness.",
+      "description": "The image depicts a close-up view of a strawberry falling into milk, creating an energetic splash. The scene is set against a soft, blurred background with additional strawberries visible, enhancing the sense of movement.",
+      "labels": {
+        "nature": [
+          "strawberry"
+        ],
+        "objects": [
+          "milk",
+          "droplets"
+        ],
+        "actions": [
+          "splashing",
+          "falling"
+        ],
+        "emotions": [
+          "freshness",
+          "vibrancy"
+        ],
+        "scenes": [
+          "close-up",
+          "dynamic"
+        ],
+        "concepts": [
+          "motion",
+          "freshness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: strawberries, strawberry. Objects: milk, droplets. Actions: splashing, floating, falling. Emotions: freshness, vibrancy. Scenes: studio, close-up, dynamic. Concepts: freshness, dynamic, motion",
+  "primary_labels": {
+    "nature": [
+      "strawberries",
+      "strawberry"
+    ],
+    "objects": [
+      "milk",
+      "droplets"
+    ],
+    "actions": [
+      "splashing",
+      "floating",
+      "falling"
+    ],
+    "emotions": [
+      "freshness",
+      "vibrancy"
+    ],
+    "scenes": [
+      "studio",
+      "close-up",
+      "dynamic"
+    ],
+    "concepts": [
+      "freshness",
+      "dynamic",
+      "motion"
+    ]
+  },
+  "metadata": {}
+}

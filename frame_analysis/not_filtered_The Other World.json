@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other World.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Other World/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic ancient structure stands on a cliff, surrounded by a vibrant yellow tree. Bright yellow flowers float gently through the air against a backdrop of a clear blue sky and soft clouds.",
+      "description": "The scene depicts a fantastical setting where an ancient, ornate building is perched on a rocky cliff. A large tree with golden foliage grows beside it, and numerous yellow flowers are seen drifting through the air, creating a serene and magical atmosphere.",
+      "labels": {
+        "nature": [
+          "tree",
+          "flowers",
+          "clouds"
+        ],
+        "objects": [
+          "ancient building",
+          "cliff"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy landscape"
+        ],
+        "concepts": [
+          "tranquility",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Other World/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic ancient structure is perched on a rocky cliff, surrounded by lush trees with golden leaves. The scene is enveloped in a mystical atmosphere with clouds drifting below, creating a sense of elevation and serenity.",
+      "description": "The image depicts an ancient, possibly mythical, architectural structure situated on a rugged cliffside. The setting is tranquil and elevated, with a clear blue sky and clouds below, suggesting a high altitude or a fantastical realm.",
+      "labels": {
+        "nature": [
+          "trees",
+          "clouds",
+          "cliff"
+        ],
+        "objects": [
+          "ancient structure",
+          "columns",
+          "balustrade"
+        ],
+        "scenes": [
+          "fantasy landscape",
+          "elevated view"
+        ],
+        "emotions": [
+          "serenity",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Other World.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Other World/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A scenic overlook extends from a stone structure, surrounded by lush trees and overlooking a misty landscape. The sky is clear and blue, contrasting with the soft, warm light illuminating the scene. In the distance, silhouettes of structures emerge from the mist, adding a sense of mystery.",
+      "description": "The scene depicts a tranquil, elevated viewpoint with a stone platform and railing, set amidst a natural environment. The setting suggests a peaceful, possibly ancient or fantasy location, with a serene atmosphere enhanced by the morning or evening light.",
+      "labels": {
+        "nature": [
+          "trees",
+          "mist",
+          "sky"
+        ],
+        "objects": [
+          "stone structure",
+          "railing"
+        ],
+        "scenes": [
+          "overlook",
+          "landscape"
+        ],
+        "emotions": [
+          "tranquility",
+          "serenity"
+        ],
+        "concepts": [
+          "mystery",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, trees, tree, flowers, cliff. Objects: ancient building, cliff, ancient structure, columns, balustrade. Actions: floating. Emotions: serenity, wonder, mystical, tranquility. Scenes: fantasy landscape, elevated view, overlook, landscape. Concepts: tranquility, magic, mystery, fantasy",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "trees",
+      "tree",
+      "flowers",
+      "cliff"
+    ],
+    "objects": [
+      "ancient building",
+      "cliff",
+      "ancient structure",
+      "columns",
+      "balustrade"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "mystical",
+      "tranquility"
+    ],
+    "scenes": [
+      "fantasy landscape",
+      "elevated view",
+      "overlook",
+      "landscape"
+    ],
+    "concepts": [
+      "tranquility",
+      "magic",
+      "mystery",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

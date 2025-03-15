@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyberpunk Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyberpunk Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyberpunk Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat wearing a harness sits attentively on a wet city street at night. Neon lights from surrounding buildings illuminate the scene, casting colorful reflections on the pavement. The background is bustling with silhouettes of people walking by.",
+      "description": "The scene is set in a vibrant urban environment at night, characterized by bright neon lights and a busy street. The focus is on a ginger cat in the foreground, while people move in the background, creating a lively city atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [],
+        "objects": [
+          "harness",
+          "neon lights"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "attentive"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "city life",
+          "vibrancy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyberpunk Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyberpunk Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat wearing a harness sits attentively on a wet city street at night. In the background, a humanoid robot walks past under the glow of neon lights, creating a futuristic atmosphere.",
+      "description": "The scene is set in a bustling city street at night, illuminated by vibrant neon signs. A cat with a harness is the focal point, while a robot and blurred figures move in the background, suggesting a futuristic urban environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "harness",
+          "neon lights"
+        ],
+        "actions": [
+          "sitting",
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "city street",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "urban"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cyberpunk Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cyberpunk Cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A ginger cat wearing a harness sits attentively on a wet city street at night. In the background, a futuristic cityscape with blurred neon lights and a humanoid figure adds to the scene's sci-fi atmosphere.",
+      "description": "The scene is set in a futuristic urban environment at night, characterized by vibrant neon lights and a sleek, modern architecture. A ginger cat with a harness is the focal point, while a humanoid figure in the background suggests a blend of nature and technology.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "harness",
+          "neon lights"
+        ],
+        "scenes": [
+          "city",
+          "night",
+          "futuristic"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: harness, neon lights. Actions: sitting, walking. Emotions: calm, attentive. Scenes: night, urban, city street, nighttime, city. Concepts: city life, vibrancy, futuristic, urban, technology",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [],
+    "objects": [
+      "harness",
+      "neon lights"
+    ],
+    "actions": [
+      "sitting",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "attentive"
+    ],
+    "scenes": [
+      "night",
+      "urban",
+      "city street",
+      "nighttime",
+      "city"
+    ],
+    "concepts": [
+      "city life",
+      "vibrancy",
+      "futuristic",
+      "urban",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

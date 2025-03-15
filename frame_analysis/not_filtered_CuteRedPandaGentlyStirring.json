@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CuteRedPandaGentlyStirring.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CuteRedPandaGentlyStirring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CuteRedPandaGentlyStirring/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A red panda is standing in a kitchen, wearing a pink apron and cooking eggs in a frying pan. The scene is charming and whimsical, with the panda focused on its task.",
+      "description": "The scene takes place in a cozy kitchen setting where a red panda is engaging in the delightful activity of cooking. The panda, dressed in a pink apron, is skillfully frying eggs on a stovetop, creating a playful and endearing atmosphere.",
+      "labels": {
+        "animals": [
+          "red panda"
+        ],
+        "objects": [
+          "frying pan",
+          "eggs",
+          "stovetop",
+          "apron"
+        ],
+        "actions": [
+          "cooking",
+          "frying"
+        ],
+        "emotions": [
+          "charming",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "cuteness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CuteRedPandaGentlyStirring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CuteRedPandaGentlyStirring/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A red panda is wearing a pink apron while cooking sunny-side-up eggs in a frying pan. The scene is set in a cozy kitchen with a warm, inviting atmosphere. The red panda appears focused and content as it carefully tends to the eggs on the stove.",
+      "description": "The image depicts a red panda engaging in a whimsical cooking activity in a kitchen setting. The kitchen is softly lit, creating a warm and homely environment.",
+      "labels": {
+        "animals": [
+          "red panda"
+        ],
+        "objects": [
+          "frying pan",
+          "eggs",
+          "stove",
+          "apron"
+        ],
+        "actions": [
+          "cooking",
+          "frying"
+        ],
+        "emotions": [
+          "content",
+          "focused"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "whimsy",
+          "cozy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: red panda. Objects: frying pan, eggs, apron, stovetop, stove. Actions: cooking, frying. Emotions: charming, whimsical, content, focused. Scenes: kitchen. Concepts: anthropomorphism, cuteness, whimsy, cozy",
+  "primary_labels": {
+    "animals": [
+      "red panda"
+    ],
+    "objects": [
+      "frying pan",
+      "eggs",
+      "apron",
+      "stovetop",
+      "stove"
+    ],
+    "actions": [
+      "cooking",
+      "frying"
+    ],
+    "emotions": [
+      "charming",
+      "whimsical",
+      "content",
+      "focused"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "cuteness",
+      "whimsy",
+      "cozy"
+    ]
+  },
+  "metadata": {}
+}

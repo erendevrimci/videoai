@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Watermelon Excavation.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Watermelon Excavation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Watermelon Excavation/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature construction scene features a toy excavator digging into a large slice of watermelon, with a pile of seeds resembling gravel. Two toy construction workers and a toy dump truck add to the playful depiction of a construction site.",
+      "description": "The scene is a creative and whimsical setup where toy construction vehicles and figures are engaged in a mock construction project involving a watermelon. The setting is outdoors, with a warm, sunlit background enhancing the playful atmosphere.",
+      "labels": {
+        "people": [
+          "toy construction workers"
+        ],
+        "objects": [
+          "toy excavator",
+          "toy dump truck",
+          "watermelon",
+          "watermelon seeds"
+        ],
+        "actions": [
+          "digging",
+          "construction"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "miniature construction site"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Watermelon Excavation.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Watermelon Excavation/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature construction scene features toy excavators and trucks working on a large slice of watermelon. The excavator appears to be scooping watermelon seeds, while the truck is positioned to collect them. Tiny figurines of construction workers add to the playful and imaginative setting.",
+      "description": "The scene is a whimsical depiction of a construction site using toy machinery and a watermelon as the terrain. It creatively combines elements of construction with food, creating a playful and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "figurines",
+          "construction workers"
+        ],
+        "objects": [
+          "toy excavator",
+          "toy truck",
+          "watermelon",
+          "watermelon seeds"
+        ],
+        "actions": [
+          "scooping",
+          "collecting"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "construction site",
+          "miniature scene"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: toy construction workers, figurines, construction workers. Objects: toy excavator, watermelon, watermelon seeds, toy dump truck, toy truck. Actions: digging, construction, scooping, collecting. Emotions: playful, whimsical, imaginative. Scenes: miniature construction site, construction site, miniature scene. Concepts: creativity, imagination",
+  "primary_labels": {
+    "people": [
+      "toy construction workers",
+      "figurines",
+      "construction workers"
+    ],
+    "objects": [
+      "toy excavator",
+      "watermelon",
+      "watermelon seeds",
+      "toy dump truck",
+      "toy truck"
+    ],
+    "actions": [
+      "digging",
+      "construction",
+      "scooping",
+      "collecting"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "miniature construction site",
+      "construction site",
+      "miniature scene"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

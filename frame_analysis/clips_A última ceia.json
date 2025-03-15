@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A \u00faltima ceia.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A \u00faltima ceia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A \u00faltima ceia/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of men are gathered around a long table, engaged in a solemn meal. The central figure, dressed in a red robe, gestures with his hands over the food. The setting is framed by an arched window, revealing a serene landscape outside.",
+      "description": "The scene depicts a historical or religious gathering, likely inspired by a famous painting. The setting is indoors, with an arched window providing a view of a tranquil landscape. The men are seated closely, suggesting a communal or significant event.",
+      "labels": {
+        "people": [
+          "men",
+          "central figure"
+        ],
+        "objects": [
+          "table",
+          "food",
+          "plates"
+        ],
+        "actions": [
+          "gathered",
+          "gesturing"
+        ],
+        "emotions": [
+          "solemn",
+          "serene"
+        ],
+        "scenes": [
+          "indoor",
+          "historical",
+          "religious"
+        ],
+        "concepts": [
+          "community",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A \u00faltima ceia.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A \u00faltima ceia/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long hair and a beard is depicted in a serene setting, wearing a white robe with a red sash. They are seated at a table with a plate of bread and nuts, raising one hand in a gentle gesture.",
+      "description": "The scene appears to be a classical or religious depiction, set against a backdrop of rolling hills and a cloudy sky. The person is central to the composition, suggesting a moment of blessing or contemplation.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "hills",
+          "cloudy sky"
+        ],
+        "objects": [
+          "plate",
+          "bread",
+          "nuts",
+          "robe",
+          "sash"
+        ],
+        "actions": [
+          "raising hand"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "religious",
+          "classical"
+        ],
+        "concepts": [
+          "blessing",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: men, central figure, person. Objects: table, food, plates, plate, bread. Actions: gathered, gesturing, raising hand. Emotions: solemn, serene, serenity. Scenes: religious, indoor, historical, classical. Concepts: community, tradition, blessing, contemplation. Nature: hills, cloudy sky",
+  "primary_labels": {
+    "people": [
+      "men",
+      "central figure",
+      "person"
+    ],
+    "objects": [
+      "table",
+      "food",
+      "plates",
+      "plate",
+      "bread"
+    ],
+    "actions": [
+      "gathered",
+      "gesturing",
+      "raising hand"
+    ],
+    "emotions": [
+      "solemn",
+      "serene",
+      "serenity"
+    ],
+    "scenes": [
+      "religious",
+      "indoor",
+      "historical",
+      "classical"
+    ],
+    "concepts": [
+      "community",
+      "tradition",
+      "blessing",
+      "contemplation"
+    ],
+    "nature": [
+      "hills",
+      "cloudy sky"
+    ]
+  },
+  "metadata": {}
+}

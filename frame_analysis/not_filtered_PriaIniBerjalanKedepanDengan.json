@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerjalanKedepanDengan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerjalanKedepanDengan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PriaIniBerjalanKedepanDengan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person is confidently walking towards the camera in a studio setting. They are wearing a stylish white shirt with a brown stripe and patterned dark pants, paired with white sneakers.",
+      "description": "The scene depicts a fashion-forward individual walking in a minimalist studio environment, showcasing a modern and casual outfit.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "shirt",
+          "pants",
+          "sneakers"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PriaIniBerjalanKedepanDengan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PriaIniBerjalanKedepanDengan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man is standing confidently in a studio setting, wearing a stylish white shirt with a subtle design. He appears to be posing for a photo, exuding a calm and composed demeanor.",
+      "description": "The scene is set in a professional studio environment with a plain background, focusing on a man dressed in formal attire. The atmosphere is calm and poised, suggesting a fashion or portrait photography session.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "shirt",
+          "trousers"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident",
+          "calm"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, man. Objects: shirt, pants, sneakers, trousers. Actions: walking, standing, posing. Emotions: confident, calm. Scenes: studio. Concepts: fashion, style, portrait",
+  "primary_labels": {
+    "people": [
+      "person",
+      "man"
+    ],
+    "objects": [
+      "shirt",
+      "pants",
+      "sneakers",
+      "trousers"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confident",
+      "calm"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

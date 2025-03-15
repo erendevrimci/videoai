@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulAndEmotionalScene.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulAndEmotionalScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulAndEmotionalScene/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic snow leopard with striking blue eyes walks confidently through a snowy landscape, accompanied by a man in a winter coat. The scene is serene, with snow gently falling around them.",
+      "description": "The image depicts a tranquil winter setting where a snow leopard and a man walk side by side along a snow-covered path. The background is filled with snow-laden trees, creating a peaceful and harmonious atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "snow leopard"
+        ],
+        "nature": [
+          "snow",
+          "trees"
+        ],
+        "objects": [
+          "winter coat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "companionship",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/APowerfulAndEmotionalScene.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/APowerfulAndEmotionalScene/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic snow leopard with striking blue eyes walks confidently through a snowy landscape. Behind it, a man in a winter coat and hat follows, creating a harmonious scene of human and nature coexisting.",
+      "description": "The scene is set in a snowy forest, where a snow leopard strides forward with a man following closely behind. The setting suggests a cold, winter environment, possibly in a mountainous or forested region.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "snow leopard"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "winter coat",
+          "hat"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "winter landscape"
+        ],
+        "concepts": [
+          "human-animal interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: snow leopard. Nature: snow, trees, forest. Objects: winter coat, hat. Actions: walking. Emotions: serenity, calm. Scenes: winter landscape. Concepts: companionship, nature, human-animal interaction",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "snow leopard"
+    ],
+    "nature": [
+      "snow",
+      "trees",
+      "forest"
+    ],
+    "objects": [
+      "winter coat",
+      "hat"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "serenity",
+      "calm"
+    ],
+    "scenes": [
+      "winter landscape"
+    ],
+    "concepts": [
+      "companionship",
+      "nature",
+      "human-animal interaction"
+    ]
+  },
+  "metadata": {}
+}

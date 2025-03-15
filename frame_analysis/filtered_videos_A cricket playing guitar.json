@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cricket playing guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cricket playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A cricket playing guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts a grasshopper playing an electric guitar while perched on a dew-covered leaf. Sunlight filters through the forest, creating a warm and magical atmosphere. In the background, a bird is seen flying, adding to the lively setting.",
+      "description": "The scene is set in a sunlit forest where a grasshopper is engagingly playing an electric guitar. The environment is vibrant with lush greenery and morning dew, suggesting an early morning setting. The presence of a bird in flight adds a dynamic element to the tranquil yet lively forest ambiance.",
+      "labels": {
+        "animals": [
+          "grasshopper",
+          "bird"
+        ],
+        "nature": [
+          "forest",
+          "leaf",
+          "sunlight",
+          "dew"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar",
+          "flying"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "forest scene",
+          "musical performance"
+        ],
+        "concepts": [
+          "fantasy",
+          "nature harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/A cricket playing guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/A cricket playing guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features a grasshopper playing an electric guitar while perched on a dewy leaf. Sunlight filters through the forest, illuminating the vibrant green foliage. In the background, a bird is captured mid-flight, adding to the lively atmosphere.",
+      "description": "The image depicts a fantastical scene set in a sunlit forest. A grasshopper is humorously portrayed as a musician, strumming an electric guitar on a leaf. The scene is filled with natural elements, creating a surreal yet joyful atmosphere.",
+      "labels": {
+        "animals": [
+          "grasshopper",
+          "bird"
+        ],
+        "nature": [
+          "forest",
+          "leaf",
+          "sunlight"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar",
+          "flying"
+        ],
+        "emotions": [
+          "whimsical",
+          "joyful"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "music",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: grasshopper, bird. Nature: forest, leaf, sunlight, dew. Objects: electric guitar. Actions: playing guitar, flying. Emotions: whimsical, magical, joyful. Scenes: forest scene, musical performance, fantasy, nature. Concepts: fantasy, nature harmony, music, surrealism",
+  "primary_labels": {
+    "animals": [
+      "grasshopper",
+      "bird"
+    ],
+    "nature": [
+      "forest",
+      "leaf",
+      "sunlight",
+      "dew"
+    ],
+    "objects": [
+      "electric guitar"
+    ],
+    "actions": [
+      "playing guitar",
+      "flying"
+    ],
+    "emotions": [
+      "whimsical",
+      "magical",
+      "joyful"
+    ],
+    "scenes": [
+      "forest scene",
+      "musical performance",
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "fantasy",
+      "nature harmony",
+      "music",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

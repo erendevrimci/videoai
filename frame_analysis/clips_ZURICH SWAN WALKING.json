@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ZURICH SWAN WALKING.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ZURICH SWAN WALKING.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ZURICH SWAN WALKING/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in an urban setting with a swan perched elegantly on her head. The scene is surreal, blending elements of nature with a city backdrop.",
+      "description": "The image depicts a woman in a city environment, with a swan resting on her head. The setting appears to be urban, with blurred architectural elements in the background.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "swan"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban"
+        ],
+        "concepts": [
+          "surrealism",
+          "nature in city"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ZURICH SWAN WALKING.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ZURICH SWAN WALKING/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands in an urban setting, wearing a unique hat shaped like a swan. Her expression is calm and composed, contrasting with the whimsical nature of her headwear.",
+      "description": "The scene takes place in an urban environment, possibly a city street or a public space. The focus is on a woman with a swan-shaped hat, creating a striking and surreal visual element.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "swan"
+        ],
+        "objects": [
+          "hat"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: swan. Objects: clothing, hat. Actions: standing. Emotions: calm. Scenes: urban. Concepts: surrealism, nature in city, fashion, surreal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "swan"
+    ],
+    "objects": [
+      "clothing",
+      "hat"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm"
+    ],
+    "scenes": [
+      "urban"
+    ],
+    "concepts": [
+      "surrealism",
+      "nature in city",
+      "fashion",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

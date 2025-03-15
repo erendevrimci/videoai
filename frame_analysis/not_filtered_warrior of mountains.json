@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/warrior of mountains.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/warrior of mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/warrior of mountains/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular man dressed in primitive attire stands confidently in a rocky landscape. He wears a fur cloak and a necklace of large stones, exuding a strong and determined presence.",
+      "description": "The scene depicts a rugged, prehistoric setting with a focus on a solitary figure. The man appears to be a warrior or hunter, surrounded by a desolate, rocky environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "rocks"
+        ],
+        "objects": [
+          "fur cloak",
+          "stone necklace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "prehistoric",
+          "rocky landscape"
+        ],
+        "concepts": [
+          "strength",
+          "primitiveness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/warrior of mountains.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/warrior of mountains/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular man stands confidently in a rugged landscape, wearing a fur cloak and primitive attire. His eyes are closed, and he appears deep in thought or meditation. The background features rocky terrain, enhancing the scene's ancient and primal atmosphere.",
+      "description": "The scene depicts a solitary figure in a prehistoric or fantasy setting, emphasizing strength and introspection. The man is dressed in animal furs and leather, suggesting a connection to nature and survival.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "rocky terrain"
+        ],
+        "objects": [
+          "fur cloak",
+          "necklace",
+          "primitive attire"
+        ],
+        "actions": [
+          "standing",
+          "meditating"
+        ],
+        "emotions": [
+          "contemplative",
+          "confident"
+        ],
+        "scenes": [
+          "prehistoric",
+          "fantasy"
+        ],
+        "concepts": [
+          "strength",
+          "primal",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Nature: rocks, rocky terrain. Objects: fur cloak, stone necklace, necklace, primitive attire. Actions: standing, meditating. Emotions: determination, contemplative, confident. Scenes: prehistoric, rocky landscape, fantasy. Concepts: strength, primitiveness, primal, solitude",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "nature": [
+      "rocks",
+      "rocky terrain"
+    ],
+    "objects": [
+      "fur cloak",
+      "stone necklace",
+      "necklace",
+      "primitive attire"
+    ],
+    "actions": [
+      "standing",
+      "meditating"
+    ],
+    "emotions": [
+      "determination",
+      "contemplative",
+      "confident"
+    ],
+    "scenes": [
+      "prehistoric",
+      "rocky landscape",
+      "fantasy"
+    ],
+    "concepts": [
+      "strength",
+      "primitiveness",
+      "primal",
+      "solitude"
+    ]
+  },
+  "metadata": {}
+}

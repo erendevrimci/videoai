@@ -1,0 +1,173 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inky.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Inky/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, menacing octopus is towering over a group of people at a dock. The creature's tentacles are wrapped in chains, and it appears to be restrained. The onlookers, dressed in heavy coats, seem to be observing the creature with a mix of awe and apprehension.",
+      "description": "The scene takes place at a dock, where a giant octopus is being held captive. The atmosphere is tense as several people gather to witness the unusual spectacle. The setting is industrial, with overcast skies adding to the dramatic mood.",
+      "labels": {
+        "people": [
+          "group",
+          "onlookers"
+        ],
+        "animals": [
+          "octopus"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [
+          "chains",
+          "dock"
+        ],
+        "actions": [
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "apprehension"
+        ],
+        "scenes": [
+          "dock",
+          "industrial"
+        ],
+        "concepts": [
+          "captivity",
+          "spectacle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Inky/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of people stand in awe around a massive octopus-like creature with menacing teeth, towering over them on a dock. The creature's tentacles are draped with chains, and the scene is set against a backdrop of industrial buildings and overcast skies.",
+      "description": "The scene takes place on a dock, where a gigantic, monstrous octopus-like creature is displayed. Several people in coats and hats gather around, seemingly observing the creature with a mix of curiosity and apprehension. The atmosphere is tense and surreal, with the industrial setting adding to the dramatic effect.",
+      "labels": {
+        "people": [
+          "group",
+          "observers"
+        ],
+        "animals": [
+          "octopus-like creature"
+        ],
+        "nature": [],
+        "objects": [
+          "chains",
+          "dock",
+          "industrial buildings"
+        ],
+        "actions": [
+          "observing",
+          "gathering"
+        ],
+        "emotions": [
+          "curiosity",
+          "apprehension"
+        ],
+        "scenes": [
+          "dock",
+          "industrial"
+        ],
+        "concepts": [
+          "surreal",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Inky.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Inky/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A large, menacing octopus-like creature is restrained by chains on a dock, surrounded by a group of people in raincoats. The scene is set against a backdrop of industrial structures under a cloudy sky, creating a tense and mysterious atmosphere.",
+      "description": "The image depicts a dramatic scene at a dock where a gigantic octopus-like creature is chained and observed by several people. The setting appears industrial, possibly a shipyard, with overcast weather adding to the ominous mood.",
+      "labels": {
+        "people": [
+          "group",
+          "observers"
+        ],
+        "animals": [
+          "octopus-like creature"
+        ],
+        "nature": [
+          "cloudy sky"
+        ],
+        "objects": [
+          "chains",
+          "dock",
+          "industrial structures"
+        ],
+        "actions": [
+          "observing",
+          "restraining"
+        ],
+        "emotions": [
+          "tension",
+          "mystery"
+        ],
+        "scenes": [
+          "dock",
+          "industrial"
+        ],
+        "concepts": [
+          "mystery",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: group, observers, onlookers. Animals: octopus-like creature, octopus. Nature: sky, cloudy sky. Objects: chains, dock, industrial buildings, industrial structures. Actions: observing, gathering, restraining. Emotions: apprehension, awe, curiosity, tension, mystery. Scenes: dock, industrial. Concepts: captivity, spectacle, surreal, dramatic, mystery",
+  "primary_labels": {
+    "people": [
+      "group",
+      "observers",
+      "onlookers"
+    ],
+    "animals": [
+      "octopus-like creature",
+      "octopus"
+    ],
+    "nature": [
+      "sky",
+      "cloudy sky"
+    ],
+    "objects": [
+      "chains",
+      "dock",
+      "industrial buildings",
+      "industrial structures"
+    ],
+    "actions": [
+      "observing",
+      "gathering",
+      "restraining"
+    ],
+    "emotions": [
+      "apprehension",
+      "awe",
+      "curiosity",
+      "tension",
+      "mystery"
+    ],
+    "scenes": [
+      "dock",
+      "industrial"
+    ],
+    "concepts": [
+      "captivity",
+      "spectacle",
+      "surreal",
+      "dramatic",
+      "mystery"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Elegance Emerald Green Dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Elegance Emerald Green Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Elegance Emerald Green Dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A graceful figure stands elegantly in a glowing, ethereal gown that shimmers with a celestial light. The dress flows behind her, resembling a trail of stardust against a dark, starry background.",
+      "description": "The scene depicts a mystical and enchanting setting where a woman is adorned in a luminous gown, standing against a backdrop of darkness speckled with stars. The atmosphere is serene and otherworldly, evoking a sense of wonder and magic.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ],
+        "scenes": [
+          "mystical",
+          "celestial"
+        ],
+        "concepts": [
+          "elegance",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Elegance Emerald Green Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Elegance Emerald Green Dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A graceful dancer performs under a spotlight, her flowing gown shimmering with a magical glow. The ethereal fabric cascades around her as she moves with elegance and poise.",
+      "description": "The scene captures a dancer in a dark setting, illuminated by a soft, greenish light that highlights her movements and the sparkling details of her dress.",
+      "labels": {
+        "people": [
+          "dancer"
+        ],
+        "objects": [
+          "gown",
+          "headpiece"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "graceful",
+          "elegant"
+        ],
+        "scenes": [
+          "performance",
+          "stage"
+        ],
+        "concepts": [
+          "artistry",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Elegance Emerald Green Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Elegance Emerald Green Dance/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A graceful dancer in a flowing, sparkling dress creates a mesmerizing swirl of glowing particles with her hands. The scene is set against a dark background, highlighting the ethereal glow of the dress and particles.",
+      "description": "The image depicts a dancer performing in a magical, otherworldly setting. Her elegant pose and the luminous particles create a sense of enchantment and wonder.",
+      "labels": {
+        "people": [
+          "dancer"
+        ],
+        "objects": [
+          "dress",
+          "particles"
+        ],
+        "actions": [
+          "dancing",
+          "creating particles"
+        ],
+        "emotions": [
+          "graceful",
+          "magical"
+        ],
+        "scenes": [
+          "performance",
+          "fantasy"
+        ],
+        "concepts": [
+          "elegance",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: dancer, woman. Objects: gown, headpiece, dress, particles. Actions: dancing, standing, creating particles. Emotions: graceful, serene, enchanting, elegant, magical. Scenes: performance, mystical, celestial, stage, fantasy. Concepts: elegance, magic, artistry, beauty, enchantment",
+  "primary_labels": {
+    "people": [
+      "dancer",
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "headpiece",
+      "dress",
+      "particles"
+    ],
+    "actions": [
+      "dancing",
+      "standing",
+      "creating particles"
+    ],
+    "emotions": [
+      "graceful",
+      "serene",
+      "enchanting",
+      "elegant",
+      "magical"
+    ],
+    "scenes": [
+      "performance",
+      "mystical",
+      "celestial",
+      "stage",
+      "fantasy"
+    ],
+    "concepts": [
+      "elegance",
+      "magic",
+      "artistry",
+      "beauty",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

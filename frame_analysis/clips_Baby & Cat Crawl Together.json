@@ -1,0 +1,166 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & Cat Crawl Together.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & Cat Crawl Together.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby & Cat Crawl Together/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby and a kitten are playfully interacting on a soft, beige carpet. The baby is smiling joyfully, while the kitten curiously explores the area beside them. Sunlight streams through a window, creating a warm and cozy atmosphere.",
+      "description": "The scene is set in a bright and cozy living room, where a baby and a kitten are enjoying a playful moment together. The soft carpet and sunlight enhance the warmth and comfort of the setting.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "sofa",
+          "cushions",
+          "window",
+          "toys"
+        ],
+        "actions": [
+          "smiling",
+          "exploring"
+        ],
+        "emotions": [
+          "joyful",
+          "curious"
+        ],
+        "scenes": [
+          "living room"
+        ],
+        "concepts": [
+          "playfulness",
+          "warmth",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & Cat Crawl Together.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby & Cat Crawl Together/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby lies on a soft carpet, gently nuzzling a small tabby kitten. Sunlight streams through a window, casting a warm glow over the cozy living room setting.",
+      "description": "The scene captures a tender moment between a baby and a kitten in a comfortable living room. Toys are scattered around, and a couch with colorful cushions is visible in the background.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "toys",
+          "couch",
+          "cushions"
+        ],
+        "actions": [
+          "nuzzling"
+        ],
+        "emotions": [
+          "affection"
+        ],
+        "scenes": [
+          "living room"
+        ],
+        "concepts": [
+          "innocence",
+          "playfulness",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby & Cat Crawl Together.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby & Cat Crawl Together/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A baby is joyfully cuddling a kitten on a soft carpet in a sunlit living room. The baby is smiling warmly, while the kitten appears relaxed and content.",
+      "description": "The scene is set in a cozy living room with sunlight streaming through a window, creating a warm and inviting atmosphere. A baby and a kitten are the central focus, engaging in a tender moment of affection on a plush carpet.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "nature": [],
+        "objects": [
+          "carpet",
+          "sofa",
+          "window"
+        ],
+        "actions": [
+          "cuddling",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "contentment"
+        ],
+        "scenes": [
+          "living room",
+          "indoor"
+        ],
+        "concepts": [
+          "affection",
+          "warmth",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: kitten. Objects: carpet, sofa, cushions, window, toys. Actions: smiling, exploring, nuzzling, cuddling. Emotions: joyful, curious, affection, joy, contentment. Scenes: living room, indoor. Concepts: playfulness, warmth, comfort, innocence, affection",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "kitten"
+    ],
+    "nature": [],
+    "objects": [
+      "carpet",
+      "sofa",
+      "cushions",
+      "window",
+      "toys"
+    ],
+    "actions": [
+      "smiling",
+      "exploring",
+      "nuzzling",
+      "cuddling"
+    ],
+    "emotions": [
+      "joyful",
+      "curious",
+      "affection",
+      "joy",
+      "contentment"
+    ],
+    "scenes": [
+      "living room",
+      "indoor"
+    ],
+    "concepts": [
+      "playfulness",
+      "warmth",
+      "comfort",
+      "innocence",
+      "affection"
+    ]
+  },
+  "metadata": {}
+}

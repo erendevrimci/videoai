@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super Saiyan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A character with spiky black hair stands confidently in front of traditional Asian architecture. He wears an orange martial arts gi with blue accents and symbols on the chest and sleeve.",
+      "description": "The scene depicts a character in a martial arts uniform standing in a setting reminiscent of a historical Asian village, with pagoda-style buildings in the background. The atmosphere is vibrant and energetic, suggesting a moment of calm confidence.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "objects": [
+          "martial arts gi",
+          "pagoda"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "historical village"
+        ],
+        "concepts": [
+          "martial arts",
+          "traditional architecture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super Saiyan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A character with spiky black hair stands confidently in front of traditional East Asian architecture. He is wearing an orange martial arts gi with blue accents, exuding a sense of strength and readiness.",
+      "description": "The scene is set in a historical or fantasy setting with traditional East Asian buildings in the background. The character appears to be a martial artist, possibly in a training or combat scenario.",
+      "labels": {
+        "people": [
+          "character",
+          "martial artist"
+        ],
+        "objects": [
+          "martial arts gi",
+          "traditional architecture"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "historical",
+          "fantasy"
+        ],
+        "concepts": [
+          "martial arts",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Super Saiyan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Super Saiyan/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A character stands in a powerful pose, surrounded by a glowing aura of energy. The scene is set against a backdrop of traditional Asian architecture, suggesting a blend of fantasy and historical elements.",
+      "description": "The image depicts a character emanating a bright, fiery aura, set in a location with traditional Asian buildings. The character's intense expression and the energy surrounding them suggest a moment of transformation or power.",
+      "labels": {
+        "people": [
+          "character"
+        ],
+        "objects": [
+          "traditional buildings",
+          "martial arts uniform"
+        ],
+        "actions": [
+          "glowing",
+          "power emanation"
+        ],
+        "emotions": [
+          "intensity",
+          "power"
+        ],
+        "scenes": [
+          "fantasy",
+          "historical"
+        ],
+        "concepts": [
+          "energy",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: character, martial artist. Objects: martial arts gi, pagoda, traditional architecture, traditional buildings, martial arts uniform. Actions: standing, glowing, power emanation. Emotions: confidence, intensity, power. Scenes: historical, fantasy, historical village. Concepts: martial arts, traditional architecture, strength, energy, transformation",
+  "primary_labels": {
+    "people": [
+      "character",
+      "martial artist"
+    ],
+    "objects": [
+      "martial arts gi",
+      "pagoda",
+      "traditional architecture",
+      "traditional buildings",
+      "martial arts uniform"
+    ],
+    "actions": [
+      "standing",
+      "glowing",
+      "power emanation"
+    ],
+    "emotions": [
+      "confidence",
+      "intensity",
+      "power"
+    ],
+    "scenes": [
+      "historical",
+      "fantasy",
+      "historical village"
+    ],
+    "concepts": [
+      "martial arts",
+      "traditional architecture",
+      "strength",
+      "energy",
+      "transformation"
+    ]
+  },
+  "metadata": {}
+}

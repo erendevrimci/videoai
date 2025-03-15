@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman dressed in a leather suit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman dressed in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman dressed in a leather suit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in a sleek, black latex suit, exuding a futuristic and bold presence. The suit is form-fitting and reflective, accentuating the figure's silhouette. The background is a simple, neutral tone, drawing focus to the central figure.",
+      "description": "The scene is a studio setting with a minimalist background, highlighting the person in the black latex suit. The atmosphere is modern and edgy, suggesting themes of fashion or science fiction.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "latex suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "futuristic",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman dressed in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman dressed in a leather suit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is wearing a shiny black outfit. She is looking directly at the camera with a confident expression.",
+      "description": "The scene is a close-up portrait of a woman in a studio setting. The focus is on her facial expression and the glossy texture of her outfit.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black outfit"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Woman dressed in a leather suit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Woman dressed in a leather suit/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long blonde hair gazes intently at the camera. She is wearing a shiny black outfit, and her expression is confident and assertive.",
+      "description": "The scene captures a close-up portrait of a woman with blonde hair, focusing on her facial expression and attire. The setting appears to be indoors with neutral lighting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black outfit"
+        ],
+        "emotions": [
+          "confidence",
+          "assertiveness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: black outfit, latex suit. Actions: standing, looking. Emotions: confidence, confident, assertiveness. Scenes: portrait, studio. Concepts: fashion, style, futuristic",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "black outfit",
+      "latex suit"
+    ],
+    "actions": [
+      "standing",
+      "looking"
+    ],
+    "emotions": [
+      "confidence",
+      "confident",
+      "assertiveness"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "futuristic"
+    ]
+  },
+  "metadata": {}
+}

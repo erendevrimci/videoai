@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairy dedecorate cake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairy dedecorate cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fairy dedecorate cake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two fairy-like children with delicate wings hover above a large pavlova dessert adorned with fresh berries. Their ethereal presence adds a magical touch to the scene as they reach towards the vibrant fruits. The dessert is drizzled with a glossy red sauce, enhancing its visual appeal.",
+      "description": "The scene depicts a whimsical and enchanting setting where two fairy-like children interact with a beautifully decorated pavlova. The setting is dreamlike, with soft lighting and a focus on the dessert's vibrant colors and textures.",
+      "labels": {
+        "people": [
+          "children",
+          "fairy-like"
+        ],
+        "objects": [
+          "pavlova",
+          "berries",
+          "wings"
+        ],
+        "actions": [
+          "hovering",
+          "reaching"
+        ],
+        "emotions": [
+          "whimsical",
+          "enchanting"
+        ],
+        "scenes": [
+          "magical",
+          "dreamlike"
+        ],
+        "concepts": [
+          "fantasy",
+          "dessert"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/fairy dedecorate cake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/fairy dedecorate cake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two small fairies with delicate, shimmering wings are playfully interacting with a lavish dessert topped with vibrant berries. The scene captures a whimsical moment as they hover above the dessert, seemingly enchanted by the colorful fruits.",
+      "description": "The image depicts a magical scene where two fairy-like figures are engaging with a beautifully decorated dessert. The setting is ethereal, with soft lighting enhancing the fantasy atmosphere.",
+      "labels": {
+        "people": [
+          "fairies"
+        ],
+        "objects": [
+          "dessert",
+          "berries"
+        ],
+        "actions": [
+          "hovering",
+          "interacting"
+        ],
+        "emotions": [
+          "playful",
+          "enchanted"
+        ],
+        "scenes": [
+          "fantasy",
+          "whimsical"
+        ],
+        "concepts": [
+          "magic",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: children, fairy-like, fairies. Objects: berries, pavlova, wings, dessert. Actions: hovering, reaching, interacting. Emotions: whimsical, enchanting, playful, enchanted. Scenes: magical, dreamlike, fantasy, whimsical. Concepts: fantasy, dessert, magic, imagination",
+  "primary_labels": {
+    "people": [
+      "children",
+      "fairy-like",
+      "fairies"
+    ],
+    "objects": [
+      "berries",
+      "pavlova",
+      "wings",
+      "dessert"
+    ],
+    "actions": [
+      "hovering",
+      "reaching",
+      "interacting"
+    ],
+    "emotions": [
+      "whimsical",
+      "enchanting",
+      "playful",
+      "enchanted"
+    ],
+    "scenes": [
+      "magical",
+      "dreamlike",
+      "fantasy",
+      "whimsical"
+    ],
+    "concepts": [
+      "fantasy",
+      "dessert",
+      "magic",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_dynamic_scene_in_a_luxurious_W.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_dynamic_scene_in_a_luxurious_W.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A_dynamic_scene_in_a_luxurious_W/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby and a large cat face each other in a boxing ring, surrounded by an enthusiastic audience. The baby, wearing only a diaper, reaches out towards the cat, which stands on its hind legs, gently touching the baby's hand with its paw. The scene is illuminated by bright overhead lights, casting a warm glow over the playful interaction.",
+      "description": "The scene takes place in a boxing ring, where a whimsical encounter unfolds between a baby and a large, anthropomorphic cat. The audience watches with excitement as the two engage in a playful gesture, creating a surreal and humorous atmosphere.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "boxing ring",
+          "ropes"
+        ],
+        "actions": [
+          "reaching",
+          "touching"
+        ],
+        "emotions": [
+          "playful",
+          "joyful"
+        ],
+        "scenes": [
+          "boxing match",
+          "audience"
+        ],
+        "concepts": [
+          "whimsy",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A_dynamic_scene_in_a_luxurious_W.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A_dynamic_scene_in_a_luxurious_W/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby in a diaper playfully interacts with a large, anthropomorphic cat in a boxing ring. The audience watches with amusement as the two engage in a lighthearted mock fight under bright stage lights.",
+      "description": "The scene is set in a boxing ring with an audience in the background, where a baby and a large, cartoonish cat are playfully sparring. The atmosphere is whimsical and entertaining, with bright lights illuminating the playful encounter.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "boxing ring",
+          "ropes",
+          "stage lights"
+        ],
+        "actions": [
+          "playful sparring",
+          "mock fight"
+        ],
+        "emotions": [
+          "amusement",
+          "whimsy"
+        ],
+        "scenes": [
+          "boxing match",
+          "audience"
+        ],
+        "concepts": [
+          "humor",
+          "entertainment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: boxing ring, ropes, stage lights. Actions: reaching, touching, playful sparring, mock fight. Emotions: playful, joyful, amusement, whimsy. Scenes: boxing match, audience. Concepts: whimsy, fantasy, humor, entertainment",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "boxing ring",
+      "ropes",
+      "stage lights"
+    ],
+    "actions": [
+      "reaching",
+      "touching",
+      "playful sparring",
+      "mock fight"
+    ],
+    "emotions": [
+      "playful",
+      "joyful",
+      "amusement",
+      "whimsy"
+    ],
+    "scenes": [
+      "boxing match",
+      "audience"
+    ],
+    "concepts": [
+      "whimsy",
+      "fantasy",
+      "humor",
+      "entertainment"
+    ]
+  },
+  "metadata": {}
+}

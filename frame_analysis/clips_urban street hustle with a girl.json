@@ -1,0 +1,149 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/urban street hustle with a girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/urban street hustle with a girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/urban street hustle with a girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman walks confidently down a bustling city street, surrounded by blurred figures of passersby. She wears a black hoodie and beige pants, standing out amidst the motion around her.",
+      "description": "The scene captures a busy urban street with a focus on a woman walking towards the camera. The background is filled with people in motion, creating a dynamic and lively atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "crowd"
+        ],
+        "objects": [
+          "hoodie",
+          "pants",
+          "shoes"
+        ],
+        "actions": [
+          "walking",
+          "moving"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "motion",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/urban street hustle with a girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/urban street hustle with a girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young person stands confidently in the middle of a busy street, wearing a black hoodie and khaki pants. The street is bustling with people walking in the background, creating a lively urban atmosphere.",
+      "description": "The scene is set in an urban environment, possibly a city street, with a focus on a single individual standing still amidst a moving crowd. The architecture and people suggest a typical city setting.",
+      "labels": {
+        "people": [
+          "young person",
+          "crowd"
+        ],
+        "objects": [
+          "hoodie",
+          "khaki pants",
+          "red sneakers"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "individuality",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/urban street hustle with a girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/urban street hustle with a girl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young woman stands confidently in the middle of a bustling city street, wearing a black hoodie and khaki pants. She is surrounded by blurred figures of pedestrians, emphasizing her calm presence amidst the motion.",
+      "description": "The scene captures a busy urban street with a focus on a young woman standing still while people move around her. The setting suggests a lively city environment with historical architecture.",
+      "labels": {
+        "people": [
+          "woman",
+          "pedestrians"
+        ],
+        "objects": [
+          "hoodie",
+          "pants",
+          "shoes"
+        ],
+        "actions": [
+          "standing",
+          "walking"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "contrast",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, crowd, young person, pedestrians. Objects: hoodie, pants, shoes, khaki pants, red sneakers. Actions: walking, standing, moving. Emotions: confidence, calm, confident. Scenes: urban, street. Concepts: focus, motion, individuality, urban life, contrast",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "crowd",
+      "young person",
+      "pedestrians"
+    ],
+    "objects": [
+      "hoodie",
+      "pants",
+      "shoes",
+      "khaki pants",
+      "red sneakers"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "moving"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "focus",
+      "motion",
+      "individuality",
+      "urban life",
+      "contrast"
+    ]
+  },
+  "metadata": {}
+}

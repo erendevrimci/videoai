@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/happy/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly woman joyfully celebrates her birthday, wearing vibrant sunglasses and a colorful party hat. She holds a festive cake adorned with lit candles, surrounded by balloons and confetti.",
+      "description": "The scene captures a lively birthday celebration with a focus on an elderly woman who exudes happiness and energy. The setting is festive, filled with bright colors and decorations.",
+      "labels": {
+        "people": [
+          "elderly woman"
+        ],
+        "objects": [
+          "cake",
+          "candles",
+          "sunglasses",
+          "party hat",
+          "balloons",
+          "confetti"
+        ],
+        "actions": [
+          "celebrating",
+          "holding"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "birthday party"
+        ],
+        "concepts": [
+          "celebration",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/happy.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/happy/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly woman with colorful hair and vibrant sunglasses is joyfully celebrating a birthday. She is wearing a rainbow party hat and smiling brightly at a cake adorned with lit candles.",
+      "description": "The scene captures a festive birthday celebration with a focus on an elderly woman dressed in colorful attire. The background is filled with party decorations, enhancing the cheerful atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cake",
+          "candles",
+          "sunglasses",
+          "party hat"
+        ],
+        "actions": [
+          "celebrating",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "happy"
+        ],
+        "scenes": [
+          "birthday party"
+        ],
+        "concepts": [
+          "celebration",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly woman, woman. Objects: cake, candles, sunglasses, party hat, balloons. Actions: celebrating, holding, smiling. Emotions: joyful, happy. Scenes: birthday party. Concepts: celebration, festivity",
+  "primary_labels": {
+    "people": [
+      "elderly woman",
+      "woman"
+    ],
+    "objects": [
+      "cake",
+      "candles",
+      "sunglasses",
+      "party hat",
+      "balloons"
+    ],
+    "actions": [
+      "celebrating",
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "joyful",
+      "happy"
+    ],
+    "scenes": [
+      "birthday party"
+    ],
+    "concepts": [
+      "celebration",
+      "festivity"
+    ]
+  },
+  "metadata": {}
+}

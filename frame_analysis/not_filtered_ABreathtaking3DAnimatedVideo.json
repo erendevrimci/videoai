@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABreathtaking3DAnimatedVideo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABreathtaking3DAnimatedVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABreathtaking3DAnimatedVideo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A breathtaking scene of fluffy clouds illuminated by a radiant sunrise, with twinkling stars still visible in the deep blue sky. The sunlight breaks through the clouds, casting a warm glow across the scene, creating a serene and ethereal atmosphere.",
+      "description": "The scene depicts a tranquil sky at dawn, where the sun is rising amidst a sea of clouds. The presence of stars suggests the transition from night to day, adding a magical quality to the setting.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sky",
+          "stars",
+          "sunrise"
+        ],
+        "objects": [
+          "clouds"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "dawn",
+          "sky"
+        ],
+        "concepts": [
+          "transition",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ABreathtaking3DAnimatedVideo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ABreathtaking3DAnimatedVideo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic, ornate door stands illuminated against a backdrop of a starry sky and fluffy clouds. The door is intricately designed with glowing patterns and is framed by a radiant light, creating a mystical atmosphere.",
+      "description": "The scene depicts a fantastical setting where a grand, elaborately decorated door is positioned in a celestial environment. The sky is filled with stars and clouds, suggesting a dreamlike or otherworldly realm.",
+      "labels": {
+        "objects": [
+          "door",
+          "clouds"
+        ],
+        "nature": [
+          "sky",
+          "stars"
+        ],
+        "scenes": [
+          "fantasy",
+          "celestial"
+        ],
+        "concepts": [
+          "mystical",
+          "dreamlike"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: sky, stars, clouds, sunrise. Objects: clouds, door. Emotions: serenity, tranquility, awe, wonder. Scenes: dawn, sky, fantasy, celestial. Concepts: transition, ethereal, mystical, dreamlike",
+  "primary_labels": {
+    "nature": [
+      "sky",
+      "stars",
+      "clouds",
+      "sunrise"
+    ],
+    "objects": [
+      "clouds",
+      "door"
+    ],
+    "emotions": [
+      "serenity",
+      "tranquility",
+      "awe",
+      "wonder"
+    ],
+    "scenes": [
+      "dawn",
+      "sky",
+      "fantasy",
+      "celestial"
+    ],
+    "concepts": [
+      "transition",
+      "ethereal",
+      "mystical",
+      "dreamlike"
+    ]
+  },
+  "metadata": {}
+}

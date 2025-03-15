@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CamionFeros.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CamionFeros.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CamionFeros/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing truck with a monstrous front grille resembling a snarling face is parked on a dirt road. The vehicle is surrounded by dense, green foliage and appears to be in a forest setting. The truck's design is intricate, with sharp teeth and glowing green eyes, giving it an intimidating presence.",
+      "description": "The scene depicts a uniquely designed truck in a forest environment. The truck's front is styled to look like a monstrous face, complete with sharp teeth and glowing eyes, creating a dramatic and eerie atmosphere. The surrounding area is lush with greenery, suggesting a remote and possibly abandoned location.",
+      "labels": {
+        "objects": [
+          "truck",
+          "forest",
+          "dirt road"
+        ],
+        "actions": [
+          "parked"
+        ],
+        "emotions": [
+          "intimidating",
+          "eerie"
+        ],
+        "scenes": [
+          "forest",
+          "outdoors"
+        ],
+        "concepts": [
+          "monstrous design",
+          "menacing vehicle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CamionFeros.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CamionFeros/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing, heavily armored truck with a monstrous face design on its front grille drives through a desolate, industrial landscape. Dust billows around the vehicle as it moves forward, emphasizing its power and aggression. The environment is bleak and abandoned, with debris scattered along the road.",
+      "description": "The scene depicts a powerful, intimidating truck navigating through a deserted industrial area. The truck's design features a fierce, monstrous face, adding to the ominous atmosphere. The setting is characterized by a sense of desolation and abandonment, with dust and debris enhancing the gritty environment.",
+      "labels": {
+        "objects": [
+          "truck",
+          "debris",
+          "dust"
+        ],
+        "actions": [
+          "driving",
+          "moving"
+        ],
+        "emotions": [
+          "menacing",
+          "aggressive"
+        ],
+        "scenes": [
+          "industrial",
+          "desolate"
+        ],
+        "concepts": [
+          "power",
+          "intimidation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: truck, forest, dirt road, debris, dust. Actions: parked, driving, moving. Emotions: intimidating, eerie, menacing, aggressive. Scenes: forest, outdoors, industrial, desolate. Concepts: monstrous design, menacing vehicle, power, intimidation",
+  "primary_labels": {
+    "objects": [
+      "truck",
+      "forest",
+      "dirt road",
+      "debris",
+      "dust"
+    ],
+    "actions": [
+      "parked",
+      "driving",
+      "moving"
+    ],
+    "emotions": [
+      "intimidating",
+      "eerie",
+      "menacing",
+      "aggressive"
+    ],
+    "scenes": [
+      "forest",
+      "outdoors",
+      "industrial",
+      "desolate"
+    ],
+    "concepts": [
+      "monstrous design",
+      "menacing vehicle",
+      "power",
+      "intimidation"
+    ]
+  },
+  "metadata": {}
+}

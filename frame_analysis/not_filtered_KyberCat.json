@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KyberCat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KyberCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KyberCat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute kitten is wearing a futuristic neon headset while holding a gaming controller. The scene is bathed in vibrant pink and blue lighting, giving it a cyberpunk aesthetic.",
+      "description": "The image depicts a playful and imaginative scene where a kitten appears to be engaged in gaming. The neon lights and futuristic elements create a whimsical and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "headset",
+          "gaming controller"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "cyberpunk",
+          "futuristic"
+        ],
+        "concepts": [
+          "gaming",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/KyberCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/KyberCat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy kitten is wearing a futuristic neon headset while holding a game controller. The scene is illuminated with vibrant pink and blue lighting, creating a playful and surreal atmosphere.",
+      "description": "The image depicts a kitten in a gaming setup, suggesting a whimsical and imaginative scenario. The neon lighting and headset give a futuristic and playful vibe.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "headset",
+          "game controller"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "gaming",
+          "futuristic"
+        ],
+        "concepts": [
+          "playful",
+          "surreal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: headset, gaming controller, game controller. Actions: holding. Emotions: playful, curiosity. Scenes: futuristic, cyberpunk, gaming. Concepts: gaming, technology, playful, surreal",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "headset",
+      "gaming controller",
+      "game controller"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "curiosity"
+    ],
+    "scenes": [
+      "futuristic",
+      "cyberpunk",
+      "gaming"
+    ],
+    "concepts": [
+      "gaming",
+      "technology",
+      "playful",
+      "surreal"
+    ]
+  },
+  "metadata": {}
+}

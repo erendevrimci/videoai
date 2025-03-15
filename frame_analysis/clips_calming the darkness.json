@@ -1,0 +1,156 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/calming the darkness.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/calming the darkness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/calming the darkness/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with pointed ears tenderly holds a man's face, their foreheads touching as they share an intimate moment. The man's expression is intense, with visible emotions etched on his face. The warm, golden light of the setting sun casts a dramatic glow over the scene.",
+      "description": "The scene captures a poignant and intimate moment between two characters, set against the backdrop of a sunset. The woman appears to be comforting or connecting deeply with the man, who seems to be experiencing strong emotions.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "nature": [
+          "sunset"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "actions": [
+          "embracing",
+          "touching"
+        ],
+        "emotions": [
+          "intimacy",
+          "intensity"
+        ],
+        "scenes": [
+          "dramatic",
+          "emotional"
+        ],
+        "concepts": [
+          "connection",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/calming the darkness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/calming the darkness/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman and a creature with a rugged, beast-like appearance share an intense moment. The woman appears emotional, while the creature shows a mix of pain and vulnerability. The background is a soft, glowing sky, adding to the dramatic atmosphere.",
+      "description": "The scene depicts a close interaction between a human and a creature, set against a warm, glowing sky. The focus is on their emotional exchange, highlighting themes of connection and empathy.",
+      "labels": {
+        "people": [
+          "woman",
+          "creature"
+        ],
+        "nature": [
+          "sky"
+        ],
+        "objects": [],
+        "actions": [
+          "emotional interaction"
+        ],
+        "emotions": [
+          "intensity",
+          "vulnerability"
+        ],
+        "scenes": [
+          "dramatic moment"
+        ],
+        "concepts": [
+          "connection",
+          "empathy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/calming the darkness.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/calming the darkness/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up of a creature with horns and pointed ears, appearing to be in distress. The creature's face is contorted, and a hand is gripping its neck, suggesting a struggle.",
+      "description": "The scene depicts a tense moment involving a mythical creature, possibly in a fantasy setting. The creature's expression and the hand on its neck indicate a conflict or confrontation.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "horns",
+          "ears"
+        ],
+        "actions": [
+          "struggling",
+          "gripping"
+        ],
+        "emotions": [
+          "distress",
+          "tension"
+        ],
+        "scenes": [
+          "fantasy",
+          "conflict"
+        ],
+        "concepts": [
+          "mythical creature",
+          "confrontation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, man, creature. Nature: sunset, sky. Objects: clothing, horns, ears. Actions: embracing, touching, emotional interaction, struggling, gripping. Emotions: intensity, intimacy, vulnerability, distress, tension. Scenes: dramatic, emotional, dramatic moment, fantasy, conflict. Concepts: connection, comfort, empathy, mythical creature, confrontation",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "man",
+      "creature"
+    ],
+    "nature": [
+      "sunset",
+      "sky"
+    ],
+    "objects": [
+      "clothing",
+      "horns",
+      "ears"
+    ],
+    "actions": [
+      "embracing",
+      "touching",
+      "emotional interaction",
+      "struggling",
+      "gripping"
+    ],
+    "emotions": [
+      "intensity",
+      "intimacy",
+      "vulnerability",
+      "distress",
+      "tension"
+    ],
+    "scenes": [
+      "dramatic",
+      "emotional",
+      "dramatic moment",
+      "fantasy",
+      "conflict"
+    ],
+    "concepts": [
+      "connection",
+      "comfort",
+      "empathy",
+      "mythical creature",
+      "confrontation"
+    ],
+    "animals": []
+  },
+  "metadata": {}
+}

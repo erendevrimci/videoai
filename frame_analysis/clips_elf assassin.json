@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elf assassin.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elf assassin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/elf assassin/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure stands in a dark, gothic setting, wielding two glowing red weapons. Behind them, a large, intricate red circle emits an ominous light, casting eerie shadows. The scene is filled with a sense of foreboding and otherworldly power.",
+      "description": "The scene depicts a dark, fantastical environment with a central figure in elaborate armor, holding red, glowing weapons. The background features a large, mystical red circle, suggesting a magical or supernatural setting.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "weapons",
+          "armor",
+          "red circle"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "foreboding",
+          "mysterious"
+        ],
+        "scenes": [
+          "fantasy",
+          "gothic"
+        ],
+        "concepts": [
+          "supernatural",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elf assassin.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/elf assassin/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure clad in dark, ornate armor stands in a grand, ancient hall. Behind them, a glowing red magical circle pulsates with energy, casting an eerie light throughout the scene. The atmosphere is filled with mist and shadows, enhancing the sense of mysticism and power.",
+      "description": "The scene depicts a dark fantasy setting, likely within a mystical or ancient temple. The central figure appears to be a powerful sorcerer or warrior, poised in a commanding stance. The environment is otherworldly, with intricate architecture and a palpable sense of magic.",
+      "labels": {
+        "people": [
+          "mysterious figure",
+          "sorcerer",
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "magical circle"
+        ],
+        "actions": [
+          "standing",
+          "casting"
+        ],
+        "emotions": [
+          "mystical",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "ancient hall"
+        ],
+        "concepts": [
+          "magic",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, mysterious figure, sorcerer, warrior. Objects: armor, weapons, red circle, magical circle. Actions: standing, casting. Emotions: foreboding, mysterious, mystical, powerful. Scenes: fantasy, gothic, ancient hall. Concepts: supernatural, power, magic, mysticism",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "mysterious figure",
+      "sorcerer",
+      "warrior"
+    ],
+    "objects": [
+      "armor",
+      "weapons",
+      "red circle",
+      "magical circle"
+    ],
+    "actions": [
+      "standing",
+      "casting"
+    ],
+    "emotions": [
+      "foreboding",
+      "mysterious",
+      "mystical",
+      "powerful"
+    ],
+    "scenes": [
+      "fantasy",
+      "gothic",
+      "ancient hall"
+    ],
+    "concepts": [
+      "supernatural",
+      "power",
+      "magic",
+      "mysticism"
+    ]
+  },
+  "metadata": {}
+}

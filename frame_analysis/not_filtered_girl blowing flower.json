@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/girl blowing flower.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/girl blowing flower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/girl blowing flower/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl gently blows on a dandelion, sending its seeds floating into the air. The scene is bathed in soft, warm light, creating a serene and magical atmosphere.",
+      "description": "The image depicts a tranquil moment in nature where a girl interacts with a dandelion. The setting appears to be outdoors, possibly in a garden or park, with a blurred green background suggesting foliage.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "nature": [
+          "dandelion",
+          "foliage"
+        ],
+        "objects": [
+          "dandelion"
+        ],
+        "actions": [
+          "blowing",
+          "floating"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "outdoor",
+          "nature"
+        ],
+        "concepts": [
+          "innocence",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/girl blowing flower.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/girl blowing flower/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child gazes intently at a dandelion, holding it gently in their hand. The sunlight filters through the trees, casting a warm glow on the scene.",
+      "description": "The scene depicts a serene moment in nature where a child is captivated by a dandelion. The setting appears to be a sunlit outdoor area, possibly a garden or park.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "nature": [
+          "dandelion",
+          "sunlight",
+          "trees"
+        ],
+        "objects": [
+          "dandelion"
+        ],
+        "actions": [
+          "gazing",
+          "holding"
+        ],
+        "emotions": [
+          "wonder",
+          "curiosity"
+        ],
+        "scenes": [
+          "nature",
+          "outdoor"
+        ],
+        "concepts": [
+          "innocence",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, child. Nature: dandelion, foliage, sunlight, trees. Objects: dandelion. Actions: blowing, floating, gazing, holding. Emotions: wonder, serenity, curiosity. Scenes: outdoor, nature. Concepts: innocence, magic, exploration",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "child"
+    ],
+    "nature": [
+      "dandelion",
+      "foliage",
+      "sunlight",
+      "trees"
+    ],
+    "objects": [
+      "dandelion"
+    ],
+    "actions": [
+      "blowing",
+      "floating",
+      "gazing",
+      "holding"
+    ],
+    "emotions": [
+      "wonder",
+      "serenity",
+      "curiosity"
+    ],
+    "scenes": [
+      "outdoor",
+      "nature"
+    ],
+    "concepts": [
+      "innocence",
+      "magic",
+      "exploration"
+    ]
+  },
+  "metadata": {}
+}

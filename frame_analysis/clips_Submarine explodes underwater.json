@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine explodes underwater.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine explodes underwater.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Submarine explodes underwater/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A submarine, adorned with a sports team logo, is captured underwater as an explosion erupts from its side. The scene is dynamic, with marine life visible in the background, adding to the drama of the moment.",
+      "description": "The image depicts an underwater scene featuring a submarine with a sports team emblem, experiencing an explosion. The setting is deep in the ocean, with sharks swimming nearby, enhancing the tension of the scene.",
+      "labels": {
+        "objects": [
+          "submarine",
+          "explosion",
+          "sports logo"
+        ],
+        "animals": [
+          "sharks"
+        ],
+        "actions": [
+          "exploding",
+          "swimming"
+        ],
+        "emotions": [
+          "tension",
+          "drama"
+        ],
+        "scenes": [
+          "underwater"
+        ],
+        "concepts": [
+          "conflict",
+          "sports"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine explodes underwater.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Submarine explodes underwater/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A submarine navigates through the ocean depths, emitting a bright burst of fire from its top. Sunlight filters through the water, casting a serene yet dramatic light on the scene.",
+      "description": "The scene depicts a submarine underwater, possibly launching a missile or experiencing an explosion. The ocean floor is visible, with scattered rocks, and the water is illuminated by sunlight from above.",
+      "labels": {
+        "objects": [
+          "submarine",
+          "fire",
+          "rocks"
+        ],
+        "actions": [
+          "explosion",
+          "underwater navigation"
+        ],
+        "emotions": [
+          "intensity",
+          "drama"
+        ],
+        "scenes": [
+          "underwater",
+          "ocean"
+        ],
+        "concepts": [
+          "military",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: submarine, explosion, sports logo, fire, rocks. Animals: sharks. Actions: exploding, swimming, explosion, underwater navigation. Emotions: drama, tension, intensity. Scenes: underwater, ocean. Concepts: conflict, sports, military, technology",
+  "primary_labels": {
+    "objects": [
+      "submarine",
+      "explosion",
+      "sports logo",
+      "fire",
+      "rocks"
+    ],
+    "animals": [
+      "sharks"
+    ],
+    "actions": [
+      "exploding",
+      "swimming",
+      "explosion",
+      "underwater navigation"
+    ],
+    "emotions": [
+      "drama",
+      "tension",
+      "intensity"
+    ],
+    "scenes": [
+      "underwater",
+      "ocean"
+    ],
+    "concepts": [
+      "conflict",
+      "sports",
+      "military",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

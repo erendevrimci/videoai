@@ -1,0 +1,168 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outdoor workout.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outdoor workout.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Outdoor workout/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person in a gray hoodie is performing a shoulder press with a barbell on a bench outdoors. The scene is set against a backdrop of lush green hills and a clear blue sky.",
+      "description": "The image captures a workout session in an outdoor setting, where a person is engaged in weightlifting. The serene natural environment contrasts with the focused intensity of the exercise.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "hills",
+          "sky",
+          "trees"
+        ],
+        "objects": [
+          "barbell",
+          "bench",
+          "hoodie"
+        ],
+        "actions": [
+          "weightlifting",
+          "shoulder press"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "outdoor",
+          "fitness"
+        ],
+        "concepts": [
+          "exercise",
+          "strength training"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outdoor workout.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Outdoor workout/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man in a gray hoodie is performing a bench press on an outdoor gym setup with a scenic mountain view in the background. He is focused and appears to be lifting a barbell with weights attached on both sides.",
+      "description": "The scene captures an outdoor gym setting where a man is engaged in a workout. The backdrop is a picturesque landscape of rolling hills and lush greenery under a clear blue sky.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "barbell",
+          "weights",
+          "bench",
+          "hoodie"
+        ],
+        "actions": [
+          "bench press",
+          "lifting"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "outdoor gym",
+          "scenic view"
+        ],
+        "concepts": [
+          "fitness",
+          "exercise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Outdoor workout.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Outdoor workout/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man in a hoodie is performing a bench press exercise outdoors with a scenic mountain view in the background. The setting is serene, with clear skies and lush greenery surrounding the area.",
+      "description": "The scene captures a man engaged in a workout session on a bench press, set against a picturesque backdrop of mountains and clear skies. The outdoor gym setting provides a unique blend of fitness and nature.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "mountains",
+          "sky",
+          "greenery"
+        ],
+        "objects": [
+          "bench press",
+          "weights",
+          "hoodie"
+        ],
+        "actions": [
+          "exercise",
+          "bench pressing"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "outdoor gym",
+          "mountain view"
+        ],
+        "concepts": [
+          "fitness",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Nature: sky, trees, mountains, hills, greenery. Objects: hoodie, barbell, bench, weights, bench press. Actions: weightlifting, shoulder press, bench press, lifting, exercise. Emotions: focused, focus. Scenes: outdoor gym, outdoor, fitness, scenic view, mountain view. Concepts: exercise, fitness, strength training, nature",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "nature": [
+      "sky",
+      "trees",
+      "mountains",
+      "hills",
+      "greenery"
+    ],
+    "objects": [
+      "hoodie",
+      "barbell",
+      "bench",
+      "weights",
+      "bench press"
+    ],
+    "actions": [
+      "weightlifting",
+      "shoulder press",
+      "bench press",
+      "lifting",
+      "exercise"
+    ],
+    "emotions": [
+      "focused",
+      "focus"
+    ],
+    "scenes": [
+      "outdoor gym",
+      "outdoor",
+      "fitness",
+      "scenic view",
+      "mountain view"
+    ],
+    "concepts": [
+      "exercise",
+      "fitness",
+      "strength training",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

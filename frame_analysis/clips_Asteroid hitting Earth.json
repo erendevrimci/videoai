@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Asteroid hitting Earth.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Asteroid hitting Earth.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Asteroid hitting Earth/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dramatic scene unfolds over a city skyline as a fiery explosion lights up the sky. The towering skyscrapers are silhouetted against the intense orange glow, creating a striking contrast. The scene is viewed from a high vantage point, adding to the sense of scale and impact.",
+      "description": "The image captures a cityscape at sunset or dusk, dominated by a massive explosion or fiery event in the sky. The city is likely a major metropolitan area, characterized by tall buildings and a dense urban environment.",
+      "labels": {
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "skyscrapers",
+          "buildings",
+          "explosion"
+        ],
+        "scenes": [
+          "cityscape",
+          "sunset",
+          "urban"
+        ],
+        "concepts": [
+          "disaster",
+          "dramatic",
+          "contrast"
+        ],
+        "emotions": [
+          "intensity",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Asteroid hitting Earth.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Asteroid hitting Earth/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic cityscape at dusk features towering skyscrapers against a backdrop of fiery clouds. The skyline is illuminated by the warm glow of sunset, casting an ethereal light over the urban landscape. The scene captures a moment of striking contrast between the darkened buildings and the vibrant sky.",
+      "description": "The image depicts a city skyline at sunset, with prominent skyscrapers silhouetted against a dramatic sky filled with glowing clouds. The scene is set in an urban environment, likely a major city, during the transition from day to night.",
+      "labels": {
+        "nature": [
+          "clouds",
+          "sunset"
+        ],
+        "objects": [
+          "skyscrapers",
+          "buildings"
+        ],
+        "scenes": [
+          "cityscape",
+          "urban"
+        ],
+        "emotions": [
+          "dramatic",
+          "awe-inspiring"
+        ],
+        "concepts": [
+          "contrast",
+          "transition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, sky, sunset. Objects: skyscrapers, buildings, explosion. Scenes: cityscape, urban, sunset. Concepts: contrast, disaster, dramatic, transition. Emotions: intensity, awe, dramatic, awe-inspiring",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "sky",
+      "sunset"
+    ],
+    "objects": [
+      "skyscrapers",
+      "buildings",
+      "explosion"
+    ],
+    "scenes": [
+      "cityscape",
+      "urban",
+      "sunset"
+    ],
+    "concepts": [
+      "contrast",
+      "disaster",
+      "dramatic",
+      "transition"
+    ],
+    "emotions": [
+      "intensity",
+      "awe",
+      "dramatic",
+      "awe-inspiring"
+    ]
+  },
+  "metadata": {}
+}

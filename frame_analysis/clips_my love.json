@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fantasy character stands gracefully, adorned in an elaborate blue costume with ethereal wings. She holds a staff and wears a crown-like headpiece, exuding an aura of elegance and mystique.",
+      "description": "The scene depicts a fantasy setting with a character resembling a fairy or angelic figure. The atmosphere is magical and otherworldly, enhanced by the flowing costume and delicate wings.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "objects": [
+          "staff",
+          "headpiece",
+          "wings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance",
+          "mystique"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "fantasy",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in an elaborate blue costume with wing-like adornments stands confidently. She holds a sign with the text 'Quy\u1ebft Linh LED' and smiles warmly at the viewer.",
+      "description": "The scene depicts a fantasy-themed setting where a woman is dressed as a fairy or angelic figure. The background is misty, enhancing the ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sign",
+          "costume",
+          "wings"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "warmth"
+        ],
+        "scenes": [
+          "fantasy",
+          "ethereal"
+        ],
+        "concepts": [
+          "fairy",
+          "angelic",
+          "promotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/my love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/my love/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman dressed in an elaborate blue costume with wing-like accessories stands confidently. She holds a sign with ornate details and text, while smiling warmly at the camera.",
+      "description": "The scene depicts a fantasy-themed setting with a woman in a blue costume that resembles a fairy or angel. The background is misty, adding to the ethereal atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "costume",
+          "sign",
+          "headpiece"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "warmth"
+        ],
+        "scenes": [
+          "fantasy",
+          "ethereal"
+        ],
+        "concepts": [
+          "fantasy",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, fantasy character. Objects: headpiece, wings, sign, costume, staff. Actions: holding, smiling, standing. Emotions: confidence, warmth, elegance, mystique. Scenes: fantasy, ethereal, magical. Concepts: fantasy, mythical, fairy, angelic, promotion",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "fantasy character"
+    ],
+    "objects": [
+      "headpiece",
+      "wings",
+      "sign",
+      "costume",
+      "staff"
+    ],
+    "actions": [
+      "holding",
+      "smiling",
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "warmth",
+      "elegance",
+      "mystique"
+    ],
+    "scenes": [
+      "fantasy",
+      "ethereal",
+      "magical"
+    ],
+    "concepts": [
+      "fantasy",
+      "mythical",
+      "fairy",
+      "angelic",
+      "promotion"
+    ]
+  },
+  "metadata": {}
+}

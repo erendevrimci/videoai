@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsAPerson.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsAPerson.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraFollowsAPerson/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A modern living room with large floor-to-ceiling windows overlooks a snowy forest. The interior features a cozy seating area with a plush sofa and a coffee table adorned with flowers. Warm lighting and wooden accents create a welcoming atmosphere.",
+      "description": "The scene is set in a contemporary living room with expansive windows offering a view of a snow-covered forest. The room is elegantly furnished with a focus on comfort and style, highlighted by the warm lighting and natural wood elements.",
+      "labels": {
+        "nature": [
+          "snow",
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "sofa",
+          "coffee table",
+          "flowers",
+          "windows",
+          "lighting"
+        ],
+        "scenes": [
+          "living room",
+          "interior"
+        ],
+        "emotions": [
+          "cozy",
+          "welcoming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraFollowsAPerson.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraFollowsAPerson/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A modern, spacious living area with high ceilings and large windows showcasing a snowy outdoor scene. A person stands near a dining table, surrounded by warm wooden tones and elegant lighting fixtures.",
+      "description": "The scene is set in a contemporary, open-plan living and dining area with a mezzanine level. The space is characterized by its high ceilings, large windows, and warm, inviting decor, creating a cozy yet sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sofa",
+          "dining table",
+          "chairs",
+          "coffee table",
+          "bookshelves",
+          "lighting fixtures"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "cozy"
+        ],
+        "scenes": [
+          "indoor",
+          "living room",
+          "dining area"
+        ],
+        "concepts": [
+          "modern design",
+          "interior decor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: snow, forest, trees. Objects: sofa, coffee table, flowers, windows, lighting. Scenes: living room, interior, indoor, dining area. Emotions: cozy, welcoming, calm. People: person. Actions: standing. Concepts: modern design, interior decor",
+  "primary_labels": {
+    "nature": [
+      "snow",
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "sofa",
+      "coffee table",
+      "flowers",
+      "windows",
+      "lighting"
+    ],
+    "scenes": [
+      "living room",
+      "interior",
+      "indoor",
+      "dining area"
+    ],
+    "emotions": [
+      "cozy",
+      "welcoming",
+      "calm"
+    ],
+    "people": [
+      "person"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "concepts": [
+      "modern design",
+      "interior decor"
+    ]
+  },
+  "metadata": {}
+}

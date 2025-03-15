@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion Addiction.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion Addiction.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fashion Addiction/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A model walks down the runway wearing an avant-garde outfit with dramatic, sculptural shoulders and intricate patterns. The ensemble is complemented by striking yellow-tinted eyewear and bold makeup, creating a futuristic and artistic look.",
+      "description": "The scene is set in a fashion show runway, where a model is showcasing a high-fashion, avant-garde outfit. The setting is likely a dimly lit venue with an audience observing the fashion display.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "runway",
+          "dress",
+          "eyewear"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "avant-garde fashion",
+          "high fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fashion Addiction.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fashion Addiction/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A model walks down the runway in an extravagant, avant-garde outfit featuring voluminous, structured sleeves and a high collar. The ensemble is complemented by a pair of yellow-tinted glasses and bold, dark lipstick, creating a striking contrast. The setting is an opulent interior, with a chandelier visible in the background.",
+      "description": "The scene is set in a luxurious fashion show venue, where a model is showcasing a high-fashion, artistic garment. The atmosphere is sophisticated and dramatic, emphasizing the creativity and boldness of the fashion design.",
+      "labels": {
+        "people": [
+          "model"
+        ],
+        "objects": [
+          "dress",
+          "glasses",
+          "chandelier"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "dramatic"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "avant-garde fashion",
+          "runway"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: model. Objects: dress, runway, eyewear, glasses, chandelier. Actions: walking. Emotions: confident, dramatic. Scenes: fashion show. Concepts: avant-garde fashion, high fashion, runway",
+  "primary_labels": {
+    "people": [
+      "model"
+    ],
+    "objects": [
+      "dress",
+      "runway",
+      "eyewear",
+      "glasses",
+      "chandelier"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "dramatic"
+    ],
+    "scenes": [
+      "fashion show"
+    ],
+    "concepts": [
+      "avant-garde fashion",
+      "high fashion",
+      "runway"
+    ]
+  },
+  "metadata": {}
+}

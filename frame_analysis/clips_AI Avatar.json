@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/AI Avatar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/AI Avatar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/AI Avatar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long, dark hair stands against a soft pink background, gazing directly at the camera. Her expression is calm and serene, with subtle makeup accentuating her natural features. A few green leaves and pink flowers frame the right side of the image, adding a touch of nature to the scene.",
+      "description": "The scene is a portrait of a young woman in a serene and artistic setting. The background is a soft pink, creating a warm and gentle atmosphere. The presence of flowers and leaves suggests a connection to nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "leaves"
+        ],
+        "objects": [
+          "earrings",
+          "necklace"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/AI Avatar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/AI Avatar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair gazes directly at the camera, set against a soft pink background. Her expression is calm and serene, with subtle floral elements framing the image.",
+      "description": "The scene captures a close-up portrait of a woman in a serene setting. The soft pink background and floral elements suggest a gentle and peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "earring",
+          "necklace"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, leaves. Objects: necklace, earrings, earring. Emotions: calm, serene. Scenes: portrait. Concepts: beauty, nature, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "leaves"
+    ],
+    "objects": [
+      "necklace",
+      "earrings",
+      "earring"
+    ],
+    "emotions": [
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "nature",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

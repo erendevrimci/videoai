@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APinkHelicopterFliesOver.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APinkHelicopterFliesOver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"APinkHelicopterFliesOver/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A pink helicopter hovers in the sky, carrying a large pink shopping bag filled with makeup items. Below, skiers glide down a snowy mountain slope surrounded by frosted trees and rugged peaks. The scene blends whimsical elements with a serene winter landscape.",
+      "description": "The image depicts a surreal scene where a pink helicopter is transporting a giant pink shopping bag filled with cosmetics over a snowy mountain landscape. Below, skiers are enjoying their descent on the snow-covered slopes, framed by snow-dusted trees and rocky mountains.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "objects": [
+          "helicopter",
+          "shopping bag",
+          "makeup items"
+        ],
+        "actions": [
+          "skiing",
+          "hovering"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "winter landscape",
+          "mountain"
+        ],
+        "concepts": [
+          "surreal",
+          "advertisement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"APinkHelicopterFliesOver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"APinkHelicopterFliesOver/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A pink helicopter hovers above a snowy mountain landscape, carrying a large pink shopping bag filled with makeup items. Below, skiers glide down the snow-covered slopes, creating a dynamic and whimsical scene.",
+      "description": "The scene is set in a snowy mountain environment, where a pink helicopter is transporting a large pink shopping bag filled with beauty products. Skiers are seen enjoying their descent on the slopes, adding movement to the picturesque winter setting.",
+      "labels": {
+        "people": [
+          "skiers"
+        ],
+        "nature": [
+          "snow",
+          "mountains",
+          "trees"
+        ],
+        "objects": [
+          "helicopter",
+          "shopping bag",
+          "makeup items"
+        ],
+        "actions": [
+          "skiing",
+          "flying"
+        ],
+        "emotions": [
+          "whimsical"
+        ],
+        "scenes": [
+          "winter landscape",
+          "mountain"
+        ],
+        "concepts": [
+          "advertisement",
+          "beauty products"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skiers. Objects: helicopter, shopping bag, makeup items. Actions: skiing, hovering, flying. Emotions: whimsical. Scenes: winter landscape, mountain. Concepts: advertisement, surreal, beauty products. Nature: snow, mountains, trees",
+  "primary_labels": {
+    "people": [
+      "skiers"
+    ],
+    "objects": [
+      "helicopter",
+      "shopping bag",
+      "makeup items"
+    ],
+    "actions": [
+      "skiing",
+      "hovering",
+      "flying"
+    ],
+    "emotions": [
+      "whimsical"
+    ],
+    "scenes": [
+      "winter landscape",
+      "mountain"
+    ],
+    "concepts": [
+      "advertisement",
+      "surreal",
+      "beauty products"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "trees"
+    ]
+  },
+  "metadata": {}
+}

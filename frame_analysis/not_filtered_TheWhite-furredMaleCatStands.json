@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWhite-furredMaleCatStands.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWhite-furredMaleCatStands.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWhite-furredMaleCatStands/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dimly lit room, two anthropomorphic cats are depicted. One cat is standing, holding a large vase above its head with a determined expression, while the other sits calmly, cradling a small black cat.",
+      "description": "The scene is set in a traditional, possibly Asian-inspired room with wooden elements and soft lighting. The atmosphere is tense yet serene, with the standing cat poised for action and the seated cat exuding calmness.",
+      "labels": {
+        "animals": [
+          "anthropomorphic cats",
+          "black cat"
+        ],
+        "objects": [
+          "vase",
+          "lantern"
+        ],
+        "actions": [
+          "holding",
+          "cradling"
+        ],
+        "emotions": [
+          "determined",
+          "calm"
+        ],
+        "scenes": [
+          "indoor",
+          "traditional room"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "tension"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWhite-furredMaleCatStands.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWhite-furredMaleCatStands/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two anthropomorphic white cats are depicted in a cozy, dimly lit room. One cat, standing, is holding a large ceramic vase, while the other, seated, cradles a small black kitten. The scene is illuminated by a warm lantern glow, creating a serene and intimate atmosphere.",
+      "description": "The scene takes place in a traditional, dimly lit room with wooden elements and a lantern providing soft lighting. The anthropomorphic cats are engaged in a gentle interaction, suggesting a moment of calm and care.",
+      "labels": {
+        "animals": [
+          "anthropomorphic cats",
+          "kitten"
+        ],
+        "objects": [
+          "ceramic vase",
+          "lantern"
+        ],
+        "actions": [
+          "holding",
+          "cradling"
+        ],
+        "emotions": [
+          "serenity",
+          "intimacy"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "care",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: anthropomorphic cats, black cat, kitten. Objects: lantern, vase, ceramic vase. Actions: holding, cradling. Emotions: determined, calm, serenity, intimacy. Scenes: indoor, traditional room, cozy. Concepts: anthropomorphism, tension, care, companionship",
+  "primary_labels": {
+    "animals": [
+      "anthropomorphic cats",
+      "black cat",
+      "kitten"
+    ],
+    "objects": [
+      "lantern",
+      "vase",
+      "ceramic vase"
+    ],
+    "actions": [
+      "holding",
+      "cradling"
+    ],
+    "emotions": [
+      "determined",
+      "calm",
+      "serenity",
+      "intimacy"
+    ],
+    "scenes": [
+      "indoor",
+      "traditional room",
+      "cozy"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "tension",
+      "care",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

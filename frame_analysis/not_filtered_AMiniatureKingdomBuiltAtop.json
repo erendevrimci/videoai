@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMiniatureKingdomBuiltAtop.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMiniatureKingdomBuiltAtop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMiniatureKingdomBuiltAtop/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical tea party is set in a magical forest clearing, with a rustic table adorned with teacups, a teapot, and plates of cookies. The scene is illuminated by hanging lanterns, surrounded by vibrant foliage and delicate branches.",
+      "description": "The scene depicts an enchanting tea party in a forest setting, where nature and fantasy elements blend seamlessly. The table is set with intricate china and surrounded by lush greenery, creating a serene and magical atmosphere.",
+      "labels": {
+        "nature": [
+          "forest",
+          "foliage",
+          "branches"
+        ],
+        "objects": [
+          "teapot",
+          "teacups",
+          "cookies",
+          "lanterns",
+          "table"
+        ],
+        "actions": [
+          "tea party"
+        ],
+        "emotions": [
+          "whimsical",
+          "magical"
+        ],
+        "scenes": [
+          "forest clearing",
+          "tea party"
+        ],
+        "concepts": [
+          "fantasy",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AMiniatureKingdomBuiltAtop.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AMiniatureKingdomBuiltAtop/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical treehouse village is nestled within a lush forest, with tiny fairy-like creatures fluttering around. The scene is illuminated by warm, glowing lanterns hanging from intricately woven bridges and platforms. The atmosphere is magical and enchanting, evoking a sense of wonder and fantasy.",
+      "description": "The scene depicts a fantastical setting within a dense forest, featuring a treehouse village inhabited by small, winged creatures. The environment is vibrant and alive, with a focus on the harmonious interaction between nature and fantasy elements.",
+      "labels": {
+        "nature": [
+          "forest",
+          "tree",
+          "leaves"
+        ],
+        "objects": [
+          "treehouse",
+          "lantern",
+          "bridge"
+        ],
+        "actions": [
+          "flying"
+        ],
+        "emotions": [
+          "wonder",
+          "enchantment"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "harmony",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: forest, foliage, branches, tree, leaves. Objects: teapot, teacups, cookies, lanterns, table. Actions: tea party, flying. Emotions: whimsical, magical, wonder, enchantment. Scenes: forest clearing, tea party, fantasy, magical. Concepts: fantasy, enchantment, harmony, imagination",
+  "primary_labels": {
+    "nature": [
+      "forest",
+      "foliage",
+      "branches",
+      "tree",
+      "leaves"
+    ],
+    "objects": [
+      "teapot",
+      "teacups",
+      "cookies",
+      "lanterns",
+      "table"
+    ],
+    "actions": [
+      "tea party",
+      "flying"
+    ],
+    "emotions": [
+      "whimsical",
+      "magical",
+      "wonder",
+      "enchantment"
+    ],
+    "scenes": [
+      "forest clearing",
+      "tea party",
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "fantasy",
+      "enchantment",
+      "harmony",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

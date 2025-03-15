@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SpiderGirl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SpiderGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SpiderGirl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person dressed in a Spider-Man costume stands confidently in the middle of a bustling city street. Skyscrapers tower in the background, and pedestrians move along the sidewalks.",
+      "description": "The scene captures a city street with a person in a Spider-Man costume as the focal point. The setting is urban, with tall buildings and a busy atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "Spider-Man costume",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "cosplay",
+          "superhero"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SpiderGirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SpiderGirl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in a Spider-Man costume confidently walks down a bustling city street. Her bright smile and flowing hair capture the essence of joy and empowerment amidst the urban backdrop.",
+      "description": "The scene is set in a lively city street, likely during the day, with tall buildings lining the background. The focus is on a woman in a Spider-Man costume, exuding confidence and happiness as she walks towards the camera.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "Spider-Man costume",
+          "buildings"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "cosplay",
+          "empowerment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: Spider-Man costume, buildings. Actions: standing, walking, smiling. Emotions: confident, happiness, confidence. Scenes: city street, urban. Concepts: cosplay, superhero, empowerment",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "Spider-Man costume",
+      "buildings"
+    ],
+    "actions": [
+      "standing",
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "confident",
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "city street",
+      "urban"
+    ],
+    "concepts": [
+      "cosplay",
+      "superhero",
+      "empowerment"
+    ]
+  },
+  "metadata": {}
+}

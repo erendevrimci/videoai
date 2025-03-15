@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Movie.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Movie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Movie/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with glasses and a thoughtful expression gazes into the distance, surrounded by a vibrant, surreal landscape. A test tube filled with glowing blue liquid and lightning-like patterns stands prominently in the foreground. The background is a swirl of cosmic colors and abstract shapes, creating an otherworldly atmosphere.",
+      "description": "The scene depicts a surreal and imaginative setting where a man is deep in thought amidst a fantastical, colorful environment. The presence of a test tube with electric blue liquid suggests a theme of scientific exploration or creativity.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "test tube"
+        ],
+        "actions": [
+          "thinking"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Movie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Movie/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man with a red beard and glasses stands against a cosmic backdrop, looking intently ahead. In front of him, a glowing test tube with blue liquid and lightning-like effects is suspended over a swirling, colorful surface.",
+      "description": "The scene is set in a fantastical, cosmic environment, blending elements of science fiction and surrealism. The man appears to be observing or contemplating the mysterious glowing test tube, which suggests an experiment or discovery.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "test tube"
+        ],
+        "actions": [
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "cosmic",
+          "surreal"
+        ],
+        "concepts": [
+          "science fiction",
+          "discovery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: glasses, test tube. Actions: thinking, observing. Emotions: thoughtful, curiosity. Scenes: surreal, fantasy, cosmic. Concepts: creativity, imagination, science fiction, discovery",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "glasses",
+      "test tube"
+    ],
+    "actions": [
+      "thinking",
+      "observing"
+    ],
+    "emotions": [
+      "thoughtful",
+      "curiosity"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "cosmic"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "science fiction",
+      "discovery"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,135 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelDoingWalkShowcasingThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelDoingWalkShowcasingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ModelDoingWalkShowcasingThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently against a neutral background, wearing a matching blue and white patterned outfit. Her expression is calm and poised, with her hands relaxed by her sides.",
+      "description": "The scene captures a fashion portrait of a woman in a studio setting. She is the central focus, dressed in a stylish, abstract-patterned shirt and pants, conveying a sense of modern elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "shirt",
+          "pants"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelDoingWalkShowcasingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ModelDoingWalkShowcasingThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with long, dark hair is standing with their back to the camera, wearing a matching blue and white patterned outfit. The background is a plain, neutral color, emphasizing the vibrant pattern of the clothing.",
+      "description": "The scene captures a person from behind in a studio setting, highlighting their attire. The focus is on the blue and white abstract pattern of the clothing against a simple backdrop.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "clothing",
+          "outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "pattern"
+        ],
+        "emotions": [
+          "neutral"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ModelDoingWalkShowcasingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ModelDoingWalkShowcasingThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is confidently walking towards the camera, wearing a stylish blue and white patterned outfit. The background is a plain, neutral color, emphasizing her attire and movement.",
+      "description": "The scene captures a fashion model walking in a studio setting, showcasing a modern outfit. The focus is on the model's attire and her poised movement.",
+      "labels": {
+        "people": [
+          "woman",
+          "model"
+        ],
+        "objects": [
+          "outfit",
+          "clothing",
+          "heels"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person, model. Objects: clothing, outfit, shirt, pants, heels. Actions: standing, walking. Emotions: confident, calm, neutral. Scenes: studio. Concepts: fashion, portrait, pattern, style",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person",
+      "model"
+    ],
+    "objects": [
+      "clothing",
+      "outfit",
+      "shirt",
+      "pants",
+      "heels"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "calm",
+      "neutral"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "fashion",
+      "portrait",
+      "pattern",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

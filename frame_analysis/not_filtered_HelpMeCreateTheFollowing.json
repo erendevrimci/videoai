@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HelpMeCreateTheFollowing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HelpMeCreateTheFollowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HelpMeCreateTheFollowing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dimly lit room with a dresser on the left and a bright light streaming through a window on the right. A shadowy figure stands partially obscured by the light, creating an eerie atmosphere.",
+      "description": "The scene is set in a dark, dusty room with a single source of bright light coming from a window. The light casts dramatic shadows and highlights the presence of a mysterious figure.",
+      "labels": {
+        "objects": [
+          "dresser",
+          "window"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "indoor",
+          "dimly lit room"
+        ],
+        "concepts": [
+          "mystery",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HelpMeCreateTheFollowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HelpMeCreateTheFollowing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure stands in a dimly lit room, wearing a long dark coat and a wide-brimmed hat. The room is filled with an eerie atmosphere, with cobwebs hanging from the ceiling and a bed partially visible in the background.",
+      "description": "The scene is set in a dark, possibly abandoned room with a haunting ambiance. A shadowy figure, possibly supernatural, is the focal point, creating a sense of unease.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "hat",
+          "coat",
+          "bed",
+          "cobwebs"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "dark room",
+          "haunted"
+        ],
+        "concepts": [
+          "supernatural",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HelpMeCreateTheFollowing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HelpMeCreateTheFollowing/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A mysterious figure with long hair and a wide-brimmed hat walks through a dimly lit room. The atmosphere is eerie, with shadows and a bluish light casting an unsettling glow.",
+      "description": "The scene is set in a dark, possibly abandoned room with an ominous atmosphere. The figure's long hair and hat add to the mysterious and slightly menacing vibe.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "hat",
+          "long hair"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "mysterious",
+          "eerie"
+        ],
+        "scenes": [
+          "dimly lit room",
+          "ominous setting"
+        ],
+        "concepts": [
+          "mystery",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: hat, dresser, window, coat, bed. Actions: standing, walking. Emotions: mysterious, eerie. Scenes: dimly lit room, indoor, dark room, haunted, ominous setting. Concepts: mystery, isolation, supernatural, darkness. People: figure",
+  "primary_labels": {
+    "objects": [
+      "hat",
+      "dresser",
+      "window",
+      "coat",
+      "bed"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "mysterious",
+      "eerie"
+    ],
+    "scenes": [
+      "dimly lit room",
+      "indoor",
+      "dark room",
+      "haunted",
+      "ominous setting"
+    ],
+    "concepts": [
+      "mystery",
+      "isolation",
+      "supernatural",
+      "darkness"
+    ],
+    "people": [
+      "figure"
+    ]
+  },
+  "metadata": {}
+}

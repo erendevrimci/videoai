@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AStrong,AthleticManWalks.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AStrong,AthleticManWalks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AStrong,AthleticManWalks/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A powerful warrior stands confidently amidst a fiery backdrop, clad in a black and orange armored outfit. His face is obscured by a menacing mask, and his muscular arms are crossed, exuding strength and determination.",
+      "description": "The scene depicts a formidable warrior in a dramatic, fiery setting. The character is dressed in a distinctive black and orange costume, with a hood and a mask that conceals his identity. The background is engulfed in flames, adding intensity to the atmosphere.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "mask"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "fiery backdrop"
+        ],
+        "concepts": [
+          "power",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AStrong,AthleticManWalks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AStrong,AthleticManWalks/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A powerful figure stands confidently in a dramatic pose, wearing a striking black and orange outfit with a hood and mask. The background is filled with smoke and glowing embers, enhancing the intense atmosphere.",
+      "description": "The scene depicts a strong, armored character in a dynamic and intimidating stance. The setting is dark and fiery, suggesting a battle-ready environment.",
+      "labels": {
+        "people": [
+          "armored character"
+        ],
+        "objects": [
+          "armor",
+          "mask",
+          "hood"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "intimidation",
+          "confidence"
+        ],
+        "scenes": [
+          "dramatic",
+          "fiery"
+        ],
+        "concepts": [
+          "strength",
+          "battle-ready"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AStrong,AthleticManWalks.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AStrong,AthleticManWalks/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A powerful, armored figure stands amidst a fiery background, exuding strength and intensity. The character wears a hood and a mask, with muscular arms and a determined stance.",
+      "description": "The scene depicts a formidable warrior in a dramatic, fiery setting. The character's attire and posture suggest readiness for battle, with flames adding to the intense atmosphere.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "armor",
+          "mask",
+          "hood"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "intensity",
+          "determination"
+        ],
+        "scenes": [
+          "battle",
+          "fire"
+        ],
+        "concepts": [
+          "strength",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, armored character. Objects: armor, mask, hood. Actions: standing, posing. Emotions: determination, strength, intimidation, confidence, intensity. Scenes: fiery backdrop, dramatic, fiery, battle, fire. Concepts: power, strength, mystery, battle-ready",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "armored character"
+    ],
+    "objects": [
+      "armor",
+      "mask",
+      "hood"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "determination",
+      "strength",
+      "intimidation",
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "fiery backdrop",
+      "dramatic",
+      "fiery",
+      "battle",
+      "fire"
+    ],
+    "concepts": [
+      "power",
+      "strength",
+      "mystery",
+      "battle-ready"
+    ]
+  },
+  "metadata": {}
+}

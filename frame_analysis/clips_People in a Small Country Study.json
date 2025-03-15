@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a Small Country Study.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a Small Country Study.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/People in a Small Country Study/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature scientists in lab coats examine a giant cracked eggshell. They are engaged in various investigative activities, using magnifying glasses and laboratory equipment.",
+      "description": "The scene depicts a surreal laboratory setting where tiny scientists are exploring a large eggshell as if it were a scientific specimen. The setting combines elements of fantasy and science, creating an imaginative and curious atmosphere.",
+      "labels": {
+        "people": [
+          "scientists"
+        ],
+        "objects": [
+          "eggshell",
+          "laboratory equipment",
+          "magnifying glass",
+          "lab coat"
+        ],
+        "actions": [
+          "examining",
+          "investigating"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "laboratory",
+          "fantasy"
+        ],
+        "concepts": [
+          "science",
+          "miniature",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/People in a Small Country Study.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/People in a Small Country Study/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Four miniature scientists are examining a large, cracked eggshell. They are using magnifying glasses and scientific equipment to study the shell's surface and interior. The scene is set in a laboratory environment with a focus on detailed observation.",
+      "description": "The scene depicts a surreal laboratory setting where tiny scientists are investigating a giant eggshell. The scientists are engaged in various activities, such as inspecting with magnifying glasses and taking notes, suggesting a meticulous study or experiment.",
+      "labels": {
+        "people": [
+          "scientists"
+        ],
+        "objects": [
+          "eggshell",
+          "magnifying glass",
+          "laboratory table",
+          "scientific equipment"
+        ],
+        "actions": [
+          "examining",
+          "studying",
+          "inspecting",
+          "taking notes"
+        ],
+        "emotions": [
+          "curiosity",
+          "focus"
+        ],
+        "scenes": [
+          "laboratory",
+          "scientific study"
+        ],
+        "concepts": [
+          "miniature",
+          "surrealism",
+          "science"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: scientists. Objects: eggshell, magnifying glass, laboratory equipment, lab coat, laboratory table. Actions: examining, investigating, studying, inspecting, taking notes. Emotions: curiosity, focus. Scenes: laboratory, fantasy, scientific study. Concepts: science, miniature, surrealism",
+  "primary_labels": {
+    "people": [
+      "scientists"
+    ],
+    "objects": [
+      "eggshell",
+      "magnifying glass",
+      "laboratory equipment",
+      "lab coat",
+      "laboratory table"
+    ],
+    "actions": [
+      "examining",
+      "investigating",
+      "studying",
+      "inspecting",
+      "taking notes"
+    ],
+    "emotions": [
+      "curiosity",
+      "focus"
+    ],
+    "scenes": [
+      "laboratory",
+      "fantasy",
+      "scientific study"
+    ],
+    "concepts": [
+      "science",
+      "miniature",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

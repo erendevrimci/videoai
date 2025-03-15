@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mother and daughter.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mother and daughter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mother and daughter/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman sits with two young girls, all smiling warmly at the camera. They are indoors, possibly in a living room, with soft lighting creating a cozy atmosphere.",
+      "description": "The scene depicts a family moment with a woman and two children sitting closely together. The setting appears to be a comfortable home environment, with a focus on warmth and togetherness.",
+      "labels": {
+        "people": [
+          "woman",
+          "children",
+          "family"
+        ],
+        "objects": [
+          "sofa",
+          "lamp",
+          "shelf"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "indoor",
+          "living room"
+        ],
+        "concepts": [
+          "family",
+          "togetherness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mother and daughter.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mother and daughter/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman and two young girls are sitting together in a cozy living room. They are smiling warmly at the camera, conveying a sense of happiness and togetherness. The background features soft lighting and home decor elements.",
+      "description": "The scene depicts a family moment in a comfortable living room setting. The woman and the two girls are seated closely, suggesting a familial bond. The atmosphere is warm and inviting, enhanced by the natural light filtering through the window.",
+      "labels": {
+        "people": [
+          "woman",
+          "young girl",
+          "child"
+        ],
+        "objects": [
+          "lamp",
+          "shelf",
+          "plant",
+          "decor"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "living room",
+          "family"
+        ],
+        "concepts": [
+          "togetherness",
+          "family bond"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, children, family, young girl, child. Objects: lamp, shelf, sofa, plant, decor. Emotions: happiness, warmth. Scenes: living room, indoor, family. Concepts: togetherness, family, family bond. Actions: sitting, smiling",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "children",
+      "family",
+      "young girl",
+      "child"
+    ],
+    "objects": [
+      "lamp",
+      "shelf",
+      "sofa",
+      "plant",
+      "decor"
+    ],
+    "emotions": [
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "living room",
+      "indoor",
+      "family"
+    ],
+    "concepts": [
+      "togetherness",
+      "family",
+      "family bond"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

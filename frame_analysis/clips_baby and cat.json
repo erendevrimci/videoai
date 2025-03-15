@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby and cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy white cat and a joyful baby are sitting side by side on a gray couch. The cat appears relaxed with its eyes closed, while the baby is laughing gleefully, creating a heartwarming scene.",
+      "description": "The scene is set indoors on a comfortable gray couch, creating a cozy and intimate atmosphere. A large, fluffy white cat and a baby in patterned pajamas are the main focus, exuding a sense of warmth and happiness.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "couch",
+          "pajamas"
+        ],
+        "actions": [
+          "sitting",
+          "laughing"
+        ],
+        "emotions": [
+          "happiness",
+          "relaxation"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "friendship",
+          "comfort"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby and cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby and cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby and a fluffy white cat are cuddling on a gray sofa. The baby is laughing joyfully while embracing the cat, who appears calm and content. The scene exudes warmth and affection, capturing a tender moment between the two.",
+      "description": "The scene is set indoors on a comfortable gray sofa, where a baby and a cat are sharing a loving cuddle. The baby is wearing a patterned onesie and is visibly happy, while the cat is relaxed and nestled against the baby.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "sofa",
+          "onesie"
+        ],
+        "actions": [
+          "cuddling",
+          "laughing"
+        ],
+        "emotions": [
+          "joy",
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "home"
+        ],
+        "concepts": [
+          "affection",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: couch, pajamas, sofa, onesie. Actions: laughing, sitting, cuddling. Emotions: happiness, relaxation, joy, contentment. Scenes: indoor, cozy, home. Concepts: friendship, comfort, affection, companionship",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "couch",
+      "pajamas",
+      "sofa",
+      "onesie"
+    ],
+    "actions": [
+      "laughing",
+      "sitting",
+      "cuddling"
+    ],
+    "emotions": [
+      "happiness",
+      "relaxation",
+      "joy",
+      "contentment"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy",
+      "home"
+    ],
+    "concepts": [
+      "friendship",
+      "comfort",
+      "affection",
+      "companionship"
+    ]
+  },
+  "metadata": {}
+}

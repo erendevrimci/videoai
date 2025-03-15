@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Lone Radiance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Lone Radiance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Lone Radiance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant yellow bird stands out amidst a flock of dark blue and black birds. The contrast between the bright yellow plumage and the surrounding darker birds creates a striking visual effect. The scene captures a moment of uniqueness and individuality in nature.",
+      "description": "The image depicts a group of birds, predominantly dark blue and black, with one bright yellow bird in the center. This setting highlights the theme of contrast and individuality in a natural environment.",
+      "labels": {
+        "animals": [
+          "birds",
+          "yellow bird",
+          "black birds"
+        ],
+        "nature": [
+          "wildlife",
+          "flock"
+        ],
+        "objects": [
+          "plumage"
+        ],
+        "emotions": [
+          "uniqueness",
+          "contrast"
+        ],
+        "scenes": [
+          "natural setting",
+          "bird gathering"
+        ],
+        "concepts": [
+          "individuality",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Lone Radiance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Lone Radiance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant yellow bird stands out amidst a flock of dark-colored birds, creating a striking contrast. The scene captures the momentary pause of the birds, with the yellow bird at the center of attention. The dark birds surround it closely, their feathers overlapping in a dense cluster.",
+      "description": "The image depicts a gathering of birds, with a single bright yellow bird contrasting sharply against the dark plumage of the surrounding birds. The setting appears to be a natural environment where these birds are congregating closely together.",
+      "labels": {
+        "animals": [
+          "birds",
+          "yellow bird",
+          "dark birds"
+        ],
+        "nature": [
+          "feathers"
+        ],
+        "objects": [],
+        "actions": [
+          "gathering"
+        ],
+        "emotions": [
+          "contrast"
+        ],
+        "scenes": [
+          "wildlife"
+        ],
+        "concepts": [
+          "contrast",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Lone Radiance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Lone Radiance/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A vibrant yellow bird stands out amidst a crowd of dark-feathered birds. The contrast between the bright yellow and the dark blue-black feathers creates a striking visual effect. The scene captures a moment of stillness and focus on the unique bird.",
+      "description": "The image depicts a group of birds with one bright yellow bird prominently positioned in the center, surrounded by several dark-feathered birds. The setting appears to be natural, possibly in a forest or wooded area.",
+      "labels": {
+        "animals": [
+          "yellow bird",
+          "dark-feathered birds"
+        ],
+        "nature": [
+          "birds"
+        ],
+        "objects": [],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contrast"
+        ],
+        "scenes": [
+          "nature"
+        ],
+        "concepts": [
+          "uniqueness",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: yellow bird, birds, black birds, dark birds, dark-feathered birds. Nature: wildlife, flock, feathers, birds. Objects: plumage. Emotions: contrast, uniqueness. Scenes: natural setting, bird gathering, wildlife, nature. Concepts: contrast, individuality, isolation, uniqueness. Actions: gathering, standing",
+  "primary_labels": {
+    "animals": [
+      "yellow bird",
+      "birds",
+      "black birds",
+      "dark birds",
+      "dark-feathered birds"
+    ],
+    "nature": [
+      "wildlife",
+      "flock",
+      "feathers",
+      "birds"
+    ],
+    "objects": [
+      "plumage"
+    ],
+    "emotions": [
+      "contrast",
+      "uniqueness"
+    ],
+    "scenes": [
+      "natural setting",
+      "bird gathering",
+      "wildlife",
+      "nature"
+    ],
+    "concepts": [
+      "contrast",
+      "individuality",
+      "isolation",
+      "uniqueness"
+    ],
+    "actions": [
+      "gathering",
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

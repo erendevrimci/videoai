@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmileWithTeethIntoThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmileWithTeethIntoThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmileWithTeethIntoThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A piglet wearing colorful sunglasses and a floral outfit relaxes in a chair, exuding a laid-back vibe. The background is softly blurred with warm lighting, suggesting a cozy and cheerful atmosphere.",
+      "description": "The scene depicts a piglet dressed in a playful, floral-patterned outfit and oversized sunglasses, seated comfortably in a chair. The setting appears to be a casual, relaxed environment, possibly outdoors or in a warmly lit room.",
+      "labels": {
+        "animals": [
+          "piglet"
+        ],
+        "objects": [
+          "sunglasses",
+          "chair",
+          "floral outfit",
+          "glass of orange juice"
+        ],
+        "actions": [
+          "relaxing",
+          "sitting"
+        ],
+        "emotions": [
+          "content",
+          "playful"
+        ],
+        "scenes": [
+          "casual setting",
+          "relaxed atmosphere"
+        ],
+        "concepts": [
+          "humor",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SmileWithTeethIntoThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SmileWithTeethIntoThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cheerful pig wearing colorful sunglasses and a floral outfit relaxes with a glass of orange juice. The pig appears to be smiling widely, exuding a sense of joy and contentment.",
+      "description": "The scene depicts a playful and humorous setting where a pig is dressed in a human-like manner, enjoying a leisurely moment. The background suggests a relaxed, possibly outdoor environment with warm lighting.",
+      "labels": {
+        "animals": [
+          "pig"
+        ],
+        "objects": [
+          "sunglasses",
+          "glass",
+          "orange juice",
+          "floral outfit"
+        ],
+        "actions": [
+          "smiling",
+          "relaxing"
+        ],
+        "emotions": [
+          "joyful",
+          "content"
+        ],
+        "scenes": [
+          "leisure",
+          "humorous"
+        ],
+        "concepts": [
+          "playfulness",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: piglet, pig. Objects: sunglasses, floral outfit, chair, glass of orange juice, glass. Actions: relaxing, sitting, smiling. Emotions: content, playful, joyful. Scenes: casual setting, relaxed atmosphere, leisure, humorous. Concepts: humor, leisure, playfulness, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "piglet",
+      "pig"
+    ],
+    "objects": [
+      "sunglasses",
+      "floral outfit",
+      "chair",
+      "glass of orange juice",
+      "glass"
+    ],
+    "actions": [
+      "relaxing",
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "content",
+      "playful",
+      "joyful"
+    ],
+    "scenes": [
+      "casual setting",
+      "relaxed atmosphere",
+      "leisure",
+      "humorous"
+    ],
+    "concepts": [
+      "humor",
+      "leisure",
+      "playfulness",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Infernal Warlord.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Infernal Warlord.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Infernal Warlord/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A menacing figure clad in dark armor stands amidst a fiery backdrop. The character's glowing red eyes and intricate helmet create an intimidating presence. Flames surround the scene, enhancing the dramatic and intense atmosphere.",
+      "description": "The scene depicts a dark, armored character with glowing red eyes, set against a background of flames. The setting suggests a fantasy or battle environment, with an emphasis on power and intimidation.",
+      "labels": {
+        "people": [
+          "armored character"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [],
+        "emotions": [
+          "intimidation",
+          "menace"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "power",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Infernal Warlord.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Infernal Warlord/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A menacing figure clad in dark, intricate armor stands against a cosmic backdrop. The character's glowing red eyes and spiked helmet enhance the ominous presence, while a celestial expanse of stars and nebulae stretches behind.",
+      "description": "The scene depicts a powerful, armored character in a cosmic setting, suggesting a theme of interstellar or fantasy conflict. The figure's stance is assertive, conveying strength and authority.",
+      "labels": {
+        "people": [
+          "armored figure"
+        ],
+        "nature": [
+          "cosmic backdrop",
+          "stars",
+          "nebulae"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "menacing",
+          "ominous"
+        ],
+        "scenes": [
+          "fantasy",
+          "interstellar"
+        ],
+        "concepts": [
+          "power",
+          "authority"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Infernal Warlord.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Infernal Warlord/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A menacing figure in dark, ornate armor stands amidst swirling flames and smoke. The figure's eyes glow red, creating an ominous presence in the fiery scene. The atmosphere is intense and foreboding, with the flames casting a warm, flickering light.",
+      "description": "The scene depicts a dark, armored character surrounded by flames and smoke, suggesting a battle or destructive event. The glowing red eyes and intricate armor add to the character's intimidating appearance.",
+      "labels": {
+        "people": [
+          "armored figure"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "standing",
+          "amidst flames"
+        ],
+        "emotions": [
+          "menacing",
+          "intense"
+        ],
+        "scenes": [
+          "battle",
+          "destruction"
+        ],
+        "concepts": [
+          "power",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: armored figure, armored character. Objects: armor, helmet. Actions: standing, amidst flames. Emotions: menacing, intimidation, menace, ominous, intense. Scenes: fantasy, battle, interstellar, destruction. Concepts: power, darkness, authority. Nature: cosmic backdrop, stars, nebulae",
+  "primary_labels": {
+    "people": [
+      "armored figure",
+      "armored character"
+    ],
+    "objects": [
+      "armor",
+      "helmet"
+    ],
+    "actions": [
+      "standing",
+      "amidst flames"
+    ],
+    "emotions": [
+      "menacing",
+      "intimidation",
+      "menace",
+      "ominous",
+      "intense"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle",
+      "interstellar",
+      "destruction"
+    ],
+    "concepts": [
+      "power",
+      "darkness",
+      "authority"
+    ],
+    "nature": [
+      "cosmic backdrop",
+      "stars",
+      "nebulae"
+    ]
+  },
+  "metadata": {}
+}

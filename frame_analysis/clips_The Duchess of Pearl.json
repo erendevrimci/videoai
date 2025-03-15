@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Duchess of Pearl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Duchess of Pearl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Duchess of Pearl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is elegantly seated against a backdrop resembling a large, open seashell. She is adorned in a luxurious, pearl-embellished gown with intricate jewelry, exuding an aura of regal elegance.",
+      "description": "The scene captures a woman in a lavish setting, reminiscent of a mythical or fantasy environment. The setting suggests a blend of fashion and art, with a focus on opulence and grace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "jewelry",
+          "seashell backdrop"
+        ],
+        "actions": [
+          "seated"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fantasy",
+          "fashion"
+        ],
+        "concepts": [
+          "luxury",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Duchess of Pearl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Duchess of Pearl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is elegantly posed in front of a backdrop resembling a large, open seashell. She is adorned in a luxurious, pearl-studded gown with intricate jewelry, exuding a regal and ethereal presence.",
+      "description": "The scene is set in a studio environment with a focus on elegance and opulence. The woman is seated in a poised manner, surrounded by flowing fabric that mimics the texture and appearance of a seashell.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "jewelry",
+          "seashell backdrop"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "regal",
+          "ethereal"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Duchess of Pearl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Duchess of Pearl/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands elegantly, adorned in a luxurious gown with intricate pearl details and a voluminous skirt. Her hair is styled in elaborate curls, complementing the regal atmosphere of the scene.",
+      "description": "The scene captures a fashion-forward setting, likely a photoshoot or fashion show, showcasing a stunning gown with a dramatic design. The focus is on the woman's attire and poised demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "pearls",
+          "jewelry"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fashion"
+        ],
+        "concepts": [
+          "luxury",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, jewelry, seashell backdrop, pearls. Actions: seated, posing, standing. Emotions: elegance, regal, ethereal. Scenes: fashion, fantasy, studio. Concepts: luxury, mythical, elegance, style",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "jewelry",
+      "seashell backdrop",
+      "pearls"
+    ],
+    "actions": [
+      "seated",
+      "posing",
+      "standing"
+    ],
+    "emotions": [
+      "elegance",
+      "regal",
+      "ethereal"
+    ],
+    "scenes": [
+      "fashion",
+      "fantasy",
+      "studio"
+    ],
+    "concepts": [
+      "luxury",
+      "mythical",
+      "elegance",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

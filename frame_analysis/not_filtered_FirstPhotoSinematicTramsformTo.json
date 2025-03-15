@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FirstPhotoSinematicTramsformTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FirstPhotoSinematicTramsformTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FirstPhotoSinematicTramsformTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man in a black suit stands against a brick wall, exuding a calm and composed demeanor. The texture of the bricks contrasts with the smooth fabric of his suit, creating a visually appealing scene.",
+      "description": "The scene depicts a man standing in front of a rustic brick wall. He is dressed in a formal black suit, suggesting a professional or sophisticated setting.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "suit",
+          "brick wall"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "urban",
+          "portrait"
+        ],
+        "concepts": [
+          "formal attire",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FirstPhotoSinematicTramsformTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FirstPhotoSinematicTramsformTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is standing confidently in a red and gold armored suit, reminiscent of a superhero costume. The background is a simple, textured wall, emphasizing the focus on the individual and their attire.",
+      "description": "The scene depicts a person in a superhero-like suit, standing in a neutral setting. The suit is detailed with metallic red and gold colors, featuring a glowing chest piece.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "armor",
+          "superhero suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "superhero",
+          "costume"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FirstPhotoSinematicTramsformTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FirstPhotoSinematicTramsformTo/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person stands confidently in a red and gold armored suit, reminiscent of a superhero costume. The background is filled with a glowing, fiery light, enhancing the dramatic effect of the scene.",
+      "description": "The scene depicts a person in a superhero-like armored suit, standing in a powerful pose. The setting is dramatic, with a glowing background that suggests energy or power.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "armor",
+          "superhero suit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "dramatic"
+        ],
+        "concepts": [
+          "superhero",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, man. Objects: armor, superhero suit, suit, brick wall. Actions: standing. Emotions: confidence, calm, composed. Scenes: portrait, urban, dramatic. Concepts: superhero, formal attire, contrast, costume, power",
+  "primary_labels": {
+    "people": [
+      "person",
+      "man"
+    ],
+    "objects": [
+      "armor",
+      "superhero suit",
+      "suit",
+      "brick wall"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "composed"
+    ],
+    "scenes": [
+      "portrait",
+      "urban",
+      "dramatic"
+    ],
+    "concepts": [
+      "superhero",
+      "formal attire",
+      "contrast",
+      "costume",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,154 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Samos Knight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Samos Knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Samos Knight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A convertible sports car speeds through a sandy desert landscape, kicking up dust behind it. The driver, wearing sunglasses, appears relaxed and focused as they navigate the open terrain.",
+      "description": "The scene is set in a vast, open desert with clear blue skies overhead. A sleek, black convertible car is the focal point, driven by a person enjoying the thrill of the drive.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "nature": [
+          "desert",
+          "sand",
+          "sky"
+        ],
+        "objects": [
+          "convertible car",
+          "sunglasses"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "freedom",
+          "adventure"
+        ],
+        "scenes": [
+          "desert drive",
+          "outdoor"
+        ],
+        "concepts": [
+          "freedom",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Samos Knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Samos Knight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A convertible sports car speeds through a sandy desert landscape, kicking up dust as it navigates the terrain. A person is visible behind the wheel, wearing sunglasses, adding to the adventurous atmosphere.",
+      "description": "The scene depicts a dynamic moment in a desert setting, where a convertible car is being driven at speed across sand dunes. The bright sky and sparse vegetation emphasize the arid environment.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "nature": [
+          "desert",
+          "sand",
+          "sky"
+        ],
+        "objects": [
+          "convertible car",
+          "sunglasses"
+        ],
+        "actions": [
+          "driving",
+          "speeding"
+        ],
+        "emotions": [
+          "adventure"
+        ],
+        "scenes": [
+          "desert landscape"
+        ],
+        "concepts": [
+          "freedom",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Samos Knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Samos Knight/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person is driving a black convertible through a sandy desert landscape. Dust is being kicked up by the car's tires as it moves across the dunes. The driver is looking ahead, wearing sunglasses and a casual outfit.",
+      "description": "The scene is set in a desert environment with rolling sand dunes under a clear blue sky. A black convertible car is moving through the sandy terrain, driven by a person who appears focused on the path ahead.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes"
+        ],
+        "objects": [
+          "convertible car",
+          "sunglasses"
+        ],
+        "actions": [
+          "driving",
+          "kicking up dust"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "desert drive"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: driver. Nature: desert, sand, sky, sand dunes. Objects: convertible car, sunglasses. Actions: driving, speeding, kicking up dust. Emotions: adventure, freedom, focus. Scenes: desert drive, outdoor, desert landscape. Concepts: freedom, exploration, adventure",
+  "primary_labels": {
+    "people": [
+      "driver"
+    ],
+    "nature": [
+      "desert",
+      "sand",
+      "sky",
+      "sand dunes"
+    ],
+    "objects": [
+      "convertible car",
+      "sunglasses"
+    ],
+    "actions": [
+      "driving",
+      "speeding",
+      "kicking up dust"
+    ],
+    "emotions": [
+      "adventure",
+      "freedom",
+      "focus"
+    ],
+    "scenes": [
+      "desert drive",
+      "outdoor",
+      "desert landscape"
+    ],
+    "concepts": [
+      "freedom",
+      "exploration",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

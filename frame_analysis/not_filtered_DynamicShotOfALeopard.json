@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfALeopard.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfALeopard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfALeopard/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A figure dressed in a camouflage suit with a hood is crouched in a dense jungle setting. The person's face is obscured by a mask resembling a leopard, adding an enigmatic and intense aspect to the scene. They are holding a rifle, suggesting a tactical or military context.",
+      "description": "The scene depicts a mysterious figure in a jungle environment, blending into the surroundings with a camouflage outfit. The leopard mask adds a surreal and intense element, creating a sense of stealth and alertness.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "animals": [
+          "leopard (mask)"
+        ],
+        "nature": [
+          "jungle",
+          "foliage"
+        ],
+        "objects": [
+          "camouflage suit",
+          "rifle"
+        ],
+        "actions": [
+          "crouching"
+        ],
+        "emotions": [
+          "intensity",
+          "mystery"
+        ],
+        "scenes": [
+          "jungle",
+          "tactical"
+        ],
+        "concepts": [
+          "stealth",
+          "camouflage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfALeopard.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfALeopard/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person in camouflage gear crouches in a dense jungle, aiming a handgun directly at the viewer. The hooded figure wears a mask with a feline design, blending seamlessly with the surrounding foliage.",
+      "description": "The scene is set in a jungle environment, where a person dressed in camouflage is engaged in a tactical stance. The individual is focused and appears to be on a mission, with the jungle providing both cover and concealment.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "jungle",
+          "foliage"
+        ],
+        "objects": [
+          "handgun",
+          "camouflage gear",
+          "mask"
+        ],
+        "actions": [
+          "crouching",
+          "aiming"
+        ],
+        "emotions": [
+          "focused",
+          "intense"
+        ],
+        "scenes": [
+          "tactical",
+          "jungle"
+        ],
+        "concepts": [
+          "camouflage",
+          "stealth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, person. Animals: leopard (mask). Nature: jungle, foliage. Objects: camouflage suit, rifle, handgun, camouflage gear, mask. Actions: crouching, aiming. Emotions: intensity, mystery, focused, intense. Scenes: jungle, tactical. Concepts: stealth, camouflage",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "person"
+    ],
+    "animals": [
+      "leopard (mask)"
+    ],
+    "nature": [
+      "jungle",
+      "foliage"
+    ],
+    "objects": [
+      "camouflage suit",
+      "rifle",
+      "handgun",
+      "camouflage gear",
+      "mask"
+    ],
+    "actions": [
+      "crouching",
+      "aiming"
+    ],
+    "emotions": [
+      "intensity",
+      "mystery",
+      "focused",
+      "intense"
+    ],
+    "scenes": [
+      "jungle",
+      "tactical"
+    ],
+    "concepts": [
+      "stealth",
+      "camouflage"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunderous Ambitions.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunderous Ambitions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Thunderous Ambitions/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands confidently in the middle of an urban street, wearing a vibrant, patterned outfit. The background features colorful signage and a clear blue sky, adding to the lively atmosphere.",
+      "description": "The scene is set in a bustling urban environment, likely a city street, with a clear sky overhead. The woman is the focal point, dressed in a striking, colorful ensemble that stands out against the urban backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "street",
+          "signage",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "urban style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Thunderous Ambitions.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Thunderous Ambitions/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman poses confidently in the middle of a city street, wearing vibrant orange streetwear. The urban backdrop features colorful signage and a clear blue sky, adding to the lively atmosphere.",
+      "description": "The scene is set in a bustling city street, characterized by bright urban elements and a clear sky. The focus is on a stylishly dressed woman standing in the center of the road, exuding confidence and modern fashion sense.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "streetwear",
+          "signage",
+          "buildings"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "modern",
+          "youthful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: signage, buildings, street, streetwear. Actions: standing, posing. Emotions: confidence. Scenes: urban, street. Concepts: fashion, urban style, modern, youthful",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "signage",
+      "buildings",
+      "street",
+      "streetwear"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "urban style",
+      "modern",
+      "youthful"
+    ]
+  },
+  "metadata": {}
+}

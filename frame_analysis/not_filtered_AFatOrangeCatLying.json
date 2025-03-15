@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFatOrangeCatLying.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFatOrangeCatLying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFatOrangeCatLying/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat is lying in a hospital bed, wrapped in bandages, while holding a phone to its ear. The cat appears relaxed and slightly amused, as if engaged in a casual conversation.",
+      "description": "The scene takes place in a hospital setting where a cat is humorously depicted as a patient. The cat is comfortably lying in bed, wrapped in bandages, and holding a phone, creating a whimsical and lighthearted atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "phone",
+          "bandages",
+          "hospital bed"
+        ],
+        "actions": [
+          "lying",
+          "holding phone"
+        ],
+        "emotions": [
+          "relaxed",
+          "amused"
+        ],
+        "scenes": [
+          "hospital"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFatOrangeCatLying.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFatOrangeCatLying/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat lies in a hospital bed, wrapped in bandages, holding a phone to its ear. The cat appears relaxed and is surrounded by a clinical setting, suggesting a humorous take on a hospital scene.",
+      "description": "The scene depicts a whimsical scenario where a cat is depicted as a patient in a hospital setting. The cat is lying on a bed with bandages around its body and holding a phone, creating a humorous and surreal atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "phone",
+          "bandages",
+          "hospital bed"
+        ],
+        "actions": [
+          "lying",
+          "holding phone"
+        ],
+        "emotions": [
+          "relaxed",
+          "humorous"
+        ],
+        "scenes": [
+          "hospital"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: phone, bandages, hospital bed. Actions: lying, holding phone. Emotions: relaxed, amused, humorous. Scenes: hospital. Concepts: humor, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "phone",
+      "bandages",
+      "hospital bed"
+    ],
+    "actions": [
+      "lying",
+      "holding phone"
+    ],
+    "emotions": [
+      "relaxed",
+      "amused",
+      "humorous"
+    ],
+    "scenes": [
+      "hospital"
+    ],
+    "concepts": [
+      "humor",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

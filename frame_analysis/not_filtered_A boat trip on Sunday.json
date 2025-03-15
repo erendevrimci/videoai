@@ -1,0 +1,166 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A boat trip on Sunday.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A boat trip on Sunday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A boat trip on Sunday/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two cats are sitting in a small wooden boat on a calm lake, with one cat holding an oar and the other sitting under a white umbrella. The scene is set against a backdrop of lush green trees and a clear blue sky.",
+      "description": "The image depicts a serene and whimsical scene of two cats in a boat on a tranquil lake. The setting is peaceful, with lush greenery surrounding the water and a bright, sunny sky overhead.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "nature": [
+          "lake",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "boat",
+          "oar",
+          "umbrella"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor",
+          "lake"
+        ],
+        "concepts": [
+          "serenity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A boat trip on Sunday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A boat trip on Sunday/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two cats are sitting in a small wooden boat on a tranquil lake, surrounded by lush greenery. One cat is holding an oar, while the other sits under a white umbrella, creating a whimsical scene.",
+      "description": "The scene is set on a calm lake with clear blue skies and verdant trees lining the shore. The focus is on two cats in a boat, giving an imaginative and serene atmosphere.",
+      "labels": {
+        "animals": [
+          "cats"
+        ],
+        "nature": [
+          "lake",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "boat",
+          "oar",
+          "umbrella"
+        ],
+        "actions": [
+          "rowing"
+        ],
+        "emotions": [
+          "serene",
+          "whimsical"
+        ],
+        "scenes": [
+          "lake",
+          "outdoors"
+        ],
+        "concepts": [
+          "tranquility",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A boat trip on Sunday.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A boat trip on Sunday/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Two dogs are seated in a small wooden boat, leisurely rowing across a serene lake. They are shaded by a white umbrella, surrounded by lush green trees and clear blue skies.",
+      "description": "The scene depicts a tranquil setting on a lake, where two dogs are enjoying a peaceful boat ride. The environment is calm and picturesque, with weeping willow trees lining the shore and clear reflections on the water.",
+      "labels": {
+        "animals": [
+          "dogs"
+        ],
+        "nature": [
+          "lake",
+          "trees",
+          "sky"
+        ],
+        "objects": [
+          "boat",
+          "umbrella",
+          "oars"
+        ],
+        "actions": [
+          "rowing",
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "peaceful"
+        ],
+        "scenes": [
+          "lake",
+          "outdoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats, dogs. Nature: lake, trees, sky. Objects: boat, umbrella, oar, oars. Actions: sitting, rowing, holding. Emotions: calm, whimsical, serene, peaceful. Scenes: lake, outdoor, outdoors. Concepts: tranquility, serenity, whimsy, imagination, leisure",
+  "primary_labels": {
+    "animals": [
+      "cats",
+      "dogs"
+    ],
+    "nature": [
+      "lake",
+      "trees",
+      "sky"
+    ],
+    "objects": [
+      "boat",
+      "umbrella",
+      "oar",
+      "oars"
+    ],
+    "actions": [
+      "sitting",
+      "rowing",
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "whimsical",
+      "serene",
+      "peaceful"
+    ],
+    "scenes": [
+      "lake",
+      "outdoor",
+      "outdoors"
+    ],
+    "concepts": [
+      "tranquility",
+      "serenity",
+      "whimsy",
+      "imagination",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

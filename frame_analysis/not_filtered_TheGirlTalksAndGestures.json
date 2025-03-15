@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlTalksAndGestures.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlTalksAndGestures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlTalksAndGestures/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cheerful young girl with braided hair is crouching on a sidewalk, pointing excitedly at a large red letter 'A' beside her. An ant is walking near the letter, capturing the girl's attention and curiosity.",
+      "description": "The scene is set in a vibrant, colorful urban environment, likely a street lined with buildings and trees. The focus is on the interaction between the girl and the ant, highlighting a moment of wonder and discovery.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "ant"
+        ],
+        "objects": [
+          "letter A",
+          "backpack",
+          "shoes"
+        ],
+        "actions": [
+          "pointing",
+          "crouching"
+        ],
+        "emotions": [
+          "excitement",
+          "curiosity"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "learning",
+          "discovery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGirlTalksAndGestures.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGirlTalksAndGestures/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl with braided hair crouches on a sunny street, intently observing two large ants near a giant red letter 'A'. She is wearing a yellow shirt, blue overalls, and red sneakers, with a blue backpack on her back.",
+      "description": "The scene is set on a bright, colorful street with buildings and trees in the background. The focus is on a curious girl interacting with oversized ants next to a large red letter 'A'.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "ants"
+        ],
+        "nature": [
+          "trees"
+        ],
+        "objects": [
+          "letter A",
+          "backpack",
+          "clothing"
+        ],
+        "actions": [
+          "crouching",
+          "observing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "street",
+          "urban"
+        ],
+        "concepts": [
+          "learning",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Animals: ant, ants. Objects: letter A, backpack, shoes, clothing. Actions: crouching, pointing, observing. Emotions: curiosity, excitement. Scenes: urban, street. Concepts: learning, discovery, exploration. Nature: trees",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "animals": [
+      "ant",
+      "ants"
+    ],
+    "objects": [
+      "letter A",
+      "backpack",
+      "shoes",
+      "clothing"
+    ],
+    "actions": [
+      "crouching",
+      "pointing",
+      "observing"
+    ],
+    "emotions": [
+      "curiosity",
+      "excitement"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "learning",
+      "discovery",
+      "exploration"
+    ],
+    "nature": [
+      "trees"
+    ]
+  },
+  "metadata": {}
+}

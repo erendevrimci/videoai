@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/G\u00fcl\u00fcms\u00fcyor,smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/G\u00fcl\u00fcms\u00fcyor,smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/G\u00fcl\u00fcms\u00fcyor,smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly man with wild white hair sits at an outdoor caf\u00e9 table, gazing thoughtfully into the distance. He wears a worn, button-up shirt and rests his hands on the table beside a glass of iced tea.",
+      "description": "The scene is set in an outdoor caf\u00e9, likely in an urban environment. The focus is on an elderly man sitting alone, creating a contemplative atmosphere.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "table",
+          "glass",
+          "shirt"
+        ],
+        "actions": [
+          "sitting",
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful",
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor caf\u00e9",
+          "urban setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/G\u00fcl\u00fcms\u00fcyor,smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/G\u00fcl\u00fcms\u00fcyor,smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly man with wild white hair and a mustache sits at a small outdoor caf\u00e9 table. He appears contemplative, resting his arms on the table next to a glass of iced drink.",
+      "description": "The scene is set in an outdoor caf\u00e9, possibly in a bustling city. The man is the focal point, with a blurred background suggesting a busy street or market area.",
+      "labels": {
+        "people": [
+          "elderly man"
+        ],
+        "objects": [
+          "table",
+          "glass",
+          "drink"
+        ],
+        "actions": [
+          "sitting",
+          "resting"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor caf\u00e9",
+          "city street"
+        ],
+        "concepts": [
+          "relaxation",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man. Objects: table, glass, shirt, drink. Actions: sitting, gazing, resting. Emotions: contemplative, thoughtful. Scenes: outdoor caf\u00e9, urban setting, city street. Concepts: relaxation, urban life",
+  "primary_labels": {
+    "people": [
+      "elderly man"
+    ],
+    "objects": [
+      "table",
+      "glass",
+      "shirt",
+      "drink"
+    ],
+    "actions": [
+      "sitting",
+      "gazing",
+      "resting"
+    ],
+    "emotions": [
+      "contemplative",
+      "thoughtful"
+    ],
+    "scenes": [
+      "outdoor caf\u00e9",
+      "urban setting",
+      "city street"
+    ],
+    "concepts": [
+      "relaxation",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

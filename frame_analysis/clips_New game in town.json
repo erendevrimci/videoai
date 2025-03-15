@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/New game in town.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/New game in town.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/New game in town/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person holds a PS5 game case titled 'Daffy's Duty Warzone' featuring a cartoon duck dressed as a soldier. The cover art depicts a warzone scene with helicopters and soldiers amidst explosions.",
+      "description": "The image shows a close-up of a hand holding a video game case for the PlayStation 5. The game, 'Daffy's Duty Warzone,' features a cartoon duck character in military gear, set against a backdrop of a chaotic warzone with helicopters and explosions.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "cartoon duck"
+        ],
+        "objects": [
+          "PS5 game case",
+          "helicopter",
+          "gun"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "warzone"
+        ],
+        "concepts": [
+          "video game",
+          "military",
+          "cartoon"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/New game in town.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/New game in town/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A hand holds a PS5 game case titled 'Daffy's Duty Warzone'. The cover features an animated duck character dressed in military gear, holding a rifle, with helicopters and explosions in the background.",
+      "description": "The scene depicts a person holding a video game case in an urban setting. The game, designed for the PS5, features a cartoon duck in a warzone environment, suggesting a humorous take on military action games.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "duck"
+        ],
+        "objects": [
+          "PS5 game case",
+          "rifle",
+          "helicopters"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "urban",
+          "warzone"
+        ],
+        "concepts": [
+          "video game",
+          "military",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Animals: cartoon duck, duck. Objects: PS5 game case, helicopter, gun, rifle, helicopters. Actions: holding. Emotions: intense, humor. Scenes: warzone, urban. Concepts: video game, military, cartoon, animation",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "animals": [
+      "cartoon duck",
+      "duck"
+    ],
+    "objects": [
+      "PS5 game case",
+      "helicopter",
+      "gun",
+      "rifle",
+      "helicopters"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "intense",
+      "humor"
+    ],
+    "scenes": [
+      "warzone",
+      "urban"
+    ],
+    "concepts": [
+      "video game",
+      "military",
+      "cartoon",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

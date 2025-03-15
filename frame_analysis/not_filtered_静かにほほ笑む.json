@@ -1,0 +1,89 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9759\u304b\u306b\u307b\u307b\u7b11\u3080.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9759\u304b\u306b\u307b\u307b\u7b11\u3080.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u9759\u304b\u306b\u307b\u307b\u7b11\u3080/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, wavy blonde hair and blue eyes is gazing directly at the camera. She is wearing a striped top with thin straps, and the lighting highlights her facial features.",
+      "description": "The scene captures a close-up portrait of a woman in a softly lit environment, emphasizing her natural beauty and serene expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "striped top"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u9759\u304b\u306b\u307b\u307b\u7b11\u3080.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u9759\u304b\u306b\u307b\u307b\u7b11\u3080/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long, wavy blonde hair is smiling softly. She is bathed in warm, natural light, highlighting her features and creating a serene atmosphere.",
+      "description": "The scene captures a close-up portrait of a young woman in a softly lit setting, possibly near a window. The focus is on her gentle smile and relaxed expression, conveying a sense of calm and contentment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "natural light"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: striped top, hair. Emotions: serene, content. Scenes: portrait. Concepts: beauty, fashion, natural light. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "striped top",
+      "hair"
+    ],
+    "emotions": [
+      "serene",
+      "content"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "fashion",
+      "natural light"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

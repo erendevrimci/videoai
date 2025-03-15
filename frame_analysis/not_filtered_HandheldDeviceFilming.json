@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HandheldDeviceFilming/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cow is humorously positioned at a table with three steaming cups of coffee in front of it. The scene is set in a cozy indoor environment with warm lighting and a blurred background.",
+      "description": "The image depicts a whimsical scene where a cow is seated at a table, seemingly about to enjoy a coffee break. The setting is indoors, possibly a cafe, with a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "cow"
+        ],
+        "objects": [
+          "coffee cups",
+          "table"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "indoor",
+          "cafe"
+        ],
+        "concepts": [
+          "whimsy",
+          "unexpected"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/HandheldDeviceFilming.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/HandheldDeviceFilming/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cow is seated at a table with three steaming cups of coffee in front of it. The setting appears to be a cozy caf\u00e9 with warm lighting and a blurred background.",
+      "description": "The scene depicts a whimsical and surreal moment where a cow is seemingly enjoying a coffee break in a caf\u00e9. The setting is warm and inviting, with soft lighting and a focus on the cow and the coffee cups.",
+      "labels": {
+        "animals": [
+          "cow"
+        ],
+        "objects": [
+          "coffee cups",
+          "table"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "caf\u00e9",
+          "indoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cow. Objects: coffee cups, table. Actions: sitting. Emotions: humorous, whimsical, surreal. Scenes: indoor, cafe, caf\u00e9. Concepts: whimsy, unexpected, anthropomorphism, humor",
+  "primary_labels": {
+    "animals": [
+      "cow"
+    ],
+    "objects": [
+      "coffee cups",
+      "table"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "humorous",
+      "whimsical",
+      "surreal"
+    ],
+    "scenes": [
+      "indoor",
+      "cafe",
+      "caf\u00e9"
+    ],
+    "concepts": [
+      "whimsy",
+      "unexpected",
+      "anthropomorphism",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

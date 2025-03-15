@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraZoomIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands on a chair, elegantly dressed in a ruffled, layered outfit beneath a glowing chandelier. The scene is bathed in warm, ambient lighting, creating a surreal and artistic atmosphere.",
+      "description": "The scene is set in a dimly lit room with a focus on fashion and artistic expression. The person is positioned under a chandelier, adding a touch of elegance and drama to the composition.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "chandelier",
+          "chair",
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "fashion",
+          "artistic"
+        ],
+        "concepts": [
+          "surreal",
+          "dramatic lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CameraZoomIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CameraZoomIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is posed dramatically beneath a glowing chandelier, with vibrant lighting casting dynamic shadows. The intricate dress and the warm, ambient glow create a surreal and theatrical atmosphere.",
+      "description": "The scene is set in a dimly lit room with a prominent chandelier casting warm light. The person is dressed in an elaborate outfit, interacting with the chandelier in a stylized manner.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "chandelier",
+          "dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "dramatic"
+        ],
+        "scenes": [
+          "indoor",
+          "theatrical"
+        ],
+        "concepts": [
+          "fashion",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: chandelier, dress, chair. Actions: standing, posing. Emotions: elegance, dramatic. Scenes: fashion, artistic, indoor, theatrical. Concepts: surreal, dramatic lighting, fashion, artistic",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "chandelier",
+      "dress",
+      "chair"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "elegance",
+      "dramatic"
+    ],
+    "scenes": [
+      "fashion",
+      "artistic",
+      "indoor",
+      "theatrical"
+    ],
+    "concepts": [
+      "surreal",
+      "dramatic lighting",
+      "fashion",
+      "artistic"
+    ]
+  },
+  "metadata": {}
+}

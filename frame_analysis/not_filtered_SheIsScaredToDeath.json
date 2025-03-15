@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsScaredToDeath.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsScaredToDeath.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheIsScaredToDeath/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a young woman's face with striking blue eyes and delicate features. Her skin is illuminated by soft, cool lighting, and there are small red lights or particles near her cheek, adding a futuristic touch.",
+      "description": "The scene is a close-up portrait of a young woman, possibly in a futuristic or sci-fi setting. The focus is on her expressive eyes and the subtle play of light and color on her face.",
+      "labels": {
+        "people": [
+          "woman",
+          "face"
+        ],
+        "objects": [
+          "red lights",
+          "particles"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "close-up",
+          "portrait"
+        ],
+        "concepts": [
+          "futuristic",
+          "sci-fi"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsScaredToDeath.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheIsScaredToDeath/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking makeup and headphones looks intently towards the camera. She is in a futuristic setting, with soft blue lighting and blurred background elements.",
+      "description": "The scene depicts a woman in a high-tech environment, possibly a control room or futuristic space. Her expression is focused and slightly surprised, suggesting she is reacting to something unexpected.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "headphones"
+        ],
+        "actions": [
+          "looking"
+        ],
+        "emotions": [
+          "focused",
+          "surprised"
+        ],
+        "scenes": [
+          "futuristic",
+          "indoor"
+        ],
+        "concepts": [
+          "technology",
+          "attention"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, face. Objects: red lights, particles, headphones. Emotions: calm, introspective, focused, surprised. Scenes: close-up, portrait, futuristic, indoor. Concepts: futuristic, sci-fi, technology, attention. Actions: looking",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "face"
+    ],
+    "objects": [
+      "red lights",
+      "particles",
+      "headphones"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "focused",
+      "surprised"
+    ],
+    "scenes": [
+      "close-up",
+      "portrait",
+      "futuristic",
+      "indoor"
+    ],
+    "concepts": [
+      "futuristic",
+      "sci-fi",
+      "technology",
+      "attention"
+    ],
+    "actions": [
+      "looking"
+    ]
+  },
+  "metadata": {}
+}

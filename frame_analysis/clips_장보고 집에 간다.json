@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc7a5\ubcf4\uace0 \uc9d1\uc5d0 \uac04\ub2e4.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc7a5\ubcf4\uace0 \uc9d1\uc5d0 \uac04\ub2e4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc7a5\ubcf4\uace0 \uc9d1\uc5d0 \uac04\ub2e4/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute tabby kitten wearing a helmet and glasses is perched on an orange scooter. The kitten is carrying a paper bag filled with fresh vegetables, including tomatoes and lettuce. The scene is set outdoors with a blurred background of greenery and buildings.",
+      "description": "The scene depicts an adorable kitten on a scooter, exuding a playful and whimsical atmosphere. The setting appears to be a sunny day in a suburban or urban area, with the kitten seemingly on a casual grocery run.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "glasses",
+          "paper bag",
+          "vegetables"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful",
+          "cute"
+        ],
+        "scenes": [
+          "outdoor",
+          "urban"
+        ],
+        "concepts": [
+          "whimsy",
+          "adorable"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\uc7a5\ubcf4\uace0 \uc9d1\uc5d0 \uac04\ub2e4.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\uc7a5\ubcf4\uace0 \uc9d1\uc5d0 \uac04\ub2e4/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute tabby kitten wearing a helmet and glasses rides a small orange scooter. The kitten appears joyful, with a bag of fresh vegetables on the back of the scooter. The scene is set outdoors, with blurred greenery in the background.",
+      "description": "The scene depicts a playful and whimsical moment where a kitten is riding a scooter. The setting is outdoors, likely in a park or suburban area, with a focus on fun and adventure.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "scooter",
+          "helmet",
+          "glasses",
+          "vegetables",
+          "bag"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "adventure"
+        ],
+        "concepts": [
+          "whimsy",
+          "fun"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: scooter, helmet, glasses, vegetables, paper bag. Actions: riding. Emotions: playful, cute, joyful. Scenes: outdoor, urban, adventure. Concepts: whimsy, adorable, fun",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "scooter",
+      "helmet",
+      "glasses",
+      "vegetables",
+      "paper bag"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "playful",
+      "cute",
+      "joyful"
+    ],
+    "scenes": [
+      "outdoor",
+      "urban",
+      "adventure"
+    ],
+    "concepts": [
+      "whimsy",
+      "adorable",
+      "fun"
+    ]
+  },
+  "metadata": {}
+}

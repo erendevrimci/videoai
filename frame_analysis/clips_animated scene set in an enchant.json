@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animated scene set in an enchant.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animated scene set in an enchant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/animated scene set in an enchant/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical scene unfolds in an enchanted forest, where a luminous woman in a flowing gown walks barefoot along a flower-lined path. She is surrounded by three imposing figures with mythical features, including horns and pointed ears, who stand solemnly among the trees. The atmosphere is ethereal, with soft light filtering through the foliage, casting a magical glow on the scene.",
+      "description": "The scene is set in an enchanted forest, featuring a mystical encounter between a radiant woman and three mythical beings. The forest is lush with vibrant flowers, and the light creates an ethereal ambiance.",
+      "labels": {
+        "people": [
+          "woman",
+          "mythical beings"
+        ],
+        "nature": [
+          "forest",
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "gown"
+        ],
+        "actions": [
+          "walking",
+          "standing"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ],
+        "scenes": [
+          "enchanted forest",
+          "mystical encounter"
+        ],
+        "concepts": [
+          "mythology",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/animated scene set in an enchant.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/animated scene set in an enchant/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical scene unfolds in an enchanted forest where a serene woman in a flowing gown walks amidst vibrant orange flowers. Towering behind her are three imposing figures with otherworldly features, exuding a sense of ancient power. The interplay of light and shadow creates a dramatic and ethereal atmosphere.",
+      "description": "The scene is set in a mystical forest, filled with an aura of enchantment and mystery. A woman in a flowing dress walks gracefully, surrounded by vibrant orange flowers, while three large, mythical figures stand in the background, adding a sense of ancient power and mysticism.",
+      "labels": {
+        "people": [
+          "woman",
+          "mythical figures"
+        ],
+        "nature": [
+          "forest",
+          "flowers"
+        ],
+        "objects": [
+          "gown"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity",
+          "mystery"
+        ],
+        "scenes": [
+          "enchanted forest"
+        ],
+        "concepts": [
+          "mysticism",
+          "ancient power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, mythical beings, mythical figures. Nature: forest, flowers, trees. Objects: gown. Actions: walking, standing. Emotions: serenity, mystery. Scenes: enchanted forest, mystical encounter. Concepts: mythology, fantasy, mysticism, ancient power",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "mythical beings",
+      "mythical figures"
+    ],
+    "nature": [
+      "forest",
+      "flowers",
+      "trees"
+    ],
+    "objects": [
+      "gown"
+    ],
+    "actions": [
+      "walking",
+      "standing"
+    ],
+    "emotions": [
+      "serenity",
+      "mystery"
+    ],
+    "scenes": [
+      "enchanted forest",
+      "mystical encounter"
+    ],
+    "concepts": [
+      "mythology",
+      "fantasy",
+      "mysticism",
+      "ancient power"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0440\u043e\u043a\u043e\u043b\u0438.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0440\u043e\u043a\u043e\u043b\u0438.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0440\u043e\u043a\u043e\u043b\u0438/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature gardeners tend to a giant broccoli stalk in a kitchen setting. The tiny figures, dressed in green overalls and hats, are engaged in various activities around the oversized vegetable. The scene is filled with vibrant colors and a playful atmosphere.",
+      "description": "The image depicts a surreal kitchen scene where miniature people are interacting with a gigantic broccoli. The setting is a cozy kitchen with wooden shelves and a window letting in natural light. The gardeners are climbing, watering, and tending to the broccoli, surrounded by other vegetables.",
+      "labels": {
+        "people": [
+          "miniature gardeners"
+        ],
+        "objects": [
+          "broccoli",
+          "watering can",
+          "vegetables",
+          "kitchen table",
+          "shelves"
+        ],
+        "actions": [
+          "climbing",
+          "watering",
+          "tending"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u0411\u0440\u043e\u043a\u043e\u043b\u0438.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u0411\u0440\u043e\u043a\u043e\u043b\u0438/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts tiny gardeners tending to a giant broccoli stalk, as if it were a tree. The gardeners are climbing and watering the broccoli, surrounded by various vegetables on a wooden table. Sunlight filters through a window, adding warmth to the playful setting.",
+      "description": "The scene is set in a kitchen or dining area with a large window providing natural light. The focus is on a giant broccoli stalk being tended to by miniature gardeners, creating a surreal and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "gardeners"
+        ],
+        "objects": [
+          "broccoli",
+          "vegetables",
+          "table",
+          "watering can",
+          "ropes"
+        ],
+        "actions": [
+          "climbing",
+          "watering"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "kitchen",
+          "indoor"
+        ],
+        "concepts": [
+          "miniature",
+          "surreal",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature gardeners, gardeners. Objects: broccoli, watering can, vegetables, kitchen table, shelves. Actions: climbing, watering, tending. Emotions: playful. Scenes: kitchen, indoor. Concepts: miniature, surreal, whimsical, imaginative",
+  "primary_labels": {
+    "people": [
+      "miniature gardeners",
+      "gardeners"
+    ],
+    "objects": [
+      "broccoli",
+      "watering can",
+      "vegetables",
+      "kitchen table",
+      "shelves"
+    ],
+    "actions": [
+      "climbing",
+      "watering",
+      "tending"
+    ],
+    "emotions": [
+      "playful"
+    ],
+    "scenes": [
+      "kitchen",
+      "indoor"
+    ],
+    "concepts": [
+      "miniature",
+      "surreal",
+      "whimsical",
+      "imaginative"
+    ]
+  },
+  "metadata": {}
+}

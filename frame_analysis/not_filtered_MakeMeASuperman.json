@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeASuperman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeASuperman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeASuperman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young person stands confidently against a dramatic backdrop of fiery explosions. The warm glow highlights their smiling face, creating a striking contrast with the intense background.",
+      "description": "The scene depicts a young individual in front of a dynamic explosion, suggesting a moment of empowerment or transformation. The setting is surreal, with a focus on the contrast between the calm demeanor of the person and the chaotic background.",
+      "labels": {
+        "people": [
+          "young person"
+        ],
+        "objects": [
+          "explosion",
+          "fire"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "dramatic",
+          "surreal"
+        ],
+        "concepts": [
+          "empowerment",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MakeMeASuperman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MakeMeASuperman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young boy stands confidently, dressed in a superhero costume resembling Superman. The sky forms a soft, cloudy backdrop, enhancing the heroic atmosphere.",
+      "description": "The scene depicts a young boy in a Superman costume, standing against a cloudy sky. His expression is serious and determined, suggesting a sense of purpose or readiness.",
+      "labels": {
+        "people": [
+          "boy"
+        ],
+        "objects": [
+          "superhero costume",
+          "cape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "sky"
+        ],
+        "concepts": [
+          "heroism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young person, boy. Objects: explosion, fire, superhero costume, cape. Actions: standing, smiling. Emotions: confidence, happiness, determination. Scenes: dramatic, surreal, outdoor, sky. Concepts: empowerment, transformation, heroism, imagination",
+  "primary_labels": {
+    "people": [
+      "young person",
+      "boy"
+    ],
+    "objects": [
+      "explosion",
+      "fire",
+      "superhero costume",
+      "cape"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness",
+      "determination"
+    ],
+    "scenes": [
+      "dramatic",
+      "surreal",
+      "outdoor",
+      "sky"
+    ],
+    "concepts": [
+      "empowerment",
+      "transformation",
+      "heroism",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

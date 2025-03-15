@@ -1,0 +1,160 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWarriorStridesThroughA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWarriorStridesThroughA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWarriorStridesThroughA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A determined woman stands in a forest, holding a sword with a majestic white wolf by her side. The background is ablaze with warm, fiery colors, creating an intense and dramatic atmosphere.",
+      "description": "The scene is set in a forest with a backdrop of glowing, fiery light, suggesting a sunset or a nearby fire. The woman, dressed in rugged, adventurous attire, holds a sword confidently, while the wolf stands alert beside her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "dramatic"
+        ],
+        "concepts": [
+          "companionship",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWarriorStridesThroughA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWarriorStridesThroughA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A determined woman stands in front of a blazing fire, gripping a sword with confidence. Her attire is rugged and suited for adventure, while a large white animal stands beside her, partially visible.",
+      "description": "The scene depicts a strong, adventurous woman in a forest setting engulfed by flames. She appears ready for action, accompanied by a large white animal, suggesting a bond or partnership.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "large white animal"
+        ],
+        "nature": [
+          "forest",
+          "fire"
+        ],
+        "objects": [
+          "sword",
+          "adventurous attire"
+        ],
+        "actions": [
+          "standing",
+          "gripping sword"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "adventure",
+          "danger"
+        ],
+        "concepts": [
+          "courage",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWarriorStridesThroughA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWarriorStridesThroughA/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A white wolf stands beside a person holding a sword, set against a backdrop of intense flames. The wolf's gaze is focused and alert, while the person appears ready for action.",
+      "description": "The scene depicts a dramatic and intense moment, likely set in a forest or wilderness area engulfed in flames. The presence of the wolf and the sword suggests a scenario of survival or battle.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "alertness",
+          "readiness"
+        ],
+        "scenes": [
+          "wildfire",
+          "wilderness"
+        ],
+        "concepts": [
+          "survival",
+          "danger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Animals: wolf, large white animal. Nature: forest, fire. Objects: sword, adventurous attire. Actions: standing, gripping sword, holding. Emotions: determination, alertness, readiness. Scenes: dramatic, adventure, danger, wildfire, wilderness. Concepts: companionship, courage, survival, danger",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "animals": [
+      "wolf",
+      "large white animal"
+    ],
+    "nature": [
+      "forest",
+      "fire"
+    ],
+    "objects": [
+      "sword",
+      "adventurous attire"
+    ],
+    "actions": [
+      "standing",
+      "gripping sword",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "alertness",
+      "readiness"
+    ],
+    "scenes": [
+      "dramatic",
+      "adventure",
+      "danger",
+      "wildfire",
+      "wilderness"
+    ],
+    "concepts": [
+      "companionship",
+      "courage",
+      "survival",
+      "danger"
+    ]
+  },
+  "metadata": {}
+}

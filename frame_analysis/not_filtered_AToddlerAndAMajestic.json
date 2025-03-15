@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AToddlerAndAMajestic.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AToddlerAndAMajestic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AToddlerAndAMajestic/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl in a vibrant red dress walks confidently down a runway, accompanied by a majestic white horse. The audience watches attentively, adding to the lively atmosphere of the fashion show.",
+      "description": "The scene is set at a fashion show runway, where a young girl and a white horse are the center of attention. The setting is elegant and sophisticated, with an audience seated on either side of the runway.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "objects": [
+          "dress",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "elegance",
+          "confidence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AToddlerAndAMajestic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AToddlerAndAMajestic/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child in a vibrant red dress walks confidently down a runway, accompanied by a majestic white horse. The scene is set in a fashion show environment, with an audience visible in the background.",
+      "description": "The image captures a unique moment at a fashion show, where a child and a horse share the runway. The setting is elegant and sophisticated, with an audience seated on either side of the runway, observing the spectacle.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "objects": [
+          "dress",
+          "runway"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show"
+        ],
+        "concepts": [
+          "elegance",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AToddlerAndAMajestic.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AToddlerAndAMajestic/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child in an ornate red dress walks confidently down a runway, accompanied by a majestic white horse. The setting appears to be a fashion show with an audience in the background.",
+      "description": "The scene takes place at a fashion show, where a child and a horse are part of the presentation. The child is dressed in a detailed red gown, and the horse is elegantly groomed, adding a sense of grandeur to the event.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "horse"
+        ],
+        "objects": [
+          "dress",
+          "bridle"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "elegance",
+          "presentation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, girl. Animals: horse. Objects: dress, runway, bridle. Actions: walking. Emotions: confidence, happiness. Scenes: fashion show, runway. Concepts: elegance, confidence, style, presentation",
+  "primary_labels": {
+    "people": [
+      "child",
+      "girl"
+    ],
+    "animals": [
+      "horse"
+    ],
+    "objects": [
+      "dress",
+      "runway",
+      "bridle"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "elegance",
+      "confidence",
+      "style",
+      "presentation"
+    ]
+  },
+  "metadata": {}
+}

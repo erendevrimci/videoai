@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat meows at the cup.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat meows at the cup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat meows at the cup/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cartoon-style illustration features a chubby white cat with brown patches sitting next to a teal mug. The cat has large, expressive blue eyes and a content expression, while the mug appears to be filled with a warm beverage.",
+      "description": "The scene depicts a playful and cozy setting with a cartoon cat and a mug, suggesting a relaxed and whimsical atmosphere. The background is a simple gradient, emphasizing the main subjects.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "mug"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "cartoon",
+          "illustration"
+        ],
+        "concepts": [
+          "coziness",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cat meows at the cup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cat meows at the cup/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cartoon cat with black and brown patches is curiously sniffing a teal mug. The cat's posture is low to the ground, and its tongue is slightly out as it investigates the mug's contents.",
+      "description": "The scene depicts a cartoon-style cat interacting with a mug in a simple, minimalist setting. The background is a gradient of soft colors, creating a calm and neutral atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "mug"
+        ],
+        "actions": [
+          "sniffing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "minimalist"
+        ],
+        "concepts": [
+          "cartoon",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: mug. Emotions: contentment, curiosity. Scenes: cartoon, illustration, minimalist. Concepts: coziness, whimsy, cartoon, interaction. Actions: sniffing",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "mug"
+    ],
+    "emotions": [
+      "contentment",
+      "curiosity"
+    ],
+    "scenes": [
+      "cartoon",
+      "illustration",
+      "minimalist"
+    ],
+    "concepts": [
+      "coziness",
+      "whimsy",
+      "cartoon",
+      "interaction"
+    ],
+    "actions": [
+      "sniffing"
+    ]
+  },
+  "metadata": {}
+}

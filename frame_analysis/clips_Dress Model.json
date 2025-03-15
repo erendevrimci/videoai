@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dress Model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dress Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dress Model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long, wavy hair stands against a plain background, wearing an intricate black dress adorned with lace and embellishments. Her expression is neutral, and she gazes directly at the camera, exuding a sense of calm and poise.",
+      "description": "The scene captures a woman in a studio setting, focusing on her fashion and expression. The background is minimal, drawing attention to her detailed attire and serene demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "lace"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "poised"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "portrait"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dress Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dress Model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, wavy hair is wearing an elegant black lace dress, looking over her shoulder with a serene expression. The background is a soft, neutral color, highlighting her poised stance and the intricate details of her attire.",
+      "description": "The scene captures a portrait of a woman in a studio setting, focusing on her graceful pose and the delicate design of her dress. The atmosphere is calm and sophisticated.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dress Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dress Model/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long, dark hair is wearing an elegant black dress with intricate lace details. She gazes over her shoulder with a calm and poised expression, set against a simple, light-colored background.",
+      "description": "The scene captures a fashion-forward portrait of a woman in a sophisticated setting. The focus is on her stylish attire and composed demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "lace"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "calm",
+          "poised"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, lace. Actions: standing, gazing. Emotions: calm, poised, serene. Scenes: studio, portrait. Concepts: fashion, elegance, portrait",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "lace"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "calm",
+      "poised",
+      "serene"
+    ],
+    "scenes": [
+      "studio",
+      "portrait"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "portrait"
+    ]
+  },
+  "metadata": {}
+}

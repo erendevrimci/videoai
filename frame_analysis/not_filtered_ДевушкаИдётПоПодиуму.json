@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently on a rooftop, wearing a sleek black dress. The background is a blurred cityscape, adding an urban feel to the scene.",
+      "description": "The image captures a person on a rooftop with a city skyline in the background. The focus is on the individual, who is dressed in a black outfit, creating a striking contrast against the soft, muted tones of the city.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "scenes": [
+          "rooftop",
+          "cityscape"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "urban",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long dark hair stands confidently against a blurred urban backdrop. She is wearing a fitted black dress, and her expression is calm and composed.",
+      "description": "The scene captures a woman standing outdoors in an urban setting. The background is out of focus, suggesting a cityscape, while the woman is the central focus of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "urban",
+          "outdoor"
+        ],
+        "concepts": [
+          "confidence",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u0414\u0435\u0432\u0443\u0448\u043a\u0430\u0418\u0434\u0451\u0442\u041f\u043e\u041f\u043e\u0434\u0438\u0443\u043c\u0443/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person with long, straight brown hair stands with their back to the camera, overlooking a cityscape. The individual is wearing a black outfit, and the scene is set against a blurred urban background.",
+      "description": "The image captures a solitary figure standing on what appears to be a rooftop or balcony, gazing out at a city. The focus is on the person's hair and attire, with the cityscape providing a soft, out-of-focus backdrop.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "clothing"
+        ],
+        "scenes": [
+          "cityscape",
+          "urban"
+        ],
+        "emotions": [
+          "contemplative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: dress, clothing. Scenes: cityscape, urban, rooftop, outdoor. Emotions: confidence, calm, composed, contemplative. Concepts: fashion, urban, confidence",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "clothing"
+    ],
+    "scenes": [
+      "cityscape",
+      "urban",
+      "rooftop",
+      "outdoor"
+    ],
+    "emotions": [
+      "confidence",
+      "calm",
+      "composed",
+      "contemplative"
+    ],
+    "concepts": [
+      "fashion",
+      "urban",
+      "confidence"
+    ]
+  },
+  "metadata": {}
+}

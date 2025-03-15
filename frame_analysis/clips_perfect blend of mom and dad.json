@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/perfect blend of mom and dad.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/perfect blend of mom and dad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/perfect blend of mom and dad/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A trio of fluffy cats poses together, with a black cat on the left, a white cat on the right, and a smaller black and white kitten in the center. Their eyes are wide open, giving them an alert and curious expression.",
+      "description": "The scene captures a family of cats in a studio setting, highlighting their contrasting fur colors and soft textures. The black and white kitten sits in front of the larger cats, creating a sense of unity and familial bond.",
+      "labels": {
+        "animals": [
+          "cats",
+          "kitten"
+        ],
+        "objects": [
+          "fur"
+        ],
+        "emotions": [
+          "curiosity",
+          "alertness"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "family",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/perfect blend of mom and dad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/perfect blend of mom and dad/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A family of three cats poses together, showcasing their contrasting fur colors. The black and white cats flank a smaller black and white kitten, all gazing directly at the camera with wide eyes.",
+      "description": "The scene captures a trio of cats sitting closely together against a neutral background. The adult cats, one black and one white, are positioned behind a smaller kitten, creating a sense of family unity.",
+      "labels": {
+        "animals": [
+          "cats",
+          "kitten"
+        ],
+        "nature": [],
+        "objects": [],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "calm",
+          "curious"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "family",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cats, kitten. Objects: fur. Emotions: curiosity, alertness, calm, curious. Scenes: studio. Concepts: family, contrast. Actions: posing",
+  "primary_labels": {
+    "animals": [
+      "cats",
+      "kitten"
+    ],
+    "objects": [
+      "fur"
+    ],
+    "emotions": [
+      "curiosity",
+      "alertness",
+      "calm",
+      "curious"
+    ],
+    "scenes": [
+      "studio"
+    ],
+    "concepts": [
+      "family",
+      "contrast"
+    ],
+    "nature": [],
+    "actions": [
+      "posing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,162 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureChefsInWhiteCaps.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureChefsInWhiteCaps.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MiniatureChefsInWhiteCaps/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene featuring a stack of pancakes topped with a miniature chef figurine, surrounded by fresh berries. The table is elegantly set with a cup of coffee, a bowl of strawberries and blueberries, and a vase with vibrant red tulips. The soft lighting and cozy setting create a warm and inviting atmosphere.",
+      "description": "The image depicts a creatively styled breakfast table with a playful touch, where a tiny chef stands atop a stack of pancakes. The setting suggests a leisurely morning meal, enhanced by the presence of fresh flowers and fruit.",
+      "labels": {
+        "people": [
+          "miniature chef figurine"
+        ],
+        "objects": [
+          "pancakes",
+          "berries",
+          "coffee cup",
+          "bowl",
+          "vase",
+          "tulips"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "whimsical",
+          "inviting"
+        ],
+        "scenes": [
+          "breakfast table",
+          "cozy setting"
+        ],
+        "concepts": [
+          "miniature",
+          "playful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureChefsInWhiteCaps.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MiniatureChefsInWhiteCaps/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical scene where miniature chefs are meticulously decorating a stack of pancakes with fresh berries. The chefs, dressed in traditional white uniforms and hats, appear to be adding final touches to the dessert, creating a playful and imaginative atmosphere. Surrounding the pancakes are additional breakfast items, including a bowl of strawberries and a soft-boiled egg in a cup.",
+      "description": "This scene is set on a breakfast table, featuring a creative and playful depiction of tiny chefs working on a stack of pancakes. The setting suggests a light-hearted and imaginative approach to food presentation, blending elements of fantasy with everyday breakfast items.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pancakes",
+          "berries",
+          "ladder",
+          "bowl",
+          "egg cup",
+          "teapot"
+        ],
+        "actions": [
+          "decorating",
+          "climbing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "breakfast table",
+          "food art"
+        ],
+        "concepts": [
+          "miniature",
+          "creativity",
+          "culinary art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MiniatureChefsInWhiteCaps.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MiniatureChefsInWhiteCaps/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "Three miniature chefs are meticulously decorating a stack of pancakes with fresh berries and syrup. The scene is set on a dining table with additional breakfast items in the background. The chefs appear to be adding final touches, emphasizing the playful and imaginative nature of the composition.",
+      "description": "The scene depicts a whimsical setting where tiny chefs are working on a large stack of pancakes, surrounded by fresh berries and syrup. This imaginative setup creates a playful atmosphere, blending elements of culinary art with fantasy.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pancakes",
+          "berries",
+          "syrup",
+          "ladder",
+          "bowl",
+          "egg cup",
+          "teapot"
+        ],
+        "actions": [
+          "decorating",
+          "climbing",
+          "pouring"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "breakfast table",
+          "culinary art"
+        ],
+        "concepts": [
+          "miniature",
+          "fantasy",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs, miniature chef figurine. Objects: pancakes, berries, bowl, ladder, egg cup. Actions: decorating, climbing, standing, pouring. Emotions: playful, imaginative, whimsical, inviting. Scenes: breakfast table, cozy setting, food art, culinary art. Concepts: miniature, playful, creativity, culinary art, fantasy",
+  "primary_labels": {
+    "people": [
+      "miniature chefs",
+      "miniature chef figurine"
+    ],
+    "objects": [
+      "pancakes",
+      "berries",
+      "bowl",
+      "ladder",
+      "egg cup"
+    ],
+    "actions": [
+      "decorating",
+      "climbing",
+      "standing",
+      "pouring"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical",
+      "inviting"
+    ],
+    "scenes": [
+      "breakfast table",
+      "cozy setting",
+      "food art",
+      "culinary art"
+    ],
+    "concepts": [
+      "miniature",
+      "playful",
+      "creativity",
+      "culinary art",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

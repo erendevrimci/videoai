@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mirror selfie.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mirror selfie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mirror selfie/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in front of a mirror, taking a selfie with her smartphone. She is wearing a matching blue crop top and skirt set, and her reflection is visible in the mirror. The room has a modern and minimalistic decor with a dark blue couch and a pillow in the background.",
+      "description": "The scene is set in a modern, minimalistic room where a woman is capturing her reflection in a mirror using her smartphone. The setting suggests a casual, at-home environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "smartphone",
+          "mirror",
+          "couch",
+          "pillow"
+        ],
+        "actions": [
+          "taking a selfie"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "indoor",
+          "home"
+        ],
+        "concepts": [
+          "self-reflection",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mirror selfie.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mirror selfie/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is taking a mirror selfie in a room, wearing a blue outfit consisting of a crop top and a ruched skirt. The reflection captures the person holding a smartphone in front of their face, standing barefoot on a tiled floor.",
+      "description": "The scene is set indoors, likely in a bedroom or living room, with a mirror reflecting the person taking a selfie. The room has a calm and casual atmosphere, with a sofa and a pillow visible in the background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "mirror",
+          "smartphone",
+          "sofa",
+          "pillow"
+        ],
+        "actions": [
+          "taking selfie"
+        ],
+        "emotions": [
+          "casual"
+        ],
+        "scenes": [
+          "indoor",
+          "bedroom",
+          "living room"
+        ],
+        "concepts": [
+          "self-portrait",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: smartphone, mirror, pillow, couch, sofa. Actions: taking a selfie, taking selfie. Emotions: neutral, casual. Scenes: indoor, home, bedroom, living room. Concepts: fashion, self-reflection, self-portrait",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "smartphone",
+      "mirror",
+      "pillow",
+      "couch",
+      "sofa"
+    ],
+    "actions": [
+      "taking a selfie",
+      "taking selfie"
+    ],
+    "emotions": [
+      "neutral",
+      "casual"
+    ],
+    "scenes": [
+      "indoor",
+      "home",
+      "bedroom",
+      "living room"
+    ],
+    "concepts": [
+      "fashion",
+      "self-reflection",
+      "self-portrait"
+    ]
+  },
+  "metadata": {}
+}

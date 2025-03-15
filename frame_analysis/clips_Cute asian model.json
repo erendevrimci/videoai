@@ -1,0 +1,85 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute asian model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute asian model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute asian model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long dark hair gazes directly at the camera with a gentle smile. She is wearing a floral-patterned top, and the background is a soft, muted green, adding to the serene atmosphere.",
+      "description": "The scene is a close-up portrait of a woman against a plain background. The focus is on her facial expression and the details of her attire, creating an intimate and calm setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "floral top"
+        ],
+        "emotions": [
+          "serene",
+          "gentle"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute asian model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute asian model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman with long dark hair smiles gently at the camera. She is wearing a floral-patterned dress, and the soft lighting highlights her natural features against a muted green background.",
+      "description": "The scene captures a close-up portrait of a woman in a calm and serene setting. The focus is on her expressive eyes and warm smile, creating an inviting and friendly atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "calmness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: floral top, dress. Emotions: serene, gentle, happiness, serenity. Scenes: portrait. Concepts: beauty, calmness",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "floral top",
+      "dress"
+    ],
+    "emotions": [
+      "serene",
+      "gentle",
+      "happiness",
+      "serenity"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "beauty",
+      "calmness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby doing lift.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby doing lift.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby doing lift/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A baby sits on a yoga mat holding a small dumbbell, accompanied by a large, fluffy orange cat. The scene is set in a bright room with soft natural light streaming through large windows.",
+      "description": "The image captures a playful and serene moment between a baby and a cat in a home setting. The baby is seated on a yoga mat, holding a small dumbbell, while the cat sits attentively beside them, both appearing calm and curious.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dumbbell",
+          "yoga mat"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "curious"
+        ],
+        "scenes": [
+          "indoor",
+          "home"
+        ],
+        "concepts": [
+          "companionship",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Baby doing lift.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Baby doing lift/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A baby in a white onesie sits on a yoga mat holding a small dumbbell, gazing at a large orange cat beside them. The scene is set in a softly lit room with a blurred background, suggesting a calm and cozy atmosphere.",
+      "description": "The image captures a tender moment between a baby and a cat in a home setting. The baby appears curious and focused on the cat, while the cat sits calmly, creating a serene and heartwarming scene.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dumbbell",
+          "yoga mat"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "curiosity",
+          "calm"
+        ],
+        "scenes": [
+          "home",
+          "indoor"
+        ],
+        "concepts": [
+          "friendship",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: baby. Animals: cat. Objects: dumbbell, yoga mat. Actions: sitting, holding. Emotions: calm, curious, curiosity. Scenes: indoor, home. Concepts: companionship, playfulness, friendship, innocence",
+  "primary_labels": {
+    "people": [
+      "baby"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "dumbbell",
+      "yoga mat"
+    ],
+    "actions": [
+      "sitting",
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "curious",
+      "curiosity"
+    ],
+    "scenes": [
+      "indoor",
+      "home"
+    ],
+    "concepts": [
+      "companionship",
+      "playfulness",
+      "friendship",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

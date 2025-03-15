@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eats cake and drinks afterno.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eats cake and drinks afterno.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat eats cake and drinks afterno/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fluffy orange cat is sitting at a wooden table, eagerly enjoying a slice of strawberry cake with a fork. The scene is set in a cozy, warmly lit room with vintage decor, including a teapot and a cup on the table.",
+      "description": "The image depicts an adorable cat in a charming, vintage-style room, indulging in a dessert. The setting suggests a peaceful and quaint atmosphere, enhanced by the warm lighting and classic furnishings.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cake",
+          "fork",
+          "teapot",
+          "cup",
+          "table"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "indoor",
+          "vintage"
+        ],
+        "concepts": [
+          "coziness",
+          "indulgence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat eats cake and drinks afterno.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat eats cake and drinks afterno/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy orange cat is seated at a wooden table, enjoying a slice of strawberry cake. The cozy room is warmly lit, with a teapot and cup nearby, creating a charming and inviting atmosphere.",
+      "description": "The scene is set in a quaint, warmly lit room with a rustic ambiance. A cat is the focal point, appearing to savor a piece of cake, surrounded by a teapot and cup on a wooden table.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "cake",
+          "teapot",
+          "cup",
+          "table"
+        ],
+        "actions": [
+          "eating"
+        ],
+        "emotions": [
+          "contentment"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "comfort",
+          "indulgence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: cake, teapot, cup, table, fork. Actions: eating. Emotions: joyful, contentment. Scenes: indoor, vintage, cozy. Concepts: indulgence, coziness, comfort",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "cake",
+      "teapot",
+      "cup",
+      "table",
+      "fork"
+    ],
+    "actions": [
+      "eating"
+    ],
+    "emotions": [
+      "joyful",
+      "contentment"
+    ],
+    "scenes": [
+      "indoor",
+      "vintage",
+      "cozy"
+    ],
+    "concepts": [
+      "indulgence",
+      "coziness",
+      "comfort"
+    ]
+  },
+  "metadata": {}
+}

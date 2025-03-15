@@ -1,0 +1,97 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Friendship.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Friendship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Friendship/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A white mouse and a gray tabby kitten are embracing each other warmly. The mouse has its eyes closed, conveying a sense of peace and contentment, while the kitten appears relaxed in the mouse's gentle hug.",
+      "description": "The scene captures a tender moment between a white mouse and a gray tabby kitten, set against a soft, blurred background. The interaction suggests a surprising yet heartwarming bond between the two animals.",
+      "labels": {
+        "animals": [
+          "mouse",
+          "kitten"
+        ],
+        "actions": [
+          "hugging"
+        ],
+        "emotions": [
+          "affection",
+          "contentment"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "friendship",
+          "unexpected bond"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Friendship.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Friendship/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A white mouse and a small kitten are cuddled together, with the mouse gently embracing the kitten. The scene exudes warmth and tenderness, highlighting an unusual yet heartwarming friendship.",
+      "description": "The image captures a touching moment between a white mouse and a kitten, set against a soft, blurred background. The mouse is standing upright, wrapping its arms around the kitten, who is nestled closely against it.",
+      "labels": {
+        "animals": [
+          "mouse",
+          "kitten"
+        ],
+        "actions": [
+          "cuddling",
+          "embracing"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "intimate moment",
+          "animal friendship"
+        ],
+        "visual attributes": [
+          "soft colors",
+          "gentle lighting",
+          "close composition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mouse, kitten. Actions: hugging, cuddling, embracing. Emotions: affection, contentment, tenderness. Scenes: intimate moment, animal friendship. Concepts: friendship, unexpected bond. Visual attributes: soft colors, gentle lighting, close composition",
+  "primary_labels": {
+    "animals": [
+      "mouse",
+      "kitten"
+    ],
+    "actions": [
+      "hugging",
+      "cuddling",
+      "embracing"
+    ],
+    "emotions": [
+      "affection",
+      "contentment",
+      "tenderness"
+    ],
+    "scenes": [
+      "intimate moment",
+      "animal friendship"
+    ],
+    "concepts": [
+      "friendship",
+      "unexpected bond"
+    ],
+    "visual attributes": [
+      "soft colors",
+      "gentle lighting",
+      "close composition"
+    ]
+  },
+  "metadata": {}
+}

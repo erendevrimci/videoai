@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ocean shoreline at sunset.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ocean shoreline at sunset.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ocean shoreline at sunset/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene sunset over a tranquil ocean, with gentle waves lapping at the shore. The sky is painted in warm hues of orange and pink, reflecting beautifully on the water's surface.",
+      "description": "The scene captures a peaceful beach setting during sunset. The sun is low on the horizon, casting a golden glow over the calm sea and creating a soothing atmosphere.",
+      "labels": {
+        "nature": [
+          "ocean",
+          "beach",
+          "sunset",
+          "palm trees"
+        ],
+        "objects": [
+          "waves",
+          "clouds"
+        ],
+        "actions": [
+          "waves lapping"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "seascape",
+          "sunset view"
+        ],
+        "concepts": [
+          "tranquility",
+          "natural beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Ocean shoreline at sunset.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Ocean shoreline at sunset/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene beach scene captures the sun setting over the horizon, casting a warm glow across the ocean. Gentle waves lap against the sandy shore, with palm trees silhouetted against the vibrant sky.",
+      "description": "The image depicts a tranquil beach setting during sunset, with the sun low in the sky and the ocean reflecting its golden hues. The scene is peaceful and picturesque, with palm trees adding a tropical touch.",
+      "labels": {
+        "nature": [
+          "beach",
+          "ocean",
+          "sunset",
+          "palm trees"
+        ],
+        "objects": [
+          "waves",
+          "sand"
+        ],
+        "actions": [
+          "waves lapping"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "tropical",
+          "coastal"
+        ],
+        "concepts": [
+          "tranquility",
+          "nature beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: ocean, beach, sunset, palm trees. Objects: waves, clouds, sand. Actions: waves lapping. Emotions: serenity, calmness. Scenes: seascape, sunset view, tropical, coastal. Concepts: tranquility, natural beauty, nature beauty",
+  "primary_labels": {
+    "nature": [
+      "ocean",
+      "beach",
+      "sunset",
+      "palm trees"
+    ],
+    "objects": [
+      "waves",
+      "clouds",
+      "sand"
+    ],
+    "actions": [
+      "waves lapping"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness"
+    ],
+    "scenes": [
+      "seascape",
+      "sunset view",
+      "tropical",
+      "coastal"
+    ],
+    "concepts": [
+      "tranquility",
+      "natural beauty",
+      "nature beauty"
+    ]
+  },
+  "metadata": {}
+}

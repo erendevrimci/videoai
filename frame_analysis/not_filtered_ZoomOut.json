@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOut.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ZoomOut/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dragon-headed warrior clad in gleaming armor strides confidently down a path, with a burning castle in the background. The scene is set against a backdrop of towering mountains under a sky filled with birds. A group of armored soldiers follows closely behind, suggesting urgency and action.",
+      "description": "The scene depicts a fantasy setting where a dragon-headed warrior leads a group of soldiers away from a castle engulfed in flames. The mountainous landscape and dramatic sky enhance the epic and adventurous atmosphere.",
+      "labels": {
+        "people": [
+          "warrior",
+          "soldiers"
+        ],
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "mountains",
+          "sky"
+        ],
+        "objects": [
+          "armor",
+          "castle"
+        ],
+        "actions": [
+          "walking",
+          "following"
+        ],
+        "emotions": [
+          "determination",
+          "urgency"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "heroism",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ZoomOut.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ZoomOut/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dragon-like warrior in gleaming armor strides purposefully away from a burning castle, with a soldier following closely behind. The sky is filled with flying creatures, and the backdrop features majestic mountains. The scene conveys a sense of urgency and impending danger.",
+      "description": "The scene is set in a fantasy world where a dragon-like warrior and a soldier are moving away from a castle engulfed in flames. The environment is mountainous, and the sky is filled with flying creatures, suggesting a chaotic and perilous atmosphere.",
+      "labels": {
+        "people": [
+          "dragon-like warrior",
+          "soldier"
+        ],
+        "animals": [
+          "flying creatures"
+        ],
+        "nature": [
+          "mountains"
+        ],
+        "objects": [
+          "armor",
+          "castle"
+        ],
+        "actions": [
+          "walking",
+          "flying"
+        ],
+        "emotions": [
+          "urgency",
+          "danger"
+        ],
+        "scenes": [
+          "fantasy",
+          "battle"
+        ],
+        "concepts": [
+          "destruction",
+          "escape"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, soldiers, dragon-like warrior, soldier. Animals: dragon, flying creatures. Nature: mountains, sky. Objects: armor, castle. Actions: walking, following, flying. Emotions: urgency, determination, danger. Scenes: fantasy, battle. Concepts: heroism, adventure, destruction, escape",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "soldiers",
+      "dragon-like warrior",
+      "soldier"
+    ],
+    "animals": [
+      "dragon",
+      "flying creatures"
+    ],
+    "nature": [
+      "mountains",
+      "sky"
+    ],
+    "objects": [
+      "armor",
+      "castle"
+    ],
+    "actions": [
+      "walking",
+      "following",
+      "flying"
+    ],
+    "emotions": [
+      "urgency",
+      "determination",
+      "danger"
+    ],
+    "scenes": [
+      "fantasy",
+      "battle"
+    ],
+    "concepts": [
+      "heroism",
+      "adventure",
+      "destruction",
+      "escape"
+    ]
+  },
+  "metadata": {}
+}

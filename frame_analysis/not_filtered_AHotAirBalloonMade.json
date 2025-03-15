@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHotAirBalloonMade.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHotAirBalloonMade.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHotAirBalloonMade/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical hot air balloon made entirely of vibrant fruits and flowers floats against a backdrop of a clear blue sky. The balloon's envelope is crafted from strawberries, blueberries, and colorful blossoms, while the basket is woven from wicker and filled with more blueberries.",
+      "description": "The scene depicts a fantastical hot air balloon composed of fruits and flowers, soaring through a bright and serene sky. The creative use of natural elements gives the impression of a playful and imaginative journey.",
+      "labels": {
+        "nature": [
+          "strawberries",
+          "blueberries",
+          "flowers",
+          "clouds"
+        ],
+        "objects": [
+          "hot air balloon",
+          "wicker basket"
+        ],
+        "scenes": [
+          "sky",
+          "aerial"
+        ],
+        "concepts": [
+          "whimsy",
+          "creativity"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHotAirBalloonMade.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHotAirBalloonMade/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical hot air balloon is crafted from an assortment of vibrant fruits and flowers. The balloon's envelope is made up of strawberries, blueberries, and colorful blossoms, while the basket is woven from wicker. The scene is set against a backdrop of a clear blue sky with fluffy clouds.",
+      "description": "The image depicts a fantastical hot air balloon floating in a serene sky. The balloon is uniquely constructed from fresh fruits and flowers, creating a playful and imaginative visual.",
+      "labels": {
+        "objects": [
+          "hot air balloon",
+          "strawberries",
+          "blueberries",
+          "flowers",
+          "wicker basket"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "fantasy",
+          "aerial"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ],
+        "emotions": [
+          "whimsical",
+          "joyful"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: clouds, strawberries, blueberries, flowers, sky. Objects: hot air balloon, wicker basket, strawberries, blueberries, flowers. Scenes: aerial, sky, fantasy. Concepts: creativity, whimsy, imagination. Emotions: playful, imaginative, whimsical, joyful",
+  "primary_labels": {
+    "nature": [
+      "clouds",
+      "strawberries",
+      "blueberries",
+      "flowers",
+      "sky"
+    ],
+    "objects": [
+      "hot air balloon",
+      "wicker basket",
+      "strawberries",
+      "blueberries",
+      "flowers"
+    ],
+    "scenes": [
+      "aerial",
+      "sky",
+      "fantasy"
+    ],
+    "concepts": [
+      "creativity",
+      "whimsy",
+      "imagination"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative",
+      "whimsical",
+      "joyful"
+    ]
+  },
+  "metadata": {}
+}

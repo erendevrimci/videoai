@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"InAMedieval-themed,DimAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"InAMedieval-themed,DimAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"InAMedieval-themed,DimAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious woman in a dark cloak stands in a dimly lit stone chamber, illuminated by the soft glow of candles. She exudes an aura of power and intrigue as she gazes forward with a determined expression.",
+      "description": "The scene is set in a medieval-style stone chamber, possibly a castle or dungeon, with an arched window casting light onto the central figure. The atmosphere is mystical and somewhat ominous, enhanced by the flickering candlelight and the woman's enigmatic presence.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "cloak",
+          "candles",
+          "stone walls",
+          "arched window",
+          "rug"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "determined"
+        ],
+        "scenes": [
+          "medieval chamber",
+          "gothic setting"
+        ],
+        "concepts": [
+          "mystery",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\"InAMedieval-themed,DimAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\"InAMedieval-themed,DimAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a deep red gown stands confidently in a dimly lit stone chamber. The room is illuminated by torches, casting flickering shadows on the ancient walls. A staircase in the background leads to a window, allowing a soft beam of light to filter through.",
+      "description": "The scene is set in a medieval-style stone chamber, possibly a castle or dungeon. The atmosphere is mysterious and slightly ominous, with a focus on the woman as the central figure.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "cloak",
+          "torches",
+          "stone walls",
+          "staircase",
+          "window"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "medieval chamber",
+          "castle interior"
+        ],
+        "concepts": [
+          "mystery",
+          "gothic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: cloak, stone walls, candles, arched window, rug. Actions: standing. Emotions: mysterious, determined, confident. Scenes: medieval chamber, gothic setting, castle interior. Concepts: mystery, power, gothic",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "cloak",
+      "stone walls",
+      "candles",
+      "arched window",
+      "rug"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "mysterious",
+      "determined",
+      "confident"
+    ],
+    "scenes": [
+      "medieval chamber",
+      "gothic setting",
+      "castle interior"
+    ],
+    "concepts": [
+      "mystery",
+      "power",
+      "gothic"
+    ]
+  },
+  "metadata": {}
+}

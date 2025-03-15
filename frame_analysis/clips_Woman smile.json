@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant satin dress stands beside an open car door, holding a glass of champagne. The background features a poolside setting with a city skyline in the distance, suggesting a luxurious environment.",
+      "description": "The scene captures a glamorous moment by a poolside, with a woman dressed in a satin gown holding a champagne glass. The setting is sophisticated, with a city skyline visible in the background, indicating an upscale location.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "champagne glass",
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "elegance"
+        ],
+        "scenes": [
+          "poolside",
+          "city skyline"
+        ],
+        "concepts": [
+          "luxury",
+          "glamour"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Woman smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Woman smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in an elegant beige dress stands beside an open car door, holding a glass of champagne. Her expression is serene and content as she gazes into the distance. The scene is set against a softly lit outdoor backdrop, suggesting a luxurious and relaxed atmosphere.",
+      "description": "The image depicts a sophisticated scene with a woman dressed in a stylish gown, holding a champagne flute next to a luxury car. The setting appears to be outdoors, possibly during a sunset, enhancing the elegant and serene mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "car",
+          "champagne glass",
+          "dress"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "content"
+        ],
+        "scenes": [
+          "luxury",
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: car, champagne glass, dress. Actions: holding, standing. Emotions: elegance, serene, content. Scenes: poolside, city skyline, luxury, outdoor. Concepts: luxury, glamour, elegance, sophistication",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "car",
+      "champagne glass",
+      "dress"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "elegance",
+      "serene",
+      "content"
+    ],
+    "scenes": [
+      "poolside",
+      "city skyline",
+      "luxury",
+      "outdoor"
+    ],
+    "concepts": [
+      "luxury",
+      "glamour",
+      "elegance",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

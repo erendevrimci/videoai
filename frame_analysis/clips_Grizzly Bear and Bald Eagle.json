@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grizzly Bear and Bald Eagle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grizzly Bear and Bald Eagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grizzly Bear and Bald Eagle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce bear roars as it charges through the snowy landscape, while an eagle soars above. The scene is set against a backdrop of towering, icy mountains.",
+      "description": "The image depicts a dynamic and dramatic encounter in a snowy mountainous region. A powerful bear is in mid-charge, displaying aggression, while an eagle flies overhead, adding to the sense of wildness and freedom in the scene.",
+      "labels": {
+        "animals": [
+          "bear",
+          "eagle"
+        ],
+        "nature": [
+          "snow",
+          "mountains"
+        ],
+        "actions": [
+          "roaring",
+          "flying",
+          "charging"
+        ],
+        "emotions": [
+          "aggression",
+          "intensity"
+        ],
+        "scenes": [
+          "wildlife",
+          "mountain landscape"
+        ],
+        "concepts": [
+          "nature",
+          "wilderness",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grizzly Bear and Bald Eagle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grizzly Bear and Bald Eagle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic bear stands atop a rocky, snow-covered peak, exuding strength and dominance. An eagle, wings spread wide, perches on the bear's back, symbolizing a harmonious connection between the two powerful creatures. The backdrop of snowy mountains and a cloudy sky adds to the grandeur of the scene.",
+      "description": "The scene depicts a bear and an eagle in a mountainous, snowy environment, highlighting themes of power and unity in nature. The setting is vast and dramatic, with towering peaks and a dynamic sky.",
+      "labels": {
+        "animals": [
+          "bear",
+          "eagle"
+        ],
+        "nature": [
+          "mountains",
+          "snow",
+          "sky"
+        ],
+        "objects": [
+          "rock"
+        ],
+        "actions": [
+          "standing",
+          "perching"
+        ],
+        "emotions": [
+          "strength",
+          "majesty"
+        ],
+        "scenes": [
+          "wildlife",
+          "mountain"
+        ],
+        "concepts": [
+          "power",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bear, eagle. Nature: snow, mountains, sky. Actions: roaring, flying, charging, standing, perching. Emotions: aggression, intensity, strength, majesty. Scenes: wildlife, mountain landscape, mountain. Concepts: power, nature, wilderness, harmony. Objects: rock",
+  "primary_labels": {
+    "animals": [
+      "bear",
+      "eagle"
+    ],
+    "nature": [
+      "snow",
+      "mountains",
+      "sky"
+    ],
+    "actions": [
+      "roaring",
+      "flying",
+      "charging",
+      "standing",
+      "perching"
+    ],
+    "emotions": [
+      "aggression",
+      "intensity",
+      "strength",
+      "majesty"
+    ],
+    "scenes": [
+      "wildlife",
+      "mountain landscape",
+      "mountain"
+    ],
+    "concepts": [
+      "power",
+      "nature",
+      "wilderness",
+      "harmony"
+    ],
+    "objects": [
+      "rock"
+    ]
+  },
+  "metadata": {}
+}

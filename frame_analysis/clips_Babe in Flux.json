@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Babe in Flux.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Babe in Flux.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Babe in Flux/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with striking blue hair stands confidently in an urban setting. She is wearing a white crop top and denim shorts, exuding a sense of style and self-assurance.",
+      "description": "The scene captures a woman in a city environment, possibly on a street or alley, with blurred lights in the background suggesting an evening or early morning setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "crop top",
+          "denim shorts",
+          "choker"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Babe in Flux.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Babe in Flux/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking blue hair stands confidently in an urban street. She is wearing a white crop top and denim shorts, exuding a modern and bold style. The background is slightly blurred, highlighting her as the focal point of the image.",
+      "description": "The scene is set in a bustling city street, likely in the early morning or late afternoon, as suggested by the soft lighting. The woman is the central figure, standing with a poised and self-assured demeanor, while the urban environment around her fades into a gentle blur.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "crop top",
+          "denim shorts",
+          "choker"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban street"
+        ],
+        "concepts": [
+          "modern style",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: crop top, denim shorts, choker. Actions: standing. Emotions: confident, confidence. Scenes: urban, street, urban street. Concepts: fashion, style, modern style",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "crop top",
+      "denim shorts",
+      "choker"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "urban street"
+    ],
+    "concepts": [
+      "fashion",
+      "style",
+      "modern style"
+    ]
+  },
+  "metadata": {}
+}

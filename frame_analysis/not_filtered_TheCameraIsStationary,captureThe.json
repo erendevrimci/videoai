@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,captureThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,captureThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,captureThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with elegant jewelry. The individual is wearing pearl earrings and a matching necklace, exuding a sense of sophistication.",
+      "description": "The scene captures a poised individual in a serene setting, focusing on their facial expression and accessories. The lighting highlights the smooth texture of the skin and the luster of the pearls.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "pearl necklace",
+          "pearl earrings"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,captureThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,captureThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a woman with elegant jewelry, including pearl earrings and a necklace. Her expression is calm and serene, with soft lighting highlighting her features.",
+      "description": "The scene is a close-up portrait of a woman in a serene setting. She is adorned with elegant pearl jewelry, and the lighting is soft, creating a gentle and refined atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "pearl necklace",
+          "pearl earrings"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "visual attributes": [
+          "soft lighting",
+          "close-up"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraIsStationary,captureThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraIsStationary,captureThe/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is elegantly posed against a neutral background, wearing pearl jewelry. Her expression is calm and composed, with a slight smile.",
+      "description": "The scene captures a close-up portrait of a woman in a serene setting, emphasizing her sophisticated appearance with pearl earrings and necklace.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "pearl necklace",
+          "pearl earrings"
+        ],
+        "emotions": [
+          "calm",
+          "composed"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: pearl necklace, pearl earrings. Emotions: calm, serene, composed. Scenes: portrait. Concepts: elegance, sophistication. Visual attributes: soft lighting, close-up",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "pearl necklace",
+      "pearl earrings"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "composed"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "elegance",
+      "sophistication"
+    ],
+    "visual attributes": [
+      "soft lighting",
+      "close-up"
+    ]
+  },
+  "metadata": {}
+}

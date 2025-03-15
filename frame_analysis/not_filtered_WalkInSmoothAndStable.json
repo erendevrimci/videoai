@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkInSmoothAndStable.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkInSmoothAndStable.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkInSmoothAndStable/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Three puppies, dressed in matching blue fluffy outfits and sunglasses, confidently strut down a glossy runway. Bright lights illuminate the scene, creating a glamorous and playful atmosphere.",
+      "description": "The scene depicts a fashion show setting where three puppies are walking down a runway. The setting is characterized by bright stage lights and a reflective floor, adding to the high-fashion ambiance.",
+      "labels": {
+        "animals": [
+          "puppies"
+        ],
+        "objects": [
+          "sunglasses",
+          "blue outfits",
+          "runway"
+        ],
+        "actions": [
+          "walking",
+          "strutting"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "glamour",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/WalkInSmoothAndStable.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/WalkInSmoothAndStable/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Three adorable puppies are strutting down a runway, dressed in matching blue fluffy outfits and stylish sunglasses. The scene is set in a fashion show environment, with bright lights illuminating the glossy floor. The puppies exude confidence and charm as they walk in unison.",
+      "description": "The image captures a whimsical fashion show featuring puppies as models. The setting is a runway with dramatic lighting and a reflective floor, creating a glamorous and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "puppies"
+        ],
+        "objects": [
+          "sunglasses",
+          "blue outfits",
+          "shoes"
+        ],
+        "actions": [
+          "walking",
+          "strutting"
+        ],
+        "emotions": [
+          "confidence",
+          "charm"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "whimsy",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: puppies. Objects: sunglasses, blue outfits, runway, shoes. Actions: walking, strutting. Emotions: playful, confident, confidence, charm. Scenes: fashion show, runway. Concepts: style, glamour, whimsy",
+  "primary_labels": {
+    "animals": [
+      "puppies"
+    ],
+    "objects": [
+      "sunglasses",
+      "blue outfits",
+      "runway",
+      "shoes"
+    ],
+    "actions": [
+      "walking",
+      "strutting"
+    ],
+    "emotions": [
+      "playful",
+      "confident",
+      "confidence",
+      "charm"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "style",
+      "glamour",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy is crying bitterly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy is crying bitterly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The boy is crying bitterly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cartoon baby with wide eyes and a concerned expression sits in a crib, holding an empty baby bottle. The baby's facial features are exaggerated, highlighting its large eyes and furrowed brows.",
+      "description": "The scene depicts a cartoon baby in a crib, appearing distressed while holding an empty bottle. The setting suggests a nursery environment with soft, neutral colors.",
+      "labels": {
+        "people": [
+          "cartoon baby"
+        ],
+        "objects": [
+          "baby bottle",
+          "crib"
+        ],
+        "actions": [
+          "holding",
+          "sitting"
+        ],
+        "emotions": [
+          "concern",
+          "distress"
+        ],
+        "scenes": [
+          "nursery"
+        ],
+        "concepts": [
+          "childcare",
+          "thirst",
+          "hunger"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The boy is crying bitterly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The boy is crying bitterly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An animated baby with large, expressive eyes sits in a crib holding an empty bottle. The baby appears to be upset, with a furrowed brow and a slightly open mouth.",
+      "description": "The scene depicts an animated baby in a crib, holding an empty bottle and displaying a distressed expression. The setting is likely a nursery, with soft colors and gentle lighting contributing to a calm atmosphere despite the baby's apparent distress.",
+      "labels": {
+        "people": [
+          "baby"
+        ],
+        "objects": [
+          "bottle",
+          "crib"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "distress"
+        ],
+        "scenes": [
+          "nursery"
+        ],
+        "concepts": [
+          "childcare",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cartoon baby, baby. Objects: crib, baby bottle, bottle. Actions: holding, sitting. Emotions: distress, concern. Scenes: nursery. Concepts: childcare, thirst, hunger, animation",
+  "primary_labels": {
+    "people": [
+      "cartoon baby",
+      "baby"
+    ],
+    "objects": [
+      "crib",
+      "baby bottle",
+      "bottle"
+    ],
+    "actions": [
+      "holding",
+      "sitting"
+    ],
+    "emotions": [
+      "distress",
+      "concern"
+    ],
+    "scenes": [
+      "nursery"
+    ],
+    "concepts": [
+      "childcare",
+      "thirst",
+      "hunger",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

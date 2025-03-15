@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A goldfish floats in the girl's.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A goldfish floats in the girl's.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A goldfish floats in the girl's/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with a floral headpiece gently holds a vibrant goldfish in her hands. She gazes at the fish with a serene expression, set against a soft, light background.",
+      "description": "The scene depicts a tranquil moment between a woman and a goldfish. The setting is minimalistic, focusing on the interaction between the human and the animal.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "goldfish"
+        ],
+        "objects": [
+          "floral headpiece"
+        ],
+        "actions": [
+          "holding",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "nature",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/A goldfish floats in the girl's.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/A goldfish floats in the girl's/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person gently holds a vibrant orange goldfish in their hands, close to their face. The scene is set against a soft, blurred background, highlighting the interaction between human and fish.",
+      "description": "The image captures a serene moment where a person is delicately holding a goldfish, creating a sense of connection with nature. The setting appears to be near water, suggested by the soft, aquatic background.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "animals": [
+          "goldfish"
+        ],
+        "nature": [
+          "water"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "gentleness"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "connection",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Animals: goldfish. Objects: floral headpiece, hand. Actions: holding, gazing. Emotions: serenity, gentleness. Scenes: close-up, outdoor. Concepts: nature, tranquility, connection. Nature: water",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "animals": [
+      "goldfish"
+    ],
+    "objects": [
+      "floral headpiece",
+      "hand"
+    ],
+    "actions": [
+      "holding",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "gentleness"
+    ],
+    "scenes": [
+      "close-up",
+      "outdoor"
+    ],
+    "concepts": [
+      "nature",
+      "tranquility",
+      "connection"
+    ],
+    "nature": [
+      "water"
+    ]
+  },
+  "metadata": {}
+}

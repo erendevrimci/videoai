@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheTwoPeopleIn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheTwoPeopleIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LetTheTwoPeopleIn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features two men standing side by side in different settings. The man on the left is dressed in a formal suit and tie, standing in what appears to be an indoor or covered area with red decorations. The man on the right is casually dressed in a blue checkered shirt and black pants, standing outdoors in a garden with lush green foliage.",
+      "description": "The scene contrasts two different settings and attire styles, highlighting formal and casual appearances. The left side suggests a formal event, possibly a celebration or gathering, while the right side depicts a relaxed outdoor environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "garden",
+          "foliage"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "shirt",
+          "pants"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "formal event",
+          "outdoor garden"
+        ],
+        "concepts": [
+          "contrast",
+          "attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LetTheTwoPeopleIn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LetTheTwoPeopleIn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two men are embracing warmly in an outdoor setting, conveying a sense of closeness and emotional connection. One man is wearing a blue plaid shirt, while the other is dressed in a gray suit.",
+      "description": "The scene depicts a heartfelt hug between two men in a garden or outdoor area, suggesting a moment of reunion or farewell. The background includes greenery and a red structure, adding to the vibrant atmosphere.",
+      "labels": {
+        "people": [
+          "man",
+          "man"
+        ],
+        "nature": [
+          "plants",
+          "trees"
+        ],
+        "objects": [
+          "suit",
+          "shirt"
+        ],
+        "actions": [
+          "hugging"
+        ],
+        "emotions": [
+          "warmth",
+          "affection"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "friendship",
+          "reunion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Nature: garden, foliage, plants, trees. Objects: suit, shirt, tie, pants. Actions: standing, hugging. Emotions: neutral, warmth, affection. Scenes: formal event, outdoor garden, outdoor, garden. Concepts: contrast, attire, friendship, reunion",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "nature": [
+      "garden",
+      "foliage",
+      "plants",
+      "trees"
+    ],
+    "objects": [
+      "suit",
+      "shirt",
+      "tie",
+      "pants"
+    ],
+    "actions": [
+      "standing",
+      "hugging"
+    ],
+    "emotions": [
+      "neutral",
+      "warmth",
+      "affection"
+    ],
+    "scenes": [
+      "formal event",
+      "outdoor garden",
+      "outdoor",
+      "garden"
+    ],
+    "concepts": [
+      "contrast",
+      "attire",
+      "friendship",
+      "reunion"
+    ]
+  },
+  "metadata": {}
+}

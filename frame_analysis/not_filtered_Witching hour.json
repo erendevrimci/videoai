@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Witching hour.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Witching hour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Witching hour/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child sits on a bed, joyfully reading a book next to a friendly ghost. The scene is warmly lit by a candle, casting a cozy glow over the pair.",
+      "description": "The scene depicts a nighttime setting in a bedroom where a child and a ghost are engaged in a storytelling session. The atmosphere is whimsical and friendly, with a sense of wonder and imagination.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "book",
+          "candle",
+          "bed"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "joy",
+          "curiosity"
+        ],
+        "scenes": [
+          "bedroom",
+          "night"
+        ],
+        "concepts": [
+          "friendship",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Witching hour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Witching hour/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child sits on a bed, joyfully reading a book by candlelight. Beside them, a friendly ghost with large eyes smiles warmly, creating a cozy and magical atmosphere.",
+      "description": "The scene depicts a nighttime setting in a dimly lit room, where a child and a ghost are enjoying a story together. The soft glow from the candle and the book illuminates their faces, highlighting the bond between them.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "book",
+          "candle",
+          "bed"
+        ],
+        "actions": [
+          "reading",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "friendliness"
+        ],
+        "scenes": [
+          "bedroom",
+          "nighttime"
+        ],
+        "concepts": [
+          "friendship",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Witching hour.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Witching hour/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young child sits on a bed, engrossed in a book, with a friendly ghost beside them. The scene is softly illuminated by a candle, casting a warm glow over the pair. The ghost appears curious and engaged, adding a whimsical touch to the cozy nighttime setting.",
+      "description": "The scene takes place in a dimly lit bedroom at night. A child is reading a book with a ghost companion, creating a magical and comforting atmosphere. The candlelight enhances the intimate and serene mood.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "objects": [
+          "book",
+          "candle"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "curiosity",
+          "comfort"
+        ],
+        "scenes": [
+          "bedroom",
+          "nighttime"
+        ],
+        "concepts": [
+          "friendship",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child. Objects: book, candle, bed. Actions: reading, smiling. Emotions: joy, curiosity, friendliness, comfort. Scenes: bedroom, nighttime, night. Concepts: friendship, imagination",
+  "primary_labels": {
+    "people": [
+      "child"
+    ],
+    "objects": [
+      "book",
+      "candle",
+      "bed"
+    ],
+    "actions": [
+      "reading",
+      "smiling"
+    ],
+    "emotions": [
+      "joy",
+      "curiosity",
+      "friendliness",
+      "comfort"
+    ],
+    "scenes": [
+      "bedroom",
+      "nighttime",
+      "night"
+    ],
+    "concepts": [
+      "friendship",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

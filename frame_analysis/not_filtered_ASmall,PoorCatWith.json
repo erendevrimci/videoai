@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASmall,PoorCatWith.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASmall,PoorCatWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASmall,PoorCatWith/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cartoon-style anthropomorphic cat stands in the middle of a dimly lit, rainy street. The cat is wearing a yellow raincoat and looks slightly concerned, with large expressive eyes. The background features blurred city buildings and streetlights glowing softly through the rain.",
+      "description": "The scene depicts an animated cat character in a rainy urban setting. The atmosphere is moody and slightly melancholic, with the rain adding a reflective quality to the scene.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "raincoat",
+          "street",
+          "buildings",
+          "streetlights"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "concerned"
+        ],
+        "scenes": [
+          "urban",
+          "rainy"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ASmall,PoorCatWith.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ASmall,PoorCatWith/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, anthropomorphic cat stands in the rain, gazing upwards with wide eyes. The cat is wearing a yellow raincoat, and the scene is set against a dark, cloudy sky with hints of city lights in the background.",
+      "description": "The scene depicts a rainy urban environment where a cat, dressed in a raincoat, appears to be caught in a moment of awe or curiosity as it looks up at the sky. The atmosphere is moody and dramatic, enhanced by the dim lighting and overcast weather.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "raincoat"
+        ],
+        "actions": [
+          "looking up"
+        ],
+        "emotions": [
+          "curiosity",
+          "awe"
+        ],
+        "scenes": [
+          "urban",
+          "rainy"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "weather"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: raincoat, street, buildings, streetlights. Actions: standing, looking up. Emotions: concerned, curiosity, awe. Scenes: urban, rainy. Concepts: anthropomorphism, animation, weather",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "raincoat",
+      "street",
+      "buildings",
+      "streetlights"
+    ],
+    "actions": [
+      "standing",
+      "looking up"
+    ],
+    "emotions": [
+      "concerned",
+      "curiosity",
+      "awe"
+    ],
+    "scenes": [
+      "urban",
+      "rainy"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "animation",
+      "weather"
+    ]
+  },
+  "metadata": {}
+}

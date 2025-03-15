@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesAwayFrom.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesAwayFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraMovesAwayFrom/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot stands in a dimly lit, industrial setting. The robot's sleek design features intricate wiring and glowing elements, suggesting advanced technology. The background is blurred, emphasizing the robot's detailed structure.",
+      "description": "The scene depicts a highly advanced humanoid robot in a futuristic, industrial environment. The setting is likely a laboratory or a technological facility, with a focus on the robot's sophisticated design.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "robot",
+          "wires",
+          "glowing elements"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "futuristic",
+          "technological"
+        ],
+        "scenes": [
+          "industrial",
+          "futuristic"
+        ],
+        "concepts": [
+          "advanced technology",
+          "robotics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesAwayFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraMovesAwayFrom/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid robot stands in a futuristic setting, with arms outstretched and intricate wiring visible on its head. The robot's sleek design and metallic surface reflect the ambient light, creating a striking visual contrast against the dimly lit background.",
+      "description": "The scene depicts a humanoid robot in a high-tech, futuristic environment. The robot is positioned centrally, with its arms extended, showcasing its advanced design and technological features.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "robot",
+          "wires"
+        ],
+        "actions": [
+          "standing",
+          "arms outstretched"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "scenes": [
+          "futuristic",
+          "laboratory"
+        ],
+        "concepts": [
+          "technology",
+          "artificial intelligence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCameraMovesAwayFrom.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCameraMovesAwayFrom/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A humanoid robot stands in a futuristic corridor, raising its arms gracefully. The robot's sleek design features metallic surfaces and intricate wiring, set against a backdrop of dimly lit, high-tech architecture.",
+      "description": "The scene depicts a humanoid robot in a futuristic setting, likely a corridor or hallway with advanced technology. The atmosphere is serene yet slightly mysterious, with the robot's pose suggesting a moment of activation or expression.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [],
+        "objects": [
+          "robot",
+          "corridor",
+          "wires"
+        ],
+        "actions": [
+          "raising arms"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "futuristic",
+          "high-tech"
+        ],
+        "concepts": [
+          "technology",
+          "artificial intelligence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, wires, glowing elements, corridor. Actions: standing, arms outstretched, raising arms. Emotions: futuristic, technological, neutral, serene. Scenes: futuristic, industrial, laboratory, high-tech. Concepts: technology, artificial intelligence, advanced technology, robotics",
+  "primary_labels": {
+    "people": [],
+    "animals": [],
+    "nature": [],
+    "objects": [
+      "robot",
+      "wires",
+      "glowing elements",
+      "corridor"
+    ],
+    "actions": [
+      "standing",
+      "arms outstretched",
+      "raising arms"
+    ],
+    "emotions": [
+      "futuristic",
+      "technological",
+      "neutral",
+      "serene"
+    ],
+    "scenes": [
+      "futuristic",
+      "industrial",
+      "laboratory",
+      "high-tech"
+    ],
+    "concepts": [
+      "technology",
+      "artificial intelligence",
+      "advanced technology",
+      "robotics"
+    ]
+  },
+  "metadata": {}
+}

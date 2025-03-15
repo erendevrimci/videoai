@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman walking on the beach.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman walking on the beach.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Young woman walking on the beach/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman walks along a sandy beach with turquoise waves gently lapping at the shore. She is wearing a bikini and various accessories, holding a drink can in one hand. The sky is clear with a few fluffy clouds, creating a serene and sunny atmosphere.",
+      "description": "The scene captures a tranquil beach setting with a woman strolling along the shoreline. The bright sunlight and clear skies enhance the tropical vibe, while the gentle waves add a sense of calm.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "bikini",
+          "drink can",
+          "jewelry"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "beach",
+          "tropical"
+        ],
+        "concepts": [
+          "summer",
+          "vacation",
+          "relaxation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Young woman walking on the beach.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Young woman walking on the beach/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman walks along a sunlit beach, holding a beverage can. She is dressed in a bikini and adorned with various jewelry, with the ocean waves gently lapping at the shore.",
+      "description": "The scene captures a serene beach setting where a woman is strolling along the shoreline. The bright sunlight and clear blue sky create a vibrant and relaxed atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky"
+        ],
+        "objects": [
+          "bikini",
+          "jewelry",
+          "beverage can"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "beach"
+        ],
+        "concepts": [
+          "leisure",
+          "summer"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sky, clouds. Objects: bikini, jewelry, drink can, beverage can. Actions: walking. Emotions: calm, serene, relaxed. Scenes: beach, tropical. Concepts: summer, vacation, relaxation, leisure",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "bikini",
+      "jewelry",
+      "drink can",
+      "beverage can"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "serene",
+      "relaxed"
+    ],
+    "scenes": [
+      "beach",
+      "tropical"
+    ],
+    "concepts": [
+      "summer",
+      "vacation",
+      "relaxation",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

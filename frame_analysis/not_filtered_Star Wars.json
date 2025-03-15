@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Star Wars.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Star Wars.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Star Wars/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek spaceship navigates through the vastness of space, with a swirling black hole in the background. The ship emits a bright beam of light as it moves past fiery cosmic clouds and distant galaxies.",
+      "description": "The scene is set in outer space, featuring a futuristic spaceship traveling near a massive black hole. The environment is filled with cosmic clouds and vibrant celestial phenomena.",
+      "labels": {
+        "objects": [
+          "spaceship",
+          "black hole",
+          "beam of light"
+        ],
+        "nature": [
+          "cosmic clouds",
+          "galaxies"
+        ],
+        "actions": [
+          "navigating",
+          "emitting light"
+        ],
+        "scenes": [
+          "outer space",
+          "futuristic"
+        ],
+        "emotions": [
+          "awe",
+          "mystery"
+        ],
+        "concepts": [
+          "space exploration",
+          "science fiction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Star Wars.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Star Wars/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dark celestial body is silhouetted against a vibrant cosmic backdrop, with bright orange and white light emanating from behind. The scene captures the vastness and mystery of space, highlighted by scattered stars and nebulae.",
+      "description": "The image depicts a space scene with a large, dark planet or moon in the foreground, partially obscuring a bright light source, possibly a star or supernova, in the background. The surrounding space is filled with stars and cosmic dust, creating a dramatic and awe-inspiring atmosphere.",
+      "labels": {
+        "nature": [
+          "space",
+          "planet",
+          "stars",
+          "nebula"
+        ],
+        "objects": [
+          "celestial body",
+          "light source"
+        ],
+        "scenes": [
+          "cosmic",
+          "astronomical"
+        ],
+        "emotions": [
+          "mysterious",
+          "awe-inspiring"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: spaceship, black hole, beam of light, celestial body, light source. Nature: cosmic clouds, galaxies, space, planet, stars. Actions: navigating, emitting light. Scenes: outer space, futuristic, cosmic, astronomical. Emotions: awe, mystery, mysterious, awe-inspiring. Concepts: space exploration, science fiction",
+  "primary_labels": {
+    "objects": [
+      "spaceship",
+      "black hole",
+      "beam of light",
+      "celestial body",
+      "light source"
+    ],
+    "nature": [
+      "cosmic clouds",
+      "galaxies",
+      "space",
+      "planet",
+      "stars"
+    ],
+    "actions": [
+      "navigating",
+      "emitting light"
+    ],
+    "scenes": [
+      "outer space",
+      "futuristic",
+      "cosmic",
+      "astronomical"
+    ],
+    "emotions": [
+      "awe",
+      "mystery",
+      "mysterious",
+      "awe-inspiring"
+    ],
+    "concepts": [
+      "space exploration",
+      "science fiction"
+    ]
+  },
+  "metadata": {}
+}

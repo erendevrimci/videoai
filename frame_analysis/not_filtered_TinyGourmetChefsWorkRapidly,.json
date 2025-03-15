@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyGourmetChefsWorkRapidly,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyGourmetChefsWorkRapidly,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TinyGourmetChefsWorkRapidly,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a surreal scene where miniature chefs are navigating through a landscape made entirely of fried shrimp tempura. The chefs are engaged in various activities, such as climbing and inspecting the tempura, with radishes and shrimp tails adding to the whimsical setting.",
+      "description": "This imaginative scene is set in a world where food becomes a landscape. Miniature chefs are exploring a terrain composed of giant tempura shrimp, creating a playful and fantastical atmosphere.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "tempura",
+          "shrimp",
+          "radish"
+        ],
+        "actions": [
+          "climbing",
+          "inspecting"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "surreal",
+          "fantasy"
+        ],
+        "concepts": [
+          "miniature world",
+          "food landscape"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TinyGourmetChefsWorkRapidly,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TinyGourmetChefsWorkRapidly,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts a whimsical scene where miniature chefs are exploring a landscape made of fried shrimp tempura. The chefs are meticulously climbing and inspecting the golden, crispy structures, which are adorned with radish slices and garnishes.",
+      "description": "This imaginative scene is set in a surreal world where food items like tempura shrimp are transformed into towering landscapes. The chefs, appearing tiny in comparison, are engaged in activities that suggest exploration and culinary craftsmanship.",
+      "labels": {
+        "people": [
+          "chefs"
+        ],
+        "objects": [
+          "tempura shrimp",
+          "radish slices",
+          "garnishes"
+        ],
+        "actions": [
+          "climbing",
+          "inspecting"
+        ],
+        "emotions": [
+          "whimsy",
+          "curiosity"
+        ],
+        "scenes": [
+          "surreal landscape",
+          "culinary exploration"
+        ],
+        "concepts": [
+          "miniature world",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs. Objects: tempura, shrimp, radish, tempura shrimp, radish slices. Actions: climbing, inspecting. Emotions: whimsical, playful, whimsy, curiosity. Scenes: surreal, fantasy, surreal landscape, culinary exploration. Concepts: miniature world, food landscape, food art",
+  "primary_labels": {
+    "people": [
+      "chefs"
+    ],
+    "objects": [
+      "tempura",
+      "shrimp",
+      "radish",
+      "tempura shrimp",
+      "radish slices"
+    ],
+    "actions": [
+      "climbing",
+      "inspecting"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful",
+      "whimsy",
+      "curiosity"
+    ],
+    "scenes": [
+      "surreal",
+      "fantasy",
+      "surreal landscape",
+      "culinary exploration"
+    ],
+    "concepts": [
+      "miniature world",
+      "food landscape",
+      "food art"
+    ]
+  },
+  "metadata": {}
+}

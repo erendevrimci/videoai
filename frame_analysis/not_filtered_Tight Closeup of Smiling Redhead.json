@@ -1,0 +1,130 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tight Closeup of Smiling Redhead.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tight Closeup of Smiling Redhead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tight Closeup of Smiling Redhead/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up portrait of a person with striking blue eyes and red hair. The subject's expression is calm and introspective, with soft lighting highlighting their features.",
+      "description": "The image is a close-up portrait focusing on the face of a person with red hair and blue eyes. The lighting is soft, creating a serene and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "face"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "visual_attributes": [
+          "red hair",
+          "blue eyes",
+          "soft lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tight Closeup of Smiling Redhead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tight Closeup of Smiling Redhead/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up portrait of a person with striking blue eyes and red hair. The individual has a calm expression and is looking slightly to the side.",
+      "description": "The image is a detailed close-up portrait focusing on the facial features of a person. The setting is likely indoors with soft lighting highlighting the subject's features.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "makeup"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tight Closeup of Smiling Redhead.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tight Closeup of Smiling Redhead/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up portrait of a person with red hair and blue eyes, smiling warmly. The image captures the person's facial features in detail, highlighting their bright eyes and subtle dimples.",
+      "description": "The scene is a close-up portrait focusing on a person's face, emphasizing their expression and features. The setting is likely indoors with soft lighting enhancing the natural tones of the skin and hair.",
+      "labels": {
+        "people": [
+          "person",
+          "face"
+        ],
+        "objects": [
+          "hair",
+          "eyes"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "beauty",
+          "expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, face. Objects: face, makeup, hair, eyes. Emotions: calm, introspective, happiness, warmth. Scenes: portrait. Visual_attributes: red hair, blue eyes, soft lighting. Concepts: beauty, expression. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "person",
+      "face"
+    ],
+    "objects": [
+      "face",
+      "makeup",
+      "hair",
+      "eyes"
+    ],
+    "emotions": [
+      "calm",
+      "introspective",
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "visual_attributes": [
+      "red hair",
+      "blue eyes",
+      "soft lighting"
+    ],
+    "concepts": [
+      "beauty",
+      "expression"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

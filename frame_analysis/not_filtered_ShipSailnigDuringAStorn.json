@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSailnigDuringAStorn.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSailnigDuringAStorn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipSailnigDuringAStorn/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large, weathered ship sails through turbulent seas under a stormy sky. The vessel is crowded with people, and a tattered red flag flutters in the wind. The dark, dramatic lighting enhances the ominous atmosphere of the scene.",
+      "description": "The scene depicts a historic ship navigating rough waters, filled with a dense crowd of people. The setting is likely during a storm, with dark clouds and choppy waves surrounding the vessel.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "nature": [
+          "sea",
+          "clouds"
+        ],
+        "objects": [
+          "ship",
+          "sails",
+          "flag"
+        ],
+        "actions": [
+          "sailing"
+        ],
+        "emotions": [
+          "ominous"
+        ],
+        "scenes": [
+          "stormy sea",
+          "historic maritime"
+        ],
+        "concepts": [
+          "adventure",
+          "peril"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipSailnigDuringAStorn.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipSailnigDuringAStorn/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large wooden ship sails through turbulent waters under a stormy sky. The deck is crowded with people, and the sails are fully unfurled, catching the strong winds. A red flag flutters prominently, adding a splash of color to the otherwise muted scene.",
+      "description": "The scene depicts a dramatic maritime setting with a ship navigating rough seas. The atmosphere is tense and dynamic, with storm clouds overhead and waves crashing against the vessel.",
+      "labels": {
+        "people": [
+          "crowd"
+        ],
+        "objects": [
+          "ship",
+          "sails",
+          "flag"
+        ],
+        "nature": [
+          "ocean",
+          "waves",
+          "stormy sky"
+        ],
+        "actions": [
+          "sailing",
+          "navigating"
+        ],
+        "emotions": [
+          "tension"
+        ],
+        "scenes": [
+          "maritime",
+          "storm"
+        ],
+        "concepts": [
+          "adventure",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: crowd. Nature: sea, clouds, ocean, waves, stormy sky. Objects: ship, sails, flag. Actions: sailing, navigating. Emotions: ominous, tension. Scenes: stormy sea, historic maritime, maritime, storm. Concepts: adventure, peril, survival",
+  "primary_labels": {
+    "people": [
+      "crowd"
+    ],
+    "nature": [
+      "sea",
+      "clouds",
+      "ocean",
+      "waves",
+      "stormy sky"
+    ],
+    "objects": [
+      "ship",
+      "sails",
+      "flag"
+    ],
+    "actions": [
+      "sailing",
+      "navigating"
+    ],
+    "emotions": [
+      "ominous",
+      "tension"
+    ],
+    "scenes": [
+      "stormy sea",
+      "historic maritime",
+      "maritime",
+      "storm"
+    ],
+    "concepts": [
+      "adventure",
+      "peril",
+      "survival"
+    ]
+  },
+  "metadata": {}
+}

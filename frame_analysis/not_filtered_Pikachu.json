@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pikachu.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pikachu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pikachu/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A Pikachu stands on a wooden floor surrounded by scattered debris, emitting bright electric sparks. The scene is set in a dimly lit room with a large window in the background, casting soft light across the space.",
+      "description": "The scene takes place in a rustic room, possibly an old workshop or study, with a Pikachu at the center generating electricity. The atmosphere is charged and dynamic, with the interplay of light and shadow creating a dramatic effect.",
+      "labels": {
+        "animals": [
+          "Pikachu"
+        ],
+        "objects": [
+          "debris",
+          "wooden floor",
+          "window",
+          "furniture"
+        ],
+        "actions": [
+          "electricity generation"
+        ],
+        "emotions": [
+          "dynamic"
+        ],
+        "scenes": [
+          "interior",
+          "workshop"
+        ],
+        "concepts": [
+          "electricity",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pikachu.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pikachu/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A Pikachu stands in the middle of a dimly lit room, surrounded by a burst of electricity. The wooden floor is scattered with debris, and a window in the background lets in a soft, diffused light.",
+      "description": "The scene takes place in a rustic, cluttered room with a focus on Pikachu, who is emitting electrical sparks. The setting appears to be an old workshop or study, with wooden furniture and a large window providing natural light.",
+      "labels": {
+        "animals": [
+          "Pikachu"
+        ],
+        "objects": [
+          "electricity",
+          "debris",
+          "window",
+          "furniture"
+        ],
+        "actions": [
+          "electric discharge"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "indoor",
+          "workshop"
+        ],
+        "concepts": [
+          "power",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: Pikachu. Objects: debris, window, furniture, wooden floor, electricity. Actions: electricity generation, electric discharge. Emotions: dynamic, determination. Scenes: workshop, interior, indoor. Concepts: electricity, animation, power, energy",
+  "primary_labels": {
+    "animals": [
+      "Pikachu"
+    ],
+    "objects": [
+      "debris",
+      "window",
+      "furniture",
+      "wooden floor",
+      "electricity"
+    ],
+    "actions": [
+      "electricity generation",
+      "electric discharge"
+    ],
+    "emotions": [
+      "dynamic",
+      "determination"
+    ],
+    "scenes": [
+      "workshop",
+      "interior",
+      "indoor"
+    ],
+    "concepts": [
+      "electricity",
+      "animation",
+      "power",
+      "energy"
+    ]
+  },
+  "metadata": {}
+}

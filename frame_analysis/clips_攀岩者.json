@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6500\u5ca9\u8005.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6500\u5ca9\u8005.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6500\u5ca9\u8005/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is seen climbing a rocky cliff, her expression intense and determined. Her hair is windswept, and she appears to be shouting or exerting effort. The background reveals a dramatic canyon with a river running through it, under a cloudy sky with a hint of lightning.",
+      "description": "The scene captures a climber in a moment of intense focus and energy, scaling a cliff in a rugged canyon setting. The environment is dramatic, with steep cliffs, a flowing river, and a stormy sky.",
+      "labels": {
+        "people": [
+          "woman",
+          "climber"
+        ],
+        "nature": [
+          "cliff",
+          "canyon",
+          "river",
+          "sky",
+          "lightning"
+        ],
+        "objects": [
+          "rock",
+          "climbing gear"
+        ],
+        "actions": [
+          "climbing",
+          "shouting"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "adventure",
+          "outdoor",
+          "extreme sports"
+        ],
+        "concepts": [
+          "courage",
+          "challenge"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6500\u5ca9\u8005.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6500\u5ca9\u8005/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is seen climbing a steep rock face, her expression intense and determined. Her hair is windswept, and she is dressed in rugged outdoor gear, suggesting a challenging adventure. The background reveals a dramatic canyon with a river below, shrouded in mist.",
+      "description": "The scene captures a climber in an intense moment of ascent on a rocky cliff. The setting is a misty canyon, creating a dramatic and adventurous atmosphere.",
+      "labels": {
+        "people": [
+          "woman",
+          "climber"
+        ],
+        "nature": [
+          "canyon",
+          "river",
+          "rock face"
+        ],
+        "objects": [
+          "climbing gear"
+        ],
+        "actions": [
+          "climbing"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "outdoor",
+          "adventure"
+        ],
+        "concepts": [
+          "challenge",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, climber. Nature: canyon, river, cliff, sky, lightning. Objects: climbing gear, rock. Actions: climbing, shouting. Emotions: determination, intensity. Scenes: adventure, outdoor, extreme sports. Concepts: challenge, courage, adventure",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "climber"
+    ],
+    "nature": [
+      "canyon",
+      "river",
+      "cliff",
+      "sky",
+      "lightning"
+    ],
+    "objects": [
+      "climbing gear",
+      "rock"
+    ],
+    "actions": [
+      "climbing",
+      "shouting"
+    ],
+    "emotions": [
+      "determination",
+      "intensity"
+    ],
+    "scenes": [
+      "adventure",
+      "outdoor",
+      "extreme sports"
+    ],
+    "concepts": [
+      "challenge",
+      "courage",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elegance!.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elegance!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/elegance!/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an elegant black dress plays the violin while wearing a striking red mask. The scene is set in a dimly lit, atmospheric environment, adding a mysterious and dramatic flair.",
+      "description": "The image depicts a woman immersed in playing the violin, set against a moody and dimly lit background. Her attire and mask suggest a formal or theatrical setting, possibly a masquerade or performance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "violin",
+          "bow",
+          "mask",
+          "dress"
+        ],
+        "actions": [
+          "playing violin"
+        ],
+        "emotions": [
+          "mysterious",
+          "dramatic"
+        ],
+        "scenes": [
+          "performance",
+          "masquerade"
+        ],
+        "concepts": [
+          "music",
+          "elegance",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/elegance!.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/elegance!/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure in a red mask plays the violin with intense focus. The dimly lit setting adds an air of intrigue and drama to the scene.",
+      "description": "The scene depicts a person wearing a red mask and a dark, elegant outfit, playing a violin in a dimly lit environment. The atmosphere is mysterious and dramatic, enhanced by the soft, moody lighting.",
+      "labels": {
+        "people": [
+          "masked person"
+        ],
+        "objects": [
+          "violin",
+          "mask"
+        ],
+        "actions": [
+          "playing violin"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "dramatic setting"
+        ],
+        "concepts": [
+          "mystery",
+          "music performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, masked person. Objects: violin, mask, bow, dress. Actions: playing violin. Emotions: mysterious, dramatic, intense. Scenes: performance, masquerade, dramatic setting. Concepts: mystery, music, elegance, music performance",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "masked person"
+    ],
+    "objects": [
+      "violin",
+      "mask",
+      "bow",
+      "dress"
+    ],
+    "actions": [
+      "playing violin"
+    ],
+    "emotions": [
+      "mysterious",
+      "dramatic",
+      "intense"
+    ],
+    "scenes": [
+      "performance",
+      "masquerade",
+      "dramatic setting"
+    ],
+    "concepts": [
+      "mystery",
+      "music",
+      "elegance",
+      "music performance"
+    ]
+  },
+  "metadata": {}
+}

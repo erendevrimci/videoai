@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a bear in New York.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a bear in New York.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a bear in New York/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A colossal bear towers over a city street, its mouth open in a roar as it strides between skyscrapers. Below, a yellow taxi speeds away, highlighting the surreal scale of the creature against the urban backdrop.",
+      "description": "The scene is set in a bustling city with towering skyscrapers lining the street. A gigantic bear is depicted in a dynamic pose, seemingly in motion, as it dominates the urban landscape. The presence of the bear creates a sense of chaos and urgency, emphasized by the fleeing taxi.",
+      "labels": {
+        "animals": [
+          "bear"
+        ],
+        "objects": [
+          "taxi",
+          "skyscrapers"
+        ],
+        "actions": [
+          "roaring",
+          "striding"
+        ],
+        "emotions": [
+          "chaos",
+          "urgency"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "surreal",
+          "giant creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/a bear in New York.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/a bear in New York/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A gigantic bear towers over a city street, dwarfing the surrounding skyscrapers and vehicles. The scene captures the bear mid-stride, its massive paws dominating the foreground as cars appear tiny in comparison.",
+      "description": "The image depicts a surreal scene where an enormous bear is walking through a city street. The urban setting is characterized by tall buildings and a few visible vehicles, emphasizing the bear's colossal size.",
+      "labels": {
+        "animals": [
+          "bear"
+        ],
+        "objects": [
+          "cars",
+          "buildings"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "scenes": [
+          "urban",
+          "city street"
+        ],
+        "concepts": [
+          "giant",
+          "surreal"
+        ],
+        "emotions": [
+          "awe",
+          "fear"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bear. Objects: taxi, skyscrapers, cars, buildings. Actions: roaring, striding, walking. Emotions: chaos, urgency, awe, fear. Scenes: urban, city street. Concepts: surreal, giant creature, giant",
+  "primary_labels": {
+    "animals": [
+      "bear"
+    ],
+    "objects": [
+      "taxi",
+      "skyscrapers",
+      "cars",
+      "buildings"
+    ],
+    "actions": [
+      "roaring",
+      "striding",
+      "walking"
+    ],
+    "emotions": [
+      "chaos",
+      "urgency",
+      "awe",
+      "fear"
+    ],
+    "scenes": [
+      "urban",
+      "city street"
+    ],
+    "concepts": [
+      "surreal",
+      "giant creature",
+      "giant"
+    ]
+  },
+  "metadata": {}
+}

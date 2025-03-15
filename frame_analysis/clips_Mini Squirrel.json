@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Squirrel.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Squirrel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Squirrel/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny, adorable animal is perched on a human fingertip, its large eyes gazing curiously at the viewer. The creature's delicate features and soft fur are highlighted against a blurred background, emphasizing its small size and vulnerability.",
+      "description": "The scene captures an intimate moment between a small animal and a human, set in a natural environment. The focus is on the interaction and the gentle handling of the creature.",
+      "labels": {
+        "animals": [
+          "small animal",
+          "baby animal"
+        ],
+        "objects": [
+          "fingertip",
+          "hand"
+        ],
+        "actions": [
+          "perching",
+          "gazing"
+        ],
+        "emotions": [
+          "curiosity",
+          "gentleness"
+        ],
+        "scenes": [
+          "close-up",
+          "interaction"
+        ],
+        "concepts": [
+          "vulnerability",
+          "adorability"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Squirrel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Squirrel/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny, adorable animal with large, bright eyes is perched on a human thumb. Its soft fur and delicate features are highlighted against a blurred background, emphasizing its small size and vulnerability.",
+      "description": "The scene captures a close-up of a small animal, possibly a baby rodent or marsupial, resting on a human thumb. The focus is on the animal's face and its interaction with the human hand, set against a neutral, blurred background.",
+      "labels": {
+        "animals": [
+          "baby animal",
+          "rodent"
+        ],
+        "objects": [
+          "human thumb"
+        ],
+        "actions": [
+          "perched"
+        ],
+        "emotions": [
+          "adorable",
+          "curious"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "vulnerability",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Mini Squirrel.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Mini Squirrel/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A tiny, adorable baby animal is perched on a human finger, displaying a joyful expression. Its small size and bright eyes create an endearing and heartwarming scene.",
+      "description": "The scene captures a close-up of a small, furry animal sitting on a person's finger. The background is softly blurred, emphasizing the focus on the animal's expressive face and tiny features.",
+      "labels": {
+        "animals": [
+          "baby animal"
+        ],
+        "objects": [
+          "finger"
+        ],
+        "emotions": [
+          "joy",
+          "adorableness"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "cuteness",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: baby animal, small animal, rodent. Objects: fingertip, hand, human thumb, finger. Actions: perching, gazing, perched. Emotions: curiosity, gentleness, adorable, curious, joy. Scenes: close-up, interaction. Concepts: vulnerability, adorability, innocence, cuteness, interaction",
+  "primary_labels": {
+    "animals": [
+      "baby animal",
+      "small animal",
+      "rodent"
+    ],
+    "objects": [
+      "fingertip",
+      "hand",
+      "human thumb",
+      "finger"
+    ],
+    "actions": [
+      "perching",
+      "gazing",
+      "perched"
+    ],
+    "emotions": [
+      "curiosity",
+      "gentleness",
+      "adorable",
+      "curious",
+      "joy"
+    ],
+    "scenes": [
+      "close-up",
+      "interaction"
+    ],
+    "concepts": [
+      "vulnerability",
+      "adorability",
+      "innocence",
+      "cuteness",
+      "interaction"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pirate girl on a tropical island.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pirate girl on a tropical island.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/pirate girl on a tropical island/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman dressed in pirate-themed attire stands confidently on a sandy beach. The ocean waves crash gently behind her, and her hair is tousled by the sea breeze.",
+      "description": "The scene is set on a beach with a woman dressed in a pirate costume, suggesting an adventurous or fantasy theme. The background features the ocean and a distant rocky shoreline under a clear sky.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "sky",
+          "waves"
+        ],
+        "objects": [
+          "pirate costume",
+          "belt",
+          "headband"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "beach scene",
+          "adventure"
+        ],
+        "concepts": [
+          "pirate",
+          "fantasy",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/pirate girl on a tropical island.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/pirate girl on a tropical island/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in pirate-themed attire walks confidently along a tropical beach. The ocean waves gently lap at the shore, and palm trees sway in the background under a clear blue sky.",
+      "description": "The scene is set on a tropical beach with a woman dressed in pirate-like clothing. She is walking along the sandy shore, with the ocean and palm trees creating a picturesque backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "ocean",
+          "palm trees"
+        ],
+        "objects": [
+          "pirate attire",
+          "leather straps"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "tropical beach"
+        ],
+        "concepts": [
+          "pirate theme"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: beach, ocean, sky, waves, palm trees. Objects: pirate costume, belt, headband, pirate attire, leather straps. Actions: standing, walking. Emotions: confidence, confident. Scenes: beach scene, adventure, tropical beach. Concepts: pirate, fantasy, adventure, pirate theme",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "ocean",
+      "sky",
+      "waves",
+      "palm trees"
+    ],
+    "objects": [
+      "pirate costume",
+      "belt",
+      "headband",
+      "pirate attire",
+      "leather straps"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "beach scene",
+      "adventure",
+      "tropical beach"
+    ],
+    "concepts": [
+      "pirate",
+      "fantasy",
+      "adventure",
+      "pirate theme"
+    ]
+  },
+  "metadata": {}
+}

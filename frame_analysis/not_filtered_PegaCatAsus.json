@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PegaCatAsus.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PegaCatAsus.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PegaCatAsus/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A small kitten with angelic wings is gently cradled in a person's hands, bathed in warm, golden light. The wings are spread wide, capturing the light and creating a magical, ethereal effect.",
+      "description": "The scene depicts a fantastical setting where a kitten with wings is held in human hands, suggesting a blend of reality and fantasy. The lighting enhances the mystical atmosphere, highlighting the kitten's wings and fur.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "wings"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PegaCatAsus.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PegaCatAsus/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small kitten with wings is gently cradled in a person's hands, bathed in warm, soft light. The kitten appears to be looking upwards, with its wings spread wide, creating a magical and serene atmosphere.",
+      "description": "The scene captures a whimsical moment where a kitten, adorned with angelic wings, is held carefully in human hands. The setting is likely outdoors, with a soft, golden light illuminating the kitten, creating a dreamy and ethereal ambiance.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "wings"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "outdoor"
+        ],
+        "concepts": [
+          "fantasy",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hands. Animals: kitten. Objects: wings. Actions: holding. Emotions: serenity, wonder, serene, magical. Scenes: fantasy, outdoor. Concepts: magic, innocence, fantasy, gentleness",
+  "primary_labels": {
+    "people": [
+      "hands"
+    ],
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "wings"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "serene",
+      "magical"
+    ],
+    "scenes": [
+      "fantasy",
+      "outdoor"
+    ],
+    "concepts": [
+      "magic",
+      "innocence",
+      "fantasy",
+      "gentleness"
+    ]
+  },
+  "metadata": {}
+}

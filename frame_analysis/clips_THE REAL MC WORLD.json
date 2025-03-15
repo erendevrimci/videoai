@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/THE REAL MC WORLD.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/THE REAL MC WORLD.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/THE REAL MC WORLD/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant Minecraft scene depicts a group of pixelated pigs roaming a lush, grassy landscape. The sky is bright blue with blocky clouds, and the terrain features green trees and a small wooden structure. The pigs appear to be moving towards the viewer, creating a sense of motion and liveliness.",
+      "description": "The scene is set in the popular video game Minecraft, showcasing a typical outdoor environment with animals and nature. The focus is on a herd of pigs in a grassy area surrounded by trees and a building.",
+      "labels": {
+        "animals": [
+          "pigs"
+        ],
+        "nature": [
+          "trees",
+          "grass",
+          "clouds"
+        ],
+        "objects": [
+          "building",
+          "wooden structure"
+        ],
+        "actions": [
+          "roaming",
+          "moving"
+        ],
+        "emotions": [
+          "liveliness"
+        ],
+        "scenes": [
+          "outdoor",
+          "video game"
+        ],
+        "concepts": [
+          "Minecraft",
+          "pixelated graphics"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/THE REAL MC WORLD.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/THE REAL MC WORLD/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant pixelated landscape features several blocky pigs grazing on a lush green field. The scene is set under a bright blue sky with scattered clouds, surrounded by pixelated trees and hills.",
+      "description": "The image depicts a digital, pixelated environment reminiscent of a video game world. Blocky pigs roam a grassy area, with pixelated trees and hills creating a serene and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "pigs"
+        ],
+        "nature": [
+          "trees",
+          "grass",
+          "hills",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "pixelated blocks"
+        ],
+        "actions": [
+          "grazing"
+        ],
+        "emotions": [
+          "serene",
+          "playful"
+        ],
+        "scenes": [
+          "video game landscape",
+          "outdoor"
+        ],
+        "concepts": [
+          "digital environment",
+          "pixel art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: pigs. Nature: trees, grass, clouds, hills, sky. Objects: building, wooden structure, pixelated blocks. Actions: roaming, moving, grazing. Emotions: liveliness, serene, playful. Scenes: outdoor, video game, video game landscape. Concepts: Minecraft, pixelated graphics, digital environment, pixel art",
+  "primary_labels": {
+    "animals": [
+      "pigs"
+    ],
+    "nature": [
+      "trees",
+      "grass",
+      "clouds",
+      "hills",
+      "sky"
+    ],
+    "objects": [
+      "building",
+      "wooden structure",
+      "pixelated blocks"
+    ],
+    "actions": [
+      "roaming",
+      "moving",
+      "grazing"
+    ],
+    "emotions": [
+      "liveliness",
+      "serene",
+      "playful"
+    ],
+    "scenes": [
+      "outdoor",
+      "video game",
+      "video game landscape"
+    ],
+    "concepts": [
+      "Minecraft",
+      "pixelated graphics",
+      "digital environment",
+      "pixel art"
+    ]
+  },
+  "metadata": {}
+}

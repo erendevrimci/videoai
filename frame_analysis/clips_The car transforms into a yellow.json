@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a yellow.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a yellow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car transforms into a yellow/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek yellow sports car is parked on a cobblestone street lined with elegant buildings. The scene is bathed in warm autumn light, with golden leaves hanging from the trees above.",
+      "description": "The image captures a serene urban setting in autumn, featuring a luxury sports car on a quiet street. The architecture and foliage create a picturesque backdrop.",
+      "labels": {
+        "objects": [
+          "car",
+          "buildings",
+          "cobblestones",
+          "leaves"
+        ],
+        "nature": [
+          "trees",
+          "autumn leaves"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "autumn"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "concepts": [
+          "luxury",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The car transforms into a yellow.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The car transforms into a yellow/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large yellow robot stands prominently on a cobblestone street, surrounded by autumn foliage. The robot's design is sleek and mechanical, with vibrant yellow and metallic gray colors. The scene is set in an urban environment with classic architecture in the background.",
+      "description": "The scene depicts a large robot in a city street during autumn. The robot is the focal point, standing amidst fallen leaves and under a canopy of trees with yellowing leaves. The setting suggests a peaceful urban neighborhood with historical buildings.",
+      "labels": {
+        "objects": [
+          "robot",
+          "cobblestone street",
+          "trees",
+          "leaves",
+          "buildings"
+        ],
+        "nature": [
+          "autumn leaves",
+          "trees"
+        ],
+        "scenes": [
+          "urban",
+          "street",
+          "autumn"
+        ],
+        "emotions": [
+          "serene",
+          "majestic"
+        ],
+        "concepts": [
+          "technology",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: buildings, leaves, car, cobblestones, robot. Nature: trees, autumn leaves. Scenes: urban, street, autumn. Emotions: serene, elegant, majestic. Concepts: luxury, tranquility, technology, urban life",
+  "primary_labels": {
+    "objects": [
+      "buildings",
+      "leaves",
+      "car",
+      "cobblestones",
+      "robot"
+    ],
+    "nature": [
+      "trees",
+      "autumn leaves"
+    ],
+    "scenes": [
+      "urban",
+      "street",
+      "autumn"
+    ],
+    "emotions": [
+      "serene",
+      "elegant",
+      "majestic"
+    ],
+    "concepts": [
+      "luxury",
+      "tranquility",
+      "technology",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

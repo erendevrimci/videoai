@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with me.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dance with me/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman elegantly twirls in a vibrant orange dress adorned with intricate gold embroidery. Her hair is styled in an elaborate updo with red roses, and she wears ornate jewelry, enhancing the regal appearance. The scene captures the fluid motion of her dance, emphasizing the grace and beauty of the moment.",
+      "description": "The scene depicts a woman in a richly decorated dress, performing a dance. The setting is likely a studio or stage with a dark, neutral background that highlights her attire and movement.",
+      "labels": {
+        "people": [
+          "woman",
+          "dancer"
+        ],
+        "objects": [
+          "dress",
+          "jewelry",
+          "roses"
+        ],
+        "actions": [
+          "dancing",
+          "twirling"
+        ],
+        "emotions": [
+          "graceful",
+          "elegant"
+        ],
+        "scenes": [
+          "dance performance",
+          "studio"
+        ],
+        "concepts": [
+          "beauty",
+          "artistry",
+          "motion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dance with me.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dance with me/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman dressed in an ornate, flowing orange dress is captured mid-movement, her hand gracefully touching her neck. Her hair is styled elegantly with a decorative headpiece, adding to the regal appearance.",
+      "description": "The scene depicts a woman in a studio setting, showcasing a moment of elegance and grace as she moves. The focus is on her intricate attire and poised demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "headpiece",
+          "earrings"
+        ],
+        "actions": [
+          "dancing",
+          "posing"
+        ],
+        "emotions": [
+          "graceful",
+          "elegant"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "fashion",
+          "movement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, dancer. Objects: dress, jewelry, roses, headpiece, earrings. Actions: dancing, twirling, posing. Emotions: graceful, elegant. Scenes: studio, dance performance. Concepts: beauty, artistry, motion, fashion, movement",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "dancer"
+    ],
+    "objects": [
+      "dress",
+      "jewelry",
+      "roses",
+      "headpiece",
+      "earrings"
+    ],
+    "actions": [
+      "dancing",
+      "twirling",
+      "posing"
+    ],
+    "emotions": [
+      "graceful",
+      "elegant"
+    ],
+    "scenes": [
+      "studio",
+      "dance performance"
+    ],
+    "concepts": [
+      "beauty",
+      "artistry",
+      "motion",
+      "fashion",
+      "movement"
+    ]
+  },
+  "metadata": {}
+}

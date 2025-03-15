@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Marrakesh.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Marrakesh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Marrakesh/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene features a miniature village built inside a teacup, complete with small houses, palm trees, and market stalls. Smoke rises from the buildings, adding a touch of life to the surreal setting. The background showcases a vibrant sunset sky with warm hues of orange and pink.",
+      "description": "The scene depicts a fantastical village creatively constructed within a teacup, blending elements of a traditional market and desert landscape. The setting is imaginative, merging everyday objects with a miniature world.",
+      "labels": {
+        "people": [
+          "villagers"
+        ],
+        "animals": [
+          "dog"
+        ],
+        "nature": [
+          "palm trees",
+          "cactus"
+        ],
+        "objects": [
+          "teacup",
+          "market stalls",
+          "houses"
+        ],
+        "actions": [
+          "smoke rising"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "miniature village",
+          "sunset"
+        ],
+        "concepts": [
+          "surrealism",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Marrakesh.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Marrakesh/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts a miniature desert village built atop a giant teacup. Palm trees and cacti surround the adobe-style buildings, while a small market with colorful stalls is bustling with activity. The background features a vibrant sunset sky with fluffy clouds.",
+      "description": "The image portrays a surreal setting where a small desert village is creatively constructed on a teacup. The scene combines elements of traditional architecture with a fantastical twist, set against a picturesque sunset.",
+      "labels": {
+        "people": [
+          "villagers"
+        ],
+        "nature": [
+          "palm trees",
+          "cacti"
+        ],
+        "objects": [
+          "teacup",
+          "buildings",
+          "market stalls"
+        ],
+        "actions": [
+          "market activity"
+        ],
+        "emotions": [
+          "whimsical",
+          "imaginative"
+        ],
+        "scenes": [
+          "village",
+          "market"
+        ],
+        "concepts": [
+          "surrealism",
+          "miniature world"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: villagers. Animals: dog. Nature: palm trees, cactus, cacti. Objects: teacup, market stalls, houses, buildings. Actions: smoke rising, market activity. Emotions: whimsical, imaginative. Scenes: miniature village, sunset, village, market. Concepts: surrealism, creativity, miniature world",
+  "primary_labels": {
+    "people": [
+      "villagers"
+    ],
+    "animals": [
+      "dog"
+    ],
+    "nature": [
+      "palm trees",
+      "cactus",
+      "cacti"
+    ],
+    "objects": [
+      "teacup",
+      "market stalls",
+      "houses",
+      "buildings"
+    ],
+    "actions": [
+      "smoke rising",
+      "market activity"
+    ],
+    "emotions": [
+      "whimsical",
+      "imaginative"
+    ],
+    "scenes": [
+      "miniature village",
+      "sunset",
+      "village",
+      "market"
+    ],
+    "concepts": [
+      "surrealism",
+      "creativity",
+      "miniature world"
+    ]
+  },
+  "metadata": {}
+}

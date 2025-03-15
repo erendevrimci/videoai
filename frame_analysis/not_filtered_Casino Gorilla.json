@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Casino Gorilla.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Casino Gorilla.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Casino Gorilla/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gorilla dressed in an opulent gold suit sits confidently at a poker table, holding a cigar in its mouth. The scene is set in a luxurious casino environment, with poker chips and a glass of whiskey on the table.",
+      "description": "The image depicts a surreal scene where a gorilla, dressed in an extravagant gold suit, is seated at a poker table. The setting suggests a high-stakes casino environment, with rich blue drapery in the background adding to the opulent atmosphere.",
+      "labels": {
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "poker table",
+          "poker chips",
+          "cigar",
+          "glass",
+          "suit"
+        ],
+        "actions": [
+          "sitting",
+          "holding"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "casino"
+        ],
+        "concepts": [
+          "luxury",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Casino Gorilla.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Casino Gorilla/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A gorilla dressed in an opulent gold suit sits at a poker table, exuding an air of confidence. The gorilla holds poker chips in its hands and has a cigar in its mouth, surrounded by stacks of chips and a bottle of champagne.",
+      "description": "The scene is set in a luxurious casino environment where a gorilla, anthropomorphized with human attire and accessories, is engaged in a game of poker. The setting is lavish, with rich colors and a sense of wealth and sophistication.",
+      "labels": {
+        "animals": [
+          "gorilla"
+        ],
+        "objects": [
+          "poker chips",
+          "cigar",
+          "champagne bottle",
+          "gold suit"
+        ],
+        "actions": [
+          "sitting",
+          "holding chips"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "casino",
+          "poker game"
+        ],
+        "concepts": [
+          "luxury",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: gorilla. Objects: poker chips, cigar, poker table, glass, suit. Actions: sitting, holding, holding chips. Emotions: confident, confidence. Scenes: casino, poker game. Concepts: luxury, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "gorilla"
+    ],
+    "objects": [
+      "poker chips",
+      "cigar",
+      "poker table",
+      "glass",
+      "suit"
+    ],
+    "actions": [
+      "sitting",
+      "holding",
+      "holding chips"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "casino",
+      "poker game"
+    ],
+    "concepts": [
+      "luxury",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

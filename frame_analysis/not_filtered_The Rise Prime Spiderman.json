@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Rise Prime Spiderman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Rise Prime Spiderman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Rise Prime Spiderman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A superhero in a black and gold suit crouches dramatically, surrounded by glowing orbs and electric energy. The scene is set in a dimly lit, rocky environment with beams of light highlighting the figure's dynamic pose.",
+      "description": "The scene depicts a superhero in an action-packed pose, exuding power and energy. The setting appears to be a cave or rocky area, with a mystical and electrifying atmosphere.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "orbs"
+        ],
+        "actions": [
+          "crouching",
+          "energy emission"
+        ],
+        "emotions": [
+          "powerful",
+          "intense"
+        ],
+        "scenes": [
+          "action",
+          "superhero"
+        ],
+        "concepts": [
+          "superhero",
+          "energy",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Rise Prime Spiderman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Rise Prime Spiderman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A superhero in a black and gold suit crouches dramatically, surrounded by glowing energy. The scene is dynamic, with light illuminating the figure's eyes and chest emblem.",
+      "description": "The image depicts a superhero in a powerful stance, set in a mystical environment with glowing energy surrounding them. The setting suggests a moment of transformation or readiness for action.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "emblem"
+        ],
+        "actions": [
+          "crouching"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "mystical",
+          "dramatic"
+        ],
+        "concepts": [
+          "power",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Rise Prime Spiderman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Rise Prime Spiderman/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A superhero stands confidently in a dark cave, illuminated by glowing orange energy emanating from his suit. The intricate design of the suit features a central glowing emblem, with energy tendrils extending outward. The scene is dramatic, with light beams filtering through the cave's opening, highlighting the hero's powerful stance.",
+      "description": "The scene depicts a superhero in a dark, cavernous setting, surrounded by mystical energy. The hero's suit is detailed and emits a bright, fiery glow, creating a stark contrast against the dim cave. The atmosphere is intense and dynamic, suggesting a moment of transformation or empowerment.",
+      "labels": {
+        "people": [
+          "superhero"
+        ],
+        "objects": [
+          "suit",
+          "emblem"
+        ],
+        "actions": [
+          "standing",
+          "glowing"
+        ],
+        "emotions": [
+          "confidence",
+          "power"
+        ],
+        "scenes": [
+          "cave",
+          "dramatic"
+        ],
+        "concepts": [
+          "superhero",
+          "energy",
+          "transformation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: superhero. Objects: suit, emblem, orbs. Actions: crouching, energy emission, standing, glowing. Emotions: powerful, intense, determination, confidence, power. Scenes: dramatic, action, superhero, mystical, cave. Concepts: superhero, energy, power, transformation",
+  "primary_labels": {
+    "people": [
+      "superhero"
+    ],
+    "objects": [
+      "suit",
+      "emblem",
+      "orbs"
+    ],
+    "actions": [
+      "crouching",
+      "energy emission",
+      "standing",
+      "glowing"
+    ],
+    "emotions": [
+      "powerful",
+      "intense",
+      "determination",
+      "confidence",
+      "power"
+    ],
+    "scenes": [
+      "dramatic",
+      "action",
+      "superhero",
+      "mystical",
+      "cave"
+    ],
+    "concepts": [
+      "superhero",
+      "energy",
+      "power",
+      "transformation"
+    ]
+  },
+  "metadata": {}
+}

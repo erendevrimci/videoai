@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u732b\u54aa\u7684\u53a8\u827a.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u732b\u54aa\u7684\u53a8\u827a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u732b\u54aa\u7684\u53a8\u827a/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A striped cat wearing an orange apron is in a kitchen, skillfully slicing a lotus root on a wooden cutting board. Surrounding the cat are various fresh vegetables, including tomatoes, peppers, and lettuce, creating a vibrant culinary scene.",
+      "description": "The scene is set in a cozy kitchen where a cat, dressed in an apron, is engaged in cooking activities. The kitchen is filled with natural light, highlighting the array of colorful vegetables on the countertop.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "apron",
+          "knife",
+          "cutting board",
+          "vegetables",
+          "lotus root"
+        ],
+        "actions": [
+          "slicing",
+          "cooking"
+        ],
+        "emotions": [
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/\u732b\u54aa\u7684\u53a8\u827a.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/\u732b\u54aa\u7684\u53a8\u827a/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cat wearing an orange apron is standing on a kitchen counter, skillfully slicing a lotus root with a knife. Surrounding the cat are various fresh vegetables, including tomatoes, peppers, and greens, creating a vibrant culinary scene.",
+      "description": "The scene is set in a bright, cozy kitchen where a cat is humorously depicted as a chef. The cat is actively engaged in preparing a meal, surrounded by an assortment of colorful vegetables, suggesting a playful and imaginative atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "knife",
+          "cutting board",
+          "lotus root",
+          "vegetables",
+          "apron"
+        ],
+        "actions": [
+          "slicing",
+          "cooking"
+        ],
+        "emotions": [
+          "playful",
+          "humorous"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: apron, knife, cutting board, vegetables, lotus root. Actions: slicing, cooking. Emotions: focused, playful, humorous. Scenes: kitchen, culinary. Concepts: anthropomorphism, cooking",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "apron",
+      "knife",
+      "cutting board",
+      "vegetables",
+      "lotus root"
+    ],
+    "actions": [
+      "slicing",
+      "cooking"
+    ],
+    "emotions": [
+      "focused",
+      "playful",
+      "humorous"
+    ],
+    "scenes": [
+      "kitchen",
+      "culinary"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "cooking"
+    ]
+  },
+  "metadata": {}
+}

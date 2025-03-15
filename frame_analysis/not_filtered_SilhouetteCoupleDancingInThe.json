@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SilhouetteCoupleDancingInThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SilhouetteCoupleDancingInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SilhouetteCoupleDancingInThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A silhouette of a couple holding hands is set against a textured wall adorned with vibrant red and orange poppies. The scene conveys a sense of romance and tranquility, with the flowers adding a touch of natural beauty to the composition.",
+      "description": "The image depicts a romantic scene where a silhouetted couple stands hand in hand amidst a field of colorful poppies. The textured wall in the background enhances the artistic and serene atmosphere.",
+      "labels": {
+        "people": [
+          "silhouette",
+          "couple"
+        ],
+        "nature": [
+          "poppies",
+          "flowers"
+        ],
+        "objects": [
+          "wall"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "tranquil"
+        ],
+        "scenes": [
+          "artistic",
+          "serene"
+        ],
+        "concepts": [
+          "love",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SilhouetteCoupleDancingInThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SilhouetteCoupleDancingInThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A silhouette of a couple stands amidst a field of vibrant poppies, their hands gently clasped together. The background is a textured wall with shades of teal and ochre, adding depth to the scene. The poppies' vivid reds and oranges contrast beautifully against the muted backdrop.",
+      "description": "The scene depicts a romantic and artistic setting where a couple's silhouette is surrounded by colorful poppies. The textured wall in the background adds an artistic touch, enhancing the overall visual appeal.",
+      "labels": {
+        "people": [
+          "silhouette",
+          "couple"
+        ],
+        "nature": [
+          "poppies",
+          "flowers"
+        ],
+        "objects": [
+          "wall",
+          "background"
+        ],
+        "actions": [
+          "holding hands"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "artistic",
+          "floral"
+        ],
+        "concepts": [
+          "love",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: silhouette, couple. Nature: poppies, flowers. Objects: wall, background. Actions: holding hands. Emotions: romantic, tranquil, serene. Scenes: artistic, serene, floral. Concepts: love, nature",
+  "primary_labels": {
+    "people": [
+      "silhouette",
+      "couple"
+    ],
+    "nature": [
+      "poppies",
+      "flowers"
+    ],
+    "objects": [
+      "wall",
+      "background"
+    ],
+    "actions": [
+      "holding hands"
+    ],
+    "emotions": [
+      "romantic",
+      "tranquil",
+      "serene"
+    ],
+    "scenes": [
+      "artistic",
+      "serene",
+      "floral"
+    ],
+    "concepts": [
+      "love",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

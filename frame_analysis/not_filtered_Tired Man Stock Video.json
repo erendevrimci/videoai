@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tired Man Stock Video.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tired Man Stock Video.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tired Man Stock Video/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man sits at a desk in a dimly lit office, resting his head in his hand while holding a glass. He appears deep in thought, surrounded by computer screens and scattered sticky notes.",
+      "description": "The scene is set in an office environment during the evening or night, indicated by the artificial lighting. The man seems to be working late, possibly feeling stressed or fatigued.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "desk",
+          "computer",
+          "sticky notes",
+          "glass",
+          "keyboard",
+          "pen"
+        ],
+        "actions": [
+          "thinking",
+          "resting head"
+        ],
+        "emotions": [
+          "stress",
+          "fatigue"
+        ],
+        "scenes": [
+          "office",
+          "work environment"
+        ],
+        "concepts": [
+          "work",
+          "late night",
+          "concentration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tired Man Stock Video.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tired Man Stock Video/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man sits at a cluttered desk, holding his head in his hands, appearing stressed and overwhelmed. The dimly lit office environment is filled with computer screens, papers, and sticky notes, suggesting a busy work setting.",
+      "description": "The scene depicts a man in an office setting, seemingly experiencing stress or frustration. The workspace is cluttered with various office supplies, and the lighting is soft and warm, creating a late-night work atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "computer",
+          "desk",
+          "papers",
+          "sticky notes",
+          "glass of water"
+        ],
+        "actions": [
+          "holding head"
+        ],
+        "emotions": [
+          "stress",
+          "frustration"
+        ],
+        "scenes": [
+          "office",
+          "workspace"
+        ],
+        "concepts": [
+          "work stress",
+          "overwhelm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: desk, computer, sticky notes, glass, keyboard. Actions: thinking, resting head, holding head. Emotions: stress, fatigue, frustration. Scenes: office, work environment, workspace. Concepts: work, late night, concentration, work stress, overwhelm",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "desk",
+      "computer",
+      "sticky notes",
+      "glass",
+      "keyboard"
+    ],
+    "actions": [
+      "thinking",
+      "resting head",
+      "holding head"
+    ],
+    "emotions": [
+      "stress",
+      "fatigue",
+      "frustration"
+    ],
+    "scenes": [
+      "office",
+      "work environment",
+      "workspace"
+    ],
+    "concepts": [
+      "work",
+      "late night",
+      "concentration",
+      "work stress",
+      "overwhelm"
+    ]
+  },
+  "metadata": {}
+}

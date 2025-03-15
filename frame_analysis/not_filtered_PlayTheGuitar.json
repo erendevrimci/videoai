@@ -1,0 +1,134 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PlayTheGuitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PlayTheGuitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PlayTheGuitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute animated penguin wearing large orange headphones is holding a guitar. The scene is set in a sunlit outdoor environment, with soft focus foliage in the background.",
+      "description": "The image features an adorable penguin character in a whimsical setting, enjoying music with headphones and a guitar. The warm sunlight and blurred greenery create a cheerful and lively atmosphere.",
+      "labels": {
+        "animals": [
+          "penguin"
+        ],
+        "objects": [
+          "headphones",
+          "guitar"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "cheerful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "music",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PlayTheGuitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PlayTheGuitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute animated penguin is wearing headphones and holding a guitar, standing on a sunlit path. The penguin's large eyes and cheerful expression create an endearing scene.",
+      "description": "The scene depicts an animated penguin character in a whimsical setting, likely outdoors, with soft sunlight filtering through the background. The penguin is engaged in a musical activity, suggesting a joyful and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "penguin"
+        ],
+        "objects": [
+          "guitar",
+          "headphones"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "cheerful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "animation",
+          "music"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/PlayTheGuitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/PlayTheGuitar/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A cute, animated penguin is standing outdoors, wearing orange headphones and holding a guitar. The penguin appears to be enjoying a musical moment in a sunlit natural setting.",
+      "description": "The scene depicts an adorable animated penguin character in a playful and musical context. The penguin is wearing headphones and holding a guitar, suggesting a whimsical and joyful atmosphere. The background features soft, warm lighting, indicating a serene outdoor environment.",
+      "labels": {
+        "animals": [
+          "penguin"
+        ],
+        "objects": [
+          "headphones",
+          "guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "sunlit"
+        ],
+        "concepts": [
+          "music",
+          "animation",
+          "cute"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: penguin. Objects: headphones, guitar. Actions: playing guitar, holding. Emotions: playful, cheerful, joyful. Scenes: outdoor, sunlit. Concepts: music, animation, cute",
+  "primary_labels": {
+    "animals": [
+      "penguin"
+    ],
+    "objects": [
+      "headphones",
+      "guitar"
+    ],
+    "actions": [
+      "playing guitar",
+      "holding"
+    ],
+    "emotions": [
+      "playful",
+      "cheerful",
+      "joyful"
+    ],
+    "scenes": [
+      "outdoor",
+      "sunlit"
+    ],
+    "concepts": [
+      "music",
+      "animation",
+      "cute"
+    ]
+  },
+  "metadata": {}
+}

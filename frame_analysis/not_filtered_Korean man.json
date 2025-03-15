@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Korean man.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Korean man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Korean man/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young man is standing confidently against a plain background, dressed in a sharp navy blue suit with a white shirt and black tie. His hands are casually in his pockets, and he gazes directly at the camera with a calm expression.",
+      "description": "The scene is a formal portrait of a young man in a studio setting. The focus is on the individual, who is dressed in formal attire, suggesting a professional or sophisticated context.",
+      "labels": {
+        "people": [
+          "young man"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "shirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "confident"
+        ],
+        "scenes": [
+          "studio portrait"
+        ],
+        "concepts": [
+          "formal attire",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Korean man.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Korean man/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young man is standing confidently in a formal setting, wearing a navy blue suit with a white shirt and black tie. His hands are casually placed in his pockets, and he gazes directly at the camera with a calm expression.",
+      "description": "The scene is a formal portrait of a young man in a studio setting. The background is plain, emphasizing the subject's attire and demeanor.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "suit",
+          "tie",
+          "shirt"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence",
+          "calmness"
+        ],
+        "scenes": [
+          "studio",
+          "portrait"
+        ],
+        "concepts": [
+          "formal attire",
+          "professionalism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: young man, man. Objects: suit, tie, shirt. Actions: standing. Emotions: calm, confident, confidence, calmness. Scenes: studio portrait, studio, portrait. Concepts: formal attire, professionalism",
+  "primary_labels": {
+    "people": [
+      "young man",
+      "man"
+    ],
+    "objects": [
+      "suit",
+      "tie",
+      "shirt"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "confident",
+      "confidence",
+      "calmness"
+    ],
+    "scenes": [
+      "studio portrait",
+      "studio",
+      "portrait"
+    ],
+    "concepts": [
+      "formal attire",
+      "professionalism"
+    ]
+  },
+  "metadata": {}
+}

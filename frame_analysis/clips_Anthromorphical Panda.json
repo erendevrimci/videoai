@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anthromorphical Panda.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anthromorphical Panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Anthromorphical Panda/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic panda wearing high-tech gear rides a glowing hoverboard above a neon-lit cityscape. Lightning crackles across the vibrant sky, adding drama to the scene. The panda's confident stance and reflective sunglasses suggest a sense of adventure and coolness.",
+      "description": "The scene is set in a cyberpunk city with towering skyscrapers and bright neon lights. A panda character, dressed in tactical clothing and sunglasses, is gliding through the air on a hoverboard. The atmosphere is dynamic and electrifying, with lightning illuminating the night sky.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "hoverboard",
+          "sunglasses",
+          "backpack"
+        ],
+        "actions": [
+          "hovering",
+          "riding"
+        ],
+        "emotions": [
+          "adventurous",
+          "cool"
+        ],
+        "scenes": [
+          "cyberpunk city",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Anthromorphical Panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Anthromorphical Panda/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic panda wearing sunglasses and a backpack glides effortlessly on a hoverboard above a neon-lit cityscape. The sky is electrified with vibrant lightning, casting a dramatic glow over the urban environment.",
+      "description": "The scene is set in a cyberpunk-style city, with towering buildings illuminated by neon lights. A panda character, dressed in modern attire, is seen riding a hoverboard through the air, amidst a backdrop of striking lightning.",
+      "labels": {
+        "animals": [
+          "panda"
+        ],
+        "objects": [
+          "hoverboard",
+          "sunglasses",
+          "backpack"
+        ],
+        "actions": [
+          "gliding",
+          "hovering"
+        ],
+        "emotions": [
+          "adventurous"
+        ],
+        "scenes": [
+          "cyberpunk city",
+          "nighttime"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: panda. Objects: hoverboard, sunglasses, backpack. Actions: hovering, riding, gliding. Emotions: adventurous, cool. Scenes: cyberpunk city, nighttime. Concepts: futuristic, technology",
+  "primary_labels": {
+    "animals": [
+      "panda"
+    ],
+    "objects": [
+      "hoverboard",
+      "sunglasses",
+      "backpack"
+    ],
+    "actions": [
+      "hovering",
+      "riding",
+      "gliding"
+    ],
+    "emotions": [
+      "adventurous",
+      "cool"
+    ],
+    "scenes": [
+      "cyberpunk city",
+      "nighttime"
+    ],
+    "concepts": [
+      "futuristic",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

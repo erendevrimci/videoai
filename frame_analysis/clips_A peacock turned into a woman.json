@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A peacock turned into a woman.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A peacock turned into a woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A peacock turned into a woman/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic peacock stands gracefully in a sunlit forest clearing, its vibrant plumage shimmering in the golden light. The sunlight filters through the trees, casting a warm glow on the peacock and the surrounding foliage. Bright orange flowers add a splash of color to the serene woodland scene.",
+      "description": "The scene is set in a tranquil forest clearing, where a peacock is the focal point, bathed in sunlight. The atmosphere is peaceful and enchanting, with the interplay of light and shadow creating a magical ambiance.",
+      "labels": {
+        "animals": [
+          "peacock"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "flowers"
+        ],
+        "objects": [
+          "feathers"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "woodland",
+          "sunlit clearing"
+        ],
+        "concepts": [
+          "beauty",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A peacock turned into a woman.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A peacock turned into a woman/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands gracefully in a forest, wearing a dress adorned with peacock feathers. Sunlight filters through the trees, casting a warm glow around her. She poses with her hands near her head, exuding confidence and elegance.",
+      "description": "The scene is set in a mystical forest with sunlight streaming through the trees, creating a magical atmosphere. The woman is the focal point, dressed in a vibrant peacock-themed gown, surrounded by nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "sunlight"
+        ],
+        "objects": [
+          "dress",
+          "peacock feathers"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence",
+          "elegance"
+        ],
+        "scenes": [
+          "mystical",
+          "nature"
+        ],
+        "concepts": [
+          "fashion",
+          "nature beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: peacock. Nature: forest, trees, flowers, sunlight. Objects: feathers, dress, peacock feathers. Actions: standing, posing. Emotions: serenity, confidence, elegance. Scenes: woodland, sunlit clearing, mystical, nature. Concepts: beauty, nature, fashion, nature beauty. People: woman",
+  "primary_labels": {
+    "animals": [
+      "peacock"
+    ],
+    "nature": [
+      "forest",
+      "trees",
+      "flowers",
+      "sunlight"
+    ],
+    "objects": [
+      "feathers",
+      "dress",
+      "peacock feathers"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "serenity",
+      "confidence",
+      "elegance"
+    ],
+    "scenes": [
+      "woodland",
+      "sunlit clearing",
+      "mystical",
+      "nature"
+    ],
+    "concepts": [
+      "beauty",
+      "nature",
+      "fashion",
+      "nature beauty"
+    ],
+    "people": [
+      "woman"
+    ]
+  },
+  "metadata": {}
+}

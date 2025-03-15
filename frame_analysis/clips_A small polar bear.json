@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A small polar bear.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A small polar bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A small polar bear/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny polar bear cub is gently cradled in a person's hand, showcasing its delicate features and soft fur. The cub's small paws rest on the person's thumb, highlighting its vulnerability and innocence.",
+      "description": "The scene captures a close-up of a polar bear cub being held by a human hand, emphasizing the contrast between the cub's fragility and the protective gesture of the hand. The setting suggests a warm, nurturing environment.",
+      "labels": {
+        "animals": [
+          "polar bear cub"
+        ],
+        "objects": [
+          "hand",
+          "blanket"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "tenderness",
+          "care"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate moment"
+        ],
+        "concepts": [
+          "nurturing",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A small polar bear.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A small polar bear/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny polar bear cub is gently cradled in a person's hand, showcasing its soft, fluffy fur and small, delicate features. The cub appears calm and content, nestled against a cozy, textured fabric.",
+      "description": "The scene captures a close-up of a newborn polar bear cub being held by a person, highlighting the tenderness and care in the interaction. The setting is intimate and focused on the bond between the human and the animal.",
+      "labels": {
+        "animals": [
+          "polar bear cub"
+        ],
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "fabric"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm",
+          "content"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "care",
+          "nurturing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: polar bear cub. Objects: hand, blanket, fabric. Actions: holding. Emotions: tenderness, care, calm, content. Scenes: intimate moment, close-up. Concepts: nurturing, innocence, care. People: hand",
+  "primary_labels": {
+    "animals": [
+      "polar bear cub"
+    ],
+    "objects": [
+      "hand",
+      "blanket",
+      "fabric"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "tenderness",
+      "care",
+      "calm",
+      "content"
+    ],
+    "scenes": [
+      "intimate moment",
+      "close-up"
+    ],
+    "concepts": [
+      "nurturing",
+      "innocence",
+      "care"
+    ],
+    "people": [
+      "hand"
+    ]
+  },
+  "metadata": {}
+}

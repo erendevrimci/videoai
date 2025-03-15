@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alpha-Centauri station QB254.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alpha-Centauri station QB254.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alpha-Centauri station QB254/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lone figure sits on a futuristic platform, gazing out at a breathtaking view of Earth from space. The scene is framed by the metallic structure of a space station, with several spacecraft flying in the distance. The vastness of space and the curvature of the Earth create a sense of awe and wonder.",
+      "description": "The scene depicts a futuristic space station with a view of Earth. A person is seated on the platform, observing the planet and the spacecraft flying by. The setting is serene yet technologically advanced, highlighting the marvels of space exploration.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "space station",
+          "spacecraft"
+        ],
+        "nature": [
+          "Earth",
+          "space"
+        ],
+        "actions": [
+          "sitting",
+          "observing"
+        ],
+        "emotions": [
+          "awe",
+          "wonder"
+        ],
+        "scenes": [
+          "space",
+          "futuristic"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Alpha-Centauri station QB254.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Alpha-Centauri station QB254/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lone figure sits on a futuristic space station platform, gazing out at a breathtaking view of a planet and its moon. Several spacecraft are seen flying through the starry expanse, framed by the station's high-tech architecture. The scene captures a moment of solitude and wonder in the vastness of space.",
+      "description": "The scene is set on a space station overlooking a planet with visible cloud formations and a distant moon. The architecture is advanced, with illuminated panels and metallic surfaces. Multiple spacecraft are in motion, suggesting a bustling space environment.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "spacecraft",
+          "space station",
+          "planet",
+          "moon"
+        ],
+        "actions": [
+          "sitting",
+          "gazing",
+          "flying"
+        ],
+        "emotions": [
+          "solitude",
+          "wonder"
+        ],
+        "scenes": [
+          "space",
+          "futuristic"
+        ],
+        "concepts": [
+          "exploration",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Objects: space station, spacecraft, planet, moon. Nature: Earth, space. Actions: sitting, observing, gazing, flying. Emotions: wonder, awe, solitude. Scenes: space, futuristic. Concepts: exploration, technology",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "objects": [
+      "space station",
+      "spacecraft",
+      "planet",
+      "moon"
+    ],
+    "nature": [
+      "Earth",
+      "space"
+    ],
+    "actions": [
+      "sitting",
+      "observing",
+      "gazing",
+      "flying"
+    ],
+    "emotions": [
+      "wonder",
+      "awe",
+      "solitude"
+    ],
+    "scenes": [
+      "space",
+      "futuristic"
+    ],
+    "concepts": [
+      "exploration",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

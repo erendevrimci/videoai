@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A playful scene features a cat dressed in jeans and sneakers, confidently riding a small motorcycle. The setting is a serene park with tall trees and a sunlit pathway. The cat's focused expression adds a whimsical touch to the scene.",
+      "description": "The image depicts a humorous and imaginative scene where a cat, dressed in human-like clothing, is riding a motorcycle through a peaceful park. The environment is calm and natural, with sunlight filtering through the trees, creating a warm and inviting atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "motorcycle",
+          "jeans",
+          "sneakers"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "park",
+          "outdoor"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene features a cat dressed in jeans and sneakers, confidently riding a small motorcycle down a tree-lined path. The cat's expression is focused, as it grips the handlebars with determination. The background is a blur of green foliage, suggesting a serene park setting.",
+      "description": "The image depicts a playful and imaginative scene where a cat, dressed in human-like attire, is riding a miniature motorcycle. The setting appears to be a peaceful park with tall trees and a paved path, creating a charming and humorous atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "motorcycle",
+          "jeans",
+          "sneakers"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "focused",
+          "playful"
+        ],
+        "scenes": [
+          "park",
+          "pathway"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The cat/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A playful scene features a cat dressed in jeans and sneakers, confidently riding a miniature motorcycle. The background shows a serene park setting with lush green trees and a paved path.",
+      "description": "The image depicts a whimsical and imaginative scene where a cat is humorously portrayed as riding a small motorcycle. The setting is a peaceful park with tall trees and a clear path, suggesting a leisurely ride.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "motorcycle",
+          "jeans",
+          "sneakers"
+        ],
+        "nature": [
+          "trees",
+          "park"
+        ],
+        "actions": [
+          "riding"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "outdoor",
+          "park"
+        ],
+        "concepts": [
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: motorcycle, jeans, sneakers. Actions: riding. Emotions: playful, whimsical, focused. Scenes: park, outdoor, pathway. Concepts: imagination, anthropomorphism, whimsy, humor. Nature: trees, park",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "motorcycle",
+      "jeans",
+      "sneakers"
+    ],
+    "actions": [
+      "riding"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical",
+      "focused"
+    ],
+    "scenes": [
+      "park",
+      "outdoor",
+      "pathway"
+    ],
+    "concepts": [
+      "imagination",
+      "anthropomorphism",
+      "whimsy",
+      "humor"
+    ],
+    "nature": [
+      "trees",
+      "park"
+    ]
+  },
+  "metadata": {}
+}

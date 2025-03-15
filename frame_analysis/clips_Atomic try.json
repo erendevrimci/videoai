@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Atomic try.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Atomic try.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Atomic try/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A dramatic scene unfolds over a city skyline as a massive mushroom cloud dominates the sky. The cloud is illuminated by a fiery glow, casting an ominous light over the silhouetted skyscrapers below.",
+      "description": "The image depicts a cityscape at sunset or sunrise, with a large mushroom cloud towering over the buildings. The scene suggests a catastrophic event, possibly an explosion, with the cloud's fiery colors contrasting against the darkened city.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sky"
+        ],
+        "objects": [
+          "skyscrapers",
+          "cityscape"
+        ],
+        "scenes": [
+          "urban",
+          "disaster"
+        ],
+        "emotions": [
+          "ominous",
+          "dramatic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Atomic try.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Atomic try/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dramatic scene unfolds as a massive mushroom cloud rises above a city skyline at sunset. The towering cloud is illuminated by the warm, orange glow of the setting sun, casting an ominous light over the silhouetted skyscrapers below.",
+      "description": "The image depicts a cityscape at sunset with a large mushroom cloud dominating the sky, suggesting a catastrophic event. The city is silhouetted against the vibrant colors of the sky, creating a stark contrast between the peaceful sunset and the destructive cloud.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sunset"
+        ],
+        "objects": [
+          "skyscrapers",
+          "cityscape"
+        ],
+        "scenes": [
+          "urban",
+          "dramatic"
+        ],
+        "concepts": [
+          "destruction",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Atomic try.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Atomic try/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A dramatic scene unfolds over a city skyline as a massive, mushroom-shaped cloud dominates the sky. The cloud is illuminated by the warm glow of the setting sun, casting an orange hue over the entire scene. Skyscrapers stand silhouetted against the vibrant sky, adding to the intensity of the moment.",
+      "description": "The image depicts a cityscape at sunset with a large, ominous cloud formation resembling a mushroom cloud. The scene is set in an urban environment with numerous tall buildings, creating a striking contrast with the natural phenomenon in the sky.",
+      "labels": {
+        "nature": [
+          "cloud",
+          "sunset",
+          "sky"
+        ],
+        "objects": [
+          "skyscrapers",
+          "cityscape"
+        ],
+        "scenes": [
+          "urban",
+          "dramatic"
+        ],
+        "concepts": [
+          "contrast",
+          "intensity"
+        ],
+        "emotions": [
+          "awe",
+          "tension"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: cloud, sky, sunset. Objects: skyscrapers, cityscape. Scenes: urban, dramatic, disaster. Emotions: ominous, dramatic, awe, tension. Concepts: contrast, destruction, intensity",
+  "primary_labels": {
+    "nature": [
+      "cloud",
+      "sky",
+      "sunset"
+    ],
+    "objects": [
+      "skyscrapers",
+      "cityscape"
+    ],
+    "scenes": [
+      "urban",
+      "dramatic",
+      "disaster"
+    ],
+    "emotions": [
+      "ominous",
+      "dramatic",
+      "awe",
+      "tension"
+    ],
+    "concepts": [
+      "contrast",
+      "destruction",
+      "intensity"
+    ]
+  },
+  "metadata": {}
+}

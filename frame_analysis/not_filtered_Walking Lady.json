@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Lady.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Lady.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walking Lady/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman walks confidently down a city street, wearing a white top and denim shorts. The background features a tree-lined street with shops and parked cars, creating a lively urban atmosphere.",
+      "description": "The scene captures a casual stroll in a bustling city environment. The woman is the focal point, exuding a sense of style and confidence as she walks along the sidewalk.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree"
+        ],
+        "objects": [
+          "car",
+          "shop signs",
+          "potted plants"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Walking Lady.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Walking Lady/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman walks confidently down a city street, surrounded by urban storefronts and greenery. She is dressed casually in a white top, denim shorts, and white sneakers, with a relaxed yet purposeful demeanor.",
+      "description": "The scene captures a city street setting with a blend of urban and natural elements. The woman is the focal point, walking along the sidewalk past shops and a tree-lined street.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "tree"
+        ],
+        "objects": [
+          "storefront",
+          "sign",
+          "car",
+          "sidewalk"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "fashion",
+          "casual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: tree. Objects: car, shop signs, potted plants, storefront, sign. Actions: walking. Emotions: confidence, confident. Scenes: urban, street. Concepts: fashion, casual",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "tree"
+    ],
+    "objects": [
+      "car",
+      "shop signs",
+      "potted plants",
+      "storefront",
+      "sign"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "fashion",
+      "casual"
+    ]
+  },
+  "metadata": {}
+}

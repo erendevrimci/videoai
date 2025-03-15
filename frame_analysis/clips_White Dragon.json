@@ -1,0 +1,151 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/White Dragon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/White Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/White Dragon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic white dragon with fiery red eyes coils gracefully amidst swirling flames. Its scales shimmer with an ethereal glow, contrasting against the dark, stormy backdrop.",
+      "description": "The scene depicts a mythical white dragon in a dynamic pose, surrounded by swirling flames and dark clouds. The dragon's intense gaze and the fiery vortex create a sense of power and mystique.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "clouds",
+          "fire"
+        ],
+        "objects": [
+          "scales"
+        ],
+        "actions": [
+          "coiling",
+          "swirling"
+        ],
+        "emotions": [
+          "powerful",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "mythology",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/White Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/White Dragon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic white dragon with glowing red eyes spirals through the air, exhaling a stream of smoke. Its scales shimmer in the dim light, while a fiery glow emanates from its coiled body, creating a dramatic contrast against the dark, cloudy background.",
+      "description": "The scene depicts a mythical dragon in a fantasy setting, showcasing its powerful and mystical presence. The dragon is the central focus, surrounded by swirling clouds and fiery elements, suggesting a dynamic and magical atmosphere.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "clouds"
+        ],
+        "objects": [
+          "fire"
+        ],
+        "actions": [
+          "exhaling smoke"
+        ],
+        "emotions": [
+          "majestic",
+          "powerful"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "magic",
+          "mystical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/White Dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/White Dragon/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic white dragon with glowing red eyes coils gracefully amidst swirling smoke and fiery energy. Its scales shimmer in the dim light, creating a striking contrast with the vibrant orange flames emanating from its body.",
+      "description": "The scene depicts a mythical white dragon in a dynamic pose, surrounded by smoke and fire. The dragon's intense gaze and the swirling flames create a sense of power and mystique.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "nature": [
+          "fire",
+          "smoke"
+        ],
+        "objects": [
+          "scales"
+        ],
+        "actions": [
+          "coiling",
+          "emitting flames"
+        ],
+        "emotions": [
+          "powerful",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "mythical creature",
+          "elemental energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: dragon. Nature: clouds, fire, smoke. Objects: scales, fire. Actions: coiling, swirling, exhaling smoke, emitting flames. Emotions: powerful, mystical, majestic. Scenes: fantasy, mythical. Concepts: magic, mythology, mystical, mythical creature, elemental energy",
+  "primary_labels": {
+    "animals": [
+      "dragon"
+    ],
+    "nature": [
+      "clouds",
+      "fire",
+      "smoke"
+    ],
+    "objects": [
+      "scales",
+      "fire"
+    ],
+    "actions": [
+      "coiling",
+      "swirling",
+      "exhaling smoke",
+      "emitting flames"
+    ],
+    "emotions": [
+      "powerful",
+      "mystical",
+      "majestic"
+    ],
+    "scenes": [
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "magic",
+      "mythology",
+      "mystical",
+      "mythical creature",
+      "elemental energy"
+    ]
+  },
+  "metadata": {}
+}

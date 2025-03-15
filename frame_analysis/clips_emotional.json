@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/emotional.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/emotional.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/emotional/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a person's face is partially visible through a rain-soaked window. The blurred reflection of warm light contrasts with the cool tones of the scene, creating a moody atmosphere.",
+      "description": "The scene captures an intimate and contemplative moment, with the focus on a person's eye and the texture of raindrops on glass. The setting suggests an introspective or melancholic mood, possibly indoors during a rainy evening.",
+      "labels": {
+        "people": [
+          "face",
+          "eye"
+        ],
+        "objects": [
+          "window",
+          "raindrops"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative",
+          "melancholic"
+        ],
+        "scenes": [
+          "close-up",
+          "intimate"
+        ],
+        "concepts": [
+          "reflection",
+          "introspection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/emotional.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/emotional/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a person's face is partially visible through a rain-soaked window, with droplets streaming down the glass. The dim lighting and blurred orange glow in the background create a somber and introspective atmosphere.",
+      "description": "The scene captures a contemplative moment as a person gazes through a wet window, possibly reflecting on something significant. The setting suggests an indoor environment during a rainy evening, with the outside light casting a warm glow.",
+      "labels": {
+        "people": [
+          "face",
+          "eye"
+        ],
+        "objects": [
+          "window",
+          "raindrops"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "contemplative",
+          "somber"
+        ],
+        "scenes": [
+          "indoor",
+          "rainy"
+        ],
+        "concepts": [
+          "introspection",
+          "reflection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: face, eye. Objects: window, raindrops. Actions: gazing. Emotions: contemplative, melancholic, somber. Scenes: close-up, intimate, indoor, rainy. Concepts: reflection, introspection",
+  "primary_labels": {
+    "people": [
+      "face",
+      "eye"
+    ],
+    "objects": [
+      "window",
+      "raindrops"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "contemplative",
+      "melancholic",
+      "somber"
+    ],
+    "scenes": [
+      "close-up",
+      "intimate",
+      "indoor",
+      "rainy"
+    ],
+    "concepts": [
+      "reflection",
+      "introspection"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Traditional Dance.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Traditional Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Traditional Dance/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a flowing traditional dress stands amidst a flurry of falling cherry blossoms. Her attire billows gracefully as she gazes softly towards the camera, with sunlight filtering through the trees in the background.",
+      "description": "The scene captures a serene moment in a natural setting, likely a park or garden, during cherry blossom season. The focus is on a woman in traditional attire, surrounded by gently falling petals.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "cherry blossoms",
+          "trees"
+        ],
+        "objects": [
+          "traditional dress"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "garden",
+          "outdoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Korean Traditional Dance.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Korean Traditional Dance/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a flowing peach dress gracefully dances under a canopy of cherry blossoms. Her eyes are closed, and her arms are elegantly extended, capturing a moment of serene beauty. The soft lighting and blurred background create a dreamlike atmosphere.",
+      "description": "The scene depicts a tranquil outdoor setting where a woman is dancing amidst blooming cherry blossoms. The focus is on her graceful movement and the delicate petals surrounding her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "cherry blossoms",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "dancing"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "outdoor",
+          "spring"
+        ],
+        "concepts": [
+          "grace",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: cherry blossoms, trees. Objects: traditional dress, dress. Actions: standing, gazing, dancing. Emotions: serene, peaceful, serenity. Scenes: outdoor, garden, spring. Concepts: beauty, tranquility, grace",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "cherry blossoms",
+      "trees"
+    ],
+    "objects": [
+      "traditional dress",
+      "dress"
+    ],
+    "actions": [
+      "standing",
+      "gazing",
+      "dancing"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "serenity"
+    ],
+    "scenes": [
+      "outdoor",
+      "garden",
+      "spring"
+    ],
+    "concepts": [
+      "beauty",
+      "tranquility",
+      "grace"
+    ]
+  },
+  "metadata": {}
+}

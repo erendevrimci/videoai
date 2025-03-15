@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Maquillage.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Maquillage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Maquillage/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A large mannequin head is surrounded by four miniature figures applying makeup. Each figure is dressed in a pink apron and is focused on different aspects of the makeup application process.",
+      "description": "The scene depicts a creative and whimsical setting where a large mannequin head is being attended to by four small figures. These figures are meticulously applying makeup, suggesting a beauty or fashion theme.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "mannequin head"
+        ],
+        "objects": [
+          "makeup brushes",
+          "makeup containers",
+          "aprons"
+        ],
+        "actions": [
+          "applying makeup"
+        ],
+        "emotions": [
+          "focus",
+          "creativity"
+        ],
+        "scenes": [
+          "beauty salon",
+          "makeup application"
+        ],
+        "concepts": [
+          "fashion",
+          "beauty",
+          "artistry"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Maquillage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Maquillage/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A large, lifelike doll head is being meticulously made up by several smaller dolls dressed as makeup artists. Each smaller doll is focused on applying makeup with brushes and tools, creating an intricate and surreal beauty scene.",
+      "description": "The scene is set in a stylized, artistic environment where a large doll head is the centerpiece, surrounded by smaller dolls acting as makeup artists. The setting appears to be a creative studio or a conceptual art piece, emphasizing themes of beauty and artistry.",
+      "labels": {
+        "people": [
+          "dolls"
+        ],
+        "objects": [
+          "makeup brushes",
+          "doll head"
+        ],
+        "actions": [
+          "applying makeup"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "artistic setup",
+          "beauty studio"
+        ],
+        "concepts": [
+          "beauty",
+          "artistry",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, mannequin head, dolls. Objects: makeup brushes, makeup containers, aprons, doll head. Actions: applying makeup. Emotions: focus, creativity. Scenes: beauty salon, makeup application, artistic setup, beauty studio. Concepts: beauty, artistry, fashion, surrealism",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "mannequin head",
+      "dolls"
+    ],
+    "objects": [
+      "makeup brushes",
+      "makeup containers",
+      "aprons",
+      "doll head"
+    ],
+    "actions": [
+      "applying makeup"
+    ],
+    "emotions": [
+      "focus",
+      "creativity"
+    ],
+    "scenes": [
+      "beauty salon",
+      "makeup application",
+      "artistic setup",
+      "beauty studio"
+    ],
+    "concepts": [
+      "beauty",
+      "artistry",
+      "fashion",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

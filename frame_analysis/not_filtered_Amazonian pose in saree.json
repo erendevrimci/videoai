@@ -1,0 +1,91 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amazonian pose in saree.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amazonian pose in saree.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Amazonian pose in saree/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands gracefully, adorned in a sheer, flowing gown and a golden headpiece. Her expression is serene yet powerful, as she gazes intently at the viewer.",
+      "description": "The scene depicts a woman in an elegant, ethereal setting, exuding a sense of strength and mystique. The soft lighting and neutral background enhance the focus on her regal attire and confident demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "headpiece",
+          "bracelets"
+        ],
+        "emotions": [
+          "serenity",
+          "confidence"
+        ],
+        "scenes": [
+          "portrait",
+          "ethereal"
+        ],
+        "concepts": [
+          "strength",
+          "mystique"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Amazonian pose in saree.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Amazonian pose in saree/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands gracefully, wearing a flowing, semi-transparent gown and a decorative headpiece. Her long, wavy hair cascades over her shoulders as she gazes directly at the viewer with a serene expression.",
+      "description": "The scene captures a woman in an elegant setting, possibly indoors, with soft lighting accentuating her features. The atmosphere is calm and ethereal, with a focus on her regal appearance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gown",
+          "headpiece"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "grace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gown, headpiece, bracelets. Emotions: serenity, confidence, serene. Scenes: portrait, ethereal. Concepts: strength, mystique, elegance, grace",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gown",
+      "headpiece",
+      "bracelets"
+    ],
+    "emotions": [
+      "serenity",
+      "confidence",
+      "serene"
+    ],
+    "scenes": [
+      "portrait",
+      "ethereal"
+    ],
+    "concepts": [
+      "strength",
+      "mystique",
+      "elegance",
+      "grace"
+    ]
+  },
+  "metadata": {}
+}

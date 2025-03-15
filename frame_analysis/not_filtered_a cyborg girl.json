@@ -1,0 +1,85 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cyborg girl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cyborg girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a cyborg girl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene featuring a young woman with a high-tech appearance, set against a backdrop of vibrant neon lights. Her attire resembles a sleek, metallic suit, and she gazes directly at the viewer with an intense expression.",
+      "description": "The scene is set in a cyberpunk environment, characterized by neon lighting and a high-tech aesthetic. The focus is on a woman who appears to be part human, part machine, suggesting a blend of organic and technological elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "metallic suit",
+          "neon lights"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "cyberpunk",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "cyborg"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a cyborg girl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a cyborg girl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic scene featuring a woman in a sleek, metallic outfit standing in a neon-lit environment. Her expression is intense and focused, with vibrant pink and blue lights reflecting off her attire.",
+      "description": "The scene is set in a futuristic, cyberpunk environment with neon lights creating a vibrant and colorful atmosphere. The woman appears to be in a technologically advanced setting, possibly a cityscape or a high-tech facility.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "metallic outfit",
+          "neon lights"
+        ],
+        "scenes": [
+          "futuristic",
+          "cyberpunk"
+        ],
+        "emotions": [
+          "intense",
+          "focused"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: neon lights, metallic suit, metallic outfit. Emotions: intensity, intense, focused. Scenes: cyberpunk, futuristic. Concepts: technology, cyborg",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "neon lights",
+      "metallic suit",
+      "metallic outfit"
+    ],
+    "emotions": [
+      "intensity",
+      "intense",
+      "focused"
+    ],
+    "scenes": [
+      "cyberpunk",
+      "futuristic"
+    ],
+    "concepts": [
+      "technology",
+      "cyborg"
+    ]
+  },
+  "metadata": {}
+}

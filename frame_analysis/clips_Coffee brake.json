@@ -1,0 +1,151 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee brake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee brake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffee brake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is humorously depicted as sitting inside a giant cup of coffee, with frothy milk surrounding her. She is smiling broadly, wearing a green shirt and jeans, creating a whimsical and surreal scene.",
+      "description": "The scene presents a playful and imaginative setting where a woman appears to be submerged in a large coffee cup. The background features a cozy interior with wooden floors and a potted plant, enhancing the warm and inviting atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coffee cup",
+          "frothy milk",
+          "jeans",
+          "green shirt",
+          "potted plant"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "surrealism",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee brake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffee brake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is humorously depicted as sitting inside a giant coffee cup filled with frothy milk. Her upper body is visible above the foam, while her legs, clad in jeans, appear to be submerged in the drink.",
+      "description": "The scene is a playful and surreal depiction of a woman seemingly relaxing in an oversized coffee cup. The setting appears to be indoors, with a wooden floor and a potted plant in the background, creating a cozy atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coffee cup",
+          "foam",
+          "jeans",
+          "potted plant"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "joyful",
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "surreal"
+        ],
+        "concepts": [
+          "humor",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Coffee brake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Coffee brake/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is sitting playfully inside a giant coffee cup, smiling and appearing amused. She is wearing a green shirt and jeans, with her arms and legs comfortably tucked in the oversized cup.",
+      "description": "The scene depicts a whimsical and surreal setting where a woman is humorously positioned inside an enormous coffee cup. The setting is bright and minimalistic, emphasizing the playful and imaginative nature of the scene.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "coffee cup",
+          "jeans",
+          "green shirt"
+        ],
+        "actions": [
+          "sitting",
+          "smiling"
+        ],
+        "emotions": [
+          "amusement",
+          "happiness"
+        ],
+        "scenes": [
+          "surreal",
+          "whimsical"
+        ],
+        "concepts": [
+          "playfulness",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: coffee cup, jeans, green shirt, potted plant, frothy milk. Actions: sitting, smiling. Emotions: happiness, playfulness, joyful, playful, amusement. Scenes: indoor, surreal, cozy, whimsical. Concepts: humor, surrealism, creativity, playfulness, imagination",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "coffee cup",
+      "jeans",
+      "green shirt",
+      "potted plant",
+      "frothy milk"
+    ],
+    "actions": [
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "playfulness",
+      "joyful",
+      "playful",
+      "amusement"
+    ],
+    "scenes": [
+      "indoor",
+      "surreal",
+      "cozy",
+      "whimsical"
+    ],
+    "concepts": [
+      "humor",
+      "surrealism",
+      "creativity",
+      "playfulness",
+      "imagination"
+    ]
+  },
+  "metadata": {}
+}

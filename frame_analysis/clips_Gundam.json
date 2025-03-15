@@ -1,0 +1,151 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gundam/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A giant robot stands heroically on a rocky surface in space, surrounded by asteroids. It wields a glowing blue energy weapon and carries a red and white shield.",
+      "description": "The scene depicts a futuristic setting in outer space, featuring a large humanoid robot poised on a rocky terrain. The robot is equipped with an energy weapon and shield, suggesting a readiness for battle.",
+      "labels": {
+        "objects": [
+          "robot",
+          "energy weapon",
+          "shield"
+        ],
+        "nature": [
+          "asteroids",
+          "space"
+        ],
+        "actions": [
+          "standing",
+          "wielding"
+        ],
+        "emotions": [
+          "heroic"
+        ],
+        "scenes": [
+          "outer space",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "battle"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gundam/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A giant robot, equipped with a glowing blue energy sword, navigates through a field of asteroids in space. The robot's vibrant red and white armor contrasts with the dark, starry backdrop, creating a dynamic and futuristic scene.",
+      "description": "The scene depicts a space setting where a large humanoid robot maneuvers through an asteroid field. The robot appears to be in motion, possibly engaged in a battle or mission, with its energy sword drawn.",
+      "labels": {
+        "objects": [
+          "robot",
+          "asteroids",
+          "energy sword"
+        ],
+        "actions": [
+          "navigating",
+          "holding sword"
+        ],
+        "scenes": [
+          "space",
+          "asteroid field"
+        ],
+        "concepts": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "emotions": [
+          "intense",
+          "dynamic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Gundam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Gundam/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A giant robot stands heroically on a rocky surface in space, wielding a glowing energy weapon. The backdrop features a starry sky and distant planets, creating a dramatic and futuristic scene.",
+      "description": "The scene depicts a powerful robot in a space setting, emphasizing a sense of adventure and science fiction. The robot appears to be in a stance of readiness or action, suggesting a narrative of battle or exploration.",
+      "labels": {
+        "objects": [
+          "robot",
+          "energy weapon"
+        ],
+        "nature": [
+          "space",
+          "planets",
+          "stars"
+        ],
+        "actions": [
+          "standing",
+          "wielding"
+        ],
+        "emotions": [
+          "heroic",
+          "dramatic"
+        ],
+        "scenes": [
+          "futuristic",
+          "science fiction"
+        ],
+        "concepts": [
+          "adventure",
+          "exploration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: robot, energy weapon, shield, asteroids, energy sword. Nature: space, asteroids, planets, stars. Actions: standing, wielding, navigating, holding sword. Emotions: heroic, intense, dynamic, dramatic. Scenes: futuristic, outer space, space, asteroid field, science fiction. Concepts: technology, battle, futuristic, sci-fi, adventure",
+  "primary_labels": {
+    "objects": [
+      "robot",
+      "energy weapon",
+      "shield",
+      "asteroids",
+      "energy sword"
+    ],
+    "nature": [
+      "space",
+      "asteroids",
+      "planets",
+      "stars"
+    ],
+    "actions": [
+      "standing",
+      "wielding",
+      "navigating",
+      "holding sword"
+    ],
+    "emotions": [
+      "heroic",
+      "intense",
+      "dynamic",
+      "dramatic"
+    ],
+    "scenes": [
+      "futuristic",
+      "outer space",
+      "space",
+      "asteroid field",
+      "science fiction"
+    ],
+    "concepts": [
+      "technology",
+      "battle",
+      "futuristic",
+      "sci-fi",
+      "adventure"
+    ]
+  },
+  "metadata": {}
+}

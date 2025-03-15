@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanCarefullyExaminesThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanCarefullyExaminesThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWomanCarefullyExaminesThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure with long hair and a focused expression is seated at a dimly lit table, surrounded by candles and skulls. The person is holding a skull over an ancient-looking map, creating an eerie atmosphere.",
+      "description": "The scene is set in a dark, possibly ancient room filled with mystical elements. The presence of skulls, candles, and a map suggests a ritualistic or occult setting.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "skull",
+          "candles",
+          "map",
+          "table"
+        ],
+        "actions": [
+          "holding",
+          "focusing"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "ritual",
+          "occult"
+        ],
+        "concepts": [
+          "mysticism",
+          "darkness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheWomanCarefullyExaminesThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheWomanCarefullyExaminesThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with dreadlocks and dark makeup is in a dimly lit room, surrounded by candles and mysterious objects. They are holding a skull on a table covered with a map, creating an atmosphere of mysticism and intrigue.",
+      "description": "The scene is set in a dimly lit, possibly ancient or mystical room. The person appears to be engaged in a ritual or mystical practice, surrounded by candles and skulls, enhancing the mysterious and somewhat eerie atmosphere.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "candles",
+          "skull",
+          "map"
+        ],
+        "actions": [
+          "holding",
+          "ritual"
+        ],
+        "emotions": [
+          "mystical",
+          "intriguing"
+        ],
+        "scenes": [
+          "dimly lit room",
+          "mystical setting"
+        ],
+        "concepts": [
+          "mysticism",
+          "ritual"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, person. Objects: skull, candles, map, table. Actions: holding, focusing, ritual. Emotions: mysterious, intense, mystical, intriguing. Scenes: ritual, occult, dimly lit room, mystical setting. Concepts: mysticism, darkness, ritual",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "person"
+    ],
+    "objects": [
+      "skull",
+      "candles",
+      "map",
+      "table"
+    ],
+    "actions": [
+      "holding",
+      "focusing",
+      "ritual"
+    ],
+    "emotions": [
+      "mysterious",
+      "intense",
+      "mystical",
+      "intriguing"
+    ],
+    "scenes": [
+      "ritual",
+      "occult",
+      "dimly lit room",
+      "mystical setting"
+    ],
+    "concepts": [
+      "mysticism",
+      "darkness",
+      "ritual"
+    ]
+  },
+  "metadata": {}
+}

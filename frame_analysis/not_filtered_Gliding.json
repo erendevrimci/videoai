@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gliding.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gliding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Gliding/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A vibrant coastal scene features a large mountain overlooking a serene bay with clear blue waters. A rocket is captured mid-launch, creating a dynamic splash and ripple effect on the ocean surface. The lush greenery and sandy beaches add to the tropical atmosphere.",
+      "description": "The scene is set in a tropical coastal area with a prominent mountain and a bay. A rocket is launching over the ocean, creating a dramatic visual effect. The environment is lush and vibrant, suggesting a warm, sunny day.",
+      "labels": {
+        "nature": [
+          "mountain",
+          "ocean",
+          "beach",
+          "palm trees"
+        ],
+        "objects": [
+          "rocket"
+        ],
+        "actions": [
+          "launch"
+        ],
+        "scenes": [
+          "coastal",
+          "tropical"
+        ],
+        "concepts": [
+          "exploration",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gliding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Gliding/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic tunnel with smooth, curved walls is illuminated by soft, ambient lighting. The tunnel appears to stretch into the distance, creating a sense of depth and motion.",
+      "description": "The scene is set in a modern, possibly futuristic tunnel with a sleek design. The lighting creates a dynamic and visually engaging atmosphere, suggesting movement or travel through the tunnel.",
+      "labels": {
+        "objects": [
+          "tunnel",
+          "lights"
+        ],
+        "actions": [
+          "movement",
+          "travel"
+        ],
+        "emotions": [
+          "futuristic",
+          "dynamic"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "technology",
+          "transportation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Gliding.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Gliding/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A vibrant tunnel scene with colorful reflections on the wet road surface. The tunnel is illuminated with blue and orange lights, creating a dynamic and futuristic atmosphere.",
+      "description": "The image depicts a tunnel with a wet road reflecting vivid colors from the surrounding lights. The scene appears to be set in a futuristic or stylized environment, possibly in a video game or digital art context.",
+      "labels": {
+        "objects": [
+          "tunnel",
+          "road",
+          "lights"
+        ],
+        "actions": [
+          "reflection"
+        ],
+        "emotions": [
+          "dynamic",
+          "futuristic"
+        ],
+        "scenes": [
+          "urban",
+          "futuristic"
+        ],
+        "concepts": [
+          "motion",
+          "speed"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: mountain, ocean, beach, palm trees. Objects: tunnel, lights, rocket, road. Actions: launch, movement, travel, reflection. Scenes: urban, futuristic, coastal, tropical. Concepts: exploration, adventure, technology, transportation, motion. Emotions: futuristic, dynamic",
+  "primary_labels": {
+    "nature": [
+      "mountain",
+      "ocean",
+      "beach",
+      "palm trees"
+    ],
+    "objects": [
+      "tunnel",
+      "lights",
+      "rocket",
+      "road"
+    ],
+    "actions": [
+      "launch",
+      "movement",
+      "travel",
+      "reflection"
+    ],
+    "scenes": [
+      "urban",
+      "futuristic",
+      "coastal",
+      "tropical"
+    ],
+    "concepts": [
+      "exploration",
+      "adventure",
+      "technology",
+      "transportation",
+      "motion"
+    ],
+    "emotions": [
+      "futuristic",
+      "dynamic"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlAndAPanther.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlAndAPanther.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlAndAPanther/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in an ornate green dress and crown stands closely with a black panther in a lush, natural setting. The two appear to share a moment of mutual respect and connection, as they face each other gently.",
+      "description": "The scene depicts a serene interaction between a woman and a black panther in a forested environment. The woman, dressed regally, suggests a sense of royalty or fantasy, while the panther adds an element of wildness and mystery.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "black panther"
+        ],
+        "nature": [
+          "forest",
+          "foliage"
+        ],
+        "objects": [
+          "crown",
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "facing"
+        ],
+        "emotions": [
+          "calm",
+          "respect"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "connection",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlAndAPanther.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlAndAPanther/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman wearing an ornate crown gently touches foreheads with a black panther, creating an intimate and serene moment. The background is softly blurred, highlighting the connection between the two subjects.",
+      "description": "The scene depicts a close interaction between a woman and a black panther, set against a natural, blurred backdrop. The woman, adorned with a crown and elegant attire, shares a peaceful moment with the animal, suggesting a bond of trust and mutual respect.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "black panther"
+        ],
+        "nature": [
+          "blurred background"
+        ],
+        "objects": [
+          "crown",
+          "earrings"
+        ],
+        "actions": [
+          "touching foreheads"
+        ],
+        "emotions": [
+          "serenity",
+          "intimacy"
+        ],
+        "scenes": [
+          "intimate moment",
+          "natural setting"
+        ],
+        "concepts": [
+          "trust",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: black panther. Nature: forest, foliage, blurred background. Objects: crown, dress, earrings. Actions: standing, facing, touching foreheads. Emotions: calm, respect, serenity, intimacy. Scenes: fantasy, nature, intimate moment, natural setting. Concepts: connection, harmony, trust",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "black panther"
+    ],
+    "nature": [
+      "forest",
+      "foliage",
+      "blurred background"
+    ],
+    "objects": [
+      "crown",
+      "dress",
+      "earrings"
+    ],
+    "actions": [
+      "standing",
+      "facing",
+      "touching foreheads"
+    ],
+    "emotions": [
+      "calm",
+      "respect",
+      "serenity",
+      "intimacy"
+    ],
+    "scenes": [
+      "fantasy",
+      "nature",
+      "intimate moment",
+      "natural setting"
+    ],
+    "concepts": [
+      "connection",
+      "harmony",
+      "trust"
+    ]
+  },
+  "metadata": {}
+}

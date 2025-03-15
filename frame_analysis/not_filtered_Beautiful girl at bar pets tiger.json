@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful girl at bar pets tiger.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful girl at bar pets tiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful girl at bar pets tiger/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a floral dress sits at a stylish bar, surrounded by a variety of bottles on shelves behind her. The warm lighting creates an inviting atmosphere, highlighting the elegant decor and the woman's relaxed posture.",
+      "description": "The scene is set in a chic bar with a sophisticated ambiance. Shelves filled with an assortment of liquor bottles line the wall, and a woman is seated at the bar, adding a touch of elegance to the setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bar",
+          "bottles",
+          "lamp",
+          "barstool"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "bar",
+          "indoor"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful girl at bar pets tiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful girl at bar pets tiger/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a colorful dress is standing at a bar, reaching towards the counter. Behind her, shelves filled with various bottles are visible, and a bartender is attending to other patrons.",
+      "description": "The scene is set in a dimly lit bar with a warm and inviting atmosphere. The focus is on a woman interacting with the bar counter, while other patrons and a bartender are visible in the background.",
+      "labels": {
+        "people": [
+          "woman",
+          "bartender",
+          "patrons"
+        ],
+        "objects": [
+          "bar",
+          "bottles",
+          "counter",
+          "chandeliers"
+        ],
+        "actions": [
+          "standing",
+          "reaching"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "bar",
+          "indoor"
+        ],
+        "concepts": [
+          "socializing",
+          "nightlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Beautiful girl at bar pets tiger.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Beautiful girl at bar pets tiger/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman in a floral dress gently pets a tiger inside a stylish bar. The setting is luxurious, with a well-stocked bar and elegant seating. The scene captures an unusual and serene interaction between human and animal.",
+      "description": "The scene takes place in an upscale bar where a woman is interacting with a tiger. The atmosphere is calm and sophisticated, with dim lighting and a modern interior.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "objects": [
+          "bar",
+          "bottles",
+          "bar stools"
+        ],
+        "actions": [
+          "petting"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "bar",
+          "indoor"
+        ],
+        "concepts": [
+          "luxury",
+          "unusual interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, bartender, patrons. Objects: bar, bottles, lamp, barstool, counter. Actions: sitting, standing, reaching, petting. Emotions: relaxed, calm, serene. Scenes: bar, indoor. Concepts: elegance, sophistication, socializing, nightlife, luxury. Animals: tiger",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "bartender",
+      "patrons"
+    ],
+    "objects": [
+      "bar",
+      "bottles",
+      "lamp",
+      "barstool",
+      "counter"
+    ],
+    "actions": [
+      "sitting",
+      "standing",
+      "reaching",
+      "petting"
+    ],
+    "emotions": [
+      "relaxed",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "bar",
+      "indoor"
+    ],
+    "concepts": [
+      "elegance",
+      "sophistication",
+      "socializing",
+      "nightlife",
+      "luxury"
+    ],
+    "animals": [
+      "tiger"
+    ]
+  },
+  "metadata": {}
+}

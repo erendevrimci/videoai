@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheStartsSwingingHerSword.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheStartsSwingingHerSword.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheStartsSwingingHerSword/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure stands in a dark, rainy setting, wearing a wide-brimmed hat and a flowing cloak. The figure holds a glowing red sword, creating a striking contrast against the dim background.",
+      "description": "The scene depicts a lone warrior in a shadowy environment, possibly a forest or secluded area. The atmosphere is tense and enigmatic, enhanced by the rain and the figure's concealed face.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "objects": [
+          "hat",
+          "cloak",
+          "sword"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious",
+          "tense"
+        ],
+        "scenes": [
+          "dark",
+          "rainy"
+        ],
+        "concepts": [
+          "mystery",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheStartsSwingingHerSword.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheStartsSwingingHerSword/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image is predominantly dark with small, scattered red lights visible against the black background. These lights appear to be glowing faintly, creating a mysterious and atmospheric scene.",
+      "description": "The scene is set in a dark environment with minimal visibility, characterized by the presence of small red lights. The setting suggests a nighttime or low-light scenario, possibly outdoors or in a dimly lit room.",
+      "labels": {
+        "objects": [
+          "red lights"
+        ],
+        "scenes": [
+          "darkness",
+          "nighttime"
+        ],
+        "emotions": [
+          "mysterious",
+          "atmospheric"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Objects: hat, cloak, sword, red lights. Actions: standing. Emotions: mysterious, tense, atmospheric. Scenes: dark, rainy, darkness, nighttime. Concepts: mystery, solitude",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "objects": [
+      "hat",
+      "cloak",
+      "sword",
+      "red lights"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "mysterious",
+      "tense",
+      "atmospheric"
+    ],
+    "scenes": [
+      "dark",
+      "rainy",
+      "darkness",
+      "nighttime"
+    ],
+    "concepts": [
+      "mystery",
+      "solitude"
+    ]
+  },
+  "metadata": {}
+}

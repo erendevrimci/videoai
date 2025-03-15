@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hight Fashion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hight Fashion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hight Fashion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in a stylish outfit, featuring a gray oversized jacket and dark trousers. The setting is minimalistic, with a plain background and the word 'VOGUE' prominently displayed above.",
+      "description": "The scene is a fashion editorial photo shoot, highlighting contemporary style with a focus on high fashion. The person is posed against a simple backdrop, emphasizing the clothing and overall aesthetic.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "jacket",
+          "trousers",
+          "belt"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fashion shoot"
+        ],
+        "concepts": [
+          "fashion",
+          "style",
+          "editorial"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Hight Fashion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Hight Fashion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person is walking confidently in a minimalist setting, wearing a stylish outfit. The attire includes a loose-fitting gray jacket, a beige top, and black wide-legged pants, complemented by a belt.",
+      "description": "The scene captures a fashion-forward individual in a modern, minimalist environment. The focus is on the person's attire and confident demeanor as they walk towards the camera.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "jacket",
+          "pants",
+          "belt"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "minimalist"
+        ],
+        "concepts": [
+          "style",
+          "modern"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person. Objects: jacket, belt, trousers, pants. Actions: standing, posing, walking. Emotions: confident, confidence. Scenes: fashion shoot, fashion, minimalist. Concepts: style, fashion, editorial, modern",
+  "primary_labels": {
+    "people": [
+      "person"
+    ],
+    "objects": [
+      "jacket",
+      "belt",
+      "trousers",
+      "pants"
+    ],
+    "actions": [
+      "standing",
+      "posing",
+      "walking"
+    ],
+    "emotions": [
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "fashion shoot",
+      "fashion",
+      "minimalist"
+    ],
+    "concepts": [
+      "style",
+      "fashion",
+      "editorial",
+      "modern"
+    ]
+  },
+  "metadata": {}
+}

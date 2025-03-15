@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsWalkingTowardThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsWalkingTowardThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheIsWalkingTowardThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce warrior stands in the foreground, clad in dark, weathered armor. Her intense gaze and disheveled hair convey determination and strength amidst a misty battlefield.",
+      "description": "The scene depicts a warrior in traditional armor, set against a foggy backdrop that suggests a battlefield. The atmosphere is tense and dramatic, highlighting the warrior's readiness for battle.",
+      "labels": {
+        "people": [
+          "warrior",
+          "female"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "battlefield"
+        ],
+        "concepts": [
+          "strength",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SheIsWalkingTowardThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SheIsWalkingTowardThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior stands in the foreground, clad in dark, intricately detailed armor with a red undergarment. Her intense gaze and disheveled hair convey a sense of determination and readiness for battle.",
+      "description": "The scene depicts a warrior in a historical or fantasy setting, possibly on a battlefield. The atmosphere is tense and dramatic, with a focus on the warrior's expression and attire.",
+      "labels": {
+        "people": [
+          "warrior",
+          "female"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "gazing"
+        ],
+        "emotions": [
+          "determination",
+          "intensity"
+        ],
+        "scenes": [
+          "battlefield",
+          "historical"
+        ],
+        "concepts": [
+          "strength",
+          "courage"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior, female. Objects: armor, sword. Actions: standing, gazing. Emotions: determination, intensity. Scenes: battlefield, historical. Concepts: strength, courage",
+  "primary_labels": {
+    "people": [
+      "warrior",
+      "female"
+    ],
+    "objects": [
+      "armor",
+      "sword"
+    ],
+    "actions": [
+      "standing",
+      "gazing"
+    ],
+    "emotions": [
+      "determination",
+      "intensity"
+    ],
+    "scenes": [
+      "battlefield",
+      "historical"
+    ],
+    "concepts": [
+      "strength",
+      "courage"
+    ]
+  },
+  "metadata": {}
+}

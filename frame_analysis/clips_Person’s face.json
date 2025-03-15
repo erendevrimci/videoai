@@ -1,0 +1,103 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Person\u2019s face.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Person\u2019s face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Person\u2019s face/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a person's face, highlighting droplets of water cascading down their skin. The lighting accentuates the texture of the wet skin and the strands of hair clinging to the forehead.",
+      "description": "The scene captures an intimate moment of a person in the rain, focusing on the details of water droplets and the reflective surface of the skin. The atmosphere is contemplative and serene, with a focus on the natural interaction between water and skin.",
+      "labels": {
+        "people": [
+          "face",
+          "skin"
+        ],
+        "objects": [
+          "water droplets",
+          "hair"
+        ],
+        "actions": [
+          "dripping"
+        ],
+        "emotions": [
+          "serenity",
+          "contemplation"
+        ],
+        "scenes": [
+          "close-up",
+          "rain"
+        ],
+        "concepts": [
+          "intimacy",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Person\u2019s face.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Person\u2019s face/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a person's face, showing water droplets on their skin and hair. The lighting highlights the texture of the skin and the wet strands of hair, creating a dramatic and intense atmosphere.",
+      "description": "The scene captures an intimate and intense moment, focusing on the details of a person's face as water drips down. The setting appears to be dimly lit, emphasizing the reflective surfaces of the water and skin.",
+      "labels": {
+        "people": [
+          "face",
+          "skin",
+          "hair"
+        ],
+        "objects": [
+          "water droplets"
+        ],
+        "actions": [
+          "dripping"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "close-up",
+          "dramatic"
+        ],
+        "concepts": [
+          "intimacy",
+          "focus"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: face, skin, hair. Objects: water droplets, hair. Actions: dripping. Emotions: serenity, contemplation, intensity. Scenes: close-up, rain, dramatic. Concepts: intimacy, nature, focus",
+  "primary_labels": {
+    "people": [
+      "face",
+      "skin",
+      "hair"
+    ],
+    "objects": [
+      "water droplets",
+      "hair"
+    ],
+    "actions": [
+      "dripping"
+    ],
+    "emotions": [
+      "serenity",
+      "contemplation",
+      "intensity"
+    ],
+    "scenes": [
+      "close-up",
+      "rain",
+      "dramatic"
+    ],
+    "concepts": [
+      "intimacy",
+      "nature",
+      "focus"
+    ]
+  },
+  "metadata": {}
+}

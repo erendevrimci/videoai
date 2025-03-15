@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Black woman walking through the.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Black woman walking through the.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Black woman walking through the/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot stands in a vast desert landscape at sunset. The robot is sleek and armored, with glowing red accents and a flowing black cape. The sun sets in the background, casting a warm glow over the sand dunes.",
+      "description": "The scene depicts a futuristic setting where a humanoid robot is positioned in a desert environment. The robot's design is advanced and sophisticated, with intricate details and glowing elements. The setting sun creates a dramatic and serene atmosphere.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes"
+        ],
+        "objects": [
+          "armor",
+          "cape"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "futuristic"
+        ],
+        "scenes": [
+          "sunset",
+          "futuristic landscape"
+        ],
+        "concepts": [
+          "technology",
+          "future",
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Black woman walking through the.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Black woman walking through the/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic humanoid robot stands in a vast desert landscape at sunset. The robot's sleek black armor is illuminated by glowing red accents, contrasting with the warm hues of the sand dunes. The setting sun casts a soft, golden light over the scene, enhancing the dramatic atmosphere.",
+      "description": "The scene depicts a humanoid robot in a desert environment during sunset. The robot's advanced design and glowing elements suggest a futuristic or sci-fi context. The expansive desert and the setting sun create a serene yet mysterious atmosphere.",
+      "labels": {
+        "people": [
+          "robot"
+        ],
+        "nature": [
+          "desert",
+          "sand dunes"
+        ],
+        "objects": [
+          "armor",
+          "helmet"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "isolation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: robot. Nature: desert, sand dunes. Objects: armor, cape, helmet. Actions: standing. Emotions: serene, futuristic, mysterious. Scenes: sunset, futuristic landscape, futuristic, sci-fi. Concepts: technology, future, solitude, isolation",
+  "primary_labels": {
+    "people": [
+      "robot"
+    ],
+    "nature": [
+      "desert",
+      "sand dunes"
+    ],
+    "objects": [
+      "armor",
+      "cape",
+      "helmet"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "serene",
+      "futuristic",
+      "mysterious"
+    ],
+    "scenes": [
+      "sunset",
+      "futuristic landscape",
+      "futuristic",
+      "sci-fi"
+    ],
+    "concepts": [
+      "technology",
+      "future",
+      "solitude",
+      "isolation"
+    ]
+  },
+  "metadata": {}
+}

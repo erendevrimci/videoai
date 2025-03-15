@@ -1,0 +1,120 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pizza make.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pizza make.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pizza make/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a whimsical scene, miniature figures are engaged in the playful task of preparing a giant pizza. A small excavator is involved in the process, with one person sitting on its arm and another pouring cheese from a ladder. Two other figures are spreading toppings on the pizza with oversized tools.",
+      "description": "The image depicts a creative and humorous setting where miniature people are working on a large pizza as if it were a construction site. The scene combines elements of cooking and construction, creating a surreal and imaginative atmosphere.",
+      "labels": {
+        "people": [
+          "miniature figures"
+        ],
+        "objects": [
+          "pizza",
+          "excavator",
+          "ladder",
+          "tools"
+        ],
+        "actions": [
+          "preparing",
+          "pouring",
+          "spreading"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature",
+          "construction",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pizza make.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pizza make/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts people interacting with a giant pizza. One person is on a ladder, seemingly adding ingredients, while another is spreading cheese. A third person walks on the pizza, contributing to the playful atmosphere.",
+      "description": "The scene takes place in a surreal setting where people are working on an oversized pizza. The environment is imaginative, blending elements of cooking with a fantastical twist.",
+      "labels": {
+        "people": [
+          "person on ladder",
+          "person spreading cheese",
+          "person walking"
+        ],
+        "objects": [
+          "ladder",
+          "giant pizza",
+          "cheese",
+          "basil leaves"
+        ],
+        "actions": [
+          "climbing",
+          "spreading",
+          "walking"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "fantasy",
+          "cooking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, person on ladder, person spreading cheese, person walking. Objects: ladder, pizza, excavator, tools, giant pizza. Actions: spreading, preparing, pouring, climbing, walking. Emotions: playful, whimsical. Scenes: surreal, imaginative. Concepts: cooking, miniature, construction, fantasy",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "person on ladder",
+      "person spreading cheese",
+      "person walking"
+    ],
+    "objects": [
+      "ladder",
+      "pizza",
+      "excavator",
+      "tools",
+      "giant pizza"
+    ],
+    "actions": [
+      "spreading",
+      "preparing",
+      "pouring",
+      "climbing",
+      "walking"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "surreal",
+      "imaginative"
+    ],
+    "concepts": [
+      "cooking",
+      "miniature",
+      "construction",
+      "fantasy"
+    ]
+  },
+  "metadata": {}
+}

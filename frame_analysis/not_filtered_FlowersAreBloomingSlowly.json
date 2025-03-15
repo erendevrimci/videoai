@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlowersAreBloomingSlowly.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlowersAreBloomingSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FlowersAreBloomingSlowly/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A lavish still life composition featuring a variety of vibrant flowers and ripe fruits arranged in an ornate golden vase. The scene is set against a muted background with a classical painting partially visible, adding depth and elegance. The arrangement includes grapes, peaches, and a variety of blossoms, creating a rich tapestry of colors and textures.",
+      "description": "The scene is a classic still life arrangement, showcasing an abundance of flowers and fruits in a decorative vase. It is set indoors, likely in an art studio or gallery, with a painting in the background contributing to the sophisticated atmosphere.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "fruits",
+          "grapes",
+          "peaches"
+        ],
+        "objects": [
+          "vase",
+          "painting",
+          "table"
+        ],
+        "scenes": [
+          "still life",
+          "indoor"
+        ],
+        "emotions": [
+          "elegant",
+          "opulent"
+        ],
+        "concepts": [
+          "art",
+          "classical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlowersAreBloomingSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FlowersAreBloomingSlowly/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A lavish still life arrangement features a variety of fruits and flowers in a golden vase. The scene is set against a muted background with a classical painting, adding a touch of elegance. The composition is rich with vibrant colors and intricate details.",
+      "description": "The image depicts a still life scene with an opulent display of fruits and flowers in a decorative golden vase. The setting suggests a classical or vintage atmosphere, enhanced by the presence of a framed painting in the background.",
+      "labels": {
+        "objects": [
+          "vase",
+          "fruits",
+          "flowers",
+          "painting",
+          "glass"
+        ],
+        "nature": [
+          "grapes",
+          "peach",
+          "pineapple",
+          "leaves"
+        ],
+        "scenes": [
+          "still life",
+          "classical art"
+        ],
+        "emotions": [
+          "elegance",
+          "serenity"
+        ],
+        "concepts": [
+          "opulence",
+          "artistic composition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/FlowersAreBloomingSlowly.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/FlowersAreBloomingSlowly/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A detailed still life arrangement features a variety of flowers and fruits, including vibrant grapes, peaches, and blossoms. The scene is set against a blurred background with a framed painting, adding depth and a classic touch to the composition.",
+      "description": "The image depicts a classic still life arrangement, showcasing an assortment of fruits and flowers meticulously placed in a decorative setting. The background includes a framed painting, suggesting an artistic and historical context.",
+      "labels": {
+        "nature": [
+          "flowers",
+          "fruits",
+          "grapes",
+          "peaches"
+        ],
+        "objects": [
+          "vase",
+          "frame",
+          "painting"
+        ],
+        "scenes": [
+          "still life",
+          "artistic composition"
+        ],
+        "emotions": [
+          "serene",
+          "elegant"
+        ],
+        "concepts": [
+          "art",
+          "classical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: grapes, flowers, fruits, peaches, peach. Objects: vase, painting, table, fruits, flowers. Scenes: still life, indoor, classical art, artistic composition. Emotions: elegant, opulent, elegance, serenity, serene. Concepts: art, classical, opulence, artistic composition",
+  "primary_labels": {
+    "nature": [
+      "grapes",
+      "flowers",
+      "fruits",
+      "peaches",
+      "peach"
+    ],
+    "objects": [
+      "vase",
+      "painting",
+      "table",
+      "fruits",
+      "flowers"
+    ],
+    "scenes": [
+      "still life",
+      "indoor",
+      "classical art",
+      "artistic composition"
+    ],
+    "emotions": [
+      "elegant",
+      "opulent",
+      "elegance",
+      "serenity",
+      "serene"
+    ],
+    "concepts": [
+      "art",
+      "classical",
+      "opulence",
+      "artistic composition"
+    ]
+  },
+  "metadata": {}
+}

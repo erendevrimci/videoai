@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6edd\u3068\u82b1\u3073\u3089.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6edd\u3068\u82b1\u3073\u3089.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6edd\u3068\u82b1\u3073\u3089/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene waterfall cascades down a rocky cliff, surrounded by lush foliage and a majestic tree with vibrant red leaves. Petals gently float through the air, adding a touch of whimsy to the tranquil scene. In the distance, a flock of birds soars across the sky, enhancing the sense of freedom and peace.",
+      "description": "The scene depicts a tranquil natural setting with a waterfall flowing down a cliff, surrounded by verdant vegetation and a prominent tree with red leaves. The atmosphere is peaceful and serene, with petals drifting in the air and birds flying in the background.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "tree",
+          "foliage",
+          "cliff"
+        ],
+        "objects": [
+          "petals",
+          "rocks"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "actions": [
+          "cascading",
+          "floating",
+          "soaring"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "natural landscape",
+          "tranquil setting"
+        ],
+        "concepts": [
+          "tranquility",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6edd\u3068\u82b1\u3073\u3089.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6edd\u3068\u82b1\u3073\u3089/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene waterfall cascades down a rocky cliff surrounded by lush foliage and vibrant autumn leaves. Birds soar through the sky, adding to the tranquil atmosphere. The scene is bathed in soft, natural light, creating a peaceful and harmonious environment.",
+      "description": "The image depicts a tranquil natural setting with a waterfall flowing down a rocky cliff. The surrounding trees are adorned with autumn leaves, and birds are seen flying in the sky, contributing to the serene atmosphere.",
+      "labels": {
+        "nature": [
+          "waterfall",
+          "trees",
+          "leaves",
+          "rocks"
+        ],
+        "animals": [
+          "birds"
+        ],
+        "objects": [
+          "cliff"
+        ],
+        "actions": [
+          "cascading",
+          "flying"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "natural landscape",
+          "autumn setting"
+        ],
+        "concepts": [
+          "peace",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: waterfall, tree, foliage, cliff, trees. Objects: petals, rocks, cliff. Animals: birds. Actions: cascading, floating, soaring, flying. Emotions: serene, peaceful, serenity, tranquility. Scenes: natural landscape, tranquil setting, autumn setting. Concepts: tranquility, freedom, peace, harmony",
+  "primary_labels": {
+    "nature": [
+      "waterfall",
+      "tree",
+      "foliage",
+      "cliff",
+      "trees"
+    ],
+    "objects": [
+      "petals",
+      "rocks",
+      "cliff"
+    ],
+    "animals": [
+      "birds"
+    ],
+    "actions": [
+      "cascading",
+      "floating",
+      "soaring",
+      "flying"
+    ],
+    "emotions": [
+      "serene",
+      "peaceful",
+      "serenity",
+      "tranquility"
+    ],
+    "scenes": [
+      "natural landscape",
+      "tranquil setting",
+      "autumn setting"
+    ],
+    "concepts": [
+      "tranquility",
+      "freedom",
+      "peace",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

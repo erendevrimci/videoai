@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny Cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny Cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny kitten with soft, fluffy fur is gently perched on a person's fingers. The kitten appears curious, with wide eyes and tiny whiskers twitching as it explores its surroundings.",
+      "description": "The scene captures a close-up view of a small kitten resting on human fingers, likely in an outdoor setting. The interaction between the kitten and the person conveys a sense of tenderness and curiosity.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "fingers"
+        ],
+        "actions": [
+          "resting",
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity",
+          "tenderness"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "interaction",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Tiny Cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Tiny Cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A tiny kitten with striking blue eyes is gently held between two fingers. The kitten's paws rest on the fingers, and it appears to be meowing softly.",
+      "description": "The scene captures an intimate moment between a small kitten and a person, highlighting the kitten's delicate features and curious expression. The setting is likely outdoors, with a blurred natural background.",
+      "labels": {
+        "animals": [
+          "kitten",
+          "cat"
+        ],
+        "objects": [
+          "fingers"
+        ],
+        "actions": [
+          "holding",
+          "meowing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "close-up",
+          "outdoor"
+        ],
+        "concepts": [
+          "gentleness",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten, cat. Objects: fingers. Actions: resting, exploring, holding, meowing. Emotions: curiosity, tenderness. Scenes: close-up, outdoor. Concepts: gentleness, interaction, innocence",
+  "primary_labels": {
+    "animals": [
+      "kitten",
+      "cat"
+    ],
+    "objects": [
+      "fingers"
+    ],
+    "actions": [
+      "resting",
+      "exploring",
+      "holding",
+      "meowing"
+    ],
+    "emotions": [
+      "curiosity",
+      "tenderness"
+    ],
+    "scenes": [
+      "close-up",
+      "outdoor"
+    ],
+    "concepts": [
+      "gentleness",
+      "interaction",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

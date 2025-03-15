@@ -1,0 +1,147 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cruise'n.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cruise'n.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cruise'n/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, modern car is driving along a winding road surrounded by lush greenery. The vehicle's aerodynamic design is highlighted by the sunlight filtering through the trees.",
+      "description": "The scene captures a futuristic car cruising on a curvy road in a serene, wooded area. The setting suggests a peaceful drive through a natural landscape, emphasizing the car's design and performance.",
+      "labels": {
+        "objects": [
+          "car",
+          "road"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "scenes": [
+          "outdoor",
+          "roadway"
+        ],
+        "concepts": [
+          "modernity",
+          "technology"
+        ],
+        "emotions": [
+          "calm",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cruise'n.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cruise'n/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, modern car is driving along a tree-lined road. The vehicle's metallic finish reflects the surrounding greenery, emphasizing its streamlined design. Sunlight filters through the trees, casting dynamic shadows on the road.",
+      "description": "The scene captures a futuristic car cruising on a scenic road surrounded by dense forest. The setting suggests a peaceful drive through nature, with the car's design contrasting against the natural backdrop.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "trees"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "scenes": [
+          "outdoor",
+          "road"
+        ],
+        "concepts": [
+          "modernity",
+          "technology",
+          "nature"
+        ],
+        "emotions": [
+          "calm",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Cruise'n.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Cruise'n/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A sleek, modern car is driving along a scenic road surrounded by lush greenery and trees. The vehicle's aerodynamic design and metallic finish reflect the sunlight as it moves smoothly along the asphalt. The background features a rocky hillside and dense forest, adding to the serene and natural atmosphere.",
+      "description": "The scene captures a car traveling on a road through a forested area, highlighting the vehicle's design and the natural surroundings. The setting is likely a rural or suburban road with minimal traffic, emphasizing the tranquility and beauty of the landscape.",
+      "labels": {
+        "objects": [
+          "car",
+          "road",
+          "trees",
+          "rocky hillside"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "nature": [
+          "forest",
+          "greenery"
+        ],
+        "scenes": [
+          "road trip",
+          "nature drive"
+        ],
+        "concepts": [
+          "modern design",
+          "aerodynamics"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: car, road, trees, rocky hillside. Nature: greenery, forest, trees. Actions: driving. Scenes: outdoor, roadway, road, road trip, nature drive. Concepts: modernity, technology, nature, modern design, aerodynamics. Emotions: calm, serenity, serene",
+  "primary_labels": {
+    "objects": [
+      "car",
+      "road",
+      "trees",
+      "rocky hillside"
+    ],
+    "nature": [
+      "greenery",
+      "forest",
+      "trees"
+    ],
+    "actions": [
+      "driving"
+    ],
+    "scenes": [
+      "outdoor",
+      "roadway",
+      "road",
+      "road trip",
+      "nature drive"
+    ],
+    "concepts": [
+      "modernity",
+      "technology",
+      "nature",
+      "modern design",
+      "aerodynamics"
+    ],
+    "emotions": [
+      "calm",
+      "serenity",
+      "serene"
+    ]
+  },
+  "metadata": {}
+}

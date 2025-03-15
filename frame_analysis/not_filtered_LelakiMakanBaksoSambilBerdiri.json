@@ -1,0 +1,139 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LelakiMakanBaksoSambilBerdiri.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LelakiMakanBaksoSambilBerdiri.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LelakiMakanBaksoSambilBerdiri/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man is enjoying street food in a bustling market, holding a bowl of meatballs and using chopsticks to eat. The market is lively with people walking by and various food stalls in the background.",
+      "description": "The scene is set in a busy street market, likely in an Asian city, where a man is savoring a bowl of meatballs. The atmosphere is vibrant with a mix of food aromas and the chatter of people.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "bowl",
+          "chopsticks",
+          "meatballs",
+          "food stalls"
+        ],
+        "actions": [
+          "eating",
+          "holding"
+        ],
+        "emotions": [
+          "enjoyment"
+        ],
+        "scenes": [
+          "market",
+          "street"
+        ],
+        "concepts": [
+          "street food",
+          "culinary experience"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LelakiMakanBaksoSambilBerdiri.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LelakiMakanBaksoSambilBerdiri/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man is enjoying street food in a bustling market. He holds a plate of food in one hand and uses chopsticks to eat. The background is filled with market stalls and people walking by.",
+      "description": "The scene takes place in a lively street market, where a man is savoring food amidst the hustle and bustle. The market is busy with vendors and shoppers, creating a vibrant atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "plate",
+          "chopsticks",
+          "food",
+          "market stalls"
+        ],
+        "actions": [
+          "eating",
+          "holding"
+        ],
+        "emotions": [
+          "enjoyment"
+        ],
+        "scenes": [
+          "street market"
+        ],
+        "concepts": [
+          "street food",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LelakiMakanBaksoSambilBerdiri.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LelakiMakanBaksoSambilBerdiri/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man is enjoying a meal at a bustling street market, holding a bowl of food in one hand and using chopsticks with the other. He appears to be savoring the taste with his eyes closed, surrounded by various food stalls.",
+      "description": "The scene is set in a lively street market, likely in an urban area, where a man is eating food from a bowl using chopsticks. The background is filled with food stalls and blurred figures of other people, indicating a busy environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "bowl",
+          "chopsticks",
+          "food stalls"
+        ],
+        "actions": [
+          "eating",
+          "using chopsticks"
+        ],
+        "emotions": [
+          "enjoyment"
+        ],
+        "scenes": [
+          "street market"
+        ],
+        "concepts": [
+          "street food",
+          "culinary experience"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: chopsticks, bowl, food stalls, meatballs, plate. Actions: eating, holding, using chopsticks. Emotions: enjoyment. Scenes: street market, market, street. Concepts: street food, culinary experience, urban life",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "chopsticks",
+      "bowl",
+      "food stalls",
+      "meatballs",
+      "plate"
+    ],
+    "actions": [
+      "eating",
+      "holding",
+      "using chopsticks"
+    ],
+    "emotions": [
+      "enjoyment"
+    ],
+    "scenes": [
+      "street market",
+      "market",
+      "street"
+    ],
+    "concepts": [
+      "street food",
+      "culinary experience",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

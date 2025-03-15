@@ -1,0 +1,143 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_17.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_17.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_17/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image captures a driver's perspective inside a car, showcasing a hand on the steering wheel and another on the gear shift. The road ahead is clear, with a few cars visible in the distance, and lush greenery lines the roadside.",
+      "description": "The scene is set inside a moving car, providing a first-person view of driving down a suburban road. The interior of the car is visible, including the dashboard and steering wheel, with a focus on the driver's hands.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "objects": [
+          "car",
+          "steering wheel",
+          "gear shift",
+          "dashboard"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "scenes": [
+          "road",
+          "car interior"
+        ],
+        "concepts": [
+          "driving experience",
+          "suburban setting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_17.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_17/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image shows the interior of a car from the driver's perspective, with a focus on the steering wheel and dashboard. A person is pointing at a gauge on the center console while driving down a tree-lined road.",
+      "description": "The scene takes place inside a moving car on a suburban road, surrounded by greenery. The driver is actively engaged in operating the vehicle, with attention on the dashboard controls.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "objects": [
+          "steering wheel",
+          "dashboard",
+          "gauge",
+          "car interior"
+        ],
+        "actions": [
+          "driving",
+          "pointing"
+        ],
+        "emotions": [
+          "focus"
+        ],
+        "scenes": [
+          "car interior",
+          "road"
+        ],
+        "concepts": [
+          "driving",
+          "navigation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/mustang_01_17.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/mustang_01_17/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "The image shows a driver's perspective from inside a car, with hands on the steering wheel and a view of the road ahead. The dashboard displays illuminated gauges, and the road is lined with trees and grass on either side.",
+      "description": "The scene is set inside a car, capturing the view from the driver's seat as the vehicle travels down a suburban road. The road is straight with clear markings, and the surroundings include greenery and distant buildings.",
+      "labels": {
+        "people": [
+          "driver"
+        ],
+        "objects": [
+          "car",
+          "steering wheel",
+          "dashboard",
+          "rearview mirror",
+          "road"
+        ],
+        "actions": [
+          "driving"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "suburban road",
+          "car interior"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: driver. Nature: trees, greenery. Objects: steering wheel, dashboard, car, gear shift, gauge. Actions: driving, pointing. Scenes: car interior, road, suburban road. Concepts: driving experience, suburban setting, driving, navigation. Emotions: focus, calm",
+  "primary_labels": {
+    "people": [
+      "driver"
+    ],
+    "nature": [
+      "trees",
+      "greenery"
+    ],
+    "objects": [
+      "steering wheel",
+      "dashboard",
+      "car",
+      "gear shift",
+      "gauge"
+    ],
+    "actions": [
+      "driving",
+      "pointing"
+    ],
+    "scenes": [
+      "car interior",
+      "road",
+      "suburban road"
+    ],
+    "concepts": [
+      "driving experience",
+      "suburban setting",
+      "driving",
+      "navigation"
+    ],
+    "emotions": [
+      "focus",
+      "calm"
+    ]
+  },
+  "metadata": {}
+}

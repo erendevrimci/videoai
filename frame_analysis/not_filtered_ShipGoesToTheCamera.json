@@ -1,0 +1,92 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipGoesToTheCamera.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipGoesToTheCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipGoesToTheCamera/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A majestic ship sails through a narrow icy river, surrounded by snow-laden trees and mountains. The vibrant aurora borealis illuminates the night sky, casting colorful reflections on the water. The scene is serene and magical, with the ship's warm lights contrasting against the cool blues of the landscape.",
+      "description": "The scene depicts a large ship navigating through a frozen river in a mountainous, snow-covered landscape. The aurora borealis lights up the night sky, creating a mystical atmosphere.",
+      "labels": {
+        "nature": [
+          "snow",
+          "trees",
+          "mountains",
+          "aurora borealis"
+        ],
+        "objects": [
+          "ship",
+          "river"
+        ],
+        "scenes": [
+          "winter",
+          "night",
+          "northern lights"
+        ],
+        "emotions": [
+          "serenity",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ShipGoesToTheCamera.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ShipGoesToTheCamera/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic ship sails through a narrow, icy channel surrounded by snow-covered trees and mountains. The ship is illuminated by warm lights, contrasting with the cool blues and greens of the aurora borealis in the night sky. The scene is tranquil and awe-inspiring, capturing the beauty of nature and human craftsmanship.",
+      "description": "The scene depicts a large, illuminated ship navigating through a frozen landscape at night. Snow-covered trees and mountains frame the scene, while the northern lights create a magical atmosphere.",
+      "labels": {
+        "nature": [
+          "snow",
+          "trees",
+          "mountains",
+          "aurora borealis"
+        ],
+        "objects": [
+          "ship",
+          "lights"
+        ],
+        "scenes": [
+          "night",
+          "winter",
+          "arctic"
+        ],
+        "emotions": [
+          "tranquility",
+          "awe"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: snow, trees, mountains, aurora borealis. Objects: ship, river, lights. Scenes: winter, night, northern lights, arctic. Emotions: serenity, wonder, tranquility, awe",
+  "primary_labels": {
+    "nature": [
+      "snow",
+      "trees",
+      "mountains",
+      "aurora borealis"
+    ],
+    "objects": [
+      "ship",
+      "river",
+      "lights"
+    ],
+    "scenes": [
+      "winter",
+      "night",
+      "northern lights",
+      "arctic"
+    ],
+    "emotions": [
+      "serenity",
+      "wonder",
+      "tranquility",
+      "awe"
+    ]
+  },
+  "metadata": {}
+}

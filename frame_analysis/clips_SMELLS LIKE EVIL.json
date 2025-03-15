@@ -1,0 +1,141 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SMELLS LIKE EVIL.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SMELLS LIKE EVIL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SMELLS LIKE EVIL/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A haunting figure with glowing orange eyes and sharp teeth emerges from a tangled mass of yellow and black vines. The scene is both eerie and captivating, with the figure's intense gaze drawing the viewer in. The contrast between the dark skin and vibrant surroundings creates a striking visual impact.",
+      "description": "The scene depicts a surreal and unsettling atmosphere, where a sinister-looking figure is partially obscured by a chaotic mix of yellow and black vines. The setting suggests a fantastical or otherworldly environment, emphasizing a sense of mystery and intrigue.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "nature": [
+          "vines"
+        ],
+        "objects": [
+          "vines"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "eerie",
+          "unsettling"
+        ],
+        "scenes": [
+          "fantastical",
+          "otherworldly"
+        ],
+        "concepts": [
+          "mystery",
+          "intrigue"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SMELLS LIKE EVIL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SMELLS LIKE EVIL/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dark, humanoid figure with glowing orange eyes and sharp teeth emerges from a fiery, tangled environment. The scene is framed by twisted, charred branches and vibrant orange flames, creating a menacing and otherworldly atmosphere.",
+      "description": "The image depicts a sinister, supernatural setting where a humanoid figure with an eerie expression is surrounded by elements resembling fire and charred wood. The environment suggests a scene of chaos or destruction, with intense colors and dramatic lighting enhancing the unsettling mood.",
+      "labels": {
+        "people": [
+          "humanoid figure"
+        ],
+        "nature": [
+          "fire"
+        ],
+        "objects": [
+          "charred branches"
+        ],
+        "actions": [
+          "emerging"
+        ],
+        "emotions": [
+          "menacing",
+          "eerie"
+        ],
+        "scenes": [
+          "supernatural",
+          "chaotic"
+        ],
+        "concepts": [
+          "otherworldly",
+          "destruction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/SMELLS LIKE EVIL.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/SMELLS LIKE EVIL/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A mysterious scene with vibrant yellow flowers surrounding a blurred figure. The background is dominated by intense flames, creating a dramatic contrast.",
+      "description": "The image depicts a surreal scene where bright yellow flowers are in the foreground, while a blurred figure is partially visible amidst intense flames in the background. The setting suggests a fiery environment, possibly symbolic or fantastical.",
+      "labels": {
+        "nature": [
+          "flowers"
+        ],
+        "objects": [
+          "flames"
+        ],
+        "scenes": [
+          "surreal",
+          "dramatic"
+        ],
+        "emotions": [
+          "intense",
+          "mysterious"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: figure, humanoid figure. Nature: vines, fire, flowers. Objects: vines, charred branches, flames. Actions: emerging. Emotions: eerie, unsettling, menacing, intense, mysterious. Scenes: fantastical, otherworldly, supernatural, chaotic, surreal. Concepts: mystery, intrigue, otherworldly, destruction",
+  "primary_labels": {
+    "people": [
+      "figure",
+      "humanoid figure"
+    ],
+    "nature": [
+      "vines",
+      "fire",
+      "flowers"
+    ],
+    "objects": [
+      "vines",
+      "charred branches",
+      "flames"
+    ],
+    "actions": [
+      "emerging"
+    ],
+    "emotions": [
+      "eerie",
+      "unsettling",
+      "menacing",
+      "intense",
+      "mysterious"
+    ],
+    "scenes": [
+      "fantastical",
+      "otherworldly",
+      "supernatural",
+      "chaotic",
+      "surreal"
+    ],
+    "concepts": [
+      "mystery",
+      "intrigue",
+      "otherworldly",
+      "destruction"
+    ]
+  },
+  "metadata": {}
+}

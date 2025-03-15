@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/On a mission.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/On a mission.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/On a mission/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dimly lit alleyway, three anthropomorphic mice stand amidst scattered debris, their large ears and bright eyes catching the neon glow from overhead signs. The scene is set in a bustling urban environment, with colorful neon lights illuminating the narrow passage. The mice appear to be on a mission, each wearing small backpacks and determined expressions.",
+      "description": "The scene takes place in a narrow, cluttered alleyway in an urban setting, likely at night. The alley is lined with neon signs in various colors, casting a vibrant glow over the area. The focus is on three mice, anthropomorphized with clothing and backpacks, suggesting a sense of adventure or exploration.",
+      "labels": {
+        "animals": [
+          "mice"
+        ],
+        "objects": [
+          "neon signs",
+          "debris",
+          "backpacks"
+        ],
+        "actions": [
+          "standing",
+          "exploring"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "urban alley",
+          "nighttime"
+        ],
+        "concepts": [
+          "adventure",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/On a mission.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/On a mission/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a dimly lit urban alley, three anthropomorphic mice stand amidst scattered debris, illuminated by the neon glow of surrounding signs. The mice are dressed in small outfits, suggesting a sense of adventure or mission. The alley is cluttered with various objects, creating a scene of organized chaos.",
+      "description": "The scene is set in a narrow, neon-lit alleyway in an urban environment, possibly a city at night. The atmosphere is a mix of mystery and whimsy, with the mice appearing as if they are on a secretive quest. The alley is lined with glowing signs and littered with discarded items, adding to the gritty yet fantastical setting.",
+      "labels": {
+        "animals": [
+          "mice"
+        ],
+        "objects": [
+          "neon signs",
+          "debris",
+          "alley"
+        ],
+        "actions": [
+          "standing",
+          "exploring"
+        ],
+        "emotions": [
+          "curiosity",
+          "adventure"
+        ],
+        "scenes": [
+          "urban",
+          "night"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mice. Objects: neon signs, debris, backpacks, alley. Actions: standing, exploring. Emotions: determination, curiosity, adventure. Scenes: urban alley, nighttime, urban, night. Concepts: adventure, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "mice"
+    ],
+    "objects": [
+      "neon signs",
+      "debris",
+      "backpacks",
+      "alley"
+    ],
+    "actions": [
+      "standing",
+      "exploring"
+    ],
+    "emotions": [
+      "determination",
+      "curiosity",
+      "adventure"
+    ],
+    "scenes": [
+      "urban alley",
+      "nighttime",
+      "urban",
+      "night"
+    ],
+    "concepts": [
+      "adventure",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

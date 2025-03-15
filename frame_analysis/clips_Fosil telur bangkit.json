@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fosil telur bangkit.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fosil telur bangkit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fosil telur bangkit/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a bustling urban street scene with pedestrians walking along the sidewalk. Large spherical concrete barriers line the path, separating it from the road where vehicles and motorcycles are visible. Trees and storefronts add to the lively city atmosphere.",
+      "description": "This scene captures a typical city street with a mix of pedestrian and vehicular activity. The sidewalk is lined with spherical barriers, and people are seen walking past shops and trees. The road is busy with cars and motorcycles, indicating an active urban environment.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "spherical barriers",
+          "sidewalk",
+          "road",
+          "vehicles",
+          "motorcycles",
+          "storefronts"
+        ],
+        "actions": [
+          "walking",
+          "driving"
+        ],
+        "emotions": [
+          "bustling"
+        ],
+        "scenes": [
+          "urban street",
+          "city"
+        ],
+        "concepts": [
+          "urban life",
+          "transportation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fosil telur bangkit.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fosil telur bangkit/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of small dinosaur-like creatures appears to be crossing a city street, creating a surreal scene. Pedestrians and vehicles are visible in the background, adding to the juxtaposition of prehistoric and modern elements.",
+      "description": "The scene takes place on a city street where small dinosaur-like creatures are seemingly crossing the road. The urban setting includes pedestrians, vehicles, and storefronts, creating a contrast between the ancient-looking creatures and the contemporary environment.",
+      "labels": {
+        "animals": [
+          "dinosaur"
+        ],
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "vehicles",
+          "storefronts"
+        ],
+        "actions": [
+          "crossing"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "city street"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians. Objects: vehicles, storefronts, spherical barriers, sidewalk, road. Actions: walking, driving, crossing. Emotions: bustling, surreal. Scenes: urban street, city, city street. Concepts: urban life, transportation, juxtaposition, surrealism. Animals: dinosaur",
+  "primary_labels": {
+    "people": [
+      "pedestrians"
+    ],
+    "objects": [
+      "vehicles",
+      "storefronts",
+      "spherical barriers",
+      "sidewalk",
+      "road"
+    ],
+    "actions": [
+      "walking",
+      "driving",
+      "crossing"
+    ],
+    "emotions": [
+      "bustling",
+      "surreal"
+    ],
+    "scenes": [
+      "urban street",
+      "city",
+      "city street"
+    ],
+    "concepts": [
+      "urban life",
+      "transportation",
+      "juxtaposition",
+      "surrealism"
+    ],
+    "animals": [
+      "dinosaur"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pilot cat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pilot cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pilot cat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat is dressed in a pilot's outfit, complete with goggles and a harness, sitting in the cockpit of an aircraft. The cat's expression is focused and determined, as if ready for an adventurous flight.",
+      "description": "The scene depicts a whimsical and imaginative setting where a cat is portrayed as a pilot inside an aircraft cockpit. The cat is wearing a brown pilot jacket and goggles, enhancing the playful and adventurous theme.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "goggles",
+          "pilot jacket",
+          "harness",
+          "cockpit",
+          "aircraft"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "focused",
+          "determined"
+        ],
+        "scenes": [
+          "aviation",
+          "cockpit"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Pilot cat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Pilot cat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat is seated in the cockpit of an aircraft, wearing aviator goggles and a brown jacket. The cat appears calm and focused, as if ready for an adventurous flight.",
+      "description": "The scene depicts a whimsical and imaginative setting where a cat is portrayed as a pilot inside an aircraft cockpit. The setting suggests a playful and adventurous theme, blending elements of fantasy with aviation.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "aviator goggles",
+          "jacket",
+          "aircraft cockpit"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "focused"
+        ],
+        "scenes": [
+          "aviation",
+          "fantasy"
+        ],
+        "concepts": [
+          "adventure",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: goggles, pilot jacket, harness, cockpit, aircraft. Actions: sitting. Emotions: focused, determined, calm. Scenes: aviation, cockpit, fantasy. Concepts: adventure, imagination, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "goggles",
+      "pilot jacket",
+      "harness",
+      "cockpit",
+      "aircraft"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "focused",
+      "determined",
+      "calm"
+    ],
+    "scenes": [
+      "aviation",
+      "cockpit",
+      "fantasy"
+    ],
+    "concepts": [
+      "adventure",
+      "imagination",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

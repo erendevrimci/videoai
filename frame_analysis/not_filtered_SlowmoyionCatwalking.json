@@ -1,0 +1,133 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowmoyionCatwalking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowmoyionCatwalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowmoyionCatwalking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic figure stands confidently, adorned in a sleek, black latex outfit with white accents. The headgear resembles a maid's bonnet, adding a unique twist to the high-tech appearance. The background is blurred, emphasizing the figure's striking presence.",
+      "description": "The scene depicts a person in a futuristic, avant-garde outfit that blends elements of a traditional maid's uniform with high-tech aesthetics. The setting is likely indoors, with a focus on fashion and design.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "latex outfit",
+          "headgear"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "futuristic",
+          "fashion"
+        ],
+        "concepts": [
+          "technology",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowmoyionCatwalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowmoyionCatwalking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic figure stands confidently, clad in a sleek, black latex outfit with white accents. The attire includes a helmet-like visor and gloves, creating a mysterious and avant-garde appearance.",
+      "description": "The scene depicts a futuristic or sci-fi setting with a focus on fashion and technology. The figure's attire suggests a blend of high fashion and advanced technology, set against a blurred, neutral background.",
+      "labels": {
+        "people": [
+          "figure"
+        ],
+        "objects": [
+          "latex outfit",
+          "visor",
+          "gloves"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "fashion",
+          "technology",
+          "avant-garde"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/SlowmoyionCatwalking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/SlowmoyionCatwalking/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A futuristic figure stands confidently, dressed in a glossy black outfit with white accents. The attire includes a high-tech helmet and gloves, creating a striking contrast against the blurred background.",
+      "description": "The scene depicts a futuristic or sci-fi setting with a focus on a single figure. The person is dressed in a sleek, form-fitting black outfit with white details, suggesting a blend of technology and fashion.",
+      "labels": {
+        "people": [
+          "figure",
+          "person"
+        ],
+        "objects": [
+          "helmet",
+          "gloves",
+          "outfit"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "concepts": [
+          "technology",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, figure. Objects: latex outfit, gloves, headgear, visor, helmet. Emotions: confident, mysterious, confidence. Scenes: futuristic, sci-fi, fashion. Concepts: technology, fashion, style, avant-garde. Actions: standing",
+  "primary_labels": {
+    "people": [
+      "person",
+      "figure"
+    ],
+    "objects": [
+      "latex outfit",
+      "gloves",
+      "headgear",
+      "visor",
+      "helmet"
+    ],
+    "emotions": [
+      "confident",
+      "mysterious",
+      "confidence"
+    ],
+    "scenes": [
+      "futuristic",
+      "sci-fi",
+      "fashion"
+    ],
+    "concepts": [
+      "technology",
+      "fashion",
+      "style",
+      "avant-garde"
+    ],
+    "actions": [
+      "standing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,144 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Succulent care.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Succulent care.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Succulent care/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up view of a succulent plant being watered in a terracotta pot. The water stream is captured mid-flow, creating ripples on the soil surface. The background is softly blurred, highlighting the plant's vibrant green leaves.",
+      "description": "The scene depicts a succulent plant being carefully watered, emphasizing the nurturing aspect of gardening. The setting appears to be a garden or indoor plant area with natural lighting.",
+      "labels": {
+        "nature": [
+          "succulent",
+          "plant"
+        ],
+        "objects": [
+          "terracotta pot",
+          "water"
+        ],
+        "actions": [
+          "watering",
+          "flowing"
+        ],
+        "emotions": [
+          "calm",
+          "nurturing"
+        ],
+        "scenes": [
+          "gardening",
+          "close-up"
+        ],
+        "concepts": [
+          "care",
+          "growth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Succulent care.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Succulent care/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up view of a succulent plant being gently watered in a terracotta pot. The water cascades over the vibrant green leaves, creating ripples in the soil below. The background is softly blurred, highlighting the plant's lush texture.",
+      "description": "The scene captures a moment of care in a garden setting, focusing on the nurturing of a succulent plant. The image emphasizes the interaction between water and plant life, set against a backdrop of natural greenery.",
+      "labels": {
+        "nature": [
+          "succulent",
+          "plant",
+          "leaves"
+        ],
+        "objects": [
+          "watering can",
+          "terracotta pot"
+        ],
+        "actions": [
+          "watering",
+          "pouring"
+        ],
+        "emotions": [
+          "calm",
+          "nurturing"
+        ],
+        "scenes": [
+          "garden",
+          "close-up"
+        ],
+        "concepts": [
+          "care",
+          "growth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Succulent care.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Succulent care/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up view of a succulent plant being watered from a green watering can. The water cascades gently over the plant's leaves, creating a serene and refreshing scene. The background is softly blurred, highlighting the vibrant green of the succulent.",
+      "description": "The scene depicts a succulent plant in a pot being watered, likely in a garden or indoor setting. The focus is on the plant and the water, with a blurred natural background.",
+      "labels": {
+        "nature": [
+          "succulent",
+          "plant"
+        ],
+        "objects": [
+          "watering can",
+          "pot"
+        ],
+        "actions": [
+          "watering"
+        ],
+        "scenes": [
+          "gardening"
+        ],
+        "concepts": [
+          "care",
+          "nurturing"
+        ],
+        "emotions": [
+          "calm",
+          "refreshing"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Nature: succulent, plant, leaves. Objects: terracotta pot, watering can, water, pot. Actions: watering, flowing, pouring. Emotions: calm, nurturing, refreshing. Scenes: gardening, close-up, garden. Concepts: care, growth, nurturing",
+  "primary_labels": {
+    "nature": [
+      "succulent",
+      "plant",
+      "leaves"
+    ],
+    "objects": [
+      "terracotta pot",
+      "watering can",
+      "water",
+      "pot"
+    ],
+    "actions": [
+      "watering",
+      "flowing",
+      "pouring"
+    ],
+    "emotions": [
+      "calm",
+      "nurturing",
+      "refreshing"
+    ],
+    "scenes": [
+      "gardening",
+      "close-up",
+      "garden"
+    ],
+    "concepts": [
+      "care",
+      "growth",
+      "nurturing"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,138 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby panda.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby panda/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A tiny red panda cub is gently cradled in a person's hand, showcasing its delicate features and soft fur. The cub's eyes are open, giving it an inquisitive look, while its small ears and nose add to its adorable appearance.",
+      "description": "The scene captures a close-up of a red panda cub being held gently in a human hand. The setting is likely indoors, with soft lighting highlighting the cub's fur and features.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "animals": [
+          "red panda cub"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "gentle",
+          "adorable"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "care",
+          "nurture"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby panda/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a red panda being gently held by a person, showcasing its distinct facial markings and soft fur. The red panda appears calm and relaxed, with its head slightly tilted upwards.",
+      "description": "The scene captures a red panda in a serene indoor setting, being held by a person. The focus is on the panda's face, highlighting its unique features and gentle demeanor.",
+      "labels": {
+        "animals": [
+          "red panda"
+        ],
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "gentleness",
+          "care"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/baby panda.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/baby panda/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A close-up view of a red panda being gently held by a person's hand. The red panda's soft fur and distinct facial markings are clearly visible, conveying a sense of calm and curiosity.",
+      "description": "The scene captures a red panda in a close-up shot, being held by a person. The setting appears to be calm and intimate, focusing on the interaction between the human and the animal.",
+      "labels": {
+        "animals": [
+          "red panda"
+        ],
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "hand"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "close-up"
+        ],
+        "concepts": [
+          "interaction",
+          "gentleness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand, person. Animals: red panda, red panda cub. Objects: hand. Actions: holding. Emotions: calm, gentle, adorable. Scenes: close-up, indoor. Concepts: care, gentleness, nurture, interaction",
+  "primary_labels": {
+    "people": [
+      "hand",
+      "person"
+    ],
+    "animals": [
+      "red panda",
+      "red panda cub"
+    ],
+    "objects": [
+      "hand"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "calm",
+      "gentle",
+      "adorable"
+    ],
+    "scenes": [
+      "close-up",
+      "indoor"
+    ],
+    "concepts": [
+      "care",
+      "gentleness",
+      "nurture",
+      "interaction"
+    ]
+  },
+  "metadata": {}
+}

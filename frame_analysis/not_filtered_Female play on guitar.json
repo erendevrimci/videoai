@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female play on guitar.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female play on guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Female play on guitar/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands confidently in a desert landscape, playing an electric guitar. Her hair flows in the wind as a dramatic explosion occurs in the background, casting a warm glow over the scene.",
+      "description": "The scene is set in a barren desert with a striking explosion in the background, creating a sense of drama and intensity. The woman, dressed in minimal attire, is the focal point, exuding confidence and power as she plays the guitar.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "desert"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "explosion",
+          "desert landscape"
+        ],
+        "concepts": [
+          "music",
+          "power",
+          "drama"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Female play on guitar.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Female play on guitar/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is playing an electric guitar in a desert setting during sunset. Smoke and fire are visible in the background, creating a dramatic atmosphere. Her hair flows in the wind, adding to the dynamic scene.",
+      "description": "The scene is set in a desert during sunset, with a woman playing an electric guitar. The background features smoke and fire, suggesting a dramatic or intense event. The lighting is warm and the composition focuses on the woman and her guitar.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "desert",
+          "sunset"
+        ],
+        "objects": [
+          "electric guitar"
+        ],
+        "actions": [
+          "playing guitar"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "dramatic"
+        ],
+        "concepts": [
+          "music",
+          "performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: desert, sunset. Objects: electric guitar. Actions: playing guitar. Emotions: confidence, intensity. Scenes: explosion, desert landscape, dramatic. Concepts: music, power, drama, performance",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "desert",
+      "sunset"
+    ],
+    "objects": [
+      "electric guitar"
+    ],
+    "actions": [
+      "playing guitar"
+    ],
+    "emotions": [
+      "confidence",
+      "intensity"
+    ],
+    "scenes": [
+      "explosion",
+      "desert landscape",
+      "dramatic"
+    ],
+    "concepts": [
+      "music",
+      "power",
+      "drama",
+      "performance"
+    ]
+  },
+  "metadata": {}
+}

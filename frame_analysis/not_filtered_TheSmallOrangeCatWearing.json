@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSmallOrangeCatWearing.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSmallOrangeCatWearing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSmallOrangeCatWearing/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute orange kitten wearing a construction helmet and harness sits confidently on a steel beam high above a city skyline. The cityscape stretches out in the background under a bright blue sky with scattered clouds.",
+      "description": "The scene depicts a whimsical and surreal setting where a kitten is positioned on a construction site overlooking a bustling urban landscape. The kitten is adorned with construction gear, adding a playful element to the high-altitude environment.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "construction helmet",
+          "harness",
+          "steel beam"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "scenes": [
+          "cityscape",
+          "construction site"
+        ],
+        "concepts": [
+          "surreal",
+          "whimsical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSmallOrangeCatWearing.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSmallOrangeCatWearing/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cute orange kitten wearing a yellow construction helmet and harness sits confidently on a steel beam high above a bustling city skyline. The cityscape stretches into the distance under a bright blue sky dotted with fluffy clouds.",
+      "description": "The scene is set on a construction site high above a city, with a playful twist as a kitten is dressed as a construction worker. The cityscape provides a dramatic backdrop, emphasizing the height and scale of the construction site.",
+      "labels": {
+        "animals": [
+          "kitten"
+        ],
+        "objects": [
+          "construction helmet",
+          "harness",
+          "steel beam"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "scenes": [
+          "cityscape",
+          "construction site"
+        ],
+        "emotions": [
+          "playful",
+          "confident"
+        ],
+        "concepts": [
+          "juxtaposition",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: kitten. Objects: construction helmet, harness, steel beam. Actions: sitting. Emotions: playful, confident. Scenes: cityscape, construction site. Concepts: surreal, whimsical, juxtaposition, humor. Nature: sky, clouds",
+  "primary_labels": {
+    "animals": [
+      "kitten"
+    ],
+    "objects": [
+      "construction helmet",
+      "harness",
+      "steel beam"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "playful",
+      "confident"
+    ],
+    "scenes": [
+      "cityscape",
+      "construction site"
+    ],
+    "concepts": [
+      "surreal",
+      "whimsical",
+      "juxtaposition",
+      "humor"
+    ],
+    "nature": [
+      "sky",
+      "clouds"
+    ]
+  },
+  "metadata": {}
+}

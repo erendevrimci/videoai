@@ -1,0 +1,148 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tay dragon.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tay dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tay dragon/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long hair and glasses is smiling at the camera. She is standing indoors, in front of a decorated mantel with autumn-themed decorations.",
+      "description": "The scene is set indoors, possibly in a home or office environment, with a focus on autumn decorations. The woman appears to be posing for a photo, creating a warm and welcoming atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "glasses",
+          "shirt",
+          "mantel",
+          "autumn decorations",
+          "candles"
+        ],
+        "actions": [
+          "smiling",
+          "posing"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "indoor",
+          "decorated room"
+        ],
+        "concepts": [
+          "autumn",
+          "warmth",
+          "welcoming"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tay dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tay dragon/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person dressed in a fantasy costume stands confidently in front of a stone fireplace. They have large, red dragon-like wings and are wearing a white sleeveless shirt and denim shorts.",
+      "description": "The scene is set indoors, likely in a room with a fireplace, decorated with autumn-themed garlands. The person appears to be posing or performing, with a focus on their elaborate costume.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "dragon wings",
+          "fireplace",
+          "denim shorts",
+          "white shirt",
+          "glasses"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "indoor",
+          "fantasy"
+        ],
+        "concepts": [
+          "costume",
+          "fantasy theme",
+          "autumn decor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/tay dragon.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/tay dragon/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A majestic dragon with vibrant red scales and fiery yellow accents stands against a deep blue sky. Its wings are spread wide, showcasing intricate patterns and textures. The dragon's head is adorned with glowing, flame-like protrusions, adding to its mythical presence.",
+      "description": "The scene depicts a large, mythical dragon in a dramatic pose, set against a clear, dark blue sky. The dragon's vivid colors and detailed features create a striking contrast with the background, emphasizing its grandeur and mythical nature.",
+      "labels": {
+        "animals": [
+          "dragon"
+        ],
+        "objects": [
+          "wings"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "emotions": [
+          "awe",
+          "majesty"
+        ],
+        "concepts": [
+          "mythology",
+          "fantasy creature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: glasses, shirt, mantel, autumn decorations, candles. Actions: posing, smiling. Emotions: happiness, confidence, awe, majesty. Scenes: indoor, fantasy, decorated room, mythical. Concepts: autumn, warmth, welcoming, costume, fantasy theme. Animals: dragon",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "glasses",
+      "shirt",
+      "mantel",
+      "autumn decorations",
+      "candles"
+    ],
+    "actions": [
+      "posing",
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "confidence",
+      "awe",
+      "majesty"
+    ],
+    "scenes": [
+      "indoor",
+      "fantasy",
+      "decorated room",
+      "mythical"
+    ],
+    "concepts": [
+      "autumn",
+      "warmth",
+      "welcoming",
+      "costume",
+      "fantasy theme"
+    ],
+    "animals": [
+      "dragon"
+    ]
+  },
+  "metadata": {}
+}

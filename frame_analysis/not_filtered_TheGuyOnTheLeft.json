@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGuyOnTheLeft.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGuyOnTheLeft.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGuyOnTheLeft/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A black and white portrait features two individuals standing side by side. The man on the left is wearing a formal vest and shirt, while the woman on the right is dressed in a dark top with earrings. Both are looking directly at the camera with composed expressions.",
+      "description": "The scene is a formal portrait setting with a monochrome aesthetic. The individuals are positioned closely, suggesting a sense of connection or partnership.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "objects": [
+          "vest",
+          "shirt",
+          "earrings"
+        ],
+        "emotions": [
+          "composed"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "formal",
+          "monochrome"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheGuyOnTheLeft.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheGuyOnTheLeft/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple is embracing tenderly against a plain background. The woman rests her head on the man's shoulder, eyes closed, conveying a sense of comfort and intimacy.",
+      "description": "The scene depicts a close, intimate moment between two people in a monochrome setting. The focus is on their embrace, highlighting a moment of emotional connection.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "comfort",
+          "intimacy"
+        ],
+        "scenes": [
+          "intimate moment"
+        ],
+        "concepts": [
+          "connection",
+          "affection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman. Objects: vest, shirt, earrings. Emotions: composed, comfort, intimacy. Scenes: portrait, intimate moment. Concepts: formal, monochrome, connection, affection. Actions: embracing",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman"
+    ],
+    "objects": [
+      "vest",
+      "shirt",
+      "earrings"
+    ],
+    "emotions": [
+      "composed",
+      "comfort",
+      "intimacy"
+    ],
+    "scenes": [
+      "portrait",
+      "intimate moment"
+    ],
+    "concepts": [
+      "formal",
+      "monochrome",
+      "connection",
+      "affection"
+    ],
+    "actions": [
+      "embracing"
+    ]
+  },
+  "metadata": {}
+}

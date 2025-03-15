@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dress.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dress/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands gracefully under a starry night sky, wearing an ethereal gown that glows with intricate patterns of light. The dress appears to be alive, with luminous branches of light flowing through it, casting a magical aura around her. The moon shines brightly above, adding to the enchanting atmosphere.",
+      "description": "The scene is set outdoors at night, with a clear view of the star-filled sky and a bright moon. The woman is the focal point, standing amidst a snowy landscape, wearing a dress that seems to be illuminated from within, creating a surreal and mystical ambiance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "moon",
+          "stars",
+          "snow"
+        ],
+        "objects": [
+          "gown"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "mystical"
+        ],
+        "scenes": [
+          "night",
+          "outdoor"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/dress.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/dress/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands gracefully on a snowy landscape under a starry night sky. Her dress glows with ethereal lights, blending with the serene winter scene. Snow-covered trees frame the background, enhancing the magical atmosphere.",
+      "description": "The scene depicts a tranquil winter night with a woman in an illuminated gown standing amidst snow. The setting is peaceful and enchanting, with stars twinkling above and snow blanketing the ground.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "snow",
+          "trees",
+          "night sky",
+          "stars"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "winter landscape",
+          "night"
+        ],
+        "concepts": [
+          "enchantment",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: stars, snow, moon, trees, night sky. Objects: gown, dress. Actions: standing. Emotions: calm, mystical, serene, magical. Scenes: night, outdoor, winter landscape. Concepts: enchantment, magic, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "stars",
+      "snow",
+      "moon",
+      "trees",
+      "night sky"
+    ],
+    "objects": [
+      "gown",
+      "dress"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "mystical",
+      "serene",
+      "magical"
+    ],
+    "scenes": [
+      "night",
+      "outdoor",
+      "winter landscape"
+    ],
+    "concepts": [
+      "enchantment",
+      "magic",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

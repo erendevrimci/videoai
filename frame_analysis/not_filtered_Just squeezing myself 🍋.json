@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just squeezing myself \ud83c\udf4b.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just squeezing myself \ud83c\udf4b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Just squeezing myself \ud83c\udf4b/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man with a mustache and glasses is seated in a dimly lit room, wearing a striped shirt and a straw hat. The background is filled with colorful, eclectic decorations, including a framed jersey and various signs.",
+      "description": "The scene is set in a cozy, dimly lit room with an eclectic and vibrant decor. The man appears relaxed, leaning slightly on a wooden surface, suggesting a casual and laid-back atmosphere.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "glasses",
+          "hat",
+          "shirt",
+          "jersey",
+          "signs"
+        ],
+        "actions": [
+          "sitting",
+          "leaning"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "indoor",
+          "decorated room"
+        ],
+        "concepts": [
+          "casual",
+          "eclectic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Just squeezing myself \ud83c\udf4b.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Just squeezing myself \ud83c\udf4b/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two hands are squeezing a soft, dough-like substance, creating folds and textures. The background is slightly blurred, focusing attention on the tactile interaction.",
+      "description": "The scene captures a close-up of hands manipulating a pliable material, possibly dough or clay, in an indoor setting. The focus is on the texture and movement of the material as it is pressed and shaped.",
+      "labels": {
+        "people": [
+          "hands"
+        ],
+        "objects": [
+          "dough",
+          "table"
+        ],
+        "actions": [
+          "squeezing",
+          "shaping"
+        ],
+        "emotions": [
+          "focus",
+          "engagement"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "tactile interaction",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, hands. Objects: glasses, hat, shirt, jersey, signs. Actions: sitting, leaning, squeezing, shaping. Emotions: relaxed, focus, engagement. Scenes: indoor, decorated room. Concepts: casual, eclectic, tactile interaction, creativity",
+  "primary_labels": {
+    "people": [
+      "man",
+      "hands"
+    ],
+    "objects": [
+      "glasses",
+      "hat",
+      "shirt",
+      "jersey",
+      "signs"
+    ],
+    "actions": [
+      "sitting",
+      "leaning",
+      "squeezing",
+      "shaping"
+    ],
+    "emotions": [
+      "relaxed",
+      "focus",
+      "engagement"
+    ],
+    "scenes": [
+      "indoor",
+      "decorated room"
+    ],
+    "concepts": [
+      "casual",
+      "eclectic",
+      "tactile interaction",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

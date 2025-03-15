@@ -1,0 +1,153 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dear beaver.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dear beaver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dear beaver/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cute, anthropomorphic animal is dressed in a helmet and scarf, confidently sitting on a small motorcycle. The scene is set against a blurred, natural background, suggesting a forest or woodland setting.",
+      "description": "The image depicts a charming, cartoon-like animal character on a motorcycle, set in a serene outdoor environment. The animal is wearing a helmet and scarf, adding a sense of adventure and personality.",
+      "labels": {
+        "animals": [
+          "anthropomorphic animal"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "scarf"
+        ],
+        "nature": [
+          "forest",
+          "woodland"
+        ],
+        "actions": [
+          "sitting",
+          "riding"
+        ],
+        "emotions": [
+          "confident",
+          "adventurous"
+        ],
+        "scenes": [
+          "outdoor",
+          "natural"
+        ],
+        "concepts": [
+          "adventure",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dear beaver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dear beaver/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small, furry creature dressed in armor is captured mid-jump on a motorcycle over a log in a forest. The background is blurred, emphasizing the speed and motion of the creature.",
+      "description": "The scene takes place in a forest setting, where a small, armored animal is performing a daring jump on a motorcycle over a log. The blurred background suggests a sense of speed and adventure.",
+      "labels": {
+        "animals": [
+          "furry creature"
+        ],
+        "objects": [
+          "motorcycle",
+          "log",
+          "armor"
+        ],
+        "actions": [
+          "jumping",
+          "riding"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "emotions": [
+          "adventure",
+          "excitement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dear beaver.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dear beaver/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A small, furry animal is riding a motorcycle up a steep dirt path. The animal is wearing a helmet and a leather vest, adding a humorous touch to the adventurous scene.",
+      "description": "The scene depicts a whimsical moment where a small animal, dressed in biker gear, is riding a motorcycle through a natural setting. The background is blurred, suggesting motion and speed.",
+      "labels": {
+        "animals": [
+          "small furry animal"
+        ],
+        "objects": [
+          "motorcycle",
+          "helmet",
+          "leather vest"
+        ],
+        "actions": [
+          "riding",
+          "climbing"
+        ],
+        "emotions": [
+          "adventurous",
+          "humorous"
+        ],
+        "scenes": [
+          "outdoor",
+          "forest path"
+        ],
+        "concepts": [
+          "adventure",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: anthropomorphic animal, furry creature, small furry animal. Objects: motorcycle, helmet, scarf, log, armor. Nature: forest, woodland. Actions: riding, sitting, jumping, climbing. Emotions: adventurous, confident, adventure, excitement, humorous. Scenes: outdoor, natural, forest, forest path. Concepts: adventure, whimsy, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "anthropomorphic animal",
+      "furry creature",
+      "small furry animal"
+    ],
+    "objects": [
+      "motorcycle",
+      "helmet",
+      "scarf",
+      "log",
+      "armor"
+    ],
+    "nature": [
+      "forest",
+      "woodland"
+    ],
+    "actions": [
+      "riding",
+      "sitting",
+      "jumping",
+      "climbing"
+    ],
+    "emotions": [
+      "adventurous",
+      "confident",
+      "adventure",
+      "excitement",
+      "humorous"
+    ],
+    "scenes": [
+      "outdoor",
+      "natural",
+      "forest",
+      "forest path"
+    ],
+    "concepts": [
+      "adventure",
+      "whimsy",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

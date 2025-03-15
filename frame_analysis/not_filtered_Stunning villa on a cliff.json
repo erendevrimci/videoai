@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Stunning villa on a cliff.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Stunning villa on a cliff.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Stunning villa on a cliff/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a black outfit walks through a modern, spacious kitchen with a large island and bar stools. The room features floor-to-ceiling windows offering a stunning view of the ocean.",
+      "description": "The scene depicts a modern kitchen interior with a woman walking through it. The space is elegantly designed with a focus on natural light and ocean views.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "kitchen",
+          "island",
+          "bar stools",
+          "windows",
+          "lighting fixture"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "content"
+        ],
+        "scenes": [
+          "interior",
+          "kitchen"
+        ],
+        "concepts": [
+          "modern design",
+          "luxury",
+          "ocean view"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Stunning villa on a cliff.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Stunning villa on a cliff/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a black outfit is walking towards the camera in a modern, open-concept living space. Large windows provide a stunning view of the ocean, creating a serene and luxurious atmosphere.",
+      "description": "The scene is set in a contemporary home with an open floor plan, featuring a kitchen area and expansive ocean views through large glass windows. The woman appears to be moving confidently through the space, adding a dynamic element to the serene setting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "kitchen",
+          "windows",
+          "counter",
+          "chairs"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "interior",
+          "modern home"
+        ],
+        "concepts": [
+          "luxury",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Stunning villa on a cliff.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Stunning villa on a cliff/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is walking through a modern, open-plan living space with large windows offering a view of the ocean. She is smiling and appears to be enjoying the bright, airy atmosphere of the room.",
+      "description": "The scene is set in a contemporary, luxurious apartment with an ocean view. The space is elegantly decorated with modern furnishings and a large chandelier, creating a sophisticated and welcoming environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "sofa",
+          "chandelier",
+          "kitchen island",
+          "windows"
+        ],
+        "actions": [
+          "walking",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "interior",
+          "living room"
+        ],
+        "concepts": [
+          "luxury",
+          "modern design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: windows, kitchen, island, bar stools, lighting fixture. Actions: walking, smiling. Emotions: content, confidence, happiness. Scenes: interior, kitchen, modern home, living room. Concepts: luxury, modern design, ocean view, serenity",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "windows",
+      "kitchen",
+      "island",
+      "bar stools",
+      "lighting fixture"
+    ],
+    "actions": [
+      "walking",
+      "smiling"
+    ],
+    "emotions": [
+      "content",
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "interior",
+      "kitchen",
+      "modern home",
+      "living room"
+    ],
+    "concepts": [
+      "luxury",
+      "modern design",
+      "ocean view",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,155 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fur & Glam.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fur & Glam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fur & Glam/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair stands confidently in an elegant setting, wearing a luxurious black fur coat over a white top and shimmering gold skirt. She has her hands in her pockets and is adorned with statement jewelry, including a necklace and earrings. The background features a grand staircase with ornate architectural details.",
+      "description": "The scene is set in a sophisticated, possibly historical building with a focus on elegance and style. The woman is the central figure, exuding confidence and poise in her fashionable attire.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "fur coat",
+          "white top",
+          "gold skirt",
+          "necklace",
+          "earrings"
+        ],
+        "actions": [
+          "standing",
+          "hands in pockets"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "elegant setting",
+          "staircase",
+          "architectural details"
+        ],
+        "concepts": [
+          "fashion",
+          "luxury",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fur & Glam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fur & Glam/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands confidently in an elegant setting, wearing a luxurious black fur coat over a white top and metallic skirt. Her long, wavy blonde hair cascades over her shoulders, and she accessorizes with statement earrings and a necklace. The background features a grand staircase and ornate architectural details.",
+      "description": "The scene is set in a sophisticated, possibly historical building with a focus on elegance and fashion. The woman appears poised and self-assured, embodying a sense of luxury and style.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "fur coat",
+          "earrings",
+          "necklace",
+          "top",
+          "skirt"
+        ],
+        "actions": [
+          "standing",
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fashion",
+          "architecture"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fur & Glam.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fur & Glam/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with long blonde hair is confidently walking down a staircase in an elegant setting. She is wearing a luxurious fur coat over a white top and metallic skirt, accessorized with statement jewelry.",
+      "description": "The scene is set in a grand architectural environment, possibly an upscale building or hotel. The woman appears poised and self-assured as she descends the stairs, exuding elegance and sophistication.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "fur coat",
+          "white top",
+          "metallic skirt",
+          "jewelry",
+          "necklace",
+          "earrings"
+        ],
+        "actions": [
+          "walking",
+          "descending stairs"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "architectural setting",
+          "staircase"
+        ],
+        "concepts": [
+          "elegance",
+          "sophistication",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: fur coat, necklace, earrings, white top, gold skirt. Actions: standing, hands in pockets, posing, walking, descending stairs. Emotions: confidence. Scenes: staircase, elegant setting, architectural details, fashion, architecture. Concepts: fashion, luxury, elegance, style, sophistication",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "fur coat",
+      "necklace",
+      "earrings",
+      "white top",
+      "gold skirt"
+    ],
+    "actions": [
+      "standing",
+      "hands in pockets",
+      "posing",
+      "walking",
+      "descending stairs"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "staircase",
+      "elegant setting",
+      "architectural details",
+      "fashion",
+      "architecture"
+    ],
+    "concepts": [
+      "fashion",
+      "luxury",
+      "elegance",
+      "style",
+      "sophistication"
+    ]
+  },
+  "metadata": {}
+}

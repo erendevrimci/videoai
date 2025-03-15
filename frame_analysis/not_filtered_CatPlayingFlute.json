@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlayingFlute.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlayingFlute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlayingFlute/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A gray cat is humorously posed as if playing a flute, with its paws delicately placed on the instrument. The scene is set in a cozy room with warm lighting, adding to the whimsical atmosphere.",
+      "description": "The image depicts a playful and imaginative scene where a cat appears to be playing a flute. The setting is indoors, likely a living room, characterized by soft, warm lighting from a nearby lamp.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "flute",
+          "lamp",
+          "sheet music",
+          "hat"
+        ],
+        "actions": [
+          "playing",
+          "posing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "cozy"
+        ],
+        "concepts": [
+          "humor",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlayingFlute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlayingFlute/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A gray cat is humorously posed as if playing a flute, sitting on a wooden surface. The scene includes an open music book, suggesting a playful take on a musical setting.",
+      "description": "The image depicts a whimsical scene where a gray cat appears to be playing a flute, surrounded by a cozy indoor setting with books and soft lighting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "flute",
+          "book",
+          "music sheet"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "indoor",
+          "musical"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/CatPlayingFlute.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/CatPlayingFlute/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A gray cat is humorously posed as if playing a flute, with its paws placed on the instrument. The scene is set indoors, with a music sheet open in front of the cat, adding to the whimsical atmosphere.",
+      "description": "The image depicts a playful and imaginative scene where a cat appears to be engaging in playing a musical instrument. The setting is cozy and indoors, suggesting a creative and lighthearted environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "flute",
+          "music sheet",
+          "book"
+        ],
+        "actions": [
+          "playing"
+        ],
+        "emotions": [
+          "whimsical",
+          "playful"
+        ],
+        "scenes": [
+          "indoor"
+        ],
+        "concepts": [
+          "humor",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: flute, book, music sheet, lamp, sheet music. Actions: playing, posing. Emotions: whimsical, playful. Scenes: indoor, cozy, musical. Concepts: humor, creativity, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "flute",
+      "book",
+      "music sheet",
+      "lamp",
+      "sheet music"
+    ],
+    "actions": [
+      "playing",
+      "posing"
+    ],
+    "emotions": [
+      "whimsical",
+      "playful"
+    ],
+    "scenes": [
+      "indoor",
+      "cozy",
+      "musical"
+    ],
+    "concepts": [
+      "humor",
+      "creativity",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

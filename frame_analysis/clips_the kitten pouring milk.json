@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the kitten pouring milk.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the kitten pouring milk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the kitten pouring milk/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat is carefully pouring milk into a cup of coffee with intricate latte art depicting a face. The scene is set on a wooden table scattered with coffee beans, creating a whimsical and cozy atmosphere.",
+      "description": "The image depicts a playful and surreal scene where a cat is involved in making coffee art. The setting is likely a kitchen or cafe, with natural lighting highlighting the detailed latte art and the cat's fur.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "coffee cup",
+          "milk pitcher",
+          "coffee beans"
+        ],
+        "actions": [
+          "pouring milk"
+        ],
+        "emotions": [
+          "whimsical",
+          "cozy"
+        ],
+        "scenes": [
+          "kitchen",
+          "cafe"
+        ],
+        "concepts": [
+          "latte art",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/the kitten pouring milk.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/the kitten pouring milk/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A curious ginger cat is perched on a table, playfully pouring milk from a small pitcher into a cup of coffee. The coffee features intricate latte art depicting a face, adding a whimsical touch to the scene.",
+      "description": "The scene is set in a cozy indoor environment, likely a kitchen or caf\u00e9, where a ginger cat is interacting with a cup of coffee. The cat's playful action of pouring milk adds a humorous and surreal element to the setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "coffee cup",
+          "milk pitcher",
+          "latte art",
+          "coffee beans",
+          "table"
+        ],
+        "actions": [
+          "pouring milk"
+        ],
+        "emotions": [
+          "curiosity",
+          "playfulness"
+        ],
+        "scenes": [
+          "indoor",
+          "kitchen",
+          "caf\u00e9"
+        ],
+        "concepts": [
+          "whimsy",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: coffee cup, milk pitcher, coffee beans, latte art, table. Actions: pouring milk. Emotions: whimsical, cozy, curiosity, playfulness. Scenes: kitchen, cafe, indoor, caf\u00e9. Concepts: surrealism, latte art, whimsy",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "coffee cup",
+      "milk pitcher",
+      "coffee beans",
+      "latte art",
+      "table"
+    ],
+    "actions": [
+      "pouring milk"
+    ],
+    "emotions": [
+      "whimsical",
+      "cozy",
+      "curiosity",
+      "playfulness"
+    ],
+    "scenes": [
+      "kitchen",
+      "cafe",
+      "indoor",
+      "caf\u00e9"
+    ],
+    "concepts": [
+      "surrealism",
+      "latte art",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

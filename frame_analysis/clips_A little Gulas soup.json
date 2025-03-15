@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A little Gulas soup.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A little Gulas soup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A little Gulas soup/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a cozy kitchen setting, miniature chefs are diligently preparing a hearty stew in a large pot. The scene is filled with warmth as steam rises from the pot, surrounded by an array of spices and vegetables.",
+      "description": "The scene depicts a charming, rustic kitchen where miniature chefs are engaged in cooking a stew. The environment is warm and inviting, with shelves lined with jars and herbs, and a glowing fire beneath the pot.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pot",
+          "spices",
+          "vegetables",
+          "jars",
+          "herbs"
+        ],
+        "actions": [
+          "cooking",
+          "stirring"
+        ],
+        "emotions": [
+          "focused",
+          "warmth"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking"
+        ],
+        "concepts": [
+          "culinary art",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A little Gulas soup.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A little Gulas soup/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a cozy kitchen setting, miniature chefs in red uniforms and white hats are gathered around a large pot, stirring a rich, bubbling stew. The scene is filled with various spices and ingredients, creating a warm and inviting atmosphere. The background is adorned with rustic kitchenware and glowing lights, enhancing the homely feel.",
+      "description": "The scene depicts a whimsical, miniature kitchen where small chef figurines are actively cooking a stew in a large pot. The setting is detailed with rustic elements and warm lighting, evoking a sense of comfort and culinary creativity.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "large pot",
+          "stew",
+          "spices",
+          "kitchenware"
+        ],
+        "actions": [
+          "stirring",
+          "cooking"
+        ],
+        "emotions": [
+          "cozy",
+          "inviting"
+        ],
+        "scenes": [
+          "kitchen",
+          "culinary"
+        ],
+        "concepts": [
+          "miniature",
+          "cooking",
+          "homely"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature chefs. Objects: spices, pot, vegetables, jars, herbs. Actions: cooking, stirring. Emotions: focused, warmth, cozy, inviting. Scenes: kitchen, cooking, culinary. Concepts: miniature, culinary art, cooking, homely",
+  "primary_labels": {
+    "people": [
+      "miniature chefs"
+    ],
+    "objects": [
+      "spices",
+      "pot",
+      "vegetables",
+      "jars",
+      "herbs"
+    ],
+    "actions": [
+      "cooking",
+      "stirring"
+    ],
+    "emotions": [
+      "focused",
+      "warmth",
+      "cozy",
+      "inviting"
+    ],
+    "scenes": [
+      "kitchen",
+      "cooking",
+      "culinary"
+    ],
+    "concepts": [
+      "miniature",
+      "culinary art",
+      "cooking",
+      "homely"
+    ]
+  },
+  "metadata": {}
+}

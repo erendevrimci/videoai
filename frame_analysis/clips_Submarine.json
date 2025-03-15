@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Submarine/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts the interior of a submarine or industrial facility, showcasing a complex network of pipes and machinery. A flashlight illuminates the scene, highlighting the intricate details of the equipment.",
+      "description": "The scene is set inside a confined industrial space, likely a submarine or similar environment, filled with various pipes, valves, and machinery. The lighting is dim, with a single flashlight providing focused illumination.",
+      "labels": {
+        "objects": [
+          "pipes",
+          "machinery",
+          "flashlight",
+          "valves"
+        ],
+        "actions": [
+          "illumination"
+        ],
+        "scenes": [
+          "industrial",
+          "submarine interior"
+        ],
+        "emotions": [
+          "mysterious",
+          "tense"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Submarine.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Submarine/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image depicts an industrial setting with complex machinery and pipes. The dim lighting casts shadows, highlighting the metallic surfaces and intricate components. The scene suggests a maintenance or engine room environment, possibly within a ship or industrial facility.",
+      "description": "The scene is set in a dimly lit industrial environment, likely an engine or machinery room. The focus is on the complex arrangement of pipes, valves, and mechanical components, suggesting a functional and technical space.",
+      "labels": {
+        "objects": [
+          "machinery",
+          "pipes",
+          "valves",
+          "metal surfaces"
+        ],
+        "scenes": [
+          "industrial",
+          "engine room",
+          "maintenance area"
+        ],
+        "emotions": [
+          "technical",
+          "mechanical"
+        ],
+        "concepts": [
+          "engineering",
+          "mechanics",
+          "industrial design"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: pipes, machinery, valves, flashlight, metal surfaces. Actions: illumination. Scenes: industrial, submarine interior, engine room, maintenance area. Emotions: mysterious, tense, technical, mechanical. Concepts: engineering, mechanics, industrial design",
+  "primary_labels": {
+    "objects": [
+      "pipes",
+      "machinery",
+      "valves",
+      "flashlight",
+      "metal surfaces"
+    ],
+    "actions": [
+      "illumination"
+    ],
+    "scenes": [
+      "industrial",
+      "submarine interior",
+      "engine room",
+      "maintenance area"
+    ],
+    "emotions": [
+      "mysterious",
+      "tense",
+      "technical",
+      "mechanical"
+    ],
+    "concepts": [
+      "engineering",
+      "mechanics",
+      "industrial design"
+    ]
+  },
+  "metadata": {}
+}

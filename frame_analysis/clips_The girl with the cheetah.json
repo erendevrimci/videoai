@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The girl with the cheetah.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The girl with the cheetah.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The girl with the cheetah/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long blonde hair embraces a cheetah in a sunlit field. The warm golden light highlights their serene expressions, creating a harmonious connection between them.",
+      "description": "The scene captures a tranquil moment in a sunlit field, where a woman is gently embracing a cheetah. The setting sun casts a warm glow, enhancing the peaceful and intimate atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "cheetah"
+        ],
+        "nature": [
+          "field",
+          "sunlight"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "serenity",
+          "harmony"
+        ],
+        "scenes": [
+          "nature",
+          "wildlife"
+        ],
+        "concepts": [
+          "connection",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The girl with the cheetah.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The girl with the cheetah/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair is embracing a cheetah in a sunlit field. The scene captures a serene moment of connection between human and animal, highlighted by the warm glow of the setting sun.",
+      "description": "The scene is set in a natural, open field during golden hour, creating a warm and tranquil atmosphere. The woman is gently holding the cheetah, both appearing calm and content.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "cheetah"
+        ],
+        "nature": [
+          "field",
+          "sunlight"
+        ],
+        "objects": [],
+        "actions": [
+          "embracing"
+        ],
+        "emotions": [
+          "serenity",
+          "connection"
+        ],
+        "scenes": [
+          "nature",
+          "sunset"
+        ],
+        "concepts": [
+          "harmony",
+          "wildlife"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: cheetah. Nature: field, sunlight. Actions: embracing. Emotions: serenity, harmony, connection. Scenes: nature, wildlife, sunset. Concepts: connection, peace, harmony, wildlife",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "cheetah"
+    ],
+    "nature": [
+      "field",
+      "sunlight"
+    ],
+    "objects": [],
+    "actions": [
+      "embracing"
+    ],
+    "emotions": [
+      "serenity",
+      "harmony",
+      "connection"
+    ],
+    "scenes": [
+      "nature",
+      "wildlife",
+      "sunset"
+    ],
+    "concepts": [
+      "connection",
+      "peace",
+      "harmony",
+      "wildlife"
+    ]
+  },
+  "metadata": {}
+}

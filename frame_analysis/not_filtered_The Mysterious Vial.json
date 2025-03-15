@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mysterious Vial.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mysterious Vial.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Mysterious Vial/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious figure in a hooded cloak holds a glowing potion bottle amidst a bustling market. The scene is filled with vibrant decorations and various trinkets hanging from stalls, creating an atmosphere of enchantment and intrigue.",
+      "description": "The scene is set in a lively, possibly medieval or fantasy market. A bearded man in a hooded cloak is the focal point, holding a glowing potion. The market is adorned with colorful fabrics and ornaments, with a warm, mystical ambiance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "potion bottle",
+          "cloak",
+          "trinkets",
+          "stalls"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "market"
+        ],
+        "concepts": [
+          "fantasy",
+          "mysticism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/The Mysterious Vial.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/The Mysterious Vial/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure in a hooded cloak holds a glowing potion bottle, casting an ethereal light in the dimly lit room. The scene is filled with mystical artifacts and hanging ornaments, creating an atmosphere of ancient magic and mystery.",
+      "description": "The scene is set in a dimly lit, mystical environment, possibly a wizard's workshop or an alchemist's lair. The focus is on a bearded figure, dressed in a hooded cloak, holding a glowing potion bottle. The background is filled with various magical artifacts, hanging ornaments, and flickering candles, enhancing the mystical ambiance.",
+      "labels": {
+        "people": [
+          "wizard",
+          "bearded figure"
+        ],
+        "objects": [
+          "potion bottle",
+          "cloak",
+          "candles",
+          "artifacts",
+          "ornaments"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "contemplative"
+        ],
+        "scenes": [
+          "mystical",
+          "magical"
+        ],
+        "concepts": [
+          "alchemy",
+          "magic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, wizard, bearded figure. Objects: potion bottle, cloak, trinkets, stalls, candles. Actions: holding. Emotions: mysterious, contemplative. Scenes: market, mystical, magical. Concepts: fantasy, mysticism, alchemy, magic",
+  "primary_labels": {
+    "people": [
+      "man",
+      "wizard",
+      "bearded figure"
+    ],
+    "objects": [
+      "potion bottle",
+      "cloak",
+      "trinkets",
+      "stalls",
+      "candles"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "mysterious",
+      "contemplative"
+    ],
+    "scenes": [
+      "market",
+      "mystical",
+      "magical"
+    ],
+    "concepts": [
+      "fantasy",
+      "mysticism",
+      "alchemy",
+      "magic"
+    ]
+  },
+  "metadata": {}
+}

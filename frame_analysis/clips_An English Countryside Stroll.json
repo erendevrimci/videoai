@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An English Countryside Stroll.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An English Countryside Stroll.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An English Countryside Stroll/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands in a sunlit wheat field, capturing a selfie with her phone. She wears a straw hat and a black bikini, with tattoos visible on her arm. The golden hour light casts a warm glow over the scene, enhancing the serene rural backdrop.",
+      "description": "The scene is set in a picturesque wheat field during sunset, creating a tranquil and warm atmosphere. The woman is the focal point, taking a selfie amidst the expansive natural landscape.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "wheat field",
+          "sunset"
+        ],
+        "objects": [
+          "phone",
+          "straw hat",
+          "bikini"
+        ],
+        "actions": [
+          "taking selfie"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "rural",
+          "outdoors"
+        ],
+        "concepts": [
+          "self-expression",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/An English Countryside Stroll.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/An English Countryside Stroll/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands in a sunlit field, taking a selfie with her smartphone. She is wearing a black bikini and a straw hat, with one hand adjusting the hat and the other holding the phone. The golden field stretches into the distance under a partly cloudy sky.",
+      "description": "The scene is set in a rural field during what appears to be late afternoon or early evening, with warm sunlight casting a golden hue over the landscape. The woman is the focal point, capturing a moment of leisure and self-expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "field",
+          "sky",
+          "clouds"
+        ],
+        "objects": [
+          "smartphone",
+          "bikini",
+          "straw hat"
+        ],
+        "actions": [
+          "taking selfie",
+          "adjusting hat"
+        ],
+        "emotions": [
+          "relaxed"
+        ],
+        "scenes": [
+          "outdoor",
+          "rural"
+        ],
+        "concepts": [
+          "self-expression",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: wheat field, sunset, field, sky, clouds. Objects: straw hat, bikini, phone, smartphone. Actions: taking selfie, adjusting hat. Emotions: serene, relaxed. Scenes: rural, outdoors, outdoor. Concepts: self-expression, leisure",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "wheat field",
+      "sunset",
+      "field",
+      "sky",
+      "clouds"
+    ],
+    "objects": [
+      "straw hat",
+      "bikini",
+      "phone",
+      "smartphone"
+    ],
+    "actions": [
+      "taking selfie",
+      "adjusting hat"
+    ],
+    "emotions": [
+      "serene",
+      "relaxed"
+    ],
+    "scenes": [
+      "rural",
+      "outdoors",
+      "outdoor"
+    ],
+    "concepts": [
+      "self-expression",
+      "leisure"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,107 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japanese woman pretty smile.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japanese woman pretty smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Japanese woman pretty smile/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands in an urban setting, wearing a black beanie and a puffy jacket. She gazes thoughtfully into the distance, surrounded by the blurred outlines of city buildings.",
+      "description": "The scene captures a young woman in a bustling city environment. The focus is on her contemplative expression as she stands amidst the tall, blurred buildings, suggesting a cold day.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "beanie",
+          "puffy jacket"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "urban",
+          "city"
+        ],
+        "concepts": [
+          "contemplation",
+          "winter attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Japanese woman pretty smile.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Japanese woman pretty smile/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands on a city street, warmly dressed in a black puffer jacket, scarf, and beanie. They are smiling brightly, creating a cheerful and inviting atmosphere. The background is slightly blurred, suggesting a bustling urban environment.",
+      "description": "The scene captures a person in a winter outfit on a city street, conveying warmth and happiness amidst a busy urban setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "puffer jacket",
+          "scarf",
+          "beanie"
+        ],
+        "actions": [
+          "standing",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "warmth"
+        ],
+        "scenes": [
+          "city street",
+          "urban environment"
+        ],
+        "concepts": [
+          "winter clothing",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: beanie, puffy jacket, puffer jacket, scarf. Actions: standing, smiling. Emotions: thoughtful, happiness, warmth. Scenes: urban, city, city street, urban environment. Concepts: contemplation, winter attire, winter clothing, urban life",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "beanie",
+      "puffy jacket",
+      "puffer jacket",
+      "scarf"
+    ],
+    "actions": [
+      "standing",
+      "smiling"
+    ],
+    "emotions": [
+      "thoughtful",
+      "happiness",
+      "warmth"
+    ],
+    "scenes": [
+      "urban",
+      "city",
+      "city street",
+      "urban environment"
+    ],
+    "concepts": [
+      "contemplation",
+      "winter attire",
+      "winter clothing",
+      "urban life"
+    ]
+  },
+  "metadata": {}
+}

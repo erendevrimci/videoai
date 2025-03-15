@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fada guerreira.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fada guerreira.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fada guerreira/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical fairy with vibrant orange wings sits gracefully in a forest setting, surrounded by delicate flowers. Her piercing blue eyes and flowing dark hair create a striking contrast against the soft, golden light filtering through the trees. She holds a sword, adding an element of intrigue to the enchanting scene.",
+      "description": "The scene depicts a fantasy setting in a sunlit forest where a fairy character is the focal point. The atmosphere is magical and serene, with a hint of mystery due to the presence of the sword.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "forest",
+          "flowers",
+          "tree"
+        ],
+        "objects": [
+          "sword",
+          "wings"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mystical",
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Fada guerreira.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Fada guerreira/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mystical fairy with vibrant blue eyes and delicate wings sits gracefully against a tree. She holds a staff adorned with flowers, surrounded by a serene forest bathed in golden light.",
+      "description": "The scene depicts a fantasy setting in a tranquil forest. The fairy, with her enchanting appearance, is the focal point, exuding an aura of magic and wonder.",
+      "labels": {
+        "people": [
+          "fairy"
+        ],
+        "nature": [
+          "tree",
+          "forest",
+          "flowers"
+        ],
+        "objects": [
+          "staff",
+          "wings"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "mystical"
+        ],
+        "scenes": [
+          "fantasy",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: fairy. Nature: forest, flowers, tree. Objects: wings, sword, staff. Actions: sitting. Emotions: mystical, serene. Scenes: fantasy, forest. Concepts: magic, enchantment",
+  "primary_labels": {
+    "people": [
+      "fairy"
+    ],
+    "nature": [
+      "forest",
+      "flowers",
+      "tree"
+    ],
+    "objects": [
+      "wings",
+      "sword",
+      "staff"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "mystical",
+      "serene"
+    ],
+    "scenes": [
+      "fantasy",
+      "forest"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment"
+    ]
+  },
+  "metadata": {}
+}

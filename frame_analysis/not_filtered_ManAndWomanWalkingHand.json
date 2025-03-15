@@ -1,0 +1,125 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManAndWomanWalkingHand.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManAndWomanWalkingHand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManAndWomanWalkingHand/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple walks hand in hand along a serene beach at sunset. The man carries a guitar, while the woman is dressed in a flowing hijab. Palm trees line the background, adding to the tranquil seaside atmosphere.",
+      "description": "The scene captures a peaceful moment on a beach during sunset, with a couple walking together. The setting is idyllic, with palm trees and the gentle waves of the sea.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "palm trees",
+          "sea"
+        ],
+        "objects": [
+          "guitar",
+          "hijab"
+        ],
+        "actions": [
+          "walking",
+          "holding hands"
+        ],
+        "emotions": [
+          "serenity",
+          "togetherness"
+        ],
+        "scenes": [
+          "sunset",
+          "seaside"
+        ],
+        "concepts": [
+          "romance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ManAndWomanWalkingHand.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ManAndWomanWalkingHand/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man and woman stand on a beach at sunset, with the man playing a guitar. They exchange warm smiles, creating a serene and intimate atmosphere.",
+      "description": "The scene is set on a beach during sunset, capturing a peaceful and romantic moment between two people. The warm glow of the setting sun enhances the tranquil ambiance.",
+      "labels": {
+        "people": [
+          "man",
+          "woman"
+        ],
+        "nature": [
+          "beach",
+          "sunset"
+        ],
+        "objects": [
+          "guitar"
+        ],
+        "actions": [
+          "playing guitar",
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "intimate"
+        ],
+        "scenes": [
+          "romantic",
+          "outdoor"
+        ],
+        "concepts": [
+          "music",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, woman. Nature: beach, palm trees, sea, sunset. Objects: guitar, hijab. Actions: walking, holding hands, playing guitar, smiling. Emotions: serenity, togetherness, serene, intimate. Scenes: sunset, seaside, romantic, outdoor. Concepts: romance, tranquility, music, connection",
+  "primary_labels": {
+    "people": [
+      "man",
+      "woman"
+    ],
+    "nature": [
+      "beach",
+      "palm trees",
+      "sea",
+      "sunset"
+    ],
+    "objects": [
+      "guitar",
+      "hijab"
+    ],
+    "actions": [
+      "walking",
+      "holding hands",
+      "playing guitar",
+      "smiling"
+    ],
+    "emotions": [
+      "serenity",
+      "togetherness",
+      "serene",
+      "intimate"
+    ],
+    "scenes": [
+      "sunset",
+      "seaside",
+      "romantic",
+      "outdoor"
+    ],
+    "concepts": [
+      "romance",
+      "tranquility",
+      "music",
+      "connection"
+    ]
+  },
+  "metadata": {}
+}

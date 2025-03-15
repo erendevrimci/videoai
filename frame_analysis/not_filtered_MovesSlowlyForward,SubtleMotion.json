@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovesSlowlyForward,SubtleMotion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovesSlowlyForward,SubtleMotion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MovesSlowlyForward,SubtleMotion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A humanoid bison warrior stands in a forest, clad in detailed armor and holding a large weapon. The creature's expression is intense, suggesting readiness for battle.",
+      "description": "The scene depicts a fantastical setting where a bison-like creature is portrayed as a warrior in a dense forest. The creature is dressed in intricate armor, holding a weapon, and appears to be on guard.",
+      "labels": {
+        "animals": [
+          "bison"
+        ],
+        "objects": [
+          "armor",
+          "weapon"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "intense"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "fantasy",
+          "warrior"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/MovesSlowlyForward,SubtleMotion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/MovesSlowlyForward,SubtleMotion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid bison warrior stands in a forest, clad in detailed armor and wielding a large sword. The creature's intense gaze and powerful stance suggest readiness for battle, surrounded by tall trees and dappled sunlight.",
+      "description": "The scene is set in a dense forest with sunlight filtering through the trees, creating a mystical atmosphere. A bison-like creature, anthropomorphic in form, is dressed in medieval armor, holding a sword, suggesting a fantasy or mythical setting.",
+      "labels": {
+        "animals": [
+          "bison"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "intense",
+          "ready"
+        ],
+        "scenes": [
+          "fantasy",
+          "mythical"
+        ],
+        "concepts": [
+          "warrior",
+          "anthropomorphic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bison. Objects: armor, weapon, sword. Actions: standing, holding. Emotions: intense, ready. Scenes: forest, fantasy, mythical. Concepts: warrior, fantasy, anthropomorphic. Nature: forest, trees",
+  "primary_labels": {
+    "animals": [
+      "bison"
+    ],
+    "objects": [
+      "armor",
+      "weapon",
+      "sword"
+    ],
+    "actions": [
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "intense",
+      "ready"
+    ],
+    "scenes": [
+      "forest",
+      "fantasy",
+      "mythical"
+    ],
+    "concepts": [
+      "warrior",
+      "fantasy",
+      "anthropomorphic"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatKneadsTheDough.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatKneadsTheDough.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCatKneadsTheDough/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat dressed in a small chef's outfit is kneading dough on a wooden kitchen counter. The scene captures the whimsical moment as the cat appears focused on its culinary task. The kitchen setting in the background adds to the playful atmosphere.",
+      "description": "The image depicts a humorous and imaginative scene where a cat is dressed as a chef, engaging in the act of kneading dough. The setting is a cozy kitchen, with warm lighting enhancing the playful and charming mood.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dough",
+          "kitchen counter",
+          "chef's outfit"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "playful",
+          "whimsical"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheCatKneadsTheDough.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheCatKneadsTheDough/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat, dressed in a small chef's outfit, is kneading dough on a wooden kitchen counter. The scene captures the whimsical moment with the cat's paws gently pressing into the dough, surrounded by a light dusting of flour.",
+      "description": "The scene is set in a cozy kitchen where a cat, humorously dressed as a chef, is engaging in baking. The warm lighting and rustic kitchen elements create a charming and playful atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "dough",
+          "flour",
+          "kitchen counter",
+          "chef's outfit"
+        ],
+        "actions": [
+          "kneading"
+        ],
+        "emotions": [
+          "playful"
+        ],
+        "scenes": [
+          "kitchen"
+        ],
+        "concepts": [
+          "humor",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: dough, kitchen counter, chef's outfit, flour. Actions: kneading. Emotions: playful, whimsical. Scenes: kitchen. Concepts: humor, imagination, anthropomorphism",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "dough",
+      "kitchen counter",
+      "chef's outfit",
+      "flour"
+    ],
+    "actions": [
+      "kneading"
+    ],
+    "emotions": [
+      "playful",
+      "whimsical"
+    ],
+    "scenes": [
+      "kitchen"
+    ],
+    "concepts": [
+      "humor",
+      "imagination",
+      "anthropomorphism"
+    ]
+  },
+  "metadata": {}
+}

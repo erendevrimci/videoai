@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Monica Belluci.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Monica Belluci.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Monica Belluci/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long dark hair stands in front of an illuminated historic building at night. She is wearing a black dress and elegant jewelry, including a striking necklace and earrings.",
+      "description": "The scene captures a woman posing confidently in an urban setting at night, with a grand, well-lit building in the background. The atmosphere is sophisticated and elegant, emphasizing the woman's poised demeanor and stylish appearance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "necklace",
+          "earrings",
+          "bracelet",
+          "dress"
+        ],
+        "scenes": [
+          "urban",
+          "night",
+          "historic building"
+        ],
+        "emotions": [
+          "confident",
+          "poised"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Monica Belluci.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Monica Belluci/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long dark hair is elegantly dressed in a black outfit, adorned with a luxurious necklace and earrings. She stands in front of an illuminated, grand building, gazing thoughtfully to the side.",
+      "description": "The scene captures a sophisticated evening setting with a focus on elegance and luxury. The woman appears poised and contemplative, set against the backdrop of a beautifully lit architectural structure.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "necklace",
+          "earrings",
+          "black dress"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "thoughtful"
+        ],
+        "scenes": [
+          "evening",
+          "outdoor"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: necklace, earrings, bracelet, dress, black dress. Scenes: urban, night, historic building, evening, outdoor. Emotions: confident, poised, thoughtful. Actions: gazing. Concepts: elegance, luxury",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "necklace",
+      "earrings",
+      "bracelet",
+      "dress",
+      "black dress"
+    ],
+    "scenes": [
+      "urban",
+      "night",
+      "historic building",
+      "evening",
+      "outdoor"
+    ],
+    "emotions": [
+      "confident",
+      "poised",
+      "thoughtful"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "concepts": [
+      "elegance",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

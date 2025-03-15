@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morning Metro.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morning Metro.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Morning Metro/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A bear and two raccoons are sitting on a subway train, each holding a newspaper. The animals are seated on an orange bench, surrounded by scattered papers on the floor. The scene is set in a subway car with advertisements on the walls.",
+      "description": "The image depicts a whimsical scene inside a subway train where a bear and two raccoons are reading newspapers. The setting is a typical urban subway car, creating a humorous contrast with the animal passengers.",
+      "labels": {
+        "animals": [
+          "bear",
+          "raccoons"
+        ],
+        "objects": [
+          "newspaper",
+          "subway train",
+          "bench",
+          "advertisements"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "scenes": [
+          "subway",
+          "urban"
+        ],
+        "concepts": [
+          "whimsy",
+          "anthropomorphism"
+        ],
+        "emotions": [
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Morning Metro.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Morning Metro/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A bear and two raccoons sit on a subway train bench, each holding a newspaper. The scene is whimsical, with the animals appearing engrossed in their reading. Discarded pages are scattered on the floor, adding to the quirky atmosphere.",
+      "description": "The image depicts a humorous and surreal scene inside a subway train where a bear and two raccoons are sitting on a bench, reading newspapers. The setting is a typical subway car with overhead lights and advertisements, creating a juxtaposition between the mundane and the fantastical.",
+      "labels": {
+        "animals": [
+          "bear",
+          "raccoons"
+        ],
+        "objects": [
+          "newspaper",
+          "subway bench",
+          "subway car",
+          "discarded pages"
+        ],
+        "actions": [
+          "reading"
+        ],
+        "emotions": [
+          "whimsical",
+          "humorous"
+        ],
+        "scenes": [
+          "subway",
+          "public transport"
+        ],
+        "concepts": [
+          "surrealism",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: bear, raccoons. Objects: newspaper, subway train, bench, advertisements, subway bench. Actions: reading. Scenes: subway, urban, public transport. Concepts: anthropomorphism, whimsy, surrealism. Emotions: humor, whimsical, humorous",
+  "primary_labels": {
+    "animals": [
+      "bear",
+      "raccoons"
+    ],
+    "objects": [
+      "newspaper",
+      "subway train",
+      "bench",
+      "advertisements",
+      "subway bench"
+    ],
+    "actions": [
+      "reading"
+    ],
+    "scenes": [
+      "subway",
+      "urban",
+      "public transport"
+    ],
+    "concepts": [
+      "anthropomorphism",
+      "whimsy",
+      "surrealism"
+    ],
+    "emotions": [
+      "humor",
+      "whimsical",
+      "humorous"
+    ]
+  },
+  "metadata": {}
+}

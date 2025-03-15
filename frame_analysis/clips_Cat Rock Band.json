@@ -1,0 +1,106 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Rock Band.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Rock Band.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat Rock Band/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of animated cats are performing on stage, with one prominently playing an electric guitar. The scene is vibrant with colorful stage lights illuminating the band, creating a lively concert atmosphere.",
+      "description": "The scene depicts an animated rock concert featuring anthropomorphic cats as the band members. The main focus is on a cat playing an electric guitar, with other band members visible in the background, suggesting a lively performance.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "electric guitar",
+          "drum set",
+          "stage lights"
+        ],
+        "actions": [
+          "playing guitar",
+          "performing"
+        ],
+        "emotions": [
+          "energetic"
+        ],
+        "scenes": [
+          "concert",
+          "stage performance"
+        ],
+        "concepts": [
+          "music",
+          "entertainment",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cat Rock Band.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cat Rock Band/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fluffy cat stands on stage playing an electric guitar, surrounded by colorful stage lights. Other cats in the background appear to be part of a band, contributing to the lively concert atmosphere.",
+      "description": "The scene depicts a whimsical concert setting where anthropomorphic cats are performing as a band. The main focus is on a cat playing an electric guitar, with vibrant stage lights creating a dynamic and energetic environment.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "electric guitar",
+          "stage lights"
+        ],
+        "actions": [
+          "playing guitar",
+          "performing"
+        ],
+        "emotions": [
+          "energetic",
+          "playful"
+        ],
+        "scenes": [
+          "concert",
+          "stage"
+        ],
+        "concepts": [
+          "anthropomorphism",
+          "music performance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: electric guitar, stage lights, drum set. Actions: playing guitar, performing. Emotions: energetic, playful. Scenes: concert, stage performance, stage. Concepts: music, entertainment, animation, anthropomorphism, music performance",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "electric guitar",
+      "stage lights",
+      "drum set"
+    ],
+    "actions": [
+      "playing guitar",
+      "performing"
+    ],
+    "emotions": [
+      "energetic",
+      "playful"
+    ],
+    "scenes": [
+      "concert",
+      "stage performance",
+      "stage"
+    ],
+    "concepts": [
+      "music",
+      "entertainment",
+      "animation",
+      "anthropomorphism",
+      "music performance"
+    ]
+  },
+  "metadata": {}
+}

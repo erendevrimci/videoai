@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/flying house.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/flying house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/flying house/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A quaint house is suspended in the sky, lifted by a cluster of white balloons. The house, with its red roof and white walls, floats serenely against a clear blue sky.",
+      "description": "The scene depicts a whimsical and surreal setting where a house is airborne, carried by numerous white balloons. This imaginative scenario suggests themes of adventure and fantasy.",
+      "labels": {
+        "objects": [
+          "house",
+          "balloons"
+        ],
+        "nature": [
+          "sky",
+          "clouds"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "whimsical",
+          "serene"
+        ],
+        "scenes": [
+          "fantasy",
+          "surreal"
+        ],
+        "concepts": [
+          "adventure",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/flying house.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/flying house/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A small house with a red roof is tethered to a large cluster of white balloons, appearing to lift off the ground. The scene is set in a lush green field with a body of water in the background under a clear blue sky.",
+      "description": "The image depicts a whimsical scene where a miniature house is seemingly being lifted by numerous white balloons. The setting is outdoors, with a serene landscape featuring grass, trees, and a distant lake.",
+      "labels": {
+        "objects": [
+          "house",
+          "balloons"
+        ],
+        "nature": [
+          "grass",
+          "trees",
+          "lake",
+          "sky"
+        ],
+        "scenes": [
+          "outdoor",
+          "landscape"
+        ],
+        "concepts": [
+          "whimsy",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: house, balloons. Nature: sky, clouds, grass, trees, lake. Actions: floating. Emotions: whimsical, serene. Scenes: fantasy, surreal, outdoor, landscape. Concepts: imagination, adventure, whimsy",
+  "primary_labels": {
+    "objects": [
+      "house",
+      "balloons"
+    ],
+    "nature": [
+      "sky",
+      "clouds",
+      "grass",
+      "trees",
+      "lake"
+    ],
+    "actions": [
+      "floating"
+    ],
+    "emotions": [
+      "whimsical",
+      "serene"
+    ],
+    "scenes": [
+      "fantasy",
+      "surreal",
+      "outdoor",
+      "landscape"
+    ],
+    "concepts": [
+      "imagination",
+      "adventure",
+      "whimsy"
+    ]
+  },
+  "metadata": {}
+}

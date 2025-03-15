@@ -1,0 +1,128 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ciborgue Messi.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ciborgue Messi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ciborgue Messi/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic cyborg with intricate metallic components integrated into its face and body gazes intensely forward. The blend of human features and advanced technology creates a striking and powerful appearance. The cyborg's expression is serious and focused, suggesting readiness and determination.",
+      "description": "The scene depicts a close-up of a cyborg, showcasing the seamless integration of human and machine elements. The setting is likely futuristic, emphasizing advanced technology and cybernetic enhancements.",
+      "labels": {
+        "people": [
+          "cyborg",
+          "human"
+        ],
+        "objects": [
+          "metal components",
+          "cybernetic enhancements"
+        ],
+        "emotions": [
+          "intensity",
+          "focus",
+          "determination"
+        ],
+        "scenes": [
+          "futuristic",
+          "technological"
+        ],
+        "concepts": [
+          "human-machine integration",
+          "advanced technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ciborgue Messi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ciborgue Messi/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic cyborg character is depicted with intricate metallic enhancements integrated into their face and upper body. The expression is intense and focused, suggesting a blend of human emotion with robotic precision.",
+      "description": "The scene presents a close-up of a cyborg, showcasing the fusion of human features with advanced technology. The setting appears to be a futuristic environment, emphasizing the character's advanced capabilities.",
+      "labels": {
+        "people": [
+          "cyborg"
+        ],
+        "objects": [
+          "metallic enhancements",
+          "robotic components"
+        ],
+        "emotions": [
+          "intensity",
+          "focus"
+        ],
+        "scenes": [
+          "futuristic"
+        ],
+        "concepts": [
+          "technology integration",
+          "human-robot fusion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ciborgue Messi.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ciborgue Messi/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A man with cybernetic enhancements gazes intensely forward, his face partially covered with intricate metallic components. The fusion of human and machine elements creates a futuristic and technologically advanced appearance.",
+      "description": "The scene depicts a close-up of a man with cybernetic features, suggesting a futuristic or sci-fi setting. The focus is on the detailed integration of mechanical parts with human skin, highlighting the concept of advanced technology.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "cybernetic enhancements",
+          "metallic components"
+        ],
+        "emotions": [
+          "intensity"
+        ],
+        "scenes": [
+          "futuristic",
+          "sci-fi"
+        ],
+        "concepts": [
+          "technology",
+          "cyborg"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: cyborg, human, man. Objects: cybernetic enhancements, metal components, metallic enhancements, robotic components, metallic components. Emotions: intensity, focus, determination. Scenes: futuristic, technological, sci-fi. Concepts: human-machine integration, advanced technology, technology integration, human-robot fusion, technology",
+  "primary_labels": {
+    "people": [
+      "cyborg",
+      "human",
+      "man"
+    ],
+    "objects": [
+      "cybernetic enhancements",
+      "metal components",
+      "metallic enhancements",
+      "robotic components",
+      "metallic components"
+    ],
+    "emotions": [
+      "intensity",
+      "focus",
+      "determination"
+    ],
+    "scenes": [
+      "futuristic",
+      "technological",
+      "sci-fi"
+    ],
+    "concepts": [
+      "human-machine integration",
+      "advanced technology",
+      "technology integration",
+      "human-robot fusion",
+      "technology"
+    ]
+  },
+  "metadata": {}
+}

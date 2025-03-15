@@ -1,0 +1,117 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisSceneToMake.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisSceneToMake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisSceneToMake/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A group of animated chefs are gathered around a large plate of spaghetti, energetically preparing the dish. One chef is sprinkling ingredients from a ladle, while others are engaged in various cooking tasks. The scene is lively with steam rising from the hot pasta.",
+      "description": "The scene depicts a whimsical kitchen setting where animated chefs are collaboratively cooking a large plate of spaghetti. The atmosphere is bustling and energetic, with chefs actively participating in the preparation of the dish.",
+      "labels": {
+        "people": [
+          "chefs",
+          "animated characters"
+        ],
+        "objects": [
+          "spaghetti",
+          "plate",
+          "ladle"
+        ],
+        "actions": [
+          "cooking",
+          "sprinkling",
+          "preparing"
+        ],
+        "emotions": [
+          "energetic",
+          "focused"
+        ],
+        "scenes": [
+          "kitchen",
+          "cooking"
+        ],
+        "concepts": [
+          "culinary art",
+          "teamwork"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisSceneToMake.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisSceneToMake/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A group of miniature chefs are gathered around a large plate of pasta, enthusiastically seasoning it with various spices. The scene is whimsical, with steam rising from the dish, creating a magical atmosphere. The chefs appear animated and focused on perfecting the culinary creation.",
+      "description": "The scene depicts a playful and imaginative setting where tiny chefs are working together to season a giant plate of pasta. The atmosphere is lively and magical, enhanced by the steam and spices being sprinkled over the dish.",
+      "labels": {
+        "people": [
+          "miniature chefs"
+        ],
+        "objects": [
+          "pasta",
+          "plate",
+          "spices"
+        ],
+        "actions": [
+          "seasoning",
+          "sprinkling"
+        ],
+        "emotions": [
+          "enthusiasm",
+          "focus"
+        ],
+        "scenes": [
+          "culinary",
+          "whimsical"
+        ],
+        "concepts": [
+          "imagination",
+          "creativity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: chefs, animated characters, miniature chefs. Objects: plate, spaghetti, ladle, pasta, spices. Actions: sprinkling, cooking, preparing, seasoning. Emotions: energetic, focused, enthusiasm, focus. Scenes: kitchen, cooking, culinary, whimsical. Concepts: culinary art, teamwork, imagination, creativity",
+  "primary_labels": {
+    "people": [
+      "chefs",
+      "animated characters",
+      "miniature chefs"
+    ],
+    "objects": [
+      "plate",
+      "spaghetti",
+      "ladle",
+      "pasta",
+      "spices"
+    ],
+    "actions": [
+      "sprinkling",
+      "cooking",
+      "preparing",
+      "seasoning"
+    ],
+    "emotions": [
+      "energetic",
+      "focused",
+      "enthusiasm",
+      "focus"
+    ],
+    "scenes": [
+      "kitchen",
+      "cooking",
+      "culinary",
+      "whimsical"
+    ],
+    "concepts": [
+      "culinary art",
+      "teamwork",
+      "imagination",
+      "creativity"
+    ]
+  },
+  "metadata": {}
+}

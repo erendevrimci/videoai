@@ -1,0 +1,86 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Superyacht Ferrari in Monaco.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Superyacht Ferrari in Monaco.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Superyacht Ferrari in Monaco/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A sleek, futuristic red yacht is docked in a serene harbor at sunset. The vessel's smooth curves and reflective surfaces catch the warm glow of the setting sun, creating a striking contrast against the calm water. In the background, a cityscape with hills and buildings is visible under a partly cloudy sky.",
+      "description": "The scene captures a luxurious yacht in a harbor setting during sunset. The yacht's modern design and vibrant color stand out against the tranquil water and the distant city skyline.",
+      "labels": {
+        "objects": [
+          "yacht",
+          "water",
+          "buildings"
+        ],
+        "nature": [
+          "sky",
+          "clouds",
+          "hills"
+        ],
+        "scenes": [
+          "harbor",
+          "sunset"
+        ],
+        "emotions": [
+          "serenity",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Superyacht Ferrari in Monaco.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Superyacht Ferrari in Monaco/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A sleek, futuristic red yacht glides through calm waters during a picturesque sunset. The background features a coastal cityscape with hills and high-rise buildings, creating a luxurious and serene atmosphere.",
+      "description": "The scene captures a modern yacht navigating through a harbor at sunset, with a city skyline and hills in the background. The vibrant colors and smooth lines of the yacht emphasize its elegance and advanced design.",
+      "labels": {
+        "objects": [
+          "yacht",
+          "buildings",
+          "water"
+        ],
+        "nature": [
+          "sunset",
+          "hills"
+        ],
+        "scenes": [
+          "harbor",
+          "cityscape"
+        ],
+        "emotions": [
+          "serenity",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: yacht, water, buildings. Nature: hills, sky, clouds, sunset. Scenes: harbor, sunset, cityscape. Emotions: serenity, luxury",
+  "primary_labels": {
+    "objects": [
+      "yacht",
+      "water",
+      "buildings"
+    ],
+    "nature": [
+      "hills",
+      "sky",
+      "clouds",
+      "sunset"
+    ],
+    "scenes": [
+      "harbor",
+      "sunset",
+      "cityscape"
+    ],
+    "emotions": [
+      "serenity",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWolf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAWolf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fierce-looking woman dressed in rugged, medieval-style clothing walks through a snowy landscape alongside a wolf. Her long, flowing hair and determined expression convey strength and resilience. The scene is set against a backdrop of falling snow and blurred figures in the distance.",
+      "description": "The scene depicts a medieval or fantasy setting with a strong female character and a wolf companion traversing a snowy environment. The atmosphere is intense and dramatic, suggesting a journey or quest.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "medieval clothing",
+          "fur cloak"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "strength",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAWolf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAWolf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A fierce-looking woman with long, flowing hair walks through a snowy landscape, accompanied by a large wolf. She is dressed in rugged, fur-lined clothing, suggesting a medieval or fantasy setting. The wolf stays close by her side, exuding a sense of loyalty and companionship.",
+      "description": "The scene depicts a woman and a wolf traversing a snowy wilderness. The woman's attire and the wolf's presence suggest a connection to nature and survival in a harsh environment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow",
+          "wilderness"
+        ],
+        "objects": [
+          "fur-lined clothing",
+          "boots"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "fierce",
+          "determined"
+        ],
+        "scenes": [
+          "winter landscape",
+          "fantasy setting"
+        ],
+        "concepts": [
+          "companionship",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: wolf. Nature: snow, wilderness. Objects: medieval clothing, fur cloak, fur-lined clothing, boots. Actions: walking. Emotions: determination, fierce, determined. Scenes: fantasy, medieval, winter landscape, fantasy setting. Concepts: companionship, strength, survival",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "snow",
+      "wilderness"
+    ],
+    "objects": [
+      "medieval clothing",
+      "fur cloak",
+      "fur-lined clothing",
+      "boots"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "determination",
+      "fierce",
+      "determined"
+    ],
+    "scenes": [
+      "fantasy",
+      "medieval",
+      "winter landscape",
+      "fantasy setting"
+    ],
+    "concepts": [
+      "companionship",
+      "strength",
+      "survival"
+    ]
+  },
+  "metadata": {}
+}

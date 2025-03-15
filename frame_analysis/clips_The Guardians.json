@@ -1,0 +1,140 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Guardians.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Guardians.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Guardians/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A confident woman walks down a futuristic corridor flanked by two large, anthropomorphic wolves. The wolves, one white and one black, wear gold chains and exude a powerful presence. The woman, dressed in a sleek black and white outfit, leads the trio with determination.",
+      "description": "The scene is set in a high-tech, futuristic corridor with bright overhead lighting. The main focus is on a woman and two large wolves walking in unison, creating a striking and commanding visual.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "objects": [
+          "chains",
+          "belt"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "power"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "leadership",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Guardians.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Guardians/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A confident woman walks down a futuristic corridor flanked by two large, anthropomorphic wolves. The wolves, one white with blue eyes and the other black with yellow eyes, wear gold chains and exude a powerful presence.",
+      "description": "The scene is set in a sleek, futuristic corridor with bright overhead lighting. A woman in a stylish, form-fitting outfit strides forward, accompanied by two imposing wolf-like creatures. The atmosphere is intense and commanding, suggesting a sense of authority and strength.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "objects": [
+          "gold chains",
+          "belt"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "power"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "authority",
+          "companionship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/The Guardians.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/The Guardians/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A confident woman walks down a futuristic corridor flanked by two large, imposing wolves. The wolves, one white and one black, wear gold chains and exude a sense of power and protection. The scene is illuminated by soft, ambient lighting, highlighting the trio's commanding presence.",
+      "description": "The scene depicts a woman walking with two anthropomorphic wolves in a futuristic corridor. The setting suggests a blend of fantasy and science fiction, with the wolves symbolizing guardianship or companionship.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "objects": [
+          "gold chains"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "power"
+        ],
+        "scenes": [
+          "futuristic corridor"
+        ],
+        "concepts": [
+          "companionship",
+          "guardianship"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: wolf. Objects: belt, gold chains, chains. Actions: walking. Emotions: confidence, power. Scenes: futuristic corridor. Concepts: companionship, leadership, authority, guardianship",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "objects": [
+      "belt",
+      "gold chains",
+      "chains"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "power"
+    ],
+    "scenes": [
+      "futuristic corridor"
+    ],
+    "concepts": [
+      "companionship",
+      "leadership",
+      "authority",
+      "guardianship"
+    ]
+  },
+  "metadata": {}
+}

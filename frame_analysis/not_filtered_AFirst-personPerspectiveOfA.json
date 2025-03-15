@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFirst-personPerspectiveOfA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFirst-personPerspectiveOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFirst-personPerspectiveOfA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A breathtaking view of the pyramids under a starry night sky, framed by ancient columns with hieroglyphics. The scene is viewed from a cozy bed, suggesting a serene and luxurious setting.",
+      "description": "The image captures a tranquil night scene with the iconic pyramids illuminated in the distance. The setting is likely an ancient or historically themed room, with a focus on relaxation and awe-inspiring views.",
+      "labels": {
+        "people": [
+          "feet"
+        ],
+        "nature": [
+          "starry sky",
+          "palm trees"
+        ],
+        "objects": [
+          "pyramids",
+          "columns",
+          "bed",
+          "hieroglyphics"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "serenity",
+          "awe"
+        ],
+        "scenes": [
+          "nighttime",
+          "historical setting"
+        ],
+        "concepts": [
+          "luxury",
+          "ancient Egypt"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AFirst-personPerspectiveOfA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AFirst-personPerspectiveOfA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene night scene unfolds with a view of the pyramids under a starry sky. The scene is framed by ornate columns with hieroglyphics, and a person is seen relaxing, gazing at the majestic landscape. Palm trees and city lights add depth to the tranquil atmosphere.",
+      "description": "The setting appears to be an ancient Egyptian-inspired room with a view of the pyramids. The scene is calm and peaceful, with a focus on relaxation and admiration of the night sky.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "palm trees",
+          "starry sky"
+        ],
+        "objects": [
+          "pyramids",
+          "columns",
+          "hieroglyphics"
+        ],
+        "actions": [
+          "relaxing",
+          "gazing"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "night scene",
+          "ancient Egyptian setting"
+        ],
+        "concepts": [
+          "relaxation",
+          "admiration"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: feet, person. Nature: starry sky, palm trees. Objects: pyramids, columns, hieroglyphics, bed. Actions: resting, relaxing, gazing. Emotions: serenity, awe, tranquility. Scenes: nighttime, historical setting, night scene, ancient Egyptian setting. Concepts: luxury, ancient Egypt, relaxation, admiration",
+  "primary_labels": {
+    "people": [
+      "feet",
+      "person"
+    ],
+    "nature": [
+      "starry sky",
+      "palm trees"
+    ],
+    "objects": [
+      "pyramids",
+      "columns",
+      "hieroglyphics",
+      "bed"
+    ],
+    "actions": [
+      "resting",
+      "relaxing",
+      "gazing"
+    ],
+    "emotions": [
+      "serenity",
+      "awe",
+      "tranquility"
+    ],
+    "scenes": [
+      "nighttime",
+      "historical setting",
+      "night scene",
+      "ancient Egyptian setting"
+    ],
+    "concepts": [
+      "luxury",
+      "ancient Egypt",
+      "relaxation",
+      "admiration"
+    ]
+  },
+  "metadata": {}
+}

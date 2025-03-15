@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Baby Fashion Show.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Baby Fashion Show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Baby Fashion Show/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young child is dressed in an adorable penguin costume, walking confidently on a white surface. The background is blurred, showing an audience watching with smiles and interest.",
+      "description": "The scene depicts a child in a penguin costume, possibly participating in a cute event or fashion show, with an audience in the background. The setting appears to be indoors, with a focus on the child's charming appearance.",
+      "labels": {
+        "people": [
+          "child",
+          "audience"
+        ],
+        "animals": [
+          "penguin (costume)"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "joy",
+          "delight"
+        ],
+        "scenes": [
+          "event",
+          "indoor"
+        ],
+        "concepts": [
+          "cuteness",
+          "fashion show"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Baby Fashion Show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Baby Fashion Show/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young child dressed in an adorable penguin costume is walking on a white surface. The child appears to be in a lively setting with blurred figures in the background.",
+      "description": "The scene captures a young child in a penguin costume, likely at a festive or playful event. The background suggests a gathering of people, possibly family or friends, observing the child.",
+      "labels": {
+        "people": [
+          "child"
+        ],
+        "animals": [
+          "penguin costume"
+        ],
+        "objects": [
+          "costume"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "joyful"
+        ],
+        "scenes": [
+          "event",
+          "gathering"
+        ],
+        "concepts": [
+          "playfulness",
+          "festivity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: child, audience. Animals: penguin (costume), penguin costume. Objects: costume. Actions: walking. Emotions: joy, delight, joyful. Scenes: event, indoor, gathering. Concepts: cuteness, fashion show, playfulness, festivity",
+  "primary_labels": {
+    "people": [
+      "child",
+      "audience"
+    ],
+    "animals": [
+      "penguin (costume)",
+      "penguin costume"
+    ],
+    "objects": [
+      "costume"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "joy",
+      "delight",
+      "joyful"
+    ],
+    "scenes": [
+      "event",
+      "indoor",
+      "gathering"
+    ],
+    "concepts": [
+      "cuteness",
+      "fashion show",
+      "playfulness",
+      "festivity"
+    ]
+  },
+  "metadata": {}
+}

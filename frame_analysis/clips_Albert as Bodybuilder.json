@@ -1,0 +1,95 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Albert as Bodybuilder.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Albert as Bodybuilder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Albert as Bodybuilder/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A muscular man with distinctive white hair and a mustache stands confidently in a gym setting. He is wearing blue athletic shorts and black sneakers, showcasing his well-defined physique.",
+      "description": "The scene is set in a gym, where a strong and muscular man poses with a confident stance. The background is dimly lit, focusing attention on the subject's impressive build.",
+      "labels": {
+        "people": [
+          "muscular man"
+        ],
+        "objects": [
+          "athletic shorts",
+          "sneakers"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "strength",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Albert as Bodybuilder.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Albert as Bodybuilder/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A muscular man with distinctive white hair and a mustache stands confidently in a gym setting. He is wearing blue shorts and black athletic shoes, showcasing a powerful physique.",
+      "description": "The scene is set in a gym, featuring a strong, muscular man with unique hair and facial features. The focus is on his impressive physique, highlighted by the lighting and his stance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "shorts",
+          "athletic shoes"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "gym"
+        ],
+        "concepts": [
+          "strength",
+          "fitness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: muscular man, man. Objects: athletic shorts, sneakers, shorts, athletic shoes. Actions: posing, standing. Emotions: confidence. Scenes: gym. Concepts: strength, fitness",
+  "primary_labels": {
+    "people": [
+      "muscular man",
+      "man"
+    ],
+    "objects": [
+      "athletic shorts",
+      "sneakers",
+      "shorts",
+      "athletic shoes"
+    ],
+    "actions": [
+      "posing",
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "gym"
+    ],
+    "concepts": [
+      "strength",
+      "fitness"
+    ]
+  },
+  "metadata": {}
+}

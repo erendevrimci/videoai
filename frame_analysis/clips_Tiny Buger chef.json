@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Buger chef.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Buger chef.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiny Buger chef/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A whimsical scene depicts miniature figures working on a giant hamburger. The tiny workers are using ladders and tools to assemble the towering burger, adding lettuce and adjusting the layers. The setting is playful and imaginative, with a focus on the intricate details of the miniature world.",
+      "description": "The scene is set in a creative, fantasy environment where miniature figures are engaged in constructing a large hamburger. The figures are positioned around the burger, actively participating in its assembly, creating a sense of bustling activity.",
+      "labels": {
+        "people": [
+          "miniature figures",
+          "workers"
+        ],
+        "objects": [
+          "hamburger",
+          "ladder",
+          "tools",
+          "plate"
+        ],
+        "actions": [
+          "assembling",
+          "climbing",
+          "adjusting"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "miniature world",
+          "fantasy setting"
+        ],
+        "concepts": [
+          "creativity",
+          "whimsy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Tiny Buger chef.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Tiny Buger chef/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical scene depicts miniature workers assembling a giant burger. The tiny figures are positioned on ladders, meticulously placing lettuce and other ingredients on the towering sandwich. The setting is playful and imaginative, with a focus on the surreal scale of the burger.",
+      "description": "The scene is set in a creative and imaginative environment where miniature workers are constructing a large burger. The workers are climbing ladders and arranging the ingredients with precision, creating a playful and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "miniature workers"
+        ],
+        "objects": [
+          "burger",
+          "ladders",
+          "plate"
+        ],
+        "actions": [
+          "assembling",
+          "climbing"
+        ],
+        "emotions": [
+          "playful",
+          "imaginative"
+        ],
+        "scenes": [
+          "surreal",
+          "creative"
+        ],
+        "concepts": [
+          "miniature",
+          "food art"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: miniature figures, workers, miniature workers. Objects: plate, hamburger, ladder, tools, burger. Actions: assembling, climbing, adjusting. Emotions: playful, imaginative. Scenes: miniature world, fantasy setting, surreal, creative. Concepts: creativity, whimsy, miniature, food art",
+  "primary_labels": {
+    "people": [
+      "miniature figures",
+      "workers",
+      "miniature workers"
+    ],
+    "objects": [
+      "plate",
+      "hamburger",
+      "ladder",
+      "tools",
+      "burger"
+    ],
+    "actions": [
+      "assembling",
+      "climbing",
+      "adjusting"
+    ],
+    "emotions": [
+      "playful",
+      "imaginative"
+    ],
+    "scenes": [
+      "miniature world",
+      "fantasy setting",
+      "surreal",
+      "creative"
+    ],
+    "concepts": [
+      "creativity",
+      "whimsy",
+      "miniature",
+      "food art"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,123 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicFarewellSceneAt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicFarewellSceneAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicFarewellSceneAt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two anthropomorphic cats stand on a wooden platform beside a vintage train. The male cat gently touches the female cat's head, creating a tender moment. In the background, two human figures observe the scene.",
+      "description": "The scene is set at a train station during sunset, with a focus on two anthropomorphic cats sharing a heartfelt moment. The lighting is warm and soft, enhancing the emotional tone of the interaction.",
+      "labels": {
+        "animals": [
+          "anthropomorphic cats"
+        ],
+        "objects": [
+          "train",
+          "wooden platform"
+        ],
+        "actions": [
+          "touching",
+          "standing"
+        ],
+        "emotions": [
+          "tenderness",
+          "affection"
+        ],
+        "scenes": [
+          "train station"
+        ],
+        "concepts": [
+          "farewell",
+          "connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/ACinematicFarewellSceneAt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/ACinematicFarewellSceneAt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A humanoid figure with animal features walks along a train platform at sunset. The figure is dressed in a pink dress and is surrounded by people in traditional attire. The scene is set against a backdrop of a vintage train and lush greenery.",
+      "description": "The scene depicts a serene moment at a train station during sunset. A character with animal-like features is walking along the platform, where several people are standing, possibly waiting for the train. The warm lighting and lush surroundings create a peaceful atmosphere.",
+      "labels": {
+        "people": [
+          "humanoid figure",
+          "people in traditional attire"
+        ],
+        "animals": [
+          "animal features"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "objects": [
+          "train",
+          "platform",
+          "lamp post"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene",
+          "peaceful"
+        ],
+        "scenes": [
+          "train station",
+          "sunset"
+        ],
+        "concepts": [
+          "travel",
+          "journey",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: anthropomorphic cats, animal features. Objects: train, wooden platform, platform, lamp post. Actions: touching, standing, walking. Emotions: tenderness, affection, serene, peaceful. Scenes: train station, sunset. Concepts: farewell, connection, travel, journey, tranquility. People: humanoid figure, people in traditional attire. Nature: greenery",
+  "primary_labels": {
+    "animals": [
+      "anthropomorphic cats",
+      "animal features"
+    ],
+    "objects": [
+      "train",
+      "wooden platform",
+      "platform",
+      "lamp post"
+    ],
+    "actions": [
+      "touching",
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "tenderness",
+      "affection",
+      "serene",
+      "peaceful"
+    ],
+    "scenes": [
+      "train station",
+      "sunset"
+    ],
+    "concepts": [
+      "farewell",
+      "connection",
+      "travel",
+      "journey",
+      "tranquility"
+    ],
+    "people": [
+      "humanoid figure",
+      "people in traditional attire"
+    ],
+    "nature": [
+      "greenery"
+    ]
+  },
+  "metadata": {}
+}

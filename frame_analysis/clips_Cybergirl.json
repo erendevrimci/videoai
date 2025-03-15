@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cybergirl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cybergirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cybergirl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic scene depicts a person with closed eyes, standing against a backdrop of neon-lit skyscrapers. The vibrant colors of pink and blue illuminate the scene, highlighting the person's detailed cybernetic attire and hair. The atmosphere suggests a blend of serenity and introspection amidst a bustling cyberpunk cityscape.",
+      "description": "The image portrays a cyberpunk setting with a focus on a solitary figure immersed in a futuristic urban environment. The neon lights and towering buildings create a sense of advanced technology and modernity.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "cybernetic attire",
+          "skyscrapers"
+        ],
+        "actions": [
+          "standing",
+          "introspection"
+        ],
+        "emotions": [
+          "serenity",
+          "introspection"
+        ],
+        "scenes": [
+          "cyberpunk cityscape"
+        ],
+        "concepts": [
+          "futuristic",
+          "technology"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cybergirl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cybergirl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic scene featuring a woman with vibrant pink and blue highlights in her hair, standing against a neon-lit cityscape. Her eyes are closed, and she appears to be in a moment of calm amidst the bustling environment. The city lights reflect off her high-tech jacket, adding to the cyberpunk aesthetic.",
+      "description": "The scene is set in a futuristic, cyberpunk city at night, characterized by neon lights and towering skyscrapers. The woman stands prominently in the foreground, embodying a sense of serenity and introspection despite the dynamic urban backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jacket",
+          "skyscrapers"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "introspective"
+        ],
+        "scenes": [
+          "cyberpunk city",
+          "night"
+        ],
+        "concepts": [
+          "futuristic",
+          "neon lights"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: skyscrapers, cybernetic attire, jacket. Actions: standing, introspection. Emotions: serenity, introspection, calm, introspective. Scenes: cyberpunk cityscape, cyberpunk city, night. Concepts: futuristic, technology, neon lights",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "skyscrapers",
+      "cybernetic attire",
+      "jacket"
+    ],
+    "actions": [
+      "standing",
+      "introspection"
+    ],
+    "emotions": [
+      "serenity",
+      "introspection",
+      "calm",
+      "introspective"
+    ],
+    "scenes": [
+      "cyberpunk cityscape",
+      "cyberpunk city",
+      "night"
+    ],
+    "concepts": [
+      "futuristic",
+      "technology",
+      "neon lights"
+    ]
+  },
+  "metadata": {}
+}

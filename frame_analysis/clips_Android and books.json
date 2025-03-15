@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android and books.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android and books.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Android and books/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A futuristic humanoid robot stands in a high-tech library, surrounded by shelves filled with glowing books. The robot features sleek, metallic armor with intricate designs and a helmet with a digital interface.",
+      "description": "The scene is set in a futuristic library, where advanced technology and robotics are seamlessly integrated. The humanoid robot is the focal point, showcasing advanced design and functionality in a setting that emphasizes knowledge and innovation.",
+      "labels": {
+        "people": [
+          "humanoid robot"
+        ],
+        "objects": [
+          "books",
+          "shelves",
+          "helmet"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "scenes": [
+          "futuristic library"
+        ],
+        "concepts": [
+          "technology",
+          "innovation"
+        ],
+        "emotions": [
+          "neutral"
+        ],
+        "nature": [],
+        "animals": []
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Android and books.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Android and books/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A futuristic humanoid robot stands in a high-tech library, surrounded by shelves filled with glowing books. The robot, with sleek metallic armor and a long silver ponytail, gazes forward with a sense of purpose.",
+      "description": "The scene is set in a futuristic library, where a humanoid robot is the central figure. The environment is illuminated with soft, ambient lighting, highlighting the advanced technology and design of the space.",
+      "labels": {
+        "people": [
+          "humanoid robot"
+        ],
+        "objects": [
+          "bookshelves",
+          "glowing books"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "purposeful"
+        ],
+        "scenes": [
+          "futuristic library"
+        ],
+        "concepts": [
+          "technology",
+          "futurism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid robot. Objects: books, shelves, helmet, bookshelves, glowing books. Actions: standing. Scenes: futuristic library. Concepts: technology, innovation, futurism. Emotions: neutral, purposeful",
+  "primary_labels": {
+    "people": [
+      "humanoid robot"
+    ],
+    "objects": [
+      "books",
+      "shelves",
+      "helmet",
+      "bookshelves",
+      "glowing books"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "scenes": [
+      "futuristic library"
+    ],
+    "concepts": [
+      "technology",
+      "innovation",
+      "futurism"
+    ],
+    "emotions": [
+      "neutral",
+      "purposeful"
+    ],
+    "nature": [],
+    "animals": []
+  },
+  "metadata": {}
+}

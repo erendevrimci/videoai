@@ -1,0 +1,124 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Brazil \ud83c\udde7\ud83c\uddf7.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Brazil \ud83c\udde7\ud83c\uddf7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Brazil \ud83c\udde7\ud83c\uddf7/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical woman dressed in elaborate attire stands in a forest, holding a flame in her hand. She is accompanied by two tigers, exuding an aura of power and enchantment. The scene is set in a dimly lit forest, adding to the magical atmosphere.",
+      "description": "The scene depicts a mystical setting in a forest where a woman with a witch-like appearance is performing magic. She is flanked by two tigers, suggesting a connection with nature and power.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "flame",
+          "hat",
+          "jewelry"
+        ],
+        "actions": [
+          "holding flame"
+        ],
+        "emotions": [
+          "mystical",
+          "powerful"
+        ],
+        "scenes": [
+          "magical",
+          "forest"
+        ],
+        "concepts": [
+          "magic",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Brazil \ud83c\udde7\ud83c\uddf7.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Brazil \ud83c\udde7\ud83c\uddf7/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious woman stands in a forest, holding a flame in her hand. She wears a large, pointed hat and intricate jewelry, accompanied by two tigers. The scene is set against a backdrop of misty trees, creating an enchanting atmosphere.",
+      "description": "The scene depicts a mystical setting in a dense forest. A woman, possibly a witch or sorceress, is the central figure, exuding an aura of power and mystery. The presence of tigers adds to the exotic and magical theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "hat",
+          "jewelry",
+          "flame"
+        ],
+        "actions": [
+          "holding flame"
+        ],
+        "emotions": [
+          "mysterious",
+          "powerful"
+        ],
+        "scenes": [
+          "mystical",
+          "enchanted forest"
+        ],
+        "concepts": [
+          "magic",
+          "sorcery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: tiger. Nature: forest, trees. Objects: flame, hat, jewelry. Actions: holding flame. Emotions: powerful, mystical, mysterious. Scenes: magical, forest, mystical, enchanted forest. Concepts: magic, enchantment, sorcery",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "tiger"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "flame",
+      "hat",
+      "jewelry"
+    ],
+    "actions": [
+      "holding flame"
+    ],
+    "emotions": [
+      "powerful",
+      "mystical",
+      "mysterious"
+    ],
+    "scenes": [
+      "magical",
+      "forest",
+      "mystical",
+      "enchanted forest"
+    ],
+    "concepts": [
+      "magic",
+      "enchantment",
+      "sorcery"
+    ]
+  },
+  "metadata": {}
+}

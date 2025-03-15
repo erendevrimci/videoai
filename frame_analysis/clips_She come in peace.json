@@ -1,0 +1,104 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She come in peace.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She come in peace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/She come in peace/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An alien-like figure walks confidently down a busy urban street, surrounded by blurred pedestrians. The creature is tall and slender, wearing a long, flowing garment and adorned with necklaces.",
+      "description": "The scene is set in a bustling city environment, likely a popular urban area with many people. The focus is on a humanoid alien figure moving through the crowd, creating a surreal juxtaposition against the everyday city life.",
+      "labels": {
+        "people": [
+          "pedestrians"
+        ],
+        "objects": [
+          "necklaces",
+          "garment"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "alien",
+          "surreal",
+          "juxtaposition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/She come in peace.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/She come in peace/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An alien-like figure stands in an urban setting, forming a heart shape with its hands. The figure is dressed in a long, flowing garment and is surrounded by blurred pedestrians.",
+      "description": "The scene is set in a bustling city street, likely a popular urban area with bright lights and advertisements in the background. The focus is on a humanoid figure with an alien appearance, creating a heart shape with its hands amidst a crowd of people.",
+      "labels": {
+        "people": [
+          "humanoid figure",
+          "pedestrians"
+        ],
+        "objects": [
+          "garment",
+          "advertisements"
+        ],
+        "actions": [
+          "forming heart shape"
+        ],
+        "emotions": [
+          "friendly",
+          "curious"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "alien",
+          "interaction"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: pedestrians, humanoid figure. Objects: garment, necklaces, advertisements. Actions: walking, forming heart shape. Emotions: confidence, friendly, curious. Scenes: urban, street. Concepts: alien, surreal, juxtaposition, interaction",
+  "primary_labels": {
+    "people": [
+      "pedestrians",
+      "humanoid figure"
+    ],
+    "objects": [
+      "garment",
+      "necklaces",
+      "advertisements"
+    ],
+    "actions": [
+      "walking",
+      "forming heart shape"
+    ],
+    "emotions": [
+      "confidence",
+      "friendly",
+      "curious"
+    ],
+    "scenes": [
+      "urban",
+      "street"
+    ],
+    "concepts": [
+      "alien",
+      "surreal",
+      "juxtaposition",
+      "interaction"
+    ]
+  },
+  "metadata": {}
+}

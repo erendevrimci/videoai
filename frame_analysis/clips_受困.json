@@ -1,0 +1,121 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u53d7\u56f0.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u53d7\u56f0.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u53d7\u56f0/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman clings desperately to the side of a steep cliff, her face showing fear and determination. Below her, a rushing river flows through a narrow gorge, adding to the perilous nature of her climb.",
+      "description": "The scene depicts a tense moment of rock climbing in a dramatic natural setting. The woman is suspended on a cliff face, with a turbulent river below, highlighting the danger and intensity of the situation.",
+      "labels": {
+        "people": [
+          "woman",
+          "climber"
+        ],
+        "nature": [
+          "cliff",
+          "river",
+          "gorge"
+        ],
+        "objects": [
+          "rope",
+          "backpack"
+        ],
+        "actions": [
+          "climbing",
+          "holding"
+        ],
+        "emotions": [
+          "fear",
+          "determination"
+        ],
+        "scenes": [
+          "outdoor",
+          "adventure"
+        ],
+        "concepts": [
+          "danger",
+          "survival"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u53d7\u56f0.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u53d7\u56f0/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A climber clings desperately to a sheer rock face, high above a turbulent river gorge. Her expression is one of fear and determination as she navigates the perilous climb. The misty atmosphere and rugged terrain emphasize the danger of the situation.",
+      "description": "The scene depicts a climber in a precarious position on a steep rock face, with a deep gorge and rushing river below. The setting is dramatic and tense, highlighting the climber's struggle and the natural beauty of the environment.",
+      "labels": {
+        "people": [
+          "climber"
+        ],
+        "nature": [
+          "rock face",
+          "gorge",
+          "river"
+        ],
+        "objects": [
+          "climbing gear"
+        ],
+        "actions": [
+          "climbing",
+          "gripping"
+        ],
+        "emotions": [
+          "fear",
+          "determination"
+        ],
+        "scenes": [
+          "adventure",
+          "danger"
+        ],
+        "concepts": [
+          "survival",
+          "challenge"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: climber, woman. Nature: river, gorge, cliff, rock face. Objects: rope, backpack, climbing gear. Actions: climbing, holding, gripping. Emotions: fear, determination. Scenes: adventure, outdoor, danger. Concepts: survival, danger, challenge",
+  "primary_labels": {
+    "people": [
+      "climber",
+      "woman"
+    ],
+    "nature": [
+      "river",
+      "gorge",
+      "cliff",
+      "rock face"
+    ],
+    "objects": [
+      "rope",
+      "backpack",
+      "climbing gear"
+    ],
+    "actions": [
+      "climbing",
+      "holding",
+      "gripping"
+    ],
+    "emotions": [
+      "fear",
+      "determination"
+    ],
+    "scenes": [
+      "adventure",
+      "outdoor",
+      "danger"
+    ],
+    "concepts": [
+      "survival",
+      "danger",
+      "challenge"
+    ]
+  },
+  "metadata": {}
+}

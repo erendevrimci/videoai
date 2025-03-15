@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsPromotingThe.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsPromotingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanIsPromotingThe/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is smiling and holding a product box labeled 'Trimfyjt' in her right hand while pointing at it with her left hand. She appears to be promoting the product with an enthusiastic expression.",
+      "description": "The scene is a promotional image featuring a woman presenting a product. The setting is minimalistic with a plain white background, emphasizing the product and the woman's expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "product box"
+        ],
+        "actions": [
+          "smiling",
+          "pointing",
+          "holding"
+        ],
+        "emotions": [
+          "enthusiastic"
+        ],
+        "scenes": [
+          "promotional"
+        ],
+        "concepts": [
+          "advertising",
+          "product promotion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanIsPromotingThe.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanIsPromotingThe/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman is holding a product package labeled 'Trimfit' while gesturing with her other hand. She appears to be speaking, possibly explaining or endorsing the product.",
+      "description": "The scene is a promotional setting where a woman is presenting a product. The background is plain, keeping the focus on the woman and the product she is holding.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "product package"
+        ],
+        "actions": [
+          "holding",
+          "gesturing",
+          "speaking"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "promotional"
+        ],
+        "concepts": [
+          "advertisement",
+          "endorsement"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: product box, product package. Actions: holding, smiling, pointing, gesturing, speaking. Emotions: enthusiastic, confident. Scenes: promotional. Concepts: advertising, product promotion, advertisement, endorsement",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "product box",
+      "product package"
+    ],
+    "actions": [
+      "holding",
+      "smiling",
+      "pointing",
+      "gesturing",
+      "speaking"
+    ],
+    "emotions": [
+      "enthusiastic",
+      "confident"
+    ],
+    "scenes": [
+      "promotional"
+    ],
+    "concepts": [
+      "advertising",
+      "product promotion",
+      "advertisement",
+      "endorsement"
+    ]
+  },
+  "metadata": {}
+}

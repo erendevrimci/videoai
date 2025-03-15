@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraZoomsIn,theCat.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraZoomsIn,theCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,theCameraZoomsIn,theCat/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A ginger cat sits on a wet sidewalk, wearing a knitted hat and a cardboard sign around its neck that reads 'pwetty pwease subscribe'. The background features a blurred urban setting with greenery and brick walls.",
+      "description": "The scene captures a charming and humorous moment on a city sidewalk, where a cat is dressed in a cozy hat and holding a playful sign. The setting suggests a rainy day in an urban environment, with the cat as the central focus.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "hat",
+          "cardboard sign"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "scenes": [
+          "urban",
+          "sidewalk"
+        ],
+        "emotions": [
+          "humor",
+          "charm"
+        ],
+        "concepts": [
+          "subscription",
+          "playfulness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/,theCameraZoomsIn,theCat.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/,theCameraZoomsIn,theCat/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A ginger cat sits on a wet sidewalk wearing a knitted hat, holding a cardboard sign that reads 'pwetty pwease subscribe'. The background features a blurred urban setting with greenery and brick walls.",
+      "description": "The scene captures a whimsical moment in an urban environment, where a cat is humorously dressed and positioned to solicit attention. The setting appears to be a quiet street or alleyway, with a mix of natural and urban elements.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "hat",
+          "cardboard sign"
+        ],
+        "nature": [
+          "greenery"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "humor"
+        ],
+        "scenes": [
+          "urban",
+          "street"
+        ],
+        "concepts": [
+          "whimsy",
+          "attention-seeking"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Objects: hat, cardboard sign. Nature: greenery. Scenes: urban, sidewalk, street. Emotions: humor, charm. Concepts: subscription, playfulness, whimsy, attention-seeking. Actions: sitting",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "objects": [
+      "hat",
+      "cardboard sign"
+    ],
+    "nature": [
+      "greenery"
+    ],
+    "scenes": [
+      "urban",
+      "sidewalk",
+      "street"
+    ],
+    "emotions": [
+      "humor",
+      "charm"
+    ],
+    "concepts": [
+      "subscription",
+      "playfulness",
+      "whimsy",
+      "attention-seeking"
+    ],
+    "actions": [
+      "sitting"
+    ]
+  },
+  "metadata": {}
+}

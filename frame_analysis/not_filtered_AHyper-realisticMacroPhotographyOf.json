@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticMacroPhotographyOf.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticMacroPhotographyOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticMacroPhotographyOf/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image depicts a whimsical scene where two small figurines, dressed in white with red berets, appear to be painting a large, vibrant yellow flower on a floral background. The scene is set against a backdrop of soft pink flowers, creating a delicate and artistic atmosphere.",
+      "description": "This is a close-up image showcasing a creative and imaginative scene where miniature figurines are engaged in painting a flower. The setting is artistic and serene, with a focus on the intricate details of the floral design and the tiny figures.",
+      "labels": {
+        "objects": [
+          "figurines",
+          "flower",
+          "paintbrushes"
+        ],
+        "actions": [
+          "painting"
+        ],
+        "emotions": [
+          "whimsical",
+          "creative"
+        ],
+        "scenes": [
+          "artistic",
+          "miniature"
+        ],
+        "concepts": [
+          "creativity",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AHyper-realisticMacroPhotographyOf.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AHyper-realisticMacroPhotographyOf/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A hand delicately holds a paintbrush, applying color to a detailed floral artwork on fabric. A small figurine, dressed in white with a red hat, appears to be interacting with the flower design.",
+      "description": "The scene depicts a close-up view of an artistic process, where a person is painting intricate floral patterns on a fabric. The presence of a tiny figurine adds a whimsical element to the setting.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "paintbrush",
+          "fabric",
+          "figurine"
+        ],
+        "actions": [
+          "painting"
+        ],
+        "emotions": [
+          "creativity"
+        ],
+        "scenes": [
+          "artistic process"
+        ],
+        "concepts": [
+          "art",
+          "miniature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: figurines, flower, paintbrushes, paintbrush, fabric. Actions: painting. Emotions: whimsical, creative, creativity. Scenes: artistic, miniature, artistic process. Concepts: creativity, imagination, art, miniature. People: hand",
+  "primary_labels": {
+    "objects": [
+      "figurines",
+      "flower",
+      "paintbrushes",
+      "paintbrush",
+      "fabric"
+    ],
+    "actions": [
+      "painting"
+    ],
+    "emotions": [
+      "whimsical",
+      "creative",
+      "creativity"
+    ],
+    "scenes": [
+      "artistic",
+      "miniature",
+      "artistic process"
+    ],
+    "concepts": [
+      "creativity",
+      "imagination",
+      "art",
+      "miniature"
+    ],
+    "people": [
+      "hand"
+    ]
+  },
+  "metadata": {}
+}

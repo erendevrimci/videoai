@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pok\u00e9mon mewto.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pok\u00e9mon mewto.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pok\u00e9mon mewto/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical creature with large blue eyes stands gracefully on a rocky surface, surrounded by glowing, swirling energy. The scene is illuminated with vibrant hues of pink, orange, and blue, creating a magical atmosphere.",
+      "description": "The scene depicts a fantastical setting where a small, cat-like creature is the focal point. It is enveloped in an ethereal glow, with energy ribbons swirling around it, suggesting a sense of power and mysticism.",
+      "labels": {
+        "animals": [
+          "mythical creature"
+        ],
+        "nature": [
+          "rocky surface"
+        ],
+        "objects": [
+          "energy ribbons"
+        ],
+        "actions": [
+          "standing",
+          "swirling"
+        ],
+        "emotions": [
+          "mystical",
+          "magical"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "magic",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Pok\u00e9mon mewto.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Pok\u00e9mon mewto/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A whimsical creature with large, expressive eyes stands on a rocky surface, surrounded by a glowing, swirling ribbon of light. The background is filled with warm, ambient colors, creating a magical atmosphere.",
+      "description": "The scene depicts a fantastical setting where a cute, animated creature is interacting with a luminous, swirling energy. The environment is vibrant and ethereal, suggesting a magical or otherworldly realm.",
+      "labels": {
+        "animals": [
+          "fantasy creature"
+        ],
+        "objects": [
+          "glowing ribbon",
+          "rocky surface"
+        ],
+        "actions": [
+          "standing",
+          "interacting"
+        ],
+        "emotions": [
+          "whimsy",
+          "wonder"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "animation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: mythical creature, fantasy creature. Nature: rocky surface. Objects: energy ribbons, glowing ribbon, rocky surface. Actions: standing, swirling, interacting. Emotions: mystical, magical, whimsy, wonder. Scenes: fantasy, magical. Concepts: magic, energy, animation",
+  "primary_labels": {
+    "animals": [
+      "mythical creature",
+      "fantasy creature"
+    ],
+    "nature": [
+      "rocky surface"
+    ],
+    "objects": [
+      "energy ribbons",
+      "glowing ribbon",
+      "rocky surface"
+    ],
+    "actions": [
+      "standing",
+      "swirling",
+      "interacting"
+    ],
+    "emotions": [
+      "mystical",
+      "magical",
+      "whimsy",
+      "wonder"
+    ],
+    "scenes": [
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "energy",
+      "animation"
+    ]
+  },
+  "metadata": {}
+}

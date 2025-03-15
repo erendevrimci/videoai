@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6211\u7684\u81ea\u7136\u6309\u6469\u6905.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6211\u7684\u81ea\u7136\u6309\u6469\u6905.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6211\u7684\u81ea\u7136\u6309\u6469\u6905/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long blonde hair lies peacefully on a lush green mossy surface. Her eyes are closed, and her expression is serene, suggesting a state of relaxation or sleep. The soft lighting and natural setting create a tranquil atmosphere.",
+      "description": "The scene depicts a serene moment in nature, where a woman is resting on a bed of vibrant green moss. The setting suggests a peaceful outdoor environment, possibly a forest or garden.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "moss",
+          "forest"
+        ],
+        "objects": [
+          "clothing",
+          "belt"
+        ],
+        "actions": [
+          "resting",
+          "relaxing"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "tranquility",
+          "peace"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/\u6211\u7684\u81ea\u7136\u6309\u6469\u6905.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/\u6211\u7684\u81ea\u7136\u6309\u6469\u6905/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman lies peacefully on a bed of lush green moss, her eyes closed and a serene smile on her face. Her hair is spread out around her, blending harmoniously with the natural setting.",
+      "description": "The scene depicts a tranquil moment in nature, where a woman is resting on a soft, mossy surface. The setting suggests a connection with nature, emphasizing relaxation and contentment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "moss",
+          "rocks"
+        ],
+        "objects": [
+          "dress",
+          "belt"
+        ],
+        "actions": [
+          "resting",
+          "relaxing"
+        ],
+        "emotions": [
+          "serenity",
+          "contentment"
+        ],
+        "scenes": [
+          "nature",
+          "outdoors"
+        ],
+        "concepts": [
+          "tranquility",
+          "harmony"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: moss, forest, rocks. Objects: belt, clothing, dress. Actions: resting, relaxing. Emotions: serenity, calm, contentment. Scenes: nature, outdoors. Concepts: tranquility, peace, harmony",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "moss",
+      "forest",
+      "rocks"
+    ],
+    "objects": [
+      "belt",
+      "clothing",
+      "dress"
+    ],
+    "actions": [
+      "resting",
+      "relaxing"
+    ],
+    "emotions": [
+      "serenity",
+      "calm",
+      "contentment"
+    ],
+    "scenes": [
+      "nature",
+      "outdoors"
+    ],
+    "concepts": [
+      "tranquility",
+      "peace",
+      "harmony"
+    ]
+  },
+  "metadata": {}
+}

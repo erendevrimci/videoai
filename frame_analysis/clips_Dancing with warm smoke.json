@@ -1,0 +1,109 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing with warm smoke.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing with warm smoke.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing with warm smoke/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman stands gracefully enveloped in swirling, fiery orange and yellow fabric that resembles flames. Her hair flows dramatically, blending with the vibrant, smoky background, creating a sense of movement and energy.",
+      "description": "The scene depicts a mystical and ethereal setting where a woman appears to be part of a fiery, magical environment. The atmosphere is dynamic and surreal, with elements of fantasy and elegance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "fabric",
+          "dress"
+        ],
+        "actions": [
+          "standing",
+          "flowing hair"
+        ],
+        "emotions": [
+          "graceful",
+          "dynamic"
+        ],
+        "scenes": [
+          "fantasy",
+          "ethereal"
+        ],
+        "concepts": [
+          "fire",
+          "magic",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Dancing with warm smoke.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Dancing with warm smoke/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A dancer is captured mid-motion, surrounded by swirling fabric and a burst of golden light. The scene is dynamic, with the dancer's flowing dress and hair creating a sense of movement and energy.",
+      "description": "The image depicts a dancer in a dramatic pose, enveloped by vibrant, flowing fabric and illuminated by a warm, golden light. The setting suggests a theatrical or artistic performance, emphasizing movement and expression.",
+      "labels": {
+        "people": [
+          "dancer"
+        ],
+        "objects": [
+          "fabric",
+          "dress"
+        ],
+        "actions": [
+          "dancing",
+          "spinning"
+        ],
+        "emotions": [
+          "expressive",
+          "dynamic"
+        ],
+        "scenes": [
+          "performance",
+          "artistic"
+        ],
+        "concepts": [
+          "movement",
+          "energy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, dancer. Objects: fabric, dress. Actions: standing, flowing hair, dancing, spinning. Emotions: dynamic, graceful, expressive. Scenes: fantasy, ethereal, performance, artistic. Concepts: energy, fire, magic, movement",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "dancer"
+    ],
+    "objects": [
+      "fabric",
+      "dress"
+    ],
+    "actions": [
+      "standing",
+      "flowing hair",
+      "dancing",
+      "spinning"
+    ],
+    "emotions": [
+      "dynamic",
+      "graceful",
+      "expressive"
+    ],
+    "scenes": [
+      "fantasy",
+      "ethereal",
+      "performance",
+      "artistic"
+    ],
+    "concepts": [
+      "energy",
+      "fire",
+      "magic",
+      "movement"
+    ]
+  },
+  "metadata": {}
+}

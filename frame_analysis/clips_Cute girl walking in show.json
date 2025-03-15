@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute girl walking in show.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute girl walking in show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute girl walking in show/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl dressed in an elaborate, floral-embroidered gown walks down an aisle adorned with rose petals. She holds a bouquet of white roses and wears a delicate veil and headpiece, exuding a sense of innocence and elegance.",
+      "description": "The scene depicts a formal event, likely a wedding or a fashion show, with a focus on the young girl as she gracefully walks down the aisle. The setting is elegant and ceremonial, with soft lighting and floral decorations enhancing the atmosphere.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "gown",
+          "bouquet",
+          "veil",
+          "headpiece",
+          "rose petals"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "innocence",
+          "elegance"
+        ],
+        "scenes": [
+          "ceremony",
+          "aisle"
+        ],
+        "concepts": [
+          "formal event",
+          "fashion",
+          "wedding"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute girl walking in show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute girl walking in show/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl dressed in an ornate, lace-embroidered gown walks down a flower-strewn aisle. She holds a small bouquet of white roses and wears a delicate veil adorned with floral patterns. The soft lighting and blurred background create an elegant and dreamy atmosphere.",
+      "description": "The scene captures a formal event, likely a wedding or a similar ceremony, where a young girl is playing the role of a flower girl. The setting is elegant, with a focus on the girl's intricate attire and the floral decorations.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "gown",
+          "bouquet",
+          "veil"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serenity"
+        ],
+        "scenes": [
+          "ceremony",
+          "aisle"
+        ],
+        "concepts": [
+          "elegance",
+          "innocence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Cute girl walking in show.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Cute girl walking in show/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A young girl dressed in an ornate, lace-embroidered dress walks down a runway, holding a bouquet of white roses. Her attire is complemented by a delicate veil and a pearl necklace, creating an elegant and angelic appearance.",
+      "description": "The scene is set on a fashion runway, likely during a formal event or fashion show. The focus is on a young girl in a beautifully detailed dress, walking gracefully with a bouquet in hand.",
+      "labels": {
+        "people": [
+          "girl"
+        ],
+        "objects": [
+          "dress",
+          "bouquet",
+          "veil",
+          "necklace"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "elegance",
+          "youth",
+          "fashion"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl. Objects: bouquet, veil, gown, headpiece, rose petals. Actions: walking. Emotions: innocence, elegance, serenity, serene. Scenes: ceremony, aisle, fashion show, runway. Concepts: fashion, elegance, formal event, wedding, innocence",
+  "primary_labels": {
+    "people": [
+      "girl"
+    ],
+    "objects": [
+      "bouquet",
+      "veil",
+      "gown",
+      "headpiece",
+      "rose petals"
+    ],
+    "actions": [
+      "walking"
+    ],
+    "emotions": [
+      "innocence",
+      "elegance",
+      "serenity",
+      "serene"
+    ],
+    "scenes": [
+      "ceremony",
+      "aisle",
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "formal event",
+      "wedding",
+      "innocence"
+    ]
+  },
+  "metadata": {}
+}

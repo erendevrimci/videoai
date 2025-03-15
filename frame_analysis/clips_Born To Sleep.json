@@ -1,0 +1,137 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Born To Sleep.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Born To Sleep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Born To Sleep/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man stands in a snowy setting, wearing a dark hoodie with colorful text. Snowflakes gently fall around him, creating a serene winter atmosphere.",
+      "description": "The scene depicts a man in a dark hoodie standing outdoors in a snowy environment. The hoodie features vibrant graffiti-style text, adding a pop of color to the otherwise muted background. Snowflakes are visible, suggesting a cold, wintry day.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "hoodie"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "winter clothing",
+          "casual attire"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Born To Sleep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Born To Sleep/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man stands outdoors wearing a dark hoodie with colorful graffiti-style text. Snowflakes gently fall around him, creating a serene winter atmosphere.",
+      "description": "The scene depicts a man in a dark hoodie standing in a snowy environment. The hoodie features vibrant text, adding a splash of color to the otherwise muted setting. The falling snow and the man's contemplative expression contribute to a calm and introspective mood.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "hoodie"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "contemplative"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "solitude"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Born To Sleep.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Born To Sleep/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A person stands outdoors in a snowy setting, wearing a dark hoodie with colorful text. Snowflakes are gently falling around them, creating a serene winter atmosphere.",
+      "description": "The scene captures a person in a snowy environment, dressed warmly in a hoodie with vibrant lettering. The falling snow adds a calm and peaceful ambiance to the setting.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "hoodie"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "winter clothing",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man, person. Nature: snow. Objects: hoodie. Actions: standing. Emotions: calm, contemplative. Scenes: outdoor, winter. Concepts: winter clothing, casual attire, solitude, serenity",
+  "primary_labels": {
+    "people": [
+      "man",
+      "person"
+    ],
+    "nature": [
+      "snow"
+    ],
+    "objects": [
+      "hoodie"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "calm",
+      "contemplative"
+    ],
+    "scenes": [
+      "outdoor",
+      "winter"
+    ],
+    "concepts": [
+      "winter clothing",
+      "casual attire",
+      "solitude",
+      "serenity"
+    ]
+  },
+  "metadata": {}
+}

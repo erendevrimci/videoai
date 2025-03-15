@@ -1,0 +1,94 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rivers of gold.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rivers of gold.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rivers of gold/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image showcases several gold nuggets resting on a smooth, reflective golden surface. The scene is illuminated with warm, glowing light that highlights the texture of the nuggets and the fluid-like background.",
+      "description": "This scene depicts a collection of gold nuggets placed on a shiny, undulating surface that resembles liquid gold. The lighting creates a rich, luxurious atmosphere, emphasizing the opulence of the materials.",
+      "labels": {
+        "objects": [
+          "gold nuggets",
+          "reflective surface"
+        ],
+        "scenes": [
+          "luxurious setting"
+        ],
+        "concepts": [
+          "wealth",
+          "opulence"
+        ],
+        "visual_attributes": [
+          "warm lighting",
+          "golden color",
+          "textured surface"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Rivers of gold.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Rivers of gold/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A collection of gold nuggets rests on a smooth, reflective golden surface. The scene is illuminated with warm lighting, highlighting the textures and shine of the gold. Small particles float in the air, adding a sense of richness and opulence.",
+      "description": "The image depicts a luxurious setting with gold nuggets scattered across a glossy, undulating golden surface. The lighting accentuates the metallic textures, creating an atmosphere of wealth and elegance.",
+      "labels": {
+        "objects": [
+          "gold nuggets",
+          "golden surface",
+          "particles"
+        ],
+        "actions": [
+          "resting",
+          "floating"
+        ],
+        "emotions": [
+          "opulence",
+          "luxury"
+        ],
+        "scenes": [
+          "luxurious setting"
+        ],
+        "concepts": [
+          "wealth",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: gold nuggets, reflective surface, golden surface, particles. Scenes: luxurious setting. Concepts: wealth, opulence, elegance. Visual_attributes: warm lighting, golden color, textured surface. Actions: resting, floating. Emotions: opulence, luxury",
+  "primary_labels": {
+    "objects": [
+      "gold nuggets",
+      "reflective surface",
+      "golden surface",
+      "particles"
+    ],
+    "scenes": [
+      "luxurious setting"
+    ],
+    "concepts": [
+      "wealth",
+      "opulence",
+      "elegance"
+    ],
+    "visual_attributes": [
+      "warm lighting",
+      "golden color",
+      "textured surface"
+    ],
+    "actions": [
+      "resting",
+      "floating"
+    ],
+    "emotions": [
+      "opulence",
+      "luxury"
+    ]
+  },
+  "metadata": {}
+}

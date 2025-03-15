@@ -1,0 +1,126 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Top Model.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Top Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Top Model/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A person stands confidently in a minimalist setting, wearing a sleek black turtleneck dress. Their hands are gently placed behind their neck, and they gaze directly at the camera with a calm expression.",
+      "description": "The scene is a simple, monochromatic portrait of an individual in a studio setting. The focus is on the person, who is centered in the frame, creating a striking and elegant composition.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "calm"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "minimalism",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Top Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Top Model/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person stands confidently against a plain white background, wearing a sleek black turtleneck dress. Their hair flows gently, adding a sense of movement to the otherwise still scene.",
+      "description": "The image depicts a minimalist portrait of a person in a studio setting. The focus is on the subject, who is dressed in a black outfit, contrasting sharply with the white backdrop.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "studio"
+        ],
+        "concepts": [
+          "minimalism",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Top Model.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Top Model/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman stands confidently against a plain background, dressed in a sleek black outfit. Her hair flows gently, adding a sense of movement to the otherwise still portrait.",
+      "description": "The scene captures a poised woman in a minimalist setting, emphasizing elegance and simplicity. The monochrome palette enhances the timeless and sophisticated atmosphere.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "black outfit"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "elegance",
+          "simplicity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: person, woman. Objects: dress, black outfit. Actions: standing, posing. Emotions: calm, confident, confidence. Scenes: portrait, studio. Concepts: minimalism, elegance, contrast, simplicity",
+  "primary_labels": {
+    "people": [
+      "person",
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "black outfit"
+    ],
+    "actions": [
+      "standing",
+      "posing"
+    ],
+    "emotions": [
+      "calm",
+      "confident",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "minimalism",
+      "elegance",
+      "contrast",
+      "simplicity"
+    ]
+  },
+  "metadata": {}
+}

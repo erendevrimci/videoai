@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bigg.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bigg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bigg/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature giraffe is delicately perched on a person's fingertip, showcasing its detailed features against a blurred natural background. The giraffe's small size and intricate markings create a whimsical and surreal scene.",
+      "description": "The scene presents a tiny giraffe standing on a human fingertip, set against a softly blurred natural backdrop. The focus is on the giraffe, highlighting its detailed features and the contrast between its size and the fingertip.",
+      "labels": {
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "fingertip"
+        ],
+        "nature": [
+          "natural background"
+        ],
+        "emotions": [
+          "whimsical",
+          "surreal"
+        ],
+        "scenes": [
+          "miniature",
+          "close-up"
+        ],
+        "concepts": [
+          "contrast",
+          "detail"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Bigg.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Bigg/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature giraffe is delicately perched on the tip of a human finger, showcasing an impressive level of detail and craftsmanship. The background is softly blurred, emphasizing the tiny giraffe's intricate features and the gentle curve of the finger.",
+      "description": "The scene captures a whimsical and surreal moment where a tiny giraffe stands on a human finger, set against a softly blurred natural background. This imaginative depiction highlights the contrast between the size of the giraffe and the finger, creating a playful and enchanting atmosphere.",
+      "labels": {
+        "animals": [
+          "giraffe"
+        ],
+        "objects": [
+          "finger"
+        ],
+        "nature": [
+          "background"
+        ],
+        "emotions": [
+          "whimsical",
+          "enchanting"
+        ],
+        "scenes": [
+          "surreal",
+          "imaginative"
+        ],
+        "concepts": [
+          "miniature",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: giraffe. Objects: fingertip, finger. Nature: natural background, background. Emotions: whimsical, surreal, enchanting. Scenes: miniature, close-up, surreal, imaginative. Concepts: contrast, detail, miniature",
+  "primary_labels": {
+    "animals": [
+      "giraffe"
+    ],
+    "objects": [
+      "fingertip",
+      "finger"
+    ],
+    "nature": [
+      "natural background",
+      "background"
+    ],
+    "emotions": [
+      "whimsical",
+      "surreal",
+      "enchanting"
+    ],
+    "scenes": [
+      "miniature",
+      "close-up",
+      "surreal",
+      "imaginative"
+    ],
+    "concepts": [
+      "contrast",
+      "detail",
+      "miniature"
+    ]
+  },
+  "metadata": {}
+}

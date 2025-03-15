@@ -1,0 +1,101 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\"A subway car bursting with endl.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\"A subway car bursting with endl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\"A subway car bursting with endl/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A subway train with its doors open is stopped at a station, and piles of money are scattered on the platform. The scene is surreal, with the money spilling out from the train onto the floor, creating an unexpected and chaotic atmosphere.",
+      "description": "The image depicts a subway station where a train is stopped with its doors open, and a large amount of money is scattered across the platform. The scene is unusual and creates a sense of curiosity and disbelief.",
+      "labels": {
+        "objects": [
+          "subway train",
+          "money",
+          "platform",
+          "subway doors"
+        ],
+        "actions": [
+          "train stopped",
+          "money scattered"
+        ],
+        "emotions": [
+          "chaotic",
+          "surreal"
+        ],
+        "scenes": [
+          "subway station",
+          "urban setting"
+        ],
+        "concepts": [
+          "unexpected event",
+          "wealth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/\"A subway car bursting with endl.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/\"A subway car bursting with endl/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A subway train with its doors open is overflowing with stacks of money spilling onto the platform. The scene is surreal and unexpected, with the cash creating a striking visual contrast against the metallic surfaces of the train.",
+      "description": "The scene takes place in a subway station where a train is parked with its doors open. Instead of passengers, a large quantity of money is pouring out of the train, covering the platform in a chaotic manner.",
+      "labels": {
+        "objects": [
+          "subway train",
+          "money",
+          "platform"
+        ],
+        "actions": [
+          "spilling",
+          "overflowing"
+        ],
+        "scenes": [
+          "subway station",
+          "urban"
+        ],
+        "concepts": [
+          "surreal",
+          "unexpected"
+        ],
+        "emotions": [
+          "surprise"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: subway train, money, platform, subway doors. Actions: train stopped, money scattered, spilling, overflowing. Emotions: chaotic, surreal, surprise. Scenes: subway station, urban setting, urban. Concepts: unexpected event, wealth, surreal, unexpected",
+  "primary_labels": {
+    "objects": [
+      "subway train",
+      "money",
+      "platform",
+      "subway doors"
+    ],
+    "actions": [
+      "train stopped",
+      "money scattered",
+      "spilling",
+      "overflowing"
+    ],
+    "emotions": [
+      "chaotic",
+      "surreal",
+      "surprise"
+    ],
+    "scenes": [
+      "subway station",
+      "urban setting",
+      "urban"
+    ],
+    "concepts": [
+      "unexpected event",
+      "wealth",
+      "surreal",
+      "unexpected"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Arisha.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Arisha.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Arisha/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman stands by an open window, holding a cup and smiling warmly. She is surrounded by vibrant flowers and sunlight streaming into the room, creating a serene and inviting atmosphere.",
+      "description": "The scene depicts a peaceful morning setting with a young woman enjoying a moment of tranquility by an open window. The room is filled with natural light and colorful flowers, enhancing the calm and cheerful mood.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "sunlight"
+        ],
+        "objects": [
+          "cup",
+          "window",
+          "table",
+          "plates"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "serene",
+          "cheerful"
+        ],
+        "scenes": [
+          "morning",
+          "indoor"
+        ],
+        "concepts": [
+          "tranquility",
+          "warmth"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Arisha.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Arisha/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young woman stands by an open window, holding a cup and smiling warmly. She is surrounded by vibrant flowers and sunlight, creating a serene and inviting atmosphere. A table in front of her holds plates of food, suggesting a cozy breakfast setting.",
+      "description": "The scene depicts a peaceful morning moment with a young woman enjoying a drink by an open window. The setting is bright and cheerful, filled with natural light and colorful flowers, evoking a sense of tranquility and contentment.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "sunlight"
+        ],
+        "objects": [
+          "cup",
+          "plates",
+          "food",
+          "window"
+        ],
+        "actions": [
+          "holding",
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "serenity"
+        ],
+        "scenes": [
+          "morning",
+          "indoor",
+          "breakfast"
+        ],
+        "concepts": [
+          "peaceful",
+          "cozy",
+          "inviting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, sunlight. Objects: cup, window, plates, table, food. Actions: holding, smiling. Emotions: serene, cheerful, happiness, serenity. Scenes: morning, indoor, breakfast. Concepts: tranquility, warmth, peaceful, cozy, inviting",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "sunlight"
+    ],
+    "objects": [
+      "cup",
+      "window",
+      "plates",
+      "table",
+      "food"
+    ],
+    "actions": [
+      "holding",
+      "smiling"
+    ],
+    "emotions": [
+      "serene",
+      "cheerful",
+      "happiness",
+      "serenity"
+    ],
+    "scenes": [
+      "morning",
+      "indoor",
+      "breakfast"
+    ],
+    "concepts": [
+      "tranquility",
+      "warmth",
+      "peaceful",
+      "cozy",
+      "inviting"
+    ]
+  },
+  "metadata": {}
+}

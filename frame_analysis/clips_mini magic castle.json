@@ -1,0 +1,145 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mini magic castle.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mini magic castle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mini magic castle/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A miniature golden temple with intricate spires sits atop an open book, surrounded by lush greenery and cascading waterfalls. The scene is illuminated by warm, glowing lanterns, creating a magical and serene atmosphere. The background features soft, blurred lights, enhancing the enchanting ambiance.",
+      "description": "The image depicts a fantastical scene where a detailed miniature temple rests on an open book. The temple is surrounded by small waterfalls and greenery, with glowing lanterns adding warmth to the setting. The background is softly lit, contributing to the scene's dreamlike quality.",
+      "labels": {
+        "objects": [
+          "temple",
+          "book",
+          "lanterns",
+          "waterfalls"
+        ],
+        "nature": [
+          "greenery",
+          "water"
+        ],
+        "actions": [
+          "cascading"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "fantasy",
+          "miniature"
+        ],
+        "concepts": [
+          "enchantment",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mini magic castle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mini magic castle/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A miniature golden temple with intricate details sits atop an open book, surrounded by lush greenery and cascading waterfalls. The scene is illuminated by warm, glowing lights, creating a magical and serene atmosphere.",
+      "description": "The image depicts a fantastical scene where a detailed miniature temple is integrated into the pages of an open book. The setting is enchanting, with elements of nature such as trees and waterfalls, enhanced by soft, ambient lighting.",
+      "labels": {
+        "objects": [
+          "temple",
+          "book",
+          "waterfalls",
+          "lights"
+        ],
+        "nature": [
+          "trees",
+          "greenery"
+        ],
+        "scenes": [
+          "fantasy",
+          "miniature",
+          "magical"
+        ],
+        "emotions": [
+          "serene",
+          "enchanting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/mini magic castle.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/mini magic castle/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A miniature golden temple with intricate details sits atop an open book, surrounded by lush greenery and cascading waterfalls. Warm lighting and floating lanterns create a magical, serene atmosphere. The scene blends elements of nature and architecture in a fantastical setting.",
+      "description": "The scene depicts a fantastical miniature world where a golden temple is intricately crafted on an open book. The temple is surrounded by vibrant greenery and small waterfalls, illuminated by warm, glowing lanterns, creating an enchanting and serene atmosphere.",
+      "labels": {
+        "objects": [
+          "temple",
+          "book",
+          "lanterns",
+          "waterfalls"
+        ],
+        "nature": [
+          "greenery",
+          "water"
+        ],
+        "actions": [
+          "cascading water"
+        ],
+        "emotions": [
+          "serene",
+          "magical"
+        ],
+        "scenes": [
+          "fantasy",
+          "miniature world"
+        ],
+        "concepts": [
+          "architecture",
+          "nature",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: temple, book, waterfalls, lanterns, lights. Nature: greenery, water, trees. Actions: cascading, cascading water. Emotions: serene, magical, enchanting. Scenes: fantasy, miniature, magical, miniature world. Concepts: imagination, enchantment, architecture, nature",
+  "primary_labels": {
+    "objects": [
+      "temple",
+      "book",
+      "waterfalls",
+      "lanterns",
+      "lights"
+    ],
+    "nature": [
+      "greenery",
+      "water",
+      "trees"
+    ],
+    "actions": [
+      "cascading",
+      "cascading water"
+    ],
+    "emotions": [
+      "serene",
+      "magical",
+      "enchanting"
+    ],
+    "scenes": [
+      "fantasy",
+      "miniature",
+      "magical",
+      "miniature world"
+    ],
+    "concepts": [
+      "imagination",
+      "enchantment",
+      "architecture",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

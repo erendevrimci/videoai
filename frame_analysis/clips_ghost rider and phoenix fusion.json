@@ -1,0 +1,127 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider and phoenix fusion.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider and phoenix fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ghost rider and phoenix fusion/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A fiery skeleton clad in a leather jacket confronts a menacing raven with glowing red eyes. The scene is set against a backdrop of erupting lava and a dramatic full moon, creating an intense and otherworldly atmosphere.",
+      "description": "The scene depicts a supernatural confrontation between a fiery skeleton and a raven in a volcanic landscape. The sky is filled with dark clouds and a full moon, enhancing the dramatic and mystical setting.",
+      "labels": {
+        "people": [
+          "skeleton"
+        ],
+        "animals": [
+          "raven"
+        ],
+        "nature": [
+          "lava",
+          "moon",
+          "clouds"
+        ],
+        "objects": [
+          "leather jacket",
+          "chains"
+        ],
+        "actions": [
+          "confrontation"
+        ],
+        "emotions": [
+          "intensity",
+          "menace"
+        ],
+        "scenes": [
+          "supernatural",
+          "volcanic landscape"
+        ],
+        "concepts": [
+          "fantasy",
+          "mythical"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/ghost rider and phoenix fusion.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/ghost rider and phoenix fusion/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A towering, fiery demon stands amidst a volcanic landscape, its body engulfed in flames and molten lava. The creature's glowing eyes and jagged armor exude a menacing presence, while the surrounding lava flows and erupting fire add to the scene's intensity.",
+      "description": "The scene depicts a hellish landscape dominated by a massive, demonic figure. The environment is characterized by volcanic activity, with lava streams and fiery eruptions creating a chaotic and dangerous atmosphere.",
+      "labels": {
+        "people": [],
+        "animals": [],
+        "nature": [
+          "volcano",
+          "lava"
+        ],
+        "objects": [
+          "demon",
+          "armor"
+        ],
+        "actions": [
+          "erupting",
+          "burning"
+        ],
+        "emotions": [
+          "menacing",
+          "intense"
+        ],
+        "scenes": [
+          "hellscape",
+          "fantasy"
+        ],
+        "concepts": [
+          "mythical",
+          "apocalyptic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: skeleton. Animals: raven. Nature: lava, moon, clouds, volcano. Objects: leather jacket, chains, demon, armor. Actions: confrontation, erupting, burning. Emotions: intensity, menace, menacing, intense. Scenes: supernatural, volcanic landscape, hellscape, fantasy. Concepts: mythical, fantasy, apocalyptic",
+  "primary_labels": {
+    "people": [
+      "skeleton"
+    ],
+    "animals": [
+      "raven"
+    ],
+    "nature": [
+      "lava",
+      "moon",
+      "clouds",
+      "volcano"
+    ],
+    "objects": [
+      "leather jacket",
+      "chains",
+      "demon",
+      "armor"
+    ],
+    "actions": [
+      "confrontation",
+      "erupting",
+      "burning"
+    ],
+    "emotions": [
+      "intensity",
+      "menace",
+      "menacing",
+      "intense"
+    ],
+    "scenes": [
+      "supernatural",
+      "volcanic landscape",
+      "hellscape",
+      "fantasy"
+    ],
+    "concepts": [
+      "mythical",
+      "fantasy",
+      "apocalyptic"
+    ]
+  },
+  "metadata": {}
+}

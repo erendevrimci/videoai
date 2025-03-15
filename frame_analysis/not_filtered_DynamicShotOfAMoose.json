@@ -1,0 +1,108 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAMoose.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAMoose.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAMoose/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with long braided hair stands confidently in a forest, holding a round wooden shield. Behind her, a large moose with impressive antlers looms, creating a striking and powerful presence.",
+      "description": "The scene is set in a dense forest, where a woman and a moose stand together, conveying a sense of unity and strength. The atmosphere is mystical and intense, with the forest providing a natural backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "moose"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "shield"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "unity",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/DynamicShotOfAMoose.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/DynamicShotOfAMoose/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long blonde hair stands in a forest, holding a round wooden shield. Behind her, a large moose with impressive antlers is visible, creating a striking and powerful scene.",
+      "description": "The scene is set in a dense forest with a mysterious and ancient atmosphere. The woman appears strong and determined, standing alongside the moose, suggesting a connection with nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "moose"
+        ],
+        "nature": [
+          "forest"
+        ],
+        "objects": [
+          "shield"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "determined"
+        ],
+        "scenes": [
+          "forest"
+        ],
+        "concepts": [
+          "strength",
+          "nature connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: moose. Nature: forest. Objects: shield. Actions: standing. Emotions: confidence, determined. Scenes: forest. Concepts: strength, unity, nature connection",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "moose"
+    ],
+    "nature": [
+      "forest"
+    ],
+    "objects": [
+      "shield"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "determined"
+    ],
+    "scenes": [
+      "forest"
+    ],
+    "concepts": [
+      "strength",
+      "unity",
+      "nature connection"
+    ]
+  },
+  "metadata": {}
+}

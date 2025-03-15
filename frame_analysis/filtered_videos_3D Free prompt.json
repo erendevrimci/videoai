@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3D Free prompt.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3D Free prompt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/3D Free prompt/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A warrior clad in ornate armor strides confidently through an enchanted forest, surrounded by swirling blue energy. The autumnal trees with vibrant red leaves create a mystical backdrop, enhancing the magical atmosphere of the scene.",
+      "description": "The scene depicts a fantasy setting where a warrior is walking through a forest filled with mystical energy. The environment is vibrant with autumn colors, and the presence of magical elements suggests a world of enchantment and adventure.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "forest",
+          "trees",
+          "autumn leaves"
+        ],
+        "objects": [
+          "armor"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination"
+        ],
+        "scenes": [
+          "fantasy",
+          "magical"
+        ],
+        "concepts": [
+          "magic",
+          "adventure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/3D Free prompt.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/3D Free prompt/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A warrior clad in ornate armor stands amidst swirling blue energy, holding a sword. Behind him, vibrant autumn foliage creates a striking backdrop.",
+      "description": "The scene depicts a fantasy setting where a warrior is surrounded by mystical energy. The background features vivid red and orange leaves, suggesting an autumnal environment.",
+      "labels": {
+        "people": [
+          "warrior"
+        ],
+        "nature": [
+          "autumn leaves"
+        ],
+        "objects": [
+          "armor",
+          "sword"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "determined"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "mystical",
+          "heroic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: warrior. Nature: autumn leaves, forest, trees. Objects: armor, sword. Actions: walking, standing, holding. Emotions: determination, determined. Scenes: fantasy, magical. Concepts: magic, adventure, mystical, heroic",
+  "primary_labels": {
+    "people": [
+      "warrior"
+    ],
+    "nature": [
+      "autumn leaves",
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "armor",
+      "sword"
+    ],
+    "actions": [
+      "walking",
+      "standing",
+      "holding"
+    ],
+    "emotions": [
+      "determination",
+      "determined"
+    ],
+    "scenes": [
+      "fantasy",
+      "magical"
+    ],
+    "concepts": [
+      "magic",
+      "adventure",
+      "mystical",
+      "heroic"
+    ]
+  },
+  "metadata": {}
+}

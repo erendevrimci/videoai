@@ -1,0 +1,110 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/POV You\u2019re a Witch in the 1600s.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/POV You\u2019re a Witch in the 1600s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/POV You\u2019re a Witch in the 1600s/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A cozy rustic room features a warm fireplace casting a gentle glow across the wooden floor. A hand rests on a thick, woolen blanket, suggesting a sense of comfort and relaxation. Dried herbs hang from the ceiling, adding to the rustic charm of the setting.",
+      "description": "The scene is set in a rustic, cozy room with a warm and inviting atmosphere. The focal point is a fireplace, which provides warmth and light, creating a serene and peaceful environment.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "fireplace",
+          "blanket",
+          "dried herbs",
+          "wooden floor"
+        ],
+        "actions": [
+          "resting"
+        ],
+        "emotions": [
+          "comfort",
+          "relaxation"
+        ],
+        "scenes": [
+          "rustic room",
+          "cozy interior"
+        ],
+        "concepts": [
+          "warmth",
+          "serenity"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/POV You\u2019re a Witch in the 1600s.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/POV You\u2019re a Witch in the 1600s/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A cozy rustic room features a warm fireplace casting a gentle glow. A hand wrapped in a soft blanket is visible in the foreground, suggesting a relaxed atmosphere. Dried herbs hang from the ceiling, adding to the homely ambiance.",
+      "description": "The scene is set in a rustic, cozy room with a warm and inviting atmosphere. The central focus is a fireplace with a lively fire, surrounded by wooden furniture and decor. A hand wrapped in a blanket suggests comfort and relaxation.",
+      "labels": {
+        "people": [
+          "hand"
+        ],
+        "objects": [
+          "fireplace",
+          "blanket",
+          "dried herbs",
+          "wooden furniture"
+        ],
+        "actions": [
+          "relaxing"
+        ],
+        "emotions": [
+          "coziness",
+          "warmth"
+        ],
+        "scenes": [
+          "rustic room",
+          "interior"
+        ],
+        "concepts": [
+          "comfort",
+          "homeliness"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: hand. Objects: fireplace, blanket, dried herbs, wooden floor, wooden furniture. Actions: resting, relaxing. Emotions: comfort, relaxation, coziness, warmth. Scenes: rustic room, cozy interior, interior. Concepts: warmth, serenity, comfort, homeliness",
+  "primary_labels": {
+    "people": [
+      "hand"
+    ],
+    "objects": [
+      "fireplace",
+      "blanket",
+      "dried herbs",
+      "wooden floor",
+      "wooden furniture"
+    ],
+    "actions": [
+      "resting",
+      "relaxing"
+    ],
+    "emotions": [
+      "comfort",
+      "relaxation",
+      "coziness",
+      "warmth"
+    ],
+    "scenes": [
+      "rustic room",
+      "cozy interior",
+      "interior"
+    ],
+    "concepts": [
+      "warmth",
+      "serenity",
+      "comfort",
+      "homeliness"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grimm's Fairy Tales -No. 1.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grimm's Fairy Tales -No. 1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grimm's Fairy Tales -No. 1/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mysterious woman with silver hair stands confidently in front of a rustic, warmly lit house. She wears a black leather outfit and holds a gingerbread cookie in her hands, exuding an enigmatic charm.",
+      "description": "The scene is set in a misty forest with a focus on a woman standing in front of a quaint, fairy-tale-like house adorned with glowing lights. The atmosphere is both enchanting and slightly eerie, suggesting a magical or supernatural theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gingerbread cookie",
+          "leather outfit",
+          "necklace"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious",
+          "confident"
+        ],
+        "scenes": [
+          "forest",
+          "house"
+        ],
+        "concepts": [
+          "mystery",
+          "fantasy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Grimm's Fairy Tales -No. 1.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Grimm's Fairy Tales -No. 1/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with striking silver hair and dark makeup stands in front of a rustic house, holding a gingerbread cookie. She wears a black leather outfit adorned with intricate jewelry, exuding a mysterious and gothic charm. The background is softly lit with warm lights, creating a contrast with the misty, forested setting.",
+      "description": "The scene is set in a misty, forested area with a rustic house in the background. The atmosphere is mysterious and slightly eerie, enhanced by the woman's gothic appearance and the warm glow of lights from the house.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "gingerbread cookie",
+          "leather outfit",
+          "jewelry"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "mysterious"
+        ],
+        "scenes": [
+          "forest",
+          "rustic house"
+        ],
+        "concepts": [
+          "gothic",
+          "mystery"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: gingerbread cookie, leather outfit, necklace, jewelry. Actions: holding. Emotions: mysterious, confident. Scenes: forest, house, rustic house. Concepts: mystery, fantasy, gothic",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "gingerbread cookie",
+      "leather outfit",
+      "necklace",
+      "jewelry"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "mysterious",
+      "confident"
+    ],
+    "scenes": [
+      "forest",
+      "house",
+      "rustic house"
+    ],
+    "concepts": [
+      "mystery",
+      "fantasy",
+      "gothic"
+    ]
+  },
+  "metadata": {}
+}

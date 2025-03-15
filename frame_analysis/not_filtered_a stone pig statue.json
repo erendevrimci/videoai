@@ -1,0 +1,115 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a stone pig statue.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a stone pig statue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a stone pig statue/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A massive stone sculpture of a pig stands amidst a rocky landscape, with cracks glowing with fiery lava. Smoke billows from the sculpture, creating a dramatic contrast against the serene backdrop of mountains and a lake.",
+      "description": "The scene depicts a surreal and dramatic setting where a giant stone pig sculpture appears to be erupting like a volcano. The landscape is rugged and rocky, with a calm lake and distant mountains providing a serene background.",
+      "labels": {
+        "animals": [
+          "pig"
+        ],
+        "nature": [
+          "mountains",
+          "lake",
+          "rocks"
+        ],
+        "objects": [
+          "sculpture",
+          "lava",
+          "smoke"
+        ],
+        "actions": [
+          "erupting"
+        ],
+        "emotions": [
+          "dramatic"
+        ],
+        "scenes": [
+          "surreal",
+          "natural landscape"
+        ],
+        "concepts": [
+          "contrast",
+          "artistic"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/a stone pig statue.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/a stone pig statue/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A massive stone sculpture of a pig stands prominently in a natural landscape, with cracks revealing fiery lava and smoke billowing from its back. The scene is set against a backdrop of mountains and a calm lake, creating a surreal contrast between the serene environment and the dynamic eruption.",
+      "description": "The image depicts a large stone pig sculpture that appears to be erupting like a volcano. The setting is a tranquil lakeside area surrounded by mountains, juxtaposing the calmness of nature with the dramatic volcanic activity.",
+      "labels": {
+        "animals": [
+          "pig"
+        ],
+        "nature": [
+          "mountains",
+          "lake"
+        ],
+        "objects": [
+          "stone sculpture",
+          "lava",
+          "smoke"
+        ],
+        "actions": [
+          "erupting",
+          "billowing"
+        ],
+        "emotions": [
+          "surreal"
+        ],
+        "scenes": [
+          "natural landscape"
+        ],
+        "concepts": [
+          "contrast",
+          "surrealism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: pig. Nature: mountains, lake, rocks. Objects: lava, smoke, sculpture, stone sculpture. Actions: erupting, billowing. Emotions: dramatic, surreal. Scenes: natural landscape, surreal. Concepts: contrast, artistic, surrealism",
+  "primary_labels": {
+    "animals": [
+      "pig"
+    ],
+    "nature": [
+      "mountains",
+      "lake",
+      "rocks"
+    ],
+    "objects": [
+      "lava",
+      "smoke",
+      "sculpture",
+      "stone sculpture"
+    ],
+    "actions": [
+      "erupting",
+      "billowing"
+    ],
+    "emotions": [
+      "dramatic",
+      "surreal"
+    ],
+    "scenes": [
+      "natural landscape",
+      "surreal"
+    ],
+    "concepts": [
+      "contrast",
+      "artistic",
+      "surrealism"
+    ]
+  },
+  "metadata": {}
+}

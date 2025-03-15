@@ -1,0 +1,113 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Daniel and Mary Celebrate.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Daniel and Mary Celebrate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Daniel and Mary Celebrate/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "An elderly couple sits closely together, exuding warmth and affection. The man wears a military uniform adorned with an American flag patch and medals, while the woman leans gently against him, holding his hand.",
+      "description": "The scene captures a tender moment between an elderly couple, possibly in a domestic setting. The man is dressed in a military uniform, suggesting a background of service, while the woman wears a patterned blouse. Their expressions convey a deep bond and shared history.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "elderly woman"
+        ],
+        "objects": [
+          "military uniform",
+          "medals",
+          "American flag patch"
+        ],
+        "actions": [
+          "sitting",
+          "holding hands"
+        ],
+        "emotions": [
+          "affection",
+          "warmth"
+        ],
+        "scenes": [
+          "domestic setting"
+        ],
+        "concepts": [
+          "love",
+          "companionship",
+          "military service"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Daniel and Mary Celebrate.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Daniel and Mary Celebrate/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "An elderly couple shares a tender moment, gazing into each other's eyes with warm smiles. The man is dressed in a military uniform adorned with badges and an American flag patch, while the woman wears a patterned blouse.",
+      "description": "The scene captures an intimate and affectionate moment between an elderly couple, highlighting themes of love, companionship, and nostalgia. The setting appears to be indoors, possibly in a cozy living room or similar environment.",
+      "labels": {
+        "people": [
+          "elderly man",
+          "elderly woman"
+        ],
+        "objects": [
+          "military uniform",
+          "badges",
+          "American flag patch"
+        ],
+        "actions": [
+          "holding hands",
+          "smiling"
+        ],
+        "emotions": [
+          "affection",
+          "happiness"
+        ],
+        "scenes": [
+          "intimate moment",
+          "indoor setting"
+        ],
+        "concepts": [
+          "love",
+          "companionship",
+          "nostalgia"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: elderly man, elderly woman. Objects: military uniform, American flag patch, medals, badges. Actions: holding hands, sitting, smiling. Emotions: affection, warmth, happiness. Scenes: domestic setting, intimate moment, indoor setting. Concepts: love, companionship, military service, nostalgia",
+  "primary_labels": {
+    "people": [
+      "elderly man",
+      "elderly woman"
+    ],
+    "objects": [
+      "military uniform",
+      "American flag patch",
+      "medals",
+      "badges"
+    ],
+    "actions": [
+      "holding hands",
+      "sitting",
+      "smiling"
+    ],
+    "emotions": [
+      "affection",
+      "warmth",
+      "happiness"
+    ],
+    "scenes": [
+      "domestic setting",
+      "intimate moment",
+      "indoor setting"
+    ],
+    "concepts": [
+      "love",
+      "companionship",
+      "military service",
+      "nostalgia"
+    ]
+  },
+  "metadata": {}
+}

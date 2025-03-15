@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Succubus.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Succubus.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Succubus/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A mystical character with horns and pointed ears sits on an ornate chair, surrounded by a dimly lit, atmospheric setting. The figure is adorned in intricate lace attire, exuding an aura of mystery and allure. The ambient lighting casts a soft glow, enhancing the enchanting and otherworldly feel of the scene.",
+      "description": "The scene depicts a fantasy setting with a character that appears to be a demon or mythical being. The environment is dark and moody, with a focus on the character's detailed costume and the mystical ambiance created by the lighting.",
+      "labels": {
+        "people": [
+          "character",
+          "fantasy being"
+        ],
+        "objects": [
+          "ornate chair",
+          "lace attire"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mysterious",
+          "alluring"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "mythical",
+          "enchantment"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Succubus.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Succubus/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A mysterious figure with red glowing eyes and horns sits in a dimly lit room. The character is adorned in intricate lace attire, exuding an aura of dark elegance. The background features soft, ambient lighting with hints of candles, enhancing the gothic atmosphere.",
+      "description": "The scene depicts a fantasy character with demonic features, set in a dark, gothic environment. The focus is on the character's striking appearance and the moody, atmospheric setting.",
+      "labels": {
+        "people": [
+          "fantasy character"
+        ],
+        "objects": [
+          "lace attire",
+          "candles"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "gothic",
+          "fantasy"
+        ],
+        "concepts": [
+          "dark elegance",
+          "supernatural"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: character, fantasy being, fantasy character. Objects: lace attire, ornate chair, candles. Actions: sitting. Emotions: mysterious, alluring, intense. Scenes: fantasy, mystical, gothic. Concepts: mythical, enchantment, dark elegance, supernatural",
+  "primary_labels": {
+    "people": [
+      "character",
+      "fantasy being",
+      "fantasy character"
+    ],
+    "objects": [
+      "lace attire",
+      "ornate chair",
+      "candles"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "mysterious",
+      "alluring",
+      "intense"
+    ],
+    "scenes": [
+      "fantasy",
+      "mystical",
+      "gothic"
+    ],
+    "concepts": [
+      "mythical",
+      "enchantment",
+      "dark elegance",
+      "supernatural"
+    ]
+  },
+  "metadata": {}
+}

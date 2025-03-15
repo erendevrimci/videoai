@@ -1,0 +1,119 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanGetsCloserTo.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanGetsCloserTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanGetsCloserTo/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene scene features a woman in a white dress sitting amidst a lush backdrop of white flowers, accompanied by a large, fluffy white cat. The sky is painted with soft clouds, creating a dreamy and ethereal atmosphere.",
+      "description": "The scene is set in a whimsical, dream-like environment with a focus on tranquility and beauty. The woman and the cat are surrounded by an abundance of white flowers, under a sky filled with gentle clouds.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "flowers",
+          "clouds"
+        ],
+        "objects": [],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "dream-like",
+          "ethereal"
+        ],
+        "concepts": [
+          "tranquility",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AWomanGetsCloserTo.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AWomanGetsCloserTo/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white dress sits closely beside an enormous white cat, surrounded by blooming white flowers. The scene is ethereal, with soft clouds in the background adding to the dreamlike atmosphere.",
+      "description": "The scene depicts a serene and fantastical setting where a woman and a large white cat share a moment of quiet connection amidst a backdrop of lush white flowers and soft clouds.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "flowers",
+          "clouds"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "serenity",
+          "connection"
+        ],
+        "scenes": [
+          "fantasy",
+          "nature"
+        ],
+        "concepts": [
+          "dreamlike",
+          "ethereal"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: cat. Nature: flowers, clouds. Objects: dress. Actions: sitting. Emotions: serene, calm, serenity, connection. Scenes: dream-like, ethereal, fantasy, nature. Concepts: tranquility, beauty, dreamlike, ethereal",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "flowers",
+      "clouds"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "sitting"
+    ],
+    "emotions": [
+      "serene",
+      "calm",
+      "serenity",
+      "connection"
+    ],
+    "scenes": [
+      "dream-like",
+      "ethereal",
+      "fantasy",
+      "nature"
+    ],
+    "concepts": [
+      "tranquility",
+      "beauty",
+      "dreamlike",
+      "ethereal"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,116 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithA.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSceneOpensWithA/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A regal figure stands confidently in an opulent hall adorned with intricate golden pillars and rich drapery. Attendants in traditional attire are engaged in various tasks, surrounded by scattered rose petals on the marble floor.",
+      "description": "The scene is set in a grand, historic palace interior, suggesting a setting of royalty or nobility. The atmosphere is one of elegance and formality, with a focus on tradition and ceremony.",
+      "labels": {
+        "people": [
+          "regal figure",
+          "attendants"
+        ],
+        "objects": [
+          "golden pillars",
+          "drapery",
+          "rose petals",
+          "marble floor"
+        ],
+        "actions": [
+          "standing",
+          "attending"
+        ],
+        "emotions": [
+          "confidence",
+          "formality"
+        ],
+        "scenes": [
+          "palace interior",
+          "ceremonial setting"
+        ],
+        "concepts": [
+          "royalty",
+          "tradition",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/TheSceneOpensWithA.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/TheSceneOpensWithA/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "In a grand, ornately decorated hall, a woman leans forward to smell a golden bowl filled with vibrant fruits. Behind her, a man dressed in traditional attire stands near the intricately carved columns, adding to the regal atmosphere.",
+      "description": "The scene is set in a lavish, ancient palace hall with golden pillars and detailed carvings. The atmosphere is one of opulence and tradition, with a focus on cultural and ceremonial elements.",
+      "labels": {
+        "people": [
+          "woman",
+          "man"
+        ],
+        "objects": [
+          "golden bowl",
+          "fruits",
+          "columns"
+        ],
+        "actions": [
+          "smelling",
+          "standing"
+        ],
+        "emotions": [
+          "curiosity"
+        ],
+        "scenes": [
+          "palace",
+          "ceremonial hall"
+        ],
+        "concepts": [
+          "tradition",
+          "opulence"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: regal figure, attendants, woman, man. Objects: golden pillars, drapery, rose petals, marble floor, golden bowl. Actions: standing, attending, smelling. Emotions: confidence, formality, curiosity. Scenes: palace interior, ceremonial setting, palace, ceremonial hall. Concepts: tradition, opulence, royalty",
+  "primary_labels": {
+    "people": [
+      "regal figure",
+      "attendants",
+      "woman",
+      "man"
+    ],
+    "objects": [
+      "golden pillars",
+      "drapery",
+      "rose petals",
+      "marble floor",
+      "golden bowl"
+    ],
+    "actions": [
+      "standing",
+      "attending",
+      "smelling"
+    ],
+    "emotions": [
+      "confidence",
+      "formality",
+      "curiosity"
+    ],
+    "scenes": [
+      "palace interior",
+      "ceremonial setting",
+      "palace",
+      "ceremonial hall"
+    ],
+    "concepts": [
+      "tradition",
+      "opulence",
+      "royalty"
+    ]
+  },
+  "metadata": {}
+}

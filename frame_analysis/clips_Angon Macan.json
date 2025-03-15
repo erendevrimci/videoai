@@ -1,0 +1,122 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angon Macan.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angon Macan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Angon Macan/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man dressed in traditional attire stands confidently beside a majestic white tiger in a forest setting. The man holds a curved sword and wears a golden headpiece, exuding a sense of authority and strength. The tiger, with its striking stripes, appears calm and regal.",
+      "description": "The scene is set in a lush forest, where a man in traditional clothing stands alongside a white tiger. The atmosphere is serene yet powerful, with the man and tiger both exuding confidence and presence.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "tiger"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "sword",
+          "traditional clothing",
+          "headpiece"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "forest setting"
+        ],
+        "concepts": [
+          "authority",
+          "strength"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Angon Macan.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Angon Macan/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man dressed in traditional attire walks confidently through a forest alongside a majestic white tiger. The scene is serene, with sunlight filtering through the trees, casting a gentle glow on the path.",
+      "description": "The image depicts a tranquil forest setting where a man in traditional clothing is walking with a white tiger. The atmosphere is calm and harmonious, enhanced by the soft lighting and natural surroundings.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "animals": [
+          "white tiger"
+        ],
+        "nature": [
+          "forest",
+          "trees"
+        ],
+        "objects": [
+          "sword",
+          "traditional attire"
+        ],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "confidence",
+          "serenity"
+        ],
+        "scenes": [
+          "forest path"
+        ],
+        "concepts": [
+          "harmony",
+          "tradition"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Animals: tiger, white tiger. Nature: forest, trees. Objects: sword, traditional clothing, headpiece, traditional attire. Actions: standing, walking. Emotions: confidence, serenity. Scenes: forest setting, forest path. Concepts: authority, strength, harmony, tradition",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "animals": [
+      "tiger",
+      "white tiger"
+    ],
+    "nature": [
+      "forest",
+      "trees"
+    ],
+    "objects": [
+      "sword",
+      "traditional clothing",
+      "headpiece",
+      "traditional attire"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "confidence",
+      "serenity"
+    ],
+    "scenes": [
+      "forest setting",
+      "forest path"
+    ],
+    "concepts": [
+      "authority",
+      "strength",
+      "harmony",
+      "tradition"
+    ]
+  },
+  "metadata": {}
+}

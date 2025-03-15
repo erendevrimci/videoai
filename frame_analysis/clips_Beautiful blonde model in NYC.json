@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful blonde model in NYC.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful blonde model in NYC.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful blonde model in NYC/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman in a white dress stands confidently in the middle of a bustling city street, surrounded by towering buildings and bright billboards. Her long, wavy blonde hair and bold red lipstick add to her striking presence in the urban setting.",
+      "description": "The scene is set in a vibrant city environment, likely a busy commercial area with illuminated billboards and skyscrapers. The woman is the focal point, exuding confidence as she stands amidst the urban backdrop.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "billboards",
+          "buildings"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "city street",
+          "urban"
+        ],
+        "concepts": [
+          "fashion",
+          "urban life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Beautiful blonde model in NYC.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Beautiful blonde model in NYC/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman in a white dress stands confidently in a bustling urban setting. Bright billboards and skyscrapers frame the background, indicating a lively city atmosphere.",
+      "description": "The scene is set in a vibrant city, likely a famous urban area known for its bright lights and advertisements. The woman is the focal point, exuding confidence and style amidst the busy surroundings.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "billboards",
+          "skyscrapers"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "urban",
+          "cityscape"
+        ],
+        "concepts": [
+          "fashion",
+          "city life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: dress, billboards, buildings, skyscrapers. Actions: standing. Emotions: confidence. Scenes: urban, city street, cityscape. Concepts: fashion, urban life, city life",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "dress",
+      "billboards",
+      "buildings",
+      "skyscrapers"
+    ],
+    "actions": [
+      "standing"
+    ],
+    "emotions": [
+      "confidence"
+    ],
+    "scenes": [
+      "urban",
+      "city street",
+      "cityscape"
+    ],
+    "concepts": [
+      "fashion",
+      "urban life",
+      "city life"
+    ]
+  },
+  "metadata": {}
+}

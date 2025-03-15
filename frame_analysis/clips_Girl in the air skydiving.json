@@ -1,0 +1,98 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl in the air skydiving.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl in the air skydiving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl in the air skydiving/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with short dark hair is skydiving, smiling broadly against a backdrop of fluffy clouds. She is wearing a black outfit with a parachute harness, and her hair is slightly tousled by the wind.",
+      "description": "The scene captures a joyful moment during a skydive, with the woman appearing exhilarated as she descends through the sky. The background is filled with soft, white clouds, enhancing the sense of freedom and adventure.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "parachute harness"
+        ],
+        "actions": [
+          "skydiving",
+          "smiling"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "sky",
+          "clouds"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Girl in the air skydiving.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Girl in the air skydiving/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with short black hair is skydiving, smiling broadly as she descends through the sky. She is wearing a black outfit with a parachute harness, surrounded by a backdrop of fluffy white clouds.",
+      "description": "The scene captures a thrilling moment of skydiving, with a woman in mid-air against a backdrop of clouds. Her expression conveys excitement and joy, highlighting the adventurous nature of the activity.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "parachute harness"
+        ],
+        "actions": [
+          "skydiving"
+        ],
+        "emotions": [
+          "joy",
+          "excitement"
+        ],
+        "scenes": [
+          "aerial",
+          "cloudy"
+        ],
+        "concepts": [
+          "adventure",
+          "freedom"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: parachute harness. Actions: skydiving, smiling. Emotions: joy, excitement. Scenes: sky, clouds, aerial, cloudy. Concepts: adventure, freedom",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "parachute harness"
+    ],
+    "actions": [
+      "skydiving",
+      "smiling"
+    ],
+    "emotions": [
+      "joy",
+      "excitement"
+    ],
+    "scenes": [
+      "sky",
+      "clouds",
+      "aerial",
+      "cloudy"
+    ],
+    "concepts": [
+      "adventure",
+      "freedom"
+    ]
+  },
+  "metadata": {}
+}

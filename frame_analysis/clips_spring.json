@@ -1,0 +1,146 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/spring.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/spring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/spring/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with flowing blonde hair smiles brightly amidst a backdrop of blooming flowers. She is wearing a floral dress that complements the vibrant spring setting.",
+      "description": "The scene captures a joyful moment in a lush garden filled with blossoming flowers. The woman appears to be enjoying a sunny day, surrounded by nature's beauty.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "spring",
+          "outdoor"
+        ],
+        "concepts": [
+          "joy",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/spring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/spring/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman stands amidst a blooming garden, her blonde hair gently flowing in the breeze. She is wearing a floral dress that complements the vibrant blossoms around her, and she smiles warmly at the camera.",
+      "description": "The scene captures a joyful moment in a garden during springtime, with blooming flowers and lush greenery. The woman appears relaxed and content, enjoying the natural beauty surrounding her.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "garden",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness",
+          "contentment"
+        ],
+        "scenes": [
+          "springtime",
+          "outdoor"
+        ],
+        "concepts": [
+          "beauty",
+          "nature",
+          "joy"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/spring.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/spring/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman with flowing blonde hair smiles brightly amidst a backdrop of blooming flowers. She is wearing a floral off-shoulder dress, and the sunlight highlights her joyful expression.",
+      "description": "The scene captures a cheerful moment in a blossoming garden during springtime. The woman appears to be enjoying a sunny day surrounded by nature.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "nature": [
+          "flowers",
+          "trees"
+        ],
+        "objects": [
+          "dress"
+        ],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "happiness"
+        ],
+        "scenes": [
+          "garden",
+          "spring"
+        ],
+        "concepts": [
+          "joy",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Nature: flowers, garden, trees. Objects: dress. Actions: smiling. Emotions: happiness, contentment. Scenes: spring, outdoor, springtime, garden. Concepts: joy, beauty, nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "nature": [
+      "flowers",
+      "garden",
+      "trees"
+    ],
+    "objects": [
+      "dress"
+    ],
+    "actions": [
+      "smiling"
+    ],
+    "emotions": [
+      "happiness",
+      "contentment"
+    ],
+    "scenes": [
+      "spring",
+      "outdoor",
+      "springtime",
+      "garden"
+    ],
+    "concepts": [
+      "joy",
+      "beauty",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

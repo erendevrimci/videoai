@@ -1,0 +1,112 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A quiet afternoon read.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A quiet afternoon read.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A quiet afternoon read/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A calico cat sits serenely in a sunlit garden, surrounded by lush greenery. In front of the cat, an open book and a floral teacup add a touch of tranquility to the scene.",
+      "description": "The scene captures a peaceful moment in a garden setting, where a calico cat is the focal point. The cat is positioned next to an open book and a teacup, suggesting a leisurely and contemplative atmosphere.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "garden",
+          "greenery",
+          "tree",
+          "leaves"
+        ],
+        "objects": [
+          "book",
+          "teacup",
+          "saucer"
+        ],
+        "emotions": [
+          "serenity",
+          "calm"
+        ],
+        "scenes": [
+          "outdoor",
+          "garden"
+        ],
+        "concepts": [
+          "tranquility",
+          "leisure"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/A quiet afternoon read.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/A quiet afternoon read/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A calico cat sits serenely in a sunlit forest clearing, surrounded by lush greenery. In front of the cat lies an open book and a delicate teacup, creating a tranquil and contemplative scene.",
+      "description": "The scene is set in a peaceful forest clearing, where a calico cat is positioned in front of an open book and a teacup. The sunlight filters through the leaves, casting a warm glow over the setting.",
+      "labels": {
+        "animals": [
+          "cat"
+        ],
+        "nature": [
+          "forest",
+          "leaves",
+          "sunlight"
+        ],
+        "objects": [
+          "book",
+          "teacup"
+        ],
+        "emotions": [
+          "serenity",
+          "tranquility"
+        ],
+        "scenes": [
+          "forest clearing",
+          "outdoor"
+        ],
+        "concepts": [
+          "peace",
+          "contemplation"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: cat. Nature: leaves, garden, greenery, tree, forest. Objects: book, teacup, saucer. Emotions: serenity, calm, tranquility. Scenes: outdoor, garden, forest clearing. Concepts: tranquility, leisure, peace, contemplation",
+  "primary_labels": {
+    "animals": [
+      "cat"
+    ],
+    "nature": [
+      "leaves",
+      "garden",
+      "greenery",
+      "tree",
+      "forest"
+    ],
+    "objects": [
+      "book",
+      "teacup",
+      "saucer"
+    ],
+    "emotions": [
+      "serenity",
+      "calm",
+      "tranquility"
+    ],
+    "scenes": [
+      "outdoor",
+      "garden",
+      "forest clearing"
+    ],
+    "concepts": [
+      "tranquility",
+      "leisure",
+      "peace",
+      "contemplation"
+    ]
+  },
+  "metadata": {}
+}

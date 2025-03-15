@@ -1,0 +1,88 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifulModelDoingAnAdvert,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifulModelDoingAnAdvert,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BeautifulModelDoingAnAdvert,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene portrait of a woman with her eyes closed, surrounded by flowing, wavy hair. The monochromatic tones create a dreamlike and tranquil atmosphere.",
+      "description": "The scene depicts a close-up of a woman's face with her eyes gently closed, suggesting a state of peace or introspection. Her hair is styled in soft, flowing waves that frame her face, adding to the ethereal quality of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "emotions": [
+          "serenity",
+          "calmness"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "concepts": [
+          "tranquility",
+          "dreamlike"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BeautifulModelDoingAnAdvert,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BeautifulModelDoingAnAdvert,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A woman with long, flowing hair smiles warmly at the camera. Her expression exudes happiness and confidence, captured in a soft, monochromatic palette.",
+      "description": "The scene is a close-up portrait of a woman, focusing on her expressive smile and lively eyes. The setting appears to be indoors with a neutral background, emphasizing her features.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "hair"
+        ],
+        "emotions": [
+          "happiness",
+          "confidence"
+        ],
+        "scenes": [
+          "portrait"
+        ],
+        "visual_attributes": [
+          "monochromatic",
+          "soft lighting"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: hair. Emotions: serenity, calmness, happiness, confidence. Scenes: portrait. Concepts: tranquility, dreamlike. Visual_attributes: monochromatic, soft lighting",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "hair"
+    ],
+    "emotions": [
+      "serenity",
+      "calmness",
+      "happiness",
+      "confidence"
+    ],
+    "scenes": [
+      "portrait"
+    ],
+    "concepts": [
+      "tranquility",
+      "dreamlike"
+    ],
+    "visual_attributes": [
+      "monochromatic",
+      "soft lighting"
+    ]
+  },
+  "metadata": {}
+}

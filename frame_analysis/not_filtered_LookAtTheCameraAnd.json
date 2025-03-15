@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookAtTheCameraAnd.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookAtTheCameraAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LookAtTheCameraAnd/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A close-up of a humanoid figure with feline features, including fur and whiskers, gazing intently into the distance. The figure has striking blue eyes and wears a dark fur hat, adding to the mysterious aura.",
+      "description": "The scene depicts a fantastical character with a blend of human and cat-like traits, set against a dark, moody background. The focus is on the character's face, highlighting the unique combination of human and animal features.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "animals": [
+          "cat"
+        ],
+        "objects": [
+          "hat"
+        ],
+        "emotions": [
+          "mysterious",
+          "intense"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "hybrid",
+          "anthropomorphism"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/LookAtTheCameraAnd.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/LookAtTheCameraAnd/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A close-up of a humanoid figure with feline features, including fur and whiskers, smiling warmly. The figure's bright blue eyes and soft expression create a captivating and surreal appearance.",
+      "description": "The scene presents a fantastical and imaginative portrayal of a humanoid creature with cat-like characteristics. The focus is on the face, highlighting the unique blend of human and feline traits.",
+      "labels": {
+        "people": [
+          "humanoid"
+        ],
+        "animals": [
+          "feline"
+        ],
+        "objects": [],
+        "actions": [
+          "smiling"
+        ],
+        "emotions": [
+          "warmth",
+          "happiness"
+        ],
+        "scenes": [
+          "fantasy"
+        ],
+        "concepts": [
+          "surrealism",
+          "imagination"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: humanoid. Animals: cat, feline. Objects: hat. Emotions: mysterious, intense, warmth, happiness. Scenes: fantasy. Concepts: hybrid, anthropomorphism, surrealism, imagination. Actions: smiling",
+  "primary_labels": {
+    "people": [
+      "humanoid"
+    ],
+    "animals": [
+      "cat",
+      "feline"
+    ],
+    "objects": [
+      "hat"
+    ],
+    "emotions": [
+      "mysterious",
+      "intense",
+      "warmth",
+      "happiness"
+    ],
+    "scenes": [
+      "fantasy"
+    ],
+    "concepts": [
+      "hybrid",
+      "anthropomorphism",
+      "surrealism",
+      "imagination"
+    ],
+    "actions": [
+      "smiling"
+    ]
+  },
+  "metadata": {}
+}

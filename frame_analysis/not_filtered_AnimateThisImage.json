@@ -1,0 +1,105 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "In a dimly lit aquarium, two silhouetted figures stand in awe before a vibrant, bioluminescent octopus. The creature's tentacles glow in shades of purple, green, and blue, creating a mesmerizing display against the dark backdrop.",
+      "description": "The scene is set in an aquarium where visitors are observing a large, colorful octopus through a glass tank. The low lighting emphasizes the octopus's glowing tentacles, creating a captivating and surreal atmosphere.",
+      "labels": {
+        "people": [
+          "silhouetted figures"
+        ],
+        "animals": [
+          "octopus"
+        ],
+        "objects": [
+          "aquarium",
+          "glass tank"
+        ],
+        "actions": [
+          "observing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "aquarium"
+        ],
+        "concepts": [
+          "bioluminescence",
+          "marine life"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AnimateThisImage.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AnimateThisImage/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A vibrant, multicolored octopus is displayed in an aquarium, its tentacles sprawling across the glass. Two silhouetted figures stand in awe, observing the mesmerizing creature. The scene is illuminated with deep blues and purples, enhancing the octopus's vivid hues.",
+      "description": "The scene takes place in an aquarium where a large, colorful octopus is the main attraction. The environment is dimly lit, focusing on the glowing colors of the octopus, creating a captivating and almost surreal atmosphere.",
+      "labels": {
+        "people": [
+          "silhouettes"
+        ],
+        "animals": [
+          "octopus"
+        ],
+        "nature": [],
+        "objects": [
+          "aquarium",
+          "glass"
+        ],
+        "actions": [
+          "observing"
+        ],
+        "emotions": [
+          "awe"
+        ],
+        "scenes": [
+          "aquarium"
+        ],
+        "concepts": [
+          "marine life",
+          "wonder"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: silhouetted figures, silhouettes. Animals: octopus. Objects: aquarium, glass tank, glass. Actions: observing. Emotions: awe. Scenes: aquarium. Concepts: marine life, bioluminescence, wonder",
+  "primary_labels": {
+    "people": [
+      "silhouetted figures",
+      "silhouettes"
+    ],
+    "animals": [
+      "octopus"
+    ],
+    "objects": [
+      "aquarium",
+      "glass tank",
+      "glass"
+    ],
+    "actions": [
+      "observing"
+    ],
+    "emotions": [
+      "awe"
+    ],
+    "scenes": [
+      "aquarium"
+    ],
+    "concepts": [
+      "marine life",
+      "bioluminescence",
+      "wonder"
+    ],
+    "nature": []
+  },
+  "metadata": {}
+}

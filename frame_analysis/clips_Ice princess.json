@@ -1,0 +1,132 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ice princess.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ice princess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ice princess/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young woman with long dark hair is partially submerged in a misty, ethereal setting. She is adorned with blue earrings and a matching necklace, gazing thoughtfully to the side.",
+      "description": "The scene captures a serene and mystical atmosphere, with the woman appearing to be in a dreamlike environment surrounded by mist and soft lighting.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "earrings",
+          "necklace"
+        ],
+        "actions": [
+          "gazing"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "mystical",
+          "ethereal"
+        ],
+        "concepts": [
+          "dreamlike",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ice princess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ice princess/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene portrait of a woman partially submerged in mist, adorned with blue jewelry. Her calm expression and the ethereal atmosphere create a dreamlike scene.",
+      "description": "The scene captures a tranquil moment with a woman enveloped in mist, exuding elegance and calmness. The setting appears mystical, enhanced by the soft lighting and the woman's serene demeanor.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "jewelry",
+          "earrings",
+          "necklace"
+        ],
+        "emotions": [
+          "calm",
+          "serene"
+        ],
+        "scenes": [
+          "mystical",
+          "dreamlike"
+        ],
+        "concepts": [
+          "elegance",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Ice princess.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Ice princess/frame_002_8.00s.jpg",
+      "timestamp": 8.0,
+      "caption": "A woman is depicted in a serene and ethereal setting, adorned in a shimmering blue dress with matching jewelry. She gazes downward, surrounded by a misty atmosphere that adds a mystical quality to the scene.",
+      "description": "The scene portrays a tranquil and dreamlike environment, with a focus on the woman's elegant appearance and the surrounding mist. The setting suggests a fantasy or magical theme.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "dress",
+          "jewelry",
+          "earrings",
+          "necklace"
+        ],
+        "emotions": [
+          "serene",
+          "calm"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "elegance",
+          "beauty"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: earrings, necklace, jewelry, dress. Actions: gazing. Emotions: serene, calm. Scenes: mystical, ethereal, dreamlike, fantasy. Concepts: elegance, dreamlike, tranquility, beauty",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "earrings",
+      "necklace",
+      "jewelry",
+      "dress"
+    ],
+    "actions": [
+      "gazing"
+    ],
+    "emotions": [
+      "serene",
+      "calm"
+    ],
+    "scenes": [
+      "mystical",
+      "ethereal",
+      "dreamlike",
+      "fantasy"
+    ],
+    "concepts": [
+      "elegance",
+      "dreamlike",
+      "tranquility",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

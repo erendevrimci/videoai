@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BothHaveElegant,ConfidentExpressions,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BothHaveElegant,ConfidentExpressions,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BothHaveElegant,ConfidentExpressions,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "Two women are seated closely together in a stylish, retro setting. They are wearing shimmering dresses and large statement earrings, with a warm, neon-lit background enhancing the glamorous atmosphere.",
+      "description": "The scene captures a glamorous moment with two women in a retro, neon-lit environment. Their attire and accessories suggest an elegant and fashionable setting, possibly a high-end bar or lounge.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "objects": [
+          "dresses",
+          "earrings"
+        ],
+        "emotions": [
+          "glamorous"
+        ],
+        "scenes": [
+          "retro",
+          "neon-lit"
+        ],
+        "concepts": [
+          "fashion",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/BothHaveElegant,ConfidentExpressions,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/BothHaveElegant,ConfidentExpressions,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "Two women are seated closely together, dressed in shimmering outfits and adorned with large earrings. They are positioned in a vibrant, neon-lit setting, creating a glamorous and stylish atmosphere.",
+      "description": "The scene captures two women in a glamorous setting, possibly a club or a fashion event, characterized by bright neon lights and reflective surfaces. Their attire and makeup suggest a high-fashion or nightlife context.",
+      "labels": {
+        "people": [
+          "women"
+        ],
+        "objects": [
+          "earrings",
+          "dresses"
+        ],
+        "actions": [
+          "posing"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "nightlife",
+          "fashion"
+        ],
+        "concepts": [
+          "glamour",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: women. Objects: dresses, earrings. Emotions: glamorous, confident. Scenes: retro, neon-lit, nightlife, fashion. Concepts: fashion, elegance, glamour, style. Actions: posing",
+  "primary_labels": {
+    "people": [
+      "women"
+    ],
+    "objects": [
+      "dresses",
+      "earrings"
+    ],
+    "emotions": [
+      "glamorous",
+      "confident"
+    ],
+    "scenes": [
+      "retro",
+      "neon-lit",
+      "nightlife",
+      "fashion"
+    ],
+    "concepts": [
+      "fashion",
+      "elegance",
+      "glamour",
+      "style"
+    ],
+    "actions": [
+      "posing"
+    ]
+  },
+  "metadata": {}
+}

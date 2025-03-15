@@ -1,0 +1,114 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young girl model walking.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young girl model walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young girl model walking/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A young girl confidently walks down a fashion runway, wearing an elegant white outfit with intricate silver embroidery. The stage is warmly lit, highlighting her joyful expression as she moves forward.",
+      "description": "The scene is set on a fashion runway, where a young girl is modeling a stylish outfit. The backdrop features a logo and the word 'Sponsor', indicating a formal fashion event.",
+      "labels": {
+        "people": [
+          "girl",
+          "model"
+        ],
+        "objects": [
+          "runway",
+          "outfit",
+          "logo"
+        ],
+        "actions": [
+          "walking",
+          "modeling"
+        ],
+        "emotions": [
+          "joyful",
+          "confident"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "youth",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/young girl model walking.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/young girl model walking/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A young girl confidently walks down a brightly lit runway, wearing a beautiful cream-colored dress with intricate patterns. The background features a blurred audience and a sign with the word 'Sponsor' illuminated above.",
+      "description": "The scene captures a fashion show runway where a young girl is modeling an elegant dress. The setting is lively with focused lighting highlighting the model, while the audience is dimly visible in the background.",
+      "labels": {
+        "people": [
+          "girl",
+          "audience"
+        ],
+        "objects": [
+          "runway",
+          "dress",
+          "sign"
+        ],
+        "actions": [
+          "walking",
+          "modeling"
+        ],
+        "emotions": [
+          "confidence",
+          "happiness"
+        ],
+        "scenes": [
+          "fashion show",
+          "runway"
+        ],
+        "concepts": [
+          "fashion",
+          "youth",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: girl, model, audience. Objects: runway, outfit, logo, dress, sign. Actions: walking, modeling. Emotions: joyful, confident, confidence, happiness. Scenes: fashion show, runway. Concepts: fashion, youth, style",
+  "primary_labels": {
+    "people": [
+      "girl",
+      "model",
+      "audience"
+    ],
+    "objects": [
+      "runway",
+      "outfit",
+      "logo",
+      "dress",
+      "sign"
+    ],
+    "actions": [
+      "walking",
+      "modeling"
+    ],
+    "emotions": [
+      "joyful",
+      "confident",
+      "confidence",
+      "happiness"
+    ],
+    "scenes": [
+      "fashion show",
+      "runway"
+    ],
+    "concepts": [
+      "fashion",
+      "youth",
+      "style"
+    ]
+  },
+  "metadata": {}
+}

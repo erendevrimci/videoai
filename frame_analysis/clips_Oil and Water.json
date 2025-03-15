@@ -1,0 +1,96 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Oil and Water.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Oil and Water.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Oil and Water/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A serene profile of a woman is enveloped in swirling patterns of vibrant yellow and deep blue. The scene is interspersed with bubbles, creating a sense of fluidity and motion. Her eyes are closed, suggesting a moment of peace and introspection.",
+      "description": "The image presents a surreal and artistic depiction of a woman's profile surrounded by dynamic, swirling colors and bubbles. The setting is abstract, blending elements of fluid art with a calm human expression.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bubbles"
+        ],
+        "actions": [
+          "swirling"
+        ],
+        "emotions": [
+          "serenity",
+          "introspection"
+        ],
+        "scenes": [
+          "abstract"
+        ],
+        "concepts": [
+          "fluidity",
+          "artistic expression"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Oil and Water.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Oil and Water/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A serene profile of a woman is enveloped by swirling patterns of black and yellow liquid. Bubbles of various sizes float around her, creating a surreal and dreamlike atmosphere.",
+      "description": "The scene depicts a woman with closed eyes, surrounded by dynamic, fluid-like swirls of black and yellow. The composition is filled with bubbles, enhancing the ethereal quality of the image.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "bubbles"
+        ],
+        "actions": [
+          "floating"
+        ],
+        "emotions": [
+          "serene",
+          "dreamlike"
+        ],
+        "scenes": [
+          "surreal"
+        ],
+        "concepts": [
+          "fluidity",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Objects: bubbles. Actions: swirling, floating. Emotions: serenity, introspection, serene, dreamlike. Scenes: abstract, surreal. Concepts: fluidity, artistic expression, tranquility",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "objects": [
+      "bubbles"
+    ],
+    "actions": [
+      "swirling",
+      "floating"
+    ],
+    "emotions": [
+      "serenity",
+      "introspection",
+      "serene",
+      "dreamlike"
+    ],
+    "scenes": [
+      "abstract",
+      "surreal"
+    ],
+    "concepts": [
+      "fluidity",
+      "artistic expression",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

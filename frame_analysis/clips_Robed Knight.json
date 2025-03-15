@@ -1,0 +1,100 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robed Knight.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robed Knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Robed Knight/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A man dressed in regal, medieval-style attire stands confidently, holding a glowing sword. He is surrounded by a mystical aura of swirling orange and blue light, suggesting an atmosphere of magic and power.",
+      "description": "The scene depicts a fantasy setting where a noble figure, possibly a warrior or a mage, is the focal point. The background features a dynamic interplay of colors, enhancing the magical and otherworldly ambiance.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "sword",
+          "cloak"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "confidence"
+        ],
+        "scenes": [
+          "fantasy",
+          "medieval"
+        ],
+        "concepts": [
+          "magic",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/Robed Knight.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/Robed Knight/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A man dressed in a regal, purple robe stands confidently, holding a golden staff. Behind him, a mystical halo of blue and orange light creates a dramatic backdrop, enhancing his commanding presence.",
+      "description": "The scene depicts a fantasy setting with a focus on a powerful figure, possibly a wizard or sorcerer, exuding authority and mysticism. The vibrant colors and dynamic lighting suggest a magical or otherworldly environment.",
+      "labels": {
+        "people": [
+          "man"
+        ],
+        "objects": [
+          "robe",
+          "staff"
+        ],
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "emotions": [
+          "confident"
+        ],
+        "scenes": [
+          "fantasy",
+          "mystical"
+        ],
+        "concepts": [
+          "magic",
+          "power"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: man. Objects: sword, cloak, robe, staff. Actions: holding, standing. Emotions: confidence, confident. Scenes: fantasy, medieval, mystical. Concepts: magic, power",
+  "primary_labels": {
+    "people": [
+      "man"
+    ],
+    "objects": [
+      "sword",
+      "cloak",
+      "robe",
+      "staff"
+    ],
+    "actions": [
+      "holding",
+      "standing"
+    ],
+    "emotions": [
+      "confidence",
+      "confident"
+    ],
+    "scenes": [
+      "fantasy",
+      "medieval",
+      "mystical"
+    ],
+    "concepts": [
+      "magic",
+      "power"
+    ]
+  },
+  "metadata": {}
+}

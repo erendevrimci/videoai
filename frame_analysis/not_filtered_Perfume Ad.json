@@ -1,0 +1,93 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Perfume Ad.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Perfume Ad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Perfume Ad/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman with an elegant updo gazes intently at the camera, holding a bottle of perfume. The background is softly lit with a gradient of pink and blue hues, creating a sophisticated and modern atmosphere.",
+      "description": "The scene is a portrait of a woman in a studio setting, emphasizing elegance and luxury. She is holding a perfume bottle, suggesting themes of beauty and fragrance.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "objects": [
+          "perfume bottle"
+        ],
+        "actions": [
+          "holding"
+        ],
+        "emotions": [
+          "intense",
+          "calm"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "elegance",
+          "luxury"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/Perfume Ad.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/Perfume Ad/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A person with styled hair holds a perfume bottle close to their face, set against a gradient pink and blue background. The lighting casts a soft glow, highlighting the features and creating a serene atmosphere.",
+      "description": "The scene is a portrait of a person posing with a perfume bottle, likely in a studio setting. The background features a smooth gradient of pink and blue, adding a modern and stylish touch.",
+      "labels": {
+        "people": [
+          "person"
+        ],
+        "objects": [
+          "perfume bottle"
+        ],
+        "emotions": [
+          "serene"
+        ],
+        "scenes": [
+          "portrait",
+          "studio"
+        ],
+        "concepts": [
+          "beauty",
+          "elegance"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman, person. Objects: perfume bottle. Actions: holding. Emotions: intense, calm, serene. Scenes: portrait, studio. Concepts: elegance, luxury, beauty",
+  "primary_labels": {
+    "people": [
+      "woman",
+      "person"
+    ],
+    "objects": [
+      "perfume bottle"
+    ],
+    "actions": [
+      "holding"
+    ],
+    "emotions": [
+      "intense",
+      "calm",
+      "serene"
+    ],
+    "scenes": [
+      "portrait",
+      "studio"
+    ],
+    "concepts": [
+      "elegance",
+      "luxury",
+      "beauty"
+    ]
+  },
+  "metadata": {}
+}

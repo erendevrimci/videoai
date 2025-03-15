@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/love/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A couple sits on a bench by a tranquil lake, surrounded by autumn trees and illuminated by warm street lamps. Heart-shaped balloons float gently above them, adding a touch of romance to the serene sunset scene.",
+      "description": "The scene depicts a romantic setting by a lake during sunset, with a couple sitting on a bench. The atmosphere is calm and intimate, enhanced by the warm glow of street lamps and the presence of heart-shaped balloons.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "lake",
+          "trees",
+          "autumn leaves"
+        ],
+        "objects": [
+          "bench",
+          "street lamps",
+          "balloons"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "sunset",
+          "park"
+        ],
+        "concepts": [
+          "love",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/love.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/love/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A couple sits closely on a park bench by a tranquil lake, surrounded by autumn trees. Heart-shaped balloons float gently above them, illuminated by the warm glow of street lamps. The scene is reflected beautifully in the water, creating a serene and romantic atmosphere.",
+      "description": "The scene captures a romantic moment in a park setting during sunset or twilight. The couple is seated on a bench by a lake, with heart-shaped balloons adding a whimsical touch. The warm lighting from the street lamps and the reflection in the water enhance the peaceful and intimate mood.",
+      "labels": {
+        "people": [
+          "couple"
+        ],
+        "nature": [
+          "trees",
+          "lake",
+          "autumn"
+        ],
+        "objects": [
+          "bench",
+          "balloons",
+          "street lamps"
+        ],
+        "actions": [
+          "sitting",
+          "embracing"
+        ],
+        "emotions": [
+          "romantic",
+          "serene"
+        ],
+        "scenes": [
+          "park",
+          "sunset"
+        ],
+        "concepts": [
+          "love",
+          "tranquility"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: couple. Nature: lake, trees, autumn leaves, autumn. Objects: bench, street lamps, balloons. Actions: sitting, embracing. Emotions: romantic, serene. Scenes: sunset, park. Concepts: love, tranquility",
+  "primary_labels": {
+    "people": [
+      "couple"
+    ],
+    "nature": [
+      "lake",
+      "trees",
+      "autumn leaves",
+      "autumn"
+    ],
+    "objects": [
+      "bench",
+      "street lamps",
+      "balloons"
+    ],
+    "actions": [
+      "sitting",
+      "embracing"
+    ],
+    "emotions": [
+      "romantic",
+      "serene"
+    ],
+    "scenes": [
+      "sunset",
+      "park"
+    ],
+    "concepts": [
+      "love",
+      "tranquility"
+    ]
+  },
+  "metadata": {}
+}

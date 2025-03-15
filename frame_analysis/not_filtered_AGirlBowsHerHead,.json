@@ -1,0 +1,118 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlBowsHerHead,.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlBowsHerHead,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlBowsHerHead,/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A woman is depicted wearing a wolf headdress, blending seamlessly with the snowy landscape around her. Her expression is calm and intense, as snowflakes gently fall, creating a mystical atmosphere.",
+      "description": "The scene is set in a snowy, forested environment, where a woman is adorned with a wolf headdress, evoking a sense of connection with nature. The setting is serene yet powerful, with a focus on the interplay between human and animal elements.",
+      "labels": {
+        "people": [
+          "woman"
+        ],
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [
+          "headdress",
+          "fur clothing"
+        ],
+        "actions": [
+          "standing"
+        ],
+        "emotions": [
+          "calm",
+          "intense"
+        ],
+        "scenes": [
+          "winter",
+          "outdoor"
+        ],
+        "concepts": [
+          "mystical",
+          "nature connection"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AGirlBowsHerHead,.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AGirlBowsHerHead,/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A majestic wolf strides forward through a snowy landscape, its fur dusted with snowflakes. The wolf's piercing eyes are focused, conveying a sense of determination and strength.",
+      "description": "The scene captures a lone wolf moving through a snow-covered environment, with snowflakes gently falling around it. The setting is likely a forest or wilderness area during winter, emphasizing the wolf's natural habitat.",
+      "labels": {
+        "animals": [
+          "wolf"
+        ],
+        "nature": [
+          "snow",
+          "forest"
+        ],
+        "objects": [],
+        "actions": [
+          "walking"
+        ],
+        "emotions": [
+          "determination",
+          "strength"
+        ],
+        "scenes": [
+          "winter",
+          "wilderness"
+        ],
+        "concepts": [
+          "wildlife",
+          "nature"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "People: woman. Animals: wolf. Nature: snow, forest. Objects: headdress, fur clothing. Actions: standing, walking. Emotions: calm, intense, determination, strength. Scenes: winter, outdoor, wilderness. Concepts: mystical, nature connection, wildlife, nature",
+  "primary_labels": {
+    "people": [
+      "woman"
+    ],
+    "animals": [
+      "wolf"
+    ],
+    "nature": [
+      "snow",
+      "forest"
+    ],
+    "objects": [
+      "headdress",
+      "fur clothing"
+    ],
+    "actions": [
+      "standing",
+      "walking"
+    ],
+    "emotions": [
+      "calm",
+      "intense",
+      "determination",
+      "strength"
+    ],
+    "scenes": [
+      "winter",
+      "outdoor",
+      "wilderness"
+    ],
+    "concepts": [
+      "mystical",
+      "nature connection",
+      "wildlife",
+      "nature"
+    ]
+  },
+  "metadata": {}
+}

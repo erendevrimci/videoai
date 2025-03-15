@@ -1,0 +1,111 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyAndAdorableCapybara.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyAndAdorableCapybara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AChubbyAndAdorableCapybara/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "A capybara is comfortably sitting in a large pot filled with water and colorful vegetables, placed over a fire. The scene is set outdoors with snow visible in the background, creating a humorous and surreal contrast.",
+      "description": "The image depicts a whimsical scene where a capybara is soaking in a pot of water with vegetables, as if enjoying a warm bath. The pot is set over a fire, and the snowy surroundings add to the quirky atmosphere.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "pot",
+          "fire",
+          "vegetables"
+        ],
+        "actions": [
+          "soaking"
+        ],
+        "emotions": [
+          "humorous"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "surreal",
+          "contrast"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/not_filtered/AChubbyAndAdorableCapybara.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/not_filtered/AChubbyAndAdorableCapybara/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "A capybara is comfortably sitting in a large black pot filled with water and various vegetables. The pot is placed over a small fire, creating a whimsical and surreal scene.",
+      "description": "The scene depicts a capybara relaxing in a pot outdoors during winter, surrounded by snow. The setting is playful and imaginative, blending elements of nature with a humorous twist.",
+      "labels": {
+        "animals": [
+          "capybara"
+        ],
+        "nature": [
+          "snow"
+        ],
+        "objects": [
+          "pot",
+          "fire",
+          "vegetables"
+        ],
+        "actions": [
+          "sitting"
+        ],
+        "emotions": [
+          "calm",
+          "whimsical"
+        ],
+        "scenes": [
+          "outdoor",
+          "winter"
+        ],
+        "concepts": [
+          "surreal",
+          "humor"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Animals: capybara. Nature: snow. Objects: pot, fire, vegetables. Actions: soaking, sitting. Emotions: humorous, calm, whimsical. Scenes: outdoor, winter. Concepts: surreal, contrast, humor",
+  "primary_labels": {
+    "animals": [
+      "capybara"
+    ],
+    "nature": [
+      "snow"
+    ],
+    "objects": [
+      "pot",
+      "fire",
+      "vegetables"
+    ],
+    "actions": [
+      "soaking",
+      "sitting"
+    ],
+    "emotions": [
+      "humorous",
+      "calm",
+      "whimsical"
+    ],
+    "scenes": [
+      "outdoor",
+      "winter"
+    ],
+    "concepts": [
+      "surreal",
+      "contrast",
+      "humor"
+    ]
+  },
+  "metadata": {}
+}

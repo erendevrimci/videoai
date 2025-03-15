@@ -1,0 +1,82 @@
+{
+  "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/360 e commerce shot of a top.mp4",
+  "frames": [
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/360 e commerce shot of a top.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/360 e commerce shot of a top/frame_000_0.00s.jpg",
+      "timestamp": 0.0,
+      "caption": "The image features a stylish, rust-colored cropped hoodie with a wrap-around design and a tie at the waist. The garment has long sleeves and a hood, creating a casual yet trendy look.",
+      "description": "This is a product image showcasing a fashionable cropped hoodie. The setting is minimalistic, focusing solely on the garment against a plain white background.",
+      "labels": {
+        "objects": [
+          "hoodie",
+          "clothing"
+        ],
+        "colors": [
+          "rust",
+          "orange"
+        ],
+        "scenes": [
+          "product photography"
+        ],
+        "concepts": [
+          "fashion",
+          "apparel",
+          "style"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    },
+    {
+      "clip_path": "/Volumes/drev-ventura/video-repos/videoai/clips/filtered_videos/360 e commerce shot of a top.mp4",
+      "frame_path": "/Volumes/drev-ventura/video-repos/videoai/frames/clips/filtered_videos/360 e commerce shot of a top/frame_001_4.00s.jpg",
+      "timestamp": 4.0,
+      "caption": "The image shows a stylish, cropped hoodie in a warm terracotta color. The hoodie features long sleeves and a unique wrap-around tie detail at the back.",
+      "description": "This is a product image showcasing a fashionable hoodie designed for casual wear. The setting is a plain white background, emphasizing the garment's design and color.",
+      "labels": {
+        "objects": [
+          "hoodie",
+          "clothing"
+        ],
+        "colors": [
+          "terracotta",
+          "warm"
+        ],
+        "scenes": [
+          "product display"
+        ],
+        "concepts": [
+          "fashion",
+          "casual wear"
+        ]
+      },
+      "metadata": {},
+      "confidence": 0.9
+    }
+  ],
+  "summary": "Objects: hoodie, clothing. Colors: rust, orange, terracotta, warm. Scenes: product photography, product display. Concepts: fashion, apparel, style, casual wear",
+  "primary_labels": {
+    "objects": [
+      "hoodie",
+      "clothing"
+    ],
+    "colors": [
+      "rust",
+      "orange",
+      "terracotta",
+      "warm"
+    ],
+    "scenes": [
+      "product photography",
+      "product display"
+    ],
+    "concepts": [
+      "fashion",
+      "apparel",
+      "style",
+      "casual wear"
+    ]
+  },
+  "metadata": {}
+}
