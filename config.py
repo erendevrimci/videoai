@@ -7,6 +7,7 @@ provides default values for all settings.
 """
 
 import os
+import json
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from pydantic import BaseModel, Field
@@ -21,6 +22,8 @@ load_dotenv(override=True)
 # Initialize the file manager
 file_mgr = FileManager()
 
+with open('topics_covered.json', 'r') as f:
+    topics_covered = json.load(f)
 # Base project directory (use file manager's base_dir)
 BASE_DIR = file_mgr.base_dir
 
@@ -61,12 +64,12 @@ class ChannelConfig(BaseModel):
 
 class FilePathConfig(BaseModel):
     """File path configuration"""
-    script_file: str = Field(default="generated_script.txt")
-    voice_file: str = Field(default="voice/generated_voice.mp3")
-    captions_file: str = Field(default="generated_voice.srt")
-    output_video_file: str = Field(default="output_video.mp4")
-    final_video_file: str = Field(default="final_output.mp4")
-    final_subtitled_video_file: str = Field(default="final_output_with_subtitles.mp4")
+    script_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_script.txt")
+    voice_file: str = Field(default=f"voice/{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_voice.mp3")
+    captions_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_voice.srt")
+    output_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_output_video.mp4")
+    final_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_final_output.mp4")
+    final_subtitled_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_final_output_with_subtitles.mp4")
     clips_metadata_file: str = Field(default="video/video-catalog-adjusted-2500.csv")
     clips_directory: str = Field(default="clips")
     background_music_directory: str = Field(default="background_music")
