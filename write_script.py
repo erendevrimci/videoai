@@ -465,18 +465,21 @@ def main(channel_number: Optional[int] = None) -> None:
             print("Script generation failed.")
             return
             
-        # Save the generated script
-        script_path = save_script(script, channel_number)
         
-        if script_path is None:
-            print("Failed to save script.")
-            return
             
         # Extract topic from script
         extracted_topic = extract_topic_from_script(script)
         
         # Update topics database
         update_topics_covered(extracted_topic)
+
+
+        # Save the generated script
+        script_path = save_script(script, channel_number)
+        
+        if script_path is None:
+            print("Failed to save script.")
+            return
         
         print("\nScript generation completed successfully.")
         
