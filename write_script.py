@@ -10,7 +10,6 @@ from datetime import datetime
 import json
 from typing import Optional, List, Dict, Any
 from pathlib import Path
-
 from together import Together
 import google.generativeai as genai
 from pydantic import BaseModel
@@ -413,15 +412,12 @@ def save_script(script: str, channel_number: Optional[int] = None) -> Optional[P
         # First save to channel-specific directory if channel is specified
         if channel_number is not None:
             # Use FileManager's get_script_path to get the correct channel script path
-            channel_script_path = file_mgr.get_script_path(channel_number, "script")
+            channel_script_path = file_mgr.get_script_path(channel_number, config.file_paths.script_file)
             
             # Save to channel-specific directory using FileManager
             success = file_mgr.write_text(channel_script_path, script)
             if success:
                 print(f"Script saved to channel directory: {channel_script_path}")
-                # Also save a copy with a different name if needed
-                alt_script_path = file_mgr.get_script_path(channel_number, "generated_script")
-                file_mgr.write_text(alt_script_path, script)
             else:
                 print(f"Error: Failed to save script to channel directory: {channel_script_path}")
         
@@ -469,7 +465,12 @@ def main(channel_number: Optional[int] = None) -> None:
             
         # Extract topic from script
         extracted_topic = extract_topic_from_script(script)
-        
+        config.file_paths.script_file = f"{extracted_topic.topic}_generated_script.txt"
+        config.file_paths.voice_file = f"voice/{extracted_topic.topic}_generated_voice.mp3"
+        config.file_paths.captions_file = f"{extracted_topic.topic}_generated_voice.srt"
+        config.file_paths.output_video_file = f"{extracted_topic.topic}_output_video.mp4"
+        config.file_paths.final_video_file  = f"{extracted_topic.topic}_final_output.mp4"
+        config.file_paths.final_subtitled_video_file = f"{extracted_topic.topic}_final_output_with_subtitles.mp4"
         # Update topics database
         update_topics_covered(extracted_topic)
 

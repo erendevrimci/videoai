@@ -64,17 +64,17 @@ class ChannelConfig(BaseModel):
 
 class FilePathConfig(BaseModel):
     """File path configuration"""
-    script_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_script.txt")
-    voice_file: str = Field(default=f"voice/{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_voice.mp3")
-    captions_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_generated_voice.srt")
-    output_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_output_video.mp4")
-    final_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_final_output.mp4")
-    final_subtitled_video_file: str = Field(default=f"{topics_covered['topics_already_covered'][len(topics_covered['topics_already_covered']) - 1]}_final_output_with_subtitles.mp4")
+    script_file: str = Field(default=f"generated_script.txt")
+    voice_file: str = Field(default=f"voice/generated_voice.mp3")
+    captions_file: str = Field(default=f"generated_voice.srt")
+    output_video_file: str = Field(default=f"output_video.mp4")
+    final_video_file: str = Field(default=f"final_output.mp4")
+    final_subtitled_video_file: str = Field(default=f"final_output_with_subtitles.mp4")
     clips_metadata_file: str = Field(default="video/video-catalog-adjusted-2500.csv")
     clips_directory: str = Field(default="clips")
     background_music_directory: str = Field(default="background_music")
     output_directory: str = Field(default="outputs")
-
+    
 class VideoEditConfig(BaseModel):
     """Video editing configuration"""
     max_clip_duration: int = Field(default=10)
@@ -86,8 +86,8 @@ class VideoEditConfig(BaseModel):
 
 class ScriptGenerationConfig(BaseModel):
     """Script generation configuration"""
-    min_words: int = Field(default=100)
-    max_words: int = Field(default=200)
+    min_words: int = Field(default=50)
+    max_words: int = Field(default=100)
     target_audience: str = Field(default="fact enthusiasts")
     tone: str = Field(default="informative yet conversational")
     style: str = Field(default="clear, engaging, and accessible")

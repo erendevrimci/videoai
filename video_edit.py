@@ -7,6 +7,7 @@ from typing import List, Dict, Optional, Any, Union
 import shutil
 from openai import OpenAI
 import traceback
+import shlex
 from config import config, get_channel_config
 from file_manager import FileManager
 
@@ -267,9 +268,7 @@ def get_script_segments(channel_number: Optional[int] = None) -> str:
     
     # Try multiple script file paths with priority on channel-specific paths
     script_file_paths = [
-        # First priority: channel-specific script paths
-        file_mgr.get_script_path(channel_number, "script"),
-        file_mgr.get_script_path(channel_number, "generated_script"),
+        file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         # Last resort: global script path
         file_mgr.get_abs_path(config.file_paths.script_file),
     ]
@@ -336,7 +335,7 @@ def get_num_segments(srt_file: Optional[str] = None, channel_number: Optional[in
     """
     if srt_file is None:
         if channel_number is not None:
-            srt_file = str(file_mgr.get_caption_path(channel_number, "generated_voice"))
+            srt_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
         else:
             srt_file = file_mgr.get_abs_path(config.file_paths.captions_file)
     
@@ -370,7 +369,7 @@ def match_clips_to_script(script: str, clips: List[Dict], target_duration: float
     available_clips = {clip['name'] for clip in clips}
     
     # Read SRT file for timing information
-    srt_file = file_mgr.get_abs_path(f"outputs/channel_{channel_number}/generated_voice.srt")
+    srt_file = file_mgr.get_abs_path(f"outputs/channel_{channel_number}/{config.file_paths.captions_file}")
     srt_content = file_mgr.read_text(srt_file)
     
     if srt_content is None:
@@ -459,7 +458,7 @@ Your task is to create a sequence of clips that best matches the voiceover conte
 - **Never use a clip less than 2 seconds**
 
 Return a JSON array where each object has:
-- clip_name: the EXACT filename of one of the clips listed above which includes the directory (clips/*.mp4)
+- clip_name: the EXACT filename of one of the clips listed above (*.mp4)
 - start_time: when to start using the clip (in seconds from the clip's beginning)
 - duration: length of the clip segment (MUST match the SRT segment duration)
 - script_segment: the part of the script that this clip should align with
@@ -483,7 +482,6 @@ Format the response as valid JSON only, no additional text.
         )
         
         clip_sequence = json.loads(response.choices[0].message.content)
-        print(response)
         with open("json_response.json", "w") as output_json:
             output_json.write(response.model_dump_json())
 
@@ -891,7 +889,7 @@ def merge_voice_with_video(video_path: str = None, voice_path: str = None, outpu
         output_dir = file_mgr.get_channel_output_path(channel_number)
         video_path = str(output_dir / config.file_paths.output_video_file)
     if voice_path is None:
-        voice_path = str(file_mgr.get_audio_output_path(channel_number, "generated_voice"))
+        voice_path = str(file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","")))
     if output_path is None:
         output_dir = file_mgr.get_channel_output_path(channel_number)
         output_path = str(output_dir / config.file_paths.final_video_file)
@@ -1258,7 +1256,7 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
         output_dir = file_mgr.get_channel_output_path(channel_number)
         video_path = str(output_dir / config.file_paths.final_video_file)
     if srt_path is None:
-        srt_path = str(file_mgr.get_caption_path(channel_number, "generated_voice"))
+        srt_path = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
     if output_path is None:
         output_dir = file_mgr.get_channel_output_path(channel_number)
         output_path = str(output_dir / config.file_paths.final_subtitled_video_file)
@@ -1271,7 +1269,7 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
             # Check if we have a voice file that we can use with the placeholder
             voice_path = None
             if channel_number is not None:
-                voice_path = file_mgr.get_audio_output_path(channel_number, "generated_voice")
+                voice_path = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
                 if not file_mgr.file_exists(voice_path):
                     voice_path = None
             
@@ -1397,17 +1395,21 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
                         # Escape path for subtitles to handle special characters
                         srt_clean_path = str(srt_path).replace(":", "\\:").replace("'", "\\'")
                         
-                        # Modified approach to handle subtitle rendering better
-                        subprocess.run([
-                            "ffmpeg", "-y",
-                            "-i", video_path,
-                            "-vf", f"subtitles={srt_clean_path}:force_style='FontName=DIN Condensed Bold,FontSize=12,PrimaryColour=&HFFFFFF,OutlineColour=&H00000010,BorderStyle=4,Outline=1,Shadow=1,MarginV=35'",
-                            "-c:v", "libx264",
-                            "-preset", "fast",
-                            "-crf", "22",
-                            "-c:a", "copy",
-                            output_path
-                        ], check=True)
+                        with file_mgr.temp_file(suffix=".srt") as temp_srt:
+      # Copy the original SRT content to temp file
+                            file_mgr.copy_file(srt_path, temp_srt)
+
+                            # Use the simple temp path in the ffmpeg command
+                            subprocess.run([
+                                "ffmpeg", "-y",
+                                "-i", video_path,
+                                "-vf", f"subtitles={temp_srt}:force_style='FontName=DIN Condensed Bold,FontSize=12,PrimaryColour=&HFFFFFF,OutlineColour=&H00000010,BorderStyle=4,Outline=1,Shadow=1,MarginV=35'",
+                                "-c:v", "libx264",
+                                "-preset", "fast",
+                                "-crf", "22",
+                                "-c:a", "copy",
+                                output_path
+                            ], check=True)
                         print(f"Successfully added subtitles to {output_path}")
                         return True
                     except Exception as e:
@@ -1482,7 +1484,7 @@ def main(channel_number: Optional[int] = None) -> None:
         script = get_script_segments(channel_number)
         
         # Get voice file path from configuration - use channel-specific path
-        voice_file = str(file_mgr.get_audio_output_path(channel_number, "generated_voice"))
+        voice_file = str(file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","")))
         target_duration = None
         
         print(f"Looking for voice file at: {voice_file}")
@@ -1494,7 +1496,7 @@ def main(channel_number: Optional[int] = None) -> None:
             target_duration = 60.0  # Default duration if voice file missing
         
         # Get expected number of segments from the SRT file - use channel-specific path
-        captions_file = str(file_mgr.get_caption_path(channel_number, "generated_voice"))
+        captions_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
         print(f"Looking for captions file at: {captions_file}")
         expected_segments = get_num_segments(captions_file, channel_number)
         print(f"Expected number of clip segments: {expected_segments}")
@@ -1506,7 +1508,7 @@ def main(channel_number: Optional[int] = None) -> None:
         
         # Match clips to the script, validate that output matches expected number
         attempts = 0
-        max_attempts = 2
+        max_attempts = 1
         clip_sequence = None
         
         while attempts < max_attempts:

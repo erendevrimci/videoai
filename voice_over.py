@@ -60,11 +60,9 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
     }
     
     # Define output file paths using the file manager
-    channel_voice_file = file_mgr.get_audio_output_path(channel_number, "generated_voice")
-    legacy_voice_file = file_mgr.get_abs_path("voice/generated_voice.mp3")
+    channel_voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","").replace(".mp3",""))
     
-    # Ensure legacy voice directory exists (file_mgr will handle channel directory automatically)
-    file_mgr.ensure_dir_exists(legacy_voice_file.parent)
+    
     
     try:
         print(f"Generating voice using ElevenLabs API (voice ID: {voice_id})...")
@@ -73,11 +71,10 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         
         # Write the binary audio content to both file locations using the file manager
         file_mgr.write_binary(channel_voice_file, response.content)
-        file_mgr.write_binary(legacy_voice_file, response.content)
+        
         
         print(f"Voice files saved to:")
         print(f"  - {channel_voice_file}")
-        print(f"  - {legacy_voice_file}")
         
         return str(channel_voice_file)
     except requests.RequestException as e:
@@ -103,8 +100,7 @@ def main(channel_number: Optional[int] = None) -> None:
     
     # Try multiple script file path options
     script_file_paths = [
-        file_mgr.get_script_path(channel_number, "script"),
-        file_mgr.get_script_path(channel_number, "generated_script"),
+        file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         file_mgr.get_abs_path(config.file_paths.script_file)
     ]
     

@@ -166,9 +166,7 @@ def main(channel_number: int = None):
         
         # Set file paths using FileManager
         script_file_paths = [
-            file_mgr.get_script_path(channel_number, "script"),
-            file_mgr.get_script_path(channel_number, "generated_script"),
-            file_mgr.get_abs_path(config.file_paths.script_file)
+            file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         ]
         output_file = file_mgr.get_channel_output_path(channel_number) / channel_config.youtube_info_file
         

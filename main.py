@@ -102,8 +102,8 @@ def process_channel(channel_number: int, steps: List[str] = None) -> None:
                 print(f"\n{step_msg}")
             
             # Use channel-specific paths for voice and captions
-            voice_file = file_mgr.get_audio_output_path(channel_number, "generated_voice")
-            captions_file = file_mgr.get_caption_path(channel_number, "generated_voice")
+            voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
+            captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
             
             print(f"Using voice file: {voice_file}")
             print(f"Output captions to: {captions_file}")
@@ -171,8 +171,7 @@ def archive_channel_files(channel_number: int) -> None:
     
     # Define source and target files
     files_to_archive = {
-        config.file_paths.final_subtitled_video_file: f"final_output_channel{channel_number}.mp4",
-        config.file_paths.script_file: f"script_channel{channel_number}.txt",
+        
         "youtube_info.json": f"youtube_info_channel{channel_number}.json"
     }
     

@@ -79,14 +79,6 @@ def generate_subtitles(
             print(f"Error: Could not write SRT file: {output_path}")
             return False
             
-        # Also save a copy in the root directory for easier access by ffmpeg
-        try:
-            root_srt_path = Path('subtitles.srt')
-            with open(root_srt_path, 'w', encoding='utf-8') as f:
-                f.write(transcription)
-            print(f"Also saved subtitles to root directory at {root_srt_path} for easier ffmpeg access")
-        except Exception as e:
-            print(f"Warning: Could not save copy of SRT to root directory: {e}")
             
         print(f"Subtitles successfully saved to {output_path}")
         return True
@@ -107,10 +99,10 @@ def main(channel_number: int = None):
         channel_number = config.default_channel
     
     # Get voice file path using FileManager
-    audio_file_path = file_mgr.get_audio_output_path(channel_number, "generated_voice")
+    audio_file_path = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","").replace(".mp3",""))
     
     # Get caption file path using FileManager
-    output_srt_path = file_mgr.get_caption_path(channel_number)
+    output_srt_path = file_mgr.get_caption_path(channel_number,config.file_paths.captions_file)
     
     # Generate subtitles
     success = generate_subtitles(audio_file_path, output_srt_path, channel_number)

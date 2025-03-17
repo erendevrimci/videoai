@@ -432,12 +432,9 @@ class FileManager:
         try:
             norm_path = self.normalize_path(path)
             
-            # Debug
-            print(f"Searching for video file at {norm_path}")
             
             # First try the exact path
             if norm_path.is_file():
-                print(f"Found exact file match: {norm_path}")
                 return norm_path
                 
             # Try with each extension
