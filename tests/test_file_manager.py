@@ -338,6 +338,30 @@ class TestFileManager:
         path = file_manager.get_caption_path(channel_number, f"{caption_name}.srt")
         assert path == expected
     
+    def test_get_title_desc_path(self, file_manager, temp_dir):
+        """Test get_title_desc_path method."""
+        channel_number = 3
+        
+        # Mock the get_channel_output_path method to use our temp directory
+        with mock.patch.object(file_manager, 'get_channel_output_path') as mock_get_channel:
+            # Set up the mock to return the temp directory path for the channel
+            mock_get_channel.return_value = temp_dir / "outputs" / f"channel_{channel_number}"
+            
+            # Test with default name
+            path = file_manager.get_title_desc_path(channel_number)
+            expected = temp_dir / "outputs" / f"channel_{channel_number}" / "title_desc.json"
+            assert path == expected
+            
+            # Test with custom name
+            filename = "custom_title_desc"
+            path = file_manager.get_title_desc_path(channel_number, filename)
+            expected = temp_dir / "outputs" / f"channel_{channel_number}" / f"{filename}.json"
+            assert path == expected
+            
+            # Test with extension
+            path = file_manager.get_title_desc_path(channel_number, f"{filename}.json")
+            assert path == expected
+    
     def test_safe_operation(self, file_manager):
         """Test safe_operation method."""
         # Test with successful operation

@@ -168,7 +168,7 @@ def main(channel_number: int = None):
         script_file_paths = [
             file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         ]
-        output_file = file_mgr.get_channel_output_path(channel_number) / channel_config.youtube_info_file
+        output_file = file_mgr.get_title_desc_path(channel_number, channel_config.youtube_info_file)
         
         print(f"Generating title and description for channel {channel_number}")
         

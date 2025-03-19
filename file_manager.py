@@ -577,6 +577,157 @@ class FileManager:
             
         return self.get_channel_output_path(channel_number) / caption_name
     
+    def get_title_desc_path(self, channel_number: int, filename: str = "title_desc.json") -> Path:
+        """
+        Get the path to the title and description file for a specific channel.
+        
+        Args:
+            channel_number: Channel number
+            filename: Base filename to use (default: "title_desc.json")
+        
+        Returns:
+            Path object for the title/description file
+        """
+        try:
+            # Ensure proper extension
+            if not filename.endswith('.json'):
+                filename = f"{filename}.json"
+                
+            # Get the channel output directory and add the file
+            output_path = self.get_channel_output_path(channel_number) / filename
+            
+            if self.logger:
+                self.logger.debug(f"Title/description path: {output_path}")
+                
+            return output_path
+            
+        except Exception as e:
+            error_msg = f"Error creating title/description path for channel {channel_number}: {e}"
+            if self.logger:
+                self.logger.error(error_msg, exc_info=True)
+            else:
+                print(error_msg)
+                traceback.print_exc()
+            
+            # Fallback to a default path in case of error
+            return self.get_channel_output_path(channel_number) / "title_desc.json"
+        
+    def get_timeline_directory(self, channel_number: Optional[int] = None) -> Path:
+        """
+        Get the timeline storage directory for a specific channel.
+        
+        Args:
+            channel_number: Channel number (if None, uses global timeline directory)
+            
+        Returns:
+            Path to the timeline directory
+        """
+        # Import here to avoid circular import
+        from config import get_timeline_config
+        
+        # Get timeline configuration (with channel overrides if specified)
+        timeline_config = get_timeline_config(channel_number)
+        storage_dir = timeline_config.storage_directory
+        
+        if channel_number is not None:
+            # Use channel-specific directory
+            channel_dir = self.get_channel_output_path(channel_number)
+            timeline_dir = channel_dir / storage_dir
+        else:
+            # Use global timeline directory
+            timeline_dir = self.get_abs_path(storage_dir)
+            
+        self.ensure_dir_exists(timeline_dir)
+        return timeline_dir
+        
+    def get_timeline_path(self, timeline_name: str, channel_number: Optional[int] = None) -> Path:
+        """
+        Get path for a timeline file.
+        
+        Args:
+            timeline_name: Name of the timeline
+            channel_number: Channel number (if applicable)
+            
+        Returns:
+            Path to the timeline file
+        """
+        # Import here to avoid circular import
+        from config import get_timeline_config
+        
+        # Get timeline configuration
+        timeline_config = get_timeline_config(channel_number)
+        
+        # Ensure .json extension
+        if not timeline_name.lower().endswith('.json'):
+            timeline_name = f"{timeline_name}.json"
+            
+        # Get the proper directory
+        timeline_dir = self.get_timeline_directory(channel_number)
+        
+        return timeline_dir / timeline_name
+        
+    def get_timeline_visualization_directory(self, channel_number: Optional[int] = None) -> Path:
+        """
+        Get the directory for timeline visualizations.
+        
+        Args:
+            channel_number: Channel number (if applicable)
+            
+        Returns:
+            Path to the visualization directory
+        """
+        # Import here to avoid circular import
+        from config import get_timeline_config
+        
+        # Get timeline configuration
+        timeline_config = get_timeline_config(channel_number)
+        viz_dir = timeline_config.visualization_directory
+        
+        if channel_number is not None:
+            # Use channel-specific directory
+            channel_dir = self.get_channel_output_path(channel_number)
+            viz_path = channel_dir / viz_dir
+        else:
+            # Use global visualization directory
+            viz_path = self.get_abs_path(viz_dir)
+            
+        self.ensure_dir_exists(viz_path)
+        return viz_path
+        
+    def get_timeline_visualization_path(self, 
+                                     timeline_name: str, 
+                                     detail_level: str = "normal",
+                                     channel_number: Optional[int] = None) -> Path:
+        """
+        Get the path for a timeline visualization file.
+        
+        Args:
+            timeline_name: Base name for the visualization
+            detail_level: Detail level of the visualization
+            channel_number: Channel number (if applicable)
+            
+        Returns:
+            Path to the visualization file
+        """
+        # Import here to avoid circular import
+        from config import get_timeline_config
+        
+        # Get timeline configuration
+        timeline_config = get_timeline_config(channel_number)
+        
+        # Get the export format
+        export_format = timeline_config.visualization.export_format
+        if not export_format.startswith('.'):
+            export_format = f".{export_format}"
+            
+        # Create the filename
+        filename = f"{timeline_name}_{detail_level}{export_format}"
+        
+        # Get the visualization directory
+        viz_dir = self.get_timeline_visualization_directory(channel_number)
+        
+        return viz_dir / filename
+    
     def safe_operation(self, operation: Callable[..., T], 
                       default: T, operation_name: str = "Operation", 
                       *args, **kwargs) -> T:
