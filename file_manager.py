@@ -587,8 +587,19 @@ class FileManager:
         
         Returns:
             Path object for the title/description file
+            
+        Raises:
+            ValueError: If channel_number is None
+            ValueError: If filename is empty
         """
         try:
+            # Validate inputs
+            if channel_number is None:
+                raise ValueError("Channel number cannot be None")
+                
+            if not filename or not filename.strip():
+                raise ValueError("Filename cannot be empty")
+                
             # Ensure proper extension
             if not filename.endswith('.json'):
                 filename = f"{filename}.json"
@@ -609,8 +620,9 @@ class FileManager:
                 print(error_msg)
                 traceback.print_exc()
             
-            # Fallback to a default path in case of error
-            return self.get_channel_output_path(channel_number) / "title_desc.json"
+            # Re-raise the exception instead of returning a fallback path
+            # This ensures tests can catch specific errors
+            raise
         
     def get_timeline_directory(self, channel_number: Optional[int] = None) -> Path:
         """

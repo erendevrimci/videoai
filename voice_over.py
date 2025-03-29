@@ -98,11 +98,29 @@ def main(channel_number: Optional[int] = None) -> None:
     if channel_number is None:
         channel_number = config.default_channel
     
-    # Try multiple script file path options
-    script_file_paths = [
+    # First check if we have current_file_paths.json from write_script.py
+    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    
+    script_file_paths = []
+    
+    # If we have the dynamic paths, use those first
+    if dynamic_file_paths and "script_file" in dynamic_file_paths:
+        # Update config with dynamic paths
+        script_file = dynamic_file_paths["script_file"]
+        if "voice_file" in dynamic_file_paths:
+            config.file_paths.voice_file = dynamic_file_paths["voice_file"]
+            
+        # Add the dynamic script path as our first option
+        dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+        script_file_paths.append(dynamic_script_path)
+        print(f"Using dynamic script path: {dynamic_script_path}")
+    
+    # Add default paths as fallback options
+    script_file_paths.extend([
         file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         file_mgr.get_abs_path(config.file_paths.script_file)
-    ]
+    ])
     
     script_text = None
     used_path = None
@@ -122,12 +140,25 @@ def main(channel_number: Optional[int] = None) -> None:
         import write_script
         write_script.main(channel_number)
         
-        # Try again after script generation
-        for path in script_file_paths:
-            script_text = file_mgr.read_text(path)
-            if script_text is not None:
-                used_path = path
-                break
+        # Check for the dynamic file paths again
+        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+        if dynamic_file_paths and "script_file" in dynamic_file_paths:
+            # Use the newly generated script path
+            script_file = dynamic_file_paths["script_file"]
+            dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+            script_text = file_mgr.read_text(dynamic_script_path)
+            used_path = dynamic_script_path
+            
+            # Update voice file path for generation
+            if "voice_file" in dynamic_file_paths:
+                config.file_paths.voice_file = dynamic_file_paths["voice_file"]
+        else:
+            # Try the default paths again
+            for path in script_file_paths:
+                script_text = file_mgr.read_text(path)
+                if script_text is not None:
+                    used_path = path
+                    break
                 
         if script_text is None:
             print("Could not generate or load a script. Aborting voice generation.")

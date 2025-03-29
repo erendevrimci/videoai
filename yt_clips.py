@@ -162,11 +162,11 @@ class VideoClip(BaseModel):
             logger.warning(f"Clip file does not exist: {v}")
         return v
     
-    class Config:
-        """Pydantic config."""
-        json_encoders = {
+    model_config = {
+        "json_encoders": {
             Path: str  # Convert Path to string for JSON serialization
         }
+    }
 
 
 class VideoMetadata(BaseModel):
@@ -185,12 +185,12 @@ class VideoMetadata(BaseModel):
         """Count the total number of caption segments across all clips."""
         return sum(len(clip.captions) for clip in self.clips)
     
-    class Config:
-        """Pydantic config."""
-        json_encoders = {
+    model_config = {
+        "json_encoders": {
             datetime: lambda v: v.isoformat(),
             Path: str
         }
+    }
 
 
 class ProcessingOptions(BaseModel):
@@ -198,13 +198,13 @@ class ProcessingOptions(BaseModel):
     max_results: int = 5
     output_directory: Path = Field(default=Path("output"))
     download_directory: Path = Field(default=Path("downloads"))
-    scene_threshold: float = 30.0
+    scene_threshold: float = 15.0  # Lower default threshold to detect more scenes
     whisper_model: WhisperModelSize = WhisperModelSize.BASE
     min_clip_duration: float = 1.0
     skip_captions: bool = False
     
     # Timeline generation options
-    generate_timeline: bool = False
+    generate_timeline: bool = True
     timeline_name: Optional[str] = None
     timeline_width: int = 1920
     timeline_height: int = 1080
@@ -250,12 +250,12 @@ class ProcessingOptions(BaseModel):
             raise ValueError("Framerate must be positive")
         return v
     
-    class Config:
-        """Pydantic config."""
-        json_encoders = {
+    model_config = {
+        "json_encoders": {
             Path: str,
             WhisperModelSize: str
         }
+    }
 
 
 @log_exceptions(logger_instance=logger)
@@ -314,39 +314,75 @@ def download_video(video_url: Union[str, HttpUrl], output_path: Union[str, Path]
         
         # Extract video ID from URL
         video_url_str = str(video_url)
-        video_id = video_url_str.split('v=')[-1].split('&')[0]
+        if 'v=' in video_url_str:
+            video_id = video_url_str.split('v=')[-1].split('&')[0]
+        elif 'youtu.be/' in video_url_str:
+            video_id = video_url_str.split('youtu.be/')[-1].split('?')[0]
+        else:
+            logger.error(f"Could not extract video ID from URL: {video_url_str}")
+            return None
+            
         filename = f"{video_id}.mp4"
         output_file = output_path / filename
         logger.debug(f"Output file will be: {output_file}")
         
-        # Set up yt-dlp options
+        # Set up yt-dlp options with improved format selection
         ydl_opts = {
-            'format': 'best[ext=mp4]',
+            # More flexible format selection that will try multiple options
+            'format': 'bestvideo+bestaudio/best',
+            'merge_output_format': 'mp4',
             'outtmpl': str(output_file),
-            'quiet': True,
+            'quiet': True,  # Normal operation - silent
             'no_warnings': True,
-            'extract_flat': True
+            'extract_flat': False,  # Need full extraction, not just metadata
+            'ignoreerrors': True  # Continue on download errors
         }
         
         # Download the video
         logger.debug("Starting download with yt-dlp")
+        info = None
+        
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(video_url_str, download=True)
+            try:
+                info = ydl.extract_info(video_url_str, download=True)
+                if not info:
+                    logger.error("yt-dlp returned no info")
+                    return None
+            except Exception as e:
+                logger.error(f"yt-dlp error: {str(e)}")
+                # Try with a more basic format string
+                ydl_opts['format'] = 'best'
+                logger.debug("Retrying with simpler format: 'best'")
+                with yt_dlp.YoutubeDL(ydl_opts) as ydl2:
+                    try:
+                        info = ydl2.extract_info(video_url_str, download=True)
+                    except Exception as e2:
+                        logger.error(f"yt-dlp retry error: {str(e2)}")
+                        raise
+        
+        # Check if file was actually downloaded
+        if not os.path.exists(output_file):
+            logger.error(f"Download failed - file not found at {output_file}")
+            return None
             
         # Create VideoInfo object
-        video_info = VideoInfo(
-            video_id=video_id,
-            title=info.get('title', ''),
-            length=info.get('duration', 0),
-            author=info.get('uploader', ''),
-            description=info.get('description', ''),
-            upload_date=info.get('upload_date', None)
-        )
-        
-        logger.info(f"Successfully downloaded video: {video_info.title} ({video_id})")
-        logger.debug(f"Video duration: {video_info.length} seconds")
+        if info:
+            video_info = VideoInfo(
+                video_id=video_id,
+                title=info.get('title', ''),
+                length=info.get('duration', 0),
+                author=info.get('uploader', ''),
+                description=info.get('description', ''),
+                upload_date=info.get('upload_date', None)
+            )
             
-        return output_file, video_info
+            logger.info(f"Successfully downloaded video: {video_info.title} ({video_id})")
+            logger.debug(f"Video duration: {video_info.length} seconds")
+                
+            return output_file, video_info
+        else:
+            logger.error("Failed to get video information")
+            return None
     except Exception as e:
         logger.error(f"Failed to download video from {video_url}", exc_info=True)
         raise YouTubeDownloadError(f"Failed to download video from {video_url}", cause=e)
@@ -561,19 +597,49 @@ def process_video(
         logger.info(f"Selected video: {video_result.title} ({video_result.id})")
         
         # Download video
-        video_path, video_info = download_video(
-            video_result.url, 
-            output_path=options.download_directory
-        )
-        if not video_path:
-            logger.error("Failed to download video")
+        try:
+            download_result = download_video(
+                video_result.url, 
+                output_path=options.download_directory
+            )
+            
+            # Check if result is None or a tuple with the expected values
+            if download_result is None:
+                logger.error("Download returned None")
+                return None
+                
+            video_path, video_info = download_result
+            
+            if not video_path or not os.path.exists(video_path):
+                logger.error(f"Failed to download video or file not found at {video_path}")
+                return None
+        except Exception as e:
+            logger.error(f"Error during video download: {str(e)}")
             return None
         
         # Detect scenes
         scene_list = detect_scenes(video_path, threshold=options.scene_threshold)
+        
+        # If no scenes detected, treat the entire video as one scene
         if not scene_list:
-            logger.warning("No scenes detected in video")
-            return None
+            logger.warning("No scenes detected - treating entire video as one scene")
+            
+            try:
+                # Get video properties
+                with VideoFileClip(str(video_path)) as video:
+                    duration = video.duration
+                    fps = video.fps if video.fps else 30.0
+                    
+                # Create a scene with the entire video
+                from scenedetect.frame_timecode import FrameTimecode
+                start_frame = FrameTimecode(timecode=0, fps=fps)
+                end_frame = FrameTimecode(timecode=duration, fps=fps)
+                scene_list = [(start_frame, end_frame)]
+                
+                logger.info(f"Created single scene for entire video (duration: {duration:.2f}s)")
+            except Exception as e:
+                logger.error(f"Failed to create fallback scene: {str(e)}")
+                return None
         
         # Split video into clips based on scenes
         clips = split_video_by_scenes(
@@ -614,9 +680,10 @@ def process_video(
         json_path = output_dir / f"{video_result.id}_metadata.json"
         logger.debug(f"Writing metadata to: {json_path}")
         
-        # Serialize to JSON using Pydantic
+        # Serialize to JSON using Pydantic V2 method
         with open(json_path, 'w', encoding='utf-8') as f:
-            f.write(metadata.json(indent=2))
+            json_content = metadata.model_dump_json(indent=2)
+            f.write(json_content)
         
         logger.info(f"Processing complete. Metadata saved to: {json_path}")
         
@@ -639,16 +706,26 @@ def process_video(
                     framerate=options.timeline_framerate
                 )
                 
+                # Check if timeline creation was successful
+                if timeline is None:
+                    logger.error("Timeline creation failed - timeline is None")
+                    return json_path, metadata
+                    
                 # Save timeline
                 timeline_path = builder.save_timeline(
                     timeline=timeline,
                     timeline_name=options.timeline_name
                 )
                 
-                logger.info(f"Timeline generated and saved to: {timeline_path}")
-                
-                # Add timeline path to return data
-                return json_path, metadata, timeline_path
+                # Verify timeline was saved successfully
+                if timeline_path and os.path.exists(timeline_path):
+                    logger.info(f"Timeline generated and saved to: {timeline_path}")
+                    # Add timeline path to return data
+                    return json_path, metadata, timeline_path
+                else:
+                    logger.error("Timeline was not saved successfully")
+                    return json_path, metadata
+                    
             except Exception as e:
                 logger.error(f"Error generating timeline: {e}", exc_info=True)
                 # Continue with normal return even if timeline generation fails

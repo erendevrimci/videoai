@@ -2,7 +2,7 @@
 Logging system for VideoAI project.
 
 Provides centralized logging with configurable log levels, file rotation,
-custom formatters, and exception handling utilities.
+custom formatters, exception handling utilities, and performance monitoring.
 """
 
 from .logger import Logger, LoggerConfig, LogLevel, logger
@@ -10,6 +10,10 @@ from .exception_handler import (
     VideoAIException, FileOperationError, APIError, ConfigError, ProcessError,
     log_exceptions, global_exception_handler, setup_thread_exception_handling,
     convert_exception
+)
+from .performance_monitor import (
+    PerformanceMonitor, RenderingPerformanceTracker, MetricType,
+    PerformanceMetric, PerformanceReport, timing_decorator
 )
 
 __all__ = [
@@ -22,5 +26,9 @@ __all__ = [
     
     # Exception handling utilities
     'log_exceptions', 'global_exception_handler', 
-    'setup_thread_exception_handling', 'convert_exception'
+    'setup_thread_exception_handling', 'convert_exception',
+    
+    # Performance monitoring
+    'PerformanceMonitor', 'RenderingPerformanceTracker', 'MetricType',
+    'PerformanceMetric', 'PerformanceReport', 'timing_decorator'
 ]

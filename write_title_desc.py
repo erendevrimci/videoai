@@ -164,10 +164,24 @@ def main(channel_number: int = None):
         # Get channel-specific configuration
         channel_config = get_channel_config(channel_number)
         
-        # Set file paths using FileManager
-        script_file_paths = [
-            file_mgr.get_script_path(channel_number, config.file_paths.script_file),
-        ]
+        # Check for dynamic file paths from write_script.py
+        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+        
+        # Set up script file paths, prioritizing dynamic paths if available
+        script_file_paths = []
+        
+        # If we have dynamic paths, use those first
+        if dynamic_file_paths and "script_file" in dynamic_file_paths:
+            script_file = dynamic_file_paths["script_file"]
+            dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+            script_file_paths.append(dynamic_script_path)
+            print(f"Using dynamic script path: {dynamic_script_path}")
+        
+        # Add default paths as fallback
+        script_file_paths.append(file_mgr.get_script_path(channel_number, config.file_paths.script_file))
+        
+        # Set output file path
         output_file = file_mgr.get_title_desc_path(channel_number, channel_config.youtube_info_file)
         
         print(f"Generating title and description for channel {channel_number}")

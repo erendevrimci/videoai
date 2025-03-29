@@ -43,6 +43,79 @@ from auto_editor.ffwrapper import initFileInfo, FileInfo
 from auto_editor.utils.chunks import Chunks
 from auto_editor.utils.log import Log
 
+# Define a TlText class since it's not available in auto-editor
+class TlText:
+    """
+    Text overlay element for timelines.
+    
+    Represents a text element that can be placed on a timeline with
+    positioning, font settings, and styling options.
+    """
+    
+    def __init__(self, 
+                 start: int,
+                 dur: int, 
+                 text: str,
+                 x: int = 0,
+                 y: int = 0,
+                 font: str = "Arial",
+                 font_size: int = 36,
+                 color: str = "#FFFFFF",
+                 bg_color: str = "",
+                 align: str = "center",
+                 opacity: float = 1.0,
+                 style: str = "normal"):
+        """
+        Initialize a text element for a timeline.
+        
+        Args:
+            start: Start frame for this text element
+            dur: Duration in frames
+            text: Text content to display
+            x: X position (pixels from left, or percentage if ends with %)
+            y: Y position (pixels from top, or percentage if ends with %)
+            font: Font family to use
+            font_size: Font size in pixels
+            color: Text color in hex format (#FFFFFF)
+            bg_color: Background color in hex format (empty for transparent)
+            align: Text alignment ("left", "center", "right")
+            opacity: Text opacity (0.0-1.0)
+            style: Text style ("normal", "bold", "italic", "bold-italic")
+        """
+        self.name = "text"
+        self.start = start
+        self.dur = dur
+        self.text = text
+        self.x = x
+        self.y = y
+        self.font = font
+        self.font_size = font_size
+        self.color = color
+        self.bg_color = bg_color
+        self.align = align
+        self.opacity = opacity
+        self.style = style
+    
+    def as_dict(self):
+        """
+        Convert the text element to a dictionary for serialization.
+        """
+        return {
+            "name": self.name,
+            "start": self.start,
+            "dur": self.dur,
+            "text": self.text,
+            "x": self.x,
+            "y": self.y,
+            "font": self.font,
+            "font_size": self.font_size,
+            "color": self.color,
+            "bg_color": self.bg_color,
+            "align": self.align,
+            "opacity": self.opacity,
+            "style": self.style
+        }
+
 # Define classes that were removed from auto_editor
 class UniformChunks:
     """A wrapper for a list of (start, end) tuples."""
@@ -362,6 +435,16 @@ class TimelineManager:
                 v1=None  # Not v1 compatible
             )
             
+            # Add required videoai_metadata with minimal fields to pass schema validation
+            from datetime import datetime
+            timeline.videoai_metadata = {
+                'version': '1.0',
+                'type': 'v3',
+                'created_at': datetime.now().isoformat(),
+                'description': 'Empty timeline',
+                'channel': self.channel_number
+            }
+            
             self._log_info(f"Created v3 timeline with resolution {width}x{height}, {framerate} fps")
             return timeline
             
@@ -482,11 +565,17 @@ class TimelineManager:
                 timeline_dict = timeline.as_dict()
             elif isinstance(timeline, v3):
                 timeline_dict = timeline.as_dict()
+                
+                # Specifically handle resolution if it's a tuple
+                if isinstance(timeline_dict.get('resolution'), tuple):
+                    timeline_dict['resolution'] = list(timeline_dict['resolution'])
             else:
                 raise ValueError(f"Unsupported timeline type: {type(timeline)}")
                 
-            # Add VideoAI-specific metadata if configured to do so
-            if serialization_config.include_metadata:
+            # Preserve existing metadata if present, otherwise create new
+            if hasattr(timeline, 'videoai_metadata') and timeline.videoai_metadata:
+                timeline_dict['videoai_metadata'] = timeline.videoai_metadata
+            elif serialization_config.include_metadata:
                 from datetime import datetime
                 timeline_dict['videoai_metadata'] = {
                     'channel': self.channel_number,
@@ -495,6 +584,10 @@ class TimelineManager:
                     'created_at': datetime.now().isoformat(),
                     'description': description
                 }
+            
+            # Update metadata description if provided
+            if description and 'videoai_metadata' in timeline_dict:
+                timeline_dict['videoai_metadata']['description'] = description
             
             # Validate against schema if configured
             if validate:
@@ -724,6 +817,7 @@ class TimelineManager:
             background = timeline_dict.get('background', '#000000')
             v_tracks = timeline_dict.get('v', [[]])
             a_tracks = timeline_dict.get('a', [[]])
+            metadata = timeline_dict.get('videoai_metadata', {})
             
             # Parse timebase
             if isinstance(timebase_str, str) and '/' in timebase_str:
@@ -794,6 +888,24 @@ class TimelineManager:
                             fill=obj.get('fill', '#c4c4c4')
                         )
                         v_track.append(rect_obj)
+                        
+                    elif obj_type == 'text':
+                        # Create TlText object
+                        text_obj = TlText(
+                            start=obj.get('start', 0),
+                            dur=obj.get('dur', 0),
+                            text=obj.get('text', ''),
+                            x=obj.get('x', 0),
+                            y=obj.get('y', 0),
+                            font=obj.get('font', 'Arial'),
+                            font_size=obj.get('font_size', 36),
+                            color=obj.get('color', '#FFFFFF'),
+                            bg_color=obj.get('bg_color', ''),
+                            align=obj.get('align', 'center'),
+                            opacity=obj.get('opacity', 1.0),
+                            style=obj.get('style', 'normal')
+                        )
+                        v_track.append(text_obj)
                 
                 v_reconstructed.append(v_track)
             
@@ -854,8 +966,11 @@ class TimelineManager:
                 v1=None  # Not v1 compatible by default
             )
             
+            # Add the metadata back to the timeline if available
+            if metadata:
+                timeline.videoai_metadata = metadata
+            
             # Restore channel number from metadata if present
-            metadata = timeline_dict.get('videoai_metadata', {})
             if 'channel' in metadata and metadata['channel'] is not None:
                 self.channel_number = metadata['channel']
                 
@@ -1164,6 +1279,8 @@ class TimelineManager:
                         clip_char = "I"  # Image
                     elif isinstance(obj, TlRect):
                         clip_char = "R"  # Rectangle
+                    elif isinstance(obj, TlText):
+                        clip_char = "T"  # Text
                     
                     # Draw top line (clip boundary)
                     canvas[0] = canvas[0][:start_pos] + "+" + clip_char * (end_pos - start_pos - 2) + "+" + canvas[0][end_pos:]
@@ -1201,6 +1318,11 @@ class TimelineManager:
                                 result += f"  {i+1}. Image: {start_time:.2f}s-{end_time:.2f}s ({duration:.2f}s) | Source: {src_name}\n"
                             elif isinstance(obj, TlRect):
                                 result += f"  {i+1}. Rectangle: {start_time:.2f}s-{end_time:.2f}s ({duration:.2f}s) | Color: {obj.fill}\n"
+                            elif isinstance(obj, TlText):
+                                # Truncate text if too long
+                                display_text = obj.text[:20] + "..." if len(obj.text) > 20 else obj.text
+                                display_text = display_text.replace("\n", " ")
+                                result += f"  {i+1}. Text: {start_time:.2f}s-{end_time:.2f}s ({duration:.2f}s) | \"{display_text}\"\n"
                         elif detail_level == 'detailed':
                             # Detailed information
                             if isinstance(obj, TlVideo):
@@ -1219,6 +1341,12 @@ class TimelineManager:
                             elif isinstance(obj, TlRect):
                                 result += (f"  {i+1}. Rectangle: {start_time:.2f}s-{end_time:.2f}s ({duration:.2f}s)\n"
                                           f"     Position: ({obj.x}, {obj.y}), Size: {obj.width}x{obj.height}, Color: {obj.fill}\n")
+                            elif isinstance(obj, TlText):
+                                # Truncate text if too long
+                                display_text = obj.text[:40] + "..." if len(obj.text) > 40 else obj.text
+                                display_text = display_text.replace("\n", " ")
+                                result += (f"  {i+1}. Text: {start_time:.2f}s-{end_time:.2f}s ({duration:.2f}s)\n"
+                                          f"     Content: \"{display_text}\", Position: ({obj.x}, {obj.y}), Font: {obj.font}/{obj.font_size}px, Style: {obj.style}\n")
                 
                 # Add a separator between tracks
                 result += "\n"
@@ -1529,6 +1657,171 @@ class TimelineManager:
             self._log_error(f"Error saving timeline {timeline_name}: {e}", exc_info=e)
             return False
     
+    def add_captions_to_timeline(self, 
+                             timeline: v3, 
+                             captions_path: PathLike,
+                             track_index: int = 1,
+                             font: str = "Arial",
+                             font_size: int = 36,
+                             color: str = "#FFFFFF",
+                             bg_color: str = "#00000080",
+                             align: str = "center",
+                             position: str = "bottom",
+                             padding: int = 20,
+                             max_caption_duration: float = 5.0) -> v3:
+        """
+        Add captions from an SRT file to a timeline as text elements.
+        
+        Args:
+            timeline: v3 timeline object to add captions to
+            captions_path: Path to the SRT captions file
+            track_index: Video track index to add captions to (defaults to track 1)
+            font: Font family to use for captions
+            font_size: Font size in pixels
+            color: Text color in hex format
+            bg_color: Background color in hex format with alpha (80 = 50% opacity)
+            align: Text alignment ("left", "center", "right")
+            position: Vertical position ("top", "middle", "bottom")
+            padding: Padding from the edge in pixels
+            max_caption_duration: Maximum duration for a caption in seconds
+            
+        Returns:
+            Updated timeline with caption text elements
+        """
+        try:
+            # Ensure the timeline is v3
+            if not isinstance(timeline, v3):
+                self._log_error("Only v3 timelines support caption text elements")
+                return timeline
+                
+            # Check if the captions file exists
+            captions_path = file_mgr.normalize_path(captions_path)
+            if not captions_path.exists():
+                self._log_error(f"Captions file not found: {captions_path}")
+                return timeline
+                
+            # Read the SRT file
+            srt_content = file_mgr.read_text(captions_path)
+            if not srt_content:
+                self._log_error(f"Failed to read captions file: {captions_path}")
+                return timeline
+                
+            # Parse the SRT content
+            import re
+            
+            # SRT time format: 00:00:00,000 --> 00:00:00,000
+            time_pattern = r'(\d{2}):(\d{2}):(\d{2}),(\d{3}) --> (\d{2}):(\d{2}):(\d{2}),(\d{3})'
+            
+            # Split the SRT file into caption blocks
+            caption_blocks = re.split(r'\n\s*\n', srt_content.strip())
+            
+            # Get timeline properties
+            fps = float(timeline.tb) if timeline.tb else 30.0
+            width, height = timeline.res
+            
+            # Determine Y position based on requested position
+            y_pos = 0
+            if position == "bottom":
+                y_pos = height - padding - font_size
+            elif position == "middle":
+                y_pos = height // 2
+            elif position == "top":
+                y_pos = padding
+                
+            # Ensure we have enough video tracks
+            while len(timeline.v) <= track_index:
+                timeline.v.append([])
+                
+            # Parse each caption block and add to timeline
+            for block in caption_blocks:
+                lines = block.strip().split('\n')
+                if len(lines) < 3:
+                    continue
+                    
+                # Find the timecode line using regex
+                timecode_match = None
+                for line in lines:
+                    match = re.search(time_pattern, line)
+                    if match:
+                        timecode_match = match
+                        break
+                
+                if not timecode_match:
+                    continue
+                    
+                # Extract start and end times
+                h1, m1, s1, ms1, h2, m2, s2, ms2 = map(int, timecode_match.groups())
+                start_time = h1 * 3600 + m1 * 60 + s1 + ms1 / 1000
+                end_time = h2 * 3600 + m2 * 60 + s2 + ms2 / 1000
+                
+                # Limit caption duration if needed
+                if end_time - start_time > max_caption_duration:
+                    end_time = start_time + max_caption_duration
+                
+                # Convert to frame numbers
+                start_frame = int(start_time * fps)
+                duration_frames = int((end_time - start_time) * fps)
+                
+                # Skip very short captions
+                if duration_frames < 2:
+                    continue
+                
+                # Extract the caption text (all lines after the timestamp)
+                caption_text = ""
+                capture_text = False
+                for line in lines:
+                    if capture_text:
+                        caption_text += line + "\n"
+                    elif re.search(time_pattern, line):
+                        capture_text = True
+                
+                caption_text = caption_text.strip()
+                if not caption_text:
+                    continue
+                
+                # Create text element
+                text_obj = TlText(
+                    start=start_frame,
+                    dur=duration_frames,
+                    text=caption_text,
+                    x="50%",  # Center horizontally
+                    y=y_pos,
+                    font=font,
+                    font_size=font_size,
+                    color=color,
+                    bg_color=bg_color,
+                    align=align,
+                    opacity=1.0,
+                    style="normal"
+                )
+                
+                # Add to the specified video track
+                timeline.v[track_index].append(text_obj)
+            
+            # Also add captions to metadata for reference
+            if not hasattr(timeline, 'videoai_metadata'):
+                timeline.videoai_metadata = {}
+                
+            if 'captions' not in timeline.videoai_metadata:
+                timeline.videoai_metadata['captions'] = {
+                    'path': str(captions_path),
+                    'style': {
+                        'font': font,
+                        'font_size': font_size,
+                        'color': color,
+                        'bg_color': bg_color,
+                        'align': align,
+                        'position': position
+                    }
+                }
+            
+            self._log_info(f"Added {len(timeline.v[track_index])} caption elements to timeline")
+            return timeline
+            
+        except Exception as e:
+            self._log_error(f"Error adding captions to timeline: {e}", exc_info=e)
+            return timeline
+            
     def export_timeline_visualization(self, timeline: Union[v1, v3], 
                                     output_path: Optional[PathLike] = None,
                                     width: Optional[int] = None, 

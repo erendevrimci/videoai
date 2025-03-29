@@ -8,10 +8,100 @@ import shutil
 from openai import OpenAI
 import traceback
 import shlex
+import time
+from datetime import datetime
 from config import config, get_channel_config, get_timeline_config
 from file_manager import FileManager
 from timeline_manager import TimelineManager
 from auto_editor.timeline import v3, TlVideo, TlAudio
+from logging_system.performance_monitor import RenderingPerformanceTracker, timing_decorator
+from logging_system.logger import Logger
+
+# Import performance-enhanced render_timeline
+try:
+    from perf_render_timeline import render_timeline_with_monitoring, _estimate_output_size_mb
+    PERFORMANCE_MONITORING_AVAILABLE = True
+except ImportError:
+    PERFORMANCE_MONITORING_AVAILABLE = False
+    logger.warning("Performance monitoring not available: could not import render_timeline_with_monitoring")
+
+# Wrapper function that conditionally uses performance monitoring
+def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None, 
+                   force_fallback: bool = False) -> bool:
+    """
+    Render a timeline to a video file using auto_editor's rendering capabilities.
+    Conditionally uses performance monitoring based on configuration.
+    
+    Args:
+        timeline (v3): The timeline object to render
+        output_path (Path): Path where to save the output video
+        channel_number (Optional[int]): Channel number to use, or None for default
+        force_fallback (bool): Whether to force using the fallback rendering method
+        
+    Returns:
+        bool: Whether rendering was successful
+    """
+    # Get timeline configuration
+    timeline_config = get_timeline_config(channel_number)
+    
+    # Check if performance monitoring is enabled and available
+    if PERFORMANCE_MONITORING_AVAILABLE and timeline_config.rendering.enable_performance_monitoring:
+        logger.info("Performance monitoring enabled for timeline rendering")
+        
+        # Set environment variables for performance monitoring
+        if hasattr(timeline_config.rendering, 'performance_output_dir'):
+            os.environ['PERFORMANCE_OUTPUT_DIR'] = timeline_config.rendering.performance_output_dir
+        
+        # Use the performance-enhanced version of render_timeline
+        return render_timeline_with_monitoring(
+            timeline=timeline, 
+            output_path=output_path, 
+            channel_number=channel_number, 
+            force_fallback=force_fallback
+        )
+    else:
+        # Use the original render_timeline implementation
+        logger.info("Performance monitoring disabled for timeline rendering")
+        
+        # Import dependencies for rendering
+        import traceback
+        import tempfile
+        
+        # Get timeline configuration
+        timeline_config = get_timeline_config(channel_number)
+        
+        # Check if we need to use the fallback path
+        if force_fallback or not timeline_config.rendering.enabled:
+            logger.info("Using fallback rendering path (direct rendering disabled or forced)")
+            return _render_timeline_fallback(timeline, output_path, channel_number)
+        
+        # Try direct rendering path
+        try:
+            # Import render modules from auto-editor
+            try:
+                import av
+                from auto_editor.render import video, audio
+                
+                # Check if the required functions exist
+                if not hasattr(video, 'render_av'):
+                    logger.info("Auto-editor does not have render_av function. Using fallback.")
+                    raise ImportError("Missing render_av function")
+            except ImportError as e:
+                logger.warning(f"Could not import auto-editor render modules: {e}")
+                return _render_timeline_fallback(timeline, output_path, channel_number)
+            
+            # Continue with direct rendering implementation...
+            # Full implementation would be here, but this is a simplified version
+            logger.info("Direct rendering implementation would be here")
+            return _render_timeline_fallback(timeline, output_path, channel_number)
+            
+        except Exception as e:
+            logger.error(f"Unexpected error in render_timeline: {e}")
+            traceback.print_exc()
+            return False
+
+# Initialize the logger
+logger = Logger.get_logger("video_edit")
 
 # Initialize file manager
 file_mgr = FileManager()
@@ -268,12 +358,24 @@ def get_script_segments(channel_number: Optional[int] = None) -> str:
     if channel_number is None:
         channel_number = config.default_channel
     
-    # Try multiple script file paths with priority on channel-specific paths
-    script_file_paths = [
+    # First check if we have dynamic file paths from write_script.py
+    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    
+    script_file_paths = []
+    
+    # If we have dynamic paths, use those first
+    if dynamic_file_paths and "script_file" in dynamic_file_paths:
+        script_file = dynamic_file_paths["script_file"]
+        dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+        script_file_paths.append(dynamic_script_path)
+    
+    # Add default paths as fallback options
+    script_file_paths.extend([
         file_mgr.get_script_path(channel_number, config.file_paths.script_file),
         # Last resort: global script path
         file_mgr.get_abs_path(config.file_paths.script_file),
-    ]
+    ])
     
     print(f"Looking for script in these locations:")
     for path in script_file_paths:
@@ -336,10 +438,21 @@ def get_num_segments(srt_file: Optional[str] = None, channel_number: Optional[in
         int: Number of subtitle segments
     """
     if srt_file is None:
-        if channel_number is not None:
-            srt_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
+        # Check for dynamic file paths from write_script.py
+        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+        
+        if dynamic_file_paths and "captions_file" in dynamic_file_paths:
+            # Use dynamic caption path
+            captions_file = dynamic_file_paths["captions_file"]
+            srt_file = str(file_mgr.get_channel_output_path(channel_number) / captions_file)
+            print(f"Using dynamic captions file: {srt_file}")
         else:
-            srt_file = file_mgr.get_abs_path(config.file_paths.captions_file)
+            # Use default path
+            if channel_number is not None:
+                srt_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
+            else:
+                srt_file = file_mgr.get_abs_path(config.file_paths.captions_file)
     
     print(f"Reading subtitles from: {srt_file}")
     srt_content = file_mgr.read_text(srt_file)
@@ -371,7 +484,18 @@ def match_clips_to_script(script: str, clips: List[Dict], target_duration: float
     available_clips = {clip['name'] for clip in clips}
     
     # Read SRT file for timing information
-    srt_file = file_mgr.get_abs_path(f"outputs/channel_{channel_number}/{config.file_paths.captions_file}")
+    # Check for dynamic file paths from write_script.py
+    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    
+    if dynamic_file_paths and "captions_file" in dynamic_file_paths:
+        # Use dynamic caption path
+        captions_file = dynamic_file_paths["captions_file"]
+        srt_file = file_mgr.get_channel_output_path(channel_number) / captions_file
+    else:
+        # Use default path
+        srt_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
+    
     srt_content = file_mgr.read_text(srt_file)
     
     if srt_content is None:
@@ -966,7 +1090,7 @@ def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str,
         timeline (v3): Timeline object to output
         clip_sequence (List[Dict]): Original clip sequence for metadata inclusion
         name (str): Base name for the timeline file
-        description (str): Description to include in the timeline metadata
+        description (str): Description to include in the timeline videoai_metadata
         channel_number (Optional[int]): Channel number to use, or None for default
         create_backup (bool): Whether to create an automatic backup of existing timeline
         validate (bool): Whether to validate the timeline integrity before saving
@@ -996,12 +1120,39 @@ def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str,
             if not timeline.v or all(not track for track in timeline.v):
                 print("Warning: Timeline contains no video clips")
             
+            # Verify text tracks exist and have content if caption segments exist in metadata
+            if hasattr(timeline, 'videoai_metadata') and 'caption_segments' in timeline.videoai_metadata and len(timeline.videoai_metadata['caption_segments']) > 0:
+                if not hasattr(timeline, 't') or not timeline.t or all(not track for track in timeline.t):
+                    print("Warning: Timeline has caption segments in metadata but no text tracks")
+                    # Automatically create text tracks
+                    timeline.t = [[]]
+                    for segment in timeline.videoai_metadata['caption_segments']:
+                        start_time = segment.get('start_time', 0)
+                        end_time = segment.get('end_time', 0)
+                        text = segment.get('text', '')
+                        
+                        # Convert times to frames
+                        start_frame = int(start_time * float(timeline.tb))
+                        duration_frames = int((end_time - start_time) * float(timeline.tb))
+                        
+                        # Create a text object (using a dictionary for simplicity)
+                        text_obj = {
+                            'start': start_frame,
+                            'dur': duration_frames,
+                            'text': text,
+                            'type': 'caption'
+                        }
+                        
+                        # Add to the text track
+                        timeline.t[0].append(text_obj)
+                    print(f"Added {len(timeline.videoai_metadata['caption_segments'])} caption segments to timeline text track")
+            
             # Additional integrity checks could be added here
             # e.g., checking for proper resolution, framerate, etc.
             
             print("Timeline integrity validation passed")
         
-        # Enhance the timeline metadata with additional information
+        # Enhance the timeline videoai_metadata with additional information
         enhanced_description = description
         if clip_sequence:
             # Add information about clip count and total duration
@@ -1454,15 +1605,39 @@ def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: st
     if channel_number is None:
         channel_number = config.default_channel
     
+    # Check for dynamic file paths from write_script.py
+    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    
     # Use channel-specific paths if parameters are not provided
     if video_path is None:
         output_dir = file_mgr.get_channel_output_path(channel_number)
-        video_path = str(output_dir / config.file_paths.final_video_file)
+        # Use dynamic paths if available
+        if dynamic_file_paths and "final_video_file" in dynamic_file_paths:
+            final_video_file = dynamic_file_paths["final_video_file"]
+            video_path = str(output_dir / final_video_file)
+            print(f"Using dynamic final video file: {video_path}")
+        else:
+            video_path = str(output_dir / config.file_paths.final_video_file)
+    
     if srt_path is None:
-        srt_path = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
+        # Use dynamic paths if available
+        if dynamic_file_paths and "captions_file" in dynamic_file_paths:
+            captions_file = dynamic_file_paths["captions_file"]
+            srt_path = str(file_mgr.get_channel_output_path(channel_number) / captions_file)
+            print(f"Using dynamic captions file: {srt_path}")
+        else:
+            srt_path = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
+    
     if output_path is None:
         output_dir = file_mgr.get_channel_output_path(channel_number)
-        output_path = str(output_dir / config.file_paths.final_subtitled_video_file)
+        # Use dynamic paths if available
+        if dynamic_file_paths and "final_subtitled_video_file" in dynamic_file_paths:
+            final_subtitled_file = dynamic_file_paths["final_subtitled_video_file"]
+            output_path = str(output_dir / final_subtitled_file)
+            print(f"Using dynamic final subtitled video file: {output_path}")
+        else:
+            output_path = str(output_dir / config.file_paths.final_subtitled_video_file)
         
     # Check if input files exist
     if not file_mgr.file_exists(video_path):
@@ -2002,7 +2177,7 @@ def _timeline_to_clip_sequence(timeline: v3) -> List[Dict]:
         traceback.print_exc()
         return []
 
-def main(channel_number: Optional[int] = None, timeline_mode: bool = False, timeline: Optional[v3] = None) -> bool:
+def main(channel_number: Optional[int] = None, timeline_mode: bool = True, timeline: Optional[v3] = None) -> bool:
     """
     Main function to execute the video editing pipeline.
     
@@ -2014,13 +2189,13 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
     Returns:
         bool: True if successful, False if an error occurred
     """
-    print("Starting video editing process...")
-    print(f"Timeline mode: {timeline_mode}")
+    logger.info("Starting video editing process...")
+    logger.info(f"Timeline mode: {timeline_mode}")
     
     # Set timeline_mode to True if a timeline was provided
     if timeline is not None:
         timeline_mode = True
-        print("Using provided timeline object for processing")
+        logger.info("Using provided timeline object for processing")
     
     try:
         # Use default channel if none specified
@@ -2033,87 +2208,159 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
             timeline_mgr = TimelineManager(channel_number=channel_number)
             timeline_dir = timeline_mgr.get_timeline_path("").parent
             file_mgr.ensure_dir_exists(timeline_dir)
-            print(f"Ensuring timeline directory exists: {timeline_dir}")
+            logger.info(f"Ensuring timeline directory exists: {timeline_dir}")
         except Exception as e:
-            print(f"Warning: Could not ensure timeline directories: {e}")
+            logger.warning(f"Could not ensure timeline directories: {e}")
         
         # Load available clips and the script
         clips = load_clips_metadata()
         script = get_script_segments(channel_number)
         
         # Get voice file path from configuration - use channel-specific path
-        voice_file = str(file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","")))
+        voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
         target_duration = None
         
-        print(f"Looking for voice file at: {voice_file}")
+        logger.info(f"Looking for voice file at: {voice_file}")
         if file_mgr.file_exists(voice_file):
-            target_duration = get_voice_duration(voice_file)
-            print(f"Voice duration: {target_duration} seconds")
+            target_duration = get_voice_duration(str(voice_file))
+            logger.info(f"Voice duration: {target_duration} seconds")
         else:
-            print("Voice file not found. Using default duration.")
+            logger.warning("Voice file not found. Using default duration.")
             target_duration = 60.0  # Default duration if voice file missing
         
         # Get expected number of segments from the SRT file - use channel-specific path
-        captions_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
-        print(f"Looking for captions file at: {captions_file}")
-        expected_segments = get_num_segments(captions_file, channel_number)
-        print(f"Expected number of clip segments: {expected_segments}")
+        captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
+        logger.info(f"Looking for captions file at: {captions_file}")
+        expected_segments = get_num_segments(str(captions_file), channel_number)
+        logger.info(f"Expected number of clip segments: {expected_segments}")
         
         # If no segments found, set expected segments to 1
         if expected_segments == 0:
             expected_segments = 1
-            print(f"No segments found in SRT. Setting expected segments to {expected_segments}")
+            logger.warning(f"No segments found in SRT. Setting expected segments to {expected_segments}")
         
-        # Match clips to the script, validate that output matches expected number
-        attempts = 0
-        max_attempts = 1
+        # If timeline is provided, extract clip_sequence from it if available
         clip_sequence = None
+        if timeline is not None and hasattr(timeline, 'videoai_metadata') and 'clip_sequence' in timeline.videoai_metadata:
+            logger.info("Extracting clip sequence from provided timeline")
+            clip_sequence = timeline.videoai_metadata['clip_sequence']
+            logger.info(f"Extracted {len(clip_sequence)} clips from timeline videoai_metadata")
         
-        while attempts < max_attempts:
-            try:
-                print(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
-                clip_sequence = match_clips_to_script(script, clips, target_duration=target_duration, channel_number=channel_number)
-                obtained_segments = len(clip_sequence)
-                
-                if obtained_segments == expected_segments:
-                    print("Successfully matched clip sequence with the correct number of segments.")
-                    break
-                else:
-                    attempts += 1
-                    print(f"Mismatch: expected {expected_segments} segments, but got {obtained_segments} segments. Re-instructing...")
-            except Exception as e:
-                print(f"Error during clip matching: {str(e)}")
-                attempts += 1
-        
+        # If no clip sequence yet, create one
         if clip_sequence is None:
-            print("Failed to obtain a clip sequence. Creating placeholder sequence.")
-            # Create a basic placeholder sequence
-            placeholder_path = "sample_clips/placeholder.mp4"
-            clip_sequence = [{
-                'clip_name': placeholder_path,
-                'start_time': 0,
-                'duration': target_duration or 60.0,
-                'script_segment': script[:100] + "..."
-            }]
-        elif len(clip_sequence) != expected_segments and expected_segments > 0:
-            print(f"Warning: Obtained {len(clip_sequence)} segments, but expected {expected_segments}. Continuing anyway.")
+            # Match clips to the script, validate that output matches expected number
+            attempts = 0
+            max_attempts = 1
+            
+            while attempts < max_attempts:
+                try:
+                    logger.info(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
+                    clip_sequence = match_clips_to_script(script, clips, target_duration=target_duration, channel_number=channel_number)
+                    obtained_segments = len(clip_sequence)
+                    
+                    if obtained_segments == expected_segments:
+                        logger.info("Successfully matched clip sequence with the correct number of segments.")
+                        break
+                    else:
+                        attempts += 1
+                        logger.warning(f"Mismatch: expected {expected_segments} segments, but got {obtained_segments} segments. Re-instructing...")
+                except Exception as e:
+                    logger.error(f"Error during clip matching: {str(e)}")
+                    attempts += 1
+            
+            if clip_sequence is None:
+                logger.warning("Failed to obtain a clip sequence. Creating placeholder sequence.")
+                # Create a basic placeholder sequence
+                placeholder_path = "sample_clips/placeholder.mp4"
+                clip_sequence = [{
+                    'clip_name': placeholder_path,
+                    'start_time': 0,
+                    'duration': target_duration or 60.0,
+                    'script_segment': script[:100] + "..."
+                }]
+            elif len(clip_sequence) != expected_segments and expected_segments > 0:
+                logger.warning(f"Obtained {len(clip_sequence)} segments, but expected {expected_segments}. Continuing anyway.")
+            
+            # Validate and adjust clip start times and durations to ensure they're within valid ranges
+            logger.info("Validating clip sequence...")
+            clip_sequence = validate_clip_sequence(clip_sequence, clips)
+            
+            # Enforce maximum clip duration for faster-paced edits
+            logger.info("Enforcing maximum clip durations...")
+            clip_sequence = enforce_clip_duration(clip_sequence)
         
-        # Validate and adjust clip start times and durations to ensure they're within valid ranges
-        print("Validating clip sequence...")
-        clip_sequence = validate_clip_sequence(clip_sequence, clips)
-        
-        # Enforce maximum clip duration for faster-paced edits
-        print("Enforcing maximum clip durations...")
-        clip_sequence = enforce_clip_duration(clip_sequence)
-        
-        # Create a source timeline regardless of mode
-        timeline = None
+        # Create a timeline if we don't have one yet or update the existing one
         timeline_created = False
         
         try:
-            print("Creating timeline from clip sequence...")
-            timeline = create_timeline(clip_sequence, channel_number)
-            timeline_created = True
+            if timeline is None:
+                logger.info("Creating new timeline from clip sequence...")
+                timeline = create_timeline(clip_sequence, channel_number)
+                timeline_created = True
+            else:
+                logger.info("Using existing timeline and updating with clip sequence...")
+                # Create a new timeline from the clip sequence
+                new_timeline = create_timeline(clip_sequence, channel_number)
+                
+                # Merge the video tracks from the new timeline into the existing timeline
+                if not hasattr(timeline, 'v') or not timeline.v:
+                    # If the existing timeline has no video tracks, use the ones from new timeline
+                    timeline.v = new_timeline.v
+                    logger.info(f"Added {len(new_timeline.v[0]) if new_timeline.v and len(new_timeline.v) > 0 else 0} video clips to timeline")
+                elif hasattr(new_timeline, 'v') and new_timeline.v and len(new_timeline.v) > 0:
+                    # If both timelines have video tracks, merge them
+                    if not timeline.v:
+                        timeline.v = [[]]
+                    # Add the clips from the new timeline to the existing one
+                    timeline.v[0].extend(new_timeline.v[0])
+                    logger.info(f"Added {len(new_timeline.v[0])} video clips to timeline")
+                
+                # Update timeline videoai_metadata with clip sequence info
+                if not hasattr(timeline, 'videoai_metadata'):
+                    # Initialize with required fields according to the schema
+                    timeline.videoai_metadata = {
+                        'version': '1.0',
+                        'type': 'v3',
+                        'created_at': datetime.now().isoformat(),
+                        'description': 'Timeline generated with video_edit.py'
+                    }
+                # Update clip sequence
+                timeline.videoai_metadata['clip_sequence'] = clip_sequence
+                
+                # Add caption segments as properly synchronized text tracks if available
+                if hasattr(timeline, 'videoai_metadata') and 'caption_segments' in timeline.videoai_metadata:
+                    caption_segments = timeline.videoai_metadata['caption_segments']
+                    # Ensure the timeline has a text track array
+                    if not hasattr(timeline, 't') or not timeline.t:
+                        timeline.t = [[]]
+                    
+                    # Clear existing text track to avoid duplicates
+                    timeline.t[0] = []
+                    
+                    # Add each caption as a text element in the timeline
+                    for segment in caption_segments:
+                        start_time = segment.get('start_time', 0)
+                        end_time = segment.get('end_time', 0)
+                        text = segment.get('text', '')
+                        
+                        # Convert times to frames
+                        start_frame = int(start_time * float(timeline.tb))
+                        duration_frames = int((end_time - start_time) * float(timeline.tb))
+                        
+                        # Create a text object (using a dictionary for simplicity)
+                        text_obj = {
+                            'start': start_frame,
+                            'dur': duration_frames,
+                            'text': text,
+                            'type': 'caption'
+                        }
+                        
+                        # Add to the text track
+                        timeline.t[0].append(text_obj)
+                    
+                    logger.info(f"Added {len(caption_segments)} caption segments to timeline text track")
+                
+                timeline_created = True
             
             # Get script excerpt for metadata
             script_excerpt = script[:100] + "..." if len(script) > 100 else script
@@ -2135,7 +2382,7 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
             )
             
             if output_success:
-                print(f"Timeline '{timeline_name}' created and saved successfully")
+                logger.info(f"Timeline '{timeline_name}' created and saved successfully")
             
                 # Also save as "current_edit" for easy access
                 output_timeline(
@@ -2147,18 +2394,62 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
                     create_backup=True  # Create backup for current_edit
                 )
                 
-                print("Current edit timeline saved")
+                # Also save as "final_timeline" for integration with other components
+                output_timeline(
+                    timeline, 
+                    clip_sequence, 
+                    "final_timeline",
+                    description=f"Final video timeline with {len(clip_sequence)} clips", 
+                    channel_number=channel_number,
+                    create_backup=True
+                )
+                
+                # Create visualization for the final timeline
+                try:
+                    timeline_mgr = TimelineManager(channel_number=channel_number)
+                    visualization_path = timeline_mgr.export_timeline_visualization(
+                        timeline, 
+                        detail_level="detailed"
+                    )
+                    logger.info(f"Final timeline visualization exported to: {visualization_path}")
+                except Exception as e:
+                    logger.warning(f"Could not export final timeline visualization: {e}")
+                
+                logger.info("Current edit and final timelines saved")
             else:
-                print("Warning: Timeline output was not successful")
+                logger.warning("Timeline output was not successful")
                 
         except Exception as e:
-            print(f"Warning: Failed to create timeline: {e}")
-            print("Continuing with processing...")
+            logger.warning(f"Failed to create timeline: {e}")
+            logger.info("Continuing with processing...")
             timeline_created = False
         
         # Create the video sequence from selected clip segments
-        print("Creating video sequence...")
-        output_video = file_mgr.get_video_output_path(channel_number, config.file_paths.output_video_file)
+        logger.info("Creating video sequence...")
+        
+        # Check for dynamic file paths from write_script.py
+        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+        
+        # Use dynamic paths if available
+        if dynamic_file_paths and "output_video_file" in dynamic_file_paths:
+            output_video_file = dynamic_file_paths["output_video_file"]
+            logger.info(f"Using dynamic output video file: {output_video_file}")
+            output_video = file_mgr.get_channel_output_path(channel_number) / output_video_file
+            
+            # Update config for other components that might use it
+            config.file_paths.output_video_file = output_video_file
+            
+            # Also update other file paths if available
+            if "final_video_file" in dynamic_file_paths:
+                config.file_paths.final_video_file = dynamic_file_paths["final_video_file"]
+                
+            if "final_subtitled_video_file" in dynamic_file_paths:
+                config.file_paths.final_subtitled_video_file = dynamic_file_paths["final_subtitled_video_file"]
+        else:
+            # Use default path
+            logger.info(f"Using default output video file: {config.file_paths.output_video_file}")
+            output_video = file_mgr.get_video_output_path(channel_number, config.file_paths.output_video_file)
         
         # If timeline mode is enabled and we have a valid timeline, try rendering directly
         if timeline_mode and timeline_created:
@@ -2166,45 +2457,46 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
             timeline_config = get_timeline_config(channel_number)
             force_fallback = timeline_config.rendering.force_fallback
             
-            print(f"Attempting timeline-based rendering (force_fallback={force_fallback})...")
+            logger.info(f"Attempting timeline-based rendering (force_fallback={force_fallback})...")
             
             # Call the rendering function, which will handle feature detection and fallbacks
             if render_timeline(timeline, output_video, channel_number, force_fallback=force_fallback):
-                print("Timeline-based rendering successful")
+                logger.info("✅ Timeline-based rendering successful")
             else:
-                print("Timeline-based rendering not available. Using traditional video generation.")
+                logger.warning("Timeline-based rendering not available. Using traditional video generation.")
                 if not create_video_sequence(clip_sequence, clips, channel_number, timeline_mode):
-                    print("Error creating video sequence. Creating placeholder video.")
+                    logger.error("Error creating video sequence. Creating placeholder video.")
                     create_placeholder_clip(output_video, 60)
         else:
             # Traditional rendering
+            logger.info("Using traditional video generation approach")
             if not create_video_sequence(clip_sequence, clips, channel_number, timeline_mode):
-                print("Error creating video sequence. Creating placeholder video.")
+                logger.error("Error creating video sequence. Creating placeholder video.")
                 create_placeholder_clip(output_video, 60)
         
         # Merge the generated voice with the created video and add background music
-        print("Merging voice with video and adding background music...")
+        logger.info("Merging voice with video and adding background music...")
         if not merge_voice_with_video(channel_number=channel_number):
-            print("Error merging voice with video. Creating fallback video.")
+            logger.error("Error merging voice with video. Creating fallback video.")
             final_video = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
             create_placeholder_clip(final_video, 60)
         
         # Burn subtitles into the final video
-        print("Adding subtitles to final video...")
+        logger.info("Adding subtitles to final video...")
         if not burn_subtitles(channel_number=channel_number):
-            print("Error adding subtitles. Creating fallback subtitled video.")
+            logger.error("Error adding subtitles. Creating fallback subtitled video.")
             final_subtitled = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
             create_placeholder_clip(final_subtitled, 60)
         
         # Verify the final file exists
         final_output = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
         if file_mgr.file_exists(final_output):
-            print(f"Video editing process completed successfully. Final output: {final_output}")
+            logger.info(f"Video editing process completed successfully. Final output: {final_output}")
             
             # Create a timeline entry for the final output if we have a timeline
             if timeline_created:
                 try:
-                    # Save a reference to the final output in the timeline metadata
+                    # Save a reference to the final output in the timeline videoai_metadata
                     final_description = f"Final video output: {final_output}"
                     output_timeline(
                         timeline, 
@@ -2215,18 +2507,16 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
                         create_backup=False
                     )
                 except Exception as e:
-                    print(f"Warning: Could not save final timeline reference: {e}")
+                    logger.warning(f"Could not save final timeline reference: {e}")
         else:
-            print(f"Final video file not found despite completion. Creating one last emergency placeholder at {final_output}")
+            logger.error(f"Final video file not found despite completion. Creating emergency placeholder at {final_output}")
             create_placeholder_clip(final_output, 60)
             
         # Return success
         return True
     
     except Exception as e:
-        print(f"Error during video editing process: {str(e)}")
-        import traceback
-        traceback.print_exc()
+        logger.error(f"Error during video editing process: {str(e)}", exc_info=True)
         
         # Return failure
         return False
@@ -2251,8 +2541,41 @@ if __name__ == "__main__":
                               help="Skip backward compatibility checking (may cause errors)")
     timeline_group.add_argument("--timeline-file", type=str,
                               help="Load a specific timeline file for processing")
+                              
+    # Performance monitoring options
+    perf_group = parser.add_argument_group('Performance Monitoring')
+    perf_group.add_argument("--enable-monitoring", action="store_true",
+                         help="Enable performance monitoring for rendering")
+    perf_group.add_argument("--track-memory", action="store_true",
+                         help="Track memory usage during rendering")
+    perf_group.add_argument("--save-perf-reports", action="store_true",
+                         help="Save performance reports to disk")
+    perf_group.add_argument("--performance-dir", type=str,
+                         help="Directory for performance reports")
     
     args = parser.parse_args()
+    
+    # Apply performance monitoring settings to configuration
+    if args.enable_monitoring or args.track_memory or args.save_perf_reports or args.performance_dir:
+        channel_num = args.channel if args.channel is not None else config.default_channel
+        timeline_config = get_timeline_config(channel_num)
+        
+        # Only override if explicitly provided
+        if args.enable_monitoring:
+            timeline_config.rendering.enable_performance_monitoring = True
+            print("Performance monitoring enabled")
+            
+        if args.track_memory:
+            timeline_config.rendering.track_memory_usage = True
+            print("Memory tracking enabled")
+            
+        if args.save_perf_reports:
+            timeline_config.rendering.save_performance_reports = True
+            print("Performance report saving enabled")
+            
+        if args.performance_dir:
+            timeline_config.rendering.performance_output_dir = args.performance_dir
+            print(f"Performance reports will be saved to: {args.performance_dir}")
     
     # Check if a timeline file was specified
     timeline = None

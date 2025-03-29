@@ -465,12 +465,36 @@ def main(channel_number: Optional[int] = None) -> None:
             
         # Extract topic from script
         extracted_topic = extract_topic_from_script(script)
-        config.file_paths.script_file = f"{extracted_topic.topic}_generated_script.txt"
-        config.file_paths.voice_file = f"voice/{extracted_topic.topic}_generated_voice.mp3"
-        config.file_paths.captions_file = f"{extracted_topic.topic}_generated_voice.srt"
-        config.file_paths.output_video_file = f"{extracted_topic.topic}_output_video.mp4"
-        config.file_paths.final_video_file  = f"{extracted_topic.topic}_final_output.mp4"
-        config.file_paths.final_subtitled_video_file = f"{extracted_topic.topic}_final_output_with_subtitles.mp4"
+        
+        # Generate file paths based on the topic
+        topic_script_file = f"{extracted_topic.topic}_generated_script.txt"
+        topic_voice_file = f"voice/{extracted_topic.topic}_generated_voice.mp3"
+        topic_captions_file = f"{extracted_topic.topic}_generated_voice.srt"
+        topic_output_video_file = f"{extracted_topic.topic}_output_video.mp4"
+        topic_final_video_file = f"{extracted_topic.topic}_final_output.mp4"
+        topic_final_subtitled_video_file = f"{extracted_topic.topic}_final_output_with_subtitles.mp4"
+        
+        # Update config for current module
+        config.file_paths.script_file = topic_script_file
+        config.file_paths.voice_file = topic_voice_file
+        config.file_paths.captions_file = topic_captions_file
+        config.file_paths.output_video_file = topic_output_video_file
+        config.file_paths.final_video_file = topic_final_video_file
+        config.file_paths.final_subtitled_video_file = topic_final_subtitled_video_file
+        
+        # Save the file names to a JSON file that other modules can read
+        file_paths_json = {
+            "script_file": topic_script_file,
+            "voice_file": topic_voice_file,
+            "captions_file": topic_captions_file,
+            "output_video_file": topic_output_video_file,
+            "final_video_file": topic_final_video_file,
+            "final_subtitled_video_file": topic_final_subtitled_video_file,
+            "topic": extracted_topic.topic
+        }
+        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+        file_mgr.write_json(file_paths_json_path, file_paths_json)
+        
         # Update topics database
         update_topics_covered(extracted_topic)
 

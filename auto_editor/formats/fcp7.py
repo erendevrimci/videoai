@@ -400,7 +400,7 @@ def resolve_write_audio(audio: Element, make_filedef, tl: v3) -> None:
                 clip_item_num = len(aclips) + 1 + j
 
             clipitem = ET.SubElement(track, "clipitem", id=f"clipitem-{clip_item_num}")
-            ET.SubElement(clipitem, "name").text = src.path.stem
+            ET.SubElement(clipitem, "name").text = aclip.src.path.stem
             ET.SubElement(clipitem, "start").text = _start
             ET.SubElement(clipitem, "end").text = _end
             ET.SubElement(clipitem, "enabled").text = "TRUE"
@@ -464,7 +464,7 @@ def premiere_write_audio(audio: Element, make_filedef, src: FileInfo, tl: v3) ->
                     id=f"clipitem-{clip_item_num}",
                     premiereChannelType="stereo",
                 )
-                ET.SubElement(clipitem, "name").text = src.path.stem
+                ET.SubElement(clipitem, "name").text = aclip.src.path.stem
                 ET.SubElement(clipitem, "enabled").text = "TRUE"
                 ET.SubElement(clipitem, "start").text = _start
                 ET.SubElement(clipitem, "end").text = _end
@@ -543,7 +543,7 @@ def fcp7_write_xml(name: str, output: str, resolve: bool, tl: v3) -> None:
 
             this_clipid = f"clipitem-{j + 1}"
             clipitem = ET.SubElement(track, "clipitem", id=this_clipid)
-            ET.SubElement(clipitem, "name").text = src.path.stem
+            ET.SubElement(clipitem, "name").text = clip.src.path.stem
             ET.SubElement(clipitem, "enabled").text = "TRUE"
             ET.SubElement(clipitem, "start").text = _start
             ET.SubElement(clipitem, "end").text = _end

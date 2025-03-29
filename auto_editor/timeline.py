@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
+from pathlib import Path
 
 from auto_editor.ffwrapper import initFileInfo, mux
 from auto_editor.lib.contracts import *
@@ -11,7 +12,6 @@ from auto_editor.utils.types import natural, number, parse_color, threshold
 if TYPE_CHECKING:
     from collections.abc import Iterator
     from fractions import Fraction
-    from pathlib import Path
     from typing import Any
 
     from auto_editor.ffwrapper import FileInfo
@@ -247,9 +247,22 @@ video\n"""
     def unique_sources(self) -> Iterator[FileInfo]:
         seen = set()
         for source in self.sources:
-            if source.path not in seen:
-                seen.add(source.path)
-                yield source
+            # Handle Path objects directly
+            if isinstance(source, Path):
+                if source not in seen:
+                    seen.add(source)
+                    yield source
+            # Handle FileInfo objects with path attribute
+            elif hasattr(source, 'path'):
+                if source.path not in seen:
+                    seen.add(source.path)
+                    yield source
+            # Handle everything else by its string representation
+            else:
+                source_str = str(source)
+                if source_str not in seen:
+                    seen.add(source_str)
+                    yield source
 
     def _duration(self, layer: Any) -> int:
         total_dur = 0
@@ -277,7 +290,7 @@ video\n"""
             if ab:
                 a.append(ab)
 
-        return {
+        result = {
             "version": "3",
             "resolution": self.res,
             "timebase": f"{self.tb.numerator}/{self.tb.denominator}",
@@ -286,6 +299,12 @@ video\n"""
             "v": v,
             "a": a,
         }
+        
+        # Include videoai_metadata if present
+        if hasattr(self, 'videoai_metadata'):
+            result["videoai_metadata"] = self.videoai_metadata
+            
+        return result
 
 
 def make_tracks_dir(path: Path) -> Path:

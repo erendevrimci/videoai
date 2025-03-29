@@ -267,6 +267,8 @@ def dump(
         file.write(f'"{normalize_string(data)}"')
     elif isinstance(data, FileInfo):
         file.write(f'"{normalize_string(f"{data.path}")}"')
+    elif hasattr(data, '__fspath__') or str(type(data)).endswith("Path'>"):  # Handle Path objects
+        file.write(f'"{normalize_string(str(data))}"')
     elif isinstance(data, int | float):
         file.write(f"{data}")
     elif isinstance(data, list | tuple):

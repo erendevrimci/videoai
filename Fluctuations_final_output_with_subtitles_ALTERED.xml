@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmeml version="5">
+  <sequence explodedTracks="true">
+    <name>Auto-Editor Media Group</name>
+    <duration>1204</duration>
+    <rate>
+      <timebase>30</timebase>
+      <ntsc>FALSE</ntsc>
+    </rate>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <width>1080</width>
+            <height>1920</height>
+            <pixelaspectratio>square</pixelaspectratio>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>FALSE</ntsc>
+            </rate>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-1">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>0</start>
+            <end>65</end>
+            <in>0</in>
+            <out>65</out>
+            <file id="file-1">
+              <name>Fluctuations_final_output_with_subtitles</name>
+              <pathurl>/Users/imac/Downloads/auto-editor-master/Fluctuations_final_output_with_subtitles.mp4</pathurl>
+              <timecode>
+                <string>00:00:00:00</string>
+                <displayformat>NDF</displayformat>
+                <rate>
+                  <timebase>30</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+              </timecode>
+              <rate>
+                <timebase>30</timebase>
+                <ntsc>FALSE</ntsc>
+              </rate>
+              <duration />
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>30</timebase>
+                      <ntsc>FALSE</ntsc>
+                    </rate>
+                    <width>1080</width>
+                    <height>1920</height>
+                    <pixelaspectratio>square</pixelaspectratio>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>44100</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>1</channelcount>
+                </audio>
+              </media>
+            </file>
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-1</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-13</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-25</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-2">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>65</start>
+            <end>147</end>
+            <in>77</in>
+            <out>159</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-2</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-14</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-26</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>2</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-3">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>147</start>
+            <end>316</end>
+            <in>195</in>
+            <out>364</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-3</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-15</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-27</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>3</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-4">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>316</start>
+            <end>386</end>
+            <in>371</in>
+            <out>441</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-4</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-16</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-28</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>4</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-5">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>386</start>
+            <end>495</end>
+            <in>474</in>
+            <out>583</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-5</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-17</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-29</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>5</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-6">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>495</start>
+            <end>635</end>
+            <in>597</in>
+            <out>737</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-6</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-18</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-30</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>6</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-7">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>635</start>
+            <end>732</end>
+            <in>771</in>
+            <out>868</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-7</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-19</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-31</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>7</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-8">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>732</start>
+            <end>764</end>
+            <in>870</in>
+            <out>902</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-8</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-20</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-32</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>8</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-9">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>764</start>
+            <end>898</end>
+            <in>910</in>
+            <out>1044</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-9</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-21</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-33</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>9</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-10">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>898</start>
+            <end>1020</end>
+            <in>1059</in>
+            <out>1181</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-10</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-22</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-34</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>10</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-11">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1020</start>
+            <end>1098</end>
+            <in>1211</in>
+            <out>1289</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-11</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-23</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-35</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>11</clipindex>
+            </link>
+          </clipitem>
+          <clipitem id="clipitem-12">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1098</start>
+            <end>1204</end>
+            <in>1308</in>
+            <out>1414</out>
+            <file id="file-1" />
+            <compositemode>normal</compositemode>
+            <link>
+              <linkclipref>clipitem-12</linkclipref>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-24</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-36</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>12</clipindex>
+            </link>
+          </clipitem>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>44100</samplerate>
+          </samplecharacteristics>
+        </format>
+        <track currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+          <outputchannelindex>1</outputchannelindex>
+          <clipitem id="clipitem-25" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>0</start>
+            <end>65</end>
+            <in>0</in>
+            <out>65</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-26" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>65</start>
+            <end>147</end>
+            <in>77</in>
+            <out>159</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-27" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>147</start>
+            <end>316</end>
+            <in>195</in>
+            <out>364</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-28" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>316</start>
+            <end>386</end>
+            <in>371</in>
+            <out>441</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-29" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>386</start>
+            <end>495</end>
+            <in>474</in>
+            <out>583</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-30" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>495</start>
+            <end>635</end>
+            <in>597</in>
+            <out>737</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-31" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>635</start>
+            <end>732</end>
+            <in>771</in>
+            <out>868</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-32" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>732</start>
+            <end>764</end>
+            <in>870</in>
+            <out>902</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-33" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>764</start>
+            <end>898</end>
+            <in>910</in>
+            <out>1044</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-34" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>898</start>
+            <end>1020</end>
+            <in>1059</in>
+            <out>1181</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-35" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1020</start>
+            <end>1098</end>
+            <in>1211</in>
+            <out>1289</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-36" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1098</start>
+            <end>1204</end>
+            <in>1308</in>
+            <out>1414</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+        </track>
+        <track currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+          <outputchannelindex>2</outputchannelindex>
+          <clipitem id="clipitem-37" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>0</start>
+            <end>65</end>
+            <in>0</in>
+            <out>65</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-38" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>65</start>
+            <end>147</end>
+            <in>77</in>
+            <out>159</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-39" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>147</start>
+            <end>316</end>
+            <in>195</in>
+            <out>364</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-40" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>316</start>
+            <end>386</end>
+            <in>371</in>
+            <out>441</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-41" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>386</start>
+            <end>495</end>
+            <in>474</in>
+            <out>583</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-42" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>495</start>
+            <end>635</end>
+            <in>597</in>
+            <out>737</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-43" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>635</start>
+            <end>732</end>
+            <in>771</in>
+            <out>868</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-44" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>732</start>
+            <end>764</end>
+            <in>870</in>
+            <out>902</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-45" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>764</start>
+            <end>898</end>
+            <in>910</in>
+            <out>1044</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-46" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>898</start>
+            <end>1020</end>
+            <in>1059</in>
+            <out>1181</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-47" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1020</start>
+            <end>1098</end>
+            <in>1211</in>
+            <out>1289</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+          <clipitem id="clipitem-48" premiereChannelType="stereo">
+            <name>Fluctuations_final_output_with_subtitles</name>
+            <enabled>TRUE</enabled>
+            <start>1098</start>
+            <end>1204</end>
+            <in>1308</in>
+            <out>1414</out>
+            <file id="file-1" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <labels>
+              <label2>Iris</label2>
+            </labels>
+          </clipitem>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>

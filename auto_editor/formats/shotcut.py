@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
+from pathlib import Path
 from typing import TYPE_CHECKING, Any, cast
 
 from auto_editor.timeline import v3
@@ -94,8 +95,14 @@ def shotcut_write_mlt(output: str, tl: v3) -> None:
         length = to_timecode((clip.offset + clip.dur) / tb, "standard")
 
         if clip.speed == 1:
-            resource = f"{src.path}"
-            caption = f"{src.path.stem}"
+            # Handle both FileInfo and Path objects
+            if hasattr(src, 'path'):
+                resource = f"{src.path}"
+                caption = f"{src.path.stem if hasattr(src.path, 'stem') else Path(str(src.path)).stem}"
+            else:
+                # Convert src to string if it's a Path or other object
+                resource = f"{str(src)}"
+                caption = f"{Path(str(src)).stem}"
             chain = ET.SubElement(
                 mlt, "chain", attrib={"id": f"chain{chains}", "out": length}
             )

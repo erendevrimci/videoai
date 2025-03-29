@@ -88,6 +88,16 @@ def process_channel(channel_number: int, steps: List[str] = None) -> None:
             else:
                 print(f"\n{step_msg}")
             write_script.main(channel_number)
+            
+            # Verify that the script was generated (this helps with debugging)
+            file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+            dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+            if dynamic_file_paths and "script_file" in dynamic_file_paths:
+                script_file = file_mgr.get_channel_output_path(channel_number) / dynamic_file_paths["script_file"]
+                if has_logging:
+                    logger.info(f"Script generated at: {script_file}")
+                else:
+                    print(f"Script generated at: {script_file}")
         
         # 2. Generate the voice-over using ElevenLabs
         if "voice" in steps:
@@ -106,9 +116,23 @@ def process_channel(channel_number: int, steps: List[str] = None) -> None:
             else:
                 print(f"\n{step_msg}")
             
-            # Use channel-specific paths for voice and captions
-            voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
-            captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
+            # Check for dynamic file paths
+            file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+            dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+            
+            # Use channel-specific paths for voice and captions (using dynamic paths if available)
+            if dynamic_file_paths and "voice_file" in dynamic_file_paths:
+                voice_file_name = dynamic_file_paths["voice_file"].replace("voice/", "")
+                voice_file = file_mgr.get_audio_output_path(channel_number, voice_file_name.replace(".mp3", ""))
+                print(f"Using dynamic voice file for captions: {voice_file}")
+            else:
+                voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
+                
+            if dynamic_file_paths and "captions_file" in dynamic_file_paths:
+                captions_file = file_mgr.get_channel_output_path(channel_number) / dynamic_file_paths["captions_file"]
+                print(f"Using dynamic captions file path: {captions_file}")
+            else:
+                captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
             
             print(f"Using voice file: {voice_file}")
             print(f"Output captions to: {captions_file}")
@@ -337,6 +361,21 @@ def add_script_segments_to_timeline(timeline: v3, script_segments: List[Dict[str
     
     return timeline
 
+def dummy_log():
+    """Create a dummy log object for auto_editor components"""
+    class DummyLog:
+        def __init__(self):
+            pass
+        def print(self, *args, **kwargs):
+            pass
+        def debug(self, *args, **kwargs):
+            pass
+        def error(self, *args, **kwargs):
+            pass
+        def warning(self, *args, **kwargs):
+            pass
+    return DummyLog()
+
 def add_voice_to_timeline(timeline: v3, voice_file: Path, script_segments: List[Dict[str, Any]] = None) -> v3:
     """
     Add voice-over audio to a timeline.
@@ -387,7 +426,15 @@ def add_voice_to_timeline(timeline: v3, voice_file: Path, script_segments: List[
                 # Convert to frames for timeline
                 start_frame = int(start_time * float(timeline.tb))
                 duration_frames = int(duration * float(timeline.tb))
-                offset_frames = int(start_time * voice_src.audio.fps)
+                
+                # Get correct audio samplerate from the voice source
+                # Voice source is a FileInfo object with audios attribute
+                if voice_src.audios and len(voice_src.audios) > 0:
+                    # Use the samplerate from the first audio stream
+                    offset_frames = int(start_time * voice_src.audios[0].samplerate)
+                else:
+                    # Fallback to a default if we can't get samplerate
+                    offset_frames = int(start_time * 48000)  # Default to 48kHz
                 
                 # Create audio object for this segment
                 audio_obj = TlAudio(
@@ -409,10 +456,10 @@ def add_voice_to_timeline(timeline: v3, voice_file: Path, script_segments: List[
                 print(f"Added {len(script_segments)} voice segments to timeline")
         else:
             # Add the entire voice file as a single audio segment
-            # Get audio duration
+            # Get audio duration from the first audio stream
             audio_duration = 0
-            if hasattr(voice_src, 'audio') and voice_src.audio:
-                audio_duration = voice_src.audio.duration
+            if voice_src.audios and len(voice_src.audios) > 0:
+                audio_duration = voice_src.audios[0].duration
                 
             # Convert to frames for timeline
             duration_frames = int(audio_duration * float(timeline.tb))
@@ -666,8 +713,17 @@ def process_channel_with_timeline(channel_number: int, steps: List[str] = None) 
             # Generate script normally
             write_script.main(channel_number)
             
+            # Check for dynamic file paths
+            file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+            dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+            
             # Read the generated script to extract segments
-            script_file = file_mgr.get_script_path(channel_number)
+            if dynamic_file_paths and "script_file" in dynamic_file_paths:
+                script_file = file_mgr.get_channel_output_path(channel_number) / dynamic_file_paths["script_file"]
+                print(f"Using dynamic script file path: {script_file}")
+            else:
+                script_file = file_mgr.get_script_path(channel_number)
+                
             script_content = file_mgr.read_text(script_file)
             
             if script_content:
@@ -710,11 +766,20 @@ def process_channel_with_timeline(channel_number: int, steps: List[str] = None) 
             # Generate voice normally
             voice_over.main(channel_number)
             
-            # Get voice file path
-            voice_file = file_mgr.get_audio_output_path(
-                channel_number, 
-                config.file_paths.voice_file.replace("voice/","")
-            )
+            # Check for dynamic file paths
+            file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+            dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+            
+            # Get voice file path (using dynamic path if available)
+            if dynamic_file_paths and "voice_file" in dynamic_file_paths:
+                voice_file_name = dynamic_file_paths["voice_file"].replace("voice/", "")
+                voice_file = file_mgr.get_audio_output_path(channel_number, voice_file_name.replace(".mp3", ""))
+                print(f"Using dynamic voice file path: {voice_file}")
+            else:
+                voice_file = file_mgr.get_audio_output_path(
+                    channel_number, 
+                    config.file_paths.voice_file.replace("voice/","")
+                )
             
             # Add voice to timeline
             if file_mgr.file_exists(voice_file):
@@ -758,12 +823,26 @@ def process_channel_with_timeline(channel_number: int, steps: List[str] = None) 
             else:
                 print(f"\n{step_msg}")
             
-            # Get channel-specific paths
-            voice_file = file_mgr.get_audio_output_path(
-                channel_number, 
-                config.file_paths.voice_file.replace("voice/","")
-            )
-            captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
+            # Check for dynamic file paths
+            file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+            dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+            
+            # Get channel-specific paths (using dynamic paths if available)
+            if dynamic_file_paths and "voice_file" in dynamic_file_paths:
+                voice_file_name = dynamic_file_paths["voice_file"].replace("voice/", "")
+                voice_file = file_mgr.get_audio_output_path(channel_number, voice_file_name.replace(".mp3", ""))
+                print(f"Using dynamic voice file path for captions: {voice_file}")
+            else:
+                voice_file = file_mgr.get_audio_output_path(
+                    channel_number, 
+                    config.file_paths.voice_file.replace("voice/","")
+                )
+                
+            if dynamic_file_paths and "captions_file" in dynamic_file_paths:
+                captions_file = file_mgr.get_channel_output_path(channel_number) / dynamic_file_paths["captions_file"]
+                print(f"Using dynamic captions file path: {captions_file}")
+            else:
+                captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
             
             # Ensure directory exists
             file_mgr.ensure_dir_exists(voice_file.parent)

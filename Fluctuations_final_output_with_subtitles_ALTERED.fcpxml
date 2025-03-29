@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fcpxml version="1.10">
+	<resources>
+		<format id="r1" name="FFVideoFormatRateUndefined" frameDuration="1/30s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
+		<asset id="r2" name="Fluctuations_final_output_with_subtitles" start="0s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="1" duration="1419/30s">
+			<media-rep kind="original-media" src="file:///Users/imac/Downloads/auto-editor-master/Fluctuations_final_output_with_subtitles.mp4" />
+		</asset>
+	</resources>
+	<library>
+		<event name="Auto-Editor Media Group">
+			<project name="Fluctuations_final_output_with_subtitles">
+				<sequence format="r1" tcStart="0s" tcFormat="NDF" audioLayout="mono" audioRate="44.1k">
+					<spine>
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="0s" duration="65/30s" start="0s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="65/30s" duration="82/30s" start="77/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="147/30s" duration="169/30s" start="195/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="316/30s" duration="70/30s" start="371/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="386/30s" duration="109/30s" start="474/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="495/30s" duration="140/30s" start="597/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="635/30s" duration="97/30s" start="771/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="732/30s" duration="32/30s" start="870/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="764/30s" duration="134/30s" start="910/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="898/30s" duration="122/30s" start="1059/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="1020/30s" duration="78/30s" start="1211/30s" tcFormat="NDF" />
+						<asset-clip name="Fluctuations_final_output_with_subtitles" ref="r2" offset="1098/30s" duration="106/30s" start="1308/30s" tcFormat="NDF" />
+					</spine>
+				</sequence>
+			</project>
+		</event>
+	</library>
+</fcpxml>
