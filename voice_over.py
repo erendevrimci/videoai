@@ -2,12 +2,17 @@ import json
 import requests
 import sys
 from typing import Optional
-
+import base64
 # Import the config module and file manager
 from config import config, get_channel_config
 from file_manager import FileManager
+from supabase import create_client
+import os
+from dotenv import load_dotenv
 
-def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
+load_dotenv()
+
+def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]:
     """
     Converts the provided script text into speech using the ElevenLabs text-to-speech API.
     
@@ -19,7 +24,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         Optional[str]: Path to the generated voice file, or None if generation failed
     """
     # Initialize file manager
-    file_mgr = FileManager()
+    # file_mgr = FileManager()
     
     # Get API key from configuration
     api_key = config.elevenlabs.api_key
@@ -60,7 +65,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
     }
     
     # Define output file paths using the file manager
-    channel_voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","").replace(".mp3",""))
+    # channel_voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","").replace(".mp3",""))
     
     
     
@@ -70,13 +75,13 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
         response.raise_for_status()  # Raise an exception for HTTP errors
         
         # Write the binary audio content to both file locations using the file manager
-        file_mgr.write_binary(channel_voice_file, response.content)
+        # file_mgr.write_binary(channel_voice_file, response.content)
         
         
-        print(f"Voice files saved to:")
-        print(f"  - {channel_voice_file}")
+        # print(f"Voice files saved to:")
+        # print(f"  - {channel_voice_file}")
         
-        return str(channel_voice_file)
+        return response.content
     except requests.RequestException as e:
         print(f"Request failed: {e}")
         if hasattr(e.response, 'status_code') and hasattr(e.response, 'text'):
@@ -84,92 +89,120 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[str]:
             print(f"Response: {e.response.text}")
         return None
 
-def main(channel_number: Optional[int] = None) -> None:
-    """
-    Main function to generate voice from script.
+def main(user_id: str, script_id: int, channel_number: Optional[int] = None) -> None:
+    # """
+    # Main function to generate voice from script.
     
-    Args:
-        channel_number (Optional[int]): Channel number to use. If None, uses default channel.
-    """
-    # Initialize file manager
-    file_mgr = FileManager()
+    # Args:
+    #     channel_number (Optional[int]): Channel number to use. If None, uses default channel.
+    # """
+    # # Initialize file manager
+    # file_mgr = FileManager()
     
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
+    # # Use default channel if none specified
+    # if channel_number is None:
+    #     channel_number = config.default_channel
     
-    # First check if we have current_file_paths.json from write_script.py
-    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    # # First check if we have current_file_paths.json from write_script.py
+    # file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
+    # dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
     
-    script_file_paths = []
+    # script_file_paths = []
     
-    # If we have the dynamic paths, use those first
-    if dynamic_file_paths and "script_file" in dynamic_file_paths:
-        # Update config with dynamic paths
-        script_file = dynamic_file_paths["script_file"]
-        if "voice_file" in dynamic_file_paths:
-            config.file_paths.voice_file = dynamic_file_paths["voice_file"]
+    # # If we have the dynamic paths, use those first
+    # if dynamic_file_paths and "script_file" in dynamic_file_paths:
+    #     # Update config with dynamic paths
+    #     script_file = dynamic_file_paths["script_file"]
+    #     if "voice_file" in dynamic_file_paths:
+    #         config.file_paths.voice_file = dynamic_file_paths["voice_file"]
             
-        # Add the dynamic script path as our first option
-        dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
-        script_file_paths.append(dynamic_script_path)
-        print(f"Using dynamic script path: {dynamic_script_path}")
+    #     # Add the dynamic script path as our first option
+    #     dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+    #     script_file_paths.append(dynamic_script_path)
+    #     print(f"Using dynamic script path: {dynamic_script_path}")
     
-    # Add default paths as fallback options
-    script_file_paths.extend([
-        file_mgr.get_script_path(channel_number, config.file_paths.script_file),
-        file_mgr.get_abs_path(config.file_paths.script_file)
-    ])
+    # # Add default paths as fallback options
+    # script_file_paths.extend([
+    #     file_mgr.get_script_path(channel_number, config.file_paths.script_file),
+    #     file_mgr.get_abs_path(config.file_paths.script_file)
+    # ])
     
-    script_text = None
-    used_path = None
+    # script_text = None
+    # used_path = None
     
-    # Try each path until we find one that works
-    for path in script_file_paths:
-        script_text = file_mgr.read_text(path)
-        if script_text is not None:
-            used_path = path
-            break
+    # # Try each path until we find one that works
+    # for path in script_file_paths:
+    #     script_text = file_mgr.read_text(path)
+    #     if script_text is not None:
+    #         used_path = path
+    #         break
     
-    if script_text is None:
-        # If all paths failed, try generating a script first
-        print(f"Failed to load script file from any path: {script_file_paths}")
-        print("Attempting to generate a script first...")
+    # if script_text is None:
+    #     # If all paths failed, try generating a script first
+    #     print(f"Failed to load script file from any path: {script_file_paths}")
+    #     print("Attempting to generate a script first...")
         
-        import write_script
-        write_script.main(channel_number)
+    #     import write_script
+    #     write_script.main(channel_number)
         
-        # Check for the dynamic file paths again
-        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-        if dynamic_file_paths and "script_file" in dynamic_file_paths:
-            # Use the newly generated script path
-            script_file = dynamic_file_paths["script_file"]
-            dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
-            script_text = file_mgr.read_text(dynamic_script_path)
-            used_path = dynamic_script_path
+    #     # Check for the dynamic file paths again
+    #     dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
+    #     if dynamic_file_paths and "script_file" in dynamic_file_paths:
+    #         # Use the newly generated script path
+    #         script_file = dynamic_file_paths["script_file"]
+    #         dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
+    #         script_text = file_mgr.read_text(dynamic_script_path)
+    #         used_path = dynamic_script_path
             
-            # Update voice file path for generation
-            if "voice_file" in dynamic_file_paths:
-                config.file_paths.voice_file = dynamic_file_paths["voice_file"]
-        else:
-            # Try the default paths again
-            for path in script_file_paths:
-                script_text = file_mgr.read_text(path)
-                if script_text is not None:
-                    used_path = path
-                    break
+    #         # Update voice file path for generation
+    #         if "voice_file" in dynamic_file_paths:
+    #             config.file_paths.voice_file = dynamic_file_paths["voice_file"]
+    #     else:
+    #         # Try the default paths again
+    #         for path in script_file_paths:
+    #             script_text = file_mgr.read_text(path)
+    #             if script_text is not None:
+    #                 used_path = path
+    #                 break
                 
-        if script_text is None:
-            print("Could not generate or load a script. Aborting voice generation.")
-            return
+    #     if script_text is None:
+    #         print("Could not generate or load a script. Aborting voice generation.")
+    #         return
     
-    print(f"Reading script from {used_path}...")
+    # print(f"Reading script from {used_path}...")
     
     # Generate voice
-    voice_file = generate_voice(script_text, channel_number)
+    supabase_url = os.environ.get("SUPABASE_URL")
+    supabase_key = os.environ.get("SUPABASE_KEY")
+    supabase = create_client(supabase_url, supabase_key)
+    script_query = supabase.table("scripts").select("script").eq("id", script_id).execute()
+    script_text = script_query.data[0]["script"]
+    print(f"script_text: {script_text}")
+    voice = generate_voice(script_text, channel_number)
     
-    if voice_file:
+  
+    
+    
+    
+
+    # Dosya adını script ID'si ile oluştur
+    file_name = f"{user_id}_{script_id}.mp3"
+    result = supabase.storage.from_("voice-over-files").upload(
+        path=file_name,
+        file=voice,
+        file_options={"content-type": "audio/mpeg"}
+    )
+    file_url = supabase.storage.from_("voice-over-files").get_public_url(file_name)
+    response = supabase.table("voice_over").insert({
+            "user_id": user_id,
+            "script_id": script_id,
+            "voice_url": file_url,
+            "channel_number": channel_number
+        }).execute()
+    print(response)
+    if "error" in response:
+        raise Exception(f"Database Error: {response}")
+    if voice:
         print(f"Voice generation completed successfully.")
     else:
         print("Voice generation failed.")

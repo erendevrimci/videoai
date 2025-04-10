@@ -22,8 +22,8 @@ load_dotenv(override=True)
 # Initialize the file manager
 file_mgr = FileManager()
 
-with open('topics_covered.json', 'r') as f:
-    topics_covered = json.load(f)
+# with open('topics_covered.json', 'r') as f:
+#     topics_covered = json.load(f)
 # Base project directory (use file manager's base_dir)
 BASE_DIR = file_mgr.base_dir
 

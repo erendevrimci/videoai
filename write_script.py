@@ -13,10 +13,10 @@ from pathlib import Path
 from together import Together
 import google.generativeai as genai
 from pydantic import BaseModel
-
+from supabase import create_client
 from config import config, get_channel_config
 from file_manager import FileManager
-
+from dotenv import load_dotenv
 # Initialize the file manager
 file_mgr = FileManager()
 
@@ -35,32 +35,20 @@ class Topic(BaseModel):
     description: str
 
 
-def load_input_files(category: str = "ai") -> Dict[str, str]:
+def load_input_files() -> Dict[str, str]:
     """
     Load all required input files for script generation.
     
-    Args:
-        category (str): Category to use for topics
-        
     Returns:
         Dict[str, str]: Dictionary of content from each file
     """
-    # Construct paths using FileManager
-    category_path = file_mgr.get_abs_path(f"categories/{category}")
-    topics_file = category_path / "next_topics.txt"
-    script_example_file = file_mgr.get_abs_path("amazing_script.txt")
-    context_file = file_mgr.get_abs_path("context/grounding.txt")
-    memory_file = file_mgr.get_abs_path("context/memory.txt")
+    
+    # Kök dizinden dosyaları al
+    script_example_file = file_mgr.get_abs_path("amazing_script.txt", from_root=True)
+    memory_file = file_mgr.get_abs_path("context/memory.txt", from_root=True)
     
     # Load file contents with error handling using FileManager
     files = {}
-    
-    # Read topics file
-    topics_content = file_mgr.read_text(topics_file)
-    if topics_content is None:
-        print(f"Error: Could not read topics file: {topics_file}")
-        raise FileNotFoundError(f"Could not read topics file: {topics_file}")
-    files["topics"] = topics_content.split("\n")
     
     # Read script example file
     amazing_script = file_mgr.read_text(script_example_file)
@@ -68,13 +56,6 @@ def load_input_files(category: str = "ai") -> Dict[str, str]:
         print(f"Error: Could not read script example file: {script_example_file}")
         raise FileNotFoundError(f"Could not read script example file: {script_example_file}")
     files["amazing_script"] = amazing_script
-    
-    # Read context file
-    trending_context = file_mgr.read_text(context_file)
-    if trending_context is None:
-        print(f"Error: Could not read context file: {context_file}")
-        raise FileNotFoundError(f"Could not read context file: {context_file}")
-    files["trending_context"] = trending_context
     
     # Read memory file
     your_memories = file_mgr.read_text(memory_file)
@@ -128,7 +109,7 @@ def clean_script_for_tts(script: str) -> str:
     # Join the lines back together with proper spacing
     return "\n".join(cleaned_lines)
 
-def generate_youtube_script(input_files: Dict[str, Any] = None) -> Optional[str]:
+def generate_youtube_script( title: str, context: str,input_files: Dict[str, Any] = None) -> Optional[str]:
     """
     Generate a YouTube script using the Together AI API.
     
@@ -138,9 +119,7 @@ def generate_youtube_script(input_files: Dict[str, Any] = None) -> Optional[str]
     Returns:
         Optional[str]: The generated script, or None if generation failed
     """
-    # Load input files if not provided
-    if input_files is None:
-        input_files = load_input_files(category="ai")
+   
     
     # Get API keys from environment or config
     together_api_key = os.getenv("TOGETHER_API_KEY") or config.openai.api_key
@@ -150,8 +129,8 @@ def generate_youtube_script(input_files: Dict[str, Any] = None) -> Optional[str]
     
     # Get data from input files
     your_memories = input_files["your_memories"]
-    topics = input_files["topics"]
-    trending_context = input_files["trending_context"]
+    topics = title
+    trending_context = context
     amazing_script = input_files["amazing_script"]
     
     # Format topics for prompt
@@ -347,56 +326,60 @@ def extract_topic_from_script(script: str) -> Topic:
         # Return a default topic in case of errors
         return Topic(topic="Unknown Topic", description="Unable to extract topic")
 
-def update_topics_covered(topic: Topic, topics_file: str = "topics_covered.json") -> bool:
-    """
-    Update the topics_covered.json file with a new topic.
+# def update_topics_covered(topic: Topic, topics_file: str = "topics_covered.json") -> bool:
+#     """
+#     Update the topics_covered.json file with a new topic.
     
-    Args:
-        topic (Topic): The topic to add
-        topics_file (str): Path to the topics file
+#     Args:
+#         topic (Topic): The topic to add
+#         topics_file (str): Path to the topics file
         
-    Returns:
-        bool: True if update was successful, False otherwise
-    """
-    topics_path = file_mgr.get_abs_path(topics_file)
+#     Returns:
+#         bool: True if update was successful, False otherwise
+#     """
+#     topics_path = file_mgr.get_abs_path(topics_file)
     
-    try:
-        # Load existing topics using FileManager
-        topics_data = file_mgr.read_json(topics_path)
-        if topics_data is None:
-            print(f"Error: Could not read topics file: {topics_path}")
-            return False
+#     try:
+#         # Load existing topics using FileManager
+#         topics_data = file_mgr.read_json(topics_path)
+#         if topics_data is None:
+#             print(f"Error: Could not read topics file: {topics_path}")
+#             return False
         
-        # Add new topic if not already present
-        if topic.topic not in topics_data["topics_already_covered"]:
-            topics_data["topics_already_covered"].append(topic.topic)
+#         # Add new topic if not already present
+#         if topic.topic not in topics_data["topics_already_covered"]:
+#             topics_data["topics_already_covered"].append(topic.topic)
             
-            # Save updated topics using FileManager
-            success = file_mgr.write_json(topics_path, topics_data)
-            if success:
-                print(f"Updated {topics_file} with new topic: {topic.topic}")
-                return True
-            else:
-                print(f"Error: Failed to write topics file: {topics_path}")
-                return False
-        else:
-            print(f"Topic '{topic.topic}' already exists in {topics_file}")
-            return True
+#             # Save updated topics using FileManager
+#             success = file_mgr.write_json(topics_path, topics_data)
+#             if success:
+#                 print(f"Updated {topics_file} with new topic: {topic.topic}")
+#                 return True
+#             else:
+#                 print(f"Error: Failed to write topics file: {topics_path}")
+#                 return False
+#         else:
+#             print(f"Topic '{topic.topic}' already exists in {topics_file}")
+#             return True
             
-    except Exception as e:
-        print(f"Error updating topics file: {str(e)}")
-        import traceback
-        traceback.print_exc()
-        return False
+    # except Exception as e:
+    #     print(f"Error updating topics file: {str(e)}")
+    #     import traceback
+    #     traceback.print_exc()
+    #     return False
 
 
-def save_script(script: str, channel_number: Optional[int] = None) -> Optional[Path]:
+def save_script(user_id: str, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> Optional[Path]:
     """
     Save the generated script to a file.
     
     Args:
-        script (str): The script content to save
-        channel_number (Optional[int]): Channel number to use, or None for default
+        user_id (str): User ID for database entry
+        title (str): Script title
+        extracted_topic (str): The extracted topic from the script
+        script (str): The generated script content
+        channel_number (Optional[int]): Channel number for file organization
+        jwt_token (Optional[str]): JWT token for authorization
         
     Returns:
         Optional[Path]: Path to the saved script file, or None if saving failed
@@ -406,44 +389,43 @@ def save_script(script: str, channel_number: Optional[int] = None) -> Optional[P
         return None
         
     try:
-        # Get script file path from config
-        script_path = file_mgr.get_abs_path(config.file_paths.script_file)
+        supabase_url = os.environ.get("SUPABASE_URL")
+        supabase_key = os.environ.get("SUPABASE_KEY")
         
-        # First save to channel-specific directory if channel is specified
-        if channel_number is not None:
-            # Use FileManager's get_script_path to get the correct channel script path
-            channel_script_path = file_mgr.get_script_path(channel_number, config.file_paths.script_file)
-            
-            # Save to channel-specific directory using FileManager
-            success = file_mgr.write_text(channel_script_path, script)
-            if success:
-                print(f"Script saved to channel directory: {channel_script_path}")
-            else:
-                print(f"Error: Failed to save script to channel directory: {channel_script_path}")
+        # Supabase istemcisini oluştur - service_role ile
+        supabase = create_client(supabase_url, supabase_key)
         
-        # Save to main script file using FileManager
-        success = file_mgr.write_text(script_path, script)
-        if success:
-            print(f"Script saved to: {script_path}")
-            return script_path
-        else:
-            print(f"Error: Failed to save script to main location: {script_path}")
-            # If we saved to channel path earlier, return that instead
-            if channel_number is not None:
-                return file_mgr.get_script_path(channel_number, "script")
+       
+        
+        # Veri ekleme işlemi - service_role anahtarı RLS'i devre dışı bırakır
+        response = supabase.table("scripts").insert({
+            "user_id": user_id, 
+            "script": script,
+            "title": title,
+            "topic": extracted_topic,
+            "channel_number": channel_number
+        }).execute()
+        
+        if "error" in response:
+            raise Exception(f"Database Error: {response}")
             return None
+       
         
     except Exception as e:
         print(f"Error saving script: {str(e)}")
         return None
 
 
-def main(channel_number: Optional[int] = None) -> None:
+def main(user_id: str, title: str, context: str, channel_number: Optional[int] = None) -> None:
     """
     Main function to generate a script, extract the topic, and update topics database.
     
     Args:
+        user_id (str): User ID for database operations
+        title (str): Script title
+        context (str): Context for script generation
         channel_number (Optional[int]): Channel number to use, or None for default
+        jwt_token (Optional[str]): JWT token for authorization
     """
     # Configure APIs
     configure_apis()
@@ -452,10 +434,10 @@ def main(channel_number: Optional[int] = None) -> None:
     
     try:
         # Load input files
-        input_files = load_input_files(category="ai")
+        input_files = load_input_files()
         
         # Generate the script
-        script = generate_youtube_script(input_files)
+        script = generate_youtube_script(title, context, input_files)
         
         if script is None:
             print("Script generation failed.")
@@ -466,47 +448,15 @@ def main(channel_number: Optional[int] = None) -> None:
         # Extract topic from script
         extracted_topic = extract_topic_from_script(script)
         
-        # Generate file paths based on the topic
-        topic_script_file = f"{extracted_topic.topic}_generated_script.txt"
-        topic_voice_file = f"voice/{extracted_topic.topic}_generated_voice.mp3"
-        topic_captions_file = f"{extracted_topic.topic}_generated_voice.srt"
-        topic_output_video_file = f"{extracted_topic.topic}_output_video.mp4"
-        topic_final_video_file = f"{extracted_topic.topic}_final_output.mp4"
-        topic_final_subtitled_video_file = f"{extracted_topic.topic}_final_output_with_subtitles.mp4"
-        
-        # Update config for current module
-        config.file_paths.script_file = topic_script_file
-        config.file_paths.voice_file = topic_voice_file
-        config.file_paths.captions_file = topic_captions_file
-        config.file_paths.output_video_file = topic_output_video_file
-        config.file_paths.final_video_file = topic_final_video_file
-        config.file_paths.final_subtitled_video_file = topic_final_subtitled_video_file
-        
-        # Save the file names to a JSON file that other modules can read
-        file_paths_json = {
-            "script_file": topic_script_file,
-            "voice_file": topic_voice_file,
-            "captions_file": topic_captions_file,
-            "output_video_file": topic_output_video_file,
-            "final_video_file": topic_final_video_file,
-            "final_subtitled_video_file": topic_final_subtitled_video_file,
-            "topic": extracted_topic.topic
-        }
-        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-        file_mgr.write_json(file_paths_json_path, file_paths_json)
-        
-        # Update topics database
-        update_topics_covered(extracted_topic)
-
-
-        # Save the generated script
-        script_path = save_script(script, channel_number)
+        # Save the generated script with JWT token for authorization
+        script_path = save_script(user_id, title, extracted_topic.topic, script, channel_number)
         
         if script_path is None:
             print("Failed to save script.")
             return
         
         print("\nScript generation completed successfully.")
+        return script
         
     except Exception as e:
         print(f"Error in script generation process: {str(e)}")
