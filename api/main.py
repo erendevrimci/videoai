@@ -6,8 +6,11 @@ from RequestSchemes.ScriptRequest import ScriptRequest
 from RequestSchemes.VoiceoverRequest import VoiceoverRequest
 from ResponseSchemes.ScriptResponse import ScriptResponse
 from ResponseSchemes.VoiceoverResponse import VoiceoverResponse
+from ResponseSchemes.CaptionResponse import CaptionResponse
+from RequestSchemes.CaptionRequest import CaptionRequest
 import write_script
 import voice_over
+import captions
 import datetime
 import platform
 import psutil
@@ -193,3 +196,13 @@ def get_voice_over(id: str, current_user: dict = Depends(get_current_user)):
         return VoiceoverResponse(success=True, message="Voice over fetched successfully", voiceover=result.data[0]["voice"])
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
+
+@app.post("/captions", response_model=CaptionResponse)
+def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        voice_over_id = request.voice_over_id
+        captions.main(voice_over_id, user_id, request.channel_number)
+        return CaptionResponse(success=True, message="Captions generated successfully")
+    except Exception as e:
+        return CaptionResponse(success=False, message=str(e))

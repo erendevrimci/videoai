@@ -183,10 +183,10 @@ def main(user_id: str, script_id: int, channel_number: Optional[int] = None) -> 
   
     
     
-    
+    import uuid
 
     # Dosya adını script ID'si ile oluştur
-    file_name = f"{user_id}_{script_id}.mp3"
+    file_name = f"{user_id}_{script_id}_{uuid.uuid4()}.mp3"
     result = supabase.storage.from_("voice-over-files").upload(
         path=file_name,
         file=voice,
