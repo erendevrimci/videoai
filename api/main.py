@@ -8,9 +8,14 @@ from ResponseSchemes.ScriptResponse import ScriptResponse
 from ResponseSchemes.VoiceoverResponse import VoiceoverResponse
 from ResponseSchemes.CaptionResponse import CaptionResponse
 from RequestSchemes.CaptionRequest import CaptionRequest
+from RequestSchemes.VideoEditRequest import VideoEditRequest
+from ResponseSchemes.VideoEditResponse import VideoEditResponse
+from RequestSchemes.ProjectRequest import ProjectRequest
+from ResponseSchemes.ProjectResponse import ProjectResponse
 import write_script
 import voice_over
 import captions
+import video_edit
 import datetime
 import platform
 import psutil
@@ -33,6 +38,10 @@ app.add_middleware(SanitizerMiddleware)
 
 # API başlangıç zamanını kaydet
 START_TIME = datetime.datetime.now()
+
+supabase_url = os.environ.get("SUPABASE_URL")
+supabase_key = os.environ.get("SUPABASE_KEY")
+supabase = create_client(supabase_url, supabase_key)
 
 @app.get("/")
 def health_check():
@@ -87,19 +96,34 @@ def health_check():
         "environment": os.environ.get("ENVIRONMENT", "development")
     }
 
+@app.post("/project", response_model=ProjectResponse)
+def create_project(request: ProjectRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        project_name = request.project_name
+        result = supabase.table("projects").insert({
+            "user_id": user_id,
+            "name": project_name
+        }).execute()
+        return ProjectResponse(success=True, message="Project created successfully", project_id=result.data[0]["id"], project_name=project_name)
+    except Exception as e:
+        return ProjectResponse(success=False, message=str(e))
+
+
+
 @app.post("/script", response_model=ScriptResponse)
 def generate_script(request: ScriptRequest, current_user: dict = Depends(get_current_user)):
     try:
         # Token'dan gelen user_id'yi kullan
-        user_id = current_user["user_id"]
+        project_id = request.project_id
         
         script = write_script.main(
-            user_id=user_id, 
+            project_id=project_id, 
             title=request.topic,
             context=request.context, 
             channel_number=request.channel_number,
         )
-        
+        print(script)
         if script is None:
             return ScriptResponse(success=False, message="Script generation failed")
         return ScriptResponse(success=True, message="Script generated successfully", script=script)
@@ -109,59 +133,57 @@ def generate_script(request: ScriptRequest, current_user: dict = Depends(get_cur
         traceback.print_exc()
         return ScriptResponse(success=False, message=str(e))
 
-@app.get("/scripts", response_model=ScriptResponse)
-def get_user_scripts(current_user: dict = Depends(get_current_user)):
-    try:
-        # Token'dan gelen user_id'yi kullan
-        user_id = current_user["user_id"]
-        supabase_url = os.environ.get("SUPABASE_URL")
-        supabase_key = os.environ.get("SUPABASE_KEY")
-        supabase = create_client(supabase_url, supabase_key)
-        result = supabase.table("scripts").select("*").eq("user_id", user_id).execute()
-        print(result.data)
-        return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
-    except Exception as e:
-        return ScriptResponse(success=False, message=str(e))
+# @app.get("/scripts", response_model=ScriptResponse)
+# def get_user_scripts(current_user: dict = Depends(get_current_user)):
+#     try:
+#         # Token'dan gelen user_id'yi kullan
+#         user_id = current_user["user_id"]
+        
+#         result = supabase.table("scripts").select("*").eq("user_id", user_id).execute()
+#         print(result.data)
+#         return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
+#     except Exception as e:
+#         return ScriptResponse(success=False, message=str(e))
 
-@app.get("/script/{title}", response_model=ScriptResponse)
-def get_user_script_by_topic(title: str, request: Request, current_user: dict = Depends(get_current_user)):
-    try:
-        # Token'dan gelen user_id'yi kullan
-        user_id = current_user["user_id"]
+# @app.get("/script/{title}", response_model=ScriptResponse)
+# def get_user_script_by_topic(title: str, request: Request, current_user: dict = Depends(get_current_user)):
+#     try:
+#         # Token'dan gelen user_id'yi kullan
+#         user_id = current_user["user_id"]
         
-        # State içeriğini kontrol et
-        print("Request state items:", dir(request.state))
-        print("Request path params:", request.path_params)
+#         # State içeriğini kontrol et
+#         print("Request state items:", dir(request.state))
+#         print("Request path params:", request.path_params)
         
-        # Sanitize edilmiş title parametresini kullan
-        sanitized_title = title
+#         # Sanitize edilmiş title parametresini kullan
+#         sanitized_title = title
         
-        # State'te sanitized_path_params var mı diye kontrol et
-        if hasattr(request.state, "sanitized_path_params"):
-            print("sanitized_path_params state'te bulundu")
-            sanitized_title = request.state.sanitized_path_params.get("title", title)
-            print("sanitized_title", sanitized_title)
-        else:
-            print("sanitized_path_params state'te bulunamadı")
-            # Manuel olarak sanitize et
-            try:
-                from security.sanitizer import sanitize_input
-                sanitized_title = sanitize_input(title, context="general")
-                print("Manuel sanitize edildi:", sanitized_title)
-            except Exception as e:
-                print(f"Manuel sanitize hatası: {str(e)}")
+#         # State'te sanitized_path_params var mı diye kontrol et
+#         if hasattr(request.state, "sanitized_path_params"):
+#             print("sanitized_path_params state'te bulundu")
+#             sanitized_title = request.state.sanitized_path_params.get("title", title)
+#             print("sanitized_title", sanitized_title)
+#         else:
+#             print("sanitized_path_params state'te bulunamadı")
+#             # Manuel olarak sanitize et
+#             try:
+#                 from security.sanitizer import sanitize_input
+#                 sanitized_title = sanitize_input(title, context="general")
+#                 print("Manuel sanitize edildi:", sanitized_title)
+#             except Exception as e:
+#                 print(f"Manuel sanitize hatası: {str(e)}")
         
-        supabase_url = os.environ.get("SUPABASE_URL")
-        supabase_key = os.environ.get("SUPABASE_KEY")
-        supabase = create_client(supabase_url, supabase_key)
-        result = supabase.table("scripts").select("*").eq("user_id", user_id).eq("title", sanitized_title).execute()
-        if not result.data :
-            return ScriptResponse(success=False, message="Script not found")
-        return ScriptResponse(success=True, message="Script fetched successfully", scripts=result.data)
-    except Exception as e:
-        import traceback
-        traceback.print_exc()
-        return ScriptResponse(success=False, message=str(e))
+#         supabase_url = os.environ.get("SUPABASE_URL")
+#         supabase_key = os.environ.get("SUPABASE_KEY")
+#         supabase = create_client(supabase_url, supabase_key)
+#         result = supabase.table("scripts").select("*").eq("user_id", user_id).eq("title", sanitized_title).execute()
+#         if not result.data :
+#             return ScriptResponse(success=False, message="Script not found")
+#         return ScriptResponse(success=True, message="Script fetched successfully", scripts=result.data)
+#     except Exception as e:
+#         import traceback
+#         traceback.print_exc()
+#         return ScriptResponse(success=False, message=str(e))
 
 @app.post("/voice-over", response_model=VoiceoverResponse)
 def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(get_current_user)):
@@ -169,16 +191,16 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
         user_id = current_user["user_id"]
         
         # Script'i güvenli bir şekilde ele al
-        script_id = request.script_id
+        project_id = request.project_id
         try:
             # Sanitizer middleware ile işlenmemiş olması durumunda manuel olarak sanitize et
             from security.sanitizer import sanitize_input
-            script_id = sanitize_input(script_id, context="script")
+            project_id = sanitize_input(project_id, context="script")
         except Exception as e:
             print(f"Script sanitize hatası: {str(e)}")
         
         channel_number = request.channel_number
-        voice_over.main(user_id, script_id, channel_number)
+        voice_over.main(project_id, channel_number)
         return VoiceoverResponse(success=True, message="Voice over generated successfully")
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
@@ -197,12 +219,42 @@ def get_voice_over(id: str, current_user: dict = Depends(get_current_user)):
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
 
-@app.post("/captions", response_model=CaptionResponse)
+@app.post("/caption", response_model=CaptionResponse)
 def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_current_user)):
     try:
-        user_id = current_user["user_id"]
-        voice_over_id = request.voice_over_id
-        captions.main(voice_over_id, user_id, request.channel_number)
+        project_id = request.project_id
+        captions.main(project_id, request.channel_number)
         return CaptionResponse(success=True, message="Captions generated successfully")
     except Exception as e:
         return CaptionResponse(success=False, message=str(e))
+
+
+@app.post("/video-edit", response_model=VideoEditResponse)
+def edit_video(request: VideoEditRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        
+        # İstekten script_id'yi alın (VideoEditRequest şemasında olması varsayılıyor)
+        project_id = request.project_id
+        timeline_mode = request.use_timeline
+        
+        # video_edit.main'i doğru parametrelerle çağırın (user_id eklendi)
+        success = video_edit.main(project_id, timeline_mode)
+        
+        if success:
+            # Başarılı yanıt, isteğe bağlı olarak video URL'sini de içerebilir
+            # (Ancak URL'yi almak için ek bir DB sorgusu gerekebilir, şimdilik basit tutuyoruz)
+            return VideoEditResponse(success=True, message="Video edited and uploaded successfully")
+        else:
+            # Hata mesajı video_edit.main içindeki loglardan daha detaylı anlaşılabilir
+            return VideoEditResponse(success=False, message="Video editing or upload process failed")
+            
+    except AttributeError:
+        # Eğer request.script_id mevcut değilse bu hata alınabilir
+        return VideoEditResponse(success=False, message="Missing 'script_id' in request body.")
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        # Hata detaylarını loglamak iyi bir pratik olabilir
+        print(f"Video editing endpoint error: {str(e)}\n{error_details}")
+        return VideoEditResponse(success=False, message=f"An error occurred during the video editing request: {str(e)}")

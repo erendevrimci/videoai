@@ -21,8 +21,7 @@ file_mgr = FileManager()
 def generate_subtitles(
     audio_file: bytes, 
     supabase: Client,
-    user_id: str,
-    voice_over_id: int,
+    project_id: int,
     channel_number: int = None
 ) -> bool:
     """
@@ -107,11 +106,14 @@ def generate_subtitles(
                 raise Exception(f"Storage Error: {str(e)}")
             
         response = supabase.table("captions").insert({
-            "user_id": user_id,
-            "voice_over_id": voice_over_id,
             "caption_file": file_name,
             "channel_number": channel_number
         }).execute()
+
+        supabase.table("projects").update({
+            "caption_id": response.data[0]["id"]
+        }).eq("id", project_id).execute()
+        
         if "error" in response:
             raise Exception(f"Database Error: {response}")
         return True
@@ -202,7 +204,7 @@ def add_captions_to_timeline(
         print(traceback.format_exc())
         return False
 
-def main(voiceover_id: int, user_id: str, channel_number: int = None, use_timeline: bool = False):
+def main(project_id: int, channel_number: int = None, use_timeline: bool = False):
     """
     Main function to run the captions generation process.
     
@@ -242,12 +244,16 @@ def main(voiceover_id: int, user_id: str, channel_number: int = None, use_timeli
     supabase_url = os.environ.get("SUPABASE_URL")
     supabase_key = os.environ.get("SUPABASE_KEY")
     supabase = create_client(supabase_url, supabase_key)
-    audio_file_data = supabase.table("voice_over").select("voice_name").eq("id", voiceover_id).execute()
-    print(audio_file_data)
+
+
+    voice_over_query = supabase.table("projects").select("voice_over_id").eq("id", project_id).execute()
+    voice_over_id = voice_over_query.data[0]["voice_over_id"]
+    audio_file_data = supabase.table("voice_over").select("voice_name").eq("id", voice_over_id).execute()
+
     audio_file_name = audio_file_data.data[0]["voice_name"]
     audio_file = supabase.storage.from_("voice-over-files").download(audio_file_name)
     # Generate subtitles
-    success = generate_subtitles(audio_file, supabase, user_id, voiceover_id, channel_number)
+    success = generate_subtitles(audio_file, supabase, project_id, channel_number)
     
     if success:
         print(f"Caption generation completed successfully for channel {channel_number}")
