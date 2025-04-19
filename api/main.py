@@ -25,6 +25,7 @@ from api.security.SanitizerMiddleware import SanitizerMiddleware # Güncellendi
 from supabase import create_client
 from dotenv import load_dotenv
 import logging
+from fastapi.middleware.cors import CORSMiddleware # Eklendi
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
@@ -35,18 +36,23 @@ load_dotenv()
 
 app = FastAPI()
 
+# CORS Ayarları
 origins = [
-    # os.environ.get("FRONTEND_TEST_URL"),
-    os.environ.get("FRONTEND_PROD_URL")
+    os.environ.get("FRONTEND_URL", "http://localhost:3000"), # Geliştirme URL'i eklendi
+    os.environ.get("FRONTEND_PROD_URL") # Production URL
 ]
 
+# ÖNEMLİ: CORSMiddleware'i *ayrı* olarak ekle
 app.add_middleware(
-    SanitizerMiddleware,
-    allow_origins=origins,
+    CORSMiddleware,
+    allow_origins=[origin for origin in origins if origin], # None değerleri filtrele
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"]
-    )
+    allow_headers=["*"],
+)
+
+# SanitizerMiddleware'i CORS parametreleri OLMADAN ekle
+app.add_middleware(SanitizerMiddleware)
 
 # API başlangıç zamanını kaydet
 START_TIME = datetime.datetime.now()
