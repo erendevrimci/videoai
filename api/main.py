@@ -1,17 +1,17 @@
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) # Kaldırıldı
 from fastapi import FastAPI, Depends, Request
-from RequestSchemes.ScriptRequest import ScriptRequest
-from RequestSchemes.VoiceoverRequest import VoiceoverRequest
-from ResponseSchemes.ScriptResponse import ScriptResponse
-from ResponseSchemes.VoiceoverResponse import VoiceoverResponse
-from ResponseSchemes.CaptionResponse import CaptionResponse
-from RequestSchemes.CaptionRequest import CaptionRequest
-from RequestSchemes.VideoEditRequest import VideoEditRequest
-from ResponseSchemes.VideoEditResponse import VideoEditResponse
-from RequestSchemes.ProjectRequest import ProjectRequest
-from ResponseSchemes.ProjectResponse import ProjectResponse
+from api.RequestSchemes.ScriptRequest import ScriptRequest # Güncellendi
+from api.RequestSchemes.VoiceoverRequest import VoiceoverRequest # Güncellendi
+from api.ResponseSchemes.ScriptResponse import ScriptResponse # Güncellendi
+from api.ResponseSchemes.VoiceoverResponse import VoiceoverResponse # Güncellendi
+from api.ResponseSchemes.CaptionResponse import CaptionResponse # Güncellendi
+from api.RequestSchemes.CaptionRequest import CaptionRequest # Güncellendi
+from api.RequestSchemes.VideoEditRequest import VideoEditRequest # Güncellendi
+from api.ResponseSchemes.VideoEditResponse import VideoEditResponse # Güncellendi
+from api.RequestSchemes.ProjectRequest import ProjectRequest # Güncellendi
+from api.ResponseSchemes.ProjectResponse import ProjectResponse # Güncellendi
 import write_script
 import voice_over
 import captions
@@ -20,8 +20,8 @@ import datetime
 import platform
 import psutil
 import os
-from auth.supabase_auth import get_current_user
-from security.SanitizerMiddleware import SanitizerMiddleware
+from api.auth.supabase_auth import get_current_user # Güncellendi
+from api.security.SanitizerMiddleware import SanitizerMiddleware # Güncellendi
 from supabase import create_client
 from dotenv import load_dotenv
 import logging
@@ -109,8 +109,6 @@ def create_project(request: ProjectRequest, current_user: dict = Depends(get_cur
     except Exception as e:
         return ProjectResponse(success=False, message=str(e))
 
-
-
 @app.post("/script", response_model=ScriptResponse)
 def generate_script(request: ScriptRequest, current_user: dict = Depends(get_current_user)):
     try:
@@ -194,7 +192,7 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
         project_id = request.project_id
         try:
             # Sanitizer middleware ile işlenmemiş olması durumunda manuel olarak sanitize et
-            from security.sanitizer import sanitize_input
+            from api.security.sanitizer import sanitize_input
             project_id = sanitize_input(project_id, context="script")
         except Exception as e:
             print(f"Script sanitize hatası: {str(e)}")
@@ -227,7 +225,6 @@ def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_
         return CaptionResponse(success=True, message="Captions generated successfully")
     except Exception as e:
         return CaptionResponse(success=False, message=str(e))
-
 
 @app.post("/video-edit", response_model=VideoEditResponse)
 def edit_video(request: VideoEditRequest, current_user: dict = Depends(get_current_user)):

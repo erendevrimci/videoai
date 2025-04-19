@@ -1,6 +1,7 @@
 from starlette.middleware.base import BaseHTTPMiddleware
 from fastapi import Request, Response, status
-from security.sanitizer import sanitize_dict, sanitize_input, SQLInjectionError
+from fastapi.responses import JSONResponse
+from .sanitizer import sanitize_dict, sanitize_input, SQLInjectionError
 import json
 import logging
 
