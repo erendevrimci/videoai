@@ -173,7 +173,7 @@ def get_user_scripts(project_id: int, current_user: dict = Depends(get_current_u
         if project_result.data is None:
             return ScriptResponse(success=False, message="Project not found")
         script_id = project_result.data[0]["script_id"]
-        result = supabase.table("scripts").select("*").eq("id", script_id).execute()
+        result = supabase.table("scripts").select("id, title, topic, script").eq("id", script_id).execute()
         print(result.data)
         return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
     except Exception as e:
