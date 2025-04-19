@@ -21,6 +21,10 @@ COPY voice_over.py .
 COPY file_manager.py .
 COPY config.py .
 
+# Eksik Python dosyalarını kopyala
+COPY captions.py .
+COPY video_edit.py .
+
 # Gerekli dizinleri oluştur
 RUN mkdir -p /app/context
 RUN mkdir -p /app/api/ResponseSchemes
