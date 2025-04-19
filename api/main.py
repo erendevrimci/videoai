@@ -148,58 +148,38 @@ def generate_script(request: ScriptRequest, current_user: dict = Depends(get_cur
         print(f"Script generation error: {str(e)}")
         traceback.print_exc()
         return ScriptResponse(success=False, message=str(e))
+@app.patch("/update-script")
+def update_script(request: ScriptRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        
+        project_id = request.project_id
+        result = supabase.table("projects").select("script_id").eq("id", project_id).execute()
 
-# @app.get("/scripts", response_model=ScriptResponse)
-# def get_user_scripts(current_user: dict = Depends(get_current_user)):
-#     try:
-#         # Token'dan gelen user_id'yi kullan
-#         user_id = current_user["user_id"]
+        if result.data is None:
+            return ScriptResponse(success=False, message="Project not found")
         
-#         result = supabase.table("scripts").select("*").eq("user_id", user_id).execute()
-#         print(result.data)
-#         return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
-#     except Exception as e:
-#         return ScriptResponse(success=False, message=str(e))
+        script_id = result.data[0]["script_id"]
+        supabase.table("scripts").update({"script": request.script}).eq("id", script_id).execute()
+        return ScriptResponse(success=True, message="Script updated successfully")
+    except Exception as e:
+        return ScriptResponse(success=False, message=str(e))
 
-# @app.get("/script/{title}", response_model=ScriptResponse)
-# def get_user_script_by_topic(title: str, request: Request, current_user: dict = Depends(get_current_user)):
-#     try:
-#         # Token'dan gelen user_id'yi kullan
-#         user_id = current_user["user_id"]
+
+@app.get("/script/{project_id}", response_model=ScriptResponse)
+def get_user_scripts(project_id: int, current_user: dict = Depends(get_current_user)):
+    try:
         
-#         # State içeriğini kontrol et
-#         print("Request state items:", dir(request.state))
-#         print("Request path params:", request.path_params)
-        
-#         # Sanitize edilmiş title parametresini kullan
-#         sanitized_title = title
-        
-#         # State'te sanitized_path_params var mı diye kontrol et
-#         if hasattr(request.state, "sanitized_path_params"):
-#             print("sanitized_path_params state'te bulundu")
-#             sanitized_title = request.state.sanitized_path_params.get("title", title)
-#             print("sanitized_title", sanitized_title)
-#         else:
-#             print("sanitized_path_params state'te bulunamadı")
-#             # Manuel olarak sanitize et
-#             try:
-#                 from security.sanitizer import sanitize_input
-#                 sanitized_title = sanitize_input(title, context="general")
-#                 print("Manuel sanitize edildi:", sanitized_title)
-#             except Exception as e:
-#                 print(f"Manuel sanitize hatası: {str(e)}")
-        
-#         supabase_url = os.environ.get("SUPABASE_URL")
-#         supabase_key = os.environ.get("SUPABASE_KEY")
-#         supabase = create_client(supabase_url, supabase_key)
-#         result = supabase.table("scripts").select("*").eq("user_id", user_id).eq("title", sanitized_title).execute()
-#         if not result.data :
-#             return ScriptResponse(success=False, message="Script not found")
-#         return ScriptResponse(success=True, message="Script fetched successfully", scripts=result.data)
-#     except Exception as e:
-#         import traceback
-#         traceback.print_exc()
-#         return ScriptResponse(success=False, message=str(e))
+        project_result = supabase.table("projects").select("script_id").eq("id", project_id).execute()
+        if project_result.data is None:
+            return ScriptResponse(success=False, message="Project not found")
+        script_id = project_result.data[0]["script_id"]
+        result = supabase.table("scripts").select("*").eq("id", script_id).execute()
+        print(result.data)
+        return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
+    except Exception as e:
+        return ScriptResponse(success=False, message=str(e))
+
+
 
 @app.post("/voice-over", response_model=VoiceoverResponse)
 def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(get_current_user)):
@@ -225,10 +205,8 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
 def get_voice_over(id: str, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
-        supabase_url = os.environ.get("SUPABASE_URL")
-        supabase_key = os.environ.get("SUPABASE_KEY")
-        supabase = create_client(supabase_url, supabase_key)
-        result = supabase.table("voice_over").select("*").eq("user_id", user_id).eq("id", id).execute()
+        
+        result = supabase.table("voice_over").select("*").eq("id", id).execute()
         if not result.data :
             return VoiceoverResponse(success=False, message="Voice over not found")
         return VoiceoverResponse(success=True, message="Voice over fetched successfully", voiceover=result.data[0]["voice"])
