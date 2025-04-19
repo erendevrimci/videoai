@@ -22,6 +22,9 @@ import re # get_num_segments için import
 
 load_dotenv()
 
+# Initialize the logger HERE, before the try-except block
+logger = Logger.get_logger("video_edit")
+
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
 # Import performance-enhanced render_timeline
 try:
