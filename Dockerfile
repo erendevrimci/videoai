@@ -20,8 +20,6 @@ COPY write_script.py .
 COPY voice_over.py .
 COPY file_manager.py .
 COPY config.py .
-
-# Eksik Python dosyalarını kopyala
 COPY captions.py .
 COPY video_edit.py .
 
