@@ -24,6 +24,7 @@ COPY captions.py .
 COPY video_edit.py .
 COPY timeline_manager.py .
 COPY auto_editor/ /app/auto_editor/
+COPY logging_system/ /app/logging_system/
 
 # Gerekli dizinleri oluştur
 RUN mkdir -p /app/context
