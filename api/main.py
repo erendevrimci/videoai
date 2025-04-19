@@ -1,8 +1,8 @@
 import sys
 import os
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) # Kaldırıldı
+
 from fastapi import FastAPI, Depends, Request
-from api.RequestSchemes.ScriptRequest import ScriptRequest # Güncellendi
+from api.RequestSchemes.ScriptRequest import ScriptRequest 
 from api.RequestSchemes.VoiceoverRequest import VoiceoverRequest # Güncellendi
 from api.ResponseSchemes.ScriptResponse import ScriptResponse # Güncellendi
 from api.ResponseSchemes.VoiceoverResponse import VoiceoverResponse # Güncellendi
@@ -34,7 +34,19 @@ security_logger.setLevel(logging.DEBUG)
 load_dotenv()
 
 app = FastAPI()
-app.add_middleware(SanitizerMiddleware)
+
+origins = [
+    # os.environ.get("FRONTEND_TEST_URL"),
+    os.environ.get("FRONTEND_PROD_URL")
+]
+
+app.add_middleware(
+    SanitizerMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+    )
 
 # API başlangıç zamanını kaydet
 START_TIME = datetime.datetime.now()
