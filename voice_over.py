@@ -122,7 +122,9 @@ def main(project_id: int, channel_number: Optional[int] = None) -> None:
         file=voice,
         file_options={"content-type": "audio/mpeg"}
     )
-    
+
+    signed_url_raw = supabase.storage.from_("voice-over-files").create_signed_url(file_name, 3600)
+    signed_url = signed_url_raw.data[0]["signed_url"]
     response = supabase.table("voice_over").insert({
             "voice_name": file_name,
             "channel_number": channel_number
@@ -139,6 +141,8 @@ def main(project_id: int, channel_number: Optional[int] = None) -> None:
         print(f"Voice generation completed successfully.")
     else:
         print("Voice generation failed.")
+
+    return signed_url
 
 if __name__ == "__main__":
     # Parse command line arguments
