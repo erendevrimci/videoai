@@ -197,6 +197,7 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
         
         channel_number = request.channel_number
         voice_over_url = voice_over.main(project_id, channel_number)
+        
         return VoiceoverResponse(success=True, message="Voice over generated successfully", voice_over_url=voice_over_url)
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
