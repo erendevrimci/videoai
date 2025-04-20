@@ -17,7 +17,7 @@ from supabase import create_client
 from config import config, get_channel_config
 from file_manager import FileManager
 from dotenv import load_dotenv
-
+from api.ResponseSchemes.ScriptResponse import Script
 load_dotenv()
 # Initialize the file manager
 file_mgr = FileManager()
@@ -371,7 +371,7 @@ def extract_topic_from_script(script: str) -> Topic:
     #     return False
 
 
-def save_script(project_id: int, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> Optional[Path]:
+def save_script(project_id: int, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> int:
     """
     Save the generated script to a file.
     
@@ -405,7 +405,7 @@ def save_script(project_id: int, title: str, extracted_topic: str, script: str, 
             "topic": extracted_topic,
             "channel_number": channel_number
         }).execute()
-
+       
         script_id = response.data[0]["id"]
 
         supabase.table("projects").update({
@@ -415,13 +415,13 @@ def save_script(project_id: int, title: str, extracted_topic: str, script: str, 
         if "error" in response:
             raise Exception(f"Database Error: {response}")
             
-       
+        return script_id
         
     except Exception as e:
         raise Exception(f"Error saving script: {str(e)}")
 
 
-def main(project_id: int, title: str, context: str, channel_number: Optional[int] = None) -> str:
+def main(project_id: int, title: str, context: str, channel_number: Optional[int] = None) -> Script:
     """
     Main function to generate a script, extract the topic, and update topics database.
     
@@ -454,8 +454,13 @@ def main(project_id: int, title: str, context: str, channel_number: Optional[int
         extracted_topic = extract_topic_from_script(script)
         
         
-        save_script(project_id, title, extracted_topic.topic, script, channel_number)
-        return script
+        script_id=save_script(project_id, title, extracted_topic.topic, script, channel_number)
+        return Script(
+            id=script_id,
+            title=title,
+            topic=extracted_topic.topic,
+            script=script
+        )
         
         
         print("\nScript generation completed successfully.")
