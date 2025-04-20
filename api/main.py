@@ -139,8 +139,9 @@ def generate_script(request: ScriptRequest, current_user: dict = Depends(get_cur
             context=request.context, 
             channel_number=request.channel_number,
         )
+        script_data = supabase.table("projects").select("script_id").eq("id", project_id).execute()
         script_instance = Script(
-            id=script.id,
+            id=script_data.data[0]["script_id"],
             title=script.title,
             topic=script.topic,
             script=script.script
