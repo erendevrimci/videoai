@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI, Depends, Request
 from api.RequestSchemes.ScriptRequest import ScriptRequest 
 from api.RequestSchemes.VoiceoverRequest import VoiceoverRequest # Güncellendi
-from api.ResponseSchemes.ScriptResponse import ScriptResponse # Güncellendi
+from api.ResponseSchemes.ScriptResponse import ScriptResponse, Script # Güncellendi
 from api.ResponseSchemes.VoiceoverResponse import VoiceoverResponse # Güncellendi
 from api.ResponseSchemes.CaptionResponse import CaptionResponse # Güncellendi
 from api.RequestSchemes.CaptionRequest import CaptionRequest # Güncellendi
@@ -139,10 +139,16 @@ def generate_script(request: ScriptRequest, current_user: dict = Depends(get_cur
             context=request.context, 
             channel_number=request.channel_number,
         )
+        script_instance = Script(
+            id=script.id,
+            title=script.title,
+            topic=script.topic,
+            script=script.script
+        )
         print(script)
-        if script is None:
+        if script_instance is None:
             return ScriptResponse(success=False, message="Script generation failed")
-        return ScriptResponse(success=True, message="Script generated successfully", script=script)
+        return ScriptResponse(success=True, message="Script generated successfully", script=script_instance)
     except Exception as e:
         import traceback
         print(f"Script generation error: {str(e)}")
