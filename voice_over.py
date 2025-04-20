@@ -125,6 +125,7 @@ def main(project_id: int, channel_number: Optional[int] = None) -> None:
 
     signed_url_raw = supabase.storage.from_("voice-over-files").create_signed_url(file_name, 3600)
     signed_url = signed_url_raw.data[0]["signedUrl"]
+    print(f"Signed URL: {signed_url}")
     response = supabase.table("voice_over").insert({
             "voice_name": file_name,
             "channel_number": channel_number
