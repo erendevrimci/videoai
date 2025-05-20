@@ -59,10 +59,7 @@ load_dotenv()
 app = FastAPI()
 
 # CORS Ayarları
-origins = [
-    os.environ.get("FRONTEND_URL", "http://localhost:3000"), # Geliştirme URL'i eklendi
-    os.environ.get("FRONTEND_PROD_URL") # Production URL
-]
+origins = ["*"]
 
 # ÖNEMLİ: CORSMiddleware'i *ayrı* olarak ekle
 app.add_middleware(
