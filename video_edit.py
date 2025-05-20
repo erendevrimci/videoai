@@ -1986,11 +1986,14 @@ def main(project_id: int, timeline_mode: bool = True, timeline: Optional[v3] = N
 
     try:
         # --- Load Initial Data ---
-        project_query = supabase.table("projects").select("script_id,voice_over_id,caption_id").eq("id", project_id).execute()
         
-        script_id = project_query.data[0]["script_id"]
-        voice_id = project_query.data[0]["voice_over_id"]
-        captions_id = project_query.data[0]["caption_id"]
+        
+        script_id_data = supabase.table("scripts").select("id").eq("project_id", project_id).execute()
+        script_id = script_id_data.data[0]["id"]
+        voice_id_data = supabase.table("voice_over").select("id").eq("project_id", project_id).execute()
+        voice_id = voice_id_data.data[0]["id"]
+        captions_id_data = supabase.table("captions").select("id").eq("project_id", project_id).execute()
+        captions_id = captions_id_data.data[0]["id"]
 
         captions_file_data = supabase.table("captions").select("id,caption_file, channel_number").eq("id", captions_id).execute()
         if not captions_file_data.data:
@@ -2278,14 +2281,12 @@ def main(project_id: int, timeline_mode: bool = True, timeline: Optional[v3] = N
                  logger.info(f"Assuming Supabase storage upload successful for {storage_path}, proceeding with database update.")
 
                  if not supabase: raise ConnectionError("Supabase client is not available for table update.")
-                 insert_data = { "video_name": str(storage_path) }
+                 insert_data = { "video_name": str(storage_path), "project_id": project_id }
                  logger.debug(f"Inserting into final_videos table: {insert_data}")
                  video_table_response = supabase.table("final_videos").insert(insert_data).execute()
                  logger.info(f"Video table update completed. Response data: {video_table_response.data}")
-                 project_table_response = supabase.table("projects").update({
-                     "final_video_id": video_table_response.data[0]["id"]
-                 }).eq("id", project_id).execute()
-                 logger.info(f"Project table update completed. Response data: {project_table_response.data}")
+                 
+                
                  upload_successful = True # Sadece burada True yap
 
              except ConnectionError as ce: logger.error(str(ce))

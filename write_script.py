@@ -403,14 +403,12 @@ def save_script(project_id: int, title: str, extracted_topic: str, script: str, 
             "script": script,
             "title": title,
             "topic": extracted_topic,
+            "project_id": project_id,
             "channel_number": channel_number
         }).execute()
        
         script_id = response.data[0]["id"]
 
-        supabase.table("projects").update({
-            "script_id": script_id
-        }).eq("id", project_id).execute()
 
         if "error" in response:
             raise Exception(f"Database Error: {response}")

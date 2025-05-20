@@ -76,7 +76,8 @@ def generate_subtitles(
                 transcription = client.audio.transcriptions.create(
                     model="whisper-1",  # Using hardcoded model as Whisper has limited models
                     file=audio_file_temp,
-                    response_format="srt"
+                    response_format="srt",
+                    prompt="each segment should be between 2 to 4 seconds. This means none of the segments should exceed 6 words."
                 )
         import uuid
         file_name = f"{uuid.uuid4()}.srt"
@@ -107,12 +108,11 @@ def generate_subtitles(
             
         response = supabase.table("captions").insert({
             "caption_file": file_name,
-            "channel_number": channel_number
+            "channel_number": channel_number,
+            "project_id": project_id
         }).execute()
 
-        supabase.table("projects").update({
-            "caption_id": response.data[0]["id"]
-        }).eq("id", project_id).execute()
+        
         
         if "error" in response:
             raise Exception(f"Database Error: {response}")
@@ -204,7 +204,7 @@ def add_captions_to_timeline(
         print(traceback.format_exc())
         return False
 
-def main(project_id: int, channel_number: int = None, use_timeline: bool = False):
+def main(project_id: int,voice_over_id: int, channel_number: int = None, use_timeline: bool = False):
     """
     Main function to run the captions generation process.
     
@@ -246,9 +246,8 @@ def main(project_id: int, channel_number: int = None, use_timeline: bool = False
     supabase = create_client(supabase_url, supabase_key)
 
 
-    voice_over_query = supabase.table("projects").select("voice_over_id").eq("id", project_id).execute()
-    voice_over_id = voice_over_query.data[0]["voice_over_id"]
-    audio_file_data = supabase.table("voice_over").select("voice_name").eq("id", voice_over_id).execute()
+   
+    audio_file_data = supabase.table("voice_over").select("voice_name").eq("project_id", project_id).eq("id", voice_over_id).execute()
 
     audio_file_name = audio_file_data.data[0]["voice_name"]
     audio_file = supabase.storage.from_("voice-over-files").download(audio_file_name)

@@ -89,7 +89,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]
             print(f"Response: {e.response.text}")
         return None
 
-def main(project_id: int, channel_number: Optional[int] = None) -> str:
+def main(project_id: int,script_id: int, channel_number: Optional[int] = None) -> str:
     # """
     # Main function to generate voice from script.
     
@@ -101,9 +101,8 @@ def main(project_id: int, channel_number: Optional[int] = None) -> str:
     supabase_key = os.environ.get("SUPABASE_KEY")
     supabase = create_client(supabase_url, supabase_key)
 
-    project_query = supabase.table("projects").select("script_id").eq("id", project_id).execute()
-    script_id = project_query.data[0]["script_id"]
-    script_query = supabase.table("scripts").select("script").eq("id", script_id).execute()
+    
+    script_query = supabase.table("scripts").select("script").eq("project_id", project_id).eq("id", script_id).execute()
     script_text = script_query.data[0]["script"]
 
 
@@ -130,13 +129,11 @@ def main(project_id: int, channel_number: Optional[int] = None) -> str:
 
     response = supabase.table("voice_over").insert({
             "voice_name": file_name,
-            "channel_number": channel_number
+            "channel_number": channel_number,
+            "project_id": project_id
         }).execute()
     
     
-    update_project_query = supabase.table("projects").update({
-        "voice_over_id": response.data[0]["id"]
-    }).eq("id", project_id).execute()
 
     if "error" in response:
         raise Exception(f"Database Error: {response}")
@@ -144,7 +141,7 @@ def main(project_id: int, channel_number: Optional[int] = None) -> str:
         print(f"Voice generation completed successfully.")
     else:
         print("Voice generation failed.")
-
+    
     return signed_url
 
 if __name__ == "__main__":

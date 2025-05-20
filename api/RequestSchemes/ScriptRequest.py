@@ -7,3 +7,4 @@ class ScriptRequest(BaseModel):
     context: str
     channel_number: Optional[int] = 1
     script: Optional[str] = None
+    script_id: Optional[int] = None
