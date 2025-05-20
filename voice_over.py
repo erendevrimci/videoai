@@ -89,95 +89,23 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]
             print(f"Response: {e.response.text}")
         return None
 
-def main(user_id: str, script_id: int, channel_number: Optional[int] = None) -> None:
+def main(project_id: int,script_id: int, channel_number: Optional[int] = None) -> str:
     # """
     # Main function to generate voice from script.
     
     # Args:
     #     channel_number (Optional[int]): Channel number to use. If None, uses default channel.
     # """
-    # # Initialize file manager
-    # file_mgr = FileManager()
-    
-    # # Use default channel if none specified
-    # if channel_number is None:
-    #     channel_number = config.default_channel
-    
-    # # First check if we have current_file_paths.json from write_script.py
-    # file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-    # dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-    
-    # script_file_paths = []
-    
-    # # If we have the dynamic paths, use those first
-    # if dynamic_file_paths and "script_file" in dynamic_file_paths:
-    #     # Update config with dynamic paths
-    #     script_file = dynamic_file_paths["script_file"]
-    #     if "voice_file" in dynamic_file_paths:
-    #         config.file_paths.voice_file = dynamic_file_paths["voice_file"]
-            
-    #     # Add the dynamic script path as our first option
-    #     dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
-    #     script_file_paths.append(dynamic_script_path)
-    #     print(f"Using dynamic script path: {dynamic_script_path}")
-    
-    # # Add default paths as fallback options
-    # script_file_paths.extend([
-    #     file_mgr.get_script_path(channel_number, config.file_paths.script_file),
-    #     file_mgr.get_abs_path(config.file_paths.script_file)
-    # ])
-    
-    # script_text = None
-    # used_path = None
-    
-    # # Try each path until we find one that works
-    # for path in script_file_paths:
-    #     script_text = file_mgr.read_text(path)
-    #     if script_text is not None:
-    #         used_path = path
-    #         break
-    
-    # if script_text is None:
-    #     # If all paths failed, try generating a script first
-    #     print(f"Failed to load script file from any path: {script_file_paths}")
-    #     print("Attempting to generate a script first...")
-        
-    #     import write_script
-    #     write_script.main(channel_number)
-        
-    #     # Check for the dynamic file paths again
-    #     dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-    #     if dynamic_file_paths and "script_file" in dynamic_file_paths:
-    #         # Use the newly generated script path
-    #         script_file = dynamic_file_paths["script_file"]
-    #         dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
-    #         script_text = file_mgr.read_text(dynamic_script_path)
-    #         used_path = dynamic_script_path
-            
-    #         # Update voice file path for generation
-    #         if "voice_file" in dynamic_file_paths:
-    #             config.file_paths.voice_file = dynamic_file_paths["voice_file"]
-    #     else:
-    #         # Try the default paths again
-    #         for path in script_file_paths:
-    #             script_text = file_mgr.read_text(path)
-    #             if script_text is not None:
-    #                 used_path = path
-    #                 break
-                
-    #     if script_text is None:
-    #         print("Could not generate or load a script. Aborting voice generation.")
-    #         return
-    
-    # print(f"Reading script from {used_path}...")
-    
-    # Generate voice
+   
     supabase_url = os.environ.get("SUPABASE_URL")
     supabase_key = os.environ.get("SUPABASE_KEY")
     supabase = create_client(supabase_url, supabase_key)
-    script_query = supabase.table("scripts").select("script").eq("id", script_id).execute()
+
+    
+    script_query = supabase.table("scripts").select("script").eq("project_id", project_id).eq("id", script_id).execute()
     script_text = script_query.data[0]["script"]
-    print(f"script_text: {script_text}")
+
+
     voice = generate_voice(script_text, channel_number)
     
   
@@ -185,27 +113,36 @@ def main(user_id: str, script_id: int, channel_number: Optional[int] = None) -> 
     
     import uuid
 
-    # Dosya adını script ID'si ile oluştur
-    file_name = f"{user_id}_{script_id}_{uuid.uuid4()}.mp3"
+
+    file_name = f"{uuid.uuid4()}.mp3"
+
     result = supabase.storage.from_("voice-over-files").upload(
         path=file_name,
         file=voice,
         file_options={"content-type": "audio/mpeg"}
     )
-    file_url = supabase.storage.from_("voice-over-files").get_public_url(file_name)
+
+    signed_url_raw = supabase.storage.from_("voice-over-files").create_signed_url(file_name, 3600)
+    
+    signed_url = signed_url_raw.get('signedURL')
+   
+
     response = supabase.table("voice_over").insert({
-            "user_id": user_id,
-            "script_id": script_id,
-            "voice_url": file_url,
-            "channel_number": channel_number
+            "voice_name": file_name,
+            "channel_number": channel_number,
+            "project_id": project_id
         }).execute()
-    print(response)
+    
+    
+
     if "error" in response:
         raise Exception(f"Database Error: {response}")
     if voice:
         print(f"Voice generation completed successfully.")
     else:
         print("Voice generation failed.")
+    
+    return signed_url
 
 if __name__ == "__main__":
     # Parse command line arguments

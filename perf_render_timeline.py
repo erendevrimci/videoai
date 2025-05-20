@@ -193,7 +193,7 @@ def render_timeline_with_monitoring(timeline: v3, output_path: Path, channel_num
                     render_stream = next(render_generator)
                     
                     # Setup progress bar
-                    from utils.bar import Bar
+                    from auto_editor.utils.bar import Bar
                     bar = Bar("Rendering", max=100)
                     frame_count = 0
                     expected_frames = 0

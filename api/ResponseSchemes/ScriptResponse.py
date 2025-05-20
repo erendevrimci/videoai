@@ -3,11 +3,10 @@ from typing import Optional
 
 class Script(BaseModel):
     id : int
-    user_id : str
-    script : str
-    title : str
-    topic : str
-    channel_number : int
+    title : Optional[str] = None
+    topic : Optional[str] = None
+    script : Optional[str] = None
+    created_at : Optional[str] = None
 
 class ScriptResponse(BaseModel):
     success : bool

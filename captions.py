@@ -21,8 +21,7 @@ file_mgr = FileManager()
 def generate_subtitles(
     audio_file: bytes, 
     supabase: Client,
-    user_id: str,
-    voice_over_id: int,
+    project_id: int,
     channel_number: int = None
 ) -> bool:
     """
@@ -77,7 +76,8 @@ def generate_subtitles(
                 transcription = client.audio.transcriptions.create(
                     model="whisper-1",  # Using hardcoded model as Whisper has limited models
                     file=audio_file_temp,
-                    response_format="srt"
+                    response_format="srt",
+                    prompt="each segment should be between 2 to 4 seconds. This means none of the segments should exceed 6 words."
                 )
         import uuid
         file_name = f"{uuid.uuid4()}.srt"
@@ -107,11 +107,13 @@ def generate_subtitles(
                 raise Exception(f"Storage Error: {str(e)}")
             
         response = supabase.table("captions").insert({
-            "user_id": user_id,
-            "voice_over_id": voice_over_id,
             "caption_file": file_name,
-            "channel_number": channel_number
+            "channel_number": channel_number,
+            "project_id": project_id
         }).execute()
+
+        
+        
         if "error" in response:
             raise Exception(f"Database Error: {response}")
         return True
@@ -202,7 +204,7 @@ def add_captions_to_timeline(
         print(traceback.format_exc())
         return False
 
-def main(voiceover_id: int, user_id: str, channel_number: int = None, use_timeline: bool = False):
+def main(project_id: int,voice_over_id: int, channel_number: int = None, use_timeline: bool = False):
     """
     Main function to run the captions generation process.
     
@@ -242,12 +244,15 @@ def main(voiceover_id: int, user_id: str, channel_number: int = None, use_timeli
     supabase_url = os.environ.get("SUPABASE_URL")
     supabase_key = os.environ.get("SUPABASE_KEY")
     supabase = create_client(supabase_url, supabase_key)
-    audio_file_data = supabase.table("voice_over").select("voice_name").eq("id", voiceover_id).execute()
-    print(audio_file_data)
+
+
+   
+    audio_file_data = supabase.table("voice_over").select("voice_name").eq("project_id", project_id).eq("id", voice_over_id).execute()
+
     audio_file_name = audio_file_data.data[0]["voice_name"]
     audio_file = supabase.storage.from_("voice-over-files").download(audio_file_name)
     # Generate subtitles
-    success = generate_subtitles(audio_file, supabase, user_id, voiceover_id, channel_number)
+    success = generate_subtitles(audio_file, supabase, project_id, channel_number)
     
     if success:
         print(f"Caption generation completed successfully for channel {channel_number}")

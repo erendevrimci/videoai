@@ -66,12 +66,13 @@ class FileManager:
             path = Path(path)
         return path.resolve()
     
-    def get_abs_path(self, rel_path: PathLike) -> Path:
+    def get_abs_path(self, rel_path: PathLike, from_root: bool = False) -> Path:
         """
         Convert a path relative to the project base to an absolute path.
         
         Args:
             rel_path: A path relative to the project base directory
+            from_root: Whether to use application root directory instead of base_dir
             
         Returns:
             An absolute Path object
@@ -79,6 +80,12 @@ class FileManager:
         path = self.normalize_path(rel_path)
         if path.is_absolute():
             return path
+        
+        if from_root:
+            # Use the root directory of the application instead of base_dir
+            root_dir = Path(__file__).resolve().parent.parent
+            return (root_dir / path).resolve()
+            
         return (self.base_dir / path).resolve()
     
     def get_channel_output_path(self, channel_number: int, create: bool = True) -> Path:

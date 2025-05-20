@@ -17,6 +17,8 @@ from supabase import create_client
 from config import config, get_channel_config
 from file_manager import FileManager
 from dotenv import load_dotenv
+from api.ResponseSchemes.ScriptResponse import Script
+load_dotenv()
 # Initialize the file manager
 file_mgr = FileManager()
 
@@ -369,7 +371,7 @@ def extract_topic_from_script(script: str) -> Topic:
     #     return False
 
 
-def save_script(user_id: str, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> Optional[Path]:
+def save_script(project_id: int, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> int:
     """
     Save the generated script to a file.
     
@@ -392,31 +394,32 @@ def save_script(user_id: str, title: str, extracted_topic: str, script: str, cha
         supabase_url = os.environ.get("SUPABASE_URL")
         supabase_key = os.environ.get("SUPABASE_KEY")
         
-        # Supabase istemcisini oluştur - service_role ile
+    
         supabase = create_client(supabase_url, supabase_key)
         
        
         
-        # Veri ekleme işlemi - service_role anahtarı RLS'i devre dışı bırakır
         response = supabase.table("scripts").insert({
-            "user_id": user_id, 
             "script": script,
             "title": title,
             "topic": extracted_topic,
+            "project_id": project_id,
             "channel_number": channel_number
         }).execute()
-        
+       
+        script_id = response.data[0]["id"]
+
+
         if "error" in response:
             raise Exception(f"Database Error: {response}")
-            return None
-       
+            
+        return script_id
         
     except Exception as e:
-        print(f"Error saving script: {str(e)}")
-        return None
+        raise Exception(f"Error saving script: {str(e)}")
 
 
-def main(user_id: str, title: str, context: str, channel_number: Optional[int] = None) -> None:
+def main(project_id: int, title: str, context: str, channel_number: Optional[int] = None) -> Script:
     """
     Main function to generate a script, extract the topic, and update topics database.
     
@@ -445,18 +448,21 @@ def main(user_id: str, title: str, context: str, channel_number: Optional[int] =
             
         
             
-        # Extract topic from script
+        
         extracted_topic = extract_topic_from_script(script)
         
-        # Save the generated script with JWT token for authorization
-        script_path = save_script(user_id, title, extracted_topic.topic, script, channel_number)
         
-        if script_path is None:
-            print("Failed to save script.")
-            return
+        script_id=save_script(project_id, title, extracted_topic.topic, script, channel_number)
+        return Script(
+            id=script_id,
+            title=title,
+            topic=extracted_topic.topic,
+            script=script
+        )
+        
         
         print("\nScript generation completed successfully.")
-        return script
+        
         
     except Exception as e:
         print(f"Error in script generation process: {str(e)}")

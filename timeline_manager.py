@@ -36,6 +36,8 @@ from typing import List, Dict, Any, Optional, Union, Tuple, Type
 from fractions import Fraction
 import os
 import jsonschema
+import shutil
+import sys
 
 # Import auto-editor components
 from auto_editor.timeline import v1, v3, TlVideo, TlAudio, TlImage, TlRect
@@ -270,6 +272,24 @@ class TimelineEncoder(json.JSONEncoder):
         # Let the base class handle everything else
         return super().default(obj)
 
+# <<< AUTO_EDITOR_AVAILABLE TANIMLAMASI BURADA OLMALI >>>
+try:
+    # auto-editor importları
+    from auto_editor.timeline import v1, v3, TlVideo, TlAudio, TlImage, TlRect
+    from auto_editor.ffwrapper import initFileInfo, FileInfo
+    from auto_editor.utils.chunks import Chunks
+    from auto_editor.utils.log import Log
+    AUTO_EDITOR_AVAILABLE = True # Modül seviyesinde tanımlama
+except ImportError as e:
+    print(f"Warning: auto-editor library not found or incomplete: {e}. Timeline functionality will be limited.", file=sys.stderr)
+    AUTO_EDITOR_AVAILABLE = False # Modül seviyesinde tanımlama
+    # Yerine geçici sınıflar (gerekirse)
+    class v3: pass
+    class TlVideo: pass
+    class TlAudio: pass
+    class FileInfo: pass
+# <<< TANIMLAMA SONU >>>
+
 
 class TimelineManager:
     """
@@ -289,31 +309,95 @@ class TimelineManager:
         """
         self.channel_number = channel_number
         self.log = log or dummy_log()
-        
-        # Try to import logging system for VideoAI-specific logging
+        self.file_mgr = FileManager() # FileManager örneği
+
         try:
-            from logging_system import Logger, LogLevel
-            self.logger = Logger.get_logger("timeline_manager")
+            from logging_system.logger import Logger
+            self.logger = Logger.get_logger(f"TimelineManager_Ch{self.channel_number or 'Default'}")
             self.has_logging = True
         except ImportError:
+            self.logger = None # Veya basit bir print logger
             self.has_logging = False
-            
+            print("[TimelineManager] Logging system not available.")
+
+        self.auto_editor_available = AUTO_EDITOR_AVAILABLE
+
+        if not self.auto_editor_available:
+             if self.logger: self.logger.critical("auto-editor library not found or failed to import. Timeline operations are unavailable.")
+             else: print("[CRITICAL] auto-editor library not found or failed to import. Timeline operations are unavailable.")
+
+        self._ffmpeg_path = shutil.which("ffmpeg")
+        self._ffprobe_path = shutil.which("ffprobe")
+        if not self._ffmpeg_path or not self._ffprobe_path:
+            msg = f"ffmpeg ({self._ffmpeg_path}) or ffprobe ({self._ffprobe_path}) not found in PATH. File probing might fail."
+            if self.logger: self.logger.warning(msg)
+            else: print(f"[WARNING] {msg}")
+
+        # <<< Config ve dizin ayarları - save_directory -> storage_directory >>>
+        try:
+            from config import config, get_timeline_config # Import here
+            self.timeline_config = get_timeline_config(self.channel_number)
+            self.output_base_dir = self.file_mgr.get_channel_output_path(self.channel_number)
+            # --- Düzeltme: save_directory yerine storage_directory kullan ---
+            timeline_save_dir_name = getattr(self.timeline_config, 'storage_directory', 'timelines') # Default 'timelines'
+            self.timeline_dir = self.output_base_dir / timeline_save_dir_name
+            # --- Düzeltme Sonu ---
+            self.file_mgr.ensure_dir_exists(self.timeline_dir)
+            if self.logger: self.logger.info(f"TimelineManager initialized. Timeline directory: {self.timeline_dir}")
+        except ImportError:
+             if self.logger: self.logger.error("Config system not found. Cannot initialize timeline directories.")
+             else: print("[ERROR] Config system not found.")
+             self.timeline_config = None
+             self.timeline_dir = None
+        except AttributeError as ae: # Özellikle storage_directory hatası için
+             if self.logger: self.logger.error(f"Config attribute error during TimelineManager init: {ae}. Check config structure.", exc_info=True)
+             else: print(f"[ERROR] Config attribute error during TimelineManager init: {ae}")
+             self.timeline_config = None
+             self.timeline_dir = None
+        except Exception as e_init:
+             if self.logger: self.logger.error(f"Error during TimelineManager config/dir setup: {e_init}", exc_info=True)
+             else: print(f"[ERROR] Error during TimelineManager config/dir setup: {e_init}")
+             self.timeline_config = None
+             self.timeline_dir = None
+
+    # --- Logging Yardımcı Metotları ---
     def _log_info(self, message: str) -> None:
         """Log an info message using the appropriate logging system."""
-        if self.has_logging:
+        if self.has_logging and self.logger:
             self.logger.info(message)
         else:
-            print(f"[TimelineManager] {message}")
-            
-    def _log_error(self, message: str, exc_info: Optional[Exception] = None) -> None:
-        """Log an error message using the appropriate logging system."""
-        if self.has_logging:
-            self.logger.error(message, exc_info=exc_info is not None)
+            print(f"[INFO] {message}") # Fallback to print
+
+    def _log_warning(self, message: str) -> None:
+        """Log a warning message using the appropriate logging system."""
+        if self.has_logging and self.logger:
+            self.logger.warning(message)
         else:
-            print(f"[TimelineManager ERROR] {message}")
+            print(f"[WARNING] {message}") # Fallback to print
+
+    def _log_error(self, message: str, exc_info: bool = False) -> None:
+        """Log an error message using the appropriate logging system."""
+        # exc_info=True yerine doğrudan exception nesnesini geçmek daha iyi olabilir
+        # logger.error(message, exc_info=exc_info) yerine logger.exception(message)
+        if self.has_logging and self.logger:
+            if exc_info:
+                 # logger.exception() traceback'i otomatik ekler
+                 self.logger.exception(message)
+            else:
+                 self.logger.error(message)
+        else:
+            print(f"[ERROR] {message}") # Fallback to print
             if exc_info:
                 traceback.print_exc()
-                
+
+    def _log_debug(self, message: str) -> None:
+         """Log a debug message using the appropriate logging system."""
+         # Debug logları genellikle sadece logger varsa yazdırılır
+         if self.has_logging and self.logger:
+             self.logger.debug(message)
+         # else: pass # Fallback olarak print etmemek debug için daha yaygındır
+    # --- Logging Yardımcı Metotları Sonu ---
+
     def _get_timeline_path(self, timeline_name: str) -> Path:
         """
         Get the path for storing a timeline file.
@@ -452,91 +536,202 @@ class TimelineManager:
             self._log_error(f"Error creating v3 timeline: {e}", exc_info=e)
             raise
             
-    def clip_sequence_to_timeline(self, 
-                                clip_sequence: ClipSequence, 
-                                output_width: int = 1080, 
-                                output_height: int = 1920, 
-                                framerate: Union[int, float, Fraction] = 30,
-                                clips_dir: Optional[PathLike] = None) -> v3:
+    def clip_sequence_to_timeline(self,
+                                clip_sequence: List[Dict],
+                                output_width: Optional[int] = None,
+                                output_height: Optional[int] = None,
+                                framerate: Optional[Union[int, float, Fraction]] = None,
+                                sample_rate: Optional[int] = None,
+                                background_color: str = '#000000',
+                                clips_dir: Optional[Path] = None,
+                                voice_file_path: Optional[Union[str, Path]] = None) -> v3:
         """
-        Convert a VideoAI clip sequence to a v3 timeline.
-        
-        Args:
-            clip_sequence: List of VideoAI clip dictionaries
-            output_width: Output video width in pixels
-            output_height: Output video height in pixels
-            framerate: Output framerate
-            clips_dir: Base directory for clip paths (defaults to config value)
-            
-        Returns:
-            v3 timeline object
+        Eski `clip_sequence` formatını (ve ses dosyasını) yeni `v3` timeline formatına çevirir.
+        Kliplerin `clips_dir` içinde bulunduğu varsayılır.
         """
+        # --- Düzeltme: Fallback v3() çağrısına src ve v1 ekle ---
+        default_fallback_v3 = v3(src=None, v1=None, res=(1080,1920), tb=Fraction(30,1), sr=48000, background='#000000', v=[[]], a=[[]])
+        if not self.auto_editor_available:
+            self._log_error("Cannot create timeline: auto-editor not available.")
+            return default_fallback_v3 # Düzeltilmiş fallback
+        # --- Düzeltme Sonu ---
+
+        # <<< Config'i burada tekrar al (veya __init__'ten emin ol) >>>
+        if self.timeline_config is None:
+             try:
+                 from config import get_timeline_config
+                 self.timeline_config = get_timeline_config(self.channel_number)
+             except ImportError:
+                  self._log_error("Config system not available. Cannot determine timeline settings.")
+                  # Varsayılan değerlerle devam etmeye çalış
+                  class MockTimelineConfig: # Basit bir mock config
+                      default_width = 1080
+                      default_height = 1920
+                      default_samplerate = 48000
+                      default_framerate = Fraction(30,1)
+                  self.timeline_config = MockTimelineConfig()
+
+        if clips_dir is None:
+            raise ValueError("clips_dir must be provided to locate clip files.")
+        clips_dir = Path(clips_dir)
+
+        DEFAULT_RES = (1080, 1920)
+        DEFAULT_SAMPLERATE = 48000
+        DEFAULT_FRAMERATE = Fraction(30, 1)
+
+        res_w = output_width if output_width is not None else getattr(self.timeline_config, 'default_width', DEFAULT_RES[0])
+        res_h = output_height if output_height is not None else getattr(self.timeline_config, 'default_height', DEFAULT_RES[1])
+        res = (res_w, res_h)
+        sr = sample_rate if sample_rate is not None else getattr(self.timeline_config, 'default_samplerate', DEFAULT_SAMPLERATE)
+        fr_input = framerate if framerate is not None else getattr(self.timeline_config, 'default_framerate', DEFAULT_FRAMERATE)
         try:
-            # Ensure we have clip paths
-            if clips_dir is None:
-                from config import config
-                clips_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
-                
-            # Create empty v3 timeline
-            timeline = self.create_v3_timeline(
-                width=output_width,
-                height=output_height,
-                framerate=framerate
-            )
-            
-            # Convert framerate to Fraction if needed
-            if not isinstance(framerate, Fraction):
-                framerate = Fraction(framerate).limit_denominator(1000)
-                
-            # Process each clip and add to timeline
-            current_time = 0  # Current timeline position in frames
-            
-            for clip in clip_sequence:
-                clip_name = clip.get('clip_name', '')
-                start_time = clip.get('start_time', 0)
-                duration = clip.get('duration', 0)
-                
-                # Calculate frame numbers
-                start_frame = int(current_time)
-                duration_frames = int(duration * framerate)
-                
-                # Find the actual clip file
-                clip_path = Path(clips_dir) / clip_name
-                video_file = file_mgr.find_video_file(clip_path)
-                
-                if not video_file:
-                    self._log_error(f"Could not find video file for clip: {clip_name}")
+             fr = Fraction(fr_input).limit_denominator(10000)
+        except (ValueError, TypeError):
+             self._log_error(f"Invalid framerate value '{fr_input}'. Using default {DEFAULT_FRAMERATE}.")
+             fr = DEFAULT_FRAMERATE
+
+        self._log_info(f"Creating timeline: Res={res[0]}x{res[1]}, FPS={float(fr):.2f}, SR={sr}, BG={background_color}")
+
+        sources_dict: Dict[str, FileInfo] = {}
+        video_clips: List[TlVideo] = []
+        audio_clips: List[TlAudio] = []
+        current_offset = 0
+        first_clip_info: Optional[FileInfo] = None # İlk klibin bilgisini saklamak için
+
+        self._log_info(f"Processing {len(clip_sequence)} video segments...")
+        for i, segment in enumerate(clip_sequence):
+            clip_name = segment.get('clip_name')
+            start_time_sec = segment.get('start_time', 0.0)
+            duration_sec = segment.get('duration')
+
+            if not clip_name or duration_sec is None or duration_sec <= 0:
+                self._log_warning(f"Segment {i}: Invalid data (clip_name='{clip_name}', duration='{duration_sec}'). Skipping.")
+                continue
+
+            clip_path = clips_dir / clip_name
+            source_id = str(clip_path)
+            if source_id not in sources_dict:
+                info = self._probe_file(clip_path)
+                if info is None:
+                    self._log_error(f"Segment {i}: Failed to probe '{clip_name}'. Skipping.")
                     continue
-                
-                # Initialize file info
-                src = initFileInfo(str(video_file), self.log)
-                
-                # Calculate offset in source clip (in frames)
-                offset_frames = int(start_time * framerate)
-                
-                # Create TlVideo object
-                video_obj = TlVideo(
-                    start=start_frame,
-                    dur=duration_frames,
-                    src=src,
-                    offset=offset_frames,
-                    speed=1.0,
-                    stream=0
-                )
-                
-                # Add to first video track
-                timeline.v[0].append(video_obj)
-                
-                # Update current time
-                current_time += duration_frames
-                
-            self._log_info(f"Converted clip sequence with {len(clip_sequence)} clips to timeline")
+                if not info.videos:
+                    self._log_error(f"Segment {i}: No video stream found in '{clip_name}'. Skipping.")
+                    continue
+                sources_dict[source_id] = info
+                if first_clip_info is None: # İlk başarılı probe edilen klibi sakla
+                    first_clip_info = info
+            source_info = sources_dict[source_id]
+
+            # FPS ve frame hesaplamaları
+            # source_info.videos[0] varlığını kontrol et (probe başarılı olsa bile garanti değil)
+            if not source_info.videos:
+                 self._log_error(f"Segment {i}: Source info for '{clip_name}' unexpectedly missing video stream after probe. Skipping.")
+                 continue
+            clip_fps = source_info.videos[0].fps
+            if clip_fps <= 0:
+                 self._log_warning(f"Segment {i}: Clip '{clip_name}' has invalid FPS ({clip_fps}). Using timeline FPS ({fr}).")
+                 clip_fps = fr
+            start_frame = int(start_time_sec * clip_fps)
+            duration_frames = int(duration_sec * fr)
+
+            # TlVideo oluşturma (src=source_info)
+            tl_clip = TlVideo(
+                start=current_offset,
+                dur=duration_frames,
+                src=source_info,
+                offset=start_frame,
+                speed=1.0,
+                stream=0
+            )
+            video_clips.append(tl_clip)
+            current_offset += duration_frames
+            self._log_debug(f"Added video segment {i}: {Path(clip_name).name} ({duration_sec:.2f}s) -> Offset: {current_offset} frames")
+
+        if voice_file_path:
+            voice_path = Path(voice_file_path)
+            self._log_info(f"Processing voice file: {voice_path.name}")
+            if voice_path.exists():
+                voice_source_id = str(voice_path)
+                if voice_source_id not in sources_dict:
+                    info = self._probe_file(voice_path)
+                    if info is None:
+                         self._log_error(f"Failed to probe voice file '{voice_path.name}'. Skipping voice.")
+                    elif not info.audios:
+                         self._log_error(f"No audio stream found in voice file '{voice_path.name}'. Skipping voice.")
+                         info = None
+                    else:
+                         sources_dict[voice_source_id] = info
+                         detected_sr = info.audios[0].samplerate
+                         if detected_sr != sr:
+                             self._log_info(f"Updating timeline sample rate from {sr} to voice file's {detected_sr}")
+                             sr = detected_sr
+                else:
+                    info = sources_dict[voice_source_id]
+
+                if info and info.audios:
+                    voice_duration_frames = int(info.duration * fr)
+                    tl_audio = TlAudio(
+                        start=0,
+                        dur=voice_duration_frames,
+                        src=info,
+                        offset=0,
+                        speed=1.0,
+                        volume=1.0,
+                        stream=0
+                    )
+                    audio_clips.append(tl_audio)
+                    self._log_info(f"Added voice audio track: {voice_path.name} ({info.duration:.2f}s)")
+            else:
+                self._log_error(f"Voice file path provided but not found: {voice_path}. Skipping voice.")
+
+        # --- Düzeltme: v3 constructor'ına src=first_clip_info ve v1=None ekle ---
+        try:
+            timeline = v3(
+                src=first_clip_info, # İlk klibin bilgisini veya None ver
+                v1=None,             # v1 genellikle None olabilir
+                tb=fr,
+                sr=sr,
+                res=res,
+                background=background_color,
+                v=[video_clips],
+                a=[audio_clips],
+            )
+            # --- İYİLEŞTİRME: Metadata'yı videoai_metadata içine ekle ---
+            from datetime import datetime
+            timeline.videoai_metadata = {
+                'version': '1.0', # Veya uygun bir versiyon
+                'type': 'v3',
+                'created_at': datetime.now().isoformat(),
+                'description': f'Generated by VideoAI TimelineManager from {len(clip_sequence)} segments.',
+                'channel': self.channel_number
+                # Gelecekte buraya başka VideoAI özel verileri eklenebilir
+            }
+            # --- İYİLEŞTİRME SONU ---
+
+            # Calculate total duration using timeline.end
+            if timeline.tb and hasattr(timeline, 'end'):
+                 total_duration_frames = timeline.end
+                 total_duration_sec = total_duration_frames / float(timeline.tb)
+            else:
+                 total_duration_sec = 0
+                 self._log_warning("Could not calculate timeline duration (timeline.end missing or invalid timebase).")
+
+            self._log_info(f"Timeline created successfully. Total duration: {total_duration_sec:.2f} seconds.")
             return timeline
-            
-        except Exception as e:
-            self._log_error(f"Error converting clip sequence to timeline: {e}", exc_info=e)
-            raise
-            
+        except TypeError as e_v3:
+             # v3 oluşturma sırasındaki TypeError'lar
+             self._log_error(f"Error creating v3 object: {e_v3}. Check v3 constructor arguments.", exc_info=True)
+             return default_fallback_v3 # Fallback döndür
+        except AttributeError as e_attr:
+             # _duration veya tb gibi özelliklere erişim hatası
+             self._log_error(f"Attribute error after creating v3 object (likely accessing duration/tb): {e_attr}", exc_info=True)
+             return default_fallback_v3 # Fallback döndür
+        except Exception as e_timeline:
+             # Diğer beklenmedik hatalar
+             self._log_error(f"Unexpected error during final timeline creation: {e_timeline}", exc_info=True)
+             return default_fallback_v3 # Fallback döndür
+
     def serialize_timeline(self, timeline: Union[v1, v3], path: Optional[PathLike] = None,
                            description: str = "", validate: Optional[bool] = None) -> Dict[str, Any]:
         """
@@ -1221,25 +1416,29 @@ class TimelineManager:
         # Add sources for detailed view
         if detail_level == 'detailed':
             result += "\nSources:\n"
-            
-            # Safely get unique sources, handling None sources
             try:
-                unique_sources = []
-                for source in timeline.sources:
-                    if source is not None and hasattr(source, 'path'):
-                        if not any(s.path == source.path for s in unique_sources if hasattr(s, 'path')):
-                            unique_sources.append(source)
-                
-                if not unique_sources:
-                    result += "  No media sources\n"
+                # --- İYİLEŞTİRME: timeline.unique_sources() kullan ---
+                unique_sources_list = list(timeline.unique_sources())
+                if not unique_sources_list:
+                     result += "  No media sources found in timeline.\n"
                 else:
-                    for i, source in enumerate(unique_sources):
-                        result += f"  {i+1}. {source.path.name}"
-                        if hasattr(source, 'video') and source.video:
-                            result += f" ({source.video.width}x{source.video.height}, {source.video.duration:.2f}s)"
-                        result += "\n"
+                     for i, source in enumerate(unique_sources_list):
+                         # source artık FileInfo nesnesi olmalı
+                         source_name = "Unknown Source"
+                         source_details = ""
+                         if source is not None and hasattr(source, 'path'):
+                              source_name = source.path.name
+                         if hasattr(source, 'video') and source.video:
+                              source_details += f" ({source.video.width}x{source.video.height}, {source.video.duration:.2f}s)"
+                         elif hasattr(source, 'audios') and source.audios: # Video yoksa sese bak
+                               source_details += f" (Audio, {source.duration:.2f}s)"
+                         elif hasattr(source, 'duration'): # Genel süre
+                               source_details += f" ({source.duration:.2f}s)"
+
+                         result += f"  {i+1}. {source_name}{source_details}\n"
+                # --- İYİLEŞTİRME SONU ---
             except Exception as e:
-                self._log_error(f"Error listing sources: {e}")
+                self._log_error(f"Error listing sources using unique_sources: {e}", exc_info=True)
                 result += "  Error listing sources\n"
         
         # Draw time marker scale
@@ -1906,3 +2105,21 @@ class TimelineManager:
         
         summary = self.visualize_timeline(timeline, width=width, detail_level=detail_level)
         print(summary)
+
+    def _probe_file(self, file_path: Union[str, Path]) -> Optional[FileInfo]:
+        """ Verilen dosya yolunu ffprobe ile inceler ve FileInfo döndürür. """
+        if not self.auto_editor_available:
+            self._log_error("Cannot probe file: auto-editor not available.")
+            return None
+        file_path = Path(file_path)
+        if not file_path.exists(): self._log_error(f"Cannot probe non-existent file: {file_path}"); return None
+        if not self._ffprobe_path: self._log_error("ffprobe location not known."); return None
+        try:
+            self._log_info(f"Probing file: {file_path.name}")
+            # initFileInfo çağrısı doğru
+            info = initFileInfo(str(file_path), self.log)
+            self._log_info(f"Probe successful for {file_path.name}")
+            return info
+        except Exception as e:
+             self._log_error(f"Failed to probe file '{file_path.name}' using initFileInfo: {e}", exc_info=True)
+             return None

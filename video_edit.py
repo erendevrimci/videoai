@@ -7,8 +7,7 @@ from typing import List, Dict, Optional, Any, Union, Tuple
 import shutil
 from openai import OpenAI
 import traceback
-import shlex
-import time
+import sys
 from datetime import datetime
 from config import config, get_channel_config, get_timeline_config
 from file_manager import FileManager
@@ -16,7 +15,17 @@ from timeline_manager import TimelineManager
 from auto_editor.timeline import v3, TlVideo, TlAudio
 from logging_system.performance_monitor import RenderingPerformanceTracker, timing_decorator
 from logging_system.logger import Logger
+from supabase import create_client, StorageException # StorageException import edildiğinden emin olun
+from dotenv import load_dotenv
+import tempfile
+import re # get_num_segments için import
 
+load_dotenv()
+
+# Initialize the logger HERE, before the try-except block
+logger = Logger.get_logger("video_edit")
+
+supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
 # Import performance-enhanced render_timeline
 try:
     from perf_render_timeline import render_timeline_with_monitoring, _estimate_output_size_mb
@@ -24,6 +33,7 @@ try:
 except ImportError:
     PERFORMANCE_MONITORING_AVAILABLE = False
     logger.warning("Performance monitoring not available: could not import render_timeline_with_monitoring")
+
 
 # Wrapper function that conditionally uses performance monitoring
 def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None, 
@@ -66,45 +76,263 @@ def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[in
         # Import dependencies for rendering
         import traceback
         import tempfile
-        
+        import sys # Added for sys.exit if needed later
+
         # Get timeline configuration
         timeline_config = get_timeline_config(channel_number)
         
-        # Check if we need to use the fallback path
-        if force_fallback or not timeline_config.rendering.enabled:
-            logger.info("Using fallback rendering path (direct rendering disabled or forced)")
+        # Check if timeline rendering is enabled and available
+        timeline_rendering_enabled = getattr(timeline_config.rendering, 'enabled', False) # Default to False if not present
+
+        # If rendering is disabled by config or forced fallback, use fallback path
+        if force_fallback or not timeline_rendering_enabled:
+            logger.info("Timeline-based rendering is disabled by config or force_fallback. Using fallback.")
             return _render_timeline_fallback(timeline, output_path, channel_number)
         
         # Try direct rendering path
         try:
-            # Import render modules from auto-editor
+            # Import auto_editor rendering components
             try:
+                from auto_editor.render import video as auto_render_video
+                from auto_editor.render import audio as auto_render_audio
+                from auto_editor.utils.bar import Bar
+                from auto_editor.utils.log import Log
+                from auto_editor.utils.types import Args
+                from auto_editor.output import Ensure
+                from auto_editor.utils.container import Container
+                from auto_editor.ffwrapper import FileInfo
                 import av
-                from auto_editor.render import video, audio
+                from pathlib import Path # Ensure Path is imported
                 
-                # Check if the required functions exist
-                if not hasattr(video, 'render_av'):
-                    logger.info("Auto-editor does not have render_av function. Using fallback.")
-                    raise ImportError("Missing render_av function")
+                # Check if the required functions exist - note: the actual functions are render_av and make_new_audio
+                if not hasattr(auto_render_video, 'render_av') or not hasattr(auto_render_audio, 'make_new_audio'):
+                    logger.warning("auto_editor does not have required timeline rendering functions. Using fallback.")
+                    return _render_timeline_fallback(timeline, output_path, channel_number)
+
             except ImportError as e:
-                logger.warning(f"Could not import auto-editor render modules: {e}")
+                logger.warning(f"Could not import auto-editor render modules: {e}. Using fallback.")
                 return _render_timeline_fallback(timeline, output_path, channel_number)
             
-            # Continue with direct rendering implementation...
-            # Full implementation would be here, but this is a simplified version
-            logger.info("Direct rendering implementation would be here")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
+            # ----- Direct Rendering Implementation START -----
+            logger.info("Attempting direct timeline-based rendering...")
             
-        except Exception as e:
-            logger.error(f"Unexpected error in render_timeline: {e}")
-            traceback.print_exc()
-            return False
+            try:
+                # Create temporary directory for intermediate files
+                # Use the project's temp directory if available
+                use_dir = project_temp_dir if project_temp_dir else None
+                with tempfile.TemporaryDirectory(prefix="ae_render_", dir=use_dir) as temp_dir:
+                    temp_path = Path(temp_dir)
+                    
+                    # Initialize auto_editor components
+                    log = Log(temp_path)
+                    log.print(f"Starting timeline rendering to {output_path}")
+                    
+                    # Create args object with default settings from timeline config
+                    args = Args() # Note: auto_editor Args might need more defaults populated.
+                    args.video_codec = timeline_config.rendering.video_codec
+                    args.audio_codec = timeline_config.rendering.audio_codec
+                    # args.audio_normalize = timeline_config.rendering.audio_normalize # Check if this exists in your config
+                    args.scale = getattr(timeline_config.rendering, 'scale', 1.0) # Default scale if not set
+                    args.video_bitrate = timeline_config.rendering.video_bitrate
+                    args.vprofile = getattr(timeline_config.rendering, 'video_profile', 'high') # Default profile
+                    args.background = timeline_config.rendering.background_color
+                    args.sample_rate = timeline.samplerate # Use timeline sample rate
+                    args.output_file = output_path # Set output file in args
+                    args.temp = temp_path # Set temp directory in args
+                    # Add other necessary Args attributes based on auto-editor version and needs
+                    args.no_seek = False
+                    args.keep_tracks_separate = False
+                    args.ffmpeg_location = shutil.which("ffmpeg") # Ensure ffmpeg path is set
+                    args.ffprobe_location = shutil.which("ffprobe") # Ensure ffprobe path is set
+                    if not args.ffmpeg_location or not args.ffprobe_location:
+                         log.error("ffmpeg or ffprobe not found in PATH. Cannot render.")
+                         return False
+
+                    # Initialize container
+                    ctr = Container(
+                        output_path=output_path,
+                        temp=temp_path,
+                        max_videos=1,
+                        max_audios=len(timeline.a) if timeline.a else 0 # Based on timeline audio tracks
+                    )
+
+                    # Create output directory if needed
+                    output_path.parent.mkdir(parents=True, exist_ok=True)
+                    
+                    # Initialize ensure for audio extraction
+                    ensure = Ensure(log=log, temp=temp_path)
+                    
+                    # Setup progress bar
+                    bar = Bar()
+
+                    # Process timeline sources to ensure they're valid FileInfo objects
+                    # This part needs careful implementation based on how sources are stored
+                    # Assuming timeline.sources are already FileInfo or paths need conversion
+                    valid_sources = {}
+                    for i, src_info in enumerate(timeline.sources):
+                         if isinstance(src_info, FileInfo):
+                              valid_sources[str(i)] = src_info # Assuming ID is index as string
+                         elif isinstance(src_info, (str, Path)):
+                              # Need to create FileInfo object - requires probing
+                              try:
+                                   file_info = FileInfo(str(src_info), log)
+                                   valid_sources[str(i)] = file_info
+                              except Exception as probe_err:
+                                   log.error(f"Could not probe source file {src_info}: {probe_err}")
+                                   return False
+                         else:
+                              log.error(f"Unsupported source type in timeline: {type(src_info)}")
+                              return False
+                    timeline.sources = valid_sources # Update timeline sources
+
+                    # Step 1: Generate audio tracks if needed
+                    log.print("Generating audio tracks...")
+                    # Check if timeline has audio tracks
+                    if not timeline.a or not timeline.a[0]:
+                         log.print("Timeline has no audio tracks.")
+                         audio_files = []
+                    else:
+                         # Ensure audio tracks exist and pass them to make_new_audio
+                         audio_files = auto_render_audio.make_new_audio(
+                             timeline, ctr, ensure, args, bar, log
+                         )
+                         if not audio_files:
+                             log.print("Warning: No audio tracks generated by make_new_audio")
+                    
+                    # Step 2: Create output container
+                    log.print("Creating output container...")
+                    # Ensure output path is string for av.open
+                    output_container = av.open(str(output_path), 'w')
+                    
+                    # Step 3: Process video
+                    log.print("Processing video timeline...")
+                    # Check if timeline has video tracks
+                    if not timeline.v or not timeline.v[0]:
+                         log.error("Timeline has no video tracks. Cannot render video.")
+                         output_container.close() # Close the container
+                         return False # Or handle appropriately
+
+                    video_generator = auto_render_video.render_av(
+                        output_container, timeline, args, bar, log # Pass bar here too
+                    )
+
+                    # Step 4: Get the video stream from the generator
+                    # The generator yields (frame_number, frame), we need the stream from output_container
+                    video_stream = output_container.streams.video[0] # Assuming one video stream
+
+                    # Step 5: Process audio if available
+                    audio_streams = []
+                    if audio_files:
+                        log.print("Adding audio streams...")
+                        for audio_file in audio_files:
+                            try:
+                                with av.open(str(audio_file)) as container: # Ensure audio_file is string
+                                    input_stream = container.streams.audio[0]
+                                    # Use codec from input stream if args.audio_codec is generic like 'aac'
+                                    # Or ensure args.audio_codec is specific like 'libfdk_aac' if needed
+                                    output_stream = output_container.add_stream(
+                                        args.audio_codec,
+                                        rate=input_stream.rate,
+                                        layout=input_stream.layout.name # Add layout
+                                    )
+                                    audio_streams.append((output_stream, container.decode(input_stream)))
+                            except Exception as audio_err:
+                                 log.error(f"Error opening or processing audio file {audio_file}: {audio_err}")
+                                 # Decide whether to continue without this track or fail
+                                 # For now, let's skip this track
+                                 continue
+                    
+                    # Step 6: Render frames and mux
+                    log.print("Rendering frames and muxing...")
+                    # total_frames = timeline.end # Get total frames from timeline duration
+                    # Use timeline.duration which is already in frames
+                    total_frames = timeline.duration
+                    bar.start(total_frames, "Rendering video")
+                    
+                    processed_frames = 0
+                    for frame_number, frame in video_generator:
+                        # Encode and mux video frame
+                        for packet in video_stream.encode(frame):
+                            output_container.mux(packet)
+                        
+                        # Mux audio packets corresponding to this video frame's timestamp
+                        # This requires careful synchronization, auto_editor handles this internally
+                        # Here, we'll mux audio after video loop for simplicity, but might cause sync issues
+                        
+                        # Update progress bar
+                        bar.tick(frame_number)
+                        processed_frames = frame_number # Keep track of last frame number processed
+
+                    bar.end(f"Processed {processed_frames}/{total_frames} video frames.")
+
+                    # Step 7: Flush video encoder
+                    log.print("Flushing video encoder...")
+                    for packet in video_stream.encode(None):
+                        output_container.mux(packet)
+                    
+                    # Step 8: Add audio data if available
+                    if audio_streams:
+                        log.print("Muxing audio data...")
+                        for audio_stream, audio_frames in audio_streams:
+                            for frame in audio_frames:
+                                for packet in audio_stream.encode(frame):
+                                    output_container.mux(packet)
+                            
+                            # Flush audio encoder
+                            log.print(f"Flushing audio encoder for stream {audio_stream.index}...")
+                            for packet in audio_stream.encode(None):
+                                output_container.mux(packet)
+                    
+                    # Step 9: Close output container
+                    log.print("Closing output container...")
+                    output_container.close()
+                    
+                    log.print(f"✅ Direct timeline rendering complete: {output_path}")
+                    return True
+                    
+            except Exception as e:
+                logger.error(f"Error during direct timeline rendering: {e}")
+                traceback.print_exc()
+                
+                # Fall back to compatibility mode after a direct rendering error
+                logger.warning("Using compatibility rendering mode as fallback after direct rendering error.")
+                return _render_timeline_fallback(timeline, output_path, channel_number)
+            # ----- Direct Rendering Implementation END -----
+            
+        except (ImportError, AttributeError) as e:
+            # This catches errors from the outer 'try' block for imports
+            logger.warning(f"auto_editor rendering components not available or import error: {e}")
+            logger.warning("Falling back to compatibility rendering method.")
+            return _render_timeline_fallback(timeline, output_path, channel_number)
+        # except Exception as e: # Catch any other unexpected errors in the outer block
+        #      logger.error(f"Unexpected error in render_timeline setup: {e}")
+        #      traceback.print_exc()
+        #      # Attempt fallback as a last resort
+        #      try:
+        #           logger.warning("Attempting fallback rendering after setup error...")
+        #           return _render_timeline_fallback(timeline, output_path, channel_number)
+        #      except Exception as e2:
+        #           logger.error(f"Fallback rendering also failed after setup error: {e2}")
+        #           return False
+
 
 # Initialize the logger
 logger = Logger.get_logger("video_edit")
 
 # Initialize file manager
 file_mgr = FileManager()
+
+# --- Proje Geçici Klasörünü Tanımla ve Oluştur (Gerekirse) ---
+# Bu, fonksiyonların dışında bir kere yapılabilir veya her fonksiyonda tekrarlanabilir.
+# file_mgr'nin bunu yönettiğini varsayalım veya burada oluşturalım:
+PROJECT_TEMP_DIR_NAME = "temp_files"
+project_temp_dir = file_mgr.get_abs_path(PROJECT_TEMP_DIR_NAME)
+try:
+    file_mgr.ensure_dir_exists(project_temp_dir)
+    logger.info(f"Ensured project temporary directory exists: {project_temp_dir}")
+except Exception as e:
+    logger.error(f"Could not create or access project temporary directory '{project_temp_dir}': {e}. Falling back to system default temp.")
+    project_temp_dir = None # Hata durumunda None olarak ayarla
 
 def create_placeholder_clip(output_path: Union[str, Path], duration: int = 60) -> None:
     """
@@ -170,181 +398,57 @@ def create_placeholder_clip(output_path: Union[str, Path], duration: int = 60) -
 
 def load_clips_metadata() -> List[Dict]:
     """
-    Load and parse the clips metadata from the configured CSV metadata file.
-    If CSV fails, scan directory for actual clips.
-    
+    Load and parse the clips metadata from Supabase, converting duration to float.
+
     Returns:
-        List[Dict]: A list of clip metadata dictionaries
+        List[Dict]: A list of clip metadata dictionaries with duration as float.
     """
-    clips_file = file_mgr.get_abs_path(config.file_paths.clips_metadata_file)
-    clips_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
-    
-    # Create sample_clips directory if it doesn't exist
-    sample_clips_dir = clips_dir / "sample_clips"
-    file_mgr.ensure_dir_exists(sample_clips_dir)
-    
-    # Create a placeholder clip
-    placeholder_path = sample_clips_dir / "placeholder.mp4"
-    if not file_mgr.file_exists(placeholder_path):
-        try:
-            create_placeholder_clip(placeholder_path)
-        except Exception as e:
-            print(f"Warning: Failed to create placeholder clip: {e}")
-    
-    # First try loading from CSV
-    clips = []
-    csv_clips = []
-    
     try:
-        # Use FileManager to read the file
-        content_str = file_mgr.read_text(clips_file)
-        if content_str is not None:
-            # Parse CSV format
-            lines = content_str.strip().split('\n')
-            if len(lines) >= 2:  # At least header + one data row
-                # Get header for column indexing
-                header = lines[0].split(',')
-                
-                # Find indices of required columns
-                try:
-                    path_idx = header.index('path')
-                    # prompt_idx = header.index('prompt')
-                    # aspect_ratio_idx = header.index('aspect_ratio')
-                    duration_idx = header.index('duration')
-                    # labels_idx = header.index('labels')
-                    image_caption_idx = header.index('image_1_caption')
-                    
-                    
-                    
-                    print(f"Found {len(lines) - 1} clip entries in the CSV file")
-                    
-                    # Process each data row
-                    for i in range(1, len(lines)):
-                        line = lines[i]
-                        if not line.strip():
-                            continue
-                            
-                        # Handle CSV commas within quoted fields
-                        parts = []
-                        in_quotes = False
-                        current_part = ''
-                        
-                        for char in line:
-                            if char == '"':
-                                in_quotes = not in_quotes
-                            elif char == ',' and not in_quotes:
-                                parts.append(current_part)
-                                current_part = ''
-                            else:
-                                current_part += char
-                        
-                        # Add the last part
-                        parts.append(current_part)
-                        
-                        # Skip if we don't have enough columns
-                        if len(parts) <= max(path_idx, image_caption_idx, duration_idx):
-                            print(f"Warning: Skipping line {i+1}, insufficient columns: {line}")
-                            continue
-                        
-                        # Extract values from CSV
-                        path_value = parts[path_idx].strip()
-                        # prompt_value = parts[prompt_idx].strip().strip('"')
-                        # short_prompt_value = parts[short_prompt_idx].strip().strip('"')
-                        # aspect_ratio_value = parts[aspect_ratio_idx].strip()
-                        duration_value = parts[duration_idx].strip()
-                        # labels_value = parts[labels_idx].strip().strip('"')
-                        image_caption = parts[image_caption_idx].strip().strip('"')
-                        
-                        # Extract filename from path and handle full path correctly
-                        path_obj = Path(path_value)
-                        
-                        # Store both the name and the full path in the metadata
-                        file_name = path_obj.name
-                        file_path = str(path_obj)  # Keep the full path including directory
-                        
-                        # Process duration value
-                        try:
-                            # Handle duration in format like "10s"
-                            if duration_value.lower().endswith('s'):
-                                duration_seconds = int(duration_value.lower().rstrip('s'))
-                            else:
-                                duration_seconds = config.video_edit.default_clip_duration
-                        except ValueError:
-                            duration_seconds = config.video_edit.default_clip_duration
-                            print(f"Warning: Could not parse duration '{duration_value}' for clip '{file_name}'")
-                        
-                        # Create clip metadata dictionary
-                        clip = {
-                            'name': file_name,
-                            'path': file_path,
-                            # 'description': prompt_value,
-                            'duration': duration_seconds,
-                            # 'notes': labels_value,
-                            # 'aspect_ratio': aspect_ratio_value,
-                            'image_caption': image_caption
-                        }
-                        
-                        # Add the clip to the list
-                        csv_clips.append(clip)
-                except ValueError as e:
-                    print(f"Error parsing CSV columns: {e}")
+        video_clips_raw = supabase.table("video_clips").select("path, image_1_caption, duration").execute()
+        video_clips_data = video_clips_raw.data
     except Exception as e:
-        print(f"Error loading CSV metadata: {e}")
-        traceback.print_exc()
-    
-    print(f"Loaded {len(csv_clips)} clips from CSV metadata")
-    
-    # Now scan the actual clips directory for all available video files
-    print(f"Scanning clips directory at {clips_dir} for video files...")
+        logger.error(f"Failed to fetch video clips from Supabase: {e}", exc_info=True)
+        return [] # Return empty list on failure
 
-    # Merge CSV and scanned clips, with CSV taking precedence for metadata
-    # but ensuring all actual files are included
-    
-    # First add all CSV clips that have validated actual files
-    for clip in csv_clips:
-        if 'path' in clip:
-            full_path = clip['path']
-            clip_path = file_mgr.get_abs_path(full_path)
-        else:
-            clip_path = clips_dir / clip['name']
-        
-        # Try to find the video file
-        video_file = file_mgr.find_video_file(clip_path)
-        if video_file:
-            clip['full_path'] = str(video_file)
-            clips.append(clip)
-        else:
-            # Try the clips directory directly
-            alt_path = clips_dir / clip['name'] 
-            video_file = file_mgr.find_video_file(alt_path)
-            if video_file:
-                clip['full_path'] = str(video_file)
-                clips.append(clip)
-    
-    # Keep track of which files we've already added
-    added_paths = set(clip.get('full_path', '') for clip in clips)
-    
-    # If still no valid clips, add placeholder
-    if not clips:
-        print("No valid clips found in CSV or directory scan. Using placeholder.")
-        clips = [{
-            'name': "sample_clips/placeholder.mp4",
-            'description': "Placeholder video for testing",
-            'duration': 10,
-            'notes': "Auto-generated placeholder"
-        }]
-    
-    # Show summary of available clips
-    print(f"Final clip count: {len(clips)} valid clips")
-    for i, clip in enumerate(clips[:5]):  # Show only first 5 for brevity
-        print(f"Clip {i+1}: {clip['name']}, Duration: {clip['duration']}s")
-    
-    if len(clips) > 5:
-        print(f"... and {len(clips) - 5} more clips")
-        
-    return clips
+    processed_clips = []
+    for clip in video_clips_data:
+        try:
+            # Convert duration to float, handle potential errors or None values
+            duration_str = clip.get('duration')
+            if duration_str is not None:
+                # Attempt to clean and convert (e.g., remove 's' if present)
+                if isinstance(duration_str, str):
+                    duration_str = duration_str.replace('s', '').strip()
+                clip['duration'] = float(duration_str)
+            else:
+                clip['duration'] = 0.0 # Assign a default float value if duration is missing
+                logger.warning(f"Clip '{clip.get('path', 'N/A')}' has missing duration, setting to 0.0.")
 
-def get_script_segments(channel_number: Optional[int] = None) -> str:
+            processed_clips.append(clip)
+
+        except (ValueError, TypeError) as e:
+            logger.error(f"Could not convert duration '{clip.get('duration')}' to float for clip '{clip.get('path', 'N/A')}': {e}. Skipping clip.")
+            continue # Skip clips with invalid duration format
+        except Exception as e:
+             logger.error(f"Unexpected error processing clip metadata for '{clip.get('path', 'N/A')}': {e}", exc_info=True)
+             continue # Skip clip on unexpected error
+
+    logger.info(f"Loaded and processed {len(processed_clips)} clips metadata.")
+    return processed_clips
+
+def get_voice_file(voice_over_id: int) -> Tuple[int, str, bytes]: # Argüman adını ve tipini düzelt
+    # script_id yerine voice_over_id ile filtrele ve 'id' sütununu kullan
+    voice_file_data = supabase.table("voice_over").select("id ,voice_name").eq("id", voice_over_id).execute()
+    # ... (geri kalanı aynı)
+    voice_over_name = voice_file_data.data[0]["voice_name"]
+    # id'yi tekrar döndürmeye gerek yok, zaten argüman olarak geldi. Sadece name ve bytes yeterli olabilir.
+    # Ama mevcut yapıyı bozmamak için id'yi de döndürelim:
+    retrieved_voice_id = voice_file_data.data[0]["id"]
+    voice_file_bytes_data = supabase.storage.from_("voice-over-files").download(voice_over_name)
+
+    return retrieved_voice_id, voice_over_name, voice_file_bytes_data # bytes verisini döndürdüğünüzden emin olun
+
+def get_script_segments(script_id: int) -> str:
     """
     Load the script content from the configured file path
     
@@ -354,211 +458,179 @@ def get_script_segments(channel_number: Optional[int] = None) -> str:
     Returns:
         str: The content of the script file
     """
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
     
-    # First check if we have dynamic file paths from write_script.py
-    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
     
-    script_file_paths = []
-    
-    # If we have dynamic paths, use those first
-    if dynamic_file_paths and "script_file" in dynamic_file_paths:
-        script_file = dynamic_file_paths["script_file"]
-        dynamic_script_path = file_mgr.get_channel_output_path(channel_number) / script_file
-        script_file_paths.append(dynamic_script_path)
-    
-    # Add default paths as fallback options
-    script_file_paths.extend([
-        file_mgr.get_script_path(channel_number, config.file_paths.script_file),
-        # Last resort: global script path
-        file_mgr.get_abs_path(config.file_paths.script_file),
-    ])
-    
-    print(f"Looking for script in these locations:")
-    for path in script_file_paths:
-        print(f"  - {path}")
-    
-    script_content = None
-    used_path = None
-    
-    # Try each path until we find one that works
-    for path in script_file_paths:
-        content = file_mgr.read_text(path)
-        if content is not None:
-            script_content = content
-            used_path = path
-            print(f"Successfully read script from {used_path}")
-            break
-    
-    if script_content is None:
-        print(f"Error: Could not read script file from any of these paths: {script_file_paths}")
-        # Provide fallback content
-        script_content = """The Rise of AI Agents: 
+    script_data = supabase.table("scripts").select("script").eq("id", script_id).execute()
         
-        Artificial Intelligence agents are rapidly transforming how we work. These software entities can autonomously complete complex tasks with minimal human supervision. Unlike traditional AI systems, AI agents can make decisions, use tools, and execute action sequences to accomplish goals.
-        
-        Major tech companies are advancing this technology quickly. These capabilities will change knowledge work forever."""
-        print("Using fallback script content")
-        
-    return script_content
+    return script_data.data[0]["script"]
 
-def get_voice_duration(voice_file: str) -> float:
+def get_voice_duration(voice_file: bytes) -> Optional[float]:
     """Uses ffprobe to get the duration (in seconds) of the generated voice audio."""
+    if not voice_file:
+        logger.error("get_voice_duration called with empty voice_file bytes.")
+        return None
+
+    temp_audio_path_obj = None # Path nesnesini takip et
+
+    # Kullanılacak geçici dizini belirle
+    use_dir = project_temp_dir if project_temp_dir else None
+
     try:
+        # Use NamedTemporaryFile for safer handling of binary input with subprocess
+        # delete=False önemli çünkü dosya adıyla ffprobe'u çağıracağız
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3", dir=use_dir) as temp_audio:
+            temp_audio.write(voice_file)
+            temp_audio_path = temp_audio.name # string path
+            temp_audio_path_obj = Path(temp_audio_path) # Path objesi temizlik için
+
+        logger.debug(f"Probing duration for temporary audio file: {temp_audio_path}")
         result = subprocess.run(
             [
               "ffprobe", "-v", "error",
               "-show_entries", "format=duration",
               "-of", "default=noprint_wrappers=1:nokey=1",
-              voice_file
+              temp_audio_path # Pass the path to the temporary file
             ],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True,
-            check=True
+            check=True,
+            encoding='utf-8'
         )
         duration_str = result.stdout.strip()
+        logger.debug(f"ffprobe duration output: {duration_str}")
         return float(duration_str)
+    except subprocess.CalledProcessError as e:
+         logger.error(f"ffprobe error obtaining voice duration: {e}. Stderr: {e.stderr}")
+         return None
+    except ValueError as e:
+         logger.error(f"Could not convert ffprobe duration output '{duration_str}' to float: {e}")
+         return None
     except Exception as e:
-        print("Error obtaining voice duration:", e)
+        logger.error(f"Error obtaining voice duration: {e}", exc_info=True)
         return None
+    finally:
+        # Clean up the temporary file if it was created
+        if temp_audio_path_obj and temp_audio_path_obj.exists():
+            try:
+                temp_audio_path_obj.unlink()
+                logger.debug(f"Cleaned up temporary audio file: {temp_audio_path_obj}")
+            except Exception as e_clean:
+                logger.warning(f"Could not clean up temporary audio file {temp_audio_path_obj}: {e_clean}")
 
-def get_num_segments(srt_file: Optional[str] = None, channel_number: Optional[int] = None) -> int:
+def get_num_segments(srt_file: bytes, channel_number: Optional[int] = None) -> int: # Argümanı bytes olarak düzelt
     """
-    Determine the number of subtitle segments in the SRT file
-    
+    Determine the number of subtitle segments in the SRT file, handling various line endings.
+
     Args:
-        srt_file (Optional[str]): Path to the SRT file, or None to use the configured default
-        channel_number (Optional[int]): Channel number to use for configuration
-        
-    Returns:
-        int: Number of subtitle segments
-    """
-    if srt_file is None:
-        # Check for dynamic file paths from write_script.py
-        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-        
-        if dynamic_file_paths and "captions_file" in dynamic_file_paths:
-            # Use dynamic caption path
-            captions_file = dynamic_file_paths["captions_file"]
-            srt_file = str(file_mgr.get_channel_output_path(channel_number) / captions_file)
-            print(f"Using dynamic captions file: {srt_file}")
-        else:
-            # Use default path
-            if channel_number is not None:
-                srt_file = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
-            else:
-                srt_file = file_mgr.get_abs_path(config.file_paths.captions_file)
-    
-    print(f"Reading subtitles from: {srt_file}")
-    srt_content = file_mgr.read_text(srt_file)
-    if srt_content is None:
-        print(f"Error: Could not read SRT file: {srt_file}")
-        return 0
-    
-    subtitles = [seg for seg in srt_content.strip().split('\n\n') if seg.strip() != '']
-    print(f"Found {len(subtitles)} subtitle segments")
-    return len(subtitles)
+        srt_file (bytes): SRT data as bytes.
+        channel_number (Optional[int]): Channel number to use for configuration.
 
-def match_clips_to_script(script: str, clips: List[Dict], target_duration: float = None, channel_number: Optional[int] = None) -> List[Dict]:
+    Returns:
+        int: Number of subtitle segments.
+    """
+    if not srt_file:
+        logger.warning("get_num_segments called with empty srt_file bytes.")
+        return 0
+
+    try:
+        srt_content = srt_file.decode('utf-8')
+    except UnicodeDecodeError:
+        try:
+            srt_content = srt_file.decode('utf-8-sig') # Handle BOM
+        except UnicodeDecodeError:
+            try:
+                srt_content = srt_file.decode('iso-8859-1')
+            except UnicodeDecodeError:
+                logger.error("Could not decode SRT file with common encodings.")
+                return 0
+    except Exception as e:
+         logger.error(f"Error decoding SRT file: {e}")
+         return 0
+
+    if not srt_content:
+        logger.warning("SRT content is empty after decoding.")
+        return 0
+
+    # Segmentleri ayırmak için regex kullan:
+    segments = re.split(r'(?:\r?\n){2,}', srt_content.strip())
+    valid_segments = [seg for seg in segments if seg and seg.strip()]
+
+    logger.info(f"Found {len(valid_segments)} subtitle segments using regex splitting.")
+    return len(valid_segments)
+
+def match_clips_to_script(project_id: int, script: str, srt_file: bytes, clips: List[Dict], target_duration: float = None, channel_number: Optional[int] = None) -> List[Dict]:
     """
     Use OpenAI to match clips to script segments based on SRT timestamps and content.
     With fallback to simple matching if AI fails.
-    
-    Args:
-        script (str): The script content
-        clips (List[Dict]): List of clip metadata
-        target_duration (float, optional): Target duration of the video
-        
-    Returns:
-        List[Dict]: A list of clip segments matched to script segments
+    Handles invalid AI responses by using placeholders.
     """
-    # Initialize OpenAI client with API key from config
     client = OpenAI(api_key=config.openai.api_key)
-    
-    # Create a set of available clip names for validation
-    available_clips = {clip['name'] for clip in clips}
-    
-    # Read SRT file for timing information
-    # Check for dynamic file paths from write_script.py
-    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-    
-    if dynamic_file_paths and "captions_file" in dynamic_file_paths:
-        # Use dynamic caption path
-        captions_file = dynamic_file_paths["captions_file"]
-        srt_file = file_mgr.get_channel_output_path(channel_number) / captions_file
-    else:
-        # Use default path
-        srt_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
-    
-    srt_content = file_mgr.read_text(srt_file)
-    
-    if srt_content is None:
-        print(f"Error: Could not read SRT file: {srt_file}")
-        return []
-    
-    # Create a placeholder in case the SRT has issues
-    placeholder_clip_name = "sample_clips/placeholder.mp4"
-    
-    # If there's no SRT but there's a voice file, use that for timing
-    if not srt_content and target_duration:
-        print("SRT file missing or empty but target duration available. Creating simple sequence.")
-        return [{
-            'clip_name': placeholder_clip_name,
-            'start_time': 0,
-            'duration': target_duration,
-            'script_segment': script[:100] + "..."  # First part of script
-        }]
-    
-    # Parse SRT to get actual segment durations and scripts
-    srt_segments = [seg.strip() for seg in srt_content.split('\n\n') if seg.strip()]
+    available_clips = {clip['path'] for clip in clips}
+    placeholder_clip_name = "sample_clips/placeholder.mp4" # Placeholder'ı tanımla
+
+    try:
+        srt_content = srt_file.decode('utf-8')
+    except Exception as e:
+        logger.error(f"Could not decode SRT file: {e}", exc_info=True)
+        return [] # Veya başka bir hata işleme
+
+    segments = re.split(r'(?:\r?\n){2,}', srt_content.strip())
+    srt_segments = [seg for seg in segments if seg and seg.strip()]
+
     segment_timings = []
     segment_texts = []
-    
-    for segment in srt_segments:
-        lines = segment.split('\n')
-        if len(lines) >= 3:  # Num, timing, text
+
+    for segment_idx, segment_str in enumerate(srt_segments):
+        lines = segment_str.split('\n')
+        if len(lines) >= 3:
             times = lines[1].split(' --> ')
             if len(times) == 2:
-                start = sum(float(x) * 60 ** i for i, x in enumerate(reversed(times[0].replace(',', '.').split(':'))))
-                end = sum(float(x) * 60 ** i for i, x in enumerate(reversed(times[1].replace(',', '.').split(':'))))
-                duration = end - start
-                segment_timings.append(duration)
-                
-                # Get the text part (could be multiple lines)
-                text = ' '.join(lines[2:])
-                segment_texts.append(text)
-                
-    # If no valid segments found, create at least one using total duration
-    if not segment_timings and target_duration:
-        print("No valid segment timings found. Using total duration.")
-        segment_timings = [target_duration]
-        segment_texts = [script[:100] + "..."]
-    
-    # Modify the clips info to include ONLY available clips
+                try:
+                    start = sum(float(x) * 60 ** i for i, x in enumerate(reversed(times[0].replace(',', '.').split(':'))))
+                    end = sum(float(x) * 60 ** i for i, x in enumerate(reversed(times[1].replace(',', '.').split(':'))))
+                    duration = end - start
+                    if duration <= 0:
+                         logger.warning(f"SRT Segment {segment_idx+1}: Non-positive duration calculated ({duration}). Using 1.0s.")
+                         duration = 1.0
+                    segment_timings.append(duration)
+                    text = ' '.join(lines[2:])
+                    segment_texts.append(text)
+                except (ValueError, IndexError) as time_err:
+                    logger.error(f"Error parsing timecode in SRT segment {segment_idx+1}: {lines[1]} - {time_err}. Using default duration 1.0s.")
+                    segment_timings.append(1.0) # Hatalı zaman kodu için varsayılan süre
+                    segment_texts.append(' '.join(lines[2:]) if len(lines) > 2 else "[Timecode Error]")
+            else:
+                 logger.warning(f"SRT Segment {segment_idx+1}: Invalid timecode format: {lines[1]}. Using default duration 1.0s.")
+                 segment_timings.append(1.0)
+                 segment_texts.append(' '.join(lines[2:]) if len(lines) > 2 else "[Invalid Timecode]")
+        else:
+             logger.warning(f"SRT Segment {segment_idx+1}: Not enough lines. Skipping.")
+             # Eksik segmentler için zaman ve metin eklememek önemlidir.
+
+    if not segment_timings:
+        logger.error("No valid segments could be parsed from SRT file.")
+        if target_duration:
+            logger.warning(f"Falling back to single placeholder clip with target duration {target_duration:.2f}s.")
+            return [{'clip_name': placeholder_clip_name, 'start_time': 0, 'duration': target_duration, 'script_segment': script[:100]+"..."}]
+        else:
+            return []
+
+    num_expected_segments = len(segment_timings) # Beklenen segment sayısı
+    logger.info(f"Successfully parsed {num_expected_segments} segments from SRT.")
+
+    # ... (clips_info, target_duration_text, excerpts hazırlanması aynı kalır) ...
     max_clip_duration = config.video_edit.max_clip_duration
     clips_info = "\n".join([
-        f"Clip: {c['name']}\nImage Caption: {c['image_caption']}\n"
-        f"Duration: {c['duration']}s\n"
-        f"Possible start times: 0 to {max(0, c['duration'] - max_clip_duration)} seconds\n"
-        for c in clips
+        f"Clip: {c.get('path', 'N/A')}\nImage Caption: {c.get('image_1_caption', 'N/A')}\n"
+        f"Duration: {c.get('duration', 0.0):.2f}s\n"
+        f"Possible start times: 0 to {max(0.0, c.get('duration', 0.0) - max_clip_duration):.2f} seconds\n"
+        for c in clips if c.get('duration') is not None
     ])
-    
-    target_duration_text = ""
-    if target_duration is not None:
-        target_duration_text = f"\nTotal Generated Voice Duration: {int(target_duration)} seconds."
-    
-    # Extract the main script segments for better analysis
+    target_duration_text = f"\nTotal Generated Voice Duration: {int(target_duration)} seconds." if target_duration is not None else ""
     script_excerpt = script[:500] if len(script) > 500 else script
-    srt_excerpt = '\n'.join(segment_texts[:10]) if len(segment_texts) > 10 else '\n'.join(segment_texts)
-    
+    # --- DÜZELTME: Prompt'ta srt_excerpt yerine srt_content kullanmak daha iyi olabilir ---
     prompt = f"""Given these available video clips along with their metadata:
-    
+
 {clips_info}
 {target_duration_text}
 
@@ -580,6 +652,7 @@ Your task is to create a sequence of clips that best matches the voiceover conte
 - Prioritize high-quality clips that match the topic and mood of the script segment
 - IMPORTANT: ONLY use clip names from the available clips provided above
 - CRITICAL: The clip_name field MUST exactly match one of the clips listed above
+- CRITICAL: You MUST return exactly {num_expected_segments} items in the JSON array, one for each segment in the provided SRT content.
 - **Never use the same clip more than once**
 - **Never use a clip less than 2 seconds**
 
@@ -594,67 +667,104 @@ Return a JSON array where each object has:
 Format the response as valid JSON only, no additional text.
 
 **It's CRUCIAL to keep JSON as expected otherwise it would cause an error**"""
-    
+
+    clip_sequence_from_ai = []
     try:
         response = client.chat.completions.create(
             model=config.openai.video_edit_model,
             messages=[
-                {
-                    "role": "developer", 
-                    "content": "You are a video editing assistant with expertise in aligning clip metadata with script content and timing for fast-paced, dynamic edits."
-                },
+                {"role": "developer", "content": "You are a video editing assistant..."},
                 {"role": "user", "content": prompt}
             ]
         )
-        
-        clip_sequence = json.loads(response.choices[0].message.content)
-        with open("json_response.json", "w") as output_json:
-            output_json.write(response.model_dump_json())
 
-        # Validate clips and filter out any that don't exist
-        validated_sequence = []
-        
-        # Create placeholder clip info
-        placeholder_clip_name = "sample_clips/placeholder.mp4"
-        
-        # Print what clip names are available for debugging
-        print(f"Available clips: {', '.join(available_clips)[:]}...")
-        invalid_clips = []
-        
-        for segment in clip_sequence:
-            if segment['clip_name'] in available_clips:
-                validated_sequence.append(segment)
-            else:
-                invalid_clips.append(segment['clip_name'])
-                print(f"Warning: Clip '{segment['clip_name']}' not found. Using placeholder.")
-                # Create a new segment with the placeholder clip
-                placeholder_segment = segment.copy()
-                placeholder_segment['clip_name'] = placeholder_clip_name
-                placeholder_segment['start_time'] = 0  # Use beginning of placeholder
-                validated_sequence.append(placeholder_segment)
-        
-        if invalid_clips:
-            print(f"WARNING: {len(invalid_clips)} invalid clip names were provided by the AI: {', '.join(invalid_clips)}")
-            
-            # If too many invalid clips, use the manual matching approach
-            if len(invalid_clips) > len(clip_sequence) / 2:
-                print("Too many invalid clips. Using manual matching instead.")
-        
-        # If no valid segments found at all, create basic segments with placeholder
-        if not validated_sequence and segment_timings:
-            print("No valid clips. Using manual matching.")
-        
-        # Ensure the durations match the SRT segments
-        for i, segment in enumerate(validated_sequence):
-            if i < len(segment_timings):
-                segment['duration'] = segment_timings[i]
-        
-        return validated_sequence
-    
-    except (json.JSONDecodeError, Exception) as e:
-        raise Exception(f"Error in AI clip matching: {e}")
-        
+        response_content = response.choices[0].message.content
 
+        with open("json_response.json", "w") as f:
+            f.write(response_content)
+
+        supabase.table("projects").update({"response_json": response_content}).eq("id", project_id).execute()
+        
+        clip_sequence_from_ai = json.loads(response_content)
+        if not isinstance(clip_sequence_from_ai, list):
+             logger.error(f"AI response is not a JSON list: {response_content[:100]}...")
+             raise ValueError("AI response is not a list.")
+        logger.info(f"AI initially returned {len(clip_sequence_from_ai)} segments.")
+
+    except (json.JSONDecodeError, ValueError, Exception) as e:
+        logger.error(f"Error processing AI response: {e}", exc_info=True)
+        logger.warning("Falling back to using placeholders for all segments due to AI error.")
+        # AI hatası durumunda tüm segmentler için placeholder oluştur
+        clip_sequence_from_ai = [{} for _ in range(num_expected_segments)] # Boş dict listesi
+
+    # --- İYİLEŞTİRİLMİŞ DOĞRULAMA VE PLACEHOLDER KULLANIMI ---
+    validated_sequence = []
+    invalid_clips_count = 0
+    available_clips_for_debug = list(available_clips) # Debug için listeye çevir
+    logger.debug(f"Available clips for validation: {available_clips_for_debug[:5]}...") # İlk 5'i logla
+
+    for i in range(num_expected_segments): # Beklenen segment sayısı kadar döngü
+        segment_data = {}
+        ai_segment = None
+        if i < len(clip_sequence_from_ai):
+             ai_segment = clip_sequence_from_ai[i]
+             if not isinstance(ai_segment, dict):
+                  logger.warning(f"AI segment {i} is not a dictionary: {ai_segment}. Using placeholder.")
+                  ai_segment = {} # Boş dict ata
+        else:
+             # AI beklenenden az segment döndürdüyse
+             logger.warning(f"AI returned fewer segments than expected ({len(clip_sequence_from_ai)} vs {num_expected_segments}). Using placeholder for segment {i+1}.")
+             ai_segment = {} # Boş dict ata
+
+        clip_name_from_ai = ai_segment.get('clip_name')
+        is_valid_clip = clip_name_from_ai and isinstance(clip_name_from_ai, str) and clip_name_from_ai in available_clips
+
+        if is_valid_clip:
+            segment_data = ai_segment # AI verisini kullan
+            segment_data['duration'] = segment_timings[i] # Süreyi SRT'den al
+            # Script segmentini de ekle (AI unutmuş olabilir)
+            if 'script_segment' not in segment_data and i < len(segment_texts):
+                 segment_data['script_segment'] = segment_texts[i]
+            validated_sequence.append(segment_data)
+        else:
+            invalid_clips_count += 1
+            original_clip_name = clip_name_from_ai if clip_name_from_ai else "None"
+            logger.warning(f"Segment {i+1}: Clip '{original_clip_name}' is invalid or not found. Using placeholder.")
+            placeholder_segment = {
+                'clip_name': placeholder_clip_name,
+                'start_time': 0,
+                'duration': segment_timings[i], # Süreyi SRT'den al
+                'script_segment': segment_texts[i] if i < len(segment_texts) else "[Missing Text]",
+                'explanation': f"Placeholder used because AI returned invalid clip: {original_clip_name}",
+                'suggestion': ai_segment.get('suggestion', "[No Suggestion from AI]") # Varsa AI önerisini koru
+            }
+            validated_sequence.append(placeholder_segment)
+
+    if invalid_clips_count > 0:
+        logger.warning(f"{invalid_clips_count} invalid clip names were replaced with placeholders.")
+
+    if len(validated_sequence) != num_expected_segments:
+         logger.error(f"CRITICAL: Final validated sequence length ({len(validated_sequence)}) does not match expected SRT segments ({num_expected_segments}). This should not happen.")
+         # Bu durum ciddi bir mantık hatasıdır, yine de placeholder ile doldurmayı deneyebiliriz
+         while len(validated_sequence) < num_expected_segments:
+              idx = len(validated_sequence)
+              logger.warning(f"Padding missing segment {idx+1} with placeholder.")
+              placeholder_segment = {
+                  'clip_name': placeholder_clip_name, 'start_time': 0,
+                  'duration': segment_timings[idx] if idx < len(segment_timings) else 1.0,
+                  'script_segment': segment_texts[idx] if idx < len(segment_texts) else "[Missing Text]",
+                  'explanation': "Placeholder used for padding.", 'suggestion': ""
+              }
+              validated_sequence.append(placeholder_segment)
+         # Fazla varsa kırpmak daha riskli olabilir, şimdilik loglayalım
+         if len(validated_sequence) > num_expected_segments:
+              logger.warning(f"Validated sequence has more segments ({len(validated_sequence)}) than expected ({num_expected_segments}). Using the first {num_expected_segments}.")
+              validated_sequence = validated_sequence[:num_expected_segments]
+
+
+    logger.info(f"Final clip sequence generated with {len(validated_sequence)} segments.")
+    return validated_sequence
+    # --- DOĞRULAMA SONU ---
 
 def enforce_clip_duration(clip_sequence: List[Dict]) -> List[Dict]:
     """
@@ -680,404 +790,349 @@ def enforce_clip_duration(clip_sequence: List[Dict]) -> List[Dict]:
 
 def validate_clip_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict]) -> List[Dict]:
     """Validate and adjust clip start times and durations to ensure they're within valid ranges,
-    avoiding reusing the same clips and ensuring proper transitions."""
-    clips_dict = {clip['name']: clip['duration'] for clip in clips_metadata}
-    used_segments = {}  # clip_name -> list of (start_time, end_time) tuples
-    used_clips = set()  # Track which clips have been used
-    
-    print(f"Total segments to process: {len(clip_sequence)}")
-    total_duration_before = sum(segment['duration'] for segment in clip_sequence)
-    print(f"Total duration before validation: {total_duration_before:.2f} seconds")
-    
-    # First pass to identify all clips
-    available_clips = set([clip['name'] for clip in clips_metadata])
-    
-    # Process each segment
+    avoiding reusing the same *real* clips and ensuring proper transitions. Placeholders are ignored by reuse logic."""
+    clips_dict = {clip['path']: clip.get('duration', 0.0) for clip in clips_metadata}
+    used_segments = {}
+    used_real_clips = set() # Sadece gerçek klipleri takip et
+    placeholder_clip_name = "sample_clips/placeholder.mp4" # Placeholder adını bil
+
+    logger.info(f"Validating {len(clip_sequence)} segments...")
+    total_duration_before = sum(segment.get('duration', 0.0) for segment in clip_sequence) # Use get
+    logger.info(f"Total duration before validation: {total_duration_before:.2f} seconds")
+
+    available_real_clips = {clip['path'] for clip in clips_metadata if clip['path'] != placeholder_clip_name}
+
     for i, segment in enumerate(clip_sequence):
-        clip_name = segment['clip_name']
-        total_duration = clips_dict.get(clip_name, 0)
-        original_duration = segment['duration']  # Store the original duration
-        
-        print(f"\nProcessing segment {i+1}/{len(clip_sequence)}")
-        print(f"Clip: {clip_name}, Original Duration: {original_duration:.2f}s")
-        
-        # If we've already used this clip and there are alternatives, try to find a different one
-        if clip_name in used_clips and len(available_clips - used_clips) > 0:
-            print(f"Warning: Clip '{clip_name}' has already been used. Trying to find an alternative.")
-            
-            # Find available alternatives
-            alternatives = list(available_clips - used_clips)
-            if alternatives:
-                new_clip = random.choice(alternatives)
-                clip_name = new_clip
-                segment['clip_name'] = new_clip
-                total_duration = clips_dict.get(clip_name, 0)
-                print(f"Replaced with alternative clip: {clip_name}")
-        
-        # Track used clips
-        used_clips.add(clip_name)
-        
-        # Initialize used segments tracking for this clip if not already exists
+        clip_name = segment.get('clip_name') # Use get
+        # --- DÜZELTME: Placeholder kontrolü ekle ---
+        is_placeholder = (clip_name == placeholder_clip_name)
+
+        if not clip_name:
+             logger.warning(f"Segment {i+1}: Clip name is missing. Assigning placeholder.")
+             clip_name = placeholder_clip_name
+             segment['clip_name'] = placeholder_clip_name
+             is_placeholder = True
+
+        total_duration = clips_dict.get(clip_name, 0.0) # Klibin toplam süresi
+        # Placeholder için varsayılan bir süre ata (eğer metadata'da yoksa)
+        if is_placeholder and total_duration == 0.0:
+             total_duration = 60.0 # Veya başka uygun bir varsayılan
+             logger.debug(f"Assigning default duration {total_duration}s to placeholder for validation checks.")
+
+        original_duration = segment.get('duration', 0.0)
+
+        # Duration'ı float yap
+        try:
+             original_duration = float(original_duration)
+             if original_duration <= 0:
+                  logger.warning(f"Segment {i+1} ('{clip_name}'): Correcting non-positive duration {original_duration} to 1.0s.")
+                  original_duration = 1.0
+        except (ValueError, TypeError):
+             logger.warning(f"Segment {i+1} ('{clip_name}'): Invalid duration '{segment.get('duration')}'. Setting to 1.0s.")
+             original_duration = 1.0
+        segment['duration'] = original_duration # Süreyi güncelle
+
+        logger.debug(f"Processing segment {i+1}/{len(clip_sequence)}: Clip='{clip_name}', TotalDur={total_duration:.2f}s, SegDur={original_duration:.2f}s, IsPlaceholder={is_placeholder}")
+
+        # --- DÜZELTME: Placeholder değilse ve tekrar kullanılıyorsa alternatif ara ---
+        if not is_placeholder and clip_name in used_real_clips:
+            available_alternatives = list(available_real_clips - used_real_clips)
+            if available_alternatives:
+                logger.warning(f"Segment {i+1}: Real clip '{clip_name}' reused. Trying to find an alternative from {len(available_alternatives)} options.")
+                new_clip_name = random.choice(available_alternatives)
+                logger.info(f"Segment {i+1}: Replacing '{clip_name}' with alternative '{new_clip_name}'.")
+                clip_name = new_clip_name
+                segment['clip_name'] = new_clip_name
+                total_duration = clips_dict.get(clip_name, 0.0) # Yeni klibin süresini al
+                # Yeni klip için used_segments'ı başlat (eğer ilk kullanımıysa)
+                if clip_name not in used_segments:
+                     used_segments[clip_name] = []
+            else:
+                 logger.warning(f"Segment {i+1}: Real clip '{clip_name}' reused, but no unused alternatives available.")
+        # --- DÜZELTME SONU ---
+
+        # Kullanılan gerçek klipleri takip et
+        if not is_placeholder:
+            used_real_clips.add(clip_name)
+
+        # Bu klip için kullanılan segmentleri başlat (eğer ilk kullanımıysa)
         if clip_name not in used_segments:
             used_segments[clip_name] = []
-        
-        # For clips longer than 11 seconds, try to find an unused segment
-        if total_duration > 11:
-            max_attempts = 10
-            attempt = 0
-            found_valid_segment = False
-            
-            while attempt < max_attempts:
-                # Generate a random start time
-                max_start = max(0, total_duration - original_duration)
-                proposed_start = random.uniform(0, max_start)
-                proposed_end = proposed_start + original_duration
-                
-                # Check if this segment overlaps with any used segments
-                overlap = False
-                for used_start, used_end in used_segments[clip_name]:
-                    if not (proposed_end < used_start or proposed_start > used_end):
-                        overlap = True
-                        break
-                
-                if not overlap and proposed_end <= total_duration:
-                    segment['start_time'] = proposed_start
-                    segment['duration'] = original_duration  # Maintain original duration
-                    used_segments[clip_name].append((proposed_start, proposed_end))
-                    found_valid_segment = True
-                    print(f"Found valid segment: Start={proposed_start:.2f}s, Duration={original_duration:.2f}s")
-                    break
-                
-                attempt += 1
-            
-            # If we couldn't find an unused segment, try to find any valid segment
-            if not found_valid_segment:
-                max_start = max(0, total_duration - original_duration)
-                segment['start_time'] = random.uniform(0, max_start)
-                segment['duration'] = original_duration  # Maintain original duration
-                print(f"Using fallback segment: Start={segment['start_time']:.2f}s, Duration={original_duration:.2f}s")
-        else:
-            # For shorter clips, just use random start time
-            max_start = max(0, total_duration - original_duration)
-            segment['start_time'] = random.uniform(0, max_start)
-            segment['duration'] = original_duration  # Maintain original duration
-            print(f"Short clip segment: Start={segment['start_time']:.2f}s, Duration={original_duration:.2f}s")
-        
-        # Final safety check to ensure we don't exceed clip boundaries
-        if segment['start_time'] + segment['duration'] > total_duration:
-            segment['start_time'] = max(0, total_duration - original_duration)
-            print(f"Applied safety adjustment: Start={segment['start_time']:.2f}s, Duration={original_duration:.2f}s")
-            
-    total_duration_after = sum(segment['duration'] for segment in clip_sequence)
-    print(f"\nTotal duration after validation: {total_duration_after:.2f} seconds")
-    
+
+        # Başlangıç zamanını ayarla (overlap kontrolü ile)
+        max_start = max(0.0, total_duration - original_duration)
+        found_valid_start = False
+
+        # Eğer klip segment süresinden uzunsa ve daha önce kullanılmışsa, boşluk ara
+        if total_duration > original_duration + 0.1 and clip_name in used_segments and used_segments[clip_name]:
+             max_attempts = 10
+             for attempt in range(max_attempts):
+                 proposed_start = random.uniform(0, max_start)
+                 proposed_end = proposed_start + original_duration
+                 overlap = False
+                 for used_start, used_end in used_segments[clip_name]:
+                     # Küçük bir tolerans ekleyerek tam sınırlarda çakışmayı önle
+                     if max(proposed_start, used_start) < min(proposed_end, used_end) - 0.01:
+                         overlap = True
+                         break
+                 if not overlap:
+                     segment['start_time'] = proposed_start
+                     used_segments[clip_name].append((proposed_start, proposed_end))
+                     found_valid_start = True
+                     logger.debug(f"Segment {i+1}: Found non-overlapping start={proposed_start:.2f}s for '{clip_name}'.")
+                     break
+
+        # Uygun boşluk bulunamazsa veya klip kısaysa/ilk kullanımıysa rastgele ata
+        if not found_valid_start:
+             proposed_start = random.uniform(0, max_start)
+             segment['start_time'] = proposed_start
+             used_segments[clip_name].append((proposed_start, proposed_start + original_duration))
+             logger.debug(f"Segment {i+1}: Assigned random start={proposed_start:.2f}s for '{clip_name}' (No suitable gap or first use/short clip).")
+
+        # Son güvenlik kontrolü (start_time'ı ayarla, süreyi değiştirme)
+        if segment['start_time'] + original_duration > total_duration + 0.01: # Küçük tolerans
+             segment['start_time'] = max(0.0, total_duration - original_duration)
+             logger.warning(f"Segment {i+1}: Adjusted start time for '{clip_name}' to {segment['start_time']:.2f}s to fit within clip duration {total_duration:.2f}s.")
+
+    total_duration_after = sum(segment.get('duration', 0.0) for segment in clip_sequence) # Use get
+    logger.info(f"Total duration after validation: {total_duration_after:.2f} seconds")
+
     return clip_sequence
 
-def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] = None, 
-                     channel_number: Optional[int] = None, timeline_mode: bool = False) -> bool:
+def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] = None,
+                     channel_number: Optional[int] = None, timeline_mode: bool = False) -> Optional[bytes]:
     """
-    Use ffmpeg to concatenate the selected clip segments into a video with proper transitions.
-    Can use either traditional clip-based method or the timeline-based method.
-    
-    Args:
-        clip_sequence (List[Dict]): The sequence of clips to concatenate
-        clips_metadata (List[Dict], optional): The full metadata for all available clips
-        channel_number (int, optional): Channel number to use, or None to use default
-        timeline_mode (bool): Whether to use timeline objects for generation
-        
-    Returns:
-        bool: True if successful, False otherwise
+    Use ffmpeg to concatenate the selected clip segments into a video stream (bytes).
+    Uses temporary files for segments but cleans them up in the project temp directory.
     """
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
-    
-    # Get file paths from configuration
-    clips_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
-    
-    # Use channel-specific output path
-    output_dir = file_mgr.get_channel_output_path(channel_number)
-    output_video = output_dir / config.file_paths.output_video_file
-    
-    # If clips_metadata not provided, use load_clips_metadata() to get it
-    clips = clips_metadata if clips_metadata is not None else load_clips_metadata()
-    
-    # Ensure the output directory exists
-    file_mgr.ensure_dir_exists(output_video.parent)
-    
-    # Check if we have any valid clips
-    if not clips or not clip_sequence:
-        print("Error: No valid clips or clip sequence available")
-        # Create a placeholder video for the entire sequence
-        create_placeholder_clip(output_video, 60)
-        return True
-    
-    # Handle timeline-based processing
-    timeline = None
-    timeline_created = False
-    
-    # Create the timeline regardless of mode (to allow for output)
-    try:
-        # Create timeline from clip sequence
-        timeline = create_timeline(clip_sequence, channel_number)
-        timeline_created = True
-        
-        # Get a timestamp for the timeline name
-        from datetime import datetime
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
-        # Output the timeline with proper naming and metadata
-        timeline_name = f"edit_{timestamp}"
-        description = "Generated from clip sequence by video_edit.py"
-        
-        # Output the timeline (this handles validation, backups, and visualization)
-        output_timeline(timeline, clip_sequence, timeline_name, 
-                       description=description, channel_number=channel_number)
-        
-        # Also save a "latest_edit" version for easy access
-        output_timeline(timeline, clip_sequence, "latest_edit", 
-                      description=description, channel_number=channel_number,
-                      create_backup=False)  # No backup for "latest" version
-                      
-        print("Timeline created and saved successfully")
-    except Exception as e:
-        print(f"Error creating timeline: {e}")
-        traceback.print_exc()
-        timeline_created = False
-    
-    # If using timeline mode, attempt to render using timeline approach
-    if timeline_mode and timeline_created:
-        try:
-            # Get timeline configuration
-            timeline_config = get_timeline_config(channel_number)
-            
-            # Initialize timeline manager
-            timeline_mgr = TimelineManager(channel_number=channel_number)
-            
-            # Future implementation: direct timeline-based rendering
-            # For now, we acknowledge this will be implemented in the future
-            # and continue with traditional rendering method
-            
-            print("Using traditional video generation as timeline rendering is not fully implemented yet")
-            # This is a placeholder for future timeline-based rendering implementation
-            # TO DO: Implement render_timeline() function that uses auto_editor's capabilities
-            
-        except Exception as e:
-            print(f"Error in timeline-based processing: {e}")
-            traceback.print_exc()
-            print("Falling back to traditional clip-based processing")
-    
-    # Ensure temp directory exists
-    temp_dir = file_mgr.get_abs_path("temp_files")
-    file_mgr.ensure_dir_exists(temp_dir)
-    
+    # Kullanılacak geçici dizini belirle
+    use_dir = project_temp_dir if project_temp_dir else None # None ise sistem varsayılanını kullanır
+
+    # Ana geçici dizini oluştur (eğer use_dir None değilse proje içinde olacak)
+    temp_dir_obj = tempfile.TemporaryDirectory(prefix="videoai_segments_", dir=use_dir)
+    temp_dir = Path(temp_dir_obj.name) # Bu bizim ana çalışma dizinimiz olacak
+    logger.info(f"Using temporary directory for segments: {temp_dir}")
+
+    segments_list = [] # Başarılı segmentlerin listesi
+    final_video_bytes = None
+
     try:
         # Process each clip segment individually first
-        segments_list = []
-        
         for i, clip in enumerate(clip_sequence):
-            # Use the full validated path with extension if available
-            clip_name = clip['clip_name']
-            
-            # First check if there's a stored full path from earlier validation
-            # Store the matching clip object so we can access all its metadata
-            matching_clip = None
-            for c in clips:
-                if c.get('name') == clip_name and 'full_path' in c:
-                    clip_path = Path(c['full_path'])
-                    matching_clip = c
-                    print(f"Found matching clip with full_path: {clip_path}")
-                    break
+            clip_path_str = clip['clip_name'] # Use 'clip_name' as corrected
+            if isinstance(clip_path_str, Path):
+                clip_path = clip_path_str
             else:
-                # Otherwise look for the file with potential extensions
-                # Try three different approaches to find the video:
-                # 1. Look in the clips directory for the name as-is
-                clip_path = clips_dir / clip_name
-                video_file = file_mgr.find_video_file(clip_path)
-                
-                if video_file:
-                    clip_path = video_file
-                    print(f"Found clip using clips_dir path: {clip_path}")
-                else:
-                    # 2. Look directly in video directory (handling potential path prefixes in CSV)
-                    video_file = file_mgr.find_video_file(Path("video") / clip_name)
-                    if video_file:
-                        clip_path = video_file
-                        print(f"Found clip using video/ prefix: {clip_path}")
-                    else:
-                        # 3. Try with explicit .mp4 extension
-                        mp4_path = clips_dir / f"{clip_name}"
-                        if not mp4_path.suffix:  # If no extension, add .mp4
-                            mp4_path = clips_dir / f"{clip_name}.mp4"
-                        video_file = file_mgr.find_video_file(mp4_path)
-                        if video_file:
-                            clip_path = video_file
-                            print(f"Found clip using .mp4 extension: {clip_path}")
-                        else:
-                            # Last resort: use the path as given
-                            clip_path = clips_dir / clip_name
-                            print(f"Using last resort path: {clip_path}")
-            
-            start_time = clip.get('start_time', 0)
-            duration = clip['duration']
-            
-            # Output path for this segment
-            segment_output = temp_dir / f"segment_{i:03d}.mp4"
-            segments_list.append(str(segment_output))
-            
-            # Check if clip exists
-            if not file_mgr.file_exists(clip_path):
-                print(f"Error: Clip file doesn't exist: {clip_path}")
-                # Create a placeholder for this segment
-                create_placeholder_clip(segment_output, duration)
-                continue
-                
-            try:
-                # Scaling parameters for consistent output
-                output_width = 1080  
-                output_height = 1920
-                
-                # Simple scaling without padding to avoid errors
-                scale_filter = f'scale={output_width}:{output_height},setsar=1:1'
-                
-                # Keep track of the original aspect ratio for reference
-                aspect_ratio = clip.get('aspect_ratio', '9:16')
-                print(f"Processing clip with aspect ratio: {aspect_ratio} using simple scaling")
-                
-                # Extract segment with exact duration and proper scaling
-                subprocess.run([
-                    'ffmpeg',
-                    '-y',
-                    '-ss', str(start_time),
-                    '-i', str(clip_path),
-                    '-t', str(duration),
-                    '-vf', scale_filter,
-                    '-c:v', 'libx264',
-                    '-preset', 'fast',
-                    '-crf', '22',
-                    '-r', '30',
-                    '-pix_fmt', 'yuv420p',
-                    str(segment_output)
-                ], check=True)
-                print(f"Created segment {i}: {segment_output} (duration: {duration:.2f}s)")
-                
-                # Verify the segment was created
-                if not segment_output.exists():
-                    print(f"Warning: Segment {i} was not created at {segment_output}")
-                    create_placeholder_clip(segment_output, duration)
-                
-            except subprocess.CalledProcessError as e:
-                print(f"Error creating segment {i}: {e}")
-                # Create a placeholder for this segment as fallback
-                create_placeholder_clip(segment_output, duration)
-        
-        # Create a concat file for the processed segments
-        concat_file = temp_dir / "concat_list.txt"
-        
-        # Verify which segments actually exist before adding to concat list
-        valid_segments = []
-        for segment_path in segments_list:
-            if Path(segment_path).exists():
-                valid_segments.append(segment_path)
-            else:
-                print(f"Warning: Segment {segment_path} does not exist and won't be included")
-                
-        if not valid_segments:
-            print("No valid segments found. Creating a placeholder video instead.")
-            create_placeholder_clip(output_video, 60)
-            return True
-            
-        # Create concat file with absolute paths
-        concat_content = "\n".join([f"file '{seg}'" for seg in valid_segments])
-        file_mgr.write_text(concat_file, concat_content)
-        
-        print(f"Concat file contents: {concat_content}")
-        
-        # Concatenate all the standardized segments
-        try:
-            print(f"Concatenating segments into final video: {output_video}")
-            
-            # Use simpler approach that's more reliable
-            if len(valid_segments) == 1:
-                # If only one segment, just copy it
-                print("Only one segment. Copying directly to output.")
-                shutil.copy2(valid_segments[0], output_video)
-            else:
-                # Use concat demuxer for multiple segments
-                subprocess.run([
-                    'ffmpeg',
-                    '-y',
-                    '-f', 'concat',
-                    '-safe', '0',
-                    '-i', str(concat_file),
-                    '-c', 'copy',  # We can use copy here since all segments are already properly encoded
-                    str(output_video)
-                ], check=True)
-                
-            print(f"Video sequence created successfully")
-            
-            # Verify the file was actually created
-            if not file_mgr.file_exists(output_video):
-                print(f"Warning: Output file not found at {output_video} despite successful command")
-                # Create placeholder as fallback
-                print("Creating placeholder video as fallback...")
-                create_placeholder_clip(output_video, 60)
-                print(f"Created placeholder video at {output_video}")
-            
-            return True
-        
-        except subprocess.CalledProcessError as e:
-            print(f"Error creating final video sequence: {e}")
-            print(f"Error details: {str(e)}")
-            
-            # Create placeholder as fallback
-            try:
-                print("Creating placeholder video as fallback...")
-                placeholder_duration = 60  # seconds
-                create_placeholder_clip(output_video, placeholder_duration)
-                print(f"Created placeholder video at {output_video}")
-                return True
-            except Exception as e2:
-                print(f"Error creating placeholder video: {e2}")
-                return False
-    
-    except Exception as e:
-        print(f"Unexpected error in create_video_sequence: {e}")
-        traceback.print_exc()
-        # Create placeholder as ultimate fallback
-        create_placeholder_clip(output_video, 60)
-        return False
+                clip_path = clip_path_str # Use the identifier for download
 
-def create_timeline(clip_sequence: List[Dict], channel_number: Optional[int] = None) -> v3:
+            temp_input_file_obj = None # Geçici girdi dosyasının Path nesnesi
+
+            try:
+                # --- Download Clip ---
+                clip_data = supabase.storage.from_("video-database").download(str(clip_path))
+                logger.info(f"Downloaded clip: {clip_path} ({len(clip_data)} bytes)")
+
+                # --- Prepare Segment ---
+                start_time = clip.get('start_time', 0.0)
+                duration = clip.get('duration', 1.0)
+
+                # Validate start_time and duration
+                try:
+                    start_time = float(start_time)
+                    duration = float(duration)
+                    if start_time < 0:
+                        logger.warning(f"Segment {i}: Negative start_time ({start_time}) corrected to 0.")
+                        start_time = 0.0
+                    if duration <= 0:
+                         logger.warning(f"Segment {i}: Non-positive duration ({duration}) corrected to 1.0s.")
+                         duration = 1.0
+                except (ValueError, TypeError) as e:
+                     logger.error(f"Segment {i}: Invalid start_time or duration ({clip.get('start_time')}, {clip.get('duration')}). Skipping segment. Error: {e}")
+                     continue
+
+                segment_output = temp_dir / f"segment_{i:03d}.mp4"
+
+                # --- Write downloaded data to a temporary input file within temp_dir ---
+                try:
+                    # mkstemp yerine NamedTemporaryFile kullanmak daha güvenli olabilir
+                    with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", dir=temp_dir, delete=False) as temp_input_f:
+                        temp_input_f.write(clip_data)
+                        temp_input_path = temp_input_f.name
+                        temp_input_file_obj = Path(temp_input_path) # Temizlik için Path objesi
+                    logger.debug(f"Wrote clip data for segment {i} to temporary input: {temp_input_path}")
+                except Exception as e_write:
+                    logger.error(f"Error writing temporary input file for segment {i}: {e_write}")
+                    if temp_input_file_obj and temp_input_file_obj.exists(): temp_input_file_obj.unlink() # Kısmen oluşturulduysa temizle
+                    continue
+
+                # --- Run FFmpeg using the temporary input file ---
+                try:
+                    output_width = 1080
+                    output_height = 1920
+                    scale_filter = f'scale={output_width}:{output_height}:force_original_aspect_ratio=decrease,pad={output_width}:{output_height}:(ow-iw)/2:(oh-ih)/2,setsar=1:1'
+
+                    logger.info(f"Processing segment {i} (Start: {start_time:.2f}s, Duration: {duration:.2f}s) from {temp_input_path} to {segment_output}...")
+                    process = subprocess.run([
+                        'ffmpeg', '-y',
+                        '-ss', str(start_time),
+                        '-i', temp_input_path, # Geçici girdi dosyasının yolunu kullan
+                        '-t', str(duration),
+                        '-vf', scale_filter,
+                        '-c:v', 'libx264', '-preset', 'fast', '-crf', '22',
+                        '-r', '30', '-pix_fmt', 'yuv420p', '-an',
+                        str(segment_output)
+                    ], check=True, capture_output=True, text=True, encoding='utf-8')
+
+                    logger.info(f"Successfully created segment {i}: {segment_output}")
+                    segments_list.append(str(segment_output))
+
+                except subprocess.CalledProcessError as e:
+                    logger.error(f"Error creating segment {i} for {clip_path} (Input: {temp_input_path}): {e}")
+                    logger.error(f"FFmpeg stderr:\n{e.stderr}")
+                except Exception as e_ffmpeg:
+                    logger.error(f"Unexpected error running ffmpeg for segment {i}: {e_ffmpeg}")
+
+            except Exception as download_error:
+                logger.error(f"Error downloading or preparing clip {clip_path} for segment {i}: {download_error}")
+
+            finally:
+                 # Geçici girdi dosyasını temizle (NamedTemporaryFile ile oluşturulduğu için)
+                 if temp_input_file_obj and temp_input_file_obj.exists():
+                     try:
+                         temp_input_file_obj.unlink()
+                         logger.debug(f"Cleaned up temporary input file: {temp_input_file_obj}")
+                     except Exception as e_clean_in:
+                         logger.warning(f"Could not clean up temporary input file {temp_input_file_obj}: {e_clean_in}")
+
+        # --- Concatenation Part (after loop) ---
+        valid_segments = []
+        for segment_path_str in segments_list:
+            segment_path = Path(segment_path_str)
+            if segment_path.exists() and segment_path.stat().st_size > 0:
+                valid_segments.append(segment_path.as_posix())
+            else:
+                logger.warning(f"Warning: Segment {segment_path_str} from list does not exist or is empty and won't be included")
+
+        if not valid_segments:
+            logger.error("No valid segments were successfully created to concatenate.")
+            return None
+
+        if len(valid_segments) == 1:
+            logger.info("Only one valid segment. Reading its content.")
+            try:
+                with open(valid_segments[0], 'rb') as f:
+                    final_video_bytes = f.read()
+                logger.info(f"Read single segment video bytes ({len(final_video_bytes)} bytes)")
+            except Exception as e:
+                logger.error(f"Error reading single segment file {valid_segments[0]}: {e}")
+                return None
+        else:
+            concat_file = temp_dir / "concat_list.txt"
+            concat_content = "\n".join([f"file '{path.replace(chr(92), '/')}'" for path in valid_segments])
+            try:
+                file_mgr.write_text(concat_file, concat_content)
+                logger.info(f"Concat file created at: {concat_file}")
+                logger.debug(f"Concat file contents:\n{concat_content}")
+            except Exception as e:
+                logger.error(f"Error writing concat file: {e}")
+                return None
+
+            # Birleştirilmiş çıktı için geçici dosya yolu oluştur
+            temp_concat_output_path = temp_dir / "concatenated_output.mp4"
+
+            try:
+                logger.info(f"Concatenating {len(valid_segments)} segments into temporary file: {temp_concat_output_path}...")
+                process = subprocess.run([
+                    'ffmpeg', '-y',
+                    '-f', 'concat', '-safe', '0',
+                    '-i', str(concat_file),
+                    '-c', 'copy',
+                    # '-f', 'mp4', 'pipe:1' # Pipe yerine dosyaya yaz
+                    str(temp_concat_output_path) # Çıktı olarak geçici dosyayı ver
+                ], check=True, capture_output=True, text=True, encoding='utf-8') # capture_output ve text hala loglama için kalabilir
+
+                # Komut başarılıysa, geçici dosyayı oku
+                logger.info(f"Successfully concatenated segments into temporary file: {temp_concat_output_path}")
+                if temp_concat_output_path.exists() and temp_concat_output_path.stat().st_size > 0:
+                    with open(temp_concat_output_path, 'rb') as f:
+                        final_video_bytes = f.read()
+                    logger.info(f"Read concatenated video bytes from temporary file ({len(final_video_bytes)} bytes)")
+                else:
+                    logger.error("Concatenated temporary file not found or is empty.")
+                    return None
+
+            except subprocess.CalledProcessError as e:
+                logger.error(f"Error creating final video sequence via concatenation into file: {e}")
+                logger.error(f"FFmpeg stderr:\n{e.stderr}") # stderr'ı string olarak logla
+                return None
+            # except Exception as e_concat: # Genel hata yakalama
+            #     logger.error(f"Unexpected error during file concatenation: {e_concat}", exc_info=True)
+            #     return None
+
+
+        return final_video_bytes
+
+    except Exception as e:
+        logger.error(f"Unexpected error in create_video_sequence: {e}", exc_info=True)
+        return None
+    finally:
+        # TemporaryDirectory'nin otomatik temizliğine güveniyoruz
+        try:
+            temp_dir_obj.cleanup()
+            logger.info(f"Cleaned up temporary segment directory: {temp_dir}")
+        except Exception as cleanup_error:
+            # Zaten temizlenmişse veya erişim sorunları varsa hata verebilir
+            logger.warning(f"Could not clean up temporary directory {temp_dir} (might be already cleaned or access issue): {cleanup_error}")
+
+def create_timeline(clip_sequence: List[Dict], channel_number: Optional[int] = None, clips_base_dir: Path = None, voice_file_path: Optional[Path] = None) -> v3: # voice_file_path eklendi
     """
-    Convert a clip sequence to a timeline object.
-    
+    Convert a clip sequence to a timeline object, optionally including a voice track.
+    Requires source clips to be available locally for probing.
+
     Args:
         clip_sequence (List[Dict]): The sequence of clips to convert
         channel_number (Optional[int]): Channel number to use, or None to use default
-        
+        clips_base_dir (Path): The base directory where clip files are located for probing.
+        voice_file_path (Optional[Path]): Path to the voice-over audio file to include.
+
     Returns:
         v3: A v3 timeline object representing the clip sequence
     """
     # Use default channel if none specified
     if channel_number is None:
         channel_number = config.default_channel
-    
+
     # Initialize timeline manager with the channel
     timeline_mgr = TimelineManager(channel_number=channel_number)
-    
+
     # Get timeline configuration
     timeline_config = get_timeline_config(channel_number)
-    
-    # Create timeline from clip sequence
+
+    # Determine the clips directory to use
+    if clips_base_dir is None:
+        # Bu durum normalde main akışında olmamalı ama bir fallback olarak bırakılabilir
+        logger.warning("clips_base_dir not provided to create_timeline, falling back to config path.")
+        clips_base_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
+        # Burada hata vermek daha doğru olabilir:
+        # raise ValueError("clips_base_dir must be provided to create_timeline")
+
+    logger.info(f"Creating timeline using clips from directory: {clips_base_dir}")
+    if voice_file_path:
+        logger.info(f"Including voice file: {voice_file_path.name}")
+    else:
+        logger.info("No voice file provided for timeline.")
+
+
+    # Create timeline from clip sequence, passing the correct directory and voice file path
     timeline = timeline_mgr.clip_sequence_to_timeline(
         clip_sequence,
         output_width=timeline_config.default_width,
         output_height=timeline_config.default_height,
         framerate=timeline_config.default_framerate,
-        clips_dir=file_mgr.get_abs_path(config.file_paths.clips_directory)
+        clips_dir=clips_base_dir, # Use the provided directory path
+        voice_file_path=voice_file_path # Pass the voice file path
     )
-    
+
     return timeline
 
 def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str, 
@@ -1218,630 +1273,375 @@ def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str,
         traceback.print_exc()
         return False
 
-def merge_voice_with_video(video_path: str = None, voice_path: str = None, output_path: str = None, channel_number: Optional[int] = None) -> bool:
+def merge_voice_with_video(video_path: Optional[str] = None, voice_path: Optional[str] = None,
+                          output_path: Optional[str] = None, channel_number: Optional[int] = None,
+                          video_bytes: Optional[bytes] = None,
+                          voice_duration: Optional[float] = None) -> bool: # voice_duration parametresi eklendi
     """
-    Merge the generated voice audio with the video and add background music as a second audio layer.
-    Ensure the final video duration matches the voice track length.
-    
-    Args:
-        video_path (str, optional): Path to the video file, or None to use config default
-        voice_path (str, optional): Path to the voice file, or None to use config default
-        output_path (str, optional): Path for the output file, or None to use config default
-        channel_number (int, optional): Channel number to use, or None to use default
-        
-    Returns:
-        bool: True if successful, False otherwise
+    Merge voice audio with video (from path or bytes) and add background music.
+    Uses temporary files in the project temp directory.
+    Uses provided voice_duration instead of recalculating.
     """
-    # Store the original video path to handle temporary extended videos
-    original_video_path = video_path
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
-    
-    # Use channel-specific paths if parameters are not provided
-    if video_path is None:
-        output_dir = file_mgr.get_channel_output_path(channel_number)
-        video_path = str(output_dir / config.file_paths.output_video_file)
-    if voice_path is None:
-        voice_path = str(file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/","")))
-    if output_path is None:
-        output_dir = file_mgr.get_channel_output_path(channel_number)
-        output_path = str(output_dir / config.file_paths.final_video_file)
-    
-    # Ensure the output directory exists
-    file_mgr.ensure_dir_exists(Path(output_path).parent)
-    
-    # Check if input files exist
-    if not file_mgr.file_exists(video_path):
-        print(f"Video file not found: {video_path}")
-        print("Creating placeholder video since input video is missing")
-        try:
-            create_placeholder_clip(output_path, 60)
-            print(f"Created placeholder video at {output_path}")
-            return True
-        except Exception as e:
-            print(f"Error creating placeholder: {e}")
-            return False
-    
-    # Check if voice file exists
-    if not file_mgr.file_exists(voice_path):
-        print(f"Voice file not found: {voice_path}")
-        print("Copying video file to output without voice")
-        try:
-            file_mgr.copy_file(video_path, output_path)
-            print(f"Video copied to {output_path}")
-            return True
-        except Exception as e:
-            print(f"Error copying video: {e}")
-            # Create placeholder as last resort
-            try:
-                create_placeholder_clip(output_path, 60)
-                return True
-            except:
-                return False
-    
-    # Get voice duration to ensure video covers the entire voice track
-    voice_duration = get_voice_duration(voice_path)
-    if voice_duration is None:
-        print("Warning: Could not determine voice duration")
-        voice_duration = 60  # Default fallback
-    else:
-        print(f"Voice duration: {voice_duration:.2f} seconds")
-    
-    # Get video duration
+    temp_video_file_obj = None
+    extended_video_path_obj = None
+    temp_merge_output_obj = None
+
+    # Kullanılacak geçici dizini belirle
+    use_dir = project_temp_dir if project_temp_dir else None
+
     try:
-        result = subprocess.run(
-            [
-                "ffprobe", "-v", "error",
-                "-show_entries", "format=duration",
-                "-of", "default=noprint_wrappers=1:nokey=1",
-                video_path
-            ],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            check=True
-        )
-        video_duration = float(result.stdout.strip())
-        print(f"Video duration: {video_duration:.2f} seconds")
-    except Exception as e:
-        print(f"Error obtaining video duration: {e}")
+        # ... (kanal numarası ve dosya yolları belirleme aynı kalır) ...
+        if channel_number is None: channel_number = config.default_channel
+        if output_path is None:
+            output_dir = file_mgr.get_channel_output_path(channel_number)
+            output_path = str(output_dir / config.file_paths.final_video_file)
+        file_mgr.ensure_dir_exists(Path(output_path).parent)
+        if voice_path is None:
+             logger.error("merge_voice_with_video requires an explicit voice_path.")
+             return False
+
+        current_video_input_path = None # Kullanılacak video dosyasının yolu
+
+        # --- Video Input Handling ---
+        # ... (video input handling aynı kalır) ...
+        if video_bytes:
+            logger.info("Using video data from bytes. Writing to project temp file.")
+            try:
+                # ... (geçici video dosyası oluşturma) ...
+                with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", prefix="videoai_merge_vid_", dir=use_dir, delete=False) as temp_f:
+                    temp_f.write(video_bytes)
+                    temp_video_path = temp_f.name
+                    temp_video_file_obj = Path(temp_video_path) # Temizlik için sakla
+                current_video_input_path = temp_video_path
+                logger.info(f"Video bytes written to temporary file: {current_video_input_path}")
+            except Exception as e:
+                # ... (hata işleme) ...
+                 logger.error(f"Failed to write video bytes to temporary file: {e}")
+                 if temp_video_file_obj and temp_video_file_obj.exists(): temp_video_file_obj.unlink()
+                 return False
+        elif video_path:
+            # ... (video_path kullanma) ...
+             logger.info(f"Using video data from path: {video_path}")
+             if not file_mgr.file_exists(video_path):
+                 logger.error(f"Video file not found: {video_path}")
+                 return False
+             current_video_input_path = video_path
+        else:
+             logger.error("No video input provided (neither path nor bytes).")
+             return False
+
+
+        # Check if voice file exists
+        if not file_mgr.file_exists(voice_path):
+             # ... (ses dosyası yoksa kopyalama) ...
+             logger.warning(f"Voice file not found: {voice_path}. Copying video without voice.")
+             try:
+                 shutil.copy2(current_video_input_path, output_path)
+                 logger.info(f"Video copied to {output_path} without voice modification.")
+                 return True
+             except Exception as e:
+                 logger.error(f"Error copying video: {e}")
+                 return False
+
+
+        # --- Duration Checks and Video Extension (using provided voice_duration) ---
+        # voice_duration = get_voice_duration(voice_path) # BU SATIR KALDIRILDI
         video_duration = None
-    
-    # Get audio volume settings from config
-    voice_volume = config.video_edit.voice_volume
-    bgm_volume = config.video_edit.background_music_volume
-    
-    # Get background music folder path from config
-    bgm_folder = file_mgr.get_abs_path(config.file_paths.background_music_directory)
-    
-    # Create sample music folder if it doesn't exist
-    file_mgr.ensure_dir_exists(bgm_folder)
-    
-    # Create a sample music file if none exists
-    if not file_mgr.list_files(bgm_folder, "*.mp3"):
-        print("No background music files found. Creating a sample tone...")
-        sample_tone_path = bgm_folder / "background_music.mp3"
-        try:
-            # Create a 30-second sine wave tone (actually audible, not silent)
-            subprocess.run([
-                "ffmpeg", "-y",
-                "-f", "lavfi", 
-                "-i", "sine=frequency=440:sample_rate=44100:duration=30",
-                "-filter_complex", "afade=t=in:st=0:d=2,afade=t=out:st=28:d=2",
-                "-ar", "44100",
-                "-ac", "2",
-                "-b:a", "192k",
-                str(sample_tone_path)
-            ], check=True)
-            print(f"Created audible background tone at {sample_tone_path}")
-        except Exception as e:
-            print(f"Could not create sample tone: {e}")
-    
-    # Use file_mgr to list files in the background music folder
-    bgm_files = [str(path) for path in file_mgr.list_files(bgm_folder, "*.mp3")]
-    
-    # Handle case where video is shorter than voice
-    if video_duration and voice_duration and video_duration < voice_duration:
-        print(f"Warning: Video ({video_duration:.2f}s) is shorter than voice ({voice_duration:.2f}s). Extending video...")
-        
-        # Create a persistent temporary file for extended video
-        temp_dir = file_mgr.get_abs_path("temp_files")
-        file_mgr.ensure_dir_exists(temp_dir)
-        import uuid  # Import here so we don't redefine it later
-        ext_temp_name = f"temp_ext_{uuid.uuid4().hex}.mp4"
-        extended_video_path = temp_dir / ext_temp_name
-        
-        try:
-            # Instead of using tpad which creates a still frame, let's use loop
-            # This will repeat the video from the beginning rather than freezing on last frame
-            # Calculate number of loops needed to cover the voice duration
-            loops_needed = int(voice_duration / video_duration) + 1
-            
-            subprocess.run([
-                "ffmpeg", "-y",
-                "-stream_loop", str(loops_needed), 
-                "-i", video_path,
-                "-t", str(voice_duration + 1),  # Add a safety margin
-                "-c:v", "libx264",
-                "-preset", "fast",
-                "-crf", "22",
-                str(extended_video_path)
-            ], check=True)
-            
-            print(f"Extended video created successfully by looping (total duration: {voice_duration + 1:.2f}s)")
-            # Use the extended video for merging
-            video_path = str(extended_video_path)
-            # We'll let the file stay around until the entire function completes
-            # since we're using video_path for the next step
-        except subprocess.CalledProcessError as e:
-            print(f"Error extending video by looping: {e}")
-            # Fall back to the old approach if looping fails
+
+        if voice_duration is None:
+            logger.warning("Voice duration not provided or could not be determined. Skipping video extension check.")
+        else:
+            logger.info(f"Using provided voice duration: {voice_duration:.2f} seconds")
             try:
-                # Extend the video by looping the last frame to match voice duration
-                # Add a 1-second safety margin
-                extend_duration = voice_duration - video_duration + 1
-                
-                subprocess.run([
-                    "ffmpeg", "-y",
-                    "-i", video_path,
-                    "-filter_complex", 
-                    f"[0:v]tpad=stop_mode=clone:stop_duration={extend_duration}[extended]",
-                    "-map", "[extended]",
-                    "-c:v", "libx264",
-                    "-preset", "fast",
-                    "-crf", "22",
-                    str(extended_video_path)
-                ], check=True)
-                
-                print(f"Extended video created successfully using freeze frame (total duration: {voice_duration + 1:.2f}s)")
-                # Use the extended video for merging
-                video_path = str(extended_video_path)
+                result = subprocess.run(
+                    ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                     "-of", "default=noprint_wrappers=1:nokey=1", current_video_input_path], # Use current path
+                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True
+                )
+                duration_str = result.stdout.strip() # Önce string olarak al
+                # Sayıya çevirmeden önce kontrol et
+                try:
+                    video_duration = float(duration_str)
+                    logger.info(f"Video duration: {video_duration:.2f} seconds")
+
+                    # Video süresi kontolü ve uzatma sadece geçerli bir süre varsa yapılmalı
+                    if video_duration < voice_duration:
+                        logger.warning(f"Video ({video_duration:.2f}s) is shorter than voice ({voice_duration:.2f}s). Extending video...")
+                        # ... (video uzatma mantığı aynı kalır) ...
+                        try:
+                            with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", prefix="videoai_ext_", dir=use_dir, delete=False) as temp_ext_f:
+                                 extended_video_path = temp_ext_f.name
+                                 extended_video_path_obj = Path(extended_video_path) # Temizlik için
+
+                            # ... (ffmpeg ile uzatma komutu) ...
+                            loops_needed = int(voice_duration / video_duration) + 1
+                            extend_duration = voice_duration + 1
+                            logger.info(f"Extending video by looping {loops_needed} times to target duration {extend_duration:.2f}s into {extended_video_path}")
+                            subprocess.run([
+                                 "ffmpeg", "-y",
+                                 "-stream_loop", str(loops_needed),
+                                 "-i", current_video_input_path, # Original or temp from bytes
+                                 "-t", str(extend_duration),
+                                 "-c:v", "libx264", "-preset", "fast", "-crf", "22", "-an",
+                                 extended_video_path # Output to new temp file
+                             ], check=True, capture_output=True, text=True, encoding='utf-8')
+
+
+                            logger.info(f"Extended video created successfully at {extended_video_path}")
+                            current_video_input_path = extended_video_path # Use this extended video now
+
+                        except subprocess.CalledProcessError as e:
+                             # ... (uzatma hatası işleme) ...
+                             logger.error(f"Error extending video by looping: {e}")
+                             logger.error(f"FFmpeg stderr:\n{e.stderr}")
+                             if extended_video_path_obj and extended_video_path_obj.exists(): extended_video_path_obj.unlink() # Temizle
+                             extended_video_path_obj = None # Başarısız oldu
+                        except Exception as e_ext:
+                             # ... (diğer uzatma hataları) ...
+                              logger.error(f"Unexpected error creating extended video file: {e_ext}")
+                              if extended_video_path_obj and extended_video_path_obj.exists(): extended_video_path_obj.unlink()
+                              extended_video_path_obj = None
+                except ValueError:
+                     # Eğer float'a çevrilemezse (örn: 'N/A' ise)
+                     logger.warning(f"Could not determine valid video duration from ffprobe output: '{duration_str}'. Skipping duration check and extension.")
+                     video_duration = None # video_duration'ı None olarak ayarla veya uygun bir varsayılan ata
+
             except subprocess.CalledProcessError as e:
-                print(f"Error extending video using freeze frame: {e}")
-                # Continue with original video if extension fails
-            
-            # Clean up the file if it exists but is invalid
-            if extended_video_path.exists() and not os.path.getsize(str(extended_video_path)) > 0:
-                try:
-                    extended_video_path.unlink()
-                    print(f"Cleaned up invalid extended video file: {extended_video_path}")
-                except Exception as e2:
-                    print(f"Warning: Could not remove temporary file {extended_video_path}: {e2}")
-    
-    # Simplify by first merging video with voice, then add background music if available
-    try:
-        print(f"Merging voice with video: {output_path}")
-        
-        # Create a persistent temporary file (not using context manager to avoid early deletion)
-        temp_dir = file_mgr.get_abs_path("temp_files")
-        file_mgr.ensure_dir_exists(temp_dir)
-        import uuid
-        temp_name = f"temp_voice_merge_{uuid.uuid4().hex}.mp4"
-        temp_output = temp_dir / temp_name
-        
+                 logger.error(f"ffprobe command failed for video '{current_video_input_path}': {e.stderr}")
+                 video_duration = None # Hata durumunda None yap
+            except Exception as e:
+                logger.error(f"Error obtaining or processing video duration: {e}")
+                video_duration = None # Genel hata durumunda None yap
+
+        # --- Audio Merging and Background Music ---
+        # ... (ses birleştirme ve BGM ekleme mantığı aynı kalır) ...
+        voice_volume = config.video_edit.voice_volume
+        bgm_volume = config.video_edit.background_music_volume
+        bgm_folder = file_mgr.get_abs_path(config.file_paths.background_music_directory)
+        bgm_files = [str(path) for path in file_mgr.list_files(bgm_folder, "*.mp3")]
         try:
-            # Add voice to video
-            subprocess.run([
-                "ffmpeg",
-                "-y",
-                "-i", video_path,
-                "-i", voice_path,
-                "-map", "0:v:0",
-                "-map", "1:a:0",
-                "-c:v", "copy",
-                "-c:a", "aac",
-                "-shortest",
-                str(temp_output)
-            ], check=True)
-            
-            print("Successfully merged voice with video")
-            
-            # Now add background music (always add it if music exists)
-            if bgm_files:
-                bgm_file = random.choice(bgm_files)
-                print(f"Selected background music: {bgm_file}")
-                
-                # Mix the background music at a lower volume
-                try:
-                    # Print detailed info about what we're doing
-                    print(f"Adding background music '{bgm_file}' at volume {bgm_volume}")
-                    
-                    # First verify the background music file exists
-                    if not os.path.exists(bgm_file):
-                        print(f"Warning: Background music file '{bgm_file}' not found")
-                        # Look in the correct directory if needed
-                        alt_bgm_path = file_mgr.get_abs_path("background_music/background_music.mp3")
-                        if os.path.exists(str(alt_bgm_path)):
-                            bgm_file = str(alt_bgm_path)
-                            print(f"Using alternative background music path: {bgm_file}")
-                    
-                    # More robust command with better error handling and detailed debugging
-                    process = subprocess.run([
-                        "ffmpeg",
-                        "-y",
-                        "-i", str(temp_output),
-                        "-i", bgm_file,
-                        "-filter_complex", 
-                        f"[0:a]volume={voice_volume}[main];[1:a]volume={bgm_volume},aloop=loop=-1:size=2s[bgm];[main][bgm]amix=inputs=2:duration=first[aout]",
-                        "-map", "0:v",
-                        "-map", "[aout]",
-                        "-c:v", "copy",
-                        "-c:a", "aac",
-                        "-b:a", "192k",  # Higher audio bitrate for better quality
-                        "-shortest",
-                        output_path
-                    ], check=True)
-                    
-                    print("Successfully added background music")
-                    
-                    # Verify that the output file was created with the expected duration
-                    if not file_mgr.file_exists(output_path):
-                        raise Exception(f"Output file was not created: {output_path}")
-                    
-                    # Clean up temp file
-                    if temp_output.exists():
-                        temp_output.unlink()
-                        print(f"Cleaned up temporary file: {temp_output}")
-                    
-                    return True
-                except subprocess.CalledProcessError as e:
-                    print(f"Error adding background music: {e}")
-                    print(f"Error output: {e.stderr}")
-                    # If background music fails, use the voice-only version
-                    file_mgr.copy_file(temp_output, output_path)
-                    print("Using voice-only version as fallback")
-                    
-                    # Clean up temp file
-                    if temp_output.exists():
-                        temp_output.unlink()
-                        print(f"Cleaned up temporary file: {temp_output}")
-                    
-                    return True
-            else:
-                # Just use the voice version
-                file_mgr.copy_file(temp_output, output_path)
-                print("No background music files found. Using voice-only version.")
-                
-                # Clean up temp file
-                if temp_output.exists():
-                    temp_output.unlink()
-                    print(f"Cleaned up temporary file: {temp_output}")
-                
-                return True
+             logger.info(f"Merging voice with video: Input='{current_video_input_path}', Voice='{voice_path}' -> Output='{output_path}'")
+             # ... (geçici birleştirme dosyası oluşturma) ...
+             with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", prefix="videoai_voice_merge_", dir=use_dir, delete=False) as temp_merge_f:
+                  temp_merge_path = temp_merge_f.name
+                  temp_merge_output_obj = Path(temp_merge_path) # Temizlik için
+
+             # ... (ffmpeg ile sesi videoya ekleme komutu) ...
+             subprocess.run([
+                 "ffmpeg", "-y",
+                 "-i", current_video_input_path,
+                 "-i", voice_path,
+                 "-map", "0:v:0", "-map", "1:a:0",
+                 "-c:v", "copy", "-c:a", "aac", "-shortest",
+                 temp_merge_path
+             ], check=True, capture_output=True, text=True, encoding='utf-8')
+
+             logger.info(f"Successfully merged voice with video into temporary file: {temp_merge_path}")
+
+
+             # ... (BGM ekleme mantığı) ...
+             if bgm_files:
+                 # ... (BGM işlemleri) ...
+                 bgm_file = random.choice(bgm_files)
+                 logger.info(f"Adding background music: '{bgm_file}' at volume {bgm_volume}")
+                 if not os.path.exists(bgm_file):
+                      logger.warning(f"Background music file '{bgm_file}' not found. Skipping BGM.")
+                      shutil.copy2(temp_merge_path, output_path)
+                 else:
+                     try:
+                         subprocess.run([
+                             "ffmpeg", "-y",
+                             "-i", temp_merge_path,
+                             "-i", bgm_file,
+                             "-filter_complex",
+                             f"[0:a]volume={voice_volume}[main];[1:a]aloop=loop=-1:size=2e+09,volume={bgm_volume}[bgm];[main][bgm]amix=inputs=2:duration=first[aout]",
+                             "-map", "0:v", "-map", "[aout]",
+                             "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
+                             output_path
+                         ], check=True, capture_output=True, text=True, encoding='utf-8')
+                         logger.info(f"Successfully added background music. Final output: {output_path}")
+                     except subprocess.CalledProcessError as e:
+                         # ... (BGM hatası işleme) ...
+                         logger.error(f"Error adding background music: {e}")
+                         logger.error(f"FFmpeg stderr:\n{e.stderr}")
+                         logger.info("Using voice-only version as fallback.")
+                         shutil.copy2(temp_merge_path, output_path)
+             else:
+                 # ... (BGM yoksa kopyalama) ...
+                 logger.info("No background music files found. Using voice-only version.")
+                 shutil.copy2(temp_merge_path, output_path)
+
+             return True
+        except subprocess.CalledProcessError as e:
+             # ... (birleştirme hatası işleme) ...
+             logger.error(f"Error during voice/BGM merging: {e}")
+             logger.error(f"FFmpeg stderr:\n{e.stderr}")
+             return False
+        except Exception as e:
+              # ... (diğer birleştirme hataları) ...
+              logger.error(f"Unexpected error during audio processing: {e}", exc_info=True)
+              return False
         finally:
-            # Make sure we always clean up the temp file
-            if temp_output.exists():
-                try:
-                    temp_output.unlink()
-                    print(f"Cleaned up temporary file: {temp_output}")
-                except Exception as e:
-                    print(f"Warning: Could not remove temporary file {temp_output}: {e}")
-    
-    except subprocess.CalledProcessError as e:
-        print(f"Error merging voice with video: {e}")
-        # Try a simpler approach as fallback
-        try:
-            print("Trying simpler approach...")
-            subprocess.run([
-                "ffmpeg",
-                "-y",
-                "-i", video_path,
-                "-i", voice_path,
-                "-c:v", "copy",
-                "-c:a", "aac",
-                "-map", "0:v:0",
-                "-map", "1:a:0",
-                "-shortest",
-                output_path
-            ], check=True)
-            print("Voice and video merged successfully with simpler approach")
-        except subprocess.CalledProcessError as e2:
-            print(f"Error with simpler approach: {e2}")
-            # Just copy the video as last resort
-            try:
-                file_mgr.copy_file(video_path, output_path)
-                print(f"Copied video without audio as last resort")
-                return True
-            except Exception as e3:
-                print(f"Failed to copy video: {e3}")
-                # Try creating a placeholder as absolute last resort
-                try:
-                    create_placeholder_clip(output_path, 60)
-                    print(f"Created placeholder as last resort")
-                    
-                    # Clean up extended video if it exists and is different from original
-                    if video_path != original_video_path and Path(video_path).exists():
-                        try:
-                            Path(video_path).unlink()
-                            print(f"Cleaned up temporary extended video: {video_path}")
-                        except Exception as e:
-                            print(f"Warning: Could not remove extended video: {e}")
-                    
-                    return True
-                except:
-                    return False
+             # ... (ara birleştirme dosyasını temizleme) ...
+             if temp_merge_output_obj and temp_merge_output_obj.exists():
+                 try:
+                     temp_merge_output_obj.unlink()
+                     logger.info(f"Cleaned up intermediate merge file: {temp_merge_output_obj}")
+                 except Exception as e:
+                     logger.warning(f"Could not remove intermediate merge file {temp_merge_output_obj}: {e}")
+
     except Exception as e:
-        print(f"Unexpected error during audio processing: {e}")
-        # Just copy the video as last resort
-        try:
-            file_mgr.copy_file(video_path, output_path)
-            print(f"Copied video without audio due to unexpected error")
-            return True
-        except Exception as e2:
-            print(f"Failed to copy video: {e2}")
-            # Try creating a placeholder as absolute last resort
-            try:
-                create_placeholder_clip(output_path, 60)
-                print(f"Created placeholder as last resort")
-                
-                # Clean up extended video if it exists and is different from original
-                if video_path != original_video_path and Path(video_path).exists():
-                    try:
-                        Path(video_path).unlink()
-                        print(f"Cleaned up temporary extended video: {video_path}")
-                    except Exception as e:
-                        print(f"Warning: Could not remove extended video: {e}")
-                
-                return True
-            except:
-                return False
+        # ... (genel hata işleme) ...
+         logger.error(f"Overall error in merge_voice_with_video: {e}", exc_info=True)
+         return False
+    finally:
+        # --- Final Cleanup ---
+        # ... (geçici video ve uzatılmış video dosyalarını temizleme) ...
+        if temp_video_file_obj and temp_video_file_obj.exists():
+             try:
+                 temp_video_file_obj.unlink()
+                 logger.info(f"Cleaned up temporary file from video_bytes: {temp_video_file_obj}")
+             except Exception as e:
+                 logger.warning(f"Could not remove temporary file {temp_video_file_obj}: {e}")
+        if extended_video_path_obj and extended_video_path_obj.exists():
+              try:
+                 extended_video_path_obj.unlink()
+                 logger.info(f"Cleaned up temporary extended video file: {extended_video_path_obj}")
+              except Exception as e:
+                 logger.warning(f"Could not remove temporary extended video file {extended_video_path_obj}: {e}")
 
-def burn_subtitles(video_path: str = None, srt_path: str = None, output_path: str = None, channel_number: Optional[int] = None) -> bool:
+def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = None,
+                   output_path: Optional[str] = None, channel_number: Optional[int] = None,
+                   srt_bytes: Optional[bytes] = None) -> bool:
     """
-    Burn subtitles from the SRT file into the video using ffmpeg with TV news style formatting.
-    Applies subtitles to already correctly scaled video to prevent aspect ratio issues.
-    
-    Args:
-        video_path (str, optional): Path to the video file, or None to use config default
-        srt_path (str, optional): Path to the SRT file, or None to use config default
-        output_path (str, optional): Path for the output file, or None to use config default
-        channel_number (int, optional): Channel number to use, or None to use default
-        
-    Returns:
-        bool: True if successful, False otherwise
+    Burn subtitles from an SRT file path or bytes into the video using ffmpeg.
+    Uses temporary files in the project temp directory.
     """
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
-    
-    # Check for dynamic file paths from write_script.py
-    file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-    dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-    
-    # Use channel-specific paths if parameters are not provided
-    if video_path is None:
-        output_dir = file_mgr.get_channel_output_path(channel_number)
-        # Use dynamic paths if available
-        if dynamic_file_paths and "final_video_file" in dynamic_file_paths:
-            final_video_file = dynamic_file_paths["final_video_file"]
+    temp_srt_file_obj = None # Geçici SRT dosyasının Path nesnesi
+    actual_srt_path = None
+
+    # Kullanılacak geçici dizini belirle
+    use_dir = project_temp_dir if project_temp_dir else None
+
+    try:
+        # ... (kanal numarası ve dosya yolları belirleme aynı kalır) ...
+        if channel_number is None: channel_number = config.default_channel
+        # ... (video_path ve output_path belirleme) ...
+        if video_path is None:
+            output_dir = file_mgr.get_channel_output_path(channel_number)
+            final_video_file = config.file_paths.final_video_file # Dinamik dosya yolu kontrolü eklenebilir
             video_path = str(output_dir / final_video_file)
-            print(f"Using dynamic final video file: {video_path}")
-        else:
-            video_path = str(output_dir / config.file_paths.final_video_file)
-    
-    if srt_path is None:
-        # Use dynamic paths if available
-        if dynamic_file_paths and "captions_file" in dynamic_file_paths:
-            captions_file = dynamic_file_paths["captions_file"]
-            srt_path = str(file_mgr.get_channel_output_path(channel_number) / captions_file)
-            print(f"Using dynamic captions file: {srt_path}")
-        else:
-            srt_path = str(file_mgr.get_caption_path(channel_number, config.file_paths.captions_file))
-    
-    if output_path is None:
-        output_dir = file_mgr.get_channel_output_path(channel_number)
-        # Use dynamic paths if available
-        if dynamic_file_paths and "final_subtitled_video_file" in dynamic_file_paths:
-            final_subtitled_file = dynamic_file_paths["final_subtitled_video_file"]
+            logger.info(f"Using video input path: {video_path}")
+        if output_path is None:
+            output_dir = file_mgr.get_channel_output_path(channel_number)
+            final_subtitled_file = config.file_paths.final_subtitled_video_file # Dinamik dosya yolu kontrolü eklenebilir
             output_path = str(output_dir / final_subtitled_file)
-            print(f"Using dynamic final subtitled video file: {output_path}")
-        else:
-            output_path = str(output_dir / config.file_paths.final_subtitled_video_file)
-        
-    # Check if input files exist
-    if not file_mgr.file_exists(video_path):
-        print(f"Video file not found for subtitles: {video_path}")
-        print("Creating placeholder video since input video is missing")
-        try:
-            # Check if we have a voice file that we can use with the placeholder
-            voice_path = None
-            if channel_number is not None:
-                voice_path = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
-                if not file_mgr.file_exists(voice_path):
-                    voice_path = None
-            
-            # Create placeholder with voice if available
-            create_placeholder_clip(output_path, 60)
-            print(f"Created placeholder video at {output_path}")
-            
-            # If we have voice, add it to the placeholder
-            if voice_path and file_mgr.file_exists(voice_path):
-                print(f"Adding voice from {voice_path} to placeholder")
-                temp_output = str(output_path) + ".temp.mp4"
-                try:
-                    # Add voice to placeholder video
-                    subprocess.run([
-                        "ffmpeg", "-y",
-                        "-i", str(output_path),
-                        "-i", str(voice_path),
-                        "-c:v", "copy",
-                        "-c:a", "aac",
-                        "-map", "0:v:0",
-                        "-map", "1:a:0",
-                        temp_output
-                    ], check=True)
-                    # Replace original with voiced version
-                    os.replace(temp_output, output_path)
-                    print("Successfully added voice to placeholder")
-                except Exception as e:
-                    print(f"Failed to add voice to placeholder: {e}")
-            
-            return True
-        except Exception as e:
-            print(f"Error creating placeholder: {e}")
-            return False
-    
-    # Check if SRT file exists
-    if not file_mgr.file_exists(srt_path):
-        print(f"SRT file not found: {srt_path}")
-        print("Copying video file to output without subtitles")
-        try:
-            file_mgr.copy_file(video_path, output_path)
-            print(f"Video copied to {output_path}")
-            return True
-        except Exception as e:
-            print(f"Error copying video: {e}")
-            # Try creating a placeholder as fallback
-            try:
-                create_placeholder_clip(output_path, 60)
-                return True
-            except:
-                return False
-    
-    # Ensure the output directory exists
-    file_mgr.ensure_dir_exists(Path(output_path).parent)
-    
-    # Get subtitle styling from config
-    font = config.video_edit.subtitle_font
-    font_size = config.video_edit.subtitle_font_size
-    
-    # Create a temporary file for the SRT with normalized encoding
-    with file_mgr.temp_file(suffix=".srt") as normalized_srt:
-        try:
-            # Read the SRT content
-            srt_content = file_mgr.read_text(srt_path)
-            if srt_content:
-                # Write to a new file with UTF-8 encoding to avoid potential encoding issues
-                file_mgr.write_text(normalized_srt, srt_content)
-                
-                # Use a simpler approach for burning subtitles
-                try:
-                    # Version 1: Use drawtext filter directly - more reliable but basic
-                    print("Using drawtext filter for subtitles (basic but reliable)")
-                    
-                    # Extract subtitle text and timestamps
-                    subtitle_entries = []
-                    current_entry = None
-                    
-                    for line in srt_content.split('\n'):
-                        line = line.strip()
-                        if not line:
-                            if current_entry and 'text' in current_entry:
-                                subtitle_entries.append(current_entry)
-                                current_entry = None
-                        elif '-->' in line:
-                            # This is a timestamp line
-                            if current_entry:
-                                times = line.split(' --> ')
-                                if len(times) == 2:
-                                    current_entry['start'] = times[0].replace(',', '.')
-                                    current_entry['end'] = times[1].replace(',', '.')
-                        elif current_entry and 'text' in current_entry:
-                            # Append to existing text
-                            current_entry['text'] += ' ' + line
-                        elif current_entry:
-                            # First text line
-                            current_entry['text'] = line
-                        else:
-                            # New entry - likely a number
-                            current_entry = {'number': line, 'text': ''}
-                    
-                    # Add the last entry if it exists
-                    if current_entry and 'text' in current_entry:
-                        subtitle_entries.append(current_entry)
-                    
-                    # Use basic drawtext filter for subtitles
-                    print(f"Found {len(subtitle_entries)} subtitle entries")
-                    
-                    # Simply copy the video without subtitles if there's an issue
-                    if not subtitle_entries:
-                        print("No valid subtitle entries found. Copying video without subtitles.")
-                        file_mgr.copy_file(video_path, output_path)
-                        return
-                    
-                    # If we have valid subtitle entries but processing might be too complex,
-                    # just copy the video for now as subtitles are a nice-to-have
-                    if len(subtitle_entries) > 30:
-                        print(f"Too many subtitle entries ({len(subtitle_entries)}). Copying video without subtitles for now.")
-                        file_mgr.copy_file(video_path, output_path)
-                        return True
-                
-                    # Actually burn the subtitles instead of skipping it
-                    print("Burning subtitles directly into video...")
-                    try:
-                        # Escape path for subtitles to handle special characters
-                        srt_clean_path = str(srt_path).replace(":", "\\:").replace("'", "\\'")
-                        
-                        with file_mgr.temp_file(suffix=".srt") as temp_srt:
-      # Copy the original SRT content to temp file
-                            file_mgr.copy_file(srt_path, temp_srt)
+            logger.info(f"Using video output path: {output_path}")
 
-                            # Use the simple temp path in the ffmpeg command
-                            subprocess.run([
-                                "ffmpeg", "-y",
-                                "-i", video_path,
-                                "-vf", f"subtitles={temp_srt}:force_style='FontName=DIN Condensed Bold,FontSize=12,PrimaryColour=&HFFFFFF,OutlineColour=&H00000010,BorderStyle=4,Outline=1,Shadow=1,MarginV=35'",
-                                "-c:v", "libx264",
-                                "-preset", "fast",
-                                "-crf", "22",
-                                "-c:a", "copy",
-                                output_path
-                            ], check=True)
-                        print(f"Successfully added subtitles to {output_path}")
-                        return True
-                    except Exception as e:
-                        print(f"Error burning subtitles: {e}")
-                        print(f"Error details: {str(e)}")
-                        print("Trying alternative subtitle approach...")
-                        
-                        try:
-                            # Alternative approach with hardcoded srt file
-                            subprocess.run([
-                                "ffmpeg", "-y",
-                                "-i", video_path,
-                                "-c:v", "libx264",
-                                "-c:a", "copy", 
-                                "-vf", "subtitles=subtitles.srt:force_style='FontSize=12,Alignment=2,OutlineColour=&H00000010,BorderStyle=3'",
-                                output_path
-                            ], check=True)
-                            print("Successfully added subtitles using alternative approach")
-                            return True
-                        except Exception as e2:
-                            print(f"Alternative subtitle approach failed: {e2}")
-                            print("Falling back to copying video without subtitles")
-                            file_mgr.copy_file(video_path, output_path)
-                            print(f"Video copied to {output_path} without subtitles as fallback")
-                            return True
-                    
-                except Exception as e:
-                    print(f"Error processing subtitles: {e}")
-                    # Copy the original video as fallback
-                    file_mgr.copy_file(video_path, output_path)
-                    print(f"Video copied to {output_path} without subtitles due to processing error")
-                    return True
-            else:
-                print(f"Error: SRT file is empty or could not be read")
-                # Copy the original video as fallback
-                file_mgr.copy_file(video_path, output_path)
-                print(f"Video copied to {output_path} without subtitles")
-                return True
-        except Exception as e:
-            print(f"Error processing subtitles: {e}")
-            # Copy the original video as fallback
+
+        # --- Determine SRT Input Path ---
+        if srt_bytes:
+            logger.info("Using SRT data from bytes. Writing to project temp file.")
             try:
-                file_mgr.copy_file(video_path, output_path)
-                print(f"Video copied to {output_path} without subtitles due to error")
+                with tempfile.NamedTemporaryFile(mode='wb', suffix=".srt", prefix="videoai_burn_srt_", dir=use_dir, delete=False) as temp_f:
+                    temp_f.write(srt_bytes)
+                    actual_srt_path = temp_f.name
+                    temp_srt_file_obj = Path(actual_srt_path) # Temizlik için
+                logger.info(f"SRT bytes written to temporary file: {actual_srt_path}")
+            except Exception as e:
+                logger.error(f"Failed to write SRT bytes to temporary file: {e}")
+                if temp_srt_file_obj and temp_srt_file_obj.exists(): temp_srt_file_obj.unlink()
+                return False
+        elif srt_path:
+            logger.info(f"Using SRT data from path: {srt_path}")
+            actual_srt_path = srt_path
+        else:
+             # Varsayılan SRT yolunu belirle
+             captions_file = config.file_paths.captions_file # Dinamik dosya yolu kontrolü eklenebilir
+             default_srt_path = file_mgr.get_channel_output_path(channel_number) / captions_file
+             actual_srt_path = str(default_srt_path)
+             logger.info(f"Using default SRT path: {actual_srt_path}")
+
+        # ... (Dosya varlık kontrolleri aynı kalır) ...
+        if not file_mgr.file_exists(video_path):
+            logger.error(f"Video file not found for subtitles: {video_path}")
+            return False
+        if not actual_srt_path or not file_mgr.file_exists(actual_srt_path):
+             logger.warning(f"SRT file not found at: {actual_srt_path}. Copying video without subtitles.")
+             # ... (Kopyalama veya hata mantığı) ...
+             try:
+                 shutil.copy2(video_path, output_path)
+                 logger.info(f"Video copied to {output_path} without subtitles.")
+                 return True
+             except Exception as e:
+                 logger.error(f"Error copying video: {e}")
+                 return False
+
+        file_mgr.ensure_dir_exists(Path(output_path).parent)
+
+        # --- Subtitle Burning ---
+        logger.info(f"Burning subtitles from '{actual_srt_path}' into '{video_path}' -> '{output_path}'")
+        # ... (stil ve filtre ayarları aynı kalır) ...
+        font_name = getattr(config.video_edit, 'subtitle_font_name', 'DIN Condensed Bold')
+        font_size = getattr(config.video_edit, 'subtitle_font_size', 12)
+        margin_v = getattr(config.video_edit, 'subtitle_margin_v', 35)
+        primary_colour = getattr(config.video_edit, 'subtitle_primary_colour', '&HFFFFFF')
+        outline_colour = getattr(config.video_edit, 'subtitle_outline_colour', '&H00000010')
+        border_style = getattr(config.video_edit, 'subtitle_border_style', 1) # 1 genellikle daha iyi
+        outline = getattr(config.video_edit, 'subtitle_outline', 1)
+        shadow = getattr(config.video_edit, 'subtitle_shadow', 1)
+        subtitle_style = f"FontName='{font_name}',FontSize={font_size},PrimaryColour={primary_colour},OutlineColour={outline_colour},BorderStyle={border_style},Outline={outline},Shadow={shadow},MarginV={margin_v},Alignment=2"
+        ffmpeg_srt_path = Path(actual_srt_path).as_posix() # Daha güvenli path formatı
+        # Windows'ta sürücü harfi varsa özel kaçış gerekebilir, ama as_posix() genellikle yeterli
+        if ':' in ffmpeg_srt_path and os.name == 'nt':
+             parts = ffmpeg_srt_path.split(':', 1)
+             ffmpeg_srt_path = parts[0].replace('/', '\\\\') + '\\:' + parts[1].replace('/', '\\\\')
+
+
+        subtitle_filter = f"subtitles='{ffmpeg_srt_path}':force_style='{subtitle_style}'"
+
+
+        try:
+            subprocess.run([
+                "ffmpeg", "-y",
+                "-i", video_path,
+                "-vf", subtitle_filter,
+                "-c:v", "libx264", "-preset", "fast", "-crf", "22",
+                "-c:a", "copy",
+                output_path
+            ], check=True, capture_output=True, text=True, encoding='utf-8')
+
+            logger.info(f"Successfully burned subtitles into: {output_path}")
+            return True
+
+        except subprocess.CalledProcessError as e:
+            logger.error(f"Error burning subtitles: {e}")
+            logger.error(f"FFmpeg stderr:\n{e.stderr}")
+            # ... (Fallback kopyalama mantığı) ...
+            logger.info("Falling back to copying video without subtitles due to burning error.")
+            try:
+                shutil.copy2(video_path, output_path)
+                logger.info(f"Video copied to {output_path} without subtitles.")
                 return True
-            except Exception as e2:
-                print(f"Error copying video: {e2}")
-                # Try creating placeholder as last resort
-                try:
-                    create_placeholder_clip(output_path, 60)
-                    print(f"Created placeholder as final fallback")
-                    return True
-                except:
-                    return False
+            except Exception as copy_error:
+                logger.error(f"Fallback copy failed: {copy_error}")
+                return False
+
+        except Exception as e:
+             logger.error(f"Unexpected error during subtitle burning: {e}", exc_info=True)
+             return False
+
+    except Exception as e:
+        logger.error(f"Overall error in burn_subtitles: {e}", exc_info=True)
+        return False
+    finally:
+        # Geçici SRT dosyasını temizle
+        if temp_srt_file_obj and temp_srt_file_obj.exists():
+            try:
+                temp_srt_file_obj.unlink()
+                logger.info(f"Cleaned up temporary SRT file: {temp_srt_file_obj}")
+            except Exception as e:
+                logger.warning(f"Could not remove temporary SRT file {temp_srt_file_obj}: {e}")
 
 def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None,
                   force_fallback: bool = False) -> bool:
@@ -2067,49 +1867,42 @@ def _render_timeline_fallback(timeline: v3, output_path: Path, channel_number: O
         bool: True if successful, False otherwise
     """
     try:
-        print("Using timeline-to-clip-sequence conversion for backward compatibility")
+        logger.warning("Using timeline-to-clip-sequence conversion fallback.")
         
         # Convert timeline back to clip sequence format
         clip_sequence = _timeline_to_clip_sequence(timeline)
         
         if not clip_sequence:
-            print("Error: Could not convert timeline to clip sequence")
+            logger.error("Error: Could not convert timeline to clip sequence for fallback.")
             return False
             
-        print(f"Converted timeline to clip sequence with {len(clip_sequence)} clips")
+        logger.info(f"Converted timeline to clip sequence with {len(clip_sequence)} clips for fallback.")
         
-        # Load available clips metadata
+        # Load available clips metadata (might be redundant if called elsewhere, but safer here)
         clips = load_clips_metadata()
         
-        # Now use the traditional video creation approach
-        # Set timeline_mode=False to ensure we don't try to use timeline rendering again
-        # First store original output path so we can move the result later
-        original_output_path = output_path
+        # Generate video bytes using create_video_sequence
+        logger.info("Generating video bytes using create_video_sequence for fallback...")
+        video_bytes = create_video_sequence(clip_sequence, clips, channel_number, timeline_mode=False)
         
-        # Call create_video_sequence which will use default output path
-        result = create_video_sequence(clip_sequence, clips, channel_number, timeline_mode=False)
-        
-        # If successful, we need to move the output file to the requested location
-        if result:
+        if video_bytes:
+            logger.info(f"Fallback video generation successful ({len(video_bytes)} bytes). Writing to output path: {output_path}")
             try:
-                # Get the default output path used by create_video_sequence
-                default_output = file_mgr.get_video_output_path(channel_number, "output_video")
-                
-                # If different, move the file to requested location
-                if default_output != original_output_path and default_output.exists():
-                    import shutil
-                    original_output_path.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(default_output, original_output_path)
-                    print(f"Copied output from {default_output} to {original_output_path}")
-            except Exception as move_error:
-                print(f"Error moving output file: {move_error}")
+                # Write the generated bytes to the final output path
+                output_path.parent.mkdir(parents=True, exist_ok=True) # Ensure directory exists
+                with open(output_path, 'wb') as f_out:
+                    f_out.write(video_bytes)
+                logger.info(f"Successfully wrote fallback video to {output_path}")
+                return True
+            except Exception as write_error:
+                logger.error(f"Error writing fallback video bytes to {output_path}: {write_error}")
                 return False
-                
-        return result
+        else:
+            logger.error("Fallback video generation using create_video_sequence failed.")
+            return False
                                     
     except Exception as e:
-        print(f"Error in timeline fallback rendering: {e}")
-        import traceback
+        logger.error(f"Error in _render_timeline_fallback: {e}")
         traceback.print_exc()
         return False
         
@@ -2177,349 +1970,366 @@ def _timeline_to_clip_sequence(timeline: v3) -> List[Dict]:
         traceback.print_exc()
         return []
 
-def main(channel_number: Optional[int] = None, timeline_mode: bool = True, timeline: Optional[v3] = None) -> bool:
+def main(project_id: int, timeline_mode: bool = True, timeline: Optional[v3] = None) -> bool:
     """
     Main function to execute the video editing pipeline.
-    
-    Args:
-        channel_number (Optional[int]): Channel number to process, or None to use default
-        timeline_mode (bool): Whether to use timeline objects for generation
-        timeline (Optional[v3]): Existing timeline object to use (for pipeline integration)
-        
-    Returns:
-        bool: True if successful, False if an error occurred
     """
-    logger.info("Starting video editing process...")
-    logger.info(f"Timeline mode: {timeline_mode}")
     
-    # Set timeline_mode to True if a timeline was provided
-    if timeline is not None:
-        timeline_mode = True
-        logger.info("Using provided timeline object for processing")
-    
+
+    video_bytes_for_merge: Optional[bytes] = None
+    temp_clips_dir_obj = None # Geçici klasör nesnesini takip etmek için
+    upload_successful = False # <<< DEĞİŞKENİ BURADA BAŞLAT >>>
+    timeline_created = False  # Timeline oluşturulup oluşturulmadığını takip et
+    timeline_object_for_render: Optional[v3] = None # Render edilecek timeline nesnesi
+    merge_success = False # Merge işleminin başarısını takip et
+    subtitle_success = False # Subtitle işleminin başarısını takip et
+
     try:
-        # Use default channel if none specified
-        if channel_number is None:
-            channel_number = config.default_channel
+        # --- Load Initial Data ---
         
-        # Create base directories for timeline storage if they don't exist
-        try:
-            # Initialize timeline manager to get path locations
-            timeline_mgr = TimelineManager(channel_number=channel_number)
-            timeline_dir = timeline_mgr.get_timeline_path("").parent
-            file_mgr.ensure_dir_exists(timeline_dir)
-            logger.info(f"Ensuring timeline directory exists: {timeline_dir}")
-        except Exception as e:
-            logger.warning(f"Could not ensure timeline directories: {e}")
         
-        # Load available clips and the script
-        clips = load_clips_metadata()
-        script = get_script_segments(channel_number)
-        
-        # Get voice file path from configuration - use channel-specific path
-        voice_file = file_mgr.get_audio_output_path(channel_number, config.file_paths.voice_file.replace("voice/",""))
+        script_id_data = supabase.table("scripts").select("id").eq("project_id", project_id).execute()
+        script_id = script_id_data.data[0]["id"]
+        voice_id_data = supabase.table("voice_over").select("id").eq("project_id", project_id).execute()
+        voice_id = voice_id_data.data[0]["id"]
+        captions_id_data = supabase.table("captions").select("id").eq("project_id", project_id).execute()
+        captions_id = captions_id_data.data[0]["id"]
+
+        captions_file_data = supabase.table("captions").select("id,caption_file, channel_number").eq("id", captions_id).execute()
+        if not captions_file_data.data:
+             logger.error(f"No caption/channel data found for script_id {script_id}")
+             return False
+        captions_file_name = captions_file_data.data[0]["caption_file"]
+        channel_number = captions_file_data.data[0]["channel_number"]
+       
+        logger.info(f"Processing for channel: {channel_number}")
+
+        clips_metadata = load_clips_metadata()
+        script = get_script_segments(script_id)
+        voice_id_from_get, voice_name ,voice_file_bytes = get_voice_file(voice_id)
+        if voice_id_from_get != voice_id:
+             logger.warning(f"Mismatch in voice_over_id between captions ({voice_id}) and voice_over ({voice_id_from_get}) tables for script {script_id}")
+
         target_duration = None
-        
-        logger.info(f"Looking for voice file at: {voice_file}")
-        if file_mgr.file_exists(voice_file):
-            target_duration = get_voice_duration(str(voice_file))
-            logger.info(f"Voice duration: {target_duration} seconds")
+        if voice_file_bytes:
+            target_duration = get_voice_duration(voice_file_bytes)
+            if target_duration:
+                 logger.info(f"Voice duration: {target_duration:.2f} seconds")
+            else:
+                 logger.warning("Could not get voice duration from bytes.")
+                 target_duration = 60.0
         else:
-            logger.warning("Voice file not found. Using default duration.")
-            target_duration = 60.0  # Default duration if voice file missing
-        
-        # Get expected number of segments from the SRT file - use channel-specific path
-        captions_file = file_mgr.get_caption_path(channel_number, config.file_paths.captions_file)
-        logger.info(f"Looking for captions file at: {captions_file}")
-        expected_segments = get_num_segments(str(captions_file), channel_number)
-        logger.info(f"Expected number of clip segments: {expected_segments}")
-        
-        # If no segments found, set expected segments to 1
+            logger.warning("Voice file bytes not found. Using default duration.")
+            target_duration = 60.0
+
+        captions_file_bytes = supabase.storage.from_("captions").download(captions_file_name)
+        expected_segments = get_num_segments(captions_file_bytes, channel_number)
+        logger.info(f"Expected number of clip segments from SRT: {expected_segments}")
         if expected_segments == 0:
             expected_segments = 1
-            logger.warning(f"No segments found in SRT. Setting expected segments to {expected_segments}")
-        
-        # If timeline is provided, extract clip_sequence from it if available
+            logger.warning("No segments found in SRT. Setting expected segments to 1.")
+
+        # --- Clip Matching and Validation ---
         clip_sequence = None
-        if timeline is not None and hasattr(timeline, 'videoai_metadata') and 'clip_sequence' in timeline.videoai_metadata:
-            logger.info("Extracting clip sequence from provided timeline")
-            clip_sequence = timeline.videoai_metadata['clip_sequence']
-            logger.info(f"Extracted {len(clip_sequence)} clips from timeline videoai_metadata")
-        
-        # If no clip sequence yet, create one
-        if clip_sequence is None:
-            # Match clips to the script, validate that output matches expected number
-            attempts = 0
-            max_attempts = 1
-            
-            while attempts < max_attempts:
+        attempts = 0
+        max_attempts = 1
+        while attempts < max_attempts:
+             try:
+                 logger.info(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
+                 clip_sequence = match_clips_to_script(project_id, script, captions_file_bytes, clips_metadata, target_duration=target_duration, channel_number=channel_number)
+                 obtained_segments = len(clip_sequence)
+                 if obtained_segments > 0:
+                      logger.info(f"Matched {obtained_segments} segments (expected ~{expected_segments}).")
+                      break
+                 else:
+                      attempts += 1
+                      logger.warning(f"Failed to match clips on attempt {attempts}. Retrying...")
+             except Exception as e:
+                 logger.error(f"Error during clip matching: {str(e)}", exc_info=True)
+                 attempts += 1
+
+        if not clip_sequence:
+             logger.error("Failed to obtain a valid clip sequence after multiple attempts.")
+             return False # Erken çıkış
+
+        logger.info("Validating clip sequence...")
+        clip_sequence = validate_clip_sequence(clip_sequence, clips_metadata)
+        logger.info("Enforcing maximum clip durations...")
+        clip_sequence = enforce_clip_duration(clip_sequence)
+
+        # --- Timeline Creation / Video Generation ---
+        render_success = False # Render başarısını takip et
+
+        if timeline_mode:
+            logger.info("Timeline mode enabled. Preparing temporary directory for clips...")
+            use_dir = project_temp_dir if project_temp_dir else None
+            temp_voice_file = None # Ses dosyası için geçici dosya yolu
+            try:
+                temp_clips_dir_obj = tempfile.TemporaryDirectory(prefix="videoai_timeline_clips_", dir=use_dir)
+                temp_clips_dir = Path(temp_clips_dir_obj.name)
+                logger.info(f"Using temporary clips directory: {temp_clips_dir}")
+
+                logger.info("Downloading clips for timeline creation to temporary directory...")
+                if not download_clips_for_timeline(clip_sequence, temp_clips_dir):
+                    logger.warning("Failed to download all required clips. Timeline creation might fail.")
+
+                # --- Düzeltme: Ses dosyasını geçici dosyaya yaz ve yolunu create_timeline'a ver ---
+                if voice_file_bytes:
+                     try:
+                         with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp3", prefix="videoai_timeline_voice_", dir=use_dir, delete=False) as temp_f:
+                             temp_f.write(voice_file_bytes)
+                             temp_voice_path = temp_f.name
+                             temp_voice_file = Path(temp_voice_path) # Path nesnesi olarak sakla
+                         logger.info(f"Voice bytes written to temporary file for timeline: {temp_voice_file}")
+                     except Exception as e_write_voice:
+                          logger.error(f"Failed to write voice bytes to temporary file for timeline: {e_write_voice}")
+                          temp_voice_file = None # Hata durumunda None yap
+                # --- Düzeltme Sonu ---
+
                 try:
-                    logger.info(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
-                    clip_sequence = match_clips_to_script(script, clips, target_duration=target_duration, channel_number=channel_number)
-                    obtained_segments = len(clip_sequence)
-                    
-                    if obtained_segments == expected_segments:
-                        logger.info("Successfully matched clip sequence with the correct number of segments.")
-                        break
-                    else:
-                        attempts += 1
-                        logger.warning(f"Mismatch: expected {expected_segments} segments, but got {obtained_segments} segments. Re-instructing...")
-                except Exception as e:
-                    logger.error(f"Error during clip matching: {str(e)}")
-                    attempts += 1
-            
-            if clip_sequence is None:
-                logger.warning("Failed to obtain a clip sequence. Creating placeholder sequence.")
-                # Create a basic placeholder sequence
-                placeholder_path = "sample_clips/placeholder.mp4"
-                clip_sequence = [{
-                    'clip_name': placeholder_path,
-                    'start_time': 0,
-                    'duration': target_duration or 60.0,
-                    'script_segment': script[:100] + "..."
-                }]
-            elif len(clip_sequence) != expected_segments and expected_segments > 0:
-                logger.warning(f"Obtained {len(clip_sequence)} segments, but expected {expected_segments}. Continuing anyway.")
-            
-            # Validate and adjust clip start times and durations to ensure they're within valid ranges
-            logger.info("Validating clip sequence...")
-            clip_sequence = validate_clip_sequence(clip_sequence, clips)
-            
-            # Enforce maximum clip duration for faster-paced edits
-            logger.info("Enforcing maximum clip durations...")
-            clip_sequence = enforce_clip_duration(clip_sequence)
-        
-        # Create a timeline if we don't have one yet or update the existing one
-        timeline_created = False
-        
+                    logger.info("Creating timeline from clip sequence using temporary clips...")
+                    # --- Düzeltme: voice_file_path parametresini geç ---
+                    timeline_object_for_render = create_timeline(
+                        clip_sequence,
+                        channel_number,
+                        clips_base_dir=temp_clips_dir,
+                        voice_file_path=temp_voice_file # Geçici ses dosyasının yolunu ver
+                    )
+                    # --- Düzeltme Sonu ---
+                    timeline_created = True
+                    logger.info("Timeline object created successfully.")
+                    # İsteğe bağlı debug timeline kaydı
+                    try:
+                        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                        output_timeline(timeline_object_for_render, clip_sequence, f"edit_{timestamp}", channel_number=channel_number)
+                    except Exception as e_out: logger.warning(f"Could not save debug timeline file: {e_out}")
+
+                except Exception as e_create:
+                    logger.error(f"Failed to create timeline object: {e_create}", exc_info=True)
+                    timeline_created = False
+
+                if timeline_created and timeline_object_for_render:
+                    logger.info("Attempting timeline-based rendering using temporary clips directory...")
+                    timeline_config = get_timeline_config(channel_number)
+                    use_dir_render = project_temp_dir if project_temp_dir else None
+                    temp_render_file = None
+                    try:
+                        with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", prefix="videoai_render_", dir=use_dir_render, delete=False) as temp_f:
+                            temp_render_path = temp_f.name
+                            temp_render_file = Path(temp_render_path)
+
+                        logger.info(f"Rendering timeline to temporary file: {temp_render_file}...")
+                        force_fallback_render = getattr(timeline_config.rendering, 'force_fallback', False)
+                        render_success = render_timeline(
+                            timeline_object_for_render,
+                            temp_render_file,
+                            channel_number,
+                            force_fallback=force_fallback_render
+                        )
+
+                        if render_success and temp_render_file.exists() and temp_render_file.stat().st_size > 0:
+                            logger.info("✅ Timeline-based rendering successful. Reading bytes...")
+                            with open(temp_render_file, 'rb') as f: video_bytes_for_merge = f.read()
+                        else:
+                            logger.warning("Timeline-based rendering failed or produced an empty file.")
+                            render_success = False
+                            video_bytes_for_merge = None
+
+                    except Exception as render_err:
+                        logger.error(f"Error during timeline rendering: {render_err}", exc_info=True)
+                        render_success = False
+                        video_bytes_for_merge = None
+                    finally:
+                        if temp_render_file and temp_render_file.exists():
+                            try: temp_render_file.unlink()
+                            except OSError as e_clean: logger.warning(f"Could not remove temp render file {temp_render_file}: {e_clean}")
+                else:
+                    logger.warning("Timeline object not created, skipping timeline rendering.")
+                    render_success = False
+
+            finally: # Geçici klip klasörünü her durumda temizle
+                 if temp_clips_dir_obj:
+                     try:
+                         temp_clips_dir_obj.cleanup()
+                         logger.info(f"Automatically cleaned up temporary clips directory: {temp_clips_dir_obj.name}")
+                     except Exception as cleanup_error:
+                          logger.warning(f"Could not explicitly clean up temporary clips directory: {cleanup_error}")
+                     temp_clips_dir_obj = None
+                 # Geçici ses dosyasını temizle
+                 if temp_voice_file and temp_voice_file.exists():
+                     try:
+                         temp_voice_file.unlink()
+                         logger.info(f"Cleaned up temporary voice file for timeline: {temp_voice_file}")
+                     except OSError as e_clean_voice:
+                         logger.warning(f"Could not remove temporary voice file {temp_voice_file}: {e_clean_voice}")
+
+        # --- Fallback Video Generation ---
+        if video_bytes_for_merge is None:
+            if timeline_mode:
+                 logger.warning("Timeline rendering failed or was skipped. Falling back to create_video_sequence.")
+            else:
+                 logger.info("Timeline mode is disabled. Using create_video_sequence.")
+
+            video_bytes_for_merge = create_video_sequence(clip_sequence, clips_metadata, channel_number, timeline_mode=False)
+
+        # --- Post-Generation Steps ---
+        if video_bytes_for_merge is None:
+             logger.error("Failed to generate video sequence bytes (Timeline or Fallback). Cannot proceed.")
+             final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
+             final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
+             try:
+                  create_placeholder_clip(final_video_path, 60)
+                  create_placeholder_clip(final_subtitled_path, 60)
+             except Exception as placeholder_error: logger.error(f"Failed to create placeholder videos: {placeholder_error}")
+             return False # Erken çıkış
+
+        # --- Merge Voice and Add BGM ---
+        logger.info("Merging voice with video bytes and adding background music...")
+        use_dir_merge = project_temp_dir if project_temp_dir else None
+        temp_voice_file = None
+        merge_success = False # merge_success'ı burada tekrar tanımla (kapsam için)
         try:
-            if timeline is None:
-                logger.info("Creating new timeline from clip sequence...")
-                timeline = create_timeline(clip_sequence, channel_number)
-                timeline_created = True
-            else:
-                logger.info("Using existing timeline and updating with clip sequence...")
-                # Create a new timeline from the clip sequence
-                new_timeline = create_timeline(clip_sequence, channel_number)
-                
-                # Merge the video tracks from the new timeline into the existing timeline
-                if not hasattr(timeline, 'v') or not timeline.v:
-                    # If the existing timeline has no video tracks, use the ones from new timeline
-                    timeline.v = new_timeline.v
-                    logger.info(f"Added {len(new_timeline.v[0]) if new_timeline.v and len(new_timeline.v) > 0 else 0} video clips to timeline")
-                elif hasattr(new_timeline, 'v') and new_timeline.v and len(new_timeline.v) > 0:
-                    # If both timelines have video tracks, merge them
-                    if not timeline.v:
-                        timeline.v = [[]]
-                    # Add the clips from the new timeline to the existing one
-                    timeline.v[0].extend(new_timeline.v[0])
-                    logger.info(f"Added {len(new_timeline.v[0])} video clips to timeline")
-                
-                # Update timeline videoai_metadata with clip sequence info
-                if not hasattr(timeline, 'videoai_metadata'):
-                    # Initialize with required fields according to the schema
-                    timeline.videoai_metadata = {
-                        'version': '1.0',
-                        'type': 'v3',
-                        'created_at': datetime.now().isoformat(),
-                        'description': 'Timeline generated with video_edit.py'
-                    }
-                # Update clip sequence
-                timeline.videoai_metadata['clip_sequence'] = clip_sequence
-                
-                # Add caption segments as properly synchronized text tracks if available
-                if hasattr(timeline, 'videoai_metadata') and 'caption_segments' in timeline.videoai_metadata:
-                    caption_segments = timeline.videoai_metadata['caption_segments']
-                    # Ensure the timeline has a text track array
-                    if not hasattr(timeline, 't') or not timeline.t:
-                        timeline.t = [[]]
-                    
-                    # Clear existing text track to avoid duplicates
-                    timeline.t[0] = []
-                    
-                    # Add each caption as a text element in the timeline
-                    for segment in caption_segments:
-                        start_time = segment.get('start_time', 0)
-                        end_time = segment.get('end_time', 0)
-                        text = segment.get('text', '')
-                        
-                        # Convert times to frames
-                        start_frame = int(start_time * float(timeline.tb))
-                        duration_frames = int((end_time - start_time) * float(timeline.tb))
-                        
-                        # Create a text object (using a dictionary for simplicity)
-                        text_obj = {
-                            'start': start_frame,
-                            'dur': duration_frames,
-                            'text': text,
-                            'type': 'caption'
-                        }
-                        
-                        # Add to the text track
-                        timeline.t[0].append(text_obj)
-                    
-                    logger.info(f"Added {len(caption_segments)} caption segments to timeline text track")
-                
-                timeline_created = True
-            
-            # Get script excerpt for metadata
-            script_excerpt = script[:100] + "..." if len(script) > 100 else script
-            
-            # Output the timeline with proper naming and metadata
-            from datetime import datetime
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            timeline_name = f"edit_{timestamp}"
-            description = f"Generated from script: {script_excerpt}"
-            
-            # Create the timeline with full metadata and validation
-            output_success = output_timeline(
-                timeline, 
-                clip_sequence, 
-                timeline_name,
-                description=description, 
-                channel_number=channel_number,
-                validate=True
+            with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp3", prefix="videoai_merge_voice_", dir=use_dir_merge, delete=False) as temp_f:
+                 temp_f.write(voice_file_bytes)
+                 temp_voice_path = temp_f.name
+                 temp_voice_file = Path(temp_voice_path)
+            logger.info(f"Voice bytes written to temporary file: {temp_voice_file}")
+
+            merge_success = merge_voice_with_video(
+                 video_bytes=video_bytes_for_merge,
+                 voice_path=str(temp_voice_file),
+                 channel_number=channel_number,
+                 voice_duration=target_duration
             )
-            
-            if output_success:
-                logger.info(f"Timeline '{timeline_name}' created and saved successfully")
-            
-                # Also save as "current_edit" for easy access
-                output_timeline(
-                    timeline, 
-                    clip_sequence, 
-                    "current_edit",
-                    description=description, 
-                    channel_number=channel_number,
-                    create_backup=True  # Create backup for current_edit
-                )
-                
-                # Also save as "final_timeline" for integration with other components
-                output_timeline(
-                    timeline, 
-                    clip_sequence, 
-                    "final_timeline",
-                    description=f"Final video timeline with {len(clip_sequence)} clips", 
-                    channel_number=channel_number,
-                    create_backup=True
-                )
-                
-                # Create visualization for the final timeline
-                try:
-                    timeline_mgr = TimelineManager(channel_number=channel_number)
-                    visualization_path = timeline_mgr.export_timeline_visualization(
-                        timeline, 
-                        detail_level="detailed"
-                    )
-                    logger.info(f"Final timeline visualization exported to: {visualization_path}")
-                except Exception as e:
-                    logger.warning(f"Could not export final timeline visualization: {e}")
-                
-                logger.info("Current edit and final timelines saved")
-            else:
-                logger.warning("Timeline output was not successful")
-                
-        except Exception as e:
-            logger.warning(f"Failed to create timeline: {e}")
-            logger.info("Continuing with processing...")
-            timeline_created = False
-        
-        # Create the video sequence from selected clip segments
-        logger.info("Creating video sequence...")
-        
-        # Check for dynamic file paths from write_script.py
-        file_paths_json_path = file_mgr.get_channel_output_path(channel_number) / "current_file_paths.json"
-        dynamic_file_paths = file_mgr.read_json(file_paths_json_path)
-        
-        # Use dynamic paths if available
-        if dynamic_file_paths and "output_video_file" in dynamic_file_paths:
-            output_video_file = dynamic_file_paths["output_video_file"]
-            logger.info(f"Using dynamic output video file: {output_video_file}")
-            output_video = file_mgr.get_channel_output_path(channel_number) / output_video_file
-            
-            # Update config for other components that might use it
-            config.file_paths.output_video_file = output_video_file
-            
-            # Also update other file paths if available
-            if "final_video_file" in dynamic_file_paths:
-                config.file_paths.final_video_file = dynamic_file_paths["final_video_file"]
-                
-            if "final_subtitled_video_file" in dynamic_file_paths:
-                config.file_paths.final_subtitled_video_file = dynamic_file_paths["final_subtitled_video_file"]
-        else:
-            # Use default path
-            logger.info(f"Using default output video file: {config.file_paths.output_video_file}")
-            output_video = file_mgr.get_video_output_path(channel_number, config.file_paths.output_video_file)
-        
-        # If timeline mode is enabled and we have a valid timeline, try rendering directly
-        if timeline_mode and timeline_created:
-            # Get the timeline configuration to check for force_fallback
-            timeline_config = get_timeline_config(channel_number)
-            force_fallback = timeline_config.rendering.force_fallback
-            
-            logger.info(f"Attempting timeline-based rendering (force_fallback={force_fallback})...")
-            
-            # Call the rendering function, which will handle feature detection and fallbacks
-            if render_timeline(timeline, output_video, channel_number, force_fallback=force_fallback):
-                logger.info("✅ Timeline-based rendering successful")
-            else:
-                logger.warning("Timeline-based rendering not available. Using traditional video generation.")
-                if not create_video_sequence(clip_sequence, clips, channel_number, timeline_mode):
-                    logger.error("Error creating video sequence. Creating placeholder video.")
-                    create_placeholder_clip(output_video, 60)
-        else:
-            # Traditional rendering
-            logger.info("Using traditional video generation approach")
-            if not create_video_sequence(clip_sequence, clips, channel_number, timeline_mode):
-                logger.error("Error creating video sequence. Creating placeholder video.")
-                create_placeholder_clip(output_video, 60)
-        
-        # Merge the generated voice with the created video and add background music
-        logger.info("Merging voice with video and adding background music...")
-        if not merge_voice_with_video(channel_number=channel_number):
-            logger.error("Error merging voice with video. Creating fallback video.")
-            final_video = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
-            create_placeholder_clip(final_video, 60)
-        
-        # Burn subtitles into the final video
+        except Exception as e_merge:
+             logger.error(f"Error preparing or calling merge_voice_with_video: {e_merge}", exc_info=True)
+             merge_success = False
+        finally:
+             if temp_voice_file and temp_voice_file.exists():
+                  try:
+                       temp_voice_file.unlink()
+                       logger.info(f"Cleaned up temporary voice file: {temp_voice_file}")
+                  except Exception as e_clean_voice: logger.warning(f"Could not remove temporary voice file {temp_voice_file}: {e_clean_voice}")
+
+        if not merge_success:
+             logger.error("Error merging voice with video. Creating fallback final video.")
+             final_video = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
+             final_subtitled = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
+             try:
+                 create_placeholder_clip(final_video, 60)
+                 create_placeholder_clip(final_subtitled, 60)
+             except Exception as ph_err: logger.error(f"Failed to create placeholder videos after merge error: {ph_err}")
+             return False # Erken çıkış
+
+        # --- Burn Subtitles ---
         logger.info("Adding subtitles to final video...")
-        if not burn_subtitles(channel_number=channel_number):
-            logger.error("Error adding subtitles. Creating fallback subtitled video.")
-            final_subtitled = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-            create_placeholder_clip(final_subtitled, 60)
-        
-        # Verify the final file exists
-        final_output = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-        if file_mgr.file_exists(final_output):
-            logger.info(f"Video editing process completed successfully. Final output: {final_output}")
-            
-            # Create a timeline entry for the final output if we have a timeline
-            if timeline_created:
-                try:
-                    # Save a reference to the final output in the timeline videoai_metadata
-                    final_description = f"Final video output: {final_output}"
-                    output_timeline(
-                        timeline, 
-                        clip_sequence, 
-                        "final_output",
-                        description=final_description, 
-                        channel_number=channel_number,
-                        create_backup=False
-                    )
-                except Exception as e:
-                    logger.warning(f"Could not save final timeline reference: {e}")
+        subtitle_success = False # subtitle_success'ı burada tekrar tanımla
+        if captions_file_bytes:
+             try:
+                 subtitle_success = burn_subtitles(
+                     channel_number=channel_number,
+                     srt_bytes=captions_file_bytes
+                     # video_path ve output_path fonksiyon içinde belirleniyor
+                 )
+             except Exception as e_sub:
+                 logger.error(f"Error calling burn_subtitles: {e_sub}", exc_info=True)
+                 subtitle_success = False
         else:
-            logger.error(f"Final video file not found despite completion. Creating emergency placeholder at {final_output}")
-            create_placeholder_clip(final_output, 60)
-            
-        # Return success
-        return True
-    
+             logger.warning("SRT file bytes not available. Cannot burn subtitles.")
+             final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
+             final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
+             if final_video_path.exists() and not final_subtitled_path.exists():
+                  try:
+                       shutil.copy2(final_video_path, final_subtitled_path)
+                       logger.info(f"Copied non-subtitled video to {final_subtitled_path} as SRT bytes were missing.")
+                  except Exception as copy_error: logger.error(f"Failed to copy non-subtitled video as fallback: {copy_error}")
+             subtitle_success = True # SRT yoksa, altyazısız video başarılı sayılır
+
+        if not subtitle_success:
+              logger.error("Error adding subtitles. Final video might be without subtitles.")
+              final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
+              final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
+              if final_video_path.exists() and not final_subtitled_path.exists():
+                   try:
+                        shutil.copy2(final_video_path, final_subtitled_path)
+                        logger.info(f"Copied non-subtitled video to {final_subtitled_path} as fallback after subtitle error.")
+                   except Exception as copy_error:
+                        logger.error(f"Failed to copy non-subtitled video as fallback: {copy_error}")
+                        if not final_subtitled_path.exists(): create_placeholder_clip(final_subtitled_path, 60)
+              elif not final_subtitled_path.exists(): create_placeholder_clip(final_subtitled_path, 60)
+              # Altyazı hatası sonrası yine de devam edip yüklemeyi deneyebiliriz
+              # Bu yüzden burada return False yapmıyoruz.
+
+        # --- Final Verification & Upload ---
+        final_output_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
+
+        if file_mgr.file_exists(final_output_path):
+             import uuid
+             logger.info(f"✅ Video editing process completed locally. Final output: {final_output_path}")
+             storage_bucket = "final-videos"
+             storage_path = f"{script_id}_{uuid.uuid4()}_final_video.mp4"
+             # upload_successful zaten False olarak başlatıldı
+             try:
+                 if not supabase: raise ConnectionError("Supabase client not available for storage upload.")
+                 logger.info(f"Attempting to upload {final_output_path} to Supabase Storage at {storage_bucket}/{storage_path}...")
+                 with open(final_output_path, 'rb') as f:
+                     upload_response = supabase.storage.from_(storage_bucket).upload(
+                         path=storage_path, file=f,
+                         file_options={"content-type": "video/mp4", "upsert": "true"}
+                     )
+                 logger.info(f"Supabase storage upload call completed for {storage_path}.")
+                 logger.info(f"Assuming Supabase storage upload successful for {storage_path}, proceeding with database update.")
+
+                 if not supabase: raise ConnectionError("Supabase client is not available for table update.")
+                 insert_data = { "video_name": str(storage_path), "project_id": project_id }
+                 logger.debug(f"Inserting into final_videos table: {insert_data}")
+                 video_table_response = supabase.table("final_videos").insert(insert_data).execute()
+                 logger.info(f"Video table update completed. Response data: {video_table_response.data}")
+                 
+                
+                 upload_successful = True # Sadece burada True yap
+
+             except ConnectionError as ce: logger.error(str(ce))
+             except Exception as e_upload: logger.error(f"Error during Supabase Storage upload or table update: {e_upload}", exc_info=True)
+
+             if upload_successful:
+                 logger.info("Upload to Supabase was successful. Cleaning up local output directory...")
+                 try:
+                     output_dir_to_clean = file_mgr.get_abs_path("outputs") # Veya doğru yol
+                     if output_dir_to_clean.exists() and output_dir_to_clean.is_dir():
+                         logger.info(f"Cleaning contents of directory: {output_dir_to_clean}")
+                         for item_path in output_dir_to_clean.iterdir():
+                             try:
+                                 if item_path.is_file() or item_path.is_symlink(): item_path.unlink()
+                                 elif item_path.is_dir(): shutil.rmtree(item_path)
+                             except Exception as delete_error: logger.warning(f"Could not delete item {item_path}: {delete_error}")
+                         logger.info(f"Successfully cleaned contents of {output_dir_to_clean}")
+                     else: logger.warning(f"Output directory to clean does not exist or is not a directory: {output_dir_to_clean}")
+                 except Exception as cleanup_error: logger.error(f"Error during cleanup of outputs directory: {cleanup_error}", exc_info=True)
+             else: logger.warning("Upload to Supabase failed or was not attempted. Skipping cleanup...")
+
+        else:
+             logger.error(f"❌ Final video file not found at expected location: {final_output_path}")
+             if not final_output_path.exists():
+                 try: create_placeholder_clip(final_output_path, 60)
+                 except Exception as ph_error: logger.error(f"Failed to create placeholder for missing final output: {ph_error}")
+             # Dosya yoksa upload_successful False kalır
+
+        # Fonksiyonun sonu
+        return upload_successful
+
     except Exception as e:
-        logger.error(f"Error during video editing process: {str(e)}", exc_info=True)
-        
-        # Return failure
-        return False
+        logger.error(f"Unhandled error during video editing process: {str(e)}", exc_info=True)
+        # Geçici klip klasörünü temizlemeye çalış
+        if temp_clips_dir_obj:
+             try:
+                  temp_clips_dir_obj.cleanup()
+                  logger.info(f"Cleaned up temporary clips directory after main exception: {temp_clips_dir_obj.name}")
+             except Exception as cleanup_error: logger.warning(f"Could not clean up temporary clips directory {temp_clips_dir_obj.name}: {cleanup_error}")
+        return False # Genel hatada False döndür
+
+
+# ... (if __name__ == "__main__": bloğu aynı kalır) ...
 
 if __name__ == "__main__":
     # Parse command line arguments for channel
@@ -2644,3 +2454,100 @@ if __name__ == "__main__":
     if not success:
         print("Video editing process failed")
         sys.exit(1)
+
+# <<< BU FONKSİYONU EKLEYİN >>>
+def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, storage_bucket: str = "video-database") -> bool:
+    """
+    Downloads clips specified in the sequence from Supabase storage if they don't exist locally.
+    Skips placeholder clips. Ensures target subdirectories exist.
+
+    Args:
+        clip_sequence (List[Dict]): The sequence containing 'clip_name'.
+        target_dir (Path): The local directory to download clips into (clips_dir).
+        storage_bucket (str): The Supabase storage bucket name.
+
+    Returns:
+        bool: True if all required clips are present or downloaded successfully, False otherwise.
+    """
+    if not supabase:
+        logger.error("Supabase client not initialized. Cannot download clips.")
+        return False
+
+    if not clip_sequence:
+        logger.warning("Clip sequence is empty. No clips to download.")
+        return True # Boş sequence için başarılı sayılabilir
+
+    # Ensure base target directory exists
+    try:
+        file_mgr.ensure_dir_exists(target_dir) # Use file_mgr instance
+    except Exception as e:
+        logger.error(f"Could not create or access target directory {target_dir}: {e}")
+        return False
+
+    required_clips = set(clip['clip_name'] for clip in clip_sequence if 'clip_name' in clip)
+    logger.info(f"Checking/Downloading {len(required_clips)} unique clips for timeline to {target_dir}...")
+
+    all_successful = True
+    download_count = 0
+    for clip_name in required_clips:
+        # --- Placeholder kontrolü ---
+        if clip_name.startswith("sample_clips/"):
+             logger.info(f"Skipping download for placeholder clip: {clip_name}")
+             # İsteğe bağlı: Placeholder dosyasının gerçekten var olup olmadığını kontrol et
+             # placeholder_local_path = Path(clip_name) # Proje köküne göre
+             # if not placeholder_local_path.exists():
+             #     logger.warning(f"Local placeholder clip not found at: {placeholder_local_path}")
+             #     # all_successful = False # Veya placeholder oluştur
+             continue
+
+        local_path = target_dir / clip_name
+        if local_path.exists():
+            # logger.debug(f"Clip already exists locally: {local_path}")
+            continue
+
+        logger.info(f"Downloading clip '{clip_name}' from bucket '{storage_bucket}' to '{local_path}'...")
+        try:
+            # --- Hedef alt klasörü oluştur ---
+            local_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # Use Supabase storage client to download
+            with open(local_path, 'wb+') as f: # wb+ kipi dosyayı oluşturur
+                # Download to file requires writing the bytes manually
+                res = supabase.storage.from_(storage_bucket).download(clip_name)
+                f.write(res)
+            download_count += 1
+            logger.debug(f"Successfully downloaded {clip_name}")
+
+        except StorageException as e:
+             # Check for 404 specifically for placeholders if needed, but skip should prevent this
+             if e.message == 'Object not found' and clip_name.startswith("sample_clips/"):
+                  logger.warning(f"Placeholder {clip_name} not found in Supabase bucket (this is expected).")
+                  # Placeholder için hata sayma, ama yerel olarak var olmalı
+             else:
+                  logger.error(f"Supabase Storage error downloading {clip_name}: {e.message} (Status: {getattr(e, 'status_code', 'N/A')})")
+                  if local_path.exists():
+                      try: local_path.unlink()
+                      except OSError: pass
+                  all_successful = False
+        except FileNotFoundError as e: # Klasör oluşturma hatasını da yakala (gerçi mkdir çözmeli)
+             logger.error(f"File system error preparing download for {clip_name} to {local_path}: {e}", exc_info=True)
+             all_successful = False
+        except Exception as e:
+            logger.error(f"Failed to download clip {clip_name}: {e}", exc_info=True)
+            # Hata durumunda kısmen indirilen dosyayı silmeye çalışalım
+            if local_path.exists():
+                try: local_path.unlink()
+                except OSError: pass
+            all_successful = False
+            # İsteğe bağlı: Bir klip indirilemezse tüm işlemi durdurabiliriz
+            # return False
+
+    if download_count > 0:
+        logger.info(f"Downloaded {download_count} clips.")
+    if all_successful:
+        logger.info("All required clips seem available locally.")
+    else:
+        logger.error("One or more required clips could not be downloaded or found. Timeline creation might fail.")
+
+    return all_successful
+# <<< FONKSİYON TANIMI SONU >>>

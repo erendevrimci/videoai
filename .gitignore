@@ -77,8 +77,12 @@ htmlcov/
 *.flv
 *.wmv
 *.webm
+*.json
 
+
+api/debug_storage_access.py
 temp_files/
 frame_analysis/
 outputs/
 output/
+.cursor/

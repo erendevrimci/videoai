@@ -32,7 +32,7 @@ class OpenAISettings(BaseModel):
     api_key: str = Field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
     script_model: str = Field(default="gpt-4o")
     title_desc_model: str = Field(default="gpt-4o")
-    video_edit_model: str = Field(default="o3-mini")
+    video_edit_model: str = Field(default="gpt-4.1-mini")
     temperature: float = Field(default=0.3)
     max_tokens: int = Field(default=4000)
 
