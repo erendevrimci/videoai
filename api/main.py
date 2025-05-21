@@ -341,8 +341,11 @@ def get_storyboards(current_user: dict = Depends(get_current_user)):
 def get_storyboard(storyboard_id: str, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
+        
+        print(user_id)
         # String ID'yi integer'a çevir
         storyboard_id_int = int(storyboard_id)
+        print(storyboard_id)
         result = supabase.table("storyboards").select("id, project_id, name, story_board, initial_images_created, created_at, updated_at").eq("user_id", user_id).eq("id", storyboard_id_int).execute()
         
         if not result.data:
