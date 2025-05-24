@@ -26,9 +26,12 @@ from api.ResponseSchemes.UploadImageResponse import UploadImageResponse , ImageR
 from api.ResponseSchemes.GenerateSingleVideoResponse import GenerateSingleVideoResponse 
 from api.RequestSchemes.GenerateTimelineVideoRequest import GenerateTimelineVideoRequest
 from api.ResponseSchemes.GenerateTimelineVideoResponse import GenerateTimelineVideoResponse
+from api.RequestSchemes.CreateStoryboardRequest import CreateStoryboardRequest
 from api.ResponseSchemes.VideoListResponse import VideoListResponse
+from api.ResponseSchemes.CreateProjectRespone import CreateProjectResponse
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
+from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
 
 import write_script
 from write_script import extract_topic_from_script
@@ -135,7 +138,7 @@ def health_check():
 
 
 
-@app.post("/project", response_model=ProjectResponse)
+@app.post("/project", response_model=CreateProjectResponse)
 def create_project(request: ProjectRequest, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
@@ -144,9 +147,9 @@ def create_project(request: ProjectRequest, current_user: dict = Depends(get_cur
             "user_id": user_id,
             "name": project_name
         }).execute()
-        return ProjectResponse(success=True, message="Project created successfully", projects=[result.data[0]])
+        return CreateProjectResponse(success=True, message="Project created successfully", project_id=result.data[0]["id"], project_name=project_name)
     except Exception as e:
-        return ProjectResponse(success=False, message=str(e))
+        return CreateProjectResponse(success=False, message=str(e))
     
 
 @app.get("/projects", response_model=ProjectResponse)
@@ -314,24 +317,102 @@ def edit_video(request: VideoEditRequest, current_user: dict = Depends(get_curre
         return VideoEditResponse(success=False, message=f"An error occurred during the video editing request: {str(e)}")
     
 
-@app.get("/response-json/{project_id}", response_model=ResponseJson)
-def get_response_json(project_id: int):
-    data = supabase.table("projects").select("response_json").eq("id", project_id).execute()
-    json_data = json.loads(data.data[0]["response_json"])
-    for clip_data in json_data:
-        signed_url_raw = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
-        signed_url = signed_url_raw.get('signedURL')
-        clip_data["clip_url"] = signed_url
-    print(json_data)
-    if data.data is None:
-        return ResponseJson(success=False, message="Response JSON not found")
-    return ResponseJson(success=True, message="Response JSON fetched successfully", data=json_data)
+@app.post("/create-storyboard", response_model=StoryboardResponse)
+def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        shots = []
+        prompts = []
+        storyboard_name = request.name
+        project_id = request.project_id
+        storyboard_result = supabase.table("storyboards").insert({
+            "name":storyboard_name,
+            "project_id":project_id,
+            "user_id":current_user["user_id"],
+        }).execute()
+        storyboard_id = storyboard_result.data[0]["id"]
+        response_json_result = supabase.table("projects").select("response_json").eq("id", project_id).execute()
+
+        # response_json varlığını ve içeriğini kontrol et
+        if response_json_result.data and response_json_result.data[0].get("response_json"):
+            response_json = response_json_result.data[0]["response_json"]
+            try:
+                response_json_data = json.loads(response_json)
+                if not isinstance(response_json_data, list): # Beklenen format liste değilse
+                    print(f"Warning: response_json for project_id {project_id} is not a list. Proceeding with empty shots.")
+                    response_json_data = [] # Boş liste ile devam et
+            except json.JSONDecodeError:
+                print(f"Warning: Invalid JSON in response_json for project_id {project_id}. Proceeding with empty shots.")
+                response_json_data = [] # JSON parse hatası durumunda boş liste
+
+            for index, clip_data in enumerate(response_json_data):
+               # clip_data'nın beklenen anahtarları içerip içermediğini kontrol et
+               if not all(key in clip_data for key in ["clip_name", "suggestion", "duration", "explanation", "script_segment", "start_time"]):
+                   print(f"Warning: Missing keys in clip_data for project_id {project_id}, storyboard_id {storyboard_id}. Skipping this shot.")
+                   continue
+
+               signed_url_data = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"],3600)
+               print(signed_url_data)
+               video_url = signed_url_data.get('signedURL') if signed_url_data else None
+               prompts.append(clip_data["suggestion"])
+               shot_insert_result = supabase.table("shots").insert({
+                   "approved":False,
+                   "video_url": video_url,
+                   "duration":clip_data["duration"],
+                   "suggestion":clip_data["suggestion"],
+                   "explanation":clip_data["explanation"],
+                   "clip_name":clip_data["clip_name"],
+                   "script_segment":clip_data["script_segment"],
+                   "start_time":clip_data["start_time"],
+                   "shot_index":index,
+                   "storyboard_id":storyboard_id
+               }).execute()
+               # shot_insert_result'ın başarılı olup olmadığını kontrol et
+               if shot_insert_result.data:
+                   shots.append(shot_insert_result.data[0])
+               else:
+                   print(f"Warning: Failed to insert shot for project_id {project_id}, storyboard_id {storyboard_id}. Error: {shot_insert_result.error}")
+            
+            # Sadece prompts listesi doluysa resim oluşturma fonksiyonunu çağır
+            if prompts:
+                generate_images_for_prompts_and_upload_to_supabase(prompts, current_user["user_id"], storyboard_id)
+        else:
+            # response_json yoksa veya null ise, shot_index_size parametresini kontrol et
+            print(f"No valid response_json found for project_id {project_id}. Checking shot_index_size.")
+            if request.shot_index_size is not None and request.shot_index_size > 0:
+                print(f"Creating {request.shot_index_size} empty shots based on shot_index_size.")
+                for i in range(request.shot_index_size):
+                    shot_insert_result = supabase.table("shots").insert({
+                        "approved": False,
+                        "video_url": None,
+                        "duration": None,
+                        "suggestion": "Empty shot", # Veya boş bırakılabilir
+                        "explanation": "Automatically generated empty shot", # Veya boş bırakılabilir
+                        "clip_name": None,
+                        "script_segment": None,
+                        "start_time": None,
+                        "shot_index": i,
+                        "storyboard_id": storyboard_id,
+                        # Diğer gerekli alanlar varsa None veya varsayılan değerlerle eklenebilir
+                    }).execute()
+                    if shot_insert_result.data:
+                        shots.append(shot_insert_result.data[0])
+                    else:
+                        print(f"Warning: Failed to insert empty shot index {i} for storyboard_id {storyboard_id}. Error: {shot_insert_result.error}")
+            else:
+                print(f"shot_index_size is not provided or invalid. No empty shots will be created.")
+                # prompts ve shots boş kalacak, generate_images_for_prompts_and_upload_to_supabase çağrılmayacak
+
+        return StoryboardResponse(success=True, message="Storyboard created successfully", storyboards=[{"id":storyboard_id,"project_id":project_id, "name": storyboard_name, "shots":shots}])
+    except Exception as e:
+        import traceback # Detaylı hata takibi için
+        print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}") # Hata loglaması
+        return StoryboardResponse(success=False, message=str(e), storyboards=[])
 
 @app.get("/storyboards", response_model=StoryboardResponse)
 def get_storyboards(current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
-        result = supabase.table("storyboards").select("id, project_id, name, initial_images_created, created_at, updated_at").eq("user_id", user_id).execute()
+        result = supabase.table("storyboards").select("id, project_id, name, created_at, updated_at").eq("user_id", user_id).execute()
         return StoryboardResponse(success=True, message="Storyboards fetched successfully", storyboards=result.data)
     except Exception as e:
         return StoryboardResponse(success=False, message=str(e), storyboards=[])
@@ -342,36 +423,25 @@ def get_storyboard(storyboard_id: str, current_user: dict = Depends(get_current_
     try:
         user_id = current_user["user_id"]
         
-        print(user_id)
-        # String ID'yi integer'a çevir
+        
+        
         storyboard_id_int = int(storyboard_id)
-        print(storyboard_id)
-        result = supabase.table("storyboards").select("id, project_id, name, story_board, initial_images_created, created_at, updated_at").eq("user_id", user_id).eq("id", storyboard_id_int).execute()
+        
+        result = supabase.table("storyboards").select("id, project_id, name, created_at, updated_at").eq("user_id", user_id).eq("id", storyboard_id_int).single().execute()
+        shot_result = supabase.table("shots").select("*").eq("storyboard_id",storyboard_id_int).execute()
         
         if not result.data:
             return StoryboardResponse(success=False, message="Storyboard not found", storyboards=[])
-            
-        return StoryboardResponse(success=True, message="Storyboard fetched successfully", storyboards=[result.data[0]])
+        if not shot_result.data:
+            return StoryboardResponse(success=False, message="Shots not found",storyboards=[result.data])  
+        return StoryboardResponse(success=True, message="Storyboard fetched successfully", storyboards=[{"id":result.data["id"],"name":result.data["name"],"project_id":result.data["project_id"],"shots":shot_result.data}])
     except ValueError:
         return StoryboardResponse(success=False, message="Invalid storyboard ID format", storyboards=[])
     except Exception as e:
         print(f"Error in get_storyboard: {str(e)}")  # Hata loglaması ekle
         return StoryboardResponse(success=False, message=str(e), storyboards=[])
 
-@app.post("/storyboard", response_model=StoryboardResponse)
-def create_storyboard(request: StoryboardRequest, current_user: dict = Depends(get_current_user)):
-    try:
-        user_id = current_user["user_id"]
-        result = supabase.table("storyboards").insert({
-            "user_id": user_id,
-            "project_id": request.project_id,
-            "name": request.name,
-            "story_board": request.story_board,
-            "initial_images_created": request.initial_images_created
-        }).execute()
-        return StoryboardResponse(success=True, message="Storyboard created successfully", storyboards=[result.data[0]])
-    except Exception as e:
-        return StoryboardResponse(success=False, message=str(e), storyboards=[])
+
 
 @app.put("/storyboards-update/{storyboard_id}", response_model=StoryboardResponse)
 def update_storyboard(storyboard_id: str, request: StoryboardUpdateRequest, current_user: dict = Depends(get_current_user)):
@@ -389,6 +459,7 @@ def refresh_signed_url(clip_name: str):
     try:
         signed_url_raw = supabase.storage.from_("video-database").create_signed_url(quote(clip_name), 3600)
         signed_url = signed_url_raw.get('signedUrl')
+        print(signed_url)
         return RefreshSignedUrlResponse(success=True, message="Signed URL refreshed successfully", signed_url=signed_url)
     except Exception as e:
         return RefreshSignedUrlResponse(success=False, message=str(e))
