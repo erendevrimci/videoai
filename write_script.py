@@ -111,7 +111,7 @@ def clean_script_for_tts(script: str) -> str:
     # Join the lines back together with proper spacing
     return "\n".join(cleaned_lines)
 
-def generate_youtube_script( title: str, context: str,input_files: Dict[str, Any] = None) -> Optional[str]:
+def generate_youtube_script( title: str, context: str,input_files: Dict[str, Any] = None, tone: str = "informative") -> Optional[str]:
     """
     Generate a YouTube script using the Together AI API.
     
@@ -142,7 +142,7 @@ def generate_youtube_script( title: str, context: str,input_files: Dict[str, Any
     min_words = config.script_generation.min_words
     max_words = config.script_generation.max_words
     target_audience = config.script_generation.target_audience
-    tone = config.script_generation.tone
+    
     style = config.script_generation.style
     
     # Construct the prompt
@@ -371,7 +371,7 @@ def extract_topic_from_script(script: str) -> Topic:
     #     return False
 
 
-def save_script(project_id: int, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> int:
+def save_script(user_id: str, project_id: int, title: str, extracted_topic: str, script: str, channel_number: Optional[int] = None) -> int:
     """
     Save the generated script to a file.
     
@@ -404,7 +404,8 @@ def save_script(project_id: int, title: str, extracted_topic: str, script: str, 
             "title": title,
             "topic": extracted_topic,
             "project_id": project_id,
-            "channel_number": channel_number
+            "channel_number": channel_number,
+            "user_id": user_id
         }).execute()
        
         script_id = response.data[0]["id"]
@@ -419,7 +420,7 @@ def save_script(project_id: int, title: str, extracted_topic: str, script: str, 
         raise Exception(f"Error saving script: {str(e)}")
 
 
-def main(project_id: int, title: str, context: str, channel_number: Optional[int] = None) -> Script:
+def main(user_id: str, project_id: int, title: str, context: str, channel_number: Optional[int] = None, tone: str = "informative") -> Script:
     """
     Main function to generate a script, extract the topic, and update topics database.
     
@@ -440,8 +441,8 @@ def main(project_id: int, title: str, context: str, channel_number: Optional[int
         input_files = load_input_files()
         
         # Generate the script
-        script = generate_youtube_script(title, context, input_files)
-        
+        script = generate_youtube_script(title, context, input_files, tone)
+        print(f"Tone: {tone}")
         if script is None:
             print("Script generation failed.")
             return
@@ -452,7 +453,8 @@ def main(project_id: int, title: str, context: str, channel_number: Optional[int
         extracted_topic = extract_topic_from_script(script)
         
         
-        script_id=save_script(project_id, title, extracted_topic.topic, script, channel_number)
+        script_id=save_script(user_id,project_id, title, extracted_topic.topic, script, channel_number)
+        print("\nScript generation completed successfully.")
         return Script(
             id=script_id,
             title=title,
@@ -461,7 +463,7 @@ def main(project_id: int, title: str, context: str, channel_number: Optional[int
         )
         
         
-        print("\nScript generation completed successfully.")
+        
         
         
     except Exception as e:

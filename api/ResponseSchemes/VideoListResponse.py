@@ -5,6 +5,7 @@ class VideoURLItem(BaseModel):
     created_at: Optional[str] = None
     url: Optional[str] = None
     id: Optional[int] = None
+    batch_id: Optional[str] = None
     model_config = ConfigDict(from_attributes=True)
 
 class VideoListResponse(BaseModel):

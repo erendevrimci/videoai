@@ -9,10 +9,13 @@ from file_manager import FileManager
 from supabase import create_client
 import os
 from dotenv import load_dotenv
+import uuid
+import io
+from mutagen.mp3 import MP3
 
 load_dotenv()
 
-def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]:
+def generate_voice(script_text: str, channel_number: int = 1,similarity_boost: float = 0.5, stability: float = 0.5, voice_id: str = "9BWtsMINqrJLrRacOk9x") -> Optional[bytes]:
     """
     Converts the provided script text into speech using the ElevenLabs text-to-speech API.
     
@@ -32,19 +35,13 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]
         print("Error: ElevenLabs API key is not set in the configuration")
         return None
     
-    # Get channel-specific configuration
-    try:
-        channel_config = get_channel_config(channel_number)
-        voice_id = channel_config.voice_id
-    except ValueError as e:
-        print(f"Error: {e}")
-        print(f"Using default voice ID: {config.elevenlabs.default_voice_id}")
-        voice_id = config.elevenlabs.default_voice_id
+    #
+  
     
     # Get voice settings from configuration
     voice_settings = {
-        "stability": config.elevenlabs.stability,
-        "similarity_boost": config.elevenlabs.similarity_boost,
+        "stability": stability,
+        "similarity_boost": similarity_boost,
         "style": config.elevenlabs.style,
         "use_speaker_boost": config.elevenlabs.use_speaker_boost
     }
@@ -89,7 +86,7 @@ def generate_voice(script_text: str, channel_number: int = 1) -> Optional[bytes]
             print(f"Response: {e.response.text}")
         return None
 
-def main(project_id: int,script_id: int, channel_number: Optional[int] = None) -> str:
+def main(user_id: str,project_id: int,script_id: int, channel_number: Optional[int] = None,similarity_boost: float = 0.5, stability: float = 0.5,voice_id: Optional[str] = "9BWtsMINqrJLrRacOk9x") -> str:
     # """
     # Main function to generate voice from script.
     
@@ -102,19 +99,22 @@ def main(project_id: int,script_id: int, channel_number: Optional[int] = None) -
     supabase = create_client(supabase_url, supabase_key)
 
     
-    script_query = supabase.table("scripts").select("script").eq("project_id", project_id).eq("id", script_id).execute()
+    script_query = supabase.table("scripts").select("script,topic").eq("project_id", project_id).eq("id", script_id).execute()
+    
     script_text = script_query.data[0]["script"]
-
-
-    voice = generate_voice(script_text, channel_number)
+    script_name = script_query.data[0]["topic"]
     
-  
+    voice = generate_voice(script_text, channel_number,similarity_boost, stability,voice_id)
+    
+    file_like_object = io.BytesIO(voice)
+    audio = MP3(file_like_object)
+    duration = int(audio.info.length)
     
     
-    import uuid
+    
 
 
-    file_name = f"{uuid.uuid4()}.mp3"
+    file_name = f"{script_name}_{uuid.uuid4()}.mp3"
 
     result = supabase.storage.from_("voice-over-files").upload(
         path=file_name,
@@ -130,7 +130,9 @@ def main(project_id: int,script_id: int, channel_number: Optional[int] = None) -
     response = supabase.table("voice_over").insert({
             "voice_name": file_name,
             "channel_number": channel_number,
-            "project_id": project_id
+            "project_id": project_id,
+            "duration": duration if duration else 0,
+            "user_id": user_id
         }).execute()
     
     

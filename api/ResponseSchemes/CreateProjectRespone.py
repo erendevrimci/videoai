@@ -1,8 +1,13 @@
 from pydantic import BaseModel
-from typing import Optional
+
+
+class CreateProject(BaseModel):
+    id: int
+    name: str
+    user_id: str
+    created_at: str
 
 class CreateProjectResponse(BaseModel):
     success: bool
     message: str
-    project_id: Optional[int] = None
-    project_name: Optional[str] = None
+    project: CreateProject

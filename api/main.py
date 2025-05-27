@@ -15,8 +15,7 @@ from api.RequestSchemes.VideoEditRequest import VideoEditRequest
 from api.ResponseSchemes.VideoEditResponse import VideoEditResponse 
 from api.RequestSchemes.ProjectRequest import ProjectRequest 
 from api.ResponseSchemes.ProjectResponse import ProjectResponse 
-from api.ResponseSchemes.ResponseJson import ResponseJson 
-from api.RequestSchemes.StoryboardRequest import StoryboardRequest 
+from api.ResponseSchemes.CreateProjectRespone import CreateProject
 from api.ResponseSchemes.StoryboardResponse import StoryboardResponse 
 from api.RequestSchemes.StoryboardUpdateRequest import StoryboardUpdateRequest 
 from api.ResponseSchemes.RefreshSignedUrl import RefreshSignedUrlResponse 
@@ -29,6 +28,7 @@ from api.ResponseSchemes.GenerateTimelineVideoResponse import GenerateTimelineVi
 from api.RequestSchemes.CreateStoryboardRequest import CreateStoryboardRequest
 from api.ResponseSchemes.VideoListResponse import VideoListResponse
 from api.ResponseSchemes.CreateProjectRespone import CreateProjectResponse
+from api.ResponseSchemes.VoiceoverResponse import VoiceoverHistory
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
@@ -147,7 +147,8 @@ def create_project(request: ProjectRequest, current_user: dict = Depends(get_cur
             "user_id": user_id,
             "name": project_name
         }).execute()
-        return CreateProjectResponse(success=True, message="Project created successfully", project_id=result.data[0]["id"], project_name=project_name)
+        print(result.data[0])
+        return CreateProjectResponse(success=True, message="Project created successfully", project=CreateProject(id=result.data[0]["id"], name=project_name, user_id=user_id, created_at=result.data[0]["created_at"]))
     except Exception as e:
         return CreateProjectResponse(success=False, message=str(e))
     
@@ -181,12 +182,15 @@ def save_script(request: SaveScriptRequest, current_user: dict = Depends(get_cur
 def generate_script(request: ScriptRequest, current_user: dict = Depends(get_current_user)):
     try:
         # Token'dan gelen user_id'yi kullan
+        user_id = current_user["user_id"]
         project_id = request.project_id
         script = write_script.main(
+            user_id=user_id,
             project_id=project_id, 
             title=request.topic,
             context=request.context, 
             channel_number=request.channel_number,
+            tone=request.tone
         )
         
        
@@ -215,7 +219,7 @@ def update_script(request: UpdateScriptRequest, current_user: dict = Depends(get
 @app.get("/script/{project_id}", response_model=ScriptResponse)
 def get_user_scripts(project_id: int, current_user: dict = Depends(get_current_user)):
     try:
-        result = supabase.table("scripts").select("id, title, topic, script, created_at").filter("project_id", "eq", project_id).execute()
+        result = supabase.table("scripts").select("id, title, topic, script, created_at").eq("user_id", current_user["user_id"]).filter("project_id", "eq", project_id).execute()
         return ScriptResponse(success=True, message="Scripts fetched successfully", scripts=result.data)
     except Exception as e:
         return ScriptResponse(success=False, message=str(e))
@@ -243,24 +247,35 @@ def get_script_properties(project_id: int, current_user: dict = Depends(get_curr
 @app.post("/voice-over", response_model=VoiceoverResponse)
 def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(get_current_user)):
     try:
-        
+        user_id = current_user["user_id"]
         script_id = request.script_id
-        # Script'i güvenli bir şekilde ele al
+        similarity_boost = request.similarity_boost
+        stability = request.stability
         project_id = request.project_id
-        try:
-            # Sanitizer middleware ile işlenmemiş olması durumunda manuel olarak sanitize et
-            from api.security.sanitizer import sanitize_input
-            project_id = sanitize_input(project_id,script_id, context="script")
-        except Exception as e:
-            print(f"Script sanitize hatası: {str(e)}")
-        
         channel_number = request.channel_number
-        voice_over_url = voice_over.main(project_id,script_id, channel_number)
-        
+        voice_id = request.voice_id
+        voice_over_url = voice_over.main(user_id,project_id,script_id, channel_number,similarity_boost, stability,voice_id)
+        logging.info(f"Voice over URL: {voice_over_url}")
+        print(f"Voice over URL: {voice_over_url}")
         return VoiceoverResponse(success=True, message="Voice over generated successfully", voice_over_url=voice_over_url)
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e)), 500
 
+@app.get("/voice-over/history/{project_id}", response_model=VoiceoverResponse)
+def get_voice_over_history(project_id: int, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        voice_urls = []
+        result = supabase.table("voice_over").select("id,voice_name, duration, created_at").eq("user_id", user_id).eq("project_id", project_id).execute()
+        print(f"Voice over history: {result.data}")
+        for vname in result.data:
+            voice_over_url = supabase.storage.from_("voice-over-files").create_signed_url(vname["voice_name"],3600)
+            voice_urls.append(VoiceoverHistory(id=vname["id"], name=vname["voice_name"], duration=vname["duration"], url=voice_over_url.get("signedURL"), created_at=vname["created_at"]))
+        
+        return VoiceoverResponse(success=True, message="Voice over history fetched successfully", voice_over_history=voice_urls)
+    except Exception as e:
+        return VoiceoverResponse(success=False, message=str(e))
+    
 
 @app.get("/voice-over/{id}", response_model=VoiceoverResponse)
 def get_voice_over(id: str, current_user: dict = Depends(get_current_user)):
@@ -408,11 +423,13 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}") # Hata loglaması
         return StoryboardResponse(success=False, message=str(e), storyboards=[])
 
-@app.get("/storyboards", response_model=StoryboardResponse)
-def get_storyboards(current_user: dict = Depends(get_current_user)):
+@app.get("/user-storyboards/{project_id}", response_model=StoryboardResponse)
+def get_storyboards(project_id: int, current_user: dict = Depends(get_current_user)):
     try:
+        print(project_id)
         user_id = current_user["user_id"]
-        result = supabase.table("storyboards").select("id, project_id, name, created_at, updated_at").eq("user_id", user_id).execute()
+        result = supabase.table("storyboards").select("id, project_id, name, created_at, updated_at").eq("user_id", user_id).eq("project_id", project_id).execute()
+        print(result.data)
         return StoryboardResponse(success=True, message="Storyboards fetched successfully", storyboards=result.data)
     except Exception as e:
         return StoryboardResponse(success=False, message=str(e), storyboards=[])
@@ -629,7 +646,7 @@ def get_video_list(current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
         # user_id'ye göre sadece url'leri seç
-        result = supabase.table("generated_videos").select("id,url,created_at").eq("user_id", user_id).order("created_at", desc=True).execute()
+        result = supabase.table("generated_videos").select("id,url,created_at,batch_id").eq("user_id", user_id).order("created_at", desc=True).execute()
 
         if result.data is not None:
             # Eğer result.data boş bir liste değilse ve içinde öğeler varsa

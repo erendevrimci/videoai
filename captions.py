@@ -9,6 +9,7 @@ from pathlib import Path
 from openai import OpenAI
 from config import config
 from file_manager import FileManager
+import json
 # from timeline_manager import TimelineManager
 import os
 from supabase import create_client
@@ -76,9 +77,14 @@ def generate_subtitles(
                 transcription = client.audio.transcriptions.create(
                     model="whisper-1",  # Using hardcoded model as Whisper has limited models
                     file=audio_file_temp,
-                    response_format="srt",
+                    response_format="verbose_json",
+                    timestamp_granularities=["word"],
                     prompt="each segment should be between 2 to 4 seconds. This means none of the segments should exceed 6 words."
                 )
+        print(transcription.words)
+        with open("transcription.json", "w") as f:
+            json.dump(transcription.words, f)
+       
         import uuid
         file_name = f"{uuid.uuid4()}.srt"
         
