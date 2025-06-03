@@ -9,8 +9,8 @@ from api.RequestSchemes.SaveScriptRequest import SaveScriptRequest
 from api.RequestSchemes.VoiceoverRequest import VoiceoverRequest 
 from api.ResponseSchemes.ScriptResponse import ScriptResponse, Script 
 from api.ResponseSchemes.VoiceoverResponse import VoiceoverResponse 
-from api.ResponseSchemes.CaptionResponse import CaptionResponse 
-from api.RequestSchemes.CaptionRequest import CaptionRequest 
+from api.ResponseSchemes.CaptionResponse import CaptionResponse, CaptionListResponse
+from api.RequestSchemes.CaptionRequest import CaptionRequest, UpdateCaptionSegmentsRequest
 from api.RequestSchemes.VideoEditRequest import VideoEditRequest 
 from api.ResponseSchemes.VideoEditResponse import VideoEditResponse 
 from api.RequestSchemes.ProjectRequest import ProjectRequest 
@@ -29,10 +29,11 @@ from api.RequestSchemes.CreateStoryboardRequest import CreateStoryboardRequest
 from api.ResponseSchemes.VideoListResponse import VideoListResponse
 from api.ResponseSchemes.CreateProjectRespone import CreateProjectResponse
 from api.ResponseSchemes.VoiceoverResponse import VoiceoverHistory
+from api.RequestSchemes.UploadVoiceoverRequest import UploadVoiceoverRequest
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
-
+from api.utils.upload_voiceover import upload_voiceover_to_storage
 import write_script
 from write_script import extract_topic_from_script
 import voice_over
@@ -260,6 +261,23 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
         return VoiceoverResponse(success=True, message="Voice over generated successfully", voice_over_url=voice_over_url)
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e)), 500
+    
+
+@app.post("/upload-voice-over", response_model=VoiceoverResponse)
+def upload_voice_over(request: UploadVoiceoverRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        project_id = request.project_id
+        audio_file_base64 = request.audio_file
+        voice_over_name = request.voice_over_name
+        voice_over_data= upload_voiceover_to_storage(user_id, project_id, audio_file_base64, voice_over_name)
+        if voice_over_data is None: 
+            return VoiceoverResponse(success=False, message="Voice over upload failed")
+        voice_over_url = supabase.storage.from_("voice-over-files").create_signed_url(voice_over_name,3600)
+        return VoiceoverResponse(success=True, message="Voice over uploaded successfully", voice_over_history=[VoiceoverHistory(id=voice_over_data["id"], name=voice_over_data["voice_name"], duration=voice_over_data["duration"], url=voice_over_url.get("signedURL")  , created_at=voice_over_data["created_at"])])
+    except Exception as e:
+        return VoiceoverResponse(success=False, message=str(e)), 500
+
 
 @app.get("/voice-over/history/{project_id}", response_model=VoiceoverResponse)
 def get_voice_over_history(project_id: int, current_user: dict = Depends(get_current_user)):
@@ -295,8 +313,106 @@ def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_
     try:
         project_id = request.project_id
         voice_over_id = request.voice_over_id
-        captions.main(project_id, voice_over_id, request.channel_number)
-        return CaptionResponse(success=True, message="Captions generated successfully")
+        caption_id = captions.main(project_id, voice_over_id, request.channel_number)
+        if caption_id is None:
+            return CaptionResponse(success=False, message="Captions generation failed")
+        
+        # Caption verilerini formatla ve döndür
+        formatted_caption = captions.format_caption_for_api(supabase, caption_id)
+        if formatted_caption:
+            return CaptionResponse(
+                success=True, 
+                message="Captions generated successfully", 
+                id=caption_id,
+                caption=formatted_caption
+            )
+        else:
+            return CaptionResponse(success=True, message="Captions generated successfully", id=caption_id)
+    except Exception as e:
+        return CaptionResponse(success=False, message=str(e))
+
+
+@app.get("/caption/{caption_id}", response_model=CaptionResponse)
+def get_caption_details(caption_id: int, current_user: dict = Depends(get_current_user)):
+    """
+    Belirli bir caption'ın detaylarını getirir
+    """
+    try:
+        formatted_caption = captions.format_caption_for_api(supabase, caption_id)
+        if formatted_caption:
+            return CaptionResponse(
+                success=True,
+                message="Caption details fetched successfully",
+                id=caption_id,
+                caption=formatted_caption
+            )
+        else:
+            return CaptionResponse(success=False, message="Caption not found")
+    except Exception as e:
+        return CaptionResponse(success=False, message=str(e))
+
+
+@app.get("/captions/project/{project_id}", response_model=CaptionListResponse)
+def get_project_captions(project_id: int, current_user: dict = Depends(get_current_user)):
+    """
+    Belirli bir projeye ait tüm caption'ları getirir
+    """
+    try:
+        captions_list = captions.get_captions_by_project_for_api(supabase, project_id)
+        print(captions_list)
+        return CaptionListResponse(
+            success=True,
+            message="Project captions fetched successfully",
+            captions=captions_list
+        )
+    except Exception as e:
+        return CaptionListResponse(success=False, message=str(e))
+
+
+@app.put("/caption/{caption_id}/segments", response_model=CaptionResponse)
+def update_caption_segments(
+    caption_id: int, 
+    request: UpdateCaptionSegmentsRequest, 
+    current_user: dict = Depends(get_current_user)
+):
+    """
+    Caption segment'lerini günceller
+    """
+    try:
+        # Segments'leri dict formatına çevir
+        segments_data = []
+        for segment in request.segments:
+            words_data = []
+            for word in segment.words:
+                words_data.append({
+                    "word": word.word,
+                    "start": word.start,
+                    "end": word.end
+                })
+            
+            segments_data.append({
+                "id": segment.id,
+                "text": segment.text,
+                "start": segment.start,
+                "end": segment.end,
+                "words": words_data
+            })
+        
+        # Veritabanını güncelle
+        success = captions.update_caption_segments_in_db(supabase, caption_id, segments_data)
+        
+        if success:
+            # Güncellenmiş veriyi getir ve döndür
+            formatted_caption = captions.format_caption_for_api(supabase, caption_id)
+            return CaptionResponse(
+                success=True,
+                message="Caption segments updated successfully",
+                id=caption_id,
+                caption=formatted_caption
+            )
+        else:
+            return CaptionResponse(success=False, message="Failed to update caption segments")
+            
     except Exception as e:
         return CaptionResponse(success=False, message=str(e))
 

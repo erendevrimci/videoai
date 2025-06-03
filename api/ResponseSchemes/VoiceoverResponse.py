@@ -1,6 +1,6 @@
 from typing import Optional, List
 from pydantic import BaseModel
-import base64
+
 
 class VoiceoverHistory(BaseModel):
     id: int
