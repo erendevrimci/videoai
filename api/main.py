@@ -303,7 +303,8 @@ def get_voice_over(id: str, current_user: dict = Depends(get_current_user)):
         result = supabase.table("voice_over").select("*").eq("id", id).execute()
         if not result.data :
             return VoiceoverResponse(success=False, message="Voice over not found")
-        return VoiceoverResponse(success=True, message="Voice over fetched successfully", voiceover=result.data[0]["voice"])
+        voice_over_url = supabase.storage.from_("voice-over-files").create_signed_url(result.data[0]["voice_name"],3600)
+        return VoiceoverResponse(success=True, message="Voice over fetched successfully", voice_over_url=voice_over_url.get("signedURL"))
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
 
