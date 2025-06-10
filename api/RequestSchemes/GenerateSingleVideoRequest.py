@@ -6,9 +6,9 @@ class GenerateSingleVideoRequest(BaseModel):
     prompt: str
     negativePrompt: Optional[str] = None
     duration: int
-    cfgScale: float
+    cfgScale: Optional[float] = None
     aspectRatio: str
-    startImage: Optional[str] = None
+    startImage: str
     endImage: Optional[str] = None
-    startImageId: Optional[int] = None
-    endImageId: Optional[int] = None
+    startImageId: str
+    endImageId: Optional[str] = None

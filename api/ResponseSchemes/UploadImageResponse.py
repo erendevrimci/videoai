@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 class ImageResponse(BaseModel):
-    id: int
+    id: str
     url: str
 
 class UploadImageResponse(BaseModel):

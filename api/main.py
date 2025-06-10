@@ -52,6 +52,8 @@ from fastapi.middleware.cors import CORSMiddleware # Eklendi
 from PIL import Image # Eklendi
 import io # Eklendi
 from typing import Optional # Optional importu eklendi/kontrol edildi
+import asyncio
+import uuid
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
@@ -616,7 +618,7 @@ def upload_image(request: UploadImageRequest, current_user: dict = Depends(get_c
         try:
             img = Image.open(io.BytesIO(image_bytes))
             width, height = img.size
-            aspect_ratio = str(width / height) if height != 0 else "0" # Sıfıra bölme hatasını engelle
+            aspect_ratio = f"{height}x{width}"
         except Exception as e:
             # Resim işleme hatası durumunda varsayılan veya hata değeri ata
             print(f"Error processing image for aspect ratio: {str(e)}")
@@ -646,12 +648,10 @@ def upload_image(request: UploadImageRequest, current_user: dict = Depends(get_c
         # image_accessible_url = signed_url_response['signedURL']
 
 
-        result = supabase.table("uploaded_images").insert({
+        result = supabase.table("images").insert({
             "user_id": user_id,
             "url": image_public_url, 
-            "image_path": image_path,
-            "aspect_ratio": aspect_ratio,
-            "name": request.name
+            "size": aspect_ratio,
         }).execute()
         
         if not result.data:
@@ -669,7 +669,7 @@ def upload_image(request: UploadImageRequest, current_user: dict = Depends(get_c
 
 
 @app.post("/generate-single-video")
-def generate_single_video(request: GenerateSingleVideoRequest, current_user: dict = Depends(get_current_user)):
+async def generate_single_video(request: GenerateSingleVideoRequest, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
         model = request.model
@@ -678,9 +678,9 @@ def generate_single_video(request: GenerateSingleVideoRequest, current_user: dic
 
         match model:
             case "klingai":
-                video = generate_klingAI_video(request.prompt, request.negativePrompt, request.duration, request.cfgScale, request.aspectRatio, request.startImage, request.endImage)
+                video = await generate_klingAI_video(request.prompt, request.negativePrompt, request.duration, request.cfgScale, request.aspectRatio, request.startImage, request.endImage)
             case "runwayml":
-                video = generate_runwayML_video(request.prompt, request.negativePrompt, request.duration, request.cfgScale, request.aspectRatio, request.startImage, request.endImage)
+                video = await generate_runwayML_video(request.prompt, request.duration, request.aspectRatio, request.startImage, request.endImage)
             case _:
                 return GenerateSingleVideoResponse(success=False, message=f"Desteklenmeyen model türü: {model}")
 
@@ -719,41 +719,69 @@ def generate_single_video(request: GenerateSingleVideoRequest, current_user: dic
 
 
 @app.post("/generate-timeline-video")
-def generate_timeline_video(request: GenerateTimelineVideoRequest, current_user: dict = Depends(get_current_user)):
+async def generate_timeline_video(request: GenerateTimelineVideoRequest, current_user: dict = Depends(get_current_user)):
     try:
-        videos = []
         user_id = current_user["user_id"]
         model = request.model
-        video = None
+        batch_id = str(uuid.uuid4()) # Her istek için benzersiz bir batch_id oluştur
+        
+        generation_tasks = []
         for segment in request.segments:
-            match model:
-                case "klingai":
-                    video = generate_klingAI_video(segment.prompt, None, segment.duration, segment.cfg_scale, request.aspect_ratio, segment.start_image, segment.end_image)
-                case "runwayml":
-                    video = generate_runwayML_video(segment.prompt, None, segment.duration, segment.cfg_scale, request.aspect_ratio, segment.start_image, segment.end_image)
-            if video is None:
-                return GenerateTimelineVideoResponse(success=False, message="Video generation failed")
+            task = None
+            if model == "klingai":
+                task = generate_klingAI_video(segment.prompt, None, segment.duration, segment.cfg_scale, request.aspect_ratio, segment.start_image, segment.end_image)
+            elif model == "runwayml":
+                task = generate_runwayML_video(segment.prompt, segment.duration, request.aspect_ratio, segment.start_image, segment.end_image)
             
-            video_name = f"videos/{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.mp4"
-            video_upload_result = supabase.storage.from_("videos").upload(path=video_name, file=video)
-            video_url = supabase.storage.from_("videos").get_public_url(video_name)
-            videos.append(video_url)
-            video_insert_result = supabase.table("generated_videos").insert({
-                "user_id": user_id,
-                "url": video_url,
-                "name": video_name
-            }).execute()
-            video_id = video_insert_result.data[0]["id"]
-            for segment in request.segments:
-                update_image_result_start = supabase.table("uploaded_images").update({
-                    "video_id": video_id
-                }).eq("id", segment.start_image_id).execute()
-                update_image_result_end = supabase.table("uploaded_images").update({
-                    "video_id": video_id
-                }).eq("id", segment.end_image_id).execute()
+            if task:
+                generation_tasks.append(task)
+        
+        if not generation_tasks:
+            return GenerateTimelineVideoResponse(success=False, message=f"Desteklenmeyen veya geçersiz model türü: {model}")
 
+        # Tüm video oluşturma görevlerini paralel olarak çalıştır
+        generated_videos_content = await asyncio.gather(*generation_tasks, return_exceptions=True)
+        
+        videos = []
+        # Not: Supabase işlemleri şimdilik senkron kalacak. FastAPI bunları bir thread pool'da çalıştıracaktır.
+        for i, result in enumerate(generated_videos_content):
+            segment = request.segments[i]
 
-        return GenerateTimelineVideoResponse(success=True, message="Video generated successfully", video_urls=videos,segments=request.segments)
+            if isinstance(result, Exception):
+                print(f"Segment {i} için video oluşturma başarısız oldu: {result}")
+                # Başarısız olan segmenti atla veya isteğe bağlı olarak bir hata nesnesi döndür
+                continue
+
+            video_content = result
+            if video_content is None:
+                print(f"Segment {i} için video içeriği boş geldi.")
+                continue
+
+            video_name = f"videos/{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}-{segment.start_image_id}.mp4"
+            
+            try:
+                # Supabase'e yükleme
+                supabase.storage.from_("videos").upload(path=video_name, file=video_content)
+                video_url = supabase.storage.from_("videos").get_public_url(video_name)
+                videos.append(video_url)
+                
+                # Veritabanına ekleme
+                supabase.table("generated_videos").insert({
+                    "user_id": user_id,
+                    "url": video_url,
+                    "name": video_name,
+                    "batch_id": batch_id,
+                    "start_image_id": segment.start_image_id,
+                    "end_image_id": segment.end_image_id
+                }).execute()
+            except Exception as e:
+                print(f"Segment {i} için Supabase işlemi başarısız oldu: {e}")
+                # Bu segment için hatayı logla ve devam et
+
+        if not videos:
+            return GenerateTimelineVideoResponse(success=False, message="Tüm segmentler için video oluşturma veya yükleme başarısız oldu.")
+
+        return GenerateTimelineVideoResponse(success=True, message="Video oluşturma başarıyla tamamlandı.", video_urls=videos, segments=request.segments)
         
     except Exception as e:
         return GenerateTimelineVideoResponse(success=False, message=str(e))
