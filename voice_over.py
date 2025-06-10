@@ -147,12 +147,4 @@ def main(user_id: str,project_id: int,script_id: int,similarity_boost: float = 0
 
 if __name__ == "__main__":
     # Parse command line arguments
-    if len(sys.argv) > 1:
-        try:
-            channel_number = int(sys.argv[1])
-            main(channel_number)
-        except ValueError:
-            print(f"Error: Invalid channel number '{sys.argv[1]}'. Using default channel.")
-            main()
-    else:
-        main()
+    main()
