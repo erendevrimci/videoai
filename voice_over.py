@@ -15,7 +15,7 @@ from mutagen.mp3 import MP3
 
 load_dotenv()
 
-def generate_voice(script_text: str, channel_number: int = 1,similarity_boost: float = 0.5, stability: float = 0.5, voice_id: str = "9BWtsMINqrJLrRacOk9x") -> Optional[bytes]:
+def generate_voice(script_text: str,similarity_boost: float = 0.5, stability: float = 0.5, voice_id: str = "9BWtsMINqrJLrRacOk9x") -> Optional[bytes]:
     """
     Converts the provided script text into speech using the ElevenLabs text-to-speech API.
     
@@ -86,7 +86,7 @@ def generate_voice(script_text: str, channel_number: int = 1,similarity_boost: f
             print(f"Response: {e.response.text}")
         return None
 
-def main(user_id: str,project_id: int,script_id: int, channel_number: Optional[int] = None,similarity_boost: float = 0.5, stability: float = 0.5,voice_id: Optional[str] = "9BWtsMINqrJLrRacOk9x") -> str:
+def main(user_id: str,project_id: int,script_id: int,similarity_boost: float = 0.5, stability: float = 0.5,voice_id: Optional[str] = "9BWtsMINqrJLrRacOk9x") -> str:
     # """
     # Main function to generate voice from script.
     
@@ -104,7 +104,7 @@ def main(user_id: str,project_id: int,script_id: int, channel_number: Optional[i
     script_text = script_query.data[0]["script"]
     script_name = script_query.data[0]["topic"]
     
-    voice = generate_voice(script_text, channel_number,similarity_boost, stability,voice_id)
+    voice = generate_voice(script_text,similarity_boost, stability,voice_id)
     
     file_like_object = io.BytesIO(voice)
     audio = MP3(file_like_object)
@@ -129,7 +129,6 @@ def main(user_id: str,project_id: int,script_id: int, channel_number: Optional[i
 
     response = supabase.table("voice_over").insert({
             "voice_name": file_name,
-            "channel_number": channel_number,
             "project_id": project_id,
             "duration": duration if duration else 0,
             "user_id": user_id
