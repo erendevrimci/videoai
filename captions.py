@@ -81,7 +81,8 @@ def generate_subtitles(
     supabase: Client,
     project_id: int,
     voice_over_id: int,
-    channel_number: int = None
+    channel_number: int = None,
+    user_id: str = None
 ) -> tuple[bool, int]:
     """
     Generate subtitles (SRT file) from the given audio file using the OpenAI Whisper API.
@@ -202,7 +203,8 @@ def generate_subtitles(
             "caption_json": json.dumps(json_transcription) if isinstance(json_transcription, dict) else json_transcription,
             "caption_segments": json.dumps(caption_segments),
             "segments_count": len(caption_segments),
-            "total_duration": json_transcription.get("duration", 0.0)
+            "total_duration": json_transcription.get("duration", 0.0),
+            "user_id": user_id
         }).execute()
 
         # Database response kontrolü
@@ -308,7 +310,7 @@ def add_captions_to_timeline(
         print(traceback.format_exc())
         return False
 
-def main(project_id: int,voice_over_id: int, channel_number: int = None, use_timeline: bool = False):
+def main(project_id: int,voice_over_id: int, channel_number: int = None, use_timeline: bool = False,user_id: str = None):
     """
     Main function to run the captions generation process.
     
@@ -356,7 +358,7 @@ def main(project_id: int,voice_over_id: int, channel_number: int = None, use_tim
     audio_file_name = audio_file_data.data[0]["voice_name"]
     audio_file = supabase.storage.from_("voice-over-files").download(audio_file_name)
     # Generate subtitles
-    success, caption_id = generate_subtitles(audio_file, supabase, project_id, voice_over_id, channel_number)
+    success, caption_id = generate_subtitles(audio_file, supabase, project_id, voice_over_id, channel_number,user_id)
     
     if success:
         print(f"Caption generation completed successfully for channel {channel_number}")

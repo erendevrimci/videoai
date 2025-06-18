@@ -171,8 +171,9 @@ def save_script(request: SaveScriptRequest, current_user: dict = Depends(get_cur
     try:
         project_id = request.project_id
         script = request.script
+        user_id = current_user["user_id"]
         topic = extract_topic_from_script(script).topic
-        result = supabase.table("scripts").insert({"project_id": project_id, "script": script, "topic": topic}).execute()
+        result = supabase.table("scripts").insert({"project_id": project_id, "script": script, "topic": topic,"user_id":user_id}).execute()
         print(result)
         if result.data is None:
             return ScriptResponse(success=False, message="Script saved failed")
@@ -315,7 +316,8 @@ def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_
     try:
         project_id = request.project_id
         voice_over_id = request.voice_over_id
-        caption_id = captions.main(project_id, voice_over_id, request.channel_number)
+        user_id = current_user["user_id"]
+        caption_id = captions.main(project_id, voice_over_id, request.channel_number,user_id)
         if caption_id is None:
             return CaptionResponse(success=False, message="Captions generation failed")
         
