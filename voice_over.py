@@ -131,7 +131,8 @@ def main(user_id: str,project_id: int,script_id: int,similarity_boost: float = 0
             "voice_name": file_name,
             "project_id": project_id,
             "duration": duration if duration else 0,
-            "user_id": user_id
+            "user_id": user_id,
+            "script_id": script_id
         }).execute()
     
     

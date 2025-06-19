@@ -7,20 +7,25 @@ import io
 import mimetypes
 import base64
 from supabase import create_client, Client
+from dotenv import load_dotenv
 
-supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+load_dotenv()
+
 # Tek bir prompt için görselleri getiren, Supabase'e yükleyen ve DB'ye kaydeden yardımcı fonksiyon
 def _process_single_prompt_for_supabase(
     prompt_index_tuple: tuple[int, str], # (index, prompt_text)
     openai_api_key: str,
     n_images_per_prompt: int,
     image_size: str,
-    supabase_client: Client,
     user_id: str | None,
     storyboard_id: int | None,
     batch_id: str
 ) -> list[dict] | None:
     """Tek bir prompt için OpenAI API'sinden görselleri alır, Supabase'e yükler ve DB'ye kaydeder."""
+    # Her iş parçacığı (thread) için ayrı bir Supabase istemcisi oluşturulur.
+    # Bu, "Server disconnected" gibi bağlantı hatalarını önler.
+    supabase: Client = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+    
     prompt_index, prompt_text = prompt_index_tuple
     openai_url = "https://api.openai.com/v1/images/generations"
     
@@ -82,13 +87,13 @@ def _process_single_prompt_for_supabase(
             
             file_options = {"content-type": content_type, "cache-control": "3600", "upsert": "false"}
 
-            supabase_client.storage.from_("videos").upload(
+            supabase.storage.from_("videos").upload(
                 path=storage_path,
                 file=image_bytes,
                 file_options=file_options
             )
             
-            public_url_data = supabase_client.storage.from_("videos").get_public_url(storage_path)
+            public_url_data = supabase.storage.from_("videos").get_public_url(storage_path)
             public_url = public_url_data if isinstance(public_url_data, str) else public_url_data.get('publicUrl')
 
             if not public_url:
@@ -109,7 +114,7 @@ def _process_single_prompt_for_supabase(
                 "shot_index": prompt_index
             }
             
-            insert_response = supabase_client.table("images").insert(image_record_to_insert).execute()
+            insert_response = supabase.table("images").insert(image_record_to_insert).execute()
             
             if hasattr(insert_response, 'error') and insert_response.error:
                 print(f"Supabase DB'ye kayıt sırasında hata (prompt: '{prompt_text}', url: {public_url}): {insert_response.error}")
@@ -176,7 +181,6 @@ def generate_images_for_prompts_and_upload_to_supabase(
                 openai_api_key,
                 n_images_per_prompt,
                 image_size,
-                supabase,
                 user_id,
                 storyboard_id,
                 batch_id

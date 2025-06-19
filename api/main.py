@@ -30,10 +30,15 @@ from api.ResponseSchemes.VideoListResponse import VideoListResponse
 from api.ResponseSchemes.CreateProjectRespone import CreateProjectResponse
 from api.ResponseSchemes.VoiceoverResponse import VoiceoverHistory
 from api.RequestSchemes.UploadVoiceoverRequest import UploadVoiceoverRequest
+from api.RequestSchemes.GenerateFinalVideoFromStoryboardRequest import GenerateFinalVideoFromStoryboardRequest
+from api.ResponseSchemes.GenerateFinalVideoFromStoryboardResponse import GenerateFinalVideoFromStoryboardResponse
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
 from api.utils.upload_voiceover import upload_voiceover_to_storage
+from api.ResponseSchemes.ShotResponse import ShotResponse
+from api.RequestSchemes.ShotRequest import ShotRequest
+from api.ResponseSchemes.StoryboardResponse import Shot
 import write_script
 from write_script import extract_topic_from_script
 import voice_over
@@ -54,9 +59,12 @@ import io # Eklendi
 from typing import Optional # Optional importu eklendi/kontrol edildi
 import asyncio
 import uuid
+# Celery görevimizi import ediyoruz
+from tasks import create_final_video_task
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 security_logger = logging.getLogger("security")
 security_logger.setLevel(logging.DEBUG)
 
@@ -317,7 +325,8 @@ def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_
         project_id = request.project_id
         voice_over_id = request.voice_over_id
         user_id = current_user["user_id"]
-        caption_id = captions.main(project_id, voice_over_id, request.channel_number,user_id)
+        print(f"Main User id: {user_id}")
+        caption_id = captions.main(project_id, voice_over_id, request.channel_number,user_id=user_id)
         if caption_id is None:
             return CaptionResponse(success=False, message="Captions generation failed")
         
@@ -421,36 +430,14 @@ def update_caption_segments(
         return CaptionResponse(success=False, message=str(e))
 
 
-@app.post("/video-edit", response_model=VideoEditResponse)
-def edit_video(request: VideoEditRequest, current_user: dict = Depends(get_current_user)):
-    try:
-        user_id = current_user["user_id"]
-        
-        # İstekten script_id'yi alın (VideoEditRequest şemasında olması varsayılıyor)
-        project_id = request.project_id
-        timeline_mode = request.use_timeline
-        
-        # video_edit.main'i doğru parametrelerle çağırın (user_id eklendi)
-        success = video_edit.main(project_id, timeline_mode)
-        
-        if success:
-            # Başarılı yanıt, isteğe bağlı olarak video URL'sini de içerebilir
-            # (Ancak URL'yi almak için ek bir DB sorgusu gerekebilir, şimdilik basit tutuyoruz)
-            return VideoEditResponse(success=True, message="Video edited and uploaded successfully")
-        else:
-            # Hata mesajı video_edit.main içindeki loglardan daha detaylı anlaşılabilir
-            return VideoEditResponse(success=False, message="Video editing or upload process failed"), 500
+
             
-    except AttributeError:
-        # Eğer request.script_id mevcut değilse bu hata alınabilir
-        return VideoEditResponse(success=False, message="Missing 'script_id' in request body.")
     except Exception as e:
         import traceback
         error_details = traceback.format_exc()
-        # Hata detaylarını loglamak iyi bir pratik olabilir
-        print(f"Video editing endpoint error: {str(e)}\n{error_details}")
-        return VideoEditResponse(success=False, message=f"An error occurred during the video editing request: {str(e)}")
-    
+        print(f"Video production endpoint error: {str(e)}\n{error_details}")
+        return VideoEditResponse(success=False, message=f"An error occurred during the video production request: {str(e)}")
+
 
 @app.post("/create-storyboard", response_model=StoryboardResponse)
 def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Depends(get_current_user)):
@@ -459,12 +446,18 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         prompts = []
         storyboard_name = request.name
         project_id = request.project_id
+        caption_id = request.caption_id
         storyboard_result = supabase.table("storyboards").insert({
             "name":storyboard_name,
             "project_id":project_id,
             "user_id":current_user["user_id"],
         }).execute()
         storyboard_id = storyboard_result.data[0]["id"]
+        success = video_edit.prepare_video_assets(project_id, caption_id, current_user["user_id"])
+
+        if not success:
+            return StoryboardResponse(success=False, message="Failed to prepare video assets.")
+        
         response_json_result = supabase.table("projects").select("response_json").eq("id", project_id).execute()
 
         # response_json varlığını ve içeriğini kontrol et
@@ -499,7 +492,8 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
                    "script_segment":clip_data["script_segment"],
                    "start_time":clip_data["start_time"],
                    "shot_index":index,
-                   "storyboard_id":storyboard_id
+                   "storyboard_id":storyboard_id,
+                   "user_id": current_user["user_id"]
                }).execute()
                # shot_insert_result'ın başarılı olup olmadığını kontrol et
                if shot_insert_result.data:
@@ -507,9 +501,24 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
                else:
                    print(f"Warning: Failed to insert shot for project_id {project_id}, storyboard_id {storyboard_id}. Error: {shot_insert_result.error}")
             
-            # Sadece prompts listesi doluysa resim oluşturma fonksiyonunu çağır
+            # Her bir çekim için paralel olarak birer görsel oluştur.
+            # Bu işlem endpoint'in yanıtını bekletmez.
             if prompts:
-                generate_images_for_prompts_and_upload_to_supabase(prompts, current_user["user_id"], storyboard_id)
+                print(f"Storyboard {storyboard_id} için {len(prompts)} adet görsel oluşturma işlemi başlatılıyor.")
+                # Görsel oluşturma işlemini başlat, ancak sonucunu bekleme (fire-and-forget)
+                try:
+                    # Not: Bu fonksiyon içindeki ThreadPoolExecutor sayesinde paralel çalışır.
+                    generate_images_for_prompts_and_upload_to_supabase(
+                        prompts=prompts, 
+                        user_id=current_user["user_id"], 
+                        storyboard_id=storyboard_id
+                    )
+                    print(f"Storyboard {storyboard_id} için görsel oluşturma görevleri başarıyla gönderildi.")
+                except Exception as img_exc:
+                    # Bu hatayı logla ama endpoint'in başarısız olmasına neden olma,
+                    # çünkü storyboard ve shot'lar başarıyla oluşturuldu.
+                    print(f"Error initiating image generation for storyboard {storyboard_id}: {img_exc}")
+
         else:
             # response_json yoksa veya null ise, shot_index_size parametresini kontrol et
             print(f"No valid response_json found for project_id {project_id}. Checking shot_index_size.")
@@ -527,6 +536,7 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
                         "start_time": None,
                         "shot_index": i,
                         "storyboard_id": storyboard_id,
+                        "user_id": current_user["user_id"]
                         # Diğer gerekli alanlar varsa None veya varsayılan değerlerle eklenebilir
                     }).execute()
                     if shot_insert_result.data:
@@ -560,18 +570,23 @@ def get_storyboard(storyboard_id: str, current_user: dict = Depends(get_current_
     try:
         user_id = current_user["user_id"]
         
-        
-        
         storyboard_id_int = int(storyboard_id)
         
         result = supabase.table("storyboards").select("id, project_id, name, created_at, updated_at").eq("user_id", user_id).eq("id", storyboard_id_int).single().execute()
-        shot_result = supabase.table("shots").select("*").eq("storyboard_id",storyboard_id_int).execute()
         
         if not result.data:
             return StoryboardResponse(success=False, message="Storyboard not found", storyboards=[])
-        if not shot_result.data:
-            return StoryboardResponse(success=False, message="Shots not found",storyboards=[result.data])  
-        return StoryboardResponse(success=True, message="Storyboard fetched successfully", storyboards=[{"id":result.data["id"],"name":result.data["name"],"project_id":result.data["project_id"],"shots":shot_result.data}])
+
+        # Storyboard bulunduktan sonra çekimleri al
+        shot_result = supabase.table("shots").select("*").eq("storyboard_id",storyboard_id_int).execute()
+        
+        # Çekim olmasa bile bu bir hata değildir, boş bir liste olabilir.
+        shots = shot_result.data if shot_result.data else []
+
+        storyboard_data = result.data
+        storyboard_data["shots"] = shots
+          
+        return StoryboardResponse(success=True, message="Storyboard fetched successfully", storyboards=[storyboard_data])
     except ValueError:
         return StoryboardResponse(success=False, message="Invalid storyboard ID format", storyboards=[])
     except Exception as e:
@@ -791,12 +806,15 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
 def get_video_list(current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
-        # user_id'ye göre sadece url'leri seç
-        result = supabase.table("generated_videos").select("id,url,created_at,batch_id").eq("user_id", user_id).order("created_at", desc=True).execute()
+        # user_id'ye göre video bilgilerini seç
+        result = supabase.table("generated_videos").select("id,name,created_at,batch_id").eq("user_id", user_id).order("created_at", desc=True).execute()
 
         if result.data is not None:
             # Eğer result.data boş bir liste değilse ve içinde öğeler varsa
-            if result.data: 
+            if result.data:
+                for video in result.data:
+                    # 'name' alanını kullanarak public URL'i oluştur ve video sözlüğüne ekle
+                    video['url'] = supabase.storage.from_("videos").get_public_url(video['name'])
                 return VideoListResponse(success=True, message="Video list fetched successfully", videos=result.data)
             else:
                  # Veri var ama boş liste (kullanıcının videosu yok)
@@ -813,3 +831,64 @@ def get_video_list(current_user: dict = Depends(get_current_user)):
         import traceback
         print(f"Exception in get_video_list: {str(e)}\n{traceback.format_exc()}")
         return VideoListResponse(success=False, message=str(e), videos=None)
+
+@app.patch("/shots/{shot_id}")
+def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        is_approved = request.is_approved
+        result = supabase.table("shots").update({"approved": is_approved}).eq("user_id", user_id).eq("id", shot_id).execute()
+        if result.data:
+            return ShotResponse(success=True, message="Shot updated successfully", shot=result.data[0])
+        else:
+            return ShotResponse(success=False, message="Shot not found", shot=None)
+    except Exception as e:
+        return ShotResponse(success=False, message=str(e), shot=None)
+
+
+
+
+
+@app.post("/generate-final-video-from-storyboard", status_code=202)
+def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboardRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        storyboard_id = request.storyboard_id
+        
+        # Storyboard'un varlığını ve kullanıcıya ait olduğunu hızlıca kontrol et
+        storyboard_response = supabase.table("storyboards").select("id, project_id").eq("id", storyboard_id).eq("user_id", user_id).single().execute()
+        
+        if not storyboard_response.data:
+            return {"success": False, "message": "Storyboard not found or access denied."}
+            
+        project_id = storyboard_response.data["project_id"]
+
+        # --- GÖREVİ ARKA PLANA GÖNDERME ---
+        # Artık video oluşturma fonksiyonunu doğrudan çağırmıyoruz.
+        # Bunun yerine .delay() kullanarak Celery'ye bir görev olarak gönderiyoruz.
+        # Bu satır anında çalışır ve Worker'ın görevi almasını bekler.
+        task = create_final_video_task.delay(
+            storyboard_id=storyboard_id,
+            project_id=project_id,
+            user_id=user_id
+        )
+
+        # Kullanıcıya görevin başlatıldığına dair anında bir yanıt döndürüyoruz.
+        # task.id, bu özel görevin benzersiz kimliğidir. Bu ID ile daha sonra
+        # görevin durumunu kontrol edebiliriz.
+        return {
+            "success": True, 
+            "message": "Final video generation has been started in the background.",
+            "task_id": task.id
+        }
+
+    except Exception as e:
+        import traceback
+        logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
+        return {"success": False, "message": f"An unexpected error occurred while starting the task: {str(e)}"}
+
+
+
+
+
+    

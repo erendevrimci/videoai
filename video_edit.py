@@ -1512,7 +1512,8 @@ def merge_voice_with_video(video_path: Optional[str] = None, voice_path: Optiona
 
 def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = None,
                    output_path: Optional[str] = None, channel_number: Optional[int] = None,
-                   srt_bytes: Optional[bytes] = None) -> bool:
+                   srt_bytes: Optional[bytes] = None,
+                   style_overrides: Optional[Dict[str, Any]] = None) -> bool:
     """
     Burn subtitles from an SRT file path or bytes into the video using ffmpeg.
     Uses temporary files in the project temp directory.
@@ -1581,16 +1582,39 @@ def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = N
 
         # --- Subtitle Burning ---
         logger.info(f"Burning subtitles from '{actual_srt_path}' into '{video_path}' -> '{output_path}'")
-        # ... (stil ve filtre ayarları aynı kalır) ...
-        font_name = getattr(config.video_edit, 'subtitle_font_name', 'DIN Condensed Bold')
-        font_size = getattr(config.video_edit, 'subtitle_font_size', 12)
-        margin_v = getattr(config.video_edit, 'subtitle_margin_v', 35)
-        primary_colour = getattr(config.video_edit, 'subtitle_primary_colour', '&HFFFFFF')
-        outline_colour = getattr(config.video_edit, 'subtitle_outline_colour', '&H00000010')
-        border_style = getattr(config.video_edit, 'subtitle_border_style', 1) # 1 genellikle daha iyi
-        outline = getattr(config.video_edit, 'subtitle_outline', 1)
-        shadow = getattr(config.video_edit, 'subtitle_shadow', 1)
-        subtitle_style = f"FontName='{font_name}',FontSize={font_size},PrimaryColour={primary_colour},OutlineColour={outline_colour},BorderStyle={border_style},Outline={outline},Shadow={shadow},MarginV={margin_v},Alignment=2"
+        
+        # --- Stil Ayarları ---
+        # Varsayılan stilleri config'den al
+        style_settings = {
+            'font_name': getattr(config.video_edit, 'subtitle_font_name', 'DIN Condensed Bold'),
+            'font_size': getattr(config.video_edit, 'subtitle_font_size', 12),
+            'margin_v': getattr(config.video_edit, 'subtitle_margin_v', 35),
+            'primary_colour': getattr(config.video_edit, 'subtitle_primary_colour', '&HFFFFFF'),
+            'outline_colour': getattr(config.video_edit, 'subtitle_outline_colour', '&H00000010'),
+            'border_style': getattr(config.video_edit, 'subtitle_border_style', 1),
+            'outline': getattr(config.video_edit, 'subtitle_outline', 1),
+            'shadow': getattr(config.video_edit, 'subtitle_shadow', 1)
+        }
+
+        # Eğer veritabanından gelen stil varsa, varsayılanları ez
+        if style_overrides:
+            for key, value in style_overrides.items():
+                if value is not None:
+                    style_settings[key] = value
+                    logger.info(f"Using style override from database for '{key}': {value}")
+
+        subtitle_style = (
+            f"FontName='{style_settings['font_name']}',"
+            f"FontSize={style_settings['font_size']},"
+            f"PrimaryColour={style_settings['primary_colour']},"
+            f"OutlineColour={style_settings['outline_colour']},"
+            f"BorderStyle={style_settings['border_style']},"
+            f"Outline={style_settings['outline']},"
+            f"Shadow={style_settings['shadow']},"
+            f"MarginV={style_settings['margin_v']},"
+            "Alignment=2"
+        )
+        
         ffmpeg_srt_path = Path(actual_srt_path).as_posix() # Daha güvenli path formatı
         # Windows'ta sürücü harfi varsa özel kaçış gerekebilir, ama as_posix() genellikle yeterli
         if ':' in ffmpeg_srt_path and os.name == 'nt':
@@ -1970,146 +1994,214 @@ def _timeline_to_clip_sequence(timeline: v3) -> List[Dict]:
         traceback.print_exc()
         return []
 
-def main(project_id: int, timeline_mode: bool = True, timeline: Optional[v3] = None) -> bool:
+def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool:
     """
-    Main function to execute the video editing pipeline.
+    Aşama 1 & 2: Veri toplama ve yapay zeka ile klip seçimi.
+    Bu fonksiyon, video üretimi için gerekli tüm varlıkları hazırlar ve 
+    yapay zeka tarafından oluşturulan klip dizisini (response_json) veritabanına kaydeder.
     """
-    
-
-    video_bytes_for_merge: Optional[bytes] = None
-    temp_clips_dir_obj = None # Geçici klasör nesnesini takip etmek için
-    upload_successful = False # <<< DEĞİŞKENİ BURADA BAŞLAT >>>
-    timeline_created = False  # Timeline oluşturulup oluşturulmadığını takip et
-    timeline_object_for_render: Optional[v3] = None # Render edilecek timeline nesnesi
-    merge_success = False # Merge işleminin başarısını takip et
-    subtitle_success = False # Subtitle işleminin başarısını takip et
-
+    logger.info(f"--- AŞAMA 1 & 2 BAŞLADI: Varlık Hazırlama - Proje ID: {project_id}, Caption ID: {caption_id} ---")
     try:
-        # --- Load Initial Data ---
+        # --- Veri Toplama ---
+        captions_data_response = supabase.table("captions").select("voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
         
+        if not captions_data_response.data:
+            logger.error(f"Caption ID {caption_id} bulunamadı.")
+            return False
         
-        script_id_data = supabase.table("scripts").select("id").eq("project_id", project_id).execute()
-        script_id = script_id_data.data[0]["id"]
-        voice_id_data = supabase.table("voice_over").select("id").eq("project_id", project_id).execute()
-        voice_id = voice_id_data.data[0]["id"]
-        captions_id_data = supabase.table("captions").select("id").eq("project_id", project_id).execute()
-        captions_id = captions_id_data.data[0]["id"]
+        captions_data = captions_data_response.data
+        voice_id = captions_data["voice_over_id"]
+        
+        script_id_data = supabase.table("voice_over").select("script_id").eq("id", voice_id).execute()
+        if not script_id_data.data:
+            logger.error(f"Voice ID {voice_id} için script_id bulunamadı.")
+            return False
+        script_id = script_id_data.data[0]["script_id"]
+        
+        # Segment-bazlı SRT'yi önceliklendir, yoksa kelime-bazlıya geri dön
+        captions_file_name = captions_data.get("caption_segment_file") or captions_data.get("caption_file")
+        
+        if not captions_file_name:
+            logger.error(f"Caption ID {caption_id} için ne segment ne de kelime bazlı SRT dosyası bulundu.")
+            return False
 
-        captions_file_data = supabase.table("captions").select("id,caption_file, channel_number").eq("id", captions_id).execute()
-        if not captions_file_data.data:
-             logger.error(f"No caption/channel data found for script_id {script_id}")
-             return False
-        captions_file_name = captions_file_data.data[0]["caption_file"]
-        channel_number = captions_file_data.data[0]["channel_number"]
-       
-        logger.info(f"Processing for channel: {channel_number}")
+        logger.info(f"Klip eşleştirme için kullanılacak SRT dosyası: {captions_file_name}")
+
+        channel_number = 1
+        logger.info(f"Kanal {channel_number} için işlem yapılıyor.")
 
         clips_metadata = load_clips_metadata()
+        if not clips_metadata:
+            logger.error("Supabase'den klip meta verileri yüklenemedi.")
+            return False
+            
         script = get_script_segments(script_id)
-        voice_id_from_get, voice_name ,voice_file_bytes = get_voice_file(voice_id)
-        if voice_id_from_get != voice_id:
-             logger.warning(f"Mismatch in voice_over_id between captions ({voice_id}) and voice_over ({voice_id_from_get}) tables for script {script_id}")
+        if not script:
+            logger.error(f"Script ID {script_id} için senaryo metni alınamadı.")
+            return False
 
+        _, _, voice_file_bytes = get_voice_file(voice_id)
+        
         target_duration = None
         if voice_file_bytes:
             target_duration = get_voice_duration(voice_file_bytes)
-            if target_duration:
-                 logger.info(f"Voice duration: {target_duration:.2f} seconds")
-            else:
-                 logger.warning("Could not get voice duration from bytes.")
-                 target_duration = 60.0
+            logger.info(f"Seslendirme süresi: {target_duration:.2f} saniye" if target_duration else "Seslendirme süresi hesaplanamadı.")
         else:
-            logger.warning("Voice file bytes not found. Using default duration.")
-            target_duration = 60.0
+            logger.warning("Seslendirme dosyası bulunamadı. Hedef süre olmadan devam ediliyor.")
 
         captions_file_bytes = supabase.storage.from_("captions").download(captions_file_name)
-        expected_segments = get_num_segments(captions_file_bytes, channel_number)
-        logger.info(f"Expected number of clip segments from SRT: {expected_segments}")
-        if expected_segments == 0:
-            expected_segments = 1
-            logger.warning("No segments found in SRT. Setting expected segments to 1.")
 
-        # --- Clip Matching and Validation ---
-        clip_sequence = None
-        attempts = 0
-        max_attempts = 1
-        while attempts < max_attempts:
-             try:
-                 logger.info(f"Matching clips to script (attempt {attempts+1}/{max_attempts})...")
-                 clip_sequence = match_clips_to_script(project_id, script, captions_file_bytes, clips_metadata, target_duration=target_duration, channel_number=channel_number)
-                 obtained_segments = len(clip_sequence)
-                 if obtained_segments > 0:
-                      logger.info(f"Matched {obtained_segments} segments (expected ~{expected_segments}).")
-                      break
-                 else:
-                      attempts += 1
-                      logger.warning(f"Failed to match clips on attempt {attempts}. Retrying...")
-             except Exception as e:
-                 logger.error(f"Error during clip matching: {str(e)}", exc_info=True)
-                 attempts += 1
+        # --- Klip Eşleştirme ---
+        logger.info("Senaryo için klipler eşleştiriliyor...")
+        # `match_clips_to_script` fonksiyonu AI yanıtını (response_json) zaten veritabanına kaydediyor.
+        clip_sequence = match_clips_to_script(
+            project_id=project_id, 
+            script=script, 
+            srt_file=captions_file_bytes, 
+            clips=clips_metadata, 
+            target_duration=target_duration, 
+            channel_number=channel_number
+        )
 
         if not clip_sequence:
-             logger.error("Failed to obtain a valid clip sequence after multiple attempts.")
-             return False # Erken çıkış
+            logger.error("Klip eşleştirme başarısız oldu. Geçerli bir klip dizisi oluşturulamadı.")
+            return False
 
-        logger.info("Validating clip sequence...")
+        logger.info(f"✅ --- AŞAMA 1 & 2 TAMAMLANDI: {len(clip_sequence)} segment için varlıklar başarıyla hazırlandı ve `response_json` kaydedildi. ---")
+        return True
+
+    except Exception as e:
+        logger.error(f"Varlık hazırlama sürecinde beklenmedik hata: {str(e)}", exc_info=True)
+        return False
+
+def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = False, user_id: str = None) -> Optional[str]:
+    """
+    Aşama 3, 4 & 5: Video oluşturma, ses/altyazı ekleme ve yükleme.
+    Bu fonksiyon, veritabanına önceden kaydedilmiş `response_json`'u kullanarak
+    son videoyu üretir, işler ve yükler.
+    Returns:
+        Optional[str]: The storage path of the uploaded video, or None on failure.
+    """
+    logger.info(f"--- AŞAMA 3, 4 & 5 BAŞLADI: Video Üretimi - Proje ID: {project_id} ---")
+    
+    video_bytes_for_merge: Optional[bytes] = None
+    temp_clips_dir_obj = None
+    
+    try:
+        # --- Önceden Hazırlanmış Varlıkları ve Verileri Yükleme ---
+        channel_number = 1
+        
+        # --- DÜZELTME: Stil bilgilerini `caption_styles` tablosundan al ---
+        # Önce caption bilgisini ve voice_id'yi al
+        captions_data_response = supabase.table("captions").select("id, voice_over_id, caption_file").eq("id", caption_id).single().execute()
+
+        if not captions_data_response.data:
+            logger.error(f"Caption ID {caption_id} bulunamadı.")
+            return None
+            
+        caption_record = captions_data_response.data
+        voice_id = caption_record["voice_over_id"]
+        captions_file_name = caption_record["caption_file"]
+
+        # Şimdi caption_id'yi kullanarak stil bilgilerini `caption_styles` tablosundan al
+        logger.info(f"Caption ID {caption_id} için stil bilgileri `caption_styles` tablosundan alınıyor...")
+        style_response = supabase.table("caption_styles").select("*").eq("caption_id", caption_id).limit(1).single().execute()
+        
+        style_overrides = {}
+        if style_response.data:
+            logger.info("Veritabanından özel altyazı stilleri bulundu ve uygulanacak.")
+            # Gelen veriyi, burn_subtitles fonksiyonunun beklediği formata çevir
+            db_styles = style_response.data
+            style_overrides = {
+                'font_name': db_styles.get('font_family'), # Sütun adı farklı olabilir, eşleştir
+                'font_size': db_styles.get('font_size'),
+                'margin_v': db_styles.get('vertical_position'), # Bu da farklı olabilir, kontrol et
+                'primary_colour': db_styles.get('text_color'),
+                'outline_colour': db_styles.get('outline_color'),
+                'border_style': 1, # Bu değerler DB'de yoksa varsayılanlar kullanılacak
+                'outline': db_styles.get('outline_width'),
+                'shadow': 1 if db_styles.get('shadow_offset_x', 0) > 0 or db_styles.get('shadow_offset_y', 0) > 0 else 0
+            }
+             # None değerleri temizle, böylece config varsayılanları kullanılır
+            style_overrides = {k: v for k, v in style_overrides.items() if v is not None}
+        else:
+            logger.info("Bu caption için özel stil bulunamadı. Yapılandırma dosyasındaki varsayılan stiller kullanılacak.")
+
+
+        _, _, voice_file_bytes = get_voice_file(voice_id)
+        captions_file_bytes = supabase.storage.from_("captions").download(captions_file_name)
+        target_duration = get_voice_duration(voice_file_bytes) if voice_file_bytes else 60.0
+
+        # En kritik adım: Projeye ait `response_json`'u çekme
+        logger.info(f"Proje {project_id} için kaydedilmiş `response_json` alınıyor...")
+        project_data_response = supabase.table("projects").select("response_json").eq("id", project_id).single().execute()
+        
+        if not project_data_response.data or not project_data_response.data.get("response_json"):
+            logger.error(f"Proje {project_id} için `response_json` bulunamadı veya boş. Lütfen önce varlık hazırlama adımını çalıştırın.")
+            return None
+            
+        response_json_str = project_data_response.data["response_json"]
+        
+        try:
+            # response_json string'ini Python listesine çevir
+            clip_sequence = json.loads(response_json_str)
+            if not isinstance(clip_sequence, list):
+                logger.error("Veritabanındaki `response_json` geçerli bir liste formatında değil.")
+                return None
+            logger.info(f"{len(clip_sequence)} segmentlik klip dizisi `response_json`'dan başarıyla yüklendi.")
+        except json.JSONDecodeError:
+            logger.error("Veritabanındaki `response_json` geçerli bir JSON formatında değil.")
+            return None
+
+        # Klip meta verilerini tekrar yükle (doğrulama için gerekli)
+        clips_metadata = load_clips_metadata()
+
+        # --- Klip Doğrulama ---
+        logger.info("Klip dizisi doğrulanıyor...")
         clip_sequence = validate_clip_sequence(clip_sequence, clips_metadata)
-        logger.info("Enforcing maximum clip durations...")
+        logger.info("Maksimum klip süreleri uygulanıyor...")
         clip_sequence = enforce_clip_duration(clip_sequence)
 
-        # --- Timeline Creation / Video Generation ---
-        render_success = False # Render başarısını takip et
+        # --- Timeline Creation / Video Generation --- (AŞAMA 3)
+        render_success = False
 
         if timeline_mode:
-            logger.info("Timeline mode enabled. Preparing temporary directory for clips...")
+            logger.info("Timeline modu etkin. Klipler için geçici dizin hazırlanıyor...")
             use_dir = project_temp_dir if project_temp_dir else None
-            temp_voice_file = None # Ses dosyası için geçici dosya yolu
+            temp_voice_file = None
             try:
                 temp_clips_dir_obj = tempfile.TemporaryDirectory(prefix="videoai_timeline_clips_", dir=use_dir)
                 temp_clips_dir = Path(temp_clips_dir_obj.name)
-                logger.info(f"Using temporary clips directory: {temp_clips_dir}")
+                logger.info(f"Geçici klip dizini kullanılıyor: {temp_clips_dir}")
 
-                logger.info("Downloading clips for timeline creation to temporary directory...")
+                logger.info("Zaman çizelgesi oluşturmak için klipler geçici dizine indiriliyor...")
                 if not download_clips_for_timeline(clip_sequence, temp_clips_dir):
-                    logger.warning("Failed to download all required clips. Timeline creation might fail.")
+                    logger.warning("Gerekli tüm klipler indirilemedi. Zaman çizelgesi oluşturma başarısız olabilir.")
 
-                # --- Düzeltme: Ses dosyasını geçici dosyaya yaz ve yolunu create_timeline'a ver ---
                 if voice_file_bytes:
                      try:
                          with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp3", prefix="videoai_timeline_voice_", dir=use_dir, delete=False) as temp_f:
                              temp_f.write(voice_file_bytes)
                              temp_voice_path = temp_f.name
-                             temp_voice_file = Path(temp_voice_path) # Path nesnesi olarak sakla
-                         logger.info(f"Voice bytes written to temporary file for timeline: {temp_voice_file}")
+                             temp_voice_file = Path(temp_voice_path)
+                         logger.info(f"Ses baytları zaman çizelgesi için geçici dosyaya yazıldı: {temp_voice_file}")
                      except Exception as e_write_voice:
-                          logger.error(f"Failed to write voice bytes to temporary file for timeline: {e_write_voice}")
-                          temp_voice_file = None # Hata durumunda None yap
-                # --- Düzeltme Sonu ---
-
+                          logger.error(f"Ses baytları zaman çizelgesi için geçici dosyaya yazılamadı: {e_write_voice}")
+                          temp_voice_file = None
+                
+                timeline_created = False
                 try:
-                    logger.info("Creating timeline from clip sequence using temporary clips...")
-                    # --- Düzeltme: voice_file_path parametresini geç ---
+                    logger.info("Geçici klipler kullanılarak klip dizisinden zaman çizelgesi oluşturuluyor...")
                     timeline_object_for_render = create_timeline(
-                        clip_sequence,
-                        channel_number,
-                        clips_base_dir=temp_clips_dir,
-                        voice_file_path=temp_voice_file # Geçici ses dosyasının yolunu ver
+                        clip_sequence, channel_number, clips_base_dir=temp_clips_dir, voice_file_path=temp_voice_file
                     )
-                    # --- Düzeltme Sonu ---
                     timeline_created = True
-                    logger.info("Timeline object created successfully.")
-                    # İsteğe bağlı debug timeline kaydı
-                    try:
-                        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                        output_timeline(timeline_object_for_render, clip_sequence, f"edit_{timestamp}", channel_number=channel_number)
-                    except Exception as e_out: logger.warning(f"Could not save debug timeline file: {e_out}")
-
+                    logger.info("Zaman çizelgesi nesnesi başarıyla oluşturuldu.")
                 except Exception as e_create:
-                    logger.error(f"Failed to create timeline object: {e_create}", exc_info=True)
-                    timeline_created = False
-
+                    logger.error(f"Zaman çizelgesi nesnesi oluşturulamadı: {e_create}", exc_info=True)
+                
                 if timeline_created and timeline_object_for_render:
-                    logger.info("Attempting timeline-based rendering using temporary clips directory...")
+                    logger.info("Geçici klipler dizini kullanılarak zaman çizelgesi tabanlı render deneniyor...")
                     timeline_config = get_timeline_config(channel_number)
                     use_dir_render = project_temp_dir if project_temp_dir else None
                     temp_render_file = None
@@ -2118,218 +2210,278 @@ def main(project_id: int, timeline_mode: bool = True, timeline: Optional[v3] = N
                             temp_render_path = temp_f.name
                             temp_render_file = Path(temp_render_path)
 
-                        logger.info(f"Rendering timeline to temporary file: {temp_render_file}...")
+                        logger.info(f"Zaman çizelgesi geçici dosyaya render ediliyor: {temp_render_file}...")
                         force_fallback_render = getattr(timeline_config.rendering, 'force_fallback', False)
                         render_success = render_timeline(
-                            timeline_object_for_render,
-                            temp_render_file,
-                            channel_number,
-                            force_fallback=force_fallback_render
+                            timeline_object_for_render, temp_render_file, channel_number, force_fallback=force_fallback_render
                         )
 
                         if render_success and temp_render_file.exists() and temp_render_file.stat().st_size > 0:
-                            logger.info("✅ Timeline-based rendering successful. Reading bytes...")
+                            logger.info("✅ Zaman çizelgesi tabanlı render başarılı. Baytlar okunuyor...")
                             with open(temp_render_file, 'rb') as f: video_bytes_for_merge = f.read()
                         else:
-                            logger.warning("Timeline-based rendering failed or produced an empty file.")
+                            logger.warning("Zaman çizelgesi tabanlı render başarısız oldu veya boş bir dosya üretti.")
                             render_success = False
                             video_bytes_for_merge = None
 
                     except Exception as render_err:
-                        logger.error(f"Error during timeline rendering: {render_err}", exc_info=True)
+                        logger.error(f"Zaman çizelgesi render sırasında hata: {render_err}", exc_info=True)
                         render_success = False
                         video_bytes_for_merge = None
                     finally:
                         if temp_render_file and temp_render_file.exists():
                             try: temp_render_file.unlink()
-                            except OSError as e_clean: logger.warning(f"Could not remove temp render file {temp_render_file}: {e_clean}")
+                            except OSError as e_clean: logger.warning(f"Geçici render dosyası {temp_render_file} kaldırılamadı: {e_clean}")
                 else:
-                    logger.warning("Timeline object not created, skipping timeline rendering.")
+                    logger.warning("Zaman çizelgesi nesnesi oluşturulmadı, zaman çizelgesi render işlemi atlanıyor.")
                     render_success = False
-
-            finally: # Geçici klip klasörünü her durumda temizle
+            finally:
                  if temp_clips_dir_obj:
-                     try:
-                         temp_clips_dir_obj.cleanup()
-                         logger.info(f"Automatically cleaned up temporary clips directory: {temp_clips_dir_obj.name}")
-                     except Exception as cleanup_error:
-                          logger.warning(f"Could not explicitly clean up temporary clips directory: {cleanup_error}")
-                     temp_clips_dir_obj = None
-                 # Geçici ses dosyasını temizle
+                     try: temp_clips_dir_obj.cleanup()
+                     except Exception as cleanup_error: logger.warning(f"Geçici klipler dizini temizlenemedi: {cleanup_error}")
                  if temp_voice_file and temp_voice_file.exists():
-                     try:
-                         temp_voice_file.unlink()
-                         logger.info(f"Cleaned up temporary voice file for timeline: {temp_voice_file}")
-                     except OSError as e_clean_voice:
-                         logger.warning(f"Could not remove temporary voice file {temp_voice_file}: {e_clean_voice}")
-
-        # --- Fallback Video Generation ---
+                     try: temp_voice_file.unlink()
+                     except OSError as e_clean_voice: logger.warning(f"Geçici ses dosyası {temp_voice_file} kaldırılamadı: {e_clean_voice}")
+        
         if video_bytes_for_merge is None:
-            if timeline_mode:
-                 logger.warning("Timeline rendering failed or was skipped. Falling back to create_video_sequence.")
-            else:
-                 logger.info("Timeline mode is disabled. Using create_video_sequence.")
-
+            if timeline_mode: logger.warning("Zaman çizelgesi render başarısız oldu veya atlandı. `create_video_sequence`'e geri dönülüyor.")
+            else: logger.info("Zaman çizelgesi modu devre dışı. `create_video_sequence` kullanılıyor.")
             video_bytes_for_merge = create_video_sequence(clip_sequence, clips_metadata, channel_number, timeline_mode=False)
 
-        # --- Post-Generation Steps ---
         if video_bytes_for_merge is None:
-             logger.error("Failed to generate video sequence bytes (Timeline or Fallback). Cannot proceed.")
-             final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
-             final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-             try:
-                  create_placeholder_clip(final_video_path, 60)
-                  create_placeholder_clip(final_subtitled_path, 60)
-             except Exception as placeholder_error: logger.error(f"Failed to create placeholder videos: {placeholder_error}")
-             return False # Erken çıkış
+             logger.error("Video dizisi baytları (Zaman Çizelgesi veya Fallback) oluşturulamadı. İşleme devam edilemiyor.")
+             return None
 
-        # --- Merge Voice and Add BGM ---
-        logger.info("Merging voice with video bytes and adding background music...")
+        # --- Merge Voice and Add BGM --- (AŞAMA 4)
+        logger.info("Ses video baytları ile birleştiriliyor ve BGM ekleniyor...")
         use_dir_merge = project_temp_dir if project_temp_dir else None
         temp_voice_file = None
-        merge_success = False # merge_success'ı burada tekrar tanımla (kapsam için)
+        merge_success = False
         try:
             with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp3", prefix="videoai_merge_voice_", dir=use_dir_merge, delete=False) as temp_f:
                  temp_f.write(voice_file_bytes)
                  temp_voice_path = temp_f.name
                  temp_voice_file = Path(temp_voice_path)
-            logger.info(f"Voice bytes written to temporary file: {temp_voice_file}")
-
+            
             merge_success = merge_voice_with_video(
-                 video_bytes=video_bytes_for_merge,
-                 voice_path=str(temp_voice_file),
-                 channel_number=channel_number,
-                 voice_duration=target_duration
+                 video_bytes=video_bytes_for_merge, voice_path=str(temp_voice_file), channel_number=channel_number, voice_duration=target_duration
             )
-        except Exception as e_merge:
-             logger.error(f"Error preparing or calling merge_voice_with_video: {e_merge}", exc_info=True)
-             merge_success = False
         finally:
              if temp_voice_file and temp_voice_file.exists():
-                  try:
-                       temp_voice_file.unlink()
-                       logger.info(f"Cleaned up temporary voice file: {temp_voice_file}")
-                  except Exception as e_clean_voice: logger.warning(f"Could not remove temporary voice file {temp_voice_file}: {e_clean_voice}")
+                  try: temp_voice_file.unlink()
+                  except Exception as e_clean_voice: logger.warning(f"Geçici ses dosyası kaldırılamadı: {e_clean_voice}")
 
         if not merge_success:
-             logger.error("Error merging voice with video. Creating fallback final video.")
-             final_video = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
-             final_subtitled = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-             try:
-                 create_placeholder_clip(final_video, 60)
-                 create_placeholder_clip(final_subtitled, 60)
-             except Exception as ph_err: logger.error(f"Failed to create placeholder videos after merge error: {ph_err}")
-             return False # Erken çıkış
+             logger.error("Ses videoyla birleştirilemedi.")
+             return None
 
-        # --- Burn Subtitles ---
-        logger.info("Adding subtitles to final video...")
-        subtitle_success = False # subtitle_success'ı burada tekrar tanımla
+        # --- Burn Subtitles --- (AŞAMA 4'ün parçası)
+        logger.info("Son videoya altyazılar ekleniyor...")
+        subtitle_success = False
         if captions_file_bytes:
-             try:
-                 subtitle_success = burn_subtitles(
-                     channel_number=channel_number,
-                     srt_bytes=captions_file_bytes
-                     # video_path ve output_path fonksiyon içinde belirleniyor
-                 )
-             except Exception as e_sub:
-                 logger.error(f"Error calling burn_subtitles: {e_sub}", exc_info=True)
-                 subtitle_success = False
+             # Fonksiyona stil bilgilerini de gönder
+             subtitle_success = burn_subtitles(
+                 channel_number=channel_number, 
+                 srt_bytes=captions_file_bytes,
+                 style_overrides=style_overrides
+             )
         else:
-             logger.warning("SRT file bytes not available. Cannot burn subtitles.")
+             logger.warning("SRT dosyası baytları mevcut değil. Altyazılar yakılamıyor.")
              final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
              final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
              if final_video_path.exists() and not final_subtitled_path.exists():
                   try:
                        shutil.copy2(final_video_path, final_subtitled_path)
-                       logger.info(f"Copied non-subtitled video to {final_subtitled_path} as SRT bytes were missing.")
-                  except Exception as copy_error: logger.error(f"Failed to copy non-subtitled video as fallback: {copy_error}")
-             subtitle_success = True # SRT yoksa, altyazısız video başarılı sayılır
-
+                       subtitle_success = True
+                  except Exception as copy_error: logger.error(f"Altyazısız video kopyalanamadı: {copy_error}")
+        
         if not subtitle_success:
-              logger.error("Error adding subtitles. Final video might be without subtitles.")
-              final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
-              final_subtitled_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-              if final_video_path.exists() and not final_subtitled_path.exists():
-                   try:
-                        shutil.copy2(final_video_path, final_subtitled_path)
-                        logger.info(f"Copied non-subtitled video to {final_subtitled_path} as fallback after subtitle error.")
-                   except Exception as copy_error:
-                        logger.error(f"Failed to copy non-subtitled video as fallback: {copy_error}")
-                        if not final_subtitled_path.exists(): create_placeholder_clip(final_subtitled_path, 60)
-              elif not final_subtitled_path.exists(): create_placeholder_clip(final_subtitled_path, 60)
-              # Altyazı hatası sonrası yine de devam edip yüklemeyi deneyebiliriz
-              # Bu yüzden burada return False yapmıyoruz.
+            logger.error("Altyazı ekleme hatası. Son video altyazısız olabilir.")
 
-        # --- Final Verification & Upload ---
+        # --- Final Verification & Upload --- (AŞAMA 5)
         final_output_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_subtitled_video_file
-
         if file_mgr.file_exists(final_output_path):
              import uuid
-             logger.info(f"✅ Video editing process completed locally. Final output: {final_output_path}")
+             logger.info(f"✅ Video düzenleme işlemi yerel olarak tamamlandı. Son çıktı: {final_output_path}")
              storage_bucket = "final-videos"
-             storage_path = f"{script_id}_{uuid.uuid4()}_final_video.mp4"
-             # upload_successful zaten False olarak başlatıldı
+             storage_path = f"{project_id}_{uuid.uuid4()}_final_video.mp4"
              try:
-                 if not supabase: raise ConnectionError("Supabase client not available for storage upload.")
-                 logger.info(f"Attempting to upload {final_output_path} to Supabase Storage at {storage_bucket}/{storage_path}...")
                  with open(final_output_path, 'rb') as f:
-                     upload_response = supabase.storage.from_(storage_bucket).upload(
-                         path=storage_path, file=f,
-                         file_options={"content-type": "video/mp4", "upsert": "true"}
+                     supabase.storage.from_(storage_bucket).upload(
+                         path=storage_path, file=f, file_options={"content-type": "video/mp4", "upsert": "true"}
                      )
-                 logger.info(f"Supabase storage upload call completed for {storage_path}.")
-                 logger.info(f"Assuming Supabase storage upload successful for {storage_path}, proceeding with database update.")
-
-                 if not supabase: raise ConnectionError("Supabase client is not available for table update.")
-                 insert_data = { "video_name": str(storage_path), "project_id": project_id }
-                 logger.debug(f"Inserting into final_videos table: {insert_data}")
-                 video_table_response = supabase.table("final_videos").insert(insert_data).execute()
-                 logger.info(f"Video table update completed. Response data: {video_table_response.data}")
                  
-                
-                 upload_successful = True # Sadece burada True yap
+                 insert_data = { "video_name": str(storage_path), "project_id": project_id }
+                 if user_id:
+                     insert_data['user_id'] = user_id
+                 supabase.table("final_videos").insert(insert_data).execute()
+                 
+                 logger.info(f"✅ --- AŞAMA 3, 4 & 5 TAMAMLANDI: Video başarıyla üretildi ve `{storage_path}` olarak yüklendi. ---")
+                 return storage_path
 
-             except ConnectionError as ce: logger.error(str(ce))
-             except Exception as e_upload: logger.error(f"Error during Supabase Storage upload or table update: {e_upload}", exc_info=True)
-
-             if upload_successful:
-                 logger.info("Upload to Supabase was successful. Cleaning up local output directory...")
-                 try:
-                     output_dir_to_clean = file_mgr.get_abs_path("outputs") # Veya doğru yol
-                     if output_dir_to_clean.exists() and output_dir_to_clean.is_dir():
-                         logger.info(f"Cleaning contents of directory: {output_dir_to_clean}")
-                         for item_path in output_dir_to_clean.iterdir():
-                             try:
-                                 if item_path.is_file() or item_path.is_symlink(): item_path.unlink()
-                                 elif item_path.is_dir(): shutil.rmtree(item_path)
-                             except Exception as delete_error: logger.warning(f"Could not delete item {item_path}: {delete_error}")
-                         logger.info(f"Successfully cleaned contents of {output_dir_to_clean}")
-                     else: logger.warning(f"Output directory to clean does not exist or is not a directory: {output_dir_to_clean}")
-                 except Exception as cleanup_error: logger.error(f"Error during cleanup of outputs directory: {cleanup_error}", exc_info=True)
-             else: logger.warning("Upload to Supabase failed or was not attempted. Skipping cleanup...")
-
+             except Exception as e_upload: 
+                 logger.error(f"Supabase Storage yükleme veya tablo güncelleme sırasında hata: {e_upload}", exc_info=True)
+                 return None
         else:
-             logger.error(f"❌ Final video file not found at expected location: {final_output_path}")
-             if not final_output_path.exists():
-                 try: create_placeholder_clip(final_output_path, 60)
-                 except Exception as ph_error: logger.error(f"Failed to create placeholder for missing final output: {ph_error}")
-             # Dosya yoksa upload_successful False kalır
-
-        # Fonksiyonun sonu
-        return upload_successful
+             logger.error(f"❌ Son video dosyası beklenen konumda bulunamadı: {final_output_path}")
+             return None
 
     except Exception as e:
-        logger.error(f"Unhandled error during video editing process: {str(e)}", exc_info=True)
-        # Geçici klip klasörünü temizlemeye çalış
+        logger.error(f"Video üretim sürecinde beklenmedik hata: {str(e)}", exc_info=True)
         if temp_clips_dir_obj:
              try:
                   temp_clips_dir_obj.cleanup()
-                  logger.info(f"Cleaned up temporary clips directory after main exception: {temp_clips_dir_obj.name}")
-             except Exception as cleanup_error: logger.warning(f"Could not clean up temporary clips directory {temp_clips_dir_obj.name}: {cleanup_error}")
-        return False # Genel hatada False döndür
+             except Exception as cleanup_error:
+                  logger.warning(f"Geçici klip dizini temizlenemedi: {cleanup_error}")
+        return None
+
+def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: str) -> Optional[str]:
+    """
+    Creates a final video from an approved storyboard.
+    1. Fetches approved shots from the storyboard.
+    2. Constructs a clip sequence and saves it to the project's response_json.
+    3. Triggers the final video production pipeline.
+    Returns:
+        Optional[str]: The storage path of the uploaded video, or None on failure.
+    """
+    logger.info(f"--- BAŞLADI: Storyboard'dan Video Üretimi - Storyboard ID: {storyboard_id}, Proje ID: {project_id} ---")
+
+    try:
+        # 1. Fetch approved shots from the storyboard
+        logger.info(f"Storyboard {storyboard_id} için onaylanmış shot'lar alınıyor...")
+        approved_shots_response = supabase.table("shots").select("*").eq("storyboard_id", storyboard_id).eq("approved", True).order("shot_index", desc=False).execute()
+
+        if not approved_shots_response.data:
+            logger.error(f"Storyboard {storyboard_id} için onaylanmış shot bulunamadı.")
+            return None
+
+        approved_shots = approved_shots_response.data
+        logger.info(f"{len(approved_shots)} adet onaylanmış shot bulundu.")
+
+        # 2. Construct clip_sequence from approved shots
+        clip_sequence = []
+        for shot in approved_shots:
+            # Ensure essential fields are present
+            if not all(k in shot for k in ['clip_name', 'duration', 'start_time', 'script_segment']):
+                 logger.warning(f"Shot {shot.get('id')} is missing required fields, skipping.")
+                 continue
+
+            clip_entry = {
+                'clip_name': shot['clip_name'],
+                'start_time': shot['start_time'],
+                'duration': shot['duration'],
+                'script_segment': shot['script_segment'],
+                'explanation': shot.get('explanation', 'Approved by user from storyboard.'),
+                'suggestion': shot.get('suggestion', '')
+            }
+            clip_sequence.append(clip_entry)
+
+        if not clip_sequence:
+            logger.error("Onaylanmış shot'lardan geçerli bir klip dizisi oluşturulamadı.")
+            return None
+
+        # 3. Save the new clip sequence to the project's response_json
+        logger.info(f"Oluşturulan klip dizisi Proje {project_id} için `response_json`'a kaydediliyor...")
+        response_json_str = json.dumps(clip_sequence, indent=4)
+        update_response = supabase.table("projects").update({"response_json": response_json_str}).eq("id", project_id).execute()
+
+        if not update_response.data:
+            logger.error(f"Proje {project_id} için `response_json` güncellenemedi.")
+            return None
+
+        # 4. Find the relevant caption_id for the project
+        logger.info(f"Proje {project_id} için ilgili caption ID'si bulunuyor...")
+        caption_response = supabase.table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
+
+        if not caption_response.data:
+            logger.error(f"Proje {project_id} için caption bulunamadı.")
+            return None
+        
+        caption_id = caption_response.data['id']
+        logger.info(f"Proje için Caption ID bulundu: {caption_id}")
+
+        # 5. Trigger the final video production pipeline
+        logger.info("Nihai video üretim boru hattı (`produce_final_video`) tetikleniyor...")
+        production_result = produce_final_video(
+            project_id=project_id,
+            caption_id=caption_id,
+            user_id=user_id,
+            timeline_mode=True
+        )
+        
+        if production_result:
+            logger.info(f"✅ --- TAMAMLANDI: Storyboard {storyboard_id} başarıyla videoya dönüştürüldü. ---")
+        else:
+            logger.error(f"❌ Storyboard {storyboard_id} için video üretimi başarısız oldu.")
+
+        return production_result
+
+    except Exception as e:
+        logger.error(f"Storyboard'dan video oluşturma sürecinde beklenmedik hata: {str(e)}", exc_info=True)
+        return None
+
+def main(channel_number: Optional[int] = None, timeline_mode: bool = False, timeline: Optional[v3] = None) -> bool:
+    """
+    Main video editing function, either based on channel config or a timeline.
+    """
+    logger.info("--- Video Düzenleme Süreci Başladı ---")
+    
+    # --- Geleneksel Kanal Bazlı Akış ---
+    try:
+        if channel_number is None:
+            channel_number = config.default_channel
+        logger.info(f"Kanal {channel_number} için işlem yapılıyor.")
+
+        # Bu akış `produce_final_video` ve `prepare_video_assets` tarafından yönetildiği için
+        # bu `main` fonksiyonu artık doğrudan çağrılmamalıdır.
+        # Bu fonksiyonun içeriği artık API endpoint'leri tarafından tetiklenen 
+        # `prepare_video_assets` ve `produce_final_video` fonksiyonlarına taşınmıştır.
+        
+        logger.warning("`video_edit.main()` fonksiyonu doğrudan çağrıldı. Bu fonksiyon kullanımdan kaldırılmıştır.")
+        logger.warning("Lütfen API üzerinden `prepare_video_assets` ve `produce_final_video` adımlarını kullanın.")
+        logger.warning("Test amacıyla, eski akışı simüle etmek için `produce_final_video` çağrılacak.")
+
+        # Test için gerekli ID'leri bulmaya çalışalım (bu kısım stabil olmayabilir)
+        logger.info("Test için Proje ID ve Caption ID bulunmaya çalışılıyor...")
+        try:
+            # En son projeyi ve caption'ı bul
+            project_resp = supabase.table("projects").select("id").order("created_at", desc=True).limit(1).single().execute()
+            if not project_resp.data:
+                logger.error("Test için proje bulunamadı.")
+                return False
+            project_id = project_resp.data['id']
+            
+            caption_resp = supabase.table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
+            if not caption_resp.data:
+                 logger.error(f"Test için Proje {project_id}'e ait caption bulunamadı.")
+                 return False
+            caption_id = caption_resp.data['id']
+            
+            user_resp = supabase.table("projects").select("user_id").eq("id", project_id).single().execute()
+            user_id = user_resp.data['id'] if user_resp.data else None
+
+            logger.info(f"Test için bulundu: Proje ID={project_id}, Caption ID={caption_id}")
+
+            logger.info("Adım 1: Varlıklar hazırlanıyor...")
+            assets_prepared = prepare_video_assets(project_id=project_id, caption_id=caption_id, user_id=user_id)
+            if not assets_prepared:
+                logger.error("Varlık hazırlama adımı başarısız oldu.")
+                return False
+            
+            logger.info("Adım 2: Nihai video üretiliyor...")
+            production_success = produce_final_video(project_id=project_id, caption_id=caption_id, user_id=user_id, timeline_mode=timeline_mode)
+
+            return production_success
+
+        except Exception as e_test:
+            logger.error(f"Test akışı sırasında hata: {e_test}", exc_info=True)
+            return False
 
 
-# ... (if __name__ == "__main__": bloğu aynı kalır) ...
+    except Exception as e:
+        logger.error(f"Video düzenleme sürecinde beklenmedik hata: {str(e)}", exc_info=True)
+        return False
+
 
 if __name__ == "__main__":
     # Parse command line arguments for channel

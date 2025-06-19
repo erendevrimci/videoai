@@ -173,30 +173,53 @@ def generate_subtitles(
                     idx += 1
                     
             srt_content = "\n".join(srt_lines)
+
+            # Segment bazlı SRT içeriği oluştur
+            segment_srt_lines = []
+            for i, segment in enumerate(caption_segments, 1):
+                start = sec_to_srt(segment['start'])
+                end = sec_to_srt(segment['end'])
+                text = segment['text'].strip()
+                segment_srt_lines.append(f"{i}\n{start} --> {end}\n{text}\n")
+            
+            segment_srt_content = "".join(segment_srt_lines)
+
         import uuid
-        file_name = f"{uuid.uuid4()}.srt"
+        word_srt_filename = f"{uuid.uuid4()}_words.srt"
+        segment_srt_filename = f"{uuid.uuid4()}_segments.srt"
         
-        # Transkripsiyon içeriğini geçici bir dosyaya yaz
+        # Kelime bazlı SRT'yi yükle
         with file_mgr.temp_file(suffix=".srt") as temp_srt_path:
-            # Metin içeriğini dosyaya yaz
             with open(temp_srt_path, "w", encoding="utf-8") as srt_file:
                 srt_file.write(srt_content)
             
-            # Dosyayı Supabase'e yükle
             with open(temp_srt_path, "rb") as srt_file:
                 result = supabase.storage.from_("captions").upload(
-                    path=file_name,
+                    path=word_srt_filename,
                     file=srt_file,
                     file_options={"content-type": "application/x-subrip"}
                 )
-        
-        
-        # Storage error kontrolünü daha düzgün yap
         if hasattr(result, 'error') and result.error:
-            raise Exception(f"Storage Error: {result.error}")
+            raise Exception(f"Storage Error (word SRT): {result.error}")
+
+        # Segment bazlı SRT'yi yükle
+        with file_mgr.temp_file(suffix=".srt") as temp_srt_path:
+            with open(temp_srt_path, "w", encoding="utf-8") as srt_file:
+                srt_file.write(segment_srt_content)
             
+            with open(temp_srt_path, "rb") as srt_file:
+                result = supabase.storage.from_("captions").upload(
+                    path=segment_srt_filename,
+                    file=srt_file,
+                    file_options={"content-type": "application/x-subrip"}
+                )
+        if hasattr(result, 'error') and result.error:
+            raise Exception(f"Storage Error (segment SRT): {result.error}")
+        
+        print(f"Generate User id: {user_id}")
         response = supabase.table("captions").insert({
-            "caption_file": file_name,
+            "caption_file": word_srt_filename,
+            "caption_segment_file": segment_srt_filename,
             "channel_number": channel_number,
             "project_id": project_id,
             "voice_over_id": voice_over_id,
@@ -357,6 +380,7 @@ def main(project_id: int,voice_over_id: int, channel_number: int = None, use_tim
 
     audio_file_name = audio_file_data.data[0]["voice_name"]
     audio_file = supabase.storage.from_("voice-over-files").download(audio_file_name)
+    print(f"User id: {user_id}")
     # Generate subtitles
     success, caption_id = generate_subtitles(audio_file, supabase, project_id, voice_over_id, channel_number,user_id)
     
