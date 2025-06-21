@@ -3,6 +3,15 @@ import os
 from mutagen.mp3 import MP3
 import io
 import base64
+from pydantic import BaseModel
+
+class UploadVoiceoverResponse(BaseModel):
+    id: int
+    voice_name: str
+    duration: int
+    project_id: int
+    user_id: str
+    created_at: str
 
 supabase_url = os.environ.get("SUPABASE_URL")
 supabase_key = os.environ.get("SUPABASE_KEY")
@@ -17,7 +26,7 @@ def insert_voiceover_to_db(user_id: str, project_id: int, voice_over_name: str, 
     }).execute()
     return insert_result.data[0]
 
-def upload_voiceover_to_storage(user_id: str, project_id: int, audio_file_base64: str, voice_over_name: str,):
+def upload_voiceover_to_storage(user_id: str, project_id: int, audio_file_base64: str, voice_over_name: str)->UploadVoiceoverResponse:
     try:
         audio_file_bytes = base64.b64decode(audio_file_base64)
         file_like_object = io.BytesIO(audio_file_bytes)

@@ -19,6 +19,8 @@ from supabase import create_client, StorageException # StorageException import e
 from dotenv import load_dotenv
 import tempfile
 import re # get_num_segments için import
+import pysrt # Karaoke efekti için eklendi
+import textwrap
 
 load_dotenv()
 
@@ -26,6 +28,215 @@ load_dotenv()
 logger = Logger.get_logger("video_edit")
 
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+
+def convert_hex_to_ffmpeg_color(hex_color: str) -> str:
+    """Converts a standard HTML hex color (#RRGGBB) to ffmpeg's &HBBGGRR format."""
+    if not hex_color or not hex_color.startswith('#') or len(hex_color) != 7:
+        logger.warning(f"Invalid hex color format: '{hex_color}'. Using default white.")
+        return "&HFFFFFF" # Default to white
+    
+    hex_color = hex_color.lstrip('#')
+    rr = hex_color[0:2]
+    gg = hex_color[2:4]
+    bb = hex_color[4:6]
+    
+    # ffmpeg uses &HBBGGRR format
+    return f"&H{bb}{gg}{rr}".upper()
+
+def wrap_text_for_ffmpeg(
+    text: str,
+    max_width_percent: int,
+    target_video_width: int,
+    font_size: int,
+    avg_char_width_ratio: float = 0.5  # Ortalama karakter genişliği için bir oran
+) -> str:
+    r"""
+    Metni, ffmpeg'in anlayacağı şekilde \N satır atlama karakterleri ekleyerek manuel olarak sarar.
+    """
+    try:
+        if not (0 < max_width_percent <= 100):
+            max_width_percent = 80  # Güvenlik için varsayılan değer
+        
+        # 1. Altyazı bloğunun piksel olarak maksimum genişliğini hesapla
+        max_pixel_width = (max_width_percent / 100) * target_video_width
+        
+        # 2. Bir satıra sığabilecek ortalama karakter sayısını tahmin et
+        if font_size <= 0: font_size = 1 # Sıfıra bölme hatasını önle
+        estimated_avg_char_width = font_size * avg_char_width_ratio
+        if estimated_avg_char_width <= 0: estimated_avg_char_width = 1
+        
+        chars_per_line = int(max_pixel_width / estimated_avg_char_width)
+        if chars_per_line <= 0: chars_per_line = 1
+
+        # 3. textwrap modülü ile metni böl
+        wrapper = textwrap.TextWrapper(
+            width=chars_per_line,
+            break_long_words=False,  # Kelimeleri ortadan bölme
+            replace_whitespace=True  # Boşlukları düzenle
+        )
+        wrapped_lines = wrapper.wrap(text)
+        
+        # 4. Satırları \N ile birleştir
+        final_text = "\\N".join(wrapped_lines)
+        return final_text
+    except Exception as e:
+        logger.error(f"Metin sarma (wrapping) sırasında hata oluştu: {e}")
+        return text # Hata durumunda orijinal metni döndür
+
+def map_alignment(vertical: str, horizontal: str) -> int:
+    """Maps vertical and horizontal alignment strings to an ASS alignment code (1-9 numpad)."""
+    # Defaults to bottom-center
+    v_map = {"top": 7, "center": 4, "bottom": 1}
+    h_map = {"left": 0, "center": 1, "right": 2}
+    
+    v_code = v_map.get(str(vertical).lower(), 1)
+    h_code = h_map.get(str(horizontal).lower(), 1)
+    
+    alignment_code = v_code + h_code
+    logger.info(f"Mapped vertical='{vertical}', horizontal='{horizontal}' to Alignment={alignment_code}")
+    return alignment_code
+
+def create_karaoke_ass(
+    srt_bytes: bytes, 
+    style_overrides: Dict[str, Any],
+    display_mode: str, # 'word_by_word' or 'full_segment'
+    highlight_current_word: bool,
+    max_width_percent: int,
+    target_video_width: int
+) -> bytes:
+    r"""
+    Generates an ASS subtitle file from an SRT with word-level timings.
+    Supports different display modes and karaoke highlighting.
+    This function manually parses the SRT to be robust against formatting errors.
+    """
+    logger.info(f"Generating .ass file with mode='{display_mode}', highlight={highlight_current_word}")
+
+    # --- ASS Header and Style Definition (Bu kısım aynı kalır) ---
+    font_name = style_overrides.get('font_name', 'DIN Condensed Bold')
+    font_size = style_overrides.get('font_size', 72)
+    primary_colour = style_overrides.get('primary_colour', '&HFFFFFF&')
+    secondary_colour = style_overrides.get('highlight_color', '&H00FFFF&')
+    outline_colour = style_overrides.get('outline_colour', '&H000000&')
+    back_colour = style_overrides.get('back_colour', '&H80000000&')
+    shadow = style_overrides.get('shadow', 1)
+    outline = style_overrides.get('outline', 2)
+    alignment = style_overrides.get('alignment', 2)
+    margin_v = style_overrides.get('margin_v', 35)
+    margin_l = style_overrides.get('margin_l', 10)
+    margin_r = style_overrides.get('margin_r', 10)
+    border_style = style_overrides.get('border_style', 1)
+
+    ass_header = f"""[Script Info]
+Title: Advanced Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,{font_name},{font_size},{primary_colour},{secondary_colour},{outline_colour},{back_colour},0,0,0,0,100,100,0,0,{border_style},{outline},{shadow},{alignment},{margin_l},{margin_r},{margin_v},1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+    ass_lines = [ass_header]
+
+    # --- Event Generation (Robust, State-Machine SRT Parsing) ---
+    try:
+        if srt_bytes.startswith(b'\xef\xbb\xbf'):
+            srt_content = srt_bytes.decode('utf-8-sig')
+        else:
+            srt_content = srt_bytes.decode('utf-8')
+
+        segments = []
+        current_segment = {}
+        state = 'INDEX'  # States: INDEX, TIME, TEXT
+
+        for line in srt_content.splitlines():
+            stripped_line = line.strip()
+
+            # Boş satır bir segmentin sonu demektir
+            if not stripped_line:
+                if state == 'TEXT' and current_segment:
+                    segments.append(current_segment)
+                current_segment = {}
+                state = 'INDEX'
+                continue
+
+            if state == 'INDEX':
+                # Eğer satır sadece sayı ise, bu bir index'tir.
+                if re.fullmatch(r'\d+', stripped_line):
+                    current_segment = {'index': stripped_line, 'text': []}
+                    state = 'TIME'
+                # Eğer sayı değil ama zaman damgası içeriyorsa, index'siz bir SRT'dir.
+                elif '-->' in stripped_line:
+                    current_segment = {'time': stripped_line, 'text': []}
+                    state = 'TEXT'
+            elif state == 'TIME':
+                if '-->' in stripped_line:
+                    current_segment['time'] = stripped_line
+                    state = 'TEXT'
+            elif state == 'TEXT':
+                # DÜZELTME: Boş satır olmadan başlayan yeni bir segmenti kontrol et
+                if re.fullmatch(r'\d+', stripped_line):
+                    # Bu yeni bir segment indeksi olabilir. Bir sonraki satırın zaman damgası
+                    # olup olmadığını kontrol etmek daha güvenli olurdu, ancak şimdilik
+                    # bu şekilde varsayalım ve eski segmenti tamamlayalım.
+                    if current_segment and current_segment.get('text'):
+                        segments.append(current_segment)
+                    
+                    # Yeni segmenti başlat
+                    current_segment = {'index': stripped_line, 'text': []}
+                    state = 'TIME'
+                else:
+                    current_segment['text'].append(stripped_line)
+
+        # Dosyanın sonunda boşluk yoksa son segmenti de ekle
+        if current_segment and 'time' in current_segment and current_segment.get('text'):
+            segments.append(current_segment)
+
+        # Ayrıştırılmış segmentleri işle
+        for segment in segments:
+            time_match = re.match(r'(\d{1,2}:\d{2}:\d{2}[,.]\d{3})\s*-->\s*(\d{1,2}:\d{2}:\d{2}[,.]\d{3})', segment['time'])
+            if not time_match:
+                continue
+
+            start_time_str = time_match.group(1).replace(',', '.')
+            end_time_str = time_match.group(2).replace(',', '.')
+            full_text = " ".join(segment.get('text', [])).strip()
+
+            start_sub_time = pysrt.SubRipTime.from_string(start_time_str.replace('.', ','))
+            end_sub_time = pysrt.SubRipTime.from_string(end_time_str.replace('.', ','))
+            start_time_ass = f"{start_sub_time.hours:01}:{start_sub_time.minutes:02}:{start_sub_time.seconds:02}.{start_sub_time.milliseconds // 10:02}"
+            end_time_ass = f"{end_sub_time.hours:01}:{end_sub_time.minutes:02}:{end_sub_time.seconds:02}.{end_sub_time.milliseconds // 10:02}"
+
+            words_and_timings = re.findall(r"(\S+)<\[(\d+),(\d+)\]>", full_text)
+
+            if display_mode == 'word_by_word' and words_and_timings:
+                for word, word_start_ms_str, word_end_ms_str in words_and_timings:
+                    word_start_time = pysrt.SubRipTime(milliseconds=int(word_start_ms_str))
+                    word_end_time = pysrt.SubRipTime(milliseconds=int(word_end_ms_str))
+                    start_t = f"{word_start_time.hours:01}:{word_start_time.minutes:02}:{word_start_time.seconds:02}.{word_start_time.milliseconds // 10:02}"
+                    end_t = f"{word_end_time.hours:01}:{word_end_time.minutes:02}:{word_end_time.seconds:02}.{word_end_time.milliseconds // 10:02}"
+                    ass_lines.append(f"Dialogue: 0,{start_t},{end_t},Default,,0,0,0,,{word}")
+            else: # full_segments modu veya kelime zamanlaması olmayan SRT'ler için
+                plain_text = re.sub(r"<\[\d+,\d+\]>", "", full_text).strip()
+                wrapped_text = wrap_text_for_ffmpeg(
+                    text=plain_text,
+                    max_width_percent=max_width_percent,
+                    target_video_width=target_video_width,
+                    font_size=style_overrides.get('font_size', 72)
+                )
+                ass_lines.append(f"Dialogue: 0,{start_time_ass},{end_time_ass},Default,,0,0,0,,{wrapped_text}")
+
+    except Exception as e:
+        logger.error(f"Failed during manual SRT parsing for ASS conversion: {e}", exc_info=True)
+        return srt_bytes
+
+    return "\n".join(ass_lines).encode('utf-8-sig')
+
 # Import performance-enhanced render_timeline
 try:
     from perf_render_timeline import render_timeline_with_monitoring, _estimate_output_size_mb
@@ -627,7 +838,7 @@ def match_clips_to_script(project_id: int, script: str, srt_file: bytes, clips: 
         for c in clips if c.get('duration') is not None
     ])
     target_duration_text = f"\nTotal Generated Voice Duration: {int(target_duration)} seconds." if target_duration is not None else ""
-    script_excerpt = script[:500] if len(script) > 500 else script
+    script_excerpt = script
     # --- DÜZELTME: Prompt'ta srt_excerpt yerine srt_content kullanmak daha iyi olabilir ---
     prompt = f"""Given these available video clips along with their metadata:
 
@@ -1510,120 +1721,128 @@ def merge_voice_with_video(video_path: Optional[str] = None, voice_path: Optiona
               except Exception as e:
                  logger.warning(f"Could not remove temporary extended video file {extended_video_path_obj}: {e}")
 
-def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = None,
+def burn_subtitles(video_path: Optional[str] = None,
                    output_path: Optional[str] = None, channel_number: Optional[int] = None,
-                   srt_bytes: Optional[bytes] = None,
+                   subtitle_bytes: Optional[bytes] = None,
+                   subtitle_format: str = 'srt',
                    style_overrides: Optional[Dict[str, Any]] = None) -> bool:
     """
-    Burn subtitles from an SRT file path or bytes into the video using ffmpeg.
-    Uses temporary files in the project temp directory.
+    Burn subtitles from bytes into the video using ffmpeg.
+    Can handle both SRT and ASS formats.
     """
-    temp_srt_file_obj = None # Geçici SRT dosyasının Path nesnesi
-    actual_srt_path = None
-
-    # Kullanılacak geçici dizini belirle
+    temp_subtitle_file_obj = None
+    actual_subtitle_path = None
     use_dir = project_temp_dir if project_temp_dir else None
 
     try:
-        # ... (kanal numarası ve dosya yolları belirleme aynı kalır) ...
         if channel_number is None: channel_number = config.default_channel
-        # ... (video_path ve output_path belirleme) ...
+        
+        # --- GÜÇLENDİRİLMİŞ VİDEO YOLU KONTROLÜ (NoneType HATASI İÇİN) ---
         if video_path is None:
+            logger.warning("burn_subtitles'a video_path sağlanmadı. Varsayılan çıktı videosu kullanılacak.")
             output_dir = file_mgr.get_channel_output_path(channel_number)
-            final_video_file = config.file_paths.final_video_file # Dinamik dosya yolu kontrolü eklenebilir
-            video_path = str(output_dir / final_video_file)
-            logger.info(f"Using video input path: {video_path}")
+            video_path = str(output_dir / config.file_paths.final_video_file)
+            logger.info(f"Varsayılan video girdi yolu olarak ayarlandı: {video_path}")
+        
         if output_path is None:
             output_dir = file_mgr.get_channel_output_path(channel_number)
-            final_subtitled_file = config.file_paths.final_subtitled_video_file # Dinamik dosya yolu kontrolü eklenebilir
+            final_subtitled_file = config.file_paths.final_subtitled_video_file
             output_path = str(output_dir / final_subtitled_file)
             logger.info(f"Using video output path: {output_path}")
 
-
-        # --- Determine SRT Input Path ---
-        if srt_bytes:
-            logger.info("Using SRT data from bytes. Writing to project temp file.")
+        # --- Determine Subtitle Input Path ---
+        if subtitle_bytes:
+            logger.info(f"Using {subtitle_format.upper()} data from bytes. Writing to temp file.")
             try:
-                with tempfile.NamedTemporaryFile(mode='wb', suffix=".srt", prefix="videoai_burn_srt_", dir=use_dir, delete=False) as temp_f:
-                    temp_f.write(srt_bytes)
-                    actual_srt_path = temp_f.name
-                    temp_srt_file_obj = Path(actual_srt_path) # Temizlik için
-                logger.info(f"SRT bytes written to temporary file: {actual_srt_path}")
+                with tempfile.NamedTemporaryFile(mode='wb', suffix=f".{subtitle_format}", prefix="videoai_burn_sub_", dir=use_dir, delete=False) as temp_f:
+                    temp_f.write(subtitle_bytes)
+                    actual_subtitle_path = temp_f.name
+                    temp_subtitle_file_obj = Path(actual_subtitle_path)
+                logger.info(f"Subtitle bytes written to temporary file: {actual_subtitle_path}")
             except Exception as e:
-                logger.error(f"Failed to write SRT bytes to temporary file: {e}")
-                if temp_srt_file_obj and temp_srt_file_obj.exists(): temp_srt_file_obj.unlink()
+                logger.error(f"Failed to write subtitle bytes to temporary file: {e}", exc_info=True)
+                if temp_subtitle_file_obj and temp_subtitle_file_obj.exists(): temp_subtitle_file_obj.unlink()
                 return False
-        elif srt_path:
-            logger.info(f"Using SRT data from path: {srt_path}")
-            actual_srt_path = srt_path
         else:
-             # Varsayılan SRT yolunu belirle
-             captions_file = config.file_paths.captions_file # Dinamik dosya yolu kontrolü eklenebilir
-             default_srt_path = file_mgr.get_channel_output_path(channel_number) / captions_file
-             actual_srt_path = str(default_srt_path)
-             logger.info(f"Using default SRT path: {actual_srt_path}")
+            logger.warning("No subtitle bytes provided. Copying video without subtitles.")
+            try:
+                file_mgr.ensure_dir_exists(Path(output_path).parent)
+                shutil.copy2(video_path, output_path)
+                logger.info(f"Video copied to {output_path} without subtitles.")
+                return True
+            except Exception as e:
+                logger.error(f"Error copying video without subtitles: {e}")
+                return False
 
-        # ... (Dosya varlık kontrolleri aynı kalır) ...
+        # --- File Existence Checks ---
         if not file_mgr.file_exists(video_path):
             logger.error(f"Video file not found for subtitles: {video_path}")
             return False
-        if not actual_srt_path or not file_mgr.file_exists(actual_srt_path):
-             logger.warning(f"SRT file not found at: {actual_srt_path}. Copying video without subtitles.")
-             # ... (Kopyalama veya hata mantığı) ...
-             try:
-                 shutil.copy2(video_path, output_path)
-                 logger.info(f"Video copied to {output_path} without subtitles.")
-                 return True
-             except Exception as e:
-                 logger.error(f"Error copying video: {e}")
-                 return False
+        if not actual_subtitle_path or not file_mgr.file_exists(actual_subtitle_path):
+             logger.error(f"Temporary subtitle file not found at: {actual_subtitle_path}.")
+             return False
 
         file_mgr.ensure_dir_exists(Path(output_path).parent)
 
         # --- Subtitle Burning ---
-        logger.info(f"Burning subtitles from '{actual_srt_path}' into '{video_path}' -> '{output_path}'")
+        logger.info(f"Burning subtitles from '{actual_subtitle_path}' into '{video_path}' -> '{output_path}'")
         
-        # --- Stil Ayarları ---
-        # Varsayılan stilleri config'den al
-        style_settings = {
-            'font_name': getattr(config.video_edit, 'subtitle_font_name', 'DIN Condensed Bold'),
-            'font_size': getattr(config.video_edit, 'subtitle_font_size', 12),
-            'margin_v': getattr(config.video_edit, 'subtitle_margin_v', 35),
-            'primary_colour': getattr(config.video_edit, 'subtitle_primary_colour', '&HFFFFFF'),
-            'outline_colour': getattr(config.video_edit, 'subtitle_outline_colour', '&H00000010'),
-            'border_style': getattr(config.video_edit, 'subtitle_border_style', 1),
-            'outline': getattr(config.video_edit, 'subtitle_outline', 1),
-            'shadow': getattr(config.video_edit, 'subtitle_shadow', 1)
-        }
-
-        # Eğer veritabanından gelen stil varsa, varsayılanları ez
-        if style_overrides:
-            for key, value in style_overrides.items():
-                if value is not None:
-                    style_settings[key] = value
-                    logger.info(f"Using style override from database for '{key}': {value}")
-
-        subtitle_style = (
-            f"FontName='{style_settings['font_name']}',"
-            f"FontSize={style_settings['font_size']},"
-            f"PrimaryColour={style_settings['primary_colour']},"
-            f"OutlineColour={style_settings['outline_colour']},"
-            f"BorderStyle={style_settings['border_style']},"
-            f"Outline={style_settings['outline']},"
-            f"Shadow={style_settings['shadow']},"
-            f"MarginV={style_settings['margin_v']},"
-            "Alignment=2"
-        )
+        ffmpeg_subtitle_path = Path(actual_subtitle_path).as_posix()
+        if ':' in ffmpeg_subtitle_path and os.name == 'nt':
+             parts = ffmpeg_subtitle_path.split(':', 1)
+             ffmpeg_subtitle_path = parts[0].replace('/', '\\\\') + '\\:' + parts[1].replace('/', '\\\\')
         
-        ffmpeg_srt_path = Path(actual_srt_path).as_posix() # Daha güvenli path formatı
-        # Windows'ta sürücü harfi varsa özel kaçış gerekebilir, ama as_posix() genellikle yeterli
-        if ':' in ffmpeg_srt_path and os.name == 'nt':
-             parts = ffmpeg_srt_path.split(':', 1)
-             ffmpeg_srt_path = parts[0].replace('/', '\\\\') + '\\:' + parts[1].replace('/', '\\\\')
+        # --- Filtreyi formata göre belirle ---
+        if subtitle_format == 'ass':
+            subtitle_filter = f"ass='{ffmpeg_subtitle_path}'"
+            logger.info("Using ASS filter for subtitles.")
+        else: # Varsayılan SRT
+            # Mantığı daha net hale getirelim: Önce veritabanı, sonra varsayılan.
+            final_styles = style_overrides.copy() if style_overrides else {}
 
+            # Eksik stilleri varsayılan değerlerle doldur
+            default_styles = {
+                'font_name': 'DIN Condensed Bold',
+                'font_size': 72,
+                'margin_v': 35,
+                'primary_colour': '&HFFFFFF',
+                'outline_colour': '&H000000',
+                'border_style': 1,
+                'outline': 1,
+                'shadow': 1,
+                'shadow_x': 0, 'shadow_y': 0, 'letter_spacing': 0, 'alignment': 2, 
+                'back_colour': '&H00000000', 'margin_l': 10, 'margin_r': 10
+            }
 
-        subtitle_filter = f"subtitles='{ffmpeg_srt_path}':force_style='{subtitle_style}'"
+            for key, default_value in default_styles.items():
+                if key not in final_styles or final_styles.get(key) is None:
+                    # Config'den bir değer almayı dene, yoksa koddaki varsayılanı kullan
+                    config_value = getattr(config.video_edit, f"subtitle_{key}", default_value)
+                    final_styles[key] = config_value
+                    logger.debug(f"Stil '{key}' için veritabanı değeri bulunamadı, varsayılan kullanılıyor: {config_value}")
 
+            
+            style_parts = [
+                f"FontName='{final_styles['font_name']}'", f"FontSize={final_styles['font_size']}",
+                f"PrimaryColour={final_styles['primary_colour']}", f"OutlineColour={final_styles['outline_colour']}",
+                f"BackColour={final_styles['back_colour']}",
+                f"BorderStyle={final_styles['border_style']}", f"Outline={final_styles['outline']}",
+                f"Shadow={final_styles['shadow']}", f"MarginV={final_styles['margin_v']}",
+                f"Alignment={final_styles.get('alignment', 2)}",
+                f"MarginL={final_styles['margin_l']}", f"MarginR={final_styles['margin_r']}"
+            ]
+            if final_styles.get('shadow_x') is not None and final_styles['shadow_x'] != 0: style_parts.append(f"ShadowX={final_styles['shadow_x']}")
+            if final_styles.get('shadow_y') is not None and final_styles['shadow_y'] != 0: style_parts.append(f"ShadowY={final_styles['shadow_y']}")
+            if final_styles.get('letter_spacing') is not None:
+                try:
+                    spacing_val = float(final_styles['letter_spacing'])
+                    if spacing_val != 0: style_parts.append(f"Spacing={spacing_val}")
+                except (ValueError, TypeError):
+                    logger.warning(f"Invalid letter_spacing value '{final_styles['letter_spacing']}'. Ignoring.")
+            
+            subtitle_style = ",".join(style_parts)
+            subtitle_filter = f"subtitles='{ffmpeg_subtitle_path}':force_style='{subtitle_style}'"
+            logger.info("Using SRT filter with styles for subtitles.")
 
         try:
             subprocess.run([
@@ -1637,11 +1856,9 @@ def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = N
 
             logger.info(f"Successfully burned subtitles into: {output_path}")
             return True
-
         except subprocess.CalledProcessError as e:
             logger.error(f"Error burning subtitles: {e}")
             logger.error(f"FFmpeg stderr:\n{e.stderr}")
-            # ... (Fallback kopyalama mantığı) ...
             logger.info("Falling back to copying video without subtitles due to burning error.")
             try:
                 shutil.copy2(video_path, output_path)
@@ -1650,22 +1867,19 @@ def burn_subtitles(video_path: Optional[str] = None, srt_path: Optional[str] = N
             except Exception as copy_error:
                 logger.error(f"Fallback copy failed: {copy_error}")
                 return False
-
         except Exception as e:
              logger.error(f"Unexpected error during subtitle burning: {e}", exc_info=True)
              return False
-
     except Exception as e:
         logger.error(f"Overall error in burn_subtitles: {e}", exc_info=True)
         return False
     finally:
-        # Geçici SRT dosyasını temizle
-        if temp_srt_file_obj and temp_srt_file_obj.exists():
+        if temp_subtitle_file_obj and temp_subtitle_file_obj.exists():
             try:
-                temp_srt_file_obj.unlink()
-                logger.info(f"Cleaned up temporary SRT file: {temp_srt_file_obj}")
+                temp_subtitle_file_obj.unlink()
+                logger.info(f"Cleaned up temporary subtitle file: {temp_subtitle_file_obj}")
             except Exception as e:
-                logger.warning(f"Could not remove temporary SRT file {temp_srt_file_obj}: {e}")
+                logger.warning(f"Could not remove temporary subtitle file {temp_subtitle_file_obj}: {e}")
 
 def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None,
                   force_fallback: bool = False) -> bool:
@@ -2077,10 +2291,6 @@ def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool
 def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = False, user_id: str = None) -> Optional[str]:
     """
     Aşama 3, 4 & 5: Video oluşturma, ses/altyazı ekleme ve yükleme.
-    Bu fonksiyon, veritabanına önceden kaydedilmiş `response_json`'u kullanarak
-    son videoyu üretir, işler ve yükler.
-    Returns:
-        Optional[str]: The storage path of the uploaded video, or None on failure.
     """
     logger.info(f"--- AŞAMA 3, 4 & 5 BAŞLADI: Video Üretimi - Proje ID: {project_id} ---")
     
@@ -2091,9 +2301,8 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         # --- Önceden Hazırlanmış Varlıkları ve Verileri Yükleme ---
         channel_number = 1
         
-        # --- DÜZELTME: Stil bilgilerini `caption_styles` tablosundan al ---
-        # Önce caption bilgisini ve voice_id'yi al
-        captions_data_response = supabase.table("captions").select("id, voice_over_id, caption_file").eq("id", caption_id).single().execute()
+        # --- Kapsamlı Stil Bilgilerini ve Altyazı Verilerini Yükleme ---
+        captions_data_response = supabase.table("captions").select("id, voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
 
         if not captions_data_response.data:
             logger.error(f"Caption ID {caption_id} bulunamadı.")
@@ -2101,35 +2310,153 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             
         caption_record = captions_data_response.data
         voice_id = caption_record["voice_over_id"]
-        captions_file_name = caption_record["caption_file"]
+        # Kelime bazlı (karaoke için gerekli) ve segment bazlı SRT dosyalarını al
+        word_level_srt_name = caption_record.get("caption_file")
+        segment_level_srt_name = caption_record.get("caption_segment_file")
 
-        # Şimdi caption_id'yi kullanarak stil bilgilerini `caption_styles` tablosundan al
         logger.info(f"Caption ID {caption_id} için stil bilgileri `caption_styles` tablosundan alınıyor...")
         style_response = supabase.table("caption_styles").select("*").eq("caption_id", caption_id).limit(1).single().execute()
         
+        # Varsayılan ayarları tanımla
         style_overrides = {}
+        display_mode = 'full_segment' # 'disabled', 'full_segment', 'word_by_word'
+        highlight_current_word = False
+
         if style_response.data:
             logger.info("Veritabanından özel altyazı stilleri bulundu ve uygulanacak.")
-            # Gelen veriyi, burn_subtitles fonksiyonunun beklediği formata çevir
             db_styles = style_response.data
+            
+            # Dinamik efekt ayarlarını al
+            display_mode = db_styles.get('display_mode', 'full_segment')
+            highlight_current_word = db_styles.get('highlight_current_word', False)
+
+            # Arka plan opaklığına göre BorderStyle'ı ayarla
+            # 1: Outline + Shadow, 3: Opaque Box
+            background_opacity = db_styles.get('background_opacity', 0.5)
+            border_style = 3 if background_opacity > 0.05 else 1
+            
+            # Yazı tipi kalınlığını işle
+            font_weight_str = db_styles.get('font_weight', 'normal')
+            is_bold = 1 if font_weight_str and 'bold' in font_weight_str.lower() else 0
+            
+            # Dikey konuma göre dikey kenar boşluğunu seç
+            vertical_pos = db_styles.get('vertical_position', 'bottom')
+            if vertical_pos == 'top':
+                margin_v = db_styles.get('padding_top')
+            else: # bottom veya middle için
+                margin_v = db_styles.get('padding_bottom')
+
+            # Arka plan rengini ve opaklığını birleştir
+            bg_color_hex = db_styles.get('background_color', '#000000')
+            opacity_hex = f"{int(255 * (1 - background_opacity)):02x}" # Convert opacity (0-1) to hex (00-FF)
+            bg_color_ffmpeg = convert_hex_to_ffmpeg_color(bg_color_hex)
+            # &H[AA][BB][GG][RR] formatı
+            back_colour = f"&H{opacity_hex.upper()}{bg_color_ffmpeg[2:]}"
+
+
             style_overrides = {
-                'font_name': db_styles.get('font_family'), # Sütun adı farklı olabilir, eşleştir
+                'font_name': db_styles.get('font_family'),
                 'font_size': db_styles.get('font_size'),
-                'margin_v': db_styles.get('vertical_position'), # Bu da farklı olabilir, kontrol et
-                'primary_colour': db_styles.get('text_color'),
-                'outline_colour': db_styles.get('outline_color'),
-                'border_style': 1, # Bu değerler DB'de yoksa varsayılanlar kullanılacak
+                'primary_colour': convert_hex_to_ffmpeg_color(db_styles.get('text_color')),
+                'secondary_colour': '&H00FFFF', # Vurgu rengini burada sabit olarak sarı yapalım
+                'outline_colour': convert_hex_to_ffmpeg_color(db_styles.get('outline_color')),
+                'shadow_colour': convert_hex_to_ffmpeg_color(db_styles.get('shadow_color')),
+                'border_style': border_style,
+                'back_colour': back_colour,
+                'bold': is_bold,
                 'outline': db_styles.get('outline_width'),
-                'shadow': 1 if db_styles.get('shadow_offset_x', 0) > 0 or db_styles.get('shadow_offset_y', 0) > 0 else 0
+                'shadow': 1 if db_styles.get('shadow_offset_x', 0) != 0 or db_styles.get('shadow_offset_y', 0) != 0 else 0,
+                'shadow_x': db_styles.get('shadow_offset_x'),
+                'shadow_y': db_styles.get('shadow_offset_y'),
+                'alignment': map_alignment(db_styles.get('vertical_position'), db_styles.get('alignment')),
+                'margin_v': margin_v,
+                'margin_l': db_styles.get('padding_left'),
+                'margin_r': db_styles.get('padding_right'),
             }
-             # None değerleri temizle, böylece config varsayılanları kullanılır
+            # None değerleri temizle
             style_overrides = {k: v for k, v in style_overrides.items() if v is not None}
+            
+            # --- DİNAMİK FONT BOYUTUNU BURADA HESAPLA ---
+            if 'font_size' in style_overrides:
+                try:
+                    ui_font_size = int(style_overrides['font_size'])
+                    reference_preview_height = 480  # UI referans yüksekliği
+                    
+                    timeline_config = get_timeline_config(channel_number)
+                    target_video_height = timeline_config.default_height
+
+                    if reference_preview_height > 0 and target_video_height > 0:
+                        scale_factor = target_video_height / reference_preview_height
+                        scaled_font_size = int(ui_font_size * scale_factor)
+                        style_overrides['font_size'] = scaled_font_size
+                        logger.info(f"Dinamik font boyutu hesaplandı: UI Boyutu={ui_font_size}, Video Yüksekliği={target_video_height} -> FFmpeg Boyutu={scaled_font_size}")
+                    else:
+                        logger.warning("Dinamik font boyutu hesaplanamadı, UI değeri kullanılıyor.")
+                except (ValueError, TypeError) as e:
+                    logger.warning(f"Font boyutu değeri geçersiz: {style_overrides['font_size']}. Hata: {e}")
+
+
+            # --- DEBUG IÇIN EKLE ---
+            try:
+                debug_file_path = "debug_styles.json"
+                # style_overrides'ı dosyaya yazdırmadan önce bir kopyasını alalım ki orijinalini bozmayalım
+                debug_data_to_write = style_overrides.copy()
+                # Orijinal db verisini de ekleyelim ki karşılaştırma kolay olsun
+                debug_data_to_write["__original_db_styles"] = db_styles
+                with open(debug_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(debug_data_to_write, f, ensure_ascii=False, indent=4)
+                logger.info(f"DEBUG: Veritabanından gelen stiller '{debug_file_path}' dosyasına yazıldı.")
+            except Exception as e_debug:
+                logger.warning(f"DEBUG: Stil dosyası yazılamadı: {e_debug}")
+            # --- DEBUG SONU ---
         else:
             logger.info("Bu caption için özel stil bulunamadı. Yapılandırma dosyasındaki varsayılan stiller kullanılacak.")
 
 
         _, _, voice_file_bytes = get_voice_file(voice_id)
-        captions_file_bytes = supabase.storage.from_("captions").download(captions_file_name)
+        
+        # --- Dinamik Altyazı Mantığı ---
+        subtitle_bytes_to_burn = None
+        subtitle_format_to_burn = 'srt' # Varsayılan, ama üzerine yazılacak
+
+        # İşlenecek SRT dosyasını ve kullanılacak modu belirle
+        srt_to_process_name = None
+        # full-segments ise ve segment dosyası varsa onu tercih et, çünkü daha basit
+        if display_mode == 'full-segments' and segment_level_srt_name:
+            srt_to_process_name = segment_level_srt_name
+        # Diğer durumlarda veya fallback olarak kelime bazlı olanı kullan
+        elif word_level_srt_name:
+            srt_to_process_name = word_level_srt_name
+        # Hiçbiri yoksa ve segment bazlı varsa onu kullan
+        elif segment_level_srt_name:
+            srt_to_process_name = segment_level_srt_name
+        
+        # Eğer işlenecek bir altyazı varsa, onu daima ASS'ye çevirerek metin sarmayı garantile.
+        if display_mode != 'disabled' and srt_to_process_name:
+            logger.info(f"Metin sarmayı garantilemek için SRT ('{srt_to_process_name}') dosyası ASS formatına dönüştürülüyor.")
+            captions_file_bytes = supabase.storage.from_("captions").download(srt_to_process_name)
+            
+            timeline_config = get_timeline_config(channel_number)
+            target_video_width = timeline_config.default_width
+            max_width_percent = db_styles.get('max_width', 80) if style_response.data else 80
+
+            subtitle_bytes_to_burn = create_karaoke_ass(
+                srt_bytes=captions_file_bytes,
+                style_overrides=style_overrides,
+                display_mode=display_mode,
+                highlight_current_word=highlight_current_word,
+                max_width_percent=max_width_percent,
+                target_video_width=target_video_width
+            )
+            subtitle_format_to_burn = 'ass'
+        
+        # 3. Yukarıdakiler başarısız olursa, mevcut herhangi bir dosyaya geri dön (BU BLOK ARTIK GEREKSİZ).
+        
+        else:
+            logger.warning("İşlenecek altyazı dosyası bulunamadı veya mod 'disabled'. Altyazısız devam ediliyor.")
+            subtitle_bytes_to_burn = None
+
+
         target_duration = get_voice_duration(voice_file_bytes) if voice_file_bytes else 60.0
 
         # En kritik adım: Projeye ait `response_json`'u çekme
@@ -2278,12 +2605,15 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         # --- Burn Subtitles --- (AŞAMA 4'ün parçası)
         logger.info("Son videoya altyazılar ekleniyor...")
         subtitle_success = False
-        if captions_file_bytes:
-             # Fonksiyona stil bilgilerini de gönder
+        if subtitle_bytes_to_burn:
+             # Altyazıların ekleneceği, sesle birleştirilmiş videonun yolunu belirt.
+             final_video_path = file_mgr.get_channel_output_path(channel_number) / config.file_paths.final_video_file
              subtitle_success = burn_subtitles(
+                 video_path=str(final_video_path),
                  channel_number=channel_number, 
-                 srt_bytes=captions_file_bytes,
-                 style_overrides=style_overrides
+                 subtitle_bytes=subtitle_bytes_to_burn,
+                 subtitle_format=subtitle_format_to_burn,
+                 style_overrides=style_overrides # Pass styles for SRT, ignored for ASS
              )
         else:
              logger.warning("SRT dosyası baytları mevcut değil. Altyazılar yakılamıyor.")

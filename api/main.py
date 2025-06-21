@@ -36,9 +36,12 @@ from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
 from api.utils.upload_voiceover import upload_voiceover_to_storage
+from api.utils.transcribe import transcribe_audio_bytes
 from api.ResponseSchemes.ShotResponse import ShotResponse
 from api.RequestSchemes.ShotRequest import ShotRequest
-from api.ResponseSchemes.StoryboardResponse import Shot
+from api.RequestSchemes.ExportProjectRequest import ExportProjectRequest
+from api.ResponseSchemes.ExportProjectResponse import ExportProjectResponse
+from api.utils.export_project import export_project_assets
 import write_script
 from write_script import extract_topic_from_script
 import voice_over
@@ -60,7 +63,7 @@ from typing import Optional # Optional importu eklendi/kontrol edildi
 import asyncio
 import uuid
 # Celery görevimizi import ediyoruz
-from tasks import create_final_video_task
+# from tasks import create_final_video_task # Test için kaldırıldı
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
@@ -280,11 +283,41 @@ def upload_voice_over(request: UploadVoiceoverRequest, current_user: dict = Depe
         project_id = request.project_id
         audio_file_base64 = request.audio_file
         voice_over_name = request.voice_over_name
-        voice_over_data= upload_voiceover_to_storage(user_id, project_id, audio_file_base64, voice_over_name)
+        
+        voice_over_data = upload_voiceover_to_storage(user_id, project_id, audio_file_base64, voice_over_name)
+        
         if voice_over_data is None: 
             return VoiceoverResponse(success=False, message="Voice over upload failed")
+        
+        # Transcribe the audio
+        audio_bytes = base64.b64decode(audio_file_base64)
+        transcribed_text = transcribe_audio_bytes(audio_bytes)
+
+        if transcribed_text:
+            topic = extract_topic_from_script(transcribed_text).topic
+            script_insert_result = supabase.table("scripts").insert({
+                "project_id": project_id,
+                "script": transcribed_text,
+                "topic": topic,
+                "user_id": user_id,
+            }).execute()
+
+            if not script_insert_result.data:
+               
+                return VoiceoverResponse(success=False, message="Failed to save transcribed script.")
+
+            # voice_over tablosunu yeni script_id ile güncelle
+            script_id = script_insert_result.data[0]["id"]
+            voiceover_data_update = supabase.table("voice_over").update({
+                "script_id": script_id
+            }).eq("id", voice_over_data["id"]).execute()
+
+            if not voiceover_data_update.data:
+                
+                return VoiceoverResponse(success=False, message="Failed to link voice over to the new script.")
+
         voice_over_url = supabase.storage.from_("voice-over-files").create_signed_url(voice_over_name,3600)
-        return VoiceoverResponse(success=True, message="Voice over uploaded successfully", voice_over_history=[VoiceoverHistory(id=voice_over_data["id"], name=voice_over_data["voice_name"], duration=voice_over_data["duration"], url=voice_over_url.get("signedURL")  , created_at=voice_over_data["created_at"])])
+        return VoiceoverResponse(success=True, message="Voice over uploaded and transcribed successfully", voice_over_history=[VoiceoverHistory(id=voice_over_data["id"], name=voice_over_data["voice_name"], duration=voice_over_data["duration"], url=voice_over_url.get("signedURL")  , created_at=voice_over_data["created_at"])])
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e)), 500
 
@@ -849,7 +882,7 @@ def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user
 
 
 
-@app.post("/generate-final-video-from-storyboard", status_code=202)
+@app.post("/generate-final-video-from-storyboard", response_model=GenerateFinalVideoFromStoryboardResponse)
 def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboardRequest, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
@@ -859,36 +892,59 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
         storyboard_response = supabase.table("storyboards").select("id, project_id").eq("id", storyboard_id).eq("user_id", user_id).single().execute()
         
         if not storyboard_response.data:
-            return {"success": False, "message": "Storyboard not found or access denied."}
+            return GenerateFinalVideoFromStoryboardResponse(success=False, message="Storyboard not found or access denied.")
             
         project_id = storyboard_response.data["project_id"]
 
-        # --- GÖREVİ ARKA PLANA GÖNDERME ---
-        # Artık video oluşturma fonksiyonunu doğrudan çağırmıyoruz.
-        # Bunun yerine .delay() kullanarak Celery'ye bir görev olarak gönderiyoruz.
-        # Bu satır anında çalışır ve Worker'ın görevi almasını bekler.
-        task = create_final_video_task.delay(
+        # --- SENKRON VİDEO OLUŞTURMA (TEST İÇİN) ---
+        # Arka plan görevi yerine, fonksiyonu doğrudan burada çağırıyoruz.
+        # Bu, isteğin video oluşturma bitene kadar beklemesine neden olacaktır.
+        logger.info(f"Starting synchronous video generation for storyboard {storyboard_id}...")
+        video_storage_path = video_edit.create_video_from_storyboard(
             storyboard_id=storyboard_id,
             project_id=project_id,
             user_id=user_id
         )
 
-        # Kullanıcıya görevin başlatıldığına dair anında bir yanıt döndürüyoruz.
-        # task.id, bu özel görevin benzersiz kimliğidir. Bu ID ile daha sonra
-        # görevin durumunu kontrol edebiliriz.
-        return {
-            "success": True, 
-            "message": "Final video generation has been started in the background.",
-            "task_id": task.id
-        }
+        if not video_storage_path:
+            logger.error(f"Synchronous video generation failed for storyboard {storyboard_id}.")
+            return GenerateFinalVideoFromStoryboardResponse(success=False, message="Video generation failed.")
+
+        logger.info(f"Video generation successful. Storage path: {video_storage_path}")
+        # Kullanıcının videoya erişebilmesi için imzalı bir URL oluştur
+        signed_url_response = supabase.storage.from_("final-videos").create_signed_url(video_storage_path, 3600) # 1 saat geçerli
+        
+        video_url = signed_url_response.get("signedURL")
+        if not video_url:
+             logger.error(f"Could not create signed URL for {video_storage_path}")
+             return GenerateFinalVideoFromStoryboardResponse(success=False, message="Video generated but could not create URL.")
+
+        return GenerateFinalVideoFromStoryboardResponse(
+            success=True, 
+            message="Final video generated successfully.",
+            video_url=video_url
+        )
 
     except Exception as e:
         import traceback
         logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
-        return {"success": False, "message": f"An unexpected error occurred while starting the task: {str(e)}"}
+        return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred: {str(e)}")
 
 
-
+@app.post("/export-project", response_model=ExportProjectResponse)
+def export_project(request: ExportProjectRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        project_id = request.project_id
+        
+        result = export_project_assets(project_id, user_id, supabase)
+        
+        return ExportProjectResponse(success=result["success"], message=result["message"], export_url=result.get("url"))
+        
+    except Exception as e:
+        return ExportProjectResponse(success=False, message=str(e))
+        
+        
 
 
     
