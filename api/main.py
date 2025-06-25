@@ -408,7 +408,6 @@ def get_project_captions(project_id: int, current_user: dict = Depends(get_curre
     """
     try:
         captions_list = captions.get_captions_by_project_for_api(supabase, project_id)
-        print(captions_list)
         return CaptionListResponse(
             success=True,
             message="Project captions fetched successfully",
