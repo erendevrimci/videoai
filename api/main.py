@@ -375,7 +375,10 @@ def generate_captions(request: CaptionRequest, current_user: dict = Depends(get_
         else:
             return CaptionResponse(success=True, message="Captions generated successfully", id=caption_id)
     except Exception as e:
-        return CaptionResponse(success=False, message=str(e))
+        import traceback
+        logger.error(f"Error during caption generation: {e}")
+        logger.error(traceback.format_exc())
+        return CaptionResponse(success=False, message=f"An unexpected error occurred: {e}")
 
 
 @app.get("/caption/{caption_id}", response_model=CaptionResponse)
