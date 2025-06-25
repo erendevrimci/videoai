@@ -33,9 +33,9 @@ runwayml
 av
 mutagen
 numpy==1.26.4
-openai==1.55.3
+openai
 python-dotenv==1.0.1
 celery
 redis
 pysrt
-httpx==0.27.2
+httpx
