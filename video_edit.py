@@ -891,12 +891,46 @@ Format the response as valid JSON only, no additional text.
 
         response_content = response.choices[0].message.content
 
-        with open("json_response.json", "w") as f:
-            f.write(response_content)
+        # --- IYILESTIRME: AI yanıtını temizle ve kaçış karakterlerini düzelt ---
+        sanitized_content = response_content
+        if response_content:
+            # Markdown kod bloğunu ara (```json ... ```)
+            match = re.search(r'```json\s*([\s\S]*?)\s*```', response_content, re.DOTALL)
+            if match:
+                sanitized_content = match.group(1).strip()
+                logger.info("Markdown kod bloğundan JSON başarıyla ayıklandı.")
+            else:
+                # Markdown yoksa, metnin başındaki ve sonundaki fazlalıkları temizlemeye çalış
+                start_index = response_content.find('[')
+                if start_index == -1:
+                    start_index = response_content.find('{')
+                
+                if start_index != -1:
+                    sanitized_content = response_content[start_index:]
+                else:
+                    logger.warning("AI yanıtında JSON başlangıcı ('[' veya '{') bulunamadı.")
 
-        supabase.table("projects").update({"response_json": response_content}).eq("id", project_id).execute()
+            # Kaçış karakterlerini (örn: \", \n) düzelt
+            try:
+                # Bu, JSON içindeki hatalı kaçış dizilerini düzeltir.
+                # Önce Python'un string escape'lerini çöz, sonra JSON olarak yükle.
+                # String'i önce baytlara kodlayıp sonra unicode_escape ile çözmek gerekir.
+                processed_content = sanitized_content.encode('utf-8').decode('unicode_escape')
+                logger.info("Yanıt içeriğindeki unicode kaçış karakterleri işlendi.")
+            except Exception as e:
+                logger.warning(f"Unicode escape karakterleri işlenirken hata oluştu: {e}. Orijinal temizlenmiş içerik kullanılacak.")
+                processed_content = sanitized_content
+        else:
+            logger.warning("AI'dan boş yanıt alındı.")
+            processed_content = "[]" # Boş bir JSON listesi olarak ayarla
+
+
+        with open("json_response.json", "w", encoding='utf-8') as f:
+            f.write(processed_content)
+
+        supabase.table("projects").update({"response_json": processed_content}).eq("id", project_id).execute()
         
-        clip_sequence_from_ai = json.loads(response_content)
+        clip_sequence_from_ai = json.loads(processed_content)
         if not isinstance(clip_sequence_from_ai, list):
              logger.error(f"AI response is not a JSON list: {response_content[:100]}...")
              raise ValueError("AI response is not a list.")
