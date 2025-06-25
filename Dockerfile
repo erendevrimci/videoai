@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Gereksinimleri kopyala ve yükle
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt --upgrade
 
 # Uygulama dosyalarını kopyala
 COPY api/ /app/api/
