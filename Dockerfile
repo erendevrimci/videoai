@@ -37,6 +37,7 @@ RUN mkdir -p /app/api/security
 RUN mkdir -p /app/api/auth
 RUN mkdir -p /app/api/db
 
+
 # Örnek script dosyasını oluştur veya kopyala
 RUN echo '<Example 1>' > /app/amazing_script.txt
 RUN echo 'Memory content goes here' > /app/context/memory.txt
