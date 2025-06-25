@@ -332,7 +332,7 @@ def get_voice_over_history(project_id: int, current_user: dict = Depends(get_cur
         for vname in result.data:
             voice_over_url = supabase.storage.from_("voice-over-files").create_signed_url(vname["voice_name"],3600)
             voice_urls.append(VoiceoverHistory(id=vname["id"], name=vname["voice_name"], duration=vname["duration"], url=voice_over_url.get("signedURL"), created_at=vname["created_at"]))
-        
+        print(f"Voice over history: {voice_urls}")
         return VoiceoverResponse(success=True, message="Voice over history fetched successfully", voice_over_history=voice_urls)
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e))
