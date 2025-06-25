@@ -108,7 +108,7 @@ def generate_subtitles(
     #     return False
     
     # Initialize OpenAI client
-    client = OpenAI(api_key=config.openai.api_key)
+    client = OpenAI(api_key=config.openai.api_key, proxies=None)
     
     try:
         # # Convert paths to Path objects if they're strings
