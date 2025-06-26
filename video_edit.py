@@ -888,8 +888,9 @@ Format the response as valid JSON only, no additional text.
                 {"role": "user", "content": prompt}
             ]
         )
-
-        response_content = response.choices[0].message.content
+        response_json_str = response.model_dump_json(indent=2)
+        response_data = json.loads(response_json_str)
+        response_content = response_data['choices'][0]['message']['content']
 
         # --- IYILESTIRME: AI yanıtını temizle ve kaçış karakterlerini düzelt ---
         sanitized_content = response_content
@@ -930,7 +931,14 @@ Format the response as valid JSON only, no additional text.
 
         supabase.table("projects").update({"response_json": processed_content}).eq("id", project_id).execute()
         
-        clip_sequence_from_ai = json.loads(processed_content)
+        try:
+            # Önce unicode kaçış karakterlerini işlemeyi dene
+            decoded_content = processed_content.encode('utf-8').decode('unicode_escape', 'ignore')
+            clip_sequence_from_ai = json.loads(decoded_content, strict=False)
+        except Exception:
+            # Eğer yukarıdaki yöntem başarısız olursa, orijinal içeriği `strict=False` ile tekrar dene
+            clip_sequence_from_ai = json.loads(processed_content, strict=False)
+
         if not isinstance(clip_sequence_from_ai, list):
              logger.error(f"AI response is not a JSON list: {response_content[:100]}...")
              raise ValueError("AI response is not a list.")
