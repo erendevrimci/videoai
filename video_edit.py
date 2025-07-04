@@ -892,37 +892,46 @@ Format the response as valid JSON only, no additional text.
         response_data = json.loads(response_json_str)
         response_content = response_data['choices'][0]['message']['content']
 
-        # --- IYILESTIRME: AI yanıtını temizle ve kaçış karakterlerini düzelt ---
-        sanitized_content = response_content
+        # --- IYILESTIRME: AI yanıtını daha güvenilir şekilde temizle ve işle ---
+        processed_content = ""
         if response_content:
             # Markdown kod bloğunu ara (```json ... ```)
             match = re.search(r'```json\s*([\s\S]*?)\s*```', response_content, re.DOTALL)
             if match:
-                sanitized_content = match.group(1).strip()
+                processed_content = match.group(1).strip()
                 logger.info("Markdown kod bloğundan JSON başarıyla ayıklandı.")
             else:
-                # Markdown yoksa, metnin başındaki ve sonundaki fazlalıkları temizlemeye çalış
-                start_index = response_content.find('[')
-                if start_index == -1:
-                    start_index = response_content.find('{')
+                # Markdown yoksa, metnin başındaki ve sonundaki fazlalıkları temizle.
+                # İlk '[' veya '{' karakterini ve son ']' veya '}' karakterini bul.
+                start_bracket = response_content.find('[')
+                start_curly = response_content.find('{')
                 
+                # İki karakter de bulunursa, metinde daha önce görüneni başlangıç noktası al.
+                if start_bracket != -1 and start_curly != -1:
+                    start_index = min(start_bracket, start_curly)
+                elif start_bracket != -1:
+                    start_index = start_bracket
+                else:
+                    start_index = start_curly
+
                 if start_index != -1:
-                    sanitized_content = response_content[start_index:]
+                    # En sondaki ']' veya '}' karakterini bul
+                    end_bracket = response_content.rfind(']')
+                    end_curly = response_content.rfind('}')
+                    end_index = max(end_bracket, end_curly)
+                    
+                    if end_index > start_index:
+                        processed_content = response_content[start_index : end_index + 1]
+                        logger.info("AI yanıtından JSON içeriği başarıyla ayıklandı.")
+                    else:
+                        logger.warning("AI yanıtında geçerli bir JSON yapısı (başlangıç ve bitiş) bulunamadı.")
+                        processed_content = response_content # Orijinaliyle denemeye devam et
                 else:
                     logger.warning("AI yanıtında JSON başlangıcı ('[' veya '{') bulunamadı.")
-
-            # Kaçış karakterlerini (örn: \", \n) düzelt
-            try:
-                # Bu, JSON içindeki hatalı kaçış dizilerini düzeltir.
-                # Önce Python'un string escape'lerini çöz, sonra JSON olarak yükle.
-                # String'i önce baytlara kodlayıp sonra unicode_escape ile çözmek gerekir.
-                processed_content = sanitized_content.encode('utf-8').decode('unicode_escape')
-                logger.info("Yanıt içeriğindeki unicode kaçış karakterleri işlendi.")
-            except Exception as e:
-                logger.warning(f"Unicode escape karakterleri işlenirken hata oluştu: {e}. Orijinal temizlenmiş içerik kullanılacak.")
-                processed_content = sanitized_content
-        else:
-            logger.warning("AI'dan boş yanıt alındı.")
+                    processed_content = response_content
+        
+        if not processed_content.strip():
+            logger.warning("AI'dan boş veya temizlenemeyen yanıt alındı.")
             processed_content = "[]" # Boş bir JSON listesi olarak ayarla
 
 
@@ -932,12 +941,16 @@ Format the response as valid JSON only, no additional text.
         supabase.table("projects").update({"response_json": processed_content}).eq("id", project_id).execute()
         
         try:
-            # Önce unicode kaçış karakterlerini işlemeyi dene
-            decoded_content = processed_content.encode('utf-8').decode('unicode_escape', 'ignore')
-            clip_sequence_from_ai = json.loads(decoded_content, strict=False)
-        except Exception:
-            # Eğer yukarıdaki yöntem başarısız olursa, orijinal içeriği `strict=False` ile tekrar dene
-            clip_sequence_from_ai = json.loads(processed_content, strict=False)
+            # JSON'u ayrıştırmayı dene.
+            # Önce, yaygın bir LLM hatası olan sondaki virgülleri (trailing commas) temizle.
+            repaired_content = re.sub(r',\s*([\}\]])', r'\1', processed_content)
+            clip_sequence_from_ai = json.loads(repaired_content)
+        except json.JSONDecodeError as e:
+            # Onarıma rağmen hata devam ederse, logla ve fallback mekanizmasına gir.
+            logger.error(f"JSON ayrıştırma hatası (onarıma rağmen): {e}")
+            logger.debug(f"Ayrıştırılamayan içerik (ilk 500 karakter): {processed_content[:500]}")
+            # Hata fırlatarak bir sonraki except bloğunun yakalamasını sağla
+            raise e
 
         if not isinstance(clip_sequence_from_ai, list):
              logger.error(f"AI response is not a JSON list: {response_content[:100]}...")
@@ -2513,7 +2526,9 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         
         try:
             # response_json string'ini Python listesine çevir
-            clip_sequence = json.loads(response_json_str)
+            # Önce, yaygın bir LLM hatası olan sondaki virgülleri (trailing commas) temizle.
+            repaired_content = re.sub(r',\s*([\}\]])', r'\1', response_json_str)
+            clip_sequence = json.loads(repaired_content)
             if not isinstance(clip_sequence, list):
                 logger.error("Veritabanındaki `response_json` geçerli bir liste formatında değil.")
                 return None
