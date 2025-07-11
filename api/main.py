@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import json
 import os
 import base64
@@ -34,6 +37,7 @@ from api.RequestSchemes.GenerateFinalVideoFromStoryboardRequest import GenerateF
 from api.ResponseSchemes.GenerateFinalVideoFromStoryboardResponse import GenerateFinalVideoFromStoryboardResponse
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
+from api.utils.generate_veo3_video import generate_veo3_video
 from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
 from api.utils.upload_voiceover import upload_voiceover_to_storage
 from api.utils.transcribe import transcribe_audio_bytes
@@ -54,7 +58,6 @@ import os
 from api.auth.supabase_auth import get_current_user 
 from api.security.SanitizerMiddleware import SanitizerMiddleware 
 from supabase import create_client
-from dotenv import load_dotenv
 import logging
 from fastapi.middleware.cors import CORSMiddleware # Eklendi
 from PIL import Image # Eklendi
@@ -70,8 +73,6 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 security_logger = logging.getLogger("security")
 security_logger.setLevel(logging.DEBUG)
-
-load_dotenv()
 
 app = FastAPI()
 
@@ -253,7 +254,6 @@ def get_script(script_id: int, current_user: dict = Depends(get_current_user)):
 def get_script_properties(project_id: int, current_user: dict = Depends(get_current_user)):
     try:
         result = supabase.table("scripts").select("id, topic, script, created_at").eq("project_id", project_id).execute()
-        print(result.data)
         return ScriptResponse(success=True, message="Script property fetched successfully", scripts=result.data)
     except Exception as e:
         return ScriptResponse(success=False, message=str(e))
@@ -732,6 +732,8 @@ async def generate_single_video(request: GenerateSingleVideoRequest, current_use
                 video = await generate_klingAI_video(request.prompt, request.negativePrompt, request.duration, request.cfgScale, request.aspectRatio, request.startImage, request.endImage)
             case "runwayml":
                 video = await generate_runwayML_video(request.prompt, request.duration, request.aspectRatio, request.startImage, request.endImage)
+            case "veo3":
+                video = await generate_veo3_video(request.prompt, request.duration, request.aspectRatio, request.negativePrompt, sampleCount=1)
             case _:
                 return GenerateSingleVideoResponse(success=False, message=f"Desteklenmeyen model türü: {model}")
 
@@ -748,18 +750,18 @@ async def generate_single_video(request: GenerateSingleVideoRequest, current_use
         video_url = supabase.storage.from_("videos").get_public_url(video_name)
         video_insert_result = supabase.table("generated_videos").insert({
             "user_id": user_id,
-            "url": video_url,
             "name": video_name
         }).execute()
 
 
         video_id = video_insert_result.data[0]["id"]
 
-        update_start_image_result = supabase.table("uploaded_images").update({
-            "video_id": video_id
-        }).eq("id", request.startImageId).execute()
+        if request.startImageId is not None:
+            update_start_image_result = supabase.table("uploaded_images").update({
+                "video_id": video_id
+            }).eq("id", request.startImageId).execute()
 
-        if request.endImageId:
+        if request.endImageId is not None:
             update_end_image_result = supabase.table("uploaded_images").update({
                 "video_id": video_id
             }).eq("id", request.endImageId).execute()
@@ -779,10 +781,15 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
         generation_tasks = []
         for segment in request.segments:
             task = None
-            if model == "klingai":
-                task = generate_klingAI_video(segment.prompt, None, segment.duration, segment.cfg_scale, request.aspect_ratio, segment.start_image, segment.end_image)
-            elif model == "runwayml":
-                task = generate_runwayML_video(segment.prompt, segment.duration, request.aspect_ratio, segment.start_image, segment.end_image)
+            match model:
+                case "klingai":
+                    task = generate_klingAI_video(segment.prompt, None, segment.duration, segment.cfg_scale, request.aspect_ratio, segment.start_image, segment.end_image)
+                case "runwayml":
+                    task = generate_runwayML_video(segment.prompt, segment.duration, request.aspect_ratio, segment.start_image, segment.end_image)
+                case "veo3":
+                    task = generate_veo3_video(segment.prompt, segment.duration, request.aspect_ratio, None, sampleCount=1)
+                case _:
+                    return GenerateTimelineVideoResponse(success=False, message=f"Desteklenmeyen model türü: {model}")
             
             if task:
                 generation_tasks.append(task)
@@ -819,7 +826,6 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
                 # Veritabanına ekleme
                 supabase.table("generated_videos").insert({
                     "user_id": user_id,
-                    "url": video_url,
                     "name": video_name,
                     "batch_id": batch_id,
                     "start_image_id": segment.start_image_id,

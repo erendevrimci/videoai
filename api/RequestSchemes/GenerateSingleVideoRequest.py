@@ -8,7 +8,7 @@ class GenerateSingleVideoRequest(BaseModel):
     duration: int
     cfgScale: Optional[float] = None
     aspectRatio: str
-    startImage: str
+    startImage: Optional[str] = None
     endImage: Optional[str] = None
-    startImageId: str
+    startImageId: Optional[str] = None
     endImageId: Optional[str] = None

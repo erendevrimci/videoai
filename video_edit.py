@@ -942,12 +942,31 @@ Format the response as valid JSON only, no additional text.
         
         try:
             # JSON'u ayrıştırmayı dene.
-            # Önce, yaygın bir LLM hatası olan sondaki virgülleri (trailing commas) temizle.
-            repaired_content = re.sub(r',\s*([\}\]])', r'\1', processed_content)
+            # Önce, yaygın hatalarını temizle:
+            repaired_content = processed_content
+            
+            # 1. Sondaki virgülleri (trailing commas) temizle
+            repaired_content = re.sub(r',\s*([\}\]])', r'\1', repaired_content)
+            
+            # 2. Encoding sorunlarını düzelt
+            repaired_content = repaired_content.replace('�', "'")  # Bozuk apostrophe
+            repaired_content = repaired_content.replace('"', '"')  # Bozuk quote start
+            repaired_content = repaired_content.replace('"', '"')  # Bozuk quote end
+            repaired_content = repaired_content.replace('–', '-')  # En dash
+            repaired_content = repaired_content.replace('—', '-')  # Em dash
+            
+            # 3. Yanlış escape edilmiş karakterleri düzelt
+            repaired_content = re.sub(r'\\([^"\\\/bfnrt])', r'\1', repaired_content)
+            
+            # 4. Düzeltilmiş JSON'u kaydet
+            with open("json_response_repaired.json", "w", encoding='utf-8') as f:
+                f.write(repaired_content)
+            
             clip_sequence_from_ai = json.loads(repaired_content)
         except json.JSONDecodeError as e:
             # Onarıma rağmen hata devam ederse, logla ve fallback mekanizmasına gir.
             logger.error(f"JSON ayrıştırma hatası (onarıma rağmen): {e}")
+            logger.error(f"Hata konumu: line {e.lineno}, column {e.colno}")
             logger.debug(f"Ayrıştırılamayan içerik (ilk 500 karakter): {processed_content[:500]}")
             # Hata fırlatarak bir sonraki except bloğunun yakalamasını sağla
             raise e
@@ -1165,11 +1184,11 @@ def validate_clip_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict]
 
     return clip_sequence
 
-def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] = None,
-                     channel_number: Optional[int] = None, timeline_mode: bool = False) -> Optional[bytes]:
+def create_video_sequence(clip_sequence: List[Dict], output_path: Path, clips_metadata: List[Dict] = None,
+                     channel_number: Optional[int] = None, timeline_mode: bool = False) -> bool:
     """
-    Use ffmpeg to concatenate the selected clip segments into a video stream (bytes).
-    Uses temporary files for segments but cleans them up in the project temp directory.
+    Use ffmpeg to concatenate the selected clip segments into a video file.
+    Uses temporary files for segments and writes the final output to the specified path.
     """
     # Kullanılacak geçici dizini belirle
     use_dir = project_temp_dir if project_temp_dir else None # None ise sistem varsayılanını kullanır
@@ -1180,8 +1199,7 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
     logger.info(f"Using temporary directory for segments: {temp_dir}")
 
     segments_list = [] # Başarılı segmentlerin listesi
-    final_video_bytes = None
-
+    
     try:
         # Process each clip segment individually first
         for i, clip in enumerate(clip_sequence):
@@ -1281,17 +1299,19 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
 
         if not valid_segments:
             logger.error("No valid segments were successfully created to concatenate.")
-            return None
+            return False
+
+        file_mgr.ensure_dir_exists(output_path.parent) # Ensure destination dir exists
 
         if len(valid_segments) == 1:
-            logger.info("Only one valid segment. Reading its content.")
+            logger.info("Only one valid segment. Moving it to output path.")
             try:
-                with open(valid_segments[0], 'rb') as f:
-                    final_video_bytes = f.read()
-                logger.info(f"Read single segment video bytes ({len(final_video_bytes)} bytes)")
+                shutil.move(valid_segments[0], str(output_path))
+                logger.info(f"Moved single segment video to {output_path}")
+                return True
             except Exception as e:
-                logger.error(f"Error reading single segment file {valid_segments[0]}: {e}")
-                return None
+                logger.error(f"Error moving single segment file {valid_segments[0]}: {e}")
+                return False
         else:
             concat_file = temp_dir / "concat_list.txt"
             concat_content = "\n".join([f"file '{path.replace(chr(92), '/')}'" for path in valid_segments])
@@ -1301,46 +1321,33 @@ def create_video_sequence(clip_sequence: List[Dict], clips_metadata: List[Dict] 
                 logger.debug(f"Concat file contents:\n{concat_content}")
             except Exception as e:
                 logger.error(f"Error writing concat file: {e}")
-                return None
-
-            # Birleştirilmiş çıktı için geçici dosya yolu oluştur
-            temp_concat_output_path = temp_dir / "concatenated_output.mp4"
+                return False
 
             try:
-                logger.info(f"Concatenating {len(valid_segments)} segments into temporary file: {temp_concat_output_path}...")
+                logger.info(f"Concatenating {len(valid_segments)} segments directly to: {output_path}...")
                 process = subprocess.run([
                     'ffmpeg', '-y',
                     '-f', 'concat', '-safe', '0',
                     '-i', str(concat_file),
                     '-c', 'copy',
-                    # '-f', 'mp4', 'pipe:1' # Pipe yerine dosyaya yaz
-                    str(temp_concat_output_path) # Çıktı olarak geçici dosyayı ver
-                ], check=True, capture_output=True, text=True, encoding='utf-8') # capture_output ve text hala loglama için kalabilir
+                    str(output_path)
+                ], check=True, capture_output=True, text=True, encoding='utf-8')
 
-                # Komut başarılıysa, geçici dosyayı oku
-                logger.info(f"Successfully concatenated segments into temporary file: {temp_concat_output_path}")
-                if temp_concat_output_path.exists() and temp_concat_output_path.stat().st_size > 0:
-                    with open(temp_concat_output_path, 'rb') as f:
-                        final_video_bytes = f.read()
-                    logger.info(f"Read concatenated video bytes from temporary file ({len(final_video_bytes)} bytes)")
-                else:
-                    logger.error("Concatenated temporary file not found or is empty.")
-                    return None
+                logger.info(f"Successfully concatenated segments to: {output_path}")
+                if not output_path.exists() or output_path.stat().st_size == 0:
+                    logger.error("Concatenated output file not found or is empty.")
+                    return False
+                
+                return True
 
             except subprocess.CalledProcessError as e:
-                logger.error(f"Error creating final video sequence via concatenation into file: {e}")
-                logger.error(f"FFmpeg stderr:\n{e.stderr}") # stderr'ı string olarak logla
-                return None
-            # except Exception as e_concat: # Genel hata yakalama
-            #     logger.error(f"Unexpected error during file concatenation: {e_concat}", exc_info=True)
-            #     return None
-
-
-        return final_video_bytes
+                logger.error(f"Error creating final video sequence via concatenation: {e}")
+                logger.error(f"FFmpeg stderr:\n{e.stderr}")
+                return False
 
     except Exception as e:
         logger.error(f"Unexpected error in create_video_sequence: {e}", exc_info=True)
-        return None
+        return False
     finally:
         # TemporaryDirectory'nin otomatik temizliğine güveniyoruz
         try:
@@ -2175,21 +2182,18 @@ def _render_timeline_fallback(timeline: v3, output_path: Path, channel_number: O
         clips = load_clips_metadata()
         
         # Generate video bytes using create_video_sequence
-        logger.info("Generating video bytes using create_video_sequence for fallback...")
-        video_bytes = create_video_sequence(clip_sequence, clips, channel_number, timeline_mode=False)
+        logger.info("Generating video using create_video_sequence for fallback...")
+        success = create_video_sequence(
+            clip_sequence,
+            output_path=output_path,
+            clips_metadata=clips,
+            channel_number=channel_number,
+            timeline_mode=False
+        )
         
-        if video_bytes:
-            logger.info(f"Fallback video generation successful ({len(video_bytes)} bytes). Writing to output path: {output_path}")
-            try:
-                # Write the generated bytes to the final output path
-                output_path.parent.mkdir(parents=True, exist_ok=True) # Ensure directory exists
-                with open(output_path, 'wb') as f_out:
-                    f_out.write(video_bytes)
-                logger.info(f"Successfully wrote fallback video to {output_path}")
-                return True
-            except Exception as write_error:
-                logger.error(f"Error writing fallback video bytes to {output_path}: {write_error}")
-                return False
+        if success:
+            logger.info(f"Fallback video generation successful. Output at: {output_path}")
+            return True
         else:
             logger.error("Fallback video generation using create_video_sequence failed.")
             return False
@@ -2349,8 +2353,9 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
     """
     logger.info(f"--- AŞAMA 3, 4 & 5 BAŞLADI: Video Üretimi - Proje ID: {project_id} ---")
     
-    video_bytes_for_merge: Optional[bytes] = None
+    video_path_for_merge: Optional[Path] = None
     temp_clips_dir_obj = None
+    temp_intermediate_video_file: Optional[Path] = None # For cleaning up the intermediate video
     
     try:
         # --- Önceden Hazırlanmış Varlıkları ve Verileri Yükleme ---
@@ -2547,11 +2552,10 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         clip_sequence = enforce_clip_duration(clip_sequence)
 
         # --- Timeline Creation / Video Generation --- (AŞAMA 3)
-        render_success = False
+        use_dir = project_temp_dir if project_temp_dir else None
 
         if timeline_mode:
             logger.info("Timeline modu etkin. Klipler için geçici dizin hazırlanıyor...")
-            use_dir = project_temp_dir if project_temp_dir else None
             temp_voice_file = None
             try:
                 temp_clips_dir_obj = tempfile.TemporaryDirectory(prefix="videoai_timeline_clips_", dir=use_dir)
@@ -2574,6 +2578,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                           temp_voice_file = None
                 
                 timeline_created = False
+                timeline_object_for_render = None
                 try:
                     logger.info("Geçici klipler kullanılarak klip dizisinden zaman çizelgesi oluşturuluyor...")
                     timeline_object_for_render = create_timeline(
@@ -2587,12 +2592,11 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                 if timeline_created and timeline_object_for_render:
                     logger.info("Geçici klipler dizini kullanılarak zaman çizelgesi tabanlı render deneniyor...")
                     timeline_config = get_timeline_config(channel_number)
-                    use_dir_render = project_temp_dir if project_temp_dir else None
-                    temp_render_file = None
                     try:
-                        with tempfile.NamedTemporaryFile(mode='wb', suffix=".mp4", prefix="videoai_render_", dir=use_dir_render, delete=False) as temp_f:
-                            temp_render_path = temp_f.name
-                            temp_render_file = Path(temp_render_path)
+                        with tempfile.NamedTemporaryFile(mode='w', suffix=".mp4", prefix="videoai_render_", dir=use_dir, delete=False) as temp_f:
+                            temp_render_file = Path(temp_f.name)
+                        
+                        temp_intermediate_video_file = temp_render_file # Cleanup için referans tut
 
                         logger.info(f"Zaman çizelgesi geçici dosyaya render ediliyor: {temp_render_file}...")
                         force_fallback_render = getattr(timeline_config.rendering, 'force_fallback', False)
@@ -2601,24 +2605,24 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                         )
 
                         if render_success and temp_render_file.exists() and temp_render_file.stat().st_size > 0:
-                            logger.info("✅ Zaman çizelgesi tabanlı render başarılı. Baytlar okunuyor...")
-                            with open(temp_render_file, 'rb') as f: video_bytes_for_merge = f.read()
+                            logger.info("✅ Zaman çizelgesi tabanlı render başarılı.")
+                            video_path_for_merge = temp_render_file
                         else:
                             logger.warning("Zaman çizelgesi tabanlı render başarısız oldu veya boş bir dosya üretti.")
-                            render_success = False
-                            video_bytes_for_merge = None
+                            if temp_intermediate_video_file and temp_intermediate_video_file.exists():
+                                 temp_intermediate_video_file.unlink()
+                            temp_intermediate_video_file = None
+
 
                     except Exception as render_err:
                         logger.error(f"Zaman çizelgesi render sırasında hata: {render_err}", exc_info=True)
-                        render_success = False
-                        video_bytes_for_merge = None
-                    finally:
-                        if temp_render_file and temp_render_file.exists():
-                            try: temp_render_file.unlink()
-                            except OSError as e_clean: logger.warning(f"Geçici render dosyası {temp_render_file} kaldırılamadı: {e_clean}")
+                        if temp_intermediate_video_file and temp_intermediate_video_file.exists():
+                            try: temp_intermediate_video_file.unlink()
+                            except OSError as e_clean: logger.warning(f"Geçici render dosyası {temp_intermediate_video_file} kaldırılamadı: {e_clean}")
+                        temp_intermediate_video_file = None
+
                 else:
                     logger.warning("Zaman çizelgesi nesnesi oluşturulmadı, zaman çizelgesi render işlemi atlanıyor.")
-                    render_success = False
             finally:
                  if temp_clips_dir_obj:
                      try: temp_clips_dir_obj.cleanup()
@@ -2627,17 +2631,41 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                      try: temp_voice_file.unlink()
                      except OSError as e_clean_voice: logger.warning(f"Geçici ses dosyası {temp_voice_file} kaldırılamadı: {e_clean_voice}")
         
-        if video_bytes_for_merge is None:
+        if video_path_for_merge is None:
             if timeline_mode: logger.warning("Zaman çizelgesi render başarısız oldu veya atlandı. `create_video_sequence`'e geri dönülüyor.")
             else: logger.info("Zaman çizelgesi modu devre dışı. `create_video_sequence` kullanılıyor.")
-            video_bytes_for_merge = create_video_sequence(clip_sequence, clips_metadata, channel_number, timeline_mode=False)
+            
+            try:
+                 with tempfile.NamedTemporaryFile(mode='w', suffix=".mp4", prefix="videoai_fallback_", dir=use_dir, delete=False) as temp_f:
+                      fallback_video_file = Path(temp_f.name)
+                 temp_intermediate_video_file = fallback_video_file
+                 
+                 logger.info(f"Geleneksel video üretimi geçici dosyaya yapılıyor: {fallback_video_file}")
+                 sequence_success = create_video_sequence(
+                     clip_sequence, fallback_video_file, clips_metadata, channel_number, timeline_mode=False
+                 )
+                 
+                 if sequence_success and fallback_video_file.exists() and fallback_video_file.stat().st_size > 0:
+                      video_path_for_merge = fallback_video_file
+                 else:
+                      logger.error("`create_video_sequence` başarısız oldu veya boş dosya üretti.")
+                      if temp_intermediate_video_file and temp_intermediate_video_file.exists():
+                           temp_intermediate_video_file.unlink()
+                      temp_intermediate_video_file = None
+            except Exception as fallback_err:
+                logger.error(f"Geleneksel video üretimi sırasında hata: {fallback_err}", exc_info=True)
+                if temp_intermediate_video_file and temp_intermediate_video_file.exists():
+                    try: temp_intermediate_video_file.unlink()
+                    except OSError: pass
+                temp_intermediate_video_file = None
 
-        if video_bytes_for_merge is None:
-             logger.error("Video dizisi baytları (Zaman Çizelgesi veya Fallback) oluşturulamadı. İşleme devam edilemiyor.")
+
+        if video_path_for_merge is None:
+             logger.error("Ara video dosyası (Zaman Çizelgesi veya Fallback) oluşturulamadı. İşleme devam edilemiyor.")
              return None
 
         # --- Merge Voice and Add BGM --- (AŞAMA 4)
-        logger.info("Ses video baytları ile birleştiriliyor ve BGM ekleniyor...")
+        logger.info("Ses video dosyası ile birleştiriliyor ve BGM ekleniyor...")
         use_dir_merge = project_temp_dir if project_temp_dir else None
         temp_voice_file = None
         merge_success = False
@@ -2648,7 +2676,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                  temp_voice_file = Path(temp_voice_path)
             
             merge_success = merge_voice_with_video(
-                 video_bytes=video_bytes_for_merge, voice_path=str(temp_voice_file), channel_number=channel_number, voice_duration=target_duration
+                 video_path=str(video_path_for_merge), voice_path=str(temp_voice_file), channel_number=channel_number, voice_duration=target_duration
             )
         finally:
              if temp_voice_file and temp_voice_file.exists():
@@ -2721,6 +2749,14 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
              except Exception as cleanup_error:
                   logger.warning(f"Geçici klip dizini temizlenemedi: {cleanup_error}")
         return None
+    finally:
+        # Ara video dosyasını temizle
+        if temp_intermediate_video_file and temp_intermediate_video_file.exists():
+            try:
+                temp_intermediate_video_file.unlink()
+                logger.info(f"Geçici ara video dosyası temizlendi: {temp_intermediate_video_file}")
+            except Exception as e_clean_inter:
+                logger.warning(f"Geçici ara video dosyası {temp_intermediate_video_file} kaldırılamadı: {e_clean_inter}")
 
 def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: str) -> Optional[str]:
     """
@@ -2767,14 +2803,7 @@ def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: s
             logger.error("Onaylanmış shot'lardan geçerli bir klip dizisi oluşturulamadı.")
             return None
 
-        # 3. Save the new clip sequence to the project's response_json
-        logger.info(f"Oluşturulan klip dizisi Proje {project_id} için `response_json`'a kaydediliyor...")
-        response_json_str = json.dumps(clip_sequence, indent=4)
-        update_response = supabase.table("projects").update({"response_json": response_json_str}).eq("id", project_id).execute()
-
-        if not update_response.data:
-            logger.error(f"Proje {project_id} için `response_json` güncellenemedi.")
-            return None
+       
 
         # 4. Find the relevant caption_id for the project
         logger.info(f"Proje {project_id} için ilgili caption ID'si bulunuyor...")
@@ -2993,7 +3022,6 @@ if __name__ == "__main__":
     if not success:
         print("Video editing process failed")
         sys.exit(1)
-
 # <<< BU FONKSİYONU EKLEYİN >>>
 def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, storage_bucket: str = "video-database") -> bool:
     """
