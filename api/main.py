@@ -4,7 +4,7 @@ load_dotenv()
 import json
 import os
 import base64
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, WebSocket, WebSocketDisconnect
 from urllib.parse import quote
 from api.RequestSchemes.ScriptRequest import ScriptRequest 
 from api.RequestSchemes.UpdateScriptRequest import UpdateScriptRequest
@@ -68,6 +68,8 @@ import uuid
 # Celery görevimizi import ediyoruz
 from tasks import create_final_video_task
 from celery.result import AsyncResult
+from api.websockets.manager import manager
+from api.websockets.pubsub import subscribe_to_channel
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
@@ -928,47 +930,41 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
         return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred while queueing the task: {str(e)}")
 
 
-@app.get("/task-status/{task_id}", response_model=GenerateFinalVideoFromStoryboardResponse)
-def get_task_status(task_id: str, current_user: dict = Depends(get_current_user)):
+@app.websocket("/ws/task-status/{task_id}")
+async def websocket_endpoint(websocket: WebSocket, task_id: str):
     """
-    Bir Celery görevinin durumunu kontrol eder.
+    WebSocket bağlantısını yönetir.
+    - Bir task_id için bağlantı kurar.
+    - Redis Pub/Sub üzerinden o task_id kanalını dinler.
+    - Gelen mesajları istemciye iletir.
     """
-    logger.info(f"Checking status for task_id: {task_id}")
-    task_result = AsyncResult(task_id, app=create_final_video_task.app)
+    await manager.connect(task_id, websocket)
+    logger.info(f"WebSocket connection established for task_id: {task_id}")
     
-    response_data = {
-        "success": True,
-        "task_id": task_id,
-        "status": task_result.status,
-        "message": f"Task status: {task_result.status}"
-    }
+    try:
+        # Redis'ten gelen mesajları dinle ve istemciye gönder
+        async for message in subscribe_to_channel(task_id):
+            logger.info(f"Message received from Redis for {task_id}: {message}")
+            # Mesajın JSON olup olmadığını kontrol et
+            try:
+                # JSON verisi ise, JSON olarak gönder
+                data = json.loads(message)
+                await manager.send_json_message(data, task_id)
+            except json.JSONDecodeError:
+                # Düz metin ise, metin olarak gönder
+                await manager.send_personal_message(message, task_id)
 
-    if task_result.successful():
-        result = task_result.get()
-        logger.info(f"Task {task_id} completed successfully. Result: {result}")
-        
-        video_storage_path = result
-        # Kullanıcının videoya erişebilmesi için imzalı bir URL oluştur
-        signed_url_response = supabase.storage.from_("final-videos").create_signed_url(video_storage_path, 3600) # 1 saat geçerli
-        
-        video_url = signed_url_response.get("signedURL")
-        if not video_url:
-             logger.error(f"Could not create signed URL for {video_storage_path}")
-             response_data["message"] = "Video generated but could not create URL."
-             response_data["video_url"] = None
-        else:
-            response_data["message"] = "Task completed successfully."
-            response_data["video_url"] = video_url
+    except WebSocketDisconnect:
+        logger.info(f"WebSocket disconnected for task_id: {task_id}")
+    except Exception as e:
+        logger.error(f"An error occurred in WebSocket for task_id {task_id}: {e}", exc_info=True)
+    finally:
+        # Bağlantı koptuğunda veya hata olduğunda bağlantıyı temizle
+        manager.disconnect(task_id)
+        logger.info(f"Connection for task_id {task_id} closed and cleaned up.")
 
-    elif task_result.failed():
-        # Hata durumunda, hata mesajını al
-        error_info = task_result.info
-        logger.error(f"Task {task_id} failed. Info: {error_info}")
-        response_data["success"] = False
-        response_data["message"] = f"Task failed: {str(error_info)}"
-        response_data["video_url"] = None
 
-    return GenerateFinalVideoFromStoryboardResponse(**response_data)
+
 
 
 @app.post("/export-project", response_model=ExportProjectResponse)
