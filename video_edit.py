@@ -22,6 +22,8 @@ import re # get_num_segments için import
 import pysrt # Karaoke efekti için eklendi
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
+import requests # Akış için requests kütüphanesini import et
+import psutil # Bellek kullanımı takibi için eklendi
 
 load_dotenv()
 
@@ -2902,12 +2904,22 @@ if __name__ == "__main__":
     if not success:
         print("Video editing process failed")
         sys.exit(1)
-# <<< BU FONKSİYONU EKLEYİN >>>
+
+# <<< BU FONKSİYONU GÜNCELLEYİN >>>
 def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, storage_bucket: str = "video-database") -> bool:
     """
-    Downloads clips specified in the sequence from Supabase storage in parallel.
+    Downloads clips specified in the sequence from Supabase storage in parallel by streaming
+    them to disk to reduce memory usage.
     Skips placeholder clips. Ensures target subdirectories exist.
     """
+    import requests # Akış için requests kütüphanesini import et
+    
+    # --- Bellek Kullanımı Loglama Başlangıcı ---
+    process = psutil.Process(os.getpid())
+    mem_before = process.memory_info().rss / (1024 * 1024) # MB cinsinden
+    logger.info(f"RAM Kullanımı (Klip İndirme Öncesi): {mem_before:.2f} MB")
+    # --- Bellek Kullanımı Loglama Sonu ---
+
     if not supabase:
         logger.error("Supabase client not initialized. Cannot download clips.")
         return False
@@ -2928,34 +2940,52 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     logger.info(f"Checking/Downloading {len(clips_to_download)} unique clips in parallel to {target_dir}...")
 
     def _download_single_clip(clip_name: str) -> bool:
-        """Helper function to download a single clip."""
+        """Helper function to download a single clip by streaming to reduce memory."""
         local_path = target_dir / clip_name
-        if local_path.exists():
+        # Dosyanın varlığını ve boş olup olmadığını kontrol et
+        if local_path.exists() and local_path.stat().st_size > 0:
             return True
         
         try:
             local_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(local_path, 'wb+') as f:
-                res = supabase.storage.from_(storage_bucket).download(clip_name)
-                f.write(res)
-            # logger.debug(f"Successfully downloaded {clip_name}")
+            
+            # İndirme için kısa süreli geçerli bir URL al
+            signed_url_response = supabase.storage.from_(storage_bucket).create_signed_url(clip_name, 60)
+            signed_url = signed_url_response.get('signedURL')
+
+            if not signed_url:
+                logger.error(f"Could not get signed URL for clip {clip_name}")
+                return False
+
+            # Dosyayı belleğe almadan doğrudan diske akıtarak indir
+            with requests.get(signed_url, stream=True) as r:
+                r.raise_for_status() # Hatalı durum kodları için exception fırlat
+                with open(local_path, 'wb') as f:
+                    for chunk in r.iter_content(chunk_size=8192): 
+                        f.write(chunk)
+            
             return True
         except Exception as e:
-            logger.error(f"Failed to download clip {clip_name}: {e}", exc_info=True)
+            logger.error(f"Failed to stream download clip {clip_name}: {e}", exc_info=True)
+            # Hata durumunda yarım inmiş dosyayı temizle
             if local_path.exists():
-                try: local_path.unlink()
-                except OSError: pass
+                try: 
+                    local_path.unlink()
+                except OSError: 
+                    pass
             return False
 
     # Paralel indirme için bir thread pool kullan
-    # max_workers, aynı anda kaç indirme yapılacağını belirler.
-    with ThreadPoolExecutor(max_workers=16) as executor:
-        # map fonksiyonu, her bir klip adı için _download_single_clip fonksiyonunu çalıştırır
-        # ve sonuçları (True/False) bir iterator olarak döndürür.
+    with ThreadPoolExecutor(max_workers=8) as executor:
         results = executor.map(_download_single_clip, clips_to_download)
 
-    # all() fonksiyonu, tüm sonuçların True olup olmadığını kontrol eder.
     all_successful = all(results)
+
+    # --- Bellek Kullanımı Loglama Başlangıcı ---
+    mem_after = process.memory_info().rss / (1024 * 1024) # MB cinsinden
+    logger.info(f"RAM Kullanımı (Klip İndirme Sonrası): {mem_after:.2f} MB")
+    logger.info(f"İndirme işlemi için kullanılan yaklaşık RAM: {mem_after - mem_before:.2f} MB")
+    # --- Bellek Kullanımı Loglama Sonu ---
 
     if all_successful:
         logger.info("All required clips are now available locally.")
@@ -2963,4 +2993,4 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
         logger.error("One or more required clips could not be downloaded. Timeline creation might fail.")
 
     return all_successful
-# <<< FONKSİYON TANIMI SONU >>>
+# <<< GÜNCELLEME SONU >>>

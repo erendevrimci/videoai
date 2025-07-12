@@ -66,7 +66,8 @@ from typing import Optional # Optional importu eklendi/kontrol edildi
 import asyncio
 import uuid
 # Celery görevimizi import ediyoruz
-# from tasks import create_final_video_task # Test için kaldırıldı
+from tasks import create_final_video_task
+from celery.result import AsyncResult
 
 # Log seviyesini ayarla
 logging.basicConfig(level=logging.DEBUG)
@@ -890,13 +891,13 @@ def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user
 
 
 
-@app.post("/generate-final-video-from-storyboard", response_model=GenerateFinalVideoFromStoryboardResponse)
+@app.post("/generate-final-video-from-storyboard", status_code=202, response_model=GenerateFinalVideoFromStoryboardResponse)
 def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboardRequest, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
         storyboard_id = request.storyboard_id
         
-        # Storyboard'un varlığını ve kullanıcıya ait olduğunu hızlıca kontrol et
+        # Storyboard varlığını ve kullanıcıya ait olduğunu kontrol et
         storyboard_response = supabase.table("storyboards").select("id, project_id").eq("id", storyboard_id).eq("user_id", user_id).single().execute()
         
         if not storyboard_response.data:
@@ -904,39 +905,70 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
             
         project_id = storyboard_response.data["project_id"]
 
-        # --- SENKRON VİDEO OLUŞTURMA (TEST İÇİN) ---
-        # Arka plan görevi yerine, fonksiyonu doğrudan burada çağırıyoruz.
-        # Bu, isteğin video oluşturma bitene kadar beklemesine neden olacaktır.
-        logger.info(f"Starting synchronous video generation for storyboard {storyboard_id}...")
-        video_storage_path = video_edit.create_video_from_storyboard(
+        # Ağır video oluşturma işini doğrudan çağırmak yerine,
+        # Celery görevini kuyruğa gönderiyoruz.
+        logger.info(f"Queueing video generation task for storyboard {storyboard_id}...")
+        task = create_final_video_task.delay(
             storyboard_id=storyboard_id,
             project_id=project_id,
             user_id=user_id
         )
+        logger.info(f"Task queued successfully with ID: {task.id}")
 
-        if not video_storage_path:
-            logger.error(f"Synchronous video generation failed for storyboard {storyboard_id}.")
-            return GenerateFinalVideoFromStoryboardResponse(success=False, message="Video generation failed.")
+        # Kullanıcıya görevin başladığını ve görev ID'sini hemen döndürüyoruz.
+        return GenerateFinalVideoFromStoryboardResponse(
+            success=True, 
+            message="Final video generation has been started.",
+            task_id=task.id
+        )
 
-        logger.info(f"Video generation successful. Storage path: {video_storage_path}")
+    except Exception as e:
+        import traceback
+        logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
+        return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred while queueing the task: {str(e)}")
+
+
+@app.get("/task-status/{task_id}", response_model=GenerateFinalVideoFromStoryboardResponse)
+def get_task_status(task_id: str, current_user: dict = Depends(get_current_user)):
+    """
+    Bir Celery görevinin durumunu kontrol eder.
+    """
+    logger.info(f"Checking status for task_id: {task_id}")
+    task_result = AsyncResult(task_id, app=create_final_video_task.app)
+    
+    response_data = {
+        "success": True,
+        "task_id": task_id,
+        "status": task_result.status,
+        "message": f"Task status: {task_result.status}"
+    }
+
+    if task_result.successful():
+        result = task_result.get()
+        logger.info(f"Task {task_id} completed successfully. Result: {result}")
+        
+        video_storage_path = result
         # Kullanıcının videoya erişebilmesi için imzalı bir URL oluştur
         signed_url_response = supabase.storage.from_("final-videos").create_signed_url(video_storage_path, 3600) # 1 saat geçerli
         
         video_url = signed_url_response.get("signedURL")
         if not video_url:
              logger.error(f"Could not create signed URL for {video_storage_path}")
-             return GenerateFinalVideoFromStoryboardResponse(success=False, message="Video generated but could not create URL.")
+             response_data["message"] = "Video generated but could not create URL."
+             response_data["video_url"] = None
+        else:
+            response_data["message"] = "Task completed successfully."
+            response_data["video_url"] = video_url
 
-        return GenerateFinalVideoFromStoryboardResponse(
-            success=True, 
-            message="Final video generated successfully.",
-            video_url=video_url
-        )
+    elif task_result.failed():
+        # Hata durumunda, hata mesajını al
+        error_info = task_result.info
+        logger.error(f"Task {task_id} failed. Info: {error_info}")
+        response_data["success"] = False
+        response_data["message"] = f"Task failed: {str(error_info)}"
+        response_data["video_url"] = None
 
-    except Exception as e:
-        import traceback
-        logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
-        return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred: {str(e)}")
+    return GenerateFinalVideoFromStoryboardResponse(**response_data)
 
 
 @app.post("/export-project", response_model=ExportProjectResponse)
