@@ -35,6 +35,8 @@ mutagen
 numpy==1.26.4
 openai
 python-dotenv==1.0.1
+celery
+redis
 pysrt
 httpx
 google-genai
