@@ -1,13 +1,11 @@
 import json
 import subprocess
 import random
-import os  # Keep for os.listdir for now
+import os  # Keep for os.listdir for no
 from pathlib import Path
 from typing import List, Dict, Optional, Any, Union, Tuple
 import shutil
 from openai import OpenAI
-import traceback
-import sys
 from config import config, get_timeline_config
 from file_manager import FileManager
 # from timeline_manager import TimelineManager
@@ -20,7 +18,7 @@ import re # get_num_segments için import
 import pysrt # Karaoke efekti için eklendi
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
-import psutil # Bellek kullanımı takibi için eklendi
+
 from logging_system.memory_monitor import log_memory_usage # EKLENDİ
 
 # MODÜL İLK YÜKLENDİĞİNDEKİ DURUM
@@ -2915,11 +2913,6 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     """
     import requests # Akış için requests kütüphanesini import et
     
-    # --- Bellek Kullanımı Loglama Başlangıcı ---
-    process = psutil.Process(os.getpid())
-    mem_before = process.memory_info().rss / (1024 * 1024) # MB cinsinden
-    logger.info(f"RAM Kullanımı (Klip İndirme Öncesi): {mem_before:.2f} MB")
-    # --- Bellek Kullanımı Loglama Sonu ---
 
     if not supabase:
         logger.error("Supabase client not initialized. Cannot download clips.")
@@ -2982,11 +2975,7 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
 
     all_successful = all(results)
 
-    # --- Bellek Kullanımı Loglama Başlangıcı ---
-    mem_after = process.memory_info().rss / (1024 * 1024) # MB cinsinden
-    logger.info(f"RAM Kullanımı (Klip İndirme Sonrası): {mem_after:.2f} MB")
-    logger.info(f"İndirme işlemi için kullanılan yaklaşık RAM: {mem_after - mem_before:.2f} MB")
-    # --- Bellek Kullanımı Loglama Sonu ---
+  
 
     if all_successful:
         logger.info("All required clips are now available locally.")
