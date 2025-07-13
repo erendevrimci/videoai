@@ -23,25 +23,6 @@ celery_app = Celery(
     broker_connection_retry_on_startup=True
 )
 
-# Memory-optimized configuration
-celery_app.conf.update(
-    task_track_started=True,
-    # Worker concurrency ayarları
-    worker_concurrency=2,  # Her worker sadece 1 task
-    worker_prefetch_multiplier=1,  # Prefetch sadece 1 task
-    worker_max_tasks_per_child=2,  # 2 task sonra restart (memory leak prevention)
-    # Task timeout
-    task_soft_time_limit=1800,  # 30 dakika
-    task_time_limit=2400,  # 40 dakika
-    # Result cleanup
-    result_expires=3600,  # 1 saat
-    # Memory optimization
-    worker_hijack_root_logger=False,
-    worker_log_color=False,
-    # Import optimization
-    worker_enable_remote_control=False,
-    worker_send_task_events=False,
-)
 
 # Lazy loading helper functions
 def get_supabase_client():
