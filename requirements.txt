@@ -1,17 +1,9 @@
 requests>=2.31.0
 types-requests>=2.31.0.20240218
-pydantic>=2.6.1
-moviepy>=1.0.3
-pydub>=0.25.1
 ffmpeg-python>=0.2.0
-scenedetect>=0.6.2
 jsonschema>=4.20.0
-psutil
 supabase==2.15.0
-pydantic-settings==2.8.1
-av
 mutagen
-numpy==1.26.4
 openai
 python-dotenv==1.0.1
 celery
