@@ -6,6 +6,11 @@ import json
 import asyncio
 from api.websockets.pubsub import publish_message # Publish fonksiyonumuzu import ediyoruz
 from supabase import create_client
+from logging_system.memory_monitor import log_memory_usage # EKLENDİ
+
+# MODÜL İLK YÜKLENDİĞİNDEKİ DURUM
+log_memory_usage("tasks.py imported")
+
 
 # .env dosyasını yükle
 load_dotenv()
@@ -43,6 +48,8 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
     Returns:
         Oluşturulan videonun Supabase Storage'daki yolu veya hata mesajı.
     """
+    log_memory_usage("Task started") # GÖREV BAŞLANGICI
+
     task_id = self.request.id
     # Celery'nin senkron doğasıyla uyumlu çalışmak için olay döngüsünü manuel yönetiyoruz.
     loop = asyncio.get_event_loop()
@@ -62,6 +69,8 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
             project_id=project_id,
             user_id=user_id
         )
+        
+        log_memory_usage("video_edit.create_video_from_storyboard finished") # ANA İŞLEM BİTİŞİ
         
         # --- Sonucu Bildir ---
         if video_path:
@@ -86,6 +95,7 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
             }
             loop.run_until_complete(publish_message(task_id, json.dumps(success_message)))
             # Celery'nin kendi sonucuna da URL'i ekleyelim (yedek olarak)
+            log_memory_usage("Task finished successfully") # GÖREV BİTİŞİ
             return success_message["result"]
         else:
             print(f"Celery task [{task_id}] finished with failure.")
@@ -94,6 +104,7 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
                 "message": "Video generation failed in the editing process."
             }
             loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+            log_memory_usage("Task failed") # GÖREV BİTİŞİ (HATA)
             return "Video generation failed."
 
     except Exception as e:
@@ -107,5 +118,6 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
         }
         # Hata durumunda da mesajı yayınlamaya çalış
         loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+        log_memory_usage("Task failed with exception") # GÖREV BİTİŞİ (İSTİSNA)
         # Celery'nin hatayı düzgün işlemesi için yeniden fırlat
         raise e 

@@ -21,6 +21,10 @@ import pysrt # Karaoke efekti için eklendi
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
 import psutil # Bellek kullanımı takibi için eklendi
+from logging_system.memory_monitor import log_memory_usage # EKLENDİ
+
+# MODÜL İLK YÜKLENDİĞİNDEKİ DURUM
+log_memory_usage("video_edit.py imported")
 
 load_dotenv()
 
