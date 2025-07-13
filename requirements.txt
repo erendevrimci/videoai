@@ -1,8 +1,10 @@
 requests>=2.31.0
 types-requests>=2.31.0.20240218
+pydantic>=2.6.1
 ffmpeg-python>=0.2.0
 jsonschema>=4.20.0
 supabase==2.15.0
+pydantic-settings==2.8.1
 mutagen
 openai
 python-dotenv==1.0.1
