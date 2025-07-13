@@ -2715,7 +2715,7 @@ def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: s
         logger.error(f"Storyboard'dan video oluşturma sürecinde beklenmedik hata: {str(e)}", exc_info=True)
         return None
 
-def main(channel_number: Optional[int] = None, timeline_mode: bool = False, timeline: Optional[v3] = None) -> bool:
+def main(channel_number: Optional[int] = None, timeline_mode: bool = False) -> bool:
     """
     Main video editing function, either based on channel config or a timeline.
     """
