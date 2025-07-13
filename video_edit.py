@@ -10,7 +10,7 @@ import traceback
 import sys
 from config import config, get_timeline_config
 from file_manager import FileManager
-from timeline_manager import TimelineManager
+# from timeline_manager import TimelineManager
 # from auto_editor.timeline import v3, TlVideo, TlAudio
 from logging_system.logger import Logger
 from supabase import create_client# StorageException import edildiğinden emin olun
@@ -2778,129 +2778,129 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False, time
         return False
 
 
-if __name__ == "__main__":
-    # Parse command line arguments for channel
-    import argparse
+# if __name__ == "__main__":
+#     # Parse command line arguments for channel
+#     import argparse
     
-    parser = argparse.ArgumentParser(description="Create and edit video for VideoAI")
-    parser.add_argument("--channel", type=int, choices=[1, 2, 3], 
-                       help="Channel number to use (1-3)")
+#     parser = argparse.ArgumentParser(description="Create and edit video for VideoAI")
+#     parser.add_argument("--channel", type=int, choices=[1, 2, 3], 
+#                        help="Channel number to use (1-3)")
     
-    # Timeline and rendering feature flags
-    timeline_group = parser.add_argument_group('Timeline Features')
-    timeline_group.add_argument("--timeline", action="store_true",
-                              help="Enable timeline-based video generation")
-    timeline_group.add_argument("--force-fallback", action="store_true",
-                              help="Force using fallback rendering path (overrides configuration)")
-    timeline_group.add_argument("--direct-rendering", action="store_true",
-                              help="Try to use direct timeline rendering (overrides configuration)")
-    timeline_group.add_argument("--skip-compatibility", action="store_true",
-                              help="Skip backward compatibility checking (may cause errors)")
-    timeline_group.add_argument("--timeline-file", type=str,
-                              help="Load a specific timeline file for processing")
+#     # Timeline and rendering feature flags
+#     timeline_group = parser.add_argument_group('Timeline Features')
+#     timeline_group.add_argument("--timeline", action="store_true",
+#                               help="Enable timeline-based video generation")
+#     timeline_group.add_argument("--force-fallback", action="store_true",
+#                               help="Force using fallback rendering path (overrides configuration)")
+#     timeline_group.add_argument("--direct-rendering", action="store_true",
+#                               help="Try to use direct timeline rendering (overrides configuration)")
+#     timeline_group.add_argument("--skip-compatibility", action="store_true",
+#                               help="Skip backward compatibility checking (may cause errors)")
+#     timeline_group.add_argument("--timeline-file", type=str,
+#                               help="Load a specific timeline file for processing")
                               
-    # Performance monitoring options
-    perf_group = parser.add_argument_group('Performance Monitoring')
-    perf_group.add_argument("--enable-monitoring", action="store_true",
-                         help="Enable performance monitoring for rendering")
-    perf_group.add_argument("--track-memory", action="store_true",
-                         help="Track memory usage during rendering")
-    perf_group.add_argument("--save-perf-reports", action="store_true",
-                         help="Save performance reports to disk")
-    perf_group.add_argument("--performance-dir", type=str,
-                         help="Directory for performance reports")
+#     # Performance monitoring options
+#     perf_group = parser.add_argument_group('Performance Monitoring')
+#     perf_group.add_argument("--enable-monitoring", action="store_true",
+#                          help="Enable performance monitoring for rendering")
+#     perf_group.add_argument("--track-memory", action="store_true",
+#                          help="Track memory usage during rendering")
+#     perf_group.add_argument("--save-perf-reports", action="store_true",
+#                          help="Save performance reports to disk")
+#     perf_group.add_argument("--performance-dir", type=str,
+#                          help="Directory for performance reports")
     
-    args = parser.parse_args()
+#     args = parser.parse_args()
     
-    # Apply performance monitoring settings to configuration
-    if args.enable_monitoring or args.track_memory or args.save_perf_reports or args.performance_dir:
-        channel_num = args.channel if args.channel is not None else config.default_channel
-        timeline_config = get_timeline_config(channel_num)
+#     # Apply performance monitoring settings to configuration
+#     if args.enable_monitoring or args.track_memory or args.save_perf_reports or args.performance_dir:
+#         channel_num = args.channel if args.channel is not None else config.default_channel
+#         timeline_config = get_timeline_config(channel_num)
         
-        # Only override if explicitly provided
-        if args.enable_monitoring:
-            timeline_config.rendering.enable_performance_monitoring = True
-            print("Performance monitoring enabled")
+#         # Only override if explicitly provided
+#         if args.enable_monitoring:
+#             timeline_config.rendering.enable_performance_monitoring = True
+#             print("Performance monitoring enabled")
             
-        if args.track_memory:
-            timeline_config.rendering.track_memory_usage = True
-            print("Memory tracking enabled")
+#         if args.track_memory:
+#             timeline_config.rendering.track_memory_usage = True
+#             print("Memory tracking enabled")
             
-        if args.save_perf_reports:
-            timeline_config.rendering.save_performance_reports = True
-            print("Performance report saving enabled")
+#         if args.save_perf_reports:
+#             timeline_config.rendering.save_performance_reports = True
+#             print("Performance report saving enabled")
             
-        if args.performance_dir:
-            timeline_config.rendering.performance_output_dir = args.performance_dir
-            print(f"Performance reports will be saved to: {args.performance_dir}")
+#         if args.performance_dir:
+#             timeline_config.rendering.performance_output_dir = args.performance_dir
+#             print(f"Performance reports will be saved to: {args.performance_dir}")
     
-    # Check if a timeline file was specified
-    timeline = None
-    if hasattr(args, 'timeline_file') and args.timeline_file:
-        try:
-            # Initialize timeline manager
-            timeline_mgr = TimelineManager(channel_number=args.channel)
+#     # Check if a timeline file was specified
+#     timeline = None
+#     if hasattr(args, 'timeline_file') and args.timeline_file:
+#         try:
+#             # Initialize timeline manager
+#             timeline_mgr = TimelineManager(channel_number=args.channel)
             
-            # Load the specified timeline
-            timeline_path = Path(args.timeline_file)
-            if not timeline_path.is_absolute():
-                # If relative path, use proper timeline path resolution
-                timeline_path = timeline_mgr.get_timeline_path(args.timeline_file)
+#             # Load the specified timeline
+#             timeline_path = Path(args.timeline_file)
+#             if not timeline_path.is_absolute():
+#                 # If relative path, use proper timeline path resolution
+#                 timeline_path = timeline_mgr.get_timeline_path(args.timeline_file)
                 
-            print(f"Loading timeline from: {timeline_path}")
-            timeline = timeline_mgr.deserialize_timeline(timeline_path)
-            if timeline:
-                print("Timeline loaded successfully")
+#             print(f"Loading timeline from: {timeline_path}")
+#             timeline = timeline_mgr.deserialize_timeline(timeline_path)
+#             if timeline:
+#                 print("Timeline loaded successfully")
                 
-                # Set feature flags based on command line arguments
-                from config import get_timeline_config
-                timeline_config = get_timeline_config(args.channel)
-                timeline_config.rendering.enabled = True
-            else:
-                print(f"Error: Could not load timeline from {timeline_path}")
-                sys.exit(1)
-        except Exception as e:
-            print(f"Error loading timeline: {e}")
-            sys.exit(1)
+#                 # Set feature flags based on command line arguments
+#                 from config import get_timeline_config
+#                 timeline_config = get_timeline_config(args.channel)
+#                 timeline_config.rendering.enabled = True
+#             else:
+#                 print(f"Error: Could not load timeline from {timeline_path}")
+#                 sys.exit(1)
+#         except Exception as e:
+#             print(f"Error loading timeline: {e}")
+#             sys.exit(1)
     
-    # If rendering-specific flags were provided, update the configuration
-    if args.timeline and (args.force_fallback or args.direct_rendering or args.skip_compatibility):
-        try:
-            from config import config, get_timeline_config
+#     # If rendering-specific flags were provided, update the configuration
+#     if args.timeline and (args.force_fallback or args.direct_rendering or args.skip_compatibility):
+#         try:
+#             from config import config, get_timeline_config
             
-            # Get the current channel configuration
-            channel_num = args.channel if args.channel is not None else config.default_channel
-            timeline_config = get_timeline_config(channel_num)
+#             # Get the current channel configuration
+#             channel_num = args.channel if args.channel is not None else config.default_channel
+#             timeline_config = get_timeline_config(channel_num)
             
-            # Override settings based on command-line flags
-            if args.force_fallback:
-                timeline_config.rendering.force_fallback = True
-                timeline_config.rendering.prefer_direct_rendering = False
-                print("Forcing fallback rendering mode (--force-fallback)")
+#             # Override settings based on command-line flags
+#             if args.force_fallback:
+#                 timeline_config.rendering.force_fallback = True
+#                 timeline_config.rendering.prefer_direct_rendering = False
+#                 print("Forcing fallback rendering mode (--force-fallback)")
                 
-            if args.direct_rendering:
-                timeline_config.rendering.enabled = True
-                timeline_config.rendering.prefer_direct_rendering = True
-                timeline_config.rendering.force_fallback = False
-                print("Forcing direct rendering mode (--direct-rendering)")
+#             if args.direct_rendering:
+#                 timeline_config.rendering.enabled = True
+#                 timeline_config.rendering.prefer_direct_rendering = True
+#                 timeline_config.rendering.force_fallback = False
+#                 print("Forcing direct rendering mode (--direct-rendering)")
                 
-            if args.skip_compatibility:
-                timeline_config.rendering.compatibility_mode = False
-                print("Disabling compatibility checks (--skip-compatibility)")
+#             if args.skip_compatibility:
+#                 timeline_config.rendering.compatibility_mode = False
+#                 print("Disabling compatibility checks (--skip-compatibility)")
                 
-        except Exception as e:
-            print(f"Warning: Could not apply timeline rendering flags: {e}")
+#         except Exception as e:
+#             print(f"Warning: Could not apply timeline rendering flags: {e}")
     
-    # Run with specified parameters and check success
-    success = main(
-        channel_number=args.channel, 
-        timeline_mode=args.timeline or timeline is not None,
-        timeline=timeline
-    )
+#     # Run with specified parameters and check success
+#     success = main(
+#         channel_number=args.channel, 
+#         timeline_mode=args.timeline or timeline is not None,
+#         timeline=timeline
+#     )
     
-    if not success:
-        print("Video editing process failed")
-        sys.exit(1)
+#     if not success:
+#         print("Video editing process failed")
+#         sys.exit(1)
 
 # <<< BU FONKSİYONU GÜNCELLEYİN >>>
 def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, storage_bucket: str = "video-database") -> bool:
