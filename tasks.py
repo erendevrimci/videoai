@@ -1,6 +1,5 @@
 import os
 from celery import Celery
-import video_edit
 from dotenv import load_dotenv
 import json
 import asyncio
@@ -47,7 +46,8 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
     Returns:
         Oluşturulan videonun Supabase Storage'daki yolu veya hata mesajı.
     """
-   
+    # Ağır modülü, sadece görev başladığında import et (Lazy Loading)
+    import video_edit
 
     task_id = self.request.id
     # Celery'nin senkron doğasıyla uyumlu çalışmak için olay döngüsünü manuel yönetiyoruz.
