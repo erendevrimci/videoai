@@ -8,21 +8,18 @@ import shutil
 from openai import OpenAI
 import traceback
 import sys
-from datetime import datetime
-from config import config, get_channel_config, get_timeline_config
+from config import config, get_timeline_config
 from file_manager import FileManager
 from timeline_manager import TimelineManager
-from auto_editor.timeline import v3, TlVideo, TlAudio
-from logging_system.performance_monitor import RenderingPerformanceTracker, timing_decorator
+# from auto_editor.timeline import v3, TlVideo, TlAudio
 from logging_system.logger import Logger
-from supabase import create_client, StorageException # StorageException import edildiğinden emin olun
+from supabase import create_client# StorageException import edildiğinden emin olun
 from dotenv import load_dotenv
 import tempfile
 import re # get_num_segments için import
 import pysrt # Karaoke efekti için eklendi
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
-import requests # Akış için requests kütüphanesini import et
 import psutil # Bellek kullanımı takibi için eklendi
 
 load_dotenv()
@@ -250,274 +247,274 @@ except ImportError:
 
 
 # Wrapper function that conditionally uses performance monitoring
-def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None, 
-                   force_fallback: bool = False) -> bool:
-    """
-    Render a timeline to a video file using auto_editor's rendering capabilities.
-    Conditionally uses performance monitoring based on configuration.
+# def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None, 
+#                    force_fallback: bool = False) -> bool:
+#     """
+#     Render a timeline to a video file using auto_editor's rendering capabilities.
+#     Conditionally uses performance monitoring based on configuration.
     
-    Args:
-        timeline (v3): The timeline object to render
-        output_path (Path): Path where to save the output video
-        channel_number (Optional[int]): Channel number to use, or None for default
-        force_fallback (bool): Whether to force using the fallback rendering method
+#     Args:
+#         timeline (v3): The timeline object to render
+#         output_path (Path): Path where to save the output video
+#         channel_number (Optional[int]): Channel number to use, or None for default
+#         force_fallback (bool): Whether to force using the fallback rendering method
         
-    Returns:
-        bool: Whether rendering was successful
-    """
-    # Get timeline configuration
-    timeline_config = get_timeline_config(channel_number)
+#     Returns:
+#         bool: Whether rendering was successful
+#     """
+#     # Get timeline configuration
+#     timeline_config = get_timeline_config(channel_number)
     
-    # Check if performance monitoring is enabled and available
-    if PERFORMANCE_MONITORING_AVAILABLE and timeline_config.rendering.enable_performance_monitoring:
-        logger.info("Performance monitoring enabled for timeline rendering")
+#     # Check if performance monitoring is enabled and available
+#     if PERFORMANCE_MONITORING_AVAILABLE and timeline_config.rendering.enable_performance_monitoring:
+#         logger.info("Performance monitoring enabled for timeline rendering")
         
-        # Set environment variables for performance monitoring
-        if hasattr(timeline_config.rendering, 'performance_output_dir'):
-            os.environ['PERFORMANCE_OUTPUT_DIR'] = timeline_config.rendering.performance_output_dir
+#         # Set environment variables for performance monitoring
+#         if hasattr(timeline_config.rendering, 'performance_output_dir'):
+#             os.environ['PERFORMANCE_OUTPUT_DIR'] = timeline_config.rendering.performance_output_dir
         
-        # Use the performance-enhanced version of render_timeline
-        return render_timeline_with_monitoring(
-            timeline=timeline, 
-            output_path=output_path, 
-            channel_number=channel_number, 
-            force_fallback=force_fallback
-        )
-    else:
-        # Use the original render_timeline implementation
-        logger.info("Performance monitoring disabled for timeline rendering")
+#         # Use the performance-enhanced version of render_timeline
+#         return render_timeline_with_monitoring(
+#             timeline=timeline, 
+#             output_path=output_path, 
+#             channel_number=channel_number, 
+#             force_fallback=force_fallback
+#         )
+#     else:
+#         # Use the original render_timeline implementation
+#         logger.info("Performance monitoring disabled for timeline rendering")
         
-        # Import dependencies for rendering
-        import traceback
-        import tempfile
-        import sys # Added for sys.exit if needed later
+#         # Import dependencies for rendering
+#         import traceback
+#         import tempfile
+#         import sys # Added for sys.exit if needed later
 
-        # Get timeline configuration
-        timeline_config = get_timeline_config(channel_number)
+#         # Get timeline configuration
+#         timeline_config = get_timeline_config(channel_number)
         
-        # Check if timeline rendering is enabled and available
-        timeline_rendering_enabled = getattr(timeline_config.rendering, 'enabled', False) # Default to False if not present
+#         # Check if timeline rendering is enabled and available
+#         timeline_rendering_enabled = getattr(timeline_config.rendering, 'enabled', False) # Default to False if not present
 
-        # If rendering is disabled by config or forced fallback, use fallback path
-        if force_fallback or not timeline_rendering_enabled:
-            logger.info("Timeline-based rendering is disabled by config or force_fallback. Using fallback.")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
+#         # If rendering is disabled by config or forced fallback, use fallback path
+#         if force_fallback or not timeline_rendering_enabled:
+#             logger.info("Timeline-based rendering is disabled by config or force_fallback. Using fallback.")
+#             return _render_timeline_fallback(timeline, output_path, channel_number)
         
-        # Try direct rendering path
-        try:
-            # Import auto_editor rendering components
-            try:
-                from auto_editor.render import video as auto_render_video
-                from auto_editor.render import audio as auto_render_audio
-                from auto_editor.utils.bar import Bar
-                from auto_editor.utils.log import Log
-                from auto_editor.utils.types import Args
-                from auto_editor.output import Ensure
-                from auto_editor.utils.container import Container
-                from auto_editor.ffwrapper import FileInfo
-                import av
-                from pathlib import Path # Ensure Path is imported
+#         # Try direct rendering path
+#         try:
+#             # Import auto_editor rendering components
+#             try:
+#                 from auto_editor.render import video as auto_render_video
+#                 from auto_editor.render import audio as auto_render_audio
+#                 from auto_editor.utils.bar import Bar
+#                 from auto_editor.utils.log import Log
+#                 from auto_editor.utils.types import Args
+#                 from auto_editor.output import Ensure
+#                 from auto_editor.utils.container import Container
+#                 from auto_editor.ffwrapper import FileInfo
+#                 import av
+#                 from pathlib import Path # Ensure Path is imported
                 
-                # Check if the required functions exist - note: the actual functions are render_av and make_new_audio
-                if not hasattr(auto_render_video, 'render_av') or not hasattr(auto_render_audio, 'make_new_audio'):
-                    logger.warning("auto_editor does not have required timeline rendering functions. Using fallback.")
-                    return _render_timeline_fallback(timeline, output_path, channel_number)
+#                 # Check if the required functions exist - note: the actual functions are render_av and make_new_audio
+#                 if not hasattr(auto_render_video, 'render_av') or not hasattr(auto_render_audio, 'make_new_audio'):
+#                     logger.warning("auto_editor does not have required timeline rendering functions. Using fallback.")
+#                     return _render_timeline_fallback(timeline, output_path, channel_number)
 
-            except ImportError as e:
-                logger.warning(f"Could not import auto-editor render modules: {e}. Using fallback.")
-                return _render_timeline_fallback(timeline, output_path, channel_number)
+#             except ImportError as e:
+#                 logger.warning(f"Could not import auto-editor render modules: {e}. Using fallback.")
+#                 return _render_timeline_fallback(timeline, output_path, channel_number)
             
-            # ----- Direct Rendering Implementation START -----
-            logger.info("Attempting direct timeline-based rendering...")
+#             # ----- Direct Rendering Implementation START -----
+#             logger.info("Attempting direct timeline-based rendering...")
             
-            try:
-                # Create temporary directory for intermediate files
-                # Use the project's temp directory if available
-                use_dir = project_temp_dir if project_temp_dir else None
-                with tempfile.TemporaryDirectory(prefix="ae_render_", dir=use_dir) as temp_dir:
-                    temp_path = Path(temp_dir)
+#             try:
+#                 # Create temporary directory for intermediate files
+#                 # Use the project's temp directory if available
+#                 use_dir = project_temp_dir if project_temp_dir else None
+#                 with tempfile.TemporaryDirectory(prefix="ae_render_", dir=use_dir) as temp_dir:
+#                     temp_path = Path(temp_dir)
                     
-                    # Initialize auto_editor components
-                    log = Log(temp_path)
-                    log.print(f"Starting timeline rendering to {output_path}")
+#                     # Initialize auto_editor components
+#                     log = Log(temp_path)
+#                     log.print(f"Starting timeline rendering to {output_path}")
                     
-                    # Create args object with default settings from timeline config
-                    args = Args() # Note: auto_editor Args might need more defaults populated.
-                    args.video_codec = timeline_config.rendering.video_codec
-                    args.audio_codec = timeline_config.rendering.audio_codec
-                    # args.audio_normalize = timeline_config.rendering.audio_normalize # Check if this exists in your config
-                    args.scale = getattr(timeline_config.rendering, 'scale', 1.0) # Default scale if not set
-                    args.video_bitrate = timeline_config.rendering.video_bitrate
-                    args.vprofile = getattr(timeline_config.rendering, 'video_profile', 'high') # Default profile
-                    args.background = timeline_config.rendering.background_color
-                    args.sample_rate = timeline.samplerate # Use timeline sample rate
-                    args.output_file = output_path # Set output file in args
-                    args.temp = temp_path # Set temp directory in args
-                    # Add other necessary Args attributes based on auto-editor version and needs
-                    args.no_seek = False
-                    args.keep_tracks_separate = False
-                    args.ffmpeg_location = shutil.which("ffmpeg") # Ensure ffmpeg path is set
-                    args.ffprobe_location = shutil.which("ffprobe") # Ensure ffprobe path is set
-                    if not args.ffmpeg_location or not args.ffprobe_location:
-                         log.error("ffmpeg or ffprobe not found in PATH. Cannot render.")
-                         return False
+#                     # Create args object with default settings from timeline config
+#                     args = Args() # Note: auto_editor Args might need more defaults populated.
+#                     args.video_codec = timeline_config.rendering.video_codec
+#                     args.audio_codec = timeline_config.rendering.audio_codec
+#                     # args.audio_normalize = timeline_config.rendering.audio_normalize # Check if this exists in your config
+#                     args.scale = getattr(timeline_config.rendering, 'scale', 1.0) # Default scale if not set
+#                     args.video_bitrate = timeline_config.rendering.video_bitrate
+#                     args.vprofile = getattr(timeline_config.rendering, 'video_profile', 'high') # Default profile
+#                     args.background = timeline_config.rendering.background_color
+#                     args.sample_rate = timeline.samplerate # Use timeline sample rate
+#                     args.output_file = output_path # Set output file in args
+#                     args.temp = temp_path # Set temp directory in args
+#                     # Add other necessary Args attributes based on auto-editor version and needs
+#                     args.no_seek = False
+#                     args.keep_tracks_separate = False
+#                     args.ffmpeg_location = shutil.which("ffmpeg") # Ensure ffmpeg path is set
+#                     args.ffprobe_location = shutil.which("ffprobe") # Ensure ffprobe path is set
+#                     if not args.ffmpeg_location or not args.ffprobe_location:
+#                          log.error("ffmpeg or ffprobe not found in PATH. Cannot render.")
+#                          return False
 
-                    # Initialize container
-                    ctr = Container(
-                        output_path=output_path,
-                        temp=temp_path,
-                        max_videos=1,
-                        max_audios=len(timeline.a) if timeline.a else 0 # Based on timeline audio tracks
-                    )
+#                     # Initialize container
+#                     ctr = Container(
+#                         output_path=output_path,
+#                         temp=temp_path,
+#                         max_videos=1,
+#                         max_audios=len(timeline.a) if timeline.a else 0 # Based on timeline audio tracks
+#                     )
 
-                    # Create output directory if needed
-                    output_path.parent.mkdir(parents=True, exist_ok=True)
+#                     # Create output directory if needed
+#                     output_path.parent.mkdir(parents=True, exist_ok=True)
                     
-                    # Initialize ensure for audio extraction
-                    ensure = Ensure(log=log, temp=temp_path)
+#                     # Initialize ensure for audio extraction
+#                     ensure = Ensure(log=log, temp=temp_path)
                     
-                    # Setup progress bar
-                    bar = Bar()
+#                     # Setup progress bar
+#                     bar = Bar()
 
-                    # Process timeline sources to ensure they're valid FileInfo objects
-                    # This part needs careful implementation based on how sources are stored
-                    # Assuming timeline.sources are already FileInfo or paths need conversion
-                    valid_sources = {}
-                    for i, src_info in enumerate(timeline.sources):
-                         if isinstance(src_info, FileInfo):
-                              valid_sources[str(i)] = src_info # Assuming ID is index as string
-                         elif isinstance(src_info, (str, Path)):
-                              # Need to create FileInfo object - requires probing
-                              try:
-                                   file_info = FileInfo(str(src_info), log)
-                                   valid_sources[str(i)] = file_info
-                              except Exception as probe_err:
-                                   log.error(f"Could not probe source file {src_info}: {probe_err}")
-                                   return False
-                         else:
-                              log.error(f"Unsupported source type in timeline: {type(src_info)}")
-                              return False
-                    timeline.sources = valid_sources # Update timeline sources
+#                     # Process timeline sources to ensure they're valid FileInfo objects
+#                     # This part needs careful implementation based on how sources are stored
+#                     # Assuming timeline.sources are already FileInfo or paths need conversion
+#                     valid_sources = {}
+#                     for i, src_info in enumerate(timeline.sources):
+#                          if isinstance(src_info, FileInfo):
+#                               valid_sources[str(i)] = src_info # Assuming ID is index as string
+#                          elif isinstance(src_info, (str, Path)):
+#                               # Need to create FileInfo object - requires probing
+#                               try:
+#                                    file_info = FileInfo(str(src_info), log)
+#                                    valid_sources[str(i)] = file_info
+#                               except Exception as probe_err:
+#                                    log.error(f"Could not probe source file {src_info}: {probe_err}")
+#                                    return False
+#                          else:
+#                               log.error(f"Unsupported source type in timeline: {type(src_info)}")
+#                               return False
+#                     timeline.sources = valid_sources # Update timeline sources
 
-                    # Step 1: Generate audio tracks if needed
-                    log.print("Generating audio tracks...")
-                    # Check if timeline has audio tracks
-                    if not timeline.a or not timeline.a[0]:
-                         log.print("Timeline has no audio tracks.")
-                         audio_files = []
-                    else:
-                         # Ensure audio tracks exist and pass them to make_new_audio
-                         audio_files = auto_render_audio.make_new_audio(
-                             timeline, ctr, ensure, args, bar, log
-                         )
-                         if not audio_files:
-                             log.print("Warning: No audio tracks generated by make_new_audio")
+#                     # Step 1: Generate audio tracks if needed
+#                     log.print("Generating audio tracks...")
+#                     # Check if timeline has audio tracks
+#                     if not timeline.a or not timeline.a[0]:
+#                          log.print("Timeline has no audio tracks.")
+#                          audio_files = []
+#                     else:
+#                          # Ensure audio tracks exist and pass them to make_new_audio
+#                          audio_files = auto_render_audio.make_new_audio(
+#                              timeline, ctr, ensure, args, bar, log
+#                          )
+#                          if not audio_files:
+#                              log.print("Warning: No audio tracks generated by make_new_audio")
                     
-                    # Step 2: Create output container
-                    log.print("Creating output container...")
-                    # Ensure output path is string for av.open
-                    output_container = av.open(str(output_path), 'w')
+#                     # Step 2: Create output container
+#                     log.print("Creating output container...")
+#                     # Ensure output path is string for av.open
+#                     output_container = av.open(str(output_path), 'w')
                     
-                    # Step 3: Process video
-                    log.print("Processing video timeline...")
-                    # Check if timeline has video tracks
-                    if not timeline.v or not timeline.v[0]:
-                         log.error("Timeline has no video tracks. Cannot render video.")
-                         output_container.close() # Close the container
-                         return False # Or handle appropriately
+#                     # Step 3: Process video
+#                     log.print("Processing video timeline...")
+#                     # Check if timeline has video tracks
+#                     if not timeline.v or not timeline.v[0]:
+#                          log.error("Timeline has no video tracks. Cannot render video.")
+#                          output_container.close() # Close the container
+#                          return False # Or handle appropriately
 
-                    video_generator = auto_render_video.render_av(
-                        output_container, timeline, args, bar, log # Pass bar here too
-                    )
+#                     video_generator = auto_render_video.render_av(
+#                         output_container, timeline, args, bar, log # Pass bar here too
+#                     )
 
-                    # Step 4: Get the video stream from the generator
-                    # The generator yields (frame_number, frame), we need the stream from output_container
-                    video_stream = output_container.streams.video[0] # Assuming one video stream
+#                     # Step 4: Get the video stream from the generator
+#                     # The generator yields (frame_number, frame), we need the stream from output_container
+#                     video_stream = output_container.streams.video[0] # Assuming one video stream
 
-                    # Step 5: Process audio if available
-                    audio_streams = []
-                    if audio_files:
-                        log.print("Adding audio streams...")
-                        for audio_file in audio_files:
-                            try:
-                                with av.open(str(audio_file)) as container: # Ensure audio_file is string
-                                    input_stream = container.streams.audio[0]
-                                    # Use codec from input stream if args.audio_codec is generic like 'aac'
-                                    # Or ensure args.audio_codec is specific like 'libfdk_aac' if needed
-                                    output_stream = output_container.add_stream(
-                                        args.audio_codec,
-                                        rate=input_stream.rate,
-                                        layout=input_stream.layout.name # Add layout
-                                    )
-                                    audio_streams.append((output_stream, container.decode(input_stream)))
-                            except Exception as audio_err:
-                                 log.error(f"Error opening or processing audio file {audio_file}: {audio_err}")
-                                 # Decide whether to continue without this track or fail
-                                 # For now, let's skip this track
-                                 continue
+#                     # Step 5: Process audio if available
+#                     audio_streams = []
+#                     if audio_files:
+#                         log.print("Adding audio streams...")
+#                         for audio_file in audio_files:
+#                             try:
+#                                 with av.open(str(audio_file)) as container: # Ensure audio_file is string
+#                                     input_stream = container.streams.audio[0]
+#                                     # Use codec from input stream if args.audio_codec is generic like 'aac'
+#                                     # Or ensure args.audio_codec is specific like 'libfdk_aac' if needed
+#                                     output_stream = output_container.add_stream(
+#                                         args.audio_codec,
+#                                         rate=input_stream.rate,
+#                                         layout=input_stream.layout.name # Add layout
+#                                     )
+#                                     audio_streams.append((output_stream, container.decode(input_stream)))
+#                             except Exception as audio_err:
+#                                  log.error(f"Error opening or processing audio file {audio_file}: {audio_err}")
+#                                  # Decide whether to continue without this track or fail
+#                                  # For now, let's skip this track
+#                                  continue
                     
-                    # Step 6: Render frames and mux
-                    log.print("Rendering frames and muxing...")
-                    # total_frames = timeline.end # Get total frames from timeline duration
-                    # Use timeline.duration which is already in frames
-                    total_frames = timeline.duration
-                    bar.start(total_frames, "Rendering video")
+#                     # Step 6: Render frames and mux
+#                     log.print("Rendering frames and muxing...")
+#                     # total_frames = timeline.end # Get total frames from timeline duration
+#                     # Use timeline.duration which is already in frames
+#                     total_frames = timeline.duration
+#                     bar.start(total_frames, "Rendering video")
                     
-                    processed_frames = 0
-                    for frame_number, frame in video_generator:
-                        # Encode and mux video frame
-                        for packet in video_stream.encode(frame):
-                            output_container.mux(packet)
+#                     processed_frames = 0
+#                     for frame_number, frame in video_generator:
+#                         # Encode and mux video frame
+#                         for packet in video_stream.encode(frame):
+#                             output_container.mux(packet)
                         
-                        # Mux audio packets corresponding to this video frame's timestamp
-                        # This requires careful synchronization, auto_editor handles this internally
-                        # Here, we'll mux audio after video loop for simplicity, but might cause sync issues
+#                         # Mux audio packets corresponding to this video frame's timestamp
+#                         # This requires careful synchronization, auto_editor handles this internally
+#                         # Here, we'll mux audio after video loop for simplicity, but might cause sync issues
                         
-                        # Update progress bar
-                        bar.tick(frame_number)
-                        processed_frames = frame_number # Keep track of last frame number processed
+#                         # Update progress bar
+#                         bar.tick(frame_number)
+#                         processed_frames = frame_number # Keep track of last frame number processed
 
-                    bar.end(f"Processed {processed_frames}/{total_frames} video frames.")
+#                     bar.end(f"Processed {processed_frames}/{total_frames} video frames.")
 
-                    # Step 7: Flush video encoder
-                    log.print("Flushing video encoder...")
-                    for packet in video_stream.encode(None):
-                        output_container.mux(packet)
+#                     # Step 7: Flush video encoder
+#                     log.print("Flushing video encoder...")
+#                     for packet in video_stream.encode(None):
+#                         output_container.mux(packet)
                     
-                    # Step 8: Add audio data if available
-                    if audio_streams:
-                        log.print("Muxing audio data...")
-                        for audio_stream, audio_frames in audio_streams:
-                            for frame in audio_frames:
-                                for packet in audio_stream.encode(frame):
-                                    output_container.mux(packet)
+#                     # Step 8: Add audio data if available
+#                     if audio_streams:
+#                         log.print("Muxing audio data...")
+#                         for audio_stream, audio_frames in audio_streams:
+#                             for frame in audio_frames:
+#                                 for packet in audio_stream.encode(frame):
+#                                     output_container.mux(packet)
                             
-                            # Flush audio encoder
-                            log.print(f"Flushing audio encoder for stream {audio_stream.index}...")
-                            for packet in audio_stream.encode(None):
-                                output_container.mux(packet)
+#                             # Flush audio encoder
+#                             log.print(f"Flushing audio encoder for stream {audio_stream.index}...")
+#                             for packet in audio_stream.encode(None):
+#                                 output_container.mux(packet)
                     
-                    # Step 9: Close output container
-                    log.print("Closing output container...")
-                    output_container.close()
+#                     # Step 9: Close output container
+#                     log.print("Closing output container...")
+#                     output_container.close()
                     
-                    log.print(f"✅ Direct timeline rendering complete: {output_path}")
-                    return True
+#                     log.print(f"✅ Direct timeline rendering complete: {output_path}")
+#                     return True
                     
-            except Exception as e:
-                logger.error(f"Error during direct timeline rendering: {e}")
-                traceback.print_exc()
+#             except Exception as e:
+#                 logger.error(f"Error during direct timeline rendering: {e}")
+#                 traceback.print_exc()
                 
-                # Fall back to compatibility mode after a direct rendering error
-                logger.warning("Using compatibility rendering mode as fallback after direct rendering error.")
-                return _render_timeline_fallback(timeline, output_path, channel_number)
-            # ----- Direct Rendering Implementation END -----
+#                 # Fall back to compatibility mode after a direct rendering error
+#                 logger.warning("Using compatibility rendering mode as fallback after direct rendering error.")
+#                 return _render_timeline_fallback(timeline, output_path, channel_number)
+#             # ----- Direct Rendering Implementation END -----
             
-        except (ImportError, AttributeError) as e:
-            # This catches errors from the outer 'try' block for imports
-            logger.warning(f"auto_editor rendering components not available or import error: {e}")
-            logger.warning("Falling back to compatibility rendering method.")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
+#         except (ImportError, AttributeError) as e:
+#             # This catches errors from the outer 'try' block for imports
+#             logger.warning(f"auto_editor rendering components not available or import error: {e}")
+#             logger.warning("Falling back to compatibility rendering method.")
+#             return _render_timeline_fallback(timeline, output_path, channel_number)
         # except Exception as e: # Catch any other unexpected errors in the outer block
         #      logger.error(f"Unexpected error in render_timeline setup: {e}")
         #      traceback.print_exc()
@@ -1360,194 +1357,194 @@ def create_video_sequence(clip_sequence: List[Dict], output_path: Path, clips_me
             # Zaten temizlenmişse veya erişim sorunları varsa hata verebilir
             logger.warning(f"Could not clean up temporary directory {temp_dir} (might be already cleaned or access issue): {cleanup_error}")
 
-def create_timeline(clip_sequence: List[Dict], channel_number: Optional[int] = None, clips_base_dir: Path = None, voice_file_path: Optional[Path] = None) -> v3: # voice_file_path eklendi
-    """
-    Convert a clip sequence to a timeline object, optionally including a voice track.
-    Requires source clips to be available locally for probing.
+# def create_timeline(clip_sequence: List[Dict], channel_number: Optional[int] = None, clips_base_dir: Path = None, voice_file_path: Optional[Path] = None) -> v3: # voice_file_path eklendi
+#     """
+#     Convert a clip sequence to a timeline object, optionally including a voice track.
+#     Requires source clips to be available locally for probing.
 
-    Args:
-        clip_sequence (List[Dict]): The sequence of clips to convert
-        channel_number (Optional[int]): Channel number to use, or None to use default
-        clips_base_dir (Path): The base directory where clip files are located for probing.
-        voice_file_path (Optional[Path]): Path to the voice-over audio file to include.
+#     Args:
+#         clip_sequence (List[Dict]): The sequence of clips to convert
+#         channel_number (Optional[int]): Channel number to use, or None to use default
+#         clips_base_dir (Path): The base directory where clip files are located for probing.
+#         voice_file_path (Optional[Path]): Path to the voice-over audio file to include.
 
-    Returns:
-        v3: A v3 timeline object representing the clip sequence
-    """
-    # Use default channel if none specified
-    if channel_number is None:
-        channel_number = config.default_channel
+#     Returns:
+#         v3: A v3 timeline object representing the clip sequence
+#     """
+#     # Use default channel if none specified
+#     if channel_number is None:
+#         channel_number = config.default_channel
 
-    # Initialize timeline manager with the channel
-    timeline_mgr = TimelineManager(channel_number=channel_number)
+#     # Initialize timeline manager with the channel
+#     timeline_mgr = TimelineManager(channel_number=channel_number)
 
-    # Get timeline configuration
-    timeline_config = get_timeline_config(channel_number)
+#     # Get timeline configuration
+#     timeline_config = get_timeline_config(channel_number)
 
-    # Determine the clips directory to use
-    if clips_base_dir is None:
-        # Bu durum normalde main akışında olmamalı ama bir fallback olarak bırakılabilir
-        logger.warning("clips_base_dir not provided to create_timeline, falling back to config path.")
-        clips_base_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
-        # Burada hata vermek daha doğru olabilir:
-        # raise ValueError("clips_base_dir must be provided to create_timeline")
+#     # Determine the clips directory to use
+#     if clips_base_dir is None:
+#         # Bu durum normalde main akışında olmamalı ama bir fallback olarak bırakılabilir
+#         logger.warning("clips_base_dir not provided to create_timeline, falling back to config path.")
+#         clips_base_dir = file_mgr.get_abs_path(config.file_paths.clips_directory)
+#         # Burada hata vermek daha doğru olabilir:
+#         # raise ValueError("clips_base_dir must be provided to create_timeline")
 
-    logger.info(f"Creating timeline using clips from directory: {clips_base_dir}")
-    if voice_file_path:
-        logger.info(f"Including voice file: {voice_file_path.name}")
-    else:
-        logger.info("No voice file provided for timeline.")
+#     logger.info(f"Creating timeline using clips from directory: {clips_base_dir}")
+#     if voice_file_path:
+#         logger.info(f"Including voice file: {voice_file_path.name}")
+#     else:
+#         logger.info("No voice file provided for timeline.")
 
 
-    # Create timeline from clip sequence, passing the correct directory and voice file path
-    timeline = timeline_mgr.clip_sequence_to_timeline(
-        clip_sequence,
-        output_width=timeline_config.default_width,
-        output_height=timeline_config.default_height,
-        framerate=timeline_config.default_framerate,
-        clips_dir=clips_base_dir, # Use the provided directory path
-        voice_file_path=voice_file_path # Pass the voice file path
-    )
+#     # Create timeline from clip sequence, passing the correct directory and voice file path
+#     timeline = timeline_mgr.clip_sequence_to_timeline(
+#         clip_sequence,
+#         output_width=timeline_config.default_width,
+#         output_height=timeline_config.default_height,
+#         framerate=timeline_config.default_framerate,
+#         clips_dir=clips_base_dir, # Use the provided directory path
+#         voice_file_path=voice_file_path # Pass the voice file path
+#     )
 
-    return timeline
+#     return timeline
 
-def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str, 
-                   description: str = "", channel_number: Optional[int] = None, 
-                   create_backup: bool = True, validate: bool = True) -> bool:
-    """
-    Output a timeline to a file, with options for backups, validation, and metadata annotations.
+# def output_timeline(timeline: v3, clip_sequence: List[Dict], name: str, 
+#                    description: str = "", channel_number: Optional[int] = None, 
+#                    create_backup: bool = True, validate: bool = True) -> bool:
+#     """
+#     Output a timeline to a file, with options for backups, validation, and metadata annotations.
     
-    Args:
-        timeline (v3): Timeline object to output
-        clip_sequence (List[Dict]): Original clip sequence for metadata inclusion
-        name (str): Base name for the timeline file
-        description (str): Description to include in the timeline videoai_metadata
-        channel_number (Optional[int]): Channel number to use, or None for default
-        create_backup (bool): Whether to create an automatic backup of existing timeline
-        validate (bool): Whether to validate the timeline integrity before saving
+#     Args:
+#         timeline (v3): Timeline object to output
+#         clip_sequence (List[Dict]): Original clip sequence for metadata inclusion
+#         name (str): Base name for the timeline file
+#         description (str): Description to include in the timeline videoai_metadata
+#         channel_number (Optional[int]): Channel number to use, or None for default
+#         create_backup (bool): Whether to create an automatic backup of existing timeline
+#         validate (bool): Whether to validate the timeline integrity before saving
         
-    Returns:
-        bool: True if successful, False otherwise
-    """
-    try:
-        # Use default channel if none specified
-        if channel_number is None:
-            channel_number = config.default_channel
+#     Returns:
+#         bool: True if successful, False otherwise
+#     """
+#     try:
+#         # Use default channel if none specified
+#         if channel_number is None:
+#             channel_number = config.default_channel
         
-        # Initialize timeline manager
-        timeline_mgr = TimelineManager(channel_number=channel_number)
+#         # Initialize timeline manager
+#         timeline_mgr = TimelineManager(channel_number=channel_number)
         
-        # Get timeline configuration
-        timeline_config = get_timeline_config(channel_number)
+#         # Get timeline configuration
+#         timeline_config = get_timeline_config(channel_number)
         
-        # If validation is enabled, perform integrity checks
-        if validate:
-            # Basic validation: check that timeline has proper structure
-            if not hasattr(timeline, 'v') or not hasattr(timeline, 'a'):
-                print("Error: Timeline appears to be malformed (missing tracks)")
-                return False
+#         # If validation is enabled, perform integrity checks
+#         if validate:
+#             # Basic validation: check that timeline has proper structure
+#             if not hasattr(timeline, 'v') or not hasattr(timeline, 'a'):
+#                 print("Error: Timeline appears to be malformed (missing tracks)")
+#                 return False
             
-            # Check for empty timeline
-            if not timeline.v or all(not track for track in timeline.v):
-                print("Warning: Timeline contains no video clips")
+#             # Check for empty timeline
+#             if not timeline.v or all(not track for track in timeline.v):
+#                 print("Warning: Timeline contains no video clips")
             
-            # Verify text tracks exist and have content if caption segments exist in metadata
-            if hasattr(timeline, 'videoai_metadata') and 'caption_segments' in timeline.videoai_metadata and len(timeline.videoai_metadata['caption_segments']) > 0:
-                if not hasattr(timeline, 't') or not timeline.t or all(not track for track in timeline.t):
-                    print("Warning: Timeline has caption segments in metadata but no text tracks")
-                    # Automatically create text tracks
-                    timeline.t = [[]]
-                    for segment in timeline.videoai_metadata['caption_segments']:
-                        start_time = segment.get('start_time', 0)
-                        end_time = segment.get('end_time', 0)
-                        text = segment.get('text', '')
+#             # Verify text tracks exist and have content if caption segments exist in metadata
+#             if hasattr(timeline, 'videoai_metadata') and 'caption_segments' in timeline.videoai_metadata and len(timeline.videoai_metadata['caption_segments']) > 0:
+#                 if not hasattr(timeline, 't') or not timeline.t or all(not track for track in timeline.t):
+#                     print("Warning: Timeline has caption segments in metadata but no text tracks")
+#                     # Automatically create text tracks
+#                     timeline.t = [[]]
+#                     for segment in timeline.videoai_metadata['caption_segments']:
+#                         start_time = segment.get('start_time', 0)
+#                         end_time = segment.get('end_time', 0)
+#                         text = segment.get('text', '')
                         
-                        # Convert times to frames
-                        start_frame = int(start_time * float(timeline.tb))
-                        duration_frames = int((end_time - start_time) * float(timeline.tb))
+#                         # Convert times to frames
+#                         start_frame = int(start_time * float(timeline.tb))
+#                         duration_frames = int((end_time - start_time) * float(timeline.tb))
                         
-                        # Create a text object (using a dictionary for simplicity)
-                        text_obj = {
-                            'start': start_frame,
-                            'dur': duration_frames,
-                            'text': text,
-                            'type': 'caption'
-                        }
+#                         # Create a text object (using a dictionary for simplicity)
+#                         text_obj = {
+#                             'start': start_frame,
+#                             'dur': duration_frames,
+#                             'text': text,
+#                             'type': 'caption'
+#                         }
                         
-                        # Add to the text track
-                        timeline.t[0].append(text_obj)
-                    print(f"Added {len(timeline.videoai_metadata['caption_segments'])} caption segments to timeline text track")
+#                         # Add to the text track
+#                         timeline.t[0].append(text_obj)
+#                     print(f"Added {len(timeline.videoai_metadata['caption_segments'])} caption segments to timeline text track")
             
-            # Additional integrity checks could be added here
-            # e.g., checking for proper resolution, framerate, etc.
+#             # Additional integrity checks could be added here
+#             # e.g., checking for proper resolution, framerate, etc.
             
-            print("Timeline integrity validation passed")
+#             print("Timeline integrity validation passed")
         
-        # Enhance the timeline videoai_metadata with additional information
-        enhanced_description = description
-        if clip_sequence:
-            # Add information about clip count and total duration
-            total_duration = sum(clip.get('duration', 0) for clip in clip_sequence)
-            enhanced_description += f"\nGenerated from {len(clip_sequence)} clips. "
-            enhanced_description += f"Total duration: {total_duration:.2f} seconds."
+#         # Enhance the timeline videoai_metadata with additional information
+#         enhanced_description = description
+#         if clip_sequence:
+#             # Add information about clip count and total duration
+#             total_duration = sum(clip.get('duration', 0) for clip in clip_sequence)
+#             enhanced_description += f"\nGenerated from {len(clip_sequence)} clips. "
+#             enhanced_description += f"Total duration: {total_duration:.2f} seconds."
             
-            # Add information about first few clips used
-            clip_info = "\nClips used include: "
-            clip_names = [clip.get('clip_name', 'unknown') for clip in clip_sequence[:3]]
-            clip_info += ", ".join(clip_names)
-            if len(clip_sequence) > 3:
-                clip_info += f", and {len(clip_sequence) - 3} more."
-            enhanced_description += clip_info
+#             # Add information about first few clips used
+#             clip_info = "\nClips used include: "
+#             clip_names = [clip.get('clip_name', 'unknown') for clip in clip_sequence[:3]]
+#             clip_info += ", ".join(clip_names)
+#             if len(clip_sequence) > 3:
+#                 clip_info += f", and {len(clip_sequence) - 3} more."
+#             enhanced_description += clip_info
         
-        # Define the output path
-        timeline_path = timeline_mgr.get_timeline_path(name)
+#         # Define the output path
+#         timeline_path = timeline_mgr.get_timeline_path(name)
         
-        # Create automatic backup if requested and file exists
-        if create_backup and file_mgr.file_exists(timeline_path):
-            from datetime import datetime
-            backup_name = f"{name}_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-            backup_path = timeline_mgr.get_timeline_path(backup_name)
+#         # Create automatic backup if requested and file exists
+#         if create_backup and file_mgr.file_exists(timeline_path):
+#             from datetime import datetime
+#             backup_name = f"{name}_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+#             backup_path = timeline_mgr.get_timeline_path(backup_name)
             
-            try:
-                # Try to load existing timeline to create backup
-                existing_timeline = timeline_mgr.deserialize_timeline(timeline_path)
-                if existing_timeline:
-                    # Serialize to backup location with metadata about backup
-                    backup_desc = f"Backup of {name} created on {datetime.now().isoformat()}"
-                    timeline_mgr.serialize_timeline(existing_timeline, backup_path, 
-                                                   description=backup_desc)
-                    print(f"Created backup of existing timeline at {backup_path}")
-                else:
-                    # If deserializing fails, do a simple file copy
-                    import shutil
-                    shutil.copy2(timeline_path, backup_path)
-                    print(f"Created file backup of existing timeline at {backup_path}")
-            except Exception as e:
-                print(f"Warning: Could not create backup of existing timeline: {e}")
+#             try:
+#                 # Try to load existing timeline to create backup
+#                 existing_timeline = timeline_mgr.deserialize_timeline(timeline_path)
+#                 if existing_timeline:
+#                     # Serialize to backup location with metadata about backup
+#                     backup_desc = f"Backup of {name} created on {datetime.now().isoformat()}"
+#                     timeline_mgr.serialize_timeline(existing_timeline, backup_path, 
+#                                                    description=backup_desc)
+#                     print(f"Created backup of existing timeline at {backup_path}")
+#                 else:
+#                     # If deserializing fails, do a simple file copy
+#                     import shutil
+#                     shutil.copy2(timeline_path, backup_path)
+#                     print(f"Created file backup of existing timeline at {backup_path}")
+#             except Exception as e:
+#                 print(f"Warning: Could not create backup of existing timeline: {e}")
         
-        # Serialize the timeline with enhanced metadata
-        timeline_mgr.serialize_timeline(timeline, timeline_path, 
-                                       description=enhanced_description, 
-                                       validate=validate)
+#         # Serialize the timeline with enhanced metadata
+#         timeline_mgr.serialize_timeline(timeline, timeline_path, 
+#                                        description=enhanced_description, 
+#                                        validate=validate)
         
-        print(f"Timeline successfully output to {timeline_path}")
+#         print(f"Timeline successfully output to {timeline_path}")
         
-        # Generate and save a visualization if configured
-        try:
-            viz = timeline_mgr.visualize_timeline(timeline, detail_level="detailed")
-            viz_path = timeline_mgr.get_timeline_path(f"{name}_visualization.txt")
-            file_mgr.write_text(viz_path, viz)
-            print(f"Timeline visualization saved to {viz_path}")
-        except Exception as e:
-            print(f"Warning: Could not save timeline visualization: {e}")
+#         # Generate and save a visualization if configured
+#         try:
+#             viz = timeline_mgr.visualize_timeline(timeline, detail_level="detailed")
+#             viz_path = timeline_mgr.get_timeline_path(f"{name}_visualization.txt")
+#             file_mgr.write_text(viz_path, viz)
+#             print(f"Timeline visualization saved to {viz_path}")
+#         except Exception as e:
+#             print(f"Warning: Could not save timeline visualization: {e}")
         
-        return True
+#         return True
         
-    except Exception as e:
-        print(f"Error outputting timeline: {e}")
-        import traceback
-        traceback.print_exc()
-        return False
+#     except Exception as e:
+#         print(f"Error outputting timeline: {e}")
+#         import traceback
+#         traceback.print_exc()
+#         return False
 
 def merge_voice_with_video(video_path: Optional[str] = None, voice_path: Optional[str] = None,
                           output_path: Optional[str] = None, channel_number: Optional[int] = None,
@@ -1946,329 +1943,329 @@ def burn_subtitles(video_path: Optional[str] = None,
             except Exception as e:
                 logger.warning(f"Could not remove temporary subtitle file {temp_subtitle_file_obj}: {e}")
 
-def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None,
-                  force_fallback: bool = False) -> bool:
-    """
-    Render a timeline to a video file using auto_editor's rendering capabilities.
+# def render_timeline(timeline: v3, output_path: Path, channel_number: Optional[int] = None,
+#                   force_fallback: bool = False) -> bool:
+#     """
+#     Render a timeline to a video file using auto_editor's rendering capabilities.
     
-    Args:
-        timeline (v3): The timeline object to render
-        output_path (Path): Path where to save the output video
-        channel_number (Optional[int]): Channel number to use, or None for default
-        force_fallback (bool): Force using fallback rendering even if timeline rendering is available
+#     Args:
+#         timeline (v3): The timeline object to render
+#         output_path (Path): Path where to save the output video
+#         channel_number (Optional[int]): Channel number to use, or None for default
+#         force_fallback (bool): Force using fallback rendering even if timeline rendering is available
         
-    Returns:
-        bool: True if successful, False otherwise
-    """
-    try:
-        # Use default channel if none specified
-        if channel_number is None:
-            from config import config
-            channel_number = config.default_channel
+#     Returns:
+#         bool: True if successful, False otherwise
+#     """
+#     try:
+#         # Use default channel if none specified
+#         if channel_number is None:
+#             from config import config
+#             channel_number = config.default_channel
             
-        # Get timeline rendering configuration
-        from config import get_timeline_config
-        timeline_config = get_timeline_config(channel_number)
+#         # Get timeline rendering configuration
+#         from config import get_timeline_config
+#         timeline_config = get_timeline_config(channel_number)
         
-        # Check if timeline rendering is enabled in configuration
-        # This is the primary feature flag for timeline rendering
-        timeline_rendering_enabled = timeline_config.rendering.enabled
+#         # Check if timeline rendering is enabled in configuration
+#         # This is the primary feature flag for timeline rendering
+#         timeline_rendering_enabled = timeline_config.rendering.enabled
         
-        # If rendering is disabled by config or forced fallback, use fallback path
-        if force_fallback or not timeline_rendering_enabled:
-            print("Timeline-based rendering is disabled. Using fallback approach.")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
+#         # If rendering is disabled by config or forced fallback, use fallback path
+#         if force_fallback or not timeline_rendering_enabled:
+#             print("Timeline-based rendering is disabled. Using fallback approach.")
+#             return _render_timeline_fallback(timeline, output_path, channel_number)
             
-        # Initialize timeline manager for rendering operations
-        timeline_mgr = TimelineManager(channel_number=channel_number)
+#         # Initialize timeline manager for rendering operations
+#         timeline_mgr = TimelineManager(channel_number=channel_number)
         
-        # TODO: Implement direct timeline-based rendering using auto_editor
-        # This is the future implementation that will use timeline objects directly
-        # For now, we'll return to fallback mode since it's not fully implemented
+#         # TODO: Implement direct timeline-based rendering using auto_editor
+#         # This is the future implementation that will use timeline objects directly
+#         # For now, we'll return to fallback mode since it's not fully implemented
         
-        # Feature detection: Check if auto_editor has the necessary rendering capabilities
-        # This is used to gracefully fall back if the installed version doesn't support it
-        try:
-            # Import auto_editor rendering components
-            from auto_editor.render import video as auto_render_video
-            from auto_editor.render import audio as auto_render_audio
-            from auto_editor.utils.bar import Bar
-            from auto_editor.utils.log import Log
-            from auto_editor.utils.types import Args
-            from auto_editor.output import Ensure
-            from auto_editor.utils.container import Container
-            from auto_editor.ffwrapper import FileInfo
-            import av
-            import tempfile
-            from pathlib import Path
+#         # Feature detection: Check if auto_editor has the necessary rendering capabilities
+#         # This is used to gracefully fall back if the installed version doesn't support it
+#         try:
+#             # Import auto_editor rendering components
+#             from auto_editor.render import video as auto_render_video
+#             from auto_editor.render import audio as auto_render_audio
+#             from auto_editor.utils.bar import Bar
+#             from auto_editor.utils.log import Log
+#             from auto_editor.utils.types import Args
+#             from auto_editor.output import Ensure
+#             from auto_editor.utils.container import Container
+#             from auto_editor.ffwrapper import FileInfo
+#             import av
+#             import tempfile
+#             from pathlib import Path
             
-            # Check if the required functions exist - note: the actual functions are render_av and make_new_audio
-            # We're checking if these modules have the necessary functions we'll use
-            if not hasattr(auto_render_video, 'render_av') or not hasattr(auto_render_audio, 'make_new_audio'):
-                print("Warning: auto_editor does not have required timeline rendering functions")
-                return _render_timeline_fallback(timeline, output_path, channel_number)
+#             # Check if the required functions exist - note: the actual functions are render_av and make_new_audio
+#             # We're checking if these modules have the necessary functions we'll use
+#             if not hasattr(auto_render_video, 'render_av') or not hasattr(auto_render_audio, 'make_new_audio'):
+#                 print("Warning: auto_editor does not have required timeline rendering functions")
+#                 return _render_timeline_fallback(timeline, output_path, channel_number)
                 
-            # Initialize rendering with progress tracking
-            print("Initializing timeline-based rendering...")
+#             # Initialize rendering with progress tracking
+#             print("Initializing timeline-based rendering...")
             
-            try:
-                # Create temporary directory for intermediate files
-                with tempfile.TemporaryDirectory() as temp_dir:
-                    temp_path = Path(temp_dir)
+#             try:
+#                 # Create temporary directory for intermediate files
+#                 with tempfile.TemporaryDirectory() as temp_dir:
+#                     temp_path = Path(temp_dir)
                     
-                    # Initialize auto_editor components
-                    log = Log(temp_path)
-                    log.print(f"Starting timeline rendering to {output_path}")
+#                     # Initialize auto_editor components
+#                     log = Log(temp_path)
+#                     log.print(f"Starting timeline rendering to {output_path}")
                     
-                    # Create args object with default settings from timeline config
-                    args = Args()
-                    args.video_codec = timeline_config.rendering.video_codec
-                    args.audio_codec = timeline_config.rendering.audio_codec
-                    args.audio_normalize = timeline_config.rendering.audio_normalize
-                    args.scale = timeline_config.rendering.scale
-                    args.video_bitrate = timeline_config.rendering.video_bitrate
-                    args.vprofile = timeline_config.rendering.video_profile
-                    args.background = timeline_config.rendering.background_color
-                    args.no_seek = False
-                    args.keep_tracks_separate = False
+#                     # Create args object with default settings from timeline config
+#                     args = Args()
+#                     args.video_codec = timeline_config.rendering.video_codec
+#                     args.audio_codec = timeline_config.rendering.audio_codec
+#                     args.audio_normalize = timeline_config.rendering.audio_normalize
+#                     args.scale = timeline_config.rendering.scale
+#                     args.video_bitrate = timeline_config.rendering.video_bitrate
+#                     args.vprofile = timeline_config.rendering.video_profile
+#                     args.background = timeline_config.rendering.background_color
+#                     args.no_seek = False
+#                     args.keep_tracks_separate = False
                     
-                    # Initialize container
-                    ctr = Container(
-                        output_path=output_path, 
-                        temp=temp_path,
-                        max_videos=1,
-                        max_audios=None
-                    )
+#                     # Initialize container
+#                     ctr = Container(
+#                         output_path=output_path, 
+#                         temp=temp_path,
+#                         max_videos=1,
+#                         max_audios=None
+#                     )
                     
-                    # Create output directory if needed
-                    output_path.parent.mkdir(parents=True, exist_ok=True)
+#                     # Create output directory if needed
+#                     output_path.parent.mkdir(parents=True, exist_ok=True)
                     
-                    # Initialize ensure for audio extraction
-                    ensure = Ensure(log=log, temp=temp_path)
+#                     # Initialize ensure for audio extraction
+#                     ensure = Ensure(log=log, temp=temp_path)
                     
-                    # Setup progress bar
-                    bar = Bar()
+#                     # Setup progress bar
+#                     bar = Bar()
                     
-                    # Process timeline sources to ensure they're valid FileInfo objects
-                    for source in timeline.sources:
-                        if not isinstance(source, FileInfo) and hasattr(source, 'path'):
-                            # Convert to FileInfo if needed
-                            source = FileInfo(path=source.path)
+#                     # Process timeline sources to ensure they're valid FileInfo objects
+#                     for source in timeline.sources:
+#                         if not isinstance(source, FileInfo) and hasattr(source, 'path'):
+#                             # Convert to FileInfo if needed
+#                             source = FileInfo(path=source.path)
                     
-                    # Step 1: Generate audio tracks
-                    log.print("Generating audio tracks...")
-                    audio_files = auto_render_audio.make_new_audio(
-                        timeline, ctr, ensure, args, bar, log
-                    )
+#                     # Step 1: Generate audio tracks
+#                     log.print("Generating audio tracks...")
+#                     audio_files = auto_render_audio.make_new_audio(
+#                         timeline, ctr, ensure, args, bar, log
+#                     )
                     
-                    if not audio_files:
-                        log.print("Warning: No audio tracks generated")
+#                     if not audio_files:
+#                         log.print("Warning: No audio tracks generated")
                     
-                    # Step 2: Create output container
-                    log.print("Creating output container...")
-                    output_container = av.open(str(output_path), 'w')
+#                     # Step 2: Create output container
+#                     log.print("Creating output container...")
+#                     output_container = av.open(str(output_path), 'w')
                     
-                    # Step 3: Process video
-                    log.print("Processing video timeline...")
-                    video_generator = auto_render_video.render_av(
-                        output_container, timeline, args, log
-                    )
+#                     # Step 3: Process video
+#                     log.print("Processing video timeline...")
+#                     video_generator = auto_render_video.render_av(
+#                         output_container, timeline, args, log
+#                     )
                     
-                    # Get the video stream from the generator
-                    video_stream = next(video_generator)
+#                     # Get the video stream from the generator
+#                     video_stream = next(video_generator)
                     
-                    # Step 4: Process audio if available
-                    audio_streams = []
-                    if audio_files:
-                        log.print("Adding audio streams...")
-                        for audio_file in audio_files:
-                            with av.open(audio_file) as container:
-                                input_stream = container.streams.audio[0]
-                                output_stream = output_container.add_stream(
-                                    args.audio_codec, 
-                                    rate=input_stream.rate
-                                )
-                                audio_streams.append((output_stream, container.decode(input_stream)))
+#                     # Step 4: Process audio if available
+#                     audio_streams = []
+#                     if audio_files:
+#                         log.print("Adding audio streams...")
+#                         for audio_file in audio_files:
+#                             with av.open(audio_file) as container:
+#                                 input_stream = container.streams.audio[0]
+#                                 output_stream = output_container.add_stream(
+#                                     args.audio_codec, 
+#                                     rate=input_stream.rate
+#                                 )
+#                                 audio_streams.append((output_stream, container.decode(input_stream)))
                     
-                    # Step 5: Render frames
-                    log.print("Rendering frames...")
-                    total_frames = timeline.end
-                    bar.start(total_frames, "Rendering video")
+#                     # Step 5: Render frames
+#                     log.print("Rendering frames...")
+#                     total_frames = timeline.end
+#                     bar.start(total_frames, "Rendering video")
                     
-                    # Process each frame
-                    for i, frame in video_generator:
-                        # Update progress bar
-                        bar.tick(i)
+#                     # Process each frame
+#                     for i, frame in video_generator:
+#                         # Update progress bar
+#                         bar.tick(i)
                         
-                        # Encode and mux video frame
-                        for packet in video_stream.encode(frame):
-                            output_container.mux(packet)
+#                         # Encode and mux video frame
+#                         for packet in video_stream.encode(frame):
+#                             output_container.mux(packet)
                     
-                    # Step 6: Flush video encoder
-                    for packet in video_stream.encode(None):
-                        output_container.mux(packet)
+#                     # Step 6: Flush video encoder
+#                     for packet in video_stream.encode(None):
+#                         output_container.mux(packet)
                     
-                    # Step 7: Add audio data if available
-                    if audio_streams:
-                        log.print("Adding audio data...")
-                        for audio_stream, audio_frames in audio_streams:
-                            for frame in audio_frames:
-                                for packet in audio_stream.encode(frame):
-                                    output_container.mux(packet)
+#                     # Step 7: Add audio data if available
+#                     if audio_streams:
+#                         log.print("Adding audio data...")
+#                         for audio_stream, audio_frames in audio_streams:
+#                             for frame in audio_frames:
+#                                 for packet in audio_stream.encode(frame):
+#                                     output_container.mux(packet)
                             
-                            # Flush audio encoder
-                            for packet in audio_stream.encode(None):
-                                output_container.mux(packet)
+#                             # Flush audio encoder
+#                             for packet in audio_stream.encode(None):
+#                                 output_container.mux(packet)
                     
-                    # Step 8: Close output container
-                    output_container.close()
+#                     # Step 8: Close output container
+#                     output_container.close()
                     
-                    # Complete progress bar
-                    bar.end()
+#                     # Complete progress bar
+#                     bar.end()
                     
-                    log.print(f"Timeline rendering complete: {output_path}")
-                    return True
+#                     log.print(f"Timeline rendering complete: {output_path}")
+#                     return True
                     
-            except Exception as e:
-                print(f"Error during direct timeline rendering: {e}")
-                import traceback
-                traceback.print_exc()
+#             except Exception as e:
+#                 print(f"Error during direct timeline rendering: {e}")
+#                 import traceback
+#                 traceback.print_exc()
                 
-                # Fall back to compatibility mode after a direct rendering error
-                print("Using compatibility rendering mode as fallback after error")
-                return _render_timeline_fallback(timeline, output_path, channel_number)
+#                 # Fall back to compatibility mode after a direct rendering error
+#                 print("Using compatibility rendering mode as fallback after error")
+#                 return _render_timeline_fallback(timeline, output_path, channel_number)
             
-        except (ImportError, AttributeError) as e:
-            print(f"auto_editor rendering components not available: {e}")
-            print("Falling back to compatibility rendering method")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
+#         except (ImportError, AttributeError) as e:
+#             print(f"auto_editor rendering components not available: {e}")
+#             print("Falling back to compatibility rendering method")
+#             return _render_timeline_fallback(timeline, output_path, channel_number)
     
-    except Exception as e:
-        print(f"Error during timeline rendering: {e}")
-        import traceback
-        traceback.print_exc()
+#     except Exception as e:
+#         print(f"Error during timeline rendering: {e}")
+#         import traceback
+#         traceback.print_exc()
         
-        # Try fallback as last resort after an error
-        try:
-            print("Attempting fallback rendering after error...")
-            return _render_timeline_fallback(timeline, output_path, channel_number)
-        except Exception as e2:
-            print(f"Fallback rendering also failed: {e2}")
-            return False
+#         # Try fallback as last resort after an error
+#         try:
+#             print("Attempting fallback rendering after error...")
+#             return _render_timeline_fallback(timeline, output_path, channel_number)
+#         except Exception as e2:
+#             print(f"Fallback rendering also failed: {e2}")
+#             return False
 
-def _render_timeline_fallback(timeline: v3, output_path: Path, channel_number: Optional[int] = None) -> bool:
-    """
-    Fallback implementation that converts a timeline to a clip sequence and uses
-    the traditional rendering approach.
+# def _render_timeline_fallback(timeline: v3, output_path: Path, channel_number: Optional[int] = None) -> bool:
+#     """
+#     Fallback implementation that converts a timeline to a clip sequence and uses
+#     the traditional rendering approach.
     
-    Args:
-        timeline (v3): The timeline object to render
-        output_path (Path): Path where to save the output video
-        channel_number (Optional[int]): Channel number to use, or None for default
+#     Args:
+#         timeline (v3): The timeline object to render
+#         output_path (Path): Path where to save the output video
+#         channel_number (Optional[int]): Channel number to use, or None for default
         
-    Returns:
-        bool: True if successful, False otherwise
-    """
-    try:
-        logger.warning("Using timeline-to-clip-sequence conversion fallback.")
+#     Returns:
+#         bool: True if successful, False otherwise
+#     """
+#     try:
+#         logger.warning("Using timeline-to-clip-sequence conversion fallback.")
         
-        # Convert timeline back to clip sequence format
-        clip_sequence = _timeline_to_clip_sequence(timeline)
+#         # Convert timeline back to clip sequence format
+#         clip_sequence = _timeline_to_clip_sequence(timeline)
         
-        if not clip_sequence:
-            logger.error("Error: Could not convert timeline to clip sequence for fallback.")
-            return False
+#         if not clip_sequence:
+#             logger.error("Error: Could not convert timeline to clip sequence for fallback.")
+#             return False
             
-        logger.info(f"Converted timeline to clip sequence with {len(clip_sequence)} clips for fallback.")
+#         logger.info(f"Converted timeline to clip sequence with {len(clip_sequence)} clips for fallback.")
         
-        # Load available clips metadata (might be redundant if called elsewhere, but safer here)
-        clips = load_clips_metadata()
+#         # Load available clips metadata (might be redundant if called elsewhere, but safer here)
+#         clips = load_clips_metadata()
         
-        # Generate video bytes using create_video_sequence
-        logger.info("Generating video using create_video_sequence for fallback...")
-        success = create_video_sequence(
-            clip_sequence,
-            output_path=output_path,
-            clips_metadata=clips,
-            channel_number=channel_number,
-            timeline_mode=False
-        )
+#         # Generate video bytes using create_video_sequence
+#         logger.info("Generating video using create_video_sequence for fallback...")
+#         success = create_video_sequence(
+#             clip_sequence,
+#             output_path=output_path,
+#             clips_metadata=clips,
+#             channel_number=channel_number,
+#             timeline_mode=False
+#         )
         
-        if success:
-            logger.info(f"Fallback video generation successful. Output at: {output_path}")
-            return True
-        else:
-            logger.error("Fallback video generation using create_video_sequence failed.")
-            return False
+#         if success:
+#             logger.info(f"Fallback video generation successful. Output at: {output_path}")
+#             return True
+#         else:
+#             logger.error("Fallback video generation using create_video_sequence failed.")
+#             return False
                                     
-    except Exception as e:
-        logger.error(f"Error in _render_timeline_fallback: {e}")
-        traceback.print_exc()
-        return False
+#     except Exception as e:
+#         logger.error(f"Error in _render_timeline_fallback: {e}")
+#         traceback.print_exc()
+#         return False
         
-def _timeline_to_clip_sequence(timeline: v3) -> List[Dict]:
-    """
-    Convert a timeline back to a clip sequence format for compatibility.
+# def _timeline_to_clip_sequence(timeline: v3) -> List[Dict]:
+#     """
+#     Convert a timeline back to a clip sequence format for compatibility.
     
-    Args:
-        timeline (v3): The timeline object to convert
+#     Args:
+#         timeline (v3): The timeline object to convert
         
-    Returns:
-        List[Dict]: Clip sequence in the traditional VideoAI format
-    """
-    try:
-        clip_sequence = []
+#     Returns:
+#         List[Dict]: Clip sequence in the traditional VideoAI format
+#     """
+#     try:
+#         clip_sequence = []
         
-        # Check if timeline has video tracks
-        if not timeline.v or not timeline.v[0]:
-            print("Warning: Timeline has no video tracks")
-            return []
+#         # Check if timeline has video tracks
+#         if not timeline.v or not timeline.v[0]:
+#             print("Warning: Timeline has no video tracks")
+#             return []
             
-        # Process video clips in the first track (simple adapter implementation)
-        for clip in timeline.v[0]:
-            try:
-                # Special handling for unittest.mock.MagicMock objects to handle test cases
-                if str(type(clip).__name__) == 'MagicMock':
-                    print(f"Skipping MagicMock clip in tests: {clip}")
-                    continue
+#         # Process video clips in the first track (simple adapter implementation)
+#         for clip in timeline.v[0]:
+#             try:
+#                 # Special handling for unittest.mock.MagicMock objects to handle test cases
+#                 if str(type(clip).__name__) == 'MagicMock':
+#                     print(f"Skipping MagicMock clip in tests: {clip}")
+#                     continue
                     
-                if not hasattr(clip, 'src') or not hasattr(clip.src, 'path'):
-                    print(f"Skipping clip with missing src attribute: {clip}")
-                    continue
-            except Exception as e:
-                print(f"Error accessing clip attributes: {e}")
-                continue
+#                 if not hasattr(clip, 'src') or not hasattr(clip.src, 'path'):
+#                     print(f"Skipping clip with missing src attribute: {clip}")
+#                     continue
+#             except Exception as e:
+#                 print(f"Error accessing clip attributes: {e}")
+#                 continue
                 
-            # Extract information from the timeline clip
-            clip_path = clip.src.path
-            offset = clip.offset
-            duration = clip.dur
+#             # Extract information from the timeline clip
+#             clip_path = clip.src.path
+#             offset = clip.offset
+#             duration = clip.dur
             
-            # Calculate source framerate for time conversion
-            fps = clip.src.video.fps if hasattr(clip.src, 'video') and hasattr(clip.src.video, 'fps') else 30
+#             # Calculate source framerate for time conversion
+#             fps = clip.src.video.fps if hasattr(clip.src, 'video') and hasattr(clip.src.video, 'fps') else 30
             
-            # Convert frame numbers to seconds
-            start_time = offset / fps if fps else 0
-            duration_seconds = duration / fps if fps else 0
+#             # Convert frame numbers to seconds
+#             start_time = offset / fps if fps else 0
+#             duration_seconds = duration / fps if fps else 0
             
-            # Create clip entry in traditional format
-            clip_name = clip_path.name
-            clip_entry = {
-                'clip_name': str(clip_name),
-                'start_time': start_time,
-                'duration': duration_seconds,
-                'script_segment': ""  # Script segment isn't stored in the timeline
-            }
+#             # Create clip entry in traditional format
+#             clip_name = clip_path.name
+#             clip_entry = {
+#                 'clip_name': str(clip_name),
+#                 'start_time': start_time,
+#                 'duration': duration_seconds,
+#                 'script_segment': ""  # Script segment isn't stored in the timeline
+#             }
             
-            clip_sequence.append(clip_entry)
+#             clip_sequence.append(clip_entry)
             
-        return clip_sequence
+#         return clip_sequence
         
-    except Exception as e:
-        print(f"Error converting timeline to clip sequence: {e}")
-        import traceback
-        traceback.print_exc()
-        return []
+#     except Exception as e:
+#         print(f"Error converting timeline to clip sequence: {e}")
+#         import traceback
+#         traceback.print_exc()
+#         return []
 
 def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool:
     """

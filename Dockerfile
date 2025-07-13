@@ -25,10 +25,8 @@ COPY tasks.py .
 COPY video_edit.py .
 COPY file_manager.py .
 COPY config.py .
-COPY timeline_manager.py .
-COPY auto_editor/ /app/auto_editor/
 COPY logging_system/ /app/logging_system/
-COPY perf_render_timeline.py .
+
 COPY api/websockets/pubsub.py /app/api/websockets/pubsub.py
 # pubsub.py'nin çalışması için boş dizinler gerekebilir
 RUN mkdir -p /app/api/websockets/
