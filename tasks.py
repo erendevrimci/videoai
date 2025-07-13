@@ -117,4 +117,5 @@ def create_final_video_task(self, storyboard_id: int, project_id: int, user_id: 
         }
         # Hata durumunda da mesajı yayınlamaya çalış
         loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+        
         raise e 
