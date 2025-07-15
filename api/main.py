@@ -273,10 +273,10 @@ def generate_voice_over(request: VoiceoverRequest, current_user: dict = Depends(
         stability = request.stability
         project_id = request.project_id
         voice_id = request.voice_id
-        voice_over_url = voice_over.main(user_id,project_id,script_id,similarity_boost, stability,voice_id)
+        voice_over_url,voice_over_id = voice_over.main(user_id,project_id,script_id,similarity_boost, stability,voice_id)
         logging.info(f"Voice over URL: {voice_over_url}")
         print(f"Voice over URL: {voice_over_url}")
-        return VoiceoverResponse(success=True, message="Voice over generated successfully", voice_over_url=voice_over_url)
+        return VoiceoverResponse(success=True, message="Voice over generated successfully", voice_over_url=voice_over_url,voice_over_id=voice_over_id)
     except Exception as e:
         return VoiceoverResponse(success=False, message=str(e)), 500
     

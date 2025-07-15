@@ -13,4 +13,5 @@ class VoiceoverResponse(BaseModel):
     success: bool
     message: str
     voice_over_url: Optional[str] = None
+    voice_over_id: Optional[int] = None
     voice_over_history: Optional[List[Optional[VoiceoverHistory]]] = None

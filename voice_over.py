@@ -144,7 +144,7 @@ def main(user_id: str,project_id: int,script_id: int,similarity_boost: float = 0
     else:
         print("Voice generation failed.")
     
-    return signed_url
+    return signed_url,response.data[0]["id"]
 
 if __name__ == "__main__":
     # Parse command line arguments
