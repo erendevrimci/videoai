@@ -41,6 +41,46 @@ def convert_hex_to_ffmpeg_color(hex_color: str) -> str:
     # ffmpeg uses &HBBGGRR format
     return f"&H{bb}{gg}{rr}".upper()
 
+def convert_css_rgba_hex_to_ass(rgba_hex: str) -> str:
+    """
+    Converts a CSS hex color with an optional alpha component (#RRGGBB or #RRGGBBAA)
+    to the ASS &HAABBGGRR color format. It correctly inverts the alpha channel.
+    """
+    # Default to a fully transparent color if input is invalid
+    default_color = "&HFF000000"
+
+    if not rgba_hex or not rgba_hex.startswith('#'):
+        logger.warning(f"Invalid RGBA hex color format: '{rgba_hex}'. Using default transparent.")
+        return default_color
+
+    hex_value = rgba_hex.lstrip('#')
+
+    try:
+        if len(hex_value) == 6: # #RRGGBB format
+            rr, gg, bb = hex_value[0:2], hex_value[2:4], hex_value[4:6]
+            # In ASS, an alpha of 00 is fully opaque.
+            aa = "00"
+            return f"&H{aa}{bb}{gg}{rr}".upper()
+
+        elif len(hex_value) == 8: # #RRGGBBAA format
+            rr, gg, bb, css_aa_hex = hex_value[0:2], hex_value[2:4], hex_value[4:6], hex_value[6:8]
+            
+            # Convert CSS Alpha (00=transparent, FF=opaque) to ASS Alpha (FF=transparent, 00=opaque)
+            # The conversion formula is: ass_alpha = 255 - css_alpha
+            css_alpha_dec = int(css_aa_hex, 16)
+            ass_alpha_dec = 255 - css_alpha_dec
+            ass_aa_hex = f"{ass_alpha_dec:02x}" # Format to a 2-digit hex string
+            
+            return f"&H{ass_aa_hex}{bb}{gg}{rr}".upper()
+        
+        else:
+            logger.warning(f"Unsupported hex color length in '{rgba_hex}'. Using default transparent.")
+            return default_color
+            
+    except (ValueError, TypeError) as e:
+        logger.warning(f"Could not parse color '{rgba_hex}': {e}. Using default transparent.")
+        return default_color
+
 def wrap_text_for_ffmpeg(
     text: str,
     max_width_percent: int,
@@ -109,19 +149,37 @@ def create_karaoke_ass(
     """
     logger.info(f"Generating .ass file with mode='{display_mode}', highlight={highlight_current_word}")
 
-    # --- ASS Header and Style Definition (Bu kısım aynı kalır) ---
+    # --- ASS Header and Style Definition ---
+    # Helper to process colors: if the input is a CSS hex string, convert it.
+    # Otherwise, assume it's already a valid ASS color string.
+    def process_color(value: Any) -> Optional[str]:
+        if isinstance(value, str) and value.startswith('#'):
+            return convert_css_rgba_hex_to_ass(value)
+        return value
+
     font_name = style_overrides.get('font_name', 'DIN Condensed Bold')
     font_size = style_overrides.get('font_size', 72)
-    primary_colour = style_overrides.get('primary_colour', '&HFFFFFF&')
-    secondary_colour = style_overrides.get('highlight_color', '&H00FFFF&')
-    outline_colour = style_overrides.get('outline_colour', '&H000000&')
-    back_colour = style_overrides.get('back_colour', '&H80000000&')
+    # Get colors from overrides, defaulting to ASS format strings. Convert if they are in CSS hex format.
+    primary_colour = process_color(style_overrides.get('primary_colour')) or '&H00FFFFFF' # Default Opaque White
+    secondary_colour = process_color(style_overrides.get('highlight_color')) or '&H00FFFF00' # Default Opaque Cyan
+    outline_colour = process_color(style_overrides.get('outline_colour')) or '&H00000000' # Default Opaque Black
+    back_colour = process_color(style_overrides.get('back_colour')) or '&H80000000' # Default Semi-transparent Black
+    
+    # Handle font weight (CSS fontWeight to ASS Bold flag)
+    # CSS: 400 is normal, 700 is bold. ASS: 0 is normal, 1 is bold.
+    font_weight = style_overrides.get('fontWeight', 400)
+    try:
+        bold_flag = 1 if int(font_weight) > 500 else 0
+    except (ValueError, TypeError):
+        bold_flag = 0
+
     shadow = style_overrides.get('shadow', 1)
     outline = style_overrides.get('outline', 2)
     alignment = style_overrides.get('alignment', 2)
     margin_v = style_overrides.get('margin_v', 35)
     margin_l = style_overrides.get('margin_l', 10)
     margin_r = style_overrides.get('margin_r', 10)
+    # Allow BorderStyle to be overridden. Style 3 creates an opaque box behind text, useful for padding effects.
     border_style = style_overrides.get('border_style', 1)
 
     ass_header = f"""[Script Info]
@@ -134,7 +192,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,{font_name},{font_size},{primary_colour},{secondary_colour},{outline_colour},{back_colour},0,0,0,0,100,100,0,0,{border_style},{outline},{shadow},{alignment},{margin_l},{margin_r},{margin_v},1
+Style: Default,{font_name},{font_size},{primary_colour},{secondary_colour},{outline_colour},{back_colour},{bold_flag},0,0,0,100,100,0,0,{border_style},{outline},{shadow},{alignment},{margin_l},{margin_r},{margin_v},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
