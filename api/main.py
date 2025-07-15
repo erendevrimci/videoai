@@ -35,6 +35,8 @@ from api.ResponseSchemes.VoiceoverResponse import VoiceoverHistory
 from api.RequestSchemes.UploadVoiceoverRequest import UploadVoiceoverRequest
 from api.RequestSchemes.GenerateFinalVideoFromStoryboardRequest import GenerateFinalVideoFromStoryboardRequest
 from api.ResponseSchemes.GenerateFinalVideoFromStoryboardResponse import GenerateFinalVideoFromStoryboardResponse
+from api.RequestSchemes.GenerateFinalVideoRequest import GenerateFinalVideoRequest
+from api.ResponseSchemes.GenerateFinalVideoResponse import GenerateFinalVideoResponse
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_veo3_video import generate_veo3_video
@@ -66,7 +68,7 @@ from typing import Optional # Optional importu eklendi/kontrol edildi
 import asyncio
 import uuid
 # Celery görevimizi import ediyoruz
-from tasks import create_final_video_task
+from tasks import create_final_video_from_storyboard_task, create_final_video_without_storyboard_task
 from celery.result import AsyncResult
 from api.websockets.manager import manager
 from api.websockets.pubsub import subscribe_to_channel
@@ -910,7 +912,7 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
         # Ağır video oluşturma işini doğrudan çağırmak yerine,
         # Celery görevini kuyruğa gönderiyoruz.
         logger.info(f"Queueing video generation task for storyboard {storyboard_id}...")
-        task = create_final_video_task.delay(
+        task = create_final_video_from_storyboard_task.delay(
             storyboard_id=storyboard_id,
             project_id=project_id,
             user_id=user_id
@@ -928,6 +930,40 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
         import traceback
         logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
         return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred while queueing the task: {str(e)}")
+
+@app.post("/generate-final-video", status_code=202, response_model=GenerateFinalVideoResponse)
+def generate_final_video(request: GenerateFinalVideoRequest, current_user: dict = Depends(get_current_user)):
+    try:
+        user_id = current_user["user_id"]
+        project_id = request.project_id
+        caption_id = request.caption_id
+
+        # Proje ve caption'ın varlığını ve kullanıcıya ait olduğunu kontrol et (opsiyonel ama önerilir)
+        project_check = supabase.table("projects").select("id").eq("id", project_id).eq("user_id", user_id).single().execute()
+        if not project_check.data:
+            return GenerateFinalVideoResponse(success=False, message="Project not found or access denied.")
+            
+        caption_check = supabase.table("captions").select("id").eq("id", caption_id).eq("project_id", project_id).single().execute()
+        if not caption_check.data:
+            return GenerateFinalVideoResponse(success=False, message="Caption not found or it does not belong to the specified project.")
+
+        logger.info(f"Queueing video generation task for project {project_id} and caption {caption_id}...")
+        task = create_final_video_without_storyboard_task.delay(
+            project_id=project_id,
+            caption_id=caption_id,
+            user_id=user_id
+        )
+        logger.info(f"Task queued successfully with ID: {task.id}")
+
+        return GenerateFinalVideoResponse(
+            success=True,
+            message="Final video generation has been started.",
+            task_id=task.id
+        )
+    except Exception as e:
+        import traceback
+        logger.error(f"Error in generate_final_video endpoint: {str(e)}\n{traceback.format_exc()}")
+        return GenerateFinalVideoResponse(success=False, message=f"An unexpected error occurred while queueing the task: {str(e)}")
 
 
 @app.websocket("/ws/task-status/{task_id}")
