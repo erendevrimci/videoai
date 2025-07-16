@@ -69,6 +69,13 @@ def get_redis_client():
 # Celery uygulamasının yapılandırmasını güncelle
 celery_app.conf.update(
     task_track_started=True,
+    task_acks_late=True,  # Görevlerin başarıyla tamamlandıktan veya başarısız olduktan sonra onaylanmasını sağlar.
+    broker_heartbeat=120,  # Heartbeat aralığını 2 dakikaya çıkarır.
+    broker_transport_options={
+        # Bir görevin başka bir workera yeniden atanmadan önce ne kadar süre (saniye) görünmez kalacağını belirtir.
+        # Uzun video işleme görevleri için bu süreyi artırmak önemlidir.
+        'visibility_timeout': 7200  # 2 saat
+    }
 )
 
 # --- Lazy Loader for Supabase Client ---
