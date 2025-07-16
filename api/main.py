@@ -494,9 +494,10 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
             "user_id":user_id,
             "project_id":project_id,
         }).execute()
+        logger.info(f"Storyboard created with id {storyboard_result.data[0]['id']}")
         storyboard_id = storyboard_result.data[0]["id"]
         success = video_edit.prepare_video_assets(project_id, caption_id, user_id)
-
+        logger.info(f"Video assets prepared: {success}")
         if not success:
             return StoryboardResponse(success=False, message="Failed to prepare video assets.")
         
