@@ -169,7 +169,7 @@ def generate_images_for_prompts_and_upload_to_supabase(
     results: dict[str, list[dict] | None] = {}
     batch_id = str(uuid.uuid4()) 
     
-    max_workers = 2
+    max_workers = 10
 
     indexed_prompts = list(enumerate(prompts))
 
