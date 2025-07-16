@@ -2279,7 +2279,7 @@ def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool
     logger.info(f"--- AŞAMA 1 & 2 BAŞLADI: Varlık Hazırlama - Proje ID: {project_id}, Caption ID: {caption_id} ---")
     try:
         # --- Veri Toplama ---
-        captions_data_response = supabase.table("captions").select("voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
+        captions_data_response = supabase.table("captions").select("voice_over_id, caption_file, caption_segment_file").eq("user_id", user_id).eq("id", caption_id).single().execute()
         
         if not captions_data_response.data:
             logger.error(f"Caption ID {caption_id} bulunamadı.")
