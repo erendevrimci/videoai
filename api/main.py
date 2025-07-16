@@ -487,13 +487,15 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         storyboard_name = request.name
         project_id = request.project_id
         caption_id = request.caption_id
+        user_id = current_user["user_id"]
+        logger.info(f"Creating storyboard for project_id {project_id} with caption_id {caption_id} and user_id {user_id}")
         storyboard_result = supabase.table("storyboards").insert({
             "name":storyboard_name,
             "project_id":project_id,
-            "user_id":current_user["user_id"],
+            "user_id":user_id,
         }).execute()
         storyboard_id = storyboard_result.data[0]["id"]
-        success = video_edit.prepare_video_assets(project_id, caption_id, current_user["user_id"])
+        success = video_edit.prepare_video_assets(project_id, caption_id, user_id)
 
         if not success:
             return StoryboardResponse(success=False, message="Failed to prepare video assets.")
