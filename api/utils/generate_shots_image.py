@@ -19,7 +19,8 @@ def _process_single_prompt_for_supabase(
     image_size: str,
     user_id: str | None,
     storyboard_id: int | None,
-    batch_id: str
+    batch_id: str,
+    project_id: int
 ) -> list[dict] | None:
     """Tek bir prompt için OpenAI API'sinden görselleri alır, Supabase'e yükler ve DB'ye kaydeder."""
     # Her iş parçacığı (thread) için ayrı bir Supabase istemcisi oluşturulur.
@@ -111,7 +112,8 @@ def _process_single_prompt_for_supabase(
                 "user_id": user_id,
                 "storyboard_id": storyboard_id,
                 "batch_id": batch_id,
-                "shot_index": prompt_index
+                "shot_index": prompt_index,
+                "project_id": project_id
             }
             
             insert_response = supabase.table("images").insert(image_record_to_insert).execute()
@@ -141,7 +143,7 @@ def generate_images_for_prompts_and_upload_to_supabase(
     storyboard_id: int | None, 
     n_images_per_prompt: int = 1,
     image_size: str = "1024x1024",
-    openai_model: str = "dall-e-3",
+    project_id: int | None = None
 ) -> dict[str, list[dict] | None]:
     """
     OpenAI DALL-E API'sini kullanarak verilen bir metin listesinden paralel olarak görseller oluşturur (b64_json formatında),
@@ -183,7 +185,8 @@ def generate_images_for_prompts_and_upload_to_supabase(
                 image_size,
                 user_id,
                 storyboard_id,
-                batch_id
+                batch_id,
+                project_id
             ): prompt_idx_tuple[1]
             for prompt_idx_tuple in indexed_prompts
         }

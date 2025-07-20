@@ -1,8 +1,25 @@
+import os
+import tempfile
+
+# Railway/sunucu ortamları için GCP kimlik bilgilerini ortam değişkeninden ayarla
+# Bu kodun, GCP kütüphanelerini import eden diğer tüm importlardan ÖNCE çalışması gerekir.
+gcp_creds_json = os.getenv("GCP_WIF_CONFIG_JSON") # Değişken adını OIDC için daha anlamlı hale getirdik
+if gcp_creds_json:
+    # Geçici bir dosya oluştur ve JSON içeriğini yaz
+    # Dosyanın sunucu çalıştığı sürece kalması için 'delete=False' kullanıyoruz.
+    with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.json') as temp_creds_file:
+        temp_creds_file.write(gcp_creds_json)
+        creds_file_path = temp_creds_file.name
+    
+    # Google Cloud kütüphanelerinin kullanacağı ortam değişkenini ayarla
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = creds_file_path
+    print(f"GCP Workload Identity Federation yapılandırması ortam değişkeninden okundu: {creds_file_path}")
+
+
 from dotenv import load_dotenv
 load_dotenv()
 
 import json
-import os
 import base64
 from fastapi import FastAPI, Depends, WebSocket, WebSocketDisconnect
 from urllib.parse import quote
@@ -554,7 +571,8 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
                     generate_images_for_prompts_and_upload_to_supabase(
                         prompts=prompts, 
                         user_id=current_user["user_id"], 
-                        storyboard_id=storyboard_id
+                        storyboard_id=storyboard_id,
+                        project_id=project_id
                     )
                     print(f"Storyboard {storyboard_id} için görsel oluşturma görevleri başarıyla gönderildi.")
                 except Exception as img_exc:
