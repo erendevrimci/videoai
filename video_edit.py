@@ -2976,7 +2976,7 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
             return False
 
     # Paralel indirme için bir thread pool kullan
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         results = executor.map(_download_single_clip, clips_to_download)
 
     all_successful = all(results)
