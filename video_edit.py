@@ -24,6 +24,8 @@ import textwrap
 from concurrent.futures import ThreadPoolExecutor
 import requests # Akış için requests kütüphanesini import et
 import psutil # Bellek kullanımı takibi için eklendi
+import time
+import httpx
 
 load_dotenv()
 
@@ -2912,8 +2914,6 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     them to disk to reduce memory usage.
     Skips placeholder clips. Ensures target subdirectories exist.
     """
-    import requests # Akış için requests kütüphanesini import et
-    
     # --- Bellek Kullanımı Loglama Başlangıcı ---
     process = psutil.Process(os.getpid())
     mem_before = process.memory_info().rss / (1024 * 1024) # MB cinsinden
@@ -2940,40 +2940,58 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     logger.info(f"Checking/Downloading {len(clips_to_download)} unique clips in parallel to {target_dir}...")
 
     def _download_single_clip(clip_name: str) -> bool:
-        """Helper function to download a single clip by streaming to reduce memory."""
+        """Helper function to download a single clip by streaming to reduce memory, with retries."""
         local_path = target_dir / clip_name
-        # Dosyanın varlığını ve boş olup olmadığını kontrol et
         if local_path.exists() and local_path.stat().st_size > 0:
             return True
-        
-        try:
-            local_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            # İndirme için kısa süreli geçerli bir URL al
-            signed_url_response = supabase.storage.from_(storage_bucket).create_signed_url(clip_name, 60)
-            signed_url = signed_url_response.get('signedURL')
 
-            if not signed_url:
-                logger.error(f"Could not get signed URL for clip {clip_name}")
+        retries = 3
+        backoff_factor = 1.0
+
+        for attempt in range(retries):
+            try:
+                local_path.parent.mkdir(parents=True, exist_ok=True)
+                
+                signed_url_response = supabase.storage.from_(storage_bucket).create_signed_url(clip_name, 60)
+                signed_url = signed_url_response.get('signedURL')
+
+                if not signed_url:
+                    logger.error(f"Could not get signed URL for clip {clip_name}")
+                    return False
+
+                with requests.get(signed_url, stream=True, timeout=60) as r:
+                    r.raise_for_status()
+                    with open(local_path, 'wb') as f:
+                        for chunk in r.iter_content(chunk_size=8192): 
+                            f.write(chunk)
+                
+                logger.info(f"Successfully downloaded {clip_name} on attempt {attempt + 1}")
+                return True
+
+            except (requests.exceptions.RequestException, httpx.RequestError, httpx.RemoteProtocolError) as e:
+                logger.warning(f"Attempt {attempt + 1}/{retries} for clip {clip_name} failed with a retriable network error: {e}")
+                
+                if local_path.exists():
+                    try: 
+                        local_path.unlink()
+                    except OSError: pass
+
+                if attempt < retries - 1:
+                    sleep_time = backoff_factor * (2 ** attempt)
+                    logger.info(f"Retrying download for {clip_name} in {sleep_time:.1f} seconds...")
+                    time.sleep(sleep_time)
+                else:
+                    logger.error(f"Failed to download clip {clip_name} after {retries} attempts due to network errors.", exc_info=True)
+            
+            except Exception as e:
+                logger.error(f"A non-retriable error occurred while downloading clip {clip_name}: {e}", exc_info=True)
+                if local_path.exists():
+                    try:
+                        local_path.unlink()
+                    except OSError: pass
                 return False
 
-            # Dosyayı belleğe almadan doğrudan diske akıtarak indir
-            with requests.get(signed_url, stream=True) as r:
-                r.raise_for_status() # Hatalı durum kodları için exception fırlat
-                with open(local_path, 'wb') as f:
-                    for chunk in r.iter_content(chunk_size=8192): 
-                        f.write(chunk)
-            
-            return True
-        except Exception as e:
-            logger.error(f"Failed to stream download clip {clip_name}: {e}", exc_info=True)
-            # Hata durumunda yarım inmiş dosyayı temizle
-            if local_path.exists():
-                try: 
-                    local_path.unlink()
-                except OSError: 
-                    pass
-            return False
+        return False
 
     # Paralel indirme için bir thread pool kullan
     with ThreadPoolExecutor(max_workers=6) as executor:
