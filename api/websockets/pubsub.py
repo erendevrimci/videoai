@@ -41,12 +41,20 @@ def run_async(coro):
     Bu, senkron bir fonksiyondan (örn. Celery task) asenkron bir fonksiyonu
     güvenli bir şekilde çağırmak için kullanılır.
     """
+    async def main_wrapper():
+        await coro
+        # Redis bağlantısının düzgün kapanması gibi arka plan görevlerine
+        # zaman tanımak için bir anlık bekleme ekliyoruz. Bu, "Event loop is closed"
+        # hatasını önler.
+        await asyncio.sleep(0)
+
     def run():
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         try:
-            loop.run_until_complete(coro)
+            loop.run_until_complete(main_wrapper())
         finally:
+            # Artık döngüyü kapatmak güvenli.
             loop.close()
 
     thread = threading.Thread(target=run)
