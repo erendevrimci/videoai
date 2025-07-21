@@ -1,6 +1,8 @@
 import os
 import redis.asyncio as redis
 from dotenv import load_dotenv
+import asyncio
+import threading
 
 load_dotenv()
 
@@ -29,4 +31,31 @@ async def subscribe_to_channel(channel: str):
         async for message in pubsub.listen():
             # Sadece 'message' türündeki mesajları işle
             if message["type"] == "message":
-                yield message["data"] 
+                yield message["data"]
+
+# --- Senkron Ortamdan Asenkron Çağrı Yardımcıları ---
+
+def run_async(coro):
+    """
+    Verilen coroutine'i ayrı bir thread'de yeni bir event loop üzerinde çalıştırır.
+    Bu, senkron bir fonksiyondan (örn. Celery task) asenkron bir fonksiyonu
+    güvenli bir şekilde çağırmak için kullanılır.
+    """
+    def run():
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        try:
+            loop.run_until_complete(coro)
+        finally:
+            loop.close()
+
+    thread = threading.Thread(target=run)
+    thread.start()
+    # Ana thread'i bloklamamak için join() yapmıyoruz.
+
+def publish_sync(channel: str, message: str):
+    """
+    Senkron bir bağlamdan mesaj yayınlamak için kullanılır.
+    Asenkron `publish_message` fonksiyonunu arka planda çalıştırır.
+    """
+    run_async(publish_message(channel, message))

@@ -4,7 +4,7 @@ import video_edit
 from dotenv import load_dotenv
 import json
 import asyncio
-from api.websockets.pubsub import publish_message # Publish fonksiyonumuzu import ediyoruz
+from api.websockets.pubsub import publish_sync  # Güncellendi: Artık senkron sarmalayıcıyı kullanıyoruz
 from supabase import create_client
 from celery.utils.log import get_task_logger
 import redis
@@ -94,16 +94,14 @@ def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id
         Oluşturulan videonun Supabase Storage'daki yolu veya hata mesajı.
     """
     task_id = self.request.id
-    # Celery'nin senkron doğasıyla uyumlu çalışmak için olay döngüsünü manuel yönetiyoruz.
-    loop = asyncio.get_event_loop()
-
+    
     try:
         # --- Görev Başladı Bildirimi ---
         start_message = {
             "status": "STARTED",
             "message": f"Video generation started for storyboard {storyboard_id}."
         }
-        loop.run_until_complete(publish_message(task_id, json.dumps(start_message)))
+        publish_sync(task_id, json.dumps(start_message))
         print(f"Celery task [{task_id}] started.")
         
         # --- Ana İşlemi Çalıştır (Bu kısım senkron ve engelleyici) ---
@@ -135,7 +133,7 @@ def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id
                     "video_url": signed_url
                 }
             }
-            loop.run_until_complete(publish_message(task_id, json.dumps(success_message)))
+            publish_sync(task_id, json.dumps(success_message))
             # Celery'nin kendi sonucuna da URL'i ekleyelim (yedek olarak)
             return success_message["result"]
         else:
@@ -144,7 +142,7 @@ def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id
                 "status": "FAILURE",
                 "message": "Video generation failed in the editing process."
             }
-            loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+            publish_sync(task_id, json.dumps(failure_message))
             return "Video generation failed."
 
     except Exception as e:
@@ -157,7 +155,7 @@ def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id
             "message": error_message
         }
         # Hata durumunda da mesajı yayınlamaya çalış
-        loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+        publish_sync(task_id, json.dumps(failure_message))
         # Celery'nin hatayı düzgün işlemesi için yeniden fırlat
         raise e
 
@@ -172,20 +170,19 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
     import video_edit
     
     task_id = self.request.id
-    loop = asyncio.get_event_loop()
     
     try:
         # 1. Görevin başladığını bildir
-        loop.run_until_complete(publish_message(task_id, json.dumps({
+        publish_sync(task_id, json.dumps({
             "status": "STARTED",
             "message": "Video generation process has started."
-        })))
+        }))
         
         # 2. Varlıkları hazırla (AI klip seçimi)
-        loop.run_until_complete(publish_message(task_id, json.dumps({
+        publish_sync(task_id, json.dumps({
             "status": "PROGRESS",
             "message": "Preparing assets and generating clip sequence with AI..."
-        })))
+        }))
         
         assets_prepared = video_edit.prepare_video_assets(
             project_id=project_id,
@@ -197,10 +194,10 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
         if not assets_prepared:
             raise Exception("Failed to prepare video assets. The process was stopped.")
 
-        loop.run_until_complete(publish_message(task_id, json.dumps({
+        publish_sync(task_id, json.dumps({
             "status": "PROGRESS",
             "message": "Asset preparation complete. Starting final video production..."
-        })))
+        }))
         
         # 3. Nihai videoyu üret
         video_path = video_edit.produce_final_video(
@@ -232,7 +229,7 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
                 "video_url": signed_url
             }
         }
-        loop.run_until_complete(publish_message(task_id, json.dumps(success_message)))
+        publish_sync(task_id, json.dumps(success_message))
         return success_message["result"]
 
     except Exception as e:
@@ -241,5 +238,5 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
             "status": "FAILURE",
             "message": str(e)
         }
-        loop.run_until_complete(publish_message(task_id, json.dumps(failure_message)))
+        publish_sync(task_id, json.dumps(failure_message))
         raise 
