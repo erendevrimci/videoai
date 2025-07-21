@@ -88,10 +88,10 @@ def _fetch_images(supabase: Client, project_id: int, target_dir: str):
     """Projedeki görselleri çeker ve indirir."""
     try:
         images_dir = os.path.join(target_dir, "images")
-        images = supabase.table("images").select("image_url").eq("project_id", project_id).execute().data
+        images = supabase.table("images").select("url").eq("project_id", project_id).execute().data
         for img in images:
             # `upload_image` fonksiyonuna göre bucket adı 'videos'
-            _download_and_save_file(supabase, "videos", img["image_path"], images_dir)
+            _download_and_save_file(supabase, "videos", img["url"], images_dir)
         logger.info(f"{len(images)} adet görsel dosyası işlendi.")
     except Exception as e:
         logger.error(f"Görseller alınırken hata: {e}")
