@@ -40,7 +40,7 @@ def _process_single_prompt_for_supabase(
         "prompt": prompt_text,
         "n": n_images_per_prompt,
         "size": image_size,
-        "quality": "low",
+        "quality": "medium",
     }
     
     openai_response_obj = None
