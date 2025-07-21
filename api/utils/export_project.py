@@ -88,7 +88,7 @@ def _fetch_images(supabase: Client, project_id: int, target_dir: str):
     """Projedeki görselleri çeker ve indirir."""
     try:
         images_dir = os.path.join(target_dir, "images")
-        images = supabase.table("images").select("image_path").eq("project_id", project_id).execute().data
+        images = supabase.table("images").select("image_url").eq("project_id", project_id).execute().data
         for img in images:
             # `upload_image` fonksiyonuna göre bucket adı 'videos'
             _download_and_save_file(supabase, "videos", img["image_path"], images_dir)

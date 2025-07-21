@@ -802,6 +802,7 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
     try:
         user_id = current_user["user_id"]
         model = request.model
+        project_id = request.project_id
         batch_id = str(uuid.uuid4()) # Her istek için benzersiz bir batch_id oluştur
         
         generation_tasks = []
@@ -854,8 +855,10 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
                     "user_id": user_id,
                     "name": video_name,
                     "batch_id": batch_id,
+                    "path": video_name,
                     "start_image_id": segment.start_image_id,
-                    "end_image_id": segment.end_image_id
+                    "end_image_id": segment.end_image_id,
+                    "project_id": project_id
                 }).execute()
             except Exception as e:
                 print(f"Segment {i} için Supabase işlemi başarısız oldu: {e}")

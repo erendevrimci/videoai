@@ -16,6 +16,7 @@ class GenerateTimelineVideoRequest(BaseModel):
     model: str
     segments: List[TimelineSegment]
     aspect_ratio: str
+    project_id: int
     
 
 
