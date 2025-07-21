@@ -10,20 +10,28 @@ load_dotenv()
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
 
 # Asenkron Redis bağlantı havuzu oluştur
-# Bu, birden çok isteğin aynı anda verimli bir şekilde bağlantı kullanmasını sağlar.
-redis_pool = redis.ConnectionPool.from_url(REDIS_URL, decode_responses=True)
+# Artık global bir havuz kullanmıyoruz, bu satırı kaldırıyoruz veya yorumluyoruz.
+# redis_pool = redis.ConnectionPool.from_url(REDIS_URL, decode_responses=True)
 
 async def publish_message(channel: str, message: str):
     """Belirtilen kanala bir mesaj yayınlar."""
-    async with redis.Redis(connection_pool=redis_pool) as r:
+    r = None
+    try:
+        # Her çağrıda yeni bir bağlantı oluşturulur.
+        r = redis.Redis.from_url(REDIS_URL, decode_responses=True)
         await r.publish(channel, message)
+    finally:
+        if r:
+            # Bağlantı işi bittiğinde güvenli bir şekilde kapatılır.
+            await r.close()
 
 async def subscribe_to_channel(channel: str):
     """
     Belirtilen kanala abone olur ve mesajları dinler.
     Bu bir 'async generator' fonksiyonudur, yani her gelen mesajda bir değer 'yield' eder.
     """
-    async with redis.Redis(connection_pool=redis_pool) as r:
+    r = redis.Redis.from_url(REDIS_URL, decode_responses=True)
+    try:
         pubsub = r.pubsub()
         await pubsub.subscribe(channel)
         
@@ -32,6 +40,10 @@ async def subscribe_to_channel(channel: str):
             # Sadece 'message' türündeki mesajları işle
             if message["type"] == "message":
                 yield message["data"]
+    finally:
+        # Dinleyici durduğunda bağlantıyı kapat.
+        if r:
+            await r.close()
 
 # --- Senkron Ortamdan Asenkron Çağrı Yardımcıları ---
 
