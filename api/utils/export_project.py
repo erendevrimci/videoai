@@ -4,6 +4,8 @@ import tempfile
 import zipfile
 import logging
 import json
+import urllib.request
+from urllib.parse import urlparse, unquote
 from supabase import Client
 
 # Log yapılandırması
@@ -41,6 +43,33 @@ def _download_and_save_file(supabase: Client, bucket_name: str, file_path: str, 
     except Exception as e:
         # Hata mesajında daha fazla detay verelim
         logger.error(f"Dosya indirilirken hata (bucket: {bucket_name}, path: {file_path}): {e}", exc_info=True)
+        return False
+
+def _download_file_from_url(url: str, local_dir: str):
+    """Bir URL'den dosya indirir ve yerel bir dizine kaydeder."""
+    if not url:
+        logger.warning("URL boş, indirme atlanıyor.")
+        return False
+    try:
+        os.makedirs(local_dir, exist_ok=True)
+        
+        parsed_url = urlparse(url)
+        # URL kodlamasını çözerek dosya adını al
+        file_name = os.path.basename(unquote(parsed_url.path))
+        
+        if not file_name:
+            # Dosya adı alınamazsa, URL'nin karmasından benzersiz bir ad oluştur
+            file_name = f"unknown_file_{hash(url)}"
+            logger.warning(f"URL'den dosya adı alınamadı. Geçici ad kullanılıyor: {file_name}")
+
+        local_path = os.path.join(local_dir, file_name)
+        
+        urllib.request.urlretrieve(url, local_path)
+        
+        logger.info(f"'{url}' adresindeki dosya '{local_path}' konumuna indirildi.")
+        return True
+    except Exception as e:
+        logger.error(f"URL'den dosya indirilirken hata ({url}): {e}", exc_info=True)
         return False
 
 def _fetch_scripts(supabase: Client, project_id: int, target_dir: str):
@@ -88,10 +117,14 @@ def _fetch_images(supabase: Client, project_id: int, target_dir: str):
     """Projedeki görselleri çeker ve indirir."""
     try:
         images_dir = os.path.join(target_dir, "images")
+        os.makedirs(images_dir, exist_ok=True)
         images = supabase.table("images").select("url").eq("project_id", project_id).execute().data
         for img in images:
-            # `upload_image` fonksiyonuna göre bucket adı 'videos'
-            _download_and_save_file(supabase, "videos", img["url"], images_dir)
+            # images.url'nin doğrudan indirilebilir bir URL olduğu varsayılır.
+            if img.get("url"):
+                _download_file_from_url(img["url"], images_dir)
+            else:
+                logger.warning(f"Görsel için URL bulunamadı, atlanıyor: {img}")
         logger.info(f"{len(images)} adet görsel dosyası işlendi.")
     except Exception as e:
         logger.error(f"Görseller alınırken hata: {e}")
