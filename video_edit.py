@@ -2588,6 +2588,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             
             # Görüntüleme modu ve kelime vurgulama
             display_mode = db_styles.get('displayMode', display_mode)
+            logger.info(f"Görüntüleme modu: {display_mode}")
             highlight_current_word = db_styles.get('highlightCurrentWord', highlight_current_word)
 
             # Renkleri dönüştür (doğrudan CSS formatında yolla, create_karaoke_ass halleder)
