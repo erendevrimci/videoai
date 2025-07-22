@@ -18,6 +18,8 @@ import re # get_num_segments için import
 import pysrt # Karaoke efekti için eklendi
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
+import requests
+from requests.adapters import HTTPAdapter, Retry
 
 
 load_dotenv()
@@ -3024,11 +3026,11 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False) -> b
 def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, storage_bucket: str = "video-database") -> bool:
     """
     Downloads clips specified in the sequence from Supabase storage in parallel by streaming
-    them to disk to reduce memory usage.
+    them to disk to reduce memory usage. Includes a robust retry mechanism.
     Skips placeholder clips. Ensures target subdirectories exist.
     """
-    import requests # Akış için requests kütüphanesini import et
-    
+    import requests
+    from requests.adapters import HTTPAdapter, Retry
 
     if not supabase:
         logger.error("Supabase client not initialized. Cannot download clips.")
@@ -3049,34 +3051,54 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     
     logger.info(f"Checking/Downloading {len(clips_to_download)} unique clips in parallel to {target_dir}...")
 
+    # --- Yeniden deneme mekanizması ile bir session oluştur ---
+    retry_strategy = Retry(
+        total=3,  # Toplam deneme sayısı
+        backoff_factor=1,  # Denemeler arası bekleme süresi (artarak gider)
+        status_forcelist=[429, 500, 502, 503, 504],  # Bu durumlarda yeniden dene
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    http_session = requests.Session()
+    http_session.mount("https://", adapter)
+    http_session.mount("http://", adapter)
+    # --- Session oluşturma sonu ---
+
     def _download_single_clip(clip_name: str) -> bool:
-        """Helper function to download a single clip by streaming to reduce memory."""
+        """Helper function to download a single clip using a session with retries."""
         local_path = target_dir / clip_name
         # Dosyanın varlığını ve boş olup olmadığını kontrol et
         if local_path.exists() and local_path.stat().st_size > 0:
+            logger.debug(f"Clip '{clip_name}' already exists locally and is not empty. Skipping download.")
             return True
         
         try:
             local_path.parent.mkdir(parents=True, exist_ok=True)
             
             # İndirme için kısa süreli geçerli bir URL al
-            signed_url_response = supabase.storage.from_(storage_bucket).create_signed_url(clip_name, 60)
+            signed_url_response = supabase.storage.from_(storage_bucket).create_signed_url(clip_name, 360)
             signed_url = signed_url_response.get('signedURL')
 
             if not signed_url:
                 logger.error(f"Could not get signed URL for clip {clip_name}")
                 return False
 
-            # Dosyayı belleğe almadan doğrudan diske akıtarak indir
-            with requests.get(signed_url, stream=True) as r:
-                r.raise_for_status() # Hatalı durum kodları için exception fırlat
+            # requests ile stream ve timeout kullanarak daha sağlam bir indirme
+            with http_session.get(signed_url, stream=True, timeout=(30, 60)) as r:
+                r.raise_for_status()
                 with open(local_path, 'wb') as f:
-                    for chunk in r.iter_content(chunk_size=8192): 
+                    for chunk in r.iter_content(chunk_size=8192):
                         f.write(chunk)
             
+            logger.info(f"Successfully downloaded clip: {clip_name}")
             return True
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Failed to download clip {clip_name} after multiple retries: {e}", exc_info=True)
+            if local_path.exists():
+                try: local_path.unlink()
+                except OSError: pass
+            return False
         except Exception as e:
-            logger.error(f"Failed to stream download clip {clip_name}: {e}", exc_info=True)
+            logger.error(f"An unexpected error occurred during download of {clip_name}: {e}", exc_info=True)
             # Hata durumunda yarım inmiş dosyayı temizle
             if local_path.exists():
                 try: 
