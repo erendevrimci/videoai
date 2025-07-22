@@ -272,7 +272,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
             words_and_timings = re.findall(r"(\S+)<\[(\d+),(\d+)\]>", full_text)
 
-            if display_mode == 'word_by_word' and words_and_timings:
+            if display_mode == 'word-by-word' and words_and_timings:
                 for word, word_start_ms_str, word_end_ms_str in words_and_timings:
                     word_start_time = pysrt.SubRipTime(milliseconds=int(word_start_ms_str))
                     word_end_time = pysrt.SubRipTime(milliseconds=int(word_end_ms_str))
@@ -2580,7 +2580,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         style_response = supabase.table("caption_styles").select("*").eq("caption_id", caption_id).limit(1).single().execute()
         
         style_overrides = {}
-        display_mode = 'full_segment' # Varsayılan
+        display_mode = 'full-segments' # Varsayılan
         highlight_current_word = False # Varsayılan
         db_styles = style_response.data
         if db_styles:
@@ -2648,13 +2648,13 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         
         # **AKILLI SRT SEÇİMİ**
         srt_to_process_name = None
-        if display_mode == 'word_by_word':
+        if display_mode == 'word-by-word':
             srt_to_process_name = word_level_srt_name
             logger.info(f"Kelime-kelime modu seçildi. Kullanılacak SRT: {srt_to_process_name}")
             if not srt_to_process_name:
                  logger.warning("Kelime-kelime modu istendi ancak kelime-bazlı SRT dosyası bulunamadı. Segment moduna geri dönülüyor.")
                  srt_to_process_name = segment_level_srt_name
-                 display_mode = 'full_segment' # Modu da güncelle
+                 display_mode = 'full-segments' # Modu da güncelle
         else:
             # Önce segment bazlıyı dene, yoksa kelime bazlıya geri dön
             srt_to_process_name = segment_level_srt_name or word_level_srt_name
