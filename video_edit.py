@@ -2587,54 +2587,57 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             logger.info("Veritabanından gelen özel altyazı stilleri uygulanacak.")
             
             # Görüntüleme modu ve kelime vurgulama
-            display_mode = db_styles.get('displayMode', display_mode)
-            logger.info(f"Görüntüleme modu: {display_mode}")
-            highlight_current_word = db_styles.get('highlightCurrentWord', highlight_current_word)
+            display_mode = db_styles.get('display_mode', display_mode)
+            highlight_current_word = db_styles.get('highlight_current_word', highlight_current_word)
 
             # Renkleri dönüştür (doğrudan CSS formatında yolla, create_karaoke_ass halleder)
-            if db_styles.get('textColor'):
-                style_overrides['primary_colour'] = db_styles['textColor']
-            if db_styles.get('highlightColor'): # DB'de highlightColor olduğunu varsayıyoruz
-                style_overrides['highlight_color'] = db_styles['highlightColor']
-            if db_styles.get('strokeColor'):
-                style_overrides['outline_colour'] = db_styles['strokeColor']
+            if db_styles.get('text_color'):
+                style_overrides['primary_colour'] = db_styles['text_color']
+            
+            # Not: Gerçek karaoke efekti için 'highlight_color' gelecekte eklenebilir.
+            # Şimdilik create_karaoke_ass fonksiyonu varsayılan bir renk kullanacak.
+
+            if db_styles.get('outline_color'):
+                style_overrides['outline_colour'] = db_styles['outline_color']
 
             # Arka plan rengi ve şeffaflığı
-            if db_styles.get('backgroundColor') and db_styles.get('backgroundOpacity') is not None:
+            if db_styles.get('background_color') and db_styles.get('background_opacity') is not None:
                 # CSS #RRGGBB ve opacity (0-1) değerlerini birleştirerek #RRGGBBAA formatına getir
-                hex_color = db_styles['backgroundColor'].lstrip('#')
-                opacity = float(db_styles.get('backgroundOpacity', 0.5))
+                hex_color = db_styles['background_color'].lstrip('#')
+                opacity = float(db_styles.get('background_opacity', 0.5))
                 alpha_hex = f"{int(opacity * 255):02x}"
                 style_overrides['back_colour'] = f"#{hex_color}{alpha_hex}"
                 # Arka plan kutusunu etkinleştirmek için BorderStyle'ı 3 yap
                 style_overrides['border_style'] = 3
             
             # Yazı tipi ayarları
-            if db_styles.get('fontFamily'):
-                style_overrides['font_name'] = db_styles['fontFamily']
-            if db_styles.get('fontSize'):
-                style_overrides['font_size'] = db_styles['fontSize']
-            if db_styles.get('fontWeight'):
-                 style_overrides['fontWeight'] = db_styles['fontWeight']
+            if db_styles.get('font_family'):
+                style_overrides['font_name'] = db_styles['font_family']
+            if db_styles.get('font_size'):
+                style_overrides['font_size'] = db_styles['font_size']
+            if db_styles.get('font_weight'):
+                 style_overrides['fontWeight'] = db_styles['font_weight']
 
             # Efektler
-            if db_styles.get('strokeWidth') is not None:
-                style_overrides['outline'] = db_styles['strokeWidth']
-            if db_styles.get('shadowBlurRadius', 0) > 0 or db_styles.get('shadowVerticalOffset', 0) > 0:
-                style_overrides['shadow'] = max(db_styles.get('shadowBlurRadius', 1), db_styles.get('shadowVerticalOffset', 1))
+            if db_styles.get('outline_width') is not None:
+                style_overrides['outline'] = db_styles['outline_width']
+            
+            # Gölgeyi sadece ilgili değerler 0'dan büyükse uygula
+            shadow_blur = db_styles.get('shadow_blur', 0)
+            shadow_y_offset = db_styles.get('shadow_offset_y', 0)
+            if shadow_blur > 0 or shadow_y_offset > 0:
+                style_overrides['shadow'] = max(shadow_blur, shadow_y_offset)
 
 
             # Pozisyon ve Hizalama
-            vertical_pos = db_styles.get('verticalPosition', 'bottom')
-            horizontal_align = db_styles.get('horizontalAlignment', 'center')
+            vertical_pos = db_styles.get('vertical_position', 'bottom')
+            horizontal_align = db_styles.get('alignment', 'center')
             style_overrides['alignment'] = map_alignment(vertical_pos, horizontal_align)
             
             # Kenar Boşlukları (Margin/Padding)
-            padding = db_styles.get('padding')
-            if isinstance(padding, dict):
-                style_overrides['margin_v'] = padding.get('bottom', 35) # Dikey boşluk için 'bottom' kullanılıyor
-                style_overrides['margin_l'] = padding.get('left', 10)
-                style_overrides['margin_r'] = padding.get('right', 10)
+            style_overrides['margin_v'] = db_styles.get('padding_bottom', 35) # Dikey boşluk için 'padding_bottom' kullanılıyor
+            style_overrides['margin_l'] = db_styles.get('padding_left', 10)
+            style_overrides['margin_r'] = db_styles.get('padding_right', 10)
 
             logger.info(f"Uygulanacak stil ayarları: {style_overrides}")
         
