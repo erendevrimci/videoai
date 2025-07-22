@@ -127,6 +127,7 @@ class VideoEditConfig(BaseModel):
     background_music_volume: float = Field(default=0.4)  # Increased for better audibility
     subtitle_font: str = Field(default="DIN Condensed Bold")
     subtitle_font_size: int = Field(default=13)
+    subtitle_font_scale_factor: float = Field(default=1.8)
 
 class ScriptGenerationConfig(BaseModel):
     """Script generation configuration"""

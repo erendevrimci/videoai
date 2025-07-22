@@ -2614,7 +2614,13 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             if db_styles.get('font_family'):
                 style_overrides['font_name'] = db_styles['font_family']
             if db_styles.get('font_size'):
-                style_overrides['font_size'] = db_styles['font_size']
+                # FONT BOYUTU ÖLÇEKLENDİRME
+                original_font_size = db_styles['font_size']
+                scale_factor = config.video_edit.get('subtitle_font_scale_factor', 1.0)
+                scaled_font_size = int(original_font_size * scale_factor)
+                style_overrides['font_size'] = scaled_font_size
+                logger.info(f"Yazı tipi boyutu ölçeklendirildi: Orijinal={original_font_size}, Faktör={scale_factor}, Yeni={scaled_font_size}")
+
             if db_styles.get('font_weight'):
                  style_overrides['fontWeight'] = db_styles['font_weight']
 
