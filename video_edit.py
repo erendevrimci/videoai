@@ -2588,43 +2588,38 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             display_mode = db_styles.get('displayMode', display_mode)
             highlight_current_word = db_styles.get('highlightCurrentWord', highlight_current_word)
 
-            # Renkleri dönüştür
+            # Renkleri dönüştür (doğrudan CSS formatında yolla, create_karaoke_ass halleder)
             if db_styles.get('textColor'):
-                style_overrides['primary_colour'] = convert_hex_to_ffmpeg_color(db_styles['textColor'])
+                style_overrides['primary_colour'] = db_styles['textColor']
             if db_styles.get('highlightColor'): # DB'de highlightColor olduğunu varsayıyoruz
-                style_overrides['highlight_color'] = convert_hex_to_ffmpeg_color(db_styles['highlightColor'])
+                style_overrides['highlight_color'] = db_styles['highlightColor']
             if db_styles.get('strokeColor'):
-                style_overrides['outline_colour'] = convert_hex_to_ffmpeg_color(db_styles['strokeColor'])
+                style_overrides['outline_colour'] = db_styles['strokeColor']
 
+            # Arka plan rengi ve şeffaflığı
             if db_styles.get('backgroundColor') and db_styles.get('backgroundOpacity') is not None:
+                # CSS #RRGGBB ve opacity (0-1) değerlerini birleştirerek #RRGGBBAA formatına getir
                 hex_color = db_styles['backgroundColor'].lstrip('#')
-                opacity = float(db_styles.get('backgroundOpacity', 0.5)) # 0-1 arası olmalı
-                alpha_hex = f"{int((1 - opacity) * 255):02x}".upper()
-                # ffmpeg formatı: &H[Alpha][BB][GG][RR]
-                if len(hex_color) == 6:
-                    bb, gg, rr = hex_color[4:6], hex_color[2:4], hex_color[0:2]
-                    style_overrides['back_colour'] = f"&H{alpha_hex}{bb}{gg}{rr}".upper()
-                else:
-                    logger.warning(f"Geçersiz arkaplan rengi formatı: '{db_styles['backgroundColor']}'")
-
+                opacity = float(db_styles.get('backgroundOpacity', 0.5))
+                alpha_hex = f"{int(opacity * 255):02x}"
+                style_overrides['back_colour'] = f"#{hex_color}{alpha_hex}"
+                # Arka plan kutusunu etkinleştirmek için BorderStyle'ı 3 yap
+                style_overrides['border_style'] = 3
+            
             # Yazı tipi ayarları
             if db_styles.get('fontFamily'):
                 style_overrides['font_name'] = db_styles['fontFamily']
             if db_styles.get('fontSize'):
                 style_overrides['font_size'] = db_styles['fontSize']
-            if db_styles.get('fontWeight') and str(db_styles['fontWeight']).lower() in ['bold', '700', '800', '900']:
-                 style_overrides['bold'] = -1
-            else:
-                 style_overrides['bold'] = 0
+            if db_styles.get('fontWeight'):
+                 style_overrides['fontWeight'] = db_styles['fontWeight']
 
             # Efektler
             if db_styles.get('strokeWidth') is not None:
                 style_overrides['outline'] = db_styles['strokeWidth']
-            # Basit bir gölge mantığı: Eğer shadow offset veya blur varsa gölgeyi etkinleştir.
-            if db_styles.get('shadowBlurRadius', 0) > 0 or db_styles.get('shadowVerticalOffset', 0) > 0 or db_styles.get('shadowHorizontalOffset', 0) > 0:
-                style_overrides['shadow'] = max(db_styles.get('shadowBlurRadius', 0), db_styles.get('shadowVerticalOffset', 0), db_styles.get('shadowHorizontalOffset', 0), 1)
-            else:
-                style_overrides['shadow'] = 0
+            if db_styles.get('shadowBlurRadius', 0) > 0 or db_styles.get('shadowVerticalOffset', 0) > 0:
+                style_overrides['shadow'] = max(db_styles.get('shadowBlurRadius', 1), db_styles.get('shadowVerticalOffset', 1))
+
 
             # Pozisyon ve Hizalama
             vertical_pos = db_styles.get('verticalPosition', 'bottom')
@@ -2632,17 +2627,11 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             style_overrides['alignment'] = map_alignment(vertical_pos, horizontal_align)
             
             # Kenar Boşlukları (Margin/Padding)
-            # Öncelik padding objesi, sonra tekil margin değerleri
             padding = db_styles.get('padding')
             if isinstance(padding, dict):
                 style_overrides['margin_v'] = padding.get('bottom', 35) # Dikey boşluk için 'bottom' kullanılıyor
                 style_overrides['margin_l'] = padding.get('left', 10)
                 style_overrides['margin_r'] = padding.get('right', 10)
-            else:
-                # Veritabanında padding yoksa, eski margin anahtarlarını kontrol et
-                if db_styles.get('marginV') is not None: style_overrides['margin_v'] = db_styles['marginV']
-                if db_styles.get('marginL') is not None: style_overrides['margin_l'] = db_styles['marginL']
-                if db_styles.get('marginR') is not None: style_overrides['margin_r'] = db_styles['marginR']
 
             logger.info(f"Uygulanacak stil ayarları: {style_overrides}")
         
@@ -2654,7 +2643,21 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         # --- Dinamik Altyazı Mantığı ---
         subtitle_bytes_to_burn = None
         subtitle_format_to_burn = 'ass'
-        srt_to_process_name = segment_level_srt_name or word_level_srt_name
+        
+        # **AKILLI SRT SEÇİMİ**
+        srt_to_process_name = None
+        if display_mode == 'word_by_word':
+            srt_to_process_name = word_level_srt_name
+            logger.info(f"Kelime-kelime modu seçildi. Kullanılacak SRT: {srt_to_process_name}")
+            if not srt_to_process_name:
+                 logger.warning("Kelime-kelime modu istendi ancak kelime-bazlı SRT dosyası bulunamadı. Segment moduna geri dönülüyor.")
+                 srt_to_process_name = segment_level_srt_name
+                 display_mode = 'full_segment' # Modu da güncelle
+        else:
+            # Önce segment bazlıyı dene, yoksa kelime bazlıya geri dön
+            srt_to_process_name = segment_level_srt_name or word_level_srt_name
+            logger.info(f"Segment modu seçildi. Kullanılacak SRT: {srt_to_process_name}")
+
         
         if display_mode != 'disabled' and srt_to_process_name:
             captions_file_bytes = supabase.storage.from_("captions").download(srt_to_process_name)
@@ -2663,12 +2666,12 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
                 srt_bytes=captions_file_bytes,
                 style_overrides=style_overrides,
                 display_mode=display_mode,
-                highlight_current_word=highlight_current_word, # DB'den gelen değer
+                highlight_current_word=highlight_current_word,
                 max_width_percent=db_styles.get('maxWidth', 80) if db_styles else 80,
                 target_video_width=timeline_config.default_width
             )
         else:
-            logger.warning("Altyazı oluşturulmayacak.")
+            logger.warning("Altyazı oluşturulmayacak veya işlenecek SRT dosyası bulunamadı.")
 
         project_data_response = supabase.table("projects").select("response_json").eq("id", project_id).single().execute()
         if not project_data_response.data or not project_data_response.data.get("response_json"):
