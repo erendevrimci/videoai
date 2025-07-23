@@ -38,5 +38,8 @@ RUN chown -R appuser:appuser /app
 # Root olmayan kullanıcıya geç
 USER appuser
 
+# Flower için varsayılan portu aç
+EXPOSE 5555
+
 # Worker için varsayılan komut
 CMD ["celery", "-A", "tasks", "worker", "--loglevel=info"]
