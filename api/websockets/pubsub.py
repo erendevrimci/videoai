@@ -9,28 +9,28 @@ load_dotenv()
 # Redis URL'sini ortam değişkeninden al
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
 
-# Asenkron Redis bağlantı havuzu oluştur
-# Artık global bir havuz kullanmıyoruz, bu satırı kaldırıyoruz veya yorumluyoruz.
-# redis_pool = redis.ConnectionPool.from_url(REDIS_URL, decode_responses=True)
+# Paylaşılan bir asenkron Redis bağlantı havuzu oluştur
+# Bu havuz thread-safe'dir ve uygulama boyunca yeniden kullanılabilir.
+redis_pool = redis.ConnectionPool.from_url(REDIS_URL, decode_responses=True)
 
 async def publish_message(channel: str, message: str):
     """Belirtilen kanala bir mesaj yayınlar."""
-    r = None
+    # Her çağrıda yeni bir bağlantı oluşturmak yerine havuzdan bir bağlantı kullan.
+    r = redis.Redis.from_pool(redis_pool)
     try:
-        # Her çağrıda yeni bir bağlantı oluşturulur.
-        r = redis.Redis.from_url(REDIS_URL, decode_responses=True)
         await r.publish(channel, message)
     finally:
-        if r:
-            # Bağlantı işi bittiğinde güvenli bir şekilde kapatılır.
-            await r.close()
+        # Bağlantıyı kapatmak yerine havuza geri bırak.
+        # `r.close()` asenkron `redis-py`'de bağlantıyı havuza iade eder.
+        await r.close()
 
 async def subscribe_to_channel(channel: str):
     """
     Belirtilen kanala abone olur ve mesajları dinler.
     Bu bir 'async generator' fonksiyonudur, yani her gelen mesajda bir değer 'yield' eder.
     """
-    r = redis.Redis.from_url(REDIS_URL, decode_responses=True)
+    # Havuzdan bir bağlantı al
+    r = redis.Redis.from_pool(redis_pool)
     try:
         pubsub = r.pubsub()
         await pubsub.subscribe(channel)
@@ -78,4 +78,4 @@ def publish_sync(channel: str, message: str):
     Senkron bir bağlamdan mesaj yayınlamak için kullanılır.
     Asenkron `publish_message` fonksiyonunu arka planda çalıştırır.
     """
-    run_async(publish_message(channel, message)) 
+    run_async(publish_message(channel, message))
