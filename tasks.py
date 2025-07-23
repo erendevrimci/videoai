@@ -38,6 +38,11 @@ celery_app.conf.update(
     }
 )
 
+celery_app.conf.task_routes = {
+    "tasks.create_storyboard_task": {"queue": "storyboard_queue"},
+    "tasks.create_final_video_from_storyboard_task": {"queue": "video_queue"},
+    "tasks.create_final_video_without_storyboard_task": {"queue": "video_queue"},
+}
 # --- Celery Görevleri Logger ---
 logger = get_task_logger(__name__)
 
@@ -219,3 +224,154 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
         publish_sync(task_id, json.dumps(failure_message))
         raise 
 
+@celery_app.task(name="tasks.create_storyboard_task", bind=True)
+def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str, storyboard_name: str, shot_index_size: Optional[int]=None):
+    """
+    Celery görevi olarak storyboard oluşturan fonksiyon.
+    API endpoint'indeki tüm mantık buraya taşındı ve WebSocket ile ilerleme bildirimi eklendi.
+    """
+    # Gerekli import'lar görev içinde yapılır
+    import concurrent.futures
+    import os
+    import json
+    from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
+    import video_edit
+
+    task_id = self.request.id
+    supabase = get_supabase_client()
+
+    def publish_progress(message: str, stage: str = "PROGRESS"):
+        """Helper function to publish progress updates."""
+        publish_sync(task_id, json.dumps({
+            "status": stage,
+            "message": message
+        }))
+
+    try:
+        shots = []
+        publish_progress(f"Storyboard '{storyboard_name}' oluşturma işlemi başladı.", "STARTED")
+        logger.info(f"Celery Task [{task_id}]: Creating storyboard for project_id {project_id}")
+
+        # 1. Storyboard'u veritabanına ekle
+        storyboard_result = supabase.table("storyboards").insert({
+            "name": storyboard_name,
+            "user_id": user_id,
+            "project_id": project_id,
+        }).execute()
+
+        if not storyboard_result.data:
+            logger.error(f"Task [{task_id}]: Failed to create storyboard entry in database. Error: {storyboard_result.error}")
+            raise Exception("Storyboard database entry failed.")
+        
+        storyboard_id = storyboard_result.data[0]["id"]
+        logger.info(f"Task [{task_id}]: Storyboard entry created with id {storyboard_id}")
+
+        # 2. Video varlıklarını hazırla (Bu, OpenAI çağrısını yapar ve response_json'u kaydeder)
+        publish_progress("Yapay zeka ile senaryo analizi ve klip seçimi yapılıyor...")
+        success = video_edit.prepare_video_assets(project_id, caption_id, user_id)
+        if not success:
+            logger.error(f"Task [{task_id}]: Failed to prepare video assets (prepare_video_assets returned False).")
+            raise Exception("Failed to prepare video assets.")
+
+        # 3. response_json'u al ve shot'ları oluştur
+        publish_progress("Klip dizisi işleniyor ve storyboard çekimleri oluşturuluyor...")
+        response_json_result = supabase.table("projects").select("response_json").eq("id", project_id).single().execute()
+
+        if response_json_result.data and response_json_result.data.get("response_json"):
+            response_json = response_json_result.data["response_json"]
+            try:
+                response_json_data = json.loads(response_json)
+                if not isinstance(response_json_data, list):
+                    logger.warning(f"Task [{task_id}]: response_json for project_id {project_id} is not a list.")
+                    response_json_data = []
+            except json.JSONDecodeError:
+                logger.warning(f"Task [{task_id}]: Invalid JSON in response_json for project_id {project_id}.")
+                response_json_data = []
+
+            # --- process_clip iç içe fonksiyonu ---
+            def process_clip(clip_args):
+                index, clip_data = clip_args
+                if not all(key in clip_data for key in ["clip_name", "suggestion", "duration", "explanation", "script_segment", "start_time"]):
+                    logger.warning(f"Task [{task_id}]: Missing keys in clip_data for storyboard_id {storyboard_id}. Skipping shot.")
+                    return None
+                try:
+                    signed_url_data = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
+                    video_url = signed_url_data.get('signedURL') if signed_url_data else None
+                    
+                    return {
+                        "approved": False, "video_url": video_url, "duration": clip_data["duration"],
+                        "suggestion": clip_data["suggestion"], "explanation": clip_data["explanation"],
+                        "clip_name": clip_data["clip_name"], "script_segment": clip_data["script_segment"],
+                        "start_time": clip_data["start_time"], "shot_index": index,
+                        "storyboard_id": storyboard_id, "user_id": user_id
+                    }
+                except Exception as e:
+                    logger.error(f"Task [{task_id}]: Error processing clip data {clip_data.get('clip_name')}: {e}")
+                    return None
+            # --- process_clip sonu ---
+
+            with concurrent.futures.ThreadPoolExecutor(max_workers=min(32, os.cpu_count() + 4)) as executor:
+                results = executor.map(process_clip, enumerate(response_json_data))
+            
+            shots_to_insert = [result for result in results if result is not None]
+            
+            if shots_to_insert:
+                shot_insert_result = supabase.table("shots").insert(shots_to_insert).execute()
+                if shot_insert_result.data:
+                    shots = shot_insert_result.data
+                    logger.info(f"Task [{task_id}]: Successfully inserted {len(shots)} shots for storyboard {storyboard_id}.")
+                else:
+                    logger.error(f"Task [{task_id}]: Failed to bulk insert shots for storyboard {storyboard_id}. Error: {shot_insert_result.error}")
+            
+            prompts = [shot['suggestion'] for shot in shots_to_insert if 'suggestion' in shot]
+            if prompts:
+                publish_progress(f"{len(prompts)} adet çekim için önizleme görselleri oluşturuluyor...")
+                try:
+                    generate_images_for_prompts_and_upload_to_supabase(
+                        prompts=prompts, user_id=user_id, storyboard_id=storyboard_id, project_id=project_id
+                    )
+                    logger.info(f"Task [{task_id}]: Image generation tasks for storyboard {storyboard_id} sent successfully.")
+                except Exception as img_exc:
+                    logger.error(f"Task [{task_id}]: Error initiating image generation for storyboard {storyboard_id}: {img_exc}")
+
+        else:
+            logger.warning(f"Task [{task_id}]: No valid response_json found for project {project_id}. Checking shot_index_size.")
+            if shot_index_size is not None and shot_index_size > 0:
+                publish_progress(f"{shot_index_size} adet boş çekim oluşturuluyor...")
+                empty_shots_to_insert = [{
+                    "approved": False, "video_url": None, "duration": None,
+                    "suggestion": "Empty shot", "explanation": "Automatically generated empty shot",
+                    "clip_name": None, "script_segment": None, "start_time": None,
+                    "shot_index": i, "storyboard_id": storyboard_id, "user_id": user_id
+                } for i in range(shot_index_size)]
+                
+                if empty_shots_to_insert:
+                    shot_insert_result = supabase.table("shots").insert(empty_shots_to_insert).execute()
+                    if shot_insert_result.data:
+                        shots = shot_insert_result.data
+                        logger.info(f"Task [{task_id}]: Inserted {len(shots)} empty shots.")
+                    else:
+                        logger.error(f"Task [{task_id}]: Failed to insert empty shots. Error: {shot_insert_result.error}")
+
+        # --- Başarı Mesajı ---
+        success_message = {
+            "status": "SUCCESS",
+            "message": "Storyboard created successfully.",
+            "result": {
+                "storyboard_id": storyboard_id,
+                "project_id": project_id,
+                "name": storyboard_name
+            }
+        }
+        publish_sync(task_id, json.dumps(success_message))
+        logger.info(f"✅ Celery Task [{task_id}]: Storyboard creation process finished successfully.")
+        return success_message["result"]
+
+    except Exception as e:
+        logger.error(f"Celery Task [{task_id}]: Error creating storyboard: {e}", exc_info=True)
+        failure_message = {
+            "status": "FAILURE",
+            "message": str(e)
+        }
+        publish_sync(task_id, json.dumps(failure_message))
+        raise e
