@@ -42,4 +42,4 @@ USER appuser
 EXPOSE 5555
 
 # Worker için varsayılan komut
-CMD ["celery", "-A", "tasks", "worker", "--loglevel=info"]
+CMD ["celery", "-A", "tasks", "worker", "--loglevel=info", "--concurrency=4"]
