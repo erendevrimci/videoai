@@ -29,19 +29,7 @@ logger = Logger.get_logger("video_edit")
 
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
 
-def convert_hex_to_ffmpeg_color(hex_color: str) -> str:
-    """Converts a standard HTML hex color (#RRGGBB) to ffmpeg's &HBBGGRR format."""
-    if not hex_color or not hex_color.startswith('#') or len(hex_color) != 7:
-        logger.warning(f"Invalid hex color format: '{hex_color}'. Using default white.")
-        return "&HFFFFFF" # Default to white
-    
-    hex_color = hex_color.lstrip('#')
-    rr = hex_color[0:2]
-    gg = hex_color[2:4]
-    bb = hex_color[4:6]
-    
-    # ffmpeg uses &HBBGGRR format
-    return f"&H{bb}{gg}{rr}".upper()
+
 
 def convert_css_rgba_hex_to_ass(rgba_hex: str) -> str:
     """

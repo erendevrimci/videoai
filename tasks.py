@@ -1,13 +1,10 @@
 import os
 from celery import Celery
-import video_edit
 from dotenv import load_dotenv
 import json
-import asyncio
 from api.websockets.pubsub import publish_sync  # Güncellendi: Artık senkron sarmalayıcıyı kullanıyoruz
 from supabase import create_client
 from celery.utils.log import get_task_logger
-import redis
 
 # .env dosyasını yükle
 load_dotenv()
@@ -23,15 +20,6 @@ celery_app = Celery(
     backend=REDIS_URL, # Sonuçları da Redis'te saklamak için
     broker_connection_retry_on_startup=True
 )
-# --- Supabase istemcisini burada da oluşturalım ---
-supabase_url = os.getenv("SUPABASE_URL")
-supabase_key = os.getenv("SUPABASE_KEY")
-if supabase_url and supabase_key:
-    supabase = create_client(supabase_url, supabase_key)
-else:
-    print("Warning: Supabase credentials not found. Signed URL generation will be skipped in tasks.")
-    supabase = None
-# --- Bitiş ---
 
 # `api.websockets.pubsub` içindeki `publish_sync` artık doğrudan kullanıldığı için
 # bu dosyadaki özel WebSocket publisher fonksiyonlarına gerek kalmadı.
@@ -45,16 +33,33 @@ celery_app.conf.update(
     broker_transport_options={
         # Bir görevin başka bir workera yeniden atanmadan önce ne kadar süre (saniye) görünmez kalacağını belirtir.
         # Uzun video işleme görevleri için bu süreyi artırmak önemlidir.
-        'visibility_timeout': 7200  # 2 saat
+        'visibility_timeout': 600  # 2 saat
     }
 )
 
-# --- Lazy Loader for Supabase Client ---
-def get_supabase_client():
-    return supabase
-
-# --- Celery Görevleri ---
+# --- Celery Görevleri Logger ---
 logger = get_task_logger(__name__)
+
+# --- Lazy Supabase Client Loader ---
+_supabase_client = None
+
+def get_supabase_client():
+    """
+    Lazily initializes and returns a singleton Supabase client instance.
+    The client is created only on the first call and cached for subsequent calls.
+    """
+    global _supabase_client
+    if _supabase_client is None:
+        supabase_url = os.getenv("SUPABASE_URL")
+        supabase_key = os.getenv("SUPABASE_KEY")
+        if supabase_url and supabase_key:
+            _supabase_client = create_client(supabase_url, supabase_key)
+        else:
+            logger.warning("Supabase credentials not found. Signed URL generation will be skipped.")
+            # We still set it to something (even None) to avoid re-evaluating env vars.
+            _supabase_client = None 
+    return _supabase_client
+
 
 @celery_app.task(name="tasks.create_final_video_from_storyboard_task", bind=True)
 def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id: int, user_id: str) -> str:
@@ -73,7 +78,8 @@ def create_final_video_from_storyboard_task(self, storyboard_id: int, project_id
             "message": f"Video generation started for storyboard {storyboard_id}."
         }
         publish_sync(task_id, json.dumps(start_message))
-        print(f"Celery task [{task_id}] started.")
+        logger.info(f"Celery task [{task_id}] started.")
+        import video_edit
         
         # --- Ana İşlemi Çalıştır (Bu kısım senkron ve engelleyici) ---
         video_path = video_edit.create_video_from_storyboard(

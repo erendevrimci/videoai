@@ -27,7 +27,6 @@ COPY video_edit.py .
 COPY file_manager.py .
 COPY config.py .
 COPY logging_system/ /app/logging_system/
-
 RUN mkdir -p /app/api/websockets/
 COPY api/websockets/pubsub.py /app/api/websockets/pubsub.py
 # pubsub.py'nin çalışması için boş dizinler gerekebilir
