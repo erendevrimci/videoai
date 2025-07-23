@@ -11,7 +11,8 @@ from file_manager import FileManager
 # from timeline_manager import TimelineManager
 # from auto_editor.timeline import v3, TlVideo, TlAudio
 from logging_system.logger import Logger
-from supabase import create_client# StorageException import edildiğinden emin olun
+from supabase import create_client # StorageException import edildiğinden emin olun
+from supabase.client import Client
 from dotenv import load_dotenv
 import tempfile
 import re # get_num_segments için import
@@ -27,13 +28,14 @@ load_dotenv()
 # Initialize the logger HERE, before the try-except block
 logger = Logger.get_logger("video_edit")
 
-_supabase_client = None
+_supabase_client: Optional[Client] = None
 
-def get_supabase_client():
+def get_supabase_client()->Optional[Client]:
     """
     Lazily initializes and returns a singleton Supabase client instance for video_edit module.
     The client is created only on the first call and cached for subsequent calls.
     """
+    
     global _supabase_client
     if _supabase_client is None:
         supabase_url = os.getenv("SUPABASE_URL")
@@ -44,6 +46,7 @@ def get_supabase_client():
             logger.warning("Supabase credentials not found in video_edit. Operations will fail.")
             # We still set it to something (even None) to avoid re-evaluating env vars.
             _supabase_client = None
+            
     return _supabase_client
 
 
@@ -2353,7 +2356,7 @@ def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool
     logger.info(f"--- AŞAMA 1 & 2 BAŞLADI: Varlık Hazırlama - Proje ID: {project_id}, Caption ID: {caption_id} ---")
     try:
         # --- Veri Toplama ---
-        captions_data_response = supabase.table("captions").select("voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
+        captions_data_response = get_supabase_client().table("captions").select("voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
         
         if not captions_data_response.data:
             logger.error(f"Caption ID {caption_id} bulunamadı.")
@@ -2362,7 +2365,7 @@ def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool
         captions_data = captions_data_response.data
         voice_id = captions_data["voice_over_id"]
         
-        script_id_data = supabase.table("voice_over").select("script_id").eq("id", voice_id).execute()
+        script_id_data = get_supabase_client().table("voice_over").select("script_id").eq("id", voice_id).execute()
         if not script_id_data.data:
             logger.error(f"Voice ID {voice_id} için script_id bulunamadı.")
             return False
@@ -2399,7 +2402,7 @@ def prepare_video_assets(project_id: int, caption_id: int, user_id: str) -> bool
         else:
             logger.warning("Seslendirme dosyası bulunamadı. Hedef süre olmadan devam ediliyor.")
 
-        captions_file_bytes = supabase.storage.from_("captions").download(captions_file_name)
+        captions_file_bytes = get_supabase_client().storage.from_("captions").download(captions_file_name)
 
         # --- Klip Eşleştirme ---
         logger.info("Senaryo için klipler eşleştiriliyor...")
@@ -2586,7 +2589,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         # --- 1. Gerekli Varlıkları ve Verileri Yükleme ---
         channel_number = 1
         
-        captions_data_response = supabase.table("captions").select("id, voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
+        captions_data_response = get_supabase_client().table("captions").select("id, voice_over_id, caption_file, caption_segment_file").eq("id", caption_id).single().execute()
         if not captions_data_response.data:
             logger.error(f"Caption ID {caption_id} bulunamadı.")
             return None
@@ -2596,7 +2599,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         word_level_srt_name = caption_record.get("caption_file")
         segment_level_srt_name = caption_record.get("caption_segment_file")
 
-        style_response = supabase.table("caption_styles").select("*").eq("caption_id", caption_id).limit(1).single().execute()
+        style_response = get_supabase_client().table("caption_styles").select("*").eq("caption_id", caption_id).limit(1).single().execute()
         
         style_overrides = {}
         display_mode = 'full-segments' # Varsayılan
@@ -2691,7 +2694,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
 
         
         if display_mode != 'disabled' and srt_to_process_name:
-            captions_file_bytes = supabase.storage.from_("captions").download(srt_to_process_name)
+            captions_file_bytes = get_supabase_client().storage.from_("captions").download(srt_to_process_name)
             timeline_config = get_timeline_config(channel_number)
             subtitle_bytes_to_burn = create_karaoke_ass(
                 srt_bytes=captions_file_bytes,
@@ -2704,7 +2707,7 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
         else:
             logger.warning("Altyazı oluşturulmayacak veya işlenecek SRT dosyası bulunamadı.")
 
-        project_data_response = supabase.table("projects").select("response_json").eq("id", project_id).single().execute()
+        project_data_response = get_supabase_client().table("projects").select("response_json").eq("id", project_id).single().execute()
         if not project_data_response.data or not project_data_response.data.get("response_json"):
             logger.error(f"Proje {project_id} için `response_json` bulunamadı.")
             return None
@@ -2756,14 +2759,14 @@ def produce_final_video(project_id: int, caption_id: int, timeline_mode: bool = 
             storage_path = f"{project_id}_{uuid.uuid4()}_final_video.mp4"
             try:
                 with open(final_output_path, 'rb') as f:
-                    supabase.storage.from_(storage_bucket).upload(
+                    get_supabase_client().storage.from_(storage_bucket).upload(
                         path=storage_path, file=f, file_options={"content-type": "video/mp4", "upsert": "true"}
                     )
                 
                 insert_data = {"video_name": str(storage_path), "project_id": project_id}
                 if user_id:
                     insert_data['user_id'] = user_id
-                supabase.table("final_videos").insert(insert_data).execute()
+                get_supabase_client().table("final_videos").insert(insert_data).execute()
                 
                 logger.info(f"✅ --- AŞAMA 3, 4 & 5 TAMAMLANDI: Video başarıyla üretildi ve `{storage_path}` olarak yüklendi. ---")
                 return storage_path
@@ -2800,7 +2803,7 @@ def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: s
     try:
         # 1. Fetch approved shots from the storyboard
         logger.info(f"Storyboard {storyboard_id} için onaylanmış shot'lar alınıyor...")
-        approved_shots_response = supabase.table("shots").select("*").eq("storyboard_id", storyboard_id).eq("approved", True).order("shot_index", desc=False).execute()
+        approved_shots_response = get_supabase_client().table("shots").select("*").eq("storyboard_id", storyboard_id).eq("approved", True).order("shot_index", desc=False).execute()
 
         if not approved_shots_response.data:
             logger.error(f"Storyboard {storyboard_id} için onaylanmış shot bulunamadı.")
@@ -2835,7 +2838,7 @@ def create_video_from_storyboard(storyboard_id: int, project_id: int, user_id: s
 
         # 4. Find the relevant caption_id for the project
         logger.info(f"Proje {project_id} için ilgili caption ID'si bulunuyor...")
-        caption_response = supabase.table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
+        caption_response = get_supabase_client().table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
 
         if not caption_response.data:
             logger.error(f"Proje {project_id} için caption bulunamadı.")
@@ -2889,19 +2892,19 @@ def main(channel_number: Optional[int] = None, timeline_mode: bool = False) -> b
         logger.info("Test için Proje ID ve Caption ID bulunmaya çalışılıyor...")
         try:
             # En son projeyi ve caption'ı bul
-            project_resp = supabase.table("projects").select("id").order("created_at", desc=True).limit(1).single().execute()
+            project_resp = get_supabase_client().table("projects").select("id").order("created_at", desc=True).limit(1).single().execute()
             if not project_resp.data:
                 logger.error("Test için proje bulunamadı.")
                 return False
             project_id = project_resp.data['id']
             
-            caption_resp = supabase.table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
+            caption_resp = get_supabase_client().table("captions").select("id").eq("project_id", project_id).order("created_at", desc=True).limit(1).single().execute()
             if not caption_resp.data:
                  logger.error(f"Test için Proje {project_id}'e ait caption bulunamadı.")
                  return False
             caption_id = caption_resp.data['id']
             
-            user_resp = supabase.table("projects").select("user_id").eq("id", project_id).single().execute()
+            user_resp = get_supabase_client().table("projects").select("user_id").eq("id", project_id).single().execute()
             user_id = user_resp.data['id'] if user_resp.data else None
 
             logger.info(f"Test için bulundu: Proje ID={project_id}, Caption ID={caption_id}")

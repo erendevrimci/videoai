@@ -4,8 +4,9 @@ from dotenv import load_dotenv
 import json
 from api.websockets.pubsub import publish_sync  # Güncellendi: Artık senkron sarmalayıcıyı kullanıyoruz
 from supabase import create_client
+from supabase.client import Client
 from celery.utils.log import get_task_logger
-
+from typing import Optional
 # .env dosyasını yükle
 load_dotenv()
 
@@ -41,9 +42,9 @@ celery_app.conf.update(
 logger = get_task_logger(__name__)
 
 # --- Lazy Supabase Client Loader ---
-_supabase_client = None
+_supabase_client: Optional[Client] = None
 
-def get_supabase_client():
+def get_supabase_client()->Optional[Client]:
     """
     Lazily initializes and returns a singleton Supabase client instance.
     The client is created only on the first call and cached for subsequent calls.
