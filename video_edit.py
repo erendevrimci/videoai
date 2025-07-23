@@ -27,8 +27,24 @@ load_dotenv()
 # Initialize the logger HERE, before the try-except block
 logger = Logger.get_logger("video_edit")
 
-supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+_supabase_client = None
 
+def get_supabase_client():
+    """
+    Lazily initializes and returns a singleton Supabase client instance for video_edit module.
+    The client is created only on the first call and cached for subsequent calls.
+    """
+    global _supabase_client
+    if _supabase_client is None:
+        supabase_url = os.getenv("SUPABASE_URL")
+        supabase_key = os.getenv("SUPABASE_KEY")
+        if supabase_url and supabase_key:
+            _supabase_client = create_client(supabase_url, supabase_key)
+        else:
+            logger.warning("Supabase credentials not found in video_edit. Operations will fail.")
+            # We still set it to something (even None) to avoid re-evaluating env vars.
+            _supabase_client = None
+    return _supabase_client
 
 
 def convert_css_rgba_hex_to_ass(rgba_hex: str) -> str:
@@ -661,6 +677,9 @@ def load_clips_metadata() -> List[Dict]:
         List[Dict]: A list of clip metadata dictionaries with duration as float.
     """
     try:
+        supabase = get_supabase_client()
+        if not supabase:
+            raise Exception("Supabase client could not be initialized.")
         video_clips_raw = supabase.table("video_clips").select("path, image_1_caption, duration").execute()
         video_clips_data = video_clips_raw.data
     except Exception as e:
@@ -694,6 +713,9 @@ def load_clips_metadata() -> List[Dict]:
     return processed_clips
 
 def get_voice_file(voice_over_id: int) -> Tuple[int, str, bytes]: # Argüman adını ve tipini düzelt
+    supabase = get_supabase_client()
+    if not supabase:
+        raise Exception("Supabase client could not be initialized for get_voice_file.")
     # script_id yerine voice_over_id ile filtrele ve 'id' sütununu kullan
     voice_file_data = supabase.table("voice_over").select("id ,voice_name").eq("id", voice_over_id).execute()
     # ... (geri kalanı aynı)
@@ -716,6 +738,9 @@ def get_script_segments(script_id: int) -> str:
         str: The content of the script file
     """
     
+    supabase = get_supabase_client()
+    if not supabase:
+        raise Exception("Supabase client could not be initialized for get_script_segments.")
     
     script_data = supabase.table("scripts").select("script").eq("id", script_id).execute()
         
@@ -984,7 +1009,9 @@ Format the response as valid JSON only, no additional text.
         with open("json_response.json", "w", encoding='utf-8') as f:
             f.write(processed_content)
 
-        supabase.table("projects").update({"response_json": processed_content}).eq("id", project_id).execute()
+        supabase = get_supabase_client()
+        if supabase:
+            supabase.table("projects").update({"response_json": processed_content}).eq("id", project_id).execute()
         
         try:
             # JSON'u ayrıştırmayı dene.
@@ -1259,6 +1286,10 @@ def create_video_sequence(clip_sequence: List[Dict], output_path: Path, clips_me
 
             try:
                 # --- Download Clip ---
+                supabase = get_supabase_client()
+                if not supabase:
+                    raise Exception(f"Supabase client not available for segment {i}.")
+                
                 clip_data = supabase.storage.from_("video-database").download(str(clip_path))
                 logger.info(f"Downloaded clip: {clip_path} ({len(clip_data)} bytes)")
 
@@ -3030,6 +3061,7 @@ def download_clips_for_timeline(clip_sequence: List[Dict], target_dir: Path, sto
     import requests
     from requests.adapters import HTTPAdapter, Retry
 
+    supabase = get_supabase_client()
     if not supabase:
         logger.error("Supabase client not initialized. Cannot download clips.")
         return False
