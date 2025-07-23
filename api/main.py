@@ -86,7 +86,7 @@ import asyncio
 import uuid
 import concurrent.futures # Paralel işlemler için eklendi
 # Celery görevimizi import ediyoruz
-from tasks import create_final_video_from_storyboard_task, create_final_video_without_storyboard_task
+from tasks import create_final_video_from_storyboard_task, create_final_video_without_storyboard_task, create_storyboard_task
 from celery.result import AsyncResult
 from api.websockets.manager import manager
 from api.websockets.pubsub import subscribe_to_channel
@@ -500,117 +500,18 @@ def update_caption_segments(
 @app.post("/create-storyboard", response_model=StoryboardResponse)
 def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Depends(get_current_user)):
     try:
-        shots = []
-        storyboard_name = request.name
+        user_id = current_user["user_id"]
         project_id = request.project_id
         caption_id = request.caption_id
-        user_id = current_user["user_id"]
-        logger.info(f"Creating storyboard for project_id {project_id} with caption_id {caption_id} and user_id {user_id}")
-        storyboard_result = supabase.table("storyboards").insert({
-            "name": storyboard_name,
-            "user_id": user_id,
-            "project_id": project_id,
-        }).execute()
-        logger.info(f"Storyboard created with id {storyboard_result.data[0]['id']}")
-        storyboard_id = storyboard_result.data[0]["id"]
-        success = video_edit.prepare_video_assets(project_id, caption_id, user_id)
-        logger.info(f"Video assets prepared: {success}")
-        if not success:
-            return StoryboardResponse(success=False, message="Failed to prepare video assets.")
-
-        response_json_result = supabase.table("projects").select("response_json").eq("id", project_id).execute()
-
-        if response_json_result.data and response_json_result.data[0].get("response_json"):
-            response_json = response_json_result.data[0]["response_json"]
-            try:
-                response_json_data = json.loads(response_json)
-                if not isinstance(response_json_data, list):
-                    print(f"Warning: response_json for project_id {project_id} is not a list. Proceeding with empty shots.")
-                    response_json_data = []
-            except json.JSONDecodeError:
-                print(f"Warning: Invalid JSON in response_json for project_id {project_id}. Proceeding with empty shots.")
-                response_json_data = []
-
-            def process_clip(clip_args):
-                index, clip_data = clip_args
-                if not all(key in clip_data for key in ["clip_name", "suggestion", "duration", "explanation", "script_segment", "start_time"]):
-                    print(f"Warning: Missing keys in clip_data for project_id {project_id}, storyboard_id {storyboard_id}. Skipping this shot.")
-                    return None
-                try:
-                    signed_url_data = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
-                    video_url = signed_url_data.get('signedURL') if signed_url_data else None
-                    
-                    shot_to_insert = {
-                        "approved": False,
-                        "video_url": video_url,
-                        "duration": clip_data["duration"],
-                        "suggestion": clip_data["suggestion"],
-                        "explanation": clip_data["explanation"],
-                        "clip_name": clip_data["clip_name"],
-                        "script_segment": clip_data["script_segment"],
-                        "start_time": clip_data["start_time"],
-                        "shot_index": index,
-                        "storyboard_id": storyboard_id,
-                        "user_id": user_id
-                    }
-                    return shot_to_insert
-                except Exception as e:
-                    print(f"Error processing clip data {clip_data.get('clip_name')}: {e}")
-                    return None
-
-            with concurrent.futures.ThreadPoolExecutor(max_workers=min(32,os.cpu_count()+4)) as executor:
-                results = executor.map(process_clip, enumerate(response_json_data))
-            
-            shots_to_insert = [result for result in results if result is not None]
-            prompts = [shot['suggestion'] for shot in shots_to_insert]
-
-            if shots_to_insert:
-                shot_insert_result = supabase.table("shots").insert(shots_to_insert).execute()
-                if shot_insert_result.data:
-                    shots = shot_insert_result.data
-                else:
-                    print(f"Warning: Failed to bulk insert shots for storyboard_id {storyboard_id}. Error: {shot_insert_result.error}")
-
-            if prompts:
-                print(f"Storyboard {storyboard_id} için {len(prompts)} adet görsel oluşturma işlemi başlatılıyor.")
-                try:
-                    generate_images_for_prompts_and_upload_to_supabase(
-                        prompts=prompts,
-                        user_id=user_id,
-                        storyboard_id=storyboard_id,
-                        project_id=project_id
-                    )
-                    print(f"Storyboard {storyboard_id} için görsel oluşturma görevleri başarıyla gönderildi.")
-                except Exception as img_exc:
-                    print(f"Error initiating image generation for storyboard {storyboard_id}: {img_exc}")
-
-        else:
-            print(f"No valid response_json found for project_id {project_id}. Checking shot_index_size.")
-            if request.shot_index_size is not None and request.shot_index_size > 0:
-                print(f"Creating {request.shot_index_size} empty shots based on shot_index_size.")
-                empty_shots_to_insert = []
-                for i in range(request.shot_index_size):
-                    empty_shots_to_insert.append({
-                        "approved": False, "video_url": None, "duration": None,
-                        "suggestion": "Empty shot", "explanation": "Automatically generated empty shot",
-                        "clip_name": None, "script_segment": None, "start_time": None,
-                        "shot_index": i, "storyboard_id": storyboard_id, "user_id": user_id
-                    })
-                
-                if empty_shots_to_insert:
-                    shot_insert_result = supabase.table("shots").insert(empty_shots_to_insert).execute()
-                    if shot_insert_result.data:
-                        shots = shot_insert_result.data
-                    else:
-                        print(f"Warning: Failed to insert empty shots for storyboard_id {storyboard_id}. Error: {shot_insert_result.error}")
-            else:
-                print(f"shot_index_size is not provided or invalid. No empty shots will be created.")
-
-        return StoryboardResponse(success=True, message="Storyboard created successfully", storyboards=[{"id": storyboard_id, "project_id": project_id, "name": storyboard_name, "shots": shots}])
+        storyboard_name = request.storyboard_name
+        shot_index_size = request.shot_index_size
+        task_id = create_storyboard_task.delay(project_id, caption_id, user_id, storyboard_name, shot_index_size)
+        logger.info(f"Storyboard creation task started with ID: {task_id}")
+        return StoryboardResponse(success=True, message="Storyboard creation task started", task_id=task_id)
     except Exception as e:
         import traceback
         print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}")
-        return StoryboardResponse(success=False, message=str(e), storyboards=[])
+        return StoryboardResponse(success=False, message=str(e))
 
 @app.get("/user-storyboards/{project_id}", response_model=StoryboardResponse)
 def get_storyboards(project_id: int, current_user: dict = Depends(get_current_user)):
