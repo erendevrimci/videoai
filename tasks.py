@@ -33,38 +33,9 @@ else:
     supabase = None
 # --- Bitiş ---
 
-# --- WebSocket Publisher ---
-# Redis'e mesaj göndermek için bir fonksiyon
-async def _publish_message(channel: str, message: str):
-    redis_client = get_redis_client()
-    if redis_client:
-        await redis_client.publish(channel, message)
-        logger.info(f"Published to {channel}: {message}")
-    else:
-        logger.warning("Redis client not available, cannot publish message.")
-
-# Tek bir event loop üzerinde çalışmak için publisher'ı yönet
-def get_websocket_publisher():
-    def publish_sync(channel, message):
-        try:
-            loop = asyncio.get_running_loop()
-        except RuntimeError:  # 'get_running_loop' fails if there is no running loop
-            loop = None
-        
-        if loop and loop.is_running():
-            loop.create_task(_publish_message(channel, message))
-        else:
-            asyncio.run(_publish_message(channel, message))
-            
-    return publish_sync
-
-# Redis client'ı oluştur
-def get_redis_client():
-    try:
-        return redis.from_url(REDIS_URL)
-    except Exception as e:
-        logger.error(f"Failed to connect to Redis: {e}")
-        return None
+# `api.websockets.pubsub` içindeki `publish_sync` artık doğrudan kullanıldığı için
+# bu dosyadaki özel WebSocket publisher fonksiyonlarına gerek kalmadı.
+# Bu fonksiyonlar kaldırıldı: _publish_message, get_websocket_publisher, get_redis_client
 
 # Celery uygulamasının yapılandırmasını güncelle
 celery_app.conf.update(
@@ -240,3 +211,4 @@ def create_final_video_without_storyboard_task(self, project_id: int, caption_id
         }
         publish_sync(task_id, json.dumps(failure_message))
         raise 
+
