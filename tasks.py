@@ -290,12 +290,19 @@ def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str,
 
             # --- process_clip iç içe fonksiyonu ---
             def process_clip(clip_args):
+                # Her iş parçacığı (thread) için ayrı bir Supabase istemcisi oluşturulur.
+                # Bu, "Server disconnected" gibi bağlantı hatalarını önler.
+                supabase_in_thread = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+                if not supabase_in_thread:
+                    logger.error(f"Task [{task_id}]: Could not create supabase client in thread for storyboard {storyboard_id}")
+                    return None
+
                 index, clip_data = clip_args
                 if not all(key in clip_data for key in ["clip_name", "suggestion", "duration", "explanation", "script_segment", "start_time"]):
                     logger.warning(f"Task [{task_id}]: Missing keys in clip_data for storyboard_id {storyboard_id}. Skipping shot.")
                     return None
                 try:
-                    signed_url_data = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
+                    signed_url_data = supabase_in_thread.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
                     video_url = signed_url_data.get('signedURL') if signed_url_data else None
                     
                     return {
