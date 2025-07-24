@@ -506,9 +506,9 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         caption_id = request.caption_id
         storyboard_name = request.name
         shot_index_size = request.shot_index_size
-        task_id = create_storyboard_task.delay(project_id, caption_id, user_id, storyboard_name, shot_index_size)
-        logger.info(f"Storyboard creation task started with ID: {task_id}")
-        return CreateStoryboardResponse(success=True, message="Storyboard creation task started", task_id=task_id)
+        task = create_storyboard_task.delay(project_id, caption_id, user_id, storyboard_name, shot_index_size)
+        logger.info(f"Storyboard creation task started with ID: {task.id}")
+        return CreateStoryboardResponse(success=True, message="Storyboard creation task started", task_id=task.id)
     except Exception as e:
         import traceback
         print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}")
