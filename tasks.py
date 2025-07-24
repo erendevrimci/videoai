@@ -359,8 +359,6 @@ def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str,
             "message": "Storyboard created successfully.",
             "result": {
                 "storyboard_id": storyboard_id,
-                "project_id": project_id,
-                "name": storyboard_name
             }
         }
         publish_sync(task_id, json.dumps(success_message))

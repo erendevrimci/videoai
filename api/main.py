@@ -36,7 +36,8 @@ from api.ResponseSchemes.VideoEditResponse import VideoEditResponse
 from api.RequestSchemes.ProjectRequest import ProjectRequest 
 from api.ResponseSchemes.ProjectResponse import ProjectResponse 
 from api.ResponseSchemes.CreateProjectRespone import CreateProject
-from api.ResponseSchemes.StoryboardResponse import StoryboardResponse 
+from api.ResponseSchemes.StoryboardResponse import StoryboardResponse
+from api.ResponseSchemes.CreateStoryboardResponse import CreateStoryboardResponse
 from api.RequestSchemes.StoryboardUpdateRequest import StoryboardUpdateRequest 
 from api.ResponseSchemes.RefreshSignedUrl import RefreshSignedUrlResponse 
 from api.RequestSchemes.UploadImageRequest import UploadImageRequest 
@@ -497,7 +498,7 @@ def update_caption_segments(
         return VideoEditResponse(success=False, message=f"An error occurred during the video production request: {str(e)}")
 
 
-@app.post("/create-storyboard", response_model=StoryboardResponse)
+@app.post("/create-storyboard", response_model=CreateStoryboardResponse)
 def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Depends(get_current_user)):
     try:
         user_id = current_user["user_id"]
@@ -507,11 +508,11 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         shot_index_size = request.shot_index_size
         task_id = create_storyboard_task.delay(project_id, caption_id, user_id, storyboard_name, shot_index_size)
         logger.info(f"Storyboard creation task started with ID: {task_id}")
-        return StoryboardResponse(success=True, message="Storyboard creation task started", task_id=task_id)
+        return CreateStoryboardResponse(success=True, message="Storyboard creation task started", task_id=task_id)
     except Exception as e:
         import traceback
         print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}")
-        return StoryboardResponse(success=False, message=str(e))
+        return CreateStoryboardResponse(success=False, message=str(e))
 
 @app.get("/user-storyboards/{project_id}", response_model=StoryboardResponse)
 def get_storyboards(project_id: int, current_user: dict = Depends(get_current_user)):
@@ -810,9 +811,9 @@ def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user
         if result.data:
             return ShotResponse(success=True, message="Shot updated successfully")
         else:
-            return ShotResponse(success=False, message="Shot not found", shot=None)
+            return ShotResponse(success=False, message="Shot not found")
     except Exception as e:
-        return ShotResponse(success=False, message=str(e), shot=None)
+        return ShotResponse(success=False, message=str(e))
 
 
 
