@@ -57,7 +57,7 @@ from api.ResponseSchemes.GenerateFinalVideoResponse import GenerateFinalVideoRes
 from api.utils.generate_klingAI_video import generate_klingAI_video
 from api.utils.generate_runwayML_video import generate_runwayML_video
 from api.utils.generate_veo3_video import generate_veo3_video
-from api.utils.generate_shots_image import generate_images_for_prompts_and_upload_to_supabase
+
 from api.utils.upload_voiceover import upload_voiceover_to_storage
 from api.utils.transcribe import transcribe_audio_bytes
 from api.ResponseSchemes.ShotResponse import ShotResponse
@@ -808,7 +808,7 @@ def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user
         is_approved = request.is_approved
         result = supabase.table("shots").update({"approved": is_approved}).eq("user_id", user_id).eq("id", shot_id).execute()
         if result.data:
-            return ShotResponse(success=True, message="Shot updated successfully", shot=result.data[0])
+            return ShotResponse(success=True, message="Shot updated successfully")
         else:
             return ShotResponse(success=False, message="Shot not found", shot=None)
     except Exception as e:
