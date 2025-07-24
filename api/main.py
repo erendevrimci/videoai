@@ -504,7 +504,7 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         user_id = current_user["user_id"]
         project_id = request.project_id
         caption_id = request.caption_id
-        storyboard_name = request.storyboard_name
+        storyboard_name = request.name
         shot_index_size = request.shot_index_size
         task_id = create_storyboard_task.delay(project_id, caption_id, user_id, storyboard_name, shot_index_size)
         logger.info(f"Storyboard creation task started with ID: {task_id}")
