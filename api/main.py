@@ -514,6 +514,7 @@ def create_storyboard(request: CreateStoryboardRequest, current_user: dict = Dep
         print(f"Error in create_storyboard: {str(e)}\n{traceback.format_exc()}")
         return CreateStoryboardResponse(success=False, message=str(e))
 
+
 @app.get("/user-storyboards/{project_id}", response_model=StoryboardResponse)
 def get_storyboards(project_id: int, current_user: dict = Depends(get_current_user)):
     try:
@@ -644,7 +645,6 @@ def upload_image(request: UploadImageRequest, current_user: dict = Depends(get_c
         return UploadImageResponse(success=False, message=str(e))
     
 
-
 @app.post("/generate-single-video")
 async def generate_single_video(request: GenerateSingleVideoRequest, current_user: dict = Depends(get_current_user)):
     try:
@@ -772,6 +772,7 @@ async def generate_timeline_video(request: GenerateTimelineVideoRequest, current
     except Exception as e:
         return GenerateTimelineVideoResponse(success=False, message=str(e))
 
+
 @app.get("/video-list", response_model=VideoListResponse)
 def get_video_list(current_user: dict = Depends(get_current_user)):
     try:
@@ -802,6 +803,7 @@ def get_video_list(current_user: dict = Depends(get_current_user)):
         print(f"Exception in get_video_list: {str(e)}\n{traceback.format_exc()}")
         return VideoListResponse(success=False, message=str(e), videos=None)
 
+
 @app.patch("/shots/{shot_id}")
 def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user: dict = Depends(get_current_user)):
     try:
@@ -814,9 +816,6 @@ def change_shot_approved_status(shot_id: str, request: ShotRequest, current_user
             return ShotResponse(success=False, message="Shot not found")
     except Exception as e:
         return ShotResponse(success=False, message=str(e))
-
-
-
 
 
 @app.post("/generate-final-video-from-storyboard", status_code=202, response_model=GenerateFinalVideoFromStoryboardResponse)
@@ -854,6 +853,7 @@ def generate_final_video_from_storyboard(request: GenerateFinalVideoFromStoryboa
         import traceback
         logger.error(f"Error in generate_final_video_from_storyboard endpoint: {str(e)}\n{traceback.format_exc()}")
         return GenerateFinalVideoFromStoryboardResponse(success=False, message=f"An unexpected error occurred while queueing the task: {str(e)}")
+
 
 @app.post("/generate-final-video", status_code=202, response_model=GenerateFinalVideoResponse)
 def generate_final_video(request: GenerateFinalVideoRequest, current_user: dict = Depends(get_current_user)):
@@ -922,9 +922,6 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
         # Bağlantı koptuğunda veya hata olduğunda bağlantıyı temizle
         manager.disconnect(task_id)
         logger.info(f"Connection for task_id {task_id} closed and cleaned up.")
-
-
-
 
 
 @app.post("/export-project", response_model=ExportProjectResponse)
