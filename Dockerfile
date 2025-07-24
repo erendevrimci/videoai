@@ -28,6 +28,8 @@ COPY file_manager.py .
 COPY config.py .
 COPY logging_system/ /app/logging_system/
 RUN mkdir -p /app/api/websockets/
+RUN mkdir -p /app/api/utils/
+COPY api/utils/generate_shots_image.py /app/api/utils/generate_shots_image.py
 COPY api/websockets/pubsub.py /app/api/websockets/pubsub.py
 # pubsub.py'nin çalışması için boş dizinler gerekebilir
 
