@@ -288,6 +288,11 @@ def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str,
                 logger.warning(f"Task [{task_id}]: Invalid JSON in response_json for project_id {project_id}.")
                 response_json_data = []
 
+            # DEBUG: İşlenecek veri miktarını logla ve bildir
+            item_count = len(response_json_data)
+            logger.info(f"Task [{task_id}]: Found {item_count} clips to process in response_json_data.")
+            publish_progress(f"{item_count} adet klip işlenmek üzere bulundu.", "PROGRESS")
+
             # --- THREAD POOL KALDIRILDI - Senkron İşlem ---
             # Klipleri tek tek, sırayla işle
             shots_to_insert = []
@@ -334,7 +339,10 @@ def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str,
                     logger.error(f"Task [{task_id}]: Error initiating image generation for storyboard {storyboard_id}: {img_exc}")
 
         else:
-            logger.warning(f"Task [{task_id}]: No valid response_json found for project {project_id}. Checking shot_index_size.")
+            # DEBUG: response_json bulunamadığında logla ve bildir
+            logger.warning(f"Task [{task_id}]: No valid response_json found for project {project_id}. Skipping clip processing loop.")
+            publish_progress("Projeye ait işlenecek klip bulunamadı. Çekim oluşturma adımı atlanıyor.", "PROGRESS")
+
             if shot_index_size is not None and shot_index_size > 0:
                 publish_progress(f"{shot_index_size} adet boş çekim oluşturuluyor...")
                 empty_shots_to_insert = [{
