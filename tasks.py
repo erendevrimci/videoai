@@ -288,41 +288,33 @@ def create_storyboard_task(self, project_id: int, caption_id: int, user_id: str,
                 logger.warning(f"Task [{task_id}]: Invalid JSON in response_json for project_id {project_id}.")
                 response_json_data = []
 
-            # --- process_clip iç içe fonksiyonu ---
-            def process_clip(clip_args):
-                # Her iş parçacığı (thread) için ayrı bir Supabase istemcisi oluşturulur.
-                # Bu, "Server disconnected" gibi bağlantı hatalarını önler.
-                supabase_in_thread = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
-                if not supabase_in_thread:
-                    logger.error(f"Task [{task_id}]: Could not create supabase client in thread for storyboard {storyboard_id}")
-                    return None
-
-                index, clip_data = clip_args
+            # --- THREAD POOL KALDIRILDI - Senkron İşlem ---
+            # Klipleri tek tek, sırayla işle
+            shots_to_insert = []
+            for index, clip_data in enumerate(response_json_data):
+                publish_progress(f"Processing clip {index + 1}/{len(response_json_data)}: {clip_data.get('clip_name')}", "PROGRESS")
                 if not all(key in clip_data for key in ["clip_name", "suggestion", "duration", "explanation", "script_segment", "start_time"]):
                     logger.warning(f"Task [{task_id}]: Missing keys in clip_data for storyboard_id {storyboard_id}. Skipping shot.")
-                    return None
+                    continue
                 try:
-                    signed_url_data = supabase_in_thread.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
+                    # Görevin ana supabase istemcisini kullan
+                    signed_url_data = supabase.storage.from_("video-database").create_signed_url(clip_data["clip_name"], 3600)
                     video_url = signed_url_data.get('signedURL') if signed_url_data else None
                     
-                    return {
+                    shot = {
                         "approved": False, "video_url": video_url, "duration": clip_data["duration"],
                         "suggestion": clip_data["suggestion"], "explanation": clip_data["explanation"],
                         "clip_name": clip_data["clip_name"], "script_segment": clip_data["script_segment"],
                         "start_time": clip_data["start_time"], "shot_index": index,
                         "storyboard_id": storyboard_id, "user_id": user_id
                     }
+                    shots_to_insert.append(shot)
                 except Exception as e:
                     logger.error(f"Task [{task_id}]: Error processing clip data {clip_data.get('clip_name')}: {e}")
-                    return None
-            # --- process_clip sonu ---
-
-            with concurrent.futures.ThreadPoolExecutor(max_workers=min(32, os.cpu_count() + 4)) as executor:
-                results = executor.map(process_clip, enumerate(response_json_data))
-            
-            shots_to_insert = [result for result in results if result is not None]
+                    continue
             
             if shots_to_insert:
+                publish_progress(f"{len(shots_to_insert)} adet çekim veritabanına kaydediliyor...")
                 shot_insert_result = supabase.table("shots").insert(shots_to_insert).execute()
                 if shot_insert_result.data:
                     shots = shot_insert_result.data
