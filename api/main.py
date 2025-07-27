@@ -897,6 +897,7 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
     - Bir task_id için bağlantı kurar.
     - Redis Pub/Sub üzerinden o task_id kanalını dinler.
     - Gelen mesajları istemciye iletir.
+    - Görev tamamlandığında bağlantıyı sonlandırır.
     """
     await manager.connect(task_id, websocket)
     logger.info(f"WebSocket connection established for task_id: {task_id}")
@@ -905,6 +906,7 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
         # Redis'ten gelen mesajları dinle ve istemciye gönder
         async for message in subscribe_to_channel(task_id):
             logger.info(f"Message received from Redis for {task_id}: {message}")
+            data = None
             # Mesajın JSON olup olmadığını kontrol et
             try:
                 # JSON verisi ise, JSON olarak gönder
@@ -914,13 +916,20 @@ async def websocket_endpoint(websocket: WebSocket, task_id: str):
                 # Düz metin ise, metin olarak gönder
                 await manager.send_personal_message(message, task_id)
 
+            # Görev tamamlandığında (SUCCESS) veya başarısız olduğunda (FAILURE) döngüyü sonlandır
+            if data and data.get("status") in ["SUCCESS", "FAILURE"]:
+                logger.info(f"Task {task_id} completed with status: {data.get('status')}. Server is closing the connection.")
+                break  # Döngüden çık, finally bloğu çalışacak
+
     except WebSocketDisconnect:
-        logger.info(f"WebSocket disconnected for task_id: {task_id}")
+        logger.info(f"WebSocket disconnected by client for task_id: {task_id}")
     except Exception as e:
         logger.error(f"An error occurred in WebSocket for task_id {task_id}: {e}", exc_info=True)
     finally:
         # Bağlantı koptuğunda veya hata olduğunda bağlantıyı temizle
         manager.disconnect(task_id)
+        # İstemci tarafında hala açıksa diye bağlantıyı kapatmayı dene
+        await websocket.close()
         logger.info(f"Connection for task_id {task_id} closed and cleaned up.")
 
 
