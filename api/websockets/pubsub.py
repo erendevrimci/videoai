@@ -9,20 +9,24 @@ load_dotenv()
 # Redis URL'sini ortam değişkeninden al
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
 
-# Paylaşılan bir asenkron Redis bağlantı havuzu oluştur
-# Bu havuz thread-safe'dir ve uygulama boyunca yeniden kullanılabilir.
+# Abone işlemleri için paylaşılan havuz hala verimli.
 redis_pool = redis.ConnectionPool.from_url(REDIS_URL, decode_responses=True)
 
 async def publish_message(channel: str, message: str):
-    """Belirtilen kanala bir mesaj yayınlar."""
-    # Her çağrıda yeni bir bağlantı oluşturmak yerine havuzdan bir bağlantı kullan.
-    r = redis.Redis.from_pool(redis_pool)
+    """
+    Belirtilen kanala bir mesaj yayınlar.
+    Her çağrıda yeni, taze bir bağlantı oluşturarak Celery gibi uzun ömürlü
+    ve uyuyabilen görevlerde bağlantı zaman aşımı sorunlarını önler.
+    """
+    r = None
     try:
+        # Havuz kullanmak yerine doğrudan yeni bir bağlantı oluştur.
+        r = await redis.Redis.from_url(REDIS_URL)
         await r.publish(channel, message)
     finally:
-        # Bağlantıyı kapatmak yerine havuza geri bırak.
-        # `r.close()` asenkron `redis-py`'de bağlantıyı havuza iade eder.
-        await r.close()
+        # Bağlantıyı her zaman kapat.
+        if r:
+            await r.close()
 
 async def subscribe_to_channel(channel: str):
     """
